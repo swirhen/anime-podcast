@@ -1,15 +1,18 @@
+# /bin/sh
+# @author swirhen
+EXT=aria2
 date=`date '+%y/%m/%d %H:%M:%S'`
 sleep 100
-n=`ls *.aria2 2>/dev/null | wc -l`
+n=`ls *.${EXT} 2>/dev/null | wc -l`
 if [ $n -gt 1 ]; then
-  for a in *.aria2
+  for a in *.${EXT}
   do
     filea=`echo $a | cut -d"." -f1,2`
     file="$filea(ほか`expr $n - 1`個)"
     break
   done
 elif [ $n -eq 1 ]; then
-  filea=`ls *.aria2`
+  filea=`ls *.${EXT}`
   file=`echo $filea | cut -d"." -f1,2`
 fi
 echo "$fileの栽培監視を開始"
@@ -20,7 +23,7 @@ do
     echo "\n### watching aria2c(port=$1) end - pid lost###"
     exit
   else
-    if [ `ls *.aria2 2>/dev/null | wc -l` -gt 0  ]; then
+    if [ `ls *.${EXT} 2>/dev/null | wc -l` -gt 0  ]; then
       echo "\n### watching aria2c(port=$1) ###"
       sleep 5
     else
