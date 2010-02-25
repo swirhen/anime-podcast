@@ -1,5 +1,8 @@
 # /bin/sh
 # @author swirhen
+# aria2cでダウンロードを仕掛けたtorrentシードの状態を監視して終わったら止める。
+# tw.pyを使って終わったことをtwitterに報告する
+# usage:tdlstop.sh [port number]
 EXT=aria2
 date=`date '+%y/%m/%d %H:%M:%S'`
 sleep 100
