@@ -4,7 +4,8 @@
 # usage:169mp4.sh [infile] [out directory] [encode option]
 # どらいぶがちがうどうがのときにtmpをてきせつなばしょにかえる
 tmp=`readlink -f "$PWD"`
-drive=`expr "$tmp" : "\/\(data.\?\)\/.*"` if [ ${drive:-null} = null ] ; then
+drive=`expr "$tmp" : "\/\(data.\?\)\/.*"`
+if [ ${drive:-null} = null ] ; then
   drive=data
 fi
 # いろいろちぇっく
