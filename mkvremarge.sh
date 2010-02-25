@@ -5,7 +5,7 @@
 # 音声がac3とかflacのばあいはコメントアウトしてあるところをつかう
 # fpsが可変とかだと死ぬのであきらめる
 # usage:mkvremarge.sh [mkv file]
-NAME=`echo $1 | cut -d"." -f1`
+NAME=`echo "$1" | cut -d"." -f1`
 echo $NAME
 mkvextract tracks "$1" 1:video.h264
 mkvextract tracks "$1" 2:audio.aac
