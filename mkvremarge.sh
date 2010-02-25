@@ -1,3 +1,10 @@
+# /bin/sh
+# @author swirhen
+# mkvextract、MP4Boxを使ってH264+aacなmkvファイルを
+# mp4ファイルにつめなおす
+# 音声がac3とかflacのばあいはコメントアウトしてあるところをつかう
+# fpsが可変とかだと死ぬのであきらめる
+# usage:mkvremarge.sh [mkv file]
 NAME=`echo $1 | cut -d"." -f1`
 echo $NAME
 mkvextract tracks "$1" 1:video.h264
