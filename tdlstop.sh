@@ -24,19 +24,28 @@ while true
 do
   pid=`ps -ef | grep port=$1 | grep -v grep | awk '{print $2}'`
   if [ "${pid:-null}" = null ]; then
-    echo "\n### watching aria2c(port=$1) end - pid lost###"
-    exit
-  else
     if [ `ls *.${EXT} 2>/dev/null | wc -l` -gt 0  ]; then
-      echo "\n### watching aria2c(port=$1) ###"
-      sleep 5
+      echo -e "\n### watching aria2c(port=$1) end - pid lost###"
+      exit
     else
-      kill $pid
-      sleep 2
-      kill $pid
-      echo "\n### watching aria2c(port=$1) end###"
-      /data/share/movie/tw.py "@swirhen 栽培完了:$date 開始のファイル: $file"
+      echo -e "\n### watching aria2c(port=$1) end###"
+      /home/swirhen/Shellscriptter/Shellscriptter.sh -r "@swirhen 栽培完了:$date 開始のファイル: $file"
       exit
     fi
+#  else
+#    if [ `ls *.${EXT} 2>/dev/null | wc -l` -gt 0  ]; then
+#      echo "\n### watching aria2c(port=$1) ###"
+#      sleep 5
+#    else
+#      kill $pid
+#      sleep 2
+#      kill $pid
+#      echo "\n### watching aria2c(port=$1) end###"
+#      /data/share/movie/tw.py "@swirhen 栽培完了:$date 開始のファイル: $file"
+#      exit
+#    fi
+  else
+    echo -e "\n### watching aria2c(port=$1) ###"
+    sleep 5
   fi
 done
