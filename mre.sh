@@ -20,7 +20,7 @@ do
     while read SF NAME
     do
     ext=`echo $a | sed "s/.*\.\(.*\)/\1/"`
-    nn=`echo $a | sed -e "s/.*${SF}.*$SFX1\([0-9][0-9]\)$SFX2.*/\1/"`
+    nn=`echo $a | sed -e "s/.*${SF}.*$SFX1\([0-9][0-9][0-9]\?\)$SFX2.*/\1/"`
       if [ "$nn" != "$a" ]; then
         if [ ! -e "$a".aria2 ]; then
           echo "# rename $a -> ${NAME} 第$nn話.$ext"
