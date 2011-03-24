@@ -52,6 +52,10 @@ if [ ${5:-null} = "1" ]; then
   echo "# comp 16:9"
   wide="480"
 fi
+if [ ${5:-null} = "0" ]; then
+  echo "# comp 4:3"
+  wide="360"
+fi
 rm /tmp/fps.txt
 # えんこする
 /usr/bin/wine ffmpeg.exe -i "$1" $4 -s "$wide"x270 -vcodec libx264 -b 500k -acodec libfaac -ac 2 -ar 48000 -ab 128k -async 100 -crf 20 -g 230 -mbd 2 -me_method umh -subq 6 -qdiff 6 -me_range 32 -nr 50 -qmin 12 -sc_threshold 65 -bidir_refine 1 -keyint_min 3 -cmp chroma -flags bitexact+alt+mv4+loop -f mp4 -coder 0 -level 13 -threads 0 $3 $opt /$drive/tmp/"$1".mp4

@@ -4,7 +4,7 @@ source /home/swirhen/.zshrc
 for a in "$1"*話*.(avi|mp4|mkv|wmv)
 do
   if [ -f "$a" ]; then
-    /data/share/movie/sh/169mp42.sh "$a" "/data/share/movie/98 PSP用/"
+    /data/share/movie/sh/169mp43.sh "$a" "/data/share/movie/98 PSP用/"
     /data/share/movie/sh/mmpc.sh
     /home/swirhen/sh/ftpmount.sh
 #    cp -v "/data/share/movie/98 PSP用/$a.mp4" "/data/share/movie/97 bashi.org/"
