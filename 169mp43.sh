@@ -8,12 +8,15 @@
 # 5こめのひきすうは"0"だときょうせいてきに4:3 "1"なら16:9となる
 
 # どらいぶがちがうどうがのときにtmpをてきせつなばしょにかえる
-#if [ $# -gt 1 ]; then
-#  drive=`expr "$2" : "\/\(data.\?\)\/.*"`
-#else
-  tmp=`readlink -f "$PWD"`
+# じっこうでぃれくとりから ドライブをはんだん
+tmp=`readlink -f "$PWD"`
+drive=`expr "$tmp" : "\/\(data.\?\)\/.*"`
+# しゅつりょくさきがしていされてるばあい そっち
+if [ "${2:-null}" != null -o "${2:-null}" != "" ]; then
+  tmp=`readlink -f "$2"`
   drive=`expr "$tmp" : "\/\(data.\?\)\/.*"`
-#fi
+fi
+# わからないばあいは /data
 if [ ${drive:-null} = null ] ; then
   drive=data
 fi
