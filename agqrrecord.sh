@@ -1,5 +1,6 @@
 # /bin/sh
 # 超A&G予約録画シェルスクリプト
+# require: rtmpdump,ffmpeg,いろいろ
 # usage: agqrrecord.sh [番組名] [録画時間] [動画フラグ] [隔週フラグファイル名]
 # 番組名: YYYYMMDD_HHMM_番組名.flv というファイルになる
 # 録画時間: sec
