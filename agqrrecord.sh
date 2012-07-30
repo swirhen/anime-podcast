@@ -39,10 +39,10 @@ cd "/data/share/movie/98 PSP用/agqr/flv"
 if [ $3 = v ]; then
 	/data/share/movie/sh/169mp4_agqr.sh "$efilename" "/data/share/movie/98 PSP用/agqr/"
 else 
-  /usr/bin/wine ffmpeg.exe -i "$efilename" -acodec libmp3lame -ab 64k -ac 2 -ar 48000 "/data/share/movie/98 PSP用/agqr/$efilename.mp3"
+	/usr/bin/wine ffmpeg.exe -i "$efilename" -acodec libmp3lame -ab 64k -ac 2 -ar 48000 "/data/share/movie/98 PSP用/agqr/$efilename.mp3"
 fi
 # rssフィード生成シェル
 /home/swirhen/share/movie/sh/mmmpc.sh agqr "超！A&G"
 /home/swirhen/share/movie/sh/mmmpc2.sh agqr "超！A&G"
 # つぶやく
-# /home/swirhen/Shellscriptter/Shellscriptter.sh -r "【超A&G自動録画】$efilename"
+/home/swirhen/Shellscriptter/Shellscriptter.sh -r "【超A&G自動録画】$efilename"
