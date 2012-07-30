@@ -26,7 +26,7 @@ efilename="$dt"_"$1.flv"
 # 接続失敗対策、ファイルが生成されるまで処理を繰り返す
 until [ -s "$filename" ]
 do
-# ランダム変数(サーバ分散対応)
+	# ランダム変数(サーバ分散対応)
 	num=`expr $RANDOM % 2 + 1`
 	num2=`expr $RANDOM % 2 + 1`
 	num3=`expr $RANDOM % 2 + 1`
