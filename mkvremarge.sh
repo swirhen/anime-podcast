@@ -9,7 +9,7 @@ source /home/swirhen/.zshrc
 NAME=`echo $1 | cut -d"." -f1`
 MLFLG=0
 echo $NAME
-/usr/bin/ffmpeg -i "$1" &> fmt.txt
+/usr/bin/wine ffmpeg.exe -i "$1" &> fmt.txt
 VSIZE=`cat fmt.txt | grep Video | cut -d"," -f3 | sed "s/\s//g"`
 echo $VSIZE
 FPS=`cat fmt.txt | grep Video | cut -d"," -f5 | sed "s/^\s//g" | cut -d" " -f1`
@@ -21,8 +21,8 @@ elif [ $FPS = "29.97" ]; then
     FPS="29.970030"
     R="30000/1001"
 elif [ $FPS = "24" ]; then
-    FPS="24"
-    R="24/1"
+    FPS="23.97605"
+    R="24000/1001"
 else
     echo "invalid fps!"
     rm fmt.txt
@@ -41,6 +41,8 @@ else
 fi
 echo $AFMT
 if [ $AFMT = "aac" ]; then
+    AEXT="aac"
+elif [ $AFMT = "libfaad" ]; then
     AEXT="aac"
 elif [ $AFMT = "flac" ]; then
     AEXT="flac"
@@ -68,11 +70,11 @@ if [ $MLFLG -eq 1 ]; then
     fi
     MP4Box -fps $FPS -add video.h264 -add audio1.aac -add audio2.aac -new "$NAME.mp4"
 else
-    mkvextract tracks "$1" 2:audio.$AEXT
+    mkvextract tracks "$1" 2:audio1.$AEXT
     if [ $AEXT != "aac" ]; then
-        ffm -i audio.$AEXT -acodec libfaac -ar 48000 -ab 128k audio.aac
+        ffm -i audio1.$AEXT -acodec libfaac -ar 48000 -ab 128k -ac 2 audio1.aac
     fi
-    MP4Box -fps $FPS -add video.h264 -add audio.aac -new "$NAME.mp4"
+    MP4Box -fps $FPS -add video.h264 -add audio1.aac -new "$NAME.mp4"
 fi
 rm video.h264
 rm audio*.*

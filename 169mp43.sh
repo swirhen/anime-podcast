@@ -38,11 +38,11 @@ echo `egrep '[0-9][0-9][0-9]+x[0-9][0-9][0-9]+' /tmp/fps.txt`
 asck=`egrep '[0-9][0-9][0-9]+x[0-9][0-9][0-9]+' /tmp/fps.txt`
 asw=`echo $asck | cut -d"," -f3 | cut -d"x" -f1 | sed "s/\s//g"`
 ash=`echo $asck | cut -d"," -f3 | cut -d"x" -f2 | sed "s/\s//g"`
-echo $ash
+echo "width: $asw"
 if [ ${#ash} -gt 4 ]; then
   ash=`echo $ash | cut -d"[" -f1`
 fi
-echo $ash
+echo "height: $ash"
 # あすぺくとひをじどうはんべつする
 aspect=`echo "scale=2; $ash / $asw" | bc`
 wide="32:27"
@@ -62,9 +62,26 @@ if [ ${5:-null} = "0" ]; then
   echo "# comp 4:3"
   wide="8:9"
 fi
+size="720x480"
+if [ $asw = "640" -a $ash = "480" ]; then
+    size="640x480"
+    wide="1:1"
+fi
+if [ $asw = "640" -a $ash = "360" ]; then
+    size="640x360"
+    wide="1:1"
+fi
+if [ $asw = "704" -a $ash = "396" ]; then
+    size="704x396"
+    wide="1:1"
+fi
+if [ $asw = "704" -a $ash = "400" ]; then
+    size="704x400"
+    wide="1:1"
+fi
 rm /tmp/fps.txt
 # えんこする
-/usr/bin/wine ffmpeg.exe -i "$1" $4 -s 720x480 -b 1500k -vcodec libx264 -trellis 2 -bf 3 -b_strategy 1 -bidir_refine 1 -crf 25 -g 240 -mbd 2 -me_method umh -subq 6 -qdiff 6 -me_range 32 -sc_threshold 65 -keyint_min 3 -nr 100 -qmin 12 -sn -flags bitexact+alt+mv4+loop -flags2 mixed_refs -partitions parti4x4+partp4x4+partp8x8 -f mp4 -coder 1 -level 30 -acodec libfaac -ac 2 -ar 48000 -ab 128k -async 100 -threads 0 $3 $opt /$drive/tmp/"$1".mp4
+/usr/bin/wine ffmpeg.exe -i "$1" $4 -s "$size" -b 1500k -vcodec libx264 -trellis 2 -bf 3 -b_strategy 1 -bidir_refine 1 -crf 25 -g 240 -mbd 2 -me_method umh -subq 6 -qdiff 6 -me_range 32 -sc_threshold 65 -keyint_min 3 -nr 100 -qmin 12 -sn -flags bitexact+alt+mv4+loop -flags2 mixed_refs -partitions parti4x4+partp4x4+partp8x8 -f mp4 -coder 1 -level 30 -acodec libfaac -ac 2 -ar 48000 -ab 128k -async 100 -threads 0 $3 $opt /$drive/tmp/"$1".mp4
 # MP4Boxで faststartたいおうにする アスペクトひをしていする
 sleep 5
 /usr/local/bin/MP4Box -ipod -par 1="$wide" /$drive/tmp/"$1".mp4 -out /$drive/tmp/"$1"_mod.mp4
