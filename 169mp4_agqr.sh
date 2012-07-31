@@ -3,7 +3,7 @@
 # ffmpegをつかってPSPやあいほんむけのどうがをつくる
 # wineをつかってwindowsばんのばいなりをつかってしまう版
 # ぶんかほうそう ちょーA&Gせんよう てきとうえんこばーじょん
-# usage:169mp43.sh [infile] [out directory]
+# usage:169mp4_agqr.sh [infile] [out directory]
 
 # どらいぶがちがうどうがのときにtmpをてきせつなばしょにかえる
 # じっこうでぃれくとりから ドライブをはんだん
