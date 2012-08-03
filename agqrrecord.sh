@@ -51,7 +51,7 @@ else
 	/usr/bin/wine ffmpeg.exe -i "$efilename" -acodec libmp3lame -ab 64k -ac 2 -ar 24000 "/data/share/movie/98 PSP用/agqr/$efilename.mp3"
 fi
 # rssフィード生成シェル
-/home/swirhen/share/movie/sh/mmmpc.sh agqr "超！A&G"
-/home/swirhen/share/movie/sh/mmmpc2.sh agqr "超！A&G"
+/home/swirhen/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
+/home/swirhen/share/movie/sh/mmmpc2.sh agqr "超！A&G(+α)"
 # つぶやく
 /home/swirhen/Shellscriptter/Shellscriptter.sh -r "【超A&G自動録画】$efilename"
