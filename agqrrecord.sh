@@ -32,6 +32,8 @@ dt=`date +"%Y%m%d_%H%M"`
 filename="/data/share/movie/98 PSP用/agqr/flv/""$dt"_"$name.flv"
 # パスを除いたファイル名
 efilename="$dt"_"$name.flv"
+# つぶやく
+/home/swirhen/Shellscriptter/Shellscriptter.sh -r "【超A&G自動保存開始】$efilename"
 # 接続失敗対策、ファイルが生成されるまで処理を繰り返す
 until [ -s "$filename" ]
 do
@@ -54,4 +56,4 @@ fi
 /home/swirhen/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
 /home/swirhen/share/movie/sh/mmmpc2.sh agqr "超！A&G(+α)"
 # つぶやく
-/home/swirhen/Shellscriptter/Shellscriptter.sh -r "【超A&G自動録画】$efilename"
+/home/swirhen/Shellscriptter/Shellscriptter.sh -r "【超A&G自動保存終了】$efilename"

@@ -9,15 +9,15 @@ playerurl=http://radiko.jp/player/swf/player_2.0.1.00.swf
 playerfile=./player.swf
 keyfile=./authkey.png
 
-if [ $# -eq 3 ]; then
+if [ $# -lt 3 ]; then
   station=$1
-    #DURATION=`expr $2 \* 60`
-    DURATION=$3
-    else
-      #echo "usage : $0 station_name duration(minuites)"
-      echo "usage : $0 station_name duration(seconds)"
-        exit 1
-        fi
+  #DURATION=`expr $2 \* 60`
+  DURATION=$3
+ else
+  #echo "usage : $0 station_name duration(minuites)"
+  echo "usage : $0 station_name program_name duration(seconds) offset_file(optional)"
+  exit 1
+fi
 
 #
 # get player
@@ -111,6 +111,8 @@ rm -f auth2_fms
 #
 # rtmpdump
 #
+# つぶやく
+/home/swirhen/Shellscriptter/Shellscriptter.sh -r "【Radiko自動録音開始】$2"
 /usr/local/bin/rtmpdump -v \
     -r "rtmpe://radiko.smartstream.ne.jp" \
     --playpath "simul-stream" \
@@ -124,3 +126,8 @@ rm -f auth2_fms
 /usr/bin/wine ffmpeg.exe -y -i "/tmp/${2}_${date}" -acodec libmp3lame "/data/share/movie/98 PSP用/agqr/${2}_${date}.mp3"
 
 rm "/tmp/${1}_${date}"
+# rssフィード生成シェル
+/home/swirhen/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
+/home/swirhen/share/movie/sh/mmmpc2.sh agqr "超！A&G(+α)"
+# つぶやく
+/home/swirhen/Shellscriptter/Shellscriptter.sh -r "【Radiko自動録音終了】$2"
