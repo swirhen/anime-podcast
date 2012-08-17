@@ -1,5 +1,5 @@
 #!/bin/sh
-# $BLn5e1dD9BP1~(B
+# 野球延長対応
 if [ "${4:-null}" != null ]; then
 offset=`cat /home/swirhen/$4`
 sleep $offset
@@ -9,7 +9,7 @@ playerurl=http://radiko.jp/player/swf/player_2.0.1.00.swf
 playerfile=./player.swf
 keyfile=./authkey.png
 
-if [ $# -lt 3 ]; then
+if [ $# -gt 2 ]; then
   station=$1
   #DURATION=`expr $2 \* 60`
   DURATION=$3
@@ -111,8 +111,8 @@ rm -f auth2_fms
 #
 # rtmpdump
 #
-# $B$D$V$d$/(B
-/home/swirhen/Shellscriptter/Shellscriptter.sh -r "$B!Z(BRadiko$B<+F0O?2;3+;O![(B$2"
+# つぶやく
+/home/swirhen/Shellscriptter/Shellscriptter.sh -r "【Radiko自動録音開始】$2"
 /usr/local/bin/rtmpdump -v \
     -r "rtmpe://radiko.smartstream.ne.jp" \
     --playpath "simul-stream" \
@@ -123,11 +123,11 @@ rm -f auth2_fms
     --stop $DURATION \
     -o "/tmp/${2}_${date}"
 
-/usr/bin/wine ffmpeg.exe -y -i "/tmp/${2}_${date}" -acodec libmp3lame "/data/share/movie/98 PSP$BMQ(B/agqr/${2}_${date}.mp3"
+/usr/bin/wine ffmpeg.exe -y -i "/tmp/${2}_${date}" -acodec libmp3lame "/data/share/movie/98 PSP用/agqr/${2}_${date}.mp3"
 
-rm "/tmp/${1}_${date}"
-# rss$B%U%#!<%I@8@.%7%'%k(B
-/home/swirhen/share/movie/sh/mmmpc.sh agqr "$BD6!*(BA&G(+$B&A(B)"
-/home/swirhen/share/movie/sh/mmmpc2.sh agqr "$BD6!*(BA&G(+$B&A(B)"
-# $B$D$V$d$/(B
-/home/swirhen/Shellscriptter/Shellscriptter.sh -r "$B!Z(BRadiko$B<+F0O?2;=*N;![(B$2"
+rm "/tmp/${2}_${date}"
+# rssフィード生成シェル
+/home/swirhen/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
+/home/swirhen/share/movie/sh/mmmpc2.sh agqr "超！A&G(+α)"
+# つぶやく
+/home/swirhen/Shellscriptter/Shellscriptter.sh -r "【Radiko自動録音終了】$2"
