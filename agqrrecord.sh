@@ -39,8 +39,11 @@ until [ -s "$filename" ]
 do
 	# ランダム変数(サーバ分散対応)
 	num=`expr $RANDOM % 2 + 1`
-	num2=`expr $RANDOM % 2 + 1`
+#	num2=`expr $RANDOM % 2 + 1`
 	num3=`expr $RANDOM % 2 + 1`
+#num1=1
+num2=2
+#num3=1
 	# echo "/usr/local/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "aandg${num2}" --app "?rtmp://fms-base${num3}.mitene.ad.jp/agqr/" --live -o "$filename" --stop $2"
 	/usr/local/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "aandg${num2}" --app "?rtmp://fms-base${num3}.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime
 done
@@ -48,9 +51,15 @@ done
 cd "/data/share/movie/98 PSP用/agqr/flv"
 # 映像付きならばエンコード用のシェルを呼ぶ。音声のみならmp3エンコード
 if [ $vidflg = v ]; then
-	/data/share/movie/sh/169mp4_agqr.sh "$efilename" "/data/share/movie/98 PSP用/agqr/"
+    until [ -f "/data/share/movie/98 PSP用/agqr/$efilename.mp4" ];
+    do
+      /data/share/movie/sh/169mp4_agqr.sh "$efilename" "/data/share/movie/98 PSP用/agqr/"
+    done
 else 
-	/usr/bin/wine ffmpeg.exe -i "$efilename" -acodec libmp3lame -ab 64k -ac 2 -ar 24000 "/data/share/movie/98 PSP用/agqr/$efilename.mp3"
+    until [ -f "/data/share/movie/98 PSP用/agqr/$efilename.mp3" ];
+    do
+      /usr/bin/wine ffmpeg.exe -i "$efilename" -acodec libmp3lame -ab 64k -ac 2 -ar 24000 "/data/share/movie/98 PSP用/agqr/$efilename.mp3"
+    done
 fi
 # rssフィード生成シェル
 /home/swirhen/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
