@@ -21,10 +21,42 @@ do
     do
     ext=`echo $a | sed "s/.*\.\(.*\)/\1/"`
     nn=`echo $a | sed -e "s/.*${SF}.*$SFX1\([0-9][0-9][0-9]\?\)$SFX2.*/\1/"`
-      if [ "$nn" != "$a" ]; then
+    fsf=`echo $a | sed -e "s/.*\(${SF}\).*$SFX1[0-9][0-9][0-9]\?$SFX2.*/\1/"`
+      if [ "$fsf" == "$SF" ]; then
         if [ ! -e "$a".aria2 ]; then
-          echo "# rename $a -> ${NAME} 第$nn話.$ext"
-          mv "$a" "${NAME} 第$nn話.$ext"
+          if [ "$a" != "${NAME} 第$nn話.$ext" ]; then
+            echo "# rename $a -> ${NAME} 第$nn話.$ext"
+            mv "$a" "${NAME} 第$nn話.$ext"
+          else
+            echo "# rename $a -> ${NAME} 第$nn話.$ext"
+            echo "# 変更後のファイル名が同じ"
+          fi
+        else
+          echo "# $a 成育中！"
+        fi
+        break
+      fi
+    done < ${LIST}
+  fi
+done
+for a in *.avi *.mp4 *.mkv *.wmv
+do
+  if [ -f "$a" ]; then
+    LIST=/data/share/movie/name2.lst
+    while read SF NAME
+    do
+    ext=`echo $a | sed "s/.*\.\(.*\)/\1/"`
+    nn=`echo $a | sed -e "s/.*${SF}.*$SFX1\([0-9][0-9][0-9]\?\)$SFX2.*/\1/"`
+    fsf=`echo $a | sed -e "s/.*\(${SF}\).*$SFX1[0-9][0-9][0-9]\?$SFX2.*/\1/"`
+      if [ "$fsf" == "$SF" ]; then
+        if [ ! -e "$a".aria2 ]; then
+          if [ "$a" != "${NAME} 第$nn話.$ext" ]; then
+            echo "# rename $a -> ${NAME} 第$nn話.$ext"
+            mv "$a" "${NAME} 第$nn話.$ext"
+          else
+            echo "# rename $a -> ${NAME} 第$nn話.$ext"
+            echo "# 変更後のファイル名が同じ"
+          fi
         else
           echo "# $a 成育中！"
         fi
