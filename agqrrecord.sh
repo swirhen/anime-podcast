@@ -42,7 +42,7 @@ do
 #	num2=`expr $RANDOM % 2 + 1`
 	num3=`expr $RANDOM % 2 + 1`
 #num1=1
-num2=2
+num2=5
 #num3=1
 	# echo "/usr/local/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "aandg${num2}" --app "?rtmp://fms-base${num3}.mitene.ad.jp/agqr/" --live -o "$filename" --stop $2"
 	/usr/local/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "aandg${num2}" --app "?rtmp://fms-base${num3}.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime
