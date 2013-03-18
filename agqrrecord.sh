@@ -37,14 +37,25 @@ efilename="$dt"_"$name.flv"
 # 接続失敗対策、ファイルが生成されるまで処理を繰り返す
 until [ -s "$filename" ]
 do
-	# ランダム変数(サーバ分散対応)
-	num=`expr $RANDOM % 2 + 1`
-#	num2=`expr $RANDOM % 2 + 1`
-	num3=`expr $RANDOM % 2 + 1`
-#num1=1
-num2=5
-#num3=1
-	# echo "/usr/local/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "aandg${num2}" --app "?rtmp://fms-base${num3}.mitene.ad.jp/agqr/" --live -o "$filename" --stop $2"
+# ランダム変数(サーバ分散対応)
+#num=`expr $RANDOM % 2 + 1`
+#num2=`expr $RANDOM % 2 + 1`
+#num3=`expr $RANDOM % 2 + 1`
+rand=`expr $RANDOM % 3`
+echo "rand... $rand"
+if [ $rand = 0 ]; then
+num=1
+num2=2
+num3=2
+elif [ $rand = 1 ]; then
+num=2
+num2=1
+num3=1
+else
+num=1
+num2=1
+num3=2
+fi
 	/usr/local/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "aandg${num2}" --app "?rtmp://fms-base${num3}.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime
 done
 # 保存フォルダへ移動
