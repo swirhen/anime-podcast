@@ -76,7 +76,19 @@ if [ $asw = "704" -a $ash = "396" ]; then
     wide="1:1"
 fi
 if [ $asw = "704" -a $ash = "400" ]; then
-    size="704x400"
+    size="704x396"
+    wide="1:1"
+fi
+if [ $asw = "704" -a $ash = "480" ]; then
+    size="704x480"
+    wide="40:33"
+fi
+if [ $asw = "944" -a $ash = "720" ]; then
+    size="630x480"
+    wide="1:1"
+fi
+if [ $asw = "1008" -a $ash = "720" ]; then
+    size="672x480"
     wide="1:1"
 fi
 rm /tmp/fps.txt

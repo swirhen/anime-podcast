@@ -5,7 +5,7 @@ offset=`cat /home/swirhen/$4`
 sleep $offset
 fi
 date=`date '+%Y-%m-%d-%H%M'`
-playerurl=http://radiko.jp/player/swf/player_2.0.1.00.swf
+playerurl=http://radiko.jp/player/swf/player_3.0.0.01.swf
 playerfile=./player.swf
 keyfile=./authkey.png
 
@@ -34,7 +34,7 @@ fi
 # get keydata (need swftool)
 #
 if [ ! -f $keyfile ]; then
-  swfextract -b 5 $playerfile -o $keyfile
+  swfextract -b 14 $playerfile -o $keyfile
   if [ ! -f $keyfile ]; then
       echo "failed get keydata"
       exit 1
@@ -114,14 +114,14 @@ rm -f auth2_fms
 # つぶやく
 /home/swirhen/Shellscriptter/Shellscriptter.sh -r "【Radiko自動録音開始】$2"
 /usr/local/bin/rtmpdump -v \
-    -r "rtmpe://radiko.smartstream.ne.jp" \
-    --playpath "simul-stream" \
-    --app "${station}/_defInst_" \
+    -r "rtmpe://w-radiko.smartstream.ne.jp" \
+    --playpath "simul-stream.stream" \
+    --app "${station}/_definst_" \
     -W $playerurl \
     -C S:"" -C S:"" -C S:"" -C S:$authtoken \
     --live \
     --stop $DURATION \
-    -o "/tmp/${2}_${date}"
+    -flv "/tmp/${2}_${date}"
 
 /usr/bin/wine ffmpeg.exe -y -i "/tmp/${2}_${date}" -acodec libmp3lame "/data/share/movie/98 PSP用/agqr/${2}_${date}.mp3"
 
