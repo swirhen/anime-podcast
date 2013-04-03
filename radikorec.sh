@@ -109,7 +109,7 @@ radiko_record() {
   # get stream-url
   #
   channel_xml=`/usr/bin/wget -q "http://radiko.jp/v2/station/stream/${channel}.xml" -O -`
-  stream_url=`echo $channel_xml | sed 's/^\(<?xml .*\)[Uu][Tt][Ff]8\(.* ?>\)/\1UTF-8\2/' | xpath "//url/item[1]/text()" 2>/dev/null`
+  stream_url=`echo $channel_xml | sed 's/^\(<?xml .*\)[Uu][Tt][Ff]8\(.* ?>\)/\1UTF-8\2/' | /usr/bin/xpath -e "//url/item[1]/text()" 2>/dev/null`
   stream_url_parts=(`echo ${stream_url} | perl -pe 's!^(.*)://(.*?)/(.*)/(.*?)$/!$1://$2 $3 $4!'`)
 
   #
@@ -162,7 +162,7 @@ fi
 
 cd /data/tmp ; wdir=`pwd`
 
-station_name=`curl -s http://radiko.jp/v2/api/program/station/today?station_id=$channel|xpath "//station/name/text()" 2>/dev/null`
+station_name=`curl -s http://radiko.jp/v2/api/program/station/today?station_id=$channel|/usr/bin/xpath -e "//station/name/text()" 2>/dev/null`
 output="${wdir}/${fname:=[${station_name}]${pgmname}_`date +%Y%m%d-%H%M`}.flv"
 
 # playerurl=http://radiko.jp/player/swf/player_2.0.1.00.swf <---radiko仕様変更点
@@ -170,23 +170,27 @@ playerurl=http://radiko.jp/player/swf/player_$VERSION.swf
 playerfile=./player.swf
 keyfile=./authkey.jpg
 
-# つぶやく
-/home/swirhen/Shellscriptter/Shellscriptter.sh -r "【Radiko自動録音開始】${fname}"
-
 if [ "$OPTION_a" = "TRUE" ]; then
   radiko_authorize && cat auth2_fms_$$|grep -e '^\w\+'
 else
-  radiko_authorize && radiko_record
-fi
+# つぶやく
+/home/swirhen/Shellscriptter/Shellscriptter.sh -r "【Radiko自動録音開始】${fname}"
 
-/usr/bin/wine ffmpeg.exe -y -i ${output} -acodec libmp3lame "/data/share/movie/98 PSP用/agqr/${fname}.mp3"
+until [ -f "${output}" ];
+do
+  radiko_authorize && radiko_record
+done
+
+/usr/bin/wine ffmpeg.exe -y -i "${output}" -acodec copy "/data/share/movie/98 PSP用/agqr/${fname}.m4a"
 
 rm -f "${output}"
-rm -f auth1_fms_$$
-rm -f auth2_fms_$$
 
 # rssフィード生成シェル
 /home/swirhen/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
 /home/swirhen/share/movie/sh/mmmpc2.sh agqr "超！A&G(+α)"
 # つぶやく
 /home/swirhen/Shellscriptter/Shellscriptter.sh -r "【Radiko自動録音終了】${fname}"
+fi
+
+rm -f auth1_fms_$$
+rm -f auth2_fms_$$
