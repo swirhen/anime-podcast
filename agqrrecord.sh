@@ -73,7 +73,7 @@ else
     done
 fi
 # rssフィード生成シェル
-/home/swirhen/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
-/home/swirhen/share/movie/sh/mmmpc2.sh agqr "超！A&G(+α)"
+/data/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
+/data/share/movie/sh/mmmpc2.sh agqr "超！A&G(+α)"
 # つぶやく
 /home/swirhen/Shellscriptter/Shellscriptter.sh -r "【超A&G自動保存終了】$efilename"
