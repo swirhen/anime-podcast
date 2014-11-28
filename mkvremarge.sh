@@ -74,7 +74,11 @@ else
     if [ $AEXT != "aac" ]; then
         ffm -i audio1.$AEXT -acodec libfaac -ar 48000 -ab 128k -ac 2 audio1.aac
     fi
-    MP4Box -fps $FPS -add video.h264 -add audio1.aac -new "$NAME.mp4"
+    if [ $# -eq 2 ]; then
+      MP4Box -fps $FPS -add video.h264 -add audio1.aac -add "$2" -new "$NAME.mp4"
+    else
+      MP4Box -fps $FPS -add video.h264 -add audio1.aac -new "$NAME.mp4"
+    fi
 fi
 rm video.h264
 rm audio*.*

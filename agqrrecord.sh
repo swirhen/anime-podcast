@@ -41,22 +41,8 @@ do
 num=`expr $RANDOM % 2 + 1`
 num2=`expr $RANDOM % 2 + 1`
 num3=`expr $RANDOM % 2 + 1`
-#rand=`expr $RANDOM % 3`
-#echo "rand... $rand"
-#if [ $rand = 0 ]; then
-#num=1
-#num2=2
-#num3=2
-#elif [ $rand = 1 ]; then
-#num=2
-#num2=1
-#num3=1
-#else
-#num=1
-#num2=1
-#num3=2
-#fi
-	/usr/local/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "aandg${num2}" --app "?rtmp://fms-base${num3}.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime
+	/usr/local/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "aandg${num2}${num2}" --app "?rtmp://fms-base${num3}.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime
+#	/usr/local/bin/rtmpdump --rtmp "rtmpe://fms2.uniqueradio.jp/" --playpath "aandg11" --app "?rtmp://fms-base1.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime
 done
 # 保存フォルダへ移動
 cd "/data/share/movie/98 PSP用/agqr/flv"
@@ -75,5 +61,6 @@ fi
 # rssフィード生成シェル
 /data/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
 /data/share/movie/sh/mmmpc2.sh agqr "超！A&G(+α)"
+/data/share/movie/sh/mmmpc3.sh agqr "超！A&G(+α)ローカル用"
 # つぶやく
 /home/swirhen/Shellscriptter/Shellscriptter.sh -r "【超A&G自動保存終了】$efilename"

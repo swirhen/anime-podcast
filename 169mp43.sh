@@ -23,7 +23,7 @@ fi
 # いろいろちぇっく
 # へんなfpsのどうがのばあい 30000/1001にとういつしてごまかす
 fpsfix="-r 30000/1001"
-/usr/local/bin/ffmpeg -i "$1" 2>> /tmp/fps.txt
+/usr/bin/wine ffmpeg.exe -i "$1" 2>> /tmp/fps.txt
 echo "$1 fps check"
 echo `egrep '.*tbr.*' /tmp/fps.txt`
 fpsck=`egrep -c '.*(23\.98|29\.97|30\.00|24\.00|25\.00) tbr.*' /tmp/fps.txt`
