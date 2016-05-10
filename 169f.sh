@@ -2,7 +2,7 @@
 # 動画エンコード用シェル
 # 実行したディレクトリに存在するシリーズ系動画(*話*.mp4等)
 # をすべてエンコードし、フィードを更新、Twitterに告知する
-# usage 159f.sh [priority file]
+# usage 169f.sh [priority file]
 source /home/swirhen/.zshrc
 for a in "$@" *話*.(avi|mp4|mkv|wmv)
 do
@@ -20,6 +20,6 @@ do
     /data/share/movie/sh/mmpc3.sh
     /data/share/movie/sh/mmv.sh "$a"
     sleep 3
-    /home/swirhen/Shellscriptter/Shellscriptter.sh -r "【publish】$a.mp4"
+    # /home/swirhen/Shellscriptter/Shellscriptter.sh -r "【publish】$a.mp4"
   fi
 done

@@ -121,14 +121,23 @@ radiko_record() {
   # rtmpdump
   #
   echo "save as '$output'"
-  rtmpdump -r ${stream_url_parts[0]} \
+  echo "rtmpdump -r ${stream_url_parts[0]}
+--app ${stream_url_parts[1]}
+--playpath ${stream_url_parts[2]}
+-W $playerurl
+-C S: -C S: -C S: -C S:$authtoken
+--live
+--stop ${rectime:=30}
+--flv ${output}"
+ nohup rtmpdump -r ${stream_url_parts[0]} \
            --app ${stream_url_parts[1]} \
            --playpath ${stream_url_parts[2]} \
            -W $playerurl \
            -C S:"" -C S:"" -C S:"" -C S:$authtoken \
            --live \
            --stop "${rectime:=30}" \
-           --flv "${output}"
+           --flv "${output}" &
+  pid=$!
 }
 
 # 引数解析
@@ -171,17 +180,30 @@ playerfile=./player.swf
 keyfile=./authkey.jpg
 
 if [ "$OPTION_a" = "TRUE" ]; then
-  radiko_authorize && cat auth2_fms_$$|grep -e '^\w\+'
+  radiko_authorize
+  if [ $? = 0 ]; then
+    cat auth2_fms_$$|grep -e '^\w\+'
+  fi
 else
 # つぶやく
-/home/swirhen/Shellscriptter/Shellscriptter.sh -r "【Radiko自動録音開始】${fname}"
+#/home/swirhen/Shellscriptter/Shellscriptter.sh -r "【Radiko自動録音開始】${fname}"
 
-until [ -f "${output}" ];
-do
-  radiko_authorize && radiko_record
-done
+#until [ -f "${output}" ];
+#do
+#  radiko_authorize && radiko_record
+#done
 
-/usr/bin/wine ffmpeg.exe -y -i "${output}" -acodec copy "/data/share/movie/98 PSP用/agqr/${fname}.m4a"
+radiko_authorize
+if [ $? = 0 ]; then
+  radiko_record
+fi
+
+sleep ${rectime}
+sleep 30
+
+kill ${pid}
+
+/usr/bin/wine ffmpeg.exe -y -t ${rectime} -i "${output}" -acodec copy "/data/share/movie/98 PSP用/agqr/${fname}.m4a"
 
 rm -f "${output}"
 
@@ -189,7 +211,7 @@ rm -f "${output}"
 /home/swirhen/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
 /home/swirhen/share/movie/sh/mmmpc2.sh agqr "超！A&G(+α)"
 # つぶやく
-/home/swirhen/Shellscriptter/Shellscriptter.sh -r "【Radiko自動録音終了】${fname}"
+#/home/swirhen/Shellscriptter/Shellscriptter.sh -r "【Radiko自動録音終了】${fname}"
 fi
 
 rm -f auth1_fms_$$
