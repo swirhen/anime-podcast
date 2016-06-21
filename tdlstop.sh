@@ -29,7 +29,7 @@ do
       exit
     else
       echo -e "\n### watching aria2c(port=$1) end###"
-      #/home/swirhen/Shellscriptter/Shellscriptter.sh -r "@swirhen 栽培完了:$date 開始のファイル: $file"
+      /home/swirhen/tiasock/tiasock_swirhentv.sh "@swirhen 栽培完了:$date 開始のファイル: $file"
       exit
     fi
 #  else
