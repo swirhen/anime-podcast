@@ -20,6 +20,6 @@ do
     /data/share/movie/sh/mmpc3.sh
     /data/share/movie/sh/mmv.sh "$a"
     sleep 3
-    # /home/swirhen/Shellscriptter/Shellscriptter.sh -r "【publish】$a.mp4"
+    /home/swirhen/tiasock/tiasock_swirhentv.sh "【publish】$a.mp4"
   fi
 done

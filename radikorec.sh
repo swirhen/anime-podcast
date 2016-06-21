@@ -186,7 +186,7 @@ if [ "$OPTION_a" = "TRUE" ]; then
   fi
 else
 # つぶやく
-#/home/swirhen/Shellscriptter/Shellscriptter.sh -r "【Radiko自動録音開始】${fname}"
+/home/swirhen/tiasock/tiasock_swirhentv.sh "【Radiko自動録音開始】${fname}"
 
 #until [ -f "${output}" ];
 #do
@@ -211,7 +211,7 @@ rm -f "${output}"
 /home/swirhen/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
 /home/swirhen/share/movie/sh/mmmpc2.sh agqr "超！A&G(+α)"
 # つぶやく
-#/home/swirhen/Shellscriptter/Shellscriptter.sh -r "【Radiko自動録音終了】${fname}"
+/home/swirhen/tiasock/tiasock_swirhentv.sh "【Radiko自動録音終了】${fname}"
 fi
 
 rm -f auth1_fms_$$

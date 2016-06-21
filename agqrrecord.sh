@@ -33,7 +33,7 @@ filename="/data/share/movie/98 PSP用/agqr/flv/""$dt"_"$name.flv"
 # パスを除いたファイル名
 efilename="$dt"_"$name.flv"
 # つぶやく
-/home/swirhen/Shellscriptter/Shellscriptter.sh -r "【超A&G自動保存開始】$efilename"
+/home/swirhen/tiasock/tiasock_swirhentv.sh "【超A&G自動保存開始】$efilename"
 # 接続失敗対策、ファイルが生成されるまで処理を繰り返す
 until [ -s "$filename" ]
 do
@@ -64,4 +64,4 @@ fi
 /data/share/movie/sh/mmmpc2.sh agqr "超！A&G(+α)"
 /data/share/movie/sh/mmmpc3.sh agqr "超！A&G(+α)ローカル用"
 # つぶやく
-/home/swirhen/Shellscriptter/Shellscriptter.sh -r "【超A&G自動保存終了】$efilename"
+/home/swirhen/tiasock/tiasock_swirhentv.sh "【超A&G自動保存終了】$efilename"
