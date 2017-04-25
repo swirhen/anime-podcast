@@ -4,7 +4,10 @@
 # をすべてエンコードし、フィードを更新、Twitterに告知する
 # usage 169f.sh [priority file]
 source /home/swirhen/.zshrc
-for a in "$@" *話*.(avi|mp4|mkv|wmv)
+cd /data/share/movie
+(
+IFS=$'\n';
+for a in `ls -rt *話*.(avi|mp4|mkv|wmv)`
 do
   if [ -f "$a" ]; then
     error=0
@@ -23,3 +26,4 @@ do
     /home/swirhen/tiasock/tiasock_swirhentv.sh "【publish】$a.mp4"
   fi
 done
+)
