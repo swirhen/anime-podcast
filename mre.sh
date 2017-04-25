@@ -1,3 +1,4 @@
+#!/bin/bash
 # 動画リネーム用シェル
 # リネーム用リストにはリネーム元ファイルの検索文字と正式な作品名を
 # tabで繋げて記述すること
@@ -13,15 +14,30 @@ if [ $# -eq 2 ]; then  # 引数が2個
 SFX1=$1
 SFX2=$2
 fi
+LIST=/data/share/movie/name.lst
+LIST2=/data/share/movie/name2.lst
+NAME_LST1=()
+NAME_LST2=()
+while read LINE
+do
+  NAME_LST1+=( "${LINE}" )
+done < ${LIST}
+while read LINE
+do
+  NAME_LST2+=( "${LINE}" )
+done < ${LIST2}
+
 for a in *.avi *.mp4 *.mkv *.wmv
 do
   if [ -f "$a" ]; then
-    LIST=/data/share/movie/name.lst
-    while read SF NAME
+    for LINE in ${NAME_LST1[@]}
     do
-    ext=`echo $a | sed "s/.*\.\(.*\)/\1/"`
-    nn=`echo $a | sed -e "s/.*${SF}.*$SFX1\([0-9][0-9]\?\)$SFX2.*/\1/"`
-    fsf=`echo $a | sed -e "s/.*\(${SF}\).*$SFX1[0-9][0-9]\?$SFX2.*/\1/"`
+      SF="${LINE%% *}"
+      NAME="${LINE#* }"
+      ext=`echo $a | sed "s/.*\.\(.*\)/\1/"`
+
+      nn=`echo $a | sed -e "s/.*${SF}.*$SFX1\([0-9][0-9]\?\)$SFX2.*/\1/"`
+      fsf=`echo $a | sed -e "s/.*\(${SF}\).*$SFX1[0-9][0-9]\?$SFX2.*/\1/"`
       if [ "$fsf" == "$SF" ]; then
         if [ ! -e "$a".aria2 ]; then
           if [ "$a" != "${NAME} 第$nn話.$ext" ]; then
@@ -36,8 +52,9 @@ do
         fi
         break
       fi
-    nn=`echo $a | sed -e "s/.*${SF}.*$SFX1\([0-1][0-9][0-9]\?\)$SFX2.*/\1/"`
-    fsf=`echo $a | sed -e "s/.*\(${SF}\).*$SFX1[0-1][0-9][0-9]\?$SFX2.*/\1/"`
+
+      nn=`echo $a | sed -e "s/.*${SF}.*$SFX1\([0-1][0-9][0-9]\?\)$SFX2.*/\1/"`
+      fsf=`echo $a | sed -e "s/.*\(${SF}\).*$SFX1[0-1][0-9][0-9]\?$SFX2.*/\1/"`
       if [ "$fsf" == "$SF" ]; then
         if [ ! -e "$a".aria2 ]; then
           if [ "$a" != "${NAME} 第$nn話.$ext" ]; then
@@ -52,8 +69,9 @@ do
         fi
         break
       fi
-    nn=`echo $a | sed -e "s/.*${SF}.*$SFX1\([0-9][0-9].5\)$SFX2.*/\1/"`
-    fsf=`echo $a | sed -e "s/.*\(${SF}\).*$SFX1[0-9][0-9].5$SFX2.*/\1/"`
+
+      nn=`echo $a | sed -e "s/.*${SF}.*$SFX1\([0-9][0-9].5\)$SFX2.*/\1/"`
+      fsf=`echo $a | sed -e "s/.*\(${SF}\).*$SFX1[0-9][0-9].5$SFX2.*/\1/"`
       if [ "$fsf" == "$SF" ]; then
         if [ ! -e "$a".aria2 ]; then
           if [ "$a" != "${NAME} 第$nn話.$ext" ]; then
@@ -68,18 +86,20 @@ do
         fi
         break
       fi
-    done < ${LIST}
+    done
   fi
 done
 for a in *.avi *.mp4 *.mkv *.wmv
 do
   if [ -f "$a" ]; then
-    LIST=/data/share/movie/name2.lst
-    while read SF NAME
+    for LINE in ${NAME_LST2[@]}
     do
-    ext=`echo $a | sed "s/.*\.\(.*\)/\1/"`
-    nn=`echo $a | sed -e "s/.*${SF}.*$SFX1\([0-9][0-9]\?\)$SFX2.*/\1/"`
-    fsf=`echo $a | sed -e "s/.*\(${SF}\).*$SFX1[0-9][0-9]\?$SFX2.*/\1/"`
+      SF="${LINE%% *}"
+      NAME="${LINE#* }"
+      ext=`echo $a | sed "s/.*\.\(.*\)/\1/"`
+
+      nn=`echo $a | sed -e "s/.*${SF}.*$SFX1\([0-9][0-9]\?\)$SFX2.*/\1/"`
+      fsf=`echo $a | sed -e "s/.*\(${SF}\).*$SFX1[0-9][0-9]\?$SFX2.*/\1/"`
       if [ "$fsf" == "$SF" ]; then
         if [ ! -e "$a".aria2 ]; then
           if [ "$a" != "${NAME} 第$nn話.$ext" ]; then
@@ -94,8 +114,8 @@ do
         fi
         break
       fi
-    nn=`echo $a | sed -e "s/.*${SF}.*$SFX1\([0-1][0-9][0-9]\?\)$SFX2.*/\1/"`
-    fsf=`echo $a | sed -e "s/.*\(${SF}\).*$SFX1[0-1][0-9][0-9]\?$SFX2.*/\1/"`
+      nn=`echo $a | sed -e "s/.*${SF}.*$SFX1\([0-1][0-9][0-9]\?\)$SFX2.*/\1/"`
+      fsf=`echo $a | sed -e "s/.*\(${SF}\).*$SFX1[0-1][0-9][0-9]\?$SFX2.*/\1/"`
       if [ "$fsf" == "$SF" ]; then
         if [ ! -e "$a".aria2 ]; then
           if [ "$a" != "${NAME} 第$nn話.$ext" ]; then
@@ -110,8 +130,8 @@ do
         fi
         break
       fi
-    nn=`echo $a | sed -e "s/.*${SF}.*$SFX1\([0-9][0-9].5\)$SFX2.*/\1/"`
-    fsf=`echo $a | sed -e "s/.*\(${SF}\).*$SFX1[0-9][0-9].5$SFX2.*/\1/"`
+      nn=`echo $a | sed -e "s/.*${SF}.*$SFX1\([0-9][0-9].5\)$SFX2.*/\1/"`
+      fsf=`echo $a | sed -e "s/.*\(${SF}\).*$SFX1[0-9][0-9].5$SFX2.*/\1/"`
       if [ "$fsf" == "$SF" ]; then
         if [ ! -e "$a".aria2 ]; then
           if [ "$a" != "${NAME} 第$nn話.$ext" ]; then
@@ -126,6 +146,6 @@ do
         fi
         break
       fi
-    done < ${LIST}
+    done
   fi
 done
