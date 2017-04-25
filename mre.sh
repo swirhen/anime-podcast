@@ -34,7 +34,6 @@ do
   fi
 done
 
-
 for FILE_NAME in "${FILE_LST[@]}"
 do
   for LINE in ${NAME_LST1[@]}
