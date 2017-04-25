@@ -27,12 +27,10 @@ while read LINE
 do
   NAME_LST2+=( "${LINE}" )
 done < ${LIST2}
-for FILE in *.avi *.mp4 *.mkv *.wmv
+while read -r FILENAME
 do
-  if [ -f "${FILE}" ]; then
-    FILE_LST+=( "${FILE}" )
-  fi
-done
+  FILE_LST+=( "${FILENAME:2}" )
+done < <(find . -maxdepth 1 -type f \( -name \*.mp4 -o -name \*.wmv -o -name \*.mkv -o -name *.avi \))
 
 for FILE_NAME in "${FILE_LST[@]}"
 do
