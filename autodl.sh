@@ -88,4 +88,6 @@ if [ -s ${RESULT_FILE} ]; then
 download seeds:
 `cat ${RESULT_FILE}`
 \`\`\`"
+else
+  python /home/swirhen/sh/slackbot/swirhentv/post.py "bot-sandbox" "@here swirhen.tv auto download completed. (no new episode)"
 fi
