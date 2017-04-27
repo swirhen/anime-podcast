@@ -38,9 +38,9 @@ do
     if [ "`echo ${title} | grep \"${NAME}\"`" != "" ]; then
       echo "hit! ${title}"
       EPNUM_KETA=${#EP_NUMS[${cnt2}]}
-      EPNUM=`echo "${title}" | sed "s/.*${NAME} \([0-9]{2,3}\) .*/\1/"`
+      EPNUM=`echo "${title}" | sed "s/.*${NAME}.* \([0-9]\{2,3\}\) .*/\1/"`
       if [ "${EPNUM}" -gt "${EP_NUMS[${cnt2}]}" ]; then
-        echo "新しい話数がある: ${EPNUM} (比較対象: ${EP_NUMS[${snt2}]}"
+        echo "新しい話数: ${EPNUM} (比較対象: ${EP_NUMS[${cnt2}]}"
         echo "link: ${link}"
       fi
     fi
