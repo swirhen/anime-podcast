@@ -83,11 +83,9 @@ done
 cp -p ${LIST_TEMP} ${LIST_FILE}
 
 if [ -s ${RESULT_FILE} ]; then
-  python /home/swirhen/sh/slackbot/swirhentv/post.py "bot-sandbox" "@here swirhen.tv auto download completed."
-#    \`\`\`
-#    download seeds:
-#    `cat ${RESULT_FILE}`
-#    \`\`\`"
-  sleep 1
-  /home/swirhen/sh/slackbot/swirhentv/upload.sh "bot-sandbox" "${RESULT_FILE}" "download seeds"
+  python /home/swirhen/sh/slackbot/swirhentv/post.py "bot-sandbox" "@here swirhen.tv auto download completed.
+\`\`\`
+download seeds:
+`cat ${RESULT_FILE}`
+\`\`\`"
 fi
