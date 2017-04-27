@@ -34,7 +34,7 @@ done < <(find . -maxdepth 1 -type f \( -name \*.mp4 -o -name \*.wmv -o -name \*.
 
 for FILE_NAME in "${FILE_LST[@]}"
 do
-  for LINE in ${NAME_LST1[@]}
+  for LINE in "${NAME_LST1[@]}"
   do
     SF="${LINE%% *}"
     NAME="${LINE#* }"
@@ -92,7 +92,7 @@ do
     fi
   done
 
-  for LINE in ${NAME_LST2[@]}
+  for LINE in "${NAME_LST2[@]}"
   do
     SF="${LINE%% *}"
     NAME="${LINE#* }"
