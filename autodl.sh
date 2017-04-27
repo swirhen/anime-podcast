@@ -33,6 +33,7 @@ do
   cnt2=0
   for NAME in "${NAMES[@]}"
   do
+    echo "${NAME}"
     if [ "`echo ${title} | grep \"${NAME}\"`" != "" ]; then
       echo "hit! ${title}"
       EPNUM_KETA=${#EP_NUMS[${cnt2}]}
