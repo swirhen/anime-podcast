@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE:-$0}")"; pwd)"
+DOWNLOAD_DIR="${SCRIPT_DIR}/../"
 LIST_FILE=~/Dropbox/swirhentv/checklist.txt
 RSS_TEMP=${SCRIPT_DIR}/rss.temp
 RSS_XML=${SCRIPT_DIR}/rss.xml
@@ -41,7 +42,8 @@ do
       EPNUM=`echo "${title}" | sed "s/.*${NAME}.* \([0-9]\{2,3\}\) .*/\1/"`
       if [ "${EPNUM}" -gt "${EP_NUMS[${cnt2}]}" ]; then
         echo "新しい話数: ${EPNUM} (比較対象: ${EP_NUMS[${cnt2}]}"
-        echo "link: ${link}"
+        echo "download link: ${link}"
+        wget --no-check-certificate --restrict-file-names=nocontrol --trust-server-names --content-disposition "${link}" -P "${DOWNLOAD_DIR}"
       fi
     fi
     (( cnt2++ ))
