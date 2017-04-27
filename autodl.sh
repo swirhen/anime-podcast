@@ -89,5 +89,5 @@ if [ -s ${RESULT_FILE} ]; then
 #    `cat ${RESULT_FILE}`
 #    \`\`\`"
   sleep 1
-  python /home/swirhen/sh/slackbot/swirhentv/upload.py "bot-sandbox" "${RESULT_FILE}" "download seeds"
+  /home/swirhen/sh/slackbot/swirhentv/upload.sh "bot-sandbox" "${RESULT_FILE}" "download seeds"
 fi
