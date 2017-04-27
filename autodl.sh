@@ -80,3 +80,4 @@ do
   fi
   (( cnt++ ))
 done
+cp -p ${LIST_TEMP} ${LIST_FILE}
