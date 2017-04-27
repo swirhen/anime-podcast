@@ -14,8 +14,10 @@ EP_NUMS=()
 NAMES=()
 while read EP_NUM NAME
 do
-  EP_NUMS+=( "${EP_NUM}" )
-  NAME+=( "${NAME}" )
+  if [ "${EP_NUM}" != "Last" ]; then
+    EP_NUMS+=( "${EP_NUM}" )
+    NAMES+=( "${NAME}" )
+  fi
 done < ${LIST_FILE}
 
 echo "NAMES: ${NAMES[@]}"
