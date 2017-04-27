@@ -43,7 +43,7 @@ do
       if [ "${EPNUM}" -gt "${EP_NUMS[${cnt2}]}" ]; then
         echo "新しい話数: ${EPNUM} (比較対象: ${EP_NUMS[${cnt2}]}"
         # Leopard優先
-        if [ `echo "${title}" | grep "Leopard"` != "" ]; then
+        if [ "`echo \"${title}\" | grep \"Leopard\"`" != "" ]; then
           if [ `ls ${DOWNLOAD_DIR}/*Ohys*"${NAME}"*.torrent | wc -l` -eq 1 ]; then
             rm -f ${DOWNLOAD_DIR}/*Ohys*"${NAME}"*.torrent
           fi
