@@ -26,26 +26,30 @@ do
 done < ${LIST_FILE}
 
 echo "Last Update: ${DATETIME}" > ${LIST_TEMP}
-cnt=1
-while :
+
+# search
+cnt=0
+hit_flg=0
+for NAME in "${NAMES[@]}"
 do
-  title=`echo "cat /rss/channel/item[${cnt}]" | xmllint --shell "${RSS_XML}" | grep title | sed "s#<title>\(.*\)</title>#\1#" | sed "s/^      //"`
-  if [ "${title}" = "" ]; then
-    break
-  fi
-
-  link=`echo "cat /rss/channel/item[${cnt}]" | xmllint --shell "${RSS_XML}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
-
-  # search
-  cnt2=0
-  for NAME in "${NAMES[@]}"
+  cnt2=1
+  while :
   do
+    title=`echo "cat /rss/channel/item[${cnt}]" | xmllint --shell "${RSS_XML}" | grep title | sed "s#<title>\(.*\)</title>#\1#" | sed "s/^      //"`
+    # feed end
+    if [ "${title}" = "" ]; then
+      break
+    fi
+
+    link=`echo "cat /rss/channel/item[${cnt}]" | xmllint --shell "${RSS_XML}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
+
+    # fetch
     if [ "`echo \"${title}\" | grep \"${NAME}\"`" != "" ]; then
       echo "hit! ${title}"
-      EPNUM_KETA=${#EP_NUMS[${cnt2}]}
       EPNUM=`echo "${title}" | sed "s/.*${NAME}.* \([0-9]\{2,3\}\) .*/\1/"`
-      if [ "${EPNUM}" -gt "${EP_NUMS[${cnt2}]}" ]; then
-        echo "new episode: ${EPNUM} (local: ${EP_NUMS[${cnt2}]})"
+      if [ "${EPNUM}" -gt "${EP_NUMS[${cnt}]}" ]; then
+        echo "new episode: ${EPNUM} (local: ${EP_NUMS[${cnt}]})"
+        hit_flg=1
         # Leopard優先
         if [ "`echo \"${title}\" | grep \"Leopard\"`" != "" ]; then
           if [ `ls ${DOWNLOAD_DIR}/*Ohys*"${NAME}"*.torrent | wc -l` -eq 1 ]; then
@@ -55,21 +59,24 @@ do
             echo "download link: ${link}"
             echo "${title}" >> ${RESULT_FILE}
             wget --no-check-certificate --restrict-file-names=nocontrol --trust-server-names --content-disposition "${link}" -P "${DOWNLOAD_DIR}" > /dev/null
-            echo "${EPNUM} ${NAME}" >> ${LIST_TEMP}
+            break
           fi
         else
           if [ `ls ${DOWNLOAD_DIR}/*Leopard*"${NAME}"*.torrent | wc -l` -eq 0 -a `ls ${DOWNLOAD_DIR}/*Ohys*"${NAME}"*.torrent | wc -l` -eq 0 ]; then
             echo "download link: ${link}"
             echo "${title}" >> ${RESULT_FILE}
             wget --no-check-certificate --restrict-file-names=nocontrol --trust-server-names --content-disposition "${link}" -P "${DOWNLOAD_DIR}" > /dev/null
-            echo "${EPNUM} ${NAME}" >> ${LIST_TEMP}
+            break
           fi
         fi
       fi
-    else
-      echo "${EP_NUMS[${cnt2}]} ${NAME}" >> ${LIST_TEMP}
     fi
     (( cnt2++ ))
   done
+  if [ "${hit_flg}" = "1" ]; then
+    echo "${EPNUM} ${NAME}" >> ${LIST_TEMP}
+  else
+    echo "${EP_NUMS[${cnt}]} ${NAME}" >> ${LIST_TEMP}
+  fi
   (( cnt++ ))
 done
