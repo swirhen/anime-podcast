@@ -21,12 +21,12 @@ done < ${LIST_FILE}
 cnt=1
 while :
 do
-  title=`echo "cat /rss/channel/item[${cnt}]" | xmllint --shell "${RSS_XML}" | grep title | sed "s#<title>\(.*\)</title>#\1#" | sed "s/^\ +//"`
+  title=`echo "cat /rss/channel/item[${cnt}]" | xmllint --shell "${RSS_XML}" | grep title | sed "s#<title>\(.*\)</title>#\1#" | sed "s/^      //"`
   if [ "${title}" = "" ]; then
     break
   fi
 
-  link=`echo "cat /rss/channel/item[${cnt}]" | xmllint --shell "${RSS_XML}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^\ +//" | sed "s/amp;//"`
+  link=`echo "cat /rss/channel/item[${cnt}]" | xmllint --shell "${RSS_XML}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
   echo "cnt:${cnt}"
   echo "title:${title}"
   echo "link:${link}"
