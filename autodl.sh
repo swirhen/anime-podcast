@@ -18,6 +18,9 @@ do
   NAME+=( "${NAME}" )
 done < ${LIST_FILE}
 
+echo "NAMES: ${NAMES[@]}"
+echo "EP_NUMS: ${EP_NUMS[@]}"
+
 cnt=1
 while :
 do
