@@ -2,11 +2,15 @@
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE:-$0}")"; pwd)"
 DOWNLOAD_DIR="${SCRIPT_DIR}/../"
 LIST_FILE=~/Dropbox/swirhentv/checklist.txt
+LIST_TEMP=${SCRIPT_DIR}/checklist.temp
 RSS_TEMP=${SCRIPT_DIR}/rss.temp
 RSS_XML=${SCRIPT_DIR}/rss.xml
+RESULT_FILE=${SCRIPT_DIR}/autodl.result
+DATETIME=`date "+%Y/%m/%d %H:%M:%S"`
 MODE=$1
-
 URI="https://www.nyaa.se/?page=search&cats=1_11&term=Ohys%7CLeopard&page=rss"
+
+rm -f ${RESULT_FILE}
 
 curl -s -S "${URI}" > ${RSS_TEMP}
 xmllint --format ${RSS_TEMP} > ${RSS_XML}
@@ -21,6 +25,7 @@ do
   fi
 done < ${LIST_FILE}
 
+echo "Last Update: ${DATETIME}" > ${LIST_TEMP}
 cnt=1
 while :
 do
@@ -30,9 +35,8 @@ do
   fi
 
   link=`echo "cat /rss/channel/item[${cnt}]" | xmllint --shell "${RSS_XML}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
-#  echo "cnt:${cnt}"
-#  echo "title:${title}"
-#  echo "link:${link}"
+
+  # search
   cnt2=0
   for NAME in "${NAMES[@]}"
   do
@@ -41,7 +45,7 @@ do
       EPNUM_KETA=${#EP_NUMS[${cnt2}]}
       EPNUM=`echo "${title}" | sed "s/.*${NAME}.* \([0-9]\{2,3\}\) .*/\1/"`
       if [ "${EPNUM}" -gt "${EP_NUMS[${cnt2}]}" ]; then
-        echo "新しい話数: ${EPNUM} (比較対象: ${EP_NUMS[${cnt2}]}"
+        echo "new episode: ${EPNUM} (local: ${EP_NUMS[${cnt2}]})"
         # Leopard優先
         if [ "`echo \"${title}\" | grep \"Leopard\"`" != "" ]; then
           if [ `ls ${DOWNLOAD_DIR}/*Ohys*"${NAME}"*.torrent | wc -l` -eq 1 ]; then
@@ -49,15 +53,21 @@ do
           fi
           if [ `ls ${DOWNLOAD_DIR}/*Leopard*"${NAME}"*.torrent | wc -l` -eq 0 ]; then
             echo "download link: ${link}"
+            echo "${title}" >> ${RESULT_FILE}
             wget --no-check-certificate --restrict-file-names=nocontrol --trust-server-names --content-disposition "${link}" -P "${DOWNLOAD_DIR}" > /dev/null
+            echo "${EPNUM} ${NAME}" >> ${LIST_TEMP}
           fi
         else
           if [ `ls ${DOWNLOAD_DIR}/*Leopard*"${NAME}"*.torrent | wc -l` -eq 0 -a `ls ${DOWNLOAD_DIR}/*Ohys*"${NAME}"*.torrent | wc -l` -eq 0 ]; then
             echo "download link: ${link}"
+            echo "${title}" >> ${RESULT_FILE}
             wget --no-check-certificate --restrict-file-names=nocontrol --trust-server-names --content-disposition "${link}" -P "${DOWNLOAD_DIR}" > /dev/null
+            echo "${EPNUM} ${NAME}" >> ${LIST_TEMP}
           fi
         fi
       fi
+    else
+      echo "${EP_NUMS[${cnt2}]} ${NAME}" >> ${LIST_TEMP}
     fi
     (( cnt2++ ))
   done
