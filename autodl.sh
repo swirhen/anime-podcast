@@ -5,7 +5,7 @@ RSS_TEMP=${SCRIPT_DIR}/rss.temp
 RSS_XML=${SCRIPT_DIR}/rss.xml
 MODE=$1
 
-URI=https://www.nyaa.se/?page=search&cats=1_11&term=Ohys%7CLeopard&page=rss
+URI="https://www.nyaa.se/?page=search&cats=1_11&term=Ohys%7CLeopard&page=rss"
 
 curl -s -S "${URI}" > ${RSS_TEMP}
 xmllint --format ${RSS_TEMP} > ${RSS_XML}
