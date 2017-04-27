@@ -35,13 +35,13 @@ do
   cnt2=1
   while :
   do
-    title=`echo "cat /rss/channel/item[${cnt}]" | xmllint --shell "${RSS_XML}" | grep title | sed "s#<title>\(.*\)</title>#\1#" | sed "s/^      //"`
+    title=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep title | sed "s#<title>\(.*\)</title>#\1#" | sed "s/^      //"`
     # feed end
     if [ "${title}" = "" ]; then
       break
     fi
 
-    link=`echo "cat /rss/channel/item[${cnt}]" | xmllint --shell "${RSS_XML}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
+    link=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
 
     # fetch
     if [ "`echo \"${title}\" | grep \"${NAME}\"`" != "" ]; then
