@@ -27,8 +27,22 @@ do
   fi
 
   link=`echo "cat /rss/channel/item[${cnt}]" | xmllint --shell "${RSS_XML}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
-  echo "cnt:${cnt}"
-  echo "title:${title}"
-  echo "link:${link}"
+#  echo "cnt:${cnt}"
+#  echo "title:${title}"
+#  echo "link:${link}"
+  cnt2=0
+  for NAME in "${NAMES[@]}"
+  do
+    if [ "`echo ${title} | grep \"${NAME}\"`" != "" ]; then
+      echo "hit! ${title}"
+      EPNUM_KETA=${#EP_NUMS[${cnt2}]}
+      EPNUM=`echo "${title}" | sed "s/.*${NAME} \([0-9]{2,3}\) .*/\1/"`
+      if [ "${EPNUM}" -gt "${EP_NUMS[${snt2}]}" ]; then
+        echo "新しい話数がある: ${EPNUM} (比較対象: ${EP_NUMS[${snt2}]}"
+        echo "link: ${link}"
+      fi
+    fi
+    (( cnt2++ ))
+  done
   (( cnt++ ))
 done
