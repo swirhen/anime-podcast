@@ -81,3 +81,11 @@ do
   (( cnt++ ))
 done
 cp -p ${LIST_TEMP} ${LIST_FILE}
+
+if [ -s ${RESULT_FILE} ]; then
+    python /home/swirhen/sh/slackbot/swirhentv/post.py "bot-sandbox" "@here swirhen.tv auto downloader
+    \`\`\`
+    download seeds:
+    `cat ${RESULT_FILE}`
+    \`\`\`"
+fi
