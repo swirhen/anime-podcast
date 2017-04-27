@@ -36,14 +36,27 @@ do
   cnt2=0
   for NAME in "${NAMES[@]}"
   do
-    if [ "`echo ${title} | grep \"${NAME}\"`" != "" ]; then
+    if [ "`echo \"${title}\" | grep \"${NAME}\"`" != "" ]; then
       echo "hit! ${title}"
       EPNUM_KETA=${#EP_NUMS[${cnt2}]}
       EPNUM=`echo "${title}" | sed "s/.*${NAME}.* \([0-9]\{2,3\}\) .*/\1/"`
       if [ "${EPNUM}" -gt "${EP_NUMS[${cnt2}]}" ]; then
         echo "新しい話数: ${EPNUM} (比較対象: ${EP_NUMS[${cnt2}]}"
-        echo "download link: ${link}"
-        wget --no-check-certificate --restrict-file-names=nocontrol --trust-server-names --content-disposition "${link}" -P "${DOWNLOAD_DIR}"
+        # Leopard優先
+        if [ `echo "${title}" | grep "Leopard"` != "" ]; then
+          if [ `ls ${DOWNLOAD_DIR}/*Ohys*"${NAME}"*.torrent | wc -l` -eq 1 ]; then
+            rm -f ${DOWNLOAD_DIR}/*Ohys*"${NAME}"*.torrent
+          fi
+          if [ `ls ${DOWNLOAD_DIR}/*Leopard*"${NAME}"*.torrent | wc -l` -eq 0 ]; then
+            echo "download link: ${link}"
+            wget --no-check-certificate --restrict-file-names=nocontrol --trust-server-names --content-disposition "${link}" -P "${DOWNLOAD_DIR}"
+          fi
+        else
+          if [ `ls ${DOWNLOAD_DIR}/*Ohys*"${NAME}"*.torrent | wc -l` -eq 0 ]; then
+            echo "download link: ${link}"
+            wget --no-check-certificate --restrict-file-names=nocontrol --trust-server-names --content-disposition "${link}" -P "${DOWNLOAD_DIR}"
+          fi
+        fi
       fi
     fi
     (( cnt2++ ))
