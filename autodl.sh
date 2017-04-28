@@ -31,10 +31,6 @@ do
   fi
 done < ${LIST_FILE}
 
-echo "lastupds: ${LAST_UPDS[@]}"
-echo "epnums: ${EP_NUMS[@]}"
-echo "names: ${NAMES[@]}"
-
 echo "Last Update: ${DATETIME}" > ${LIST_TEMP}
 
 # search
