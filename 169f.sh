@@ -23,7 +23,8 @@ do
     /data/share/movie/sh/mmpc3.sh
     /data/share/movie/sh/mmv.sh "$a"
     sleep 3
-    /home/swirhen/tiasock/tiasock_swirhentv.sh "【publish】$a.mp4"
+    /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【publish】$a.mp4"
+    python /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【publish】$a.mp4"
   fi
 done
 )
