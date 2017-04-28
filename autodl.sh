@@ -85,7 +85,7 @@ do
   (( cnt++ ))
 done
 
-if [ "${POST_FLG}" != "1" ]; then
+if [ "${POST_FLG}" = "1" ]; then
   if [ -s ${RESULT_FILE} ]; then
     python /home/swirhen/sh/slackbot/swirhentv/post.py "${CHANNEL}" "@here swirhen.tv auto download completed.
   \`\`\`
