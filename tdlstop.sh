@@ -1,8 +1,7 @@
 # /bin/sh
 # @author swirhen
 # aria2cでダウンロードを仕掛けたtorrentシードの状態を監視して終わったら止める。
-# tw.py(http://handasse.blogspot.com/2009/09/pythontwitter.html)
-# を使って終わったことをtwitterに報告する
+# tiarra socketでtwitterに報告
 # usage:tdlstop.sh [port number]
 EXT=aria2
 date=`date '+%y/%m/%d %H:%M:%S'`
@@ -29,21 +28,9 @@ do
       exit
     else
       echo -e "\n### watching aria2c(port=$1) end###"
-      /home/swirhen/tiasock/tiasock_swirhentv.sh "@swirhen 栽培完了:$date 開始のファイル: $file"
+      /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2"  "@swirhen 栽培完了:$date 開始のファイル: $file"
       exit
     fi
-#  else
-#    if [ `ls *.${EXT} 2>/dev/null | wc -l` -gt 0  ]; then
-#      echo "\n### watching aria2c(port=$1) ###"
-#      sleep 5
-#    else
-#      kill $pid
-#      sleep 2
-#      kill $pid
-#      echo "\n### watching aria2c(port=$1) end###"
-#      /data/share/movie/tw.py "@swirhen 栽培完了:$date 開始のファイル: $file"
-#      exit
-#    fi
   else
     echo -e "\n### watching aria2c(port=$1) ###"
     sleep 5
