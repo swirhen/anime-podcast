@@ -91,3 +91,7 @@ download seeds:
 else
   python /home/swirhen/sh/slackbot/swirhentv/post.py "bot-sandbox" "swirhen.tv auto download completed. (no new episode)"
 fi
+
+cd /data/share/movie/sh
+git commit -m 'checklist.temp update`' ${LIST_TEMP}
+git push origin master
