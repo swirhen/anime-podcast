@@ -7,8 +7,12 @@ RSS_TEMP=${SCRIPT_DIR}/rss.temp
 RSS_XML=${SCRIPT_DIR}/rss.xml
 RESULT_FILE=${SCRIPT_DIR}/autodl.result
 DATETIME=`date "+%Y/%m/%d %H:%M:%S"`
-MODE=$1
 URI="https://www.nyaa.se/?page=search&cats=1_11&term=Ohys%7CLeopard&page=rss"
+CHANNEL="bot-sandbox"
+POST_FLG=1
+if [ "$1" != "" ]; then
+  POST_FLG=0
+fi
 
 rm -f ${RESULT_FILE}
 
@@ -17,7 +21,7 @@ xmllint --format ${RSS_TEMP} > ${RSS_XML}
 
 EP_NUMS=()
 NAMES=()
-while read EP_NUM NAME
+while read DUMMY EP_NUM NAME
 do
   if [ "${EP_NUM}" != "Last" ]; then
     EP_NUMS+=( "${EP_NUM}" )
@@ -74,24 +78,27 @@ do
     (( cnt2++ ))
   done
   if [ "${hit_flg}" = "1" ]; then
-    echo "${EPNUM} ${NAME}" >> ${LIST_TEMP}
+    echo "${DATETIME} ${EPNUM} ${NAME}" >> ${LIST_TEMP}
   else
-    echo "${EP_NUMS[${cnt}]} ${NAME}" >> ${LIST_TEMP}
+    echo "${DATETIME} ${EP_NUMS[${cnt}]} ${NAME}" >> ${LIST_TEMP}
   fi
   (( cnt++ ))
 done
-cp -p ${LIST_TEMP} ${LIST_FILE}
 
-if [ -s ${RESULT_FILE} ]; then
-  python /home/swirhen/sh/slackbot/swirhentv/post.py "bot-sandbox" "@here swirhen.tv auto download completed.
-\`\`\`
-download seeds:
-`cat ${RESULT_FILE}`
-\`\`\`"
-else
-  python /home/swirhen/sh/slackbot/swirhentv/post.py "bot-sandbox" "swirhen.tv auto download completed. (no new episode)"
+if [ "${POST_FLG}" != "1" ]; then
+  if [ -s ${RESULT_FILE} ]; then
+    python /home/swirhen/sh/slackbot/swirhentv/post.py "${CHANNEL}" "@here swirhen.tv auto download completed.
+  \`\`\`
+  download seeds:
+  `cat ${RESULT_FILE}`
+  \`\`\`"
+  else
+    python /home/swirhen/sh/slackbot/swirhentv/post.py "${CHANNEL}" "swirhen.tv auto download completed. (no new episode)"
+  fi
 fi
 
 cd /data/share/movie/sh
-git commit -m 'checklist.temp update`' ${LIST_TEMP}
+cp -p ${LIST_TEMP} ${LIST_FILE}
+cp -p ${LIST_FILE} .
+git commit -m 'checklist.txt update' checklist.txt
 git push origin master
