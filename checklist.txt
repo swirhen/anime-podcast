@@ -1,11 +1,3 @@
-Last Update: 2017/04/28-22:18:43
-n/a 03 Hinako Note
-n/a 02 Saenai Heroine no Sodatekata Flat
-n/a 03 Fukumenkei Noise
-n/a 03 Eromanga Sensei
-n/a 02 Sword Oratoria
-n/a 02 Nanatsu no Taizai
-n/a 02 Atom The Beginning
 n/a 80 Himitsu no Cocotama
 n/a 54 Aikatsu Stars
 n/a 29 Digimon Universe
@@ -42,3 +34,11 @@ n/a 03 Re.Creators
 n/a 03 Natsume Yuujinchou Roku
 n/a 03 Ise Kanegasaki Hen
 n/a 03 ID-0
+n/a 03 Fukumenkei Noise
+n/a 03 Eromanga Sensei
+n/a 02 Sword Oratoria
+n/a 02 Nanatsu no Taizai
+n/a 02 Atom The Beginning
+Last Update: 2017/04/28-22:24:52
+2017/04/28-22:24:52 04 Hinako Note
+2017/04/28-22:24:52 03 Saenai Heroine no Sodatekata Flat
