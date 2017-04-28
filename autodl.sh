@@ -19,11 +19,13 @@ rm -f ${RESULT_FILE}
 curl -s -S "${URI}" > ${RSS_TEMP}
 xmllint --format ${RSS_TEMP} > ${RSS_XML}
 
+LAST_UPDS=()
 EP_NUMS=()
 NAMES=()
-while read DUMMY EP_NUM NAME
+while read LAST_UPD EP_NUM NAME
 do
-  if [ "${DUMMY}" != "Last" ]; then
+  if [ "${LAST_UPD}" != "Last" ]; then
+    LAST_UPDS+=( "${LAST_UPD}" )
     EP_NUMS+=( "${EP_NUM}" )
     NAMES+=( "${NAME}" )
   fi
@@ -80,7 +82,7 @@ do
   if [ "${hit_flg}" = "1" ]; then
     echo "${DATETIME} ${EPNUM} ${NAME}" >> ${LIST_TEMP}
   else
-    echo "${DATETIME} ${EP_NUMS[${cnt}]} ${NAME}" >> ${LIST_TEMP}
+    echo "${LAST_UPDS[${cnt}]} ${EP_NUMS[${cnt}]} ${NAME}" >> ${LIST_TEMP}
   fi
   (( cnt++ ))
 done
