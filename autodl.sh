@@ -100,7 +100,7 @@ if [ "${POST_FLG}" = "1" ]; then
 fi
 
 cd /data/share/movie/sh
-cp -p ${LIST_TEMP} ${LIST_FILE}
+cat ${LIST_TEMP} | sort -r > ${LIST_FILE}
 cp -p ${LIST_FILE} .
 git commit -m 'checklist.txt update' checklist.txt
 git push origin master
