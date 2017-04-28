@@ -35,10 +35,10 @@ echo "Last Update: ${DATETIME}" > ${LIST_TEMP}
 
 # search
 cnt=0
-hit_flg=0
 for NAME in "${NAMES[@]}"
 do
   cnt2=1
+  hit_flg=0
   while :
   do
     title=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep title | sed "s#<title>\(.*\)</title>#\1#" | sed "s/^      //"`
