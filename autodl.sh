@@ -23,7 +23,7 @@ EP_NUMS=()
 NAMES=()
 while read DUMMY EP_NUM NAME
 do
-  if [ "${EP_NUM}" != "Last" ]; then
+  if [ "${DUMMY}" != "Last" ]; then
     EP_NUMS+=( "${EP_NUM}" )
     NAMES+=( "${NAME}" )
   fi
