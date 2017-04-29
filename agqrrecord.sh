@@ -14,6 +14,7 @@ offset=$2
 rectime=$3
 vidflg=$4
 recflg=$5
+PYTHON_PATH="/home/swirhen/.pythonbrew/pythons/Python-3.4.3/bin/python"
 # オフセット
 sleep $offset
 # 隔週対応
@@ -34,7 +35,7 @@ filename="/data/share/movie/98 PSP用/agqr/flv/""$dt"_"$name.flv"
 efilename="$dt"_"$name.flv"
 # つぶやく
 /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【超A&G自動保存開始】$efilename"
-python /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【超A&G自動保存開始】$efilename"
+${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【超A&G自動保存開始】$efilename"
 # 接続失敗対策、ファイルが生成されるまで処理を繰り返す
 until [ -s "$filename" ]
 do
@@ -66,4 +67,4 @@ fi
 /data/share/movie/sh/mmmpc3.sh agqr "超！A&G(+α)ローカル用"
 # つぶやく
 /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【超A&G自動保存終了】$efilename"
-python /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【超A&G自動保存終了】$efilename"
+${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【超A&G自動保存終了】$efilename"

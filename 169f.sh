@@ -3,6 +3,7 @@
 # 実行したディレクトリに存在するシリーズ系動画(*話*.mp4等)
 # をすべてエンコードし、フィードを更新、Twitterに告知する
 # usage 169f.sh [priority file]
+PYTHON_PATH="/home/swirhen/.pythonbrew/pythons/Python-3.4.3/bin/python"
 source /home/swirhen/.zshrc
 cd /data/share/movie
 (
@@ -24,7 +25,7 @@ do
     /data/share/movie/sh/mmv.sh "$a"
     sleep 3
     /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【publish】$a.mp4"
-    python /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【publish】$a.mp4"
+    ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【publish】$a.mp4"
   fi
 done
 )

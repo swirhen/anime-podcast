@@ -5,6 +5,7 @@
 # Install: wget swftools rtmpdump ffmpeg http://d.hatena.ne.jp/zariganitosh/20130120/radiko_recoding_again
 
 PATH=$PATH:/usr/local/bin
+PYTHON_PATH="/home/swirhen/.pythonbrew/pythons/Python-3.4.3/bin/python"
 VERSION=3.0.0.01
 
 # 使い方
@@ -187,7 +188,7 @@ if [ "$OPTION_a" = "TRUE" ]; then
 else
 # つぶやく
 /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【Radiko自動録音開始】${fname}"
-python /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【Radiko自動録音開始】${fname}"
+${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【Radiko自動録音開始】${fname}"
 
 #until [ -f "${output}" ];
 #do
@@ -213,7 +214,7 @@ rm -f "${output}"
 /home/swirhen/share/movie/sh/mmmpc2.sh agqr "超！A&G(+α)"
 # つぶやく
 /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【Radiko自動録音終了】${fname}"
-python /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【Radiko自動録音終了】${fname}"
+${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【Radiko自動録音終了】${fname}"
 fi
 
 rm -f auth1_fms_$$
