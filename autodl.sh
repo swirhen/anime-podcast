@@ -91,10 +91,10 @@ done
 if [ "${POST_FLG}" = "1" ]; then
   if [ -s ${RESULT_FILE} ]; then
     ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "${CHANNEL}" "@here swirhen.tv auto download completed.
-  \`\`\`
-  download seeds:
-  `cat ${RESULT_FILE}`
-  \`\`\`"
+\`\`\`
+download seeds:
+`cat ${RESULT_FILE}`
+\`\`\`"
   else
     ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "${CHANNEL}" "swirhen.tv auto download completed. (no new episode)"
   fi
