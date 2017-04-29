@@ -1,4 +1,8 @@
-Last Update: 2017/04/28-23:15:21
+Last Update: 2017/04/29-12:00:01
+2017/04/29-12:00:01 04 Shingeki no Bahamut
+2017/04/29-12:00:01 04 Seikaisuru Kado
+2017/04/29-12:00:01 03 Sword Oratoria
+2017/04/29-12:00:01 03 Nanatsu no Taizai
 2017/04/28-23:15:21 05 Berserk 2
 2017/04/28-23:04:53 04 Twin Angel Break
 2017/04/28-22:24:52 04 Hinako Note
@@ -31,14 +35,10 @@ Last Update: 2017/04/28-23:15:21
 0-n/a 03 Zero kara Hajimeru Mahou no Sho
 0-n/a 03 Uchouten Kazoku 2
 0-n/a 03 Shuumatsu Nani Shitemasuka
-0-n/a 03 Shingeki no Bahamut
-0-n/a 03 Seikaisuru Kado
 0-n/a 03 Re.Creators
 0-n/a 03 Natsume Yuujinchou Roku
 0-n/a 03 Ise Kanegasaki Hen
 0-n/a 03 ID-0
 0-n/a 03 Fukumenkei Noise
 0-n/a 03 Eromanga Sensei
-0-n/a 02 Sword Oratoria
-0-n/a 02 Nanatsu no Taizai
 0-n/a 02 Atom The Beginning
