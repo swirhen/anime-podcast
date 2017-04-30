@@ -1,4 +1,12 @@
-Last Update: 2017/04/29-12:00:01
+Last Update: 2017/04/30-12:00:01
+2017/04/30-12:00:01 30 Digimon Universe
+2017/04/30-12:00:01 05 Shingeki no Kyojin Season 2
+2017/04/30-12:00:01 05 Granblue Fantasy
+2017/04/30-12:00:01 05 Boku no Hero Academia 2
+2017/04/30-12:00:01 04 Re.Creators
+2017/04/30-12:00:01 04 Ise Kanegasaki Hen
+2017/04/30-12:00:01 04 Eromanga Sensei
+2017/04/30-12:00:01 03 Atom The Beginning
 2017/04/29-12:00:01 04 Shingeki no Bahamut
 2017/04/29-12:00:01 04 Seikaisuru Kado
 2017/04/29-12:00:01 03 Sword Oratoria
@@ -9,13 +17,12 @@ Last Update: 2017/04/29-12:00:01
 2017/04/28-22:24:52 03 Saenai Heroine no Sodatekata Flat
 0-n/a 80 Himitsu no Cocotama
 0-n/a 54 Aikatsu Stars
-0-n/a 29 Digimon Universe
 0-n/a 28 Tiger Mask W
 0-n/a 16 Little Witch Academia
+0-n/a 12 Zestiria - The X 2nd
 0-n/a 12 Kirakira Precure A La Mode
 0-n/a 04 Tsuki ga Kirei
 0-n/a 04 Tsugumomo
-0-n/a 04 Shingeki no Kyojin Season 2
 0-n/a 04 Sakura Quest
 0-n/a 04 Sagrada Reset
 0-n/a 04 Roku de Nashi Majutsu Koushi to Akashic Records
@@ -26,19 +33,13 @@ Last Update: 2017/04/29-12:00:01
 0-n/a 04 Idolmaster Cinderella Girls Gekijou
 0-n/a 04 Idol Time PriPara
 0-n/a 04 High School Star Musical 2
-0-n/a 04 Granblue Fantasy
 0-n/a 04 Frame Arms Girl
 0-n/a 04 Clockwork Planet
 0-n/a 04 Boukun
-0-n/a 04 Boku no Hero Academia 2
 0-n/a 04 Alice to Zouroku
 0-n/a 03 Zero kara Hajimeru Mahou no Sho
 0-n/a 03 Uchouten Kazoku 2
 0-n/a 03 Shuumatsu Nani Shitemasuka
-0-n/a 03 Re.Creators
 0-n/a 03 Natsume Yuujinchou Roku
-0-n/a 03 Ise Kanegasaki Hen
 0-n/a 03 ID-0
 0-n/a 03 Fukumenkei Noise
-0-n/a 03 Eromanga Sensei
-0-n/a 02 Atom The Beginning
