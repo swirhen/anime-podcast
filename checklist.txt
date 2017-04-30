@@ -1,4 +1,6 @@
-Last Update: 2017/04/30-12:00:01
+Last Update: 2017/04/30-16:56:55
+2017/04/30-16:56:55 29 Tiger Mask W
+2017/04/30-16:56:55 13 Zestiria - The X 2nd
 2017/04/30-12:00:01 30 Digimon Universe
 2017/04/30-12:00:01 05 Shingeki no Kyojin Season 2
 2017/04/30-12:00:01 05 Granblue Fantasy
@@ -17,9 +19,7 @@ Last Update: 2017/04/30-12:00:01
 2017/04/28-22:24:52 03 Saenai Heroine no Sodatekata Flat
 0-n/a 80 Himitsu no Cocotama
 0-n/a 54 Aikatsu Stars
-0-n/a 28 Tiger Mask W
 0-n/a 16 Little Witch Academia
-0-n/a 12 Zestiria - The X 2nd
 0-n/a 12 Kirakira Precure A La Mode
 0-n/a 04 Tsuki ga Kirei
 0-n/a 04 Tsugumomo
