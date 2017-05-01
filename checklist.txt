@@ -1,4 +1,10 @@
-Last Update: 2017/04/30-16:56:55
+Last Update: 2017/05/01-12:00:01
+2017/05/01-12:00:01 17 Little Witch Academia
+2017/05/01-12:00:01 13 Kirakira Precure A La Mode
+2017/05/01-12:00:01 05 Tsugumomo
+2017/05/01-12:00:01 05 Alice to Zouroku
+2017/05/01-12:00:01 04 Uchouten Kazoku 2
+2017/05/01-12:00:01 04 ID-0
 2017/04/30-16:56:55 29 Tiger Mask W
 2017/04/30-16:56:55 13 Zestiria - The X 2nd
 2017/04/30-12:00:01 30 Digimon Universe
@@ -19,10 +25,7 @@ Last Update: 2017/04/30-16:56:55
 2017/04/28-22:24:52 03 Saenai Heroine no Sodatekata Flat
 0-n/a 80 Himitsu no Cocotama
 0-n/a 54 Aikatsu Stars
-0-n/a 16 Little Witch Academia
-0-n/a 12 Kirakira Precure A La Mode
 0-n/a 04 Tsuki ga Kirei
-0-n/a 04 Tsugumomo
 0-n/a 04 Sakura Quest
 0-n/a 04 Sagrada Reset
 0-n/a 04 Roku de Nashi Majutsu Koushi to Akashic Records
@@ -36,10 +39,7 @@ Last Update: 2017/04/30-16:56:55
 0-n/a 04 Frame Arms Girl
 0-n/a 04 Clockwork Planet
 0-n/a 04 Boukun
-0-n/a 04 Alice to Zouroku
 0-n/a 03 Zero kara Hajimeru Mahou no Sho
-0-n/a 03 Uchouten Kazoku 2
 0-n/a 03 Shuumatsu Nani Shitemasuka
 0-n/a 03 Natsume Yuujinchou Roku
-0-n/a 03 ID-0
 0-n/a 03 Fukumenkei Noise
