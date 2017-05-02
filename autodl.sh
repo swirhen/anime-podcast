@@ -7,7 +7,8 @@ RSS_TEMP=${SCRIPT_DIR}/rss.temp
 RSS_XML=${SCRIPT_DIR}/rss.xml
 RESULT_FILE=${SCRIPT_DIR}/autodl.result
 DATETIME=`date "+%Y/%m/%d-%H:%M:%S"`
-URI="https://www.nyaa.se/?page=search&cats=1_11&term=Ohys%7CLeopard&page=rss"
+#URI="https://www.nyaa.se/?page=search&cats=1_11&term=Ohys%7CLeopard&page=rss"
+URI="http://jp.leopard-raws.org/rss.php"
 PYTHON_PATH="/home/swirhen/.pythonbrew/pythons/Python-3.4.3/bin/python"
 CHANNEL="bot-sandbox"
 POST_FLG=1
