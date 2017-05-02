@@ -1,4 +1,7 @@
-Last Update: 2017/05/02-16:13:35
+Last Update: 2017/05/02-22:46:00
+2017/05/02-22:46:00 05 High School Star Musical 2
+2017/05/02-22:46:00 05 Frame Arms Girl
+2017/05/02-22:46:00 04 Zero kara Hajimeru Mahou no Sho
 2017/05/01-12:00:01 17 Little Witch Academia
 2017/05/01-12:00:01 13 Kirakira Precure A La Mode
 2017/05/01-12:00:01 05 Tsugumomo
@@ -35,11 +38,8 @@ Last Update: 2017/05/02-16:13:35
 0-n/a 04 Kabukibu
 0-n/a 04 Idolmaster Cinderella Girls Gekijou
 0-n/a 04 Idol Time PriPara
-0-n/a 04 High School Star Musical 2
-0-n/a 04 Frame Arms Girl
 0-n/a 04 Clockwork Planet
 0-n/a 04 Boukun
-0-n/a 03 Zero kara Hajimeru Mahou no Sho
 0-n/a 03 Shuumatsu Nani Shitemasuka
 0-n/a 03 Natsume Yuujinchou Roku
 0-n/a 03 Fukumenkei Noise
