@@ -1,4 +1,7 @@
-Last Update: 2017/05/04-12:00:01
+Last Update: 2017/05/04-18:00:01
+2017/05/04-18:00:01 05 Sakura Quest
+2017/05/04-18:00:01 05 Sagrada Reset
+2017/05/04-18:00:01 05 Machiavellianism
 2017/05/04-06:00:01 05 Love Rice
 2017/05/03-18:00:01 05 Oushitsu Kyoushi Haine
 2017/05/03-18:00:01 04 Natsume Yuujinchou Roku
@@ -37,9 +40,6 @@ Last Update: 2017/05/04-12:00:01
 0-n/a 80 Himitsu no Cocotama
 0-n/a 54 Aikatsu Stars
 0-n/a 04 Tsuki ga Kirei
-0-n/a 04 Sakura Quest
-0-n/a 04 Sagrada Reset
-0-n/a 04 Machiavellianism
 0-n/a 04 Kabukibu
 0-n/a 04 Clockwork Planet
 0-n/a 04 Boukun
