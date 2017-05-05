@@ -1,4 +1,7 @@
-Last Update: 2017/05/05-12:00:01
+Last Update: 2017/05/05-18:00:01
+2017/05/05-18:00:01 81 Himitsu no Cocotama
+2017/05/05-18:00:01 55 Aikatsu Stars
+2017/05/05-18:00:01 04 Saenai Heroine no Sodatekata Flat
 2017/05/04-18:00:01 05 Sakura Quest
 2017/05/04-18:00:01 05 Sagrada Reset
 2017/05/04-18:00:01 05 Machiavellianism
@@ -36,9 +39,6 @@ Last Update: 2017/05/05-12:00:01
 2017/04/28-23:15:21 05 Berserk 2
 2017/04/28-23:04:53 04 Twin Angel Break
 2017/04/28-22:24:52 04 Hinako Note
-2017/04/28-22:24:52 03 Saenai Heroine no Sodatekata Flat
-0-n/a 80 Himitsu no Cocotama
-0-n/a 54 Aikatsu Stars
 0-n/a 04 Tsuki ga Kirei
 0-n/a 04 Kabukibu
 0-n/a 04 Clockwork Planet
