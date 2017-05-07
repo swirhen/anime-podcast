@@ -1,4 +1,10 @@
-Last Update: 2017/05/08-00:30:10
+Last Update: 2017/05/08-06:00:01
+2017/05/08-06:00:01 30 Tiger Mask W
+2017/05/08-06:00:01 18 Little Witch Academia
+2017/05/08-06:00:01 14 Kirakira Precure A La Mode
+2017/05/08-06:00:01 06 Granblue Fantasy
+2017/05/08-06:00:01 05 Re.Creators
+2017/05/08-06:00:01 05 Eromanga Sensei
 2017/05/07-22:30:22 06 Shingeki no Kyojin Season 2
 2017/05/07-06:00:02 31 Digimon Universe
 2017/05/07-06:00:02 06 Boku no Hero Academia 2
@@ -31,15 +37,9 @@ Last Update: 2017/05/08-00:30:10
 2017/05/02-22:46:00 05 High School Star Musical 2
 2017/05/02-22:46:00 05 Frame Arms Girl
 2017/05/02-22:46:00 04 Zero kara Hajimeru Mahou no Sho
-2017/05/01-12:00:01 17 Little Witch Academia
-2017/05/01-12:00:01 13 Kirakira Precure A La Mode
 2017/05/01-12:00:01 05 Tsugumomo
 2017/05/01-12:00:01 05 Alice to Zouroku
 2017/05/01-12:00:01 04 Uchouten Kazoku 2
 2017/05/01-12:00:01 04 ID-0
-2017/04/30-16:56:55 29 Tiger Mask W
 2017/04/30-16:56:55 13 Zestiria - The X 2nd
-2017/04/30-12:00:01 05 Granblue Fantasy
-2017/04/30-12:00:01 04 Re.Creators
-2017/04/30-12:00:01 04 Eromanga Sensei
 2017/04/30-12:00:01 03 Atom The Beginning
