@@ -1,4 +1,5 @@
-Last Update: 2017/05/08-06:00:01
+Last Update: 2017/05/08-12:00:01
+2017/05/08-12:00:01 06 Tsugumomo
 2017/05/08-06:00:01 30 Tiger Mask W
 2017/05/08-06:00:01 18 Little Witch Academia
 2017/05/08-06:00:01 14 Kirakira Precure A La Mode
@@ -37,7 +38,6 @@ Last Update: 2017/05/08-06:00:01
 2017/05/02-22:46:00 05 High School Star Musical 2
 2017/05/02-22:46:00 05 Frame Arms Girl
 2017/05/02-22:46:00 04 Zero kara Hajimeru Mahou no Sho
-2017/05/01-12:00:01 05 Tsugumomo
 2017/05/01-12:00:01 05 Alice to Zouroku
 2017/05/01-12:00:01 04 Uchouten Kazoku 2
 2017/05/01-12:00:01 04 ID-0
