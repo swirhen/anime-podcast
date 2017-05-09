@@ -105,4 +105,5 @@ cd /data/share/movie/sh
 cat ${LIST_TEMP} | sort -r > ${LIST_FILE}
 cp -p ${LIST_FILE} .
 git commit -m 'checklist.txt update' checklist.txt
+git pull
 git push origin master
