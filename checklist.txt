@@ -1,4 +1,8 @@
-Last Update: 2017/05/10-12:00:01
+Last Update: 2017/05/10-18:00:01
+2017/05/10-18:00:01 06 Oushitsu Kyoushi Haine
+2017/05/10-18:00:01 06 Idolmaster Cinderella Girls Gekijou
+2017/05/10-18:00:01 05 Shuumatsu Nani Shitemasuka
+2017/05/10-18:00:01 05 Natsume Yuujinchou Roku
 2017/05/10-06:00:01 06 Roku de Nashi Majutsu Koushi to Akashic Records
 2017/05/10-06:00:01 06 Idol Time PriPara
 2017/05/10-06:00:01 05 Fukumenkei Noise
@@ -37,8 +41,4 @@ Last Update: 2017/05/10-12:00:01
 2017/05/04-18:00:01 05 Sagrada Reset
 2017/05/04-18:00:01 05 Machiavellianism
 2017/05/04-06:00:01 05 Love Rice
-2017/05/03-18:00:01 05 Oushitsu Kyoushi Haine
-2017/05/03-18:00:01 04 Natsume Yuujinchou Roku
-2017/05/03-06:54:40 05 Idolmaster Cinderella Girls Gekijou
-2017/05/03-06:54:40 04 Shuumatsu Nani Shitemasuka
 2017/05/01-12:00:01 05 Alice to Zouroku
