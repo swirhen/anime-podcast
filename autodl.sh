@@ -63,7 +63,7 @@ do
       EPNUM_OLD_N=${EP_NUMS[${cnt}]}
       if [ "${#EPNUM_OLD_N}" -gt 3 ]; then
         EPNUM_OLD_N=$(( ${EPNUM_OLD_N%.*} + 1 ))
-      if
+      fi
       if [ "${EPNUM_N}" -gt "${EPNUM_OLD_N}" ]; then
         echo "new episode: ${EPNUM} (local: ${EP_NUMS[${cnt}]})"
         hit_flg=1
