@@ -60,7 +60,11 @@ do
         EPNUM=`echo "${title}" | sed "s/.*${NAME}.* \([0-9]\{2,3\}.5\) .*/\1/"`
         EPNUM_N=$(( ${EPNUM%.*} + 1 ))
       fi
-      if [ "${EPNUM_N}" -gt "${EP_NUMS[${cnt}]%.*}" ]; then
+      EPNUM_OLD_N=${EP_NUMS[${cnt}]}
+      if [ "${#EPNUM_OLD_N}" -gt 3 ]; then
+        EPNUM_OLD_N=$(( ${EPNUM_OLD_N%.*} + 1 ))
+      if
+      if [ "${EPNUM_N}" -gt "${EPNUM_OLD_N}" ]; then
         echo "new episode: ${EPNUM} (local: ${EP_NUMS[${cnt}]})"
         hit_flg=1
         # Leopard優先
