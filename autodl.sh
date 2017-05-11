@@ -55,7 +55,12 @@ do
     if [ "`echo \"${title}\" | grep \"${NAME}\"`" != "" ]; then
       echo "hit! ${title}"
       EPNUM=`echo "${title}" | sed "s/.*${NAME}.* \([0-9]\{2,3\}\) .*/\1/"`
-      if [ "${EPNUM}" -gt "${EP_NUMS[${cnt}]}" ]; then
+      EPNUM_N=${EPNUM}
+      if [ "${EPNUM}" = "" ]; then
+        EPNUM=`echo "${title}" | sed "s/.*${NAME}.* \([0-9]\{2,3\}\).5 .*/\1/"`
+        EPNUM_N=$(( ${EPNUM%.*} + 1 ))
+      fi
+      if [ "${EPNUM_N}" -gt "${EP_NUMS[${cnt}]}" ]; then
         echo "new episode: ${EPNUM} (local: ${EP_NUMS[${cnt}]})"
         hit_flg=1
         # Leopard優先
