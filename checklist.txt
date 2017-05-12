@@ -1,4 +1,8 @@
-Last Update: 2017/05/12-12:00:01
+Last Update: 2017/05/12-18:00:01
+2017/05/12-18:00:01 56 Aikatsu Stars
+2017/05/12-18:00:01 06 Kabukibu
+2017/05/12-18:00:01 06 Clockwork Planet
+2017/05/12-18:00:01 06 Boukun
 2017/05/12-06:00:01 82 Himitsu no Cocotama
 2017/05/12-06:00:01 06 Tsuki ga Kirei
 2017/05/12-06:00:01 05 Saenai Heroine no Sodatekata Flat
@@ -37,8 +41,4 @@ Last Update: 2017/05/12-12:00:01
 2017/05/06-12:00:01 05 Seikaisuru Kado
 2017/05/06-12:00:01 05 Hinako Note
 2017/05/06-06:00:01 06 Berserk 2
-2017/05/06-06:00:01 05 Kabukibu
-2017/05/06-06:00:01 05 Clockwork Planet
-2017/05/06-06:00:01 05 Boukun
 2017/05/06-06:00:01 04 Sword Oratoria
-2017/05/05-18:00:01 55 Aikatsu Stars
