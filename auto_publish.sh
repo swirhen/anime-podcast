@@ -21,6 +21,12 @@ if [ "$1" != "" ]; then
   POST_FLG=0
 fi
 
+# 多重起動回避
+if [ "`ps -ef | grep $0 | grep -v grep`" != "" ]; then
+  echo "$0 processing..."
+  exit 0
+fi
+
 end() {
   rm -f ${LOG_FILE}
   exit 0
