@@ -22,6 +22,8 @@ if [ "$1" != "" ]; then
 fi
 
 # 多重起動回避
+ps -ef | grep $0 | grep -v grep
+ps -ef | grep $0 | grep -v grep | wc -l
 #if [ `ps -ef | grep $0 | grep -v grep | wc -l` -gt 1 ]; then
 #  echo "$0 processing..."
 #  exit 0
