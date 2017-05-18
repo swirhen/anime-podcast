@@ -28,7 +28,7 @@ fi
 #fi
 
 end() {
-  # rm -f ${LOG_FILE}
+  rm -f ${LOG_FILE}
   exit 0
 }
 
