@@ -22,7 +22,7 @@ if [ "$1" != "" ]; then
 fi
 
 # 多重起動回避
-if [ "`ps -ef | grep $0 | grep -v grep`" != "" ]; then
+if [ "`ps -ef | grep $0 | grep -v grep | wc -l`" -gt 1 ]; then
   echo "$0 processing..."
   exit 0
 fi
