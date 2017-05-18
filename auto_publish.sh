@@ -28,7 +28,7 @@ if [ "`ps -ef | grep $0 | grep -v grep`" != "" ]; then
 fi
 
 end() {
-  rm -f ${LOG_FILE}
+  # rm -f ${LOG_FILE}
   exit 0
 }
 
@@ -152,19 +152,24 @@ download seeds:
   fi
 fi
 
+cd /data/share/movie
 
 # torrent download
 logging "### torrent download start."
 
-/home/swirhen/sh/slackbot/swirhentv/tdl.sh
+/data/share/movie/sh/tdlstop.sh 38888 &
+/usr/bin/wine aria2c.exe --listen-port=38888 --max-upload-limit=200K --seed-ratio=0.01 --seed-time=1 *.torrent
 
 # movie file rename
 logging "### movie file  rename start."
 
-/home/swirhen/sh/slackbot/swirhentv/rmm.sh
+rm *.torrent
+/data/share/movie/sh/mre.sh
 
 # auto encode
 logging "### auto encode start."
+
+/data/share/movie/sh/169f.sh
 
 slack_post "swirhen.tv auto publish completed."
 sleep 1
