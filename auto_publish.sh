@@ -41,7 +41,7 @@ slack_post() {
 }
 
 slack_upload() {
-  /usr/bin/curl -F channels="${CHANNEL}" -F file="@$1" -F title="$2" -F token=`cat token` -F filetype=text https://slack.com/api/files.upload
+  /usr/bin/curl -F channels="${CHANNEL}" -F file="@$1" -F title="$2" -F token=`cat ${SCRIPT_DIR}/token` -F filetype=text https://slack.com/api/files.upload
 }
 
 # seed download
