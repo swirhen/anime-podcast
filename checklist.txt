@@ -1,4 +1,7 @@
-Last Update: 2017/05/20-00:00:01
+Last Update: 2017/05/20-06:00:01
+2017/05/20-06:00:01 08 Berserk 2
+2017/05/20-06:00:01 06.5 Seikaisuru Kado
+2017/05/20-06:00:01 06 Sword Oratoria
 2017/05/19-18:00:01 07 Kabukibu
 2017/05/19-18:00:01 07 Clockwork Planet
 2017/05/19-18:00:01 07 Boukun
@@ -35,10 +38,7 @@ Last Update: 2017/05/20-00:00:01
 2017/05/14-06:00:01 32 Digimon Universe
 2017/05/13-18:00:01 06 Twin Angel Break
 2017/05/13-18:00:01 06 Shingeki no Bahamut
-2017/05/13-18:00:01 06 Seikaisuru Kado
 2017/05/13-18:00:01 06 Ise Kanegasaki Hen
 2017/05/13-18:00:01 06 Hinako Note
 2017/05/13-18:00:01 05 Nanatsu no Taizai
-2017/05/13-06:00:01 07 Berserk 2
-2017/05/13-06:00:01 05 Sword Oratoria
 2017/05/11-13:30:03 05.5 Alice to Zouroku
