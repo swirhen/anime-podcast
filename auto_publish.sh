@@ -21,12 +21,6 @@ if [ "$1" != "" ]; then
   POST_FLG=0
 fi
 
-# 多重起動回避
-#if [ `ps -ef | grep $0 | grep -v grep | wc -l` -gt 1 ]; then
-#  echo "$0 processing..."
-#  exit 0
-#fi
-
 end() {
   rm -f ${LOG_FILE}
   exit 0
@@ -147,6 +141,7 @@ download seeds:
     slack_post "${post_msg}"
   else
     post_msg="swirhen.tv auto publish completed. (no new episode)"
+    logging "${post_msg}"
     slack_post "${post_msg}"
     end
   fi
@@ -165,6 +160,8 @@ logging "### movie file  rename start."
 
 rm *.torrent
 /data/share/movie/sh/mre.sh
+
+ls *.mp4 >> ${LOG_FILE}
 
 # auto encode
 logging "### auto encode start."
