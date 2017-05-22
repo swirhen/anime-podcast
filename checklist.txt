@@ -1,4 +1,5 @@
-Last Update: 2017/05/22-12:00:01
+Last Update: 2017/05/22-18:00:02
+2017/05/22-18:00:02 07 Uchouten Kazoku 2
 2017/05/22-00:00:01 16 Kirakira Precure A La Mode
 2017/05/21-18:00:01 32 Tiger Mask W
 2017/05/21-18:00:01 08 Shingeki no Kyojin Season 2
@@ -37,7 +38,6 @@ Last Update: 2017/05/22-12:00:01
 2017/05/16-06:00:01 19 Little Witch Academia
 2017/05/16-06:00:01 07 High School Star Musical 2
 2017/05/16-06:00:01 06 Zero kara Hajimeru Mahou no Sho
-2017/05/16-06:00:01 06 Uchouten Kazoku 2
 2017/05/15-18:00:01 07 Tsugumomo
 2017/05/15-18:00:01 06 ID-0
 2017/05/13-18:00:01 05 Nanatsu no Taizai
