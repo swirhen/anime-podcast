@@ -161,6 +161,7 @@ logging "### movie file  rename start."
 rm *.torrent
 /data/share/movie/sh/mre.sh
 
+logging "renamed movie files:"
 ls *.mp4 >> ${LOG_FILE}
 
 # auto encode
@@ -168,6 +169,7 @@ logging "### auto encode start."
 
 /data/share/movie/sh/169f.sh
 
+logging "### all process completed."
 slack_post "swirhen.tv auto publish completed."
 sleep 1
 slack_upload "${LOG_FILE}" "auto_publish_log_${DATETIME2}"
