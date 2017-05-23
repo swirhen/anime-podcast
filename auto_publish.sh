@@ -162,7 +162,7 @@ rm *.torrent
 /data/share/movie/sh/mre.sh
 
 logging "renamed movie files:"
-ls *.mp4 >> ${LOG_FILE}
+ls *話.mp4 >> ${LOG_FILE}
 
 # auto encode
 logging "### auto encode start."
