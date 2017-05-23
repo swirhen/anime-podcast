@@ -1,4 +1,5 @@
-Last Update: 2017/05/24-00:00:01
+Last Update: 2017/05/24-06:00:01
+2017/05/24-06:00:01 08 Idol Time PriPara
 2017/05/23-18:00:01 08 High School Star Musical 2
 2017/05/23-18:00:01 08 Frame Arms Girl
 2017/05/23-18:00:01 07 Zero kara Hajimeru Mahou no Sho
@@ -40,5 +41,4 @@ Last Update: 2017/05/24-00:00:01
 2017/05/17-18:00:02 06 Shuumatsu Nani Shitemasuka
 2017/05/17-18:00:02 06 Natsume Yuujinchou Roku
 2017/05/17-18:00:02 06 Fukumenkei Noise
-2017/05/17-06:00:01 07 Idol Time PriPara
 2017/05/13-18:00:01 05 Nanatsu no Taizai
