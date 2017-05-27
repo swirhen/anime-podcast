@@ -1,4 +1,8 @@
-Last Update: 2017/05/27-12:00:01
+Last Update: 2017/05/27-18:00:01
+2017/05/27-18:00:01 08 Twin Angel Break
+2017/05/27-18:00:01 08 Shingeki no Bahamut
+2017/05/27-18:00:01 08 Ise Kanegasaki Hen
+2017/05/27-18:00:01 08 Hinako Note
 2017/05/27-06:00:01 09 Berserk 2
 2017/05/27-06:00:01 07 Sword Oratoria
 2017/05/27-06:00:01 07 Seikaisuru Kado
@@ -37,8 +41,4 @@ Last Update: 2017/05/27-12:00:01
 2017/05/21-06:00:01 08 Boku no Hero Academia 2
 2017/05/21-06:00:01 07 Eromanga Sensei
 2017/05/21-06:00:01 06 Atom.*The Beginning
-2017/05/20-18:00:01 07 Twin Angel Break
-2017/05/20-18:00:01 07 Shingeki no Bahamut
-2017/05/20-18:00:01 07 Ise Kanegasaki Hen
-2017/05/20-18:00:01 07 Hinako Note
 2017/05/13-18:00:01 05 Nanatsu no Taizai
