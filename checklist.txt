@@ -1,4 +1,8 @@
-Last Update: 2017/06/01-12:00:01
+Last Update: 2017/06/01-18:00:01
+2017/06/01-18:00:01 09 Sakura Quest
+2017/06/01-18:00:01 09 Sagrada Reset
+2017/06/01-18:00:01 09 Machiavellianism
+2017/06/01-18:00:01 09 Love Rice
 2017/05/31-18:00:01 09 Roku de Nashi Majutsu Koushi to Akashic Records
 2017/05/31-18:00:01 09 Oushitsu Kyoushi Haine
 2017/05/31-18:00:01 08 Shuumatsu Nani Shitemasuka
@@ -36,9 +40,5 @@ Last Update: 2017/06/01-12:00:01
 2017/05/26-18:00:01 07 Saenai Heroine no Sodatekata Flat
 2017/05/26-06:00:01 84 Himitsu no Cocotama
 2017/05/26-06:00:01 58 Aikatsu Stars
-2017/05/26-06:00:01 08 Sakura Quest
-2017/05/26-06:00:01 08 Sagrada Reset
-2017/05/26-06:00:01 08 Machiavellianism
-2017/05/26-06:00:01 08 Love Rice
 2017/05/26-06:00:01 07 Tsuki ga Kirei
 2017/05/21-06:00:01 06 Atom.*The Beginning
