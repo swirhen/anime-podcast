@@ -1,4 +1,8 @@
-Last Update: 2017/06/02-12:00:01
+Last Update: 2017/06/02-18:00:01
+2017/06/02-18:00:01 09 Kabukibu
+2017/06/02-18:00:01 09 Clockwork Planet
+2017/06/02-18:00:01 08 Tsuki ga Kirei
+2017/06/02-18:00:01 08 Saenai Heroine no Sodatekata Flat
 2017/06/02-06:00:01 85 Himitsu no Cocotama
 2017/06/02-06:00:01 59 Aikatsu Stars
 2017/06/01-18:00:01 09 Sakura Quest
@@ -36,9 +40,5 @@ Last Update: 2017/06/02-12:00:01
 2017/05/27-06:00:01 09 Berserk 2
 2017/05/27-06:00:01 07 Sword Oratoria
 2017/05/27-06:00:01 07 Seikaisuru Kado
-2017/05/26-18:00:01 08 Kabukibu
-2017/05/26-18:00:01 08 Clockwork Planet
 2017/05/26-18:00:01 08 Boukun
-2017/05/26-18:00:01 07 Saenai Heroine no Sodatekata Flat
-2017/05/26-06:00:01 07 Tsuki ga Kirei
 2017/05/21-06:00:01 06 Atom.*The Beginning
