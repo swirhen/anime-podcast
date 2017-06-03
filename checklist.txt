@@ -1,4 +1,7 @@
-Last Update: 2017/06/04-00:00:01
+Last Update: 2017/06/04-06:00:01
+2017/06/04-06:00:01 35 Digimon Universe
+2017/06/04-06:00:01 10 Boku no Hero Academia 2
+2017/06/04-06:00:01 09 Eromanga Sensei
 2017/06/04-00:00:01 09 Twin Angel Break
 2017/06/04-00:00:01 09 Shingeki no Bahamut
 2017/06/04-00:00:01 09 Ise Kanegasaki Hen
@@ -34,6 +37,3 @@ Last Update: 2017/06/04-00:00:01
 2017/05/28-18:00:01 09 Granblue Fantasy
 2017/05/28-12:00:01 09 Shingeki no Kyojin Season 2
 2017/05/28-12:00:01 08 Re.Creators
-2017/05/28-12:00:01 08 Eromanga Sensei
-2017/05/28-06:00:02 09 Boku no Hero Academia 2
-2017/05/28-00:00:01 34 Digimon Universe
