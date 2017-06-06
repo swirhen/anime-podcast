@@ -1,4 +1,7 @@
-Last Update: 2017/06/06-06:00:01
+Last Update: 2017/06/06-12:00:01
+2017/06/06-12:00:01 10 High School Star Musical 2
+2017/06/06-12:00:01 10 Frame Arms Girl
+2017/06/06-12:00:01 09 Zero kara Hajimeru Mahou no Sho
 2017/06/06-00:00:01 22 Little Witch Academia
 2017/06/06-00:00:01 10 Tsugumomo
 2017/06/06-00:00:01 09 Uchouten Kazoku 2
@@ -34,6 +37,3 @@ Last Update: 2017/06/06-06:00:01
 2017/05/31-06:00:01 09 Idolmaster Cinderella Girls Gekijou
 2017/05/31-06:00:01 09 Idol Time PriPara
 2017/05/31-06:00:01 08 Fukumenkei Noise
-2017/05/30-18:00:01 09 Frame Arms Girl
-2017/05/30-18:00:01 08 Zero kara Hajimeru Mahou no Sho
-2017/05/30-06:00:01 09 High School Star Musical 2
