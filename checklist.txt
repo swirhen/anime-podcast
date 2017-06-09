@@ -1,4 +1,6 @@
-Last Update: 2017/06/09-18:00:01
+Last Update: 2017/06/10-00:00:01
+2017/06/10-00:00:01 10 Kabukibu
+2017/06/10-00:00:01 10 Clockwork Planet
 2017/06/09-12:00:01 86 Himitsu no Cocotama
 2017/06/09-12:00:01 60 Aikatsu Stars
 2017/06/09-12:00:01 09 Tsuki ga Kirei
@@ -35,5 +37,3 @@ Last Update: 2017/06/09-18:00:01
 2017/06/04-00:00:01 09 Ise Kanegasaki Hen
 2017/06/04-00:00:01 07 Nanatsu no Taizai
 2017/06/03-06:00:01 09 Hinako Note
-2017/06/02-18:00:01 09 Kabukibu
-2017/06/02-18:00:01 09 Clockwork Planet
