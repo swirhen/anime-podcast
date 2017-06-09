@@ -1,4 +1,8 @@
-Last Update: 2017/06/09-06:00:01
+Last Update: 2017/06/09-12:00:01
+2017/06/09-12:00:01 86 Himitsu no Cocotama
+2017/06/09-12:00:01 60 Aikatsu Stars
+2017/06/09-12:00:01 09 Tsuki ga Kirei
+2017/06/09-12:00:01 09 Saenai Heroine no Sodatekata Flat
 2017/06/08-12:00:01 10 Sakura Quest
 2017/06/08-12:00:01 10 Sagrada Reset
 2017/06/08-12:00:01 10 Machiavellianism
@@ -33,7 +37,3 @@ Last Update: 2017/06/09-06:00:01
 2017/06/03-06:00:01 09 Hinako Note
 2017/06/02-18:00:01 09 Kabukibu
 2017/06/02-18:00:01 09 Clockwork Planet
-2017/06/02-18:00:01 08 Tsuki ga Kirei
-2017/06/02-18:00:01 08 Saenai Heroine no Sodatekata Flat
-2017/06/02-06:00:01 85 Himitsu no Cocotama
-2017/06/02-06:00:01 59 Aikatsu Stars
