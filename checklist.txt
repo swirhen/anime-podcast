@@ -1,4 +1,7 @@
-Last Update: 2017/06/10-06:00:01
+Last Update: 2017/06/10-12:00:01
+2017/06/10-12:00:01 10 Twin Angel Break
+2017/06/10-12:00:01 10 Ise Kanegasaki Hen
+2017/06/10-12:00:01 10 Hinako Note
 2017/06/10-00:00:01 10 Kabukibu
 2017/06/10-00:00:01 10 Clockwork Planet
 2017/06/09-12:00:01 86 Himitsu no Cocotama
@@ -32,8 +35,5 @@ Last Update: 2017/06/10-06:00:01
 2017/06/04-06:00:01 35 Digimon Universe
 2017/06/04-06:00:01 10 Boku no Hero Academia 2
 2017/06/04-06:00:01 09 Eromanga Sensei
-2017/06/04-00:00:01 09 Twin Angel Break
 2017/06/04-00:00:01 09 Shingeki no Bahamut
-2017/06/04-00:00:01 09 Ise Kanegasaki Hen
 2017/06/04-00:00:01 07 Nanatsu no Taizai
-2017/06/03-06:00:01 09 Hinako Note
