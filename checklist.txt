@@ -1,4 +1,6 @@
-Last Update: 2017/06/10-12:00:01
+Last Update: 2017/06/10-18:00:01
+2017/06/10-18:00:01 10 Shingeki no Bahamut
+2017/06/10-18:00:01 08 Nanatsu no Taizai
 2017/06/10-12:00:01 10 Twin Angel Break
 2017/06/10-12:00:01 10 Ise Kanegasaki Hen
 2017/06/10-12:00:01 10 Hinako Note
@@ -35,5 +37,3 @@ Last Update: 2017/06/10-12:00:01
 2017/06/04-06:00:01 35 Digimon Universe
 2017/06/04-06:00:01 10 Boku no Hero Academia 2
 2017/06/04-06:00:01 09 Eromanga Sensei
-2017/06/04-00:00:01 09 Shingeki no Bahamut
-2017/06/04-00:00:01 07 Nanatsu no Taizai
