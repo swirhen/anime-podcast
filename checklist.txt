@@ -1,4 +1,5 @@
-Last Update: 2017/06/19-00:00:01
+Last Update: 2017/06/19-06:00:01
+2017/06/19-06:00:01 11 Uchouten Kazoku 2
 2017/06/18-18:00:01 36 Tiger Mask W
 2017/06/18-12:00:01 12 Shingeki no Kyojin Season 2
 2017/06/18-12:00:01 12 Granblue Fantasy
@@ -33,7 +34,6 @@ Last Update: 2017/06/19-00:00:01
 2017/06/13-18:00:01 11 Frame Arms Girl
 2017/06/13-00:00:01 23 Little Witch Academia
 2017/06/13-00:00:01 11 Tsugumomo
-2017/06/13-00:00:01 10 Uchouten Kazoku 2
 2017/06/13-00:00:01 10 ID-0
 2017/06/13-00:00:01 10 Alice to Zouroku
 2017/06/12-00:00:01 19 Kirakira Precure A La Mode
