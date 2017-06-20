@@ -1,4 +1,7 @@
-Last Update: 2017/06/20-06:00:01
+Last Update: 2017/06/20-12:00:02
+2017/06/20-12:00:02 12 High School Star Musical 2
+2017/06/20-12:00:02 12 Frame Arms Girl
+2017/06/20-12:00:02 11 Zero kara Hajimeru Mahou no Sho
 2017/06/20-00:00:01 11 Alice to Zouroku
 2017/06/19-18:00:01 24 Little Witch Academia
 2017/06/19-18:00:01 12 Tsugumomo
@@ -31,9 +34,6 @@ Last Update: 2017/06/20-06:00:01
 2017/06/14-12:00:02 11 Roku de Nashi Majutsu Koushi to Akashic Records
 2017/06/14-12:00:02 11 Idolmaster Cinderella Girls Gekijou
 2017/06/14-12:00:02 11 Idol Time PriPara
-2017/06/14-12:00:02 10 Zero kara Hajimeru Mahou no Sho
 2017/06/14-12:00:02 10 Shuumatsu Nani Shitemasuka
 2017/06/14-12:00:02 10 Fukumenkei Noise
-2017/06/13-18:00:01 11 High School Star Musical 2
-2017/06/13-18:00:01 11 Frame Arms Girl
 2017/06/12-00:00:01 19 Kirakira Precure A La Mode
