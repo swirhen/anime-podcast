@@ -1,4 +1,8 @@
-Last Update: 2017/06/21-18:00:01
+Last Update: 2017/06/22-00:00:01
+2017/06/22-00:00:01 12 Roku de Nashi Majutsu Koushi to Akashic Records
+2017/06/22-00:00:01 12 Oushitsu Kyoushi Haine
+2017/06/22-00:00:01 11 Shuumatsu Nani Shitemasuka
+2017/06/22-00:00:01 11 Fukumenkei Noise
 2017/06/21-18:00:01 12 Idolmaster Cinderella Girls Gekijou
 2017/06/21-18:00:01 12 Idol Time PriPara
 2017/06/21-18:00:01 11 Natsume Yuujinchou Roku
@@ -32,8 +36,4 @@ Last Update: 2017/06/21-18:00:01
 2017/06/15-12:00:01 11 Sakura Quest
 2017/06/15-12:00:01 11 Sagrada Reset
 2017/06/15-12:00:01 11 Love Rice
-2017/06/15-00:00:01 11 Oushitsu Kyoushi Haine
-2017/06/14-12:00:02 11 Roku de Nashi Majutsu Koushi to Akashic Records
-2017/06/14-12:00:02 10 Shuumatsu Nani Shitemasuka
-2017/06/14-12:00:02 10 Fukumenkei Noise
 2017/06/12-00:00:01 19 Kirakira Precure A La Mode
