@@ -1,4 +1,10 @@
-Last Update: 2017/06/23-12:00:01
+Last Update: 2017/06/23-18:00:01
+2017/06/23-18:00:01 88 Himitsu no Cocotama
+2017/06/23-18:00:01 62 Aikatsu Stars
+2017/06/23-18:00:01 12 Kabukibu
+2017/06/23-18:00:01 12 Clockwork Planet
+2017/06/23-18:00:01 11 Tsuki ga Kirei
+2017/06/23-18:00:01 11 Saenai Heroine no Sodatekata Flat
 2017/06/22-18:00:01 12 Sakura Quest
 2017/06/22-18:00:01 12 Machiavellianism
 2017/06/22-06:00:01 12 Sagrada Reset
@@ -30,10 +36,4 @@ Last Update: 2017/06/23-12:00:01
 2017/06/17-18:00:01 11 Ise Kanegasaki Hen
 2017/06/17-18:00:01 11 Hinako Note
 2017/06/17-18:00:01 09 Nanatsu no Taizai
-2017/06/16-18:00:01 87 Himitsu no Cocotama
-2017/06/16-18:00:01 61 Aikatsu Stars
-2017/06/16-18:00:01 11 Kabukibu
-2017/06/16-18:00:01 11 Clockwork Planet
-2017/06/16-18:00:01 10 Tsuki ga Kirei
-2017/06/16-18:00:01 10 Saenai Heroine no Sodatekata Flat
 2017/06/12-00:00:01 19 Kirakira Precure A La Mode
