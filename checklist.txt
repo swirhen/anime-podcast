@@ -1,4 +1,6 @@
-Last Update: 2017/06/26-00:00:01
+Last Update: 2017/06/26-06:00:01
+2017/06/26-06:00:01 12 Uchouten Kazoku 2
+2017/06/26-06:00:01 12 ID-0
 2017/06/25-18:00:01 37 Tiger Mask W
 2017/06/25-06:00:01 13 Boku no Hero Academia 2
 2017/06/25-06:00:01 12 Re.Creators
@@ -31,5 +33,3 @@ Last Update: 2017/06/26-00:00:01
 2017/06/20-00:00:01 11 Alice to Zouroku
 2017/06/19-18:00:01 24 Little Witch Academia
 2017/06/19-18:00:01 12 Tsugumomo
-2017/06/19-18:00:01 11 ID-0
-2017/06/19-06:00:01 11 Uchouten Kazoku 2
