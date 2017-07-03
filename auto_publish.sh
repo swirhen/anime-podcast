@@ -69,7 +69,7 @@ do
   hit_flg=0
   while :
   do
-    title=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep title | sed "s#<title>\(.*\)</title>#\1#" | sed "s/^      //"`
+    title=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep title | sed "s#<title>\(.*mp4\)</title>#\1#" | sed "s/^      //"`
     # feed end
     if [ "${title}" = "" ]; then
       break
