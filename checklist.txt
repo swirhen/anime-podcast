@@ -1,4 +1,5 @@
-Last Update: 2017/07/06-00:00:01
+Last Update: 2017/07/06-06:00:01
+2017/07/06-06:00:01 14 Idol Time PriPara
 2017/07/05-12:00:01 01 Youkai Apartment no Yuuga na Nichijou
 2017/07/05-12:00:01 01 Senki Zesshou Symphogear AXZ
 2017/07/05-12:00:01 01 Koi to Uso
@@ -21,7 +22,6 @@ Last Update: 2017/07/06-00:00:01
 2017/06/30-18:00:01 63 Aikatsu Stars
 2017/06/29-18:00:01 13 Sakura Quest
 2017/06/29-18:00:01 13 Sagrada Reset
-2017/06/28-18:00:01 13 Idol Time PriPara
 2017/06/25-06:00:01 13 Boku no Hero Academia 2
 # 11 Atom - The Beginning
 # 0 Centaur no Nayami
