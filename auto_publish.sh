@@ -127,6 +127,9 @@ do
 done
 
 cd /data/share/movie/sh
+if [ `cat ${LIST_TEMP} | wc -l` -ne `cat ${LIST_FILE} | wc -l` ]; then
+  slack_post "@here !!! リスト行数が変化しました。 checklist.txt のコミットログを確認してください "
+fi
 cat ${LIST_TEMP} | sort -r > ${LIST_FILE}
 cp -p ${LIST_FILE} .
 git commit -m 'checklist.txt update' checklist.txt
