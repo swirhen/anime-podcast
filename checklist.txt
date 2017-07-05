@@ -23,5 +23,6 @@ Last Update: 2017/07/05-12:00:01
 2017/06/29-18:00:01 13 Sagrada Reset
 2017/06/28-18:00:01 13 Idol Time PriPara
 2017/06/25-06:00:01 13 Boku no Hero Academia 2
+# 11 Atom - The Beginning
 # 0 Centaur no Nayami
 # 0 Ballroom e Youkoso
