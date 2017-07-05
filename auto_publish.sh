@@ -22,7 +22,8 @@ if [ "$1" != "" ]; then
 fi
 
 end() {
-  rm -f ${LOG_FILE}
+#  rm -f ${LOG_FILE}
+  mv ${LOG_FILE} logs/
   exit 0
 }
 
