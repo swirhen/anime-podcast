@@ -1,4 +1,11 @@
-Last Update: 2017/07/05-06:00:01
+Last Update: 2017/07/05-12:00:01
+2017/07/05-12:00:01 01 Youkai Apartment no Yuuga na Nichijou
+2017/07/05-12:00:01 01 Senki Zesshou Symphogear AXZ
+2017/07/05-12:00:01 01 Koi to Uso
+2017/07/05-12:00:01 01 Katsugeki - Touken Ranbu
+2017/07/05-12:00:01 01 Isekai Shokudou
+2017/07/05-12:00:01 01 Fate - Apocrypha
+2017/07/05-12:00:01 01 Enmusubi no Youko-chan
 2017/07/05-06:00:01 01 Keppeki Danshi
 2017/07/04-00:00:01 01 Skirt no Naka wa Kedamono Deshita
 2017/07/04-00:00:01 01 Knight's
@@ -16,12 +23,5 @@ Last Update: 2017/07/05-06:00:01
 2017/06/29-18:00:01 13 Sagrada Reset
 2017/06/28-18:00:01 13 Idol Time PriPara
 2017/06/25-06:00:01 13 Boku no Hero Academia 2
-# 0 Youkai Apartment no Yuuga na Nichijou
-# 0 Isekai Shokudou
-# 0 Koi to Uso
-# 0 Katsugeki - Touken Ranbu
-# 0 Senki Zesshou Symphogear AXZ
-# 0 Fate - Apocrypha
-# 0 Enmusubi no Youko-chan
 # 0 Centaur no Nayami
 # 0 Ballroom e Youkoso
