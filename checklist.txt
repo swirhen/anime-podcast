@@ -1,4 +1,7 @@
-Last Update: 2017/07/06-06:00:01
+Last Update: 2017/07/06-12:00:01
+2017/07/06-12:00:01 01 Tsurezure Children
+2017/07/06-12:00:01 01 Nanamaru Sanbatsu
+2017/07/06-12:00:01 01 Aho Girl
 2017/07/06-06:00:01 14 Idol Time PriPara
 2017/07/05-12:00:01 01 Youkai Apartment no Yuuga na Nichijou
 2017/07/05-12:00:01 01 Senki Zesshou Symphogear AXZ
@@ -24,9 +27,6 @@ Last Update: 2017/07/06-06:00:01
 2017/06/29-18:00:01 13 Sagrada Reset
 2017/06/25-06:00:01 13 Boku no Hero Academia 2
 # 11 Atom - The Beginning
+# 0 Netsuzou Trap
 # 0 Centaur no Nayami
 # 0 Ballroom e Youkoso
-# 0 Nanamaru Sanbatsu
-# 0 Tsurezure Children
-# 0 Aho Girl
-# 0 Netsuzou Trap
