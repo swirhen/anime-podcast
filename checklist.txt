@@ -1,4 +1,10 @@
-Last Update: 2017/07/09-12:00:01
+Last Update: 2017/07/09-18:00:02
+2017/07/09-18:00:02 14 Sagrada Reset
+2017/07/09-18:00:02 14 Re.Creators
+2017/07/09-18:00:02 12 Atom - The Beginning
+2017/07/09-18:00:02 02 Katsugeki - Touken Ranbu
+2017/07/09-18:00:02 02 Hina Logi
+2017/07/09-18:00:02 02 Enmusubi no Youko-chan
 2017/07/09-06:00:01 14 Boku no Hero Academia 2
 2017/07/09-00:00:01 40 Digimon Universe
 2017/07/09-00:00:01 14 Ise Kanegasaki Hen
@@ -16,18 +22,12 @@ Last Update: 2017/07/09-12:00:01
 2017/07/05-12:00:01 01 Youkai Apartment no Yuuga na Nichijou
 2017/07/05-12:00:01 01 Senki Zesshou Symphogear AXZ
 2017/07/05-12:00:01 01 Koi to Uso
-2017/07/05-12:00:01 01 Katsugeki - Touken Ranbu
 2017/07/05-12:00:01 01 Isekai Shokudou
 2017/07/05-12:00:01 01 Fate - Apocrypha
-2017/07/05-12:00:01 01 Enmusubi no Youko-chan
 2017/07/05-06:00:01 01 Keppeki Danshi
 2017/07/04-00:00:01 01 Skirt no Naka wa Kedamono Deshita
 2017/07/04-00:00:01 01 Knight's
 2017/07/04-00:00:01 01 Kakegurui
-2017/07/04-00:00:01 01 Hina Logi
 2017/07/04-00:00:01 01 Battle Girl High School
-2017/07/02-06:00:01 13 Re.Creators
-2017/06/29-18:00:01 13 Sagrada Reset
-# 11 Atom - The Beginning
 # 0 Centaur no Nayami
 # 0 Ballroom e Youkoso
