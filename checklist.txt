@@ -38,3 +38,4 @@ Last Update: 2017/07/10-16:19:45
 # 01 Dive!
 # 0 Centaur no Nayami
 # 01 Action Heroine Cheer Fruits
+# 01 Konbini Kareshi
