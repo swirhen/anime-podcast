@@ -1,4 +1,6 @@
-Last Update: 2017/07/10-18:00:01
+Last Update: 2017/07/11-00:00:01
+2017/07/11-00:00:01 02 Battle Girl High School
+2017/07/11-00:00:01 01 Centaur no Nayami
 2017/07/10-16:19:45 01 Vatican Kiseki Chousakan
 2017/07/10-16:19:45 01 Shoukoku no Altair
 2017/07/10-16:19:45 01 Made in Abyss
@@ -33,9 +35,7 @@ Last Update: 2017/07/10-18:00:01
 2017/07/05-06:00:01 01 Keppeki Danshi
 2017/07/04-00:00:01 01 Skirt no Naka wa Kedamono Deshita
 2017/07/04-00:00:01 01 Knight's
-2017/07/04-00:00:01 01 Battle Girl High School
 # 01 Konbini Kareshi
 # 01 Dive!
 # 01 Action Heroine Cheer Fruits
-# 0 Centaur no Nayami
   
