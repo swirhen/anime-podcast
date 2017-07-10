@@ -1,4 +1,9 @@
-Last Update: 2017/07/10-12:00:02
+Last Update: 2017/07/10-16:19:45
+2017/07/10-16:19:45 01 Vatican Kiseki Chousakan
+2017/07/10-16:19:45 01 Shoukoku no Altair
+2017/07/10-16:19:45 01 Made in Abyss
+2017/07/10-16:19:45 01 Jikan no Shihaisha
+2017/07/10-16:19:45 01 18if
 2017/07/10-00:00:01 02 Senki Zesshou Symphogear AXZ
 2017/07/10-00:00:01 02 Kakegurui
 2017/07/10-00:00:01 02 Fate - Apocrypha
@@ -30,12 +35,6 @@ Last Update: 2017/07/10-12:00:02
 2017/07/04-00:00:01 01 Skirt no Naka wa Kedamono Deshita
 2017/07/04-00:00:01 01 Knight's
 2017/07/04-00:00:01 01 Battle Girl High School
-# 0 Centaur no Nayami
-# 0 Shoukoku no Altair
-# 0 Made in Abyss
-# 0 Jikan no Shihaisha
-# 0 Vatican Kiseki Chousakan
-# 0 18if
 # 0 Dive!
+# 0 Centaur no Nayami
 # 0 Action Heroine Cheer Fruits
-# 0 Konbini Kareshi
