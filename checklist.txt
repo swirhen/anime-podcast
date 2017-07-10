@@ -1,4 +1,4 @@
-Last Update: 2017/07/10-16:19:45
+Last Update: 2017/07/10-18:00:01
 2017/07/10-16:19:45 01 Vatican Kiseki Chousakan
 2017/07/10-16:19:45 01 Shoukoku no Altair
 2017/07/10-16:19:45 01 Made in Abyss
@@ -10,6 +10,7 @@ Last Update: 2017/07/10-16:19:45
 2017/07/10-00:00:01 01 Ballroom e Youkoso
 2017/07/09-18:00:02 14 Sagrada Reset
 2017/07/09-18:00:02 14 Re.Creators
+2017/07/09-18:00:02 12 Atom - The Beginning
 2017/07/09-18:00:02 02 Katsugeki - Touken Ranbu
 2017/07/09-18:00:02 02 Hina Logi
 2017/07/09-18:00:02 02 Enmusubi no Youko-chan
@@ -34,8 +35,8 @@ Last Update: 2017/07/10-16:19:45
 2017/07/04-00:00:01 01 Skirt no Naka wa Kedamono Deshita
 2017/07/04-00:00:01 01 Knight's
 2017/07/04-00:00:01 01 Battle Girl High School
-# 01 Dive!
-# 0 Centaur no Nayami
-# 01 Action Heroine Cheer Fruits
 # 01 Konbini Kareshi
-
+# 01 Dive!
+# 01 Action Heroine Cheer Fruits
+# 0 Centaur no Nayami
+  
