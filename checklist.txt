@@ -38,4 +38,7 @@ Last Update: 2017/07/11-12:00:01
 # 01 Konbini Kareshi
 # 01 Dive!
 # 01 Action Heroine Cheer Fruits
-  
+# 0 Tenshi no 3P
+# 0 Hitorijime My Hero
+# 0 Princess Principal
+
