@@ -23,7 +23,7 @@ fi
 
 end() {
 #  rm -f ${LOG_FILE}
-  mv ${LOG_FILE} logs/
+  mv ${LOG_FILE} ${SCRIPT_DIR}/logs/
   exit 0
 }
 
