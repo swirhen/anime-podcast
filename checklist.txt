@@ -41,4 +41,7 @@ Last Update: 2017/07/12-18:00:01
 # 01 Konbini Kareshi
 # 01 Dive!
 # 01 Action Heroine Cheer Fruits
+# 0 Isekai wa Smartphone to Tomo ni
+# 0 New Game
+# 0 Mahoujin Guru Guru
   
