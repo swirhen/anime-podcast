@@ -1,4 +1,7 @@
-Last Update: 2017/07/12-18:00:01
+Last Update: 2017/07/13-00:00:01
+2017/07/13-00:00:01 01 New Game
+2017/07/13-00:00:01 01 Mahoujin Guru Guru
+2017/07/13-00:00:01 01 Isekai wa Smartphone to Tomo ni
 2017/07/12-12:00:02 15 Idol Time PriPara
 2017/07/12-12:00:02 02 Tsurezure Children
 2017/07/12-12:00:02 02 Nanamaru Sanbatsu
@@ -41,7 +44,4 @@ Last Update: 2017/07/12-18:00:01
 # 01 Konbini Kareshi
 # 01 Dive!
 # 01 Action Heroine Cheer Fruits
-# 0 Isekai wa Smartphone to Tomo ni
-# 0 New Game
-# 0 Mahoujin Guru Guru
   
