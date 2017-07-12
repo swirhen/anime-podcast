@@ -1,4 +1,8 @@
-Last Update: 2017/07/12-06:00:01
+Last Update: 2017/07/12-12:00:02
+2017/07/12-12:00:02 15 Idol Time PriPara
+2017/07/12-12:00:02 02 Tsurezure Children
+2017/07/12-12:00:02 02 Nanamaru Sanbatsu
+2017/07/12-12:00:02 02 Aho Girl
 2017/07/11-18:00:01 02 Youkai Apartment no Yuuga na Nichijou
 2017/07/11-18:00:01 02 Keppeki Danshi
 2017/07/11-18:00:01 02 Isekai Shokudou
@@ -33,10 +37,6 @@ Last Update: 2017/07/12-06:00:01
 2017/07/07-12:00:01 01 Saiyuuki Reload Blast
 2017/07/07-00:00:01 01 Netsuzou Trap
 2017/07/06-18:00:01 14 Sakura Quest
-2017/07/06-12:00:01 01 Tsurezure Children
-2017/07/06-12:00:01 01 Nanamaru Sanbatsu
-2017/07/06-12:00:01 01 Aho Girl
-2017/07/06-06:00:01 14 Idol Time PriPara
 2017/07/04-00:00:01 01 Skirt no Naka wa Kedamono Deshita
 # 01 Konbini Kareshi
 # 01 Dive!
