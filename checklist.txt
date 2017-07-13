@@ -1,4 +1,12 @@
-Last Update: 2017/07/13-12:00:01
+Last Update: 2017/07/13-18:00:01
+2017/07/13-18:00:01 15 Sakura Quest
+2017/07/13-18:00:01 15 Sagrada Reset
+2017/07/13-18:00:01 01 Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e
+2017/07/13-18:00:01 01 Nora to Oujo to Noraneko Heart
+2017/07/13-18:00:01 01 Musekinin Galaxy Tylor
+2017/07/13-18:00:01 01 Kaito x Ansa
+2017/07/13-18:00:01 01 Hajimete no Gal
+2017/07/13-18:00:01 01 Clione no Akari
 2017/07/13-12:00:01 02 Netsuzou Trap
 2017/07/13-06:00:01 02 Skirt no Naka wa Kedamono Deshita
 2017/07/13-00:00:01 01 New Game
@@ -27,7 +35,6 @@ Last Update: 2017/07/13-12:00:01
 2017/07/10-00:00:01 02 Kakegurui
 2017/07/10-00:00:01 02 Fate - Apocrypha
 2017/07/10-00:00:01 01 Ballroom e Youkoso
-2017/07/09-18:00:02 14 Sagrada Reset
 2017/07/09-18:00:02 14 Re.Creators
 2017/07/09-18:00:02 02 Katsugeki - Touken Ranbu
 2017/07/09-18:00:02 02 Hina Logi
@@ -40,14 +47,7 @@ Last Update: 2017/07/13-12:00:01
 2017/07/08-00:00:01 90 Himitsu no Cocotama
 2017/07/08-00:00:01 64 Aikatsu Stars
 2017/07/07-12:00:01 01 Saiyuuki Reload Blast
-2017/07/06-18:00:01 14 Sakura Quest
 # 01 Konbini Kareshi
 # 01 Dive!
 # 01 Action Heroine Cheer Fruits
-# 0 Hajimete no Gal
-# 0 Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e
-# 0 Nora to Oujo to Noraneko Heart
-# 0 Clione no Akari
-# 0 Musekinin Galaxy Tylor
-# 0 Kaito x Ansa
   
