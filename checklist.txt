@@ -1,4 +1,7 @@
-Last Update: 2017/07/14-12:00:01
+Last Update: 2017/07/14-18:00:01
+2017/07/14-18:00:01 02 Konbini Kareshi
+2017/07/14-18:00:01 02 Dive!
+2017/07/14-18:00:01 02 Action Heroine Cheer Fruits
 2017/07/13-18:00:01 15 Sakura Quest
 2017/07/13-18:00:01 15 Sagrada Reset
 2017/07/13-18:00:01 01 Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e
@@ -47,7 +50,4 @@ Last Update: 2017/07/14-12:00:01
 2017/07/08-00:00:01 90 Himitsu no Cocotama
 2017/07/08-00:00:01 64 Aikatsu Stars
 2017/07/07-12:00:01 01 Saiyuuki Reload Blast
-# 01 Konbini Kareshi
-# 01 Dive!
-# 01 Action Heroine Cheer Fruits
   
