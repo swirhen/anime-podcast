@@ -1,4 +1,11 @@
-Last Update: 2017/07/15-12:00:01
+Last Update: 2017/07/15-18:00:01
+2017/07/15-18:00:01 15 Shingeki no Bahamut
+2017/07/15-18:00:01 15 Ise Kanegasaki Hen
+2017/07/15-18:00:01 02 Vatican Kiseki Chousakan
+2017/07/15-18:00:01 02 Shoukoku no Altair
+2017/07/15-18:00:01 02 Made in Abyss
+2017/07/15-18:00:01 02 Jikan no Shihaisha
+2017/07/15-18:00:01 02 18if
 2017/07/15-06:00:01 02 Saiyuuki Reload Blast
 2017/07/14-18:00:01 02 Konbini Kareshi
 2017/07/14-18:00:01 02 Dive!
@@ -30,11 +37,6 @@ Last Update: 2017/07/15-12:00:01
 2017/07/11-06:00:02 02 Knight's
 2017/07/11-00:00:01 02 Battle Girl High School
 2017/07/11-00:00:01 01 Centaur no Nayami
-2017/07/10-16:19:45 01 Vatican Kiseki Chousakan
-2017/07/10-16:19:45 01 Shoukoku no Altair
-2017/07/10-16:19:45 01 Made in Abyss
-2017/07/10-16:19:45 01 Jikan no Shihaisha
-2017/07/10-16:19:45 01 18if
 2017/07/10-00:00:01 02 Senki Zesshou Symphogear AXZ
 2017/07/10-00:00:01 02 Kakegurui
 2017/07/10-00:00:01 02 Fate - Apocrypha
@@ -45,8 +47,6 @@ Last Update: 2017/07/15-12:00:01
 2017/07/09-18:00:02 02 Enmusubi no Youko-chan
 2017/07/09-06:00:01 14 Boku no Hero Academia 2
 2017/07/09-00:00:01 40 Digimon Universe
-2017/07/09-00:00:01 14 Ise Kanegasaki Hen
-2017/07/08-18:00:01 14 Shingeki no Bahamut
 2017/07/08-18:00:01 11 Nanatsu no Taizai
 2017/07/08-00:00:01 90 Himitsu no Cocotama
 2017/07/08-00:00:01 64 Aikatsu Stars
