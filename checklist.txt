@@ -1,4 +1,5 @@
-Last Update: 2017/07/17-06:00:01
+Last Update: 2017/07/17-12:00:01
+2017/07/17-12:00:01 02 Princess Principal
 2017/07/16-18:00:01 15 Re.Creators
 2017/07/16-18:00:01 03 Senki Zesshou Symphogear AXZ
 2017/07/16-18:00:01 03 Katsugeki - Touken Ranbu
@@ -40,7 +41,6 @@ Last Update: 2017/07/17-06:00:01
 2017/07/11-18:00:01 02 Keppeki Danshi
 2017/07/11-18:00:01 02 Isekai Shokudou
 2017/07/11-18:00:01 01 Tenshi no 3P
-2017/07/11-18:00:01 01 Princess Principal
 2017/07/11-12:00:01 02 Koi to Uso
 2017/07/11-06:00:02 02 Knight's
 2017/07/11-00:00:01 02 Battle Girl High School
