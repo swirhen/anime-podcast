@@ -14,12 +14,14 @@ if [ $# -eq 2 ]; then  # 引数が2個
 SFX1=$1
 SFX2=$2
 fi
-LIST=/data/share/movie/name.lst
+LIST=/data/share/movie/checklist.txt
 NAME_LST1=()
 FILE_LST=()
-while read LINE
+while read DUMMY DUMMY LINE
 do
-  NAME_LST1+=( "${LINE}" )
+  if [ "${LINE}" != "" ]; then
+    NAME_LST1+=( "${LINE}" )
+  fi
 done < ${LIST}
 while read -r FILENAME
 do
