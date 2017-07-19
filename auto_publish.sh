@@ -51,12 +51,14 @@ xmllint --format ${RSS_TEMP} > ${RSS_XML}
 LAST_UPDS=()
 EP_NUMS=()
 NAMES=()
+NAMESJ=()
 while read LAST_UPD EP_NUM NAME
 do
   if [ "${LAST_UPD}" != "Last" ]; then
     LAST_UPDS+=( "${LAST_UPD}" )
     EP_NUMS+=( "${EP_NUM}" )
-    NAMES+=( "${NAME}" )
+    NAMES+=( "${NAME%%\|*}" )
+    NAMESJ+=( "${NAME#*\|}" )
   fi
 done < ${LIST_FILE}
 
@@ -120,9 +122,9 @@ do
     (( cnt2++ ))
   done
   if [ "${hit_flg}" = "1" ]; then
-    echo "${DATETIME} ${EPNUM} ${NAME}" >> ${LIST_TEMP}
+    echo "${DATETIME} ${EPNUM} ${NAME}|${NAMESJ[${cnt}]}" >> ${LIST_TEMP}
   else
-    echo "${LAST_UPDS[${cnt}]} ${EP_NUMS[${cnt}]} ${NAME}" >> ${LIST_TEMP}
+    echo "${LAST_UPDS[${cnt}]} ${EP_NUMS[${cnt}]} ${NAME}|${NAMESJ[${cnt}]}" >> ${LIST_TEMP}
   fi
   (( cnt++ ))
 done
