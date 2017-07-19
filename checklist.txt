@@ -1,4 +1,4 @@
-Last Update: 2017/07/19-06:00:01
+Last Update: 2017/07/19-12:00:01
 2017/07/19-06:00:01 03 Youkai Apartment no Yuuga na Nichijou
 2017/07/19-06:00:01 03 Keppeki Danshi
 2017/07/18-18:00:01 03 Koi to Uso
@@ -51,6 +51,6 @@ Last Update: 2017/07/19-06:00:01
 2017/07/08-00:00:01 90 Himitsu no Cocotama
 2017/07/08-00:00:01 64 Aikatsu Stars
 # 01 Jigoku Shoujo - Yoi no Togi
-# 01 Gamers
 # 01 Ikemen Sengoku
+# 01 Gamers
   
