@@ -15,18 +15,12 @@ SFX1=$1
 SFX2=$2
 fi
 LIST=/data/share/movie/name.lst
-LIST2=/data/share/movie/name2.lst
 NAME_LST1=()
-NAME_LST2=()
 FILE_LST=()
 while read LINE
 do
   NAME_LST1+=( "${LINE}" )
 done < ${LIST}
-while read LINE
-do
-  NAME_LST2+=( "${LINE}" )
-done < ${LIST2}
 while read -r FILENAME
 do
   FILE_LST+=( "${FILENAME:2}" )
@@ -74,62 +68,6 @@ do
       break
     fi
 
-    nn=`echo $FILE_NAME | sed -e "s/.*${SF}.*$SFX1\([0-9][0-9].5\)$SFX2.*/\1/"`
-    fsf=`echo $FILE_NAME | sed -e "s/.*\(${SF}\).*$SFX1[0-9][0-9].5$SFX2.*/\1/"`
-    if [ "$fsf" == "$SF" ]; then
-      if [ ! -e "$FILE_NAME".aria2 ]; then
-        if [ "$FILE_NAME" != "${NAME} 第$nn話.$ext" ]; then
-          echo "# rename $FILE_NAME -> ${NAME} 第$nn話.$ext"
-          mv "$FILE_NAME" "${NAME} 第$nn話.$ext"
-        else
-          echo "# rename $FILE_NAME -> ${NAME} 第$nn話.$ext"
-          echo "# 変更後のファイル名が同じ"
-        fi
-      else
-        echo "# $FILE_NAME 成育中！"
-      fi
-      break
-    fi
-  done
-
-  for LINE in "${NAME_LST2[@]}"
-  do
-    SF="${LINE%% *}"
-    NAME="${LINE#* }"
-    ext=`echo $FILE_NAME | sed "s/.*\.\(.*\)/\1/"`
-
-    nn=`echo $FILE_NAME | sed -e "s/.*${SF}.*$SFX1\([0-9][0-9]\?\)$SFX2.*/\1/"`
-    fsf=`echo $FILE_NAME | sed -e "s/.*\(${SF}\).*$SFX1[0-9][0-9]\?$SFX2.*/\1/"`
-    if [ "$fsf" == "$SF" ]; then
-      if [ ! -e "$FILE_NAME".aria2 ]; then
-        if [ "$FILE_NAME" != "${NAME} 第$nn話.$ext" ]; then
-          echo "# rename $FILE_NAME -> ${NAME} 第$nn話.$ext"
-          mv "$FILE_NAME" "${NAME} 第$nn話.$ext"
-        else
-          echo "# rename $FILE_NAME -> ${NAME} 第$nn話.$ext"
-          echo "# 変更後のファイル名が同じ"
-        fi
-      else
-        echo "# $FILE_NAME 成育中！"
-      fi
-      break
-    fi
-    nn=`echo $FILE_NAME | sed -e "s/.*${SF}.*$SFX1\([0-1][0-9][0-9]\?\)$SFX2.*/\1/"`
-    fsf=`echo $FILE_NAME | sed -e "s/.*\(${SF}\).*$SFX1[0-1][0-9][0-9]\?$SFX2.*/\1/"`
-    if [ "$fsf" == "$SF" ]; then
-      if [ ! -e "$FILE_NAME".aria2 ]; then
-        if [ "$FILE_NAME" != "${NAME} 第$nn話.$ext" ]; then
-          echo "# rename $FILE_NAME -> ${NAME} 第$nn話.$ext"
-          mv "$FILE_NAME" "${NAME} 第$nn話.$ext"
-        else
-          echo "# rename $FILE_NAME -> ${NAME} 第$nn話.$ext"
-          echo "# 変更後のファイル名が同じ"
-        fi
-      else
-        echo "# $FILE_NAME 成育中！"
-      fi
-      break
-    fi
     nn=`echo $FILE_NAME | sed -e "s/.*${SF}.*$SFX1\([0-9][0-9].5\)$SFX2.*/\1/"`
     fsf=`echo $FILE_NAME | sed -e "s/.*\(${SF}\).*$SFX1[0-9][0-9].5$SFX2.*/\1/"`
     if [ "$fsf" == "$SF" ]; then
