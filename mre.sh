@@ -17,7 +17,7 @@ fi
 LIST=/data/share/movie/checklist.txt
 NAME_LST1=()
 FILE_LST=()
-while read DUMMY DUMMY LINE
+while read DUMMY DUMMY2 LINE
 do
   if [ "${LINE}" != "" ]; then
     NAME_LST1+=( "${LINE}" )

@@ -3,7 +3,7 @@
 # リネーム用リストにはリネームもとファイルの検索文字と正式な作品名を
 # tabで繋げて記述すること
 LIST=/data/share/movie/checklist.txt
-while read DUMMY DUMMY LINE
+while read DUMMY DUMMY2 LINE
 do
   NAME="${LINE#*\|}"
   nn=`echo $1 | sed -e "s/\(${NAME}\).*\.mp4/\1/"`
