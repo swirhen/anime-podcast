@@ -2,7 +2,7 @@
 # swirhen.tv auto publisher
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE:-$0}")"; pwd)"
 DOWNLOAD_DIR="${SCRIPT_DIR}/../"
-LIST_FILE=~/Dropbox/swirhentv/checklist.txt
+LIST_FILE=${SCRIPT_DIR}/checklist.txt
 LIST_TEMP=${SCRIPT_DIR}/checklist.temp
 RSS_TEMP=${SCRIPT_DIR}/rss.temp
 RSS_XML=${SCRIPT_DIR}/rss.xml
@@ -134,7 +134,6 @@ if [ `cat ${LIST_TEMP} | wc -l` -ne `cat ${LIST_FILE} | wc -l` ]; then
   slack_post "@here !!! リスト行数が変化しました。 checklist.txt のコミットログを確認してください "
 fi
 cat ${LIST_TEMP} | sort -r > ${LIST_FILE}
-cp -p ${LIST_FILE} .
 git commit -m 'checklist.txt update' checklist.txt
 git pull
 git push origin master
