@@ -36,8 +36,8 @@ for FILE_NAME in "${FILE_LST[@]}"
 do
   for LINE in "${NAME_LST1[@]}"
   do
-    SF="${LINE%% *}"
-    NAME="${LINE#* }"
+    SF="${LINE%%\|*}"
+    NAME="${LINE#*\|}"
     ext=`echo $FILE_NAME | sed "s/.*\.\(.*\)/\1/"`
 
     nn=`echo $FILE_NAME | sed -e "s/.*${SF}.*$SFX1\([0-9][0-9]\?\)$SFX2.*/\1/"`
