@@ -1,4 +1,14 @@
-Last Update: 2017/07/20-12:00:01
+Last Update: 2017/07/20-18:00:01
+2017/07/20-18:00:01 16 Sakura Quest|サクラクエスト
+2017/07/20-18:00:01 16 Sagrada Reset|サクラダリセット
+2017/07/20-18:00:01 03 Saiyuuki Reload Blast|最遊記RELOAD BLAST
+2017/07/20-18:00:01 03 Netsuzou Trap|捏造トラップ-NTR-
+2017/07/20-18:00:01 02 Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e|ようこそ実力至上主義の教室へ
+2017/07/20-18:00:01 02 Nora to Oujo to Noraneko Heart|ノラと皇女と野良猫ハート
+2017/07/20-18:00:01 02 Kaito x Ansa|カイトアンサ
+2017/07/20-18:00:01 02 Ikemen Sengoku|イケメン戦国◆時をかけるが恋ははじまらない
+2017/07/20-18:00:01 02 Hajimete no Gal|はじめてのギャル
+2017/07/20-18:00:01 02 Clione no Akari|クリオネの灯り
 2017/07/19-17:34:45 16 Idol Time PriPara|アイドルタイムプリパラ
 2017/07/19-17:34:45 03 Tsurezure Children|徒然チルドレン
 2017/07/19-17:34:45 03 Skirt no Naka wa Kedamono Deshita|スカートの中はケダモノでした。
@@ -35,21 +45,11 @@ Last Update: 2017/07/20-12:00:01
 2017/07/15-18:00:01 02 Made in Abyss|メイドインアビス
 2017/07/15-18:00:01 02 Jikan no Shihaisha|時間の支配者
 2017/07/15-18:00:01 02 18if|18if
-2017/07/15-06:00:01 02 Saiyuuki Reload Blast|最遊記RELOAD BLAST
 2017/07/14-18:00:01 02 Konbini Kareshi|コンビニカレシ
 2017/07/14-18:00:01 02 Dive!|DIVE！！
 2017/07/14-18:00:01 02 Action Heroine Cheer Fruits|アクションヒロイン チアフルーツ
-2017/07/13-18:00:01 15 Sakura Quest|サクラクエスト
-2017/07/13-18:00:01 15 Sagrada Reset|サクラダリセット
-2017/07/13-18:00:01 01 Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e|ようこそ実力至上主義の教室へ
-2017/07/13-18:00:01 01 Nora to Oujo to Noraneko Heart|ノラと皇女と野良猫ハート
-2017/07/13-18:00:01 01 Kaito x Ansa|カイトアンサ
-2017/07/13-18:00:01 01 Hajimete no Gal|はじめてのギャル
-2017/07/13-18:00:01 01 Clione no Akari|クリオネの灯り
-2017/07/13-12:00:01 02 Netsuzou Trap|捏造トラップ-NTR-
 2017/07/08-18:00:01 11 Nanatsu no Taizai|sin 七つの大罪
 2017/07/08-00:00:01 90 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
 2017/07/08-00:00:01 64 Aikatsu Stars|アイカツスターズ！
 # 01 Jigoku Shoujo - Yoi no Togi|地獄少女 宵伽
-# 01 Ikemen Sengoku|イケメン戦国◆時をかけるが恋ははじまらない
 # 01 Gamers|ゲーマーズ！
