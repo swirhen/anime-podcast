@@ -1,4 +1,9 @@
-Last Update: 2017/07/23-00:00:01
+Last Update: 2017/07/23-06:00:01
+2017/07/23-06:00:01 42 Digimon Universe|デジモンユニバース アプリモンスターズ
+2017/07/23-06:00:01 16 Shingeki no Bahamut|神撃のバハムート VIRGIN SOUL
+2017/07/23-06:00:01 16 Boku no Hero Academia 2|僕のヒーローアカデミア2
+2017/07/23-06:00:01 03 Vatican Kiseki Chousakan|バチカン奇跡調査官
+2017/07/23-06:00:01 03 Made in Abyss|メイドインアビス
 2017/07/22-18:00:01 16 Ise Kanegasaki Hen|信長の忍び～伊勢・金ヶ崎篇～
 2017/07/22-18:00:01 03 Shoukoku no Altair|将国のアルタイル
 2017/07/22-18:00:01 03 Jikan no Shihaisha|時間の支配者
@@ -47,9 +52,4 @@ Last Update: 2017/07/23-00:00:01
 2017/07/16-18:00:01 03 Fate - Apocrypha|Fate／Apocrypha
 2017/07/16-18:00:01 03 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
 2017/07/16-18:00:01 02 Hitorijime My Hero|ひとりじめマイヒーロー
-2017/07/16-06:00:01 41 Digimon Universe|デジモンユニバース アプリモンスターズ
-2017/07/16-06:00:01 15 Boku no Hero Academia 2|僕のヒーローアカデミア2
-2017/07/15-18:00:01 15 Shingeki no Bahamut|神撃のバハムート VIRGIN SOUL
-2017/07/15-18:00:01 02 Vatican Kiseki Chousakan|バチカン奇跡調査官
-2017/07/15-18:00:01 02 Made in Abyss|メイドインアビス
 2017/07/08-18:00:01 11 Nanatsu no Taizai|sin 七つの大罪
