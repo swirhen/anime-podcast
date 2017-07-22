@@ -1,4 +1,9 @@
-Last Update: 2017/07/22-12:00:01
+Last Update: 2017/07/22-18:00:01
+2017/07/22-18:00:01 16 Ise Kanegasaki Hen|信長の忍び～伊勢・金ヶ崎篇～
+2017/07/22-18:00:01 03 Shoukoku no Altair|将国のアルタイル
+2017/07/22-18:00:01 03 Jikan no Shihaisha|時間の支配者
+2017/07/22-18:00:01 03 18if|18if
+2017/07/22-18:00:01 02 Jigoku Shoujo - Yoi no Togi|地獄少女 宵伽
 2017/07/21-18:00:01 91 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
 2017/07/21-18:00:01 65 Aikatsu Stars|アイカツスターズ！
 2017/07/21-18:00:01 03 Konbini Kareshi|コンビニカレシ
@@ -45,11 +50,6 @@ Last Update: 2017/07/22-12:00:01
 2017/07/16-06:00:01 41 Digimon Universe|デジモンユニバース アプリモンスターズ
 2017/07/16-06:00:01 15 Boku no Hero Academia 2|僕のヒーローアカデミア2
 2017/07/15-18:00:01 15 Shingeki no Bahamut|神撃のバハムート VIRGIN SOUL
-2017/07/15-18:00:01 15 Ise Kanegasaki Hen|信長の忍び～伊勢・金ヶ崎篇～
 2017/07/15-18:00:01 02 Vatican Kiseki Chousakan|バチカン奇跡調査官
-2017/07/15-18:00:01 02 Shoukoku no Altair|将国のアルタイル
 2017/07/15-18:00:01 02 Made in Abyss|メイドインアビス
-2017/07/15-18:00:01 02 Jikan no Shihaisha|時間の支配者
-2017/07/15-18:00:01 02 18if|18if
 2017/07/08-18:00:01 11 Nanatsu no Taizai|sin 七つの大罪
-# 01 Jigoku Shoujo - Yoi no Togi|地獄少女 宵伽
