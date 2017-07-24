@@ -67,39 +67,43 @@ elif [ $AFMT1 = "pcm_s16le" ]; then
 else
     AEXT1="ac3"
 fi
-if [ $AFMT2 = "aac" ]; then
-    AEXT2="aac"
-elif [ $AFMT2 = "libfaad" ]; then
-    AEXT2="aac"
-elif [ $AFMT2 = "flac" ]; then
-    AEXT2="flac"
-elif [ $AFMT2 = "vorbis" ]; then
-    AEXT2="ogg"
-elif [ $AFMT2 = "mp3" ]; then
-    AEXT2="mp3"
-elif [ $AFMT2 = "ac3" ]; then
-    AEXT2="ac3"
-elif [ $AFMT2 = "pcm_s16le" ]; then
-    AEXT2="wav"
-else
-    AEXT2="ac3"
+if [ $MLFLG -eq 1 ]; then
+  if [ $AFMT2 = "aac" ]; then
+      AEXT2="aac"
+  elif [ $AFMT2 = "libfaad" ]; then
+      AEXT2="aac"
+  elif [ $AFMT2 = "flac" ]; then
+      AEXT2="flac"
+  elif [ $AFMT2 = "vorbis" ]; then
+      AEXT2="ogg"
+  elif [ $AFMT2 = "mp3" ]; then
+      AEXT2="mp3"
+  elif [ $AFMT2 = "ac3" ]; then
+      AEXT2="ac3"
+  elif [ $AFMT2 = "pcm_s16le" ]; then
+      AEXT2="wav"
+  else
+      AEXT2="ac3"
+  fi
 fi
-if [ $AFMT3 = "aac" ]; then
-    AEXT3="aac"
-elif [ $AFMT3 = "libfaad" ]; then
-    AEXT3="aac"
-elif [ $AFMT3 = "flac" ]; then
-    AEXT3="flac"
-elif [ $AFMT3 = "vorbis" ]; then
-    AEXT3="ogg"
-elif [ $AFMT3 = "mp3" ]; then
-    AEXT3="mp3"
-elif [ $AFMT3 = "ac3" ]; then
-    AEXT3="ac3"
-elif [ $AFMT3 = "pcm_s16le" ]; then
-    AEXT3="wav"
-else
-    AEXT3="ac3"
+if [ $MLFLG -eq 2 ]; then
+  if [ $AFMT3 = "aac" ]; then
+      AEXT3="aac"
+  elif [ $AFMT3 = "libfaad" ]; then
+      AEXT3="aac"
+  elif [ $AFMT3 = "flac" ]; then
+      AEXT3="flac"
+  elif [ $AFMT3 = "vorbis" ]; then
+      AEXT3="ogg"
+  elif [ $AFMT3 = "mp3" ]; then
+      AEXT3="mp3"
+  elif [ $AFMT3 = "ac3" ]; then
+      AEXT3="ac3"
+  elif [ $AFMT3 = "pcm_s16le" ]; then
+      AEXT3="wav"
+  else
+      AEXT3="ac3"
+  fi
 fi
 echo "Audio Extension1: "$AEXT1
 echo "Audio Extension2: "$AEXT2
