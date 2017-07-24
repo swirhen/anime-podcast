@@ -67,7 +67,7 @@ elif [ $AFMT1 = "pcm_s16le" ]; then
 else
     AEXT1="ac3"
 fi
-if [ $MLFLG -eq 1 ]; then
+if [ $MLFLG -gt 1 ]; then
   if [ $AFMT2 = "aac" ]; then
       AEXT2="aac"
   elif [ $AFMT2 = "libfaad" ]; then
