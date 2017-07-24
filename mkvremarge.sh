@@ -145,5 +145,5 @@ else
 fi
 rm video.h264
 rm audio*.*
-ffmpeg -i "$NAME.mkv" |& grep Duration
-ffmpeg -i "$NAME.mp4" |& grep Duration
+/usr/bin/wine ffmpeg.exe -i "$NAME.mkv" |& grep Duration
+/usr/bin/wine ffmpeg.exe -i "$NAME.mp4" |& grep Duration
