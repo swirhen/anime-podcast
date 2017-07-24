@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 # @author swirhen
-# mkvextract、MP4Boxを使ってH264+aacなmkvファイルを
+# mkvextract、MP4Box -tmp /data/tmpを使ってH264+aacなmkvファイルを
 # mp4ファイルにつめなおす
 # 音声がac3とかflacのばあいはさいえんこする
 # fpsが可変とかだと死ぬのであきらめる
@@ -117,7 +117,7 @@ if [ $MLFLG -eq 1 ]; then
     if [ $AEXT2 != "aac" ]; then
         ffm -i audio2.$AEXT2 -acodec libfaac -ar 48000 -ab 128k audio2.aac
     fi
-    MP4Box -fps $FPS -add video.h264 -add audio1.aac -add audio2.aac -new "$NAME.mp4"
+    MP4Box -tmp /data/tmp -fps $FPS -add video.h264 -add audio1.aac -add audio2.aac -new "$NAME.mp4"
 elif [ $MLFLG -eq 2 ]; then
     mkvextract tracks "$1" 2:audio1.$AEXT1
     mkvextract tracks "$1" 3:audio2.$AEXT2
@@ -131,16 +131,16 @@ elif [ $MLFLG -eq 2 ]; then
     if [ $AEXT3 != "aac" ]; then
         ffm -i audio3.$AEXT3 -acodec libfaac -ar 48000 -ab 128k audio3.aac
     fi
-    MP4Box -fps $FPS -add video.h264 -add audio1.aac -add audio2.aac -add audio3.aac -new "$NAME.mp4"
+    MP4Box -tmp /data/tmp -fps $FPS -add video.h264 -add audio1.aac -add audio2.aac -add audio3.aac -new "$NAME.mp4"
 else
     mkvextract tracks "$1" 2:audio1.$AEXT1
     if [ $AEXT1 != "aac" ]; then
         ffm -i audio1.$AEXT1 -acodec libfaac -ar 48000 -ab 128k -ac 2 audio1.aac
     fi
     if [ $# -eq 2 ]; then
-      MP4Box -fps $FPS -add video.h264 -add audio1.aac -add "$2" -new "$NAME.mp4"
+      MP4Box -tmp /data/tmp -fps $FPS -add video.h264 -add audio1.aac -add "$2" -new "$NAME.mp4"
     else
-      MP4Box -fps $FPS -add video.h264 -add audio1.aac -new "$NAME.mp4"
+      MP4Box -tmp /data/tmp -fps $FPS -add video.h264 -add audio1.aac -new "$NAME.mp4"
     fi
 fi
 rm video.h264
