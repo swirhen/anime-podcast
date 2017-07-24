@@ -1,5 +1,7 @@
-Last Update: 2017/07/24-12:00:01
-2017/07/24-12:00:01 15.5 Re.Creators|Re：CREATORS
+Last Update: 2017/07/24-18:00:01
+2017/07/24-18:00:01 15.5 Re.Creators|Re：CREATORS
+2017/07/24-18:00:01 04 Battle Girl High School|バトルガールハイスクール
+2017/07/24-18:00:01 03 Centaur no Nayami|セントールの悩み
 2017/07/24-12:00:01 03 Princess Principal|プリンセス・プリンシパル
 2017/07/24-00:00:01 04 Katsugeki - Touken Ranbu|活撃 刀剣乱舞
 2017/07/24-00:00:01 04 Kakegurui|賭ケグルイ
@@ -50,6 +52,4 @@ Last Update: 2017/07/24-12:00:01
 2017/07/18-18:00:01 03 Isekai Shokudou|異世界食堂
 2017/07/18-18:00:01 02 Tenshi no 3P|天使の3P！
 2017/07/17-18:00:01 03 Knight's|ナイツ＆マジック
-2017/07/17-18:00:01 03 Battle Girl High School|バトルガールハイスクール
-2017/07/17-18:00:01 02 Centaur no Nayami|セントールの悩み
 2017/07/08-18:00:01 11 Nanatsu no Taizai|sin 七つの大罪
