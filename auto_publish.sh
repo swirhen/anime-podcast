@@ -93,7 +93,7 @@ do
       fi
       EPNUM_OLD_N=${EP_NUMS[${cnt}]}
       if [ "${#EPNUM_OLD_N}" -gt 3 ]; then
-        if [ "${EPNUM_N}" = "${EPNUM_OLD_N}" ]; then
+        if [ "${EPNUM}" = "${EPNUM_OLD_N}" ]; then
           break
         fi
         EPNUM_OLD_N=${EPNUM_OLD_N%.*}
