@@ -1,4 +1,5 @@
-Last Update: 2017/07/29-00:00:01
+Last Update: 2017/07/29-06:00:01
+2017/07/29-06:00:01 04 18if|18if
 2017/07/28-18:00:01 04 Konbini Kareshi|コンビニカレシ
 2017/07/28-18:00:01 04 Dive!|DIVE！！
 2017/07/28-18:00:01 04 Action Heroine Cheer Fruits|アクションヒロイン チアフルーツ
@@ -49,7 +50,6 @@ Last Update: 2017/07/29-00:00:01
 2017/07/22-18:00:01 16 Ise Kanegasaki Hen|信長の忍び～伊勢・金ヶ崎篇～
 2017/07/22-18:00:01 03 Shoukoku no Altair|将国のアルタイル
 2017/07/22-18:00:01 03 Jikan no Shihaisha|時間の支配者
-2017/07/22-18:00:01 03 18if|18if
 2017/07/22-18:00:01 02 Jigoku Shoujo - Yoi no Togi|地獄少女 宵伽
 2017/07/21-18:00:01 02 Gamers|ゲーマーズ！
 2017/07/08-18:00:01 11 Nanatsu no Taizai|sin 七つの大罪
