@@ -1,4 +1,12 @@
-Last Update: 2017/07/30-12:00:01
+Last Update: 2017/07/30-18:00:01
+2017/07/30-18:00:01 16 Re-Creators|Re：CREATORS
+2017/07/30-18:00:01 05 Senki Zesshou Symphogear AXZ|戦姫絶唱シンフォギアAXZ
+2017/07/30-18:00:01 05 Katsugeki - Touken Ranbu|活撃 刀剣乱舞
+2017/07/30-18:00:01 05 Hina Logi|ひなろじ～from Luck＆Logic～
+2017/07/30-18:00:01 05 Fate - Apocrypha|Fate／Apocrypha
+2017/07/30-18:00:01 05 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
+2017/07/30-18:00:01 05 Ballroom e Youkoso|ボールルームへようこそ
+2017/07/30-18:00:01 04 Hitorijime My Hero|ひとりじめマイヒーロー
 2017/07/30-06:00:01 43 Digimon Universe|デジモンユニバース アプリモンスターズ
 2017/07/29-18:00:01 17 Shingeki no Bahamut|神撃のバハムート VIRGIN SOUL
 2017/07/29-18:00:01 17 Ise Kanegasaki Hen|信長の忍び～伊勢・金ヶ崎篇～
@@ -35,7 +43,6 @@ Last Update: 2017/07/30-12:00:01
 2017/07/25-18:00:01 04 Youkai Apartment no Yuuga na Nichijou|妖怪アパートの幽雅な日常
 2017/07/25-18:00:01 04 Keppeki Danshi|潔癖男子！青山くん
 2017/07/25-18:00:01 04 Isekai Shokudou|異世界食堂
-2017/07/25-12:00:01 15.5 Re-Creators|Re：CREATORS
 2017/07/25-06:00:02 04 Skirt no Naka wa Kedamono Deshita|スカートの中はケダモノでした。
 2017/07/25-06:00:02 04 Koi to Uso|恋と嘘
 2017/07/25-06:00:02 03 Tenshi no 3P|天使の3P！
@@ -43,13 +50,6 @@ Last Update: 2017/07/30-12:00:01
 2017/07/24-18:00:01 04 Battle Girl High School|バトルガールハイスクール
 2017/07/24-18:00:01 03 Centaur no Nayami|セントールの悩み
 2017/07/24-12:00:01 03 Princess Principal|プリンセス・プリンシパル
-2017/07/24-00:00:01 04 Katsugeki - Touken Ranbu|活撃 刀剣乱舞
 2017/07/24-00:00:01 04 Kakegurui|賭ケグルイ
-2017/07/24-00:00:01 04 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
-2017/07/24-00:00:01 03 Hitorijime My Hero|ひとりじめマイヒーロー
-2017/07/24-00:00:01 03 Ballroom e Youkoso|ボールルームへようこそ
-2017/07/23-18:00:01 04 Senki Zesshou Symphogear AXZ|戦姫絶唱シンフォギアAXZ
-2017/07/23-18:00:01 04 Hina Logi|ひなろじ～from Luck＆Logic～
-2017/07/23-18:00:01 04 Fate - Apocrypha|Fate／Apocrypha
 2017/07/23-06:00:01 16 Boku no Hero Academia 2|僕のヒーローアカデミア2
 2017/07/08-18:00:01 11 Nanatsu no Taizai|sin 七つの大罪
