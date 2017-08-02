@@ -1,4 +1,10 @@
-Last Update: 2017/08/02-12:00:01
+Last Update: 2017/08/02-18:00:01
+2017/08/02-18:00:01 18 Idol Time PriPara|アイドルタイムプリパラ
+2017/08/02-18:00:01 05 Tsurezure Children|徒然チルドレン
+2017/08/02-18:00:01 04 New Game|NEW GAME！！
+2017/08/02-18:00:01 04 Musekinin Galaxy Tylor|無責任ギャラクシー☆タイラー
+2017/08/02-18:00:01 04 Mahoujin Guru Guru|魔法陣グルグル
+2017/08/02-18:00:01 04 Isekai wa Smartphone to Tomo ni|異世界はスマートフォンとともに。
 2017/08/01-18:00:01 05 Youkai Apartment no Yuuga na Nichijou|妖怪アパートの幽雅な日常
 2017/08/01-18:00:01 05 Skirt no Naka wa Kedamono Deshita|スカートの中はケダモノでした。
 2017/08/01-18:00:01 05 Koi to Uso|恋と嘘
@@ -45,11 +51,5 @@ Last Update: 2017/08/02-12:00:01
 2017/07/27-18:00:01 03 Kaito x Ansa|カイトアンサ
 2017/07/27-18:00:01 03 Ikemen Sengoku|イケメン戦国◆時をかけるが恋ははじまらない
 2017/07/27-18:00:01 03 Clione no Akari|クリオネの灯り
-2017/07/27-00:00:01 04 Tsurezure Children|徒然チルドレン
 2017/07/27-00:00:01 04 Nanamaru Sanbatsu|ナナマルサンバツ
 2017/07/27-00:00:01 04 Aho Girl|アホガール
-2017/07/27-00:00:01 03 Mahoujin Guru Guru|魔法陣グルグル
-2017/07/26-06:00:01 17 Idol Time PriPara|アイドルタイムプリパラ
-2017/07/26-06:00:01 03 New Game|NEW GAME！！
-2017/07/26-06:00:01 03 Musekinin Galaxy Tylor|無責任ギャラクシー☆タイラー
-2017/07/26-06:00:01 03 Isekai wa Smartphone to Tomo ni|異世界はスマートフォンとともに。
