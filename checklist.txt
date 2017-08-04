@@ -1,4 +1,11 @@
-Last Update: 2017/08/04-12:00:01
+Last Update: 2017/08/04-18:00:01
+2017/08/04-18:00:01 93 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
+2017/08/04-18:00:01 67 Aikatsu Stars|アイカツスターズ！
+2017/08/04-18:00:01 05 Netsuzou Trap|捏造トラップ-NTR-
+2017/08/04-18:00:01 05 Konbini Kareshi|コンビニカレシ
+2017/08/04-18:00:01 05 Dive!|DIVE！！
+2017/08/04-18:00:01 05 Action Heroine Cheer Fruits|アクションヒロイン チアフルーツ
+2017/08/04-18:00:01 04 Gamers|ゲーマーズ！
 2017/08/03-18:00:02 18 Sakura Quest|サクラクエスト
 2017/08/03-18:00:02 18 Sagrada Reset|サクラダリセット
 2017/08/03-18:00:02 05 Saiyuuki Reload Blast|最遊記RELOAD BLAST
@@ -44,12 +51,5 @@ Last Update: 2017/08/04-12:00:01
 2017/07/29-18:00:01 04 Made in Abyss|メイドインアビス
 2017/07/29-18:00:01 04 Jikan no Shihaisha|時間の支配者
 2017/07/29-18:00:01 03 Jigoku Shoujo - Yoi no Togi|地獄少女 宵伽
-2017/07/29-18:00:01 03 Gamers|ゲーマーズ！
 2017/07/29-06:00:01 04 18if|18if
-2017/07/28-18:00:01 04 Konbini Kareshi|コンビニカレシ
-2017/07/28-18:00:01 04 Dive!|DIVE！！
-2017/07/28-18:00:01 04 Action Heroine Cheer Fruits|アクションヒロイン チアフルーツ
-2017/07/28-06:00:01 92 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
-2017/07/28-06:00:01 66 Aikatsu Stars|アイカツスターズ！
-2017/07/27-18:00:01 04 Netsuzou Trap|捏造トラップ-NTR-
 2017/07/27-00:00:01 04 Nanamaru Sanbatsu|ナナマルサンバツ
