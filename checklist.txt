@@ -1,4 +1,6 @@
-Last Update: 2017/08/07-06:00:01
+Last Update: 2017/08/07-12:00:01
+2017/08/07-12:00:01 06 Katsugeki - Touken Ranbu|活撃 刀剣乱舞
+2017/08/07-12:00:01 06 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
 2017/08/07-00:00:01 44 Digimon Universe|デジモンユニバース アプリモンスターズ
 2017/08/07-00:00:01 18 Boku no Hero Academia 2|僕のヒーローアカデミア2
 2017/08/07-00:00:01 16.5 Re-Creators|Re：CREATORS
@@ -46,8 +48,6 @@ Last Update: 2017/08/07-06:00:01
 2017/08/01-06:00:01 04 Princess Principal|プリンセス・プリンシパル
 2017/08/01-06:00:01 04 Centaur no Nayami|セントールの悩み
 2017/07/31-12:00:01 12 Nanatsu no Taizai|sin 七つの大罪
-2017/07/30-18:00:01 05 Katsugeki - Touken Ranbu|活撃 刀剣乱舞
-2017/07/30-18:00:01 05 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
 2017/07/30-18:00:01 05 Ballroom e Youkoso|ボールルームへようこそ
 2017/07/30-18:00:01 04 Hitorijime My Hero|ひとりじめマイヒーロー
 2017/07/29-18:00:01 17 Shingeki no Bahamut|神撃のバハムート VIRGIN SOUL
