@@ -1,4 +1,7 @@
-Last Update: 2017/08/11-18:00:01
+Last Update: 2017/08/12-00:00:01
+2017/08/12-00:00:01 94 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
+2017/08/12-00:00:01 68 Aikatsu Stars|アイカツスターズ！
+2017/08/12-00:00:01 06 Dive!|DIVE！！
 2017/08/10-18:00:01 19 Sakura Quest|サクラクエスト
 2017/08/10-18:00:01 19 Sagrada Reset|サクラダリセット
 2017/08/10-18:00:01 06 Saiyuuki Reload Blast|最遊記RELOAD BLAST
@@ -43,10 +46,7 @@ Last Update: 2017/08/11-18:00:01
 2017/08/05-18:00:01 05 Jikan no Shihaisha|時間の支配者
 2017/08/05-18:00:01 05 18if|18if
 2017/08/05-18:00:01 04 Jigoku Shoujo - Yoi no Togi|地獄少女 宵伽
-2017/08/04-18:00:01 93 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
-2017/08/04-18:00:01 67 Aikatsu Stars|アイカツスターズ！
 2017/08/04-18:00:01 05 Konbini Kareshi|コンビニカレシ
-2017/08/04-18:00:01 05 Dive!|DIVE！！
 2017/08/04-18:00:01 05 Action Heroine Cheer Fruits|アクションヒロイン チアフルーツ
 2017/08/01-06:00:01 05 Kakegurui|賭ケグルイ
 2017/07/31-12:00:01 12 Nanatsu no Taizai|sin 七つの大罪
