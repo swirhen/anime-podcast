@@ -1,4 +1,10 @@
-Last Update: 2017/08/12-12:00:01
+Last Update: 2017/08/12-18:00:01
+2017/08/12-18:00:01 19 Ise Kanegasaki Hen|信長の忍び～伊勢・金ヶ崎篇～
+2017/08/12-18:00:01 06 Vatican Kiseki Chousakan|バチカン奇跡調査官
+2017/08/12-18:00:01 06 Made in Abyss|メイドインアビス
+2017/08/12-18:00:01 06 Jikan no Shihaisha|時間の支配者
+2017/08/12-18:00:01 06 18if|18if
+2017/08/12-18:00:01 05 Jigoku Shoujo - Yoi no Togi|地獄少女 宵伽
 2017/08/12-00:00:01 94 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
 2017/08/12-00:00:01 68 Aikatsu Stars|アイカツスターズ！
 2017/08/12-00:00:01 06 Dive!|DIVE！！
@@ -40,12 +46,6 @@ Last Update: 2017/08/12-12:00:01
 2017/08/07-00:00:01 06 Senki Zesshou Symphogear AXZ|戦姫絶唱シンフォギアAXZ
 2017/08/07-00:00:01 06 Hina Logi|ひなろじ～from Luck＆Logic～
 2017/08/07-00:00:01 06 Fate - Apocrypha|Fate／Apocrypha
-2017/08/05-18:00:01 18 Ise Kanegasaki Hen|信長の忍び～伊勢・金ヶ崎篇～
-2017/08/05-18:00:01 05 Vatican Kiseki Chousakan|バチカン奇跡調査官
-2017/08/05-18:00:01 05 Made in Abyss|メイドインアビス
-2017/08/05-18:00:01 05 Jikan no Shihaisha|時間の支配者
-2017/08/05-18:00:01 05 18if|18if
-2017/08/05-18:00:01 04 Jigoku Shoujo - Yoi no Togi|地獄少女 宵伽
 2017/08/04-18:00:01 05 Konbini Kareshi|コンビニカレシ
 2017/08/04-18:00:01 05 Action Heroine Cheer Fruits|アクションヒロイン チアフルーツ
 2017/08/01-06:00:01 05 Kakegurui|賭ケグルイ
