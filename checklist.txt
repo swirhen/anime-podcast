@@ -1,4 +1,10 @@
-Last Update: 2017/08/14-00:00:01
+Last Update: 2017/08/14-06:00:01
+2017/08/14-06:00:01 17 Re-Creators|Re：CREATORS
+2017/08/14-06:00:01 07 Senki Zesshou Symphogear AXZ|戦姫絶唱シンフォギアAXZ
+2017/08/14-06:00:01 07 Katsugeki - Touken Ranbu|活撃 刀剣乱舞
+2017/08/14-06:00:01 07 Hina Logi|ひなろじ～from Luck＆Logic～
+2017/08/14-06:00:01 07 Fate - Apocrypha|Fate／Apocrypha
+2017/08/14-06:00:01 07 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
 2017/08/13-06:00:01 45 Digimon Universe|デジモンユニバース アプリモンスターズ
 2017/08/13-06:00:01 19 Boku no Hero Academia 2|僕のヒーローアカデミア2
 2017/08/12-18:00:01 19 Ise Kanegasaki Hen|信長の忍び～伊勢・金ヶ崎篇～
@@ -40,12 +46,6 @@ Last Update: 2017/08/14-00:00:01
 2017/08/08-00:00:01 06 Battle Girl High School|バトルガールハイスクール
 2017/08/08-00:00:01 05 Princess Principal|プリンセス・プリンシパル
 2017/08/08-00:00:01 05 Centaur no Nayami|セントールの悩み
-2017/08/07-12:00:01 06 Katsugeki - Touken Ranbu|活撃 刀剣乱舞
-2017/08/07-12:00:01 06 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
-2017/08/07-00:00:01 16.5 Re-Creators|Re：CREATORS
-2017/08/07-00:00:01 06 Senki Zesshou Symphogear AXZ|戦姫絶唱シンフォギアAXZ
-2017/08/07-00:00:01 06 Hina Logi|ひなろじ～from Luck＆Logic～
-2017/08/07-00:00:01 06 Fate - Apocrypha|Fate／Apocrypha
 2017/08/04-18:00:01 05 Konbini Kareshi|コンビニカレシ
 2017/08/04-18:00:01 05 Action Heroine Cheer Fruits|アクションヒロイン チアフルーツ
 2017/08/01-06:00:01 05 Kakegurui|賭ケグルイ
