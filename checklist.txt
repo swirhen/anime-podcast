@@ -1,4 +1,9 @@
-Last Update: 2017/08/23-18:00:01
+Last Update: 2017/08/24-00:00:01
+2017/08/24-00:00:01 08 Tsurezure Children|徒然チルドレン
+2017/08/24-00:00:01 08 Nanamaru Sanbatsu|ナナマルサンバツ
+2017/08/24-00:00:01 08 Aho Girl|アホガール
+2017/08/24-00:00:01 07 Mahoujin Guru Guru|魔法陣グルグル
+2017/08/24-00:00:01 07 Dive!|DIVE！！
 2017/08/23-18:00:01 21 Idol Time PriPara|アイドルタイムプリパラ
 2017/08/23-18:00:01 07 New Game|NEW GAME！！
 2017/08/23-18:00:01 07 Musekinin Galaxy Tylor|無責任ギャラクシー☆タイラー
@@ -46,10 +51,5 @@ Last Update: 2017/08/23-18:00:01
 2017/08/17-18:00:01 06 Ikemen Sengoku|イケメン戦国◆時をかけるが恋ははじまらない
 2017/08/17-18:00:01 06 Hajimete no Gal|はじめてのギャル
 2017/08/17-18:00:01 06 Clione no Akari|クリオネの灯り
-2017/08/16-18:00:01 07 Tsurezure Children|徒然チルドレン
-2017/08/16-18:00:01 07 Nanamaru Sanbatsu|ナナマルサンバツ
-2017/08/16-18:00:01 07 Aho Girl|アホガール
-2017/08/16-18:00:01 06 Mahoujin Guru Guru|魔法陣グルグル
 2017/08/14-06:00:01 07 Hina Logi|ひなろじ～from Luck＆Logic～
-2017/08/12-00:00:01 06 Dive!|DIVE！！
 2017/07/31-12:00:01 12 Nanatsu no Taizai|sin 七つの大罪
