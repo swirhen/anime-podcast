@@ -1,4 +1,5 @@
-Last Update: 2017/08/28-18:00:01
+Last Update: 2017/08/29-00:00:01
+2017/08/29-00:00:01 09 Battle Girl High School|バトルガールハイスクール
 2017/08/28-18:00:01 09 Knight's|ナイツ＆マジック
 2017/08/28-18:00:01 08 Princess Principal|プリンセス・プリンシパル
 2017/08/28-18:00:01 08 Centaur no Nayami|セントールの悩み
@@ -49,7 +50,6 @@ Last Update: 2017/08/28-18:00:01
 2017/08/22-18:00:01 08 Isekai Shokudou|異世界食堂
 2017/08/22-18:00:01 07 Tenshi no 3P|天使の3P！
 2017/08/22-12:00:01 08 Skirt no Naka wa Kedamono Deshita|スカートの中はケダモノでした。
-2017/08/22-06:00:01 08 Battle Girl High School|バトルガールハイスクール
 2017/08/21-06:00:01 20 Boku no Hero Academia 2|僕のヒーローアカデミア2
 2017/08/19-18:00:01 07 Vatican Kiseki Chousakan|バチカン奇跡調査官
 2017/07/31-12:00:01 12 Nanatsu no Taizai|sin 七つの大罪
