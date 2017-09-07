@@ -1,4 +1,19 @@
-Last Update: 2017/09/07-12:00:01
+Last Update: 2017/09/07-18:00:01
+2017/09/07-18:00:01 23 Sagrada Reset|サクラダリセット
+2017/09/07-18:00:01 23 Idol Time PriPara|アイドルタイムプリパラ
+2017/09/07-18:00:01 10 Tsurezure Children|徒然チルドレン
+2017/09/07-18:00:01 10 Saiyuuki Reload Blast|最遊記RELOAD BLAST
+2017/09/07-18:00:01 10 Netsuzou Trap|捏造トラップ-NTR-
+2017/09/07-18:00:01 10 Aho Girl|アホガール
+2017/09/07-18:00:01 09 Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e|ようこそ実力至上主義の教室へ
+2017/09/07-18:00:01 09 Nora to Oujo to Noraneko Heart|ノラと皇女と野良猫ハート
+2017/09/07-18:00:01 09 New Game|NEW GAME！！
+2017/09/07-18:00:01 09 Musekinin Galaxy Tylor|無責任ギャラクシー☆タイラー
+2017/09/07-18:00:01 09 Mahoujin Guru Guru|魔法陣グルグル
+2017/09/07-18:00:01 09 Kaito x Ansa|カイトアンサ
+2017/09/07-18:00:01 09 Isekai wa Smartphone to Tomo ni|異世界はスマートフォンとともに。
+2017/09/07-18:00:01 09 Hajimete no Gal|はじめてのギャル
+2017/09/07-18:00:01 09 Clione no Akari|クリオネの灯り
 2017/09/06-06:00:01 10 Youkai Apartment no Yuuga na Nichijou|妖怪アパートの幽雅な日常
 2017/09/06-06:00:01 10 Skirt no Naka wa Kedamono Deshita|スカートの中はケダモノでした。
 2017/09/06-06:00:01 10 Koi to Uso|恋と嘘
@@ -31,19 +46,4 @@ Last Update: 2017/09/07-12:00:01
 2017/09/01-18:00:02 08 Gamers|ゲーマーズ！
 2017/09/01-18:00:02 08 Action Heroine Cheer Fruits|アクションヒロイン チアフルーツ
 2017/09/01-06:00:01 22 Sakura Quest|サクラクエスト
-2017/08/31-18:00:01 22 Sagrada Reset|サクラダリセット
-2017/08/31-18:00:01 09 Saiyuuki Reload Blast|最遊記RELOAD BLAST
-2017/08/31-18:00:01 09 Netsuzou Trap|捏造トラップ-NTR-
-2017/08/31-18:00:01 08 Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e|ようこそ実力至上主義の教室へ
-2017/08/31-18:00:01 08 Nora to Oujo to Noraneko Heart|ノラと皇女と野良猫ハート
-2017/08/31-18:00:01 08 Kaito x Ansa|カイトアンサ
 2017/08/31-18:00:01 08 Ikemen Sengoku|イケメン戦国◆時をかけるが恋ははじまらない
-2017/08/31-18:00:01 08 Hajimete no Gal|はじめてのギャル
-2017/08/31-18:00:01 08 Clione no Akari|クリオネの灯り
-2017/08/30-18:00:01 22 Idol Time PriPara|アイドルタイムプリパラ
-2017/08/30-18:00:01 09 Tsurezure Children|徒然チルドレン
-2017/08/30-18:00:01 09 Aho Girl|アホガール
-2017/08/30-18:00:01 08 New Game|NEW GAME！！
-2017/08/30-18:00:01 08 Musekinin Galaxy Tylor|無責任ギャラクシー☆タイラー
-2017/08/30-18:00:01 08 Mahoujin Guru Guru|魔法陣グルグル
-2017/08/30-18:00:01 08 Isekai wa Smartphone to Tomo ni|異世界はスマートフォンとともに。
