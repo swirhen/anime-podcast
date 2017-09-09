@@ -1,4 +1,10 @@
-Last Update: 2017/09/10-00:00:01
+Last Update: 2017/09/10-06:00:01
+2017/09/10-06:00:01 21 Shingeki no Bahamut|神撃のバハムート VIRGIN SOUL
+2017/09/10-06:00:01 10 Vatican Kiseki Chousakan|バチカン奇跡調査官
+2017/09/10-06:00:01 10 Made in Abyss|メイドインアビス
+2017/09/10-06:00:01 10 Jikan no Shihaisha|時間の支配者
+2017/09/10-06:00:01 09 Shoukoku no Altair|将国のアルタイル
+2017/09/10-06:00:01 09 Jigoku Shoujo - Yoi no Togi|地獄少女 宵伽
 2017/09/09-00:00:01 98 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
 2017/09/09-00:00:01 72 Aikatsu Stars|アイカツスターズ！
 2017/09/09-00:00:01 09 Konbini Kareshi|コンビニカレシ
@@ -38,12 +44,6 @@ Last Update: 2017/09/10-00:00:01
 2017/09/03-18:00:02 10 Fate - Apocrypha|Fate／Apocrypha
 2017/09/03-18:00:02 10 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
 2017/09/03-18:00:02 09 Hina Logi|ひなろじ～from Luck＆Logic～
-2017/09/03-18:00:02 08 Jigoku Shoujo - Yoi no Togi|地獄少女 宵伽
 2017/09/03-00:00:01 22 Ise Kanegasaki Hen|信長の忍び～伊勢・金ヶ崎篇～
-2017/09/03-00:00:01 20 Shingeki no Bahamut|神撃のバハムート VIRGIN SOUL
-2017/09/03-00:00:01 09 Vatican Kiseki Chousakan|バチカン奇跡調査官
-2017/09/03-00:00:01 09 Made in Abyss|メイドインアビス
-2017/09/03-00:00:01 09 Jikan no Shihaisha|時間の支配者
 2017/09/03-00:00:01 09 18if|18if
-2017/09/03-00:00:01 08 Shoukoku no Altair|将国のアルタイル
 2017/08/31-18:00:01 08 Ikemen Sengoku|イケメン戦国◆時をかけるが恋ははじまらない
