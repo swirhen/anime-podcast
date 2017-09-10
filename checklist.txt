@@ -1,4 +1,7 @@
-Last Update: 2017/09/11-00:00:01
+Last Update: 2017/09/11-06:00:01
+2017/09/11-06:00:01 11 Fate - Apocrypha|Fate／Apocrypha
+2017/09/11-06:00:01 11 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
+2017/09/11-06:00:01 10 Hina Logi|ひなろじ～from Luck＆Logic～
 2017/09/10-18:00:01 49 Digimon Universe|デジモンユニバース アプリモンスターズ
 2017/09/10-18:00:01 23 Ise Kanegasaki Hen|信長の忍び～伊勢・金ヶ崎篇～
 2017/09/10-18:00:01 21 Re-Creators|Re：CREATORS
@@ -42,8 +45,5 @@ Last Update: 2017/09/11-00:00:01
 2017/09/04-18:00:01 09 Centaur no Nayami|セントールの悩み
 2017/09/04-06:00:01 09 Ballroom e Youkoso|ボールルームへようこそ
 2017/09/03-18:00:02 21 Boku no Hero Academia 2|僕のヒーローアカデミア2
-2017/09/03-18:00:02 10 Fate - Apocrypha|Fate／Apocrypha
-2017/09/03-18:00:02 10 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
-2017/09/03-18:00:02 09 Hina Logi|ひなろじ～from Luck＆Logic～
 2017/09/03-00:00:01 09 18if|18if
 2017/08/31-18:00:01 08 Ikemen Sengoku|イケメン戦国◆時をかけるが恋ははじまらない
