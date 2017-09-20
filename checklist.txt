@@ -1,4 +1,15 @@
-Last Update: 2017/09/20-12:00:01
+Last Update: 2017/09/20-18:00:01
+2017/09/20-18:00:01 25 Idol Time PriPara|アイドルタイムプリパラ
+2017/09/20-18:00:01 12 Tsurezure Children|徒然チルドレン
+2017/09/20-18:00:01 12 Skirt no Naka wa Kedamono Deshita|スカートの中はケダモノでした。
+2017/09/20-18:00:01 12 Knight's|ナイツ＆マジック
+2017/09/20-18:00:01 12 Keppeki Danshi|潔癖男子！青山くん
+2017/09/20-18:00:01 12 Aho Girl|アホガール
+2017/09/20-18:00:01 11 Princess Principal|プリンセス・プリンシパル
+2017/09/20-18:00:01 11 New Game|NEW GAME！！
+2017/09/20-18:00:01 11 Musekinin Galaxy Tylor|無責任ギャラクシー☆タイラー
+2017/09/20-18:00:01 11 Mahoujin Guru Guru|魔法陣グルグル
+2017/09/20-18:00:01 11 Isekai wa Smartphone to Tomo ni|異世界はスマートフォンとともに。
 2017/09/19-18:00:01 12 Koi to Uso|恋と嘘
 2017/09/19-18:00:01 12 Isekai Shokudou|異世界食堂
 2017/09/19-18:00:01 11 Tenshi no 3P|天使の3P！
@@ -34,16 +45,5 @@ Last Update: 2017/09/20-12:00:01
 2017/09/14-18:00:01 10 Kaito x Ansa|カイトアンサ
 2017/09/14-18:00:01 10 Hajimete no Gal|はじめてのギャル
 2017/09/14-18:00:01 10 Clione no Akari|クリオネの灯り
-2017/09/13-18:00:01 24 Idol Time PriPara|アイドルタイムプリパラ
-2017/09/13-18:00:01 11 Tsurezure Children|徒然チルドレン
-2017/09/13-18:00:01 11 Knight's|ナイツ＆マジック
-2017/09/13-18:00:01 11 Aho Girl|アホガール
-2017/09/13-18:00:01 10 Princess Principal|プリンセス・プリンシパル
-2017/09/13-18:00:01 10 New Game|NEW GAME！！
-2017/09/13-18:00:01 10 Musekinin Galaxy Tylor|無責任ギャラクシー☆タイラー
-2017/09/13-18:00:01 10 Mahoujin Guru Guru|魔法陣グルグル
-2017/09/13-18:00:01 10 Isekai wa Smartphone to Tomo ni|異世界はスマートフォンとともに。
 2017/09/13-00:00:01 11 Youkai Apartment no Yuuga na Nichijou|妖怪アパートの幽雅な日常
-2017/09/13-00:00:01 11 Skirt no Naka wa Kedamono Deshita|スカートの中はケダモノでした。
-2017/09/13-00:00:01 11 Keppeki Danshi|潔癖男子！青山くん
 2017/09/10-06:00:01 10 Vatican Kiseki Chousakan|バチカン奇跡調査官
