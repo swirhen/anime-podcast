@@ -1,3 +1,4 @@
+#!/usr/bin/env zsh
 source /home/swirhen/.zshrc
 
 nowdir=`pwd`
