@@ -11,17 +11,17 @@ if [ `ls *.f*.webm | wc -l` -gt 0 ]; then
   if [ `ls *.f*.webm | wc -l` -eq 2 ]; then
     name=`ls *.f*.webm | head -1`
     name2=`ls *.f*.webm | tail -1`
-    ffm3 -i "${name}" -i "${name2}" -vcodec copy -acodec copy ${nowdir}/"${name}".mkv
+    ffm3 -i "${name}" -i "${name2}" -vcodec copy -acodec copy ${nowdir}/"${name%-*}".mkv
   else
     name=`ls *.*.mp4`
-    ffm3 -i *.*.mp4 -i *.*.webm -vcodec copy -acodec copy ${nowdir}/"${name}".mkv
+    ffm3 -i *.*.mp4 -i *.*.webm -vcodec copy -acodec copy ${nowdir}/"${name%-*}".mkv
   fi
 else
+  name=`ls *.*.mp4`
   if [ `ls *.f*.m4a | wc -l` -eq 1 ]; then
-    name=`ls *.*.mp4`
-    ffm3 -i *.*.mp4 -i *.*.m4a -vcodec copy -acodec copy ${nowdir}/"${name}"
+    ffm3 -i *.*.mp4 -i *.*.m4a -vcodec copy -acodec copy ${nowdir}/"${name%-*}".mp4
   else
-    mv *.*.mp4 ${nowdir}
+    mv ${name} ${nowdir}/${name%-*}.mp4
   fi
 fi
 cd ${nowdir}
