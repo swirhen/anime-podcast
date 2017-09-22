@@ -93,7 +93,7 @@ if [ $asw = "1008" -a $ash = "720" ]; then
 fi
 rm /tmp/fps.txt
 # えんこする
-/usr/bin/wine ffmpeg3.exe -i "$1" $4 -s "$size" -b 1500k -vcodec libx264 -trellis 2 -bf 3 -b_strategy 1 -bidir_refine 1 -crf 25 -g 240 -mbd 2 -me_method umh -subq 6 -qdiff 6 -me_range 32 -sc_threshold 65 -keyint_min 3 -nr 100 -qmin 12 -sn -partitions parti4x4+partp4x4+partp8x8 -f mp4 -coder 1 -level 30 -acodec aac -ac 2 -ar 48000 -ab 128k -async 100 -threads 0 $3 $opt /$drive/tmp/"$1".mp4
+/usr/bin/wine ffmpeg3.exe -i "$1" $4 -s "$size" -b:v 1500k -vcodec libx264 -trellis 2 -bf 3 -b_strategy 1 -bidir_refine 1 -crf 25 -g 240 -mbd 2 -me_method umh -subq 6 -qdiff 6 -me_range 32 -sc_threshold 65 -keyint_min 3 -nr 100 -qmin 12 -sn -partitions parti4x4+partp4x4+partp8x8 -f mp4 -coder 1 -level 30 -acodec aac -ac 2 -ar 48000 -b:a 128k -async 100 -threads 0 $3 $opt /$drive/tmp/"$1".mp4
 #echo "/usr/bin/wine ffmpeg3.exe -i \"$1\" $4 -s \"$size\" -b 1500k -vcodec libx264 -trellis 2 -bf 3 -b_strategy 1 -bidir_refine 1 -crf 25 -g 240 -mbd 2 -me_method umh -subq 6 -qdiff 6 -me_range 32 -sc_threshold 65 -keyint_min 3 -nr 100 -qmin 12 -sn -flags bitexact+alt+mv4+loop -flags2 mixed_refs -partitions parti4x4+partp4x4+partp8x8 -f mp4 -coder 1 -level 30 -acodec libfaac -ac 2 -ar 48000 -ab 128k -async 100 -threads 0 $3 $opt /$drive/tmp/\"$1\".mp4"
 # MP4Boxで faststartたいおうにする アスペクトひをしていする
 sleep 5
