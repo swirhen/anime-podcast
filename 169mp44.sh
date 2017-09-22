@@ -62,7 +62,7 @@ if [ ${5:-null} = "0" ]; then
   echo "# comp 4:3"
   wide="8:9"
 fi
-size="720x480"
+size="960x540"
 if [ $asw = "640" -a $ash = "480" ]; then
     size="640x480"
     wide="1:1"
