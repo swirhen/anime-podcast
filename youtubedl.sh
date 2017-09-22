@@ -7,7 +7,7 @@ DATETIME=`date "+%Y%m%d%H%M"`
 mkdir /data/tmp/${DATETIME}
 cd /data/tmp/${DATETIME}
 python /data/share/movie/sh/youtube-dl "$1"
-if [ -f *.f*.webm ]; then
+if [ `*.f*.webm | wc -l` -gt 0 ]; then
   if [ `ls *.f*.webm | wc -l` -eq 2 ]; then
     name=`ls *.f*.webm | head -1`
     name2=`ls *.f*.webm | tail -1`
