@@ -17,7 +17,12 @@ if [ `ls *.f*.webm | wc -l` -gt 0 ]; then
     ffm3 -i *.*.mp4 -i *.*.webm -vcodec copy -acodec copy ${nowdir}/"${name}".mkv
   fi
 else
-  mv *.*.mp4 ${nowdir}
+  if [ `ls *.f*.m4a | wc -l` -eq 1 ]; then
+    name=`ls *.*.mp4`
+    ffm3 -i *.*.mp4 -i *.*.m4a -vcodec copy -acodec copy ${nowdir}/"${name}"
+  else
+    mv *.*.mp4 ${nowdir}
+  fi
 fi
 cd ${nowdir}
 rm -rf /data/tmp/${DATETIME}
