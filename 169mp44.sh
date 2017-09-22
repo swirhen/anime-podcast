@@ -97,7 +97,7 @@ rm /tmp/fps.txt
 #echo "/usr/bin/wine ffmpeg3.exe -i \"$1\" $4 -s \"$size\" -b 1500k -vcodec libx264 -trellis 2 -bf 3 -b_strategy 1 -bidir_refine 1 -crf 25 -g 240 -mbd 2 -me_method umh -subq 6 -qdiff 6 -me_range 32 -sc_threshold 65 -keyint_min 3 -nr 100 -qmin 12 -sn -flags bitexact+alt+mv4+loop -flags2 mixed_refs -partitions parti4x4+partp4x4+partp8x8 -f mp4 -coder 1 -level 30 -acodec libfaac -ac 2 -ar 48000 -ab 128k -async 100 -threads 0 $3 $opt /$drive/tmp/\"$1\".mp4"
 # MP4Boxで faststartたいおうにする アスペクトひをしていする
 sleep 5
-/usr/local/bin/MP4Box -ipod -par 1="$wide" /$drive/tmp/"$1".mp4 -out /$drive/tmp/"$1"_mod.mp4
-rm /$drive/tmp/"$1".mp4
+#/usr/local/bin/MP4Box -ipod -par 1="$wide" /$drive/tmp/"$1".mp4 -out /$drive/tmp/"$1"_mod.mp4
+#rm /$drive/tmp/"$1".mp4
 sleep 5
-/bin/mv -v /$drive/tmp/"$1"_mod.mp4 "$2""$1".mp4
+/bin/mv -v /$drive/tmp/"$1".mp4 "$2""$1".mp4
