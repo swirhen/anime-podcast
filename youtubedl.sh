@@ -20,4 +20,4 @@ else
   mv *.*.mp4 ${nowdir}
 fi
 cd ${nowdir}
-rm -rf /data/tmp/${DATETIME}
+#rm -rf /data/tmp/${DATETIME}
