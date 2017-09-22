@@ -12,7 +12,7 @@ for a in `ls -rt *話*.(avi|mp4|mkv|wmv)`
 do
   if [ -f "$a" ]; then
     error=0
-    until [ -f "/data/share/movie/98 PSP用/$a.mp4" ];
+    until [ -f "/data/share/movie/98 PSP用/$a.webm" ];
     do
       error=`expr $error + 1`
       if [ $error -gt 10 ]; then
