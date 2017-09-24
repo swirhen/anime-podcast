@@ -1,4 +1,6 @@
-Last Update: 2017/09/25-00:00:01
+Last Update: 2017/09/25-06:00:01
+2017/09/25-06:00:01 51 Digimon Universe|デジモンユニバース アプリモンスターズ
+2017/09/25-06:00:01 24 Boku no Hero Academia 2|僕のヒーローアカデミア2
 2017/09/25-00:00:01 74 Aikatsu Stars|アイカツスターズ！
 2017/09/25-00:00:01 25 Sakura Quest|サクラクエスト
 2017/09/25-00:00:01 25 Ise Kanegasaki Hen|信長の忍び～伊勢・金ヶ崎篇～
@@ -37,9 +39,7 @@ Last Update: 2017/09/25-00:00:01
 2017/09/19-18:00:01 11 Tenshi no 3P|天使の3P！
 2017/09/18-18:00:01 12 Battle Girl High School|バトルガールハイスクール
 2017/09/18-18:00:01 11 Centaur no Nayami|セントールの悩み
-2017/09/18-06:00:01 50 Digimon Universe|デジモンユニバース アプリモンスターズ
 2017/09/18-06:00:01 11 Ballroom e Youkoso|ボールルームへようこそ
-2017/09/18-00:00:01 23 Boku no Hero Academia 2|僕のヒーローアカデミア2
 2017/09/18-00:00:01 22 Re-Creators|Re：CREATORS
 2017/09/18-00:00:01 12 Fate - Apocrypha|Fate／Apocrypha
 2017/09/18-00:00:01 12 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
