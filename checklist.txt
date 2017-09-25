@@ -1,4 +1,7 @@
-Last Update: 2017/09/25-18:00:01
+Last Update: 2017/09/26-00:00:01
+2017/09/26-00:00:01 13 Fate - Apocrypha|Fate／Apocrypha
+2017/09/26-00:00:01 12 Hina Logi|ひなろじ～from Luck＆Logic～
+2017/09/26-00:00:01 12 Ballroom e Youkoso|ボールルームへようこそ
 2017/09/25-06:00:01 51 Digimon Universe|デジモンユニバース アプリモンスターズ
 2017/09/25-06:00:01 24 Boku no Hero Academia 2|僕のヒーローアカデミア2
 2017/09/25-00:00:01 74 Aikatsu Stars|アイカツスターズ！
@@ -27,8 +30,5 @@ Last Update: 2017/09/25-18:00:01
 2017/09/20-18:00:01 11 Isekai wa Smartphone to Tomo ni|異世界はスマートフォンとともに。
 2017/09/19-18:00:01 11 Tenshi no 3P|天使の3P！
 2017/09/18-18:00:01 11 Centaur no Nayami|セントールの悩み
-2017/09/18-06:00:01 11 Ballroom e Youkoso|ボールルームへようこそ
-2017/09/18-00:00:01 12 Fate - Apocrypha|Fate／Apocrypha
 2017/09/18-00:00:01 12 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
-2017/09/18-00:00:01 11 Hina Logi|ひなろじ～from Luck＆Logic～
 2017/09/13-00:00:01 11 Youkai Apartment no Yuuga na Nichijou|妖怪アパートの幽雅な日常
