@@ -189,7 +189,7 @@ ls *話.mp4 >> ${LOG_FILE}
 # auto encode
 logging "### auto encode start."
 
-/data/share/movie/sh/169fwebm.sh
+/data/share/movie/sh/169f.sh
 
 logging "### all process completed."
 slack_post "swirhen.tv auto publish completed."
