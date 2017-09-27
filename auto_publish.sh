@@ -141,6 +141,8 @@ git commit -m 'checklist.txt update' checklist.txt
 git pull
 git push origin master
 
+RESULT_END=`cat ${RESULT_FILE} | grep END`
+
 if [ "${POST_FLG}" = "1" ]; then
   if [ -s ${RESULT_FILE} ]; then
     post_msg="seed download completed.
@@ -150,6 +152,15 @@ download seeds:
 \`\`\`"
     logging "${post_msg}"
     slack_post "${post_msg}"
+    if [ "${RESULT_END}" != "" ]; then
+      sleep 1
+      post_msg_end="ended program find.
+\`\`\`
+${RESULT_END}
+\`\`\`"
+      logging "${post_msg_end}"
+      slack_post "${post_msg_end}"
+    fi
   else
     post_msg="swirhen.tv auto publish completed. (no new episode)"
     logging "${post_msg}"
