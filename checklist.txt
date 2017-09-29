@@ -1,4 +1,7 @@
-Last Update: 2017/09/29-12:00:01
+Last Update: 2017/09/29-18:00:01
+2017/09/29-18:00:01 75 Aikatsu Stars|アイカツスターズ！
+2017/09/29-18:00:01 12 Gamers|ゲーマーズ！
+2017/09/29-18:00:01 101 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
 2017/09/27-18:00:01 12 Mahoujin Guru Guru|魔法陣グルグル
 2017/09/27-06:00:01 26 Idol Time PriPara|アイドルタイムプリパラ
 2017/09/27-06:00:01 12 Isekai wa Smartphone to Tomo ni|異世界はスマートフォンとともに。
@@ -12,7 +15,6 @@ Last Update: 2017/09/29-12:00:01
 2017/09/26-00:00:01 12 Ballroom e Youkoso|ボールルームへようこそ
 2017/09/25-06:00:01 51 Digimon Universe|デジモンユニバース アプリモンスターズ
 2017/09/25-06:00:01 24 Boku no Hero Academia 2|僕のヒーローアカデミア2
-2017/09/25-00:00:01 74 Aikatsu Stars|アイカツスターズ！
 2017/09/25-00:00:01 25 Ise Kanegasaki Hen|信長の忍び～伊勢・金ヶ崎篇～
 2017/09/25-00:00:01 23 Shingeki no Bahamut|神撃のバハムート VIRGIN SOUL
 2017/09/25-00:00:01 12 Made in Abyss|メイドインアビス
@@ -22,6 +24,4 @@ Last Update: 2017/09/29-12:00:01
 2017/09/25-00:00:01 11 Konbini Kareshi|コンビニカレシ
 2017/09/25-00:00:01 11 Jigoku Shoujo - Yoi no Togi|地獄少女 宵伽
 2017/09/25-00:00:01 11 Action Heroine Cheer Fruits|アクションヒロイン チアフルーツ
-2017/09/25-00:00:01 100 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
-2017/09/23-06:00:01 11 Gamers|ゲーマーズ！
 2017/09/18-00:00:01 12 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
