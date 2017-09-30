@@ -1,4 +1,6 @@
-Last Update: 2017/09/30-06:00:01
+Last Update: 2017/09/30-12:00:01
+2017/09/30-12:00:01 12 Konbini Kareshi|コンビニカレシ
+2017/09/30-12:00:01 12 Action Heroine Cheer Fruits|アクションヒロイン チアフルーツ
 2017/09/29-18:00:01 75 Aikatsu Stars|アイカツスターズ！
 2017/09/29-18:00:01 12 Gamers|ゲーマーズ！
 2017/09/29-18:00:01 101 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
@@ -21,7 +23,5 @@ Last Update: 2017/09/30-06:00:01
 2017/09/25-00:00:01 12 Jikan no Shihaisha|時間の支配者
 2017/09/25-00:00:01 12 18if|18if
 2017/09/25-00:00:01 11 Shoukoku no Altair|将国のアルタイル
-2017/09/25-00:00:01 11 Konbini Kareshi|コンビニカレシ
 2017/09/25-00:00:01 11 Jigoku Shoujo - Yoi no Togi|地獄少女 宵伽
-2017/09/25-00:00:01 11 Action Heroine Cheer Fruits|アクションヒロイン チアフルーツ
 2017/09/18-00:00:01 12 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
