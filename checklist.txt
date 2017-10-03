@@ -1,4 +1,4 @@
-Last Update: 2017/10/03-18:00:01
+Last Update: 2017/10/04-00:00:01
 2017/10/02-00:00:01 52 Digimon Universe|デジモンユニバース アプリモンスターズ
 2017/10/02-00:00:01 25 Boku no Hero Academia 2|僕のヒーローアカデミア2
 2017/10/02-00:00:01 13 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
@@ -26,5 +26,5 @@ Last Update: 2017/10/03-18:00:01
 2017/09/26-00:00:01 13 Fate - Apocrypha|Fate／Apocrypha
 2017/09/26-00:00:01 12 Hina Logi|ひなろじ～from Luck＆Logic～
 # 0 The Idolmaster SideM|アイドルマスター SideM
-# 0 Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場2
 # 0 Osomatsu-san|おそ松さん2
+# 0 Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場2
