@@ -1,4 +1,7 @@
-Last Update: 2017/10/05-00:00:01
+Last Update: 2017/10/05-06:00:01
+2017/10/05-06:00:01 13 Mahoujin Guru Guru|魔法陣グルグル
+2017/10/05-06:00:01 01 Osomatsu-san|おそ松さん2
+2017/10/05-06:00:01 01 Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場2
 2017/10/04-18:00:01 27 Idol Time PriPara|アイドルタイムプリパラ
 2017/10/04-18:00:01 14 Youkai Apartment no Yuuga na Nichijou|妖怪アパートの幽雅な日常
 2017/10/02-00:00:01 52 Digimon Universe|デジモンユニバース アプリモンスターズ
@@ -17,7 +20,6 @@ Last Update: 2017/10/05-00:00:01
 2017/09/29-18:00:01 75 Aikatsu Stars|アイカツスターズ！
 2017/09/29-18:00:01 12 Gamers|ゲーマーズ！
 2017/09/29-18:00:01 101 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
-2017/09/27-18:00:01 12 Mahoujin Guru Guru|魔法陣グルグル
 2017/09/27-06:00:01 12 Isekai wa Smartphone to Tomo ni|異世界はスマートフォンとともに。
 2017/09/27-00:00:01 12 Tenshi no 3P|天使の3P！
 2017/09/26-06:00:01 13 Knight's|ナイツ＆マジック
@@ -26,5 +28,3 @@ Last Update: 2017/10/05-00:00:01
 2017/09/26-00:00:01 13 Fate - Apocrypha|Fate／Apocrypha
 2017/09/26-00:00:01 12 Hina Logi|ひなろじ～from Luck＆Logic～
 # 0 The Idolmaster SideM|アイドルマスター SideM
-# 0 Osomatsu-san|おそ松さん2
-# 0 Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場2
