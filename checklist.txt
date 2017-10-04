@@ -1,4 +1,6 @@
-Last Update: 2017/10/04-12:00:01
+Last Update: 2017/10/04-18:00:01
+2017/10/04-18:00:01 27 Idol Time PriPara|アイドルタイムプリパラ
+2017/10/04-18:00:01 14 Youkai Apartment no Yuuga na Nichijou|妖怪アパートの幽雅な日常
 2017/10/02-00:00:01 52 Digimon Universe|デジモンユニバース アプリモンスターズ
 2017/10/02-00:00:01 25 Boku no Hero Academia 2|僕のヒーローアカデミア2
 2017/10/02-00:00:01 13 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
@@ -16,9 +18,7 @@ Last Update: 2017/10/04-12:00:01
 2017/09/29-18:00:01 12 Gamers|ゲーマーズ！
 2017/09/29-18:00:01 101 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
 2017/09/27-18:00:01 12 Mahoujin Guru Guru|魔法陣グルグル
-2017/09/27-06:00:01 26 Idol Time PriPara|アイドルタイムプリパラ
 2017/09/27-06:00:01 12 Isekai wa Smartphone to Tomo ni|異世界はスマートフォンとともに。
-2017/09/27-00:00:01 13 Youkai Apartment no Yuuga na Nichijou|妖怪アパートの幽雅な日常
 2017/09/27-00:00:01 12 Tenshi no 3P|天使の3P！
 2017/09/26-06:00:01 13 Knight's|ナイツ＆マジック
 2017/09/26-06:00:01 12 Princess Principal|プリンセス・プリンシパル
