@@ -1,4 +1,13 @@
-Last Update: 2017/10/06-12:00:01
+Last Update: 2017/10/06-18:00:01
+2017/10/06-18:00:01 01 UQ Holder|UQ HOLDER！～魔法先生ネギま！2～
+2017/10/06-18:00:01 01 Sengoku Night Blood|戦刻ナイトブラッド
+2017/10/06-18:00:01 01 Osake wa Fuufu ni Natte kara|お酒は夫婦になってから
+2017/10/06-18:00:01 01 Omiai Aite wa Oshiego|お見合い相手は教え子、強気な、問題児。
+2017/10/06-18:00:01 01 Konohana Kitan|このはな綺譚
+2017/10/06-18:00:01 01 Juuni Taisen|十二大戦
+2017/10/06-18:00:01 01 Infini-T Force|Infini-T Force
+2017/10/06-18:00:01 01 Dia Horizon|ディアホライゾン(被)
+2017/10/06-18:00:01 01 Black Clover|ブラッククローバー
 2017/10/05-06:00:01 13 Mahoujin Guru Guru|魔法陣グルグル
 2017/10/05-06:00:01 01 Osomatsu-san|おそ松さん2
 2017/10/05-06:00:01 01 Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場2
@@ -26,13 +35,4 @@ Last Update: 2017/10/06-12:00:01
 2017/09/26-00:00:01 13 Fate - Apocrypha|Fate／Apocrypha
 2017/09/26-00:00:01 12 Hina Logi|ひなろじ～from Luck＆Logic～
 # 0 The Idolmaster SideM|アイドルマスター SideM
-# 0 Konohana Kitan|このはな綺譚
-# 0 Shokugeki no Souma - San no Sara食戟のソーマ 餐ノ皿
-# 0 Sengoku Night Blood|戦刻ナイトブラッド
-# 0 Osake wa Fuufu ni Natte kara|お酒は夫婦になってから
-# 0 Omiai Aite wa Oshiego|お見合い相手は教え子、強気な、問題児。
-# 0 Juuni Taisen|十二大戦
-# 0 Infini-T Force|Infini-T Force
-# 0 Dia Horizon|ディアホライゾン(被)
-# 0 Black Clover|ブラッククローバー
-# 0 UQ Holder|UQ HOLDER！～魔法先生ネギま！2～
+# 0 Shokugeki no Souma - San no Sara食戟のソーマ 餐ノ皿|Shokugeki no Souma - San no Sara食戟のソーマ 餐ノ皿
