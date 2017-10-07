@@ -1,4 +1,7 @@
-Last Update: 2017/10/08-00:00:01
+Last Update: 2017/10/08-06:00:01
+2017/10/08-06:00:01 76 Aikatsu Stars|アイカツスターズ！
+2017/10/08-06:00:01 13 Shoukoku no Altair|将国のアルタイル
+2017/10/08-06:00:01 102 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
 2017/10/06-18:00:01 01 UQ Holder|UQ HOLDER！～魔法先生ネギま！2～
 2017/10/06-18:00:01 01 Sengoku Night Blood|戦刻ナイトブラッド
 2017/10/06-18:00:01 01 Osake wa Fuufu ni Natte kara|お酒は夫婦になってから
@@ -20,13 +23,10 @@ Last Update: 2017/10/08-00:00:01
 2017/09/30-18:00:01 24 Shingeki no Bahamut|神撃のバハムート VIRGIN SOUL
 2017/09/30-18:00:01 13 Jikan no Shihaisha|時間の支配者
 2017/09/30-18:00:01 13 18if|18if
-2017/09/30-18:00:01 12 Shoukoku no Altair|将国のアルタイル
 2017/09/30-18:00:01 12 Jigoku Shoujo - Yoi no Togi|地獄少女 宵伽
 2017/09/30-12:00:01 12 Konbini Kareshi|コンビニカレシ
 2017/09/30-12:00:01 12 Action Heroine Cheer Fruits|アクションヒロイン チアフルーツ
-2017/09/29-18:00:01 75 Aikatsu Stars|アイカツスターズ！
 2017/09/29-18:00:01 12 Gamers|ゲーマーズ！
-2017/09/29-18:00:01 101 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
 2017/09/27-06:00:01 12 Isekai wa Smartphone to Tomo ni|異世界はスマートフォンとともに。
 2017/09/27-00:00:01 12 Tenshi no 3P|天使の3P！
 2017/09/26-06:00:01 13 Knight's|ナイツ＆マジック
