@@ -1,4 +1,5 @@
-Last Update: 2017/10/09-12:00:02
+Last Update: 2017/10/09-18:00:01
+2017/10/09-18:00:01 14 Fate - Apocrypha|Fate／Apocrypha
 2017/10/09-06:00:01 01 The Idolmaster SideM|アイドルマスター SideM
 2017/10/08-06:00:01 76 Aikatsu Stars|アイカツスターズ！
 2017/10/08-06:00:01 13 Shoukoku no Altair|将国のアルタイル
@@ -33,6 +34,5 @@ Last Update: 2017/10/09-12:00:02
 2017/09/26-06:00:01 13 Knight's|ナイツ＆マジック
 2017/09/26-06:00:01 12 Princess Principal|プリンセス・プリンシパル
 2017/09/26-06:00:01 12 Centaur no Nayami|セントールの悩み
-2017/09/26-00:00:01 13 Fate - Apocrypha|Fate／Apocrypha
 2017/09/26-00:00:01 12 Hina Logi|ひなろじ～from Luck＆Logic～
 # 0 Shokugeki no Souma - San no Sara食戟のソーマ 餐ノ皿|Shokugeki no Souma - San no Sara食戟のソーマ 餐ノ皿
