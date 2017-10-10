@@ -60,5 +60,5 @@ Last Update: 2017/10/10-18:00:01
 # 01 Glamorous Heroes|GLAMOROUS HEROES
 # 01 Dynamic Chord|DYNAMIC CHORD
 # 01 Dream Festival! R|ドリフェス！R
-# 0 Love Kome - We Love Rice Nikisaku|ラブ米 -WE LOVE RICE- 二期作
+# 01 Love Kome - We Love Rice Nikisaku|ラブ米 -WE LOVE RICE- 二期作
 # 0 Dies Irae|Dies irae
