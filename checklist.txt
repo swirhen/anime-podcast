@@ -35,4 +35,30 @@ Last Update: 2017/10/10-12:00:01
 2017/09/26-06:00:01 12 Princess Principal|プリンセス・プリンシパル
 2017/09/26-06:00:01 12 Centaur no Nayami|セントールの悩み
 2017/09/26-00:00:01 12 Hina Logi|ひなろじ～from Luck＆Logic～
-# 0 Shokugeki no Souma - San no Sara食戟のソーマ 餐ノ皿|Shokugeki no Souma - San no Sara食戟のソーマ 餐ノ皿
+# 01 Dream Festival! R|ドリフェス！R
+# 01 Dynamic Chord|DYNAMIC CHORD
+# 01 Glamorous Heroes|GLAMOROUS HEROES
+# 01 Just Because|Just because！
+# 01 Kino no Tabi - The Beautiful World - Animated Series|キノの旅 -the Beautiful World- the Animated Series
+# 01 Ou-sama Game The Animation|王様ゲーム The Animation
+# 01 Shokugeki no Souma - San no Sara|食戟のソーマ 餐ノ皿
+# 01 Shoujo Shuumatsu Ryokou|少女終末旅行
+# 01 Taishou Mebiusline - Chicchai-san|大正ちっちゃいさん
+# 01 TsukiPro The Animation|TSUKIPRO THE ANIMATION
+# 01 Urahara|URAHARA
+# 01 Yuuki Yuuna wa Yuusha de Aru - Yuusha no Shou|結城友奈は勇者である -鷲尾須美の章-／-勇者の章-
+# 0 Kujira no Kora wa Sajou ni Utau|クジラの子らは砂上に歌う
+# 0 Imouto sae Ireba Ii|妹さえいればいい。
+# 0 Anime-Gataris|アニメガタリズ
+# 0 Himouto! Umaru-chan R|干物妹！うまるちゃんR
+# 0 Mahou Tsukai no Yome|魔法使いの嫁
+# 0 Kekkai Sensen|血界戦線＆BEYOND
+# 0 Blend S|ブレンド・S
+# 0 Dies Irae|Dies irae
+# 0 Two Car|つうかあ
+# 0 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
+# 0 Houseki no Kuni|宝石の国
+# 0 Hoozuki no Reitetsu 2|鬼灯の冷徹2
+# 0 Classicaloid 2|クラシカロイド2
+# 0 Code Realize|Code:Realize ～創世の姫君～
+# 0 Love Kome - We Love Rice Nikisaku|ラブ米 -WE LOVE RICE- 二期作
