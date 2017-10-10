@@ -1,4 +1,4 @@
-Last Update: 2017/10/10-18:00:01
+Last Update: 2017/10/11-00:00:01
 2017/10/10-18:00:01 14 Ballroom e Youkoso|ボールルームへようこそ
 2017/10/10-18:00:01 02 UQ Holder|UQ HOLDER！～魔法先生ネギま！2～
 2017/10/10-18:00:01 02 Osomatsu-san|おそ松さん2
@@ -55,10 +55,10 @@ Last Update: 2017/10/10-18:00:01
 # 01 Shoujo Shuumatsu Ryokou|少女終末旅行
 # 01 Shokugeki no Souma - San no Sara|食戟のソーマ 餐ノ皿
 # 01 Ou-sama Game The Animation|王様ゲーム The Animation
+# 01 Love Kome - We Love Rice Nikisaku|ラブ米 -WE LOVE RICE- 二期作
 # 01 Kino no Tabi - The Beautiful World - Animated Series|キノの旅 -the Beautiful World- the Animated Series
 # 01 Just Because|Just because！
 # 01 Glamorous Heroes|GLAMOROUS HEROES
 # 01 Dynamic Chord|DYNAMIC CHORD
 # 01 Dream Festival! R|ドリフェス！R
-# 01 Love Kome - We Love Rice Nikisaku|ラブ米 -WE LOVE RICE- 二期作
 # 0 Dies Irae|Dies irae
