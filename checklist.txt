@@ -1,4 +1,6 @@
-Last Update: 2017/10/11-00:00:01
+Last Update: 2017/10/11-06:00:01
+2017/10/11-06:00:01 15 Youkai Apartment no Yuuga na Nichijou|妖怪アパートの幽雅な日常
+2017/10/11-06:00:01 02 Infini-T Force|Infini-T Force
 2017/10/10-18:00:01 14 Ballroom e Youkoso|ボールルームへようこそ
 2017/10/10-18:00:01 02 UQ Holder|UQ HOLDER！～魔法先生ネギま！2～
 2017/10/10-18:00:01 02 Osomatsu-san|おそ松さん2
@@ -26,12 +28,10 @@ Last Update: 2017/10/11-00:00:01
 2017/10/06-18:00:01 01 Omiai Aite wa Oshiego|お見合い相手は教え子、強気な、問題児。
 2017/10/06-18:00:01 01 Konohana Kitan|このはな綺譚
 2017/10/06-18:00:01 01 Juuni Taisen|十二大戦
-2017/10/06-18:00:01 01 Infini-T Force|Infini-T Force
 2017/10/06-18:00:01 01 Black Clover|ブラッククローバー
 2017/10/05-06:00:01 13 Mahoujin Guru Guru|魔法陣グルグル
 2017/10/05-06:00:01 01 Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場2
 2017/10/04-18:00:01 27 Idol Time PriPara|アイドルタイムプリパラ
-2017/10/04-18:00:01 14 Youkai Apartment no Yuuga na Nichijou|妖怪アパートの幽雅な日常
 2017/10/02-00:00:01 13 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
 2017/10/01-06:00:01 13 Made in Abyss|メイドインアビス
 2017/09/30-18:00:01 26 Ise Kanegasaki Hen|信長の忍び～伊勢・金ヶ崎篇～
