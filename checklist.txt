@@ -1,25 +1,38 @@
-Last Update: 2017/10/10-12:00:01
+Last Update: 2017/10/10-18:00:01
+2017/10/10-18:00:01 14 Ballroom e Youkoso|ボールルームへようこそ
+2017/10/10-18:00:01 02 UQ Holder|UQ HOLDER！～魔法先生ネギま！2～
+2017/10/10-18:00:01 02 Osomatsu-san|おそ松さん2
+2017/10/10-18:00:01 02 Dia Horizon|ディアホライゾン(被)
+2017/10/10-18:00:01 01 Two Car|つうかあ
+2017/10/10-18:00:01 01 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
+2017/10/10-18:00:01 01 Mahou Tsukai no Yome|魔法使いの嫁
+2017/10/10-18:00:01 01 Kujira no Kora wa Sajou ni Utau|クジラの子らは砂上に歌う
+2017/10/10-18:00:01 01 Kekkai Sensen|血界戦線＆BEYOND
+2017/10/10-18:00:01 01 Imouto sae Ireba Ii|妹さえいればいい。
+2017/10/10-18:00:01 01 Houseki no Kuni|宝石の国
+2017/10/10-18:00:01 01 Hoozuki no Reitetsu 2|鬼灯の冷徹2
+2017/10/10-18:00:01 01 Himouto! Umaru-chan R|干物妹！うまるちゃんR
+2017/10/10-18:00:01 01 Code Realize|Code:Realize ～創世の姫君～
+2017/10/10-18:00:01 01 Classicaloid 2|クラシカロイド2
+2017/10/10-18:00:01 01 Blend S|ブレンド・S
+2017/10/10-18:00:01 01 Anime-Gataris|アニメガタリズ
 2017/10/09-18:00:01 14 Fate - Apocrypha|Fate／Apocrypha
 2017/10/09-06:00:01 01 The Idolmaster SideM|アイドルマスター SideM
 2017/10/08-06:00:01 76 Aikatsu Stars|アイカツスターズ！
 2017/10/08-06:00:01 13 Shoukoku no Altair|将国のアルタイル
 2017/10/08-06:00:01 102 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
-2017/10/06-18:00:01 01 UQ Holder|UQ HOLDER！～魔法先生ネギま！2～
 2017/10/06-18:00:01 01 Sengoku Night Blood|戦刻ナイトブラッド
 2017/10/06-18:00:01 01 Osake wa Fuufu ni Natte kara|お酒は夫婦になってから
 2017/10/06-18:00:01 01 Omiai Aite wa Oshiego|お見合い相手は教え子、強気な、問題児。
 2017/10/06-18:00:01 01 Konohana Kitan|このはな綺譚
 2017/10/06-18:00:01 01 Juuni Taisen|十二大戦
 2017/10/06-18:00:01 01 Infini-T Force|Infini-T Force
-2017/10/06-18:00:01 01 Dia Horizon|ディアホライゾン(被)
 2017/10/06-18:00:01 01 Black Clover|ブラッククローバー
 2017/10/05-06:00:01 13 Mahoujin Guru Guru|魔法陣グルグル
-2017/10/05-06:00:01 01 Osomatsu-san|おそ松さん2
 2017/10/05-06:00:01 01 Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場2
 2017/10/04-18:00:01 27 Idol Time PriPara|アイドルタイムプリパラ
 2017/10/04-18:00:01 14 Youkai Apartment no Yuuga na Nichijou|妖怪アパートの幽雅な日常
 2017/10/02-00:00:01 13 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
-2017/10/02-00:00:01 13 Ballroom e Youkoso|ボールルームへようこそ
 2017/10/01-06:00:01 13 Made in Abyss|メイドインアビス
 2017/09/30-18:00:01 26 Ise Kanegasaki Hen|信長の忍び～伊勢・金ヶ崎篇～
 2017/09/30-18:00:01 24 Shingeki no Bahamut|神撃のバハムート VIRGIN SOUL
@@ -35,31 +48,17 @@ Last Update: 2017/10/10-12:00:01
 2017/09/26-06:00:01 12 Princess Principal|プリンセス・プリンシパル
 2017/09/26-06:00:01 12 Centaur no Nayami|セントールの悩み
 2017/09/26-00:00:01 12 Hina Logi|ひなろじ～from Luck＆Logic～
-# 01 Dream Festival! R|ドリフェス！R
-# 01 Dynamic Chord|DYNAMIC CHORD
-# 01 Glamorous Heroes|GLAMOROUS HEROES
-# 01 Just Because|Just because！
-# 01 Kino no Tabi - The Beautiful World - Animated Series|キノの旅 -the Beautiful World- the Animated Series
-# 01 Ou-sama Game The Animation|王様ゲーム The Animation
-# 01 Shokugeki no Souma - San no Sara|食戟のソーマ 餐ノ皿
-# 01 Shoujo Shuumatsu Ryokou|少女終末旅行
-# 01 Taishou Mebiusline - Chicchai-san|大正ちっちゃいさん
-# 01 TsukiPro The Animation|TSUKIPRO THE ANIMATION
-# 01 Urahara|URAHARA
 # 01 Yuuki Yuuna wa Yuusha de Aru - Yuusha no Shou|結城友奈は勇者である -鷲尾須美の章-／-勇者の章-
-# 0 Kujira no Kora wa Sajou ni Utau|クジラの子らは砂上に歌う
-# 0 Imouto sae Ireba Ii|妹さえいればいい。
-# 0 Anime-Gataris|アニメガタリズ
-# 0 Himouto! Umaru-chan R|干物妹！うまるちゃんR
-# 0 Mahou Tsukai no Yome|魔法使いの嫁
-# 0 Kekkai Sensen|血界戦線＆BEYOND
-# 0 Blend S|ブレンド・S
-# 0 Dies Irae|Dies irae
-# 0 Two Car|つうかあ
-# 0 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
-# 0 Houseki no Kuni|宝石の国
-# 0 Hoozuki no Reitetsu 2|鬼灯の冷徹2
-# 0 Classicaloid 2|クラシカロイド2
-# 0 Code Realize|Code:Realize ～創世の姫君～
+# 01 Urahara|URAHARA
+# 01 TsukiPro The Animation|TSUKIPRO THE ANIMATION
+# 01 Taishou Mebiusline - Chicchai-san|大正ちっちゃいさん
+# 01 Shoujo Shuumatsu Ryokou|少女終末旅行
+# 01 Shokugeki no Souma - San no Sara|食戟のソーマ 餐ノ皿
+# 01 Ou-sama Game The Animation|王様ゲーム The Animation
+# 01 Kino no Tabi - The Beautiful World - Animated Series|キノの旅 -the Beautiful World- the Animated Series
+# 01 Just Because|Just because！
+# 01 Glamorous Heroes|GLAMOROUS HEROES
+# 01 Dynamic Chord|DYNAMIC CHORD
+# 01 Dream Festival! R|ドリフェス！R
 # 0 Love Kome - We Love Rice Nikisaku|ラブ米 -WE LOVE RICE- 二期作
-
+# 0 Dies Irae|Dies irae
