@@ -1,4 +1,6 @@
-Last Update: 2017/10/12-00:00:01
+Last Update: 2017/10/12-06:00:01
+2017/10/12-06:00:01 02 Sengoku Night Blood|戦刻ナイトブラッド
+2017/10/12-06:00:01 02 Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場2
 2017/10/11-18:00:01 28 Idol Time PriPara|アイドルタイムプリパラ
 2017/10/11-18:00:01 14 Mahoujin Guru Guru|魔法陣グルグル
 2017/10/11-18:00:01 14 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
@@ -30,9 +32,7 @@ Last Update: 2017/10/12-00:00:01
 2017/10/08-06:00:01 76 Aikatsu Stars|アイカツスターズ！
 2017/10/08-06:00:01 13 Shoukoku no Altair|将国のアルタイル
 2017/10/08-06:00:01 102 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
-2017/10/06-18:00:01 01 Sengoku Night Blood|戦刻ナイトブラッド
 2017/10/06-18:00:01 01 Konohana Kitan|このはな綺譚
-2017/10/05-06:00:01 01 Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場2
 2017/10/01-06:00:01 13 Made in Abyss|メイドインアビス
 2017/09/30-18:00:01 26 Ise Kanegasaki Hen|信長の忍び～伊勢・金ヶ崎篇～
 2017/09/30-18:00:01 24 Shingeki no Bahamut|神撃のバハムート VIRGIN SOUL
