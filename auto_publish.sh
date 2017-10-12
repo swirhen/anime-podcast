@@ -128,12 +128,6 @@ do
   (( cnt++ ))
 done
 
-for DL_LINK in "${DOWNLOADS[@]}"
-do
-  logging "download link: ${DL_LINK}"
-  wget --no-check-certificate --restrict-file-names=nocontrol --trust-server-names --content-disposition "${DL_LINK}" -P "${DOWNLOAD_DIR}" > /dev/null
-done
-
 cd /data/share/movie/sh
 if [ `cat ${LIST_TEMP} | wc -l` -ne `cat ${LIST_FILE} | wc -l` ]; then
   slack_post "@here !!! リスト行数が変化しました。 checklist.txt のコミットログを確認してください "
@@ -172,6 +166,12 @@ ${RESULT_END}
 fi
 
 cd /data/share/movie
+
+for DL_LINK in "${DOWNLOADS[@]}"
+do
+  logging "download link: ${DL_LINK}"
+  wget --no-check-certificate --restrict-file-names=nocontrol --trust-server-names --content-disposition "${DL_LINK}" -P "${DOWNLOAD_DIR}" > /dev/null
+done
 
 # torrent download
 logging "### torrent download start."
