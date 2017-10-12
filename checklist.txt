@@ -50,4 +50,8 @@ Last Update: 2017/10/12-12:00:01
 # 0 Netojuu no Susume|ネト充のススメ
 # 0 Wake Up, Girls|Wake Up, Girls！ 新章
 # 0 Evil or Live|EVIL OR LIVE
-
+# 0 Katsugeki - Touken Ranbu|活撃 刀剣乱舞
+# 35 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
+# 0 Nanamaru Sanbatsu|ナナマルサンバツ
+# 0 Senki Zesshou Symphogear AXZ|戦姫絶唱シンフォギアAXZ
+# 0 Kakegurui|賭ケグルイ
