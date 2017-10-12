@@ -93,6 +93,6 @@ if [ $asw = "1008" -a $ash = "720" ]; then
 fi
 rm /tmp/fps.txt
 # えんこする
-/usr/bin/wine ffmpeg3.exe -i "$1" $4 -s "$size" -b:v 750k -c:v vp9 -quality realtime -speed 8 -trellis 2 -bf 3 -b_strategy 1 -bidir_refine 1 -crf 35 -g 240 -mbd 2 -me_method umh -subq 6 -qdiff 6 -me_range 32 -sc_threshold 65 -keyint_min 3 -nr 100 -qmin 12 -sn -partitions parti4x4+partp4x4+partp8x8 -f webm -coder 1 -movflags faststart -c:a libopus -ac 2 -ar 48000 -b:a 128k -async 100 -threads 0 $3 $opt /$drive/tmp/"$1".webm
+/usr/bin/wine ffmpeg3.exe -i "$1" $4 -s "$size" -b:v 1500k -c:v vp9 -speed 3 -trellis 2 -bf 3 -b_strategy 1 -bidir_refine 1 -crf 25 -g 240 -mbd 2 -me_method umh -subq 6 -qdiff 6 -me_range 32 -sc_threshold 65 -keyint_min 3 -nr 100 -qmin 12 -sn -partitions parti4x4+partp4x4+partp8x8 -f webm -coder 1 -movflags faststart -c:a libopus -b:a 128k -async 100 -threads 4 $3 $opt /$drive/tmp/"$1".webm
 sleep 5
-/bin/mv -v /$drive/tmp/"$1".webm "$2"/.
+/bin/mv -v /$drive/tmp/"$1".webm "$2"

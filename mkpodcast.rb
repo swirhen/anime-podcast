@@ -23,6 +23,8 @@ def get_type(f)
     return 'audio/x-m4a'
   when '.mp4'
     return 'video/mp4'
+  when '.webm'
+    return 'video/webm'
   when '.m4v'
     return 'video/x-m4v'
   when '.mov'
@@ -44,22 +46,24 @@ rss = RSS::Maker.make("2.0") do |m|
   m.items.do_sort       = true
 
   Dir::glob(config[:target]).each do |f|
-    i = m.items.new_item
-    uri = URI.escape(config[:base_uri] + File::basename(f))
-    time = File.mtime(f).strftime("%a, %d %b %Y %X +0900")
+    if File::extname(f) != '.xml' then
+      i = m.items.new_item
+      uri = URI.escape(config[:base_uri] + File::basename(f))
+      time = File.mtime(f).strftime("%a, %d %b %Y %X +0900")
 
-    i.author           = 'nobody@example.com'
-    i.dc_creator       = 'nobody@example.com'
-    i.description      = File::basename f
-    i.title            = File::basename f
-    i.link             = uri
-    i.pubDate          = Time.parse(time)
-    i.date             = Time.parse(time)
-    i.content_encoded  = uri
-    i.enclosure.url    = uri
-    i.enclosure.length = File::stat(f).size.to_s
-    i.enclosure.type   = get_type(f)
-    i.guid.content     = uri
+      i.author           = 'nobody@example.com'
+      i.dc_creator       = 'nobody@example.com'
+      i.description      = File::basename f
+      i.title            = File::basename f
+      i.link             = uri
+      i.pubDate          = Time.parse(time)
+      i.date             = Time.parse(time)
+      i.content_encoded  = uri
+      i.enclosure.url    = uri
+      i.enclosure.length = File::stat(f).size.to_s
+      i.enclosure.type   = get_type(f)
+      i.guid.content     = uri
+    end
   end
 end
 

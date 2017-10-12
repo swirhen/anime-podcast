@@ -50,4 +50,15 @@ Last Update: 2017/10/12-18:00:01
 # 01 Dynamic Chord|DYNAMIC CHORD
 # 01 Dream Festival|ドリフェス！R
 # 0 Dies Irae|Dies irae
+<<<<<<< HEAD
   |
+=======
+# 0 Netojuu no Susume|ネト充のススメ
+# 0 Wake Up, Girls|Wake Up, Girls！ 新章
+# 0 Evil or Live|EVIL OR LIVE
+# 0 Katsugeki - Touken Ranbu|活撃 刀剣乱舞
+# 35 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
+# 0 Nanamaru Sanbatsu|ナナマルサンバツ
+# 0 Senki Zesshou Symphogear AXZ|戦姫絶唱シンフォギアAXZ
+# 0 Kakegurui|賭ケグルイ
+>>>>>>> 2e10f7bb10e720ca7e031d11362e218eeccf4f42

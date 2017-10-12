@@ -2,7 +2,7 @@
 BASE_DIR="/data/share/movie"
 PSPMP4_98_DIR="${BASE_DIR}/98 PSP用"
 PSPMP4_MV_DIR="/data6/movie6/pspmp4"
-ROOT_MV_DIR="/data3/movie3"
+ROOT_MV_DIR="/data6/movie6"
 ROOT_MV_DIR_LINK="/data/share/movie/0004 過去連載終了分"
 END_LIST_FILE=""
 END_FILES=()
