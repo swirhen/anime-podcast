@@ -1,4 +1,4 @@
-Last Update: 2017/10/12-18:00:01
+Last Update: 2017/10/13-00:00:01
 2017/10/12-18:00:01 02 TsukiPro The Animation|TSUKIPRO THE ANIMATION
 2017/10/12-18:00:01 02 Shokugeki no Souma - San no Sara|食戟のソーマ 餐ノ皿
 2017/10/12-18:00:01 02 Konohana Kitan|このはな綺譚
@@ -38,6 +38,7 @@ Last Update: 2017/10/12-18:00:01
 2017/10/08-06:00:01 76 Aikatsu Stars|アイカツスターズ！
 2017/10/08-06:00:01 13 Shoukoku no Altair|将国のアルタイル
 2017/10/08-06:00:01 102 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
+# 35 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
 # 01 Yuuki Yuuna wa Yuusha de Aru - Yuusha no Shou|結城友奈は勇者である -鷲尾須美の章-／-勇者の章-
 # 01 Urahara|URAHARA
 # 01 Taishou Mebiusline - Chicchai-san|大正ちっちゃいさん
@@ -49,9 +50,8 @@ Last Update: 2017/10/12-18:00:01
 # 01 Glamorous Heroes|GLAMOROUS HEROES
 # 01 Dynamic Chord|DYNAMIC CHORD
 # 01 Dream Festival|ドリフェス！R
-# 0 Dies Irae|Dies irae
-# 0 Katsugeki - Touken Ranbu|活撃 刀剣乱舞
-# 35 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
-# 0 Nanamaru Sanbatsu|ナナマルサンバツ
 # 0 Senki Zesshou Symphogear AXZ|戦姫絶唱シンフォギアAXZ
+# 0 Nanamaru Sanbatsu|ナナマルサンバツ
+# 0 Katsugeki - Touken Ranbu|活撃 刀剣乱舞
 # 0 Kakegurui|賭ケグルイ
+# 0 Dies Irae|Dies irae
