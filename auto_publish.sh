@@ -52,6 +52,9 @@ LAST_UPDS=()
 EP_NUMS=()
 NAMES=()
 NAMESJ=()
+DOWNLOADS=()
+RESULT_END=""
+
 while read LAST_UPD EP_NUM NAME
 do
   if [ "${LAST_UPD}" != "Last" ]; then
@@ -101,35 +104,34 @@ do
       if [ "${EPNUM_N}" -gt "${EPNUM_OLD_N}" ]; then
         logging "new episode: ${EPNUM} (local: ${EP_NUMS[${cnt}]})"
         hit_flg=1
-        # Leopard優先
-        if [ "`echo \"${title}\" | grep \"Leopard\"`" != "" ]; then
-          if [ `ls ${DOWNLOAD_DIR}/*Ohys*"${NAME}"*.torrent | wc -l` -eq 1 ]; then
-            rm -f ${DOWNLOAD_DIR}/*Ohys*"${NAME}"*.torrent
-          fi
-          if [ `ls ${DOWNLOAD_DIR}/*Leopard*"${NAME}"*.torrent | wc -l` -eq 0 ]; then
-            logging "download link: ${link}"
-            echo "${title}" >> ${RESULT_FILE}
-            wget --no-check-certificate --restrict-file-names=nocontrol --trust-server-names --content-disposition "${link}" -P "${DOWNLOAD_DIR}" > /dev/null
-            break
-          fi
-        else
-          if [ `ls ${DOWNLOAD_DIR}/*Leopard*"${NAME}"*.torrent | wc -l` -eq 0 -a `ls ${DOWNLOAD_DIR}/*Ohys*"${NAME}"*.torrent | wc -l` -eq 0 ]; then
-            logging "download link: ${link}"
-            echo "${title}" >> ${RESULT_FILE}
-            wget --no-check-certificate --restrict-file-names=nocontrol --trust-server-names --content-disposition "${link}" -P "${DOWNLOAD_DIR}" > /dev/null
-            break
-          fi
-        fi
+        echo "${title}" >> ${RESULT_FILE}
+        DOWNLOADS+=( "${link}" )
+        break
       fi
     fi
     (( cnt2++ ))
   done
   if [ "${hit_flg}" = "1" ]; then
     echo "${DATETIME} ${EPNUM} ${NAME}|${NAMESJ[${cnt}]}" >> ${LIST_TEMP}
+    # END Episode
+    if [ "`echo \"${title}\" | grep \"END\"`" != "" ]; then
+      EP_COUNT=`find ${DOWNLOAD_DIR}/*"${NAMESJ}"/ -regextype posix-basic -regex ".*第[^\.]*話.*" | wc -l`
+      (( EP_COUNT++ ))
+      if [ ${EPNUM} -eq ${EP_COUNT} ]; then
+        # TODO END PROGRAM LIST EDIT
+        logging "END PROGRAM CHECK: OK"
+      fi
+    fi
   else
     echo "${LAST_UPDS[${cnt}]} ${EP_NUMS[${cnt}]} ${NAME}|${NAMESJ[${cnt}]}" >> ${LIST_TEMP}
   fi
   (( cnt++ ))
+done
+
+for DL_LINK in "${DOWNLOADS[@]}"
+do
+  logging "download link: ${DL_LINK}"
+  wget --no-check-certificate --restrict-file-names=nocontrol --trust-server-names --content-disposition "${DL_LINK}" -P "${DOWNLOAD_DIR}" > /dev/null
 done
 
 cd /data/share/movie/sh
