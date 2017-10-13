@@ -11,7 +11,6 @@ DATETIME=`date "+%Y/%m/%d-%H:%M:%S"`
 DATETIME2=`date "+%Y%m%d%H%M%S"`
 #URI="https://www.nyaa.se/?page=search&cats=1_11&term=Ohys%7CLeopard&page=rss"
 URI="http://jp.leopard-raws.org/rss.php"
-URI="http://jp.leopard-raws.org/rss.php?search=Netsuzou"
 PYTHON_PATH="/home/swirhen/.pythonbrew/pythons/Python-3.4.3/bin/python"
 CHANNEL="bot-open"
 POST_FLG=1
