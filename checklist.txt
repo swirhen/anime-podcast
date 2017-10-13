@@ -50,8 +50,5 @@ Last Update: 2017/10/13-15:53:04
 # 01 Glamorous Heroes|GLAMOROUS HEROES
 # 01 Dynamic Chord|DYNAMIC CHORD
 # 01 Dream Festival|ドリフェス！R
-# 0 Nanamaru Sanbatsu|ナナマルサンバツ
-# 0 Katsugeki - Touken Ranbu|活撃 刀剣乱舞
-# 0 Kakegurui|賭ケグルイ
 # 0 Dies Irae|Dies irae
 # 0 Inuyashiki|いぬやしき
