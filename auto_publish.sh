@@ -109,6 +109,19 @@ do
         hit_flg=1
         echo "${title}" >> ${RESULT_FILE}
         DOWNLOADS+=( "${link}" )
+        # END Episode
+        if [ "`echo \"${title}\" | grep \"END\"`" != "" ]; then
+          EP_COUNT=`find ${DOWNLOAD_DIR}/*"${NAMESJ[${cnt}]}"/ -regextype posix-basic -regex ".*第[^\.]*話.*" | wc -l`
+          (( EP_COUNT++ ))
+          logging "# 終了とみられるエピソード: ${title}"
+          if [ ${EPNUM} -eq ${EP_COUNT} ]; then
+            logging "  抜けチェック:OK 既存エピソードファイル数(.5話を除く): ${EP_COUNT} / 最終エピソード番号: ${EPNUM}"
+            END_EPISODES+=( "${NAMESJ}" )
+          else
+            logging "  抜けチェック:NG 既存エピソードファイル数(.5話を除く): ${EP_COUNT} / 最終エピソード番号: ${EPNUM}"
+            END_EPISODES_NG+=( "${NAMESJ}" )
+          fi
+        fi
         break
       fi
     fi
@@ -116,19 +129,6 @@ do
   done
   if [ "${hit_flg}" = "1" ]; then
     echo "${DATETIME} ${EPNUM} ${NAME}|${NAMESJ[${cnt}]}" >> ${LIST_TEMP}
-    # END Episode
-    if [ "`echo \"${title}\" | grep \"END\"`" != "" ]; then
-      EP_COUNT=`find ${DOWNLOAD_DIR}/*"${NAMESJ}"/ -regextype posix-basic -regex ".*第[^\.]*話.*" | wc -l`
-      (( EP_COUNT++ ))
-      logging "# 終了とみられるエピソード: ${title}"
-      if [ ${EPNUM} -eq ${EP_COUNT} ]; then
-        logging "  抜けチェック:OK 既存エピソードファイル数(.5話を除く): ${EP_COUNT} / 最終エピソード番号: ${EPNUM}"
-        END_EPISODES+=( "${NAMESJ}" )
-      else
-        logging "  抜けチェック:NG 既存エピソードファイル数(.5話を除く): ${EP_COUNT} / 最終エピソード番号: ${EPNUM}"
-        END_EPISODES_NG+=( "${NAMESJ}" )
-      fi
-    fi
   else
     echo "${LAST_UPDS[${cnt}]} ${EP_NUMS[${cnt}]} ${NAME}|${NAMESJ[${cnt}]}" >> ${LIST_TEMP}
   fi
