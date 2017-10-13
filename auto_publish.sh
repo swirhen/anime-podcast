@@ -206,12 +206,14 @@ if [ ${#END_EPISODES[@]} -ne 0 ]; then
 \`\`\`"
   for END_EPISODE in "${END_EPISODES[@]}"
   do
-    post_mes_end+="\n${END_EPISODE}"
+    post_mes_end+="
+${END_EPISODE}"
     sed -i -e "/${END_EPISODE}/d" "${LIST_FILE}"
     echo "${END_EPISODE}" >> ${ENDLIST_FILE}
   done
 
-  post_mes_end+="\n\`\`\`"
+  post_mes_end+="
+\`\`\`"
   sleep 1
   slack_post "${post_mes_end}"
 
@@ -226,10 +228,12 @@ if [ ${#END_EPISODES_NG[@]} -ne 0 ]; then
 \`\`\`"
   for END_EPISODE_NG in "${END_EPISODES_NG[@]}"
   do
-    post_mes_end+="\n${END_EPISODE_NG}"
+    post_mes_end+="
+${END_EPISODE_NG}"
     echo "${END_EPISODE_NG}" >> ${ENDLIST_FILE}
   done
-  post_mes_end+="\n\`\`\`"
+  post_mes_end+="
+\`\`\`"
   sleep 1
   slack_post "${post_mes_end}"
 fi
