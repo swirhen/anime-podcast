@@ -11,6 +11,7 @@ DATETIME=`date "+%Y/%m/%d-%H:%M:%S"`
 DATETIME2=`date "+%Y%m%d%H%M%S"`
 #URI="https://www.nyaa.se/?page=search&cats=1_11&term=Ohys%7CLeopard&page=rss"
 URI="http://jp.leopard-raws.org/rss.php"
+URI="http://jp.leopard-raws.org/rss.php?search=AXZ"
 PYTHON_PATH="/home/swirhen/.pythonbrew/pythons/Python-3.4.3/bin/python"
 CHANNEL="bot-open"
 POST_FLG=1
@@ -54,6 +55,8 @@ NAMES=()
 NAMESJ=()
 DOWNLOADS=()
 RESULT_END=""
+END_EPISODES=()
+END_EPISODES_NG=()
 
 while read LAST_UPD EP_NUM NAME
 do
@@ -117,9 +120,13 @@ do
     if [ "`echo \"${title}\" | grep \"END\"`" != "" ]; then
       EP_COUNT=`find ${DOWNLOAD_DIR}/*"${NAMESJ}"/ -regextype posix-basic -regex ".*第[^\.]*話.*" | wc -l`
       (( EP_COUNT++ ))
+      logging "# 終了とみられるエピソード: ${title}"
       if [ ${EPNUM} -eq ${EP_COUNT} ]; then
-        # TODO END PROGRAM LIST EDIT
-        logging "END PROGRAM CHECK: OK"
+        logging "  抜けチェック:OK 既存エピソードファイル数(.5話を除く): ${EP_COUNT} / 最終エピソード番号: ${EPNUM}"
+        END_EPISODES+=( "${NAMESJ}" )
+      else
+        logging "  抜けチェック:NG 既存エピソードファイル数(.5話を除く): ${EP_COUNT} / 最終エピソード番号: ${EPNUM}"
+        END_EPISODES_NG+=( "${NAMESJ}" )
       fi
     fi
   else
@@ -137,8 +144,6 @@ git commit -m 'checklist.txt update' checklist.txt
 git pull
 git push origin master
 
-RESULT_END=`cat ${RESULT_FILE} | grep END`
-
 if [ "${POST_FLG}" = "1" ]; then
   if [ -s ${RESULT_FILE} ]; then
     post_msg="seed download completed.
@@ -148,15 +153,6 @@ download seeds:
 \`\`\`"
     logging "${post_msg}"
     slack_post "${post_msg}"
-    if [ "${RESULT_END}" != "" ]; then
-      sleep 1
-      post_msg_end="ended program find.
-\`\`\`
-${RESULT_END}
-\`\`\`"
-      logging "${post_msg_end}"
-      slack_post "${post_msg_end}"
-    fi
   else
     post_msg="swirhen.tv auto publish completed. (no new episode)"
     logging "${post_msg}"
@@ -192,6 +188,52 @@ ls *話.mp4 >> ${LOG_FILE}
 logging "### auto encode start."
 
 /data/share/movie/sh/169f.sh
+
+# end episodes list modify
+ENDLIST_FILE=`find /data/share/movie/end*  -mtime -30 | tail -1`
+if [ "${ENDLIST_FILE}" = "" ]; then
+  ENDLIST_FILE_LAST=`find /data/share/movie/end* | sort | tail -1`
+  ENDLIST_LAST_YEAR=`echo ${ENDLIST_FILE_LAST} | sed "s/.*end_\(....\)Q.*/\1/"`
+  ENDLIST_LAST_NUM=`echo ${ENDLIST_FILE_LAST} | sed "s/.*Q\(.\).*/\1/"`
+  if [ `expr ${ENDLIST_LAST_NUM} + 1` -eq 5 ]; then
+    ENDLIST_FILE=`echo ${ENDLIST_FILE_LAST} | sed "s/\(.*end_\).*/\1$((++ENDLIST_LAST_YEAR))Q1.txt/"`
+  else
+    ENDLIST_FILE=`echo ${ENDLIST_FILE_LAST} | sed "s/\(.*end_....Q\).*/\1$((++ENDLIST_LAST_NUM)).txt/"`
+  fi
+fi
+
+if [ ${#END_EPISODES[@]} -ne 0 ]; then
+  post_mes_end="# 終了とみられる番組で、抜けチェックOKのため、終了リストに追加/チェックリストから削除
+\`\`\`"
+  for END_EPISODE in "${END_EPISODES[@]}"
+  do
+    post_mes_end+="\n${END_EPISODE}"
+    sed -i -e "/${END_EPISODE}/d" "${LIST_FILE}"
+    echo "${END_EPISODE}" >> ${ENDLIST_FILE}
+  done
+
+  post_mes_end+="\n\`\`\`"
+  sleep 1
+  slack_post "${post_mes_end}"
+
+  cd /data/share/movie/sh
+  git commit -m 'checklist.txt update: end episodes delete' checklist.txt
+  git pull
+  git push origin master
+fi
+
+if [ ${#END_EPISODES_NG[@]} -ne 0 ]; then
+  post_mes_end="# 終了とみられる番組で、抜けチェックNGのため、終了リストにのみ追加(要 抜けチェック)
+\`\`\`"
+  for END_EPISODE_NG in "${END_EPISODES[@]}"
+  do
+    post_mes_end+="\n${END_EPISODE_NG}"
+    echo "${END_EPISODE_NG}" >> ${ENDLIST_FILE}
+  done
+  post_mes_end+="\n\`\`\`"
+  sleep 1
+  slack_post "${post_mes_end}"
+fi
 
 logging "### all process completed."
 slack_post "swirhen.tv auto publish completed."
