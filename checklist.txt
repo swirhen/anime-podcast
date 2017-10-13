@@ -52,3 +52,5 @@ Last Update: 2017/10/13-18:00:01
 # 01 Glamorous Heroes|GLAMOROUS HEROES
 # 01 Dream Festival|ドリフェス！R
 # 0 Dies Irae|Dies irae
+# 01 Love Live! Sunshine|ラブライブ！サンシャイン！！2
+# 01 Boku no Kanojo ga Majime Sugiru Shobitch na Ken|僕の彼女がマジメ過ぎるしょびっちな件
