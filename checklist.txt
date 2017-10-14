@@ -1,4 +1,6 @@
-Last Update: 2017/10/14-06:00:01
+Last Update: 2017/10/14-12:00:02
+2017/10/14-12:00:02 02 Just Because|Just because！
+2017/10/14-12:00:02 02 Dream Festival|ドリフェス！R
 2017/10/14-00:00:01 02 Ou-sama Game The Animation|王様ゲーム The Animation
 2017/10/13-18:00:01 77 Aikatsu Stars|アイカツスターズ！
 2017/10/13-18:00:01 103 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
@@ -49,8 +51,6 @@ Last Update: 2017/10/14-06:00:01
 # 01 Love Live! Sunshine|ラブライブ！サンシャイン！！2
 # 01 Love Kome - We Love Rice Nikisaku|ラブ米 -WE LOVE RICE- 二期作
 # 01 Kino no Tabi - The Beautiful World - Animated Series|キノの旅 -the Beautiful World- the Animated Series
-# 01 Just Because|Just because！
 # 01 Glamorous Heroes|GLAMOROUS HEROES
-# 01 Dream Festival|ドリフェス！R
 # 01 Boku no Kanojo ga Majime Sugiru Shobitch na Ken|僕の彼女がマジメ過ぎるしょびっちな件
 # 0 Dies Irae|Dies irae
