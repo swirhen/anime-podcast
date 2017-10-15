@@ -1,4 +1,18 @@
-Last Update: 2017/10/15-18:00:01
+Last Update: 2017/10/16-00:00:01
+2017/10/16-00:00:01 15 Fate - Apocrypha|Fate／Apocrypha
+2017/10/16-00:00:01 15 Ballroom e Youkoso|ボールルームへようこそ
+2017/10/16-00:00:01 02 Two Car|つうかあ
+2017/10/16-00:00:01 02 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
+2017/10/16-00:00:01 02 The Idolmaster SideM|アイドルマスター SideM
+2017/10/16-00:00:01 02 Love Live! Sunshine|ラブライブ！サンシャイン！！2
+2017/10/16-00:00:01 02 Love Kome - We Love Rice Nikisaku|ラブ米 -WE LOVE RICE- 二期作
+2017/10/16-00:00:01 02 Kekkai Sensen|血界戦線＆BEYOND
+2017/10/16-00:00:01 02 Houseki no Kuni|宝石の国
+2017/10/16-00:00:01 02 Hoozuki no Reitetsu 2|鬼灯の冷徹2
+2017/10/16-00:00:01 02 Code Realize|Code:Realize ～創世の姫君～
+2017/10/16-00:00:01 02 Classicaloid 2|クラシカロイド2
+2017/10/16-00:00:01 02 Blend S|ブレンド・S
+2017/10/16-00:00:01 01 Dies Irae|Dies irae
 2017/10/14-18:00:01 14 Shoukoku no Altair|将国のアルタイル
 2017/10/14-18:00:01 02 Yuuki Yuuna wa Yuusha de Aru - Yuusha no Shou|結城友奈は勇者である -鷲尾須美の章-／-勇者の章-
 2017/10/14-18:00:01 02 Taishou Mebiusline - Chicchai-san|大正ちっちゃいさん
@@ -30,27 +44,13 @@ Last Update: 2017/10/15-18:00:01
 2017/10/11-18:00:01 02 Black Clover|ブラッククローバー
 2017/10/11-06:00:01 15 Youkai Apartment no Yuuga na Nichijou|妖怪アパートの幽雅な日常
 2017/10/11-06:00:01 02 Infini-T Force|Infini-T Force
-2017/10/10-18:00:01 14 Ballroom e Youkoso|ボールルームへようこそ
 2017/10/10-18:00:01 02 UQ Holder|UQ HOLDER！～魔法先生ネギま！2～
 2017/10/10-18:00:01 02 Osomatsu-san|おそ松さん2
 2017/10/10-18:00:01 02 Dia Horizon|ディアホライゾン(被)
-2017/10/10-18:00:01 01 Two Car|つうかあ
-2017/10/10-18:00:01 01 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
 2017/10/10-18:00:01 01 Mahou Tsukai no Yome|魔法使いの嫁
 2017/10/10-18:00:01 01 Kujira no Kora wa Sajou ni Utau|クジラの子らは砂上に歌う
-2017/10/10-18:00:01 01 Kekkai Sensen|血界戦線＆BEYOND
 2017/10/10-18:00:01 01 Imouto sae Ireba Ii|妹さえいればいい。
-2017/10/10-18:00:01 01 Houseki no Kuni|宝石の国
-2017/10/10-18:00:01 01 Hoozuki no Reitetsu 2|鬼灯の冷徹2
 2017/10/10-18:00:01 01 Himouto! Umaru-chan R|干物妹！うまるちゃんR
-2017/10/10-18:00:01 01 Code Realize|Code:Realize ～創世の姫君～
-2017/10/10-18:00:01 01 Classicaloid 2|クラシカロイド2
-2017/10/10-18:00:01 01 Blend S|ブレンド・S
 2017/10/10-18:00:01 01 Anime-Gataris|アニメガタリズ
-2017/10/09-18:00:01 14 Fate - Apocrypha|Fate／Apocrypha
-2017/10/09-06:00:01 01 The Idolmaster SideM|アイドルマスター SideM
 # 35 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
-# 01 Love Live! Sunshine|ラブライブ！サンシャイン！！2
-# 01 Love Kome - We Love Rice Nikisaku|ラブ米 -WE LOVE RICE- 二期作
 # 01 Boku no Kanojo ga Majime Sugiru Shobitch na Ken|僕の彼女がマジメ過ぎるしょびっちな件
-# 0 Dies Irae|Dies irae
