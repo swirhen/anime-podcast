@@ -1,4 +1,8 @@
-Last Update: 2017/10/16-12:00:01
+Last Update: 2017/10/16-18:00:01
+2017/10/16-18:00:01 36 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
+2017/10/16-18:00:01 02 Kujira no Kora wa Sajou ni Utau|クジラの子らは砂上に歌う
+2017/10/16-18:00:01 02 Imouto sae Ireba Ii|妹さえいればいい。
+2017/10/16-18:00:01 02 Himouto! Umaru-chan R|干物妹！うまるちゃんR
 2017/10/16-06:00:01 02 Mahou Tsukai no Yome|魔法使いの嫁
 2017/10/16-00:00:01 15 Fate - Apocrypha|Fate／Apocrypha
 2017/10/16-00:00:01 15 Ballroom e Youkoso|ボールルームへようこそ
@@ -48,9 +52,5 @@ Last Update: 2017/10/16-12:00:01
 2017/10/10-18:00:01 02 UQ Holder|UQ HOLDER！～魔法先生ネギま！2～
 2017/10/10-18:00:01 02 Osomatsu-san|おそ松さん2
 2017/10/10-18:00:01 02 Dia Horizon|ディアホライゾン(被)
-2017/10/10-18:00:01 01 Kujira no Kora wa Sajou ni Utau|クジラの子らは砂上に歌う
-2017/10/10-18:00:01 01 Imouto sae Ireba Ii|妹さえいればいい。
-2017/10/10-18:00:01 01 Himouto! Umaru-chan R|干物妹！うまるちゃんR
 2017/10/10-18:00:01 01 Anime-Gataris|アニメガタリズ
-# 35 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
 # 01 Boku no Kanojo ga Majime Sugiru Shobitch na Ken|僕の彼女がマジメ過ぎるしょびっちな件
