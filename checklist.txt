@@ -1,4 +1,8 @@
-Last Update: 2017/10/17-12:00:01
+Last Update: 2017/10/17-18:00:01
+2017/10/17-18:00:01 03 UQ Holder|UQ HOLDER！～魔法先生ネギま！2～
+2017/10/17-18:00:01 03 Osomatsu-san|おそ松さん2
+2017/10/17-18:00:01 03 Dia Horizon|ディアホライゾン(被)
+2017/10/17-18:00:01 02 Wake Up, Girls|Wake Up, Girls！ 新章
 2017/10/17-06:00:01 02 Anime-Gataris|アニメガタリズ
 2017/10/16-18:00:01 36 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
 2017/10/16-18:00:01 02 Kujira no Kora wa Sajou ni Utau|クジラの子らは砂上に歌う
@@ -36,7 +40,6 @@ Last Update: 2017/10/17-12:00:01
 2017/10/12-18:00:01 02 TsukiPro The Animation|TSUKIPRO THE ANIMATION
 2017/10/12-18:00:01 02 Shokugeki no Souma - San no Sara|食戟のソーマ 餐ノ皿
 2017/10/12-18:00:01 02 Konohana Kitan|このはな綺譚
-2017/10/12-18:00:01 01 Wake Up, Girls|Wake Up, Girls！ 新章
 2017/10/12-18:00:01 01 Netojuu no Susume|ネト充のススメ
 2017/10/12-18:00:01 01 Evil or Live|EVIL OR LIVE
 2017/10/12-06:00:01 02 Sengoku Night Blood|戦刻ナイトブラッド
@@ -50,7 +53,4 @@ Last Update: 2017/10/17-12:00:01
 2017/10/11-18:00:01 02 Black Clover|ブラッククローバー
 2017/10/11-06:00:01 15 Youkai Apartment no Yuuga na Nichijou|妖怪アパートの幽雅な日常
 2017/10/11-06:00:01 02 Infini-T Force|Infini-T Force
-2017/10/10-18:00:01 02 UQ Holder|UQ HOLDER！～魔法先生ネギま！2～
-2017/10/10-18:00:01 02 Osomatsu-san|おそ松さん2
-2017/10/10-18:00:01 02 Dia Horizon|ディアホライゾン(被)
 # 01 Boku no Kanojo ga Majime Sugiru Shobitch na Ken|僕の彼女がマジメ過ぎるしょびっちな件
