@@ -1,4 +1,21 @@
-Last Update: 2017/10/23-00:00:01
+Last Update: 2017/10/23-06:00:01
+2017/10/23-06:00:01 37 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
+2017/10/23-06:00:01 16 Fate - Apocrypha|Fate／Apocrypha
+2017/10/23-06:00:01 16 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
+2017/10/23-06:00:01 16 Ballroom e Youkoso|ボールルームへようこそ
+2017/10/23-06:00:01 03 Two Car|つうかあ
+2017/10/23-06:00:01 03 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
+2017/10/23-06:00:01 03 The Idolmaster SideM|アイドルマスター SideM
+2017/10/23-06:00:01 03 Mahou Tsukai no Yome|魔法使いの嫁
+2017/10/23-06:00:01 03 Love Live! Sunshine|ラブライブ！サンシャイン！！2
+2017/10/23-06:00:01 03 Love Kome - We Love Rice Nikisaku|ラブ米 -WE LOVE RICE- 二期作
+2017/10/23-06:00:01 03 Kekkai Sensen|血界戦線＆BEYOND
+2017/10/23-06:00:01 03 Houseki no Kuni|宝石の国
+2017/10/23-06:00:01 03 Hoozuki no Reitetsu 2|鬼灯の冷徹2
+2017/10/23-06:00:01 03 Code Realize|Code:Realize ～創世の姫君～
+2017/10/23-06:00:01 03 Classicaloid 2|クラシカロイド2
+2017/10/23-06:00:01 03 Blend S|ブレンド・S
+2017/10/23-06:00:01 02 Dies Irae|Dies irae
 2017/10/21-18:00:01 15 Shoukoku no Altair|将国のアルタイル
 2017/10/21-18:00:01 03 Yuuki Yuuna wa Yuusha de Aru - Yuusha no Shou|結城友奈は勇者である -鷲尾須美の章-／-勇者の章-
 2017/10/21-18:00:01 03 Taishou Mebiusline - Chicchai-san|大正ちっちゃいさん
@@ -27,7 +44,6 @@ Last Update: 2017/10/23-00:00:01
 2017/10/18-18:00:01 03 Black Clover|ブラッククローバー
 2017/10/18-18:00:01 02 Evil or Live|EVIL OR LIVE
 2017/10/18-00:00:01 16 Youkai Apartment no Yuuga na Nichijou|妖怪アパートの幽雅な日常
-2017/10/18-00:00:01 15 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
 2017/10/18-00:00:01 03 Infini-T Force|Infini-T Force
 2017/10/18-00:00:01 02 Netojuu no Susume|ネト充のススメ
 2017/10/17-18:00:01 03 UQ Holder|UQ HOLDER！～魔法先生ネギま！2～
@@ -35,22 +51,6 @@ Last Update: 2017/10/23-00:00:01
 2017/10/17-18:00:01 03 Dia Horizon|ディアホライゾン(被)
 2017/10/17-18:00:01 02 Wake Up, Girls|Wake Up, Girls！ 新章
 2017/10/17-06:00:01 02 Anime-Gataris|アニメガタリズ
-2017/10/16-18:00:01 36 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
 2017/10/16-18:00:01 02 Kujira no Kora wa Sajou ni Utau|クジラの子らは砂上に歌う
 2017/10/16-18:00:01 02 Imouto sae Ireba Ii|妹さえいればいい。
 2017/10/16-18:00:01 02 Himouto! Umaru-chan R|干物妹！うまるちゃんR
-2017/10/16-06:00:01 02 Mahou Tsukai no Yome|魔法使いの嫁
-2017/10/16-00:00:01 15 Fate - Apocrypha|Fate／Apocrypha
-2017/10/16-00:00:01 15 Ballroom e Youkoso|ボールルームへようこそ
-2017/10/16-00:00:01 02 Two Car|つうかあ
-2017/10/16-00:00:01 02 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
-2017/10/16-00:00:01 02 The Idolmaster SideM|アイドルマスター SideM
-2017/10/16-00:00:01 02 Love Live! Sunshine|ラブライブ！サンシャイン！！2
-2017/10/16-00:00:01 02 Love Kome - We Love Rice Nikisaku|ラブ米 -WE LOVE RICE- 二期作
-2017/10/16-00:00:01 02 Kekkai Sensen|血界戦線＆BEYOND
-2017/10/16-00:00:01 02 Houseki no Kuni|宝石の国
-2017/10/16-00:00:01 02 Hoozuki no Reitetsu 2|鬼灯の冷徹2
-2017/10/16-00:00:01 02 Code Realize|Code:Realize ～創世の姫君～
-2017/10/16-00:00:01 02 Classicaloid 2|クラシカロイド2
-2017/10/16-00:00:01 02 Blend S|ブレンド・S
-2017/10/16-00:00:01 01 Dies Irae|Dies irae
