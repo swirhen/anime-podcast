@@ -4,7 +4,7 @@
 # tiarra socketでtwitterに報告
 # usage:tdlstop.sh [port number]
 EXT=aria2
-date=`date '+%y/%m/%d %H：%M：%S'`
+date=`date '+%y/%m/%d %H:%M:%S'`
 sleep 100
 n=`ls *.${EXT} 2>/dev/null | wc -l`
 if [ $n -gt 1 ]; then
@@ -28,7 +28,7 @@ do
       exit
     else
       echo -e "\n### watching aria2c(port=$1) end###"
-      /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "@swirhen 栽培完了:$date 開始のファイル: $file"
+      #/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "@swirhen 栽培完了:$date 開始のファイル: $file"
       python /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "@swirhen 栽培完了:$date 開始のファイル: $file"
       exit
     fi
