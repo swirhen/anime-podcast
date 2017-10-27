@@ -4,7 +4,7 @@
 # tiarra socketでtwitterに報告
 # usage:tdlstop.sh [port number]
 EXT=aria2
-date=`date '+%y/%m/%d %H:%M:%S'`
+date=`date '+%y/%m/%d %H：%M：%S'`
 sleep 100
 n=`ls *.${EXT} 2>/dev/null | wc -l`
 if [ $n -gt 1 ]; then
