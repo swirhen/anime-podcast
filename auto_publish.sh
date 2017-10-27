@@ -15,6 +15,7 @@ PYTHON_PATH="python3"
 CHANNEL="bot-open"
 POST_FLG=1
 LOG_FILE=${SCRIPT_DIR}/autopub_${DATETIME2}.log
+FLG_FILE=${SCRIPT_DIR}/autopub_running
 
 # botから呼ばれた場合はslack postしない
 if [ "$1" != "" ]; then
@@ -24,6 +25,7 @@ fi
 end() {
 #  rm -f ${LOG_FILE}
   mv ${LOG_FILE} ${SCRIPT_DIR}/logs/
+  rm -f ${FLG_FILE}
   exit 0
 }
 
@@ -39,8 +41,16 @@ slack_upload() {
   /usr/bin/curl -F channels="${CHANNEL}" -F file="@$1" -F title="$2" -F token=`cat ${SCRIPT_DIR}/token` -F filetype=text https://slack.com/api/files.upload
 }
 
+# running flag file check
+if [ -f ${FLG_FILE} ]; then
+  logging "### running flag file exist. exit"
+  end
+else
+  touch ${FLG_FILE}
+fi
+
 # seed download
-logging "### seed download start."
+logging "### auto publish start."
 slack_post "swirhen.tv auto publish start..."
 
 rm -f ${RESULT_FILE}
