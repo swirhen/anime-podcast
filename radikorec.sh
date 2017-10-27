@@ -5,7 +5,7 @@
 # Install: wget swftools rtmpdump ffmpeg http://d.hatena.ne.jp/zariganitosh/20130120/radiko_recoding_again
 
 PATH=$PATH:/usr/local/bin
-PYTHON_PATH="/home/swirhen/.pythonbrew/pythons/Python-3.4.3/bin/python"
+PYTHON_PATH="python3"
 VERSION=3.0.0.01
 
 # 使い方
@@ -40,7 +40,7 @@ radiko_authorize() {
   if [ ! -f $keyfile ]; then
     echo $keyfile extracting...
     # swfextract -b 5 $playerfile -o $keyfile <---radiko仕様変更点
-    /usr/local/bin/swfextract -b 14 $playerfile -o $keyfile
+    /usr/bin/swfextract -b 14 $playerfile -o $keyfile
 
     if [ ! -f $keyfile ]; then
       echo "failed get keydata"
@@ -172,7 +172,7 @@ fi
 
 cd /data/tmp ; wdir=`pwd`
 
-station_name=`curl -s http://radiko.jp/v2/api/program/station/today?station_id=$channel|/usr/bin/xpath -e "//station/name/text()" 2>/dev/null`
+station_name=`curl -s "http://radiko.jp/v2/api/program/station/today?station_id=$channel" |/usr/bin/xpath -e "//station/name/text()" 2>/dev/null`
 output="${wdir}/${fname:=[${station_name}]${pgmname}_`date +%Y%m%d-%H%M`}.flv"
 
 # playerurl=http://radiko.jp/player/swf/player_2.0.1.00.swf <---radiko仕様変更点
@@ -210,8 +210,8 @@ kill ${pid}
 rm -f "${output}"
 
 # rssフィード生成シェル
-/home/swirhen/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
-/home/swirhen/share/movie/sh/mmmpc2.sh agqr "超！A&G(+α)"
+/data/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
+/data/share/movie/sh/mmmpc2.sh agqr "超！A&G(+α)"
 # つぶやく
 /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【Radiko自動録音終了】${fname}"
 ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【Radiko自動録音終了】${fname}"

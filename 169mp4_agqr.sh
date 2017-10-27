@@ -21,8 +21,8 @@ fi
 # えんこする
 /usr/bin/wine ffmpeg.exe -i "$1" $3 $4 -vcodec copy -f mp4 -acodec libfaac -ac 2 -ar 24000 -ab 64k -threads 0 /$drive/tmp/"$1".mp4
 # MP4Boxで faststartたいおうにする
-sleep 5
-/usr/local/bin/MP4Box -ipod -par 1=1:1 /$drive/tmp/"$1".mp4 -out /$drive/tmp/"$1"_mod.mp4
-rm /$drive/tmp/"$1".mp4
-sleep 5
-/bin/mv -v /$drive/tmp/"$1"_mod.mp4 "$2""$1".mp4
+#sleep 5
+#/usr/local/bin/MP4Box -ipod -par 1=1:1 /$drive/tmp/"$1".mp4 -out /$drive/tmp/"$1"_mod.mp4
+#rm /$drive/tmp/"$1".mp4
+#sleep 5
+/bin/mv -v /$drive/tmp/"$1".mp4 "$2""$1".mp4

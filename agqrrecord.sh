@@ -1,4 +1,4 @@
-# /bin/sh
+#!/usr/bin/env bash
 # 超A&G予約録画用スクリプト
 # require: rtmpdump,ffmpeg,いろいろ
 # usage: agqrrecord.sh [番組名] [開始オフセット] [録画時間] [動画フラグ] [隔週フラグファイル名]
@@ -14,7 +14,7 @@ offset=$2
 rectime=$3
 vidflg=$4
 recflg=$5
-PYTHON_PATH="/home/swirhen/.pythonbrew/pythons/Python-3.4.3/bin/python"
+PYTHON_PATH="python3"
 # オフセット
 sleep $offset
 # 隔週対応
@@ -41,11 +41,10 @@ until [ -s "$filename" ]
 do
 # ランダム変数(サーバ分散対応)
 num=`expr $RANDOM % 2 + 1`
-num2=`expr $RANDOM % 2 + 1`
-num3=`expr $RANDOM % 2 + 1`
-#	/usr/local/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "aandg${num2}${num2}" --app "?rtmp://fms-base${num3}.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime
-	/usr/local/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "aandg22" --app "?rtmp://fms-base1.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime
-#	/usr/local/bin/rtmpdump --rtmp "rtmpe://fms2.uniqueradio.jp/" --playpath "aandg11" --app "?rtmp://fms-base1.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime
+#num2=`expr $RANDOM % 2 + 1`
+#num3=`expr $RANDOM % 2 + 1`
+#	/usr/local/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "aandg22" --app "?rtmp://fms-base1.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime
+	/usr/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "aandg22" --app "?rtmp://fms-base1.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime
 done
 # 保存フォルダへ移動
 cd "/data/share/movie/98 PSP用/agqr/flv"

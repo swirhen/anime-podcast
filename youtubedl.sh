@@ -17,7 +17,7 @@ if [ `ls *.f*.webm | wc -l` -gt 0 ]; then
     ffm3 -i *.*.mp4 -i *.*.webm -vcodec copy -acodec copy ${nowdir}/"${name%-*}".mkv
   fi
 else
-  name=`ls *.*.mp4`
+  name=`ls *.mp4`
   if [ `ls *.f*.m4a | wc -l` -eq 1 ]; then
     ffm3 -i *.*.mp4 -i *.*.m4a -vcodec copy -acodec copy ${nowdir}/"${name%-*}".mp4
   else

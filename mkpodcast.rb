@@ -46,7 +46,7 @@ rss = RSS::Maker.make("2.0") do |m|
   m.items.do_sort       = true
 
   Dir::glob(config[:target]).each do |f|
-    if File::extname(f) != '.xml' and File::extname(f) != '.txt' then
+    if File.exist?(f) and File::extname(f) != '.xml' and File::extname(f) != '.txt' then
       i = m.items.new_item
       uri = URI.escape(config[:base_uri] + File::basename(f))
       time = File.mtime(f).strftime("%a, %d %b %Y %X +0900")

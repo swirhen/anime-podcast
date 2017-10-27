@@ -3,7 +3,7 @@
 # 実行したディレクトリに存在するシリーズ系動画(*話*.mp4等)
 # をすべてエンコードし、フィードを更新、Twitterに告知する
 # usage 169f.sh [priority file]
-PYTHON_PATH="/home/swirhen/.pythonbrew/pythons/Python-3.4.3/bin/python"
+PYTHON_PATH="python3"
 source /home/swirhen/.zshrc
 cd /data/share/movie
 (
