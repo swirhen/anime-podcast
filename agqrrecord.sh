@@ -62,8 +62,7 @@ else
 fi
 # rssフィード生成シェル
 /data/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
-/data/share/movie/sh/mmmpc2.sh agqr "超！A&G(+α)"
-/data/share/movie/sh/mmmpc3.sh agqr "超！A&G(+α)ローカル用"
+#/data/share/movie/sh/mmmpc3.sh agqr "超！A&G(+α)ローカル用"
 # つぶやく
 /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【超A&G自動保存終了】$efilename"
 ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【超A&G自動保存終了】$efilename"

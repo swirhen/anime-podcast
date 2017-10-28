@@ -6,7 +6,7 @@
 
 PATH=$PATH:/usr/local/bin
 PYTHON_PATH="python3"
-VERSION=3.0.0.01
+VERSION=4.0.0
 
 # 使い方
 show_usage() {
@@ -40,7 +40,7 @@ radiko_authorize() {
   if [ ! -f $keyfile ]; then
     echo $keyfile extracting...
     # swfextract -b 5 $playerfile -o $keyfile <---radiko仕様変更点
-    /usr/bin/swfextract -b 14 $playerfile -o $keyfile
+    /usr/bin/swfextract -b 12 $playerfile -o $keyfile
 
     if [ ! -f $keyfile ]; then
       echo "failed get keydata"
@@ -53,7 +53,7 @@ radiko_authorize() {
   #
   wget -q \
        --header="pragma: no-cache" \
-       --header="X-Radiko-App: pc_1" \
+       --header="X-Radiko-App: pc_ts" \
        --header="X-Radiko-App-Version: $VERSION" \
        --header="X-Radiko-User: test-stream" \
        --header="X-Radiko-Device: pc" \
@@ -82,7 +82,7 @@ radiko_authorize() {
   #  
   /usr/bin/wget -q \
        --header="pragma: no-cache" \
-       --header="X-Radiko-App: pc_1" \
+       --header="X-Radiko-App: pc_ts" \
        --header="X-Radiko-App-Version: $VERSION" \
        --header="X-Radiko-User: test-stream" \
        --header="X-Radiko-Device: pc" \
@@ -176,7 +176,8 @@ station_name=`curl -s "http://radiko.jp/v2/api/program/station/today?station_id=
 output="${wdir}/${fname:=[${station_name}]${pgmname}_`date +%Y%m%d-%H%M`}.flv"
 
 # playerurl=http://radiko.jp/player/swf/player_2.0.1.00.swf <---radiko仕様変更点
-playerurl=http://radiko.jp/player/swf/player_$VERSION.swf
+#playerurl=http://radiko.jp/player/swf/player_$VERSION.swf
+playerurl=http://radiko.jp/apps/js/flash/myplayer-release.swf
 playerfile=./player.swf
 keyfile=./authkey.jpg
 
@@ -187,7 +188,7 @@ if [ "$OPTION_a" = "TRUE" ]; then
   fi
 else
 # つぶやく
-/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【Radiko自動録音開始】${fname}"
+/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【Radiko自動録音開始】${station_name} ${pgmname}"
 ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【Radiko自動録音開始】${fname}"
 
 #until [ -f "${output}" ];
@@ -211,9 +212,8 @@ rm -f "${output}"
 
 # rssフィード生成シェル
 /data/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
-/data/share/movie/sh/mmmpc2.sh agqr "超！A&G(+α)"
 # つぶやく
-/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【Radiko自動録音終了】${fname}"
+/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【Radiko自動録音終了】${station_name} ${pgmname}"
 ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【Radiko自動録音終了】${fname}"
 fi
 

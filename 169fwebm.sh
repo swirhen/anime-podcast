@@ -21,7 +21,7 @@ do
       /data/share/movie/sh/169mp45.sh "$a" "/data/share/movie/98 PSP用/"
     done
     /data/share/movie/sh/mmpc.sh
-    /data/share/movie/sh/mmpc3.sh
+    #/data/share/movie/sh/mmpc3.sh
     /data/share/movie/sh/mmv.sh "$a"
     sleep 3
     /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【publish】$a.webm"
