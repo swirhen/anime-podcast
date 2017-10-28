@@ -54,3 +54,5 @@ Last Update: 2017/10/29-00:00:01
 2017/10/23-06:00:01 03 Classicaloid 2|クラシカロイド2
 2017/10/23-06:00:01 03 Blend S|ブレンド・S
 2017/10/23-06:00:01 02 Dies Irae|Dies irae
+# 03 Evil or Live|EVIL OR LIVE
+# 02 3-gatsu no Lion|3月のライオン2
