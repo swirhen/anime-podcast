@@ -189,6 +189,7 @@ if [ "$OPTION_a" = "TRUE" ]; then
 else
 # つぶやく
 /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【Radiko自動録音開始】${station_name} ${pgmname}"
+#/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【Radiko自動録音開始】${fname}"
 ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【Radiko自動録音開始】${fname}"
 
 #until [ -f "${output}" ];
@@ -214,6 +215,7 @@ rm -f "${output}"
 /data/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
 # つぶやく
 /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【Radiko自動録音終了】${station_name} ${pgmname}"
+#/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【Radiko自動録音終了】${fname}"
 ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【Radiko自動録音終了】${fname}"
 fi
 

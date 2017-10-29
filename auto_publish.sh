@@ -182,7 +182,7 @@ done
 logging "### torrent download start."
 
 /data/share/movie/sh/tdlstop.sh 38888 &
-/usr/bin/wine aria2c.exe --listen-port=38888 --max-upload-limit=200K --seed-ratio=0.01 --seed-time=1 *.torrent
+aria2c --listen-port=38888 --max-upload-limit=200K --seed-ratio=0.01 --seed-time=1 *.torrent
 
 # movie file rename
 logging "### movie file  rename start."
