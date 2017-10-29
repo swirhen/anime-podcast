@@ -1,4 +1,6 @@
-Last Update: 2017/10/30-01:07:46
+Last Update: 2017/10/30-06:00:01
+2017/10/30-06:00:01 38 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
+2017/10/30-06:00:01 04 Kekkai Sensen|血界戦線＆BEYOND
 2017/10/30-01:07:46 17 Fate - Apocrypha|Fate／Apocrypha
 2017/10/30-01:07:46 17 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
 2017/10/30-01:07:46 04 Two Car|つうかあ
@@ -8,7 +10,7 @@ Last Update: 2017/10/30-01:07:46
 2017/10/30-01:07:46 04 Love Kome - We Love Rice Nikisaku|ラブ米 -WE LOVE RICE- 二期作
 2017/10/30-01:07:46 04 Houseki no Kuni|宝石の国
 2017/10/30-01:07:46 04 Hoozuki no Reitetsu 2|鬼灯の冷徹2
-2017/10/30-01:07:46 04 Code Realize|Code:Realize ～創世の姫君～
+2017/10/30-01:07:46 04 Code Realize|Code：Realize ～創世の姫君～
 2017/10/30-01:07:46 04 Classicaloid 2|クラシカロイド2
 2017/10/30-01:07:46 04 Blend S|ブレンド・S
 2017/10/30-01:07:46 03 Dies Irae|Dies irae
@@ -51,7 +53,5 @@ Last Update: 2017/10/30-01:07:46
 2017/10/25-00:00:02 03 Wake Up, Girls|Wake Up, Girls！ 新章
 2017/10/25-00:00:02 03 Netojuu no Susume|ネト充のススメ
 2017/10/24-12:00:01 03 Himouto! Umaru-chan R|干物妹！うまるちゃんR
-2017/10/23-06:00:01 37 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
 2017/10/23-06:00:01 16 Ballroom e Youkoso|ボールルームへようこそ
 2017/10/23-06:00:01 03 Mahou Tsukai no Yome|魔法使いの嫁
-2017/10/23-06:00:01 03 Kekkai Sensen|血界戦線＆BEYOND
