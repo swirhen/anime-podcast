@@ -29,7 +29,7 @@ do
     else
       echo -e "\n### watching aria2c(port=$1) end###"
       #/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "@swirhen 栽培完了:$date 開始のファイル: $file"
-      python /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "@swirhen 栽培完了:$date 開始のファイル: $file"
+      python3/home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "@swirhen 栽培完了:$date 開始のファイル: $file"
       exit
     fi
   else
