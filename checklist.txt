@@ -1,4 +1,9 @@
-Last Update: 2017/10/30-12:00:01
+Last Update: 2017/10/30-18:00:01
+2017/10/30-18:00:01 17 Ballroom e Youkoso|ボールルームへようこそ
+2017/10/30-18:00:01 04 Mahou Tsukai no Yome|魔法使いの嫁
+2017/10/30-18:00:01 04 Kujira no Kora wa Sajou ni Utau|クジラの子らは砂上に歌う
+2017/10/30-18:00:01 04 Himouto! Umaru-chan R|干物妹！うまるちゃんR
+2017/10/30-18:00:01 04 Anime-Gataris|アニメガタリズ
 2017/10/30-06:00:01 38 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
 2017/10/30-06:00:01 04 Kekkai Sensen|血界戦線＆BEYOND
 2017/10/30-01:07:46 17 Fate - Apocrypha|Fate／Apocrypha
@@ -35,12 +40,10 @@ Last Update: 2017/10/30-12:00:01
 2017/10/26-18:00:01 04 Shokugeki no Souma - San no Sara|食戟のソーマ 餐ノ皿
 2017/10/26-18:00:01 04 Konohana Kitan|このはな綺譚
 2017/10/26-18:00:01 03 Boku no Kanojo ga Majime Sugiru Shobitch na Ken|僕の彼女がマジメ過ぎるしょびっちな件
-2017/10/26-18:00:01 03 Anime-Gataris|アニメガタリズ
 2017/10/26-00:00:01 16 Mahoujin Guru Guru|魔法陣グルグル
 2017/10/26-00:00:01 04 Sengoku Night Blood|戦刻ナイトブラッド
 2017/10/26-00:00:01 04 Osake wa Fuufu ni Natte kara|お酒は夫婦になってから
 2017/10/26-00:00:01 04 Juuni Taisen|十二大戦
-2017/10/26-00:00:01 03 Kujira no Kora wa Sajou ni Utau|クジラの子らは砂上に歌う
 2017/10/26-00:00:01 03 Imouto sae Ireba Ii|妹さえいればいい。
 2017/10/26-00:00:01 03 Evil or Live|EVIL OR LIVE
 2017/10/25-06:00:01 30 Idol Time PriPara|アイドルタイムプリパラ
@@ -52,6 +55,3 @@ Last Update: 2017/10/30-12:00:01
 2017/10/25-00:00:02 04 Dia Horizon|ディアホライゾン(被)
 2017/10/25-00:00:02 03 Wake Up, Girls|Wake Up, Girls！ 新章
 2017/10/25-00:00:02 03 Netojuu no Susume|ネト充のススメ
-2017/10/24-12:00:01 03 Himouto! Umaru-chan R|干物妹！うまるちゃんR
-2017/10/23-06:00:01 16 Ballroom e Youkoso|ボールルームへようこそ
-2017/10/23-06:00:01 03 Mahou Tsukai no Yome|魔法使いの嫁
