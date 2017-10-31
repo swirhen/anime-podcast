@@ -1,4 +1,11 @@
-Last Update: 2017/10/31-18:00:01
+Last Update: 2017/11/01-00:00:02
+2017/11/01-00:00:02 18 Youkai Apartment no Yuuga na Nichijou|妖怪アパートの幽雅な日常
+2017/11/01-00:00:02 05 UQ Holder|UQ HOLDER！～魔法先生ネギま！2～
+2017/11/01-00:00:02 05 Osomatsu-san|おそ松さん2
+2017/11/01-00:00:02 05 Infini-T Force|Infini-T Force
+2017/11/01-00:00:02 05 Dia Horizon|ディアホライゾン(被)
+2017/11/01-00:00:02 04 Wake Up, Girls|Wake Up, Girls！ 新章
+2017/11/01-00:00:02 04 Netojuu no Susume|ネト充のススメ
 2017/10/30-18:00:01 17 Ballroom e Youkoso|ボールルームへようこそ
 2017/10/30-18:00:01 04 Mahou Tsukai no Yome|魔法使いの嫁
 2017/10/30-18:00:01 04 Kujira no Kora wa Sajou ni Utau|クジラの子らは砂上に歌う
@@ -48,10 +55,3 @@ Last Update: 2017/10/31-18:00:01
 2017/10/26-00:00:01 03 Evil or Live|EVIL OR LIVE
 2017/10/25-06:00:01 30 Idol Time PriPara|アイドルタイムプリパラ
 2017/10/25-06:00:01 04 Black Clover|ブラッククローバー
-2017/10/25-00:00:02 17 Youkai Apartment no Yuuga na Nichijou|妖怪アパートの幽雅な日常
-2017/10/25-00:00:02 04 UQ Holder|UQ HOLDER！～魔法先生ネギま！2～
-2017/10/25-00:00:02 04 Osomatsu-san|おそ松さん2
-2017/10/25-00:00:02 04 Infini-T Force|Infini-T Force
-2017/10/25-00:00:02 04 Dia Horizon|ディアホライゾン(被)
-2017/10/25-00:00:02 03 Wake Up, Girls|Wake Up, Girls！ 新章
-2017/10/25-00:00:02 03 Netojuu no Susume|ネト充のススメ
