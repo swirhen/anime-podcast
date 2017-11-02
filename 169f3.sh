@@ -6,7 +6,7 @@
 # 消失ファイル再エンコ用臨時シェル
 PYTHON_PATH="python3"
 source /home/swirhen/.zshrc
-cd /data/share/movie
+cd /data/share/movie/95\ recover
 (
 IFS=$'\n';
 for a in `ls -t *話*.(avi|mp4|mkv|wmv)`
