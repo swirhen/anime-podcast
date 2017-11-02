@@ -22,7 +22,7 @@ do
       /data/share/movie/sh/169mp44.sh "$a" "/data/share/movie/98 PSP用/"
     done
     time=`stat "${a}" | grep Modify | awk '{ print $2,$3 }'`
-    touch -t "${time:0:4}${time:5:2}${time:8:2}${time:11:2}${time:14:2}.${time:17:2}" "98 PSP用/${a}.mp4"
+    touch -t "${time:0:4}${time:5:2}${time:8:2}${time:11:2}${time:14:2}.${time:17:2}" "/data/share/movie/98 PSP用/${a}.mp4"
     /data/share/movie/sh/mmv.sh "$a"
     /data/share/movie/sh/mmpc.sh
   fi
