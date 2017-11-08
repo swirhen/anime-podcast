@@ -1,4 +1,15 @@
-Last Update: 2017/11/08-18:00:01
+Last Update: 2017/11/09-00:00:01
+2017/11/09-00:00:01 32 Idol Time PriPara|アイドルタイムプリパラ
+2017/11/09-00:00:01 19 Youkai Apartment no Yuuga na Nichijou|妖怪アパートの幽雅な日常
+2017/11/09-00:00:01 18 Mahoujin Guru Guru|魔法陣グルグル
+2017/11/09-00:00:01 06 Sengoku Night Blood|戦刻ナイトブラッド
+2017/11/09-00:00:01 06 Osake wa Fuufu ni Natte kara|お酒は夫婦になってから
+2017/11/09-00:00:01 06 Omiai Aite wa Oshiego|お見合い相手は教え子、強気な、問題児。
+2017/11/09-00:00:01 06 Juuni Taisen|十二大戦
+2017/11/09-00:00:01 06 Infini-T Force|Infini-T Force
+2017/11/09-00:00:01 06 Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場2
+2017/11/09-00:00:01 06 Black Clover|ブラッククローバー
+2017/11/09-00:00:01 05 Evil or Live|EVIL OR LIVE
 2017/11/08-06:00:01 05 Netojuu no Susume|ネト充のススメ
 2017/11/07-18:00:01 06 Osomatsu-san|おそ松さん2
 2017/11/07-18:00:01 06 Dia Horizon|ディアホライゾン(被)
@@ -43,15 +54,4 @@ Last Update: 2017/11/08-18:00:01
 2017/11/03-00:00:01 05 Shokugeki no Souma - San no Sara|食戟のソーマ 餐ノ皿
 2017/11/03-00:00:01 05 Konohana Kitan|このはな綺譚
 2017/11/03-00:00:01 04 Boku no Kanojo ga Majime Sugiru Shobitch na Ken|僕の彼女がマジメ過ぎるしょびっちな件
-2017/11/01-18:00:01 31 Idol Time PriPara|アイドルタイムプリパラ
-2017/11/01-18:00:01 17 Mahoujin Guru Guru|魔法陣グルグル
-2017/11/01-18:00:01 05 Sengoku Night Blood|戦刻ナイトブラッド
-2017/11/01-18:00:01 05 Osake wa Fuufu ni Natte kara|お酒は夫婦になってから
-2017/11/01-18:00:01 05 Omiai Aite wa Oshiego|お見合い相手は教え子、強気な、問題児。
-2017/11/01-18:00:01 05 Juuni Taisen|十二大戦
-2017/11/01-18:00:01 05 Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場2
-2017/11/01-18:00:01 05 Black Clover|ブラッククローバー
-2017/11/01-18:00:01 04 Evil or Live|EVIL OR LIVE
-2017/11/01-00:00:02 18 Youkai Apartment no Yuuga na Nichijou|妖怪アパートの幽雅な日常
-2017/11/01-00:00:02 05 Infini-T Force|Infini-T Force
 2017/10/30-06:00:01 38 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
