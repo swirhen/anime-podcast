@@ -1,4 +1,8 @@
-Last Update: 2017/11/09-12:00:01
+Last Update: 2017/11/09-18:00:01
+2017/11/09-18:00:01 06 TsukiPro The Animation|TSUKIPRO THE ANIMATION
+2017/11/09-18:00:01 06 Shokugeki no Souma - San no Sara|食戟のソーマ 餐ノ皿
+2017/11/09-18:00:01 06 Konohana Kitan|このはな綺譚
+2017/11/09-18:00:01 05 Boku no Kanojo ga Majime Sugiru Shobitch na Ken|僕の彼女がマジメ過ぎるしょびっちな件
 2017/11/09-00:00:01 32 Idol Time PriPara|アイドルタイムプリパラ
 2017/11/09-00:00:01 19 Youkai Apartment no Yuuga na Nichijou|妖怪アパートの幽雅な日常
 2017/11/09-00:00:01 18 Mahoujin Guru Guru|魔法陣グルグル
@@ -50,8 +54,4 @@ Last Update: 2017/11/09-12:00:01
 2017/11/03-18:00:01 05 Just Because|Just because！
 2017/11/03-18:00:01 05 Dynamic Chord|DYNAMIC CHORD
 2017/11/03-18:00:01 04 Inuyashiki|いぬやしき
-2017/11/03-00:00:01 05 TsukiPro The Animation|TSUKIPRO THE ANIMATION
-2017/11/03-00:00:01 05 Shokugeki no Souma - San no Sara|食戟のソーマ 餐ノ皿
-2017/11/03-00:00:01 05 Konohana Kitan|このはな綺譚
-2017/11/03-00:00:01 04 Boku no Kanojo ga Majime Sugiru Shobitch na Ken|僕の彼女がマジメ過ぎるしょびっちな件
 2017/10/30-06:00:01 38 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
