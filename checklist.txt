@@ -1,4 +1,11 @@
-Last Update: 2017/11/12-12:00:01
+Last Update: 2017/11/12-18:00:01
+2017/11/12-18:00:01 19 Fate - Apocrypha|Fate／Apocrypha
+2017/11/12-18:00:01 19 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
+2017/11/12-18:00:01 06 The Idolmaster SideM|アイドルマスター SideM
+2017/11/12-18:00:01 06 Mahou Tsukai no Yome|魔法使いの嫁
+2017/11/12-18:00:01 06 Love Live! Sunshine|ラブライブ！サンシャイン！！2
+2017/11/12-18:00:01 06 Kekkai Sensen|血界戦線＆BEYOND
+2017/11/12-18:00:01 06 Hoozuki no Reitetsu 2|鬼灯の冷徹2
 2017/11/12-12:00:01 19 Ballroom e Youkoso|ボールルームへようこそ
 2017/11/12-12:00:01 06 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
 2017/11/12-12:00:01 06 Classicaloid 2|クラシカロイド2
@@ -36,19 +43,12 @@ Last Update: 2017/11/12-12:00:01
 2017/11/07-18:00:01 05 Wake Up, Girls|Wake Up, Girls！ 新章
 2017/11/07-06:00:01 06 UQ Holder|UQ HOLDER！～魔法先生ネギま！2～
 2017/11/07-06:00:01 05 Himouto! Umaru-chan R|干物妹！うまるちゃんR
-2017/11/06-18:00:01 18 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
-2017/11/06-18:00:01 05 Mahou Tsukai no Yome|魔法使いの嫁
-2017/11/06-18:00:01 05 Love Live! Sunshine|ラブライブ！サンシャイン！！2
 2017/11/06-18:00:01 05 Kujira no Kora wa Sajou ni Utau|クジラの子らは砂上に歌う
-2017/11/06-18:00:01 05 Kekkai Sensen|血界戦線＆BEYOND
 2017/11/06-18:00:01 05 Imouto sae Ireba Ii|妹さえいればいい。
 2017/11/06-18:00:01 05 Anime-Gataris|アニメガタリズ
-2017/11/06-06:00:01 18 Fate - Apocrypha|Fate／Apocrypha
 2017/11/06-06:00:01 05 Two Car|つうかあ
-2017/11/06-06:00:01 05 The Idolmaster SideM|アイドルマスター SideM
 2017/11/06-06:00:01 05 Love Kome - We Love Rice Nikisaku|ラブ米 -WE LOVE RICE- 二期作
 2017/11/06-06:00:01 05 Houseki no Kuni|宝石の国
-2017/11/06-06:00:01 05 Hoozuki no Reitetsu 2|鬼灯の冷徹2
 2017/11/06-06:00:01 05 Code Realize|Code：Realize ～創世の姫君～
 2017/11/06-06:00:01 05 Blend S|ブレンド・S
 2017/11/06-06:00:01 04 Dies Irae|Dies irae
