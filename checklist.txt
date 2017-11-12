@@ -1,4 +1,8 @@
-Last Update: 2017/11/13-00:00:01
+Last Update: 2017/11/13-06:00:01
+2017/11/13-06:00:01 39 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
+2017/11/13-06:00:01 06 Two Car|つうかあ
+2017/11/13-06:00:01 06 Code Realize|Code：Realize ～創世の姫君～
+2017/11/13-06:00:01 05 Dies Irae|Dies irae
 2017/11/13-00:00:01 06 Love Kome - We Love Rice Nikisaku|ラブ米 -WE LOVE RICE- 二期作
 2017/11/13-00:00:01 06 Houseki no Kuni|宝石の国
 2017/11/13-00:00:01 06 Blend S|ブレンド・S
@@ -50,8 +54,4 @@ Last Update: 2017/11/13-00:00:01
 2017/11/06-18:00:01 05 Kujira no Kora wa Sajou ni Utau|クジラの子らは砂上に歌う
 2017/11/06-18:00:01 05 Imouto sae Ireba Ii|妹さえいればいい。
 2017/11/06-18:00:01 05 Anime-Gataris|アニメガタリズ
-2017/11/06-06:00:01 05 Two Car|つうかあ
-2017/11/06-06:00:01 05 Code Realize|Code：Realize ～創世の姫君～
-2017/11/06-06:00:01 04 Dies Irae|Dies irae
 2017/11/05-00:00:01 05 Yuuki Yuuna wa Yuusha de Aru - Yuusha no Shou|結城友奈は勇者である -鷲尾須美の章-／-勇者の章-
-2017/10/30-06:00:01 38 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
