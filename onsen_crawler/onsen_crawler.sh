@@ -92,16 +92,19 @@ do
   echo "movie_url : ${movie_url}"
   echo "filename : ${filename}"
 
+  echo "${program_number}" > "${TEMP_DIR}/${progid}"
+  git commit -m "最新話数更新: ${title}" "${progid}"
+
   # ダウンロード
   if [ ${dlflg} -eq 1 ]; then
     curl "${download_url}" -o "${DOWNLOAD_DIR}/${filename}"
     echo "${title} #${program_number} : ${SWTV_URI}${filename}" >> ${RESULT_FILE}
     /data/share/movie/sh/agqrrelease.sh
+    cd ${SCRIPT_DIR}/temp
   else
     echo "${title} #${program_number} : ${download_url}" >> ${RESULT_FILE}
   fi
 
-  echo "${program_number}" > "${TEMP_DIR}/${progid}"
   (( cnt++ ))
 done
 
@@ -111,6 +114,8 @@ done
 `cat ${RESULT_FILE}`
 \`\`\`"
     slack_post "${post_msg}"
+    git pull
+    git push origin master
   fi
 
 end
