@@ -92,6 +92,7 @@ do
   echo "movie_url : ${movie_url}"
   echo "filename : ${filename}"
 
+  cd ${SCRIPT_DIR}/temp
   echo "${program_number}" > "${TEMP_DIR}/${progid}"
   git commit -m "最新話数更新: ${title}" "${progid}"
 
@@ -100,7 +101,6 @@ do
     curl "${download_url}" -o "${DOWNLOAD_DIR}/${filename}"
     echo "${title} #${program_number} : ${SWTV_URI}${filename}" >> ${RESULT_FILE}
     /data/share/movie/sh/agqrrelease.sh
-    cd ${SCRIPT_DIR}/temp
   else
     echo "${title} #${program_number} : ${download_url}" >> ${RESULT_FILE}
   fi
