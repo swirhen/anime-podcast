@@ -6,6 +6,7 @@
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE:-$0}")"; pwd)"
 DOWNLOAD_DIR="${SCRIPT_DIR}/../../98 PSP用/agqr"
 TEMP_DIR="${SCRIPT_DIR}/temp"
+DLFLG_DIR="${SCRIPT_DIR}/download"
 XML_URI="http://www.onsen.ag/app/programs.xml"
 PYTHON_PATH="python3"
 CHANNEL="bot-open"
@@ -78,7 +79,7 @@ do
   fi
   # ダウンロードチェック
   dlflg=0
-  if [ -f "${DOWNLOAD_DIR}/${progid}" ]; then
+  if [ -f "${DLFLG_DIR}/${progid}" ]; then
     dlflg=1
   fi
 
@@ -93,7 +94,7 @@ do
 
   # ダウンロード
   if [ ${dlflg} -eq 1 ]; then
-    curl "${download_url}" -o "${filename}"
+    curl "${download_url}" -o "${DOWNLOAD_DIR}/${filename}"
     echo "${title} #${program_number} : ${SWTV_URI}${filename}" >> ${RESULT_FILE}
   else
     echo "${title} #${program_number} : ${download_url}" >> ${RESULT_FILE}
