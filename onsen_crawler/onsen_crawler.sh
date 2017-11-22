@@ -96,6 +96,7 @@ do
   if [ ${dlflg} -eq 1 ]; then
     curl "${download_url}" -o "${DOWNLOAD_DIR}/${filename}"
     echo "${title} #${program_number} : ${SWTV_URI}${filename}" >> ${RESULT_FILE}
+    /data/share/movie/sh/agqrrelease.sh
   else
     echo "${title} #${program_number} : ${download_url}" >> ${RESULT_FILE}
   fi
