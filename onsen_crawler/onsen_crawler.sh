@@ -52,6 +52,9 @@ do
   movie=`echo "cat /programs/program[${cnt}]/category/movie" | xmllint --shell "${RSS_XML}" | grep "<movie>" | sed "s#<movie>\(.*\)</movie>#\1#"`
   up_date=`echo "cat /programs/program[${cnt}]/up_date" | xmllint --shell "${RSS_XML}" | grep "<up_date>" | sed "s#<up_date>\(.*\) .*</up_date>#\1#"`
   program_number=`echo "cat /programs/program[${cnt}]/program_number" | xmllint --shell "${RSS_XML}" | grep "<program_number>" | sed "s#<program_number>\(.*\)</program_number>#\1#"`
+  if [ "${program_number}" = "" ]; then
+    program_number="0"
+  fi
   if [ "${movie}" = "1" ]; then
     download_url="${movie_url}"
     ext=${movie_url##*.}
@@ -63,7 +66,6 @@ do
   if [ "${title}" = "" ]; then
     break
   fi
-  echo "[${cnt}] ${progid} : ${title}"
   # 曜日チェック
   if [ "${1:1:1}" != "w" -a "${T_WDAY}" != "${wday}" ]; then
     (( cnt++ ))
