@@ -26,7 +26,7 @@ slack_upload() {
 
 end() {
   mv ${RSS_XML} ${RSS_OLD}
-#  rm -f ${RESULT_FILE}
+  rm -f ${RESULT_FILE}
   exit 0
 }
 
@@ -99,5 +99,13 @@ do
   echo "${program_number}" > "${TEMP_DIR}/${progid}"
   (( cnt++ ))
 done
+
+  if [ -s ${RESULT_FILE} ]; then
+    post_msg="[音泉 更新チェック] 更新がありました
+\`\`\`
+`cat ${RESULT_FILE}`
+\`\`\`"
+    slack_post "${post_msg}"
+  fi
 
 end
