@@ -91,9 +91,9 @@ do
   # ダウンロード
   if [ ${dlflg} -eq 1 ]; then
     curl "${download_url}" -o "${filename}"
-    echo "${title} #${program_number} : ${SWTV_URI}${filename}"
+    echo "${title} #${program_number} : ${SWTV_URI}${filename}" >> ${RESULT_FILE}
   else
-    echo "${title} #${program_number} : ${download_url}" > ${RESULT_FILE}
+    echo "${title} #${program_number} : ${download_url}" >> ${RESULT_FILE}
   fi
 
   echo "${program_number}" > "${TEMP_DIR}/${progid}"
