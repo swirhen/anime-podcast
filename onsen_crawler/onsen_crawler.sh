@@ -44,7 +44,7 @@ fi
 cnt=1
 while :
 do
-  progid=`echo "cat /programs/program[${cnt}]/@id" | xmllint --shell "${RSS_XML}" | grep id= | sed "s/id=\"\(.*\)\"/\1/"`
+  progid=`echo "cat /programs/program[${cnt}]/@id" | xmllint --shell "${RSS_XML}" | grep id= | sed "s/.*id=\"\(.*\)\"/\1/"`
   title=`echo "cat /programs/program[${cnt}]/title" | xmllint --shell "${RSS_XML}" | grep "<title>" | sed "s#<title>\(.*\)</title>#\1#"`
   wday=`echo "cat /programs/program[${cnt}]/wday" | xmllint --shell "${RSS_XML}" | grep "<wday>" | sed "s#<wday>\(.*\)</wday>#\1#"`
   movie_url=`echo "cat /programs/program[${cnt}]/movie_url" | xmllint --shell "${RSS_XML}" | grep "<movie_url>" | sed "s#<movie_url>\(.*\)</movie_url>#\1#"`
