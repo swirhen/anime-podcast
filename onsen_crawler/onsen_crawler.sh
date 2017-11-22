@@ -104,7 +104,7 @@ do
 done
 
   if [ -s ${RESULT_FILE} ]; then
-    post_msg="[音泉 更新チェック] 更新がありました
+    post_msg="@here [音泉 更新チェック] 更新がありました
 \`\`\`
 `cat ${RESULT_FILE}`
 \`\`\`"
