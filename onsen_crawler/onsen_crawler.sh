@@ -69,7 +69,7 @@ do
     continue
   fi
   # 更新チェック
-  if [ "`cat ${TEMP_DIR}/${progid}`" != "${program_number}" ]; then
+  if [ "`cat ${TEMP_DIR}/${progid}`" = "${program_number}" ]; then
     (( cnt++ ))
     continue
   fi
