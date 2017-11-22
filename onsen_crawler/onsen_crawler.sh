@@ -26,7 +26,7 @@ slack_upload() {
 
 end() {
   mv ${RSS_XML} ${RSS_OLD}
-  rm -f ${RESULT_FILE}
+#  rm -f ${RESULT_FILE}
   exit 0
 }
 
