@@ -63,6 +63,7 @@ do
   if [ "${title}" = "" ]; then
     break
   fi
+  echo "[${cnt}] ${progid} : ${title}"
   # 曜日チェック
   if [ "${1:1:1}" != "w" -a "${T_WDAY}" != "${wday}" ]; then
     (( cnt++ ))
