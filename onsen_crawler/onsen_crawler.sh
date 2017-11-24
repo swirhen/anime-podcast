@@ -63,7 +63,7 @@ do
     download_url="${android_url}"
     ext=${android_url##*.}
   fi
-  filename="[音泉] ${title} #${program_number} (${up_date}).${ext}"
+  filename="[音泉] ${title//\//_} #${program_number} (${up_date}).${ext}"
   if [ "${title}" = "" ]; then
     break
   fi
