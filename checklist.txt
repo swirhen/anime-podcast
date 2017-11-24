@@ -1,4 +1,6 @@
-Last Update: 2017/11/24-18:00:01
+Last Update: 2017/11/25-00:00:01
+2017/11/25-00:00:01 08 Dynamic Chord|DYNAMIC CHORD
+2017/11/25-00:00:01 07 Inuyashiki|いぬやしき
 2017/11/24-18:00:01 83 Aikatsu Stars|アイカツスターズ！
 2017/11/24-18:00:01 109 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
 2017/11/24-18:00:01 08 Urahara|URAHARA
@@ -6,7 +8,6 @@ Last Update: 2017/11/24-18:00:01
 2017/11/24-18:00:01 08 Omiai Aite wa Oshiego|お見合い相手は教え子、強気な、問題児。
 2017/11/24-18:00:01 07 Just Because|Just because！
 2017/11/23-18:00:01 08 TsukiPro The Animation|TSUKIPRO THE ANIMATION
-2017/11/23-18:00:01 07 Dynamic Chord|DYNAMIC CHORD
 2017/11/23-18:00:01 07 Boku no Kanojo ga Majime Sugiru Shobitch na Ken|僕の彼女がマジメ過ぎるしょびっちな件
 2017/11/23-06:00:01 08 Shokugeki no Souma - San no Sara|食戟のソーマ 餐ノ皿
 2017/11/23-06:00:01 08 Konohana Kitan|このはな綺譚
@@ -52,6 +53,5 @@ Last Update: 2017/11/24-18:00:01
 2017/11/19-00:00:01 07 Kino no Tabi - The Beautiful World - Animated Series|キノの旅 -the Beautiful World- the Animated Series
 2017/11/19-00:00:01 07 Glamorous Heroes|GLAMOROUS HEROES
 2017/11/19-00:00:01 07 Dream Festival|ドリフェス！R
-2017/11/17-18:00:02 06 Inuyashiki|いぬやしき
 2017/11/13-18:00:01 07 Himouto! Umaru-chan R|干物妹！うまるちゃんR
 2017/11/05-00:00:01 05 Yuuki Yuuna wa Yuusha de Aru - Yuusha no Shou|結城友奈は勇者である -鷲尾須美の章-／-勇者の章-
