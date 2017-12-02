@@ -64,7 +64,7 @@ do
     ext=${android_url##*.}
   fi
   filename="[音泉] ${title//\//_} #${program_number} (${up_date}).${ext}"
-  if [ "${title}" = "" ]; then
+  if [ "${progid}" = "" ]; then
     break
   fi
   # 曜日チェック
