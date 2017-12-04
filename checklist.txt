@@ -1,4 +1,11 @@
-Last Update: 2017/12/04-18:00:02
+Last Update: 2017/12/05-00:00:01
+2017/12/05-00:00:01 42 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
+2017/12/05-00:00:01 09 Mahou Tsukai no Yome|魔法使いの嫁
+2017/12/05-00:00:01 09 Kujira no Kora wa Sajou ni Utau|クジラの子らは砂上に歌う
+2017/12/05-00:00:01 09 Kekkai Sensen|血界戦線＆BEYOND
+2017/12/05-00:00:01 09 Imouto sae Ireba Ii|妹さえいればいい。
+2017/12/05-00:00:01 09 Himouto! Umaru-chan R|干物妹！うまるちゃんR
+2017/12/05-00:00:01 09 Anime-Gataris|アニメガタリズ
 2017/12/04-06:00:01 22 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
 2017/12/04-06:00:01 22 Ballroom e Youkoso|ボールルームへようこそ
 2017/12/04-06:00:01 21 Fate - Apocrypha|Fate／Apocrypha
@@ -47,11 +54,4 @@ Last Update: 2017/12/04-18:00:02
 2017/11/29-06:00:01 09 Dia Horizon|ディアホライゾン(被)
 2017/11/29-06:00:01 08 Netojuu no Susume|ネト充のススメ
 2017/11/29-06:00:01 07 Wake Up, Girls|Wake Up, Girls！ 新章
-2017/11/28-06:00:02 08 Himouto! Umaru-chan R|干物妹！うまるちゃんR
-2017/11/28-00:00:01 41 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
-2017/11/28-00:00:01 08 Mahou Tsukai no Yome|魔法使いの嫁
-2017/11/28-00:00:01 08 Kujira no Kora wa Sajou ni Utau|クジラの子らは砂上に歌う
-2017/11/28-00:00:01 08 Imouto sae Ireba Ii|妹さえいればいい。
-2017/11/28-00:00:01 08 Anime-Gataris|アニメガタリズ
-2017/11/27-12:00:01 08 Kekkai Sensen|血界戦線＆BEYOND
 2017/11/05-00:00:01 05 Yuuki Yuuna wa Yuusha de Aru - Yuusha no Shou|結城友奈は勇者である -鷲尾須美の章-／-勇者の章-
