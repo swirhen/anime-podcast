@@ -1,4 +1,10 @@
-Last Update: 2017/12/09-00:00:01
+Last Update: 2017/12/09-06:00:01
+2017/12/09-06:00:01 85 Aikatsu Stars|アイカツスターズ！
+2017/12/09-06:00:01 111 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
+2017/12/09-06:00:01 10 Urahara|URAHARA
+2017/12/09-06:00:01 10 Ou-sama Game The Animation|王様ゲーム The Animation
+2017/12/09-06:00:01 10 Dynamic Chord|DYNAMIC CHORD
+2017/12/09-06:00:01 09 Just Because|Just because！
 2017/12/08-06:00:01 10 TsukiPro The Animation|TSUKIPRO THE ANIMATION
 2017/12/08-06:00:01 10 Shokugeki no Souma - San no Sara|食戟のソーマ 餐ノ皿
 2017/12/07-18:00:01 10 Konohana Kitan|このはな綺譚
@@ -47,11 +53,5 @@ Last Update: 2017/12/09-00:00:01
 2017/12/02-18:00:01 09 Taishou Mebiusline - Chicchai-san|大正ちっちゃいさん
 2017/12/02-18:00:01 09 Glamorous Heroes|GLAMOROUS HEROES
 2017/12/02-18:00:01 09 Dream Festival|ドリフェス！R
-2017/12/02-06:00:01 84 Aikatsu Stars|アイカツスターズ！
-2017/12/02-06:00:01 110 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
-2017/12/02-06:00:01 09 Urahara|URAHARA
-2017/12/02-06:00:01 09 Ou-sama Game The Animation|王様ゲーム The Animation
-2017/12/02-06:00:01 09 Dynamic Chord|DYNAMIC CHORD
-2017/12/02-06:00:01 08 Just Because|Just because！
 2017/12/02-06:00:01 08 Inuyashiki|いぬやしき
 2017/11/05-00:00:01 05 Yuuki Yuuna wa Yuusha de Aru - Yuusha no Shou|結城友奈は勇者である -鷲尾須美の章-／-勇者の章-
