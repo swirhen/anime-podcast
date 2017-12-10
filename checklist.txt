@@ -1,4 +1,17 @@
-Last Update: 2017/12/10-18:00:01
+Last Update: 2017/12/11-00:00:01
+2017/12/11-00:00:01 22 Fate - Apocrypha|Fate／Apocrypha
+2017/12/11-00:00:01 10 Two Car|つうかあ
+2017/12/11-00:00:01 10 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
+2017/12/11-00:00:01 10 The Idolmaster SideM|アイドルマスター SideM
+2017/12/11-00:00:01 10 Love Live! Sunshine|ラブライブ！サンシャイン！！2
+2017/12/11-00:00:01 10 Love Kome - We Love Rice Nikisaku|ラブ米 -WE LOVE RICE- 二期作
+2017/12/11-00:00:01 10 Houseki no Kuni|宝石の国
+2017/12/11-00:00:01 10 Hoozuki no Reitetsu 2|鬼灯の冷徹2
+2017/12/11-00:00:01 10 Code Realize|Code：Realize ～創世の姫君～
+2017/12/11-00:00:01 10 Classicaloid 2|クラシカロイド2
+2017/12/11-00:00:01 10 Blend S|ブレンド・S
+2017/12/11-00:00:01 09 Dies Irae|Dies irae
+2017/12/11-00:00:01 09 3-gatsu no Lion|3月のライオン2
 2017/12/10-06:00:01 22 Shoukoku no Altair|将国のアルタイル
 2017/12/09-18:00:01 10 Taishou Mebiusline - Chicchai-san|大正ちっちゃいさん
 2017/12/09-18:00:01 10 Dream Festival|ドリフェス！R
@@ -38,19 +51,6 @@ Last Update: 2017/12/10-18:00:01
 2017/12/05-00:00:01 09 Anime-Gataris|アニメガタリズ
 2017/12/04-06:00:01 22 Enmusubi no Youko-chan|縁結びの妖狐ちゃん
 2017/12/04-06:00:01 22 Ballroom e Youkoso|ボールルームへようこそ
-2017/12/04-06:00:01 21 Fate - Apocrypha|Fate／Apocrypha
-2017/12/04-06:00:01 09 Two Car|つうかあ
-2017/12/04-06:00:01 09 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
-2017/12/04-06:00:01 09 The Idolmaster SideM|アイドルマスター SideM
-2017/12/04-06:00:01 09 Love Live! Sunshine|ラブライブ！サンシャイン！！2
-2017/12/04-06:00:01 09 Love Kome - We Love Rice Nikisaku|ラブ米 -WE LOVE RICE- 二期作
-2017/12/04-06:00:01 09 Houseki no Kuni|宝石の国
-2017/12/04-06:00:01 09 Hoozuki no Reitetsu 2|鬼灯の冷徹2
-2017/12/04-06:00:01 09 Code Realize|Code：Realize ～創世の姫君～
-2017/12/04-06:00:01 09 Classicaloid 2|クラシカロイド2
-2017/12/04-06:00:01 09 Blend S|ブレンド・S
-2017/12/04-06:00:01 08 Dies Irae|Dies irae
-2017/12/04-06:00:01 08 3-gatsu no Lion|3月のライオン2
 2017/12/03-06:00:01 09 Shoujo Shuumatsu Ryokou|少女終末旅行
 2017/12/03-06:00:01 09 Kino no Tabi - The Beautiful World - Animated Series|キノの旅 -the Beautiful World- the Animated Series
 2017/11/05-00:00:01 05 Yuuki Yuuna wa Yuusha de Aru - Yuusha no Shou|結城友奈は勇者である -鷲尾須美の章-／-勇者の章-
