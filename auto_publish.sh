@@ -125,10 +125,10 @@ do
           logging "# 終了とみられるエピソード: ${title}"
           if [ ${EPNUM} -eq ${EP_COUNT} ]; then
             logging "  抜けチェック:OK 既存エピソードファイル数(.5話を除く): ${EP_COUNT} / 最終エピソード番号: ${EPNUM}"
-            END_EPISODES+=( "${NAMESJ}" )
+            END_EPISODES+=( "${NAMESJ[${cnt}]}" )
           else
             logging "  抜けチェック:NG 既存エピソードファイル数(.5話を除く): ${EP_COUNT} / 最終エピソード番号: ${EPNUM}"
-            END_EPISODES_NG+=( "${NAMESJ}" )
+            END_EPISODES_NG+=( "${NAMESJ[${cnt}]}" )
           fi
         fi
         break
