@@ -1,4 +1,15 @@
-Last Update: 2017/12/21-00:00:01
+Last Update: 2017/12/21-06:00:01
+2017/12/21-06:00:01 38 Idol Time PriPara|アイドルタイムプリパラ
+2017/12/21-06:00:01 25 Youkai Apartment no Yuuga na Nichijou|妖怪アパートの幽雅な日常
+2017/12/21-06:00:01 24 Mahoujin Guru Guru|魔法陣グルグル
+2017/12/21-06:00:01 12 Osake wa Fuufu ni Natte kara|お酒は夫婦になってから
+2017/12/21-06:00:01 12 Omiai Aite wa Oshiego|お見合い相手は教え子、強気な、問題児。
+2017/12/21-06:00:01 12 Juuni Taisen|十二大戦
+2017/12/21-06:00:01 12 Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場2
+2017/12/21-06:00:01 12 Black Clover|ブラッククローバー
+2017/12/21-06:00:01 11 Sengoku Night Blood|戦刻ナイトブラッド
+2017/12/21-06:00:01 11 Infini-T Force|Infini-T Force
+2017/12/21-06:00:01 10 Evil or Live|EVIL OR LIVE
 2017/12/19-18:00:01 12 Osomatsu-san|おそ松さん2
 2017/12/19-18:00:01 11 Wake Up, Girls|Wake Up, Girls！ 新章
 2017/12/18-18:00:01 44 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
@@ -37,15 +48,4 @@ Last Update: 2017/12/21-00:00:01
 2017/12/15-06:00:01 11 Shokugeki no Souma - San no Sara|食戟のソーマ 餐ノ皿
 2017/12/15-06:00:01 11 Konohana Kitan|このはな綺譚
 2017/12/15-06:00:01 10 Boku no Kanojo ga Majime Sugiru Shobitch na Ken|僕の彼女がマジメ過ぎるしょびっちな件
-2017/12/13-18:00:01 23 Mahoujin Guru Guru|魔法陣グルグル
-2017/12/13-18:00:01 11 Osake wa Fuufu ni Natte kara|お酒は夫婦になってから
-2017/12/13-18:00:01 11 Omiai Aite wa Oshiego|お見合い相手は教え子、強気な、問題児。
-2017/12/13-18:00:01 11 Juuni Taisen|十二大戦
-2017/12/13-18:00:01 11 Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場2
-2017/12/13-18:00:01 10 Sengoku Night Blood|戦刻ナイトブラッド
-2017/12/13-06:00:01 37 Idol Time PriPara|アイドルタイムプリパラ
-2017/12/13-06:00:01 11 Black Clover|ブラッククローバー
-2017/12/13-00:00:01 24 Youkai Apartment no Yuuga na Nichijou|妖怪アパートの幽雅な日常
-2017/12/06-18:00:01 09 Evil or Live|EVIL OR LIVE
-2017/12/06-06:00:01 10 Infini-T Force|Infini-T Force
 2017/11/05-00:00:01 05 Yuuki Yuuna wa Yuusha de Aru - Yuusha no Shou|結城友奈は勇者である -鷲尾須美の章-／-勇者の章-
