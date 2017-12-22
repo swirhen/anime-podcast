@@ -1,4 +1,11 @@
-Last Update: 2017/12/22-18:00:01
+Last Update: 2017/12/23-00:00:01
+2017/12/23-00:00:01 87 Aikatsu Stars|アイカツスターズ！
+2017/12/23-00:00:01 12 Urahara|URAHARA
+2017/12/23-00:00:01 12 TsukiPro The Animation|TSUKIPRO THE ANIMATION
+2017/12/23-00:00:01 12 Shokugeki no Souma - San no Sara|食戟のソーマ 餐ノ皿
+2017/12/23-00:00:01 12 Konohana Kitan|このはな綺譚
+2017/12/23-00:00:01 113 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
+2017/12/23-00:00:01 11 Inuyashiki|いぬやしき
 2017/12/21-06:00:01 38 Idol Time PriPara|アイドルタイムプリパラ
 2017/12/21-06:00:01 25 Youkai Apartment no Yuuga na Nichijou|妖怪アパートの幽雅な日常
 2017/12/21-06:00:01 12 Osake wa Fuufu ni Natte kara|お酒は夫婦になってから
@@ -37,12 +44,5 @@ Last Update: 2017/12/22-18:00:01
 2017/12/16-00:00:01 11 Ou-sama Game The Animation|王様ゲーム The Animation
 2017/12/16-00:00:01 11 Dynamic Chord|DYNAMIC CHORD
 2017/12/16-00:00:01 10 Just Because|Just because！
-2017/12/15-18:00:01 86 Aikatsu Stars|アイカツスターズ！
-2017/12/15-18:00:01 112 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
-2017/12/15-18:00:01 11 Urahara|URAHARA
-2017/12/15-18:00:01 10 Inuyashiki|いぬやしき
-2017/12/15-06:00:01 11 TsukiPro The Animation|TSUKIPRO THE ANIMATION
-2017/12/15-06:00:01 11 Shokugeki no Souma - San no Sara|食戟のソーマ 餐ノ皿
-2017/12/15-06:00:01 11 Konohana Kitan|このはな綺譚
 2017/12/15-06:00:01 10 Boku no Kanojo ga Majime Sugiru Shobitch na Ken|僕の彼女がマジメ過ぎるしょびっちな件
 2017/11/05-00:00:01 05 Yuuki Yuuna wa Yuusha de Aru - Yuusha no Shou|結城友奈は勇者である -鷲尾須美の章-／-勇者の章-
