@@ -234,7 +234,7 @@ ${END_EPISODE}"
 fi
 
 if [ ${#END_EPISODES_NG[@]} -ne 0 ]; then
-  post_mes_end="# 終了とみられる番組で、抜けチェックNGのため、終了リストにのみ追加(要 抜けチェック)
+  post_mes_end="@channel 終了とみられる番組で、抜けチェックNGのため、終了リストにのみ追加(要 抜けチェック)
 \`\`\`"
   for END_EPISODE_NG in "${END_EPISODES_NG[@]}"
   do
