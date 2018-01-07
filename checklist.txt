@@ -1,4 +1,7 @@
-Last Update: 2018/01/08-00:00:01
+Last Update: 2018/01/08-06:00:02
+2018/01/08-06:00:02 46 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
+2018/01/08-06:00:02 13 Mahou Tsukai no Yome|魔法使いの嫁
+2018/01/08-06:00:02 12 3-gatsu no Lion|3月のライオン2
 2018/01/07-16:49:06 02 Idolish Seven|アイドリッシュセブン
 2018/01/07-16:49:06 01 Yuru Camp|ゆるキャン△
 2018/01/07-16:49:06 01 Toji no Miko|刀使ノ巫女
@@ -15,8 +18,5 @@ Last Update: 2018/01/08-00:00:01
 2017/12/27-18:00:01 39 Idol Time PriPara|アイドルタイムプリパラ
 2017/12/27-18:00:01 13 Osomatsu-san|おそ松さん2
 2017/12/27-18:00:01 13 Black Clover|ブラッククローバー
-2017/12/26-06:00:01 45 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
-2017/12/26-06:00:01 12 Mahou Tsukai no Yome|魔法使いの嫁
-2017/12/25-00:00:01 11 3-gatsu no Lion|3月のライオン2
 2017/12/15-06:00:01 10 Boku no Kanojo ga Majime Sugiru Shobitch na Ken|僕の彼女がマジメ過ぎるしょびっちな件
 2017/11/05-00:00:01 05 Yuuki Yuuna wa Yuusha de Aru - Yuusha no Shou|結城友奈は勇者である -鷲尾須美の章-／-勇者の章-
