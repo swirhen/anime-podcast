@@ -1,4 +1,13 @@
-Last Update: 2018/01/07-12:00:01
+Last Update: 2018/01/07-16:49:06
+2018/01/07-16:49:06 02 Idolish Seven|アイドリッシュセブン
+2018/01/07-16:49:06 01 Yuru Camp|ゆるキャン△
+2018/01/07-16:49:06 01 Toji no Miko|刀使ノ巫女
+2018/01/07-16:49:06 01 Sora Yori mo Tooi Basho|宇宙よりも遠い場所
+2018/01/07-16:49:06 01 Slow Start|Slow Start
+2018/01/07-16:49:06 01 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2018/01/07-16:49:06 01 Ramen Daisuki Koizumi-san|ラーメン大好き小泉さん
+2018/01/07-16:49:06 01 Grancrest Senki|グランクレスト戦記
+2018/01/07-16:49:06 01 Citrus|citrus
 2018/01/07-12:00:01 14 Classicaloid 2|クラシカロイド2
 2018/01/07-12:00:01 13 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
 2018/01/05-06:00:01 88 Aikatsu Stars|アイカツスターズ！
@@ -11,11 +20,3 @@ Last Update: 2018/01/07-12:00:01
 2017/12/25-00:00:01 11 3-gatsu no Lion|3月のライオン2
 2017/12/15-06:00:01 10 Boku no Kanojo ga Majime Sugiru Shobitch na Ken|僕の彼女がマジメ過ぎるしょびっちな件
 2017/11/05-00:00:01 05 Yuuki Yuuna wa Yuusha de Aru - Yuusha no Shou|結城友奈は勇者である -鷲尾須美の章-／-勇者の章-
-# 0 Sora Yori mo Tooi Basho|宇宙よりも遠い場所
-# 01 Idolish Seven|アイドリッシュセブン
-# 0 Ramen Daisuki Koizumi-san|ラーメン大好き小泉さん
-# 0 Yuru Camp|ゆるキャン△
-# 0 Toji no Miko|刀使ノ巫女
-# 0 Grancrest Senki|グランクレスト戦記
-# 0 Citrus|citrus
-# 0 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
