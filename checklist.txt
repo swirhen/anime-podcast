@@ -1,4 +1,9 @@
-Last Update: 2018/01/09-06:00:02
+Last Update: 2018/01/09-12:00:02
+2018/01/09-12:00:02 12 Yuuki Yuuna wa Yuusha de Aru|結城友奈は勇者である -鷲尾須美の章-／-勇者の章-
+2018/01/09-12:00:02 01 Zoku Touken Ranbu|続 刀剣乱舞-花丸-
+2018/01/09-12:00:02 01 Kokkoku|刻刻
+2018/01/09-12:00:02 01 Gakuen Babysitters|学園ベビーシッターズ
+2018/01/09-12:00:02 01 25-sai no Joshikousei|25歳の女子高生
 2018/01/09-00:00:01 01 Mitsuboshi Colors|三ツ星カラーズ
 2018/01/08-18:00:02 01 Sanrio Danshi|サンリオ男子
 2018/01/08-18:00:02 01 Itou Junji|伊藤潤二『コレクション』
@@ -22,6 +27,7 @@ Last Update: 2018/01/09-06:00:02
 2017/12/27-18:00:01 13 Osomatsu-san|おそ松さん2
 2017/12/27-18:00:01 13 Black Clover|ブラッククローバー
 2017/12/15-06:00:01 10 Boku no Kanojo ga Majime Sugiru Shobitch na Ken|僕の彼女がマジメ過ぎるしょびっちな件
-2017/11/05-00:00:01 05 Yuuki Yuuna wa Yuusha de Aru - Yuusha no Shou|結城友奈は勇者である -鷲尾須美の章-／-勇者の章-
 0 01 Pop Team Epic|ポプテピピック
+0 0 Ryuuou no Oshigoto|りゅうおうのおしごと！
+0 0 Nanatsu no Taizai|七つの大罪 戒めの復活
 0 0 Card Captor Sakura - Clear Card-hen|カードキャプターさくら クリアカード編
