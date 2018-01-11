@@ -1,4 +1,8 @@
-Last Update: 2018/01/11-18:00:01
+Last Update: 2018/01/12-00:00:01
+2018/01/12-00:00:01 01 Violet Evergarden|ヴァイオレット・エヴァーガーデン
+2018/01/12-00:00:01 01 Overlord II|オーバーロードII
+2018/01/12-00:00:01 01 Dame x Prince Anime Caravan|ダメプリ ANIME CARAVAN
+2018/01/12-00:00:01 01 Chihayafuru Syuukasen|ちはやふる 秀歌撰
 2018/01/11-06:00:01 40 Idol Time PriPara|アイドルタイムプリパラ
 2018/01/11-06:00:01 14 Black Clover|ブラッククローバー
 2018/01/11-06:00:01 03 Idolish Seven|アイドリッシュセブン
@@ -30,5 +34,6 @@ Last Update: 2018/01/11-18:00:01
 2018/01/05-06:00:01 114 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
 2017/12/15-06:00:01 10 Boku no Kanojo ga Majime Sugiru Shobitch na Ken|僕の彼女がマジメ過ぎるしょびっちな件
 0 01 Pop Team Epic|ポプテピピック
+0 0 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
 0 0 Nanatsu no Taizai|七つの大罪 戒めの復活
 0 0 Card Captor Sakura - Clear Card-hen|カードキャプターさくら クリアカード編
