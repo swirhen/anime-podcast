@@ -1,4 +1,8 @@
-Last Update: 2018/01/12-12:00:01
+Last Update: 2018/01/12-18:00:01
+2018/01/12-18:00:01 89 Aikatsu Stars|アイカツスターズ！
+2018/01/12-18:00:01 115 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
+2018/01/12-18:00:01 02 Yuru Camp|ゆるキャン△
+2018/01/12-18:00:01 02 Ramen Daisuki Koizumi-san|ラーメン大好き小泉さん
 2018/01/12-08:35:25 01 Overlord II -|オーバーロードII
 2018/01/12-00:00:01 01 Violet Evergarden|ヴァイオレット・エヴァーガーデン
 2018/01/12-00:00:01 01 Dame x Prince Anime Caravan|ダメプリ ANIME CARAVAN
@@ -21,17 +25,13 @@ Last Update: 2018/01/12-12:00:01
 2018/01/08-06:00:02 46 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
 2018/01/08-06:00:02 13 Mahou Tsukai no Yome|魔法使いの嫁
 2018/01/08-06:00:02 12 3-gatsu no Lion|3月のライオン2
-2018/01/07-16:49:06 01 Yuru Camp|ゆるキャン△
 2018/01/07-16:49:06 01 Toji no Miko|刀使ノ巫女
 2018/01/07-16:49:06 01 Slow Start|Slow Start
 2018/01/07-16:49:06 01 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
-2018/01/07-16:49:06 01 Ramen Daisuki Koizumi-san|ラーメン大好き小泉さん
 2018/01/07-16:49:06 01 Grancrest Senki|グランクレスト戦記
 2018/01/07-16:49:06 01 Citrus|citrus
 2018/01/07-12:00:01 14 Classicaloid 2|クラシカロイド2
 2018/01/07-12:00:01 13 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
-2018/01/05-06:00:01 88 Aikatsu Stars|アイカツスターズ！
-2018/01/05-06:00:01 114 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
 0 01 Pop Team Epic|ポプテピピック
 0 0 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
 0 0 Nanatsu no Taizai|七つの大罪 戒めの復活
