@@ -1,4 +1,10 @@
-Last Update: 2018/01/13-12:00:01
+Last Update: 2018/01/13-18:00:01
+2018/01/13-18:00:01 01 Takunomi|たくのみ。
+2018/01/13-18:00:01 01 Märchen Mädchen|メルヘン・メドヘン
+2018/01/13-18:00:01 01 Miira no Kaikata|ミイラの飼い方
+2018/01/13-18:00:01 01 Koi wa Ameagari no You ni|恋は雨上がりのように
+2018/01/13-18:00:01 01 Death March kara Hajimaru Isekai Kyousoukyoku|デスマーチからはじまる異世界狂想曲
+2018/01/13-18:00:01 01 Dagashi Kashi 2|だがしかし2
 2018/01/12-18:00:01 89 Aikatsu Stars|アイカツスターズ！
 2018/01/12-18:00:01 115 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
 2018/01/12-18:00:01 02 Yuru Camp|ゆるキャン△
@@ -33,6 +39,6 @@ Last Update: 2018/01/13-12:00:01
 2018/01/07-12:00:01 14 Classicaloid 2|クラシカロイド2
 2018/01/07-12:00:01 13 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
 0 01 Pop Team Epic|ポプテピピック
+0 01 Card Captor Sakura - Clear Card-hen|カードキャプターさくら クリアカード編
 0 0 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
 0 0 Nanatsu no Taizai|七つの大罪 戒めの復活
-0 0 Card Captor Sakura - Clear Card-hen|カードキャプターさくら クリアカード編
