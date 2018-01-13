@@ -1,4 +1,7 @@
-Last Update: 2018/01/13-18:00:01
+Last Update: 2018/01/14-00:00:01
+2018/01/14-00:00:01 02 Toji no Miko|刀使ノ巫女
+2018/01/14-00:00:01 02 Itou Junji|伊藤潤二『コレクション』
+2018/01/14-00:00:01 02 Grancrest Senki|グランクレスト戦記
 2018/01/13-18:00:01 01 Takunomi|たくのみ。
 2018/01/13-18:00:01 01 Märchen Mädchen|メルヘン・メドヘン
 2018/01/13-18:00:01 01 Miira no Kaikata|ミイラの飼い方
@@ -27,14 +30,11 @@ Last Update: 2018/01/13-18:00:01
 2018/01/09-12:00:02 01 25-sai no Joshikousei|25歳の女子高生
 2018/01/09-00:00:01 01 Mitsuboshi Colors|三ツ星カラーズ
 2018/01/08-18:00:02 01 Sanrio Danshi|サンリオ男子
-2018/01/08-18:00:02 01 Itou Junji|伊藤潤二『コレクション』
 2018/01/08-06:00:02 46 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
 2018/01/08-06:00:02 13 Mahou Tsukai no Yome|魔法使いの嫁
 2018/01/08-06:00:02 12 3-gatsu no Lion|3月のライオン2
-2018/01/07-16:49:06 01 Toji no Miko|刀使ノ巫女
 2018/01/07-16:49:06 01 Slow Start|Slow Start
 2018/01/07-16:49:06 01 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
-2018/01/07-16:49:06 01 Grancrest Senki|グランクレスト戦記
 2018/01/07-16:49:06 01 Citrus|citrus
 2018/01/07-12:00:01 14 Classicaloid 2|クラシカロイド2
 2018/01/07-12:00:01 13 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
