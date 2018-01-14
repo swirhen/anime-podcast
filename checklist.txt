@@ -1,4 +1,7 @@
-Last Update: 2018/01/14-06:00:01
+Last Update: 2018/01/14-12:00:01
+2018/01/14-12:00:01 14 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
+2018/01/14-12:00:01 13 3-gatsu no Lion|3月のライオン2
+2018/01/14-12:00:01 02 Citrus|citrus
 2018/01/14-06:00:01 15 Classicaloid 2|クラシカロイド2
 2018/01/14-06:00:01 02 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/01/14-06:00:01 01 Nanatsu no Taizai|七つの大罪 戒めの復活
@@ -35,10 +38,7 @@ Last Update: 2018/01/14-06:00:01
 2018/01/08-18:00:02 01 Sanrio Danshi|サンリオ男子
 2018/01/08-06:00:02 46 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
 2018/01/08-06:00:02 13 Mahou Tsukai no Yome|魔法使いの嫁
-2018/01/08-06:00:02 12 3-gatsu no Lion|3月のライオン2
 2018/01/07-16:49:06 01 Slow Start|Slow Start
-2018/01/07-16:49:06 01 Citrus|citrus
-2018/01/07-12:00:01 13 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
 0 01 Pop Team Epic|ポプテピピック
 0 01 Card Captor Sakura - Clear Card-hen|カードキャプターさくら クリアカード編
 0 0 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
