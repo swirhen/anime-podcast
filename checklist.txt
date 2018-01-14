@@ -1,4 +1,8 @@
-Last Update: 2018/01/14-18:00:01
+Last Update: 2018/01/15-00:00:01
+2018/01/15-00:00:01 14 Mahou Tsukai no Yome|魔法使いの嫁
+2018/01/15-00:00:01 02 Slow Start|Slow Start
+2018/01/15-00:00:01 02 Sanrio Danshi|サンリオ男子
+2018/01/15-00:00:01 01 Darling in the FranXX|ダーリン・イン・ザ・フランキス
 2018/01/14-13:21:16 01 Killing Bites|キリングバイツ
 2018/01/14-13:21:16 01 Hakyuu Houshin Engi|覇穹 封神演義
 2018/01/14-13:21:16 01 Hakumei to Mikochi|ハクメイとミコチ
@@ -40,10 +44,8 @@ Last Update: 2018/01/14-18:00:01
 2018/01/09-12:00:02 01 Gakuen Babysitters|学園ベビーシッターズ
 2018/01/09-12:00:02 01 25-sai no Joshikousei|25歳の女子高生
 2018/01/09-00:00:01 01 Mitsuboshi Colors|三ツ星カラーズ
-2018/01/08-18:00:02 01 Sanrio Danshi|サンリオ男子
 2018/01/08-06:00:02 46 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
-2018/01/08-06:00:02 13 Mahou Tsukai no Yome|魔法使いの嫁
-2018/01/07-16:49:06 01 Slow Start|Slow Start
 0 02 Pop Team Epic|ポプテピピック
 0 01 Cardcaptor Sakura： Clear Card-hen|カードキャプターさくら クリアカード編
 0 0 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難
+0 0 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
