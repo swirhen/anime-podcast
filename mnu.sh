@@ -7,7 +7,7 @@
 cnt=1
 for dir in *
 do
-    if [[ "${dir}" =~ ^9[2-9]\|^00\|^sh ]]; then
+    if [[ "${dir}" =~ ^9[2-9]|^00|^sh ]]; then
         echo "${dir} : 処理除外"
     else
         if [ -d "${dir}" ]; then
