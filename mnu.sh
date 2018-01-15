@@ -22,7 +22,7 @@ do
                 echo "# rename ${dir} -> ${cntd} ${NAME}"
                 mv "${dir}" "${cntd} ${NAME}"
             fi
+            (( cnt++ ))
         fi
     fi
-    (( cnt++ ))
 done
