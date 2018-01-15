@@ -1,37 +1,23 @@
-# フォルダリネーム用シェル
-# フォルダを連番(01-)にリネームする
-# 95～99、00は無視
+# ディレクトリリネーム用シェル
+# ディレクトリを連番+スペースつきにリネームする
+# 92～99、00で開始するディレクトリは無視
 # shって名前のdirも無視
+# 引数 "-r" をつけると先頭の連番とスペースを削除
 cnt=1
-for a in *
+for dir in *
 do
-  if [ `expr "$a" : "9[23456789]\|00\|sh$\|\+\+\+\|\["` -eq 0 -a -d "$a" ]; then
-  #if [ `expr "$a" : "9[23456789]\|sh$"` -eq 0 -a -d "$a" ]; then
-    name=`echo "$a" | sed "s/^[0-9][0-9].\(.*\)/\1/"`
-    num=`echo "$a" | sed "s/^\([0-9][0-9]\).*/\1/"`
-    if [ "$num" != "" ]; then
-      if [ $# -ne 0 -a "$1" = "-r" ]; then
-        echo "# rename $a -> $name"
-        mv "$a" "$name"
-      else
-        if [ $cnt -le 9 -a "$a" != "0$cnt $name" ]; then
-          echo "# rename $a -> 0$cnt $name"
-          mv "$a" "0$cnt $name"
-        elif [ $cnt -ge 10 -a "$a" != "$cnt $name" ]; then
-          echo "# rename $a -> $cnt $name"
-          mv "$a" "$cnt $name"
+    if [[ "${dir}" =~ ^9[2-9]\|^00\|^sh && -d "${dir}" ]]; then
+        NAME=`echo "${dir}" | sed "s/^[0-9][0-9]\ \(.*\)/\1/"`
+        #NUM=`echo "${dir}" | sed "s/^\([0-9][0-9]\)\ .*/\1/"`
+        cnt=`printf %02d ${cnt}`
+
+        if [ $# -ne 0 -a "$1" = "-r" -a "${dir}" != "${NAME}" ]; then
+            echo "# rename ${dir} -> ${NAME}"
+            mv "${dir}" "${NAME}"
+        elif [ "${dir}" != "${cnt} ${NAME}" ]; then
+            echo "# rename ${dir} -> ${cnt} ${NAME}"
+            mv "${dir}" "${cnt} ${NAME}"
         fi
-        cnt=`expr $cnt + 1`
-      fi
-    elif [ "$a" -ne "$name" ]; then
-      if [ $cnt -le 9 ]; then
-        echo "# rename $a -> 0$cnt $a"
-        mv "$a" "0$cnt $a"
-      else
-        echo "# rename $a -> $cnt $a"
-        mv "$a" "$cnt $a"
-      fi
-      cnt=`expr $cnt + 1`
     fi
-  fi
+    (( cnt++ ))
 done
