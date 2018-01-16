@@ -1,4 +1,6 @@
-Last Update: 2018/01/17-00:00:01
+Last Update: 2018/01/17-06:00:01
+2018/01/17-06:00:01 41 Idol Time PriPara|アイドルタイムプリパラ
+2018/01/17-06:00:01 15 Black Clover|ブラッククローバー
 2018/01/17-00:00:01 15 Osomatsu-san|おそ松さん2
 2018/01/17-00:00:01 02 Ryuuou no Oshigoto|りゅうおうのおしごと！
 2018/01/17-00:00:01 02 Mitsuboshi Colors|三ツ星カラーズ
@@ -40,8 +42,6 @@ Last Update: 2018/01/17-00:00:01
 2018/01/12-00:00:01 01 Violet Evergarden|ヴァイオレット・エヴァーガーデン
 2018/01/12-00:00:01 01 Dame x Prince Anime Caravan|ダメプリ ANIME CARAVAN
 2018/01/12-00:00:01 01 Chihayafuru Syuukasen|ちはやふる 秀歌撰
-2018/01/11-06:00:01 40 Idol Time PriPara|アイドルタイムプリパラ
-2018/01/11-06:00:01 14 Black Clover|ブラッククローバー
 2018/01/11-06:00:01 03 Idolish Seven|アイドリッシュセブン
 2018/01/11-06:00:01 02 Sora Yori mo Tooi Basho|宇宙よりも遠い場所
 2018/01/08-06:00:02 46 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
