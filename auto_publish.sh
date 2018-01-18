@@ -3,14 +3,17 @@
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE:-$0}")"; pwd)"
 DOWNLOAD_DIR="${SCRIPT_DIR}/../"
 LIST_FILE=${SCRIPT_DIR}/checklist.txt
+LIST_FILE2=${SCRIPT_DIR}/sub_checklist.txt
 LIST_TEMP=${SCRIPT_DIR}/checklist.temp
 RSS_TEMP=${SCRIPT_DIR}/rss.temp
 RSS_XML=${SCRIPT_DIR}/rss.xml
+RSS_TEMP2=${SCRIPT_DIR}/rss2.temp
+RSS_XML2=${SCRIPT_DIR}/rss2.xml
 RESULT_FILE=${SCRIPT_DIR}/autodl.result
 DATETIME=`date "+%Y/%m/%d-%H:%M:%S"`
 DATETIME2=`date "+%Y%m%d%H%M%S"`
-#URI="https://www.nyaa.se/?page=search&cats=1_11&term=Ohys%7CLeopard&page=rss"
 URI="http://jp.leopard-raws.org/rss.php"
+URI2="https://nyaa.si/?q=Ohys-Raws&f=0&c=1_4&page=rss"
 PYTHON_PATH="python3"
 CHANNEL="bot-open"
 POST_FLG=1
@@ -57,15 +60,24 @@ rm -f ${RESULT_FILE}
 
 curl -s -S "${URI}" > ${RSS_TEMP}
 xmllint --format ${RSS_TEMP} > ${RSS_XML}
+# URI2 対応(nyaa.si)
+curl -s -S "${URI2}" > ${RSS_TEMP2}
+xmllint --format ${RSS_TEMP2} > ${RSS_XML2}
 
 LAST_UPDS=()
 EP_NUMS=()
 NAMES=()
 NAMESJ=()
+NAMES_SUB=()
 DOWNLOADS=()
 RESULT_END=""
 END_EPISODES=()
 END_EPISODES_NG=()
+
+while read NAME
+do
+  NAMES_SUB+=( "${NAME}" )
+done < ${LIST_FILE2}
 
 while read LAST_UPD EP_NUM NAME
 do
@@ -85,11 +97,22 @@ for NAME in "${NAMES[@]}"
 do
   cnt2=1
   hit_flg=0
+  # NAMES_SUBにタイトルが存在するか
+  sub_flg=0
+  for NAME_SUB in "${NAMES_SUB[@]}"
+  do
+    if [ "${NAME}" = "${NAME_SUB}" ]; then
+      sub_flg=1
+      break
+    fi
+  done
+
   while :
   do
     title=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep title | sed "s#<title>\(.*\)</title>#\1#" | sed "s/^      //"`
+    title2=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML2}" | grep title | sed "s#<title>\(.*\)</title>#\1#" | sed "s/^      //"`
     # feed end
-    if [ "${title}" = "" ]; then
+    if [ "${title}" = "" -a "${title2}" = "" ]; then
       break
     fi
     if [ "`echo \"${title}\" | grep \"\.ts\"`" != "" ]; then
@@ -97,9 +120,20 @@ do
     fi
 
     link=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
+    link2=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML2}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
+
 
     # fetch
-    if [ "`echo \"${title}\" | grep \"${NAME}\"`" != "" ]; then
+    fetch_flg=0
+    if [ ${sub_flg} -eq 0 -a "`echo \"${title}\" | grep \"${NAME}\"`" != "" ]; then
+      fetch_flg=1
+    elif [ ${sub_flg} -eq 1 -a "`echo \"${title2}\" | grep \"${NAME}\"`" != "" ]; then
+      title="${title2}"
+      link="${link2}"
+      fetch_flg=1
+    fi
+
+    if [ ${fetch_flg} -eq 1 ]; then
       EPNUM=`echo "${title}" | sed "s/.*${NAME}.* \([0-9]\{2,3\}\) .*/\1/"`
       EPNUM_N=${EPNUM}
       if [ "${#EPNUM}" -gt 3 ]; then
