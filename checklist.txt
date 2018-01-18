@@ -1,4 +1,5 @@
-Last Update: 2018/01/18-12:00:01
+Last Update: 2018/01/18-12:24:16
+2018/01/18-12:24:16 02 Pop Team Epic|ポプテピピック
 2018/01/18-12:00:01 47 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
 2018/01/18-12:00:01 02 Violet Evergarden|ヴァイオレット・エヴァーガーデン
 2018/01/18-06:00:01 03 Sora Yori mo Tooi Basho|宇宙よりも遠い場所
@@ -46,7 +47,6 @@ Last Update: 2018/01/18-12:00:01
 2018/01/12-18:00:01 115 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
 2018/01/12-18:00:01 02 Yuru Camp|ゆるキャン△
 2018/01/12-18:00:01 02 Ramen Daisuki Koizumi-san|ラーメン大好き小泉さん
-0 02 Pop Team Epic|ポプテピピック
 0 02 Cardcaptor Sakura： Clear Card-hen|カードキャプターさくら クリアカード編
 0 02 Cardcaptor Sakura Clear Card Hen|カードキャプターさくら クリアカード編
 0 0 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
