@@ -1,4 +1,23 @@
-Last Update: 2018/01/15-12:00:01
+Last Update: 2018/01/18-12:00:01
+2018/01/18-12:00:01 47 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
+2018/01/18-12:00:01 02 Violet Evergarden|ヴァイオレット・エヴァーガーデン
+2018/01/18-06:00:01 03 Sora Yori mo Tooi Basho|宇宙よりも遠い場所
+2018/01/18-06:00:01 02 Overlord II -|オーバーロードII
+2018/01/18-06:00:01 02 Dame x Prince Anime Caravan|ダメプリ ANIME CARAVAN
+2018/01/18-00:00:01 04 Idolish Seven|アイドリッシュセブン
+2018/01/18-00:00:01 02 Chihayafuru Syuukasen|ちはやふる 秀歌撰
+2018/01/18-00:00:01 01 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
+2018/01/17-06:00:01 41 Idol Time PriPara|アイドルタイムプリパラ
+2018/01/17-06:00:01 15 Black Clover|ブラッククローバー
+2018/01/17-00:00:01 15 Osomatsu-san|おそ松さん2
+2018/01/17-00:00:01 02 Ryuuou no Oshigoto|りゅうおうのおしごと！
+2018/01/17-00:00:01 02 Mitsuboshi Colors|三ツ星カラーズ
+2018/01/17-00:00:01 02 Kokkoku|刻刻
+2018/01/17-00:00:01 02 Karakai Jouzu no Takagi-san|からかい上手の高木さん
+2018/01/17-00:00:01 02 Basilisk： Ouka Ninpouchou|バジリスク ～桜花忍法帖～
+2018/01/17-00:00:01 02 25-sai no Joshikousei|25歳の女子高生
+2018/01/16-12:00:01 02 Zoku Touken Ranbu|続 刀剣乱舞-花丸-
+2018/01/16-12:00:01 02 Gakuen Babysitters|学園ベビーシッターズ
 2018/01/15-00:00:01 14 Mahou Tsukai no Yome|魔法使いの嫁
 2018/01/15-00:00:01 02 Slow Start|Slow Start
 2018/01/15-00:00:01 02 Sanrio Danshi|サンリオ男子
@@ -27,25 +46,7 @@ Last Update: 2018/01/15-12:00:01
 2018/01/12-18:00:01 115 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
 2018/01/12-18:00:01 02 Yuru Camp|ゆるキャン△
 2018/01/12-18:00:01 02 Ramen Daisuki Koizumi-san|ラーメン大好き小泉さん
-2018/01/12-08:35:25 01 Overlord II -|オーバーロードII
-2018/01/12-00:00:01 01 Violet Evergarden|ヴァイオレット・エヴァーガーデン
-2018/01/12-00:00:01 01 Dame x Prince Anime Caravan|ダメプリ ANIME CARAVAN
-2018/01/12-00:00:01 01 Chihayafuru Syuukasen|ちはやふる 秀歌撰
-2018/01/11-06:00:01 40 Idol Time PriPara|アイドルタイムプリパラ
-2018/01/11-06:00:01 14 Black Clover|ブラッククローバー
-2018/01/11-06:00:01 03 Idolish Seven|アイドリッシュセブン
-2018/01/11-06:00:01 02 Sora Yori mo Tooi Basho|宇宙よりも遠い場所
-2018/01/10-18:00:01 01 Karakai Jouzu no Takagi-san|からかい上手の高木さん
-2018/01/10-18:00:01 01 Basilisk： Ouka Ninpouchou|バジリスク ～桜花忍法帖～
-2018/01/10-06:00:01 14 Osomatsu-san|おそ松さん2
-2018/01/10-06:00:01 01 Ryuuou no Oshigoto|りゅうおうのおしごと！
-2018/01/09-12:00:02 01 Zoku Touken Ranbu|続 刀剣乱舞-花丸-
-2018/01/09-12:00:02 01 Kokkoku|刻刻
-2018/01/09-12:00:02 01 Gakuen Babysitters|学園ベビーシッターズ
-2018/01/09-12:00:02 01 25-sai no Joshikousei|25歳の女子高生
-2018/01/09-00:00:01 01 Mitsuboshi Colors|三ツ星カラーズ
-2018/01/08-06:00:02 46 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
 0 02 Pop Team Epic|ポプテピピック
-0 01 Cardcaptor Sakura： Clear Card-hen|カードキャプターさくら クリアカード編
-0 0 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難
+0 02 Cardcaptor Sakura： Clear Card-hen|カードキャプターさくら クリアカード編
+0 02 Cardcaptor Sakura Clear Card Hen|カードキャプターさくら クリアカード編
 0 0 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
