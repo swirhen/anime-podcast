@@ -1,4 +1,9 @@
-Last Update: 2018/01/20-00:00:01
+Last Update: 2018/01/20-06:00:01
+2018/01/20-06:00:01 03 Yuru Camp|ゆるキャン△
+2018/01/20-06:00:01 03 Ramen Daisuki Koizumi-san|ラーメン大好き小泉さん
+2018/01/20-06:00:01 03 Itou Junji|伊藤潤二『コレクション』
+2018/01/20-06:00:01 02 Märchen Mädchen|メルヘン・メドヘン
+2018/01/20-06:00:01 02 Death March kara Hajimaru Isekai Kyousoukyoku|デスマーチからはじまる異世界狂想曲
 2018/01/20-00:00:01 90 Aikatsu Stars|アイカツスターズ！
 2018/01/20-00:00:01 116 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
 2018/01/20-00:00:01 02 Takunomi|たくのみ。
@@ -42,10 +47,5 @@ Last Update: 2018/01/20-00:00:01
 2018/01/14-06:00:01 02 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/01/14-06:00:01 01 Nanatsu no Taizai|七つの大罪 戒めの復活
 2018/01/14-00:00:01 02 Toji no Miko|刀使ノ巫女
-2018/01/14-00:00:01 02 Itou Junji|伊藤潤二『コレクション』
 2018/01/14-00:00:01 02 Grancrest Senki|グランクレスト戦記
-2018/01/13-18:00:01 01 Märchen Mädchen|メルヘン・メドヘン
-2018/01/13-18:00:01 01 Death March kara Hajimaru Isekai Kyousoukyoku|デスマーチからはじまる異世界狂想曲
-2018/01/12-18:00:01 02 Yuru Camp|ゆるキャン△
-2018/01/12-18:00:01 02 Ramen Daisuki Koizumi-san|ラーメン大好き小泉さん
 0 0 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
