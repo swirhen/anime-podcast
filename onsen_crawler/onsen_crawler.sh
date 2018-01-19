@@ -94,6 +94,7 @@ do
 
   cd ${SCRIPT_DIR}/temp
   echo "${program_number}" > "${TEMP_DIR}/${progid}"
+  git add ${TEMP_DIR}/*
   git commit -m "最新話数更新: ${title}" "${progid}"
 
   # ダウンロード
