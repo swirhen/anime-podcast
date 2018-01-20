@@ -1,4 +1,8 @@
-Last Update: 2018/01/21-00:00:01
+Last Update: 2018/01/21-06:00:01
+2018/01/21-06:00:01 15 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
+2018/01/21-06:00:01 03 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2018/01/21-06:00:01 03 Pop Team Epic|ポプテピピック
+2018/01/21-06:00:01 02 Nanatsu no Taizai|七つの大罪 戒めの復活
 2018/01/21-00:00:01 03 Toji no Miko|刀使ノ巫女
 2018/01/21-00:00:01 03 Grancrest Senki|グランクレスト戦記
 2018/01/21-00:00:01 02 Killing Bites|キリングバイツ
@@ -18,7 +22,6 @@ Last Update: 2018/01/21-00:00:01
 2018/01/20-00:00:01 02 Koi wa Ameagari no You ni|恋は雨上がりのように
 2018/01/20-00:00:01 02 Dagashi Kashi 2|だがしかし2
 2018/01/18-12:30:50 02 Cardcaptor Sakura|カードキャプターさくら クリアカード編
-2018/01/18-12:24:16 02 Pop Team Epic|ポプテピピック
 2018/01/18-12:00:01 47 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
 2018/01/18-12:00:01 02 Violet Evergarden|ヴァイオレット・エヴァーガーデン
 2018/01/18-06:00:01 03 Sora Yori mo Tooi Basho|宇宙よりも遠い場所
@@ -42,10 +45,7 @@ Last Update: 2018/01/21-00:00:01
 2018/01/15-00:00:01 02 Slow Start|Slow Start
 2018/01/15-00:00:01 02 Sanrio Danshi|サンリオ男子
 2018/01/15-00:00:01 01 Darling in the FranXX|ダーリン・イン・ザ・フランキス
-2018/01/14-12:00:01 14 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
 2018/01/14-12:00:01 13 3-gatsu no Lion|3月のライオン2
 2018/01/14-12:00:01 02 Citrus|citrus
 2018/01/14-06:00:01 15 Classicaloid 2|クラシカロイド2
-2018/01/14-06:00:01 02 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
-2018/01/14-06:00:01 01 Nanatsu no Taizai|七つの大罪 戒めの復活
 0 0 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
