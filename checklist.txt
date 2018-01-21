@@ -1,4 +1,12 @@
-Last Update: 2018/01/21-18:00:01
+Last Update: 2018/01/22-00:00:01
+2018/01/22-00:00:01 16 Classicaloid 2|クラシカロイド2
+2018/01/22-00:00:01 15 Mahou Tsukai no Yome|魔法使いの嫁
+2018/01/22-00:00:01 14 3-gatsu no Lion|3月のライオン2
+2018/01/22-00:00:01 03 Slow Start|Slow Start
+2018/01/22-00:00:01 03 Sanrio Danshi|サンリオ男子
+2018/01/22-00:00:01 03 Citrus|citrus
+2018/01/22-00:00:01 02 Darling in the FranXX|ダーリン・イン・ザ・フランキス
+2018/01/22-00:00:01 01 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
 2018/01/21-12:00:02 03 Cardcaptor Sakura|カードキャプターさくら クリアカード編
 2018/01/21-06:00:01 15 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
 2018/01/21-06:00:01 03 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
@@ -41,11 +49,3 @@ Last Update: 2018/01/21-18:00:01
 2018/01/17-00:00:01 02 25-sai no Joshikousei|25歳の女子高生
 2018/01/16-12:00:01 02 Zoku Touken Ranbu|続 刀剣乱舞-花丸-
 2018/01/16-12:00:01 02 Gakuen Babysitters|学園ベビーシッターズ
-2018/01/15-00:00:01 14 Mahou Tsukai no Yome|魔法使いの嫁
-2018/01/15-00:00:01 02 Slow Start|Slow Start
-2018/01/15-00:00:01 02 Sanrio Danshi|サンリオ男子
-2018/01/15-00:00:01 01 Darling in the FranXX|ダーリン・イン・ザ・フランキス
-2018/01/14-12:00:01 13 3-gatsu no Lion|3月のライオン2
-2018/01/14-12:00:01 02 Citrus|citrus
-2018/01/14-06:00:01 15 Classicaloid 2|クラシカロイド2
-0 0 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
