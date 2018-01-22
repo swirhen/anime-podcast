@@ -1,4 +1,10 @@
-Last Update: 2018/01/22-18:00:01
+Last Update: 2018/01/23-00:00:01
+2018/01/23-00:00:01 48 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
+2018/01/23-00:00:01 03 Zoku Touken Ranbu|続 刀剣乱舞-花丸-
+2018/01/23-00:00:01 03 Mitsuboshi Colors|三ツ星カラーズ
+2018/01/23-00:00:01 03 Kokkoku|刻刻
+2018/01/23-00:00:01 03 Gakuen Babysitters|学園ベビーシッターズ
+2018/01/23-00:00:01 03 25-sai no Joshikousei|25歳の女子高生
 2018/01/22-00:00:01 16 Classicaloid 2|クラシカロイド2
 2018/01/22-00:00:01 15 Mahou Tsukai no Yome|魔法使いの嫁
 2018/01/22-00:00:01 14 3-gatsu no Lion|3月のライオン2
@@ -30,7 +36,6 @@ Last Update: 2018/01/22-18:00:01
 2018/01/20-00:00:01 02 Miira no Kaikata|ミイラの飼い方
 2018/01/20-00:00:01 02 Koi wa Ameagari no You ni|恋は雨上がりのように
 2018/01/20-00:00:01 02 Dagashi Kashi 2|だがしかし2
-2018/01/18-12:00:01 47 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
 2018/01/18-12:00:01 02 Violet Evergarden|ヴァイオレット・エヴァーガーデン
 2018/01/18-06:00:01 03 Sora Yori mo Tooi Basho|宇宙よりも遠い場所
 2018/01/18-06:00:01 02 Overlord II -|オーバーロードII
@@ -42,10 +47,5 @@ Last Update: 2018/01/22-18:00:01
 2018/01/17-06:00:01 15 Black Clover|ブラッククローバー
 2018/01/17-00:00:01 15 Osomatsu-san|おそ松さん2
 2018/01/17-00:00:01 02 Ryuuou no Oshigoto|りゅうおうのおしごと！
-2018/01/17-00:00:01 02 Mitsuboshi Colors|三ツ星カラーズ
-2018/01/17-00:00:01 02 Kokkoku|刻刻
 2018/01/17-00:00:01 02 Karakai Jouzu no Takagi-san|からかい上手の高木さん
 2018/01/17-00:00:01 02 Basilisk： Ouka Ninpouchou|バジリスク ～桜花忍法帖～
-2018/01/17-00:00:01 02 25-sai no Joshikousei|25歳の女子高生
-2018/01/16-12:00:01 02 Zoku Touken Ranbu|続 刀剣乱舞-花丸-
-2018/01/16-12:00:01 02 Gakuen Babysitters|学園ベビーシッターズ
