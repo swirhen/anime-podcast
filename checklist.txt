@@ -1,4 +1,7 @@
-Last Update: 2018/01/23-18:00:01
+Last Update: 2018/01/24-00:00:01
+2018/01/24-00:00:01 16 Osomatsu-san|おそ松さん2
+2018/01/24-00:00:01 03 Karakai Jouzu no Takagi-san|からかい上手の高木さん
+2018/01/24-00:00:01 03 Basilisk： Ouka Ninpouchou|バジリスク ～桜花忍法帖～
 2018/01/23-00:00:01 48 Kirakira Precure A La Mode|キラキラ☆プリキュアアラモード
 2018/01/23-00:00:01 03 Zoku Touken Ranbu|続 刀剣乱舞-花丸-
 2018/01/23-00:00:01 03 Mitsuboshi Colors|三ツ星カラーズ
@@ -45,7 +48,4 @@ Last Update: 2018/01/23-18:00:01
 2018/01/18-00:00:01 01 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
 2018/01/17-06:00:01 41 Idol Time PriPara|アイドルタイムプリパラ
 2018/01/17-06:00:01 15 Black Clover|ブラッククローバー
-2018/01/17-00:00:01 15 Osomatsu-san|おそ松さん2
 2018/01/17-00:00:01 02 Ryuuou no Oshigoto|りゅうおうのおしごと！
-2018/01/17-00:00:01 02 Karakai Jouzu no Takagi-san|からかい上手の高木さん
-2018/01/17-00:00:01 02 Basilisk： Ouka Ninpouchou|バジリスク ～桜花忍法帖～
