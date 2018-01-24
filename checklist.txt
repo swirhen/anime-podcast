@@ -1,4 +1,12 @@
-Last Update: 2018/01/24-18:00:01
+Last Update: 2018/01/25-00:00:01
+2018/01/25-00:00:01 42 Idol Time PriPara|アイドルタイムプリパラ
+2018/01/25-00:00:01 16 Black Clover|ブラッククローバー
+2018/01/25-00:00:01 05 Idolish Seven|アイドリッシュセブン
+2018/01/25-00:00:01 04 Sora Yori mo Tooi Basho|宇宙よりも遠い場所
+2018/01/25-00:00:01 03 Ryuuou no Oshigoto|りゅうおうのおしごと！
+2018/01/25-00:00:01 03 Overlord II -|オーバーロードII
+2018/01/25-00:00:01 03 Chihayafuru Syuukasen|ちはやふる 秀歌撰
+2018/01/25-00:00:01 02 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
 2018/01/24-00:00:01 16 Osomatsu-san|おそ松さん2
 2018/01/24-00:00:01 03 Karakai Jouzu no Takagi-san|からかい上手の高木さん
 2018/01/24-00:00:01 03 Basilisk： Ouka Ninpouchou|バジリスク ～桜花忍法帖～
@@ -40,12 +48,4 @@ Last Update: 2018/01/24-18:00:01
 2018/01/20-00:00:01 02 Koi wa Ameagari no You ni|恋は雨上がりのように
 2018/01/20-00:00:01 02 Dagashi Kashi 2|だがしかし2
 2018/01/18-12:00:01 02 Violet Evergarden|ヴァイオレット・エヴァーガーデン
-2018/01/18-06:00:01 03 Sora Yori mo Tooi Basho|宇宙よりも遠い場所
-2018/01/18-06:00:01 02 Overlord II -|オーバーロードII
 2018/01/18-06:00:01 02 Dame x Prince Anime Caravan|ダメプリ ANIME CARAVAN
-2018/01/18-00:00:01 04 Idolish Seven|アイドリッシュセブン
-2018/01/18-00:00:01 02 Chihayafuru Syuukasen|ちはやふる 秀歌撰
-2018/01/18-00:00:01 01 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
-2018/01/17-06:00:01 41 Idol Time PriPara|アイドルタイムプリパラ
-2018/01/17-06:00:01 15 Black Clover|ブラッククローバー
-2018/01/17-00:00:01 02 Ryuuou no Oshigoto|りゅうおうのおしごと！
