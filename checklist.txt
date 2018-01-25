@@ -1,4 +1,6 @@
-Last Update: 2018/01/25-12:00:01
+Last Update: 2018/01/25-18:00:01
+2018/01/25-18:00:01 03 Violet Evergarden|ヴァイオレット・エヴァーガーデン
+2018/01/25-18:00:01 03 Dame x Prince Anime Caravan|ダメプリ ANIME CARAVAN
 2018/01/25-00:00:01 42 Idol Time PriPara|アイドルタイムプリパラ
 2018/01/25-00:00:01 16 Black Clover|ブラッククローバー
 2018/01/25-00:00:01 05 Idolish Seven|アイドリッシュセブン
@@ -47,5 +49,3 @@ Last Update: 2018/01/25-12:00:01
 2018/01/20-00:00:01 02 Miira no Kaikata|ミイラの飼い方
 2018/01/20-00:00:01 02 Koi wa Ameagari no You ni|恋は雨上がりのように
 2018/01/20-00:00:01 02 Dagashi Kashi 2|だがしかし2
-2018/01/18-12:00:01 02 Violet Evergarden|ヴァイオレット・エヴァーガーデン
-2018/01/18-06:00:01 02 Dame x Prince Anime Caravan|ダメプリ ANIME CARAVAN
