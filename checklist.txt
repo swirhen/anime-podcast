@@ -1,4 +1,10 @@
-Last Update: 2018/01/28-00:00:01
+Last Update: 2018/01/28-06:00:01
+2018/01/28-06:00:01 04 Toji no Miko|刀使ノ巫女
+2018/01/28-06:00:01 04 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2018/01/28-06:00:01 04 Pop Team Epic|ポプテピピック
+2018/01/28-06:00:01 03 Nanatsu no Taizai|七つの大罪 戒めの復活
+2018/01/28-06:00:01 03 Killing Bites|キリングバイツ
+2018/01/28-06:00:01 03 Hakata Tonkotsu Ramens|博多豚骨ラーメンズ
 2018/01/28-00:00:01 04 Itou Junji|伊藤潤二『コレクション』
 2018/01/28-00:00:01 04 Grancrest Senki|グランクレスト戦記
 2018/01/28-00:00:01 03 Hakyuu Houshin Engi|覇穹 封神演義
@@ -43,9 +49,3 @@ Last Update: 2018/01/28-00:00:01
 2018/01/22-00:00:01 01 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
 2018/01/21-12:00:02 03 Cardcaptor Sakura|カードキャプターさくら クリアカード編
 2018/01/21-06:00:01 15 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
-2018/01/21-06:00:01 03 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
-2018/01/21-06:00:01 03 Pop Team Epic|ポプテピピック
-2018/01/21-06:00:01 02 Nanatsu no Taizai|七つの大罪 戒めの復活
-2018/01/21-00:00:01 03 Toji no Miko|刀使ノ巫女
-2018/01/21-00:00:01 02 Killing Bites|キリングバイツ
-2018/01/21-00:00:01 02 Hakata Tonkotsu Ramens|博多豚骨ラーメンズ
