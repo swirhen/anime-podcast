@@ -13,7 +13,7 @@ fi
 PAGE=1
 while :
 do
-    result=`curl "http://www.nicovideo.jp/search/${SRC_WORD_ENC}?sort=f&order=d&page=${PAGE}" | grep ".*a title.*${SRC_WORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#/data/share/movie/sh/nicodl.sh \"http://www.nicovideo.jp\2\" \"\1\"#" | sed "s/\ href.*/ ${AUDIO_FLG}/"`
+    result=`curl -sS "http://www.nicovideo.jp/search/${SRC_WORD_ENC}?sort=f&order=d&page=${PAGE}" | grep ".*a title.*${SRC_WORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#/data/share/movie/sh/nicodl.sh \"http://www.nicovideo.jp\2\" \"\1\"#" | sed "s/\ href.*/ ${AUDIO_FLG}/"`
     if [ "${result}" != "" ]; then
         echo ${result}
     else
