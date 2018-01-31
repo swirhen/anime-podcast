@@ -1,0 +1,3 @@
+cd "/data/share/temp/voiceactor_nico_ch/03 デレラジ☆"
+../crawlnicoch.sh "http://ch.nicovideo.jp/dereradi/video" | grep 6[2-9]回 | sed "s/「デレラジ.*\(..\)回アーカイブ/デレラジ☆(スター) 第\1回/" > dl_1030.sh
+../crawlnicoch.sh "http://ch.nicovideo.jp/dereradi/video" | grep 5[4-9]回 | sed "s/「デレラジ.*\(..\)回アーカイブ/デレラジ☆(スター) 第\1回/"

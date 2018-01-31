@@ -1,0 +1,1 @@
+../crawlnicoch.sh "http://ch.nicovideo.jp/search/%E7%AC%AC?channel_id=ch2599508&mode=s&sort=f&order=a&type=video" | grep 第..回 | sed 's/\(第..回\).*\(おまけ放送.*\)/CINDERELLA PARTY！ \1 \2/' | sed 's/\(第..回\).*アーカイブ動画\(.*\)/CINDERELLA PARTY！ \1 \2/' | grep -v 第00回 > dl_171005.sh
