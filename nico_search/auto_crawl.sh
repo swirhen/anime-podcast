@@ -99,8 +99,8 @@ echo "hoe: $(eval echo ${SED_STR})"
     fi
 
     if [ "${result}" != "" ]; then
-        echo "aru"
-        echo "${result}"
+#        echo "aru"
+#        echo "${result}"
         echo "echo \"${result}\" | grep ${NUM_PREFIX}${EP_NUM}${NUM_SUFFIX} | sed \"$(eval echo ${SED_STR})\""
     else
         continue
