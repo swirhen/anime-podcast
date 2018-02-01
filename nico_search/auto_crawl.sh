@@ -69,6 +69,9 @@ done < ${LIST_FILE}
 cnt=0
 while :
 do
+    if [ "LAST_UPDS: ${LAST_UPDS[${cnt}]}" = "" ]; then
+        break
+    fi
     echo "LAST_UPDS: ${LAST_UPDS[${cnt}]}"
     echo "EP_NUMS: ${EP_NUMS[${cnt}]}"
     echo "URLS: ${URLS[${cnt}]}"
@@ -78,7 +81,6 @@ do
     echo "NUM_SUFFIXS: ${NUM_SUFFIXS[${cnt}]}"
     echo "SED_STRS: ${SED_STRS[${cnt}]}"
     (( cnt++ ))
-    if [ "LAST_UPDS: ${LAST_UPDS[${cnt}]}" = "" ]; then
-        break
-    fi
 done
+
+end
