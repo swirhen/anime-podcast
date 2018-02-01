@@ -96,8 +96,9 @@ echo "${SED_STR}"
         result=`curl -sS "${URL}" | grep ".*a title.*${KEYWORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#${NICODL_CMD} \"http://www.nicovideo.jp\2\" \"\1\"#" | grep ${NUM_PREFIX}${EP_NUM}${NUM_SUFFIX} | sed "${SED_STR}"`
     else
         echo "curl -sS \"${URL}\" | grep \"http.*title.*${KEYWORD}\" | sed \"s#^.*<a href=#${NICODL_CMD} #\" | sed \"s/title=//\" | grep ${NUM_PREFIX}${EP_NUM}${NUM_SUFFIX} | sed \"${SED_STR}\""
-        curl -sS "${URL}" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//" | grep ${NUM_PREFIX}${EP_NUM}${NUM_SUFFIX} | sed ${SED_STR}
+        result=`curl -sS "${URL}" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//" | grep ${NUM_PREFIX}${EP_NUM}${NUM_SUFFIX} | sed "${SED_STR}"`
     fi
+    echo "${result}"
 
 #    if [ "${result}" != "" ]; then
 #        echo "${result}"
