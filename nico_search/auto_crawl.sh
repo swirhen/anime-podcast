@@ -89,12 +89,12 @@ SAVE_DIR_NUM="${SAVE_DIR_NUMS[${cnt}]}"
 NUM_PREFIX=${NUM_PREFIXS[${cnt}]}
 NUM_SUFFIX=${NUM_SUFFIXS[${cnt}]}
 SED_STR="${SED_STRS[${cnt}]}"
-if [ "${NUM_PREFIX}" != "" ]; then
+if [ ${NUM_PREFIX} != "" ]; then
     EPNUM=${NUM_PREFIX}${EP_NUM}
 else
     EPNUM=${EP_NUM}
 fi
-if [ "${NUM_SUFFIX}" != "" ]; then
+if [ ${NUM_SUFFIX} != "" ]; then
     EPNUM=${EPNUM}${NUM_SUFFIX}
 fi
 echo "epnum: ${EPNUM}"
@@ -104,7 +104,7 @@ echo "epnum: ${EPNUM}"
         result=`curl -sS "${URL}" | grep ".*a title.*${KEYWORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#${NICODL_CMD} \"http://www.nicovideo.jp\2\" \"\1\"#" | grep ${NUM_PREFIX}${EP_NUM}${NUM_SUFFIX} | sed "${SED_STR}"`
     else
 #        echo "curl -sS \"${URL}\" | grep \"http.*title.*${KEYWORD}\" | sed \"s#^.*<a href=#${NICODL_CMD} #\" | sed \"s/title=//\" | grep ${NUM_PREFIX}${EP_NUM}${NUM_SUFFIX} | sed \"${SED_STR}\""
-        ./crawlnicoch.sh "${URL}" "${KEYWORD}" | grep ${EPNUM} | sed "${SED_STR}"
+        ./crawlnicoch.sh "${URL}" "${KEYWORD}" | grep "${EPNUM}" | sed "${SED_STR}"
     fi
 
 #    if [ "${result}" != "" ]; then
