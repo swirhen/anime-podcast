@@ -57,12 +57,12 @@ do
     if [ "${LAST_UPD}" != "Last" ]; then
         LAST_UPDS+=( "${LAST_UPD}" )
         EP_NUMS+=( "${EP_NUM}" )
-        URLS=( "${URL}" )
-        KEYWORDS=( "${KEYWORD}" )
-        SAVE_DIR_NUMS=( "${SAVE_DIR_NUM}" )
-        NUM_PREFIXS=( "${NUM_PREFIX}")
-        NUM_SUFFIXS=( "${NUM_SUFFIX}" )
-        SED_STRS=( "${SED_STR}" )
+        URLS+=( "${URL}" )
+        KEYWORDS+=( "${KEYWORD}" )
+        SAVE_DIR_NUMS+=( "${SAVE_DIR_NUM}" )
+        NUM_PREFIXS+=( "${NUM_PREFIX}")
+        NUM_SUFFIXS+=( "${NUM_SUFFIX}" )
+        SED_STRS+=( "${SED_STR}" )
     fi
 done < ${LIST_FILE}
 
