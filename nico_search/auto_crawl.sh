@@ -97,6 +97,7 @@ fi
 if [ "${NUM_SUFFIX}" != "" ]; then
     EPNUM=${EPNUM}${NUM_SUFFIX}
 fi
+echo "epnum: ${EPNUM}"
 
     # curlでURLからクロールする
     if [ "${URL:8:2}" = "ww" ]; then
