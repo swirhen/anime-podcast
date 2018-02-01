@@ -1,3 +1,3 @@
-Last Update: 2018/02/01-18:50:38
-2018/02/01-18:50:38 172 http://ch.nicovideo.jp/cinderellaparty/video おまけ放送 01 | 回 s/\\(第.*回\\).*\\(CINDERELLA PARTY\\).*\\(おまけ放送.*\\)/\\2！ \\1 \\3/
-2018/02/01-18:50:38 171 http://ch.nicovideo.jp/cinderellaparty/video アーカイブ動画 01 | 回 s/\\(第.*回\\).*\\(CINDERELLA PARTY\\).*アーカイブ動画\\(.*\\)/\\2！ \\1 \\3/
+Last Update: 2018/02/01-18:56:50
+2018/02/01-18:56:50 172 http://ch.nicovideo.jp/cinderellaparty/video おまけ放送 01 | 回 s/\\\(第.*回\\\).*\\\(CINDERELLA PARTY\\\).*\\\(おまけ放送.*\\\)/\\\2！ \\\1 \\\3/
+2018/02/01-18:56:50 171 http://ch.nicovideo.jp/cinderellaparty/video アーカイブ動画 01 | 回 s/\\\(第.*回\\\).*\\\(CINDERELLA PARTY\\\).*アーカイブ動画\\\(.*\\\)/\\\2！ \\\1 \\\3/
