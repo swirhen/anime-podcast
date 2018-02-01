@@ -82,12 +82,12 @@ do
 #    echo "NUM_SUFFIXS: ${NUM_SUFFIXS[${cnt}]}"
     echo "SED_STRS: ${SED_STRS[${cnt}]}"
 LAST_UPD="${LAST_UPDS[${cnt}]}"
-EP_NUM="${EP_NUMS[${cnt}]}"
+EP_NUM=${EP_NUMS[${cnt}]}
 URL="${URLS[${cnt}]}"
 KEYWORD="${KEYWORDS[${cnt}]}"
 SAVE_DIR_NUM="${SAVE_DIR_NUMS[${cnt}]}"
-NUM_PREFIX="${NUM_PREFIXS[${cnt}]}"
-NUM_SUFFIX="${NUM_SUFFIXS[${cnt}]}"
+NUM_PREFIX=${NUM_PREFIXS[${cnt}]}
+NUM_SUFFIX=${NUM_SUFFIXS[${cnt}]}
 SED_STR="${SED_STRS[${cnt}]}"
 
     # curlでURLからクロールする
