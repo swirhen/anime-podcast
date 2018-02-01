@@ -63,7 +63,7 @@ do
         SAVE_DIR_NUMS+=( "${SAVE_DIR_NUM}" )
         NUM_PREFIXS+=( ${NUM_PREFIX} )
         NUM_SUFFIXS+=( ${NUM_SUFFIX} )
-        SED_STRS+=( '${SED_STR}' )
+        SED_STRS+=( "${SED_STR}" )
     fi
 done < ${LIST_FILE}
 
@@ -88,7 +88,7 @@ KEYWORD="${KEYWORDS[${cnt}]}"
 SAVE_DIR_NUM="${SAVE_DIR_NUMS[${cnt}]}"
 NUM_PREFIX="${NUM_PREFIXS[${cnt}]}"
 NUM_SUFFIX="${NUM_SUFFIXS[${cnt}]}"
-SED_STR='${SED_STRS[${cnt}]}'
+SED_STR="${SED_STRS[${cnt}]}"
 echo "hoe: $(eval echo ${SED_STR})"
 
     # curlでURLからクロールする
