@@ -114,7 +114,7 @@ do
         dl_flg=1
         chmod +x ${DL_SH}
         ${DL_SH}
-        mv "*${KEYWORD}*.mp4" "${SCRIPT_DIR}/${SAVE_DIR_NUM}"*
+        mv *"${KEYWORD}"*.mp4 "${SCRIPT_DIR}/${SAVE_DIR_NUM}"*
         (( EP_NUM++ ))
         echo "${DATETIME} ${EP_NUM} ${URL} ${KEYWORD} ${SAVE_DIR_NUM} ${NUM_PREFIX} ${NUM_SUFFIX} ${SED_STR}" >> ${LIST_TEMP}
     else
