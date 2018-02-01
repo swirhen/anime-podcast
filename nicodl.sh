@@ -13,4 +13,5 @@ if [ "${audflg:-null}" != null ]; then
     rm nicodl_temp
 else
     mv nicodl_temp "${title}.mp4"
+    echo "${title}.mp4"
 fi

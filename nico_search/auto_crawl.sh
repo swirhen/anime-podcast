@@ -18,7 +18,7 @@ FLG_FILE=${SCRIPT_DIR}/autocrawl_running
 DL_SH=${SCRIPT_DIR}/dl.sh
 
 end() {
-    mv ${LOG_FILE} ${SCRIPT_DIR}/logs/
+#    mv ${LOG_FILE} ${SCRIPT_DIR}/logs/
     rm -f ${FLG_FILE}
     exit 0
 }
@@ -113,8 +113,9 @@ do
     if [ -s ${DL_SH} ]; then
         dl_flg=1
         chmod +x ${DL_SH}
-#        ${DL_SH}
-        cat ${DL_SH}
+        filename=`${DL_SH}`
+#        cat ${DL_SH}
+        mv ${filename} ${SCRIPT_DIR}/${SAVE_DIR_NUM}*
         (( EP_NUM++ ))
         echo "${DATETIME} ${EP_NUM} ${URL} ${KEYWORD} ${SAVE_DIR_NUM} ${NUM_PREFIX} ${NUM_SUFFIX} ${SED_STR}" >> ${LIST_TEMP}
     else
@@ -122,5 +123,13 @@ do
     fi
     (( cnt++ ))
 done
+
+cd ${SCRIPT_DIR}
+if [ ${dl_flg} -eq 1 ]; then
+    cat ${LIST_TEMP} | sort -r > ${LIST_FILE}
+    git commit -m 'checklist.txt update' checklist.txt
+    git pull
+    git push origin master
+fi
 
 end
