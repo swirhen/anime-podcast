@@ -113,9 +113,8 @@ do
     if [ -s ${DL_SH} ]; then
         dl_flg=1
         chmod +x ${DL_SH}
-        filename=`${DL_SH}`
-#        cat ${DL_SH}
-        mv "${filename}" "${SCRIPT_DIR}/${SAVE_DIR_NUM}"*
+        ${DL_SH}
+        mv "*${KEYWORD}*.mp4" "${SCRIPT_DIR}/${SAVE_DIR_NUM}"*
         (( EP_NUM++ ))
         echo "${DATETIME} ${EP_NUM} ${URL} ${KEYWORD} ${SAVE_DIR_NUM} ${NUM_PREFIX} ${NUM_SUFFIX} ${SED_STR}" >> ${LIST_TEMP}
     else
