@@ -61,8 +61,8 @@ do
         URLS+=( "${URL}" )
         KEYWORDS+=( "${KEYWORD}" )
         SAVE_DIR_NUMS+=( "${SAVE_DIR_NUM}" )
-        NUM_PREFIXS+=( "${NUM_PREFIX}")
-        NUM_SUFFIXS+=( "${NUM_SUFFIX}" )
+        NUM_PREFIXS+=( ${NUM_PREFIX} )
+        NUM_SUFFIXS+=( ${NUM_SUFFIX} )
         SED_STRS+=( "${SED_STR}" )
     fi
 done < ${LIST_FILE}
@@ -101,7 +101,7 @@ echo "hoe: $(eval echo ${SED_STR})"
     if [ "${result}" != "" ]; then
 #        echo "aru"
 #        echo "${result}"
-        echo "echo \"${result}\" | grep ${NUM_PREFIX}${EP_NUM}${NUM_SUFFIX} | sed \"$(eval echo ${SED_STR})\""
+        echo "${result}" | grep ${NUM_PREFIX}${EP_NUM}${NUM_SUFFIX} | sed "$(eval echo ${SED_STR})"
     else
         continue
     fi
