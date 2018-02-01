@@ -88,8 +88,7 @@ KEYWORD="${KEYWORDS[${cnt}]}"
 SAVE_DIR_NUM="${SAVE_DIR_NUMS[${cnt}]}"
 NUM_PREFIX="${NUM_PREFIXS[${cnt}]}"
 NUM_SUFFIX="${NUM_SUFFIXS[${cnt}]}"
-SED_STR=$(eval echo ${SED_STRS[${cnt}]})
-echo "hoe: ${SED_STR}"
+SED_STR=$(eval echo '${SED_STRS[${cnt}]}')
 
     # curlでURLからクロールする
     if [ "${URL:8:2}" = "ww" ]; then
