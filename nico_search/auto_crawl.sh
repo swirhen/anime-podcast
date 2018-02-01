@@ -95,7 +95,7 @@ echo "${SED_STR}"
     if [ "${URL:8:2}" = "ww" ]; then
         result=`curl -sS "${URL}" | grep ".*a title.*${KEYWORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#${NICODL_CMD} \"http://www.nicovideo.jp\2\" \"\1\"#" | grep ${NUM_PREFIX}${EP_NUM}${NUM_SUFFIX} | sed "${SED_STR}"`
     else
-        result=`curl -sS "${URL}" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//" | grep ${NUM_PREFIX}${EP_NUM}${NUM_SUFFIX} | sed "${SED_STR}"`
+        result=`curl -sS "${URL}" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//" | grep ${NUM_PREFIX}${EP_NUM}${NUM_SUFFIX} | sed ${SED_STR}`
     fi
 
     if [ "${result}" != "" ]; then
