@@ -69,13 +69,16 @@ done < ${LIST_FILE}
 cnt=0
 while :
 do
-echo "LAST_UPDS: ${LAST_UPDS[${cnt}]}"
-echo "EP_NUMS: ${EP_NUMS[${cnt}]}"
-echo "URLS: ${URLS[${cnt}]}"
-echo "KEYWORDS: ${KEYWORDS[${cnt}]}"
-echo "SAVE_DIR_NUMS: ${SAVE_DIR_NUMS[${cnt}]}"
-echo "NUM_PREFIXS: ${NUM_PREFIXS[${cnt}]}"
-echo "NUM_SUFFIXS: ${NUM_SUFFIXS[${cnt}]}"
-echo "SED_STRS: ${SED_STRS[${cnt}]}"
+    echo "LAST_UPDS: ${LAST_UPDS[${cnt}]}"
+    echo "EP_NUMS: ${EP_NUMS[${cnt}]}"
+    echo "URLS: ${URLS[${cnt}]}"
+    echo "KEYWORDS: ${KEYWORDS[${cnt}]}"
+    echo "SAVE_DIR_NUMS: ${SAVE_DIR_NUMS[${cnt}]}"
+    echo "NUM_PREFIXS: ${NUM_PREFIXS[${cnt}]}"
+    echo "NUM_SUFFIXS: ${NUM_SUFFIXS[${cnt}]}"
+    echo "SED_STRS: ${SED_STRS[${cnt}]}"
     (( cnt++ ))
+    if [ "LAST_UPDS: ${LAST_UPDS[${cnt}]}" = "" ]; then
+        break
+    fi
 done
