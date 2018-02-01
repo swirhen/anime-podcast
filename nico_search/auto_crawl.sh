@@ -89,12 +89,12 @@ SAVE_DIR_NUM="${SAVE_DIR_NUMS[${cnt}]}"
 NUM_PREFIX=${NUM_PREFIXS[${cnt}]}
 NUM_SUFFIX=${NUM_SUFFIXS[${cnt}]}
 SED_STR="${SED_STRS[${cnt}]}"
-if [ ${NUM_PREFIX} != "" ]; then
+if [ "${NUM_PREFIX}" != "|" ]; then
     EPNUM=${NUM_PREFIX}${EP_NUM}
 else
     EPNUM=${EP_NUM}
 fi
-if [ ${NUM_SUFFIX} != "" ]; then
+if [ "${NUM_SUFFIX}" != "|" ]; then
     EPNUM=${EPNUM}${NUM_SUFFIX}
 fi
 echo "epnum: ${EPNUM}"
