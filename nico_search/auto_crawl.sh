@@ -118,7 +118,7 @@ do
         (( EP_NUM++ ))
         echo "${DATETIME} ${EP_NUM} ${URL} ${KEYWORD} ${SAVE_DIR_NUM} ${NUM_PREFIX} ${NUM_SUFFIX} ${SED_STR//\\/\\\\\\}" >> ${LIST_TEMP}
     else
-        echo "${LAST_UPD} ${EP_NUM} ${URL} ${KEYWORD} ${SAVE_DIR_NUM} ${NUM_PREFIX} ${NUM_SUFFIX} ${SED_STR//\\/\\\\\\" >> ${LIST_TEMP}
+        echo "${LAST_UPD} ${EP_NUM} ${URL} ${KEYWORD} ${SAVE_DIR_NUM} ${NUM_PREFIX} ${NUM_SUFFIX} ${SED_STR//\\/\\\\\\}" >> ${LIST_TEMP}
     fi
     (( cnt++ ))
 done
