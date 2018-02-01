@@ -90,7 +90,7 @@ NUM_PREFIX="${NUM_PREFIXS[${cnt}]}"
 NUM_SUFFIX="${NUM_SUFFIXS[${cnt}]}"
 SED_STR='${SED_STRS[${cnt}]}'
 SED_STR2='$(eval echo ${SED_STR})'
-echo "hoge: $(eval echo ${SED_STR2})"
+echo "hoge: $(eval echo $(eval echo ${SED_STR2}))"
 
     # curlでURLからクロールする
     if [ "${URL:8:2}" = "ww" ]; then
