@@ -11,6 +11,7 @@ DATETIME=`date "+%Y/%m/%d-%H:%M:%S"`
 DATETIME2=`date "+%Y%m%d%H%M%S"`
 PYTHON_PATH="python3"
 CHANNEL="bot-sandbox"
+NICODL_CMD="/data/share/movie/sh/nicodl.sh"
 POST_FLG=1
 LOG_FILE=${SCRIPT_DIR}/autocrawl_${DATETIME2}.log
 FLG_FILE=${SCRIPT_DIR}/autocrawl_running
@@ -72,14 +73,36 @@ do
     if [ "${LAST_UPDS[${cnt}]}" = "" ]; then
         break
     fi
-    echo "LAST_UPDS: ${LAST_UPDS[${cnt}]}"
-    echo "EP_NUMS: ${EP_NUMS[${cnt}]}"
-    echo "URLS: ${URLS[${cnt}]}"
-    echo "KEYWORDS: ${KEYWORDS[${cnt}]}"
-    echo "SAVE_DIR_NUMS: ${SAVE_DIR_NUMS[${cnt}]}"
-    echo "NUM_PREFIXS: ${NUM_PREFIXS[${cnt}]}"
-    echo "NUM_SUFFIXS: ${NUM_SUFFIXS[${cnt}]}"
-    echo "SED_STRS: ${SED_STRS[${cnt}]}"
+#    echo "LAST_UPDS: ${LAST_UPDS[${cnt}]}"
+#    echo "EP_NUMS: ${EP_NUMS[${cnt}]}"
+#    echo "URLS: ${URLS[${cnt}]}"
+#    echo "KEYWORDS: ${KEYWORDS[${cnt}]}"
+#    echo "SAVE_DIR_NUMS: ${SAVE_DIR_NUMS[${cnt}]}"
+#    echo "NUM_PREFIXS: ${NUM_PREFIXS[${cnt}]}"
+#    echo "NUM_SUFFIXS: ${NUM_SUFFIXS[${cnt}]}"
+#    echo "SED_STRS: ${SED_STRS[${cnt}]}"
+LAST_UPD="${LAST_UPDS[${cnt}]}"
+EP_NUM="${EP_NUMS[${cnt}]}"
+URL="${URLS[${cnt}]}"
+KEYWORD="${KEYWORDS[${cnt}]}"
+SAVE_DIR_NUM="${SAVE_DIR_NUMS[${cnt}]}"
+NUM_PREFIX="${NUM_PREFIXS[${cnt}]}"
+NUM_SUFFIX="${NUM_SUFFIXS[${cnt}]}"
+SED_STR="${SED_STRS[${cnt}]}"
+
+    # curlでURLからクロールする
+    if [ "${URL:8:2}" = "ww" ]; then
+        result=`curl -sS "${URL}" | grep ".*a title.*${KEYWORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#${NICODL_CMD} \"http://www.nicovideo.jp\2\" \"\1\"#"`
+    else
+        result=`curl -sS "${URL}" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//"`
+    fi
+
+    if [ "${result}" != "" ]; then
+        echo "${result}" | grep ${NUM_PREFIX}${EP_NUM}${NUM_SUFFIX} | sed "$(eval echo ${SED_STR})"
+    else
+        continue
+    fi
+
     (( cnt++ ))
 done
 
