@@ -9,7 +9,7 @@ SRC_WORD_ENC=`echo "${SRC_WORD}" | nkf -wMQ | sed 's/=$//g' | tr = % | tr -d "\n
 PAGE=1
 while :
 do
-    result=`curl -sS "http://www.nicovideo.jp/search/${SRC_WORD_ENC}?sort=f&order=d&page=${PAGE}" | grep ".*a title.*${SRC_WORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#URL: http://www.nicovideo.jp\2 title: \1#"`
+    result=`curl -sS "http://www.nicovideo.jp/search/${SRC_WORD_ENC}?sort=f&order=d&page=${PAGE}" | grep ".*a title.*${SRC_WORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#http://www.nicovideo.jp\2 : \1#" | sed "s/\ href.*//"`
     if [ "${result}" != "" ]; then
         echo ${result}
     else
