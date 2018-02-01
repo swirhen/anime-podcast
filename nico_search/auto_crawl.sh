@@ -100,7 +100,8 @@ echo "hoe: $(eval echo ${SED_STR})"
 
     if [ "${result}" != "" ]; then
         echo "aru"
-        echo "${result}" | grep ${NUM_PREFIX}${EP_NUM}${NUM_SUFFIX} | sed "$(eval echo ${SED_STR})"
+        echo "${result}"
+        echo "echo \"${result}\" | grep ${NUM_PREFIX}${EP_NUM}${NUM_SUFFIX} | sed \"$(eval echo ${SED_STR})\""
     else
         continue
     fi
