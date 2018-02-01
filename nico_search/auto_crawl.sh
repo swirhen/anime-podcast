@@ -74,12 +74,12 @@ do
         break
     fi
 #    echo "LAST_UPDS: ${LAST_UPDS[${cnt}]}"
-#    echo "EP_NUMS: ${EP_NUMS[${cnt}]}"
+    echo "EP_NUMS: ${EP_NUMS[${cnt}]}"
     echo "URLS: ${URLS[${cnt}]}"
     echo "KEYWORDS: ${KEYWORDS[${cnt}]}"
 #    echo "SAVE_DIR_NUMS: ${SAVE_DIR_NUMS[${cnt}]}"
-#    echo "NUM_PREFIXS: ${NUM_PREFIXS[${cnt}]}"
-#    echo "NUM_SUFFIXS: ${NUM_SUFFIXS[${cnt}]}"
+    echo "NUM_PREFIXS: ${NUM_PREFIXS[${cnt}]}"
+    echo "NUM_SUFFIXS: ${NUM_SUFFIXS[${cnt}]}"
     echo "SED_STRS: ${SED_STRS[${cnt}]}"
 LAST_UPD="${LAST_UPDS[${cnt}]}"
 EP_NUM=${EP_NUMS[${cnt}]}
@@ -95,7 +95,7 @@ SED_STR="${SED_STRS[${cnt}]}"
         result=`curl -sS "${URL}" | grep ".*a title.*${KEYWORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#${NICODL_CMD} \"http://www.nicovideo.jp\2\" \"\1\"#" | grep ${NUM_PREFIX}${EP_NUM}${NUM_SUFFIX} | sed "${SED_STR}"`
     else
 #        echo "curl -sS \"${URL}\" | grep \"http.*title.*${KEYWORD}\" | sed \"s#^.*<a href=#${NICODL_CMD} #\" | sed \"s/title=//\" | grep ${NUM_PREFIX}${EP_NUM}${NUM_SUFFIX} | sed \"${SED_STR}\""
-        ./crawlnicoch.sh "${URL}" "${KEYWORD}" | grep 170回 #| sed "${SED_STR}"
+        ./crawlnicoch.sh "${URL}" "${KEYWORD}" | grep ${NUM_PREFIX}${EP_NUM}${NUM_SUFFIX} #| sed "${SED_STR}"
     fi
 
 #    if [ "${result}" != "" ]; then
