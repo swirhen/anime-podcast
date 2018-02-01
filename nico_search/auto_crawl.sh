@@ -115,7 +115,7 @@ do
         chmod +x ${DL_SH}
         filename=`${DL_SH}`
 #        cat ${DL_SH}
-        mv ${filename} ${SCRIPT_DIR}/${SAVE_DIR_NUM}*
+        mv "${filename}" "${SCRIPT_DIR}/${SAVE_DIR_NUM}"*
         (( EP_NUM++ ))
         echo "${DATETIME} ${EP_NUM} ${URL} ${KEYWORD} ${SAVE_DIR_NUM} ${NUM_PREFIX} ${NUM_SUFFIX} ${SED_STR}" >> ${LIST_TEMP}
     else
