@@ -88,9 +88,7 @@ KEYWORD="${KEYWORDS[${cnt}]}"
 SAVE_DIR_NUM="${SAVE_DIR_NUMS[${cnt}]}"
 NUM_PREFIX="${NUM_PREFIXS[${cnt}]}"
 NUM_SUFFIX="${NUM_SUFFIXS[${cnt}]}"
-SED_STR='${SED_STRS[${cnt}]}'
-SED_STR2='$(eval echo ${SED_STR})'
-echo "hoge: $(eval echo $(eval echo ${SED_STR2}))"
+SED_STR='$(eval echo ${SED_STRS[${cnt}]})'
 
     # curlでURLからクロールする
     if [ "${URL:8:2}" = "ww" ]; then
@@ -102,7 +100,7 @@ echo "hoge: $(eval echo $(eval echo ${SED_STR2}))"
     if [ "${result}" != "" ]; then
 #        echo "aru"
 #        echo "${result}"
-        echo "${result}" | grep ${NUM_PREFIX}${EP_NUM}${NUM_SUFFIX} | sed "$(eval echo ${SED_STR2})"
+        echo "${result}" | grep ${NUM_PREFIX}${EP_NUM}${NUM_SUFFIX} | sed "$(eval echo ${SED_STR})"
     else
         continue
     fi
