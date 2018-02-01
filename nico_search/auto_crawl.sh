@@ -63,7 +63,7 @@ do
         SAVE_DIR_NUMS+=( "${SAVE_DIR_NUM}" )
         NUM_PREFIXS+=( ${NUM_PREFIX} )
         NUM_SUFFIXS+=( ${NUM_SUFFIX} )
-        SED_STRS+=( "${SED_STR}" )
+        SED_STRS+=( '${SED_STR}' )
     fi
 done < ${LIST_FILE}
 
