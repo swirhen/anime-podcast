@@ -89,6 +89,7 @@ SAVE_DIR_NUM="${SAVE_DIR_NUMS[${cnt}]}"
 NUM_PREFIX="${NUM_PREFIXS[${cnt}]}"
 NUM_SUFFIX="${NUM_SUFFIXS[${cnt}]}"
 SED_STR='${SED_STRS[${cnt}]}'
+echo "$(eval echo ${SED_STR})"
 
     # curlでURLからクロールする
     if [ "${URL:8:2}" = "ww" ]; then
