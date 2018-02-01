@@ -69,7 +69,7 @@ done < ${LIST_FILE}
 cnt=0
 while :
 do
-    if [ "LAST_UPDS: ${LAST_UPDS[${cnt}]}" = "" ]; then
+    if [ "${LAST_UPDS[${cnt}]}" = "" ]; then
         break
     fi
     echo "LAST_UPDS: ${LAST_UPDS[${cnt}]}"
