@@ -145,7 +145,6 @@ if [ ${dl_flg} -eq 1 ]; then
 download files:
 `cat ${RESULT_FILE}`
 \`\`\`"
-    logging "${post_msg}"
     slack_post "${post_msg}"
 fi
 
