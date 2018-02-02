@@ -101,12 +101,12 @@ do
 
     # 全角数字タイトル対応
     ZEP_NUM=`echo ${EP_NUM} | sed "y/0123456789/０１２３４５６７８９/"`
-    EPNUM="${EP_NUM}\|${ZEP_NUM}"
+    EPNUM="\(${EP_NUM}\|${ZEP_NUM}\)"
     if [ "${NUM_PREFIX}" != "|" ]; then
         EPNUM="${NUM_PREFIX}${EPNUM}"
     fi
     if [ "${NUM_SUFFIX}" != "|" ]; then
-        EPNUM=${EPNUM}${NUM_SUFFIX}
+        EPNUM="${EPNUM}${NUM_SUFFIX}"
     fi
 
     # curlでURLからクロールする
@@ -116,7 +116,7 @@ do
         cat "${CRAWL_TEMP}" | grep ".*a title.*${KEYWORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#${NICODL_CMD} \"http://www.nicovideo.jp\2\" \"\1\"#" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" | sed "y/０１２３４５６７８９　/0123456789 /" > ${DL_SH}
     else
         # ニコニコチャンネル(ch.nicovideo.jp)用
-        echo "curl -sS \"${URL}\" | grep \"http.*title.*${KEYWORD}\" | sed \"s#^.*<a href=#${NICODL_CMD} #\" | sed \"s/title=//\" | grep \"${EPNUM}\" | grep -v "${IGNORE_WORD}" | sed \"${SED_STR}\" > ${DL_SH}"
+        echo "curl -sS \"${URL}\" | grep \"http.*title.*${KEYWORD}\" | sed \"s#^.*<a href=#${NICODL_CMD} #\" | sed \"s/title=//\" | grep \"${EPNUM}\" | grep -v \"${IGNORE_WORD}\" | sed \"${SED_STR}\" > ${DL_SH}"
         cat "${CRAWL_TEMP}" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" | sed "y/０１２３４５６７８９　/0123456789 /" > ${DL_SH}
     fi
 
