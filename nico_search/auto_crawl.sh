@@ -104,7 +104,7 @@ do
     if [ "${URL:8:2}" = "ww" ]; then
         curl -sS "${URL}" | grep ".*a title.*${KEYWORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#${NICODL_CMD} \"http://www.nicovideo.jp\2\" \"\1\"#" | grep "${EPNUM}" | sed "${SED_STR}" > ${DL_SH}
     else
-        echo "curl -sS \"${URL}\" | grep \"http.*title.*${KEYWORD}\" | sed \"s#^.*<a href=#${NICODL_CMD} #\" | sed \"s/title=//\" | grep \"${EPNUM}\" | sed \"${SED_STR}\" > ${DL_SH}"
+#        echo "curl -sS \"${URL}\" | grep \"http.*title.*${KEYWORD}\" | sed \"s#^.*<a href=#${NICODL_CMD} #\" | sed \"s/title=//\" | grep \"${EPNUM}\" | sed \"${SED_STR}\" > ${DL_SH}"
         curl -sS "${URL}" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//" | grep "${EPNUM}" | sed "${SED_STR}" > ${DL_SH}
     fi
 
