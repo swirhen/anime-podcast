@@ -109,11 +109,11 @@ do
     curl -sS "${URL}" -o ${CRAWL_TEMP}
     if [ "${URL:8:2}" = "ww" ]; then
         # 検索ページ(www.nicovideo.jp)用
-        cat "${CRAWL_TEMP}" | grep ".*a title.*${KEYWORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#${NICODL_CMD} \"http://www.nicovideo.jp\2\" \"\1\"#" | grep "${EPNUM}" | sed "${SED_STR}" | sed "y/０１２３４５６７８９　/0123456789 /" > ${DL_SH}
+        cat "${CRAWL_TEMP}" | grep ".*a title.*${KEYWORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#${NICODL_CMD} \"http://www.nicovideo.jp\2\" \"\1\"#" | grep "${EPNUM}" | sed "${SED_STR}" | sed "y/０１２３４５６７８９　/0123456789\ /" > ${DL_SH}
     else
         # ニコニコチャンネル(ch.nicovideo.jp)用
 #        echo "curl -sS \"${URL}\" | grep \"http.*title.*${KEYWORD}\" | sed \"s#^.*<a href=#${NICODL_CMD} #\" | sed \"s/title=//\" | grep \"${EPNUM}\" | sed \"${SED_STR}\" > ${DL_SH}"
-        cat "${CRAWL_TEMP}" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//" | grep "${EPNUM}" | sed "${SED_STR}" | sed "y/０１２３４５６７８９  /0123456789 /" > ${DL_SH}
+        cat "${CRAWL_TEMP}" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//" | grep "${EPNUM}" | sed "${SED_STR}" | sed "y/０１２３４５６７８９  /0123456789\ /" > ${DL_SH}
     fi
 
     # dl.shが吐かれたらdl.shを実行
