@@ -16,6 +16,8 @@ POST_FLG=1
 LOG_FILE=${SCRIPT_DIR}/autocrawl_${DATETIME2}.log
 FLG_FILE=${SCRIPT_DIR}/autocrawl_running
 DL_SH=${SCRIPT_DIR}/dl.sh
+CRAWL_TEMP=${SCRIPT_DIR}/crawl_temp
+RESULT_FILE=${SCRIPT_DIR}/result
 
 end() {
 #    mv ${LOG_FILE} ${SCRIPT_DIR}/logs/
@@ -37,7 +39,7 @@ slack_upload() {
 
 # running flag file check
 if [ -f ${FLG_FILE} ]; then
-    logging "### running flag file exist. exit"
+    echo "### running flag file exist. exit"
     end
 else
     touch ${FLG_FILE}
@@ -53,6 +55,7 @@ NUM_PREFIXS=()
 NUM_SUFFIXS=()
 SED_STRS=()
 
+rm -f ${RESULT_FILE}
 echo "Last Update: ${DATETIME}" > ${LIST_TEMP}
 while read LAST_UPD EP_NUM URL KEYWORD SAVE_DIR_NUM NUM_PREFIX NUM_SUFFIX SED_STR
 do
@@ -91,21 +94,26 @@ do
     NUM_PREFIX=${NUM_PREFIXS[${cnt}]}
     NUM_SUFFIX=${NUM_SUFFIXS[${cnt}]}
     SED_STR="${SED_STRS[${cnt}]}"
+
+    # 全角数字タイトル対応
+    ZEP_NUM=`echo ${EP_NUM} | sed "y/0123456789/０１２３４５６７８９/"`
+    EPNUM="${EP_NUM}\|${ZEP_NUM}"
     if [ "${NUM_PREFIX}" != "|" ]; then
-        EPNUM=${NUM_PREFIX}${EP_NUM}
-    else
-        EPNUM=${EP_NUM}
+        EPNUM="${NUM_PREFIX}${EPNUM}"
     fi
     if [ "${NUM_SUFFIX}" != "|" ]; then
         EPNUM=${EPNUM}${NUM_SUFFIX}
     fi
 
     # curlでURLからクロールする
+    curl -sS "${URL}" -o ${CRAWL_TEMP}
     if [ "${URL:8:2}" = "ww" ]; then
-        curl -sS "${URL}" | grep ".*a title.*${KEYWORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#${NICODL_CMD} \"http://www.nicovideo.jp\2\" \"\1\"#" | grep "${EPNUM}" | sed "${SED_STR}" > ${DL_SH}
+        # 検索ページ(www.nicovideo.jp)用
+        cat "${CRAWL_TEMP}" | grep ".*a title.*${KEYWORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#${NICODL_CMD} \"http://www.nicovideo.jp\2\" \"\1\"#" | grep "${EPNUM}" | sed "${SED_STR}" | sed y/０１２３４５６７８９/0123456789/ > ${DL_SH}
     else
+        # ニコニコチャンネル(ch.nicovideo.jp)用
 #        echo "curl -sS \"${URL}\" | grep \"http.*title.*${KEYWORD}\" | sed \"s#^.*<a href=#${NICODL_CMD} #\" | sed \"s/title=//\" | grep \"${EPNUM}\" | sed \"${SED_STR}\" > ${DL_SH}"
-        curl -sS "${URL}" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//" | grep "${EPNUM}" | sed "${SED_STR}" > ${DL_SH}
+        cat "${CRAWL_TEMP}" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//" | grep "${EPNUM}" | sed "${SED_STR}" | sed y/０１２３４５６７８９/0123456789/ > ${DL_SH}
     fi
 
     # dl.shが吐かれたらdl.shを実行
@@ -114,7 +122,9 @@ do
     if [ -s ${DL_SH} ]; then
         dl_flg=1
         chmod +x ${DL_SH}
-        ${DL_SH}
+#        ${DL_SH}
+        cat ${DL_SH}
+        ls *.mp4 >> ${RESULT_FILE}
         mv *.mp4 "${SCRIPT_DIR}/${SAVE_DIR_NUM}"*
         (( EP_NUM++ ))
         echo "${DATETIME} ${EP_NUM} ${URL} ${KEYWORD} ${SAVE_DIR_NUM} ${NUM_PREFIX} ${NUM_SUFFIX} ${SED_STR//\\/\\\\}" >> ${LIST_TEMP}
@@ -130,6 +140,14 @@ if [ ${dl_flg} -eq 1 ]; then
     git commit -m 'checklist.txt update' checklist.txt
     git pull
     git push origin master
+    post_msg="@here 【nicocrawler】新規更新がありました
+\`\`\`
+download files:
+`cat ${RESULT_FILE}`
+\`\`\`"
+    logging "${post_msg}"
+    slack_post "${post_msg}"
+    mv *.mp4 "${SCRIPT_DIR}/${SAVE_DIR_NUM}"*
 fi
 
 end
