@@ -3,7 +3,7 @@
 # リストから検索URL(チャンネルの場合はビデオリスト、検索の場合は検索URL)をクロールして、キーワードと話数指定で最新話数があったら
 # ダウンロードして保存、ニコニコのフィードにリリースする
 # リスト形式：
-# 最終更新 最新回数+1 検索URL 検索キーワード 保存ディレクトリ連番 回数プレフィクス 回数サフィクス sed文言
+# 最終更新 最新回数+1 検索URL 検索キーワード 除外キーワード 保存ディレクトリ連番 回数プレフィクス 回数サフィクス sed文言
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE:-$0}")"; pwd)"
 LIST_FILE=${SCRIPT_DIR}/checklist.txt
 LIST_TEMP=${SCRIPT_DIR}/checklist.temp
@@ -50,6 +50,7 @@ LAST_UPDS=()
 EP_NUMS=()
 URLS=()
 KEYWORDS=()
+IGNORE_WORDS=()
 SAVE_DIR_NUMS=()
 NUM_PREFIXS=()
 NUM_SUFFIXS=()
@@ -57,13 +58,14 @@ SED_STRS=()
 
 rm -f ${RESULT_FILE}
 echo "Last Update: ${DATETIME}" > ${LIST_TEMP}
-while read LAST_UPD EP_NUM URL KEYWORD SAVE_DIR_NUM NUM_PREFIX NUM_SUFFIX SED_STR
+while read LAST_UPD EP_NUM URL KEYWORD IGNORE_WORD SAVE_DIR_NUM NUM_PREFIX NUM_SUFFIX SED_STR
 do
     if [ "${LAST_UPD}" != "Last" ]; then
         LAST_UPDS+=( "${LAST_UPD}" )
         EP_NUMS+=( "${EP_NUM}" )
         URLS+=( "${URL}" )
         KEYWORDS+=( "${KEYWORD}" )
+        IGNORE_WORDS+=( "${IGNORE_WORD}" )
         SAVE_DIR_NUMS+=( "${SAVE_DIR_NUM}" )
         NUM_PREFIXS+=( ${NUM_PREFIX} )
         NUM_SUFFIXS+=( ${NUM_SUFFIX} )
@@ -82,6 +84,7 @@ do
 #    echo "EP_NUMS: ${EP_NUMS[${cnt}]}"
 #    echo "URLS: ${URLS[${cnt}]}"
 #    echo "KEYWORDS: ${KEYWORDS[${cnt}]}"
+#    echo "IGNORE_WORDS: ${IGNORE_WORDS[${cnt}]}"
 #    echo "SAVE_DIR_NUMS: ${SAVE_DIR_NUMS[${cnt}]}"
 #    echo "NUM_PREFIXS: ${NUM_PREFIXS[${cnt}]}"
 #    echo "NUM_SUFFIXS: ${NUM_SUFFIXS[${cnt}]}"
@@ -90,6 +93,7 @@ do
     EP_NUM=${EP_NUMS[${cnt}]}
     URL="${URLS[${cnt}]}"
     KEYWORD="${KEYWORDS[${cnt}]}"
+    IGNORE_WORD="${IGNORE_WORDS[${cnt}]}"
     SAVE_DIR_NUM="${SAVE_DIR_NUMS[${cnt}]}"
     NUM_PREFIX=${NUM_PREFIXS[${cnt}]}
     NUM_SUFFIX=${NUM_SUFFIXS[${cnt}]}
@@ -109,11 +113,11 @@ do
     curl -sS "${URL}" -o ${CRAWL_TEMP}
     if [ "${URL:8:2}" = "ww" ]; then
         # 検索ページ(www.nicovideo.jp)用
-        cat "${CRAWL_TEMP}" | grep ".*a title.*${KEYWORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#${NICODL_CMD} \"http://www.nicovideo.jp\2\" \"\1\"#" | grep "${EPNUM}" | sed "${SED_STR}" | sed "y/０１２３４５６７８９　/0123456789 /" > ${DL_SH}
+        cat "${CRAWL_TEMP}" | grep ".*a title.*${KEYWORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#${NICODL_CMD} \"http://www.nicovideo.jp\2\" \"\1\"#" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" | sed "y/０１２３４５６７８９　/0123456789 /" > ${DL_SH}
     else
         # ニコニコチャンネル(ch.nicovideo.jp)用
-#        echo "curl -sS \"${URL}\" | grep \"http.*title.*${KEYWORD}\" | sed \"s#^.*<a href=#${NICODL_CMD} #\" | sed \"s/title=//\" | grep \"${EPNUM}\" | sed \"${SED_STR}\" > ${DL_SH}"
-        cat "${CRAWL_TEMP}" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//" | grep "${EPNUM}" | sed "${SED_STR}" | sed "y/０１２３４５６７８９　/0123456789 /" > ${DL_SH}
+#        echo "curl -sS \"${URL}\" | grep \"http.*title.*${KEYWORD}\" | sed \"s#^.*<a href=#${NICODL_CMD} #\" | sed \"s/title=//\" | grep \"${EPNUM}\" | grep -v "${IGNORE_WORD}" | sed \"${SED_STR}\" > ${DL_SH}"
+        cat "${CRAWL_TEMP}" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" | sed "y/０１２３４５６７８９　/0123456789 /" > ${DL_SH}
     fi
 
     # dl.shが吐かれたらdl.shを実行
