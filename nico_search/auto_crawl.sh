@@ -147,7 +147,6 @@ download files:
 \`\`\`"
     logging "${post_msg}"
     slack_post "${post_msg}"
-    mv *.mp4 "${SCRIPT_DIR}/${SAVE_DIR_NUM}"*
 fi
 
 end
