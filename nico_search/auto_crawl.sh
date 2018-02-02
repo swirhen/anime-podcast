@@ -126,8 +126,8 @@ do
     if [ -s ${DL_SH} ]; then
         dl_flg=1
         chmod +x ${DL_SH}
-#        ${DL_SH}
-        cat ${DL_SH}
+        ${DL_SH}
+#        cat ${DL_SH}
         ls *.mp4 >> ${RESULT_FILE}
         mv *.mp4 "${SCRIPT_DIR}/${SAVE_DIR_NUM}"*
         (( EP_NUM++ ))
