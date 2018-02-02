@@ -113,7 +113,7 @@ do
     else
         # ニコニコチャンネル(ch.nicovideo.jp)用
 #        echo "curl -sS \"${URL}\" | grep \"http.*title.*${KEYWORD}\" | sed \"s#^.*<a href=#${NICODL_CMD} #\" | sed \"s/title=//\" | grep \"${EPNUM}\" | sed \"${SED_STR}\" > ${DL_SH}"
-        cat "${CRAWL_TEMP}" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//" | grep "${EPNUM}" | sed "${SED_STR}" | sed "y/０１２３４５６７８９  /0123456789 /" > ${DL_SH}
+        cat "${CRAWL_TEMP}" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//" | grep "${EPNUM}" | sed "${SED_STR}" | sed "y/０１２３４５６７８９　/0123456789 /" > ${DL_SH}
     fi
 
     # dl.shが吐かれたらdl.shを実行
