@@ -131,7 +131,7 @@ do
         ls *.mp4 >> ${RESULT_FILE}
         mv *.mp4 "${SCRIPT_DIR}/${SAVE_DIR_NUM}"*
         (( EP_NUM++ ))
-        echo "${DATETIME} ${EP_NUM} ${URL} ${KEYWORD} ${SAVE_DIR_NUM} ${NUM_PREFIX} ${NUM_SUFFIX} ${SED_STR//\\/\\\\}" >> ${LIST_TEMP}
+        echo "${DATETIME} ${EP_NUM} ${URL} ${KEYWORD} ${IGNORE_WORD} ${SAVE_DIR_NUM} ${NUM_PREFIX} ${NUM_SUFFIX} ${SED_STR//\\/\\\\}" >> ${LIST_TEMP}
     else
         echo "${LAST_UPD} ${EP_NUM} ${URL} ${KEYWORD} ${IGNORE_WORD} ${SAVE_DIR_NUM} ${NUM_PREFIX} ${NUM_SUFFIX} ${SED_STR//\\/\\\\}" >> ${LIST_TEMP}
     fi
