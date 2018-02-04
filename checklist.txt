@@ -1,4 +1,19 @@
-Last Update: 2018/02/04-18:00:02
+Last Update: 2018/02/05-00:00:01
+2018/02/05-00:00:01 18 Classicaloid 2|クラシカロイド2
+2018/02/05-00:00:01 16 3-gatsu no Lion|3月のライオン2
+2018/02/05-00:00:01 05 Yuru Camp|ゆるキャン△
+2018/02/05-00:00:01 05 Toji no Miko|刀使ノ巫女
+2018/02/05-00:00:01 05 Ramen Daisuki Koizumi-san|ラーメン大好き小泉さん
+2018/02/05-00:00:01 05 Itou Junji|伊藤潤二『コレクション』
+2018/02/05-00:00:01 05 Grancrest Senki|グランクレスト戦記
+2018/02/05-00:00:01 05 Citrus|citrus
+2018/02/05-00:00:01 04 Märchen Mädchen|メルヘン・メドヘン
+2018/02/05-00:00:01 04 Koi wa Ameagari no You ni|恋は雨上がりのように
+2018/02/05-00:00:01 04 Killing Bites|キリングバイツ
+2018/02/05-00:00:01 04 Hakyuu Houshin Engi|覇穹 封神演義
+2018/02/05-00:00:01 04 Hakata Tonkotsu Ramens|博多豚骨ラーメンズ
+2018/02/05-00:00:01 04 Dame x Prince Anime Caravan|ダメプリ ANIME CARAVAN
+2018/02/05-00:00:01 04 Beatless|BEATLESS
 2018/02/04-12:00:02 05 Cardcaptor Sakura|カードキャプターさくら クリアカード編
 2018/02/04-06:00:01 05 Pop Team Epic|ポプテピピック
 2018/02/02-18:00:01 92 Aikatsu Stars|アイカツスターズ！
@@ -27,24 +42,9 @@ Last Update: 2018/02/04-18:00:02
 2018/01/29-12:00:01 16 Mahou Tsukai no Yome|魔法使いの嫁
 2018/01/29-12:00:01 04 Sanrio Danshi|サンリオ男子
 2018/01/29-12:00:01 04 Kokkoku|刻刻
-2018/01/29-12:00:01 04 Citrus|citrus
 2018/01/29-12:00:01 02 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
-2018/01/29-00:00:01 17 Classicaloid 2|クラシカロイド2
-2018/01/29-00:00:01 15 3-gatsu no Lion|3月のライオン2
 2018/01/29-00:00:01 04 Slow Start|Slow Start
 2018/01/29-00:00:01 03 Darling in the FranXX|ダーリン・イン・ザ・フランキス
-2018/01/28-06:00:01 04 Toji no Miko|刀使ノ巫女
 2018/01/28-06:00:01 04 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/01/28-06:00:01 03 Nanatsu no Taizai|七つの大罪 戒めの復活
-2018/01/28-06:00:01 03 Killing Bites|キリングバイツ
-2018/01/28-06:00:01 03 Hakata Tonkotsu Ramens|博多豚骨ラーメンズ
-2018/01/28-00:00:01 04 Itou Junji|伊藤潤二『コレクション』
-2018/01/28-00:00:01 04 Grancrest Senki|グランクレスト戦記
-2018/01/28-00:00:01 03 Hakyuu Houshin Engi|覇穹 封神演義
 2018/01/28-00:00:01 03 Hakumei to Mikochi|ハクメイとミコチ
-2018/01/28-00:00:01 03 Beatless|BEATLESS
-2018/01/27-06:00:01 04 Yuru Camp|ゆるキャン△
-2018/01/27-06:00:01 04 Ramen Daisuki Koizumi-san|ラーメン大好き小泉さん
-2018/01/27-06:00:01 03 Märchen Mädchen|メルヘン・メドヘン
-2018/01/27-06:00:01 03 Koi wa Ameagari no You ni|恋は雨上がりのように
-2018/01/25-18:00:01 03 Dame x Prince Anime Caravan|ダメプリ ANIME CARAVAN
