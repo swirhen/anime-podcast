@@ -1,4 +1,9 @@
-Last Update: 2018/02/05-12:00:01
+Last Update: 2018/02/05-18:00:01
+2018/02/05-18:00:01 17 Mahou Tsukai no Yome|魔法使いの嫁
+2018/02/05-18:00:01 05 Slow Start|Slow Start
+2018/02/05-18:00:01 05 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2018/02/05-18:00:01 05 Sanrio Danshi|サンリオ男子
+2018/02/05-18:00:01 04 Darling in the FranXX|ダーリン・イン・ザ・フランキス
 2018/02/05-06:00:01 17 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
 2018/02/05-06:00:01 04 Nanatsu no Taizai|七つの大罪 戒めの復活
 2018/02/05-06:00:01 03 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
@@ -41,10 +46,5 @@ Last Update: 2018/02/05-12:00:01
 2018/01/29-18:00:01 04 Zoku Touken Ranbu|続 刀剣乱舞-花丸-
 2018/01/29-18:00:01 04 Gakuen Babysitters|学園ベビーシッターズ
 2018/01/29-18:00:01 04 25-sai no Joshikousei|25歳の女子高生
-2018/01/29-12:00:01 16 Mahou Tsukai no Yome|魔法使いの嫁
-2018/01/29-12:00:01 04 Sanrio Danshi|サンリオ男子
 2018/01/29-12:00:01 04 Kokkoku|刻刻
-2018/01/29-00:00:01 04 Slow Start|Slow Start
-2018/01/29-00:00:01 03 Darling in the FranXX|ダーリン・イン・ザ・フランキス
-2018/01/28-06:00:01 04 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/01/28-00:00:01 03 Hakumei to Mikochi|ハクメイとミコチ
