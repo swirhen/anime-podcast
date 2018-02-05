@@ -117,7 +117,7 @@ do
     else
         # ニコニコチャンネル(ch.nicovideo.jp)用
 #        echo "curl -sS \"${URL}\" | grep \"http.*title.*${KEYWORD}\" | sed \"s#^.*<a href=#${NICODL_CMD} #\" | sed \"s/title=//\" | grep \"${EPNUM}\" | grep -v \"${IGNORE_WORD}\" | sed \"${SED_STR}\" > ${DL_SH}"
-        cat "${CRAWL_TEMP}" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" | sed "y/０１２３４５６７８９　/0123456789 /" > ${DL_SH}
+        cat "${CRAWL_TEMP}" | perl -pe 's/(href=".*?".*?|title=".*?)\n/$1/g' | grep "http.*title.*${KEYWORD}" | sed "s#^.*href=#${NICODL_CMD} #" | sed "s/title=//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" | sed "y/０１２３４５６７８９　/0123456789 /" | uniq > ${DL_SH}
     fi
 
     # dl.shが吐かれたらdl.shを実行
@@ -126,8 +126,8 @@ do
     if [ -s ${DL_SH} ]; then
         dl_flg=1
         chmod +x ${DL_SH}
-        ${DL_SH}
-#        cat ${DL_SH}
+        #${DL_SH}
+        cat ${DL_SH}
         ls *.mp4 >> ${RESULT_FILE}
         mv *.mp4 "${SCRIPT_DIR}/${SAVE_DIR_NUM}"*
         (( EP_NUM++ ))
