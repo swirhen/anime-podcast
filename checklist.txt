@@ -1,4 +1,9 @@
-Last Update: 2018/02/06-00:00:01
+Last Update: 2018/02/06-06:00:01
+2018/02/06-06:00:01 05 Zoku Touken Ranbu|続 刀剣乱舞-花丸-
+2018/02/06-06:00:01 05 Mitsuboshi Colors|三ツ星カラーズ
+2018/02/06-06:00:01 05 Kokkoku|刻刻
+2018/02/06-06:00:01 05 Gakuen Babysitters|学園ベビーシッターズ
+2018/02/06-06:00:01 04 Hakumei to Mikochi|ハクメイとミコチ
 2018/02/05-18:00:01 17 Mahou Tsukai no Yome|魔法使いの嫁
 2018/02/05-18:00:01 05 Slow Start|Slow Start
 2018/02/05-18:00:01 05 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
@@ -32,7 +37,6 @@ Last Update: 2018/02/06-00:00:01
 2018/02/02-18:00:01 04 Violet Evergarden|ヴァイオレット・エヴァーガーデン
 2018/02/02-18:00:01 04 Takunomi|たくのみ。
 2018/02/02-18:00:01 04 Ryuuou no Oshigoto|りゅうおうのおしごと！
-2018/02/02-18:00:01 04 Mitsuboshi Colors|三ツ星カラーズ
 2018/02/02-18:00:01 04 Miira no Kaikata|ミイラの飼い方
 2018/02/02-18:00:01 04 Death March kara Hajimaru Isekai Kyousoukyoku|デスマーチからはじまる異世界狂想曲
 2018/02/02-18:00:01 04 Dagashi Kashi 2|だがしかし2
@@ -43,8 +47,4 @@ Last Update: 2018/02/06-00:00:01
 2018/02/01-06:00:01 04 Chihayafuru Syuukasen|ちはやふる 秀歌撰
 2018/02/01-00:00:01 04 Overlord II -|オーバーロードII
 2018/01/31-18:00:01 05 Sora Yori mo Tooi Basho|宇宙よりも遠い場所
-2018/01/29-18:00:01 04 Zoku Touken Ranbu|続 刀剣乱舞-花丸-
-2018/01/29-18:00:01 04 Gakuen Babysitters|学園ベビーシッターズ
 2018/01/29-18:00:01 04 25-sai no Joshikousei|25歳の女子高生
-2018/01/29-12:00:01 04 Kokkoku|刻刻
-2018/01/28-00:00:01 03 Hakumei to Mikochi|ハクメイとミコチ
