@@ -78,6 +78,23 @@ main_menu_i() {
     esac
 }
 
+# plz continue
+plzcontinue() {
+    echo "continue test?"
+    yesno2
+    if [ "$?" -eq 1 ]; then
+        main_menu
+    else
+        end
+    fi
+}
+
+# end
+end() {
+    echo "end."
+    exit 0
+}
+
 # ping test
 ping_test () {
     echo "under construction."
@@ -118,23 +135,6 @@ ftp_test() {
 lftp_test() {
     echo "under construction."
     plzcontinue
-}
-
-# plz continue
-plzcontinue() {
-    echo "continue test?"
-    yesno2
-    if [ "$?" -eq 1 ]; then
-        main_menu
-    else
-        end
-    fi
-}
-
-# end
-end() {
-    echo "end."
-    exit 0
 }
 
 # main section
