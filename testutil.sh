@@ -11,7 +11,7 @@
 
 # yes/no
 yesno() {
-    echo -n " (Y/N)"
+    echo -n " (y/n)"
     while read YESNO
     do
         case "${YESNO}" in
@@ -23,8 +23,16 @@ yesno() {
     done
 }
 
+plzenter() {
+    read -p "hit enter key."
+}
+
 echo "start,"
 yesno
 YNANSWER="$?"
 
 echo "YNANSWER: ${YNANSWER}"
+
+plzenter
+
+echo "end."
