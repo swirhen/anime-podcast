@@ -40,6 +40,7 @@ plzenter() {
     read -p "hit enter key."
 }
 
+# please input
 plzinput() {
     read -p "> " INPUT
     echo "${INPUT}"
