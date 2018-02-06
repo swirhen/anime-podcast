@@ -79,6 +79,7 @@ plzcontinue() {
     echo "テストを継続しますか？ (enterかY で継続 / N で終了)"
     yesno2
     if [ "$?" -eq 1 ]; then
+        clear
         main_menu
     else
         end
