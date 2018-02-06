@@ -76,42 +76,48 @@ main_menu_i() {
         7 ) grep_log;;
         # それ以外無いはず
     esac
-    plzcontinue
 }
 
 # ping test
 ping_test () {
     echo "under construction."
+    plzcontinue
 }
 
 # telnet test
 telnet_test () {
     echo "under construction."
+    plzcontinue
 }
 
 # ntpdate test
 ntpdate_test () {
     echo "under construction."
+    plzcontinue
 }
 
 # tail log
 tail_log () {
     echo "under construction."
+    plzcontinue
 }
 
 # grep log
 grep_log () {
     echo "under construction."
+    plzcontinue
 }
 
 # ftp test
 ftp_test() {
     echo "under construction."
+    plzcontinue
 }
 
 # lftp test
 lftp_test() {
     echo "under construction."
+    plzcontinue
 }
 
 # plz continue
