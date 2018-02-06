@@ -98,43 +98,43 @@ end() {
 # ping test
 ping_test () {
     echo "under construction."
-    plzcontinue
+    call plzcontinue
 }
 
 # telnet test
 telnet_test () {
     echo "under construction."
-    plzcontinue
+    call plzcontinue
 }
 
 # ntpdate test
 ntpdate_test () {
     echo "under construction."
-    plzcontinue
+    call plzcontinue
 }
 
 # tail log
 tail_log () {
     echo "under construction."
-    plzcontinue
+    call plzcontinue
 }
 
 # grep log
 grep_log () {
     echo "under construction."
-    plzcontinue
+    call plzcontinue
 }
 
 # ftp test
 ftp_test() {
     echo "under construction."
-    plzcontinue
+    call plzcontinue
 }
 
 # lftp test
 lftp_test() {
     echo "under construction."
-    plzcontinue
+    call plzcontinue
 }
 
 # main section
