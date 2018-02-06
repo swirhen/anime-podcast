@@ -14,12 +14,23 @@ SELECTMENU=0
 
 # yes/no
 yesno() {
-    read -p " (Y/N)? >" YESNO
+    read -p " (Y/N)? > " YESNO
     case "${YESNO}" in
         y | Y ) return 1;;
         n | N ) return 0;;
         * ) echo "prease input Y/N(y/n)."
         yesno
+    esac
+}
+
+# yes/no 2
+yesno2() {
+    read -p "hit enter(Y)/N > " YESNO
+    case "${YESNO}" in
+        y | Y | "" ) return 1;;
+        n | N ) return 0;;
+        * ) echo "prease input enter or enter or Y/N(y/n)."
+        yesno2
     esac
 }
 
@@ -78,9 +89,15 @@ lftp_test() {
     echo "under construction."
 }
 
+end() {
+    echo "end."
+    exit 0
+}
+
 # main section
 echo "テストユーティリティ:"
 echo "ある程度のターミナル解像度で使用してください"
+echo ""
 
 # リストファイル読み込み
 # readlist
@@ -108,4 +125,10 @@ case "${SELECTMENU}" in
     # それ以外無いはず
 esac
 
-echo "end."
+echo "continue test?"
+yesno2
+if [ "$?" -eq 1 ]; then
+    main_menu
+else
+    end
+fi
