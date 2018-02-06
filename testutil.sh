@@ -10,7 +10,7 @@
 # 各種多段sshから同様のテストができる(多段sshの情報を別に持つかは検討)
 # option: tmux & tmux-xpanesが入っていればマルチペイン化で同時表示
 
-# グローバル関数
+# グローバル変数
 SELECTMENU=0
 
 # yes/no
