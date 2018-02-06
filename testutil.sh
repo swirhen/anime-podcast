@@ -66,6 +66,17 @@ main_menu_i() {
         * ) echo "prease input 1-7."
         main_menu_i
     esac
+    case "${SELECTMENU}" in
+        1 ) ping_test;;
+        2 ) telnet_test;;
+        3 ) ntpdate_test;;
+        4 ) ftp_test;;
+        5 ) lftp_test;;
+        6 ) tail_log;;
+        7 ) grep_log;;
+        # それ以外無いはず
+    esac
+    plzcontinue
 }
 
 # ping test
@@ -103,6 +114,18 @@ lftp_test() {
     echo "under construction."
 }
 
+# plz continue
+plzcontinue() {
+    echo "continue test?"
+    yesno2
+    if [ "$?" -eq 1 ]; then
+        main_menu
+    else
+        end
+    fi
+}
+
+# end
 end() {
     echo "end."
     exit 0
@@ -118,22 +141,3 @@ echo ""
 
 # main menu
 main_menu
-
-case "${SELECTMENU}" in
-    1 ) ping_test;;
-    2 ) telnet_test;;
-    3 ) ntpdate_test;;
-    4 ) ftp_test;;
-    5 ) lftp_test;;
-    6 ) tail_log;;
-    7 ) grep_log;;
-    # それ以外無いはず
-esac
-
-echo "continue test?"
-yesno2
-if [ "$?" -eq 1 ]; then
-    main_menu
-else
-    end
-fi
