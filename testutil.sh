@@ -62,11 +62,6 @@ main_menu(){
 main_menu_i() {
     SELECTMENU=`plzinput`
     case "${SELECTMENU}" in
-        1 | 2 | 3 | 4 | 5 | 6 | 7 ) return ${SELECTMENU};;
-        * ) echo "prease input 1-7."
-        main_menu_i
-    esac
-    case "${SELECTMENU}" in
         1 ) ping_test;;
         2 ) telnet_test;;
         3 ) ntpdate_test;;
@@ -74,7 +69,8 @@ main_menu_i() {
         5 ) lftp_test;;
         6 ) tail_log;;
         7 ) grep_log;;
-        # それ以外無いはず
+        * ) echo "prease input 1-7."
+        main_menu_i
     esac
 }
 
@@ -98,43 +94,43 @@ end() {
 # ping test
 ping_test () {
     echo "under construction."
-    call plzcontinue
+    plzcontinue
 }
 
 # telnet test
 telnet_test () {
     echo "under construction."
-    call plzcontinue
+    plzcontinue
 }
 
 # ntpdate test
 ntpdate_test () {
     echo "under construction."
-    call plzcontinue
+    plzcontinue
 }
 
 # tail log
 tail_log () {
     echo "under construction."
-    call plzcontinue
+    plzcontinue
 }
 
 # grep log
 grep_log () {
     echo "under construction."
-    call plzcontinue
+    plzcontinue
 }
 
 # ftp test
 ftp_test() {
     echo "under construction."
-    call plzcontinue
+    plzcontinue
 }
 
 # lftp test
 lftp_test() {
     echo "under construction."
-    call plzcontinue
+    plzcontinue
 }
 
 # main section
