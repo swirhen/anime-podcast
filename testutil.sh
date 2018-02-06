@@ -76,8 +76,7 @@ main_menu_i() {
 
 # plz continue
 plzcontinue() {
-    echo "テストを継続しますか？ (enterかY で継続)"
-    echo "(N で終了)"
+    echo "テストを継続しますか？ (enterかY で継続 / N で終了)"
     yesno2
     if [ "$?" -eq 1 ]; then
         main_menu
