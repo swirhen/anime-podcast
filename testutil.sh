@@ -76,7 +76,8 @@ main_menu_i() {
 
 # plz continue
 plzcontinue() {
-    echo "continue test?"
+    echo "テストを継続しますか？ (enterかY で継続)"
+    echo "(N で終了)"
     yesno2
     if [ "$?" -eq 1 ]; then
         main_menu
@@ -99,41 +100,60 @@ ping_test () {
 
 # telnet test
 telnet_test () {
+    clear
+    echo "*** ${FUNCNAME[0]/_/ } ***"
+    echo ""
     echo "under construction."
     plzcontinue
 }
 
 # ntpdate test
 ntpdate_test () {
+    clear
+    echo "*** ${FUNCNAME[0]/_/ } ***"
+    echo ""
     echo "under construction."
     plzcontinue
 }
 
 # tail log
 tail_log () {
+    clear
+    echo "*** ${FUNCNAME[0]/_/ } ***"
+    echo ""
     echo "under construction."
     plzcontinue
 }
 
 # grep log
 grep_log () {
+    clear
+    echo "*** ${FUNCNAME[0]/_/ } ***"
+    echo ""
     echo "under construction."
     plzcontinue
 }
 
 # ftp test
 ftp_test() {
+    clear
+    echo "*** ${FUNCNAME[0]/_/ } ***"
+    echo ""
     echo "under construction."
     plzcontinue
 }
 
 # lftp test
 lftp_test() {
+    clear
+    echo "*** ${FUNCNAME[0]/_/ } ***"
+    echo ""
     echo "under construction."
     plzcontinue
 }
 
 # main section
+clear
 echo "テストユーティリティ:"
 echo "ある程度のターミナル解像度で使用してください"
 echo ""
