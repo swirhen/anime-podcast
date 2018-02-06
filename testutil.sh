@@ -94,6 +94,9 @@ end() {
 
 # ping test
 ping_test () {
+    clear
+    echo "*** ${FUNCNAME[0]/_/ } ***"
+    echo ""
     echo "under construction."
     plzcontinue
 }
