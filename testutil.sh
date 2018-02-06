@@ -25,8 +25,8 @@ yesno() {
 
 # yes/no 2
 yesno2() {
-    read -p "hit enter(Y)/N > " YESNO
-    case "${YESNO}" in
+    read -p "hit enter(Y)/N > " YESNO2
+    case "${YESNO2}" in
         y | Y | "" ) return 1;;
         n | N ) return 0;;
         * ) echo "prease input enter or enter or Y/N(y/n)."
