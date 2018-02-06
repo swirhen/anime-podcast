@@ -17,7 +17,7 @@ yesno() {
         case "${YESNO}" in
             y | Y ) return 1;;
             n | N ) return 0;;
-            * ) echo "prease input Y or N(y or n).";;
+            * ) echo "prease input Y or N(y or n)."
             yesno
         esac
     done
