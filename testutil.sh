@@ -44,13 +44,27 @@ plzinput() {
     echo "${INPUT}"
 }
 
-# main menu.
-main_menu() {
+# main menu
+main_menu(){
+    echo "*** main menu ***"
+    echo "1: ping"
+    echo "2: telnet"
+    echo "3: ntpdate"
+    echo "4: ftp"
+    echo "5: lftp"
+    echo "6: tail log"
+    echo "7: grep log"
+    echo "please select operation."
+    main_menu_i
+}
+
+# menu input
+main_menu_i() {
     SELECTMENU=`plzinput`
     case "${SELECTMENU}" in
         1 | 2 | 3 | 4 | 5 | 6 | 7 ) return ${SELECTMENU};;
         * ) echo "prease input 1-7."
-        main_menu
+        main_menu_i
     esac
 }
 
@@ -103,15 +117,6 @@ echo ""
 # readlist
 
 # main menu
-echo "*** main menu ***"
-echo "1: ping"
-echo "2: telnet"
-echo "3: ntpdate"
-echo "4: ftp"
-echo "5: lftp"
-echo "6: tail log"
-echo "7: grep log"
-echo "please select operation."
 main_menu
 
 case "${SELECTMENU}" in
