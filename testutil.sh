@@ -11,12 +11,12 @@
 
 # yes/no
 yesno() {
-    echo -n" (Y/N)"
+    echo -n " (Y/N)"
     while read YESNO
     do
         case "${YESNO}" in
-            y | Y ) return y;;
-            n | N ) return n;;
+            y | Y ) echo "y";;
+            n | N ) echo "n";;
             * ) echo "prease imput Y or N(y or n)."
             yesno
         esac
@@ -24,7 +24,7 @@ yesno() {
 }
 
 echo "start,"
-yesno
+YNANSWER=`yesno`
 YNANSWER="$?"
 
 echo "YNANSWER: ${YNANSWER}"
