@@ -1,4 +1,10 @@
-Last Update: 2018/02/07-12:00:01
+Last Update: 2018/02/07-18:00:01
+2018/02/07-18:00:01 44 Idol Time PriPara|アイドルタイムプリパラ
+2018/02/07-18:00:01 18 Black Clover|ブラッククローバー
+2018/02/07-18:00:01 07 Idolish Seven|アイドリッシュセブン
+2018/02/07-18:00:01 06 Sora Yori mo Tooi Basho|宇宙よりも遠い場所
+2018/02/07-18:00:01 05 Chihayafuru Syuukasen|ちはやふる 秀歌撰
+2018/02/07-18:00:01 04 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
 2018/02/06-18:00:02 18 Osomatsu-san|おそ松さん2
 2018/02/06-18:00:02 05 Ryuuou no Oshigoto|りゅうおうのおしごと！
 2018/02/06-18:00:02 05 Karakai Jouzu no Takagi-san|からかい上手の高木さん
@@ -35,16 +41,10 @@ Last Update: 2018/02/07-12:00:01
 2018/02/04-12:00:02 05 Cardcaptor Sakura|カードキャプターさくら クリアカード編
 2018/02/04-06:00:01 05 Pop Team Epic|ポプテピピック
 2018/02/02-18:00:01 92 Aikatsu Stars|アイカツスターズ！
-2018/02/02-18:00:01 43 Idol Time PriPara|アイドルタイムプリパラ
-2018/02/02-18:00:01 17 Black Clover|ブラッククローバー
 2018/02/02-18:00:01 118 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
-2018/02/02-18:00:01 06 Idolish Seven|アイドリッシュセブン
 2018/02/02-18:00:01 04 Violet Evergarden|ヴァイオレット・エヴァーガーデン
 2018/02/02-18:00:01 04 Takunomi|たくのみ。
 2018/02/02-18:00:01 04 Miira no Kaikata|ミイラの飼い方
 2018/02/02-18:00:01 04 Death March kara Hajimaru Isekai Kyousoukyoku|デスマーチからはじまる異世界狂想曲
 2018/02/02-18:00:01 04 Dagashi Kashi 2|だがしかし2
-2018/02/02-18:00:01 03 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
-2018/02/01-06:00:01 04 Chihayafuru Syuukasen|ちはやふる 秀歌撰
 2018/02/01-00:00:01 04 Overlord II -|オーバーロードII
-2018/01/31-18:00:01 05 Sora Yori mo Tooi Basho|宇宙よりも遠い場所
