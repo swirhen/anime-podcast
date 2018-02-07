@@ -1,4 +1,5 @@
-Last Update: 2018/02/08-00:00:01
+Last Update: 2018/02/08-06:00:01
+2018/02/08-06:00:01 05 Overlord II -|オーバーロードII
 2018/02/07-18:00:01 44 Idol Time PriPara|アイドルタイムプリパラ
 2018/02/07-18:00:01 18 Black Clover|ブラッククローバー
 2018/02/07-18:00:01 07 Idolish Seven|アイドリッシュセブン
@@ -47,4 +48,3 @@ Last Update: 2018/02/08-00:00:01
 2018/02/02-18:00:01 04 Miira no Kaikata|ミイラの飼い方
 2018/02/02-18:00:01 04 Death March kara Hajimaru Isekai Kyousoukyoku|デスマーチからはじまる異世界狂想曲
 2018/02/02-18:00:01 04 Dagashi Kashi 2|だがしかし2
-2018/02/01-00:00:01 04 Overlord II -|オーバーロードII
