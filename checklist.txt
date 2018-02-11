@@ -1,4 +1,5 @@
-Last Update: 2018/02/11-06:00:01
+Last Update: 2018/02/11-12:00:01
+2018/02/11-12:00:01 06 Cardcaptor Sakura|カードキャプターさくら クリアカード編
 2018/02/11-06:00:01 06 Pop Team Epic|ポプテピピック
 2018/02/11-00:00:01 06 Toji no Miko|刀使ノ巫女
 2018/02/11-00:00:01 06 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
@@ -47,4 +48,3 @@ Last Update: 2018/02/11-06:00:01
 2018/02/05-00:00:01 18 Classicaloid 2|クラシカロイド2
 2018/02/05-00:00:01 16 3-gatsu no Lion|3月のライオン2
 2018/02/05-00:00:01 05 Citrus|citrus
-2018/02/04-12:00:02 05 Cardcaptor Sakura|カードキャプターさくら クリアカード編
