@@ -1,4 +1,11 @@
-Last Update: 2018/02/12-00:00:01
+Last Update: 2018/02/12-06:00:01
+2018/02/12-06:00:01 19 Classicaloid 2|クラシカロイド2
+2018/02/12-06:00:01 18 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
+2018/02/12-06:00:01 06 Slow Start|Slow Start
+2018/02/12-06:00:01 06 Sanrio Danshi|サンリオ男子
+2018/02/12-06:00:01 06 Citrus|citrus
+2018/02/12-06:00:01 05 Darling in the FranXX|ダーリン・イン・ザ・フランキス
+2018/02/12-06:00:01 04 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
 2018/02/11-12:00:01 06 Cardcaptor Sakura|カードキャプターさくら クリアカード編
 2018/02/11-06:00:01 06 Pop Team Epic|ポプテピピック
 2018/02/11-00:00:01 06 Toji no Miko|刀使ノ巫女
@@ -40,11 +47,4 @@ Last Update: 2018/02/12-00:00:01
 2018/02/06-06:00:01 05 Kokkoku|刻刻
 2018/02/06-06:00:01 05 Gakuen Babysitters|学園ベビーシッターズ
 2018/02/05-18:00:01 17 Mahou Tsukai no Yome|魔法使いの嫁
-2018/02/05-18:00:01 05 Slow Start|Slow Start
-2018/02/05-18:00:01 05 Sanrio Danshi|サンリオ男子
-2018/02/05-18:00:01 04 Darling in the FranXX|ダーリン・イン・ザ・フランキス
-2018/02/05-06:00:01 17 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
-2018/02/05-06:00:01 03 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
-2018/02/05-00:00:01 18 Classicaloid 2|クラシカロイド2
 2018/02/05-00:00:01 16 3-gatsu no Lion|3月のライオン2
-2018/02/05-00:00:01 05 Citrus|citrus
