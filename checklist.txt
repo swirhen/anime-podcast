@@ -1,4 +1,8 @@
-Last Update: 2018/02/13-12:00:01
+Last Update: 2018/02/13-18:00:02
+2018/02/13-18:00:02 19 Osomatsu-san|おそ松さん2
+2018/02/13-18:00:02 06 Ryuuou no Oshigoto|りゅうおうのおしごと！
+2018/02/13-18:00:02 06 Karakai Jouzu no Takagi-san|からかい上手の高木さん
+2018/02/13-18:00:02 06 Basilisk： Ouka Ninpouchou|バジリスク ～桜花忍法帖～
 2018/02/13-06:00:01 18 Mahou Tsukai no Yome|魔法使いの嫁
 2018/02/13-06:00:01 06 Zoku Touken Ranbu|続 刀剣乱舞-花丸-
 2018/02/13-06:00:01 06 Mitsuboshi Colors|三ツ星カラーズ
@@ -43,8 +47,4 @@ Last Update: 2018/02/13-12:00:01
 2018/02/07-18:00:01 06 Sora Yori mo Tooi Basho|宇宙よりも遠い場所
 2018/02/07-18:00:01 05 Chihayafuru Syuukasen|ちはやふる 秀歌撰
 2018/02/07-18:00:01 04 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
-2018/02/06-18:00:02 18 Osomatsu-san|おそ松さん2
-2018/02/06-18:00:02 05 Ryuuou no Oshigoto|りゅうおうのおしごと！
-2018/02/06-18:00:02 05 Karakai Jouzu no Takagi-san|からかい上手の高木さん
-2018/02/06-18:00:02 05 Basilisk： Ouka Ninpouchou|バジリスク ～桜花忍法帖～
 2018/02/05-00:00:01 16 3-gatsu no Lion|3月のライオン2
