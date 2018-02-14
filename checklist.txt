@@ -1,4 +1,11 @@
-Last Update: 2018/02/15-00:00:01
+Last Update: 2018/02/15-06:00:01
+2018/02/15-06:00:01 45 Idol Time PriPara|アイドルタイムプリパラ
+2018/02/15-06:00:01 19 Black Clover|ブラッククローバー
+2018/02/15-06:00:01 08 Idolish Seven|アイドリッシュセブン
+2018/02/15-06:00:01 07 Sora Yori mo Tooi Basho|宇宙よりも遠い場所
+2018/02/15-06:00:01 06 Overlord II -|オーバーロードII
+2018/02/15-06:00:01 06 Chihayafuru Syuukasen|ちはやふる 秀歌撰
+2018/02/15-06:00:01 05 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
 2018/02/13-18:00:02 19 Osomatsu-san|おそ松さん2
 2018/02/13-18:00:02 06 Ryuuou no Oshigoto|りゅうおうのおしごと！
 2018/02/13-18:00:02 06 Karakai Jouzu no Takagi-san|からかい上手の高木さん
@@ -40,11 +47,4 @@ Last Update: 2018/02/15-00:00:01
 2018/02/09-06:00:01 119 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
 2018/02/08-18:00:01 05 Violet Evergarden|ヴァイオレット・エヴァーガーデン
 2018/02/08-18:00:01 05 Dame x Prince Anime Caravan|ダメプリ ANIME CARAVAN
-2018/02/08-06:00:01 05 Overlord II -|オーバーロードII
-2018/02/07-18:00:01 44 Idol Time PriPara|アイドルタイムプリパラ
-2018/02/07-18:00:01 18 Black Clover|ブラッククローバー
-2018/02/07-18:00:01 07 Idolish Seven|アイドリッシュセブン
-2018/02/07-18:00:01 06 Sora Yori mo Tooi Basho|宇宙よりも遠い場所
-2018/02/07-18:00:01 05 Chihayafuru Syuukasen|ちはやふる 秀歌撰
-2018/02/07-18:00:01 04 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
 2018/02/05-00:00:01 16 3-gatsu no Lion|3月のライオン2
