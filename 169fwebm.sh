@@ -1,31 +1,31 @@
 #!/usr/bin/env zsh
-# å‹•ç”»ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‰ç”¨ã‚·ã‚§ãƒ«
-# å®Ÿè¡Œã—ãŸãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã«å­˜åœ¨ã™ã‚‹ã‚·ãƒªãƒ¼ã‚ºç³»å‹•ç”»(*è©±*.mp4ç­‰)
-# ã‚’ã™ã¹ã¦ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‰ã—ã€ãƒ•ã‚£ãƒ¼ãƒ‰ã‚’æ›´æ–°ã€Twitterã«å‘ŠçŸ¥ã™ã‚‹
+# “®‰æƒGƒ“ƒR[ƒh—pƒVƒFƒ‹
+# Às‚µ‚½ƒfƒBƒŒƒNƒgƒŠ‚É‘¶İ‚·‚éƒVƒŠ[ƒYŒn“®‰æ(*˜b*.mp4“™)
+# ‚ğ‚·‚×‚ÄƒGƒ“ƒR[ƒh‚µAƒtƒB[ƒh‚ğXVATwitter‚É’m‚·‚é
 # usage 169f.sh [priority file]
 PYTHON_PATH="python3"
 source /home/swirhen/.zshrc
 cd /data/share/movie
 (
 IFS=$'\n';
-for a in `ls -rt *è©±*.(avi|mp4|mkv|wmv)`
+for a in `ls -rt *˜b*.(avi|mp4|mkv|wmv)`
 do
   if [ -f "$a" ]; then
     error=0
-    until [ -f "/data/share/movie/98 PSPç”¨/$a.webm" ];
+    until [ -f "/data/share/movie/98 PSP—p/$a.webm" ];
     do
       error=`expr $error + 1`
       if [ $error -gt 10 ]; then
         break;
       fi
-      /data/share/movie/sh/169mp45.sh "$a" "/data/share/movie/98 PSPç”¨/"
+      /data/share/movie/sh/169mp45.sh "$a" "/data/share/movie/98 PSP—p/"
     done
     /data/share/movie/sh/mmpc.sh
     #/data/share/movie/sh/mmpc3.sh
     /data/share/movie/sh/mmv.sh "$a"
     sleep 3
-    /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "ã€publishã€‘$a.webm"
-    ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "ã€publishã€‘$a.webm"
+    /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "ypublishz$a.webm"
+    ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "ypublishz$a.webm"
   fi
 done
 )

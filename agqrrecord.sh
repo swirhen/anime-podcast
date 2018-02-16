@@ -1,25 +1,25 @@
 #!/usr/bin/env bash
-# è¶…A&Gäºˆç´„éŒ²ç”»ç”¨ã‚¹ã‚¯ãƒªãƒ—ãƒˆ
-# require: rtmpdump,ffmpeg,ã„ã‚ã„ã‚
-# usage: agqrrecord.sh [ç•ªçµ„å] [é–‹å§‹ã‚ªãƒ•ã‚»ãƒƒãƒˆ] [éŒ²ç”»æ™‚é–“] [å‹•ç”»ãƒ•ãƒ©ã‚°] [éš”é€±ãƒ•ãƒ©ã‚°ãƒ•ã‚¡ã‚¤ãƒ«å]
-# ç•ªçµ„å: YYYYMMDD_HHMM_ç•ªçµ„å.flv ã¨ã„ã†ãƒ•ã‚¡ã‚¤ãƒ«ã«ãªã‚‹
-# é–‹å§‹ã‚ªãƒ•ã‚»ãƒƒãƒˆ: sec
-# éŒ²ç”»æ™‚é–“: sec
-# å‹•ç”»ãƒ•ãƒ©ã‚°: vãªã‚‰æ˜ åƒä»˜ãã€ãã‚Œä»¥å¤–ãªã‚‰éŸ³å£°ã¨è¦‹ãªã—ã¦ã‚¨ãƒ³ã‚³ã™ã‚‹
-# éš”é€±ãƒ•ãƒ©ã‚°ãƒ•ã‚¡ã‚¤ãƒ«å: 
-#     ãƒ•ãƒ©ã‚°ãƒ•ã‚¡ã‚¤ãƒ«ãŒã‚ã‚‹ã‹ã©ã†ã‹ãƒã‚§ãƒƒã‚¯ã—ã¦ã€ãªã‘ã‚Œã°ä½œæˆã ã‘ã—ã¦éŒ²ç”»ã—ãªã„
-#     ã‚ã‚Œã°å‰Šé™¤ã—ã¦éŒ²ç”»ã™ã‚‹
+# ’´A&G—\–ñ˜^‰æ—pƒXƒNƒŠƒvƒg
+# require: rtmpdump,ffmpeg,‚¢‚ë‚¢‚ë
+# usage: agqrrecord.sh [”Ô‘g–¼] [ŠJnƒIƒtƒZƒbƒg] [˜^‰æŠÔ] [“®‰æƒtƒ‰ƒO] [ŠuTƒtƒ‰ƒOƒtƒ@ƒCƒ‹–¼]
+# ”Ô‘g–¼: YYYYMMDD_HHMM_”Ô‘g–¼.flv ‚Æ‚¢‚¤ƒtƒ@ƒCƒ‹‚É‚È‚é
+# ŠJnƒIƒtƒZƒbƒg: sec
+# ˜^‰æŠÔ: sec
+# “®‰æƒtƒ‰ƒO: v‚È‚ç‰f‘œ•t‚«A‚»‚êˆÈŠO‚È‚ç‰¹º‚ÆŒ©‚È‚µ‚ÄƒGƒ“ƒR‚·‚é
+# ŠuTƒtƒ‰ƒOƒtƒ@ƒCƒ‹–¼: 
+#     ƒtƒ‰ƒOƒtƒ@ƒCƒ‹‚ª‚ ‚é‚©‚Ç‚¤‚©ƒ`ƒFƒbƒN‚µ‚ÄA‚È‚¯‚ê‚Îì¬‚¾‚¯‚µ‚Ä˜^‰æ‚µ‚È‚¢
+#     ‚ ‚ê‚Îíœ‚µ‚Ä˜^‰æ‚·‚é
 name=$1
 offset=$2
 rectime=$3
 vidflg=$4
 recflg=$5
 PYTHON_PATH="python3"
-# ã‚ªãƒ•ã‚»ãƒƒãƒˆ
+# ƒIƒtƒZƒbƒg
 sleep $offset
-# éš”é€±å¯¾å¿œ
+# ŠuT‘Î‰
 if [ "${recflg:-null}" != null ]; then
-flgfile="/data/share/movie/98 PSPç”¨/agqr/flg/$recflg"
+flgfile="/data/share/movie/98 PSP—p/agqr/flg/$recflg"
 	if [ -f "$flgfile" ]; then
 		rm "$flgfile"
 	else
@@ -27,42 +27,42 @@ flgfile="/data/share/movie/98 PSPç”¨/agqr/flg/$recflg"
 		exit
 	fi
 fi
-# æ—¥ä»˜æ™‚åˆ»
+# “ú•t
 dt=`date +"%Y%m%d_%H%M"`
-# ä¿å­˜ãƒ•ã‚¡ã‚¤ãƒ«å
-filename="/data/share/movie/98 PSPç”¨/agqr/flv/""$dt"_"$name.flv"
-# ãƒ‘ã‚¹ã‚’é™¤ã„ãŸãƒ•ã‚¡ã‚¤ãƒ«å
+# •Û‘¶ƒtƒ@ƒCƒ‹–¼
+filename="/data/share/movie/98 PSP—p/agqr/flv/""$dt"_"$name.flv"
+# ƒpƒX‚ğœ‚¢‚½ƒtƒ@ƒCƒ‹–¼
 efilename="$dt"_"$name.flv"
-# ã¤ã¶ã‚„ã
-/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "ã€è¶…A&Gè‡ªå‹•ä¿å­˜é–‹å§‹ã€‘$efilename"
-${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "ã€è¶…A&Gè‡ªå‹•ä¿å­˜é–‹å§‹ã€‘$efilename"
-# æ¥ç¶šå¤±æ•—å¯¾ç­–ã€ãƒ•ã‚¡ã‚¤ãƒ«ãŒç”Ÿæˆã•ã‚Œã‚‹ã¾ã§å‡¦ç†ã‚’ç¹°ã‚Šè¿”ã™
+# ‚Â‚Ô‚â‚­
+/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "y’´A&G©“®•Û‘¶ŠJnz$efilename"
+${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "y’´A&G©“®•Û‘¶ŠJnz$efilename"
+# Ú‘±¸”s‘ÎôAƒtƒ@ƒCƒ‹‚ª¶¬‚³‚ê‚é‚Ü‚Åˆ—‚ğŒJ‚è•Ô‚·
 until [ -s "$filename" ]
 do
-# ãƒ©ãƒ³ãƒ€ãƒ å¤‰æ•°(ã‚µãƒ¼ãƒåˆ†æ•£å¯¾å¿œ)
+# ƒ‰ƒ“ƒ_ƒ€•Ï”(ƒT[ƒo•ªU‘Î‰)
 num=`expr $RANDOM % 2 + 1`
 #num2=`expr $RANDOM % 2 + 1`
 #num3=`expr $RANDOM % 2 + 1`
 #	/usr/local/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "aandg22" --app "?rtmp://fms-base1.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime
 	/usr/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "aandg22" --app "?rtmp://fms-base1.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime
 done
-# ä¿å­˜ãƒ•ã‚©ãƒ«ãƒ€ã¸ç§»å‹•
-cd "/data/share/movie/98 PSPç”¨/agqr/flv"
-# æ˜ åƒä»˜ããªã‚‰ã°ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‰ç”¨ã®ã‚·ã‚§ãƒ«ã‚’å‘¼ã¶ã€‚éŸ³å£°ã®ã¿ãªã‚‰mp3ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‰
+# •Û‘¶ƒtƒHƒ‹ƒ_‚ÖˆÚ“®
+cd "/data/share/movie/98 PSP—p/agqr/flv"
+# ‰f‘œ•t‚«‚È‚ç‚ÎƒGƒ“ƒR[ƒh—p‚ÌƒVƒFƒ‹‚ğŒÄ‚ÔB‰¹º‚Ì‚İ‚È‚çmp3ƒGƒ“ƒR[ƒh
 if [ $vidflg = v ]; then
-    until [ -f "/data/share/movie/98 PSPç”¨/agqr/$efilename.mp4" ];
+    until [ -f "/data/share/movie/98 PSP—p/agqr/$efilename.mp4" ];
     do
-      /data/share/movie/sh/169mp4_agqr.sh "$efilename" "/data/share/movie/98 PSPç”¨/agqr/"
+      /data/share/movie/sh/169mp4_agqr.sh "$efilename" "/data/share/movie/98 PSP—p/agqr/"
     done
 else 
-    until [ -f "/data/share/movie/98 PSPç”¨/agqr/$efilename.mp3" ];
+    until [ -f "/data/share/movie/98 PSP—p/agqr/$efilename.mp3" ];
     do
-      /usr/bin/wine ffmpeg.exe -i "$efilename" -acodec libmp3lame -ab 64k -ac 2 -ar 24000 "/data/share/movie/98 PSPç”¨/agqr/$efilename.mp3"
+      /usr/bin/wine ffmpeg.exe -i "$efilename" -acodec libmp3lame -ab 64k -ac 2 -ar 24000 "/data/share/movie/98 PSP—p/agqr/$efilename.mp3"
     done
 fi
-# rssãƒ•ã‚£ãƒ¼ãƒ‰ç”Ÿæˆã‚·ã‚§ãƒ«
-/data/share/movie/sh/mmmpc.sh agqr "è¶…ï¼A&G(+Î±)"
-#/data/share/movie/sh/mmmpc3.sh agqr "è¶…ï¼A&G(+Î±)ãƒ­ãƒ¼ã‚«ãƒ«ç”¨"
-# ã¤ã¶ã‚„ã
-/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "ã€è¶…A&Gè‡ªå‹•ä¿å­˜çµ‚äº†ã€‘$efilename"
-${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "ã€è¶…A&Gè‡ªå‹•ä¿å­˜çµ‚äº†ã€‘$efilename"
+# rssƒtƒB[ƒh¶¬ƒVƒFƒ‹
+/data/share/movie/sh/mmmpc.sh agqr "’´IA&G(+ƒ¿)"
+#/data/share/movie/sh/mmmpc3.sh agqr "’´IA&G(+ƒ¿)ƒ[ƒJƒ‹—p"
+# ‚Â‚Ô‚â‚­
+/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "y’´A&G©“®•Û‘¶I—¹z$efilename"
+${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "y’´A&G©“®•Û‘¶I—¹z$efilename"

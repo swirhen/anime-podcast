@@ -1,9 +1,9 @@
 #!/bin/bash
 BASE_DIR="/data/share/movie"
-PSPMP4_98_DIR="${BASE_DIR}/98 PSPç”¨"
+PSPMP4_98_DIR="${BASE_DIR}/98 PSP—p"
 PSPMP4_MV_DIR="/data2/movie2/pspmp4"
 ROOT_MV_DIR="/data2/movie2"
-ROOT_MV_DIR_LINK="/data/share/movie/0004 éŽåŽ»é€£è¼‰çµ‚äº†åˆ†"
+ROOT_MV_DIR_LINK="/data/share/movie/0004 ‰ß‹Ž˜AÚI—¹•ª"
 END_LIST_FILE=""
 END_FILES=()
 IFS_ORIGINAL="$IFS"
@@ -13,10 +13,10 @@ TARGET=""
 PRG=""
 CHECK=""
 
-# ç§»å‹•
+# ˆÚ“®
 move_98() {
   clear
-  # å®¹é‡ãƒã‚§ãƒƒã‚¯
+  # —e—Êƒ`ƒFƒbƒN
   i=0
   SIZE=0
   for P in ${END_FILES[@]}
@@ -24,7 +24,7 @@ move_98() {
     if [ "${P:0:1}" = "#" ]; then
       continue
     fi
-    PSIZE=`du -kc "${PSPMP4_98_DIR}/"*"${P} ç¬¬"*.mp4 | awk '{last = $0} END {print last}'  |awk '{print $1}'`
+    PSIZE=`du -kc "${PSPMP4_98_DIR}/"*"${P} ‘æ"*.mp4 | awk '{last = $0} END {print last}'  |awk '{print $1}'`
     echo "${P} : ${PSIZE} KB"
     SIZE=`expr ${SIZE} +  ${PSIZE}`
     let i++ 
@@ -41,7 +41,7 @@ move_98() {
   fi  
   wait_enter
 
-  # ç§»å‹•å…ˆãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã€ã‚·ãƒ³ãƒœãƒªãƒƒã‚¯ãƒªãƒ³ã‚¯ä½œæˆ
+  # ˆÚ“®æƒfƒBƒŒƒNƒgƒŠAƒVƒ“ƒ{ƒŠƒbƒNƒŠƒ“ƒNì¬
   if [ ! -d "${PSPMP4_MV_DIR}/${QUARTER}Q-${YEAR}" ]; then
     mkdir "${PSPMP4_MV_DIR}/${QUARTER}Q-${YEAR}"
   fi  
@@ -57,73 +57,73 @@ move_98() {
     fi  
 
     if [ "${CHECK}" = "1" ]; then
-      # æŠœã‘ãƒã‚§ãƒƒã‚¯
-      FILECOUNT=`ls -l "${PSPMP4_98_DIR}/"*"${P} ç¬¬"*.mp4 | grep -v "\\.5è©±" | wc -l`
-      LASTEPSODE_COUNT=`ls -l "${PSPMP4_98_DIR}/"*"${P} ç¬¬"*.mp4 | awk '{last = $0} END {print last}' | sed -e 's/.*ç¬¬\(.*\)è©±.*/\1/'`
+      # ”²‚¯ƒ`ƒFƒbƒN
+      FILECOUNT=`ls -l "${PSPMP4_98_DIR}/"*"${P} ‘æ"*.mp4 | grep -v "\\.5˜b" | wc -l`
+      LASTEPSODE_COUNT=`ls -l "${PSPMP4_98_DIR}/"*"${P} ‘æ"*.mp4 | awk '{last = $0} END {print last}' | sed -e 's/.*‘æ\(.*\)˜b.*/\1/'`
       if [ ${FILECOUNT} -ne ${LASTEPSODE_COUNT} ]; then
-        echo `ls -l "${PSPMP4_98_DIR}/"*"${P} ç¬¬"*.mp4`
-        echo "æœ€çµ‚è©±ã¨è¦‹ã‚‰ã‚Œã‚‹ãƒ•ã‚¡ã‚¤ãƒ« :"`ls "${PSPMP4_98_DIR}/"*"${P} ç¬¬"*.mp4 | awk '{last = $0} END {print last}'`
-        echo "ãƒ•ã‚¡ã‚¤ãƒ«å€‹æ•° :${FILECOUNT} ä¸€è‡´ã—ã¾ã›ã‚“ã€‚"
+        echo `ls -l "${PSPMP4_98_DIR}/"*"${P} ‘æ"*.mp4`
+        echo "ÅI˜b‚ÆŒ©‚ç‚ê‚éƒtƒ@ƒCƒ‹ :"`ls "${PSPMP4_98_DIR}/"*"${P} ‘æ"*.mp4 | awk '{last = $0} END {print last}'`
+        echo "ƒtƒ@ƒCƒ‹ŒÂ” :${FILECOUNT} ˆê’v‚µ‚Ü‚¹‚ñB"
         echo "move sure?"
         confirm
         if [ ! $? = 0 ]; then
-          echo "ã‚¹ã‚­ãƒƒãƒ—ã—ã¾ã™"
+          echo "ƒXƒLƒbƒv‚µ‚Ü‚·"
           continue
         fi  
       else
-         echo "${P} æŠœã‘ãƒã‚§ãƒƒã‚¯ï¼šOK"
+         echo "${P} ”²‚¯ƒ`ƒFƒbƒNFOK"
       fi
     fi
 
-    # ç§»å‹•
+    # ˆÚ“®
     if [ "${PRG}" = "3" ] ; then
-      echo "ç§»å‹•å‡¦ç†ç„¡ã—"
-    elif [ "`ls -l "${PSPMP4_MV_DIR}/${QUARTER}Q-${YEAR}/"*"${P} ç¬¬"*.mp4`" = "" ]; then
-      mv -v "${PSPMP4_98_DIR}/"*"${P} ç¬¬"*.mp4 "${PSPMP4_MV_DIR}/${QUARTER}Q-${YEAR}/"
-      ln -s "${PSPMP4_MV_DIR}/${QUARTER}Q-${YEAR}/"*"${P} ç¬¬"*.mp4 "${PSPMP4_98_DIR}/"
-      echo "${P}: ç§»å‹•å®Œäº†"
+      echo "ˆÚ“®ˆ—–³‚µ"
+    elif [ "`ls -l "${PSPMP4_MV_DIR}/${QUARTER}Q-${YEAR}/"*"${P} ‘æ"*.mp4`" = "" ]; then
+      mv -v "${PSPMP4_98_DIR}/"*"${P} ‘æ"*.mp4 "${PSPMP4_MV_DIR}/${QUARTER}Q-${YEAR}/"
+      ln -s "${PSPMP4_MV_DIR}/${QUARTER}Q-${YEAR}/"*"${P} ‘æ"*.mp4 "${PSPMP4_98_DIR}/"
+      echo "${P}: ˆÚ“®Š®—¹"
     else
-      echo "æ—¢ã«å­˜åœ¨ã—ã¦ã„ã‚‹ãŸã‚ã€ç§»å‹•ç„¡ã—"
+      echo "Šù‚É‘¶Ý‚µ‚Ä‚¢‚é‚½‚ßAˆÚ“®–³‚µ"
     fi
     let i++
   done
 
-  echo "ALL: ç§»å‹•å®Œäº†"
+  echo "ALL: ˆÚ“®Š®—¹"
   quit
 }
 
-# ã‚·ãƒ³ãƒœãƒªãƒƒã‚¯ãƒªãƒ³ã‚¯å‰Šé™¤
+# ƒVƒ“ƒ{ƒŠƒbƒNƒŠƒ“ƒNíœ
 remove_98() {
   clear
   i=0
   for P in ${END_FILES[@]}
   do
-    # ãƒ•ã‚¡ã‚¤ãƒ«ãƒã‚§ãƒƒã‚¯
-    if [ ! `find "${PSPMP4_98_DIR}/"*"${P} ç¬¬"*.mp4 -type f` = "" ]; then
-      echo `ls -l "${PSPMP4_98_DIR}/"*"${P} ç¬¬"*.mp4`
+    # ƒtƒ@ƒCƒ‹ƒ`ƒFƒbƒN
+    if [ ! `find "${PSPMP4_98_DIR}/"*"${P} ‘æ"*.mp4 -type f` = "" ]; then
+      echo `ls -l "${PSPMP4_98_DIR}/"*"${P} ‘æ"*.mp4`
       echo "find not symbolik link. remove sure?"
       confirm
       if [ ! $? = 0 ]; then
-        echo "ã‚¹ã‚­ãƒƒãƒ—ã—ã¾ã™"
+        echo "ƒXƒLƒbƒv‚µ‚Ü‚·"
         continue
       fi
     else
-      echo "${P} ãƒ•ã‚¡ã‚¤ãƒ«ãƒã‚§ãƒƒã‚¯: OK"
+      echo "${P} ƒtƒ@ƒCƒ‹ƒ`ƒFƒbƒN: OK"
     fi
 
-    # å‰Šé™¤
-    rm -v "${PSPMP4_98_DIR}/"*"${P} ç¬¬"*.mp4
-    echo "${P} ã‚·ãƒ³ãƒœãƒªãƒƒã‚¯ãƒªãƒ³ã‚¯å‰Šé™¤: OK"
+    # íœ
+    rm -v "${PSPMP4_98_DIR}/"*"${P} ‘æ"*.mp4
+    echo "${P} ƒVƒ“ƒ{ƒŠƒbƒNƒŠƒ“ƒNíœ: OK"
 
     let i++
   done
   quit
 }
 
-# ç§»å‹•(ãƒ«ãƒ¼ãƒˆ)
+# ˆÚ“®(ƒ‹[ƒg)
 move_root() {
   clear
-  # å®¹é‡ãƒã‚§ãƒƒã‚¯
+  # —e—Êƒ`ƒFƒbƒN
   i=0
   SIZE=0
   for P in ${END_FILES[@]}
@@ -145,13 +145,13 @@ move_root() {
   fi
   wait_enter
 
-  # ç§»å‹•å…ˆãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªä½œæˆ
-  FIND_ROOT_MV_DIR=`ls -d "${ROOT_MV_DIR}/"*"${YEAR}-Q${QUARTER}çµ‚äº†åˆ†"`
+  # ˆÚ“®æƒfƒBƒŒƒNƒgƒŠì¬
+  FIND_ROOT_MV_DIR=`ls -d "${ROOT_MV_DIR}/"*"${YEAR}-Q${QUARTER}I—¹•ª"`
   if [ "${FIND_ROOT_MV_DIR}" = "" ]; then
     LASTNUM=`ls -lr "${ROOT_MV_DIR}/"0[0-9][0-9]* | head -1 | sed -e 's/.*\(0[0-9][0-9]\)\ .*/\1/'`
     LASTNUM=`expr ${LASTNUM} + 1`
     LASTNUM=`printf '%03d' ${LASTNUM}`
-    ROOT_MK_DIR="${ROOT_MV_DIR}/${LASTNUM} ${YEAR}-Q${QUARTER}çµ‚äº†åˆ†"
+    ROOT_MK_DIR="${ROOT_MV_DIR}/${LASTNUM} ${YEAR}-Q${QUARTER}I—¹•ª"
     mkdir "${ROOT_MK_DIR}"
   else
     ROOT_MK_DIR="${FIND_ROOT_MV_DIR}"
@@ -164,13 +164,13 @@ move_root() {
       continue
     fi
     mv -v "${BASE_DIR}/"*"${P}/" "${ROOT_MK_DIR}/"
-    echo "${P}: ç§»å‹•å®Œäº†"
+    echo "${P}: ˆÚ“®Š®—¹"
   done
   ln -s "${ROOT_MK_DIR}" "${ROOT_MV_DIR_LINK}/"
 
-  echo "ALL: ç§»å‹•å®Œäº†"
+  echo "ALL: ˆÚ“®Š®—¹"
 
-  # å†æŽ¡ç•ª
+  # ÄÌ”Ô
   cd "${ROOT_MK_DIR}/"
   /data/share/movie/sh/mnu.sh
 
@@ -254,7 +254,7 @@ check() {
   done
 }
 
-# y/nå…¥åŠ›å¾…ã¡çŠ¶æ…‹
+# y/n“ü—Í‘Ò‚¿ó‘Ô
 confirm() {
   echo -n "> "
   while read CONFIRM; do
@@ -262,15 +262,15 @@ confirm() {
       "y" | "Y" ) return 0;;
       "n" | "N" | "" ) return 1;;
       * )
-      echo "y/nã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚(Enterã®ã¿ã¯No)"
+      echo "y/n‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B(Enter‚Ì‚Ý‚ÍNo)"
       echo -n "> ";;
     esac
   done
 }
 
-# å…¥åŠ›å¾…ã¡çŠ¶æ…‹
+# “ü—Í‘Ò‚¿ó‘Ô
 wait_enter() {
-  echo "(Enterã§ç¶šè¡Œã—ã¾ã™)"
+  echo "(Enter‚Å‘±s‚µ‚Ü‚·)"
   echo -n "> "
   while read CONFIRM; do
     case "${CONFIRM}" in
@@ -279,9 +279,9 @@ wait_enter() {
   done
 }
 
-# çµ‚äº†
+# I—¹
 quit() {
-  # ã‚ã¨ã—ã¾ã¤
+  # ‚ ‚Æ‚µ‚Ü‚Â
   IFS="$IFS_ORIGINAL"
   exit
 }
@@ -312,14 +312,14 @@ if [ "${TARGET}" = "2" ]; then
   fi
 fi
 
-# çµ‚äº†ãƒªã‚¹ãƒˆãƒ•ã‚¡ã‚¤ãƒ«ã®å­˜åœ¨
+# I—¹ƒŠƒXƒgƒtƒ@ƒCƒ‹‚Ì‘¶Ý
 END_LIST_FILE="${BASE_DIR}/end_${YEAR}Q${QUARTER}.txt"
 if [ ! -s "${END_LIST_FILE}" ]; then
   echo "${END_LIST_FILE} is not found."
   quit
 fi
 
-# çµ‚äº†ãƒªã‚¹ãƒˆãƒ•ã‚¡ã‚¤ãƒ«èª­ã¿è¾¼ã¿
+# I—¹ƒŠƒXƒgƒtƒ@ƒCƒ‹“Ç‚Ýž‚Ý
 IFS="|"
 while read P
 do

@@ -1,15 +1,15 @@
 # /bin/sh
 # @author swirhen
-# ffmpegã‚’ã¤ã‹ã£ã¦PSPã‚„ã‚ã„ã»ã‚“ã‚€ã‘ã®ã©ã†ãŒã‚’ã¤ãã‚‹
+# ffmpeg‚ğ‚Â‚©‚Á‚ÄPSP‚â‚ ‚¢‚Ù‚ñ‚Ş‚¯‚Ì‚Ç‚¤‚ª‚ğ‚Â‚­‚é
 # usage:169mp4.sh [infile] [out directory] [encode option]
-# ã©ã‚‰ã„ã¶ãŒã¡ãŒã†ã©ã†ãŒã®ã¨ãã«tmpã‚’ã¦ãã›ã¤ãªã°ã—ã‚‡ã«ã‹ãˆã‚‹
+# ‚Ç‚ç‚¢‚Ô‚ª‚¿‚ª‚¤‚Ç‚¤‚ª‚Ì‚Æ‚«‚Étmp‚ğ‚Ä‚«‚¹‚Â‚È‚Î‚µ‚å‚É‚©‚¦‚é
 tmp=`readlink -f "$PWD"`
 drive=`expr "$tmp" : "\/\(data.\?\)\/.*"`
 if [ ${drive:-null} = null ] ; then
   drive=data
 fi
-# ã„ã‚ã„ã‚ã¡ã‡ã£ã
-# ã¸ã‚“ãªfpsã®ã©ã†ãŒã®ã°ã‚ã„ 30000/1001ã«ã¨ã†ã„ã¤ã—ã¦ã”ã¾ã‹ã™
+# ‚¢‚ë‚¢‚ë‚¿‚¥‚Á‚­
+# ‚Ö‚ñ‚Èfps‚Ì‚Ç‚¤‚ª‚Ì‚Î‚ ‚¢ 30000/1001‚É‚Æ‚¤‚¢‚Â‚µ‚Ä‚²‚Ü‚©‚·
 fpsfix="-r 30000/1001"
 /usr/bin/ffmpeg -i "$1" 2>> /tmp/fps.txt
 echo "$1 fps check"
@@ -20,8 +20,8 @@ if [ $fpsck -eq 0 ]; then
   echo "# $1 is invalid fps!"
   opt=$fpsfix
 fi
-# ã‚ã™ãºãã¨ã²ã‚’ã˜ã©ã†ã¯ã‚“ã¹ã¤ã™ã‚‹
-# 4:3ã ã£ãŸã‚‰360x270ã«ã™ã‚‹ã‘ã©ã€1440x1080ã ã‘ã¯ã‚„ã‚‰ãªã„
+# ‚ ‚·‚Ø‚­‚Æ‚Ğ‚ğ‚¶‚Ç‚¤‚Í‚ñ‚×‚Â‚·‚é
+# 4:3‚¾‚Á‚½‚ç360x270‚É‚·‚é‚¯‚ÇA1440x1080‚¾‚¯‚Í‚â‚ç‚È‚¢
 echo "$1 aspect check"
 echo `egrep '[0-9][0-9][0-9]+x[0-9][0-9][0-9]+,' /tmp/fps.txt`
 asck=`egrep '[0-9][0-9][0-9]+x[0-9][0-9][0-9]+,' /tmp/fps.txt`
@@ -38,8 +38,8 @@ if [ $asw = "1440" -a $ash = "1080" ]; then
 	wide="480"
 fi
 rm /tmp/fps.txt
-# ãˆã‚“ã“ã™ã‚‹
+# ‚¦‚ñ‚±‚·‚é
 /usr/bin/ffmpeg -i "$1" -s "$wide"x270 -vcodec h264 -b 500k -acodec aac -ac 2 -ar 48000 -ab 128k -async 100 -crf 20 -g 230 -mbd 2 -me umh -subq 6 -qdiff 6 -me_range 32 -nr 50 -qmin 12 -sc_threshold 65 -bidir_refine 1 -keyint_min 3 -cmp chroma -flags bitexact+alt+mv4+loop -f mp4 -coder 0 -level 13 -threads 0 $3 $opt /$drive/tmp/"$1".mp4
-# MP4Boxã§faststartãŸã„ãŠã†ã«ã™ã‚‹
+# MP4Box‚Åfaststart‚½‚¢‚¨‚¤‚É‚·‚é
 /usr/local/bin/MP4Box -ipod /$drive/tmp/"$1".mp4
 /bin/mv -v /$drive/tmp/"$1".mp4 "$2""$1".mp4

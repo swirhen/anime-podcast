@@ -1,8 +1,8 @@
 #!/usr/bin/env zsh
-# å‹•ç”»ãƒªãƒãƒ¼ãƒ ç”¨ã‚·ã‚§ãƒ«
-# usage: ./rename.sh ä¸Žãˆã‚‹ãƒ•ã‚¡ã‚¤ãƒ«ç¾¤ ãƒªãƒãƒ¼ãƒ ç”¨ãƒªã‚¹ãƒˆ
-# ãƒªãƒãƒ¼ãƒ ç”¨ãƒªã‚¹ãƒˆã«ã¯ãƒªãƒãƒ¼ãƒ ã‚‚ã¨ãƒ•ã‚¡ã‚¤ãƒ«ã®æ¤œç´¢æ–‡å­—ã¨æ­£å¼ãªä½œå“åã‚’
-# tabã§ç¹‹ã’ã¦è¨˜è¿°ã™ã‚‹ã“ã¨
+# “®‰æƒŠƒl[ƒ€—pƒVƒFƒ‹
+# usage: ./rename.sh —^‚¦‚éƒtƒ@ƒCƒ‹ŒQ ƒŠƒl[ƒ€—pƒŠƒXƒg
+# ƒŠƒl[ƒ€—pƒŠƒXƒg‚É‚ÍƒŠƒl[ƒ€‚à‚Æƒtƒ@ƒCƒ‹‚ÌŒŸõ•¶Žš‚Æ³Ž®‚Èì•i–¼‚ð
+# tab‚ÅŒq‚°‚Ä‹Lq‚·‚é‚±‚Æ
 LIST=/data/share/movie/checklist.txt
 cnt=0
 while read DUMMY DUMMY2 LINE

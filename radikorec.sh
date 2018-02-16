@@ -8,17 +8,17 @@ PATH=$PATH:/usr/local/bin
 PYTHON_PATH="python3"
 VERSION=4.0.0
 
-# ‰Ωø„ÅÑÊñπ
+# égÇ¢ï˚
 show_usage() {
   echo "Usage: $COMMAND [-a] [-o bangumi_mei] [-t recording_seconds] station_ID"
-  echo '       -a  Output area info(ex. 'JP13,Êù±‰∫¨ÈÉΩ,tokyo Japan'). No recording.'
+  echo '       -a  Output area info(ex. 'JP13,ìåãûìs,tokyo Japan'). No recording.'
   echo '       -o  Default output_name = /data/tmp/[${station_name}]_`date +%Y%m%d-%H%M`.flv'
   echo '             "hogehoge" = /data/tmp/[JOQR]hogehoge_20130123-1700.flv'
   echo '       -t  Default recording_seconds = 30'
   echo '           60 = 1 minute, 3600 = 1 hour, 0 = go on recording until stopped(control-C)'
 }
 
-# Ë™çË®º
+# îFèÿ
 radiko_authorize() {
   echo "==== authorize ===="
   #
@@ -39,7 +39,7 @@ radiko_authorize() {
   #
   if [ ! -f $keyfile ]; then
     echo $keyfile extracting...
-    # swfextract -b 5 $playerfile -o $keyfile <---radiko‰ªïÊßòÂ§âÊõ¥ÁÇπ
+    # swfextract -b 5 $playerfile -o $keyfile <---radikoédólïœçXì_
     /usr/bin/swfextract -b 12 $playerfile -o $keyfile
 
     if [ ! -f $keyfile ]; then
@@ -103,7 +103,7 @@ radiko_authorize() {
   echo "areaid: $areaid"  
 }
 
-# Èå≤Èü≥
+# ò^âπ
 radiko_record() {
   echo "==== recording ===="
   #
@@ -141,7 +141,7 @@ radiko_record() {
   pid=$!
 }
 
-# ÂºïÊï∞Ëß£Êûê
+# à¯êîâêÕ
 COMMAND=`basename $0`
 while getopts aho:t: OPTION
 do
@@ -153,13 +153,13 @@ do
   esac
 done
 
-shift $(($OPTIND - 1)) #ÊÆã„Çä„ÅÆÈùû„Ç™„Éó„Ç∑„Éß„É≥„Å™ÂºïÊï∞„ÅÆ„Åø„Åå„ÄÅ$@„Å´Ë®≠ÂÆö„Åï„Çå„Çã
+shift $(($OPTIND - 1)) #écÇËÇÃîÒÉIÉvÉVÉáÉìÇ»à¯êîÇÃÇ›Ç™ÅA$@Ç…ê›íËÇ≥ÇÍÇÈ
 
 if [ $# = 0 -a "$OPTION_a" != "TRUE" ]; then
   show_usage ; exit 1
 fi
 
-# „Ç™„Éó„Ç∑„Éß„É≥Âá¶ÁêÜ
+# ÉIÉvÉVÉáÉìèàóù
 channel=$1
 
 if [ "$OPTION_o" = "TRUE" ]; then
@@ -175,7 +175,7 @@ cd /data/tmp ; wdir=`pwd`
 station_name=`curl -s "http://radiko.jp/v2/api/program/station/today?station_id=$channel" |/usr/bin/xpath -e "//station/name/text()" 2>/dev/null`
 output="${wdir}/${fname:=[${station_name}]${pgmname}_`date +%Y%m%d-%H%M`}.flv"
 
-# playerurl=http://radiko.jp/player/swf/player_2.0.1.00.swf <---radiko‰ªïÊßòÂ§âÊõ¥ÁÇπ
+# playerurl=http://radiko.jp/player/swf/player_2.0.1.00.swf <---radikoédólïœçXì_
 #playerurl=http://radiko.jp/player/swf/player_$VERSION.swf
 playerurl=http://radiko.jp/apps/js/flash/myplayer-release.swf
 playerfile=./player.swf
@@ -187,10 +187,10 @@ if [ "$OPTION_a" = "TRUE" ]; then
     cat auth2_fms_$$|grep -e '^\w\+'
   fi
 else
-# „Å§„Å∂„ÇÑ„Åè
-/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "„ÄêRadikoËá™ÂãïÈå≤Èü≥ÈñãÂßã„Äë${station_name} ${pgmname}"
-#/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "„ÄêRadikoËá™ÂãïÈå≤Èü≥ÈñãÂßã„Äë${fname}"
-${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "„ÄêRadikoËá™ÂãïÈå≤Èü≥ÈñãÂßã„Äë${fname}"
+# Ç¬Ç‘Ç‚Ç≠
+/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "ÅyRadikoé©ìÆò^âπäJénÅz${station_name} ${pgmname}"
+#/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "ÅyRadikoé©ìÆò^âπäJénÅz${fname}"
+${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "ÅyRadikoé©ìÆò^âπäJénÅz${fname}"
 
 #until [ -f "${output}" ];
 #do
@@ -207,16 +207,16 @@ sleep 30
 
 kill ${pid}
 
-/usr/bin/wine ffmpeg.exe -y -t ${rectime} -i "${output}" -acodec copy "/data/share/movie/98 PSPÁî®/agqr/${fname}.m4a"
+/usr/bin/wine ffmpeg.exe -y -t ${rectime} -i "${output}" -acodec copy "/data/share/movie/98 PSPóp/agqr/${fname}.m4a"
 
 rm -f "${output}"
 
-# rss„Éï„Ç£„Éº„ÉâÁîüÊàê„Ç∑„Çß„É´
-/data/share/movie/sh/mmmpc.sh agqr "Ë∂ÖÔºÅA&G(+Œ±)"
-# „Å§„Å∂„ÇÑ„Åè
-/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "„ÄêRadikoËá™ÂãïÈå≤Èü≥ÁµÇ‰∫Ü„Äë${station_name} ${pgmname}"
-#/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "„ÄêRadikoËá™ÂãïÈå≤Èü≥ÁµÇ‰∫Ü„Äë${fname}"
-${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "„ÄêRadikoËá™ÂãïÈå≤Èü≥ÁµÇ‰∫Ü„Äë${fname}"
+# rssÉtÉBÅ[Éhê∂ê¨ÉVÉFÉã
+/data/share/movie/sh/mmmpc.sh agqr "í¥ÅIA&G(+Éø)"
+# Ç¬Ç‘Ç‚Ç≠
+/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "ÅyRadikoé©ìÆò^âπèIóπÅz${station_name} ${pgmname}"
+#/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "ÅyRadikoé©ìÆò^âπèIóπÅz${fname}"
+${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "ÅyRadikoé©ìÆò^âπèIóπÅz${fname}"
 fi
 
 rm -f auth1_fms_$$

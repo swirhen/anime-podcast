@@ -1,27 +1,27 @@
 # /bin/sh
-# è¶…A&Gäºˆç´„éŒ²ç”»å†ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‰ç”¨ã‚¹ã‚¯ãƒªãƒ—ãƒˆ
+# ’´A&G—\–ñ˜^‰æÄƒGƒ“ƒR[ƒh—pƒXƒNƒŠƒvƒg
 # require: ffmpeg
-# usage: agqrrecord.sh [flvãƒ•ã‚¡ã‚¤ãƒ«å] [å‹•ç”»ãƒ•ãƒ©ã‚°]
-# å‹•ç”»ãƒ•ãƒ©ã‚°: vãªã‚‰æ˜ åƒä»˜ãã€ãã‚Œä»¥å¤–ãªã‚‰éŸ³å£°ã¨è¦‹ãªã—ã¦ã‚¨ãƒ³ã‚³ã™ã‚‹
+# usage: agqrrecord.sh [flvƒtƒ@ƒCƒ‹–¼] [“®‰æƒtƒ‰ƒO]
+# “®‰æƒtƒ‰ƒO: v‚È‚ç‰f‘œ•t‚«A‚»‚êˆÈŠO‚È‚ç‰¹º‚ÆŒ©‚È‚µ‚ÄƒGƒ“ƒR‚·‚é
 vidflg=$2
-# ãƒ‘ã‚¹ã‚’é™¤ã„ãŸãƒ•ã‚¡ã‚¤ãƒ«å
+# ƒpƒX‚ğœ‚¢‚½ƒtƒ@ƒCƒ‹–¼
 efilename="$1"
-# ä¿å­˜ãƒ•ã‚©ãƒ«ãƒ€ã¸ç§»å‹•
-cd "/data/share/movie/98 PSPç”¨/agqr/flv"
-# æ˜ åƒä»˜ããªã‚‰ã°ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‰ç”¨ã®ã‚·ã‚§ãƒ«ã‚’å‘¼ã¶ã€‚éŸ³å£°ã®ã¿ãªã‚‰mp3ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‰
+# •Û‘¶ƒtƒHƒ‹ƒ_‚ÖˆÚ“®
+cd "/data/share/movie/98 PSP—p/agqr/flv"
+# ‰f‘œ•t‚«‚È‚ç‚ÎƒGƒ“ƒR[ƒh—p‚ÌƒVƒFƒ‹‚ğŒÄ‚ÔB‰¹º‚Ì‚İ‚È‚çmp3ƒGƒ“ƒR[ƒh
 if [ $# -eq 2 ]; then
   echo "video"
-    until [ -f "/data/share/movie/98 PSPç”¨/agqr/$efilename.mp4" ];
+    until [ -f "/data/share/movie/98 PSP—p/agqr/$efilename.mp4" ];
     do
-      /data/share/movie/sh/169mp4_agqr.sh "$efilename" "/data/share/movie/98 PSPç”¨/agqr/" $3
+      /data/share/movie/sh/169mp4_agqr.sh "$efilename" "/data/share/movie/98 PSP—p/agqr/" $3
     done
 else 
-    until [ -f "/data/share/movie/98 PSPç”¨/agqr/$efilename.mp3" ];
+    until [ -f "/data/share/movie/98 PSP—p/agqr/$efilename.mp3" ];
     do
-      /usr/bin/wine ffmpeg.exe -i "$efilename" -acodec libmp3lame -ab 64k -ac 2 -ar 24000 "/data/share/movie/98 PSPç”¨/agqr/$efilename.mp3"
+      /usr/bin/wine ffmpeg.exe -i "$efilename" -acodec libmp3lame -ab 64k -ac 2 -ar 24000 "/data/share/movie/98 PSP—p/agqr/$efilename.mp3"
     done
 fi
 
-# rssãƒ•ã‚£ãƒ¼ãƒ‰ç”Ÿæˆã‚·ã‚§ãƒ«
-/data/share/movie/sh/mmmpc.sh agqr "è¶…ï¼A&G(+Î±)"
-/data/share/movie/sh/mmmpc2.sh agqr "è¶…ï¼A&G(+Î±)"
+# rssƒtƒB[ƒh¶¬ƒVƒFƒ‹
+/data/share/movie/sh/mmmpc.sh agqr "’´IA&G(+ƒ¿)"
+/data/share/movie/sh/mmmpc2.sh agqr "’´IA&G(+ƒ¿)"

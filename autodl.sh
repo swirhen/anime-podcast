@@ -67,7 +67,7 @@ do
       if [ "${EPNUM_N}" -gt "${EPNUM_OLD_N}" ]; then
         echo "new episode: ${EPNUM} (local: ${EP_NUMS[${cnt}]})"
         hit_flg=1
-        # LeopardÂÑ™ÂÖà
+        # LeopardóDêÊ
         if [ "`echo \"${title}\" | grep \"Leopard\"`" != "" ]; then
           if [ `ls ${DOWNLOAD_DIR}/*Ohys*"${NAME}"*.torrent | wc -l` -eq 1 ]; then
             rm -f ${DOWNLOAD_DIR}/*Ohys*"${NAME}"*.torrent

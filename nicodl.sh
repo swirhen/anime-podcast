@@ -1,13 +1,13 @@
-# 繝九さ繝九さDL
-# usage nicodl.sh [URL] [繝輔ぃ繧､繝ｫ繧ｿ繧､繝医Ν] [髻ｳ螢ｰ縺ｮ縺ｿ繝輔Λ繧ｰ]
-# 髻ｳ螢ｰ縺ｮ縺ｿ繝輔Λ繧ｰ縺後≠繧後�ｰmp4縺九ｉm4a謚ｽ蜃ｺ
+# ニコニコDL
+# usage nicodl.sh [URL] [ファイルタイトル] [音声のみフラグ]
+# 音声のみフラグがあればmp4からm4a抽出
 url=$1
 title=$2
 audflg=$3
 
 /usr/bin/python /data/share/movie/sh/nicovideo-dl -u swirhen@gmail.com -p irankae1 "${url}" -o nicodl_temp
 
-# 髻ｳ螢ｰ繧ｨ繝ｳ繧ｳ
+# 音声エンコ
 if [ "${audflg:-null}" != null ]; then
     /usr/bin/wine ffmpeg.exe -i nicodl_temp -acodec libmp3lame -ab 64k -ac 2 -ar 44100 "${title}.mp3"
     rm nicodl_temp

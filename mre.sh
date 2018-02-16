@@ -1,16 +1,16 @@
 #!/bin/bash
-# å‹•ç”»ãƒªãƒãƒ¼ãƒ ç”¨ã‚·ã‚§ãƒ«
-# ãƒªãƒãƒ¼ãƒ ç”¨ãƒªã‚¹ãƒˆã«ã¯ãƒªãƒãƒ¼ãƒ å…ƒãƒ•ã‚¡ã‚¤ãƒ«ã®æ¤œç´¢æ–‡å­—ã¨æ­£å¼ãªä½œå“åã‚’
-# tabã§ç¹‹ã’ã¦è¨˜è¿°ã™ã‚‹ã“ã¨
-# ç¬¬1å¼•æ•°(çœç•¥å¯)ã¯ãƒªãƒãƒ¼ãƒ å…ƒãƒ•ã‚¡ã‚¤ãƒ«ã®è©±æ•°æ•°å­—ã®å‰ã®æ–‡å­—ã‚’å…¥åŠ›ã™ã‚‹ã€‚ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã¯åŠè§’ã‚¹ãƒšãƒ¼ã‚¹ã€‚
-# ç¬¬2å¼•æ•°(çœç•¥å¯)ã¯ãƒªãƒãƒ¼ãƒ å…ƒãƒ•ã‚¡ã‚¤ãƒ«ã®è©±æ•°æ•°å­—ã®å¾Œã®æ–‡å­—ã‚’å…¥åŠ›ã™ã‚‹ã€‚ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã¯åŠè§’ã‚¹ãƒšãƒ¼ã‚¹ã‚‚ã—ãã¯ã€ç¬¬1å¼•æ•°ãŒæŒ‡å®šã•ã‚Œã¦ã„ã‚‹å ´åˆã¯ç¬¬1å¼•æ•°ã€‚
+# “®‰æƒŠƒl[ƒ€—pƒVƒFƒ‹
+# ƒŠƒl[ƒ€—pƒŠƒXƒg‚É‚ÍƒŠƒl[ƒ€Œ³ƒtƒ@ƒCƒ‹‚ÌŒŸõ•¶Žš‚Æ³Ž®‚Èì•i–¼‚ð
+# tab‚ÅŒq‚°‚Ä‹Lq‚·‚é‚±‚Æ
+# ‘æ1ˆø”(È—ª‰Â)‚ÍƒŠƒl[ƒ€Œ³ƒtƒ@ƒCƒ‹‚Ì˜b””Žš‚Ì‘O‚Ì•¶Žš‚ð“ü—Í‚·‚éBƒfƒtƒHƒ‹ƒg‚Í”¼ŠpƒXƒy[ƒXB
+# ‘æ2ˆø”(È—ª‰Â)‚ÍƒŠƒl[ƒ€Œ³ƒtƒ@ƒCƒ‹‚Ì˜b””Žš‚ÌŒã‚Ì•¶Žš‚ð“ü—Í‚·‚éBƒfƒtƒHƒ‹ƒg‚Í”¼ŠpƒXƒy[ƒX‚à‚µ‚­‚ÍA‘æ1ˆø”‚ªŽw’è‚³‚ê‚Ä‚¢‚éê‡‚Í‘æ1ˆø”B
 SFX1=" "
 SFX2=" "
-if [ $# -eq 1 ]; then  # å¼•æ•°ãŒ1å€‹
+if [ $# -eq 1 ]; then  # ˆø”‚ª1ŒÂ
 SFX1=$1
 SFX2=$1
 fi
-if [ $# -eq 2 ]; then  # å¼•æ•°ãŒ2å€‹
+if [ $# -eq 2 ]; then  # ˆø”‚ª2ŒÂ
 SFX1=$1
 SFX2=$2
 fi
@@ -40,15 +40,15 @@ do
     fsf=`echo $FILE_NAME | sed -e "s/.*\(${SF}\).*$SFX1[0-9][0-9]\?$SFX2.*/\1/"`
     if [ "$fsf" == "$SF" ]; then
       if [ ! -e "$FILE_NAME".aria2 ]; then
-        if [ "$FILE_NAME" != "${NAME} ç¬¬$nnè©±.$ext" ]; then
-          echo "# rename $FILE_NAME -> ${NAME} ç¬¬$nnè©±.$ext"
-          mv "$FILE_NAME" "${NAME} ç¬¬$nnè©±.$ext"
+        if [ "$FILE_NAME" != "${NAME} ‘æ$nn˜b.$ext" ]; then
+          echo "# rename $FILE_NAME -> ${NAME} ‘æ$nn˜b.$ext"
+          mv "$FILE_NAME" "${NAME} ‘æ$nn˜b.$ext"
         else
-          echo "# rename $FILE_NAME -> ${NAME} ç¬¬$nnè©±.$ext"
-          echo "# å¤‰æ›´å¾Œã®ãƒ•ã‚¡ã‚¤ãƒ«åãŒåŒã˜"
+          echo "# rename $FILE_NAME -> ${NAME} ‘æ$nn˜b.$ext"
+          echo "# •ÏXŒã‚Ìƒtƒ@ƒCƒ‹–¼‚ª“¯‚¶"
         fi
       else
-        echo "# $FILE_NAME æˆè‚²ä¸­ï¼"
+        echo "# $FILE_NAME ¬ˆç’†I"
       fi
       break
     fi
@@ -57,15 +57,15 @@ do
     fsf=`echo $FILE_NAME | sed -e "s/.*\(${SF}\).*$SFX1[0-1][0-9][0-9]\?$SFX2.*/\1/"`
     if [ "$fsf" == "$SF" ]; then
       if [ ! -e "$FILE_NAME".aria2 ]; then
-        if [ "$FILE_NAME" != "${NAME} ç¬¬$nnè©±.$ext" ]; then
-          echo "# rename $FILE_NAME -> ${NAME} ç¬¬$nnè©±.$ext"
-          mv "$FILE_NAME" "${NAME} ç¬¬$nnè©±.$ext"
+        if [ "$FILE_NAME" != "${NAME} ‘æ$nn˜b.$ext" ]; then
+          echo "# rename $FILE_NAME -> ${NAME} ‘æ$nn˜b.$ext"
+          mv "$FILE_NAME" "${NAME} ‘æ$nn˜b.$ext"
         else
-          echo "# rename $FILE_NAME -> ${NAME} ç¬¬$nnè©±.$ext"
-          echo "# å¤‰æ›´å¾Œã®ãƒ•ã‚¡ã‚¤ãƒ«åãŒåŒã˜"
+          echo "# rename $FILE_NAME -> ${NAME} ‘æ$nn˜b.$ext"
+          echo "# •ÏXŒã‚Ìƒtƒ@ƒCƒ‹–¼‚ª“¯‚¶"
         fi
       else
-        echo "# $FILE_NAME æˆè‚²ä¸­ï¼"
+        echo "# $FILE_NAME ¬ˆç’†I"
       fi
       break
     fi
@@ -74,15 +74,15 @@ do
     fsf=`echo $FILE_NAME | sed -e "s/.*\(${SF}\).*$SFX1[0-9][0-9].5$SFX2.*/\1/"`
     if [ "$fsf" == "$SF" ]; then
       if [ ! -e "$FILE_NAME".aria2 ]; then
-        if [ "$FILE_NAME" != "${NAME} ç¬¬$nnè©±.$ext" ]; then
-          echo "# rename $FILE_NAME -> ${NAME} ç¬¬$nnè©±.$ext"
-          mv "$FILE_NAME" "${NAME} ç¬¬$nnè©±.$ext"
+        if [ "$FILE_NAME" != "${NAME} ‘æ$nn˜b.$ext" ]; then
+          echo "# rename $FILE_NAME -> ${NAME} ‘æ$nn˜b.$ext"
+          mv "$FILE_NAME" "${NAME} ‘æ$nn˜b.$ext"
         else
-          echo "# rename $FILE_NAME -> ${NAME} ç¬¬$nnè©±.$ext"
-          echo "# å¤‰æ›´å¾Œã®ãƒ•ã‚¡ã‚¤ãƒ«åãŒåŒã˜"
+          echo "# rename $FILE_NAME -> ${NAME} ‘æ$nn˜b.$ext"
+          echo "# •ÏXŒã‚Ìƒtƒ@ƒCƒ‹–¼‚ª“¯‚¶"
         fi
       else
-        echo "# $FILE_NAME æˆè‚²ä¸­ï¼"
+        echo "# $FILE_NAME ¬ˆç’†I"
       fi
       break
     fi

@@ -1,9 +1,9 @@
 #!/usr/bin/env zsh
 # @author swirhen
-# mkvextractã€MP4Box -tmp /data/tmpã‚’ä½¿ã£ã¦H264+aacãªmkvãƒ•ã‚¡ã‚¤ãƒ«ã‚’
-# mp4ãƒ•ã‚¡ã‚¤ãƒ«ã«ã¤ã‚ãªãŠã™
-# éŸ³å£°ãŒac3ã¨ã‹flacã®ã°ã‚ã„ã¯ã•ã„ãˆã‚“ã“ã™ã‚‹
-# fpsãŒå¯å¤‰ã¨ã‹ã ã¨æ­»ã¬ã®ã§ã‚ãã‚‰ã‚ã‚‹
+# mkvextractAMP4Box -tmp /data/tmp‚ğg‚Á‚ÄH264+aac‚Èmkvƒtƒ@ƒCƒ‹‚ğ
+# mp4ƒtƒ@ƒCƒ‹‚É‚Â‚ß‚È‚¨‚·
+# ‰¹º‚ªac3‚Æ‚©flac‚Ì‚Î‚ ‚¢‚Í‚³‚¢‚¦‚ñ‚±‚·‚é
+# fps‚ª‰Â•Ï‚Æ‚©‚¾‚Æ€‚Ê‚Ì‚Å‚ ‚«‚ç‚ß‚é
 # usage:mkvremarge.sh [mkv file]
 source /home/swirhen/.zshrc
 NAME=`echo $1 | cut -d"." -f1`

@@ -1,9 +1,9 @@
 # /bin/sh
 # @author swirhen
-# ffmpegã‚’ã¤ã‹ã£ã¦PSPã‚„ã‚ã„ã»ã‚“ã‚€ã‘ã®ã©ã†ãŒã‚’ã¤ãã‚‹
-# wineã‚’ã¤ã‹ã£ã¦windowsã°ã‚“ã®ã°ã„ãªã‚Šã‚’ã¤ã‹ã£ã¦ã—ã¾ã†ç‰ˆ
+# ffmpeg‚ğ‚Â‚©‚Á‚ÄPSP‚â‚ ‚¢‚Ù‚ñ‚Ş‚¯‚Ì‚Ç‚¤‚ª‚ğ‚Â‚­‚é
+# wine‚ğ‚Â‚©‚Á‚Äwindows‚Î‚ñ‚Ì‚Î‚¢‚È‚è‚ğ‚Â‚©‚Á‚Ä‚µ‚Ü‚¤”Å
 # usage:169mp42.sh [infile] [out directory] [encode option]
-# ã©ã‚‰ã„ã¶ãŒã¡ãŒã†ã©ã†ãŒã®ã¨ãã«tmpã‚’ã¦ãã›ã¤ãªã°ã—ã‚‡ã«ã‹ãˆã‚‹
+# ‚Ç‚ç‚¢‚Ô‚ª‚¿‚ª‚¤‚Ç‚¤‚ª‚Ì‚Æ‚«‚Étmp‚ğ‚Ä‚«‚¹‚Â‚È‚Î‚µ‚å‚É‚©‚¦‚é
 #if [ $# -gt 1 ]; then
 #  drive=`expr "$2" : "\/\(data.\?\)\/.*"`
 #else
@@ -13,8 +13,8 @@
 if [ ${drive:-null} = null ] ; then
   drive=data
 fi
-# ã„ã‚ã„ã‚ã¡ã‡ã£ã
-# ã¸ã‚“ãªfpsã®ã©ã†ãŒã®ã°ã‚ã„ 30000/1001ã«ã¨ã†ã„ã¤ã—ã¦ã”ã¾ã‹ã™
+# ‚¢‚ë‚¢‚ë‚¿‚¥‚Á‚­
+# ‚Ö‚ñ‚Èfps‚Ì‚Ç‚¤‚ª‚Ì‚Î‚ ‚¢ 30000/1001‚É‚Æ‚¤‚¢‚Â‚µ‚Ä‚²‚Ü‚©‚·
 fpsfix="-r 30000/1001"
 /usr/bin/ffmpeg -i "$1" 2>> /tmp/fps.txt
 echo "$1 fps check"
@@ -25,8 +25,8 @@ if [ $fpsck -eq 0 ]; then
   echo "# $1 is invalid fps!"
   opt=$fpsfix
 fi
-# ã‚ã™ãºãã¨ã²ã‚’ã˜ã©ã†ã¯ã‚“ã¹ã¤ã™ã‚‹
-# 4:3ã ã£ãŸã‚‰360x270ã«ã™ã‚‹ã‘ã©ã€1440x1080ã ã‘ã¯ã‚„ã‚‰ãªã„
+# ‚ ‚·‚Ø‚­‚Æ‚Ğ‚ğ‚¶‚Ç‚¤‚Í‚ñ‚×‚Â‚·‚é
+# 4:3‚¾‚Á‚½‚ç360x270‚É‚·‚é‚¯‚ÇA1440x1080‚¾‚¯‚Í‚â‚ç‚È‚¢
 echo "$1 aspect check"
 echo `egrep '[0-9][0-9][0-9]+x[0-9][0-9][0-9]+' /tmp/fps.txt`
 asck=`egrep '[0-9][0-9][0-9]+x[0-9][0-9][0-9]+' /tmp/fps.txt`
@@ -37,7 +37,7 @@ if [ ${#ash} -gt 4 ]; then
   ash=`echo $ash | cut -d"[" -f1`
 fi
 echo $ash
-# ã‚ã™ãºãã¨ã²ã‚’ã˜ã©ã†ã¯ã‚“ã¹ã¤ã™ã‚‹
+# ‚ ‚·‚Ø‚­‚Æ‚Ğ‚ğ‚¶‚Ç‚¤‚Í‚ñ‚×‚Â‚·‚é
 aspect=`echo "scale=2; $ash / $asw" | bc`
 wide="480"
 if [ $aspect = ".75" ]; then
@@ -57,9 +57,9 @@ if [ ${5:-null} = "0" ]; then
   wide="360"
 fi
 rm /tmp/fps.txt
-# ãˆã‚“ã“ã™ã‚‹
+# ‚¦‚ñ‚±‚·‚é
 /usr/bin/wine ffmpeg.exe -i "$1" $4 -s "$wide"x270 -vcodec libx264 -b 500k -crf 20 -g 230 -mbd 2 -me_method umh -subq 6 -qdiff 6 -me_range 32 -nr 50 -qmin 12 -sc_threshold 65 -bidir_refine 1 -keyint_min 3 -cmp chroma -flags bitexact+alt+mv4+loop -f mp4 -coder 1 -level 13 -acodec libfaac -ac 2 -ar 48000 -ab 128k -threads 0 $3 $opt /$drive/tmp/"$1".mp4
-# MP4Boxã§faststartãŸã„ãŠã†ã«ã™ã‚‹
+# MP4Box‚Åfaststart‚½‚¢‚¨‚¤‚É‚·‚é
 sleep 5
 /usr/local/bin/MP4Box -ipod /$drive/tmp/"$1".mp4
 sleep 5

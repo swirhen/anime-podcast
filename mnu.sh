@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
-# ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªãƒªãƒãƒ¼ãƒ ç”¨ã‚·ã‚§ãƒ«
-# ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’é€£ç•ª+ã‚¹ãƒšãƒ¼ã‚¹ã¤ãã«ãƒªãƒãƒ¼ãƒ ã™ã‚‹
-# 92ï½ž99ã€00ã§é–‹å§‹ã™ã‚‹ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã¯ç„¡è¦–
-# shã£ã¦åå‰ã®dirã‚‚ç„¡è¦–
-# å¼•æ•° "-r" ã‚’ã¤ã‘ã‚‹ã¨å…ˆé ­ã®é€£ç•ªã¨ã‚¹ãƒšãƒ¼ã‚¹ã‚’å‰Šé™¤
+# ƒfƒBƒŒƒNƒgƒŠƒŠƒl[ƒ€—pƒVƒFƒ‹
+# ƒfƒBƒŒƒNƒgƒŠ‚ð˜A”Ô+ƒXƒy[ƒX‚Â‚«‚ÉƒŠƒl[ƒ€‚·‚é
+# 92`99A00‚ÅŠJŽn‚·‚éƒfƒBƒŒƒNƒgƒŠ‚Í–³Ž‹
+# sh‚Á‚Ä–¼‘O‚Ìdir‚à–³Ž‹
+# ˆø” "-r" ‚ð‚Â‚¯‚é‚Ææ“ª‚Ì˜A”Ô‚ÆƒXƒy[ƒX‚ðíœ
 cnt=1
 for dir in *
 do
     if [[ "${dir}" =~ ^9[2-9]|^00|^sh ]]; then
-        echo "${dir} : å‡¦ç†é™¤å¤–"
+        echo "${dir} : ˆ—œŠO"
     else
         if [ -d "${dir}" ]; then
             NAME=`echo "${dir}" | sed "s/^[0-9][0-9]\ \(.*\)/\1/"`

@@ -1,27 +1,27 @@
 # /bin/sh
 # @author swirhen
-# ffmpegã‚’ã¤ã‹ã£ã¦PSPã‚„ã‚ã„ã»ã‚“ã‚€ã‘ã®ã©ã†ãŒã‚’ã¤ãã‚‹
-# wineã‚’ã¤ã‹ã£ã¦windowsã°ã‚“ã®ã°ã„ãªã‚Šã‚’ã¤ã‹ã£ã¦ã—ã¾ã†ç‰ˆ
-# ã‚ã„ã»ã‚“4ã‚„NGPãªã©ã«ãŸã„ãŠã†ã™ã‚‹ã•ãã¦ã„ã‚’ã»ã©ã“ã—ãŸ ã“ã†ã‹ã„ãã†ã©ç‰ˆ
+# ffmpeg‚ğ‚Â‚©‚Á‚ÄPSP‚â‚ ‚¢‚Ù‚ñ‚Ş‚¯‚Ì‚Ç‚¤‚ª‚ğ‚Â‚­‚é
+# wine‚ğ‚Â‚©‚Á‚Äwindows‚Î‚ñ‚Ì‚Î‚¢‚È‚è‚ğ‚Â‚©‚Á‚Ä‚µ‚Ü‚¤”Å
+# ‚ ‚¢‚Ù‚ñ4‚âNGP‚È‚Ç‚É‚½‚¢‚¨‚¤‚·‚é‚³‚­‚Ä‚¢‚ğ‚Ù‚Ç‚±‚µ‚½ ‚±‚¤‚©‚¢‚¼‚¤‚Ç”Å
 # usage:169mp43.sh [infile] [out directory] [encode option] [encode option(before)] [force aspect ratio]
-# 4ã¤ã‚ã®ã²ãã™ã†ã¯ã‚µã‚¤ã‚ºã‘ã£ã¦ã„ã®ã¾ãˆã«ãˆã‚“ã“ãƒ¼ã©ãŠã·ã—ã‚‡ã‚“ã‚’ã¤ã‘ãŸã„ã¨ã
-# 5ã“ã‚ã®ã²ãã™ã†ã¯"0"ã ã¨ãã‚‡ã†ã›ã„ã¦ãã«4:3 "1"ãªã‚‰16:9ã¨ãªã‚‹
+# 4‚Â‚ß‚Ì‚Ğ‚«‚·‚¤‚ÍƒTƒCƒY‚¯‚Á‚Ä‚¢‚Ì‚Ü‚¦‚É‚¦‚ñ‚±[‚Ç‚¨‚Õ‚µ‚å‚ñ‚ğ‚Â‚¯‚½‚¢‚Æ‚«
+# 5‚±‚ß‚Ì‚Ğ‚«‚·‚¤‚Í"0"‚¾‚Æ‚«‚å‚¤‚¹‚¢‚Ä‚«‚É4:3 "1"‚È‚ç16:9‚Æ‚È‚é
 
-# ã©ã‚‰ã„ã¶ãŒã¡ãŒã†ã©ã†ãŒã®ã¨ãã«tmpã‚’ã¦ãã›ã¤ãªã°ã—ã‚‡ã«ã‹ãˆã‚‹
-# ã˜ã£ã“ã†ã§ãƒã‚Œãã¨ã‚Šã‹ã‚‰ ãƒ‰ãƒ©ã‚¤ãƒ–ã‚’ã¯ã‚“ã ã‚“
+# ‚Ç‚ç‚¢‚Ô‚ª‚¿‚ª‚¤‚Ç‚¤‚ª‚Ì‚Æ‚«‚Étmp‚ğ‚Ä‚«‚¹‚Â‚È‚Î‚µ‚å‚É‚©‚¦‚é
+# ‚¶‚Á‚±‚¤‚Å‚¡‚ê‚­‚Æ‚è‚©‚ç ƒhƒ‰ƒCƒu‚ğ‚Í‚ñ‚¾‚ñ
 tmp=`readlink -f "$PWD"`
 drive=`expr "$tmp" : "\/\(data.\?\)\/.*"`
-# ã—ã‚…ã¤ã‚Šã‚‡ãã•ããŒã—ã¦ã„ã•ã‚Œã¦ã‚‹ã°ã‚ã„ ãã£ã¡
+# ‚µ‚ã‚Â‚è‚å‚­‚³‚«‚ª‚µ‚Ä‚¢‚³‚ê‚Ä‚é‚Î‚ ‚¢ ‚»‚Á‚¿
 if [ "${2:-null}" != null -o "${2:-null}" != "" ]; then
   tmp=`readlink -f "$2"`
   drive=`expr "$tmp" : "\/\(data.\?\)\/.*"`
 fi
-# ã‚ã‹ã‚‰ãªã„ã°ã‚ã„ã¯ /data
+# ‚í‚©‚ç‚È‚¢‚Î‚ ‚¢‚Í /data
 if [ ${drive:-null} = null ] ; then
   drive=data
 fi
-# ã„ã‚ã„ã‚ã¡ã‡ã£ã
-# ã¸ã‚“ãªfpsã®ã©ã†ãŒã®ã°ã‚ã„ 30000/1001ã«ã¨ã†ã„ã¤ã—ã¦ã”ã¾ã‹ã™
+# ‚¢‚ë‚¢‚ë‚¿‚¥‚Á‚­
+# ‚Ö‚ñ‚Èfps‚Ì‚Ç‚¤‚ª‚Ì‚Î‚ ‚¢ 30000/1001‚É‚Æ‚¤‚¢‚Â‚µ‚Ä‚²‚Ü‚©‚·
 fpsfix="-r 30000/1001"
 /usr/bin/wine ffmpeg.exe -i "$1" 2>> /tmp/fps.txt
 echo "$1 fps check"
@@ -32,7 +32,7 @@ if [ $fpsck -eq 0 ]; then
   echo "# $1 is invalid fps!"
   opt=$fpsfix
 fi
-# ã‚ã™ãºãã¨ã²ã‚’ã˜ã©ã†ã¯ã‚“ã¹ã¤ã™ã‚‹
+# ‚ ‚·‚Ø‚­‚Æ‚Ğ‚ğ‚¶‚Ç‚¤‚Í‚ñ‚×‚Â‚·‚é
 echo "$1 aspect check"
 echo `egrep '[0-9][0-9][0-9]+x[0-9][0-9][0-9]+' /tmp/fps.txt`
 asck=`egrep '[0-9][0-9][0-9]+x[0-9][0-9][0-9]+' /tmp/fps.txt`
@@ -43,7 +43,7 @@ if [ ${#ash} -gt 4 ]; then
   ash=`echo $ash | cut -d"[" -f1`
 fi
 echo "height: $ash"
-# ã‚ã™ãºãã¨ã²ã‚’ã˜ã©ã†ã¯ã‚“ã¹ã¤ã™ã‚‹
+# ‚ ‚·‚Ø‚­‚Æ‚Ğ‚ğ‚¶‚Ç‚¤‚Í‚ñ‚×‚Â‚·‚é
 aspect=`echo "scale=2; $ash / $asw" | bc`
 wide="32:27"
 if [ $aspect = ".75" ]; then
@@ -92,9 +92,9 @@ if [ $asw = "1008" -a $ash = "720" ]; then
     wide="1:1"
 fi
 rm /tmp/fps.txt
-# ãˆã‚“ã“ã™ã‚‹
+# ‚¦‚ñ‚±‚·‚é
 /usr/bin/wine ffmpeg.exe -i "$1" $4 -s "$size" -b 1500k -vcodec libx264 -trellis 2 -bf 3 -b_strategy 1 -bidir_refine 1 -crf 25 -g 240 -mbd 2 -me_method umh -subq 6 -qdiff 6 -me_range 32 -sc_threshold 65 -keyint_min 3 -nr 100 -qmin 12 -sn -flags bitexact+alt+mv4+loop -flags2 mixed_refs -partitions parti4x4+partp4x4+partp8x8 -f mp4 -coder 1 -level 30 -acodec libfaac -ac 2 -ar 48000 -ab 128k -async 100 -threads 0 $3 $opt /$drive/tmp/"$1".mp4
-# MP4Boxã§ faststartãŸã„ãŠã†ã«ã™ã‚‹ ã‚¢ã‚¹ãƒšã‚¯ãƒˆã²ã‚’ã—ã¦ã„ã™ã‚‹
+# MP4Box‚Å faststart‚½‚¢‚¨‚¤‚É‚·‚é ƒAƒXƒyƒNƒg‚Ğ‚ğ‚µ‚Ä‚¢‚·‚é
 sleep 5
 /usr/local/bin/MP4Box -ipod -par 1="$wide" /$drive/tmp/"$1".mp4 -out /$drive/tmp/"$1"_mod.mp4
 rm /$drive/tmp/"$1".mp4
