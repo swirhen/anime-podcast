@@ -1,7 +1,7 @@
 # /bin/sh
 # @author swirhen
-# aria2c‚Åƒ_ƒEƒ“ƒ[ƒh‚ğdŠ|‚¯‚½torrentƒV[ƒh‚Ìó‘Ô‚ğŠÄ‹‚µ‚ÄI‚í‚Á‚½‚ç~‚ß‚éB
-# tiarra socket‚Åtwitter‚É•ñ
+# aria2cã§ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã‚’ä»•æ›ã‘ãŸtorrentã‚·ãƒ¼ãƒ‰ã®çŠ¶æ…‹ã‚’ç›£è¦–ã—ã¦çµ‚ã‚ã£ãŸã‚‰æ­¢ã‚ã‚‹ã€‚
+# tiarra socketã§twitterã«å ±å‘Š
 # usage:tdlstop.sh [port number]
 EXT=aria2
 date=`date '+%y/%m/%d %H:%M:%S'`
@@ -11,14 +11,14 @@ if [ $n -gt 1 ]; then
   for a in *.${EXT}
   do
     filea=`echo $a | cut -d"." -f1,2`
-    file="$filea(‚Ù‚©`expr $n - 1`ŒÂ)"
+    file="$filea(ã»ã‹`expr $n - 1`å€‹)"
     break
   done
 elif [ $n -eq 1 ]; then
   filea=`ls *.${EXT}`
   file=`echo $filea | cut -d"." -f1,2`
 fi
-echo "$file‚ÌÍ”|ŠÄ‹‚ğŠJn"
+echo "$fileã®æ ½åŸ¹ç›£è¦–ã‚’é–‹å§‹"
 while true
 do
   pid=`ps -ef | grep port=$1 | grep -v grep | awk '{print $2}'`
@@ -28,8 +28,8 @@ do
       exit
     else
       echo -e "\n### watching aria2c(port=$1) end###"
-      #/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "@swirhen Í”|Š®—¹:$date ŠJn‚Ìƒtƒ@ƒCƒ‹: $file"
-      python3 /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "@swirhen Í”|Š®—¹:$date ŠJn‚Ìƒtƒ@ƒCƒ‹: $file"
+      #/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "@swirhen æ ½åŸ¹å®Œäº†:$date é–‹å§‹ã®ãƒ•ã‚¡ã‚¤ãƒ«: $file"
+      python3 /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "@swirhen æ ½åŸ¹å®Œäº†:$date é–‹å§‹ã®ãƒ•ã‚¡ã‚¤ãƒ«: $file"
       exit
     fi
   else

@@ -1,50 +1,50 @@
 Last Update: 2018/02/16-12:00:01
-2018/02/16-06:00:01 94 Aikatsu Stars|ƒAƒCƒJƒcƒXƒ^[ƒYI
-2018/02/16-06:00:01 120 Himitsu no Cocotama|‚©‚İ‚³‚Ü‚İ‚È‚ç‚¢ ƒqƒ~ƒc‚Ì‚±‚±‚½‚Ü
-2018/02/16-00:00:01 06 Violet Evergarden|ƒ”ƒ@ƒCƒIƒŒƒbƒgEƒGƒ”ƒ@[ƒK[ƒfƒ“
-2018/02/16-00:00:01 06 Dame x Prince Anime Caravan|ƒ_ƒƒvƒŠ ANIME CARAVAN
-2018/02/15-06:00:01 45 Idol Time PriPara|ƒAƒCƒhƒ‹ƒ^ƒCƒ€ƒvƒŠƒpƒ‰
-2018/02/15-06:00:01 19 Black Clover|ƒuƒ‰ƒbƒNƒNƒ[ƒo[
-2018/02/15-06:00:01 08 Idolish Seven|ƒAƒCƒhƒŠƒbƒVƒ…ƒZƒuƒ“
-2018/02/15-06:00:01 07 Sora Yori mo Tooi Basho|‰F’ˆ‚æ‚è‚à‰“‚¢êŠ
-2018/02/15-06:00:01 06 Overlord II -|ƒI[ƒo[ƒ[ƒhII
-2018/02/15-06:00:01 06 Chihayafuru Syuukasen|‚¿‚Í‚â‚Ó‚é G‰Ìï
-2018/02/15-06:00:01 05 Saiki Kusuo no Psi Nan 2|Ä–Ø“í—Y‚Ìƒµ“ï2
-2018/02/13-18:00:02 19 Osomatsu-san|‚¨‚»¼‚³‚ñ2
-2018/02/13-18:00:02 06 Ryuuou no Oshigoto|‚è‚ã‚¤‚¨‚¤‚Ì‚¨‚µ‚²‚ÆI
-2018/02/13-18:00:02 06 Karakai Jouzu no Takagi-san|‚©‚ç‚©‚¢ãè‚Ì‚–Ø‚³‚ñ
-2018/02/13-18:00:02 06 BasiliskF Ouka Ninpouchou|ƒoƒWƒŠƒXƒN `÷‰Ô”E–@’Ÿ`
-2018/02/13-06:00:01 18 Mahou Tsukai no Yome|–‚–@g‚¢‚Ì‰Å
-2018/02/13-06:00:01 06 Zoku Touken Ranbu|‘± “Œ•—•‘-‰ÔŠÛ-
-2018/02/13-06:00:01 06 Mitsuboshi Colors|Oƒc¯ƒJƒ‰[ƒY
-2018/02/13-06:00:01 06 Kokkoku|
-2018/02/13-06:00:01 06 Gakuen Babysitters|Šw‰€ƒxƒr[ƒVƒbƒ^[ƒY
-2018/02/13-06:00:01 06 25-sai no Joshikousei|25Î‚Ì—q‚¶
-2018/02/12-06:00:01 19 Classicaloid 2|ƒNƒ‰ƒVƒJƒƒCƒh2
-2018/02/12-06:00:01 18 Time Bokan - Gyakushuu no San-Okunin|ƒ^ƒCƒ€ƒ{ƒJƒ“ ‹tP‚ÌOˆ«l
+2018/02/16-06:00:01 94 Aikatsu Stars|ã‚¢ã‚¤ã‚«ãƒ„ã‚¹ã‚¿ãƒ¼ã‚ºï¼
+2018/02/16-06:00:01 120 Himitsu no Cocotama|ã‹ã¿ã•ã¾ã¿ãªã‚‰ã„ ãƒ’ãƒŸãƒ„ã®ã“ã“ãŸã¾
+2018/02/16-00:00:01 06 Violet Evergarden|ãƒ´ã‚¡ã‚¤ã‚ªãƒ¬ãƒƒãƒˆãƒ»ã‚¨ãƒ´ã‚¡ãƒ¼ã‚¬ãƒ¼ãƒ‡ãƒ³
+2018/02/16-00:00:01 06 Dame x Prince Anime Caravan|ãƒ€ãƒ¡ãƒ—ãƒª ANIME CARAVAN
+2018/02/15-06:00:01 45 Idol Time PriPara|ã‚¢ã‚¤ãƒ‰ãƒ«ã‚¿ã‚¤ãƒ ãƒ—ãƒªãƒ‘ãƒ©
+2018/02/15-06:00:01 19 Black Clover|ãƒ–ãƒ©ãƒƒã‚¯ã‚¯ãƒ­ãƒ¼ãƒãƒ¼
+2018/02/15-06:00:01 08 Idolish Seven|ã‚¢ã‚¤ãƒ‰ãƒªãƒƒã‚·ãƒ¥ã‚»ãƒ–ãƒ³
+2018/02/15-06:00:01 07 Sora Yori mo Tooi Basho|å®‡å®™ã‚ˆã‚Šã‚‚é ã„å ´æ‰€
+2018/02/15-06:00:01 06 Overlord II -|ã‚ªãƒ¼ãƒãƒ¼ãƒ­ãƒ¼ãƒ‰II
+2018/02/15-06:00:01 06 Chihayafuru Syuukasen|ã¡ã¯ã‚„ãµã‚‹ ç§€æ­Œæ’°
+2018/02/15-06:00:01 05 Saiki Kusuo no Psi Nan 2|æ–‰æœ¨æ¥ é›„ã®Î¨é›£2
+2018/02/13-18:00:02 19 Osomatsu-san|ãŠãæ¾ã•ã‚“2
+2018/02/13-18:00:02 06 Ryuuou no Oshigoto|ã‚Šã‚…ã†ãŠã†ã®ãŠã—ã”ã¨ï¼
+2018/02/13-18:00:02 06 Karakai Jouzu no Takagi-san|ã‹ã‚‰ã‹ã„ä¸Šæ‰‹ã®é«˜æœ¨ã•ã‚“
+2018/02/13-18:00:02 06 Basiliskï¼š Ouka Ninpouchou|ãƒã‚¸ãƒªã‚¹ã‚¯ ã€œæ¡œèŠ±å¿æ³•å¸–ã€œ
+2018/02/13-06:00:01 18 Mahou Tsukai no Yome|é­”æ³•ä½¿ã„ã®å«
+2018/02/13-06:00:01 06 Zoku Touken Ranbu|ç¶š åˆ€å‰£ä¹±èˆ-èŠ±ä¸¸-
+2018/02/13-06:00:01 06 Mitsuboshi Colors|ä¸‰ãƒ„æ˜Ÿã‚«ãƒ©ãƒ¼ã‚º
+2018/02/13-06:00:01 06 Kokkoku|åˆ»åˆ»
+2018/02/13-06:00:01 06 Gakuen Babysitters|å­¦åœ’ãƒ™ãƒ“ãƒ¼ã‚·ãƒƒã‚¿ãƒ¼ã‚º
+2018/02/13-06:00:01 06 25-sai no Joshikousei|25æ­³ã®å¥³å­é«˜ç”Ÿ
+2018/02/12-06:00:01 19 Classicaloid 2|ã‚¯ãƒ©ã‚·ã‚«ãƒ­ã‚¤ãƒ‰2
+2018/02/12-06:00:01 18 Time Bokan - Gyakushuu no San-Okunin|ã‚¿ã‚¤ãƒ ãƒœã‚«ãƒ³ é€†è¥²ã®ä¸‰æ‚ªäºº
 2018/02/12-06:00:01 06 Slow Start|Slow Start
-2018/02/12-06:00:01 06 Sanrio Danshi|ƒTƒ“ƒŠƒI’jq
+2018/02/12-06:00:01 06 Sanrio Danshi|ã‚µãƒ³ãƒªã‚ªç”·å­
 2018/02/12-06:00:01 06 Citrus|citrus
-2018/02/12-06:00:01 05 Darling in the FranXX|ƒ_[ƒŠƒ“EƒCƒ“EƒUEƒtƒ‰ƒ“ƒLƒX
-2018/02/12-06:00:01 04 Hitori no ShitaF The Outcast 2|ˆêl”V‰º the outcast 2
-2018/02/11-12:00:01 06 Cardcaptor Sakura|ƒJ[ƒhƒLƒƒƒvƒ^[‚³‚­‚ç ƒNƒŠƒAƒJ[ƒh•Ò
-2018/02/11-06:00:01 06 Pop Team Epic|ƒ|ƒvƒeƒsƒsƒbƒN
-2018/02/11-00:00:01 06 Toji no Miko|“gƒm›Ş—
-2018/02/11-00:00:01 06 Shinkansen Henkei Robo Shinkalion|VŠ²ü•ÏŒ`ƒƒ{ ƒVƒ“ƒJƒŠƒIƒ“ THE ANIMATION
-2018/02/11-00:00:01 05 Nanatsu no Taizai|µ‚Â‚Ì‘åß ‰ú‚ß‚Ì•œŠˆ
-2018/02/11-00:00:01 05 Hakata Tonkotsu Ramens|”‘½“Øœƒ‰[ƒƒ“ƒY
-2018/02/10-18:00:01 06 Grancrest Senki|ƒOƒ‰ƒ“ƒNƒŒƒXƒgí‹L
-2018/02/10-18:00:01 05 Killing Bites|ƒLƒŠƒ“ƒOƒoƒCƒc
-2018/02/10-18:00:01 05 Hakyuu Houshin Engi|”eâu ••_‰‰‹`
-2018/02/10-18:00:01 05 Hakumei to Mikochi|ƒnƒNƒƒC‚Æƒ~ƒRƒ`
+2018/02/12-06:00:01 05 Darling in the FranXX|ãƒ€ãƒ¼ãƒªãƒ³ãƒ»ã‚¤ãƒ³ãƒ»ã‚¶ãƒ»ãƒ•ãƒ©ãƒ³ã‚­ã‚¹
+2018/02/12-06:00:01 04 Hitori no Shitaï¼š The Outcast 2|ä¸€äººä¹‹ä¸‹ the outcast 2
+2018/02/11-12:00:01 06 Cardcaptor Sakura|ã‚«ãƒ¼ãƒ‰ã‚­ãƒ£ãƒ—ã‚¿ãƒ¼ã•ãã‚‰ ã‚¯ãƒªã‚¢ã‚«ãƒ¼ãƒ‰ç·¨
+2018/02/11-06:00:01 06 Pop Team Epic|ãƒãƒ—ãƒ†ãƒ”ãƒ”ãƒƒã‚¯
+2018/02/11-00:00:01 06 Toji no Miko|åˆ€ä½¿ãƒå·«å¥³
+2018/02/11-00:00:01 06 Shinkansen Henkei Robo Shinkalion|æ–°å¹¹ç·šå¤‰å½¢ãƒ­ãƒœ ã‚·ãƒ³ã‚«ãƒªã‚ªãƒ³ THE ANIMATION
+2018/02/11-00:00:01 05 Nanatsu no Taizai|ä¸ƒã¤ã®å¤§ç½ª æˆ’ã‚ã®å¾©æ´»
+2018/02/11-00:00:01 05 Hakata Tonkotsu Ramens|åšå¤šè±šéª¨ãƒ©ãƒ¼ãƒ¡ãƒ³ã‚º
+2018/02/10-18:00:01 06 Grancrest Senki|ã‚°ãƒ©ãƒ³ã‚¯ãƒ¬ã‚¹ãƒˆæˆ¦è¨˜
+2018/02/10-18:00:01 05 Killing Bites|ã‚­ãƒªãƒ³ã‚°ãƒã‚¤ãƒ„
+2018/02/10-18:00:01 05 Hakyuu Houshin Engi|è¦‡ç©¹ å°ç¥æ¼”ç¾©
+2018/02/10-18:00:01 05 Hakumei to Mikochi|ãƒã‚¯ãƒ¡ã‚¤ã¨ãƒŸã‚³ãƒ
 2018/02/10-18:00:01 05 Beatless|BEATLESS
-2018/02/10-12:00:01 06 Itou Junji|ˆÉ“¡“ñwƒRƒŒƒNƒVƒ‡ƒ“x
-2018/02/10-12:00:01 05 Koi wa Ameagari no You ni|—ö‚Í‰Jã‚ª‚è‚Ì‚æ‚¤‚É
-2018/02/10-06:00:01 06 Yuru Camp|‚ä‚éƒLƒƒƒ“¢
-2018/02/10-06:00:01 06 Ramen Daisuki Koizumi-san|ƒ‰[ƒƒ“‘åD‚«¬ò‚³‚ñ
-2018/02/10-06:00:01 05 Takunomi|‚½‚­‚Ì‚İB
-2018/02/10-06:00:01 05 Mrchen Mdchen|ƒƒ‹ƒwƒ“Eƒƒhƒwƒ“
-2018/02/10-06:00:01 05 Miira no Kaikata|ƒ~ƒCƒ‰‚Ì”‚¢•û
-2018/02/10-06:00:01 05 Death March kara Hajimaru Isekai Kyousoukyoku|ƒfƒXƒ}[ƒ`‚©‚ç‚Í‚¶‚Ü‚éˆÙ¢ŠE‹¶‘z‹È
-2018/02/10-06:00:01 05 Dagashi Kashi 2|‚¾‚ª‚µ‚©‚µ2
-2018/02/05-00:00:01 16 3-gatsu no Lion|3Œ‚Ìƒ‰ƒCƒIƒ“2
+2018/02/10-12:00:01 06 Itou Junji|ä¼Šè—¤æ½¤äºŒã€ã‚³ãƒ¬ã‚¯ã‚·ãƒ§ãƒ³ã€
+2018/02/10-12:00:01 05 Koi wa Ameagari no You ni|æ‹ã¯é›¨ä¸ŠãŒã‚Šã®ã‚ˆã†ã«
+2018/02/10-06:00:01 06 Yuru Camp|ã‚†ã‚‹ã‚­ãƒ£ãƒ³â–³
+2018/02/10-06:00:01 06 Ramen Daisuki Koizumi-san|ãƒ©ãƒ¼ãƒ¡ãƒ³å¤§å¥½ãå°æ³‰ã•ã‚“
+2018/02/10-06:00:01 05 Takunomi|ãŸãã®ã¿ã€‚
+2018/02/10-06:00:01 05 Mrchen Mdchen|ãƒ¡ãƒ«ãƒ˜ãƒ³ãƒ»ãƒ¡ãƒ‰ãƒ˜ãƒ³
+2018/02/10-06:00:01 05 Miira no Kaikata|ãƒŸã‚¤ãƒ©ã®é£¼ã„æ–¹
+2018/02/10-06:00:01 05 Death March kara Hajimaru Isekai Kyousoukyoku|ãƒ‡ã‚¹ãƒãƒ¼ãƒã‹ã‚‰ã¯ã˜ã¾ã‚‹ç•°ä¸–ç•Œç‹‚æƒ³æ›²
+2018/02/10-06:00:01 05 Dagashi Kashi 2|ã ãŒã—ã‹ã—2
+2018/02/05-00:00:01 16 3-gatsu no Lion|3æœˆã®ãƒ©ã‚¤ã‚ªãƒ³2

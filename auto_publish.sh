@@ -20,7 +20,7 @@ POST_FLG=1
 LOG_FILE=${SCRIPT_DIR}/autopub_${DATETIME2}.log
 FLG_FILE=${SCRIPT_DIR}/autopub_running
 
-# bot����Ă΂ꂽ�ꍇ��slack post���Ȃ�
+# botから呼ばれた場合はslack postしない
 if [ "$1" != "" ]; then
   POST_FLG=0
 fi
@@ -60,7 +60,7 @@ rm -f ${RESULT_FILE}
 
 curl -s -S "${URI}" > ${RSS_TEMP}
 xmllint --format ${RSS_TEMP} > ${RSS_XML}
-# URI2 �Ή�(nyaa.si)
+# URI2 対応(nyaa.si)
 curl -s -S "${URI2}" > ${RSS_TEMP2}
 xmllint --format ${RSS_TEMP2} > ${RSS_XML2}
 
@@ -97,7 +97,7 @@ for NAME in "${NAMES[@]}"
 do
   cnt2=1
   hit_flg=0
-  # NAMES_SUB�Ƀ^�C�g�������݂��邩
+  # NAMES_SUBにタイトルが存在するか
   sub_flg=0
   for NAME_SUB in "${NAMES_SUB[@]}"
   do
@@ -154,14 +154,14 @@ do
         DOWNLOADS+=( "${link}" )
         # END Episode
         if [ "`echo \"${title}\" | grep \"END\"`" != "" ]; then
-          EP_COUNT=`find ${DOWNLOAD_DIR}/*"${NAMESJ[${cnt}]}"/ -regextype posix-basic -regex ".*��[^\.]*�b.*" | wc -l`
+          EP_COUNT=`find ${DOWNLOAD_DIR}/*"${NAMESJ[${cnt}]}"/ -regextype posix-basic -regex ".*第[^\.]*話.*" | wc -l`
           (( EP_COUNT++ ))
-          logging "# �I���Ƃ݂���G�s�\�[�h: ${title}"
+          logging "# 終了とみられるエピソード: ${title}"
           if [ ${EPNUM} -eq ${EP_COUNT} ]; then
-            logging "  �����`�F�b�N:OK �����G�s�\�[�h�t�@�C����(.5�b������): ${EP_COUNT} / �ŏI�G�s�\�[�h�ԍ�: ${EPNUM}"
+            logging "  抜けチェック:OK 既存エピソードファイル数(.5話を除く): ${EP_COUNT} / 最終エピソード番号: ${EPNUM}"
             END_EPISODES+=( "${NAMESJ[${cnt}]}" )
           else
-            logging "  �����`�F�b�N:NG �����G�s�\�[�h�t�@�C����(.5�b������): ${EP_COUNT} / �ŏI�G�s�\�[�h�ԍ�: ${EPNUM}"
+            logging "  抜けチェック:NG 既存エピソードファイル数(.5話を除く): ${EP_COUNT} / 最終エピソード番号: ${EPNUM}"
             END_EPISODES_NG+=( "${NAMESJ[${cnt}]}" )
           fi
         fi
@@ -180,7 +180,7 @@ done
 
 cd /data/share/movie/sh
 if [ `cat ${LIST_TEMP} | wc -l` -ne `cat ${LIST_FILE} | wc -l` ]; then
-  slack_post "@here !!! ���X�g�s�����ω����܂����B checklist.txt �̃R�~�b�g���O���m�F���Ă������� "
+  slack_post "@here !!! リスト行数が変化しました。 checklist.txt のコミットログを確認してください "
 fi
 cat ${LIST_TEMP} | sort -r > ${LIST_FILE}
 git commit -m 'checklist.txt update' checklist.txt
@@ -225,7 +225,7 @@ rm *.torrent
 /data/share/movie/sh/mre.sh
 
 logging "renamed movie files:"
-ls *�b.mp4 >> ${LOG_FILE}
+ls *話.mp4 >> ${LOG_FILE}
 
 # auto encode
 logging "### auto encode start."
@@ -246,7 +246,7 @@ if [ "${ENDLIST_FILE}" = "" ]; then
 fi
 
 if [ ${#END_EPISODES[@]} -ne 0 ]; then
-  post_mes_end="# �I���Ƃ݂���ԑg�ŁA�����`�F�b�NOK�̂��߁A�I�����X�g�ɒǉ�/�`�F�b�N���X�g����폜
+  post_mes_end="# 終了とみられる番組で、抜けチェックOKのため、終了リストに追加/チェックリストから削除
 \`\`\`"
   for END_EPISODE in "${END_EPISODES[@]}"
   do
@@ -268,7 +268,7 @@ ${END_EPISODE}"
 fi
 
 if [ ${#END_EPISODES_NG[@]} -ne 0 ]; then
-  post_mes_end="@channel �I���Ƃ݂���ԑg�ŁA�����`�F�b�NNG�̂��߁A�I�����X�g�ɂ̂ݒǉ�(�v �����`�F�b�N)
+  post_mes_end="@channel 終了とみられる番組で、抜けチェックNGのため、終了リストにのみ追加(要 抜けチェック)
 \`\`\`"
   for END_EPISODE_NG in "${END_EPISODES_NG[@]}"
   do

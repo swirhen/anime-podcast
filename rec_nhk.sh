@@ -86,12 +86,12 @@ kill ${pid}
 
 #ffmpeg -loglevel quiet -y -i "/tmp/${channel}_${date}" -acodec copy "${outdir}/${PREFIX}_${date}.m4a"
 #ffmpeg -loglevel quiet -y -i "/tmp/${channel}_${date}" -acodec libmp3lame -ab 128k "${outdir}/${PREFIX}_${date}.mp3"
-/usr/bin/wine ffmpeg.exe -y -i "/data/tmp/${channel}_${date}" -acodec copy "/data/share/movie/98 PSP—p/agqr/${PREFIX}_`date +%Y%m%d-%H%M`.m4a"
+/usr/bin/wine ffmpeg.exe -y -i "/data/tmp/${channel}_${date}" -acodec copy "/data/share/movie/98 PSPç”¨/agqr/${PREFIX}_`date +%Y%m%d-%H%M`.m4a"
 
 if [ $? = 0 ]; then
   rm -f "/data/tmp/${channel}_${date}"
 fi
 
-# rssƒtƒB[ƒh¶¬ƒVƒFƒ‹
-/home/swirhen/share/movie/sh/mmmpc.sh agqr "’´IA&G(+ƒ¿)"
-/home/swirhen/share/movie/sh/mmmpc2.sh agqr "’´IA&G(+ƒ¿)"
+# rssãƒ•ã‚£ãƒ¼ãƒ‰ç”Ÿæˆã‚·ã‚§ãƒ«
+/home/swirhen/share/movie/sh/mmmpc.sh agqr "è¶…ï¼A&G(+Î±)"
+/home/swirhen/share/movie/sh/mmmpc2.sh agqr "è¶…ï¼A&G(+Î±)"

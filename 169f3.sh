@@ -1,28 +1,28 @@
 #!/usr/bin/env zsh
-# “®‰æƒGƒ“ƒR[ƒh—pƒVƒFƒ‹
-# Às‚µ‚½ƒfƒBƒŒƒNƒgƒŠ‚É‘¶İ‚·‚éƒVƒŠ[ƒYŒn“®‰æ(*˜b*.mp4“™)
-# ‚ğ‚·‚×‚ÄƒGƒ“ƒR[ƒh‚µAƒtƒB[ƒh‚ğXVATwitter‚É’m‚·‚é
+# å‹•ç”»ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‰ç”¨ã‚·ã‚§ãƒ«
+# å®Ÿè¡Œã—ãŸãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã«å­˜åœ¨ã™ã‚‹ã‚·ãƒªãƒ¼ã‚ºç³»å‹•ç”»(*è©±*.mp4ç­‰)
+# ã‚’ã™ã¹ã¦ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‰ã—ã€ãƒ•ã‚£ãƒ¼ãƒ‰ã‚’æ›´æ–°ã€Twitterã«å‘ŠçŸ¥ã™ã‚‹
 # usage 169f.sh [priority file]
-# Á¸ƒtƒ@ƒCƒ‹ÄƒGƒ“ƒR—p—ÕƒVƒFƒ‹
+# æ¶ˆå¤±ãƒ•ã‚¡ã‚¤ãƒ«å†ã‚¨ãƒ³ã‚³ç”¨è‡¨æ™‚ã‚·ã‚§ãƒ«
 PYTHON_PATH="python3"
 source /home/swirhen/.zshrc
 cd /data/share/movie/95\ recover
 (
 IFS=$'\n';
-for a in `ls -t *˜b*.(avi|mp4|mkv|wmv)`
+for a in `ls -t *è©±*.(avi|mp4|mkv|wmv)`
 do
   if [ -f "$a" ]; then
     error=0
-    until [ -f "/data/share/movie/98 PSP—p/$a.mp4" ];
+    until [ -f "/data/share/movie/98 PSPç”¨/$a.mp4" ];
     do
       error=`expr $error + 1`
       if [ $error -gt 10 ]; then
         break;
       fi
-      /data/share/movie/sh/169mp44.sh "$a" "/data/share/movie/98 PSP—p/"
+      /data/share/movie/sh/169mp44.sh "$a" "/data/share/movie/98 PSPç”¨/"
     done
     time=`stat "${a}" | grep Modify | awk '{ print $2,$3 }'`
-    touch -t "${time:0:4}${time:5:2}${time:8:2}${time:11:2}${time:14:2}.${time:17:2}" "/data/share/movie/98 PSP—p/${a}.mp4"
+    touch -t "${time:0:4}${time:5:2}${time:8:2}${time:11:2}${time:14:2}.${time:17:2}" "/data/share/movie/98 PSPç”¨/${a}.mp4"
     /data/share/movie/sh/mmv.sh "$a"
     /data/share/movie/sh/mmpc.sh
   fi
