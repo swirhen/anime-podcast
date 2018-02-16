@@ -1,1 +1,1 @@
-/data/share/movie/sh/mmmpc.sh agqr "í¥ÅIA&G(+Éø)"
+/data/share/movie/sh/mmmpc.sh agqr "Ë∂ÖÔºÅA&G(+Œ±)"

@@ -112,13 +112,13 @@ def cond_print(str):
 # Title string normalization
 def title_string_norm(title):
 	title_s = unicode(title.decode('utf-8', 'ignore'))
-	for title_p in [u']ƒjƒRƒjƒR“®‰æ(SP1)',
-			u']ƒjƒRƒjƒR“®‰æ(‰Ä)',
-			u']ƒjƒRƒjƒR“®‰æ(H)', # as of Oct 2008
-			u']ƒjƒRƒjƒR“®‰æ(“~)', # as of 5 Dec 2008
-			u']ƒjƒRƒjƒR“®‰æ(ƒÀƒÀ)', # as of 12 Dec 2008
-			u']ƒjƒRƒjƒR“®‰æ(9)', # as of 29 Oct 2009
-			u'] ƒjƒRƒjƒR“®‰æ(Œ´h)', # as of 29 Oct 2010
+	for title_p in [u'â€ãƒ‹ã‚³ãƒ‹ã‚³å‹•ç”»(SP1)',
+			u'â€ãƒ‹ã‚³ãƒ‹ã‚³å‹•ç”»(å¤)',
+			u'â€ãƒ‹ã‚³ãƒ‹ã‚³å‹•ç”»(ç§‹)', # as of Oct 2008
+			u'â€ãƒ‹ã‚³ãƒ‹ã‚³å‹•ç”»(å†¬)', # as of 5 Dec 2008
+			u'â€ãƒ‹ã‚³ãƒ‹ã‚³å‹•ç”»(Î²Î²)', # as of 12 Dec 2008
+			u'â€ãƒ‹ã‚³ãƒ‹ã‚³å‹•ç”»(9)', # as of 29 Oct 2009
+			u'â€ ãƒ‹ã‚³ãƒ‹ã‚³å‹•ç”»(åŸå®¿)', # as of 29 Oct 2010
 			]:
 		if (title_s.endswith(title_p)):
 			title_s = title_s[:title_s.rfind(title_p)]
