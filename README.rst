@@ -1,5 +1,5 @@
 ============
-みんな集まれ
+JOIN US
 ============
 
 http://anime-podcast.g.hatena.ne.jp/
