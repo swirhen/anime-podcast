@@ -1,5 +1,5 @@
-Last Update: 2018/02/21-19:31:27
-2018/02/21-19:31:27 1 http://ch.nicovideo.jp/roommate/video ルームメイト * 12 第 回 
+Last Update: 2018/02/21-19:35:26
+2018/02/21-19:35:26 2 http://ch.nicovideo.jp/roommate/video ルームメイト * 12 第 回 
 2018/02/21-00:00:01 93 http://ch.nicovideo.jp/dereradi/video デレラジ * 03 第 回 s/「\\(デレラジ☆(スター)\\).*\\(第[0-9]\\+回\\).*/\\1 \\2\\"/
 2018/02/16-18:00:01 30 http://ch.nicovideo.jp/marikuwa/video コタツあそび * 11 第 回 
 2018/02/16-18:00:01 247 http://ch.nicovideo.jp/MillionRADIO/video 回おまけ放送】 * 09 第 回 
