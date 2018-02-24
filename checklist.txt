@@ -1,4 +1,11 @@
-Last Update: 2018/02/24-18:00:01
+Last Update: 2018/02/25-00:00:01
+2018/02/25-00:00:01 08 Toji no Miko|刀使ノ巫女
+2018/02/25-00:00:01 08 Grancrest Senki|グランクレスト戦記
+2018/02/25-00:00:01 07 Killing Bites|キリングバイツ
+2018/02/25-00:00:01 07 Hakumei to Mikochi|ハクメイとミコチ
+2018/02/25-00:00:01 07 Hakata Tonkotsu Ramens|博多豚骨ラーメンズ
+2018/02/25-00:00:01 06.5 Hakyuu Houshin Engi|覇穹 封神演義
+2018/02/25-00:00:01 06 Beatless|BEATLESS
 2018/02/24-06:00:01 08 Itou Junji|伊藤潤二『コレクション』
 2018/02/24-06:00:01 07 Takunomi|たくのみ。
 2018/02/24-06:00:01 07 Miira no Kaikata|ミイラの飼い方
@@ -32,19 +39,12 @@ Last Update: 2018/02/24-18:00:01
 2018/02/19-06:00:01 07 Slow Start|Slow Start
 2018/02/19-06:00:01 07 Sanrio Danshi|サンリオ男子
 2018/02/19-06:00:01 07 Citrus|citrus
-2018/02/19-06:00:01 06 Hakumei to Mikochi|ハクメイとミコチ
 2018/02/19-06:00:01 06 Darling in the FranXX|ダーリン・イン・ザ・フランキス
 2018/02/19-06:00:01 05 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
 2018/02/18-12:00:01 20 Classicaloid 2|クラシカロイド2
 2018/02/18-12:00:01 07 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/02/18-12:00:01 07 Cardcaptor Sakura|カードキャプターさくら クリアカード編
 2018/02/18-12:00:01 06 Nanatsu no Taizai|七つの大罪 戒めの復活
-2018/02/18-06:00:01 07 Toji no Miko|刀使ノ巫女
 2018/02/18-06:00:01 07 Pop Team Epic|ポプテピピック
-2018/02/18-06:00:01 07 Grancrest Senki|グランクレスト戦記
-2018/02/18-06:00:01 06 Hakyuu Houshin Engi|覇穹 封神演義
-2018/02/18-06:00:01 06 Hakata Tonkotsu Ramens|博多豚骨ラーメンズ
-2018/02/18-00:00:01 06 Killing Bites|キリングバイツ
-2018/02/18-00:00:01 05.5 Beatless|BEATLESS
 2018/02/10-06:00:01 05 Mrchen Mdchen|メルヘン・メドヘン
 2018/02/05-00:00:01 16 3-gatsu no Lion|3月のライオン2
