@@ -1,4 +1,13 @@
-Last Update: 2018/03/12-00:00:01
+Last Update: 2018/03/12-06:00:01
+2018/03/12-06:00:01 10 Toji no Miko|刀使ノ巫女
+2018/03/12-06:00:01 10 Itou Junji|伊藤潤二『コレクション』
+2018/03/12-06:00:01 10 Grancrest Senki|グランクレスト戦記
+2018/03/12-06:00:01 09 Nanatsu no Taizai|七つの大罪 戒めの復活
+2018/03/12-06:00:01 09 Killing Bites|キリングバイツ
+2018/03/12-06:00:01 09 Hakumei to Mikochi|ハクメイとミコチ
+2018/03/12-06:00:01 09 Hakata Tonkotsu Ramens|博多豚骨ラーメンズ
+2018/03/12-06:00:01 08 Hakyuu Houshin Engi|覇穹 封神演義
+2018/03/12-06:00:01 08 Beatless|BEATLESS
 2018/03/11-12:00:01 10 Cardcaptor Sakura|カードキャプターさくら クリアカード編
 2018/03/11-06:00:01 10 Pop Team Epic|ポプテピピック
 2018/03/10-12:00:01 10 Yuru Camp|ゆるキャン△
@@ -36,16 +45,7 @@ Last Update: 2018/03/12-00:00:01
 2018/03/05-06:00:01 09 Slow Start|Slow Start
 2018/03/05-06:00:01 09 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/03/05-06:00:01 09 Sanrio Danshi|サンリオ男子
-2018/03/05-06:00:01 08 Nanatsu no Taizai|七つの大罪 戒めの復活
 2018/03/05-06:00:01 08 Darling in the FranXX|ダーリン・イン・ザ・フランキス
 2018/03/05-06:00:01 07 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
-2018/03/04-00:00:01 09 Toji no Miko|刀使ノ巫女
-2018/03/04-00:00:01 09 Itou Junji|伊藤潤二『コレクション』
-2018/03/04-00:00:01 09 Grancrest Senki|グランクレスト戦記
-2018/03/04-00:00:01 08 Killing Bites|キリングバイツ
-2018/03/04-00:00:01 08 Hakumei to Mikochi|ハクメイとミコチ
-2018/03/04-00:00:01 08 Hakata Tonkotsu Ramens|博多豚骨ラーメンズ
-2018/03/04-00:00:01 07 Hakyuu Houshin Engi|覇穹 封神演義
-2018/03/04-00:00:01 07 Beatless|BEATLESS
 2018/02/10-06:00:01 05 Mrchen Mdchen|メルヘン・メドヘン
 0 06 Fate - Extra Last Encore|Fate／EXTRA Last Encore
