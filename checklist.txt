@@ -1,4 +1,15 @@
-Last Update: 2018/03/12-18:00:01
+Last Update: 2018/03/13-00:00:01
+2018/03/13-00:00:01 23 Classicaloid 2|クラシカロイド2
+2018/03/13-00:00:01 22 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
+2018/03/13-00:00:01 22 Mahou Tsukai no Yome|魔法使いの嫁
+2018/03/13-00:00:01 18 3-gatsu no Lion|3月のライオン2
+2018/03/13-00:00:01 10 Slow Start|Slow Start
+2018/03/13-00:00:01 10 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2018/03/13-00:00:01 10 Sanrio Danshi|サンリオ男子
+2018/03/13-00:00:01 10 Citrus|citrus
+2018/03/13-00:00:01 09 Darling in the FranXX|ダーリン・イン・ザ・フランキス
+2018/03/13-00:00:01 08 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
+2018/03/13-00:00:01 07 Fate - Extra Last Encore|Fate／EXTRA Last Encore
 2018/03/12-06:00:01 10 Toji no Miko|刀使ノ巫女
 2018/03/12-06:00:01 10 Itou Junji|伊藤潤二『コレクション』
 2018/03/12-06:00:01 10 Grancrest Senki|グランクレスト戦記
@@ -32,20 +43,9 @@ Last Update: 2018/03/12-18:00:01
 2018/03/07-18:00:01 22 Osomatsu-san|おそ松さん2
 2018/03/07-18:00:01 09 Ryuuou no Oshigoto|りゅうおうのおしごと！
 2018/03/07-18:00:01 09 Karakai Jouzu no Takagi-san|からかい上手の高木さん
-2018/03/07-18:00:01 09 Citrus|citrus
 2018/03/07-00:00:01 09 Zoku Touken Ranbu|続 刀剣乱舞-花丸-
 2018/03/07-00:00:01 09 Mitsuboshi Colors|三ツ星カラーズ
 2018/03/07-00:00:01 09 Kokkoku|刻刻
 2018/03/07-00:00:01 09 Gakuen Babysitters|学園ベビーシッターズ
 2018/03/07-00:00:01 09 25-sai no Joshikousei|25歳の女子高生
-2018/03/05-06:00:01 22 Classicaloid 2|クラシカロイド2
-2018/03/05-06:00:01 21 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
-2018/03/05-06:00:01 21 Mahou Tsukai no Yome|魔法使いの嫁
-2018/03/05-06:00:01 17 3-gatsu no Lion|3月のライオン2
-2018/03/05-06:00:01 09 Slow Start|Slow Start
-2018/03/05-06:00:01 09 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
-2018/03/05-06:00:01 09 Sanrio Danshi|サンリオ男子
-2018/03/05-06:00:01 08 Darling in the FranXX|ダーリン・イン・ザ・フランキス
-2018/03/05-06:00:01 07 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
 2018/02/10-06:00:01 05 Mrchen Mdchen|メルヘン・メドヘン
-0 06 Fate - Extra Last Encore|Fate／EXTRA Last Encore
