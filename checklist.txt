@@ -1,4 +1,15 @@
-Last Update: 2018/03/19-00:00:01
+Last Update: 2018/03/19-06:00:01
+2018/03/19-06:00:01 24 Classicaloid 2|クラシカロイド2
+2018/03/19-06:00:01 23 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
+2018/03/19-06:00:01 23 Mahou Tsukai no Yome|魔法使いの嫁
+2018/03/19-06:00:01 19 3-gatsu no Lion|3月のライオン2
+2018/03/19-06:00:01 11 Slow Start|Slow Start
+2018/03/19-06:00:01 11 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2018/03/19-06:00:01 11 Sanrio Danshi|サンリオ男子
+2018/03/19-06:00:01 11 Citrus|citrus
+2018/03/19-06:00:01 10 Darling in the FranXX|ダーリン・イン・ザ・フランキス
+2018/03/19-06:00:01 09 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
+2018/03/19-06:00:01 08 Fate - Extra Last Encore|Fate／EXTRA Last Encore
 2018/03/18-12:00:01 124 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
 2018/03/18-12:00:01 11 Toji no Miko|刀使ノ巫女
 2018/03/18-12:00:01 11 Cardcaptor Sakura|カードキャプターさくら クリアカード編
@@ -37,15 +48,4 @@ Last Update: 2018/03/19-00:00:01
 2018/03/13-12:00:01 10 Kokkoku|刻刻
 2018/03/13-12:00:01 10 Gakuen Babysitters|学園ベビーシッターズ
 2018/03/13-12:00:01 10 25-sai no Joshikousei|25歳の女子高生
-2018/03/13-00:00:01 23 Classicaloid 2|クラシカロイド2
-2018/03/13-00:00:01 22 Time Bokan - Gyakushuu no San-Okunin|タイムボカン 逆襲の三悪人
-2018/03/13-00:00:01 22 Mahou Tsukai no Yome|魔法使いの嫁
-2018/03/13-00:00:01 18 3-gatsu no Lion|3月のライオン2
-2018/03/13-00:00:01 10 Slow Start|Slow Start
-2018/03/13-00:00:01 10 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
-2018/03/13-00:00:01 10 Sanrio Danshi|サンリオ男子
-2018/03/13-00:00:01 10 Citrus|citrus
-2018/03/13-00:00:01 09 Darling in the FranXX|ダーリン・イン・ザ・フランキス
-2018/03/13-00:00:01 08 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
-2018/03/13-00:00:01 07 Fate - Extra Last Encore|Fate／EXTRA Last Encore
 2018/02/10-06:00:01 05 Mrchen Mdchen|メルヘン・メドヘン
