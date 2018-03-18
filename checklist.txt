@@ -1,4 +1,10 @@
-Last Update: 2018/03/18-06:00:01
+Last Update: 2018/03/18-12:00:01
+2018/03/18-12:00:01 124 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
+2018/03/18-12:00:01 11 Toji no Miko|刀使ノ巫女
+2018/03/18-12:00:01 11 Cardcaptor Sakura|カードキャプターさくら クリアカード編
+2018/03/18-12:00:01 10 Nanatsu no Taizai|七つの大罪 戒めの復活
+2018/03/18-12:00:01 10 Hakumei to Mikochi|ハクメイとミコチ
+2018/03/18-12:00:01 10 Hakata Tonkotsu Ramens|博多豚骨ラーメンズ
 2018/03/18-06:00:01 11 Pop Team Epic|ポプテピピック
 2018/03/18-00:00:02 98 Aikatsu Stars|アイカツスターズ！
 2018/03/18-00:00:02 11 Yuru Camp|ゆるキャン△
@@ -42,10 +48,4 @@ Last Update: 2018/03/18-06:00:01
 2018/03/13-00:00:01 09 Darling in the FranXX|ダーリン・イン・ザ・フランキス
 2018/03/13-00:00:01 08 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
 2018/03/13-00:00:01 07 Fate - Extra Last Encore|Fate／EXTRA Last Encore
-2018/03/12-06:00:01 10 Toji no Miko|刀使ノ巫女
-2018/03/12-06:00:01 09 Nanatsu no Taizai|七つの大罪 戒めの復活
-2018/03/12-06:00:01 09 Hakumei to Mikochi|ハクメイとミコチ
-2018/03/12-06:00:01 09 Hakata Tonkotsu Ramens|博多豚骨ラーメンズ
-2018/03/11-12:00:01 10 Cardcaptor Sakura|カードキャプターさくら クリアカード編
-2018/03/09-18:00:01 123 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
 2018/02/10-06:00:01 05 Mrchen Mdchen|メルヘン・メドヘン
