@@ -1,4 +1,7 @@
-Last Update: 2018/04/01-00:00:01
+Last Update: 2018/04/01-06:00:01
+2018/04/01-06:00:01 13 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2018/04/01-06:00:01 12 Nanatsu no Taizai|七つの大罪 戒めの復活
+2018/04/01-06:00:01 12 Darling in the FranXX|ダーリン・イン・ザ・フランキス
 2018/04/01-00:00:01 12.5 Toji no Miko|刀使ノ巫女
 2018/03/30-18:00:01 126 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
 2018/03/30-06:00:01 12 Violet Evergarden|ヴァイオレット・エヴァーガーデン
@@ -8,9 +11,6 @@ Last Update: 2018/04/01-00:00:01
 2018/03/28-18:00:01 11 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
 2018/03/28-06:00:01 12 Basilisk： Ouka Ninpouchou|バジリスク ～桜花忍法帖～
 2018/03/27-06:00:01 20 3-gatsu no Lion|3月のライオン2
-2018/03/27-06:00:01 11 Darling in the FranXX|ダーリン・イン・ザ・フランキス
 2018/03/27-06:00:01 10 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
-2018/03/26-06:00:01 12 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
-2018/03/26-06:00:01 11 Nanatsu no Taizai|七つの大罪 戒めの復活
 2018/03/26-06:00:01 09 Fate - Extra Last Encore|Fate／EXTRA Last Encore
 2018/03/25-12:00:01 12 Cardcaptor Sakura|カードキャプターさくら クリアカード編
