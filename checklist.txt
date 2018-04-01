@@ -1,4 +1,6 @@
-Last Update: 2018/04/01-12:00:01
+Last Update: 2018/04/01-18:00:01
+2018/04/01-18:00:01 22 3-gatsu no Lion|3月のライオン2
+2018/04/01-18:00:01 10 Fate - Extra Last Encore|Fate／EXTRA Last Encore
 2018/04/01-12:00:01 12.5 Cardcaptor Sakura|カードキャプターさくら クリアカード編
 2018/04/01-06:00:01 13 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/04/01-06:00:01 12 Nanatsu no Taizai|七つの大罪 戒めの復活
@@ -11,6 +13,4 @@ Last Update: 2018/04/01-12:00:01
 2018/03/28-18:00:01 14 Idolish Seven|アイドリッシュセブン
 2018/03/28-18:00:01 11 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
 2018/03/28-06:00:01 12 Basilisk： Ouka Ninpouchou|バジリスク ～桜花忍法帖～
-2018/03/27-06:00:01 20 3-gatsu no Lion|3月のライオン2
 2018/03/27-06:00:01 10 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
-2018/03/26-06:00:01 09 Fate - Extra Last Encore|Fate／EXTRA Last Encore
