@@ -244,7 +244,6 @@ do
     fi
 
     if [[ ${title} =~ -\ 01\ RAW ]]; then
-        new_hit_flg=1
         link=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
         TITLE_EN=`echo ${title} | sed "s/\[Leopard-Raws\]\ \(.*\)\ -\ 01\ RAW.*/\1/"`
         DL_HASH=`echo ${link} | sed "s/.*hash=\(.*\)/\1/"`
@@ -255,6 +254,7 @@ do
         fi
 
         if [ "`grep "${TITLE_JA}" ${NEW_PROGRAM_FILE}`" = "" ]; then
+            new_hit_flg=1
             echo "${DATETIME} 0 ${TITLE_EN}|${TITLE_JA}" >> ${LIST_TEMP}
             echo "${DATETIME} 0 ${TITLE_EN}|${TITLE_JA}" >> ${LIST_FILE}
             echo "${TITLE_JA} (${TITLE_EN})" >> ${NEW_RESULT_FILE}
