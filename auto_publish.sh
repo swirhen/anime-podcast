@@ -282,6 +282,7 @@ if [ `cat ${LIST_TEMP} | wc -l` -ne `cat ${LIST_FILE} | wc -l` ]; then
 fi
 cat ${LIST_TEMP} | sort -r > ${LIST_FILE}
 git commit -m 'checklist.txt update' checklist.txt
+git commit -m 'new_program.txt update' new_program.txt
 git pull
 git push origin master
 
