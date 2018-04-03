@@ -1,4 +1,7 @@
-Last Update: 2018/04/03-06:00:01
+Last Update: 2018/04/03-12:00:01
+2018/04/03-12:00:01 09 Hugtto! Precure|HuGっと! プリキュア
+2018/04/03-12:00:01 01 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
+2018/04/03-12:00:01 01 Duel Masters!|デュエル・マスターズ！
 2018/04/02-18:00:01 11 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
 2018/04/01-12:00:01 12.5 Cardcaptor Sakura|カードキャプターさくら クリアカード編
 2018/04/01-06:00:01 13 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
@@ -12,4 +15,3 @@ Last Update: 2018/04/03-06:00:01
 2018/03/28-18:00:01 14 Idolish Seven|アイドリッシュセブン
 2018/03/28-18:00:01 11 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
 2018/03/28-06:00:01 12 Basilisk： Ouka Ninpouchou|バジリスク ～桜花忍法帖～
-0 08 Hugtto! Precure|HuGっと! プリキュア
