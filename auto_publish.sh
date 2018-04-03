@@ -19,6 +19,56 @@ CHANNEL="bot-open"
 POST_FLG=1
 LOG_FILE=${SCRIPT_DIR}/autopub_${DATETIME2}.log
 FLG_FILE=${SCRIPT_DIR}/autopub_running
+LEOPARD_INDEX=${SCRIPT_DIR}/leopard_index.html
+#TITLE_EN_LIST_FILE=${SCRIPT_DIR}/title_en.list
+#TITLE_JA_LIST_FILE=${SCRIPT_DIR}/title_ja.list
+INDEX_GET=0
+NEW_RESULT_FILE=${SCRIPT_DIR}/new_program.txt
+
+get_ja_title_list() {
+#    ARG_TITLE_EN="$1"
+#
+#    # 日本語名対応リスト作成
+#    if [ ${ENJA_LIST_GET} -eq 0 ]; then
+#        curl -s -S "http://jp.leopard-raws.org/" > ${LEOPARD_INDEX}
+#        cat ${LEOPARD_INDEX} | grep -A 1 "/?search" | grep "のRSS" | sed "s/.*='\(.*\)のRSS.*/\1/" > ${TITLE_EN_LIST_FILE}
+#        cat ${LEOPARD_INDEX} | grep "/?search" | sed "s/.*>\(.*\)<.*/\1/" > ${TITLE_JA_LIST_FILE}
+#
+#        TITLE_EN_LIST=()
+#        TITLE_JA_LIST=()
+#        while read TITLE_EN
+#        do
+#            TITLE_EN_LIST+=( "${TITLE_EN}" )
+#        done < ${TITLE_EN_LIST_FILE}
+#
+#        while read TITLE_JA
+#        do
+#            TITLE_JA_LIST+=( "${TITLE_JA}" )
+#        done < ${TITLE_JA_LIST_FILE}
+#
+#        ENJA_LIST_GET=1
+#    fi
+#    i=0
+#    for TITLE_EN in "${TITLE_EN_LIST[@]}"
+#    do
+#        # if [[ ${TITLE_EN} =~ ${ARG_TITLE_EN} ]]; then
+#        if [ "${TITLE_EN}" = "${ARG_TITLE_EN}" ]; then
+#          echo "${TITLE_JA_LIST[${i}]}"
+#          break
+#        fi
+#        (( i++ ))
+#    done
+
+    DL_HASH=$1
+    if [ ${INDEX_GET} -eq 0 ]; then
+        curl -s -S "http://jp.leopard-raws.org/" > ${LEOPARD_INDEX}
+        INDEX_GET=1
+    fi
+
+    TITLE_JA="`cat ${LEOPARD_INDEX} | grep "${DL_HASH}" | head -1 | sed "s/.*>\(.*\)\ -\ .*/\1/"`"
+
+    echo "${TITLE_JA}"
+}
 
 # botから呼ばれた場合はslack postしない
 if [ "$1" != "" ]; then
@@ -116,12 +166,11 @@ do
       break
     fi
     if [ "`echo \"${title}\" | grep \"\.ts\"`" != "" ]; then
-      break
+      continue
     fi
 
     link=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
     link2=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML2}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
-
 
     # fetch
     fetch_flg=0
@@ -177,6 +226,49 @@ do
   fi
   (( cnt++ ))
 done
+
+# 新番組1話対応(Leopardのみ)
+cnt2=1
+new_hit_flg=0
+rm -f ${NEW_RESULT_FILE}
+while :
+do
+    title=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep title | sed "s#<title>\(.*\)</title>#\1#" | sed "s/^      //"`
+    # feed end
+    if [ "${title}" = "" ]; then
+      break
+    fi
+    if [ "`echo \"${title}\" | grep \"\.ts\"`" != "" ]; then
+      continue
+    fi
+
+    if [[ ${title} =~ -\ 01\ RAW ]]; then
+        new_hit_flg=1
+        link=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
+        TITLE_EN=`echo ${title} | sed "s/\[Leopard-Raws\]\ \(.*\)\ -\ 01\ RAW.*/\1/"`
+        DL_HASH=`echo ${link} | sed "s/.*hash=\(.*\)/\1/"`
+        TITLE_JA=`get_ja_title_list "${DL_HASH}"`
+
+        if [ "${TITLE_JA}" = "" ]; then
+            TITLE_JA="${TITLE_EN}"
+        fi
+
+        echo "${DATETIME} 01 ${TITLE_EN}|${TITLE_JA}" >> ${LIST_TEMP}
+        echo "${DATETIME} 01 ${TITLE_EN}|${TITLE_JA}" >> ${LIST_FILE}
+        echo "${TITLE_JA} (${TITLE_EN})" >> ${NEW_RESULT_FILE}
+        mkdir -p "${DOWNLOAD_DIR}/${TITLE_JA}"
+    fi
+    (( cnt2++ ))
+done
+
+if [ ${new_hit_flg} -eq 1 ]; then
+    post_msg="@here 新番組検知！
+\`\`\`
+`cat ${NEW_RESULT_FILE}`
+\`\`\`"
+    logging "${post_msg}"
+    slack_post "${post_msg}"
+fi
 
 cd /data/share/movie/sh
 if [ `cat ${LIST_TEMP} | wc -l` -ne `cat ${LIST_FILE} | wc -l` ]; then
