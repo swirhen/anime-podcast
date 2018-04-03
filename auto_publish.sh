@@ -23,7 +23,8 @@ LEOPARD_INDEX=${SCRIPT_DIR}/leopard_index.html
 #TITLE_EN_LIST_FILE=${SCRIPT_DIR}/title_en.list
 #TITLE_JA_LIST_FILE=${SCRIPT_DIR}/title_ja.list
 INDEX_GET=0
-NEW_RESULT_FILE=${SCRIPT_DIR}/new_program.txt
+NEW_RESULT_FILE=${SCRIPT_DIR}/new_program_result.txt
+NEW_PROGRAM_FILE=${SCRIPT_DIR}/new_program.txt
 
 get_ja_title_list() {
 #    ARG_TITLE_EN="$1"
@@ -253,16 +254,21 @@ do
             TITLE_JA="${TITLE_EN}"
         fi
 
-        echo "${DATETIME} 01 ${TITLE_EN}|${TITLE_JA}" >> ${LIST_TEMP}
-        echo "${DATETIME} 01 ${TITLE_EN}|${TITLE_JA}" >> ${LIST_FILE}
-        echo "${TITLE_JA} (${TITLE_EN})" >> ${NEW_RESULT_FILE}
-        mkdir -p "${DOWNLOAD_DIR}/${TITLE_JA}"
+        if [ "`grep "${TITLE_JA}" ${NEW_PROGRAM_FILE}`" = "" ]; then
+            echo "${DATETIME} 0 ${TITLE_EN}|${TITLE_JA}" >> ${LIST_TEMP}
+            echo "${DATETIME} 0 ${TITLE_EN}|${TITLE_JA}" >> ${LIST_FILE}
+            echo "${TITLE_JA} (${TITLE_EN})" >> ${NEW_RESULT_FILE}
+            echo "${TITLE_JA}" >> ${NEW_PROGRAM_FILE}
+            mkdir -p "${DOWNLOAD_DIR}/${TITLE_JA}"
+        fi
     fi
     (( cnt2++ ))
 done
 
 if [ ${new_hit_flg} -eq 1 ]; then
     post_msg="@here 新番組検知！
+リストに追加されたので、次回ダウンロード対象となります
+対象外にする場合は、リストから削除、保存ディレクトリを削除してください
 \`\`\`
 `cat ${NEW_RESULT_FILE}`
 \`\`\`"
