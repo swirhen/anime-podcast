@@ -1,4 +1,7 @@
-Last Update: 2018/04/05-00:00:02
+Last Update: 2018/04/05-06:00:01
+2018/04/05-06:00:01 26 Black Clover|ブラッククローバー
+2018/04/05-06:00:01 0 Kakuriyo no Yadomeshi|かくりよの宿飯
+2018/04/05-06:00:01 0 Gundam Build Divers|ガンダムビルドダイバーズ
 2018/04/05-00:00:02 01 Uchuu Senkan Tiramisu|宇宙戦艦ティラミス
 2018/04/05-00:00:02 01 Captain Tsubasa (2018)|キャプテン翼
 2018/04/04-12:00:01 02 Uma Musume： Pretty Derby|ウマ娘 プリティーダービー
@@ -16,6 +19,5 @@ Last Update: 2018/04/05-00:00:02
 2018/03/30-18:00:01 126 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
 2018/03/30-06:00:01 12 Violet Evergarden|ヴァイオレット・エヴァーガーデン
 2018/03/29-06:00:01 12 Overlord II -|オーバーロードII
-2018/03/28-18:00:01 25 Black Clover|ブラッククローバー
 2018/03/28-18:00:01 14 Idolish Seven|アイドリッシュセブン
 2018/03/28-18:00:01 11 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
