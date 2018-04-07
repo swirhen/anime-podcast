@@ -1,4 +1,8 @@
-Last Update: 2018/04/08-00:00:01
+Last Update: 2018/04/08-06:00:02
+2018/04/08-06:00:02 13 Toji no Miko|刀使ノ巫女
+2018/04/08-06:00:02 0 Hinamatsuri|ヒナまつり
+2018/04/08-06:00:02 0 Akkun to Kanojo|あっくんとカノジョ
+2018/04/08-06:00:02 0 Akadou Suzunosuke|赤胴鈴之助
 2018/04/08-00:00:01 01 Mahou Shoujo Site|魔法少女サイト
 2018/04/08-00:00:01 01 Lostorage Conflated WIXOSS|Lostorage conflated WIXOSS
 2018/04/08-00:00:01 01 Juushinki Pandora|重神機パンドーラ
@@ -32,4 +36,3 @@ Last Update: 2018/04/08-00:00:01
 2018/04/01-06:00:01 13 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/04/01-06:00:01 12 Nanatsu no Taizai|七つの大罪 戒めの復活
 2018/04/01-06:00:01 12 Darling in the FranXX|ダーリン・イン・ザ・フランキス
-2018/04/01-00:00:01 12.5 Toji no Miko|刀使ノ巫女
