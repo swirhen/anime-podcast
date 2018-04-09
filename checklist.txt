@@ -1,4 +1,9 @@
-Last Update: 2018/04/09-18:00:01
+Last Update: 2018/04/10-00:00:02
+2018/04/10-00:00:02 03 Uma Musume： Pretty Derby|ウマ娘 プリティーダービー
+2018/04/10-00:00:02 02 Amai Choubatsu： Watashi wa Kanshu Sen'you Pet|甘い懲罰～私は看守専用ペット
+2018/04/10-00:00:02 0 Shokugeki no Souma： San no Sara - Toutsuki Ressha-hen|食戟のソーマ 餐ノ皿 遠月列車篇
+2018/04/10-00:00:02 0 Piano no Mori|ピアノの森
+2018/04/10-00:00:02 0 Nil Admirari no Tenbin Teito Genwaku Kitan|ニル・アドミラリの天秤
 2018/04/09-12:00:02 01 Wakaokami wa Shougakusei!|若おかみは小学生！
 2018/04/09-12:00:02 01 Layton Mystery Tanteisha： Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2018/04/09-12:00:02 01 Kiratto Pri☆chan|キラッとプリ☆チャン
@@ -42,9 +47,7 @@ Last Update: 2018/04/09-18:00:01
 2018/04/05-06:00:01 26 Black Clover|ブラッククローバー
 2018/04/05-00:00:02 01 Uchuu Senkan Tiramisu|宇宙戦艦ティラミス
 2018/04/05-00:00:02 01 Captain Tsubasa (2018)|キャプテン翼
-2018/04/04-12:00:01 02 Uma Musume： Pretty Derby|ウマ娘 プリティーダービー
 2018/04/04-12:00:01 01 Mahou Shoujo Ore|魔法少女 俺
-2018/04/04-12:00:01 01 Amai Choubatsu： Watashi wa Kanshu Sen'you Pet|甘い懲罰～私は看守専用ペット
 2018/04/04-06:00:01 13 Basilisk： Ouka Ninpouchou|バジリスク ～桜花忍法帖～
 2018/04/01-12:00:01 12.5 Cardcaptor Sakura|カードキャプターさくら クリアカード編
 2018/04/01-06:00:01 13 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
