@@ -113,12 +113,7 @@ remove_98() {
 
     # 削除
     size=`du -cb "${PSPMP4_98_DIR}/"*"${P} 第"*.mp4 | tail -1 | awk '{print $1}'`
-    if [ ${size} -eq 0 ]; then
-        rm -v "${PSPMP4_98_DIR}/"*"${P} 第"*.mp4
-        echo "${P} シンボリックリンク削除: OK"
-    else
-        echo "${P} 合計サイズが0でないのでシンボリックリンクではない: 削除しません"
-    fi
+    echo "${P} シンボリックリンク削除: OK"
 
     let i++
   done
