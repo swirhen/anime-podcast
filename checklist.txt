@@ -1,4 +1,8 @@
-Last Update: 2018/04/11-00:00:01
+Last Update: 2018/04/11-06:00:01
+2018/04/11-06:00:01 02 Mahou Shoujo Ore|魔法少女 俺
+2018/04/11-06:00:01 0 Shiyan Pin Jiating|実験品家族－クリーチャーズ・ファミリー・デイズ－
+2018/04/11-06:00:01 0 Ladyspo|レディスポ
+2018/04/11-06:00:01 0 Fumikiri Jikan|踏切時間
 2018/04/11-00:00:01 01 Shiyan Pin Jiating|実験品家族 -クリーチャーズ・ファミリー・デイズ-
 2018/04/11-00:00:01 01 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
 2018/04/11-00:00:01 01 Golden Kamuy|ゴールデンカムイ
@@ -53,7 +57,6 @@ Last Update: 2018/04/11-00:00:01
 2018/04/05-12:00:02 01 Kakuriyo no Yadomeshi|かくりよの宿飯
 2018/04/05-12:00:02 01 Gundam Build Divers|ガンダムビルドダイバーズ
 2018/04/05-06:00:01 26 Black Clover|ブラッククローバー
-2018/04/04-12:00:01 01 Mahou Shoujo Ore|魔法少女 俺
 2018/04/01-12:00:01 12.5 Cardcaptor Sakura|カードキャプターさくら クリアカード編
 2018/04/01-06:00:01 13 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/04/01-06:00:01 12 Nanatsu no Taizai|七つの大罪 戒めの復活
