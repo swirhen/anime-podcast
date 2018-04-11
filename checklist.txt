@@ -1,4 +1,6 @@
-Last Update: 2018/04/11-18:00:01
+Last Update: 2018/04/12-00:00:01
+2018/04/12-00:00:01 01 Rokuhoudou Yotsuiro Biyori|鹿楓堂よついろ日和
+2018/04/12-00:00:01 01 High School DxD Hero|ハイスクールD&times;D HERO
 2018/04/11-18:00:01 27 Black Clover|ブラッククローバー
 2018/04/11-18:00:01 13 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
 2018/04/11-18:00:01 02 Tokyo Ghoul：Re|東京喰種：re
@@ -7,8 +9,6 @@ Last Update: 2018/04/11-18:00:01
 2018/04/11-18:00:01 02 Kakuriyo no Yadomeshi|かくりよの宿飯
 2018/04/11-18:00:01 02 Gundam Build Divers|ガンダムビルドダイバーズ
 2018/04/11-18:00:01 02 3D Kanojo： Real Girl|3D彼女 リアルガール
-2018/04/11-18:00:01 0 Rokuhoudou Yotsuiro Biyori|鹿楓堂よついろ日和
-2018/04/11-18:00:01 0 High School DxD Hero|ハイスクールD×D HERO
 2018/04/11-12:00:01 01 Ladyspo|レディスポ
 2018/04/11-12:00:01 01 Fumikiri Jikan|踏切時間
 2018/04/11-06:00:01 02 Mahou Shoujo Ore|魔法少女 俺
