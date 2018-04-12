@@ -1,5 +1,8 @@
-Last Update: 2018/04/13-00:00:01
-2018/04/13-00:00:01 0 Binan Koukou Chikyuu Bouei-bu Happy Kiss!|美男高校地球防衛部ＨＡＰＰＹ　ＫＩＳＳ！
+Last Update: 2018/04/13-06:00:01
+2018/04/13-06:00:01 128 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
+2018/04/13-06:00:01 02 Comic Girls|こみっくがーるず
+2018/04/13-06:00:01 02 Aikatsu Friends!|アイカツフレンズ！
+2018/04/13-06:00:01 01 Binan Koukou Chikyuu Bouei-bu Happy Kiss!|美男高校地球防衛部ＨＡＰＰＹ　ＫＩＳＳ！
 2018/04/12-18:43:01 01 High School DxD Hero|ハイスクールD×D HERO
 2018/04/12-18:00:01 01 Steins;Gate 0|シュタインズ・ゲート ゼロ
 2018/04/12-18:00:01 01 Last Period： Owarinaki Rasen no Monogatari|ラストピリオド -終わりなき螺旋の物語-
@@ -58,10 +61,7 @@ Last Update: 2018/04/13-00:00:01
 2018/04/07-18:00:01 01 Tada-kun wa Koi wo Shinai|多田くんは恋をしない
 2018/04/07-18:00:01 01 Saredo Tsumibito wa Ryuu to Odoru： Dances with the Dragons|されど罪人は竜と踊る
 2018/04/07-18:00:01 01 Megalo Box|メガロボクス
-2018/04/07-18:00:01 01 Comic Girls|こみっくがーるず
 2018/04/06-18:00:01 15.5 Idolish Seven|アイドリッシュセブン
-2018/04/06-12:00:01 01 Aikatsu Friends!|アイカツフレンズ！
-2018/04/06-06:00:01 127 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
 2018/04/01-12:00:01 12.5 Cardcaptor Sakura|カードキャプターさくら クリアカード編
 2018/04/01-06:00:01 13 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/04/01-06:00:01 12 Nanatsu no Taizai|七つの大罪 戒めの復活
