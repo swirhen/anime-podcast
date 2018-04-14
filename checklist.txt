@@ -1,4 +1,14 @@
-Last Update: 2018/04/14-18:00:01
+Last Update: 2018/04/15-00:00:01
+2018/04/15-00:00:01 14 Toji no Miko|刀使ノ巫女
+2018/04/15-00:00:01 14 Grancrest Senki|グランクレスト戦記
+2018/04/15-00:00:01 13 Hakyuu Houshin Engi|覇穹 封神演義
+2018/04/15-00:00:01 12 Beatless|BEATLESS
+2018/04/15-00:00:01 02 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
+2018/04/15-00:00:01 02 Mahou Shoujo Site|魔法少女サイト
+2018/04/15-00:00:01 02 Lostorage Conflated WIXOSS|Lostorage conflated WIXOSS
+2018/04/15-00:00:01 02 Hinamatsuri|ヒナまつり
+2018/04/15-00:00:01 02 Akkun to Kanojo|あっくんとカノジョ
+2018/04/15-00:00:01 0 Full Metal Panic! Invisible Victory|フルメタル・パニック！ Invisible Victory
 2018/04/14-06:00:02 13 Cardcaptor Sakura|カードキャプターさくら クリアカード編
 2018/04/14-06:00:02 02 Juushinki Pandora|重神機パンドーラ
 2018/04/14-06:00:02 02 Gurazeni|グラゼニ
@@ -30,7 +40,6 @@ Last Update: 2018/04/14-18:00:01
 2018/04/11-12:00:01 01 Fumikiri Jikan|踏切時間
 2018/04/11-06:00:01 02 Mahou Shoujo Ore|魔法少女 俺
 2018/04/11-00:00:01 01 Shiyan Pin Jiating|実験品家族 -クリーチャーズ・ファミリー・デイズ-
-2018/04/11-00:00:01 01 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
 2018/04/11-00:00:01 01 Golden Kamuy|ゴールデンカムイ
 2018/04/11-00:00:01 01 Caligula|Caligula -カリギュラ-
 2018/04/10-18:00:01 14 Basilisk： Ouka Ninpouchou|バジリスク ～桜花忍法帖～
@@ -60,14 +69,6 @@ Last Update: 2018/04/14-18:00:01
 2018/04/08-18:00:01 01 Sword Art Online Alternative： Gun Gale Online|ソードアート・オンライン オルタナティブ ガンゲイル・オンライン
 2018/04/08-18:00:01 01 Persona 5 the Animation|PERSONA5 the Animation
 2018/04/08-12:00:01 13 Darling in the FranXX|ダーリン・イン・ザ・フランキス
-2018/04/08-12:00:01 01 Hinamatsuri|ヒナまつり
-2018/04/08-12:00:01 01 Akkun to Kanojo|あっくんとカノジョ
-2018/04/08-06:00:02 13 Toji no Miko|刀使ノ巫女
-2018/04/08-00:00:01 01 Mahou Shoujo Site|魔法少女サイト
-2018/04/08-00:00:01 01 Lostorage Conflated WIXOSS|Lostorage conflated WIXOSS
 2018/04/06-18:00:01 15.5 Idolish Seven|アイドリッシュセブン
 2018/04/01-06:00:01 13 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/04/01-06:00:01 12 Nanatsu no Taizai|七つの大罪 戒めの復活
-2018/03/18-00:00:02 13 Grancrest Senki|グランクレスト戦記
-2018/03/18-00:00:02 12 Hakyuu Houshin Engi|覇穹 封神演義
-2018/03/18-00:00:02 11 Beatless|BEATLESS
