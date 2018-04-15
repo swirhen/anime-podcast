@@ -1,4 +1,9 @@
-Last Update: 2018/04/16-00:00:01
+Last Update: 2018/04/16-06:00:02
+2018/04/16-06:00:02 11 Hugtto! Precure|HuGっと！ プリキュア
+2018/04/16-06:00:02 03 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
+2018/04/16-06:00:02 02 Wakaokami wa Shougakusei!|若おかみは小学生！
+2018/04/16-06:00:02 02 Layton Mystery Tanteisha： Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
+2018/04/16-06:00:02 02 Kiratto Pri☆chan|キラッとプリ☆チャン
 2018/04/16-00:00:01 13 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
 2018/04/16-00:00:01 02 Devils Line|デビルズライン
 2018/04/16-00:00:01 02 Amanchu! Advance|あまんちゅ！～あどばんす～
@@ -65,10 +70,5 @@ Last Update: 2018/04/16-00:00:01
 2018/04/10-06:00:01 01 Nil Admirari no Tenbin Teito Genwaku Kitan|ニル・アドミラリの天秤
 2018/04/10-00:00:02 03 Uma Musume： Pretty Derby|ウマ娘 プリティーダービー
 2018/04/10-00:00:02 02 Amai Choubatsu： Watashi wa Kanshu Sen'you Pet|甘い懲罰～私は看守専用ペット
-2018/04/09-12:00:02 01 Wakaokami wa Shougakusei!|若おかみは小学生！
-2018/04/09-12:00:02 01 Layton Mystery Tanteisha： Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
-2018/04/09-12:00:02 01 Kiratto Pri☆chan|キラッとプリ☆チャン
 2018/04/09-12:00:02 01 Cutie Honey Universe|Cutie Honey Universe
-2018/04/09-00:00:01 10 Hugtto! Precure|HuGっと！ プリキュア
-2018/04/09-00:00:01 02 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2018/04/06-18:00:01 15.5 Idolish Seven|アイドリッシュセブン
