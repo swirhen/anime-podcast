@@ -1,4 +1,10 @@
-Last Update: 2018/04/17-00:00:01
+Last Update: 2018/04/17-06:00:01
+2018/04/17-06:00:01 04 Uma Musume： Pretty Derby|ウマ娘 プリティーダービー
+2018/04/17-06:00:01 02 Shokugeki no Souma： San no Sara - Toutsuki Ressha-hen|食戟のソーマ 餐ノ皿 遠月列車篇
+2018/04/17-06:00:01 02 Piano no Mori|ピアノの森
+2018/04/17-06:00:01 02 Nil Admirari no Tenbin Teito Genwaku Kitan|ニル・アドミラリの天秤
+2018/04/17-06:00:01 02 Cutie Honey Universe|Cutie Honey Universe
+2018/04/17-06:00:01 02 Binan Koukou Chikyuu Bouei-bu Happy Kiss!|美男高校地球防衛部HAPPY KISS！
 2018/04/16-06:00:02 11 Hugtto! Precure|HuGっと！ プリキュア
 2018/04/16-06:00:02 03 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2018/04/16-06:00:02 02 Wakaokami wa Shougakusei!|若おかみは小学生！
@@ -40,7 +46,6 @@ Last Update: 2018/04/17-00:00:01
 2018/04/13-06:00:01 128 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
 2018/04/13-06:00:01 02 Comic Girls|こみっくがーるず
 2018/04/13-06:00:01 02 Aikatsu Friends!|アイカツフレンズ！
-2018/04/13-06:00:01 01 Binan Koukou Chikyuu Bouei-bu Happy Kiss!|美男高校地球防衛部HAPPY KISS！
 2018/04/12-18:43:01 01 High School DxD Hero|ハイスクールD×D HERO
 2018/04/12-18:00:01 01 Steins;Gate 0|シュタインズ・ゲート ゼロ
 2018/04/12-18:00:01 01 Last Period： Owarinaki Rasen no Monogatari|ラストピリオド -終わりなき螺旋の物語-
@@ -65,10 +70,5 @@ Last Update: 2018/04/17-00:00:01
 2018/04/10-18:00:01 02 Uchuu Senkan Tiramisu|宇宙戦艦ティラミス
 2018/04/10-18:00:01 02 Captain Tsubasa (2018)|キャプテン翼
 2018/04/10-12:00:01 01 Souten no Ken： Regenesis (2018)|蒼天の拳REGENESIS
-2018/04/10-06:00:01 01 Shokugeki no Souma： San no Sara - Toutsuki Ressha-hen|食戟のソーマ 餐ノ皿 遠月列車篇
-2018/04/10-06:00:01 01 Piano no Mori|ピアノの森
-2018/04/10-06:00:01 01 Nil Admirari no Tenbin Teito Genwaku Kitan|ニル・アドミラリの天秤
-2018/04/10-00:00:02 03 Uma Musume： Pretty Derby|ウマ娘 プリティーダービー
 2018/04/10-00:00:02 02 Amai Choubatsu： Watashi wa Kanshu Sen'you Pet|甘い懲罰～私は看守専用ペット
-2018/04/09-12:00:02 01 Cutie Honey Universe|Cutie Honey Universe
 2018/04/06-18:00:01 15.5 Idolish Seven|アイドリッシュセブン
