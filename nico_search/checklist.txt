@@ -1,7 +1,7 @@
-Last Update: 2018/04/13-18:00:01
+Last Update: 2018/04/18-00:00:01
+2018/04/18-00:00:01 101 http://ch.nicovideo.jp/dereradi/video デレラジ * 03 第 回 s/「\\(デレラジ☆(スター)\\).*\\(第[0-9]\\+回\\).*/\\1 \\2\\"/
 2018/04/13-18:00:01 255 http://ch.nicovideo.jp/MillionRADIO/video 回おまけ放送】 * 09 第 回 
 2018/04/13-18:00:01 255 http://ch.nicovideo.jp/MillionRADIO/video 回】 * 09 第 回 
-2018/04/13-18:00:01 100 http://ch.nicovideo.jp/dereradi/video デレラジ * 03 第 回 s/「\\(デレラジ☆(スター)\\).*\\(第[0-9]\\+回\\).*/\\1 \\2\\"/
 2018/04/12-18:00:01 181 http://ch.nicovideo.jp/cinderellaparty/video アーカイブ動画 * 01 | 回 s/\\(第.*回\\).*\\(CINDERELLA PARTY\\).*アーカイブ動画\\(.*\\)/\\2！ \\1 \\3/
 2018/04/12-12:00:01 14 http://ch.nicovideo.jp/voice-style/video 高森奈津美と松井恵理子の大体こんな感じ おまけ動画 07 | 回 
 2018/04/12-00:00:01 182 http://ch.nicovideo.jp/cinderellaparty/video おまけ放送 * 01 | 回 s/\\(第.*回\\).*\\(CINDERELLA PARTY\\).*\\(おまけ放送.*\\)/\\2！ \\1 \\3/
