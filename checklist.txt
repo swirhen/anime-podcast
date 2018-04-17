@@ -1,4 +1,13 @@
-Last Update: 2018/04/17-18:00:01
+Last Update: 2018/04/18-00:00:01
+2018/04/18-00:00:01 15 Basilisk： Ouka Ninpouchou|バジリスク ～桜花忍法帖～
+2018/04/18-00:00:01 03 Uchuu Senkan Tiramisu|宇宙戦艦ティラミス
+2018/04/18-00:00:01 03 Captain Tsubasa (2018)|キャプテン翼
+2018/04/18-00:00:01 02 Souten no Ken： Regenesis (2018)|蒼天の拳REGENESIS
+2018/04/18-00:00:01 02 Shiyan Pin Jiating|実験品家族 -クリーチャーズ・ファミリー・デイズ-
+2018/04/18-00:00:01 02 Ladyspo|レディスポ
+2018/04/18-00:00:01 02 Golden Kamuy|ゴールデンカムイ
+2018/04/18-00:00:01 02 Fumikiri Jikan|踏切時間
+2018/04/18-00:00:01 02 Caligula|Caligula -カリギュラ-
 2018/04/17-06:00:01 04 Uma Musume： Pretty Derby|ウマ娘 プリティーダービー
 2018/04/17-06:00:01 02 Shokugeki no Souma： San no Sara - Toutsuki Ressha-hen|食戟のソーマ 餐ノ皿 遠月列車篇
 2018/04/17-06:00:01 02 Piano no Mori|ピアノの森
@@ -60,15 +69,6 @@ Last Update: 2018/04/17-18:00:01
 2018/04/11-18:00:01 02 Kakuriyo no Yadomeshi|かくりよの宿飯
 2018/04/11-18:00:01 02 Gundam Build Divers|ガンダムビルドダイバーズ
 2018/04/11-18:00:01 02 3D Kanojo： Real Girl|3D彼女 リアルガール
-2018/04/11-12:00:01 01 Ladyspo|レディスポ
-2018/04/11-12:00:01 01 Fumikiri Jikan|踏切時間
 2018/04/11-06:00:01 02 Mahou Shoujo Ore|魔法少女 俺
-2018/04/11-00:00:01 01 Shiyan Pin Jiating|実験品家族 -クリーチャーズ・ファミリー・デイズ-
-2018/04/11-00:00:01 01 Golden Kamuy|ゴールデンカムイ
-2018/04/11-00:00:01 01 Caligula|Caligula -カリギュラ-
-2018/04/10-18:00:01 14 Basilisk： Ouka Ninpouchou|バジリスク ～桜花忍法帖～
-2018/04/10-18:00:01 02 Uchuu Senkan Tiramisu|宇宙戦艦ティラミス
-2018/04/10-18:00:01 02 Captain Tsubasa (2018)|キャプテン翼
-2018/04/10-12:00:01 01 Souten no Ken： Regenesis (2018)|蒼天の拳REGENESIS
 2018/04/10-00:00:02 02 Amai Choubatsu： Watashi wa Kanshu Sen'you Pet|甘い懲罰～私は看守専用ペット
 2018/04/06-18:00:01 15.5 Idolish Seven|アイドリッシュセブン
