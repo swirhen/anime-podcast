@@ -1,4 +1,8 @@
-Last Update: 2018/04/22-06:00:01
+Last Update: 2018/04/22-12:00:01
+2018/04/22-12:00:01 15 Toji no Miko|刀使ノ巫女
+2018/04/22-12:00:01 03 Hinamatsuri|ヒナまつり
+2018/04/22-12:00:01 03 Akkun to Kanojo|あっくんとカノジョ
+2018/04/22-12:00:01 02 Full Metal Panic! Invisible Victory|フルメタル・パニック！ Invisible Victory
 2018/04/22-06:00:01 15 Grancrest Senki|グランクレスト戦記
 2018/04/22-06:00:01 14 Hakyuu Houshin Engi|覇穹 封神演義
 2018/04/22-06:00:01 14 Cardcaptor Sakura|カードキャプターさくら クリアカード編
@@ -68,8 +72,4 @@ Last Update: 2018/04/22-06:00:01
 2018/04/15-06:00:01 14 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/04/15-06:00:01 13 Nanatsu no Taizai|七つの大罪 戒めの復活
 2018/04/15-06:00:01 02 Major 2nd|MAJOR 2nd
-2018/04/15-06:00:01 01 Full Metal Panic! Invisible Victory|フルメタル・パニック！ Invisible Victory
-2018/04/15-00:00:01 14 Toji no Miko|刀使ノ巫女
-2018/04/15-00:00:01 02 Hinamatsuri|ヒナまつり
-2018/04/15-00:00:01 02 Akkun to Kanojo|あっくんとカノジョ
 2018/04/06-18:00:01 15.5 Idolish Seven|アイドリッシュセブン
