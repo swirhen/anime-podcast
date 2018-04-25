@@ -1,4 +1,13 @@
-Last Update: 2018/04/25-18:00:01
+Last Update: 2018/04/26-00:00:01
+2018/04/26-00:00:01 29 Black Clover|ブラッククローバー
+2018/04/26-00:00:01 16 Basilisk： Ouka Ninpouchou|バジリスク ～桜花忍法帖～
+2018/04/26-00:00:01 15 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
+2018/04/26-00:00:01 04 Tokyo Ghoul：Re|東京喰種：re
+2018/04/26-00:00:01 04 Tachibana-kan to Lie Angle|立花館To Lieあんぐる
+2018/04/26-00:00:01 04 Lupin Sansei (2018)|ルパン三世 PART5
+2018/04/26-00:00:01 04 Kakuriyo no Yadomeshi|かくりよの宿飯
+2018/04/26-00:00:01 04 Gundam Build Divers|ガンダムビルドダイバーズ
+2018/04/26-00:00:01 04 3D Kanojo： Real Girl|3D彼女 リアルガール
 2018/04/25-00:00:01 04 Uchuu Senkan Tiramisu|宇宙戦艦ティラミス
 2018/04/25-00:00:01 04 Captain Tsubasa (2018)|キャプテン翼
 2018/04/25-00:00:01 03 Souten no Ken： Regenesis (2018)|蒼天の拳REGENESIS
@@ -60,16 +69,7 @@ Last Update: 2018/04/25-18:00:01
 2018/04/19-06:00:01 02 Steins;Gate 0|シュタインズ・ゲート ゼロ
 2018/04/19-06:00:01 02 Butlers： Chitose Momotose Monogatari|Butlers～千年百年物語～
 2018/04/19-06:00:01 01 ReLife： Kanketsu-hen|ReLIFE 完結編
-2018/04/19-00:00:01 14 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
-2018/04/19-00:00:01 03 Tokyo Ghoul：Re|東京喰種：re
-2018/04/19-00:00:01 03 Tachibana-kan to Lie Angle|立花館To Lieあんぐる
-2018/04/19-00:00:01 03 Lupin Sansei (2018)|ルパン三世 PART5
-2018/04/19-00:00:01 03 Kakuriyo no Yadomeshi|かくりよの宿飯
-2018/04/19-00:00:01 03 3D Kanojo： Real Girl|3D彼女 リアルガール
 2018/04/19-00:00:01 02 Rokuhoudou Yotsuiro Biyori|鹿楓堂よついろ日和
 2018/04/19-00:00:01 02 High School DxD Hero|ハイスクールD×D HERO
-2018/04/18-06:00:01 28 Black Clover|ブラッククローバー
 2018/04/18-06:00:01 03 Mahou Shoujo Ore|魔法少女 俺
-2018/04/18-06:00:01 03 Gundam Build Divers|ガンダムビルドダイバーズ
-2018/04/18-00:00:01 15 Basilisk： Ouka Ninpouchou|バジリスク ～桜花忍法帖～
 2018/04/06-18:00:01 15.5 Idolish Seven|アイドリッシュセブン
