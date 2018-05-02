@@ -1,4 +1,8 @@
-Last Update: 2018/05/02-06:18:11
+Last Update: 2018/05/02-12:00:02
+2018/05/02-12:00:02 05 Mahou Shoujo Site|魔法少女サイト
+2018/05/02-12:00:02 05 Captain Tsubasa (2018)|キャプテン翼
+2018/05/02-12:00:02 04 Ladyspo|レディスポ
+2018/05/02-12:00:02 04 Fumikiri Jikan|踏切時間
 2018/05/02-06:18:11 13 Hugtto! Precure|HuGっと！ プリキュア
 2018/05/02-06:18:11 06 Uma Musume： Pretty Derby|ウマ娘 プリティーダービー
 2018/05/02-06:18:11 05 Amai Choubatsu： Watashi wa Kanshu Sen'you Pet|甘い懲罰～私は看守専用ペット
@@ -34,7 +38,6 @@ Last Update: 2018/05/02-06:18:11
 2018/04/29-06:00:01 15 Cardcaptor Sakura|カードキャプターさくら クリアカード編
 2018/04/29-06:00:01 13 Beatless|BEATLESS
 2018/04/29-06:00:01 04 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
-2018/04/29-06:00:01 04 Mahou Shoujo Site|魔法少女サイト
 2018/04/29-06:00:01 04 Lostorage Conflated WIXOSS|Lostorage conflated WIXOSS
 2018/04/29-06:00:01 04 Juushinki Pandora|重神機パンドーラ
 2018/04/29-06:00:01 04 Hinamatsuri|ヒナまつり
@@ -68,8 +71,5 @@ Last Update: 2018/05/02-06:18:11
 2018/04/26-00:00:01 04 Gundam Build Divers|ガンダムビルドダイバーズ
 2018/04/26-00:00:01 04 3D Kanojo： Real Girl|3D彼女 リアルガール
 2018/04/25-00:00:01 04 Uchuu Senkan Tiramisu|宇宙戦艦ティラミス
-2018/04/25-00:00:01 04 Captain Tsubasa (2018)|キャプテン翼
-2018/04/25-00:00:01 03 Ladyspo|レディスポ
 2018/04/25-00:00:01 03 Golden Kamuy|ゴールデンカムイ
-2018/04/25-00:00:01 03 Fumikiri Jikan|踏切時間
 2018/04/06-18:00:01 15.5 Idolish Seven|アイドリッシュセブン
