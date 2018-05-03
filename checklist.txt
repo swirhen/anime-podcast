@@ -1,4 +1,12 @@
-Last Update: 2018/05/03-18:00:01
+Last Update: 2018/05/04-00:00:01
+2018/05/04-00:00:01 30 Black Clover|ブラッククローバー
+2018/05/04-00:00:01 16 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
+2018/05/04-00:00:01 05 Tachibana-kan to Lie Angle|立花館To Lieあんぐる
+2018/05/04-00:00:01 05 Lupin Sansei (2018)|ルパン三世 PART5
+2018/05/04-00:00:01 05 Gundam Build Divers|ガンダムビルドダイバーズ
+2018/05/04-00:00:01 05 3D Kanojo： Real Girl|3D彼女 リアルガール
+2018/05/04-00:00:01 04 Steins;Gate 0|シュタインズ・ゲート ゼロ
+2018/05/04-00:00:01 04 Last Period： Owarinaki Rasen no Monogatari|ラストピリオド -終わりなき螺旋の物語-
 2018/05/03-18:00:01 05 Mahou Shoujo Ore|魔法少女 俺
 2018/05/03-00:00:01 05 Uchuu Senkan Tiramisu|宇宙戦艦ティラミス
 2018/05/03-00:00:01 05 Tokyo Ghoul：Re|東京喰種：re
@@ -60,16 +68,8 @@ Last Update: 2018/05/03-18:00:01
 2018/04/27-18:00:01 03 Wotaku ni Koi wa Muzukashii|ヲタクに恋は難しい
 2018/04/27-18:00:01 03 Hisone to Maso-tan|ひそねとまそたん
 2018/04/27-18:00:01 03 Dorei-ku The Animation|奴隷区 The Animation
-2018/04/26-18:00:01 03 Last Period： Owarinaki Rasen no Monogatari|ラストピリオド -終わりなき螺旋の物語-
-2018/04/26-12:00:01 03 Steins;Gate 0|シュタインズ・ゲート ゼロ
 2018/04/26-06:00:01 04 Alice or Alice： Siscon Niisan to Futago no Imouto|ありすorありす ～シスコン兄さんと双子の妹～
 2018/04/26-06:00:01 03 Butlers： Chitose Momotose Monogatari|Butlers～千年百年物語～
-2018/04/26-00:00:01 29 Black Clover|ブラッククローバー
 2018/04/26-00:00:01 16 Basilisk： Ouka Ninpouchou|バジリスク ～桜花忍法帖～
-2018/04/26-00:00:01 15 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
-2018/04/26-00:00:01 04 Tachibana-kan to Lie Angle|立花館To Lieあんぐる
-2018/04/26-00:00:01 04 Lupin Sansei (2018)|ルパン三世 PART5
 2018/04/26-00:00:01 04 Kakuriyo no Yadomeshi|かくりよの宿飯
-2018/04/26-00:00:01 04 Gundam Build Divers|ガンダムビルドダイバーズ
-2018/04/26-00:00:01 04 3D Kanojo： Real Girl|3D彼女 リアルガール
 2018/04/06-18:00:01 15.5 Idolish Seven|アイドリッシュセブン
