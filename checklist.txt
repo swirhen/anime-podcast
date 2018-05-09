@@ -1,4 +1,7 @@
-Last Update: 2018/05/10-00:00:01
+Last Update: 2018/05/10-06:00:01
+2018/05/10-06:00:01 06 Mahou Shoujo Ore|魔法少女 俺
+2018/05/10-06:00:01 05 Rokuhoudou Yotsuiro Biyori|鹿楓堂よついろ日和
+2018/05/10-06:00:01 05 High School DxD Hero|ハイスクールD×D HERO
 2018/05/10-00:00:01 31 Black Clover|ブラッククローバー
 2018/05/10-00:00:01 17 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
 2018/05/10-00:00:01 06 Tokyo Ghoul：Re|東京喰種：re
@@ -66,9 +69,6 @@ Last Update: 2018/05/10-00:00:01
 2018/05/04-12:00:01 04 Butlers： Chitose Momotose Monogatari|Butlers～千年百年物語～
 2018/05/04-00:00:01 04 Steins;Gate 0|シュタインズ・ゲート ゼロ
 2018/05/04-00:00:01 04 Last Period： Owarinaki Rasen no Monogatari|ラストピリオド -終わりなき螺旋の物語-
-2018/05/03-18:00:01 05 Mahou Shoujo Ore|魔法少女 俺
-2018/05/03-00:00:01 04 Rokuhoudou Yotsuiro Biyori|鹿楓堂よついろ日和
-2018/05/03-00:00:01 04 High School DxD Hero|ハイスクールD×D HERO
 2018/05/03-00:00:01 03 ReLife： Kanketsu-hen|ReLIFE 完結編
 2018/05/02-12:00:02 05 Mahou Shoujo Site|魔法少女サイト
 2018/04/29-06:00:01 15 Hakyuu Houshin Engi|覇穹 封神演義
