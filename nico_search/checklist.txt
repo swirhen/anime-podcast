@@ -1,4 +1,6 @@
-Last Update: 2018/05/10-18:00:01
+Last Update: 2018/05/11-18:00:01
+2018/05/11-18:00:01 259 http://ch.nicovideo.jp/MillionRADIO/video 回おまけ放送】 * 09 第 回 
+2018/05/11-18:00:01 259 http://ch.nicovideo.jp/MillionRADIO/video 回】 * 09 第 回 
 2018/05/10-18:00:01 185 http://ch.nicovideo.jp/cinderellaparty/video アーカイブ動画 * 01 | 回 s/\\(第.*回\\).*\\(CINDERELLA PARTY\\).*アーカイブ動画\\(.*\\)/\\2！ \\1 \\3/
 2018/05/10-18:00:01 16 http://ch.nicovideo.jp/voice-style/video 高森奈津美と松井恵理子の大体こんな感じ おまけ動画 07 | 回 
 2018/05/10-00:00:01 186 http://ch.nicovideo.jp/cinderellaparty/video おまけ放送 * 01 | 回 s/\\(第.*回\\).*\\(CINDERELLA PARTY\\).*\\(おまけ放送.*\\)/\\2！ \\1 \\3/
@@ -6,8 +8,6 @@ Last Update: 2018/05/10-18:00:01
 2018/05/09-08:22:04 24 http://ch.nicovideo.jp/search/%E3%81%BE%E3%81%A4%E3%81%84%E3%81%8C%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%20-%E3%83%80%E3%82%A4%E3%82%B8%E3%82%A7%E3%82%B9%E3%83%88?channel_id=ch2567656&mode=s&sort=f&order=d&type=video まついがプロデュース * 02 ＃ | s/\\([^\\"]*\\)\\"\\([^\\"]*\\)\\".*＃\\([0-9０-９]\\+\\)\\(.*\\)/\\1\\"\\2\\" \\"まついがプロデュース #\\3\\4/
 2018/05/08-18:00:01 104 http://ch.nicovideo.jp/dereradi/video デレラジ * 03 第 回 s/「\\(デレラジ☆(スター)\\).*\\(第[0-9]\\+回\\).*/\\1 \\2\\"/
 2018/05/08-12:00:01 3 http://www.nicovideo.jp/search/%E3%82%AB%E3%83%9B%E3%83%BC%E3%81%AF%E5%AF%9D%E3%81%A6%E5%BE%85%E3%81%A6%E3%81%A3%EF%BC%81?sort=f&order=d カホーは寝て待てっ * 08 第 回 
-2018/05/04-18:00:01 258 http://ch.nicovideo.jp/MillionRADIO/video 回おまけ放送】 * 09 第 回 
-2018/05/04-18:00:01 258 http://ch.nicovideo.jp/MillionRADIO/video 回】 * 09 第 回 
 2018/05/03-12:00:01 81 http://ch.nicovideo.jp/cinderellaparty/video アーカイブ動画 * 01 第 回 s/\\(第.*回\\).*\\(CINDERELLA PARTY\\).*アーカイブ動画\\(.*\\)/\\2！ \\1 \\3/
 2018/05/03-12:00:01 81 http://ch.nicovideo.jp/cinderellaparty/video おまけ放送 * 01 第 回 s/\\(第.*回\\).*\\(CINDERELLA PARTY\\).*\\(おまけ放送.*\\)/\\2！ \\1 \\3/
 2018/04/25-18:00:01 34 http://ch.nicovideo.jp/search/%E6%B4%A5%E7%94%B0%E5%AE%B6%20-%E3%83%80%E3%82%A4%E3%82%B8%E3%82%A7%E3%82%B9%E3%83%88?channel_id=ch2567656&mode=s&sort=f&order=d&type=video 津田美波の津田家 * 06 ＃ | s/\\([^\\"]*\\)\\"\\([^\\"]*\\)\\".*＃\\([0-9０-９]\\+\\)\\(.*\\)/\\1\\"\\2\\" \\"津田美波の津田家 -TSUDAYA- #\\3\\4/
