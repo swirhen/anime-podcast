@@ -1,4 +1,10 @@
-Last Update: 2018/05/13-06:00:01
+Last Update: 2018/05/13-12:00:01
+2018/05/13-12:00:01 18 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2018/05/13-12:00:01 17 Nanatsu no Taizai|七つの大罪 戒めの復活
+2018/05/13-12:00:01 06 Major 2nd|MAJOR 2nd
+2018/05/13-12:00:01 06 Hinamatsuri|ヒナまつり
+2018/05/13-12:00:01 06 Boku no Hero Academia 3|僕のヒーローアカデミア 第3期
+2018/05/13-12:00:01 04.5 Full Metal Panic! Invisible Victory|フルメタル・パニック！ Invisible Victory
 2018/05/13-00:00:01 18 Toji no Miko|刀使ノ巫女
 2018/05/13-00:00:01 18 Grancrest Senki|グランクレスト戦記
 2018/05/13-00:00:01 16 Hakyuu Houshin Engi|覇穹 封神演義
@@ -55,8 +61,6 @@ Last Update: 2018/05/13-06:00:01
 2018/05/07-18:00:01 05 Shokugeki no Souma： San no Sara - Toutsuki Ressha-hen|食戟のソーマ 餐ノ皿 遠月列車篇
 2018/05/07-18:00:01 05 Layton Mystery Tanteisha： Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2018/05/07-18:00:01 05 Kiratto Pri☆chan|キラッとプリ☆チャン
-2018/05/07-06:00:01 17 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
-2018/05/07-06:00:01 16 Nanatsu no Taizai|七つの大罪 戒めの復活
 2018/05/07-06:00:01 16 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
 2018/05/07-06:00:01 16 Darling in the FranXX|ダーリン・イン・ザ・フランキス
 2018/05/07-06:00:01 16 Cardcaptor Sakura|カードキャプターさくら クリアカード編
@@ -64,11 +68,7 @@ Last Update: 2018/05/13-06:00:01
 2018/05/07-06:00:01 05 Sword Art Online Alternative： Gun Gale Online|ソードアート・オンライン オルタナティブ ガンゲイル・オンライン
 2018/05/07-06:00:01 05 Persona 5 the Animation|PERSONA5 the Animation
 2018/05/07-06:00:01 05 Omae wa Mada Gunma wo Shiranai|お前はまだグンマを知らない
-2018/05/07-06:00:01 05 Major 2nd|MAJOR 2nd
 2018/05/07-06:00:01 05 Lost Song|LOST SONG
 2018/05/07-06:00:01 05 Hoozuki no Reitetsu 3|鬼灯の冷徹 第弐期 その弐
-2018/05/07-06:00:01 05 Hinamatsuri|ヒナまつり
 2018/05/07-06:00:01 05 Ginga Eiyuu Densetsu： Die Neue These - Kaikou|銀河英雄伝説 Die Neue These 邂逅
-2018/05/07-06:00:01 05 Boku no Hero Academia 3|僕のヒーローアカデミア 第3期
-2018/05/07-06:00:01 04 Full Metal Panic! Invisible Victory|フルメタル・パニック！ Invisible Victory
 2018/04/06-18:00:01 15.5 Idolish Seven|アイドリッシュセブン
