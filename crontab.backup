@@ -1,14 +1,14 @@
 # m h  dom mon dow   command
 MAILTO=""
 */15 * * * * /home/swirhen/sh/upip.sh
-#*/5 * * * * /home/swirhen/sh/cpuchk.sh /home/swirhen/sh/tigkw.sh TwitterIrcGatewayCLI 95
-#*/1 * * * * /home/swirhen/sh/memtig.sh
-#0 0 * * * /data/share/movie/sh/owa.sh
-#@reboot /home/swirhen/sh/tiarrakw.sh
+@reboot /home/swirhen/sh/tiarrakw.sh
 @reboot /home/swirhen/sh/tigkw.sh
 @reboot mkdir /tmp/vga
 @reboot mkdir /var/lock/dav
 @reboot chmod 777 /var/lock/dav
+0 0 * * * /data/share/gyazo/tyozo/del.sh
+0 1 * * * /home/swirhen/sh/backup.sh
+0 1 * * * /data/sahre/movie/sh/cron_backup.sh
 
 # 帯
 59 19 * * 1 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 黒沢ともよ" 45 3600 v
@@ -46,7 +46,7 @@ MAILTO=""
 59 17 * * 5 /data/share/movie/sh/agqrrecord.sh "A&G ARTIST ZONE 立花理香のTHE CATCH" 45 3600 v
 59 21 * * 5 /data/share/movie/sh/agqrrecord.sh "れい＆ゆいの文化放送ホームランラジオ！" 45 3600 v
 # -- SAT
-29 18 * * 6 /data/share/movie/sh/agqrrecord.sh "森奈津美とおちゃっちゃしよ？" 45 1800 v
+29 18 * * 6 /data/share/movie/sh/agqrrecord.sh "髙森奈津美とおちゃっちゃしよ？" 45 1800 v
 59 18 * * 6 /data/share/movie/sh/agqrrecord.sh "小澤亜李・長縄まりあのおざなり" 45 1800 v
 59 19 * * 6 /data/share/movie/sh/agqrrecord.sh "フレッシュたかまつ" 45 1800
 29 20 * * 6 /data/share/movie/sh/agqrrecord.sh "内田真礼とおはなししません？" 45 1800
