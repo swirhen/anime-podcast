@@ -388,4 +388,6 @@ fi
 logging "### all process completed."
 slack_post "swirhen.tv auto publish completed."
 sleep 1
-slack_upload "${LOG_FILE}" "auto_publish_log_${DATETIME2
+slack_upload "${LOG_FILE}" "auto_publish_log_${DATETIME2}"
+
+end
