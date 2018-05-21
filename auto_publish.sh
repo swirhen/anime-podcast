@@ -110,6 +110,9 @@ slack_post "swirhen.tv auto publish start..."
 rm -f ${RESULT_FILE}
 
 curl -s -S "${URI}" > ${RSS_TEMP}
+if [ !-s ${RSS_TEMP} ]; then
+    curl -s -S "${URI2}" > ${RSS_TEMP}
+fi
 xmllint --format ${RSS_TEMP} > ${RSS_XML}
 # URI2 対応(nyaa.si)
 curl -s -S "${URI2}" > ${RSS_TEMP2}
@@ -384,6 +387,4 @@ fi
 logging "### all process completed."
 slack_post "swirhen.tv auto publish completed."
 sleep 1
-slack_upload "${LOG_FILE}" "auto_publish_log_${DATETIME2}"
-
-end
+slack_upload "${LOG_FILE}" "auto_publish_log_${DATETIME2
