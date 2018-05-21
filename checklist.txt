@@ -1,4 +1,18 @@
-Last Update: 2018/05/21-18:00:01
+Last Update: 2018/05/22-00:00:01
+2018/05/22-00:00:01 19 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2018/05/22-00:00:01 18 Darling in the FranXX|ダーリン・イン・ザ・フランキス
+2018/05/22-00:00:01 133 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
+2018/05/22-00:00:01 07 Tada-kun wa Koi wo Shinai|多田くんは恋をしない
+2018/05/22-00:00:01 07 Sword Art Online Alternative： Gun Gale Online|ソードアート・オンライン オルタナティブ ガンゲイル・オンライン
+2018/05/22-00:00:01 07 Saredo Tsumibito wa Ryuu to Odoru： Dances with the Dragons|されど罪人は竜と踊る
+2018/05/22-00:00:01 07 Omae wa Mada Gunma wo Shiranai|お前はまだグンマを知らない
+2018/05/22-00:00:01 07 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
+2018/05/22-00:00:01 07 Major 2nd|MAJOR 2nd
+2018/05/22-00:00:01 07 Lostorage Conflated WIXOSS|Lostorage conflated WIXOSS
+2018/05/22-00:00:01 07 Gurazeni|グラゼニ
+2018/05/22-00:00:01 06 Wotaku ni Koi wa Muzukashii|ヲタクに恋は難しい
+2018/05/22-00:00:01 06 Hisone to Maso-tan|ひそねとまそたん
+2018/05/22-00:00:01 05 Full Metal Panic! Invisible Victory|フルメタル・パニック！ Invisible Victory
 2018/05/21-09:49:37 19 Toji no Miko|刀使ノ巫女
 2018/05/21-09:49:37 19 Grancrest Senki|グランクレスト戦記
 2018/05/21-09:49:37 19 Cardcaptor Sakura|カードキャプターさくら クリアカード編
@@ -55,20 +69,6 @@ Last Update: 2018/05/21-18:00:01
 2018/05/14-06:00:01 06 Kiratto Pri☆chan|キラッとプリ☆チャン
 2018/05/14-06:00:01 06 Ginga Eiyuu Densetsu： Die Neue These - Kaikou|銀河英雄伝説 Die Neue These 邂逅
 2018/05/14-00:00:01 17 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
-2018/05/14-00:00:01 17 Darling in the FranXX|ダーリン・イン・ザ・フランキス
-2018/05/14-00:00:01 06 Sword Art Online Alternative： Gun Gale Online|ソードアート・オンライン オルタナティブ ガンゲイル・オンライン
 2018/05/14-00:00:01 06 Persona 5 the Animation|PERSONA5 the Animation
-2018/05/14-00:00:01 06 Omae wa Mada Gunma wo Shiranai|お前はまだグンマを知らない
 2018/05/14-00:00:01 06 Devils Line|デビルズライン
-2018/05/13-12:00:01 18 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
-2018/05/13-12:00:01 06 Major 2nd|MAJOR 2nd
-2018/05/13-12:00:01 04.5 Full Metal Panic! Invisible Victory|フルメタル・パニック！ Invisible Victory
-2018/05/13-00:00:01 06 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
-2018/05/13-00:00:01 06 Lostorage Conflated WIXOSS|Lostorage conflated WIXOSS
-2018/05/13-00:00:01 06 Gurazeni|グラゼニ
-2018/05/12-12:00:01 132 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
-2018/05/12-12:00:01 06 Tada-kun wa Koi wo Shinai|多田くんは恋をしない
-2018/05/12-12:00:01 06 Saredo Tsumibito wa Ryuu to Odoru： Dances with the Dragons|されど罪人は竜と踊る
-2018/05/12-12:00:01 05 Wotaku ni Koi wa Muzukashii|ヲタクに恋は難しい
-2018/05/12-12:00:01 05 Hisone to Maso-tan|ひそねとまそたん
 2018/04/06-18:00:01 15.5 Idolish Seven|アイドリッシュセブン
