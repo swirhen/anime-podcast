@@ -1,4 +1,28 @@
-Last Update: 2018/05/21-06:00:01
+Last Update: 2018/05/21-09:49:37
+2018/05/21-09:49:37 19 Toji no Miko|刀使ノ巫女
+2018/05/21-09:49:37 19 Grancrest Senki|グランクレスト戦記
+2018/05/21-09:49:37 19 Cardcaptor Sakura|カードキャプターさくら クリアカード編
+2018/05/21-09:49:37 18 Nanatsu no Taizai|七つの大罪 戒めの復活
+2018/05/21-09:49:37 17 Hakyuu Houshin Engi|覇穹 封神演義
+2018/05/21-09:49:37 15 Beatless|BEATLESS
+2018/05/21-09:49:37 08 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
+2018/05/21-09:49:37 07 Wakaokami wa Shougakusei!|若おかみは小学生！
+2018/05/21-09:49:37 07 Piano no Mori|ピアノの森
+2018/05/21-09:49:37 07 Nil Admirari no Tenbin Teito Genwaku Kitan|ニル・アドミラリの天秤
+2018/05/21-09:49:37 07 Megalo Box|メガロボクス
+2018/05/21-09:49:37 07 Mahou Shoujo Site|魔法少女サイト
+2018/05/21-09:49:37 07 Lost Song|LOST SONG
+2018/05/21-09:49:37 07 Juushinki Pandora|重神機パンドーラ
+2018/05/21-09:49:37 07 Hoozuki no Reitetsu 3|鬼灯の冷徹 第弐期 その弐
+2018/05/21-09:49:37 07 Hinamatsuri|ヒナまつり
+2018/05/21-09:49:37 07 Cutie Honey Universe|Cutie Honey Universe
+2018/05/21-09:49:37 07 Comic Girls|こみっくがーるず
+2018/05/21-09:49:37 07 Caligula|Caligula -カリギュラ-
+2018/05/21-09:49:37 07 Boku no Hero Academia 3|僕のヒーローアカデミア 第3期
+2018/05/21-09:49:37 07 Amanchu! Advance|あまんちゅ！～あどばんす～
+2018/05/21-09:49:37 07 Akkun to Kanojo|あっくんとカノジョ
+2018/05/21-09:49:37 07 Aikatsu Friends!|アイカツフレンズ！
+2018/05/21-09:49:37 06 Dorei-ku The Animation|奴隷区 The Animation
 2018/05/18-06:00:01 07 Alice or Alice： Siscon Niisan to Futago no Imouto|ありすorありす ～シスコン兄さんと双子の妹～
 2018/05/18-06:00:01 07 3D Kanojo： Real Girl|3D彼女 リアルガール
 2018/05/18-06:00:01 06 Last Period： Owarinaki Rasen no Monogatari|ラストピリオド -終わりなき螺旋の物語-
@@ -14,7 +38,6 @@ Last Update: 2018/05/21-06:00:01
 2018/05/17-18:00:01 06 Steins;Gate 0|シュタインズ・ゲート ゼロ
 2018/05/17-18:00:01 06 Rokuhoudou Yotsuiro Biyori|鹿楓堂よついろ日和
 2018/05/16-00:00:01 07 Mahou Shoujo Ore|魔法少女 俺
-2018/05/16-00:00:01 06 Caligula|Caligula -カリギュラ-
 2018/05/15-18:00:01 19 Basilisk： Ouka Ninpouchou|バジリスク ～桜花忍法帖～
 2018/05/15-18:00:01 07 Uchuu Senkan Tiramisu|宇宙戦艦ティラミス
 2018/05/15-18:00:01 07 Captain Tsubasa (2018)|キャプテン翼
@@ -23,17 +46,11 @@ Last Update: 2018/05/21-06:00:01
 2018/05/15-18:00:01 06 Ladyspo|レディスポ
 2018/05/15-18:00:01 06 Golden Kamuy|ゴールデンカムイ
 2018/05/15-18:00:01 06 Fumikiri Jikan|踏切時間
-2018/05/15-18:00:01 06 Cutie Honey Universe|Cutie Honey Universe
 2018/05/14-18:00:01 08 Uma Musume： Pretty Derby|ウマ娘 プリティーダービー
 2018/05/14-18:00:01 07 Amai Choubatsu： Watashi wa Kanshu Sen'you Pet|甘い懲罰～私は看守専用ペット
 2018/05/14-18:00:01 06 Shokugeki no Souma： San no Sara - Toutsuki Ressha-hen|食戟のソーマ 餐ノ皿 遠月列車篇
-2018/05/14-18:00:01 06 Piano no Mori|ピアノの森
-2018/05/14-18:00:01 06 Nil Admirari no Tenbin Teito Genwaku Kitan|ニル・アドミラリの天秤
-2018/05/14-18:00:01 06 Lost Song|LOST SONG
 2018/05/14-18:00:01 06 Binan Koukou Chikyuu Bouei-bu Happy Kiss!|美男高校地球防衛部HAPPY KISS！
 2018/05/14-06:00:01 15 Hugtto! Precure|HuGっと！ プリキュア
-2018/05/14-06:00:01 07 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
-2018/05/14-06:00:01 06 Wakaokami wa Shougakusei!|若おかみは小学生！
 2018/05/14-06:00:01 06 Layton Mystery Tanteisha： Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2018/05/14-06:00:01 06 Kiratto Pri☆chan|キラッとプリ☆チャン
 2018/05/14-06:00:01 06 Ginga Eiyuu Densetsu： Die Neue These - Kaikou|銀河英雄伝説 Die Neue These 邂逅
@@ -42,33 +59,16 @@ Last Update: 2018/05/21-06:00:01
 2018/05/14-00:00:01 06 Sword Art Online Alternative： Gun Gale Online|ソードアート・オンライン オルタナティブ ガンゲイル・オンライン
 2018/05/14-00:00:01 06 Persona 5 the Animation|PERSONA5 the Animation
 2018/05/14-00:00:01 06 Omae wa Mada Gunma wo Shiranai|お前はまだグンマを知らない
-2018/05/14-00:00:01 06 Hoozuki no Reitetsu 3|鬼灯の冷徹 第弐期 その弐
 2018/05/14-00:00:01 06 Devils Line|デビルズライン
-2018/05/14-00:00:01 06 Amanchu! Advance|あまんちゅ！～あどばんす～
 2018/05/13-12:00:01 18 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
-2018/05/13-12:00:01 17 Nanatsu no Taizai|七つの大罪 戒めの復活
 2018/05/13-12:00:01 06 Major 2nd|MAJOR 2nd
-2018/05/13-12:00:01 06 Hinamatsuri|ヒナまつり
-2018/05/13-12:00:01 06 Boku no Hero Academia 3|僕のヒーローアカデミア 第3期
 2018/05/13-12:00:01 04.5 Full Metal Panic! Invisible Victory|フルメタル・パニック！ Invisible Victory
-2018/05/13-00:00:01 18 Toji no Miko|刀使ノ巫女
-2018/05/13-00:00:01 18 Grancrest Senki|グランクレスト戦記
-2018/05/13-00:00:01 16 Hakyuu Houshin Engi|覇穹 封神演義
-2018/05/13-00:00:01 14.5 Beatless|BEATLESS
 2018/05/13-00:00:01 06 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
-2018/05/13-00:00:01 06 Mahou Shoujo Site|魔法少女サイト
 2018/05/13-00:00:01 06 Lostorage Conflated WIXOSS|Lostorage conflated WIXOSS
-2018/05/13-00:00:01 06 Juushinki Pandora|重神機パンドーラ
 2018/05/13-00:00:01 06 Gurazeni|グラゼニ
-2018/05/13-00:00:01 06 Akkun to Kanojo|あっくんとカノジョ
 2018/05/12-12:00:01 132 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
 2018/05/12-12:00:01 06 Tada-kun wa Koi wo Shinai|多田くんは恋をしない
 2018/05/12-12:00:01 06 Saredo Tsumibito wa Ryuu to Odoru： Dances with the Dragons|されど罪人は竜と踊る
-2018/05/12-12:00:01 06 Megalo Box|メガロボクス
-2018/05/12-12:00:01 06 Comic Girls|こみっくがーるず
-2018/05/12-12:00:01 06 Aikatsu Friends!|アイカツフレンズ！
 2018/05/12-12:00:01 05 Wotaku ni Koi wa Muzukashii|ヲタクに恋は難しい
 2018/05/12-12:00:01 05 Hisone to Maso-tan|ひそねとまそたん
-2018/05/12-12:00:01 05 Dorei-ku The Animation|奴隷区 The Animation
-2018/05/07-06:00:01 16 Cardcaptor Sakura|カードキャプターさくら クリアカード編
 2018/04/06-18:00:01 15.5 Idolish Seven|アイドリッシュセブン
