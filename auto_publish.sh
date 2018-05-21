@@ -98,7 +98,8 @@ slack_upload() {
 # running flag file check
 if [ -f ${FLG_FILE} ]; then
   logging "### running flag file exist. exit"
-  end
+  mv ${LOG_FILE} ${SCRIPT_DIR}/logs/
+  exit 1
 else
   touch ${FLG_FILE}
 fi
