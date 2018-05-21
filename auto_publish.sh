@@ -110,7 +110,7 @@ slack_post "swirhen.tv auto publish start..."
 rm -f ${RESULT_FILE}
 
 curl -s -S "${URI}" > ${RSS_TEMP}
-if [ !-s ${RSS_TEMP} ]; then
+if [ ! -s ${RSS_TEMP} ]; then
     curl -s -S "${URI2}" > ${RSS_TEMP}
 fi
 xmllint --format ${RSS_TEMP} > ${RSS_XML}
