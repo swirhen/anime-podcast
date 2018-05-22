@@ -1,4 +1,7 @@
-Last Update: 2018/05/22-18:00:01
+Last Update: 2018/05/23-00:00:01
+2018/05/23-00:00:01 09 Uma Musume： Pretty Derby|ウマ娘 プリティーダービー
+2018/05/23-00:00:01 08 Amai Choubatsu： Watashi wa Kanshu Sen'you Pet|甘い懲罰～私は看守専用ペット
+2018/05/23-00:00:01 07 Shokugeki no Souma： San no Sara - Toutsuki Ressha-hen|食戟のソーマ 餐ノ皿 遠月列車篇
 2018/05/22-18:00:01 07 Layton Mystery Tanteisha： Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2018/05/22-18:00:01 07 Kiratto Pri☆chan|キラッとプリ☆チャン
 2018/05/22-06:00:01 18 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
@@ -67,8 +70,5 @@ Last Update: 2018/05/22-18:00:01
 2018/05/15-18:00:01 06 Ladyspo|レディスポ
 2018/05/15-18:00:01 06 Golden Kamuy|ゴールデンカムイ
 2018/05/15-18:00:01 06 Fumikiri Jikan|踏切時間
-2018/05/14-18:00:01 08 Uma Musume： Pretty Derby|ウマ娘 プリティーダービー
-2018/05/14-18:00:01 07 Amai Choubatsu： Watashi wa Kanshu Sen'you Pet|甘い懲罰～私は看守専用ペット
-2018/05/14-18:00:01 06 Shokugeki no Souma： San no Sara - Toutsuki Ressha-hen|食戟のソーマ 餐ノ皿 遠月列車篇
 2018/05/14-18:00:01 06 Binan Koukou Chikyuu Bouei-bu Happy Kiss!|美男高校地球防衛部HAPPY KISS！
 2018/04/06-18:00:01 15.5 Idolish Seven|アイドリッシュセブン
