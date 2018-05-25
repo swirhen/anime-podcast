@@ -1,4 +1,11 @@
-Last Update: 2018/05/25-18:34:03
+Last Update: 2018/05/25-18:42:44
+2018/05/25-18:42:44 134 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
+2018/05/25-18:42:44 08 Tada-kun wa Koi wo Shinai|多田くんは恋をしない
+2018/05/25-18:42:44 08 Comic Girls|こみっくがーるず
+2018/05/25-18:42:44 08 Aikatsu Friends!|アイカツフレンズ！
+2018/05/25-18:42:44 07 Wotaku ni Koi wa Muzukashii|ヲタクに恋は難しい
+2018/05/25-18:42:44 07 Hisone to Maso-tan|ひそねとまそたん
+2018/05/25-18:42:44 07 Dorei-ku The Animation|奴隷区 The Animation
 2018/05/25-00:00:01 33 Black Clover|ブラッククローバー
 2018/05/25-00:00:01 19 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
 2018/05/25-00:00:01 08 Tokyo Ghoul：Re|東京喰種：re
@@ -35,8 +42,6 @@ Last Update: 2018/05/25-18:34:03
 2018/05/22-06:00:01 07 Devils Line|デビルズライン
 2018/05/22-00:00:01 19 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/05/22-00:00:01 18 Darling in the FranXX|ダーリン・イン・ザ・フランキス
-2018/05/22-00:00:01 133 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
-2018/05/22-00:00:01 07 Tada-kun wa Koi wo Shinai|多田くんは恋をしない
 2018/05/22-00:00:01 07 Sword Art Online Alternative： Gun Gale Online|ソードアート・オンライン オルタナティブ ガンゲイル・オンライン
 2018/05/22-00:00:01 07 Saredo Tsumibito wa Ryuu to Odoru： Dances with the Dragons|されど罪人は竜と踊る
 2018/05/22-00:00:01 07 Omae wa Mada Gunma wo Shiranai|お前はまだグンマを知らない
@@ -44,8 +49,6 @@ Last Update: 2018/05/25-18:34:03
 2018/05/22-00:00:01 07 Major 2nd|MAJOR 2nd
 2018/05/22-00:00:01 07 Lostorage Conflated WIXOSS|Lostorage conflated WIXOSS
 2018/05/22-00:00:01 07 Gurazeni|グラゼニ
-2018/05/22-00:00:01 06 Wotaku ni Koi wa Muzukashii|ヲタクに恋は難しい
-2018/05/22-00:00:01 06 Hisone to Maso-tan|ひそねとまそたん
 2018/05/22-00:00:01 05 Full Metal Panic! Invisible Victory|フルメタル・パニック！ Invisible Victory
 2018/05/21-09:49:37 19 Toji no Miko|刀使ノ巫女
 2018/05/21-09:49:37 19 Grancrest Senki|グランクレスト戦記
@@ -64,11 +67,8 @@ Last Update: 2018/05/25-18:34:03
 2018/05/21-09:49:37 07 Hoozuki no Reitetsu 3|鬼灯の冷徹 第弐期 その弐
 2018/05/21-09:49:37 07 Hinamatsuri|ヒナまつり
 2018/05/21-09:49:37 07 Cutie Honey Universe|Cutie Honey Universe
-2018/05/21-09:49:37 07 Comic Girls|こみっくがーるず
 2018/05/21-09:49:37 07 Caligula|Caligula -カリギュラ-
 2018/05/21-09:49:37 07 Boku no Hero Academia 3|僕のヒーローアカデミア 第3期
 2018/05/21-09:49:37 07 Amanchu! Advance|あまんちゅ！～あどばんす～
 2018/05/21-09:49:37 07 Akkun to Kanojo|あっくんとカノジョ
-2018/05/21-09:49:37 07 Aikatsu Friends!|アイカツフレンズ！
-2018/05/21-09:49:37 06 Dorei-ku The Animation|奴隷区 The Animation
 2018/04/06-18:00:01 15.5 Idolish Seven|アイドリッシュセブン
