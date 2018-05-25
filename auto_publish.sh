@@ -202,7 +202,7 @@ do
         fi
         EPNUM_OLD_N=${EPNUM_OLD_N%.*}
       fi
-      if [ "${EPNUM_N}" -gt "${EPNUM_OLD_N}" ]; then
+      if [ $(( EPNUM_N - EPNUM_OLD_N )) -eq 1 ]; then
         logging "new episode: ${EPNUM} (local: ${EP_NUMS[${cnt}]})"
         hit_flg=1
         echo "${title}" >> ${RESULT_FILE}
