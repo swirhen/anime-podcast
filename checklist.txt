@@ -1,4 +1,26 @@
-Last Update: 2018/05/28-18:00:01
+Last Update: 2018/05/29-00:00:01
+2018/05/29-00:00:01 20 Toji no Miko|刀使ノ巫女
+2018/05/29-00:00:01 20 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2018/05/29-00:00:01 20 Grancrest Senki|グランクレスト戦記
+2018/05/29-00:00:01 19 Nanatsu no Taizai|七つの大罪 戒めの復活
+2018/05/29-00:00:01 19 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
+2018/05/29-00:00:01 19 Darling in the FranXX|ダーリン・イン・ザ・フランキス
+2018/05/29-00:00:01 18 Hakyuu Houshin Engi|覇穹 封神演義
+2018/05/29-00:00:01 08 Persona 5 the Animation|PERSONA5 the Animation
+2018/05/29-00:00:01 08 Omae wa Mada Gunma wo Shiranai|お前はまだグンマを知らない
+2018/05/29-00:00:01 08 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
+2018/05/29-00:00:01 08 Major 2nd|MAJOR 2nd
+2018/05/29-00:00:01 08 Mahou Shoujo Site|魔法少女サイト
+2018/05/29-00:00:01 08 Lostorage Conflated WIXOSS|Lostorage conflated WIXOSS
+2018/05/29-00:00:01 08 Lost Song|LOST SONG
+2018/05/29-00:00:01 08 Juushinki Pandora|重神機パンドーラ
+2018/05/29-00:00:01 08 Hoozuki no Reitetsu 3|鬼灯の冷徹 第弐期 その弐
+2018/05/29-00:00:01 08 Hinamatsuri|ヒナまつり
+2018/05/29-00:00:01 08 Gurazeni|グラゼニ
+2018/05/29-00:00:01 08 Ginga Eiyuu Densetsu： Die Neue These - Kaikou|銀河英雄伝説 Die Neue These 邂逅
+2018/05/29-00:00:01 08 Devils Line|デビルズライン
+2018/05/29-00:00:01 08 Boku no Hero Academia 3|僕のヒーローアカデミア 第3期
+2018/05/29-00:00:01 06 Full Metal Panic! Invisible Victory|フルメタル・パニック！ Invisible Victory
 2018/05/28-18:00:01 20 Cardcaptor Sakura|カードキャプターさくら クリアカード編
 2018/05/26-12:00:02 08 Saredo Tsumibito wa Ryuu to Odoru： Dances with the Dragons|されど罪人は竜と踊る
 2018/05/26-12:00:02 08 Megalo Box|メガロボクス
@@ -38,36 +60,14 @@ Last Update: 2018/05/28-18:00:01
 2018/05/23-00:00:01 07 Shokugeki no Souma： San no Sara - Toutsuki Ressha-hen|食戟のソーマ 餐ノ皿 遠月列車篇
 2018/05/22-18:00:01 07 Layton Mystery Tanteisha： Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2018/05/22-18:00:01 07 Kiratto Pri☆chan|キラッとプリ☆チャン
-2018/05/22-06:00:01 18 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
 2018/05/22-06:00:01 16 Hugtto! Precure|HuGっと！ プリキュア
-2018/05/22-06:00:01 07 Persona 5 the Animation|PERSONA5 the Animation
-2018/05/22-06:00:01 07 Ginga Eiyuu Densetsu： Die Neue These - Kaikou|銀河英雄伝説 Die Neue These 邂逅
-2018/05/22-06:00:01 07 Devils Line|デビルズライン
-2018/05/22-00:00:01 19 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
-2018/05/22-00:00:01 18 Darling in the FranXX|ダーリン・イン・ザ・フランキス
 2018/05/22-00:00:01 07 Sword Art Online Alternative： Gun Gale Online|ソードアート・オンライン オルタナティブ ガンゲイル・オンライン
-2018/05/22-00:00:01 07 Omae wa Mada Gunma wo Shiranai|お前はまだグンマを知らない
-2018/05/22-00:00:01 07 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
-2018/05/22-00:00:01 07 Major 2nd|MAJOR 2nd
-2018/05/22-00:00:01 07 Lostorage Conflated WIXOSS|Lostorage conflated WIXOSS
-2018/05/22-00:00:01 07 Gurazeni|グラゼニ
-2018/05/22-00:00:01 05 Full Metal Panic! Invisible Victory|フルメタル・パニック！ Invisible Victory
-2018/05/21-09:49:37 19 Toji no Miko|刀使ノ巫女
-2018/05/21-09:49:37 19 Grancrest Senki|グランクレスト戦記
-2018/05/21-09:49:37 18 Nanatsu no Taizai|七つの大罪 戒めの復活
-2018/05/21-09:49:37 17 Hakyuu Houshin Engi|覇穹 封神演義
 2018/05/21-09:49:37 15 Beatless|BEATLESS
 2018/05/21-09:49:37 08 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2018/05/21-09:49:37 07 Wakaokami wa Shougakusei!|若おかみは小学生！
 2018/05/21-09:49:37 07 Piano no Mori|ピアノの森
 2018/05/21-09:49:37 07 Nil Admirari no Tenbin Teito Genwaku Kitan|ニル・アドミラリの天秤
-2018/05/21-09:49:37 07 Mahou Shoujo Site|魔法少女サイト
-2018/05/21-09:49:37 07 Lost Song|LOST SONG
-2018/05/21-09:49:37 07 Juushinki Pandora|重神機パンドーラ
-2018/05/21-09:49:37 07 Hoozuki no Reitetsu 3|鬼灯の冷徹 第弐期 その弐
-2018/05/21-09:49:37 07 Hinamatsuri|ヒナまつり
 2018/05/21-09:49:37 07 Cutie Honey Universe|Cutie Honey Universe
 2018/05/21-09:49:37 07 Caligula|Caligula -カリギュラ-
-2018/05/21-09:49:37 07 Boku no Hero Academia 3|僕のヒーローアカデミア 第3期
 2018/05/21-09:49:37 07 Amanchu! Advance|あまんちゅ！～あどばんす～
 2018/05/21-09:49:37 07 Akkun to Kanojo|あっくんとカノジョ
