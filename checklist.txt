@@ -1,4 +1,5 @@
-Last Update: 2018/05/28-12:00:01
+Last Update: 2018/05/28-18:00:01
+2018/05/28-18:00:01 20 Cardcaptor Sakura|カードキャプターさくら クリアカード編
 2018/05/26-12:00:02 08 Saredo Tsumibito wa Ryuu to Odoru： Dances with the Dragons|されど罪人は竜と踊る
 2018/05/26-12:00:02 08 Megalo Box|メガロボクス
 2018/05/25-18:42:44 134 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
@@ -53,7 +54,6 @@ Last Update: 2018/05/28-12:00:01
 2018/05/22-00:00:01 05 Full Metal Panic! Invisible Victory|フルメタル・パニック！ Invisible Victory
 2018/05/21-09:49:37 19 Toji no Miko|刀使ノ巫女
 2018/05/21-09:49:37 19 Grancrest Senki|グランクレスト戦記
-2018/05/21-09:49:37 19 Cardcaptor Sakura|カードキャプターさくら クリアカード編
 2018/05/21-09:49:37 18 Nanatsu no Taizai|七つの大罪 戒めの復活
 2018/05/21-09:49:37 17 Hakyuu Houshin Engi|覇穹 封神演義
 2018/05/21-09:49:37 15 Beatless|BEATLESS
