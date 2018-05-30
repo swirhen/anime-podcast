@@ -78,6 +78,7 @@ MAILTO=""
 # crawler
 */10 17,18 * * 2 /home/swirhen/crawler_check/crawler_check.sh "dereradi_blomaga" "http://ch.nicovideo.jp/dereradi/blomaga/nico/feed"
 */10 22 * * 3 /home/swirhen/crawler_check/crawler_check.sh "derepa_blomaga" "http://ch.nicovideo.jp/cinderellaparty/blomaga/nico/feed"
+*/10 * * * * /home/swirhen/crawler_check/crawler_check.sh "theater_generation" "http://www.e-onkyo.com/search/search.aspx?q=THE+IDOLM%40STER+MILLION+THE%40TER+GENERATION"
 
 # 汎用 torrent seed check
 0 * * * * /home/swirhen/torrentsearch/torrentsearch2.sh
