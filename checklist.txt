@@ -1,4 +1,27 @@
-Last Update: 2018/06/01-00:00:01
+Last Update: 2018/06/01-06:00:01
+2018/06/01-06:00:01 34 Black Clover|ブラッククローバー
+2018/06/01-06:00:01 21 Basilisk： Ouka Ninpouchou|バジリスク ～桜花忍法帖～
+2018/06/01-06:00:01 20 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
+2018/06/01-06:00:01 09 Uchuu Senkan Tiramisu|宇宙戦艦ティラミス
+2018/06/01-06:00:01 09 Tokyo Ghoul：Re|東京喰種：re
+2018/06/01-06:00:01 09 Tachibana-kan to Lie Angle|立花館To Lieあんぐる
+2018/06/01-06:00:01 09 Mahou Shoujo Ore|魔法少女 俺
+2018/06/01-06:00:01 09 Lupin Sansei (2018)|ルパン三世 PART5
+2018/06/01-06:00:01 09 Kakuriyo no Yadomeshi|かくりよの宿飯
+2018/06/01-06:00:01 09 Gundam Build Divers|ガンダムビルドダイバーズ
+2018/06/01-06:00:01 09 Alice or Alice： Siscon Niisan to Futago no Imouto|ありすorありす ～シスコン兄さんと双子の妹～
+2018/06/01-06:00:01 09 3D Kanojo： Real Girl|3D彼女 リアルガール
+2018/06/01-06:00:01 08 Steins;Gate 0|シュタインズ・ゲート ゼロ
+2018/06/01-06:00:01 08 Souten no Ken： Regenesis (2018)|蒼天の拳REGENESIS
+2018/06/01-06:00:01 08 Rokuhoudou Yotsuiro Biyori|鹿楓堂よついろ日和
+2018/06/01-06:00:01 08 Last Period： Owarinaki Rasen no Monogatari|ラストピリオド -終わりなき螺旋の物語-
+2018/06/01-06:00:01 08 Ladyspo|レディスポ
+2018/06/01-06:00:01 08 High School DxD Hero|ハイスクールD×D HERO
+2018/06/01-06:00:01 08 Golden Kamuy|ゴールデンカムイ
+2018/06/01-06:00:01 08 Fumikiri Jikan|踏切時間
+2018/06/01-06:00:01 08 Cutie Honey Universe|Cutie Honey Universe
+2018/06/01-06:00:01 08 Caligula|Caligula -カリギュラ-
+2018/06/01-06:00:01 08 Butlers： Chitose Momotose Monogatari|Butlers～千年百年物語～
 2018/05/30-06:00:01 17 Hugtto! Precure|HuGっと！ プリキュア
 2018/05/30-06:00:01 10 Uma Musume： Pretty Derby|ウマ娘 プリティーダービー
 2018/05/30-06:00:01 09 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
@@ -43,31 +66,8 @@ Last Update: 2018/06/01-00:00:01
 2018/05/25-18:42:44 07 Wotaku ni Koi wa Muzukashii|ヲタクに恋は難しい
 2018/05/25-18:42:44 07 Hisone to Maso-tan|ひそねとまそたん
 2018/05/25-18:42:44 07 Dorei-ku The Animation|奴隷区 The Animation
-2018/05/25-00:00:01 33 Black Clover|ブラッククローバー
-2018/05/25-00:00:01 19 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
-2018/05/25-00:00:01 08 Tokyo Ghoul：Re|東京喰種：re
-2018/05/25-00:00:01 08 Tachibana-kan to Lie Angle|立花館To Lieあんぐる
-2018/05/25-00:00:01 08 Lupin Sansei (2018)|ルパン三世 PART5
-2018/05/25-00:00:01 08 Kakuriyo no Yadomeshi|かくりよの宿飯
-2018/05/25-00:00:01 08 Gundam Build Divers|ガンダムビルドダイバーズ
-2018/05/25-00:00:01 08 Alice or Alice： Siscon Niisan to Futago no Imouto|ありすorありす ～シスコン兄さんと双子の妹～
-2018/05/25-00:00:01 08 3D Kanojo： Real Girl|3D彼女 リアルガール
-2018/05/25-00:00:01 07 Steins;Gate 0|シュタインズ・ゲート ゼロ
-2018/05/25-00:00:01 07 Rokuhoudou Yotsuiro Biyori|鹿楓堂よついろ日和
-2018/05/25-00:00:01 07 Last Period： Owarinaki Rasen no Monogatari|ラストピリオド -終わりなき螺旋の物語-
-2018/05/25-00:00:01 07 High School DxD Hero|ハイスクールD×D HERO
-2018/05/25-00:00:01 07 Butlers： Chitose Momotose Monogatari|Butlers～千年百年物語～
-2018/05/24-00:00:01 20 Basilisk： Ouka Ninpouchou|バジリスク ～桜花忍法帖～
-2018/05/24-00:00:01 08 Uchuu Senkan Tiramisu|宇宙戦艦ティラミス
-2018/05/24-00:00:01 08 Mahou Shoujo Ore|魔法少女 俺
 2018/05/24-00:00:01 08 Captain Tsubasa (2018)|キャプテン翼
-2018/05/24-00:00:01 07 Souten no Ken： Regenesis (2018)|蒼天の拳REGENESIS
-2018/05/24-00:00:01 07 Ladyspo|レディスポ
-2018/05/24-00:00:01 07 Golden Kamuy|ゴールデンカムイ
-2018/05/24-00:00:01 07 Fumikiri Jikan|踏切時間
 2018/05/22-00:00:01 07 Sword Art Online Alternative： Gun Gale Online|ソードアート・オンライン オルタナティブ ガンゲイル・オンライン
 2018/05/21-09:49:37 15 Beatless|BEATLESS
-2018/05/21-09:49:37 07 Cutie Honey Universe|Cutie Honey Universe
-2018/05/21-09:49:37 07 Caligula|Caligula -カリギュラ-
 2018/05/21-09:49:37 07 Amanchu! Advance|あまんちゅ！～あどばんす～
 2018/05/21-09:49:37 07 Akkun to Kanojo|あっくんとカノジョ
