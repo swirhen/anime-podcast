@@ -1,4 +1,5 @@
-Last Update: 2018/06/03-06:00:01
+Last Update: 2018/06/03-12:00:01
+2018/06/03-12:00:01 21 Cardcaptor Sakura|カードキャプターさくら クリアカード編
 2018/06/03-06:00:01 20 Nanatsu no Taizai|七つの大罪 戒めの復活
 2018/06/03-00:00:01 21 Toji no Miko|刀使ノ巫女
 2018/06/03-00:00:01 21 Grancrest Senki|グランクレスト戦記
@@ -65,7 +66,6 @@ Last Update: 2018/06/03-06:00:01
 2018/05/29-00:00:01 08 Ginga Eiyuu Densetsu： Die Neue These - Kaikou|銀河英雄伝説 Die Neue These 邂逅
 2018/05/29-00:00:01 08 Devils Line|デビルズライン
 2018/05/29-00:00:01 08 Boku no Hero Academia 3|僕のヒーローアカデミア 第3期
-2018/05/28-18:00:01 20 Cardcaptor Sakura|カードキャプターさくら クリアカード編
 2018/05/26-12:00:02 08 Saredo Tsumibito wa Ryuu to Odoru： Dances with the Dragons|されど罪人は竜と踊る
 2018/05/22-00:00:01 07 Sword Art Online Alternative： Gun Gale Online|ソードアート・オンライン オルタナティブ ガンゲイル・オンライン
 2018/05/21-09:49:37 15 Beatless|BEATLESS
