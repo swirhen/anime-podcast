@@ -6,8 +6,7 @@ Last Update: 2018/06/04-12:00:01
 2018/06/04-12:00:01 09 Major 2nd|MAJOR 2nd
 2018/06/04-12:00:01 09 Lost Song|LOST SONG
 2018/06/04-12:00:01 09 Hoozuki no Reitetsu 3|鬼灯の冷徹 第弐期 その弐
-2018/06/04-12:00:01 0 To Be Heroine|ＴＯ　ＢＥ　ＨＥＲＯＩＮＥ
-2018/06/04-12:00:01 0 Future Card Shin Buddyfight|神バディファイト
+2018/06/04-12:00:01 0 To Be Heroine|TO BE HEROINE
 2018/06/03-12:00:01 21 Cardcaptor Sakura|カードキャプターさくら クリアカード編
 2018/06/03-06:00:01 20 Nanatsu no Taizai|七つの大罪 戒めの復活
 2018/06/03-00:00:01 21 Toji no Miko|刀使ノ巫女
