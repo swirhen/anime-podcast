@@ -43,8 +43,8 @@ do
 num=`expr $RANDOM % 2 + 1`
 #num2=`expr $RANDOM % 2 + 1`
 #num3=`expr $RANDOM % 2 + 1`
-#	/usr/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "aandg22" --app "?rtmp://fms-base1.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime
-	/usr/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "aandg2" --app "?rtmp://fms-base1.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime
+#	/usr/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "aandg2" --app "?rtmp://fms-base1.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime
+	/usr/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "aandg22" --app "?rtmp://fms-base1.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime
 done
 # 保存フォルダへ移動
 cd "/data/share/movie/98 PSP用/agqr/flv"
