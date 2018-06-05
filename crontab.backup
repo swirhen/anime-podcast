@@ -91,3 +91,6 @@ MAILTO=""
 
 # 音泉クローラー
 0 * * * * /data/share/movie/sh/onsen_crawler/onsen_crawler.sh
+
+# agqr playpathチェック
+25,55 * * * * /data/share/movie/sh/agqrcheck.sh
