@@ -9,12 +9,14 @@
 # 隔週フラグファイル名: 
 #     フラグファイルがあるかどうかチェックして、なければ作成だけして録画しない
 #     あれば削除して録画する
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE:-$0}")"; pwd)"
 name=$1
 offset=$2
 rectime=$3
 vidflg=$4
 recflg=$5
 PYTHON_PATH="python3"
+PLAYPATH=`cat ${SCRIPT_DIR}/aandg`
 # オフセット
 sleep $offset
 # 隔週対応
