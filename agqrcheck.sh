@@ -35,12 +35,10 @@ else
         git push origin master
 
         # つぶやく
-        /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【超A&G playpathチェック】有効playpathが変更されました 旧playpath: ${PP} 新playpath: ${PP2}"
         /home/swirhen/tiasock/tiasock_common.sh "#anigera@w" "【超A&G playpathチェック】有効playpathが変更されました 旧playpath: ${PP} 新playpath: ${PP2}"
         ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "@here 【超A&G playpathチェック】有効playpathが変更されました 旧playpath: ${PP} 新playpath: ${PP2}"
     else
         # つぶやく
-        /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【超A&G playpathチェック】エラー：playpathが両方無効になりました playpath: ${PP}、${PP2}"
         /home/swirhen/tiasock/tiasock_common.sh "#anigera@w" "【超A&G playpathチェック】エラー：playpathが両方無効になりました playpath: ${PP}、${PP2}"
         ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "@channel 【超A&G playpathチェック】エラー：playpathが両方無効になりました playpath: ${PP}、${PP2}"
     fi
