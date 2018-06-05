@@ -50,7 +50,7 @@ done
 # 保存フォルダへ移動
 cd "/data/share/movie/98 PSP用/agqr/flv"
 # 映像付きならばエンコード用のシェルを呼ぶ。音声のみならmp3エンコード
-if [ $vidflg = v ]; then
+if [ "${vidflg}" = "v" ]; then
     until [ -f "/data/share/movie/98 PSP用/agqr/$efilename.mp4" ];
     do
       /data/share/movie/sh/169mp4_agqr.sh "$efilename" "/data/share/movie/98 PSP用/agqr/"
