@@ -193,10 +193,11 @@ do
       EPNUM_N=${EPNUM}
       if [ "${#EPNUM}" -gt 3 ]; then
         EPNUM=`echo "${title}" | sed "s/.*${NAME}.* \([0-9]\{2,3\}.5\) .*/\1/"`
-        EPNUM_N=$(( ${EPNUM%.*} + 1 ))
+        expr ${EPNUM} + 1 > /dev/null 2>&1
         if [ $? -ne 0 ]; then
           continue
         fi
+        EPNUM_N=$(( ${EPNUM%.*} + 1 ))
       fi
       EPNUM_OLD_N=${EP_NUMS[${cnt}]}
       if [ "${#EPNUM_OLD_N}" -gt 3 ]; then
