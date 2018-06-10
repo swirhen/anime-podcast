@@ -55,3 +55,12 @@ Last Update: 2018/06/10-12:26:31
 2018/06/04-12:00:01 09 Major 2nd|MAJOR 2nd
 2018/06/04-12:00:01 09 Lost Song|LOST SONG
 2018/06/04-12:00:01 09 Hoozuki no Reitetsu 3|鬼灯の冷徹 第弐期 その弐
+2018/06/03-12:00:01 21 Cardcaptor Sakura|カードキャプターさくら クリアカード編
+2018/06/03-00:00:01 09 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
+2018/06/03-00:00:01 09 Lostorage Conflated WIXOSS|Lostorage conflated WIXOSS
+2018/06/03-00:00:01 09 Gurazeni|グラゼニ
+2018/06/03-00:00:01 07 Full Metal Panic! Invisible Victory|フルメタル・パニック！ Invisible Victory
+2018/06/02-06:00:01 09 Tada-kun wa Koi wo Shinai|多田くんは恋をしない
+2018/06/02-06:00:01 08 Wotaku ni Koi wa Muzukashii|ヲタクに恋は難しい
+2018/06/02-06:00:01 08 Hisone to Maso-tan|ひそねとまそたん
+2018/05/30-06:00:01 08 Wakaokami wa Shougakusei!|若おかみは小学生！
