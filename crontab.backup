@@ -58,6 +58,7 @@ MAILTO=""
 29 0 * * 7 /data/share/movie/sh/agqrrecord.sh "寿美菜子のラフラフ" 45 1800
 59 0 * * 7 /data/share/movie/sh/agqrrecord.sh "あどりぶ" 45 1800
 59 2 * * 7 /data/share/movie/sh/radikorec.sh -o "井口裕香のトーキングすむすむ" -t 1860 QRR
+59 1 * * 7 /data/share/movie/sh/radikorec.sh -o "やっぱりSが好き ～SAY YOU！LOVE ME！～" -t 1860 JORF
 # -- SUN
 59 10 * * 7 /data/share/movie/sh/radikorec.sh -o "A＆Gリクエストアワー 阿澄佳奈のキミまち！" -t 7260 QRR
 59 20 * * 7 /data/share/movie/sh/radikorec.sh -o "大橋彩香のAny Beat！" -t 1860 QRR
@@ -70,9 +71,9 @@ MAILTO=""
 # りむ鯖
 5 3 * * 2 /data/share/movie/sh/agqrrelease.sh
 5 1 * * 4 /data/share/movie/sh/agqrrelease.sh
-5 22 * * 4 /data/share/movie/sh/agqrrelease.sh
 5 0 * * 5 /data/share/movie/sh/agqrrelease.sh
 5 0 * * 6 /data/share/movie/sh/agqrrelease.sh
+25 22 * * 7 /data/share/movie/sh/agqrrelease.sh
 35 22 2 7 1 /data/share/movie/sh/agqrrelease.sh
 
 # twitter search
