@@ -190,6 +190,9 @@ do
     if [ ${fetch_flg} -eq 1 ]; then
 #      EPNUM=`echo "${title}" | sed "s/.*${NAME}.* \([0-9]\{2,3\}\) .*/\1/"`
       EPNUM=`echo "${title}" | sed "s/.*${NAME}.* - \([0-9.]\{2,5\}\).*/\1/"`
+      if [ "${EPNUM}" = "" ]; then
+        continue
+      fi
       EPNUM_N=${EPNUM}
       if [ "${#EPNUM}" -gt 3 ]; then
         EPNUM=`echo "${title}" | sed "s/.*${NAME}.* \([0-9]\{2,3\}.5\) .*/\1/"`
