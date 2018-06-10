@@ -195,6 +195,7 @@ do
         EPNUM=`echo "${title}" | sed "s/.*${NAME}.* \([0-9]\{2,3\}.5\) .*/\1/"`
         echo "EPNUM: ${EPNUM}"
         if [ "${#EPNUM}" -gt 4 ]; then
+          (( cnt2++ ))
           continue
         fi
 #        expr "${EPNUM}" + 1 > /dev/null 2>&1
