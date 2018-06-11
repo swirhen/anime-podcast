@@ -75,6 +75,8 @@ MAILTO=""
 5 0 * * 6 /data/share/movie/sh/agqrrelease.sh
 25 22 * * 7 /data/share/movie/sh/agqrrelease.sh
 35 22 2 7 1 /data/share/movie/sh/agqrrelease.sh
+5 1 8 7 7 /data/share/movie/sh/agqrrelease.sh
+10 5 9 7 1 /data/share/movie/sh/agqrrelease.sh
 
 # twitter search
 #*/5 * * * * /home/swirhen/twitterchk/twitterchk.sh "twitter-search" "ミリオン" "\(譲\|出\).*徳島"
