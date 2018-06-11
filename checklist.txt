@@ -1,4 +1,20 @@
-Last Update: 2018/06/12-00:00:01
+Last Update: 2018/06/12-06:00:01
+2018/06/12-06:00:01 22 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2018/06/12-06:00:01 21 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
+2018/06/12-06:00:01 19 Hugtto! Precure|HuGっと！ プリキュア
+2018/06/12-06:00:01 10 Tada-kun wa Koi wo Shinai|多田くんは恋をしない
+2018/06/12-06:00:01 10 Persona 5 the Animation|PERSONA5 the Animation
+2018/06/12-06:00:01 10 Omae wa Mada Gunma wo Shiranai|お前はまだグンマを知らない
+2018/06/12-06:00:01 10 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
+2018/06/12-06:00:01 10 Major 2nd|MAJOR 2nd
+2018/06/12-06:00:01 10 Lostorage Conflated WIXOSS|Lostorage conflated WIXOSS
+2018/06/12-06:00:01 10 Lost Song|LOST SONG
+2018/06/12-06:00:01 10 Layton Mystery Tanteisha： Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
+2018/06/12-06:00:01 10 Hoozuki no Reitetsu 3|鬼灯の冷徹 第弐期 その弐
+2018/06/12-06:00:01 09 Wotaku ni Koi wa Muzukashii|ヲタクに恋は難しい
+2018/06/12-06:00:01 09 Wakaokami wa Shougakusei!|若おかみは小学生！
+2018/06/12-06:00:01 09 Hisone to Maso-tan|ひそねとまそたん
+2018/06/12-06:00:01 04 To Be Heroine|TO BE HEROINE
 2018/06/09-12:00:01 21 Nanatsu no Taizai|七つの大罪 戒めの復活
 2018/06/09-12:00:01 10 Mahou Shoujo Site|魔法少女サイト
 2018/06/09-06:00:01 22 Toji no Miko|刀使ノ巫女
@@ -37,29 +53,13 @@ Last Update: 2018/06/12-00:00:01
 2018/06/06-18:00:01 09 Caligula|Caligula -カリギュラ-
 2018/06/06-06:00:01 09 Cutie Honey Universe|Cutie Honey Universe
 2018/06/06-06:00:01 09 Binan Koukou Chikyuu Bouei-bu Happy Kiss!|美男高校地球防衛部HAPPY KISS！
-2018/06/05-06:00:01 03 To Be Heroine|TO BE HEROINE
-2018/06/05-00:00:01 20 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
-2018/06/05-00:00:01 18 Hugtto! Precure|HuGっと！ プリキュア
 2018/06/05-00:00:01 11 Uma Musume： Pretty Derby|ウマ娘 プリティーダービー
 2018/06/05-00:00:01 10 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2018/06/05-00:00:01 10 Amai Choubatsu： Watashi wa Kanshu Sen'you Pet|甘い懲罰～私は看守専用ペット
 2018/06/05-00:00:01 09 Shokugeki no Souma： San no Sara - Toutsuki Ressha-hen|食戟のソーマ 餐ノ皿 遠月列車篇
 2018/06/05-00:00:01 09 Piano no Mori|ピアノの森
 2018/06/05-00:00:01 09 Nil Admirari no Tenbin Teito Genwaku Kitan|ニル・アドミラリの天秤
-2018/06/05-00:00:01 09 Layton Mystery Tanteisha： Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2018/06/05-00:00:01 09 Kiratto Pri☆chan|キラッとプリ☆チャン
-2018/06/04-12:00:01 21 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/06/04-12:00:01 19.5 Darling in the FranXX|ダーリン・イン・ザ・フランキス
-2018/06/04-12:00:01 09 Persona 5 the Animation|PERSONA5 the Animation
-2018/06/04-12:00:01 09 Omae wa Mada Gunma wo Shiranai|お前はまだグンマを知らない
-2018/06/04-12:00:01 09 Major 2nd|MAJOR 2nd
-2018/06/04-12:00:01 09 Lost Song|LOST SONG
-2018/06/04-12:00:01 09 Hoozuki no Reitetsu 3|鬼灯の冷徹 第弐期 その弐
-2018/06/03-00:00:01 09 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
-2018/06/03-00:00:01 09 Lostorage Conflated WIXOSS|Lostorage conflated WIXOSS
 2018/06/03-00:00:01 09 Gurazeni|グラゼニ
 2018/06/03-00:00:01 07 Full Metal Panic! Invisible Victory|フルメタル・パニック！ Invisible Victory
-2018/06/02-06:00:01 09 Tada-kun wa Koi wo Shinai|多田くんは恋をしない
-2018/06/02-06:00:01 08 Wotaku ni Koi wa Muzukashii|ヲタクに恋は難しい
-2018/06/02-06:00:01 08 Hisone to Maso-tan|ひそねとまそたん
-2018/05/30-06:00:01 08 Wakaokami wa Shougakusei!|若おかみは小学生！
