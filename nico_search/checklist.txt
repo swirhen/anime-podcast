@@ -1,5 +1,5 @@
-Last Update: 2018/06/13-00:00:01
-2018/06/13-00:00:01 108 http://ch.nicovideo.jp/dereradi/video デレラジ * 03 第 回 s/「\\(デレラジ☆(スター)\\).*\\(第[0-9]\\+回\\).*/\\1 \\2\\"/
+Last Update: 2018/06/13-06:00:01
+2018/06/13-06:00:01 109 http://ch.nicovideo.jp/dereradi/video デレラジ * 03 第 回 s/「\\(デレラジ☆(スター)\\).*\\(第[0-9]\\+回\\).*/\\1 \\2\\"/
 2018/06/08-18:00:01 263 http://ch.nicovideo.jp/MillionRADIO/video 回おまけ放送】 * 09 第 回 
 2018/06/08-18:00:01 263 http://ch.nicovideo.jp/MillionRADIO/video 回】 * 09 第 回 
 2018/06/07-18:00:01 189 http://ch.nicovideo.jp/cinderellaparty/video アーカイブ動画 * 01 | 回 s/\\(第.*回\\).*\\(CINDERELLA PARTY\\).*アーカイブ動画\\(.*\\)/\\2！ \\1 \\3/
