@@ -20,46 +20,12 @@ POST_FLG=1
 LOG_FILE=${SCRIPT_DIR}/autopub_${DATETIME2}.log
 FLG_FILE=${SCRIPT_DIR}/autopub_running
 LEOPARD_INDEX=${SCRIPT_DIR}/leopard_index.html
-#TITLE_EN_LIST_FILE=${SCRIPT_DIR}/title_en.list
-#TITLE_JA_LIST_FILE=${SCRIPT_DIR}/title_ja.list
 INDEX_GET=0
 NEW_RESULT_FILE=${SCRIPT_DIR}/new_program_result.txt
 NEW_PROGRAM_FILE=${SCRIPT_DIR}/new_program.txt
 
+# 新番組日本語名取得
 get_ja_title_list() {
-#    ARG_TITLE_EN="$1"
-#
-#    # 日本語名対応リスト作成
-#    if [ ${ENJA_LIST_GET} -eq 0 ]; then
-#        curl -s -S "http://jp.leopard-raws.org/" > ${LEOPARD_INDEX}
-#        cat ${LEOPARD_INDEX} | grep -A 1 "/?search" | grep "のRSS" | sed "s/.*='\(.*\)のRSS.*/\1/" > ${TITLE_EN_LIST_FILE}
-#        cat ${LEOPARD_INDEX} | grep "/?search" | sed "s/.*>\(.*\)<.*/\1/" > ${TITLE_JA_LIST_FILE}
-#
-#        TITLE_EN_LIST=()
-#        TITLE_JA_LIST=()
-#        while read TITLE_EN
-#        do
-#            TITLE_EN_LIST+=( "${TITLE_EN}" )
-#        done < ${TITLE_EN_LIST_FILE}
-#
-#        while read TITLE_JA
-#        do
-#            TITLE_JA_LIST+=( "${TITLE_JA}" )
-#        done < ${TITLE_JA_LIST_FILE}
-#
-#        ENJA_LIST_GET=1
-#    fi
-#    i=0
-#    for TITLE_EN in "${TITLE_EN_LIST[@]}"
-#    do
-#        # if [[ ${TITLE_EN} =~ ${ARG_TITLE_EN} ]]; then
-#        if [ "${TITLE_EN}" = "${ARG_TITLE_EN}" ]; then
-#          echo "${TITLE_JA_LIST[${i}]}"
-#          break
-#        fi
-#        (( i++ ))
-#    done
-
     DL_HASH=$1
     if [ ${INDEX_GET} -eq 0 ]; then
         curl -s -S "http://jp.leopard-raws.org/" > ${LEOPARD_INDEX}
@@ -71,13 +37,7 @@ get_ja_title_list() {
     echo "${TITLE_JA}"
 }
 
-# botから呼ばれた場合はslack postしない
-if [ "$1" != "" ]; then
-  POST_FLG=0
-fi
-
 end() {
-#  rm -f ${LOG_FILE}
   mv ${LOG_FILE} ${SCRIPT_DIR}/logs/
   rm -f ${FLG_FILE}
   exit 0
@@ -94,6 +54,13 @@ slack_post() {
 slack_upload() {
   /usr/bin/curl -F channels="${CHANNEL}" -F file="@$1" -F title="$2" -F token=`cat ${SCRIPT_DIR}/token` -F filetype=text https://slack.com/api/files.upload
 }
+
+# main section
+
+# botから呼ばれた場合はslack postしない
+if [ "$1" != "" ]; then
+  POST_FLG=0
+fi
 
 # running flag file check
 if [ -f ${FLG_FILE} ]; then
@@ -125,15 +92,16 @@ NAMES=()
 NAMESJ=()
 NAMES_SUB=()
 DOWNLOADS=()
-RESULT_END=""
 END_EPISODES=()
 END_EPISODES_NG=()
 
+# サブチェックリスト(nyaaからも取得するリスト)
 while read NAME
 do
   NAMES_SUB+=( "${NAME}" )
 done < ${LIST_FILE2}
 
+# チェックリストの取得
 while read LAST_UPD EP_NUM NAME
 do
   if [ "${LAST_UPD}" != "Last" ]; then
@@ -144,15 +112,16 @@ do
   fi
 done < ${LIST_FILE}
 
+# リストチェック＆seedダウンロード処理開始：tempリストに日時を出力
 echo "Last Update: ${DATETIME}" > ${LIST_TEMP}
 
-# search
+# チェックリストの行ごとにループ
 cnt=0
 for NAME in "${NAMES[@]}"
 do
   cnt2=1
   hit_flg=0
-  # NAMES_SUBにタイトルが存在するか
+  # サブリストに同名タイトルが存在するか：存在する場合はsub_flgを立てる
   sub_flg=0
   for NAME_SUB in "${NAMES_SUB[@]}"
   do
@@ -162,22 +131,28 @@ do
     fi
   done
 
+  # 取得したRSSをループ(leoとnyaa同時に回す)
   while :
   do
+    # <title>タグ内取得
     title=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep title | sed "s#<title>\(.*\)</title>#\1#" | sed "s/^      //"`
     title2=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML2}" | grep title | sed "s#<title>\(.*\)</title>#\1#" | sed "s/^      //"`
-    # feed end
+
+    # titleが空白になったらループ終了
     if [ "${title}" = "" -a "${title2}" = "" ]; then
       break
     fi
+
+    # titleに.tsが含まれていたら処理しない
     if [ "`echo \"${title}\" | grep \"\.ts\"`" != "" ]; then
       continue
     fi
 
+    # linkタグ内取得
     link=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
     link2=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML2}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
 
-    # fetch
+    # titleと一致するかどうかチェック
     fetch_flg=0
     if [ ${sub_flg} -eq 0 -a "`echo \"${title}\" | grep \"${NAME}\"`" != "" ]; then
       fetch_flg=1
@@ -187,34 +162,50 @@ do
       fetch_flg=1
     fi
 
+    # 一致した場合、titleから話数の数値を取得
     if [ ${fetch_flg} -eq 1 ]; then
-#      EPNUM=`echo "${title}" | sed "s/.*${NAME}.* \([0-9]\{2,3\}\) .*/\1/"`
       EPNUM=`echo "${title}" | sed "s/.*${NAME}.* - \([0-9.]\{2,5\}\).*/\1/"`
       EPNUM_N=${EPNUM}
+
+      # 取得した文字列が3桁以上の場合、.5話の可能性がある
       if [ "${#EPNUM}" -gt 3 ]; then
         EPNUM=`echo "${title}" | sed "s/.*${NAME}.* \([0-9]\{2,3\}.5\) .*/\1/"`
+
+        # 4桁以上の場合は取得エラーとみなして処理しない
         if [ "${#EPNUM}" -gt 4 ]; then
           (( cnt2++ ))
           continue
         fi
+
+        # 整数に丸めるため、.5を省いて+1する
         EPNUM_N=$(( ${EPNUM%.*} + 1 ))
       fi
+
+      # リストに保存されている旧話数との比較
       EPNUM_OLD_N=${EP_NUMS[${cnt}]}
+
+      # 保存されている旧話数も.5を含む場合があるので、3桁以上の場合は.5を取り払う
       if [ "${#EPNUM_OLD_N}" -gt 3 ]; then
         if [ "${EPNUM}" = "${EPNUM_OLD_N}" ]; then
           break
         fi
         EPNUM_OLD_N=${EPNUM_OLD_N%.*}
       fi
+
+      # 新話数 - 旧話数の差分が1のとき、新規エピソードとする
       if [ $(( 10#$EPNUM_N - 10#$EPNUM_OLD_N )) -eq 1 ]; then
         logging "new episode: ${EPNUM} (local: ${EP_NUMS[${cnt}]})"
         hit_flg=1
         echo "${title}" >> ${RESULT_FILE}
         DOWNLOADS+=( "${link}" )
-        # END Episode
+
+        # titleに「END」が含まれるときは終了作品チェックを行う
         if [ "`echo \"${title}\" | grep \"END\"`" != "" ]; then
+          # 既に取得済みのファイル数(.5話等の話数を含まず) + 1 = 総話数
           EP_COUNT=`find ${DOWNLOAD_DIR}/*"${NAMESJ[${cnt}]}"/ -regextype posix-basic -regex ".*第[^\.]*話.*" | wc -l`
           (( EP_COUNT++ ))
+
+          # ファイル個数と最終話数の個数が一致：抜け無しリストに入れる　一致しない場合は抜けありリストへ
           logging "# 終了とみられるエピソード: ${title}"
           if [ ${EPNUM} -eq ${EP_COUNT} ]; then
             logging "  抜けチェック:OK 既存エピソードファイル数(.5話を除く): ${EP_COUNT} / 最終エピソード番号: ${EPNUM}"
@@ -229,6 +220,9 @@ do
     fi
     (( cnt2++ ))
   done
+
+  # 新規エピソードがある場合、最新話数と最終取得日時を更新して、tempリストへ追加
+  # 無い場合は元のリストの行をそのまま追加
   if [ "${hit_flg}" = "1" ]; then
     echo "${DATETIME} ${EPNUM} ${NAME}|${NAMESJ[${cnt}]}" >> ${LIST_TEMP}
   else
@@ -241,6 +235,7 @@ done
 cnt2=1
 new_hit_flg=0
 rm -f ${NEW_RESULT_FILE}
+
 while :
 do
     title=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep title | sed "s#<title>\(.*\)</title>#\1#" | sed "s/^      //"`
@@ -252,6 +247,7 @@ do
       continue
     fi
 
+    # titleリストを精査して、「 - 01 RAW」を含むものを探す
     if [[ ${title} =~ -\ 01\ RAW ]]; then
         link=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
         TITLE_EN=`echo ${title} | sed "s/\[Leopard-Raws\]\ \(.*\)\ -\ 01\ RAW.*/\1/"`
@@ -262,6 +258,8 @@ do
             TITLE_JA="${TITLE_EN}"
         fi
 
+        # 日本語タイトルを取得し、新番組取得済リストへ追加(重複対策)
+        # チェックリスト(tempと実体両方)に次回取得のためのレコードを追加
         if [ "`grep "${TITLE_JA}" ${NEW_PROGRAM_FILE}`" = "" ]; then
             new_hit_flg=1
             echo "${DATETIME} 0 ${TITLE_EN}|${TITLE_JA}" >> ${LIST_TEMP}
@@ -285,16 +283,20 @@ if [ ${new_hit_flg} -eq 1 ]; then
     slack_post "${post_msg}"
 fi
 
+# 何らかのエラーで途中で処理が途切れたりして、チェックリスト実体とtempに行数の差が出てしまった場合、警告
 cd /data/share/movie/sh
 if [ `cat ${LIST_TEMP} | wc -l` -ne `cat ${LIST_FILE} | wc -l` ]; then
   slack_post "@channel !!! リスト行数が変化しました。 checklist.txt のコミットログを確認してください "
 fi
+
+# 処理の終わったtempリストをソートし、実体に上書き→gitコミット
 cat ${LIST_TEMP} | sort -r > ${LIST_FILE}
 git commit -m 'checklist.txt update' checklist.txt
 git commit -m 'new_program.txt update' new_program.txt
 git pull
 git push origin master
 
+# seedダウンロード処理終了を報告(まだ実際にseed取得はしてない)
 if [ "${POST_FLG}" = "1" ]; then
   if [ -s ${RESULT_FILE} ]; then
     post_msg="seed download completed.
@@ -312,6 +314,7 @@ download seeds:
   fi
 fi
 
+# seedダウンロード・seed育成処理開始
 cd /data/share/movie
 
 for DL_LINK in "${DOWNLOADS[@]}"
@@ -320,7 +323,7 @@ do
   wget --no-check-certificate --restrict-file-names=nocontrol --trust-server-names --content-disposition "${DL_LINK}" -P "${DOWNLOAD_DIR}" > /dev/null
 done
 
-# torrent download
+# seed育成
 logging "### torrent download start."
 
 /data/share/movie/sh/tdlstop.sh 38888 &
@@ -340,7 +343,7 @@ logging "### auto encode start."
 
 /data/share/movie/sh/169f.sh
 
-# end episodes list modify
+# 終了エピソードがある場合、終了リストの編集
 ENDLIST_FILE=`find /data/share/movie/end*  -mtime -30 | tail -1`
 if [ "${ENDLIST_FILE}" = "" ]; then
   ENDLIST_FILE_LAST=`find /data/share/movie/end* | sort | tail -1`
