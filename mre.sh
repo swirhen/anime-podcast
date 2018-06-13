@@ -87,8 +87,8 @@ do
       break
     fi
 
-    nn=`echo $FILE_NAME | sed -e "s/.*${SF}.*$SFX1\([0-9][0-9]\).*/\1/"`
-    fsf=`echo $FILE_NAME | sed -e "s/.*\(${SF}\).*$SFX1[0-9][0-9].*/\1/"`
+    nn=`echo $FILE_NAME | sed -e "s/.*${SF}.* - \([0-9][0-9]\).*/\1/"`
+    fsf=`echo $FILE_NAME | sed -e "s/.*\(${SF}\).* - [0-9][0-9].*/\1/"`
     if [ "$fsf" == "$SF" ]; then
       if [ ! -e "$FILE_NAME".aria2 ]; then
         if [ "$FILE_NAME" != "${NAME} 第$nn話.$ext" ]; then
