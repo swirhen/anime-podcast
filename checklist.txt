@@ -1,4 +1,8 @@
-Last Update: 2018/06/17-06:00:01
+Last Update: 2018/06/17-12:00:01
+2018/06/17-12:00:01 23 Toji no Miko|刀使ノ巫女
+2018/06/17-12:00:01 11 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
+2018/06/17-12:00:01 11 Mahou Shoujo Site|魔法少女サイト
+2018/06/17-12:00:01 11 Hinamatsuri|ヒナまつり
 2018/06/16-18:00:02 23 Grancrest Senki|グランクレスト戦記
 2018/06/16-18:00:02 21 Hakyuu Houshin Engi|覇穹 封神演義
 2018/06/16-18:00:02 11 Lostorage Conflated WIXOSS|Lostorage conflated WIXOSS
@@ -48,7 +52,6 @@ Last Update: 2018/06/17-06:00:01
 2018/06/12-06:00:01 19 Hugtto! Precure|HuGっと！ プリキュア
 2018/06/12-06:00:01 10 Persona 5 the Animation|PERSONA5 the Animation
 2018/06/12-06:00:01 10 Omae wa Mada Gunma wo Shiranai|お前はまだグンマを知らない
-2018/06/12-06:00:01 10 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
 2018/06/12-06:00:01 10 Major 2nd|MAJOR 2nd
 2018/06/12-06:00:01 10 Lost Song|LOST SONG
 2018/06/12-06:00:01 10 Layton Mystery Tanteisha： Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
@@ -56,10 +59,6 @@ Last Update: 2018/06/17-06:00:01
 2018/06/12-06:00:01 09 Wakaokami wa Shougakusei!|若おかみは小学生！
 2018/06/12-06:00:01 04 To Be Heroine|TO BE HEROINE
 2018/06/09-12:00:01 21 Nanatsu no Taizai|七つの大罪 戒めの復活
-2018/06/09-12:00:01 10 Mahou Shoujo Site|魔法少女サイト
-2018/06/09-06:00:01 22 Toji no Miko|刀使ノ巫女
-2018/06/09-06:00:01 10 Hinamatsuri|ヒナまつり
 2018/06/06-06:00:01 09 Binan Koukou Chikyuu Bouei-bu Happy Kiss!|美男高校地球防衛部HAPPY KISS！
 2018/06/04-12:00:01 19.5 Darling in the FranXX|ダーリン・イン・ザ・フランキス
 2018/06/03-00:00:01 09 Gurazeni|グラゼニ
-2018/06/03-00:00:01 07 Full Metal Panic! Invisible Victory|フルメタル・パニック！ Invisible Victory
