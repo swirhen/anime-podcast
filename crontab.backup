@@ -79,7 +79,7 @@ MAILTO=""
 10 5 9 7 1 /data/share/movie/sh/agqrrelease.sh
 
 # twitter search
-#*/5 * * * * /home/swirhen/twitterchk/twitterchk.sh "twitter-search" "ミリオン" "\(譲\|出\).*徳島"
+*/5 * * * * /home/swirhen/twitterchk/twitterchk.sh "twitter-search" "カラオケMAX" "7/20"
 #*/5 * * * * /home/swirhen/twitterchk/twitterchk.sh "twitter-search" "デレ.*5th" "\(譲\|出\).*幕張" "LV"
 
 # crawler
