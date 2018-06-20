@@ -1,4 +1,15 @@
-Last Update: 2018/06/20-18:00:01
+Last Update: 2018/06/21-00:00:01
+2018/06/21-00:00:01 37 Black Clover|ブラッククローバー
+2018/06/21-00:00:01 23 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
+2018/06/21-00:00:01 12 Tokyo Ghoul：Re|東京喰種：re
+2018/06/21-00:00:01 12 Tachibana-kan to Lie Angle|立花館To Lieあんぐる
+2018/06/21-00:00:01 12 Mahou Shoujo Ore|魔法少女 俺
+2018/06/21-00:00:01 12 Lupin Sansei (2018)|ルパン三世 PART5
+2018/06/21-00:00:01 12 Kakuriyo no Yadomeshi|かくりよの宿飯
+2018/06/21-00:00:01 12 Gundam Build Divers|ガンダムビルドダイバーズ
+2018/06/21-00:00:01 12 3D Kanojo： Real Girl|3D彼女 リアルガール
+2018/06/21-00:00:01 11 Rokuhoudou Yotsuiro Biyori|鹿楓堂よついろ日和
+2018/06/21-00:00:01 11 High School DxD Hero|ハイスクールD×D HERO
 2018/06/20-06:00:01 12 Uchuu Senkan Tiramisu|宇宙戦艦ティラミス
 2018/06/20-06:00:01 12 Captain Tsubasa (2018)|キャプテン翼
 2018/06/20-06:00:01 12 Amai Choubatsu： Watashi wa Kanshu Sen'you Pet|甘い懲罰～私は看守専用ペット
@@ -48,16 +59,5 @@ Last Update: 2018/06/20-18:00:01
 2018/06/15-06:00:02 10 Steins;Gate 0|シュタインズ・ゲート ゼロ
 2018/06/15-06:00:02 10 Last Period： Owarinaki Rasen no Monogatari|ラストピリオド -終わりなき螺旋の物語-
 2018/06/15-06:00:02 10 Butlers： Chitose Momotose Monogatari|Butlers～千年百年物語～
-2018/06/14-18:00:01 22 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
-2018/06/14-18:00:01 11 Tokyo Ghoul：Re|東京喰種：re
-2018/06/14-18:00:01 11 Lupin Sansei (2018)|ルパン三世 PART5
-2018/06/14-18:00:01 11 Gundam Build Divers|ガンダムビルドダイバーズ
-2018/06/14-18:00:01 11 3D Kanojo： Real Girl|3D彼女 リアルガール
-2018/06/13-12:00:01 11 Tachibana-kan to Lie Angle|立花館To Lieあんぐる
-2018/06/13-06:00:01 36 Black Clover|ブラッククローバー
-2018/06/13-06:00:01 11 Mahou Shoujo Ore|魔法少女 俺
-2018/06/13-06:00:01 11 Kakuriyo no Yadomeshi|かくりよの宿飯
-2018/06/13-06:00:01 10 Rokuhoudou Yotsuiro Biyori|鹿楓堂よついろ日和
 2018/06/13-06:00:01 10 Piano no Mori|ピアノの森
-2018/06/13-06:00:01 10 High School DxD Hero|ハイスクールD×D HERO
 2018/06/04-12:00:01 19.5 Darling in the FranXX|ダーリン・イン・ザ・フランキス
