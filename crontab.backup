@@ -11,7 +11,6 @@ MAILTO=""
 0 1 * * * /data/share/movie/sh/cron_backup.sh
 
 # SP
-59 9 21 6 4 /data/share/movie/sh/agqrrecord.sh "文化放送モバイルplus presents生放送！緒方恵美の銀河にほえろ！2018-なまｰ" 45 3600 v
 
 # 帯
 59 19 * * 1 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 黒沢ともよ" 45 3600 v
