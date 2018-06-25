@@ -1,4 +1,24 @@
-Last Update: 2018/06/25-12:00:01
+Last Update: 2018/06/25-18:00:01
+2018/06/25-18:00:01 24 Toji no Miko|刀使ノ巫女
+2018/06/25-18:00:01 24 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2018/06/25-18:00:01 24 Grancrest Senki|グランクレスト戦記
+2018/06/25-18:00:01 23 Nanatsu no Taizai|七つの大罪 戒めの復活
+2018/06/25-18:00:01 22 Hakyuu Houshin Engi|覇穹 封神演義
+2018/06/25-18:00:01 138 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
+2018/06/25-18:00:01 12 Tada-kun wa Koi wo Shinai|多田くんは恋をしない
+2018/06/25-18:00:01 12 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
+2018/06/25-18:00:01 12 Megalo Box|メガロボクス
+2018/06/25-18:00:01 12 Mahou Shoujo Site|魔法少女サイト
+2018/06/25-18:00:01 12 Lostorage Conflated WIXOSS|Lostorage conflated WIXOSS
+2018/06/25-18:00:01 12 Juushinki Pandora|重神機パンドーラ
+2018/06/25-18:00:01 12 Hinamatsuri|ヒナまつり
+2018/06/25-18:00:01 12 Gurazeni|グラゼニ
+2018/06/25-18:00:01 12 Comic Girls|こみっくがーるず
+2018/06/25-18:00:01 11 Wotaku ni Koi wa Muzukashii|ヲタクに恋は難しい
+2018/06/25-18:00:01 11 Last Period： Owarinaki Rasen no Monogatari|ラストピリオド -終わりなき螺旋の物語-
+2018/06/25-18:00:01 11 Hisone to Maso-tan|ひそねとまそたん
+2018/06/25-18:00:01 11 Dorei-ku The Animation|奴隷区 The Animation
+2018/06/25-18:00:01 09 Full Metal Panic! Invisible Victory|フルメタル・パニック！ Invisible Victory
 2018/06/23-18:00:01 11 Steins;Gate 0|シュタインズ・ゲート ゼロ
 2018/06/23-18:00:01 11 Butlers： Chitose Momotose Monogatari|Butlers～千年百年物語～
 2018/06/21-00:00:01 37 Black Clover|ブラッククローバー
@@ -21,7 +41,6 @@ Last Update: 2018/06/25-12:00:01
 2018/06/20-06:00:01 11 Caligula|Caligula -カリギュラ-
 2018/06/20-06:00:01 10.5 Shiyan Pin Jiating|実験品家族 -クリーチャーズ・ファミリー・デイズ-
 2018/06/20-06:00:01 10 Binan Koukou Chikyuu Bouei-bu Happy Kiss!|美男高校地球防衛部HAPPY KISS！
-2018/06/19-11:18:01 11 Gurazeni|グラゼニ
 2018/06/18-18:00:01 22 Hitori no Shita： The Outcast 2|一人之下 the outcast 2
 2018/06/18-18:00:01 20 Hugtto! Precure|HuGっと！ プリキュア
 2018/06/18-18:00:01 12 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
@@ -32,27 +51,8 @@ Last Update: 2018/06/25-12:00:01
 2018/06/18-18:00:01 11 Kiratto Pri☆chan|キラッとプリ☆チャン
 2018/06/18-18:00:01 11 Hoozuki no Reitetsu 3|鬼灯の冷徹 第弐期 その弐
 2018/06/18-18:00:01 10 Wakaokami wa Shougakusei!|若おかみは小学生！
-2018/06/18-11:22:15 08.5 Full Metal Panic! Invisible Victory|フルメタル・パニック！ Invisible Victory
-2018/06/17-18:00:01 23 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
-2018/06/17-18:00:01 22 Nanatsu no Taizai|七つの大罪 戒めの復活
 2018/06/17-18:00:01 11 Major 2nd|MAJOR 2nd
 2018/06/17-18:00:01 04.5 To Be Heroine|TO BE HEROINE
-2018/06/17-12:00:01 23 Toji no Miko|刀使ノ巫女
-2018/06/17-12:00:01 11 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
-2018/06/17-12:00:01 11 Mahou Shoujo Site|魔法少女サイト
-2018/06/17-12:00:01 11 Hinamatsuri|ヒナまつり
-2018/06/16-18:00:02 23 Grancrest Senki|グランクレスト戦記
-2018/06/16-18:00:02 21 Hakyuu Houshin Engi|覇穹 封神演義
-2018/06/16-18:00:02 11 Lostorage Conflated WIXOSS|Lostorage conflated WIXOSS
-2018/06/16-06:00:01 11 Juushinki Pandora|重神機パンドーラ
-2018/06/15-18:00:01 11 Tada-kun wa Koi wo Shinai|多田くんは恋をしない
-2018/06/15-18:00:01 11 Megalo Box|メガロボクス
-2018/06/15-18:00:01 11 Comic Girls|こみっくがーるず
 2018/06/15-18:00:01 11 Aikatsu Friends!|アイカツフレンズ！
-2018/06/15-18:00:01 10 Wotaku ni Koi wa Muzukashii|ヲタクに恋は難しい
-2018/06/15-18:00:01 10 Hisone to Maso-tan|ひそねとまそたん
-2018/06/15-18:00:01 10 Dorei-ku The Animation|奴隷区 The Animation
-2018/06/15-06:00:02 137 Himitsu no Cocotama|かみさまみならい ヒミツのここたま
-2018/06/15-06:00:02 10 Last Period： Owarinaki Rasen no Monogatari|ラストピリオド -終わりなき螺旋の物語-
 2018/06/13-06:00:01 10 Piano no Mori|ピアノの森
 2018/06/04-12:00:01 19.5 Darling in the FranXX|ダーリン・イン・ザ・フランキス
