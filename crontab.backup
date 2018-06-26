@@ -21,7 +21,8 @@ MAILTO=""
 59 23 * * 1-4 /data/share/movie/sh/agqrrecord.sh "鷲崎健のヨルナイト×ヨルナイト" 45 3600 v
 # -- MON
 59 18 * * 1 /data/share/movie/sh/agqrrecord.sh "石原夏織のCarry up！？" 45 1800 v
-59 20 * * 1 /data/share/movie/sh/radikorec.sh -o "チマメ隊のポポロンラジオ" -t 1860 QRR
+#59 20 * * 1 /data/share/movie/sh/radikorec.sh -o "チマメ隊のポポロンラジオ" -t 1860 QRR
+59 20 * * 1 /data/share/movie/sh/radikorec.sh -o "ご注文はラジオですか？？ ～WELCOME【う・さ！】～" -t 1860 QRR
 29 21 * * 1 /data/share/movie/sh/agqrrecord.sh "東山奈央のラジオ＠リビング" 45 1800
 59 21 * * 1 /data/share/movie/sh/agqrrecord.sh "井口裕香のむ～～～ん⊂（　＾ω＾）⊃" 45 3600 v
 59 22 * * 1 /data/share/movie/sh/agqrrecord.sh "阿澄佳奈 星空ひなたぼっこ" 45 1800 v
