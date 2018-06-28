@@ -1,4 +1,10 @@
-Last Update: 2018/06/28-12:00:01
+Last Update: 2018/06/28-18:00:01
+2018/06/28-18:00:01 38 Black Clover|ブラッククローバー
+2018/06/28-18:00:01 24 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
+2018/06/28-18:00:01 13 Kakuriyo no Yadomeshi|かくりよの宿飯
+2018/06/28-18:00:01 13 Gundam Build Divers|ガンダムビルドダイバーズ
+2018/06/28-18:00:01 12 Rokuhoudou Yotsuiro Biyori|鹿楓堂よついろ日和
+2018/06/28-18:00:01 12 High School DxD Hero|ハイスクールD×D HERO
 2018/06/28-00:00:01 13 Captain Tsubasa (2018)|キャプテン翼
 2018/06/28-00:00:01 12 Golden Kamuy|ゴールデンカムイ
 2018/06/28-00:00:01 11 Piano no Mori|ピアノの森
@@ -27,12 +33,6 @@ Last Update: 2018/06/28-12:00:01
 2018/06/25-18:00:01 09 Full Metal Panic! Invisible Victory|フルメタル・パニック！ Invisible Victory
 2018/06/23-18:00:01 11 Steins;Gate 0|シュタインズ・ゲート ゼロ
 2018/06/23-18:00:01 11 Butlers： Chitose Momotose Monogatari|Butlers～千年百年物語～
-2018/06/21-00:00:01 37 Black Clover|ブラッククローバー
-2018/06/21-00:00:01 23 Saiki Kusuo no Psi Nan 2|斉木楠雄のΨ難2
 2018/06/21-00:00:01 12 Lupin Sansei (2018)|ルパン三世 PART5
-2018/06/21-00:00:01 12 Kakuriyo no Yadomeshi|かくりよの宿飯
-2018/06/21-00:00:01 12 Gundam Build Divers|ガンダムビルドダイバーズ
-2018/06/21-00:00:01 11 Rokuhoudou Yotsuiro Biyori|鹿楓堂よついろ日和
-2018/06/21-00:00:01 11 High School DxD Hero|ハイスクールD×D HERO
 2018/06/15-18:00:01 11 Aikatsu Friends!|アイカツフレンズ！
 2018/06/04-12:00:01 19.5 Darling in the FranXX|ダーリン・イン・ザ・フランキス
