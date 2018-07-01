@@ -59,6 +59,7 @@ MAILTO=""
 59 0 * * 7 /data/share/movie/sh/agqrrecord.sh "あどりぶ" 45 1800
 59 2 * * 7 /data/share/movie/sh/radikorec.sh -o "井口裕香のトーキングすむすむ" -t 1860 QRR
 59 1 * * 7 /data/share/movie/sh/radikorec.sh -o "やっぱりSが好き ～SAY YOU！LOVE ME！～" -t 1860 JORF
+59 1 * * 7 /data/share/movie/sh/radikorec.sh -o "MOMO・SORA・SHIINA Talking Box" -t 1860 QRR
 # -- SUN
 59 10 * * 7 /data/share/movie/sh/radikorec.sh -o "A＆Gリクエストアワー 阿澄佳奈のキミまち！" -t 7260 QRR
 59 20 * * 7 /data/share/movie/sh/radikorec.sh -o "大橋彩香のAny Beat！" -t 1860 QRR
