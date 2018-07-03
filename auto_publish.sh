@@ -202,7 +202,7 @@ do
         # titleに「END」が含まれるときは終了作品チェックを行う
         if [ "`echo \"${title}\" | grep \"END\"`" != "" ]; then
           # 既に取得済みのファイル数(.5話等の話数を含まず) + 1 = 総話数
-          EP_COUNT=`find ${DOWNLOAD_DIR}/*"${NAMESJ[${cnt}]}"/ -regextype posix-basic -regex ".*第[^\.]*話.*" | wc -l`
+          EP_COUNT=`find ${DOWNLOAD_DIR}/*"${NAMESJ[${cnt}]}"/ -regextype posix-basic -regex ".*第[^\.]*話.*" | grep -v "第00話" |wc -l`
           (( EP_COUNT++ ))
 
           # ファイル個数と最終話数の個数が一致：抜け無しリストに入れる　一致しない場合は抜けありリストへ
