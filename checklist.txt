@@ -1,4 +1,8 @@
-Last Update: 2018/07/05-06:00:01
+Last Update: 2018/07/05-12:00:02
+2018/07/05-12:00:02 01 Joshi Ochi! 2-kai kara Onnanoko ga... Futte Kita！？|Joshi Ochi! 2-kai kara Onnanoko ga... Futte Kita！？
+2018/07/05-12:00:02 01 Island|Island
+2018/07/05-12:00:02 01 Hanebado!|Hanebado!
+2018/07/05-12:00:02 01 Baki|Baki
 2018/07/05-06:00:01 22 Hugtto! Precure|HuGっと！ プリキュア
 2018/07/05-06:00:01 14 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2018/07/05-06:00:01 13 Persona 5 the Animation|PERSONA5 the Animation
@@ -7,10 +11,6 @@ Last Update: 2018/07/05-06:00:01
 2018/07/05-06:00:01 13 Kiratto Pri☆chan|キラッとプリ☆チャン
 2018/07/05-06:00:01 12 Wakaokami wa Shougakusei!|若おかみは小学生！
 2018/07/05-06:00:01 06 To Be Heroine|TO BE HEROINE
-2018/07/05-06:00:01 0 Joshi Ochi! 2-kai kara Onnanoko ga... Futte Kita！？|Joshi Ochi! 2-kai kara Onnanoko ga... Futte Kita！？
-2018/07/05-06:00:01 0 Island|Island
-2018/07/05-06:00:01 0 Hanebado!|Hanebado!
-2018/07/05-06:00:01 0 Baki|Baki
 2018/07/03-06:00:01 25 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/07/03-06:00:01 13 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
 2018/07/03-06:00:01 13 Juushinki Pandora|重神機パンドーラ
