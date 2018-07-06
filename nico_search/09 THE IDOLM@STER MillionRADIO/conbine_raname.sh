@@ -30,8 +30,6 @@ do
     else
         # blvが複数ある場合はファイル名を連結
         files=""
-#        cp -p ${partdir}/*/*.blv "${SCRIPT_DIR}/tmp/"
-#        cd "${SCRIPT_DIR}/"
         for file in ${partdir}/*/*.blv
         do
             if [ "${files}" = "" ]; then
