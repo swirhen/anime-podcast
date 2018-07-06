@@ -8,12 +8,12 @@ dircnt=`ls ${dir} | wc -l`
 for partdir in ${dir}/*
 do
     # entry.jsonからtitleを取得
-    title=`cat ${dir}/${partdir}/entry.json | sed "s/.*title\":\"\(.*\)\",\"time.*/\1\n/"`
+    title=`cat ${partdir}/entry.json | sed "s/.*title\":\"\(.*\)\",\"time.*/\1\n/"`
     # entry.jsonからpartを取得
-    part=`cat ${dir}/${partdir}/entry.json | sed "s/.*part\":\"\(.*\)\",\"vid.*/\1\n/"`
+    part=`cat ${partdir}/entry.json | sed "s/.*part\":\"\(.*\)\",\"vid.*/\1\n/"`
 
     # blv保存ディレクトリの下のblvファイル数を調べる
-    filecnt=`ls ${dir}/${partdir}/*/*.blv | wc -l`
+    filecnt=`ls ${partdir}/*/*.blv | wc -l`
 
     # ファイル名=title
     filename="${title}"
@@ -24,12 +24,12 @@ do
 
     if [ ${filecnt} -eq 1 ]; then
         # blvが1個だけの場合はリネーム
-        echo "mv ${dir}/${partdir}/*/0.blv \"${filename}\".mp4"
-        # mv ${dir}/${partdir}/*/0.blv "${filename}".mp4
+        echo "mv ${partdir}/*/0.blv \"${filename}\".mp4"
+        # mv ${partdir}/*/0.blv "${filename}".mp4
     else
         # blvが複数ある場合はファイル名を連結
         files=""
-        for file in ${dir}/${partdir}/*/*.blv
+        for file in ${partdir}/*/*.blv
         do
             if [ "${files}" = "" ]; then
                 files="${file}"
