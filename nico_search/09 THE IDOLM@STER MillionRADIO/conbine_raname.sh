@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE:-$0}")"; pwd)"
 dir=$1
 
 # 与えられたディレクトリ以下のパートディレクトリの数を調べる
@@ -29,7 +30,9 @@ do
     else
         # blvが複数ある場合はファイル名を連結
         files=""
-        for file in ${partdir}/*/*.blv
+        cp -p ${partdir}/*/*.blv ${SCRIPT_DIR}/tmp/
+        cd ${SCRIPT_DIR}/
+        for file in tmp/*.blv
         do
             if [ "${files}" = "" ]; then
                 files="${file}"
