@@ -28,16 +28,12 @@ do
         echo "mv ${partdir}/*/0.blv \"${filename}\".mp4"
     else
         # blvが複数ある場合はファイル名を連結
-        files=""
+        rm -f "${filename}.list"
         for file in ${partdir}/*/*.blv
         do
-            if [ "${files}" = "" ]; then
-                files="${file}"
-            else
-                files+="|${file}"
-            fi
+            echo "file ${file}" >> "${filename}.list"
         done
         # ffmpegでconcat
-        echo "/usr/bin/wine ffmpeg3.exe -i \"concat:${files}\" -c copy \"${filename}\".mp4"
+        echo "/usr/bin/wine ffmpeg3.exe -f concat -i "${filename}.list" -c copy \"${filename}\".mp4"
     fi
 done
