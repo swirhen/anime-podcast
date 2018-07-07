@@ -26,6 +26,9 @@ do
     if [ ${filecnt} -eq 1 ]; then
         # blvが1個だけの場合はリネーム
         echo "mv ${partdir}/*/0.blv \"${filename}\".mp4"
+    elif [ ${filecnt} -eq 0 ]; then
+        # なにもしない
+        echo "nashi"
     else
         # blvが複数ある場合はファイル名を連結
         rm -f "${filename}.list"
