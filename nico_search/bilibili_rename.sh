@@ -34,6 +34,6 @@ do
             echo "file ${file}" >> "${filename}.list"
         done
         # ffmpegでconcat
-        echo "/usr/bin/wine ffmpeg3.exe -f concat -i "${filename}.list" -c copy \"${filename}\".mp4"
+        echo "/usr/bin/wine ffmpeg3.exe -f concat -i \"${filename}.list\" -c copy \"${filename}\".mp4"
     fi
 done
