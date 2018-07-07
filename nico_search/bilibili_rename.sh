@@ -9,9 +9,9 @@ dircnt=`ls ${dir} | wc -l`
 for partdir in ${dir}/*
 do
     # entry.jsonからtitleを取得
-    title=`cat ${partdir}/entry.json | sed "s/.*title\":\"\([^\"]*\)\".*/\1/" | sed "s#\\\\/##g"`
+    title=`cat ${partdir}/entry.json | sed "s/.*title\":\"\([^\"]*\)\".*/\1/" | sed 's#\/##g' | sed 's#\\\#_#g'`
     # entry.jsonからpartを取得
-    part=`cat ${partdir}/entry.json | sed "s/.*part\":\"\([^\"]*\)\".*/\1/" | sed "s#\\\\/##g"`
+    part=`cat ${partdir}/entry.json | sed "s/.*part\":\"\([^\"]*\)\".*/\1/" | sed 's#\/##g' | sed 's#\\\#_#g'`
 
     # blv保存ディレクトリの下のblvファイル数を調べる
     filecnt=`ls ${partdir}/*/*.blv | wc -l`
@@ -28,7 +28,7 @@ do
         echo "cp ${partdir}/*/0.blv \"${filename}\".mp4"
     elif [ ${filecnt} -eq 0 ]; then
         # なにもしない
-        echo "nashi"
+        i=0
     else
         # blvが複数ある場合はファイル名を連結
         rm -f "${filename}.list"
