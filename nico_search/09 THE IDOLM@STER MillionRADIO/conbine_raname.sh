@@ -26,7 +26,6 @@ do
     if [ ${filecnt} -eq 1 ]; then
         # blvが1個だけの場合はリネーム
         echo "mv ${partdir}/*/0.blv \"${filename}\".mp4"
-        #mv ${partdir}/*/0.blv "${filename}".mp4
     else
         # blvが複数ある場合はファイル名を連結
         files=""
@@ -40,6 +39,5 @@ do
         done
         # ffmpegでconcat
         echo "/usr/bin/wine ffmpeg3.exe -i \"concat:${files}\" -c copy \"${filename}\".mp4"
-        #/usr/bin/wine ffmpeg3.exe -i "concat:${files}" -c copy "${filename}".mp4
     fi
 done
