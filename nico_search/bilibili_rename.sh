@@ -9,9 +9,9 @@ dircnt=`ls ${dir} | wc -l`
 for partdir in ${dir}/*
 do
     # entry.jsonからtitleを取得
-    title=`cat ${partdir}/entry.json | sed "s/.*title\":\"\([^\"]*\)\".*/\1\n/"`
+    title=`cat ${partdir}/entry.json | sed "s/.*title\":\"\([^\"]*\)\".*/\1/"`
     # entry.jsonからpartを取得
-    part=`cat ${partdir}/entry.json | sed "s/.*part\":\"\([^\"]*\)\".*/\1\n/"`
+    part=`cat ${partdir}/entry.json | sed "s/.*part\":\"\([^\"]*\)\".*/\1/"`
 
     # blv保存ディレクトリの下のblvファイル数を調べる
     filecnt=`ls ${partdir}/*/*.blv | wc -l`
