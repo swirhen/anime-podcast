@@ -32,7 +32,7 @@ do
     else
         # blvが複数ある場合はファイル名を連結
         rm -f "${filename}.list"
-        for file in ${partdir}/*/*.blv
+        for file in `ls ${partdir}/*/*.blv | sort -n`
         do
             echo "file ${file}" >> "${filename}.list"
         done
