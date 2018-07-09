@@ -1,4 +1,5 @@
-Last Update: 2018/07/09-18:00:01
+Last Update: 2018/07/10-00:00:01
+2018/07/10-00:00:01 15 Kakuriyo no Yadomeshi|かくりよの宿飯
 2018/07/09-12:00:01 15 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2018/07/09-12:00:01 14 Juushinki Pandora|重神機パンドーラ
 2018/07/09-12:00:01 14 Aikatsu Friends!|アイカツフレンズ！
@@ -16,7 +17,6 @@ Last Update: 2018/07/09-18:00:01
 2018/07/06-12:00:01 01 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
 2018/07/06-12:00:01 01 Back Street Girls： Gokudolls|Back Street Girls －ゴクドルズ－
 2018/07/06-06:00:01 39 Black Clover|ブラッククローバー
-2018/07/06-06:00:01 14 Kakuriyo no Yadomeshi|かくりよの宿飯
 2018/07/06-06:00:01 14 Gundam Build Divers|ガンダムビルドダイバーズ
 2018/07/06-06:00:01 14 Captain Tsubasa (2018)|キャプテン翼
 2018/07/06-06:00:01 13 Lupin Sansei (2018)|ルパン三世 PART5
