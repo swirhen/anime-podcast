@@ -30,46 +30,24 @@ Last Update: 2018/07/10-17:34:21
 2018/07/09-12:00:01 02 Baki|バキ
 2018/07/06-12:00:01 01 Yama no Susume： Third Season|ヤマノススメ サードシーズン
 2018/07/06-12:00:01 01 Yakiniku-ten Sengoku|焼肉店センゴク
-2018/07/06-12:00:01 01 Yakiniku-ten Sengoku|焼肉店センゴク
-2018/07/06-12:00:01 01 Senjuushi|千銃士
 2018/07/06-12:00:01 01 Senjuushi|千銃士
 2018/07/06-12:00:01 01 Onmyouji： Heian Monogatari|陰陽師・平安物語
-2018/07/06-12:00:01 01 Onmyouji： Heian Monogatari|陰陽師・平安物語
-2018/07/06-12:00:01 01 Idolmaster Cinderella Girls Gekijou 3|アイドルマスター シンデレラガールズ劇場3
 2018/07/06-12:00:01 01 Idolmaster Cinderella Girls Gekijou 3|アイドルマスター シンデレラガールズ劇場3
 2018/07/06-12:00:01 01 Dies Irae： To the Ring Reincarnation|Dies irae To the Ring Reincarnation
-2018/07/06-12:00:01 01 Dies Irae： To the Ring Reincarnation|Dies irae To the Ring Reincarnation
-2018/07/06-12:00:01 01 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
 2018/07/06-12:00:01 01 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
 2018/07/06-12:00:01 01 Back Street Girls： Gokudolls|Back Street Girls －ゴクドルズ－
-2018/07/06-12:00:01 01 Back Street Girls： Gokudolls|Back Street Girls －ゴクドルズ－
-2018/07/06-06:00:01 39 Black Clover|ブラッククローバー
 2018/07/06-06:00:01 39 Black Clover|ブラッククローバー
 2018/07/06-06:00:01 14 Gundam Build Divers|ガンダムビルドダイバーズ
-2018/07/06-06:00:01 14 Gundam Build Divers|ガンダムビルドダイバーズ
-2018/07/06-06:00:01 14 Captain Tsubasa (2018)|キャプテン翼
 2018/07/06-06:00:01 14 Captain Tsubasa (2018)|キャプテン翼
 2018/07/06-06:00:01 13 Lupin Sansei (2018)|ルパン三世 PART5
-2018/07/06-06:00:01 13 Lupin Sansei (2018)|ルパン三世 PART5
-2018/07/05-12:00:02 01 Joshi Ochi! 2-kai kara Onnanoko ga... Futte Kita！？|じょしおちっ！～2階から女の子が…降ってきた！？～
 2018/07/05-12:00:02 01 Joshi Ochi! 2-kai kara Onnanoko ga... Futte Kita！？|じょしおちっ！～2階から女の子が…降ってきた！？～
 2018/07/05-06:00:01 22 Hugtto! Precure|HuGっと！ プリキュア
-2018/07/05-06:00:01 22 Hugtto! Precure|HuGっと！ プリキュア
-2018/07/05-06:00:01 13 Persona 5 the Animation|PERSONA5 the Animation
 2018/07/05-06:00:01 13 Persona 5 the Animation|PERSONA5 the Animation
 2018/07/05-06:00:01 13 Major 2nd|MAJOR 2nd
-2018/07/05-06:00:01 13 Major 2nd|MAJOR 2nd
-2018/07/05-06:00:01 13 Layton Mystery Tanteisha： Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2018/07/05-06:00:01 13 Layton Mystery Tanteisha： Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2018/07/05-06:00:01 13 Kiratto Pri☆chan|キラッとプリ☆チャン
-2018/07/05-06:00:01 13 Kiratto Pri☆chan|キラッとプリ☆チャン
-2018/07/05-06:00:01 06 To Be Heroine|TO BE HEROINE
 2018/07/05-06:00:01 06 To Be Heroine|TO BE HEROINE
 2018/07/03-06:00:01 25 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
-2018/07/03-06:00:01 25 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
-2018/07/03-06:00:01 13 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
 2018/07/03-06:00:01 13 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
 2018/07/03-06:00:01 10 Full Metal Panic! Invisible Victory|フルメタル・パニック！ Invisible Victory
-2018/07/03-06:00:01 10 Full Metal Panic! Invisible Victory|フルメタル・パニック！ Invisible Victory
-2018/06/04-12:00:01 23 Darling in the FranXX|ダーリン・イン・ザ・フランキス
 2018/06/04-12:00:01 23 Darling in the FranXX|ダーリン・イン・ザ・フランキス
