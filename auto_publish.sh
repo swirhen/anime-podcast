@@ -248,7 +248,7 @@ do
   (( cnt++ ))
 done
 
-# 新番組1話対応(Leopardのみ)
+# 新番組1話対応
 cnt2=1
 new_hit_flg=0
 rm -f ${NEW_RESULT_FILE}
@@ -264,8 +264,8 @@ do
       continue
     fi
 
-    # titleリストを精査して、「 - 01 RAW」を含むものを探す
-    if [[ ${title} =~ -\ 01\ RAW ]]; then
+    # titleリストを精査して、「 - 01 」を含むものを探す
+    if [[ ${title} =~ -\ 01\  ]]; then
         link=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
         TITLE_EN=`echo ${title} | sed "s/\[Leopard-Raws\]\ \(.*\)\ -\ 01\ RAW.*/\1/"`
         DL_HASH=`echo ${link} | sed "s/.*hash=\(.*\)/\1/"`
