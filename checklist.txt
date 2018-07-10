@@ -1,5 +1,4 @@
-Last Update: 2018/07/10-18:00:48
-2018/07/10-18:00:01 0 Gintama. (2018)|銀魂. (銀ノ魂篇 後半戦)
+Last Update: 2018/07/10-17:34:21
 2018/07/10-16:20:45 01 Chio-chan no Tsuugakuro|ちおちゃんの通学路
 2018/07/10-12:19:36 01 Yume Oukoku to Nemureru 100 Nin no Ouji-sama|夢王国と眠れる100人の王子様
 2018/07/10-12:19:36 01 Sunohara-sou no Kanrinin-san|すのはら荘の管理人さん
@@ -22,6 +21,14 @@ Last Update: 2018/07/10-18:00:48
 2018/07/10-12:19:36 01 Aguu Tensai Ningyou|悪偶 -天才人形-
 2018/07/10-00:00:01 15 Kakuriyo no Yadomeshi|かくりよの宿飯
 2018/07/09-12:00:01 15 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
+2018/07/09-12:00:01 14 Juushinki Pandora|重神機パンドーラ
+2018/07/09-12:00:01 14 Aikatsu Friends!|アイカツフレンズ！
+2018/07/09-12:00:01 13 Wakaokami wa Shougakusei!|若おかみは小学生！
+2018/07/09-12:00:01 13 Steins;Gate 0|シュタインズ・ゲート ゼロ
+2018/07/09-12:00:01 02 Island|ISLAND
+2018/07/09-12:00:01 02 Hanebado!|はねバド！
+2018/07/09-12:00:01 02 Baki|バキ
+2018/07/06-12:00:01 01 Yama no Susume： Third Season|ヤマノススメ サードシーズン
 2018/07/06-12:00:01 01 Yakiniku-ten Sengoku|焼肉店センゴク
 2018/07/06-12:00:01 01 Senjuushi|千銃士
 2018/07/06-12:00:01 01 Onmyouji： Heian Monogatari|陰陽師・平安物語
