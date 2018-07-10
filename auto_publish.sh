@@ -41,12 +41,12 @@ get_ja_title_list() {
 get_ja_title_list2() {
     TITLE_EN=$1
 
-    # 取得した英語タイトルの "-" をスペースに変換、"："、"."、"!" を削除、2ワード分を取得
-    SEARCH_WORD=`echo "${TITLE_EN}" | sed "s/-/ /g" |  sed "s/-\|\!\|：\|\.//g" | sed "s/(.*)//" | awk '{print $1,$2}' | sed "s/ \+$//"`
+    # 取得した英語タイトルの "-" をスペースに変換、"："、"."、"!" を削除、3ワード分を取得
+    SEARCH_WORD=`echo "${TITLE_EN}" | sed "s/-/ /g" |  sed "s/-\|\!\|：\|\.//g" | sed "s/(.*)//" | awk '{print $1,$2,$3}' | sed "s/ \+$//"`
     # スペースを+に変換したものも取得
     SEARCH_WORD_ENC=`echo "${SEARCH_WORD}" | sed "s/ /+/g"`
-    # 3ワードぶん取得したもの
-    SEARCH_WORD2=`echo "${TITLE_EN}" | sed "s/-/ /g" |  sed "s/-\|\!\|：\|\.//g" | sed "s/(.*)//" | awk '{print $1,$2,$3}' | sed "s/ \+$//"`
+    # 2ワードぶん取得したもの
+    SEARCH_WORD2=`echo "${TITLE_EN}" | sed "s/-/ /g" |  sed "s/-\|\!\|：\|\.//g" | sed "s/(.*)//" | awk '{print $1,$2}' | sed "s/ \+$//"`
     # スペースを+に変換したものも取得
     SEARCH_WORD_ENC2=`echo "${SEARCH_WORD2}" | sed "s/ /+/g"`
 
