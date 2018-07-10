@@ -52,7 +52,7 @@ get_ja_title_list2() {
     echo "${TITLE_JA}"
 }
 
-end_script() {
+end() {
   mv ${LOG_FILE} ${SCRIPT_DIR}/logs/
   rm -f ${FLG_FILE}
   exit 0
@@ -350,7 +350,7 @@ download seeds:
     post_msg="swirhen.tv auto publish completed. (no new episode)"
     logging "${post_msg}"
     slack_post "${post_msg}"
-    end_script
+    end
   fi
 fi
 
@@ -438,4 +438,4 @@ slack_post "swirhen.tv auto publish completed."
 sleep 1
 slack_upload "${LOG_FILE}" "auto_publish_log_${DATETIME2}"
 
-end_script
+end
