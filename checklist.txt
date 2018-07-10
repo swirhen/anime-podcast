@@ -1,7 +1,9 @@
-Last Update: 2018/07/11-00:00:01
+Last Update: 2018/07/11-06:00:01
+2018/07/11-06:00:01 02 Yakiniku-ten Sengoku|焼肉店センゴク
+2018/07/11-06:00:01 02 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
+2018/07/11-06:00:01 01 Overlord III|オーバーロードIII
 2018/07/11-00:00:01 40 Black Clover|ブラッククローバー
 2018/07/11-00:00:01 02 Senjuushi|千銃士
-2018/07/11-00:00:01 0 Overlord III|オーバーロードIII
 2018/07/10-16:20:45 01 Chio-chan no Tsuugakuro|ちおちゃんの通学路
 2018/07/10-12:19:36 01 Yume Oukoku to Nemureru 100 Nin no Ouji-sama|夢王国と眠れる100人の王子様
 2018/07/10-12:19:36 01 Sunohara-sou no Kanrinin-san|すのはら荘の管理人さん
@@ -32,11 +34,9 @@ Last Update: 2018/07/11-00:00:01
 2018/07/09-12:00:01 02 Hanebado!|はねバド！
 2018/07/09-12:00:01 02 Baki|バキ
 2018/07/06-12:00:01 01 Yama no Susume： Third Season|ヤマノススメ サードシーズン
-2018/07/06-12:00:01 01 Yakiniku-ten Sengoku|焼肉店センゴク
 2018/07/06-12:00:01 01 Onmyouji： Heian Monogatari|陰陽師・平安物語
 2018/07/06-12:00:01 01 Idolmaster Cinderella Girls Gekijou 3|アイドルマスター シンデレラガールズ劇場3
 2018/07/06-12:00:01 01 Dies Irae： To the Ring Reincarnation|Dies irae To the Ring Reincarnation
-2018/07/06-12:00:01 01 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
 2018/07/06-12:00:01 01 Back Street Girls： Gokudolls|Back Street Girls －ゴクドルズ－
 2018/07/06-06:00:01 14 Gundam Build Divers|ガンダムビルドダイバーズ
 2018/07/06-06:00:01 14 Captain Tsubasa (2018)|キャプテン翼
