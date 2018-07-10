@@ -1,9 +1,5 @@
 Last Update: 2018/07/10-16:20:45
-2018/07/10-16:20:45 0 Yama no Susume Third Season|22/7 計算中
-2018/07/10-16:20:45 0 Oshiete Mahou no Pendulum Rilu Rilu Fairilu|おしえて魔法のペンデュラム～リルリルフェアリル～
-2018/07/10-16:20:45 0 Joshi Ochi! 2-kai kara Onnanoko ga... Futte Kita!|じょしおちっ！～2階から女の子が…降ってきた!?～
-2018/07/10-16:20:45 0 Hataraku Onii-san! No 2!|働くお兄さん！の2！
-2018/07/10-16:20:45 0 Chio-chan no Tsuugakuro|ちおちゃんの通学路
+2018/07/10-16:20:45 01 Chio-chan no Tsuugakuro|ちおちゃんの通学路
 2018/07/10-12:19:36 01 Yume Oukoku to Nemureru 100 Nin no Ouji-sama|夢王国と眠れる100人の王子様
 2018/07/10-12:19:36 01 Sunohara-sou no Kanrinin-san|すのはら荘の管理人さん
 2018/07/10-12:19:36 01 Shichisei no Subaru|七星のスバル
