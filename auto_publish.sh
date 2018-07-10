@@ -22,6 +22,7 @@ FLG_FILE=${SCRIPT_DIR}/autopub_running
 LEOPARD_INDEX=${SCRIPT_DIR}/leopard_index.html
 INDEX_GET=0
 NEW_RESULT_FILE=${SCRIPT_DIR}/new_program_result.txt
+NEW_RESULT_FILE_NG=${SCRIPT_DIR}/new_program_result_ng.txt
 NEW_PROGRAM_FILE=${SCRIPT_DIR}/new_program.txt
 
 # 新番組日本語名取得
@@ -251,7 +252,9 @@ done
 # 新番組1話対応
 cnt2=1
 new_hit_flg=0
+new_hit_flg_ng=0
 rm -f ${NEW_RESULT_FILE}
+rm -f ${NEW_RESULT_FILE_NG}
 
 while :
 do
@@ -288,6 +291,10 @@ do
                     echo "${TITLE_EN}" >> ${NEW_PROGRAM_FILE}
                     mkdir -p "${DOWNLOAD_DIR}/${TITLE_JA}"
                 fi
+            else
+                # 日本語タイトルが取得できなかった1話は何もしないが報告だけする
+                new_hit_flg_ng=1
+                echo "${TITLE_EN}" >> ${NEW_RESULT_FILE_NG}
             fi
         fi
     fi
@@ -300,6 +307,17 @@ if [ ${new_hit_flg} -eq 1 ]; then
 対象外にする場合は、リストから削除、保存ディレクトリを削除してください
 \`\`\`
 `cat ${NEW_RESULT_FILE}`
+\`\`\`"
+    logging "${post_msg}"
+    slack_post "${post_msg}"
+fi
+
+if [ ${new_hit_flg_ng} -eq 1 ]; then
+    post_msg="@here 新番組検知！
+検知しましたが、日本語タイトルが検索で取得できなかったので、何もしませんでした
+手動追加を検討してください
+\`\`\`
+`cat ${NEW_RESULT_FILE_NG}`
 \`\`\`"
     logging "${post_msg}"
     slack_post "${post_msg}"
