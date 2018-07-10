@@ -41,12 +41,12 @@ get_ja_title_list2() {
     TITLE_EN=$1
 
     # 取得した英語タイトルの "-" をスペースに変換、"："、"."、"!" を削除、2ワード分を取得
-    SEARCH_WORD=`echo "${TITLE_EN}" | sed "s/-/ /g" |  sed "s/-\|\!i\|：\|\.//g" | awk '{print $1,$2}' | sed "s/ $//"`
+    SEARCH_WORD=`echo "${TITLE_EN}" | sed "s/-/ /g" |  sed "s/-\|\!\|：\|\.//g" | awk '{print $1,$2}' | sed "s/ $//"`
     # スペースを+に変換したものも取得
     SEARCH_WORD_ENC=`echo "${SEARCH_WORD}" | sed "s/ /+/g"`
 
     # しょぼいカレンダーを検索、結果から日本語タイトルを抽出
-    TITLE_JA=`curl "http://cal.syoboi.jp/find?sd=0&kw=${SEARCH_WORD_ENC}" | grep "キーワード.*${SEARCH_WORD}" | head -1 | sed "s/<\/a>.*//" | sed "s/.*>//"`
+    TITLE_JA=`curl "http://cal.syoboi.jp/find?sd=0&kw=${SEARCH_WORD_ENC}" | grep "キーワード.*${SEARCH_WORD}" | head -1 |  sed "s/<small.*small>//" | sed "s/<\/a>.*//" | sed "s/.*>//"`
 
     echo "${TITLE_JA}"
 }
@@ -266,29 +266,28 @@ do
 
     # titleリストを精査して、「 - 01 」を含むものを探す
     if [[ ${title} =~ -\ 01\  ]]; then
-        link=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
+#        link=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
 #        TITLE_EN=`echo ${title} | sed "s/\[Leopard-Raws\]\ \(.*\)\ -\ 01\ RAW.*/\1/"`
+#        DL_HASH=`echo ${link} | sed "s/.*hash=\(.*\)/\1/"`
         TITLE_EN=`echo ${title} | sed "s/\[.*\]\ \(.*\)\ -\ 01\ .*/\1/"`
-        DL_HASH=`echo ${link} | sed "s/.*hash=\(.*\)/\1/"`
-#        TITLE_JA=`get_ja_title_list "${DL_HASH}"`
-        TITLE_JA=`get_ja_title_list2 "${TITLE_EN}"`
 
-        jatitle_nohit_flg=0
-        if [ "${TITLE_JA}" = "" ]; then
-            TITLE_JA="${TITLE_EN}"
-            jatitle_nohit_flg=1
-        fi
+        # 新重複対策(TITLE_ENをリストに入れるようにした)
+        if [ "`grep "${TITLE_EN}" ${NEW_PROGRAM_FILE}`" = "" ]; then
+#            TITLE_JA=`get_ja_title_list "${DL_HASH}"`
+            TITLE_JA=`get_ja_title_list2 "${TITLE_EN}"`
 
-        # 日本語タイトルを取得し、新番組取得済リストへ追加(重複対策)
-        # チェックリスト(tempと実体両方)に次回取得のためのレコードを追加
-        if [ "`grep "${TITLE_JA}" ${NEW_PROGRAM_FILE}`" = "" ]; then
-            new_hit_flg=1
-            echo "${DATETIME} 0 ${TITLE_EN}|${TITLE_JA}" >> ${LIST_TEMP}
-            echo "${DATETIME} 0 ${TITLE_EN}|${TITLE_JA}" >> ${LIST_FILE}
-            echo "${TITLE_JA} (${TITLE_EN})" >> ${NEW_RESULT_FILE}
-            echo "${TITLE_JA}" >> ${NEW_PROGRAM_FILE}
-            if [ ${jatitle_nohit_flg} -eq 0 ]; then
-                mkdir -p "${DOWNLOAD_DIR}/${TITLE_JA}"
+            # 日本語タイトルが取得できていたら、新番組取得済リストへ追加
+            if [ "${TITLE_JA}" != "" ]; then
+                # 旧しくみの重複対策(NEWリストを日本語タイトルでgrep)は残す
+                # チェックリスト(tempと実体両方)に次回取得のためのレコードを追加
+                if [ "`grep "${TITLE_JA}" ${NEW_PROGRAM_FILE}`" = "" ]; then
+                    new_hit_flg=1
+                    echo "${DATETIME} 0 ${TITLE_EN}|${TITLE_JA}" >> ${LIST_TEMP}
+                    echo "${DATETIME} 0 ${TITLE_EN}|${TITLE_JA}" >> ${LIST_FILE}
+                    echo "${TITLE_JA} (${TITLE_EN})" >> ${NEW_RESULT_FILE}
+                    echo "${TITLE_EN}" >> ${NEW_PROGRAM_FILE}
+                    mkdir -p "${DOWNLOAD_DIR}/${TITLE_JA}"
+                fi
             fi
         fi
     fi
