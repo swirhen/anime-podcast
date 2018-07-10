@@ -37,6 +37,20 @@ get_ja_title_list() {
     echo "${TITLE_JA}"
 }
 
+get_ja_title_list2() {
+    TITLE_EN=$1
+
+    # 取得した英語タイトルの "-" をスペースに変換、"："、"."、"!" を削除、2ワード分を取得
+    SEARCH_WORD=`echo "${TITLE_EN}" | sed "s/-/ /g" |  sed "s/-\|\!i\|：\|\.//g" | awk '{print $1,$2}' | sed "s/ $//"`
+    # スペースを+に変換したものも取得
+    SEARCH_WORD_ENC=`echo "${SEARCH_WORD}" | sed "s/ /+/g"`
+
+    # しょぼいカレンダーを検索、結果から日本語タイトルを抽出
+    TITLE_JA=`curl "http://cal.syoboi.jp/find?sd=0&kw=${SEARCH_WORD_ENC}" | grep "キーワード.*${SEARCH_WORD}" | head -1 | sed "s/<\/a>.*//" | sed "s/.*>//"`
+
+    echo "${TITLE_JA}"
+}
+
 end() {
   mv ${LOG_FILE} ${SCRIPT_DIR}/logs/
   rm -f ${FLG_FILE}
@@ -255,10 +269,13 @@ do
         link=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
         TITLE_EN=`echo ${title} | sed "s/\[Leopard-Raws\]\ \(.*\)\ -\ 01\ RAW.*/\1/"`
         DL_HASH=`echo ${link} | sed "s/.*hash=\(.*\)/\1/"`
-        TITLE_JA=`get_ja_title_list "${DL_HASH}"`
+#        TITLE_JA=`get_ja_title_list "${DL_HASH}"`
+        TITLE_JA=`get_ja_title_list2 "${TITLE_EN}"`
 
+        jatitle_nohit_flg=0
         if [ "${TITLE_JA}" = "" ]; then
             TITLE_JA="${TITLE_EN}"
+            jatitle_nohit_flg=1
         fi
 
         # 日本語タイトルを取得し、新番組取得済リストへ追加(重複対策)
@@ -269,7 +286,9 @@ do
             echo "${DATETIME} 0 ${TITLE_EN}|${TITLE_JA}" >> ${LIST_FILE}
             echo "${TITLE_JA} (${TITLE_EN})" >> ${NEW_RESULT_FILE}
             echo "${TITLE_JA}" >> ${NEW_PROGRAM_FILE}
-            mkdir -p "${DOWNLOAD_DIR}/${TITLE_JA}"
+            if [ ${jatitle_nohit_flg} -eq 0 ]; then
+                mkdir -p "${DOWNLOAD_DIR}/${TITLE_JA}"
+            fi
         fi
     fi
     (( cnt2++ ))
