@@ -41,13 +41,13 @@ get_ja_title_list() {
 get_ja_title_list2() {
     TITLE_EN=$1
 
-    # 取得した英語タイトルの "-" をスペースに変換、"："、"."、"!" を削除、2ワード分を取得
-    SEARCH_WORD=`echo "${TITLE_EN}" | sed "s/-/ /g" |  sed "s/-\|\!\|：\|\.//g" | awk '{print $1,$2}' | sed "s/ $//"`
+    # 取得した英語タイトルの "-" をスペースに変換、"："、"."、"!" を削除、3ワード分を取得
+    SEARCH_WORD=`echo "${TITLE_EN}" | sed "s/-/ /g" |  sed "s/-\|\!\|：\|\.//g" | sed "s/(.*)//" | awk '{print $1,$2,$3}' | sed "s/ \+$//"`
     # スペースを+に変換したものも取得
     SEARCH_WORD_ENC=`echo "${SEARCH_WORD}" | sed "s/ /+/g"`
 
     # しょぼいカレンダーを検索、結果から日本語タイトルを抽出
-    TITLE_JA=`curl "http://cal.syoboi.jp/find?sd=0&kw=${SEARCH_WORD_ENC}" | grep "キーワード.*${SEARCH_WORD}" | head -1 |  sed "s/<small.*small>//" | sed "s/<\/a>.*//" | sed "s/.*>//"`
+    TITLE_JA=`curl -s "http://cal.syoboi.jp/find?sd=0&kw=${SEARCH_WORD_ENC}" | grep "キーワード.*${SEARCH_WORD}" | head -1 |  sed "s/<small.*small>//" | sed "s/<\/a>.*//" | sed "s/.*>//"`
 
     echo "${TITLE_JA}"
 }
