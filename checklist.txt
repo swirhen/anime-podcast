@@ -1,7 +1,8 @@
-Last Update: 2018/07/10-12:19:36
+Last Update: 2018/07/10-15:45:34
 2018/07/10-12:19:36 01 Yume Oukoku to Nemureru 100 Nin no Ouji-sama|夢王国と眠れる100人の王子様
 2018/07/10-12:19:36 01 Sunohara-sou no Kanrinin-san|すのはら荘の管理人さん
 2018/07/10-12:19:36 01 Shichisei no Subaru|七星のスバル
+2018/07/10-12:19:36 01 Satsuriku no Tenshi|殺戮の天使
 2018/07/10-12:19:36 01 Planet With|プラネット・ウィズ
 2018/07/10-12:19:36 01 Phantom in the Twilight|Phantom in the Twilight
 2018/07/10-12:19:36 01 Ongaku Shoujo|音楽少女
@@ -17,7 +18,6 @@ Last Update: 2018/07/10-12:19:36
 2018/07/10-12:19:36 01 Banana Fish|BANANA FISH
 2018/07/10-12:19:36 01 Asobi Asobase|あそびあそばせ
 2018/07/10-12:19:36 01 Aguu Tensai Ningyou|悪偶 -天才人形-
-2018/07/10-12:19:36 01 Satsuriku no Tenshi|殺戮の天使
 2018/07/10-00:00:01 15 Kakuriyo no Yadomeshi|かくりよの宿飯
 2018/07/09-12:00:01 15 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2018/07/09-12:00:01 14 Juushinki Pandora|重神機パンドーラ
