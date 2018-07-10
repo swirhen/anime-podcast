@@ -267,7 +267,8 @@ do
     # titleリストを精査して、「 - 01 」を含むものを探す
     if [[ ${title} =~ -\ 01\  ]]; then
         link=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
-        TITLE_EN=`echo ${title} | sed "s/\[Leopard-Raws\]\ \(.*\)\ -\ 01\ RAW.*/\1/"`
+#        TITLE_EN=`echo ${title} | sed "s/\[Leopard-Raws\]\ \(.*\)\ -\ 01\ RAW.*/\1/"`
+        TITLE_EN=`echo ${title} | sed "s/\[.*\]\ \(.*\)\ -\ 01\ .*/\1/"`
         DL_HASH=`echo ${link} | sed "s/.*hash=\(.*\)/\1/"`
 #        TITLE_JA=`get_ja_title_list "${DL_HASH}"`
         TITLE_JA=`get_ja_title_list2 "${TITLE_EN}"`
