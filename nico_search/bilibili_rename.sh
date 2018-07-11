@@ -30,12 +30,16 @@ do
         # 0個の場合(普通無い)なにもしない
         i=0
     else
-        files="${partdir}/*/[0-9].blv"
-        if [ ${filecnt} -le 10 ]; then
-            files+=" ${partdir}/*/[1-9][0-9].blv"
-        fi
-        rm -f "${filename}.list"
-        for file in ${files}
+#        files="${partdir}/*/[0-9].blv"
+#        if [ ${filecnt} -le 10 ]; then
+#            files+=" ${partdir}/*/[1-9][0-9].blv"
+#        fi
+#        rm -f "${filename}.list"
+#        for file in ${files}
+#        do
+#            echo "file ${file}" >> "${filename}.list"
+#        done
+        for file in ${partdir}/*/{0..$(( filecnt - 1 ))}.blv
         do
             echo "file ${file}" >> "${filename}.list"
         done
