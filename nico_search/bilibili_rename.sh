@@ -24,15 +24,24 @@ do
     fi
 
     if [ ${filecnt} -eq 1 ]; then
-        # blvが1個だけの場合はリネーム
-        echo "cp ${partdir}/*/0.blv \"${filename}\".mp4"
+        # blvが1個だけの場合
+        echo "/usr/bin/wine ffmpeg3.exe -i ${partdir}/*/0.blv -c copy \"${filename}.mp4\""
     elif [ ${filecnt} -eq 0 ]; then
-        # なにもしない
-        i=0
-    else
-        # blvが複数ある場合はファイル名を連結
+        # 0個の場合(普通無い)なにもしない
+        echo "echo \"blv not found.\""
+    elif [ ${filecnt} -lt 10 ]; then
+        # blvが複数ある場合はファイル名を連結 - 10個未満の場合
         rm -f "${filename}.list"
-        for file in `ls ${partdir}/*/*.blv | sort -n`
+        for file in ${partdir}/*/*.blv
+        do
+            echo "file ${file}" >> "${filename}.list"
+        done
+        # ffmpegでconcat
+        echo "/usr/bin/wine ffmpeg3.exe -f concat -i \"${filename}.list\" -c copy \"${filename}\".mp4"
+    else
+        # blvが複数ある場合はファイル名を連結 - 10個以上の場合
+        rm -f "${filename}.list"
+        for file in ${partdir}/*/{0..9}.blv ${partdir}/*/[1-9][0-9].blv
         do
             echo "file ${file}" >> "${filename}.list"
         done
