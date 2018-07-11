@@ -39,6 +39,7 @@ do
 #        do
 #            echo "file ${file}" >> "${filename}.list"
 #        done
+        rm -f "${filename}.list"
         for file in ${partdir}/*/{0..$(( filecnt - 1 ))}.blv
         do
             echo "file ${file}" >> "${filename}.list"
