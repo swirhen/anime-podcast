@@ -37,6 +37,6 @@ do
             add=" ${partdir}/*/[1-9][0-9].blv"
         fi
         # ffmpegでconcat
-        echo "/usr/bin/wine ffmpeg3.exe -f -safe 0 concat -i <(for file in ${partdir}/*/[0-9].blv${add}; do echo \"file '${PWD}/${file}'\"; done) -c copy \"${filename}.mp4\""
+        echo "/usr/bin/wine ffmpeg3.exe -f -safe 0 concat -i <(for file in ${partdir}/*/[0-9].blv${add}; do echo \"file '\${PWD}/\${file}'\"; done) -c copy \"${filename}.mp4\""
     fi
 done
