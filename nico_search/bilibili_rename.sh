@@ -27,16 +27,19 @@ do
         # blvが1個だけの場合
         echo "/usr/bin/wine ffmpeg3.exe -i ${partdir}/*/0.blv -c copy \"${filename}.mp4\""
     elif [ ${filecnt} -eq 0 ]; then
-        # 0個の場合(普通無い)
+        # 0個の場合(普通無い)なにもしない
         i=0
     else
-        # blvが複数ある場合はファイル名を連結
-        add=""
-        # 10個以上の場合
-        if [ ${filecnt} -gt 10 ]; then
-            add=" ${partdir}/*/[1-9][0-9].blv"
+        files="${partdir}/*/[0-9].blv"
+        if [ ${filecnt} -le 10 ]; then
+            files+=" ${partdir}/*/[1-9][0-9].blv"
         fi
+        rm -f "${filename}.list"
+        for file in ${files}
+        do
+            echo "file ${file}" >> "${filename}.list"
+        done
         # ffmpegでconcat
-        echo "/usr/bin/wine ffmpeg3.exe -safe 0 -f concat -i <(for file in ${partdir}/*/[0-9].blv${add}; do echo \"file '\${PWD}/\${file}'\"; done) -c copy \"${filename}.mp4\""
+        echo "/usr/bin/wine ffmpeg3.exe -safe 0 -f concat -i \"${filename}.list\" -c copy \"${filename}.mp4\"; rm -f \"${filename}.list\""
     fi
 done
