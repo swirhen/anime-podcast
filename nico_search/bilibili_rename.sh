@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE:-$0}")"; pwd)"
 dir=$1
 
@@ -31,7 +31,7 @@ do
         i=0
     else
         rm -f "${filename}.list"
-        for file in ${partdir}/*/{0..$(( filecnt - 1 ))}.blv
+        for file in `eval echo ${partdir}/*/{0..$(( filecnt - 1 ))}.blv`
         do
             echo "file ${file}" >> "${filename}.list"
         done
