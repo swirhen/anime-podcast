@@ -31,7 +31,7 @@ do
         i=0
     else
         files="${partdir}/*/[0-9].blv"
-        if [ ${filecnt} -le 10 ]; then
+        if [ ${filecnt} -gt 10 ]; then
             files+=" ${partdir}/*/[1-9][0-9].blv"
         fi
         rm -f "${filename}.list"
