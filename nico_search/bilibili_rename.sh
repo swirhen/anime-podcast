@@ -29,7 +29,7 @@ do
     elif [ ${filecnt} -eq 0 ]; then
         # 0個の場合(普通無い)なにもしない
         echo "echo \"blv not found.\""
-    elif [ ${filecnt} -lt 10 ]; then
+    elif [ ${filecnt} -le 10 ]; then
         # blvが複数ある場合はファイル名を連結 - 10個未満の場合
         rm -f "${filename}.list"
         for file in ${partdir}/*/*.blv
