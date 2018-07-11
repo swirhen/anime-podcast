@@ -37,7 +37,7 @@ do
             echo "file ${file}" >> "${filename}.list"
         done
         # ffmpegでconcat
-        echo "/usr/bin/wine ffmpeg3.exe -f concat -i \"${filename}.list\" -c copy \"${filename}\".mp4"
+        echo "/usr/bin/wine ffmpeg3.exe -f concat -i \"${filename}.list\" -c copy \"${filename}.mp4\""
     else
         # blvが複数ある場合はファイル名を連結 - 10個以上の場合
         rm -f "${filename}.list"
@@ -46,6 +46,6 @@ do
             echo "file ${file}" >> "${filename}.list"
         done
         # ffmpegでconcat
-        echo "/usr/bin/wine ffmpeg3.exe -f concat -i \"${filename}.list\" -c copy \"${filename}\".mp4"
+        echo "/usr/bin/wine ffmpeg3.exe -f concat -i \"${filename}.list\" -c copy \"${filename}.mp4\""
     fi
 done
