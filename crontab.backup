@@ -31,6 +31,7 @@ MAILTO=""
 59 2 * * 2 /data/share/movie/sh/agqrrecord.sh "伊福部崇のラジオのラジオ" 45 1800
 # -- TUE
 29 16 * * 2 /data/share/movie/sh/agqrrecord.sh "渕上舞のとりあえずまぁ、話だけでも。" 45 1800 v
+29 19 * * 2 /data/share/movie/sh/agqrrecord.sh "TrySailのTRYangle harmony" 45 1800
 29 21 * * 2 /data/share/movie/sh/agqrrecord.sh "早見沙織のふり～すたいる♪" 45 1800
 59 22 * * 2 /data/share/movie/sh/agqrrecord.sh "村川梨衣の a りえしょんぷり～ず" 45 1800 v
 29 23 * * 2 /data/share/movie/sh/agqrrecord.sh "佐倉としたい大西" 45 1800 v
