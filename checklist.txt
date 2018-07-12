@@ -1,4 +1,8 @@
-Last Update: 2018/07/12-18:00:01
+Last Update: 2018/07/13-00:00:01
+2018/07/13-00:00:01 02 Yume Oukoku to Nemureru 100 Nin no Ouji-sama|夢王国と眠れる100人の王子様
+2018/07/13-00:00:01 02 Sunohara-sou no Kanrinin-san|すのはら荘の管理人さん
+2018/07/13-00:00:01 02 Isekai Maou to Shoukan Shoujo no Dorei Majutsu|異世界魔王と召喚少女の奴隷魔術
+2018/07/13-00:00:01 0 Sirius the Jaeger|天狼 Sirius the Jaeger
 2018/07/12-12:00:01 01 Free! Dive to the Future|Free!－Dive to the Future－
 2018/07/12-06:00:01 15 Juushinki Pandora|重神機パンドーラ
 2018/07/11-12:00:01 01 Shin`ya! Tensai Bakabon|深夜！天才バカボン
@@ -8,8 +12,6 @@ Last Update: 2018/07/12-18:00:01
 2018/07/11-00:00:01 40 Black Clover|ブラッククローバー
 2018/07/11-00:00:01 02 Senjuushi|千銃士
 2018/07/10-16:20:45 01 Chio-chan no Tsuugakuro|ちおちゃんの通学路
-2018/07/10-12:19:36 01 Yume Oukoku to Nemureru 100 Nin no Ouji-sama|夢王国と眠れる100人の王子様
-2018/07/10-12:19:36 01 Sunohara-sou no Kanrinin-san|すのはら荘の管理人さん
 2018/07/10-12:19:36 01 Shichisei no Subaru|七星のスバル
 2018/07/10-12:19:36 01 Satsuriku no Tenshi|殺戮の天使
 2018/07/10-12:19:36 01 Planet With|プラネット・ウィズ
@@ -19,7 +21,6 @@ Last Update: 2018/07/12-18:00:01
 2018/07/10-12:19:36 01 Kyoto Teramachi Sanjou no Holmes|京都寺町三条のホームズ
 2018/07/10-12:19:36 01 Kamisama Minarai Himitsu no Cocotama Special|かみさまみならい ヒミツのここたま 夏だ！おおはしゃぎスペシャル
 2018/07/10-12:19:36 01 Jashin-chan Dropkick|邪神ちゃんドロップキック
-2018/07/10-12:19:36 01 Isekai Maou to Shoukan Shoujo no Dorei Majutsu|異世界魔王と召喚少女の奴隷魔術
 2018/07/10-12:19:36 01 Hyakuren no Haou to Seiyaku no Valkyria|百錬の覇王と聖約の戦乙女
 2018/07/10-12:19:36 01 Hataraku Saibou|はたらく細胞
 2018/07/10-12:19:36 01 Harukana Receive|はるかなレシーブ
