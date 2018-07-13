@@ -1,97 +1,107 @@
-#!/bin/sh
-# original code from https://gist.github.com/riocampos/5656450
+#!/bin/bash
 
-LANG=ja_JP.utf8
-
+pid=$$
 date=`date '+%Y-%m-%d-%H_%M'`
-swfVfy="http://www3.nhk.or.jp/netradio/files/swf/rtmpe.swf"
-
 outdir="."
 
 if [ $# -le 1 ]; then
-  echo "usage : $0 channel_name duration(seconds) prefix"
+  echo "usage : $0 channel_name duration(seconds) [outputdir] [prefix]"
   exit 1
 fi
 
 if [ $# -ge 2 ]; then
   channel=$1
+  #DURATION=`expr $2 \* 60 + 15`
   DURATION=$2
 fi
-PREFIX=${channel}
 if [ $# -ge 3 ]; then
-  PREFIX=$3
+  outdir=$3
 fi
 
 #
 # set channel
 #
 case $channel in
-    "NHK1")
-    rtmp="rtmpe://netradio-r1-flash.nhk.jp"
-    playpath="NetRadio_R1_flash@63346"
+  "NHK1")
+    PREFIX="[NHK第1] $4"
+    aspx="https://nhkradioakr1-i.akamaihd.net/hls/live/511633/1-r1/1-r1-01.m3u8"
     ;;
-    "NHK2")
-    rtmp="rtmpe://netradio-r2-flash.nhk.jp"
-    playpath="NetRadio_R2_flash@63342"
+  "NHK2")
+    PREFIX="[NHK第2] $4"
+    aspx="https://nhkradioakr2-i.akamaihd.net/hls/live/511929/1-r2/1-r2-01.m3u8"
     ;;
-    "FM")
-    rtmp="rtmpe://netradio-fm-flash.nhk.jp"
-    playpath="NetRadio_FM_flash@63343"
+  "FM")
+    PREFIX="[NHK-FM] $4"
+    aspx="https://nhkradioakfm-i.akamaihd.net/hls/live/512290/1-fm/1-fm-01.m3u8"
     ;;
-    "NHK1_SENDAI")
-    rtmp="rtmpe://netradio-hkr1-flash.nhk.jp"
-    playpath="NetRadio_HKR1_flash@108442"
+  "NHK1_SAPPORO")
+    aspx="https://nhkradioikr1-i.akamaihd.net/hls/live/512098/1-r1/1-r1-01.m3u8"
     ;;
-    "FM_SENDAI")
-    rtmp="rtmpe://netradio-hkfm-flash.nhk.jp"
-    playpath="NetRadio_HKFM_flash@108237"
+  "NHK2_SAPPORO")
+    aspx="https://nhkradioakr2-i.akamaihd.net/hls/live/511929/1-r2/1-r2-01.m3u8"
     ;;
-    "NHK1_NAGOYA")
-    rtmp="rtmpe://netradio-ckr1-flash.nhk.jp"
-    playpath="NetRadio_CKR1_flash@108234"
+  "FM_SAPPORO")
+    aspx="https://nhkradioikfm-i.akamaihd.net/hls/live/512100/1-fm/1-fm-01.m3u8"
     ;;
-    "FM_NAGOYA")
-    rtmp="rtmpe://netradio-ckfm-flash.nhk.jp"
-    playpath="NetRadio_CKFM_flash@108235"
+  "NHK1_SENDAI")
+    aspx="https://nhkradiohkr1-i.akamaihd.net/hls/live/512075/1-r1/1-r1-01.m3u8"
     ;;
-    "NHK1_OSAKA")
-    rtmp="rtmpe://netradio-bkr1-flash.nhk.jp"
-    playpath="NetRadio_BKR1_flash@108232"
+  "NHK2_SENDAI")
+    aspx="https://nhkradioakr2-i.akamaihd.net/hls/live/511929/1-r2/1-r2-01.m3u8"
     ;;
-    "FM_OSAKA")
-    rtmp="rtmpe://netradio-bkfm-flash.nhk.jp"
-    playpath="NetRadio_BKFM_flash@108233"
+  "FM_SENDAI")
+    aspx="https://nhkradiohkfm-i.akamaihd.net/hls/live/512076/1-fm/1-fm-01.m3u8"
     ;;
-    *)
+  "NHK1_NAGOYA")
+    aspx="https://nhkradiockr1-i.akamaihd.net/hls/live/512072/1-r1/1-r1-01.m3u8"
+    ;;
+  "NHK2_NAGOYA")
+    aspx="https://nhkradioakr2-i.akamaihd.net/hls/live/511929/1-r2/1-r2-01.m3u8"
+    ;;
+  "FM_NAGOYA")
+    aspx="https://nhkradiockfm-i.akamaihd.net/hls/live/512074/1-fm/1-fm-01.m3u8"
+    ;;
+  "NHK1_OSAKA")
+    aspx="https://nhkradiobkr1-i.akamaihd.net/hls/live/512291/1-r1/1-r1-01.m3u8"
+    ;;
+  "NHK2_OSAKA")
+    aspx="https://nhkradioakr2-i.akamaihd.net/hls/live/511929/1-r2/1-r2-01.m3u8"
+    ;;
+  "FM_OSAKA")
+    aspx="https://nhkradiobkfm-i.akamaihd.net/hls/live/512070/1-fm/1-fm-01.m3u8"
+    ;;
+  "NHK1_HIROSHIMA")
+    aspx="https://nhkradiofkr1-i.akamaihd.net/hls/live/512086/1-r1/1-r1-01.m3u8"
+    ;;
+  "NHK2_HIROSHIMA")
+    aspx="https://nhkradioakr2-i.akamaihd.net/hls/live/511929/1-r2/1-r2-01.m3u8"
+    ;;
+  "FM_IROSHIMA")
+    aspx="https://nhkradiofkfm-i.akamaihd.net/hls/live/512087/1-fm/1-fm-01.m3u8"
+    ;;
+  "NHK1_MATSUYAMA")
+    aspx="https://nhkradiozkr1-i.akamaihd.net/hls/live/512103/1-r1/1-r1-01.m3u8"
+    ;;
+  "NHK2_MATSUYAMA")
+    aspx="https://nhkradioakr2-i.akamaihd.net/hls/live/511929/1-r2/1-r2-01.m3u8"
+    ;;
+  "FM_MATSUYAMA")
+    aspx="https://nhkradiozkfm-i.akamaihd.net/hls/live/512106/1-fm/1-fm-01.m3u8"
+    ;;
+  "NHK1_FUKUOKA")
+    aspx="https://nhkradiolkr1-i.akamaihd.net/hls/live/512088/1-r1/1-r1-01.m3u8"
+    ;;
+  "NHK2_FUKUOKA")
+    aspx="https://nhkradioakr2-i.akamaihd.net/hls/live/511929/1-r2/1-r2-01.m3u8"
+    ;;
+  "FM_FUKUOKA")
+    aspx="https://nhkradiolkfm-i.akamaihd.net/hls/live/512097/1-fm/1-fm-01.m3u8"
+    ;;
+  *)
     echo "failed channel"
     exit 1
     ;;
 esac
 
-#
-# rtmpdump
-#
-nohup rtmpdump \
-         --rtmp $rtmp \
-         --playpath $playpath \
-         --app "live" \
-         --swfVfy $swfVfy \
-         --live \
-         --stop ${DURATION} \
-         -o "/data/tmp/${channel}_${date}" &
-
-pid=$!
-sleep ${DURATION}
-kill ${pid}
-
-#ffmpeg -loglevel quiet -y -i "/tmp/${channel}_${date}" -acodec copy "${outdir}/${PREFIX}_${date}.m4a"
-#ffmpeg -loglevel quiet -y -i "/tmp/${channel}_${date}" -acodec libmp3lame -ab 128k "${outdir}/${PREFIX}_${date}.mp3"
-/usr/bin/wine ffmpeg.exe -y -i "/data/tmp/${channel}_${date}" -acodec copy "/data/share/movie/98 PSP用/agqr/${PREFIX}_`date +%Y%m%d-%H%M`.m4a"
-
-if [ $? = 0 ]; then
-  rm -f "/data/tmp/${channel}_${date}"
-fi
-
-# rssフィード生成シェル
-/home/swirhen/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
-/home/swirhen/share/movie/sh/mmmpc2.sh agqr "超！A&G(+α)"
+/usr/bin/wine ffmpeg3.exe -loglevel quiet -y -t ${DURATION} -i ${aspx} -acodec libmp3lame -ab 128k "${outdir}/${PREFIX}_${date}.mp3"
+#avconv -loglevel quiet -y -t ${DURATION} -i ${aspx} -acodec mp3 -ab 128k "${outdir}/${PREFIX}_${date}.mp3"
