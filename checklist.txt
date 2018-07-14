@@ -1,4 +1,10 @@
-Last Update: 2018/07/14-06:00:01
+Last Update: 2018/07/14-12:00:01
+2018/07/14-12:00:01 01 Zoids Wild|ゾイドワイルド
+2018/07/14-12:00:01 01 Yami Shibai 6|闇芝居(第6期)
+2018/07/14-12:00:01 01 Overlord III Special|オーバーロードIII
+2018/07/14-12:00:01 01 Oshiete Fairilu： Mahou no Pendulum|おしえて魔法のペンデュラム～リルリルフェアリル～
+2018/07/14-12:00:01 01 Free!： Dive to the Future|Free!－Dive to the Future－
+2018/07/14-12:00:01 01 Ani ni Tsukeru Kusuri wa Nai! 2|兄に付ける薬はない！2 -快把我哥帯走2-
 2018/07/14-06:00:01 26 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/07/14-06:00:01 15 Gundam Build Divers|ガンダムビルドダイバーズ
 2018/07/14-06:00:01 15 Captain Tsubasa (2018)|キャプテン翼
@@ -12,12 +18,6 @@ Last Update: 2018/07/14-06:00:01
 2018/07/14-06:00:01 02 Onmyouji： Heian Monogatari|陰陽師・平安物語
 2018/07/14-06:00:01 02 Idolmaster Cinderella Girls Gekijou 3|アイドルマスター シンデレラガールズ劇場3
 2018/07/14-06:00:01 02 Back Street Girls： Gokudolls|Back Street Girls －ゴクドルズ－
-2018/07/14-06:00:01 0 Zoids Wild|ゾイドワイルド
-2018/07/14-06:00:01 0 Yami Shibai 6|闇芝居(第6期)
-2018/07/14-06:00:01 0 Overlord III Special|オーバーロードIII
-2018/07/14-06:00:01 0 Oshiete Fairilu： Mahou no Pendulum|おしえて魔法のペンデュラム～リルリルフェアリル～
-2018/07/14-06:00:01 0 Free!： Dive to the Future|Free!－Dive to the Future－
-2018/07/14-06:00:01 0 Ani ni Tsukeru Kusuri wa Nai! 2|兄に付ける薬はない！2 -快把我哥帯走2-
 2018/07/14-00:00:01 02 Satsuriku no Tenshi|殺戮の天使
 2018/07/14-00:00:01 02 Ongaku Shoujo|音楽少女
 2018/07/14-00:00:01 02 Harukana Receive|はるかなレシーブ
