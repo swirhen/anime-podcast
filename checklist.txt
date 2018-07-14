@@ -1,10 +1,9 @@
-Last Update: 2018/07/14-18:00:01
+Last Update: 2018/07/15-00:00:01
 2018/07/14-12:00:01 01 Zoids Wild|ゾイドワイルド
 2018/07/14-12:00:01 01 Yami Shibai 6|闇芝居(第6期)
-2018/07/14-12:00:01 01 Overlord III Special|オーバーロードIII
-2018/07/14-12:00:01 01 Oshiete Fairilu： Mahou no Pendulum|おしえて魔法のペンデュラム～リルリルフェアリル～
 2018/07/14-12:00:01 01 Free!： Dive to the Future|Free!－Dive to the Future－
 2018/07/14-12:00:01 01 Ani ni Tsukeru Kusuri wa Nai! 2|兄に付ける薬はない！2 -快把我哥帯走2-
+2018/07/14-12:00:01 0 Overlord III -|オーバーロードIII
 2018/07/14-06:00:01 26 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/07/14-06:00:01 15 Gundam Build Divers|ガンダムビルドダイバーズ
 2018/07/14-06:00:01 15 Captain Tsubasa (2018)|キャプテン翼
@@ -23,7 +22,7 @@ Last Update: 2018/07/14-18:00:01
 2018/07/14-00:00:01 02 Harukana Receive|はるかなレシーブ
 2018/07/14-00:00:01 02 Chio-chan no Tsuugakuro|ちおちゃんの通学路
 2018/07/14-00:00:01 02 Bang Dream! Garupa Pico|BanG Dream! ガルパ☆ピコ
-2018/07/13-18:00:01 01 Shoujo Kageki Revue Starlight|少女☆歌劇 レヴュースタァライト
+2018/07/13-18:00:01 01 Shoujo☆Kageki Revue Starlight|少女☆歌劇 レヴュースタァライト
 2018/07/13-12:00:01 02 Shichisei no Subaru|七星のスバル
 2018/07/13-12:00:01 02 Banana Fish|BANANA FISH
 2018/07/13-06:00:01 01 Sirius the Jaeger|天狼 Sirius the Jaeger
@@ -35,7 +34,6 @@ Last Update: 2018/07/14-18:00:01
 2018/07/11-12:00:01 01 Shin`ya! Tensai Bakabon|深夜！天才バカボン
 2018/07/11-06:00:01 02 Yakiniku-ten Sengoku|焼肉店センゴク
 2018/07/11-06:00:01 02 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
-2018/07/11-06:00:01 01 Overlord III|オーバーロードIII
 2018/07/11-00:00:01 40 Black Clover|ブラッククローバー
 2018/07/11-00:00:01 02 Senjuushi|千銃士
 2018/07/10-12:19:36 01 Planet With|プラネット・ウィズ
