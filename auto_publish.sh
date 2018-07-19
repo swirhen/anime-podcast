@@ -169,11 +169,6 @@ do
       break
     fi
 
-    # titleに.tsが含まれていたら処理しない
-    if [ "`echo \"${title}\" | grep \"\.ts\"`" != "" ]; then
-      continue
-    fi
-
     # linkタグ内取得
     link=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
     link2=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML2}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
@@ -181,7 +176,9 @@ do
     # titleと一致するかどうかチェック
     fetch_flg=0
     if [ ${sub_flg} -eq 0 -a "`echo \"${title}\" | grep \"${NAME}\"`" != "" ]; then
-      fetch_flg=1
+        if [ "`echo \"${title}\" | grep \"Overlord III Special\"`" = "" ]; then
+            fetch_flg=1
+        fi
     elif [ ${sub_flg} -eq 1 -a "`echo \"${title2}\" | grep \"${NAME}\"`" != "" ]; then
       title="${title2}"
       link="${link2}"
