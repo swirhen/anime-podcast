@@ -1,3 +1,15 @@
 # Created by .ignore support plugin (hsz.mobi)
-*.iml
 .idea
+*.iml
+*.xml
+*.temp
+end*.txt
+agqr
+*result
+autopub_running
+*.html
+logs
+nico_search/result
+nohup.out
+onsen_crawler/onsen.old
+token
