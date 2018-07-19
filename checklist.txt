@@ -1,19 +1,32 @@
-Last Update: 2018/07/19-06:00:01
+Last Update: 2018/07/19-09:54:57
+2018/07/19-09:54:57 27 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2018/07/19-09:54:57 16 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
+2018/07/19-09:54:57 15 Persona 5 the Animation|PERSONA5 the Animation
+2018/07/19-09:54:57 15 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
+2018/07/19-09:54:57 15 Major 2nd|MAJOR 2nd
+2018/07/19-09:54:57 15 Layton Mystery Tanteisha： Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
+2018/07/19-09:54:57 15 Kiratto Pri☆chan|キラッとプリ☆チャン
+2018/07/19-09:54:57 14 Wakaokami wa Shougakusei!|若おかみは小学生！
+2018/07/19-09:54:57 03 Island|ISLAND
+2018/07/19-09:54:57 03 Hanebado!|はねバド！
+2018/07/19-09:54:57 03 Baki|バキ
+2018/07/19-09:54:57 02 Zoids Wild|ゾイドワイルド
+2018/07/19-09:54:57 02 Yami Shibai 6|闇芝居(第6期)
+2018/07/19-09:54:57 02 Hyakuren no Haou to Seiyaku no Valkyria|百錬の覇王と聖約の戦乙女
+2018/07/19-09:54:57 02 Hataraku Saibou|はたらく細胞
+2018/07/19-09:54:57 02 Asobi Asobase|あそびあそばせ
+2018/07/19-09:54:57 0 Yuragi-sou no Yuuna-san|ゆらぎ荘の幽奈さん
+2018/07/19-09:54:57 0 Lord of Vermilion： Guren no Ou|ロード オブ ヴァーミリオン 紅蓮の王
+2018/07/19-09:54:57 0 High Score Girl|HIGH SCORE
+2018/07/19-09:54:57 0 Happy Sugar Life|ハッピーシュガーライフ
+2018/07/19-09:54:57 0 Grand Blue|ぐらんぶる
 2018/07/15-16:54:43 01 Overlord III|オーバーロードIII
 2018/07/15-00:07:55 01 Genkou Kassenki|アンゴルモア元寇合戦記
-2018/07/14-12:00:01 01 Zoids Wild|ゾイドワイルド
-2018/07/14-12:00:01 01 Yami Shibai 6|闇芝居(第6期)
 2018/07/14-12:00:01 01 Free!： Dive to the Future|Free!－Dive to the Future－
 2018/07/14-12:00:01 01 Ani ni Tsukeru Kusuri wa Nai! 2|兄に付ける薬はない！2 -快把我哥帯走2-
-2018/07/14-06:00:01 26 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/07/14-06:00:01 15 Gundam Build Divers|ガンダムビルドダイバーズ
 2018/07/14-06:00:01 15 Captain Tsubasa (2018)|キャプテン翼
-2018/07/14-06:00:01 14 Persona 5 the Animation|PERSONA5 the Animation
-2018/07/14-06:00:01 14 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
-2018/07/14-06:00:01 14 Major 2nd|MAJOR 2nd
 2018/07/14-06:00:01 14 Lupin Sansei (2018)|ルパン三世 PART5
-2018/07/14-06:00:01 14 Layton Mystery Tanteisha： Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
-2018/07/14-06:00:01 14 Kiratto Pri☆chan|キラッとプリ☆チャン
 2018/07/14-06:00:01 02 Yama no Susume： Third Season|ヤマノススメ サードシーズン
 2018/07/14-06:00:01 02 Onmyouji： Heian Monogatari|陰陽師・平安物語
 2018/07/14-06:00:01 02 Idolmaster Cinderella Girls Gekijou 3|アイドルマスター シンデレラガールズ劇場3
@@ -43,18 +56,10 @@ Last Update: 2018/07/19-06:00:01
 2018/07/10-12:19:36 01 Kyoto Teramachi Sanjou no Holmes|京都寺町三条のホームズ
 2018/07/10-12:19:36 01 Kamisama Minarai Himitsu no Cocotama Special|かみさまみならい ヒミツのここたま 夏だ！おおはしゃぎスペシャル
 2018/07/10-12:19:36 01 Jashin-chan Dropkick|邪神ちゃんドロップキック
-2018/07/10-12:19:36 01 Hyakuren no Haou to Seiyaku no Valkyria|百錬の覇王と聖約の戦乙女
-2018/07/10-12:19:36 01 Hataraku Saibou|はたらく細胞
-2018/07/10-12:19:36 01 Asobi Asobase|あそびあそばせ
 2018/07/10-12:19:36 01 Aguu Tensai Ningyou|悪偶 -天才人形-
 2018/07/10-00:00:01 15 Kakuriyo no Yadomeshi|かくりよの宿飯
-2018/07/09-12:00:01 15 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2018/07/09-12:00:01 14 Aikatsu Friends!|アイカツフレンズ！
-2018/07/09-12:00:01 13 Wakaokami wa Shougakusei!|若おかみは小学生！
 2018/07/09-12:00:01 13 Steins;Gate 0|シュタインズ・ゲート ゼロ
-2018/07/09-12:00:01 02 Island|ISLAND
-2018/07/09-12:00:01 02 Hanebado!|はねバド！
-2018/07/09-12:00:01 02 Baki|バキ
 2018/07/06-12:00:01 01 Dies Irae： To the Ring Reincarnation|Dies irae To the Ring Reincarnation
 2018/07/05-12:00:02 01 Joshi Ochi! 2-kai kara Onnanoko ga... Futte Kita！？|じょしおちっ！～2階から女の子が…降ってきた！？～
 2018/07/05-06:00:01 22 Hugtto! Precure|HuGっと！ プリキュア
