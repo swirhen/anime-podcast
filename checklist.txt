@@ -60,8 +60,8 @@ Last Update: 2018/07/19-09:54:57
 2018/07/10-00:00:01 15 Kakuriyo no Yadomeshi|かくりよの宿飯
 2018/07/09-12:00:01 14 Aikatsu Friends!|アイカツフレンズ！
 2018/07/09-12:00:01 13 Steins;Gate 0|シュタインズ・ゲート ゼロ
-2018/07/06-12:00:01 01 Dies Irae： To the Ring Reincarnation|Dies irae To the Ring Reincarnation
-2018/07/05-12:00:02 01 Joshi Ochi! 2-kai kara Onnanoko ga... Futte Kita！？|じょしおちっ！～2階から女の子が…降ってきた！？～
-2018/07/05-06:00:01 22 Hugtto! Precure|HuGっと！ プリキュア
+2018/07/06-12:00:01 02 Dies Irae： To the Ring Reincarnation|Dies irae To the Ring Reincarnation
+2018/07/05-12:00:02 02 Joshi Ochi! 2-kai kara Onnanoko ga... Futte Kita！？|じょしおちっ！～2階から女の子が…降ってきた！？～
+2018/07/05-06:00:01 23 Hugtto! Precure|HuGっと！ プリキュア
 2018/07/03-06:00:01 10 Full Metal Panic! Invisible Victory|フルメタル・パニック！ Invisible Victory
-2018/06/04-12:00:01 23 Darling in the FranXX|ダーリン・イン・ザ・フランキス
+2018/06/04-12:00:01 24 Darling in the FranXX|ダーリン・イン・ザ・フランキス
