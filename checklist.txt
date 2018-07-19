@@ -1,4 +1,13 @@
-Last Update: 2018/07/19-09:54:57
+Last Update: 2018/07/19-18:00:01
+2018/07/19-18:00:01 24 Hugtto! Precure|HuGっと！ プリキュア
+2018/07/19-18:00:01 14 Boku no Hero Academia 3|僕のヒーローアカデミア 第3期
+2018/07/19-18:00:01 03 Joshi Ochi! 2-kai kara Onnanoko ga... Futte Kita！？|じょしおちっ！～2階から女の子が…降ってきた！？～
+2018/07/19-18:00:01 03 Dies Irae： To the Ring Reincarnation|Dies irae To the Ring Reincarnation
+2018/07/19-18:00:01 01 Yuragi-sou no Yuuna-san|ゆらぎ荘の幽奈さん
+2018/07/19-18:00:01 01 Lord of Vermilion： Guren no Ou|ロード オブ ヴァーミリオン 紅蓮の王
+2018/07/19-18:00:01 01 High Score Girl|ハイスコアガール
+2018/07/19-18:00:01 01 Happy Sugar Life|ハッピーシュガーライフ
+2018/07/19-18:00:01 01 Grand Blue|ぐらんぶる
 2018/07/19-09:54:57 27 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/07/19-09:54:57 16 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2018/07/19-09:54:57 15 Persona 5 the Animation|PERSONA5 the Animation
@@ -15,11 +24,6 @@ Last Update: 2018/07/19-09:54:57
 2018/07/19-09:54:57 02 Hyakuren no Haou to Seiyaku no Valkyria|百錬の覇王と聖約の戦乙女
 2018/07/19-09:54:57 02 Hataraku Saibou|はたらく細胞
 2018/07/19-09:54:57 02 Asobi Asobase|あそびあそばせ
-2018/07/19-09:54:57 0 Yuragi-sou no Yuuna-san|ゆらぎ荘の幽奈さん
-2018/07/19-09:54:57 0 Lord of Vermilion： Guren no Ou|ロード オブ ヴァーミリオン 紅蓮の王
-2018/07/19-09:54:57 0 High Score Girl|ハイスコアガール
-2018/07/19-09:54:57 0 Happy Sugar Life|ハッピーシュガーライフ
-2018/07/19-09:54:57 0 Grand Blue|ぐらんぶる
 2018/07/15-16:54:43 01 Overlord III|オーバーロードIII
 2018/07/15-00:07:55 01 Genkou Kassenki|アンゴルモア元寇合戦記
 2018/07/14-12:00:01 01 Free!： Dive to the Future|Free!－Dive to the Future－
@@ -60,15 +64,11 @@ Last Update: 2018/07/19-09:54:57
 2018/07/10-00:00:01 15 Kakuriyo no Yadomeshi|かくりよの宿飯
 2018/07/09-12:00:01 14 Aikatsu Friends!|アイカツフレンズ！
 2018/07/09-12:00:01 13 Steins;Gate 0|シュタインズ・ゲート ゼロ
-2018/07/06-12:00:01 02 Dies Irae： To the Ring Reincarnation|Dies irae To the Ring Reincarnation
-2018/07/05-12:00:02 02 Joshi Ochi! 2-kai kara Onnanoko ga... Futte Kita！？|じょしおちっ！～2階から女の子が…降ってきた！？～
-2018/07/05-06:00:01 23 Hugtto! Precure|HuGっと！ プリキュア
 2018/07/03-06:00:01 10 Full Metal Panic! Invisible Victory|フルメタル・パニック！ Invisible Victory
-2018/05/29-00:00:01 13 Boku no Hero Academia 3|僕のヒーローアカデミア 第3期
-2018/05/21-09:49:37 13 Akkun to Kanojo|あっくんとカノジョ
 2018/05/29-00:00:01 08 Ginga Eiyuu Densetsu： Die Neue These - Kaikou|銀河英雄伝説 Die Neue These 邂逅
 2018/05/29-00:00:01 08 Devils Line|デビルズライン
 2018/05/26-12:00:02 08 Saredo Tsumibito wa Ryuu to Odoru： Dances with the Dragons|されど罪人は竜と踊る
 2018/05/22-00:00:01 07 Sword Art Online Alternative： Gun Gale Online|ソードアート・オンライン オルタナティブ ガンゲイル・オンライン
 2018/05/21-09:49:37 15 Beatless|BEATLESS
+2018/05/21-09:49:37 13 Akkun to Kanojo|あっくんとカノジョ
 2018/05/21-09:49:37 07 Amanchu! Advance|あまんちゅ！～あどばんす～
