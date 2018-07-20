@@ -1,4 +1,14 @@
-Last Update: 2018/07/20-12:00:01
+Last Update: 2018/07/20-18:00:02
+2018/07/20-18:00:02 15 Aikatsu Friends!|アイカツフレンズ！
+2018/07/20-18:00:02 03 Yume Oukoku to Nemureru 100 Nin no Ouji-sama|夢王国と眠れる100人の王子様
+2018/07/20-18:00:02 03 Yakiniku-ten Sengoku|焼肉店センゴク
+2018/07/20-18:00:02 03 Onmyouji： Heian Monogatari|陰陽師・平安物語
+2018/07/20-18:00:02 03 Isekai Maou to Shoukan Shoujo no Dorei Majutsu|異世界魔王と召喚少女の奴隷魔術
+2018/07/20-18:00:02 03 Banana Fish|BANANA FISH
+2018/07/20-18:00:02 02 Tensai Bakabon|深夜！天才バカボン
+2018/07/20-18:00:02 02 Sirius the Jaeger|天狼 Sirius the Jaeger
+2018/07/20-18:00:02 02 Overlord III|オーバーロードIII
+2018/07/20-18:00:02 02 Free!： Dive to the Future|Free!－Dive to the Future－
 2018/07/20-06:00:01 41 Black Clover|ブラッククローバー
 2018/07/20-06:00:01 16 Kakuriyo no Yadomeshi|かくりよの宿飯
 2018/07/20-06:00:01 16 Gundam Build Divers|ガンダムビルドダイバーズ
@@ -40,9 +50,6 @@ Last Update: 2018/07/20-12:00:01
 2018/07/19-09:54:57 02 Hyakuren no Haou to Seiyaku no Valkyria|百錬の覇王と聖約の戦乙女
 2018/07/19-09:54:57 02 Hataraku Saibou|はたらく細胞
 2018/07/19-09:54:57 02 Asobi Asobase|あそびあそばせ
-2018/07/15-16:54:43 01 Overlord III|オーバーロードIII
-2018/07/14-12:00:01 01 Free!： Dive to the Future|Free!－Dive to the Future－
-2018/07/14-06:00:01 02 Onmyouji： Heian Monogatari|陰陽師・平安物語
 2018/07/14-00:00:01 02 Satsuriku no Tenshi|殺戮の天使
 2018/07/14-00:00:01 02 Ongaku Shoujo|音楽少女
 2018/07/14-00:00:01 02 Harukana Receive|はるかなレシーブ
@@ -50,19 +57,12 @@ Last Update: 2018/07/20-12:00:01
 2018/07/14-00:00:01 02 Bang Dream! Garupa Pico|BanG Dream! ガルパ☆ピコ
 2018/07/13-18:00:01 01 Shoujo☆Kageki Revue Starlight|少女☆歌劇 レヴュースタァライト
 2018/07/13-12:00:01 02 Shichisei no Subaru|七星のスバル
-2018/07/13-12:00:01 02 Banana Fish|BANANA FISH
-2018/07/13-06:00:01 01 Sirius the Jaeger|天狼 Sirius the Jaeger
-2018/07/13-00:00:01 02 Yume Oukoku to Nemureru 100 Nin no Ouji-sama|夢王国と眠れる100人の王子様
 2018/07/13-00:00:01 02 Sunohara-sou no Kanrinin-san|すのはら荘の管理人さん
-2018/07/13-00:00:01 02 Isekai Maou to Shoukan Shoujo no Dorei Majutsu|異世界魔王と召喚少女の奴隷魔術
 2018/07/12-12:00:01 01 Free! Dive to the Future|Free!－Dive to the Future－
 2018/07/12-06:00:01 15 Juushinki Pandora|重神機パンドーラ
-2018/07/11-12:00:01 01 Tensai Bakabon|深夜！天才バカボン
-2018/07/11-06:00:01 02 Yakiniku-ten Sengoku|焼肉店センゴク
 2018/07/10-12:19:36 01 One Room Second Season|One Room セカンドシーズン
 2018/07/10-12:19:36 01 Kamisama Minarai Himitsu no Cocotama Special|かみさまみならい ヒミツのここたま 夏だ！おおはしゃぎスペシャル
 2018/07/10-12:19:36 01 Aguu Tensai Ningyou|悪偶 -天才人形-
-2018/07/09-12:00:01 14 Aikatsu Friends!|アイカツフレンズ！
 2018/07/09-12:00:01 13 Steins;Gate 0|シュタインズ・ゲート ゼロ
 2018/07/03-06:00:01 10 Fullmetal Panic! Invisible Victory|フルメタル・パニック！ Invisible Victory
 2018/05/21-09:49:37 13 Akkun to Kanojo|あっくんとカノジョ
