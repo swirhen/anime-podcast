@@ -1,4 +1,14 @@
-Last Update: 2018/07/22-00:00:01
+Last Update: 2018/07/22-06:00:01
+2018/07/22-06:00:01 16 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
+2018/07/22-06:00:01 16 Juushinki Pandora|重神機パンドーラ
+2018/07/22-06:00:01 03 Yami Shibai 6|闇芝居(第6期)
+2018/07/22-06:00:01 03 Satsuriku no Tenshi|殺戮の天使
+2018/07/22-06:00:01 03 Ongaku Shoujo|音楽少女
+2018/07/22-06:00:01 03 Harukana Receive|はるかなレシーブ
+2018/07/22-06:00:01 03 Chio-chan no Tsuugakuro|ちおちゃんの通学路
+2018/07/22-06:00:01 02 High Score Girl|ハイスコアガール
+2018/07/22-06:00:01 02 Happy Sugar Life|ハッピーシュガーライフ
+2018/07/22-06:00:01 02 Grand Blue|ぐらんぶる
 2018/07/21-00:00:02 14 Steins;Gate 0|シュタインズ・ゲート ゼロ
 2018/07/21-00:00:02 03 Shichisei no Subaru|七星のスバル
 2018/07/21-00:00:02 02 Shoujo☆Kageki Revue Starlight|少女☆歌劇 レヴュースタァライト
@@ -34,13 +44,9 @@ Last Update: 2018/07/22-00:00:01
 2018/07/19-18:00:01 03 Dies Irae： To the Ring Reincarnation|Dies irae To the Ring Reincarnation
 2018/07/19-18:00:01 01 Yuragi-sou no Yuuna-san|ゆらぎ荘の幽奈さん
 2018/07/19-18:00:01 01 Lord of Vermilion： Guren no Ou|ロード オブ ヴァーミリオン 紅蓮の王
-2018/07/19-18:00:01 01 High Score Girl|ハイスコアガール
-2018/07/19-18:00:01 01 Happy Sugar Life|ハッピーシュガーライフ
-2018/07/19-18:00:01 01 Grand Blue|ぐらんぶる
 2018/07/19-09:54:57 27 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/07/19-09:54:57 16 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2018/07/19-09:54:57 15 Persona 5 the Animation|PERSONA5 the Animation
-2018/07/19-09:54:57 15 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
 2018/07/19-09:54:57 15 Major 2nd|MAJOR 2nd
 2018/07/19-09:54:57 15 Layton Mystery Tanteisha： Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2018/07/19-09:54:57 15 Kiratto Pri☆chan|キラッとプリ☆チャン
@@ -49,18 +55,12 @@ Last Update: 2018/07/22-00:00:01
 2018/07/19-09:54:57 03 Hanebado!|はねバド！
 2018/07/19-09:54:57 03 Baki|バキ
 2018/07/19-09:54:57 02 Zoids Wild|ゾイドワイルド
-2018/07/19-09:54:57 02 Yami Shibai 6|闇芝居(第6期)
 2018/07/19-09:54:57 02 Hyakuren no Haou to Seiyaku no Valkyria|百錬の覇王と聖約の戦乙女
 2018/07/19-09:54:57 02 Hataraku Saibou|はたらく細胞
 2018/07/19-09:54:57 02 Asobi Asobase|あそびあそばせ
-2018/07/14-00:00:01 02 Satsuriku no Tenshi|殺戮の天使
-2018/07/14-00:00:01 02 Ongaku Shoujo|音楽少女
-2018/07/14-00:00:01 02 Harukana Receive|はるかなレシーブ
-2018/07/14-00:00:01 02 Chio-chan no Tsuugakuro|ちおちゃんの通学路
 2018/07/14-00:00:01 02 Bang Dream! Garupa Pico|BanG Dream! ガルパ☆ピコ
 2018/07/13-00:00:01 02 Sunohara-sou no Kanrinin-san|すのはら荘の管理人さん
 2018/07/12-12:00:01 01 Free! Dive to the Future|Free!－Dive to the Future－
-2018/07/12-06:00:01 15 Juushinki Pandora|重神機パンドーラ
 2018/07/10-12:19:36 01 One Room Second Season|One Room セカンドシーズン
 2018/07/10-12:19:36 01 Kamisama Minarai Himitsu no Cocotama Special|かみさまみならい ヒミツのここたま 夏だ！おおはしゃぎスペシャル
 2018/07/10-12:19:36 01 Aguu Tensai Ningyou|悪偶 -天才人形-
