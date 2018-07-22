@@ -1,4 +1,12 @@
-Last Update: 2018/07/23-00:00:01
+Last Update: 2018/07/23-06:00:01
+2018/07/23-06:00:01 28 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2018/07/23-06:00:01 16 Persona 5 the Animation|PERSONA5 the Animation
+2018/07/23-06:00:01 16 Major 2nd|MAJOR 2nd
+2018/07/23-06:00:01 15 Boku no Hero Academia 3|僕のヒーローアカデミア 第3期
+2018/07/23-06:00:01 03 Zoids Wild|ゾイドワイルド
+2018/07/23-06:00:01 03 Hataraku Saibou|はたらく細胞
+2018/07/23-06:00:01 02 Yuragi-sou no Yuuna-san|ゆらぎ荘の幽奈さん
+2018/07/23-06:00:01 02 Lord of Vermilion： Guren no Ou|ロード オブ ヴァーミリオン 紅蓮の王
 2018/07/22-06:00:01 16 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
 2018/07/22-06:00:01 16 Juushinki Pandora|重神機パンドーラ
 2018/07/22-06:00:01 03 Yami Shibai 6|闇芝居(第6期)
@@ -39,24 +47,16 @@ Last Update: 2018/07/23-00:00:01
 2018/07/20-06:00:01 02 Genkou Kassenki|アンゴルモア元寇合戦記
 2018/07/20-06:00:01 02 Ani ni Tsukeru Kusuri wa Nai! 2|兄に付ける薬はない！2 -快把我哥帯走2-
 2018/07/19-18:00:01 24 Hugtto! Precure|HuGっと！ プリキュア
-2018/07/19-18:00:01 14 Boku no Hero Academia 3|僕のヒーローアカデミア 第3期
 2018/07/19-18:00:01 03 Joshi Ochi! 2-kai kara Onnanoko ga... Futte Kita！？|じょしおちっ！～2階から女の子が…降ってきた！？～
 2018/07/19-18:00:01 03 Dies Irae： To the Ring Reincarnation|Dies irae To the Ring Reincarnation
-2018/07/19-18:00:01 01 Yuragi-sou no Yuuna-san|ゆらぎ荘の幽奈さん
-2018/07/19-18:00:01 01 Lord of Vermilion： Guren no Ou|ロード オブ ヴァーミリオン 紅蓮の王
-2018/07/19-09:54:57 27 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/07/19-09:54:57 16 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
-2018/07/19-09:54:57 15 Persona 5 the Animation|PERSONA5 the Animation
-2018/07/19-09:54:57 15 Major 2nd|MAJOR 2nd
 2018/07/19-09:54:57 15 Layton Mystery Tanteisha： Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2018/07/19-09:54:57 15 Kiratto Pri☆chan|キラッとプリ☆チャン
 2018/07/19-09:54:57 14 Wakaokami wa Shougakusei!|若おかみは小学生！
 2018/07/19-09:54:57 03 Island|ISLAND
 2018/07/19-09:54:57 03 Hanebado!|はねバド！
 2018/07/19-09:54:57 03 Baki|バキ
-2018/07/19-09:54:57 02 Zoids Wild|ゾイドワイルド
 2018/07/19-09:54:57 02 Hyakuren no Haou to Seiyaku no Valkyria|百錬の覇王と聖約の戦乙女
-2018/07/19-09:54:57 02 Hataraku Saibou|はたらく細胞
 2018/07/19-09:54:57 02 Asobi Asobase|あそびあそばせ
 2018/07/14-00:00:01 02 Bang Dream! Garupa Pico|BanG Dream! ガルパ☆ピコ
 2018/07/13-00:00:01 02 Sunohara-sou no Kanrinin-san|すのはら荘の管理人さん
