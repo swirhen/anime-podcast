@@ -1,4 +1,6 @@
-Last Update: 2018/07/26-00:00:01
+Last Update: 2018/07/26-06:00:01
+2018/07/26-06:00:01 01 Tsukumogami Kashimasu|つくもがみ貸します
+2018/07/26-06:00:01 01 Shingeki no Kyojin Season 3|進撃の巨人 Season3
 2018/07/26-00:00:01 17 Captain Tsubasa (2018)|キャプテン翼
 2018/07/26-00:00:01 04 Yama no Susume： Third Season|ヤマノススメ サードシーズン
 2018/07/26-00:00:01 04 Joshi Ochi! 2-kai kara Onnanoko ga... Futte Kita！？|じょしおちっ！～2階から女の子が…降ってきた！？～
@@ -11,8 +13,6 @@ Last Update: 2018/07/26-00:00:01
 2018/07/26-00:00:01 03 Jashin-chan Dropkick|邪神ちゃんドロップキック
 2018/07/26-00:00:01 03 Asobi Asobase|あそびあそばせ
 2018/07/26-00:00:01 03 Ani ni Tsukeru Kusuri wa Nai! 2|兄に付ける薬はない！2 -快把我哥帯走2-
-2018/07/26-00:00:01 0 Tsukumogami Kashimasu|つくもがみ貸します
-2018/07/26-00:00:01 0 Shingeki no Kyojin Season 3|進撃の巨人 Season3
 2018/07/24-12:00:01 25 Hugtto! Precure|HuGっと！ プリキュア
 2018/07/24-12:00:01 17 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2018/07/24-12:00:01 16 Layton Mystery Tanteisha： Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
