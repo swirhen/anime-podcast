@@ -1,4 +1,18 @@
-Last Update: 2018/07/25-18:00:01
+Last Update: 2018/07/26-00:00:01
+2018/07/26-00:00:01 17 Captain Tsubasa (2018)|キャプテン翼
+2018/07/26-00:00:01 04 Yama no Susume： Third Season|ヤマノススメ サードシーズン
+2018/07/26-00:00:01 04 Joshi Ochi! 2-kai kara Onnanoko ga... Futte Kita！？|じょしおちっ！～2階から女の子が…降ってきた！？～
+2018/07/26-00:00:01 04 Island|ISLAND
+2018/07/26-00:00:01 04 Hanebado!|はねバド！
+2018/07/26-00:00:01 04 Dies Irae： To the Ring Reincarnation|Dies irae To the Ring Reincarnation
+2018/07/26-00:00:01 04 Baki|バキ
+2018/07/26-00:00:01 03 Phantom in the Twilight|Phantom in the Twilight
+2018/07/26-00:00:01 03 Kyoto Teramachi Sanjou no Holmes|京都寺町三条のホームズ
+2018/07/26-00:00:01 03 Jashin-chan Dropkick|邪神ちゃんドロップキック
+2018/07/26-00:00:01 03 Asobi Asobase|あそびあそばせ
+2018/07/26-00:00:01 03 Ani ni Tsukeru Kusuri wa Nai! 2|兄に付ける薬はない！2 -快把我哥帯走2-
+2018/07/26-00:00:01 0 Tsukumogami Kashimasu|つくもがみ貸します
+2018/07/26-00:00:01 0 Shingeki no Kyojin Season 3|進撃の巨人 Season3
 2018/07/24-12:00:01 25 Hugtto! Precure|HuGっと！ プリキュア
 2018/07/24-12:00:01 17 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2018/07/24-12:00:01 16 Layton Mystery Tanteisha： Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
@@ -39,25 +53,13 @@ Last Update: 2018/07/25-18:00:01
 2018/07/20-06:00:01 41 Black Clover|ブラッククローバー
 2018/07/20-06:00:01 16 Kakuriyo no Yadomeshi|かくりよの宿飯
 2018/07/20-06:00:01 16 Gundam Build Divers|ガンダムビルドダイバーズ
-2018/07/20-06:00:01 16 Captain Tsubasa (2018)|キャプテン翼
 2018/07/20-06:00:01 15 Lupin Sansei (2018)|ルパン三世 PART5
-2018/07/20-06:00:01 03 Yama no Susume： Third Season|ヤマノススメ サードシーズン
 2018/07/20-06:00:01 03 Senjuushi|千銃士
 2018/07/20-06:00:01 03 Idolmaster Cinderella Girls Gekijou 3|アイドルマスター シンデレラガールズ劇場3
 2018/07/20-06:00:01 03 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
 2018/07/20-06:00:01 03 Back Street Girls： Gokudolls|Back Street Girls －ゴクドルズ－
 2018/07/20-06:00:01 02 Planet With|プラネット・ウィズ
-2018/07/20-06:00:01 02 Phantom in the Twilight|Phantom in the Twilight
-2018/07/20-06:00:01 02 Kyoto Teramachi Sanjou no Holmes|京都寺町三条のホームズ
-2018/07/20-06:00:01 02 Jashin-chan Dropkick|邪神ちゃんドロップキック
 2018/07/20-06:00:01 02 Genkou Kassenki|アンゴルモア元寇合戦記
-2018/07/20-06:00:01 02 Ani ni Tsukeru Kusuri wa Nai! 2|兄に付ける薬はない！2 -快把我哥帯走2-
-2018/07/19-18:00:01 03 Joshi Ochi! 2-kai kara Onnanoko ga... Futte Kita！？|じょしおちっ！～2階から女の子が…降ってきた！？～
-2018/07/19-18:00:01 03 Dies Irae： To the Ring Reincarnation|Dies irae To the Ring Reincarnation
-2018/07/19-09:54:57 03 Island|ISLAND
-2018/07/19-09:54:57 03 Hanebado!|はねバド！
-2018/07/19-09:54:57 03 Baki|バキ
-2018/07/19-09:54:57 02 Asobi Asobase|あそびあそばせ
 2018/07/14-00:00:01 02 Bang Dream! Garupa Pico|BanG Dream! ガルパ☆ピコ
 2018/07/13-00:00:01 02 Sunohara-sou no Kanrinin-san|すのはら荘の管理人さん
 2018/07/12-12:00:01 01 Free! Dive to the Future|Free!－Dive to the Future－
