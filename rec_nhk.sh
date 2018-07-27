@@ -3,6 +3,7 @@
 pid=$$
 date=`date '+%Y-%m-%d-%H_%M'`
 outdir="."
+PYTHON_PATH="python3"
 
 if [ $# -le 1 ]; then
   echo "usage : $0 channel_name duration(seconds) [outputdir] [prefix]"
@@ -103,5 +104,15 @@ case $channel in
     ;;
 esac
 
+# つぶやく
+/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【Radiko自動録音開始】${PREFIX}_${date}"
+${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【Radiko自動録音開始】${PREFIX}_${date}.mp3"
+
 /usr/bin/wine ffmpeg3.exe -loglevel quiet -y -t ${DURATION} -i ${aspx} -acodec libmp3lame -ab 128k "${outdir}/${PREFIX}_${date}.mp3"
-#avconv -loglevel quiet -y -t ${DURATION} -i ${aspx} -acodec mp3 -ab 128k "${outdir}/${PREFIX}_${date}.mp3"
+
+# rssフィード生成シェル
+/data/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
+
+# つぶやく
+/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【Radiko自動録音終了】${PREFIX}_${date}"
+${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【Radiko自動録音終了】${PREFIX}_${date}.mp3"
