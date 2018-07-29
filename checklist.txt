@@ -1,4 +1,9 @@
-Last Update: 2018/07/30-00:00:01
+Last Update: 2018/07/30-06:00:01
+2018/07/30-06:00:01 16 Aikatsu Friends!|アイカツフレンズ！
+2018/07/30-06:00:01 15 Steins;Gate 0|シュタインズ・ゲート ゼロ
+2018/07/30-06:00:01 04 Shichisei no Subaru|七星のスバル
+2018/07/30-06:00:01 04 Banana Fish|BANANA FISH
+2018/07/30-06:00:01 03 Shoujo☆Kageki Revue Starlight|少女☆歌劇 レヴュースタァライト
 2018/07/28-18:00:01 16 Akkun to Kanojo|あっくんとカノジョ
 2018/07/28-06:00:01 42 Black Clover|ブラッククローバー
 2018/07/28-06:00:01 17 Kakuriyo no Yadomeshi|かくりよの宿飯
@@ -56,11 +61,6 @@ Last Update: 2018/07/30-00:00:01
 2018/07/22-06:00:01 02 High Score Girl|ハイスコアガール
 2018/07/22-06:00:01 02 Happy Sugar Life|ハッピーシュガーライフ
 2018/07/22-06:00:01 02 Grand Blue|ぐらんぶる
-2018/07/21-00:00:02 14 Steins;Gate 0|シュタインズ・ゲート ゼロ
-2018/07/21-00:00:02 03 Shichisei no Subaru|七星のスバル
-2018/07/21-00:00:02 02 Shoujo☆Kageki Revue Starlight|少女☆歌劇 レヴュースタァライト
-2018/07/20-18:00:02 15 Aikatsu Friends!|アイカツフレンズ！
-2018/07/20-18:00:02 03 Banana Fish|BANANA FISH
 2018/07/14-00:00:01 02 Bang Dream! Garupa Pico|BanG Dream! ガルパ☆ピコ
 2018/07/13-00:00:01 02 Sunohara-sou no Kanrinin-san|すのはら荘の管理人さん
 2018/07/12-12:00:01 01 Free! Dive to the Future|Free!－Dive to the Future－
