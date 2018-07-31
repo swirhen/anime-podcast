@@ -1,4 +1,4 @@
 小鸟之音 第 回 2 ことりの音 ##PROGRAM_NAME##%##NUM_PREFIX####NUM####NUM_SUFFIX##
 RAKU-ON 第 回 2 仲村宗悟・Machicoのらくおん ##PROGRAM_NAME##%##NUM_PREFIX####NUM####NUM_SUFFIX## 回）
 ○○放送局 第 回 2 原由実の○○放送局_大盛 『##PROGRAM_NAME##』%##NUM_PREFIX####NUM####NUM_SUFFIX##
-Gor☆geous@revo☆lution 第 回 2 ゴー☆ジャス＠レボ☆リューション～こんな声優ファン☆タスティック_with_ちくわP～ 【##NUM_PREFIX####NUM####NUM_SUFFIX##】##PROGRAM_NAME##
+Gor☆geous 第 回 2 ゴー☆ジャス＠レボ☆リューション～こんな声優ファン☆タスティック_with_ちくわP～ 【##NUM_PREFIX####NUM####NUM_SUFFIX##】##PROGRAM_NAME##
