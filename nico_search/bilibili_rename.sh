@@ -10,15 +10,17 @@ PADDING_DIGITS=()
 PROGRAM_NAMES=()
 FILENAME_LAYOUTS=()
 FOOTER_KEYWORDS=()
-while read KEYWORD NUM_PREFIX NUM_SUFFIX PADDING_DIGIT PROGRAM_NAME FILENAME_LAYOUT FOOTER_KEYWORD
+DELETE_KEYWORDS=()
+while read KEYWORD NUM_PREFIX NUM_SUFFIX PADDING_DIGIT PROGRAM_NAME FILENAME_LAYOUT FOOTER_KEYWORD DELETE_KEYWORD
 do
     KEYWORDS+=( "${KEYWORD}" )
     NUM_PREFIXS+=( "${NUM_PREFIX}" )
     NUM_SUFFIXS+=( "${NUM_SUFFIX}" )
     PADDING_DIGITS+=( ${PADDING_DIGIT} )
-    PROGRAM_NAMES+=( "${PROGRAM_NAME//_/ }" )
+    PROGRAM_NAMES+=( "${PROGRAM_NAME//%/ }" )
     FILENAME_LAYOUTS+=( "${FILENAME_LAYOUT//%/ }" )
     FOOTER_KEYWORDS+=( "${FOOTER_KEYWORD}" )
+    DELETE_KEYWORDS+=( "${DELETE_KEYWORD//%/ }" )
 done < ${RENAME_LIST_FILE}
 
 # 与えられたディレクトリ以下のパートディレクトリの数を調べる
@@ -57,6 +59,7 @@ do
             PROGRAM_NAME="${PROGRAM_NAMES[${cnt}]}"
             FILENAME_LAYOUT="${FILENAME_LAYOUTS[${cnt}]}"
             FOOTER_KEYWORD="${FOOTER_KEYWORDS[${cnt}]}"
+            DELETE_KEYWORD="${DELETE_KEYWORDS[${cnt}]}"
             hit_flg=1
             break
         fi
@@ -72,6 +75,9 @@ do
         if [ "${FOOTER_KEYWORD}" != "" ]; then
             FOOTER=`echo ${filename} | sed "s/.*${FOOTER_KEYWORD}\(.*\)/\1/"`
             FILENAME_LAYOUT+="${FOOTER}"
+        fi
+        if [ "${DELETE_KEYWORD}" != "" ]; then
+            FILENAME_LAYOUT=`echo "${FILENAME_LAYOUT}" | sed "s/${DELETE_KEYWORD}//"`
         fi
         filename="${FILENAME_LAYOUT}"
     fi
