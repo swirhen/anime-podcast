@@ -99,9 +99,9 @@ do
     NUM_SUFFIX=${NUM_SUFFIXS[${cnt}]}
     SED_STR="${SED_STRS[${cnt}]}"
 
-    # 全角数字タイトル対応
-    ZEP_NUM=`echo ${EP_NUM} | sed "y/0123456789/０１２３４５６７８９/"`
-    EPNUM="\(${EP_NUM}\|${ZEP_NUM}\)"
+    # 全角数字タイトル対応(sedを前置きすることでいらなくなった)
+#    ZEP_NUM=`echo ${EP_NUM} | sed "y/0123456789/０１２３４５６７８９/"`
+#    EPNUM="\(${EP_NUM}\|${ZEP_NUM}\)"
     if [ "${NUM_PREFIX}" != "|" ]; then
         EPNUM="${NUM_PREFIX}${EPNUM}"
     fi
@@ -113,12 +113,12 @@ do
     curl -sS "${URL}" -o ${CRAWL_TEMP}
     if [ "${URL:8:2}" = "ww" ]; then
         # 検索ページ(www.nicovideo.jp)用
-        cat "${CRAWL_TEMP}" | grep ".*a title.*${KEYWORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#${NICODL_CMD} \"http://www.nicovideo.jp\2\" \"\1\"#" | sed "s/\ href.*//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" | sed "y/０１２３４５６７８９　/0123456789 /" > ${DL_SH}
+        cat "${CRAWL_TEMP}" | sed "y/０１２３４５６７８９　/0123456789 /" | grep ".*a title.*${KEYWORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#${NICODL_CMD} \"http://www.nicovideo.jp\2\" \"\1\"#" | sed "s/\ href.*//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" > ${DL_SH}
     else
         # ニコニコチャンネル(ch.nicovideo.jp)用
 #        echo "curl -sS \"${URL}\" | grep \"http.*title.*${KEYWORD}\" | sed \"s#^.*<a href=#${NICODL_CMD} #\" | sed \"s/title=//\" | grep \"${EPNUM}\" | grep -v \"${IGNORE_WORD}\" | sed \"${SED_STR}\" > ${DL_SH}"
         #cat "${CRAWL_TEMP}" | perl -pe 's/(href=".*?".*?|title=".*?)\n/$1/g' | grep "http.*title.*${KEYWORD}" | sed "s#^.*href=#${NICODL_CMD} #" | sed "s/title=//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" | sed "y/０１２３４５６７８９　/0123456789 /" | sort | uniq > $DL_SH}
-        cat "${CRAWL_TEMP}" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" | sed "y/０１２３４５６７８９　/0123456789 /" > ${DL_SH}
+        cat "${CRAWL_TEMP}" | sed "y/０１２３４５６７８９　/0123456789 /" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" > ${DL_SH}
     fi
 
     # dl.shが吐かれたらdl.shを実行
