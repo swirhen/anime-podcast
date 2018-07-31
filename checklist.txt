@@ -1,10 +1,21 @@
-Last Update: 2018/08/01-00:00:01
+Last Update: 2018/08/01-06:00:01
+2018/08/01-06:00:01 17 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
+2018/08/01-06:00:01 17 Juushinki Pandora|重神機パンドーラ
+2018/08/01-06:00:01 17 Akkun to Kanojo|あっくんとカノジョ
+2018/08/01-06:00:01 04 Yami Shibai 6|闇芝居(第6期)
+2018/08/01-06:00:01 04 Satsuriku no Tenshi|殺戮の天使
+2018/08/01-06:00:01 04 Ongaku Shoujo|音楽少女
+2018/08/01-06:00:01 04 Harukana Receive|はるかなレシーブ
+2018/08/01-06:00:01 04 Chio-chan no Tsuugakuro|ちおちゃんの通学路
+2018/08/01-06:00:01 03 Lord of Vermilion： Guren no Ou|ロード オブ ヴァーミリオン 紅蓮の王
+2018/08/01-06:00:01 03 High Score Girl|ハイスコアガール
+2018/08/01-06:00:01 03 Happy Sugar Life|ハッピーシュガーライフ
+2018/08/01-06:00:01 03 Grand Blue|ぐらんぶる
 2018/07/30-06:00:01 16 Aikatsu Friends!|アイカツフレンズ！
 2018/07/30-06:00:01 15 Steins;Gate 0|シュタインズ・ゲート ゼロ
 2018/07/30-06:00:01 04 Shichisei no Subaru|七星のスバル
 2018/07/30-06:00:01 04 Banana Fish|BANANA FISH
 2018/07/30-06:00:01 03 Shoujo☆Kageki Revue Starlight|少女☆歌劇 レヴュースタァライト
-2018/07/28-18:00:01 16 Akkun to Kanojo|あっくんとカノジョ
 2018/07/28-06:00:01 42 Black Clover|ブラッククローバー
 2018/07/28-06:00:01 17 Kakuriyo no Yadomeshi|かくりよの宿飯
 2018/07/28-06:00:01 16.5 Gundam Build Divers|ガンダムビルドダイバーズ
@@ -50,17 +61,6 @@ Last Update: 2018/08/01-00:00:01
 2018/07/23-06:00:01 03 Zoids Wild|ゾイドワイルド
 2018/07/23-06:00:01 03 Hataraku Saibou|はたらく細胞
 2018/07/23-06:00:01 02 Yuragi-sou no Yuuna-san|ゆらぎ荘の幽奈さん
-2018/07/23-06:00:01 02 Lord of Vermilion： Guren no Ou|ロード オブ ヴァーミリオン 紅蓮の王
-2018/07/22-06:00:01 16 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
-2018/07/22-06:00:01 16 Juushinki Pandora|重神機パンドーラ
-2018/07/22-06:00:01 03 Yami Shibai 6|闇芝居(第6期)
-2018/07/22-06:00:01 03 Satsuriku no Tenshi|殺戮の天使
-2018/07/22-06:00:01 03 Ongaku Shoujo|音楽少女
-2018/07/22-06:00:01 03 Harukana Receive|はるかなレシーブ
-2018/07/22-06:00:01 03 Chio-chan no Tsuugakuro|ちおちゃんの通学路
-2018/07/22-06:00:01 02 High Score Girl|ハイスコアガール
-2018/07/22-06:00:01 02 Happy Sugar Life|ハッピーシュガーライフ
-2018/07/22-06:00:01 02 Grand Blue|ぐらんぶる
 2018/07/14-00:00:01 02 Bang Dream! Garupa Pico|BanG Dream! ガルパ☆ピコ
 2018/07/13-00:00:01 02 Sunohara-sou no Kanrinin-san|すのはら荘の管理人さん
 2018/07/12-12:00:01 01 Free! Dive to the Future|Free!－Dive to the Future－
