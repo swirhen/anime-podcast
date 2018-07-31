@@ -82,6 +82,8 @@ do
         filename="${FILENAME_LAYOUT}"
     fi
 
+    filename=`echo "${filename}" | sed "s/嘉宾/ゲスト/"`
+
     if [ ${filecnt} -eq 1 ]; then
         # blvが1個だけの場合
         echo "/usr/bin/wine ffmpeg3.exe -i \"${partdir}\"/*/0.blv -c copy \"${filename}.mp4\""
