@@ -74,7 +74,7 @@ do
         FILENAME_LAYOUT=`echo "${FILENAME_LAYOUT}" | sed "s/##NUM##/${NUM}/"`
         if [ "${FOOTER_KEYWORD}" != "" ]; then
             FOOTER=`echo ${filename} | sed "s/.*${FOOTER_KEYWORD}\(.*\)/\1/"`
-            FILENAME_LAYOUT+="${FOOTER}"
+            FILENAME_LAYOUT+=" ${FOOTER}"
         fi
         if [ "${DELETE_KEYWORD}" != "" ]; then
             FILENAME_LAYOUT=`echo "${FILENAME_LAYOUT}" | sed "s/${DELETE_KEYWORD}//"`
