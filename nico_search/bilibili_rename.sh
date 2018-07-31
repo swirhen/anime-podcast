@@ -46,6 +46,10 @@ do
     hit_flg=0
     while :
     do
+        if [ "${KEYWORDS[${cnt}]}" = "" ]; then
+            break
+        fi
+
         if [[ ${filename} =~ ${KEYWORDS[${cnt}]} ]]; then
             NUM_PREFIX="${NUM_PREFIXS[${cnt}]}"
             NUM_SUFFIX="${NUM_SUFFIXS[${cnt}]}"
