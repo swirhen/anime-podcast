@@ -102,6 +102,7 @@ do
     # 全角数字タイトル対応(sedを前置きすることでいらなくなった)
 #    ZEP_NUM=`echo ${EP_NUM} | sed "y/0123456789/０１２３４５６７８９/"`
 #    EPNUM="\(${EP_NUM}\|${ZEP_NUM}\)"
+    EPNUM="${EP_NUM}"
     if [ "${NUM_PREFIX}" != "|" ]; then
         EPNUM="${NUM_PREFIX}${EPNUM}"
     fi
