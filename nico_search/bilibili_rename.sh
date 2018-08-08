@@ -3,6 +3,8 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE:-$0}")"; pwd)"
 RENAME_LIST_FILE=${SCRIPT_DIR}/bilibili_rename_word.txt
 dir=$1
 
+DIR_PREFIXS=()
+AUDIO_ENCODES=()
 KEYWORDS=()
 NUM_PREFIXS=()
 NUM_SUFFIXS=()
@@ -11,8 +13,10 @@ PROGRAM_NAMES=()
 FILENAME_LAYOUTS=()
 FOOTER_KEYWORDS=()
 DELETE_KEYWORDS=()
-while read KEYWORD NUM_PREFIX NUM_SUFFIX PADDING_DIGIT PROGRAM_NAME FILENAME_LAYOUT FOOTER_KEYWORD DELETE_KEYWORD
+while read DIR_PREFIX AUDIO_ENCODE KEYWORD NUM_PREFIX NUM_SUFFIX PADDING_DIGIT PROGRAM_NAME FILENAME_LAYOUT FOOTER_KEYWORD DELETE_KEYWORD
 do
+    DIR_PREFIXS+=( "${DIR_PREFIX}" )
+    AUDIO_ENCODES+=( "${AUDIO_ENCODE}" )
     KEYWORDS+=( "${KEYWORD}" )
     NUM_PREFIXS+=( "${NUM_PREFIX}" )
     NUM_SUFFIXS+=( "${NUM_SUFFIX}" )
@@ -53,6 +57,8 @@ do
         fi
 
         if [[ ${filename} =~ ${KEYWORDS[${cnt}]} ]]; then
+            DIR_PREFIX="${DIR_PREFIXS[${cnt}]}"
+            AUDIO_ENCODE="${AUDIO_ENCODES[${cnt}]}"
             NUM_PREFIX="${NUM_PREFIXS[${cnt}]}"
             NUM_SUFFIX="${NUM_SUFFIXS[${cnt}]}"
             PADDING_DIGIT="${PADDING_DIGITS[${cnt}]}"
@@ -100,5 +106,12 @@ do
         done
         # ffmpegでconcat
         echo "/usr/bin/wine ffmpeg3.exe -safe 0 -f concat -i \"${filename}.list\" -c copy \"${filename}.mp4\"; rm -f \"${filename}.list\""
+    fi
+    if [ ${AUDIO_ENCODE} -eq 1 ]; then
+        echo "/usr/bin/wine ffmpeg3.exe -i \"${filename}.mp4\" -acodec copy -map 0:1 \"${filename}.m4a\""
+        echo "mv \"${filename}.mp4\" ${DIR_PREFIX}*/mp4/"
+        echo "mv \"${filename}.m4a\" ${DIR_PREFIX}*/"
+    else
+        echo "mv \"${filename}.mp4\" ${DIR_PREFIX}*/"
     fi
 done
