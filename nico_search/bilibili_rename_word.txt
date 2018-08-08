@@ -2,6 +2,6 @@
 RAKU-ON 第 回 2 仲村宗悟・Machicoのらくおん ##PROGRAM_NAME##%##NUM_PREFIX####NUM####NUM_SUFFIX## 回）% %原版
 ○○放送局 第 回 2 原由実の○○放送局%大盛 『##PROGRAM_NAME##』%##NUM_PREFIX####NUM####NUM_SUFFIX##
 Gor☆geous 第 回 2 ゴー☆ジャス＠レボ☆リューション～こんな声優ファン☆タスティック%with%ちくわP～ 【##NUM_PREFIX####NUM####NUM_SUFFIX##】##PROGRAM_NAME##
-2年A组青春活动部 第 回 3 愛美とはるかの2年A組青春アクティ部！ 【##NUM_PREFIX####NUM####NUM_SUFFIX##】##PROGRAM_NAME## 回）%
+2年A组青春活动部 第 回 3 愛美とはるかの2年A組青春アクティ部！ 【##NUM_PREFIX####NUM####NUM_SUFFIX##】##PROGRAM_NAME## 回）
 阿部里果・山崎惠理的 第 回 2 阿部里果・山崎エリイのMIXボイスガレッジ ##PROGRAM_NAME##%##NUM_PREFIX####NUM####NUM_SUFFIX## 回
 高桥李依・上田丽奈 第 回 2 高橋李依・上田麗奈%仕事で会えないからラジオはじめました。 ##PROGRAM_NAME##%##NUM_PREFIX####NUM####NUM_SUFFIX## 回%

@@ -73,8 +73,10 @@ do
         FILENAME_LAYOUT=`echo "${FILENAME_LAYOUT}" | sed "s/##NUM_SUFFIX##/${NUM_SUFFIX}/"`
         FILENAME_LAYOUT=`echo "${FILENAME_LAYOUT}" | sed "s/##NUM##/${NUM}/"`
         if [ "${FOOTER_KEYWORD}" != "" ]; then
-            FOOTER=`echo ${filename} | sed "s/.*${FOOTER_KEYWORD}\(.*\)/\1/"`
-            FILENAME_LAYOUT+=" ${FOOTER}"
+            FOOTER=`echo "${filename}" | sed "s/.*${FOOTER_KEYWORD}\(.*\)/\1/"`
+            if [ "${FOOTER}" != "" ]; then
+                FILENAME_LAYOUT+=" ${FOOTER}"
+            fi
         fi
         if [ "${DELETE_KEYWORD}" != "" ]; then
             FILENAME_LAYOUT=`echo "${FILENAME_LAYOUT}" | sed "s/${DELETE_KEYWORD}//"`
