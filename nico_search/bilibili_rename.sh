@@ -19,7 +19,7 @@ do
     PADDING_DIGITS+=( ${PADDING_DIGIT} )
     PROGRAM_NAMES+=( "${PROGRAM_NAME//%/ }" )
     FILENAME_LAYOUTS+=( "${FILENAME_LAYOUT//%/ }" )
-    FOOTER_KEYWORDS+=( "${FOOTER_KEYWORD}//%/\\\ }" )
+    FOOTER_KEYWORDS+=( "${FOOTER_KEYWORD}//%/ }" )
     DELETE_KEYWORDS+=( "${DELETE_KEYWORD//%/ }" )
 done < ${RENAME_LIST_FILE}
 
@@ -73,7 +73,7 @@ do
         FILENAME_LAYOUT=`echo "${FILENAME_LAYOUT}" | sed "s/##NUM_SUFFIX##/${NUM_SUFFIX}/"`
         FILENAME_LAYOUT=`echo "${FILENAME_LAYOUT}" | sed "s/##NUM##/${NUM}/"`
         if [ "${FOOTER_KEYWORD}" != "" ]; then
-            FOOTER=`echo ${filename} | sed "s/.*${FOOTER_KEYWORD}\(.*\)/\1/"`
+            FOOTER=`echo ${filename} | sed "s/.*${FOOTER_KEYWORD}\ \(.*\)/\1/"`
             FILENAME_LAYOUT+=" ${FOOTER}"
         fi
         if [ "${DELETE_KEYWORD}" != "" ]; then
