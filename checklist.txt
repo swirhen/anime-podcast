@@ -1,66 +1,67 @@
-Last Update: 2018/08/02-12:00:01
+Last Update: 2018/08/08-00:00:01
+2018/08/08-00:00:01 29 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2018/08/08-00:00:01 26 Hugtto! Precure|HuGっと！ プリキュア
+2018/08/08-00:00:01 18 Kakuriyo no Yadomeshi|かくりよの宿飯
+2018/08/08-00:00:01 18 Juushinki Pandora|重神機パンドーラ
+2018/08/08-00:00:01 18 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
+2018/08/08-00:00:01 17 Persona 5 the Animation|PERSONA5 the Animation
+2018/08/08-00:00:01 17 Major 2nd|MAJOR 2nd
+2018/08/08-00:00:01 17 Lupin Sansei (2018)|ルパン三世 PART5
+2018/08/08-00:00:01 17 Layton Mystery Tanteisha： Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
+2018/08/08-00:00:01 17 Kiratto Pri☆chan|キラッとプリ☆チャン
+2018/08/08-00:00:01 17 Gundam Build Divers|ガンダムビルドダイバーズ
+2018/08/08-00:00:01 16 Wakaokami wa Shougakusei!|若おかみは小学生！
+2018/08/08-00:00:01 16 Steins;Gate 0|シュタインズ・ゲート ゼロ
+2018/08/08-00:00:01 05 Yume Oukoku to Nemureru 100 Nin no Ouji-sama|夢王国と眠れる100人の王子様
+2018/08/08-00:00:01 05 Yama no Susume： Third Season|ヤマノススメ サードシーズン
+2018/08/08-00:00:01 05 Yakiniku-ten Sengoku|焼肉店センゴク
+2018/08/08-00:00:01 05 Shichisei no Subaru|七星のスバル
+2018/08/08-00:00:01 05 Senjuushi|千銃士
+2018/08/08-00:00:01 05 Satsuriku no Tenshi|殺戮の天使
+2018/08/08-00:00:01 05 Onmyouji： Heian Monogatari|陰陽師・平安物語
+2018/08/08-00:00:01 05 Ongaku Shoujo|音楽少女
+2018/08/08-00:00:01 05 Joshi Ochi! 2-kai kara Onnanoko ga... Futte Kita！？|じょしおちっ！～2階から女の子が…降ってきた！？～
+2018/08/08-00:00:01 05 Island|ISLAND
+2018/08/08-00:00:01 05 Isekai Maou to Shoukan Shoujo no Dorei Majutsu|異世界魔王と召喚少女の奴隷魔術
+2018/08/08-00:00:01 05 Idolmaster Cinderella Girls Gekijou 3|アイドルマスター シンデレラガールズ劇場3
+2018/08/08-00:00:01 05 Harukana Receive|はるかなレシーブ
+2018/08/08-00:00:01 05 Hanebado!|はねバド！
+2018/08/08-00:00:01 05 Dies Irae： To the Ring Reincarnation|Dies irae To the Ring Reincarnation
+2018/08/08-00:00:01 05 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
+2018/08/08-00:00:01 04 Zoids Wild|ゾイドワイルド
+2018/08/08-00:00:01 04 Tensai Bakabon|深夜！天才バカボン
+2018/08/08-00:00:01 04 Sirius the Jaeger|天狼 Sirius the Jaeger
+2018/08/08-00:00:01 04 Shoujo☆Kageki Revue Starlight|少女☆歌劇 レヴュースタァライト
+2018/08/08-00:00:01 04 Planet With|プラネット・ウィズ
+2018/08/08-00:00:01 04 Phantom in the Twilight|Phantom in the Twilight
+2018/08/08-00:00:01 04 Overlord III|オーバーロードIII
+2018/08/08-00:00:01 04 Kyoto Teramachi Sanjou no Holmes|京都寺町三条のホームズ
+2018/08/08-00:00:01 04 Jashin-chan Dropkick|邪神ちゃんドロップキック
+2018/08/08-00:00:01 04 Hyakuren no Haou to Seiyaku no Valkyria|百錬の覇王と聖約の戦乙女
+2018/08/08-00:00:01 04 Hataraku Saibou|はたらく細胞
+2018/08/08-00:00:01 04 Free!： Dive to the Future|Free!－Dive to the Future－
+2018/08/08-00:00:01 03 Yuragi-sou no Yuuna-san|ゆらぎ荘の幽奈さん
+2018/08/08-00:00:01 02 Tsukumogami Kashimasu|つくもがみ貸します
+2018/08/08-00:00:01 02 Shingeki no Kyojin Season 3|進撃の巨人 Season3
+2018/08/08-00:00:01 0 Muhyo to Rouji no Mahouritsu Soudan Jimusho|ムヒョとロージーの魔法律相談事務所
 2018/08/01-06:00:01 17 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
-2018/08/01-06:00:01 17 Juushinki Pandora|重神機パンドーラ
 2018/08/01-06:00:01 17 Akkun to Kanojo|あっくんとカノジョ
 2018/08/01-06:00:01 04 Yami Shibai 6|闇芝居(第6期)
-2018/08/01-06:00:01 04 Satsuriku no Tenshi|殺戮の天使
-2018/08/01-06:00:01 04 Ongaku Shoujo|音楽少女
-2018/08/01-06:00:01 04 Harukana Receive|はるかなレシーブ
 2018/08/01-06:00:01 04 Chio-chan no Tsuugakuro|ちおちゃんの通学路
 2018/08/01-06:00:01 03 Lord of Vermilion： Guren no Ou|ロード オブ ヴァーミリオン 紅蓮の王
 2018/08/01-06:00:01 03 High Score Girl|ハイスコアガール
 2018/08/01-06:00:01 03 Happy Sugar Life|ハッピーシュガーライフ
 2018/08/01-06:00:01 03 Grand Blue|ぐらんぶる
 2018/07/30-06:00:01 16 Aikatsu Friends!|アイカツフレンズ！
-2018/07/30-06:00:01 15 Steins;Gate 0|シュタインズ・ゲート ゼロ
-2018/07/30-06:00:01 04 Shichisei no Subaru|七星のスバル
 2018/07/30-06:00:01 04 Banana Fish|BANANA FISH
-2018/07/30-06:00:01 03 Shoujo☆Kageki Revue Starlight|少女☆歌劇 レヴュースタァライト
 2018/07/28-06:00:01 42 Black Clover|ブラッククローバー
-2018/07/28-06:00:01 17 Kakuriyo no Yadomeshi|かくりよの宿飯
-2018/07/28-06:00:01 16.5 Gundam Build Divers|ガンダムビルドダイバーズ
-2018/07/28-06:00:01 16 Lupin Sansei (2018)|ルパン三世 PART5
-2018/07/28-06:00:01 04 Yume Oukoku to Nemureru 100 Nin no Ouji-sama|夢王国と眠れる100人の王子様
-2018/07/28-06:00:01 04 Yakiniku-ten Sengoku|焼肉店センゴク
-2018/07/28-06:00:01 04 Senjuushi|千銃士
-2018/07/28-06:00:01 04 Onmyouji： Heian Monogatari|陰陽師・平安物語
-2018/07/28-06:00:01 04 Isekai Maou to Shoukan Shoujo no Dorei Majutsu|異世界魔王と召喚少女の奴隷魔術
-2018/07/28-06:00:01 04 Idolmaster Cinderella Girls Gekijou 3|アイドルマスター シンデレラガールズ劇場3
-2018/07/28-06:00:01 04 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
 2018/07/28-06:00:01 04 Back Street Girls： Gokudolls|Back Street Girls －ゴクドルズ－
-2018/07/28-06:00:01 03 Tensai Bakabon|深夜！天才バカボン
-2018/07/28-06:00:01 03 Sirius the Jaeger|天狼 Sirius the Jaeger
-2018/07/28-06:00:01 03 Planet With|プラネット・ウィズ
-2018/07/28-06:00:01 03 Overlord III|オーバーロードIII
 2018/07/28-06:00:01 03 Genkou Kassenki|アンゴルモア元寇合戦記
-2018/07/28-06:00:01 03 Free!： Dive to the Future|Free!－Dive to the Future－
-2018/07/26-06:00:01 01 Tsukumogami Kashimasu|つくもがみ貸します
-2018/07/26-06:00:01 01 Shingeki no Kyojin Season 3|進撃の巨人 Season3
 2018/07/26-00:00:01 17 Captain Tsubasa (2018)|キャプテン翼
-2018/07/26-00:00:01 04 Yama no Susume： Third Season|ヤマノススメ サードシーズン
-2018/07/26-00:00:01 04 Joshi Ochi! 2-kai kara Onnanoko ga... Futte Kita！？|じょしおちっ！～2階から女の子が…降ってきた！？～
-2018/07/26-00:00:01 04 Island|ISLAND
-2018/07/26-00:00:01 04 Hanebado!|はねバド！
-2018/07/26-00:00:01 04 Dies Irae： To the Ring Reincarnation|Dies irae To the Ring Reincarnation
 2018/07/26-00:00:01 04 Baki|バキ
-2018/07/26-00:00:01 03 Phantom in the Twilight|Phantom in the Twilight
-2018/07/26-00:00:01 03 Kyoto Teramachi Sanjou no Holmes|京都寺町三条のホームズ
-2018/07/26-00:00:01 03 Jashin-chan Dropkick|邪神ちゃんドロップキック
 2018/07/26-00:00:01 03 Asobi Asobase|あそびあそばせ
 2018/07/26-00:00:01 03 Ani ni Tsukeru Kusuri wa Nai! 2|兄に付ける薬はない！2 -快把我哥帯走2-
-2018/07/24-12:00:01 25 Hugtto! Precure|HuGっと！ プリキュア
-2018/07/24-12:00:01 17 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
-2018/07/24-12:00:01 16 Layton Mystery Tanteisha： Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
-2018/07/24-12:00:01 16 Kiratto Pri☆chan|キラッとプリ☆チャン
-2018/07/24-12:00:01 15 Wakaokami wa Shougakusei!|若おかみは小学生！
-2018/07/24-12:00:01 03 Hyakuren no Haou to Seiyaku no Valkyria|百錬の覇王と聖約の戦乙女
-2018/07/23-06:00:01 28 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
-2018/07/23-06:00:01 16 Persona 5 the Animation|PERSONA5 the Animation
-2018/07/23-06:00:01 16 Major 2nd|MAJOR 2nd
 2018/07/23-06:00:01 15 Boku no Hero Academia 3|僕のヒーローアカデミア 第3期
-2018/07/23-06:00:01 03 Zoids Wild|ゾイドワイルド
-2018/07/23-06:00:01 03 Hataraku Saibou|はたらく細胞
-2018/07/23-06:00:01 02 Yuragi-sou no Yuuna-san|ゆらぎ荘の幽奈さん
 2018/07/14-00:00:01 02 Bang Dream! Garupa Pico|BanG Dream! ガルパ☆ピコ
 2018/07/13-00:00:01 02 Sunohara-sou no Kanrinin-san|すのはら荘の管理人さん
 2018/07/12-12:00:01 01 Free! Dive to the Future|Free!－Dive to the Future－
