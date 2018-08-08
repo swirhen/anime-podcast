@@ -1,4 +1,11 @@
-Last Update: 2018/08/08-00:00:01
+Last Update: 2018/08/08-12:00:01
+2018/08/08-12:00:01 18 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
+2018/08/08-12:00:01 05 Yami Shibai 6|闇芝居(第6期)
+2018/08/08-12:00:01 05 Chio-chan no Tsuugakuro|ちおちゃんの通学路
+2018/08/08-12:00:01 04 High Score Girl|ハイスコアガール
+2018/08/08-12:00:01 04 Happy Sugar Life|ハッピーシュガーライフ
+2018/08/08-12:00:01 04 Grand Blue|ぐらんぶる
+2018/08/08-12:00:01 01 Muhyo to Rouji no Mahouritsu Soudan Jimusho|ムヒョとロージーの魔法律相談事務所
 2018/08/08-00:00:01 29 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/08/08-00:00:01 26 Hugtto! Precure|HuGっと！ プリキュア
 2018/08/08-00:00:01 18 Kakuriyo no Yadomeshi|かくりよの宿飯
@@ -43,15 +50,8 @@ Last Update: 2018/08/08-00:00:01
 2018/08/08-00:00:01 03 Yuragi-sou no Yuuna-san|ゆらぎ荘の幽奈さん
 2018/08/08-00:00:01 02 Tsukumogami Kashimasu|つくもがみ貸します
 2018/08/08-00:00:01 02 Shingeki no Kyojin Season 3|進撃の巨人 Season3
-2018/08/08-00:00:01 0 Muhyo to Rouji no Mahouritsu Soudan Jimusho|ムヒョとロージーの魔法律相談事務所
-2018/08/01-06:00:01 17 Nobunaga no Shinobi： Anegawa Ishiyama-hen|信長の忍び～姉川・石山篇～
 2018/08/01-06:00:01 17 Akkun to Kanojo|あっくんとカノジョ
-2018/08/01-06:00:01 04 Yami Shibai 6|闇芝居(第6期)
-2018/08/01-06:00:01 04 Chio-chan no Tsuugakuro|ちおちゃんの通学路
 2018/08/01-06:00:01 03 Lord of Vermilion： Guren no Ou|ロード オブ ヴァーミリオン 紅蓮の王
-2018/08/01-06:00:01 03 High Score Girl|ハイスコアガール
-2018/08/01-06:00:01 03 Happy Sugar Life|ハッピーシュガーライフ
-2018/08/01-06:00:01 03 Grand Blue|ぐらんぶる
 2018/07/30-06:00:01 16 Aikatsu Friends!|アイカツフレンズ！
 2018/07/30-06:00:01 04 Banana Fish|BANANA FISH
 2018/07/28-06:00:01 42 Black Clover|ブラッククローバー
