@@ -366,8 +366,6 @@ download seeds:
   fi
 fi
 
-end
-
 # seedダウンロード・seed育成処理開始
 cd /data/share/movie
 
@@ -376,6 +374,8 @@ do
   logging "download link: ${DL_LINK}"
   wget --no-check-certificate --restrict-file-names=nocontrol --trust-server-names --content-disposition "${DL_LINK}" -P "${DOWNLOAD_DIR}" > /dev/null
 done
+
+end
 
 # seed育成
 logging "### torrent download start."
