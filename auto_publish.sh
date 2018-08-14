@@ -217,6 +217,13 @@ do
 
       # 新話数 - 旧話数の差分が1のとき、新規エピソードとする
       if [ $(( 10#$EPNUM_N - 10#$EPNUM_OLD_N )) -eq 1 ]; then
+        hit_flg=1
+      # あいまいモード：何か引数がある場合、1以上なら新規エピソードとする
+      else if [ $1 != "" -a $(( 10#$EPNUM_N - 10#$EPNUM_OLD_N )) -ge 1 ]; then
+        hit_flg=1
+      fi
+
+      if [ ${hit_flg} -eq 1 ]; then
         logging "new episode: ${EPNUM} (local: ${EP_NUMS[${cnt}]})"
         hit_flg=1
         echo "${title}" >> ${RESULT_FILE}
