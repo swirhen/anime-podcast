@@ -12,8 +12,8 @@ RSS_XML2=${SCRIPT_DIR}/rss2.xml
 RESULT_FILE=${SCRIPT_DIR}/autodl.result
 DATETIME=`date "+%Y/%m/%d-%H:%M:%S"`
 DATETIME2=`date "+%Y%m%d%H%M%S"`
-URI="http://jp.leopard-raws.org/rss.php"
-URI2="https://nyaa.si/?q=Ohys-Raws&f=0&c=1_4&page=rss"
+URI2="http://jp.leopard-raws.org/rss.php"
+URI="https://nyaa.si/?q=Ohys-Raws&f=0&c=1_4&page=rss"
 PYTHON_PATH="python3"
 CHANNEL="bot-open"
 POST_FLG=1
