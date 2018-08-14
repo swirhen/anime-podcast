@@ -219,7 +219,7 @@ do
       if [ $(( 10#$EPNUM_N - 10#$EPNUM_OLD_N )) -eq 1 ]; then
         hit_flg=1
       # あいまいモード：何か引数がある場合、1以上なら新規エピソードとする
-      else if [ $1 != "" -a $(( 10#$EPNUM_N - 10#$EPNUM_OLD_N )) -ge 1 ]; then
+      elif [ $1 != "" -a $(( 10#$EPNUM_N - 10#$EPNUM_OLD_N )) -ge 1 ]; then
         hit_flg=1
       fi
 
