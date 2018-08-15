@@ -80,7 +80,7 @@ do
         FILENAME_LAYOUT=`echo "${FILENAME_LAYOUT}" | sed "s/##NUM##/${NUM}/"`
         if [ "${FOOTER_KEYWORD}" != "" ]; then
             FOOTER=`echo "${filename}" | sed "s/.*${FOOTER_KEYWORD}\(.*\)/\1/"`
-            if [ "${FOOTER}" != "" ]; then
+            if [ "${FOOTER}" != "" -a "${FOOTER}" != "${filename}" ]; then
                 FILENAME_LAYOUT+=" ${FOOTER}"
             fi
         fi
