@@ -83,7 +83,7 @@ filename="[FRESH LIVE] ${program_name} (${DATE}).mp4"
 # rssフィード生成シェル
 #/data/share/movie/sh/mmmpc.sh nico "ニコニコチャンネルの声優さん動画"
 # つぶやく
-/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【FRESH LIVE自動保存開始】${filename}"
-${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【FRESH LIVE自動保存開始】${filename}"
+/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【FRESH LIVE自動保存終了】${filename}"
+${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【FRESH LIVE自動保存終了】${filename}"
 
 logging "### Abema Fresh! 自動録画スクリプト 終了"
