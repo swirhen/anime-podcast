@@ -97,8 +97,8 @@ if [ "${archive_flg}" = "1" ]; then
 fi
 
 # つぶやく
-# /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【FRESH LIVE自動保存開始】$name"
-${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【FRESH LIVE自動保存開始】$name"
+# /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【FRESH LIVE自動保存開始】${filename}"
+${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【FRESH LIVE自動保存開始】${filename}"
 
 /usr/bin/wine ffmpeg3.exe -i "${streamuri}" -c copy "${SAVE_DIR}"/"${filename}"
 
