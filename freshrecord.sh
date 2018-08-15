@@ -1,0 +1,88 @@
+#!/usr/bin/env bash
+# Abema Fresh! 予約録画用スクリプト
+# require: curl,ffmpeg
+# usage: freshrecord [番組名] [チャンネル名(URL)] [会員配信除外フラグ]
+# しくみ:
+# https://freshlive.tv/[チャンネル名]/programs/upcoming をクロール
+# [番組名]の直近のもののIDを取得
+# https://movie.freshlive.tv/manifest/[ID]/live.m3u8 を取得
+# 最後の行(最高画質のもの)のURLを取得 (/playlist/DDDDDD.m3u8)
+# live.m3u8が有効になるのは 20分前なので、1分前に開始すること
+# https://movie.freshlive.tv/playlist/DDDDDD.m3u8 をcurlでクロール
+# ts を含む行が現れたら、ffmpegで録画開始
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE:-$0}")"; pwd)"
+name=$1
+channel=$2
+memberonly_ignore_flg=$3
+PYTHON_PATH="python3"
+DATETIME=`date +"%Y%m%d_%H%M"`
+DATETIME2=`date "+%Y%m%d%H%M%S"`
+DATE=`date +"%Y%m%d"`
+TEMPFILE=${SCRIPT_DIR}/fresh_temp.html
+ignoreword='*'
+if [ "${memberonly_ignore_flg}" = "1" ]; then
+    ignoreword="会員配信"
+fi
+LOG_FILE=${SCRIPT_DIR}/logs/freshrecord_${DATETIME2}.log
+SAVE_DIR="${SCRIPT_DIR}/../98 PSP用/nico"
+SAVE_DIR="${SCRIPT_DIR}/.."
+ERR_CNT=300
+
+logging() {
+  echo "`date '+%Y/%m/%d %H:%M:%S'` $1" >> ${LOG_FILE}
+}
+
+logging "### Abema Fresh! 自動録画スクリプト 開始"
+/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【FRESH LIVE自動保存開始】$name"
+${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【FRESH LIVE自動保存開始】$name"
+
+# https://freshlive.tv/[チャンネル名]/programs/upcoming をクロール
+# [番組名]の直近のもののIDを取得
+logging "# 番組名:${name} (チャンネル: ${channel}) の放送URL取得開始"
+streaminfo=`curl https://freshlive.tv/${channel}/programs/upcoming | sed "s#<a href#\n<a href#g" | sed "s#</a>#</a>\n#g" | grep "^<a href=\"/${channel}/[0-9]" | grep title | grep -v "${ignoreword}" | sed "s#<a href=\"/${channel}/\([^\"]*\)\".*title=\"\([^\"]*\)\".*#\1|\2#" | grep "${name}" | head -1`
+
+program_id=""
+program_name=""
+if [ "${streaminfo}" != "" ]; then
+    program_id="${streaminfo%|*}"
+    program_name="${streaminfo#*|}"
+    logging "# ${program_name} の最新回ID: ${program_id}"
+else
+    exit 1
+fi
+
+# https://movie.freshlive.tv/manifest/[ID]/live.m3u8 を取得
+# 最後の行(最高画質のもの)のURLを取得 (/playlist/DDDDDD.m3u8)
+# live.m3u8が有効になるのは 20分前なので、1分前に開始すること
+streamuri="https://movie.freshlive.tv"
+streamuri+=`curl "https://movie.freshlive.tv/manifest/${program_id}/live.m3u8" | tail -1`
+
+logging "放送URL取得: ${streamuri}"
+
+# https://movie.freshlive.tv/playlist/DDDDDD.m3u8 をcurlでクロール
+cnt=0
+while :
+do
+    if [ ${cnt} -gt ${ERR_CNT} ]; then
+        logging "# 放送開始チェック試行回数エラー：終了します"
+        exit 1
+    fi
+    start_flg=`curl "${streamuri}" | grep "ts$" | wc -l`
+    if [ "${start_flg}" -gt 0 ]; then
+        logging "# 放送開始！"
+        break
+    fi
+    (( cnt++ ))
+done
+
+# ts を含む行が現れたら、ffmpegで録画開始
+filename="[FRESH LIVE] ${program_name} (${DATE}).mp4"
+/usr/bin/wine ffmpeg3.exe -i "${streamuri}" -c copy "${SAVE_DIR}"/"${filename}"
+
+# rssフィード生成シェル
+#/data/share/movie/sh/mmmpc.sh nico "ニコニコチャンネルの声優さん動画"
+# つぶやく
+/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【FRESH LIVE自動保存開始】${filename}"
+${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【FRESH LIVE自動保存開始】${filename}"
+
+logging "### Abema Fresh! 自動録画スクリプト 終了"
