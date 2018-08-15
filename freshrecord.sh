@@ -24,7 +24,7 @@ if [ "${memberonly_ignore_flg}" = "1" ]; then
 fi
 LOG_FILE=${SCRIPT_DIR}/logs/freshrecord_${DATETIME2}.log
 SAVE_DIR="${SCRIPT_DIR}/../98 PSP用/agqr"
-SAVE_DIR="${SCRIPT_DIR}/.."
+# SAVE_DIR="${SCRIPT_DIR}/.."
 ERR_CNT=300
 
 logging() {
@@ -80,7 +80,7 @@ filename="[FRESH LIVE] ${program_name} (${DATE}).mp4"
 /usr/bin/wine ffmpeg3.exe -i "${streamuri}" -c copy "${SAVE_DIR}"/"${filename}"
 
 # rssフィード生成シェル
-# /data/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
+/data/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
 # つぶやく
 /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【FRESH LIVE自動保存終了】${filename}"
 ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【FRESH LIVE自動保存終了】${filename}"
