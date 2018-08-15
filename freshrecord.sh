@@ -100,7 +100,8 @@ fi
 # /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【FRESH LIVE自動保存開始】${filename}"
 ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【FRESH LIVE自動保存開始】${filename}"
 
-/usr/bin/wine ffmpeg3.exe -i "${streamuri}" -c copy "${SAVE_DIR}"/"${filename}"
+/usr/bin/wine ffmpeg3.exe -i "${streamuri}" -c copy "${SCRIPT_DIR}/${filename}"
+mv "${SCRIPT_DIR}/${filename}" "${SAVE_DIR}"/
 
 # rssフィード生成シェル
 /data/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
