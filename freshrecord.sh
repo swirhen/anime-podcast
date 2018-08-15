@@ -9,7 +9,7 @@
 # 最後の行(最高画質のもの)のURLを取得 (/playlist/DDDDDD.m3u8)
 # live.m3u8が有効になるのは 20分前なので、1分前に開始すること
 # https://movie.freshlive.tv/playlist/DDDDDD.m3u8 をcurlでクロール
-# ts を含む行が現れたら、ffmpegで録画開始
+# ts を含む行が現れたら、ffmpegで保存開始
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE:-$0}")"; pwd)"
 name=$1
 channel=$2
@@ -25,7 +25,6 @@ if [ "${memberonly_ignore_flg}" = "1" ]; then
 fi
 LOG_FILE=${SCRIPT_DIR}/logs/freshrecord_${DATETIME2}.log
 SAVE_DIR="${SCRIPT_DIR}/../98 PSP用/agqr"
-# SAVE_DIR="${SCRIPT_DIR}/.."
 ERR_CNT=300
 
 logging() {
@@ -52,6 +51,7 @@ if [ "${streaminfo}" != "" ]; then
     program_name="${streaminfo#*|}"
     logging "# ${program_name} の最新回ID: ${program_id}"
 else
+    logging "### 放送ID取得できず: 終了します"
     exit 1
 fi
 
@@ -65,14 +65,14 @@ fi
 streamuri="https://movie.freshlive.tv"
 streamuri+=`curl "https://movie.freshlive.tv/manifest/${program_id}/${STREAM_URI_SUFFIX}.m3u8" | tail -1`
 
-logging "放送URL取得: ${streamuri}"
+logging "# 放送URL取得: ${streamuri}"
 
 # https://movie.freshlive.tv/playlist/DDDDDD.m3u8 をcurlでクロール
 cnt=0
 while :
 do
     if [ ${cnt} -gt ${ERR_CNT} ]; then
-        logging "# 放送開始チェック試行回数エラー：終了します"
+        logging "### 放送開始チェック試行回数エラー: 終了します"
         exit 1
     fi
     start_flg=`curl "${streamuri}" | grep "ts$" | wc -l`
@@ -84,7 +84,7 @@ do
     sleep 1
 done
 
-# ts を含む行が現れたら、ffmpegで録画開始
+# ts を含む行が現れたら、ffmpegで保存開始
 filename="[FRESH LIVE] ${program_name//\//_} (${DATE}).mp4"
 if [ "${archive_flg}" = "1" ]; then
     filename="[FRESH LIVE(archive)] ${program_name//\//_}.mp4"
