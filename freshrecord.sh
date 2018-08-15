@@ -89,7 +89,8 @@ filename="[FRESH LIVE] ${program_name} (${DATE}).mp4"
 if [ "${archive_flg}" = "1" ]; then
     filename="[FRESH LIVE] ${program_name}.mp4"
 fi
-/usr/bin/wine ffmpeg3.exe -i "${streamuri}" -c copy "${SAVE_DIR}"/"${filename}"
+/usr/bin/wine ffmpeg3.exe -i "${streamuri}" -c copy "${filename}"
+mv "${filename}" "${SAVE_DIR}"/
 
 # rssフィード生成シェル
 /data/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
