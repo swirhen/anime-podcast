@@ -85,9 +85,9 @@ do
 done
 
 # ts を含む行が現れたら、ffmpegで録画開始
-filename="[FRESH LIVE] ${program_name} (${DATE}).mp4"
+filename="[FRESH LIVE] ${program_name//\//_} (${DATE}).mp4"
 if [ "${archive_flg}" = "1" ]; then
-    filename="[FRESH LIVE] ${program_name//\//_}.mp4"
+    filename="[FRESH LIVE(archive)] ${program_name//\//_}.mp4"
 fi
 /usr/bin/wine ffmpeg3.exe -i "${streamuri}" -c copy "${SAVE_DIR}"/"${filename}"
 
