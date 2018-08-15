@@ -43,7 +43,7 @@ if [ "${archive_flg}" = "1" ]; then
     CRAWL_URI_SUFFIX="archive"
 fi
 logging "# 番組名:${name} (チャンネル: ${channel}) の放送URL取得開始"
-streaminfo=`curl https://freshlive.tv/${channel}/programs/upcoming | sed "s#<a href#\n<a href#g" | sed "s#</a>#</a>\n#g" | grep "^<a href=\"/${channel}/[0-9]" | grep title | grep -v "${ignoreword}" | sed "s#<a href=\"/${channel}/\([^\"]*\)\".*title=\"\([^\"]*\)\".*#\1|\2#" | grep "${name}" | head -1`
+streaminfo=`curl https://freshlive.tv/${channel}/programs/${CRAWL_URI_SUFFIX} | sed "s#<a href#\n<a href#g" | sed "s#</a>#</a>\n#g" | grep "^<a href=\"/${channel}/[0-9]" | grep title | grep -v "${ignoreword}" | sed "s#<a href=\"/${channel}/\([^\"]*\)\".*title=\"\([^\"]*\)\".*#\1|\2#" | grep "${name}" | head -1`
 
 program_id=""
 program_name=""
