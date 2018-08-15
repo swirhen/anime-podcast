@@ -33,7 +33,7 @@ logging() {
 }
 
 logging "### Abema Fresh! 自動録画スクリプト 開始"
-/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【FRESH LIVE自動保存開始】$name"
+# /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【FRESH LIVE自動保存開始】$name"
 ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【FRESH LIVE自動保存開始】$name"
 
 # https://freshlive.tv/[チャンネル名]/programs/upcoming をクロール
@@ -94,7 +94,7 @@ fi
 # rssフィード生成シェル
 /data/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
 # つぶやく
-/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【FRESH LIVE自動保存終了】${filename}"
+# /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【FRESH LIVE自動保存終了】${filename}"
 ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【FRESH LIVE自動保存終了】${filename}"
 
 logging "### Abema Fresh! 自動録画スクリプト 終了"
