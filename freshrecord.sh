@@ -73,6 +73,7 @@ do
         break
     fi
     (( cnt++ ))
+    sleep 1
 done
 
 # ts を含む行が現れたら、ffmpegで録画開始
