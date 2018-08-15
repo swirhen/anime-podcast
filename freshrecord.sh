@@ -37,23 +37,31 @@ ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【FRESH 
 
 # https://freshlive.tv/[チャンネル名]/programs/upcoming をクロール
 # [番組名]の直近のもののIDを取得
-CRAWL_URI_SUFFIX="upcoming"
+CRAWL_URI_SUFFIX="onair"
 if [ "${archive_flg}" = "1" ]; then
     CRAWL_URI_SUFFIX="archive"
 fi
 logging "# 番組名:${name} (チャンネル: ${channel}) の放送URL取得開始"
-streaminfo=`curl https://freshlive.tv/${channel}/programs/${CRAWL_URI_SUFFIX} | sed "s#<a href#\n<a href#g" | sed "s#</a>#</a>\n#g" | grep "^<a href=\"/${channel}/[0-9]" | grep title | grep -v "${ignoreword}" | sed "s#<a href=\"/${channel}/\([^\"]*\)\".*title=\"\([^\"]*\)\".*#\1|\2#" | grep "${name}" | head -1`
-
+cnt=0
 program_id=""
 program_name=""
-if [ "${streaminfo}" != "" ]; then
-    program_id="${streaminfo%|*}"
-    program_name="${streaminfo#*|}"
-    logging "# ${program_name} の最新回ID: ${program_id}"
-else
-    logging "### 放送ID取得できず: 終了します"
-    exit 1
-fi
+while :
+do
+    if [ ${cnt} -gt 60 ]; then
+        logging "### 放送中IDチェック試行回数エラー: 終了します"
+        exit 1
+    fi
+    streaminfo=`curl https://freshlive.tv/${channel}/programs/${CRAWL_URI_SUFFIX} | sed "s#<a href#\n<a href#g" | sed "s#</a>#</a>\n#g" | grep "^<a href=\"/${channel}/[0-9]" | grep title | grep -v "${ignoreword}" | sed "s#<a href=\"/${channel}/\([^\"]*\)\".*title=\"\([^\"]*\)\".*#\1|\2#" | grep "${name}" | head -1`
+
+    if [ "${streaminfo}" != "" ]; then
+        program_id="${streaminfo%|*}"
+        program_name="${streaminfo#*|}"
+        logging "# ${program_name} の放送中ID: ${program_id}"
+        break
+    fi
+    (( cnt++ ))
+    sleep 1
+done
 
 # https://movie.freshlive.tv/manifest/[ID]/live.m3u8 を取得
 # 最後の行(最高画質のもの)のURLを取得 (/playlist/DDDDDD.m3u8)
