@@ -21,21 +21,22 @@ MAILTO=""
 
 # Abema Fresh
 # 第2,4月曜
-58 21 8-14,22-28 * * [ "$(date '+\%w')" -eq 1 ] && /data/share/movie/sh/freshrecord.sh "ゴー☆ジャス＠レボ☆リューション～こんな声優ファン☆タスティック with ちくわP" secondshot 0
+59 21 8-14,22-28 * * [ "$(date '+\%w')" -eq 1 ] && /data/share/movie/sh/freshrecord.sh "ゴー☆ジャス＠レボ☆リューション～こんな声優ファン☆タスティック with ちくわP" secondshot 0
 # SP
-58 19 15 8 3 /data/share/movie/sh/freshrecord.sh "「恋はMovie」発売日記念特番" ito_miku 0
-58 20 16 8 4 /data/share/movie/sh/freshrecord.sh "神奈延年中島由貴のMusicVoice" aoni-ent 0
-58 20 27 9 4 /data/share/movie/sh/freshrecord.sh "神奈延年中島由貴のMusicVoice" aoni-ent 0
+#59 19 15 8 3 /data/share/movie/sh/freshrecord.sh "「恋はMovie」発売日記念特番" ito_miku 0
+59 20 16 8 4 /data/share/movie/sh/freshrecord.sh "神奈延年中島由貴のMusicVoice" aoni-ent 0
+59 20 27 9 4 /data/share/movie/sh/freshrecord.sh "神奈延年中島由貴のMusicVoice" aoni-ent 0
 # 隔週水曜(毎週取得)
-58 20 * * 3 /data/share/movie/sh/freshrecord.sh "伊藤美来の「フレッシュはじめました」" ito_miku 0
+59 20 * * 3 /data/share/movie/sh/freshrecord.sh "伊藤美来の「フレッシュはじめました」" ito_miku 0
+59 20 * * 3 /data/share/movie/sh/freshrecord.sh "愛美のPerfect Woman" hibiki 1
 # 隔週木曜(毎週取得)
-58 19 * * 4 /data/share/movie/sh/freshrecord.sh "日笠・日高のお日様ぐみ！" hibiki 1
+59 19 * * 4 /data/share/movie/sh/freshrecord.sh "日笠・日高のお日様ぐみ！" hibiki 1
 # 月～金 帯
-28 21 * * 1 /data/share/movie/sh/freshrecord.sh "仲村宗悟・Machicoのらくおん" hibiki 1
-28 21 * * 2 /data/share/movie/sh/freshrecord.sh "中島由貴・武田羅梨沙多胡のかわいいラジオ" hibiki 1
-#28 21 * * 3 /data/share/movie/sh/freshrecord.sh "小林裕介・石上静香のゆずらないラジオ" hibiki 1
-28 21 * * 4 /data/share/movie/sh/freshrecord.sh "大坪由佳・青山吉能の週末、何してる？" hibiki 1
-#28 21 * * 5 /data/share/movie/sh/freshrecord.sh "津田健次郎・大河元気のジョシ禁ラジオ" hibiki 1
+29 21 * * 1 /data/share/movie/sh/freshrecord.sh "仲村宗悟・Machicoのらくおん" hibiki 1
+29 21 * * 2 /data/share/movie/sh/freshrecord.sh "中島由貴・武田羅梨沙多胡のかわいいラジオ" hibiki 1
+#29 21 * * 3 /data/share/movie/sh/freshrecord.sh "小林裕介・石上静香のゆずらないラジオ" hibiki 1
+29 21 * * 4 /data/share/movie/sh/freshrecord.sh "大坪由佳・青山吉能の週末、何してる？" hibiki 1
+#29 21 * * 5 /data/share/movie/sh/freshrecord.sh "津田健次郎・大河元気のジョシ禁ラジオ" hibiki 1
 
 # 帯
 59 19 * * 1 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 黒沢ともよ" 45 3600 v
