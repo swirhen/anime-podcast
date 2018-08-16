@@ -55,7 +55,8 @@ do
     fi
     streaminfo=`curl https://freshlive.tv/${channel}/programs/${CRAWL_URI_SUFFIX} | sed "s#<a href#\n<a href#g" | sed "s#</a>#</a>\n#g" | grep "^<a href=\"/${channel}/[0-9]" | grep title | grep -v "${IGNORE_WORD}" | sed "s#<a href=\"/${channel}/\([^\"]*\)\".*title=\"\([^\"]*\)\".*#\1|\2#" | grep "${name}" | head -1`
     # archiveでない場合、upcomingからも取得してみる
-    if [ "${archive_flg}" != "1" ]; then
+    if [ "${streaminfo}" = "" -a "${archive_flg}" != "1" ]; then
+        logging "# /onair から取得できず: /upcoming から取得試行"
         streaminfo=`curl https://freshlive.tv/${channel}/programs/upcoming | sed "s#<a href#\n<a href#g" | sed "s#</a>#</a>\n#g" | grep "^<a href=\"/${channel}/[0-9]" | grep title | grep -v "${IGNORE_WORD}" | sed "s#<a href=\"/${channel}/\([^\"]*\)\".*title=\"\([^\"]*\)\".*#\1|\2#" | grep "${name}" | head -1`
     fi
 
