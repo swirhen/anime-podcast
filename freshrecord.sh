@@ -29,7 +29,8 @@ ERR_CNT1=60
 ERR_CNT2=300
 
 logging() {
-  echo "`date '+%Y/%m/%d %H:%M:%S'` $1" >> ${LOG_FILE}
+  #echo "`date '+%Y/%m/%d %H:%M:%S'` $1" >> ${LOG_FILE}
+  echo "`date '+%Y/%m/%d %H:%M:%S'` $1" | tee -a ${LOG_FILE}
 }
 
 logging "### FRESH LIVE! 自動録画スクリプト 開始"
