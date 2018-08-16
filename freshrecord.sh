@@ -25,8 +25,8 @@ if [ "${memberonly_ignore_flg}" = "1" ]; then
 fi
 LOG_FILE=${SCRIPT_DIR}/logs/freshrecord_${DATETIME2}.log
 SAVE_DIR="${SCRIPT_DIR}/../98 PSP用/agqr"
-ERR_CNT1=60
-ERR_CNT2=300
+ERR_CNT1=120
+ERR_CNT2=120
 
 logging() {
   #echo "`date '+%Y/%m/%d %H:%M:%S'` $1" >> ${LOG_FILE}
@@ -54,6 +54,10 @@ do
         exit 1
     fi
     streaminfo=`curl https://freshlive.tv/${channel}/programs/${CRAWL_URI_SUFFIX} | sed "s#<a href#\n<a href#g" | sed "s#</a>#</a>\n#g" | grep "^<a href=\"/${channel}/[0-9]" | grep title | grep -v "${IGNORE_WORD}" | sed "s#<a href=\"/${channel}/\([^\"]*\)\".*title=\"\([^\"]*\)\".*#\1|\2#" | grep "${name}" | head -1`
+    # archiveでない場合、upcomingからも取得してみる
+    if [ "${archive_flg}" != "1" ]; then
+        streaminfo=`curl https://freshlive.tv/${channel}/programs/upcoming | sed "s#<a href#\n<a href#g" | sed "s#</a>#</a>\n#g" | grep "^<a href=\"/${channel}/[0-9]" | grep title | grep -v "${IGNORE_WORD}" | sed "s#<a href=\"/${channel}/\([^\"]*\)\".*title=\"\([^\"]*\)\".*#\1|\2#" | grep "${name}" | head -1`
+    fi
 
     if [ "${streaminfo}" != "" ]; then
         program_id="${streaminfo%|*}"
