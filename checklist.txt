@@ -1,4 +1,6 @@
-Last Update: 2018/08/17-00:00:01
+Last Update: 2018/08/17-06:00:01
+2018/08/17-06:00:01 07 Yakiniku-ten Sengoku|焼肉店センゴク
+2018/08/17-06:00:01 07 Banana Fish|BANANA FISH
 2018/08/17-00:00:01 19 Aikatsu Friends!|アイカツフレンズ！
 2018/08/17-00:00:01 07 Yume Oukoku to Nemureru 100 Nin no Ouji-sama|夢王国と眠れる100人の王子様
 2018/08/17-00:00:01 07 Sunohara-sou no Kanrinin-san|すのはら荘の管理人さん
@@ -42,7 +44,6 @@ Last Update: 2018/08/17-00:00:01
 2018/08/14-18:03:11 06 Hyakuren no Haou to Seiyaku no Valkyria|百錬の覇王と聖約の戦乙女
 2018/08/14-18:03:11 06 Hataraku Saibou|はたらく細胞
 2018/08/14-18:03:11 06 Bang Dream! Garupa Pico|BanG Dream! ガルパ☆ピコ
-2018/08/14-18:03:11 06 Banana Fish|BANANA FISH
 2018/08/14-18:03:11 06 Asobi Asobase|あそびあそばせ
 2018/08/14-18:03:11 06 Aguu Tensai Ningyou|悪偶 -天才人形-
 2018/08/14-18:03:11 05 Yuragi-sou no Yuuna-san|ゆらぎ荘の幽奈さん
@@ -61,7 +62,6 @@ Last Update: 2018/08/17-00:00:01
 2018/08/14-16:50:37 05 Grand Blue|ぐらんぶる
 2018/08/08-00:00:01 31 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/08/08-00:00:01 17 Gundam Build Divers|ガンダムビルドダイバーズ
-2018/08/08-00:00:01 06 Yakiniku-ten Sengoku|焼肉店センゴク
 2018/08/08-00:00:01 05 Dies Irae： To the Ring Reincarnation|Dies irae To the Ring Reincarnation
 2018/07/28-06:00:01 05 Back Street Girls： Gokudolls|Back Street Girls －ゴクドルズ－
 2018/07/26-00:00:01 18 Captain Tsubasa|キャプテン翼
