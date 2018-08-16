@@ -180,9 +180,11 @@ do
             fetch_flg=1
         fi
     elif [ ${sub_flg} -eq 1 -a "`echo \"${title2}\" | grep \"${NAME}\"`" != "" ]; then
-      title="${title2}"
-      link="${link2}"
-      fetch_flg=1
+        if [ "`echo \"${title2}\" | grep \"Overlord III Special\"`" = "" ]; then
+            title="${title2}"
+            link="${link2}"
+            fetch_flg=1
+        fi
     fi
 
     # 一致した場合、titleから話数の数値を取得
