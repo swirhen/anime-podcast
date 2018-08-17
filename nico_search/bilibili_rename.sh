@@ -16,10 +16,10 @@ DELETE_KEYWORDS=()
 while read DIR_PREFIX AUDIO_ENCODE KEYWORD NUM_PREFIX NUM_SUFFIX PADDING_DIGIT PROGRAM_NAME FILENAME_LAYOUT FOOTER_KEYWORD DELETE_KEYWORD
 do
     DIR_PREFIXS+=( "${DIR_PREFIX}" )
-    AUDIO_ENCODES+=( "${AUDIO_ENCODE}" )
+    AUDIO_ENCODES+=( ${AUDIO_ENCODE} )
     KEYWORDS+=( "${KEYWORD}" )
     NUM_PREFIXS+=( "${NUM_PREFIX}" )
-    NUM_SUFFIXS+=( "${NUM_SUFFIX}" )
+    NUM_SUFFIXS+=( "${NUM_SUFFIX//%/}" )
     PADDING_DIGITS+=( ${PADDING_DIGIT} )
     PROGRAM_NAMES+=( "${PROGRAM_NAME//%/ }" )
     FILENAME_LAYOUTS+=( "${FILENAME_LAYOUT//%/ }" )
@@ -58,10 +58,10 @@ do
 
         if [[ ${filename} =~ ${KEYWORDS[${cnt}]} ]]; then
             DIR_PREFIX="${DIR_PREFIXS[${cnt}]}"
-            AUDIO_ENCODE="${AUDIO_ENCODES[${cnt}]}"
+            AUDIO_ENCODE=${AUDIO_ENCODES[${cnt}]}
             NUM_PREFIX="${NUM_PREFIXS[${cnt}]}"
             NUM_SUFFIX="${NUM_SUFFIXS[${cnt}]}"
-            PADDING_DIGIT="${PADDING_DIGITS[${cnt}]}"
+            PADDING_DIGIT=${PADDING_DIGITS[${cnt}]}
             PROGRAM_NAME="${PROGRAM_NAMES[${cnt}]}"
             FILENAME_LAYOUT="${FILENAME_LAYOUTS[${cnt}]}"
             FOOTER_KEYWORD="${FOOTER_KEYWORDS[${cnt}]}"
@@ -73,7 +73,7 @@ do
     done
     if [ ${hit_flg} -eq 1 ]; then
         NUM=`echo ${filename} | sed "s/.*${NUM_PREFIX}\([0-9]*\)${NUM_SUFFIX}.*/\1/"`
-        NUM=`printf %0${PADDING_DIGIT}d ${NUM}`
+        NUM=`printf %0${PADDING_DIGIT}d $(( 10#${NUM} ))`
         FILENAME_LAYOUT=`echo "${FILENAME_LAYOUT}" | sed "s/##PROGRAM_NAME##/${PROGRAM_NAME}/"`
         FILENAME_LAYOUT=`echo "${FILENAME_LAYOUT}" | sed "s/##NUM_PREFIX##/${NUM_PREFIXS}/"`
         FILENAME_LAYOUT=`echo "${FILENAME_LAYOUT}" | sed "s/##NUM_SUFFIX##/${NUM_SUFFIX}/"`
@@ -107,11 +107,15 @@ do
         # ffmpegでconcat
         echo "/usr/bin/wine ffmpeg3.exe -safe 0 -f concat -i \"${filename}.list\" -c copy \"${filename}.mp4\"; rm -f \"${filename}.list\""
     fi
-    if [ ${AUDIO_ENCODE} -eq 1 ]; then
+    if [ "${AUDIO_ENCODE}" = "1" ]; then
         echo "/usr/bin/wine ffmpeg3.exe -i \"${filename}.mp4\" -acodec copy -map 0:1 \"${filename}.m4a\""
-        echo "mv \"${filename}.mp4\" ${DIR_PREFIX}*/mp4/"
-        echo "mv \"${filename}.m4a\" ${DIR_PREFIX}*/"
+        if [ "${DIR_PREFIX}" != "" ]; then
+            echo "mv \"${filename}.mp4\" ${DIR_PREFIX}*/mp4/"
+            echo "mv \"${filename}.m4a\" ${DIR_PREFIX}*/"
+        fi
     else
-        echo "mv \"${filename}.mp4\" ${DIR_PREFIX}*/"
+        if [ "${DIR_PREFIX}" != "" ]; then
+            echo "mv \"${filename}.mp4\" ${DIR_PREFIX}*/"
+        fi
     fi
 done
