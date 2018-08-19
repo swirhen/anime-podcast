@@ -1,4 +1,7 @@
-Last Update: 2018/08/19-18:00:01
+Last Update: 2018/08/20-00:00:01
+2018/08/20-00:00:01 08 Island|ISLAND
+2018/08/20-00:00:01 07 Planet With|プラネット・ウィズ
+2018/08/20-00:00:01 07 Asobi Asobase|あそびあそばせ
 2018/08/19-12:00:01 21 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2018/08/19-12:00:01 20 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2018/08/19-12:00:01 20 Kiratto Pri-chan|キラッとプリ☆チャン
@@ -49,14 +52,11 @@ Last Update: 2018/08/19-18:00:01
 2018/08/14-18:03:11 20 Kakuriyo no Yadomeshi|かくりよの宿飯
 2018/08/14-18:03:11 07 Yama no Susume Third Season|ヤマノススメ サードシーズン
 2018/08/14-18:03:11 07 Joshi Ochi! 2-kai kara Onnanoko ga... Futte Kita|じょしおちっ！～2階から女の子が…降ってきた！？～
-2018/08/14-18:03:11 07 Island|ISLAND
 2018/08/14-18:03:11 07 Hanebado!|はねバド！
 2018/08/14-18:03:11 07 Baki|バキ
-2018/08/14-18:03:11 06 Planet With|プラネット・ウィズ
 2018/08/14-18:03:11 06 Phantom in the Twilight|Phantom in the Twilight
 2018/08/14-18:03:11 06 One Room Second Season|One Room セカンドシーズン
 2018/08/14-18:03:11 06 Jashin-chan Dropkick|邪神ちゃんドロップキック
-2018/08/14-18:03:11 06 Asobi Asobase|あそびあそばせ
 2018/08/14-18:03:11 06 Aguu Tensai Ningyou|悪偶 -天才人形-
 2018/08/14-18:03:11 04 Tsukumogami Kashimasu|つくもがみ貸します
 2018/08/14-18:03:11 04 Shingeki no Kyojin Season 3|進撃の巨人 Season3
