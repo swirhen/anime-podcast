@@ -1,4 +1,5 @@
-Last Update: 2018/08/20-18:00:01
+Last Update: 2018/08/21-00:00:01
+2018/08/21-00:00:01 21 Kakuriyo no Yadomeshi|かくりよの宿飯
 2018/08/20-06:00:01 08 Joshi Ochi! 2-kai kara Onnanoko ga... Futte Kita|じょしおちっ！～2階から女の子が…降ってきた！？～
 2018/08/20-06:00:01 08 Hanebado!|はねバド！
 2018/08/20-06:00:01 08 Baki|バキ
@@ -54,7 +55,6 @@ Last Update: 2018/08/20-18:00:01
 2018/08/15-00:00:01 07 Idolmaster Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場3
 2018/08/15-00:00:01 06 Overlord III|オーバーロードIII
 2018/08/15-00:00:01 06 Kyoto Teramachi Sanjou no Holmes|京都寺町三条のホームズ
-2018/08/14-18:03:11 20 Kakuriyo no Yadomeshi|かくりよの宿飯
 2018/08/14-18:03:11 07 Yama no Susume Third Season|ヤマノススメ サードシーズン
 2018/08/14-18:03:11 06 Phantom in the Twilight|Phantom in the Twilight
 2018/08/14-18:03:11 06 One Room Second Season|One Room セカンドシーズン
