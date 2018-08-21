@@ -23,8 +23,6 @@ MAILTO=""
 # 第2,4月曜
 59 21 8-14,22-28 * * [ "$(date '+\%w')" -eq 1 ] && /data/share/movie/sh/freshrecord.sh "ゴー☆ジャス＠レボ☆リューション～こんな声優ファン☆タスティック with ちくわP" secondshot 0
 # SP
-#59 19 15 8 3 /data/share/movie/sh/freshrecord.sh "「恋はMovie」発売日記念特番" ito_miku 0
-59 20 16 8 4 /data/share/movie/sh/freshrecord.sh "神奈延年中島由貴のMusicVoice" aoni-ent 0
 59 20 27 9 4 /data/share/movie/sh/freshrecord.sh "神奈延年中島由貴のMusicVoice" aoni-ent 0
 # 隔週水曜(毎週取得)
 59 20 * * 3 /data/share/movie/sh/freshrecord.sh "伊藤美来の「フレッシュはじめました」" ito_miku 0
