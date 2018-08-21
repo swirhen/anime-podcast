@@ -1,4 +1,9 @@
-Last Update: 2018/08/21-18:00:01
+Last Update: 2018/08/22-00:00:01
+2018/08/22-00:00:01 46 Black Clover|ブラッククローバー
+2018/08/22-00:00:01 08 Senjuushi|千銃士
+2018/08/22-00:00:01 08 Idolmaster Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場3
+2018/08/22-00:00:01 07 Overlord III|オーバーロードIII
+2018/08/22-00:00:01 07 Kyoto Teramachi Sanjou no Holmes|京都寺町三条のホームズ
 2018/08/21-06:00:01 32 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/08/21-06:00:01 20 Major 2nd|MAJOR 2nd
 2018/08/21-06:00:01 08 Yama no Susume Third Season|ヤマノススメ サードシーズン
@@ -53,14 +58,9 @@ Last Update: 2018/08/21-18:00:01
 2018/08/16-06:00:01 06 Free! Dive to the Future|Free!－Dive to the Future－
 2018/08/15-18:00:01 27 Hugtto! Precure|HuGっと！ プリキュア
 2018/08/15-18:00:01 19 Lupin Sansei Part 5|ルパン三世 PART5
-2018/08/15-18:00:01 07 Senjuushi|千銃士
 2018/08/15-18:00:01 07 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
 2018/08/15-18:00:01 06 Tensai Bakabon|深夜！天才バカボン
 2018/08/15-18:00:01 06 Genkou Kassenki|アンゴルモア元寇合戦記
-2018/08/15-00:00:01 45 Black Clover|ブラッククローバー
-2018/08/15-00:00:01 07 Idolmaster Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場3
-2018/08/15-00:00:01 06 Overlord III|オーバーロードIII
-2018/08/15-00:00:01 06 Kyoto Teramachi Sanjou no Holmes|京都寺町三条のホームズ
 2018/08/08-00:00:01 17 Gundam Build Divers|ガンダムビルドダイバーズ
 2018/08/08-00:00:01 05 Dies Irae： To the Ring Reincarnation|Dies irae To the Ring Reincarnation
 2018/07/28-06:00:01 05 Back Street Girls： Gokudolls|Back Street Girls －ゴクドルズ－
