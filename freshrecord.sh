@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Abema FRESH LIVE! 予約録画用スクリプト
 # require: curl,ffmpeg
-# usage: freshrecord [番組名] [チャンネル名(URL)] [会員配信除外フラグ] [アーカイブフラグ]
+# usage: freshrecord [番組名] [チャンネル名(URL)] [会員配信除外フラグ] [アーカイブフラグ] [音声エンコードフラグ]
 # しくみ:
 # https://freshlive.tv/[チャンネル名]/programs/onair をクロール
 # [番組名]の直近のもののIDを取得
@@ -15,6 +15,7 @@ name=$1
 channel=$2
 memberonly_ignore_flg=$3
 archive_flg=$4
+audio_flg=$5
 PYTHON_PATH="python3"
 DATETIME=`date +"%Y%m%d_%H%M"`
 DATETIME2=`date "+%Y%m%d%H%M%S"`
@@ -102,17 +103,24 @@ do
 done
 
 # ts を行末に含む行が現れたら、ffmpegで保存開始
-filename="[FRESH LIVE] ${program_name//\//_} (${DATE}).mp4"
+filename="[FRESH LIVE] ${program_name//\//_} (${DATE})"
 if [ "${archive_flg}" = "1" ]; then
-    filename="[FRESH LIVE(archive)] ${program_name//\//_}.mp4"
+    filename="[FRESH LIVE(archive)] ${program_name//\//_}"
 fi
 
 # つぶやく(開始報告)
 # /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【FRESH LIVE自動保存開始】${filename}"
 ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【FRESH LIVE自動保存開始】${filename}"
 
-/usr/bin/wine ffmpeg3.exe -i "${streamuri}" -c copy "${SCRIPT_DIR}/${filename}"
-mv "${SCRIPT_DIR}/${filename}" "${SAVE_DIR}"/
+/usr/bin/wine ffmpeg3.exe -i "${streamuri}" -c copy "${SCRIPT_DIR}/${filename}.mp4"
+
+if [ "${audio_flg}" = "1" ] then
+    /usr/bin/wine ffmpeg3.exe -i "${filename}.mp4" -acodec copy -map 0:1 "${filename}.m4a"
+    mv "${SCRIPT_DIR}/${filename}.mp4" "${SAVE_DIR}"/mp4/
+    mv "${SCRIPT_DIR}/${filename}.m4a" "${SAVE_DIR}"/
+else
+    mv "${SCRIPT_DIR}/${filename}.mp4" "${SAVE_DIR}"/
+fi
 
 # swirhen.tv rssフィード生成シェル
 /data/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
