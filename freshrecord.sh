@@ -114,7 +114,7 @@ ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【FRESH 
 
 /usr/bin/wine ffmpeg3.exe -i "${streamuri}" -c copy "${SCRIPT_DIR}/${filename}.mp4"
 
-if [ "${audio_flg}" = "1" ] then
+if [ "${audio_flg}" = "1" ]; then
     /usr/bin/wine ffmpeg3.exe -i "${filename}.mp4" -acodec copy -map 0:1 "${filename}.m4a"
     mv "${SCRIPT_DIR}/${filename}.mp4" "${SAVE_DIR}"/mp4/
     mv "${SCRIPT_DIR}/${filename}.m4a" "${SAVE_DIR}"/
