@@ -17,7 +17,7 @@ MAILTO=""
 #* * 29-31 * * [ "$(date '+\%w')" -eq 5 ] && echo "だいごきんようび～"
 
 # SP
-4 8 1,2,3,23,24,27-31 8 * /data/share/movie/sh/rec_nhk.sh NHK1 13560 "/data/share/movie/98 PSP用/agqr/" "夏休み子ども科学電話相談"
+#4 8 1,2,3,23,24,27-31 8 * /data/share/movie/sh/rec_nhk.sh NHK1 13560 "/data/share/movie/98 PSP用/agqr/" "夏休み子ども科学電話相談"
 
 # Abema Fresh
 # 第2,4月曜
