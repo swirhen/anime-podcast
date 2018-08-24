@@ -1,4 +1,13 @@
-Last Update: 2018/08/24-18:00:02
+Last Update: 2018/08/25-00:00:02
+2018/08/25-00:00:02 21 Akkun to Kanojo|あっくんとカノジョ
+2018/08/25-00:00:02 08 Shichisei no Subaru|七星のスバル
+2018/08/25-00:00:02 08 Satsuriku no Tenshi|殺戮の天使
+2018/08/25-00:00:02 08 Ongaku Shoujo|音楽少女
+2018/08/25-00:00:02 08 Harukana Receive|はるかなレシーブ
+2018/08/25-00:00:02 08 Chio-chan no Tsuugakuro|ちおちゃんの通学路
+2018/08/25-00:00:02 08 Bang Dream! Garupa Pico|BanG Dream! ガルパ☆ピコ
+2018/08/25-00:00:02 07 Shoujo Kageki Revue Starlight|少女☆歌劇 レヴュースタァライト
+2018/08/25-00:00:02 04 Muhyo to Roji no Mahouritsu Soudan Jimusho|ムヒョとロージーの魔法律相談事務所
 2018/08/24-06:00:01 08 Banana Fish|BANANA FISH
 2018/08/24-00:00:01 20 Aikatsu Friends!|アイカツフレンズ！
 2018/08/24-00:00:01 08 Yume Oukoku to Nemureru 100 Nin no Ouji-sama|夢王国と眠れる100人の王子様
@@ -49,15 +58,6 @@ Last Update: 2018/08/24-18:00:02
 2018/08/18-12:00:01 06 Happy Sugar Life|ハッピーシュガーライフ
 2018/08/18-06:00:01 06 Lord of Vermilion Guren no Ou|ロード オブ ヴァーミリオン 紅蓮の王
 2018/08/18-06:00:01 06 High Score Girl|ハイスコアガール
-2018/08/18-00:00:02 20 Akkun to Kanojo|あっくんとカノジョ
-2018/08/18-00:00:02 07 Shichisei no Subaru|七星のスバル
-2018/08/18-00:00:02 07 Satsuriku no Tenshi|殺戮の天使
-2018/08/18-00:00:02 07 Ongaku Shoujo|音楽少女
-2018/08/18-00:00:02 07 Harukana Receive|はるかなレシーブ
-2018/08/18-00:00:02 07 Chio-chan no Tsuugakuro|ちおちゃんの通学路
-2018/08/18-00:00:02 07 Bang Dream! Garupa Pico|BanG Dream! ガルパ☆ピコ
-2018/08/18-00:00:02 06 Shoujo Kageki Revue Starlight|少女☆歌劇 レヴュースタァライト
-2018/08/18-00:00:02 03 Muhyo to Roji no Mahouritsu Soudan Jimusho|ムヒョとロージーの魔法律相談事務所
 2018/08/17-06:00:01 07 Yakiniku-ten Sengoku|焼肉店センゴク
 2018/08/16-18:00:01 07 Onmyouji： Heian Monogatari|陰陽師・平安物語
 2018/08/15-18:00:01 27 Hugtto! Precure|HuGっと！ プリキュア
