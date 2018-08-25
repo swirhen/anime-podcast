@@ -1,4 +1,8 @@
-Last Update: 2018/08/26-00:00:01
+Last Update: 2018/08/26-06:00:02
+2018/08/26-06:00:02 21 Persona 5 The Animation|PERSONA5 the Animation
+2018/08/26-06:00:02 08 Hyakuren no Haou to Seiyaku no Valkyria|百錬の覇王と聖約の戦乙女
+2018/08/26-06:00:02 08 Hataraku Saibou|はたらく細胞
+2018/08/26-06:00:02 07 Yuragi-sou no Yuuna-san|ゆらぎ荘の幽奈さん
 2018/08/26-00:00:01 20 Boku no Hero Academia 3|僕のヒーローアカデミア 第3期
 2018/08/25-18:00:01 21 Nobunaga no Shinobi Anegawa Ishiyama Hen|信長の忍び～姉川・石山篇～
 2018/08/25-18:00:01 07 Happy Sugar Life|ハッピーシュガーライフ
@@ -52,12 +56,8 @@ Last Update: 2018/08/26-00:00:01
 2018/08/19-12:00:01 20 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2018/08/19-12:00:01 20 Kiratto Pri-chan|キラッとプリ☆チャン
 2018/08/19-12:00:01 19 Wakaokami wa Shougakusei!|若おかみは小学生！
-2018/08/19-06:00:01 20 Persona 5 The Animation|PERSONA5 the Animation
 2018/08/19-06:00:01 07 Zoids Wild|ゾイドワイルド
 2018/08/19-06:00:01 07 Yami Shibai 6|闇芝居(第6期)
-2018/08/19-06:00:01 07 Hyakuren no Haou to Seiyaku no Valkyria|百錬の覇王と聖約の戦乙女
-2018/08/19-06:00:01 07 Hataraku Saibou|はたらく細胞
-2018/08/19-06:00:01 06 Yuragi-sou no Yuuna-san|ゆらぎ荘の幽奈さん
 2018/08/17-06:00:01 07 Yakiniku-ten Sengoku|焼肉店センゴク
 2018/08/16-18:00:01 07 Onmyouji： Heian Monogatari|陰陽師・平安物語
 2018/08/15-18:00:01 27 Hugtto! Precure|HuGっと！ プリキュア
