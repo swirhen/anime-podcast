@@ -1,4 +1,8 @@
-Last Update: 2018/08/26-06:00:02
+Last Update: 2018/08/26-12:00:01
+2018/08/26-12:00:01 22 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
+2018/08/26-12:00:01 21 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
+2018/08/26-12:00:01 21 Kiratto Pri-chan|キラッとプリ☆チャン
+2018/08/26-12:00:01 20 Wakaokami wa Shougakusei!|若おかみは小学生！
 2018/08/26-06:00:02 21 Persona 5 The Animation|PERSONA5 the Animation
 2018/08/26-06:00:02 08 Hyakuren no Haou to Seiyaku no Valkyria|百錬の覇王と聖約の戦乙女
 2018/08/26-06:00:02 08 Hataraku Saibou|はたらく細胞
@@ -52,10 +56,6 @@ Last Update: 2018/08/26-06:00:02
 2018/08/20-00:00:01 08 Island|ISLAND
 2018/08/20-00:00:01 07 Planet With|プラネット・ウィズ
 2018/08/20-00:00:01 07 Asobi Asobase|あそびあそばせ
-2018/08/19-12:00:01 21 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
-2018/08/19-12:00:01 20 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
-2018/08/19-12:00:01 20 Kiratto Pri-chan|キラッとプリ☆チャン
-2018/08/19-12:00:01 19 Wakaokami wa Shougakusei!|若おかみは小学生！
 2018/08/19-06:00:01 07 Zoids Wild|ゾイドワイルド
 2018/08/19-06:00:01 07 Yami Shibai 6|闇芝居(第6期)
 2018/08/17-06:00:01 07 Yakiniku-ten Sengoku|焼肉店センゴク
