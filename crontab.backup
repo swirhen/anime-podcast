@@ -31,8 +31,7 @@ MAILTO=""
 # 隔週木曜(毎週取得)
 59 19 * * 4 /data/share/movie/sh/freshrecord.sh "日笠・日高のお日様ぐみ！" hibiki 1
 # 月～金 帯
-#29 21 * * 1 /data/share/movie/sh/freshrecord.sh "仲村宗悟・Machicoのらくおん" hibiki 1 0 1
-29 20 * * 1 /data/share/movie/sh/freshrecord.sh "仲村宗悟・Machicoのらくおん" hibiki 1 0 1
+29 21 * * 1 /data/share/movie/sh/freshrecord.sh "仲村宗悟・Machicoのらくおん" hibiki 1 0 1
 29 21 * * 2 /data/share/movie/sh/freshrecord.sh "中島由貴・武田羅梨沙多胡のかわいいラジオ" hibiki 1 0 1
 #29 21 * * 3 /data/share/movie/sh/freshrecord.sh "小林裕介・石上静香のゆずらないラジオ" hibiki 1 0 1
 29 21 * * 4 /data/share/movie/sh/freshrecord.sh "大坪由佳・青山吉能の週末、何してる？" hibiki 1 0 1
