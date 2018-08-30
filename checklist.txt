@@ -62,5 +62,5 @@ Last Update: 2018/08/30-12:00:01
 2018/08/23-06:00:02 19 Steins;Gate 0|シュタインズ・ゲート ゼロ
 2018/08/08-00:00:01 17 Gundam Build Divers|ガンダムビルドダイバーズ
 2018/08/08-00:00:01 05 Dies Irae： To the Ring Reincarnation|Dies irae To the Ring Reincarnation
-2018/07/28-06:00:01 05 Back Street Girls： Gokudolls|Back Street Girls －ゴクドルズ－
-2018/07/26-00:00:01 18 Captain Tsubasa|キャプテン翼
+2018/07/28-06:00:01 08 Back Street Girls Goku Dolls|Back Street Girls －ゴクドルズ－
+2018/07/26-00:00:01 21 Captain Tsubasa|キャプテン翼
