@@ -1,4 +1,8 @@
-Last Update: 2018/09/03-06:00:01
+Last Update: 2018/09/03-12:00:01
+2018/09/03-12:00:01 34 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2018/09/03-12:00:01 22 Major 2nd|MAJOR 2nd
+2018/09/03-12:00:01 09 Zoids Wild|ゾイドワイルド
+2018/09/03-12:00:01 09 Yami Shibai 6|闇芝居(第6期)
 2018/09/03-06:00:01 10 Hanebado!|はねバド！
 2018/09/03-06:00:01 10 Baki|バキ
 2018/09/03-06:00:01 07 Tsukumogami Kashimasu|つくもがみ貸します
@@ -51,16 +55,12 @@ Last Update: 2018/09/03-06:00:01
 2018/08/29-00:00:01 09 Idolmaster Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場3
 2018/08/29-00:00:01 08 Overlord III|オーバーロードIII
 2018/08/29-00:00:01 08 Kyoto Teramachi Sanjou no Holmes|京都寺町三条のホームズ
-2018/08/28-12:00:01 33 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/08/28-12:00:01 29 Hugtto! Precure|HuGっと！ プリキュア
-2018/08/28-12:00:01 21 Major 2nd|MAJOR 2nd
-2018/08/28-12:00:01 08 Zoids Wild|ゾイドワイルド
 2018/08/28-06:00:01 09 Yama no Susume Third Season|ヤマノススメ サードシーズン
 2018/08/28-06:00:01 08 Phantom in the Twilight|Phantom in the Twilight
 2018/08/28-06:00:01 08 One Room Second Season|One Room セカンドシーズン
 2018/08/28-06:00:01 08 Jashin-chan Dropkick|邪神ちゃんドロップキック
 2018/08/28-06:00:01 08 Aguu Tensai Ningyou|悪偶 -天才人形-
 2018/08/28-00:00:01 22 Kakuriyo no Yadomeshi|かくりよの宿飯
-2018/08/27-00:00:01 08 Yami Shibai 6|闇芝居(第6期)
 2018/08/23-06:00:02 19 Steins;Gate 0|シュタインズ・ゲート ゼロ
 2018/08/08-00:00:01 05 Dies Irae： To the Ring Reincarnation|Dies irae To the Ring Reincarnation
