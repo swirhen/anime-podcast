@@ -1,4 +1,5 @@
-Last Update: 2018/09/03-18:00:01
+Last Update: 2018/09/04-00:00:01
+2018/09/04-00:00:01 23 Kakuriyo no Yadomeshi|かくりよの宿飯
 2018/09/03-12:00:01 34 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/09/03-12:00:01 22 Major 2nd|MAJOR 2nd
 2018/09/03-12:00:01 09 Zoids Wild|ゾイドワイルド
@@ -61,5 +62,4 @@ Last Update: 2018/09/03-18:00:01
 2018/08/28-06:00:01 08 One Room Second Season|One Room セカンドシーズン
 2018/08/28-06:00:01 08 Jashin-chan Dropkick|邪神ちゃんドロップキック
 2018/08/28-06:00:01 08 Aguu Tensai Ningyou|悪偶 -天才人形-
-2018/08/28-00:00:01 22 Kakuriyo no Yadomeshi|かくりよの宿飯
 2018/08/23-06:00:02 19 Steins;Gate 0|シュタインズ・ゲート ゼロ
