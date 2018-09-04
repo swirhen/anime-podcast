@@ -1,4 +1,9 @@
-Last Update: 2018/09/04-18:00:01
+Last Update: 2018/09/05-00:00:01
+2018/09/05-00:00:01 48 Black Clover|ブラッククローバー
+2018/09/05-00:00:01 30 Hugtto! Precure|HuGっと！ プリキュア
+2018/09/05-00:00:01 10 Idolmaster Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場3
+2018/09/05-00:00:01 09 Overlord III|オーバーロードIII
+2018/09/05-00:00:01 09 Kyoto Teramachi Sanjou no Holmes|京都寺町三条のホームズ
 2018/09/04-06:00:01 10 Yama no Susume Third Season|ヤマノススメ サードシーズン
 2018/09/04-06:00:01 09 Phantom in the Twilight|Phantom in the Twilight
 2018/09/04-06:00:01 09 One Room Second Season|One Room セカンドシーズン
@@ -56,10 +61,5 @@ Last Update: 2018/09/04-18:00:01
 2018/08/30-00:00:01 08 Genkou Kassenki|アンゴルモア元寇合戦記
 2018/08/29-06:00:01 21 Lupin Sansei Part 5|ルパン三世 PART5
 2018/08/29-06:00:01 08 Tensai Bakabon|深夜！天才バカボン
-2018/08/29-00:00:01 47 Black Clover|ブラッククローバー
 2018/08/29-00:00:01 09 Senjuushi|千銃士
-2018/08/29-00:00:01 09 Idolmaster Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場3
-2018/08/29-00:00:01 08 Overlord III|オーバーロードIII
-2018/08/29-00:00:01 08 Kyoto Teramachi Sanjou no Holmes|京都寺町三条のホームズ
-2018/08/28-12:00:01 29 Hugtto! Precure|HuGっと！ プリキュア
 2018/08/23-06:00:02 19 Steins;Gate 0|シュタインズ・ゲート ゼロ
