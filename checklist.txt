@@ -1,4 +1,5 @@
-Last Update: 2018/09/08-18:00:01
+Last Update: 2018/09/09-00:00:01
+2018/09/09-00:00:01 22 Boku no Hero Academia 3|僕のヒーローアカデミア 第3期
 2018/09/08-18:00:01 09 Grand Blue|ぐらんぶる
 2018/09/08-12:00:01 23 Nobunaga no Shinobi Anegawa Ishiyama Hen|信長の忍び～姉川・石山篇～
 2018/09/08-06:00:01 09 Lord of Vermilion Guren no Ou|ロード オブ ヴァーミリオン 紅蓮の王
@@ -58,7 +59,6 @@ Last Update: 2018/09/08-18:00:01
 2018/09/02-06:00:01 09 Hyakuren no Haou to Seiyaku no Valkyria|百錬の覇王と聖約の戦乙女
 2018/09/02-06:00:01 09 Hataraku Saibou|はたらく細胞
 2018/09/02-06:00:01 08 Yuragi-sou no Yuuna-san|ゆらぎ荘の幽奈さん
-2018/09/02-00:00:01 21 Boku no Hero Academia 3|僕のヒーローアカデミア 第3期
 2018/08/31-00:00:01 09 Yakiniku-ten Sengoku|焼肉店センゴク
 2018/08/31-00:00:01 09 Onmyouji： Heian Monogatari|陰陽師・平安物語
 2018/08/29-00:00:01 09 Senjuushi|千銃士
