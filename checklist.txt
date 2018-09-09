@@ -1,5 +1,8 @@
-Last Update: 2018/09/09-18:00:01
-2018/09/09-18:00:01 0 Kirakira Happy Hirake! Cocotama|てさぐれ！部活もの すぴんおふ プルプルんシャルムと遊ぼう
+Last Update: 2018/09/10-00:00:02
+2018/09/10-00:00:02 11 Island|ISLAND
+2018/09/10-00:00:02 10 Planet With|プラネット・ウィズ
+2018/09/10-00:00:02 10 Asobi Asobase|あそびあそばせ
+2018/09/10-00:00:02 01 Kirakira Happy Hirake! Cocotama|てさぐれ！部活もの すぴんおふ プルプルんシャルムと遊ぼう
 2018/09/09-12:00:02 23 Kiratto Pri-chan|キラッとプリ☆チャン
 2018/09/09-12:00:02 22 Wakaokami wa Shougakusei!|若おかみは小学生！
 2018/09/09-06:00:01 23 Persona 5 The Animation|PERSONA5 the Animation
@@ -55,9 +58,6 @@ Last Update: 2018/09/09-18:00:01
 2018/09/03-06:00:01 10 Baki|バキ
 2018/09/03-06:00:01 07 Tsukumogami Kashimasu|つくもがみ貸します
 2018/09/03-06:00:01 07 Shingeki no Kyojin Season 3|進撃の巨人 Season3
-2018/09/03-00:00:01 10 Island|ISLAND
-2018/09/03-00:00:01 09 Planet With|プラネット・ウィズ
-2018/09/03-00:00:01 09 Asobi Asobase|あそびあそばせ
 2018/09/02-12:00:01 23 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2018/09/02-12:00:01 22 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2018/08/31-00:00:01 09 Yakiniku-ten Sengoku|焼肉店センゴク
