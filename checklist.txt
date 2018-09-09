@@ -1,4 +1,6 @@
-Last Update: 2018/09/09-06:00:01
+Last Update: 2018/09/09-12:00:02
+2018/09/09-12:00:02 23 Kiratto Pri-chan|キラッとプリ☆チャン
+2018/09/09-12:00:02 22 Wakaokami wa Shougakusei!|若おかみは小学生！
 2018/09/09-06:00:01 23 Persona 5 The Animation|PERSONA5 the Animation
 2018/09/09-06:00:01 10 Hyakuren no Haou to Seiyaku no Valkyria|百錬の覇王と聖約の戦乙女
 2018/09/09-06:00:01 10 Hataraku Saibou|はたらく細胞
@@ -57,8 +59,6 @@ Last Update: 2018/09/09-06:00:01
 2018/09/03-00:00:01 09 Asobi Asobase|あそびあそばせ
 2018/09/02-12:00:01 23 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2018/09/02-12:00:01 22 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
-2018/09/02-12:00:01 22 Kiratto Pri-chan|キラッとプリ☆チャン
-2018/09/02-12:00:01 21 Wakaokami wa Shougakusei!|若おかみは小学生！
 2018/08/31-00:00:01 09 Yakiniku-ten Sengoku|焼肉店センゴク
 2018/08/31-00:00:01 09 Onmyouji： Heian Monogatari|陰陽師・平安物語
 2018/08/29-00:00:01 09 Senjuushi|千銃士
