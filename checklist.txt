@@ -1,4 +1,7 @@
-Last Update: 2018/09/10-00:00:02
+Last Update: 2018/09/10-06:00:01
+2018/09/10-06:00:01 11 Baki|バキ
+2018/09/10-06:00:01 08 Tsukumogami Kashimasu|つくもがみ貸します
+2018/09/10-06:00:01 08 Shingeki no Kyojin Season 3|進撃の巨人 Season3
 2018/09/10-00:00:02 11 Island|ISLAND
 2018/09/10-00:00:02 10 Planet With|プラネット・ウィズ
 2018/09/10-00:00:02 10 Asobi Asobase|あそびあそばせ
@@ -55,9 +58,6 @@ Last Update: 2018/09/10-00:00:02
 2018/09/03-12:00:01 09 Zoids Wild|ゾイドワイルド
 2018/09/03-12:00:01 09 Yami Shibai 6|闇芝居(第6期)
 2018/09/03-06:00:01 10 Hanebado!|はねバド！
-2018/09/03-06:00:01 10 Baki|バキ
-2018/09/03-06:00:01 07 Tsukumogami Kashimasu|つくもがみ貸します
-2018/09/03-06:00:01 07 Shingeki no Kyojin Season 3|進撃の巨人 Season3
 2018/09/02-12:00:01 23 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2018/09/02-12:00:01 22 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2018/08/31-00:00:01 09 Yakiniku-ten Sengoku|焼肉店センゴク
