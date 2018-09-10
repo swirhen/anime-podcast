@@ -1,4 +1,5 @@
-Last Update: 2018/09/10-18:00:01
+Last Update: 2018/09/11-00:00:01
+2018/09/11-00:00:01 24 Kakuriyo no Yadomeshi|かくりよの宿飯
 2018/09/10-06:00:01 11 Baki|バキ
 2018/09/10-06:00:01 08 Tsukumogami Kashimasu|つくもがみ貸します
 2018/09/10-06:00:01 08 Shingeki no Kyojin Season 3|進撃の巨人 Season3
@@ -52,7 +53,6 @@ Last Update: 2018/09/10-18:00:01
 2018/09/04-06:00:01 09 One Room Second Season|One Room セカンドシーズン
 2018/09/04-06:00:01 09 Jashin-chan Dropkick|邪神ちゃんドロップキック
 2018/09/04-06:00:01 09 Aguu Tensai Ningyou|悪偶 -天才人形-
-2018/09/04-00:00:01 23 Kakuriyo no Yadomeshi|かくりよの宿飯
 2018/09/03-12:00:01 34 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/09/03-12:00:01 22 Major 2nd|MAJOR 2nd
 2018/09/03-12:00:01 09 Zoids Wild|ゾイドワイルド
