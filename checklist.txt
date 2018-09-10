@@ -1,4 +1,15 @@
-Last Update: 2018/09/11-00:00:01
+Last Update: 2018/09/11-06:00:01
+2018/09/11-06:00:01 35 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2018/09/11-06:00:01 23 Major 2nd|MAJOR 2nd
+2018/09/11-06:00:01 11 Yama no Susume Third Season|ヤマノススメ サードシーズン
+2018/09/11-06:00:01 10 Zoids Wild|ゾイドワイルド
+2018/09/11-06:00:01 10 Yami Shibai 6|闇芝居(第6期)
+2018/09/11-06:00:01 10 Yakiniku-ten Sengoku|焼肉店センゴク
+2018/09/11-06:00:01 10 Phantom in the Twilight|Phantom in the Twilight
+2018/09/11-06:00:01 10 Onmyouji： Heian Monogatari|陰陽師・平安物語
+2018/09/11-06:00:01 10 One Room Second Season|One Room セカンドシーズン
+2018/09/11-06:00:01 10 Jashin-chan Dropkick|邪神ちゃんドロップキック
+2018/09/11-06:00:01 10 Aguu Tensai Ningyou|悪偶 -天才人形-
 2018/09/11-00:00:01 24 Kakuriyo no Yadomeshi|かくりよの宿飯
 2018/09/10-06:00:01 11 Baki|バキ
 2018/09/10-06:00:01 08 Tsukumogami Kashimasu|つくもがみ貸します
@@ -48,18 +59,7 @@ Last Update: 2018/09/11-00:00:01
 2018/09/05-00:00:01 10 Idolmaster Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場3
 2018/09/05-00:00:01 09 Overlord III|オーバーロードIII
 2018/09/05-00:00:01 09 Kyoto Teramachi Sanjou no Holmes|京都寺町三条のホームズ
-2018/09/04-06:00:01 10 Yama no Susume Third Season|ヤマノススメ サードシーズン
-2018/09/04-06:00:01 09 Phantom in the Twilight|Phantom in the Twilight
-2018/09/04-06:00:01 09 One Room Second Season|One Room セカンドシーズン
-2018/09/04-06:00:01 09 Jashin-chan Dropkick|邪神ちゃんドロップキック
-2018/09/04-06:00:01 09 Aguu Tensai Ningyou|悪偶 -天才人形-
-2018/09/03-12:00:01 34 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
-2018/09/03-12:00:01 22 Major 2nd|MAJOR 2nd
-2018/09/03-12:00:01 09 Zoids Wild|ゾイドワイルド
-2018/09/03-12:00:01 09 Yami Shibai 6|闇芝居(第6期)
 2018/09/03-06:00:01 10 Hanebado!|はねバド！
 2018/09/02-12:00:01 23 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2018/09/02-12:00:01 22 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
-2018/08/31-00:00:01 09 Yakiniku-ten Sengoku|焼肉店センゴク
-2018/08/31-00:00:01 09 Onmyouji： Heian Monogatari|陰陽師・平安物語
 2018/08/29-00:00:01 09 Senjuushi|千銃士
