@@ -1,4 +1,9 @@
-Last Update: 2018/09/11-18:00:01
+Last Update: 2018/09/12-00:00:01
+2018/09/12-00:00:01 49 Black Clover|ブラッククローバー
+2018/09/12-00:00:01 11 Idolmaster Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場3
+2018/09/12-00:00:01 10 Senjuushi|千銃士
+2018/09/12-00:00:01 10 Overlord III|オーバーロードIII
+2018/09/12-00:00:01 10 Kyoto Teramachi Sanjou no Holmes|京都寺町三条のホームズ
 2018/09/11-06:00:01 35 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/09/11-06:00:01 23 Major 2nd|MAJOR 2nd
 2018/09/11-06:00:01 11 Yama no Susume Third Season|ヤマノススメ サードシーズン
@@ -54,12 +59,7 @@ Last Update: 2018/09/11-18:00:01
 2018/09/05-06:00:01 22 Lupin Sansei Part 5|ルパン三世 PART5
 2018/09/05-06:00:01 10 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
 2018/09/05-06:00:01 09 Tensai Bakabon|深夜！天才バカボン
-2018/09/05-00:00:01 48 Black Clover|ブラッククローバー
 2018/09/05-00:00:01 30 Hugtto! Precure|HuGっと！ プリキュア
-2018/09/05-00:00:01 10 Idolmaster Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場3
-2018/09/05-00:00:01 09 Overlord III|オーバーロードIII
-2018/09/05-00:00:01 09 Kyoto Teramachi Sanjou no Holmes|京都寺町三条のホームズ
 2018/09/03-06:00:01 10 Hanebado!|はねバド！
 2018/09/02-12:00:01 23 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2018/09/02-12:00:01 22 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
-2018/08/29-00:00:01 09 Senjuushi|千銃士
