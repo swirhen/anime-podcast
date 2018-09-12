@@ -1,4 +1,7 @@
-Last Update: 2018/09/12-18:00:01
+Last Update: 2018/09/13-00:00:01
+2018/09/13-00:00:01 23 Lupin Sansei Part 5|ルパン三世 PART5
+2018/09/13-00:00:01 11 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
+2018/09/13-00:00:01 10 Tensai Bakabon|深夜！天才バカボン
 2018/09/12-00:00:01 49 Black Clover|ブラッククローバー
 2018/09/12-00:00:01 11 Idolmaster Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場3
 2018/09/12-00:00:01 10 Senjuushi|千銃士
@@ -55,9 +58,6 @@ Last Update: 2018/09/12-18:00:01
 2018/09/06-06:00:01 20 Steins;Gate 0|シュタインズ・ゲート ゼロ
 2018/09/06-06:00:01 09 Genkou Kassenki|アンゴルモア元寇合戦記
 2018/09/06-06:00:01 09 Free! Dive to the Future|Free!－Dive to the Future－
-2018/09/05-06:00:01 22 Lupin Sansei Part 5|ルパン三世 PART5
-2018/09/05-06:00:01 10 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
-2018/09/05-06:00:01 09 Tensai Bakabon|深夜！天才バカボン
 2018/09/05-00:00:01 30 Hugtto! Precure|HuGっと！ プリキュア
 2018/09/03-06:00:01 10 Hanebado!|はねバド！
 2018/09/02-12:00:01 23 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
