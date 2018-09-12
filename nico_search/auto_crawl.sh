@@ -119,6 +119,7 @@ do
         # ニコニコチャンネル(ch.nicovideo.jp)用
 #        echo "curl -sS \"${URL}\" | grep \"http.*title.*${KEYWORD}\" | sed \"s#^.*<a href=#${NICODL_CMD} #\" | sed \"s/title=//\" | grep \"${EPNUM}\" | grep -v \"${IGNORE_WORD}\" | sed \"${SED_STR}\" > ${DL_SH}"
         #cat "${CRAWL_TEMP}" | perl -pe 's/(href=".*?".*?|title=".*?)\n/$1/g' | grep "http.*title.*${KEYWORD}" | sed "s#^.*href=#${NICODL_CMD} #" | sed "s/title=//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" | sed "y/０１２３４５６７８９　/0123456789 /" | sort | uniq > $DL_SH}
+        cat "${CRAWL_TEMP}" | sed "y/０１２３４５６７８９　/0123456789 /" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}"
         cat "${CRAWL_TEMP}" | sed "y/０１２３４５６７８９　/0123456789 /" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" > ${DL_SH}
     fi
 
