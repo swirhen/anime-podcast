@@ -22,7 +22,6 @@ Last Update: 2018/09/12-12:00:01
 2018/09/10-00:00:02 11 Island|ISLAND
 2018/09/10-00:00:02 10 Planet With|プラネット・ウィズ
 2018/09/10-00:00:02 10 Asobi Asobase|あそびあそばせ
-2018/09/10-00:00:02 01 Kirakira Happy Hirake! Cocotama|てさぐれ！部活もの すぴんおふ プルプルんシャルムと遊ぼう
 2018/09/09-12:00:02 23 Kiratto Pri-chan|キラッとプリ☆チャン
 2018/09/09-12:00:02 22 Wakaokami wa Shougakusei!|若おかみは小学生！
 2018/09/09-06:00:01 23 Persona 5 The Animation|PERSONA5 the Animation
