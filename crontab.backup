@@ -122,7 +122,7 @@ MAILTO=""
 0 0,6,12,18 * * * /data/share/movie/sh/auto_publish.sh
 
 # ニコニコチャンネルクローラー
-0 0,6,12,18 * * * /data/share/movie/sh/nico_search/auto_crawl.sh
+#0 0,6,12,18 * * * /data/share/movie/sh/nico_search/auto_crawl.sh
 
 # 音泉クローラー
 0 * * * * /data/share/movie/sh/onsen_crawler/onsen_crawler.sh
