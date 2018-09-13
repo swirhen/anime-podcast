@@ -26,8 +26,8 @@ if [ "${memberonly_ignore_flg}" = "1" ]; then
 fi
 LOG_FILE=${SCRIPT_DIR}/logs/freshrecord_${DATETIME2}.log
 SAVE_DIR="${SCRIPT_DIR}/../98 PSP用/agqr"
-ERR_CNT1=120
-ERR_CNT2=120
+ERR_CNT1=300
+ERR_CNT2=300
 
 logging() {
   #echo "`date '+%Y/%m/%d %H:%M:%S'` $1" >> ${LOG_FILE}
