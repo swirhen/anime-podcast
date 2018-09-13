@@ -93,7 +93,8 @@ do
         logging "### 放送開始チェック試行回数エラー: 終了します"
         exit 1
     fi
-    start_flg=`curl "${streamuri}" | grep "ts$" | wc -l`
+#    start_flg=`curl "${streamuri}" | grep "ts$" | wc -l`
+    start_flg=`curl "${streamuri}" | grep -v "^#" | wc -l`
     if [ "${start_flg}" -gt 0 ]; then
         logging "# 放送開始！"
         break
