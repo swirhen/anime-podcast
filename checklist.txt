@@ -1,4 +1,7 @@
-Last Update: 2018/09/17-00:00:01
+Last Update: 2018/09/17-06:00:01
+2018/09/17-06:00:01 12 Baki|バキ
+2018/09/17-06:00:01 09 Tsukumogami Kashimasu|つくもがみ貸します
+2018/09/17-06:00:01 09 Shingeki no Kyojin Season 3|進撃の巨人 Season3
 2018/09/17-00:00:01 11 Planet With|プラネット・ウィズ
 2018/09/17-00:00:01 11 Asobi Asobase|あそびあそばせ
 2018/09/16-18:00:02 24 Kiratto Pri-chan|キラッとプリ☆チャン
@@ -56,8 +59,5 @@ Last Update: 2018/09/17-00:00:01
 2018/09/11-06:00:01 10 Jashin-chan Dropkick|邪神ちゃんドロップキック
 2018/09/11-06:00:01 10 Aguu Tensai Ningyou|悪偶 -天才人形-
 2018/09/11-00:00:01 24 Kakuriyo no Yadomeshi|かくりよの宿飯
-2018/09/10-06:00:01 11 Baki|バキ
-2018/09/10-06:00:01 08 Tsukumogami Kashimasu|つくもがみ貸します
-2018/09/10-06:00:01 08 Shingeki no Kyojin Season 3|進撃の巨人 Season3
 2018/09/06-06:00:01 23 Juushinki Pandora|重神機パンドーラ
 2018/09/03-06:00:01 10 Hanebado!|はねバド！
