@@ -1,4 +1,6 @@
-Last Update: 2018/09/16-12:00:01
+Last Update: 2018/09/16-18:00:02
+2018/09/16-18:00:02 24 Kiratto Pri-chan|キラッとプリ☆チャン
+2018/09/16-18:00:02 23 Wakaokami wa Shougakusei!|若おかみは小学生！
 2018/09/16-12:00:01 24 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2018/09/16-12:00:01 23 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2018/09/16-06:00:01 24 Persona 5 The Animation|PERSONA5 the Animation
@@ -58,7 +60,5 @@ Last Update: 2018/09/16-12:00:01
 2018/09/10-00:00:02 11 Island|ISLAND
 2018/09/10-00:00:02 10 Planet With|プラネット・ウィズ
 2018/09/10-00:00:02 10 Asobi Asobase|あそびあそばせ
-2018/09/09-12:00:02 23 Kiratto Pri-chan|キラッとプリ☆チャン
-2018/09/09-12:00:02 22 Wakaokami wa Shougakusei!|若おかみは小学生！
 2018/09/06-06:00:01 23 Juushinki Pandora|重神機パンドーラ
 2018/09/03-06:00:01 10 Hanebado!|はねバド！
