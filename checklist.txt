@@ -1,4 +1,8 @@
-Last Update: 2018/09/19-00:00:01
+Last Update: 2018/09/19-06:00:02
+2018/09/19-06:00:02 25 Captain Tsubasa|キャプテン翼
+2018/09/19-06:00:02 24 Lupin Sansei Part 5|ルパン三世 PART5
+2018/09/19-06:00:02 12 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
+2018/09/19-06:00:02 11 Tensai Bakabon|深夜！天才バカボン
 2018/09/19-00:00:01 50 Black Clover|ブラッククローバー
 2018/09/19-00:00:01 32 Hugtto! Precure|HuGっと！ プリキュア
 2018/09/19-00:00:01 12 Idolmaster Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場3
@@ -45,7 +49,6 @@ Last Update: 2018/09/19-00:00:01
 2018/09/15-00:00:01 11 Banana Fish|BANANA FISH
 2018/09/15-00:00:01 10 Shoujo Kageki Revue Starlight|少女☆歌劇 レヴュースタァライト
 2018/09/15-00:00:01 07 Muhyo to Roji no Mahouritsu Soudan Jimusho|ムヒョとロージーの魔法律相談事務所
-2018/09/14-00:00:02 24 Captain Tsubasa|キャプテン翼
 2018/09/14-00:00:02 23 Gundam Build Divers|ガンダムビルドダイバーズ
 2018/09/14-00:00:02 23 Aikatsu Friends!|アイカツフレンズ！
 2018/09/14-00:00:02 11 Yume Oukoku to Nemureru 100 Nin no Ouji-sama|夢王国と眠れる100人の王子様
@@ -56,7 +59,4 @@ Last Update: 2018/09/19-00:00:01
 2018/09/14-00:00:02 10 Sirius the Jaeger|天狼 Sirius the Jaeger
 2018/09/13-06:00:02 21 Steins;Gate 0|シュタインズ・ゲート ゼロ
 2018/09/13-06:00:02 10 Free! Dive to the Future|Free!－Dive to the Future－
-2018/09/13-00:00:01 23 Lupin Sansei Part 5|ルパン三世 PART5
-2018/09/13-00:00:01 11 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
-2018/09/13-00:00:01 10 Tensai Bakabon|深夜！天才バカボン
 2018/09/06-06:00:01 23 Juushinki Pandora|重神機パンドーラ
