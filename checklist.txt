@@ -1,4 +1,8 @@
-Last Update: 2018/09/23-06:00:01
+Last Update: 2018/09/23-12:00:01
+2018/09/23-12:00:01 25 Kiratto Pri-chan|キラッとプリ☆チャン
+2018/09/23-12:00:01 25 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
+2018/09/23-12:00:01 24 Wakaokami wa Shougakusei!|若おかみは小学生！
+2018/09/23-12:00:01 24 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2018/09/23-06:00:01 25 Persona 5 The Animation|PERSONA5 the Animation
 2018/09/23-06:00:01 12 Hataraku Saibou|はたらく細胞
 2018/09/23-06:00:01 11 Yuragi-sou no Yuuna-san|ゆらぎ荘の幽奈さん
@@ -43,8 +47,4 @@ Last Update: 2018/09/23-06:00:01
 2018/09/17-06:00:01 09 Shingeki no Kyojin Season 3|進撃の巨人 Season3
 2018/09/17-00:00:01 11 Planet With|プラネット・ウィズ
 2018/09/17-00:00:01 11 Asobi Asobase|あそびあそばせ
-2018/09/16-18:00:02 24 Kiratto Pri-chan|キラッとプリ☆チャン
-2018/09/16-18:00:02 23 Wakaokami wa Shougakusei!|若おかみは小学生！
-2018/09/16-12:00:01 24 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
-2018/09/16-12:00:01 23 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2018/09/16-00:00:02 11 Yami Shibai 6|闇芝居(第6期)
