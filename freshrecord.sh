@@ -28,6 +28,7 @@ LOG_FILE=${SCRIPT_DIR}/logs/freshrecord_${DATETIME2}.log
 SAVE_DIR="${SCRIPT_DIR}/../98 PSP用/agqr"
 ERR_CNT1=300
 ERR_CNT2=300
+ERR_CNT3=300
 
 logging() {
   #echo "`date '+%Y/%m/%d %H:%M:%S'` $1" >> ${LOG_FILE}
@@ -113,7 +114,17 @@ fi
 # /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【FRESH LIVE自動保存開始】${filename}"
 ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【FRESH LIVE自動保存開始】${filename}"
 
-/usr/bin/wine ffmpeg3.exe -i "${streamuri}" -c copy "${SCRIPT_DIR}/${filename}.mp4"
+errcnt=0
+until [ -f "${SCRIPT_DIR}/${filename}.mp4" ]
+do
+    if [ ${errcnt} -gt ${ERR_CNT3} ]; then
+        logging "### 自動保存試行回数エラー: 終了します"
+        exit 1
+    fi
+    /usr/bin/wine ffmpeg3.exe -i "${streamuri}" -c copy "${SCRIPT_DIR}/${filename}.mp4"
+    sleep 1
+    (( errcnt++ ))
+done
 
 if [ "${audio_flg}" = "1" ]; then
     /usr/bin/wine ffmpeg3.exe -i "${SCRIPT_DIR}/${filename}.mp4" -acodec copy -map 0:1 "${SCRIPT_DIR}/${filename}.m4a"
