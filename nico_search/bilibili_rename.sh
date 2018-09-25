@@ -36,7 +36,8 @@ do
     if [ "${partdir: -3}" = "mp4" ]; then
         jsonfile="${partdir%.*}.json"
         title=`cat "${jsonfile}" | sed "s/.*videoTitle\":\"\([^\"]*\)\".*/\1/"`
-        mv "${partdir}" "${title}.mp4"
+        echo "mv \"${partdir}\" \"${title}.mp4\""
+        continue
     elif [ "${partdir: -4}" = "json" ]; then
         continue
     else
