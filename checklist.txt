@@ -1,4 +1,5 @@
-Last Update: 2018/09/25-12:00:01
+Last Update: 2018/09/25-18:00:01
+2018/09/25-18:00:01 12 Kyoto Teramachi Sanjou no Holmes|京都寺町三条のホームズ
 2018/09/25-06:00:01 12 Yami Shibai 6|闇芝居(第6期)
 2018/09/24-18:00:01 13 Baki|バキ
 2018/09/24-06:00:02 12 Hanebado!|はねバド！
@@ -36,7 +37,6 @@ Last Update: 2018/09/25-12:00:01
 2018/09/19-00:00:01 12 Idolmaster Cinderella Girls Gekijou|アイドルマスター シンデレラガールズ劇場3
 2018/09/19-00:00:01 11 Senjuushi|千銃士
 2018/09/19-00:00:01 11 Overlord III|オーバーロードIII
-2018/09/19-00:00:01 11 Kyoto Teramachi Sanjou no Holmes|京都寺町三条のホームズ
 2018/09/18-00:00:01 36 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/09/18-00:00:01 24 Major 2nd|MAJOR 2nd
 2018/09/18-00:00:01 11 Zoids Wild|ゾイドワイルド
