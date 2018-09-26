@@ -55,6 +55,7 @@ if [ "${dir: -3}" = "mp4" ]; then
         if [[ ${title} =~ ${NICO_KEYWORDS[${cnt}]} ]]; then
             DIR_PREFIX="${NICO_DIR_PREFIXS[${cnt}]}"
             SED_STR="${NICO_SED_STRS[${cnt}]}"
+            hit_flg=1
             break
         fi
         (( cnt++ ))
