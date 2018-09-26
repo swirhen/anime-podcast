@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE:-$0}")"; pwd)"
 RENAME_LIST_FILE=${SCRIPT_DIR}/bilibili_rename_word.txt
+NICO_LIST_FILE=${SCRIPT_DIR}/nico_rename_word.txt
 dir=$1
 
 DIR_PREFIXS=()
@@ -27,11 +28,45 @@ do
     DELETE_KEYWORDS+=( "${DELETE_KEYWORD//%/ }" )
 done < ${RENAME_LIST_FILE}
 
+NICO_DIR_PREFIXS=()
+NICO_KEYWORDS=()
+NICO_SED_STRS=()
+
+while read DIR_PREFIX KEYWORD SED_STR
+do
+    NICO_DIR_PREFIXS+=( "${DIR_PREFIX}" )
+    NICO_KEYWORDS+=( "${KEYWORD}" )
+    NICO_SED_STRS+=( "${SED_STR}" )
+done < ${NICO_LIST_FILE}
+
 # にこきゃっしゅ
 if [ "${dir: -3}" = "mp4" ]; then
     jsonfile="${dir%.*}.json"
     title=`cat "${jsonfile}" | sed "s/.*videoTitle\":\"\([^\"]*\)\".*/\1/"`
-    echo "mv \"${dir}\" \"${title}.mp4\""
+
+    cnt=0
+    hit_flg=0
+    while :
+    do
+        if [ "${NICO_KEYWORDS[${cnt}]}" = "" ]; then
+            break
+        fi
+
+        if [[ ${title} =~ ${NICO_KEYWORDS[${cnt}]} ]]; then
+            DIR_PREFIX="${NICO_DIR_PREFIXS[${cnt}]}"
+            SED_STR="${NICO_SED_STRS[${cnt}]}"
+            break
+        fi
+        (( cnt++ ))
+    done
+
+    if [ ${hit_flg} -eq 0 ]; then
+        echo "mv \"${dir}\" \"${title}.mp4\""
+    else
+        title=`echo "${title}" | sed "y/０１２３４５６７８９　/0123456789 /" | sed "${SED_STR}"`
+        echo "mv \"${dir}\" ${DIR_PREFIX}*/\"${title}.mp4\""
+    fi
+
     exit 0
 elif [ "${dir: -4}" = "json" ]; then
     exit 0
