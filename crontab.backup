@@ -4,8 +4,6 @@ MAILTO=""
 @reboot /home/swirhen/sh/tiarrakw.sh
 @reboot /home/swirhen/sh/tigkw.sh
 @reboot mkdir /tmp/vga
-@reboot mkdir /var/lock/dav
-@reboot chmod 777 /var/lock/dav
 0 0 * * * /data/share/gyazo/tyozo/del.sh
 0 1 * * * /home/swirhen/sh/backup.sh
 0 1 * * * /data/share/movie/sh/cron_backup.sh
