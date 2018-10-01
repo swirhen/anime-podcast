@@ -132,6 +132,7 @@ do
         ${DL_SH}
         #cat ${DL_SH}
         ls *.mp4 >> ${RESULT_FILE}
+        echo "${KEYWORD} ${EP_NUM}" >> ${RESULT_FILE}
         mv *.mp4 "${SCRIPT_DIR}/${SAVE_DIR_NUM}"*
         (( EP_NUM++ ))
         echo "${DATETIME} ${EP_NUM} ${URL} ${KEYWORD} ${IGNORE_WORD} ${SAVE_DIR_NUM} ${NUM_PREFIX} ${NUM_SUFFIX} ${SED_STR//\\/\\\\}" >> ${LIST_TEMP}
