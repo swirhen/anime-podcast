@@ -1,6 +1,9 @@
-Last Update: 2018/10/03-00:00:01
+Last Update: 2018/10/03-06:00:01
+2018/10/03-06:00:01 13 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
+2018/10/03-06:00:01 01 Ken En Ken Aoki Kagayaki|Thunderbolt Fantasy 東離劍遊紀2
+2018/10/03-06:00:01 0 Kaze ga Tsuyoku Fuite Iru|風が強く吹いている
+2018/10/03-06:00:01 0 Jingai-san no Yome|人外さんの嫁
 2018/10/03-00:00:01 52 Black Clover|ブラッククローバー
-2018/10/03-00:00:01 0 Ken En Ken Aoki Kagayaki|Thunderbolt Fantasy 東離劍遊紀2
 2018/10/02-18:00:01 27 Captain Tsubasa|キャプテン翼
 2018/10/02-12:00:01 01 Uchuu Senkan Tiramisu II|宇宙戦艦ティラミスII
 2018/10/02-12:00:01 01 Tensei Shitara Slime Datta Ken|転生したらスライムだった件
@@ -20,4 +23,3 @@ Last Update: 2018/10/03-00:00:01
 2018/09/24-06:00:02 10 Shingeki no Kyojin Season 3|進撃の巨人 Season3
 2018/09/22-00:00:01 12 Satsuriku no Tenshi|殺戮の天使
 2018/09/21-18:00:01 12 Banana Fish|BANANA FISH
-2018/09/19-06:00:02 12 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
