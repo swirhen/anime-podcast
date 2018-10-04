@@ -1,4 +1,7 @@
-Last Update: 2018/10/05-00:00:01
+Last Update: 2018/10/05-06:00:01
+2018/10/05-06:00:01 13 Banana Fish|BANANA FISH
+2018/10/05-06:00:01 0 Zombieland Saga|ゾンビランドサガ
+2018/10/05-06:00:01 0 Devidol!|でびどる！
 2018/10/05-00:00:01 26 Aikatsu Friends!|アイカツフレンズ！
 2018/10/05-00:00:01 01 Rerided Tokigoe no Derrida|RErideD -刻越えのデリダ-
 2018/10/04-12:00:01 01 Sora to Umi no Aida|ソラとウミのアイダ
@@ -24,4 +27,3 @@ Last Update: 2018/10/05-00:00:01
 2018/09/24-18:00:01 13 Baki|バキ
 2018/09/24-06:00:02 10 Tsukumogami Kashimasu|つくもがみ貸します
 2018/09/24-06:00:02 10 Shingeki no Kyojin Season 3|進撃の巨人 Season3
-2018/09/21-18:00:01 12 Banana Fish|BANANA FISH
