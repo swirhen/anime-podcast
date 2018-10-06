@@ -1,7 +1,12 @@
-Last Update: 2018/10/07-00:00:01
+Last Update: 2018/10/07-06:00:02
+2018/10/07-06:00:02 39 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2018/10/07-06:00:02 14 Zoids Wild|ゾイドワイルド
+2018/10/07-06:00:02 01 Radiant|ラディアン
+2018/10/07-06:00:02 01 Gyakuten Saiban Season 2|逆転裁判 ～その「真実」、異議あり！～ Season2
+2018/10/07-06:00:02 0 Sword Art Online Alicization|ソードアート・オンライン アリシゼーション
+2018/10/07-06:00:02 0 Release the Spyce|RELEASE THE SPYCE
+2018/10/07-06:00:02 0 Goblin Slayer|ゴブリンスレイヤー
 2018/10/07-00:00:01 14 Baki|バキ
-2018/10/07-00:00:01 0 Radiant|ラディアン
-2018/10/07-00:00:01 0 Gyakuten Saiban Season 2|逆転裁判 ～その「真実」、異議あり！～ Season2
 2018/10/06-15:28:14 01 Okoshiyasu, Chitose-chan|おこしやす、ちとせちゃん
 2018/10/06-15:28:14 01 Irozuku Sekai no Ashita kara|色づく世界の明日から
 2018/10/06-15:28:14 01 Bakumatsu|BAKUMATSU
@@ -35,8 +40,6 @@ Last Update: 2018/10/07-00:00:01
 2018/10/02-12:00:01 01 Double Decker! Doug|DOUBLE DECKER! ダグ＆キリル
 2018/10/02-06:00:01 01 Akanesasu Shoujo|あかねさす少女
 2018/10/02-00:00:01 34 Hugtto! Precure|HuGっと！ プリキュア
-2018/10/01-00:00:01 38 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
-2018/10/01-00:00:01 13 Zoids Wild|ゾイドワイルド
 2018/09/30-12:00:01 26 Kiratto Pri-chan|キラッとプリ☆チャン
 2018/09/30-12:00:01 26 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2018/09/30-12:00:01 25 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
