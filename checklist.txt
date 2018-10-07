@@ -1,13 +1,13 @@
-Last Update: 2018/10/07-06:00:02
-0 0 Sono Toki, Kanojo wa.|その時、カノジョは。
-0 0 SSSS.Gridman|SSSS.GRIDMAN
+Last Update: 2018/10/07-10:20:03
+2018/10/07-10:20:03 01 Sword Art Online Alicization|ソードアート・オンライン アリシゼーション
+2018/10/07-10:20:03 01 Sono Toki, Kanojo wa.|その時、カノジョは。
+2018/10/07-10:20:03 01 SSSS.Gridman|SSSS.GRIDMAN
+2018/10/07-10:20:03 01 Release the Spyce|RELEASE THE SPYCE
+2018/10/07-10:20:03 01 Goblin Slayer|ゴブリンスレイヤー
 2018/10/07-06:00:02 39 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/10/07-06:00:02 14 Zoids Wild|ゾイドワイルド
 2018/10/07-06:00:02 01 Radiant|ラディアン
 2018/10/07-06:00:02 01 Gyakuten Saiban Season 2|逆転裁判 ～その「真実」、異議あり！～ Season2
-2018/10/07-06:00:02 0 Sword Art Online Alicization|ソードアート・オンライン アリシゼーション
-2018/10/07-06:00:02 0 Release the Spyce|RELEASE THE SPYCE
-2018/10/07-06:00:02 0 Goblin Slayer|ゴブリンスレイヤー
 2018/10/07-00:00:01 14 Baki|バキ
 2018/10/06-15:28:14 01 Okoshiyasu, Chitose-chan|おこしやす、ちとせちゃん
 2018/10/06-15:28:14 01 Irozuku Sekai no Ashita kara|色づく世界の明日から
