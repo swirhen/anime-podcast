@@ -1,4 +1,8 @@
-Last Update: 2018/10/07-12:00:01
+Last Update: 2018/10/07-18:00:01
+2018/10/07-18:00:01 27 Kiratto Pri-chan|キラッとプリ☆チャン
+2018/10/07-18:00:01 27 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
+2018/10/07-18:00:01 26 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
+2018/10/07-18:00:01 0 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
 2018/10/07-10:20:03 01 Sword Art Online Alicization|ソードアート・オンライン アリシゼーション
 2018/10/07-10:20:03 01 Sono Toki, Kanojo wa.|その時、カノジョは。
 2018/10/07-10:20:03 01 SSSS.Gridman|SSSS.GRIDMAN
@@ -42,8 +46,5 @@ Last Update: 2018/10/07-12:00:01
 2018/10/02-12:00:01 01 Double Decker! Doug|DOUBLE DECKER! ダグ＆キリル
 2018/10/02-06:00:01 01 Akanesasu Shoujo|あかねさす少女
 2018/10/02-00:00:01 34 Hugtto! Precure|HuGっと！ プリキュア
-2018/09/30-12:00:01 26 Kiratto Pri-chan|キラッとプリ☆チャン
-2018/09/30-12:00:01 26 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
-2018/09/30-12:00:01 25 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2018/09/24-06:00:02 10 Tsukumogami Kashimasu|つくもがみ貸します
 2018/09/24-06:00:02 10 Shingeki no Kyojin Season 3|進撃の巨人 Season3
