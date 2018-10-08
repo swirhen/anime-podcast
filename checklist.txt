@@ -1,11 +1,11 @@
-Last Update: 2018/10/09-06:00:01
-0 0 Hashiri Tsuzukete Yokattatte.|走り続けてよかったって。
-0 0 Golden Kamuy (2018)|ゴールデンカムイ2
+Last Update: 2018/10/09-07:50:09
+2018/10/09-07:50:09 01 Souten no Ken Regenesis (2018)|蒼天の拳 REGENESIS(第2期)
+2018/10/09-07:50:09 01 Otona no Bouguya-san|おとなの防具屋さん
+2018/10/09-07:50:09 01 Hashiri Tsuzukete Yokattatte.|走り続けてよかったって。
+2018/10/09-07:50:09 01 Golden Kamuy (2018)|ゴールデンカムイ2
 2018/10/09-06:00:01 02 Uchuu Senkan Tiramisu II|宇宙戦艦ティラミスII
 2018/10/09-06:00:01 02 Tensei Shitara Slime Datta Ken|転生したらスライムだった件
 2018/10/09-06:00:01 02 Ken En Ken Aoki Kagayaki|軒轅剣・蒼き曜
-2018/10/09-06:00:01 0 Souten no Ken Regenesis (2018)|蒼天の拳 REGENESIS(第2期)
-2018/10/09-06:00:01 0 Otona no Bouguya-san|おとなの防具屋さん
 2018/10/09-00:00:01 11 Tsukumogami Kashimasu|つくもがみ貸します
 2018/10/09-00:00:01 02 Akanesasu Shoujo|あかねさす少女
 2018/10/08-15:29:18 01 Ulysses Jeanne d`Arc to Renkin no Kishi|ユリシーズ ジャンヌ・ダルクと錬金の騎士
