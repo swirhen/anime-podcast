@@ -1,6 +1,7 @@
-Last Update: 2018/10/11-00:00:01
+Last Update: 2018/10/11-06:00:01
+2018/10/11-06:00:01 02 Sora to Umi no Aida|ソラとウミのアイダ
+2018/10/11-06:00:01 01 Ore ga Suki na no wa Imouto Dakedo Imouto ja Nai|トロールズ：シング・ダンス・ハグ！
 2018/10/11-00:00:01 14 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
-2018/10/11-00:00:01 0 Ore ga Suki na no wa Imouto Dakedo Imouto ja Nai|トロールズ：シング・ダンス・ハグ！
 2018/10/10-12:00:01 01 Conception|CONCEPTION
 2018/10/10-06:00:01 02 Kaze ga Tsuyoku Fuite Iru|風が強く吹いている
 2018/10/10-06:00:01 02 Jingai-san no Yome|人外さんの嫁
@@ -58,5 +59,4 @@ Last Update: 2018/10/11-00:00:01
 2018/10/05-06:00:01 13 Banana Fish|BANANA FISH
 2018/10/05-00:00:01 26 Aikatsu Friends!|アイカツフレンズ！
 2018/10/05-00:00:01 01 Rerided Tokigoe no Derrida|RErideD -刻越えのデリダ-
-2018/10/04-12:00:01 01 Sora to Umi no Aida|ソラとウミのアイダ
 2018/10/04-12:00:01 01 Seishun Buta Yarou wa Bunny Girl Senpai no Yume o Minai|青春ブタ野郎はバニーガール先輩の夢を見ない
