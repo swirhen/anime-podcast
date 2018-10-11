@@ -35,6 +35,9 @@ MAILTO=""
 29 21 * * 4 /data/share/movie/sh/freshrecord.sh "大坪由佳・青山吉能の週末、何してる？" hibiki 1 0 1
 #29 21 * * 5 /data/share/movie/sh/freshrecord.sh "津田健次郎・大河元気のジョシ禁ラジオ" hibiki 1 0 1
 
+# SP
+59 21 17 10 3 /data/share/movie/sh/agqrrecord.sh "文化放送モバイルplus presents 井上喜久子の生放送！ 17歳だけど声優生活30周年記念SPECIAL おいおい" 45 3600 v
+
 # 帯
 59 19 * * 1 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 黒沢ともよ" 45 3600 v
 59 19 * * 2 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 深川芹亜" 45 3600 v
@@ -44,7 +47,6 @@ MAILTO=""
 59 23 * * 1-4 /data/share/movie/sh/agqrrecord.sh "鷲崎健のヨルナイト×ヨルナイト" 45 3600 v
 # -- MON
 59 18 * * 1 /data/share/movie/sh/agqrrecord.sh "石原夏織のCarry up！？" 45 1800 v
-#59 20 * * 1 /data/share/movie/sh/radikorec.sh -o "チマメ隊のポポロンラジオ" -t 1860 QRR
 59 20 * * 1 /data/share/movie/sh/radikorec.sh -o "ご注文はラジオですか？？ ～WELCOME【う・さ！】～" -t 1860 QRR
 29 21 * * 1 /data/share/movie/sh/agqrrecord.sh "東山奈央のラジオ＠リビング" 45 1800
 59 21 * * 1 /data/share/movie/sh/agqrrecord.sh "井口裕香のむ～～～ん⊂（　＾ω＾）⊃" 45 3600 v
