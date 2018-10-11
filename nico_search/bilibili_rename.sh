@@ -61,7 +61,11 @@ if [ "${dir: -3}" = "mp4" ]; then
     done
 
     if [ ${hit_flg} -eq 1 ]; then
-        title=`echo "${title}" | sed "y/０１２３４５６７８９　/0123456789 /" | sed "${SED_STR}"`
+        if [ "${SED_STR}" != "" ]; then
+            title=`echo "${title}" | sed "y/０１２３４５６７８９　/0123456789 /" | sed "${SED_STR}"`
+        else
+            title=`echo "${title}" | sed "y/０１２３４５６７８９　/0123456789 /"`
+        fi
         echo "mv \"${dir}\" \"${title}.mp4\""
         echo "mv \"${title}.mp4\" ${DIR_PREFIX}*/"
     else
