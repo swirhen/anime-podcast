@@ -1,4 +1,7 @@
-Last Update: 2018/10/13-18:00:02
+Last Update: 2018/10/14-00:00:01
+2018/10/14-00:00:01 02 Radiant|ラディアン
+2018/10/14-00:00:01 02 Gyakuten Saiban Season 2|逆転裁判 ～その「真実」、異議あり！～ Season2
+2018/10/14-00:00:01 02 Dakaretai Otoko 1-i ni Odosarete Imasu.|抱かれたい男1位に脅されています。
 2018/10/13-12:00:01 01 Senran Kagura Shinovi Master - Tokyo Youma Hen|閃乱カグラ SHINOVI MASTER -東京妖魔篇-
 2018/10/13-06:00:01 15 Bang Dream! Garupa Pico|BanG Dream! ガルパ☆ピコ
 2018/10/13-06:00:01 11 Muhyo to Roji no Mahouritsu Soudan Jimusho|ムヒョとロージーの魔法律相談事務所
@@ -60,7 +63,4 @@ Last Update: 2018/10/13-18:00:02
 2018/10/07-10:20:03 01 Goblin Slayer|ゴブリンスレイヤー
 2018/10/07-06:00:02 39 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/10/07-06:00:02 14 Zoids Wild|ゾイドワイルド
-2018/10/07-06:00:02 01 Radiant|ラディアン
-2018/10/07-06:00:02 01 Gyakuten Saiban Season 2|逆転裁判 ～その「真実」、異議あり！～ Season2
-2018/10/06-12:00:01 01 Dakaretai Otoko 1-i ni Odosarete Imasu.|抱かれたい男1位に脅されています。
 2018/10/05-12:00:01 01 Devidol!|でびどる！
