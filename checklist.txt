@@ -1,4 +1,7 @@
-Last Update: 2018/10/14-18:00:01
+Last Update: 2018/10/15-00:00:01
+2018/10/15-00:00:01 40 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2018/10/15-00:00:01 15 Zoids Wild|ゾイドワイルド
+2018/10/15-00:00:01 02 Sono Toki, Kanojo wa.|その時、カノジョは。
 2018/10/14-18:00:01 02 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
 2018/10/14-12:00:01 28 Kiratto Pri-chan|キラッとプリ☆チャン
 2018/10/14-12:00:01 28 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
@@ -60,7 +63,4 @@ Last Update: 2018/10/14-18:00:01
 2018/10/08-06:00:01 15 Baki|バキ
 2018/10/08-06:00:01 11 Shingeki no Kyojin Season 3|進撃の巨人 Season3
 2018/10/08-00:00:01 02 Double Decker! Doug|DOUBLE DECKER! ダグ＆キリル
-2018/10/07-10:20:03 01 Sono Toki, Kanojo wa.|その時、カノジョは。
-2018/10/07-06:00:02 39 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
-2018/10/07-06:00:02 14 Zoids Wild|ゾイドワイルド
 2018/10/05-12:00:01 01 Devidol!|でびどる！
