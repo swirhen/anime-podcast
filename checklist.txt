@@ -1,4 +1,12 @@
-Last Update: 2018/10/15-00:00:01
+Last Update: 2018/10/15-06:00:01
+2018/10/15-06:00:01 16 Baki|バキ
+2018/10/15-06:00:01 12 Tsukumogami Kashimasu|つくもがみ貸します
+2018/10/15-06:00:01 12 Shingeki no Kyojin Season 3|進撃の巨人 Season3
+2018/10/15-06:00:01 03 Double Decker! Doug|DOUBLE DECKER! ダグ＆キリル
+2018/10/15-06:00:01 02 Ulysses Jeanne d`Arc to Renkin no Kishi|ユリシーズ ジャンヌ・ダルクと錬金の騎士
+2018/10/15-06:00:01 02 Shuudengo, Capsule Hotel de, Joushi ni Binetsu Tsutawaru Yoru.|終電後、カプセルホテルで、上司に微熱伝わる夜。
+2018/10/15-06:00:01 02 Himote House|ひもてはうす
+2018/10/15-06:00:01 02 Anima Yell!|アニマエール！
 2018/10/15-00:00:01 40 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/10/15-00:00:01 15 Zoids Wild|ゾイドワイルド
 2018/10/15-00:00:01 02 Sono Toki, Kanojo wa.|その時、カノジョは。
@@ -53,14 +61,6 @@ Last Update: 2018/10/15-00:00:01
 2018/10/09-06:00:01 02 Uchuu Senkan Tiramisu II|宇宙戦艦ティラミスII
 2018/10/09-06:00:01 02 Tensei Shitara Slime Datta Ken|転生したらスライムだった件
 2018/10/09-06:00:01 02 Ken En Ken Aoki Kagayaki|軒轅剣・蒼き曜
-2018/10/09-00:00:01 11 Tsukumogami Kashimasu|つくもがみ貸します
 2018/10/09-00:00:01 02 Akanesasu Shoujo|あかねさす少女
-2018/10/08-15:29:18 01 Ulysses Jeanne d`Arc to Renkin no Kishi|ユリシーズ ジャンヌ・ダルクと錬金の騎士
-2018/10/08-15:29:18 01 Shuudengo, Capsule Hotel de, Joushi ni Binetsu Tsutawaru Yoru.|終電後、カプセルホテルで、上司に微熱伝わる夜。
-2018/10/08-12:00:01 01 Himote House|ひもてはうす
-2018/10/08-12:00:01 01 Anima Yell!|アニマエール！
 2018/10/08-06:00:01 35 Hugtto! Precure|HuGっと！ プリキュア
-2018/10/08-06:00:01 15 Baki|バキ
-2018/10/08-06:00:01 11 Shingeki no Kyojin Season 3|進撃の巨人 Season3
-2018/10/08-00:00:01 02 Double Decker! Doug|DOUBLE DECKER! ダグ＆キリル
 2018/10/05-12:00:01 01 Devidol!|でびどる！
