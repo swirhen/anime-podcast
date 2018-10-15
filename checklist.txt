@@ -1,4 +1,6 @@
-Last Update: 2018/10/15-18:00:01
+Last Update: 2018/10/16-00:00:01
+2018/10/16-00:00:01 36 Hugtto! Precure|HuGっと！ プリキュア
+2018/10/16-00:00:01 03 Akanesasu Shoujo|あかねさす少女
 2018/10/15-06:00:01 16 Baki|バキ
 2018/10/15-06:00:01 03 Double Decker! Doug|DOUBLE DECKER! ダグ＆キリル
 2018/10/15-06:00:01 02 Ulysses Jeanne d`Arc to Renkin no Kishi|ユリシーズ ジャンヌ・ダルクと錬金の騎士
@@ -59,6 +61,4 @@ Last Update: 2018/10/15-18:00:01
 2018/10/09-06:00:01 02 Uchuu Senkan Tiramisu II|宇宙戦艦ティラミスII
 2018/10/09-06:00:01 02 Tensei Shitara Slime Datta Ken|転生したらスライムだった件
 2018/10/09-06:00:01 02 Ken En Ken Aoki Kagayaki|軒轅剣・蒼き曜
-2018/10/09-00:00:01 02 Akanesasu Shoujo|あかねさす少女
-2018/10/08-06:00:01 35 Hugtto! Precure|HuGっと！ プリキュア
 2018/10/05-12:00:01 01 Devidol!|でびどる！
