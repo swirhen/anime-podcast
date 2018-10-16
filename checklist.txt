@@ -1,4 +1,8 @@
-Last Update: 2018/10/17-00:00:01
+Last Update: 2018/10/17-06:00:01
+2018/10/17-06:00:01 29 Captain Tsubasa|キャプテン翼
+2018/10/17-06:00:01 03 Kaze ga Tsuyoku Fuite Iru|風が強く吹いている
+2018/10/17-06:00:01 03 Jingai-san no Yome|人外さんの嫁
+2018/10/17-06:00:01 02 Conception|CONCEPTION
 2018/10/17-00:00:01 54 Black Clover|ブラッククローバー
 2018/10/17-00:00:01 03 Ken En Ken Aoki Kagayaki|軒轅剣・蒼き曜
 2018/10/17-00:00:01 02 Tokyo Ghoul Re (2018)|東京喰種:re 最終章
@@ -57,8 +61,4 @@ Last Update: 2018/10/17-00:00:01
 2018/10/11-06:00:01 02 Sora to Umi no Aida|ソラとウミのアイダ
 2018/10/11-06:00:01 01 Ore ga Suki na no wa Imouto Dakedo Imouto ja Nai|俺が好きなのは妹だけど妹じゃない
 2018/10/11-00:00:01 14 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
-2018/10/10-12:00:01 01 Conception|CONCEPTION
-2018/10/10-06:00:01 02 Kaze ga Tsuyoku Fuite Iru|風が強く吹いている
-2018/10/10-06:00:01 02 Jingai-san no Yome|人外さんの嫁
-2018/10/09-18:00:01 28 Captain Tsubasa|キャプテン翼
 2018/10/05-12:00:01 01 Devidol!|でびどる！
