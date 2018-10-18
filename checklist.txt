@@ -1,9 +1,10 @@
-Last Update: 2018/10/19-00:00:01
+Last Update: 2018/10/19-06:00:01
+2018/10/19-06:00:01 03 Zombieland Saga|ゾンビランドサガ
+2018/10/19-06:00:01 01 Ingress the Animation|INGRESS THE ANIMATION
 2018/10/19-00:00:01 28 Aikatsu Friends!|アイカツフレンズ！
 2018/10/19-00:00:01 03 Rerided Tokigoe no Derrida|RErideD -刻越えのデリダ-
 2018/10/19-00:00:01 02 Merc Storia Mukiryoku Shounen to Bin no Naka no Shoujo|メルクストーリア -無気力少年と瓶の中の少女-
 2018/10/19-00:00:01 02 Karakuri Circus|からくりサーカス
-2018/10/19-00:00:01 0 Ingress the Animation|INGRESS THE ANIMATION
 2018/10/18-06:00:01 03 Sora to Umi no Aida|ソラとウミのアイダ
 2018/10/18-06:00:01 03 Seishun Buta Yarou wa Bunny Girl Senpai no Yume o Minai|青春ブタ野郎はバニーガール先輩の夢を見ない
 2018/10/18-06:00:01 02 Beelzebub-jou no Oki ni Mesu Mama.|ベルゼブブ嬢のお気に召すまま。
@@ -61,5 +62,4 @@ Last Update: 2018/10/19-00:00:01
 2018/10/12-18:00:01 14 Banana Fish|BANANA FISH
 2018/10/12-18:00:01 02 Gakuen Basara|学園BASARA
 2018/10/12-18:00:01 02 Bakumatsu|BAKUMATSU
-2018/10/12-06:00:01 02 Zombieland Saga|ゾンビランドサガ
 2018/10/05-12:00:01 01 Devidol!|でびどる！
