@@ -36,7 +36,7 @@ MAILTO=""
 #29 21 * * 5 /data/share/movie/sh/freshrecord.sh "津田健次郎・大河元気のジョシ禁ラジオ" hibiki 1 0 1
 
 # SP
-59 21 17 10 3 /data/share/movie/sh/agqrrecord.sh "文化放送モバイルplus presents 井上喜久子の生放送！ 17歳だけど声優生活30周年記念SPECIAL おいおい" 45 3600 v
+59 20 27 10 6 /data/share/movie/sh/radikorec.sh -o "A&G TRIBAL RADIO エジソン" -t 7260 QRR
 
 # 帯
 59 19 * * 1 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 黒沢ともよ" 45 3600 v
