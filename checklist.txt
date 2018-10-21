@@ -1,4 +1,9 @@
-Last Update: 2018/10/21-06:00:01
+Last Update: 2018/10/21-12:00:01
+2018/10/21-12:00:01 29 Kiratto Pri-chan|キラッとプリ☆チャン
+2018/10/21-12:00:01 29 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
+2018/10/21-12:00:01 28 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
+2018/10/21-12:00:01 03 Release the Spyce|RELEASE THE SPYCE
+2018/10/21-12:00:01 03 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
 2018/10/21-06:00:01 03 Sword Art Online Alicization|ソードアート・オンライン アリシゼーション
 2018/10/21-06:00:01 03 Sono Toki, Kanojo wa.|その時、カノジョは。
 2018/10/21-06:00:01 03 SSSS.Gridman|SSSS.GRIDMAN
@@ -58,8 +63,3 @@ Last Update: 2018/10/21-06:00:01
 2018/10/15-06:00:01 02 Anima Yell!|アニマエール！
 2018/10/15-00:00:01 40 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/10/15-00:00:01 15 Zoids Wild|ゾイドワイルド
-2018/10/14-18:00:01 02 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
-2018/10/14-12:00:01 28 Kiratto Pri-chan|キラッとプリ☆チャン
-2018/10/14-12:00:01 28 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
-2018/10/14-12:00:01 27 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
-2018/10/14-06:00:02 02 Release the Spyce|RELEASE THE SPYCE
