@@ -1,4 +1,10 @@
-Last Update: 2018/10/22-00:00:01
+Last Update: 2018/10/22-06:00:01
+2018/10/22-06:00:01 37 Hugtto! Precure|HuGっと！ プリキュア
+2018/10/22-06:00:01 17 Baki|バキ
+2018/10/22-06:00:01 03 Shuudengo, Capsule Hotel de, Joushi ni Binetsu Tsutawaru Yoru.|終電後、カプセルホテルで、上司に微熱伝わる夜。
+2018/10/22-06:00:01 03 Himote House|ひもてはうす
+2018/10/22-06:00:01 03 Anima Yell!|アニマエール！
+2018/10/22-06:00:01 0 Tsurune Kazemai Koukou Kyuudou Bu|ツルネ ―風舞高校弓道部―
 2018/10/22-00:00:01 04 Double Decker! Doug|DOUBLE DECKER! ダグ＆キリル
 2018/10/22-00:00:01 03 Ulysses Jeanne d`Arc to Renkin no Kishi|ユリシーズ ジャンヌ・ダルクと錬金の騎士
 2018/10/21-18:00:01 41 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
@@ -57,9 +63,4 @@ Last Update: 2018/10/22-00:00:01
 2018/10/16-06:00:01 02 Souten no Ken Regenesis (2018)|蒼天の拳 REGENESIS(第2期)
 2018/10/16-06:00:01 02 Otona no Bouguya-san|おとなの防具屋さん
 2018/10/16-06:00:01 02 Golden Kamuy (2018)|ゴールデンカムイ2
-2018/10/16-00:00:01 36 Hugtto! Precure|HuGっと！ プリキュア
 2018/10/16-00:00:01 03 Akanesasu Shoujo|あかねさす少女
-2018/10/15-06:00:01 16 Baki|バキ
-2018/10/15-06:00:01 02 Shuudengo, Capsule Hotel de, Joushi ni Binetsu Tsutawaru Yoru.|終電後、カプセルホテルで、上司に微熱伝わる夜。
-2018/10/15-06:00:01 02 Himote House|ひもてはうす
-2018/10/15-06:00:01 02 Anima Yell!|アニマエール！
