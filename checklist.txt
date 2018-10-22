@@ -1,4 +1,8 @@
-Last Update: 2018/10/23-00:00:01
+Last Update: 2018/10/23-06:00:01
+2018/10/23-06:00:01 04 Uchuu Senkan Tiramisu II|宇宙戦艦ティラミスII
+2018/10/23-06:00:01 04 Tensei Shitara Slime Datta Ken|転生したらスライムだった件
+2018/10/23-06:00:01 03 Souten no Ken Regenesis (2018)|蒼天の拳 REGENESIS(第2期)
+2018/10/23-06:00:01 03 Otona no Bouguya-san|おとなの防具屋さん
 2018/10/23-00:00:01 04 Akanesasu Shoujo|あかねさす少女
 2018/10/23-00:00:01 03 Golden Kamuy (2018)|ゴールデンカムイ2
 2018/10/22-12:00:01 01 Tsurune Kazemai Koukou Kyuudou Bu|ツルネ ―風舞高校弓道部―
@@ -60,7 +64,3 @@ Last Update: 2018/10/23-00:00:01
 2018/10/17-00:00:01 02 Tokyo Ghoul Re (2018)|東京喰種:re 最終章
 2018/10/17-00:00:01 02 Idolmaster Side M Wake Atte Mini|アイドルマスター SideM 理由あってMini！
 2018/10/16-12:00:01 02 Hashiri Tsuzukete Yokattatte.|走り続けてよかったって。
-2018/10/16-06:00:01 03 Uchuu Senkan Tiramisu II|宇宙戦艦ティラミスII
-2018/10/16-06:00:01 03 Tensei Shitara Slime Datta Ken|転生したらスライムだった件
-2018/10/16-06:00:01 02 Souten no Ken Regenesis (2018)|蒼天の拳 REGENESIS(第2期)
-2018/10/16-06:00:01 02 Otona no Bouguya-san|おとなの防具屋さん
