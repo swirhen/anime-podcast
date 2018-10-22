@@ -1,4 +1,6 @@
-Last Update: 2018/10/22-18:00:01
+Last Update: 2018/10/23-00:00:01
+2018/10/23-00:00:01 04 Akanesasu Shoujo|あかねさす少女
+2018/10/23-00:00:01 03 Golden Kamuy (2018)|ゴールデンカムイ2
 2018/10/22-12:00:01 01 Tsurune Kazemai Koukou Kyuudou Bu|ツルネ ―風舞高校弓道部―
 2018/10/22-06:00:01 37 Hugtto! Precure|HuGっと！ プリキュア
 2018/10/22-06:00:01 17 Baki|バキ
@@ -62,5 +64,3 @@ Last Update: 2018/10/22-18:00:01
 2018/10/16-06:00:01 03 Tensei Shitara Slime Datta Ken|転生したらスライムだった件
 2018/10/16-06:00:01 02 Souten no Ken Regenesis (2018)|蒼天の拳 REGENESIS(第2期)
 2018/10/16-06:00:01 02 Otona no Bouguya-san|おとなの防具屋さん
-2018/10/16-06:00:01 02 Golden Kamuy (2018)|ゴールデンカムイ2
-2018/10/16-00:00:01 03 Akanesasu Shoujo|あかねさす少女
