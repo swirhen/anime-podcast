@@ -1,9 +1,11 @@
-Last Update: 2018/10/26-00:00:01
+Last Update: 2018/10/26-12:00:01
+2018/10/26-12:00:01 16 Banana Fish|BANANA FISH
+2018/10/26-12:00:01 04 Zombieland Saga|ゾンビランドサガ
+2018/10/26-12:00:01 01 Han-Gyaku-Sei Million Arthur|叛逆性ミリオンアーサー
 2018/10/26-00:00:01 29 Aikatsu Friends!|アイカツフレンズ！
 2018/10/26-00:00:01 04 Rerided Tokigoe no Derrida|RErideD -刻越えのデリダ-
 2018/10/26-00:00:01 03 Merc Storia Mukiryoku Shounen to Bin no Naka no Shoujo|メルクストーリア -無気力少年と瓶の中の少女-
 2018/10/26-00:00:01 03 Karakuri Circus|からくりサーカス
-2018/10/26-00:00:01 0 Han-Gyaku-Sei Million Arthur|叛逆性ミリオンアーサー
 2018/10/25-12:00:01 04 Seishun Buta Yarou wa Bunny Girl Senpai no Yume o Minai|青春ブタ野郎はバニーガール先輩の夢を見ない
 2018/10/25-12:00:01 03 Beelzebub-jou no Oki ni Mesu Mama.|ベルゼブブ嬢のお気に召すまま。
 2018/10/25-06:00:01 04 Sora to Umi no Aida|ソラとウミのアイダ
@@ -53,7 +55,6 @@ Last Update: 2018/10/26-00:00:01
 2018/10/20-06:00:01 03 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
 2018/10/20-06:00:01 02 Senran Kagura Shinovi Master - Tokyo Youma Hen|閃乱カグラ SHINOVI MASTER -東京妖魔篇-
 2018/10/20-00:00:01 16 Bang Dream! Garupa Pico|BanG Dream! ガルパ☆ピコ
-2018/10/20-00:00:01 15 Banana Fish|BANANA FISH
 2018/10/20-00:00:01 12 Muhyo to Roji no Mahouritsu Soudan Jimusho|ムヒョとロージーの魔法律相談事務所
 2018/10/20-00:00:01 03 Yagate Kimi ni Naru|やがて君になる
 2018/10/20-00:00:01 03 Uchi no Maid ga Uzasugiru!|うちのメイドがウザすぎる！
@@ -64,4 +65,3 @@ Last Update: 2018/10/26-00:00:01
 2018/10/20-00:00:01 03 Gakuen Basara|学園BASARA
 2018/10/20-00:00:01 03 Bakumatsu|BAKUMATSU
 2018/10/20-00:00:01 02 Devidol!|でびどる！
-2018/10/19-06:00:01 03 Zombieland Saga|ゾンビランドサガ
