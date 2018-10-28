@@ -1,4 +1,11 @@
-Last Update: 2018/10/29-00:00:01
+Last Update: 2018/10/29-06:00:01
+2018/10/29-06:00:01 38 Hugtto! Precure|HuGっと！ プリキュア
+2018/10/29-06:00:01 18 Baki|バキ
+2018/10/29-06:00:01 17 Zoids Wild|ゾイドワイルド
+2018/10/29-06:00:01 04 Shuudengo, Capsule Hotel de, Joushi ni Binetsu Tsutawaru Yoru.|終電後、カプセルホテルで、上司に微熱伝わる夜。
+2018/10/29-06:00:01 04 Himote House|ひもてはうす
+2018/10/29-06:00:01 04 Anima Yell!|アニマエール！
+2018/10/29-06:00:01 02 Tsurune Kazemai Koukou Kyuudou Bu|ツルネ ―風舞高校弓道部―
 2018/10/29-00:00:01 05 Double Decker! Doug|DOUBLE DECKER! ダグ＆キリル
 2018/10/29-00:00:01 04 Ulysses Jeanne d`Arc to Renkin no Kishi|ユリシーズ ジャンヌ・ダルクと錬金の騎士
 2018/10/28-12:00:01 30 Kiratto Pri-chan|キラッとプリ☆チャン
@@ -56,12 +63,5 @@ Last Update: 2018/10/29-00:00:01
 2018/10/23-06:00:01 03 Otona no Bouguya-san|おとなの防具屋さん
 2018/10/23-00:00:01 04 Akanesasu Shoujo|あかねさす少女
 2018/10/23-00:00:01 03 Golden Kamuy (2018)|ゴールデンカムイ2
-2018/10/22-12:00:01 01 Tsurune Kazemai Koukou Kyuudou Bu|ツルネ ―風舞高校弓道部―
-2018/10/22-06:00:01 37 Hugtto! Precure|HuGっと！ プリキュア
-2018/10/22-06:00:01 17 Baki|バキ
-2018/10/22-06:00:01 03 Shuudengo, Capsule Hotel de, Joushi ni Binetsu Tsutawaru Yoru.|終電後、カプセルホテルで、上司に微熱伝わる夜。
-2018/10/22-06:00:01 03 Himote House|ひもてはうす
-2018/10/22-06:00:01 03 Anima Yell!|アニマエール！
-2018/10/21-18:00:01 16 Zoids Wild|ゾイドワイルド
 2018/10/20-00:00:01 12 Muhyo to Roji no Mahouritsu Soudan Jimusho|ムヒョとロージーの魔法律相談事務所
 2018/10/20-00:00:01 02 Devidol!|でびどる！
