@@ -1,4 +1,14 @@
-Last Update: 2018/11/09-18:00:01
+Last Update: 2018/11/10-00:00:01
+2018/11/10-00:00:01 19 Bang Dream! Garupa Pico|BanG Dream! ガルパ☆ピコ
+2018/11/10-00:00:01 18 Banana Fish|BANANA FISH
+2018/11/10-00:00:01 06 Yagate Kimi ni Naru|やがて君になる
+2018/11/10-00:00:01 06 Uchi no Maid ga Uzasugiru!|うちのメイドがウザすぎる！
+2018/11/10-00:00:01 06 Tonari no Kyuuketsuki-san|となりの吸血鬼さん
+2018/11/10-00:00:01 06 Toaru Majutsu no Index III|とある魔術の禁書目録III
+2018/11/10-00:00:01 06 Kitsune no Koe|狐狸之声
+2018/11/10-00:00:01 06 Hinomaru Zumou|火ノ丸相撲
+2018/11/10-00:00:01 06 Gakuen Basara|学園BASARA
+2018/11/10-00:00:01 06 Bakumatsu|BAKUMATSU
 2018/11/09-06:00:01 06 Zombieland Saga|ゾンビランドサガ
 2018/11/09-00:00:01 31 Aikatsu Friends!|アイカツフレンズ！
 2018/11/09-00:00:01 06 Rerided Tokigoe no Derrida|RErideD -刻越えのデリダ-
@@ -50,16 +60,6 @@ Last Update: 2018/11/09-18:00:01
 2018/11/03-06:00:01 05 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
 2018/11/03-06:00:01 05 Irozuku Sekai no Ashita kara|色づく世界の明日から
 2018/11/03-06:00:01 04 Senran Kagura Shinovi Master - Tokyo Youma Hen|閃乱カグラ SHINOVI MASTER -東京妖魔篇-
-2018/11/03-00:00:01 18 Bang Dream! Garupa Pico|BanG Dream! ガルパ☆ピコ
-2018/11/03-00:00:01 17 Banana Fish|BANANA FISH
-2018/11/03-00:00:01 05 Yagate Kimi ni Naru|やがて君になる
-2018/11/03-00:00:01 05 Uchi no Maid ga Uzasugiru!|うちのメイドがウザすぎる！
-2018/11/03-00:00:01 05 Tonari no Kyuuketsuki-san|となりの吸血鬼さん
-2018/11/03-00:00:01 05 Toaru Majutsu no Index III|とある魔術の禁書目録III
-2018/11/03-00:00:01 05 Kitsune no Koe|狐狸之声
-2018/11/03-00:00:01 05 Hinomaru Zumou|火ノ丸相撲
-2018/11/03-00:00:01 05 Gakuen Basara|学園BASARA
-2018/11/03-00:00:01 05 Bakumatsu|BAKUMATSU
 2018/10/31-00:00:02 04 Idolmaster Side M Wake Atte Mini|アイドルマスター SideM 理由あってMini！
 2018/10/29-06:00:01 38 Hugtto! Precure|HuGっと！ プリキュア
 2018/10/24-00:00:01 03 Hashiri Tsuzukete Yokattatte.|走り続けてよかったって。
