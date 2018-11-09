@@ -35,8 +35,8 @@ MAILTO=""
 #29 21 * * 5 /data/share/movie/sh/freshrecord.sh "津田健次郎・大河元気のジョシ禁ラジオ" hibiki 1 0 1
 
 # SP
-59 15 16 11 5 /data/share/movie/sh/agqrrecord.sh "THE IDOLM@STER CINDERELLA GIRLS 7thANNIVERSARY M@GICAL PASSION HOUR" 45 3600
-59 15 30 11 5 /data/share/movie/sh/agqrrecord.sh -o "THE IDOLM@STER CINDERELLA GIRLS 7thANNIVERSARY M@GICAL COOL HOUR" 45 3600
+59 15 16 11 * /data/share/movie/sh/agqrrecord.sh "THE IDOLM@STER CINDERELLA GIRLS 7thANNIVERSARY M@GICAL PASSION HOUR" 45 3600
+59 15 30 11 * /data/share/movie/sh/agqrrecord.sh "THE IDOLM@STER CINDERELLA GIRLS 7thANNIVERSARY M@GICAL COOL HOUR" 45 3600
 # 帯
 59 19 * * 1 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 黒沢ともよ" 45 3600 v
 59 19 * * 2 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 深川芹亜" 45 3600 v
