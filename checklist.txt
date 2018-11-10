@@ -1,4 +1,7 @@
-Last Update: 2018/11/10-18:00:01
+Last Update: 2018/11/11-00:00:01
+2018/11/11-00:00:01 06 Radiant|ラディアン
+2018/11/11-00:00:01 06 Gyakuten Saiban Season 2|逆転裁判 ～その「真実」、異議あり！～ Season2
+2018/11/11-00:00:01 06 Dakaretai Otoko 1-i ni Odosarete Imasu.|抱かれたい男1位に脅されています。
 2018/11/10-06:00:01 06 Okoshiyasu, Chitose-chan|おこしやす、ちとせちゃん
 2018/11/10-06:00:01 06 Kishuku Gakkou no Juliet|寄宿学校のジュリエット
 2018/11/10-06:00:01 06 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
@@ -57,9 +60,6 @@ Last Update: 2018/11/10-18:00:01
 2018/11/04-06:00:01 05 Sword Art Online Alicization|ソードアート・オンライン アリシゼーション
 2018/11/04-06:00:01 05 SSSS.Gridman|SSSS.GRIDMAN
 2018/11/04-06:00:01 05 Goblin Slayer|ゴブリンスレイヤー
-2018/11/04-00:00:01 05 Radiant|ラディアン
-2018/11/04-00:00:01 05 Gyakuten Saiban Season 2|逆転裁判 ～その「真実」、異議あり！～ Season2
-2018/11/04-00:00:01 05 Dakaretai Otoko 1-i ni Odosarete Imasu.|抱かれたい男1位に脅されています。
 2018/10/31-00:00:02 04 Idolmaster Side M Wake Atte Mini|アイドルマスター SideM 理由あってMini！
 2018/10/29-06:00:01 38 Hugtto! Precure|HuGっと！ プリキュア
 2018/10/24-00:00:01 03 Hashiri Tsuzukete Yokattatte.|走り続けてよかったって。
