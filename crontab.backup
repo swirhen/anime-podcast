@@ -21,7 +21,7 @@ MAILTO=""
 # 第2,4月曜
 59 21 8-14,22-28 * * [ "$(date '+\%w')" -eq 1 ] && /data/share/movie/sh/freshrecord.sh "ゴー☆ジャス＠レボ☆リューショ" secondshot 0
 # SP
-59 19 14 11 3 /data/share/movie/sh/freshrecord.sh "木戸衣吹" kido-ibuki 0
+59 20 14 11 * /data/share/movie/sh/freshrecord.sh "木戸衣吹" kido-ibuki 0
 # 隔週水曜(毎週取得)
 59 20 * * 3 /data/share/movie/sh/freshrecord.sh "伊藤美来の「フレッシュはじめました」" ito_miku 0
 59 20 * * 3 /data/share/movie/sh/freshrecord.sh "愛美のPerfect Woman" hibiki 1
@@ -37,6 +37,8 @@ MAILTO=""
 # SP
 59 15 16 11 * /data/share/movie/sh/agqrrecord.sh "THE IDOLM@STER CINDERELLA GIRLS 7thANNIVERSARY M@GICAL PASSION HOUR" 45 3600
 59 15 30 11 * /data/share/movie/sh/agqrrecord.sh "THE IDOLM@STER CINDERELLA GIRLS 7thANNIVERSARY M@GICAL COOL HOUR" 45 3600
+59 21 28 11 * /data/share/movie/sh/agqrrecord.sh "國府田マリ子の生放送！ 復活！ ツインビーPARADISE SPECIAL 合言葉はBee！" 45 3600 v
+
 # 帯
 59 19 * * 1 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 黒沢ともよ" 45 3600 v
 59 19 * * 2 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 深川芹亜" 45 3600 v
