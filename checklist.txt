@@ -1,4 +1,7 @@
-Last Update: 2018/11/18-00:00:01
+Last Update: 2018/11/18-06:00:02
+2018/11/18-06:00:02 07 Sword Art Online Alicization|ソードアート・オンライン アリシゼーション
+2018/11/18-06:00:02 07 SSSS.Gridman|SSSS.GRIDMAN
+2018/11/18-06:00:02 07 Goblin Slayer|ゴブリンスレイヤー
 2018/11/18-00:00:01 07 Radiant|ラディアン
 2018/11/18-00:00:01 07 Gyakuten Saiban Season 2|逆転裁判 ～その「真実」、異議あり！～ Season2
 2018/11/18-00:00:01 07 Dakaretai Otoko 1-i ni Odosarete Imasu.|抱かれたい男1位に脅されています。
@@ -59,9 +62,6 @@ Last Update: 2018/11/18-00:00:01
 2018/11/11-12:00:01 31 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2018/11/11-12:00:01 06 Release the Spyce|RELEASE THE SPYCE
 2018/11/11-12:00:01 06 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
-2018/11/11-06:00:01 06 Sword Art Online Alicization|ソードアート・オンライン アリシゼーション
-2018/11/11-06:00:01 06 SSSS.Gridman|SSSS.GRIDMAN
-2018/11/11-06:00:01 06 Goblin Slayer|ゴブリンスレイヤー
 2018/10/24-00:00:01 03 Hashiri Tsuzukete Yokattatte.|走り続けてよかったって。
 2018/10/20-00:00:01 12 Muhyo to Roji no Mahouritsu Soudan Jimusho|ムヒョとロージーの魔法律相談事務所
 2018/10/20-00:00:01 02 Devidol!|でびどる！
