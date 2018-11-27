@@ -1,4 +1,6 @@
-Last Update: 2018/11/27-18:00:02
+Last Update: 2018/11/28-00:00:01
+2018/11/28-00:00:01 60 Black Clover|ブラッククローバー
+2018/11/28-00:00:01 09 Ken En Ken Aoki Kagayaki|軒轅剣・蒼き曜
 2018/11/27-18:00:02 35 Captain Tsubasa|キャプテン翼
 2018/11/27-06:00:01 09 Uchuu Senkan Tiramisu II|宇宙戦艦ティラミスII
 2018/11/27-06:00:01 09 Tensei Shitara Slime Datta Ken|転生したらスライムだった件
@@ -58,8 +60,6 @@ Last Update: 2018/11/27-18:00:02
 2018/11/21-06:00:01 08 Kaze ga Tsuyoku Fuite Iru|風が強く吹いている
 2018/11/21-06:00:01 08 Jingai-san no Yome|人外さんの嫁
 2018/11/21-06:00:01 07 Conception|CONCEPTION
-2018/11/21-00:00:01 59 Black Clover|ブラッククローバー
-2018/11/21-00:00:01 08 Ken En Ken Aoki Kagayaki|軒轅剣・蒼き曜
 2018/11/21-00:00:01 07 Tokyo Ghoul Re (2018)|東京喰種:re 最終章
 2018/11/21-00:00:01 07 Idolmaster Side M Wake Atte Mini|アイドルマスター SideM 理由あってMini！
 2018/11/15-00:00:02 06 Ore ga Suki na no wa Imouto Dakedo Imouto ja Nai|俺が好きなのは妹だけど妹じゃない
