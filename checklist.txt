@@ -1,4 +1,5 @@
-Last Update: 2018/11/30-00:00:01
+Last Update: 2018/11/30-06:00:01
+2018/11/30-06:00:01 09 Zombieland Saga|ゾンビランドサガ
 2018/11/30-00:00:01 34 Aikatsu Friends!|アイカツフレンズ！
 2018/11/30-00:00:01 09 Rerided Tokigoe no Derrida|RErideD -刻越えのデリダ-
 2018/11/30-00:00:01 08 Merc Storia Mukiryoku Shounen to Bin no Naka no Shoujo|メルクストーリア -無気力少年と瓶の中の少女-
@@ -61,7 +62,6 @@ Last Update: 2018/11/30-00:00:01
 2018/11/24-00:00:01 08 Hinomaru Zumou|火ノ丸相撲
 2018/11/24-00:00:01 08 Gakuen Basara|学園BASARA
 2018/11/24-00:00:01 08 Bakumatsu|BAKUMATSU
-2018/11/23-12:00:01 08 Zombieland Saga|ゾンビランドサガ
 2018/11/23-12:00:01 03 Devidol!|でびどる！
 2018/10/24-00:00:01 03 Hashiri Tsuzukete Yokattatte.|走り続けてよかったって。
 2018/10/20-00:00:01 12 Muhyo to Roji no Mahouritsu Soudan Jimusho|ムヒョとロージーの魔法律相談事務所
