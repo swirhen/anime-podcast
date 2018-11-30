@@ -1,4 +1,6 @@
-Last Update: 2018/11/30-06:00:01
+Last Update: 2018/11/30-12:00:01
+2018/11/30-12:00:01 21 Banana Fish|BANANA FISH
+2018/11/30-12:00:01 09 Bakumatsu|BAKUMATSU
 2018/11/30-06:00:01 09 Zombieland Saga|ゾンビランドサガ
 2018/11/30-00:00:01 34 Aikatsu Friends!|アイカツフレンズ！
 2018/11/30-00:00:01 09 Rerided Tokigoe no Derrida|RErideD -刻越えのデリダ-
@@ -53,7 +55,6 @@ Last Update: 2018/11/30-06:00:01
 2018/11/24-06:00:01 08 Irozuku Sekai no Ashita kara|色づく世界の明日から
 2018/11/24-06:00:01 07 Senran Kagura Shinovi Master - Tokyo Youma Hen|閃乱カグラ SHINOVI MASTER -東京妖魔篇-
 2018/11/24-00:00:01 21 Bang Dream! Garupa Pico|BanG Dream! ガルパ☆ピコ
-2018/11/24-00:00:01 20 Banana Fish|BANANA FISH
 2018/11/24-00:00:01 08 Yagate Kimi ni Naru|やがて君になる
 2018/11/24-00:00:01 08 Uchi no Maid ga Uzasugiru!|うちのメイドがウザすぎる！
 2018/11/24-00:00:01 08 Tonari no Kyuuketsuki-san|となりの吸血鬼さん
@@ -61,7 +62,6 @@ Last Update: 2018/11/30-06:00:01
 2018/11/24-00:00:01 08 Kitsune no Koe|狐狸之声
 2018/11/24-00:00:01 08 Hinomaru Zumou|火ノ丸相撲
 2018/11/24-00:00:01 08 Gakuen Basara|学園BASARA
-2018/11/24-00:00:01 08 Bakumatsu|BAKUMATSU
 2018/11/23-12:00:01 03 Devidol!|でびどる！
 2018/10/24-00:00:01 03 Hashiri Tsuzukete Yokattatte.|走り続けてよかったって。
 2018/10/20-00:00:01 12 Muhyo to Roji no Mahouritsu Soudan Jimusho|ムヒョとロージーの魔法律相談事務所
