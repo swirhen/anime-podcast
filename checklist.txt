@@ -1,4 +1,8 @@
-Last Update: 2018/12/02-00:00:01
+Last Update: 2018/12/02-06:00:01
+2018/12/02-06:00:01 09 Sword Art Online Alicization|ソードアート・オンライン アリシゼーション
+2018/12/02-06:00:01 09 SSSS.Gridman|SSSS.GRIDMAN
+2018/12/02-06:00:01 09 Release the Spyce|RELEASE THE SPYCE
+2018/12/02-06:00:01 09 Goblin Slayer|ゴブリンスレイヤー
 2018/12/02-00:00:01 09 Radiant|ラディアン
 2018/12/02-00:00:01 09 Gyakuten Saiban Season 2|逆転裁判 ～その「真実」、異議あり！～ Season2
 2018/12/02-00:00:01 09 Dakaretai Otoko 1-i ni Odosarete Imasu.|抱かれたい男1位に脅されています。
@@ -57,10 +61,6 @@ Last Update: 2018/12/02-00:00:01
 2018/11/25-12:00:01 21 Zoids Wild|ゾイドワイルド
 2018/11/25-12:00:01 08 Sono Toki, Kanojo wa.|その時、カノジョは。
 2018/11/25-12:00:01 08 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
-2018/11/25-06:00:01 08 Sword Art Online Alicization|ソードアート・オンライン アリシゼーション
-2018/11/25-06:00:01 08 SSSS.Gridman|SSSS.GRIDMAN
-2018/11/25-06:00:01 08 Release the Spyce|RELEASE THE SPYCE
-2018/11/25-06:00:01 08 Goblin Slayer|ゴブリンスレイヤー
 2018/11/24-00:00:01 08 Gakuen Basara|学園BASARA
 2018/11/23-12:00:01 03 Devidol!|でびどる！
 2018/10/24-00:00:01 03 Hashiri Tsuzukete Yokattatte.|走り続けてよかったって。
