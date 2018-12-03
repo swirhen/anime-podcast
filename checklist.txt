@@ -1,4 +1,5 @@
-Last Update: 2018/12/03-12:00:01
+Last Update: 2018/12/03-18:00:02
+2018/12/03-18:00:02 42 Hugtto! Precure|HuGっと！ プリキュア
 2018/12/03-06:00:01 47 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/12/03-06:00:01 23 Baki|バキ
 2018/12/03-06:00:01 09 Shuudengo, Capsule Hotel de, Joushi ni Binetsu Tsutawaru Yoru.|終電後、カプセルホテルで、上司に微熱伝わる夜。
@@ -55,7 +56,6 @@ Last Update: 2018/12/03-12:00:01
 2018/11/27-06:00:01 08 Otona no Bouguya-san|おとなの防具屋さん
 2018/11/27-06:00:01 08 Golden Kamuy (2018)|ゴールデンカムイ2
 2018/11/27-00:00:01 09 Akanesasu Shoujo|あかねさす少女
-2018/11/26-18:00:01 41 Hugtto! Precure|HuGっと！ プリキュア
 2018/11/26-06:00:01 06 Tsurune Kazemai Koukou Kyuudou Bu|ツルネ ―風舞高校弓道部―
 2018/11/26-00:00:01 08 Ulysses Jeanne d`Arc to Renkin no Kishi|ユリシーズ ジャンヌ・ダルクと錬金の騎士
 2018/11/25-12:00:01 34 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
