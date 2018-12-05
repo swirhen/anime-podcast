@@ -1,4 +1,7 @@
-Last Update: 2018/12/05-18:00:01
+Last Update: 2018/12/06-00:00:01
+2018/12/06-00:00:01 22 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
+2018/12/06-00:00:01 10 Kaze ga Tsuyoku Fuite Iru|風が強く吹いている
+2018/12/06-00:00:01 08 Ore ga Suki na no wa Imouto Dakedo Imouto ja Nai|俺が好きなのは妹だけど妹じゃない
 2018/12/05-06:00:02 10 Jingai-san no Yome|人外さんの嫁
 2018/12/05-06:00:02 09 Tokyo Ghoul Re (2018)|東京喰種:re 最終章
 2018/12/05-06:00:02 09 Idolmaster Side M Wake Atte Mini|アイドルマスター SideM 理由あってMini！
@@ -54,9 +57,6 @@ Last Update: 2018/12/05-18:00:01
 2018/11/29-06:00:01 09 Seishun Buta Yarou wa Bunny Girl Senpai no Yume o Minai|青春ブタ野郎はバニーガール先輩の夢を見ない
 2018/11/29-06:00:01 08 Beelzebub-jou no Oki ni Mesu Mama.|ベルゼブブ嬢のお気に召すまま。
 2018/11/29-06:00:01 07 Ingress the Animation|INGRESS THE ANIMATION
-2018/11/29-00:00:02 21 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
-2018/11/29-00:00:02 07 Ore ga Suki na no wa Imouto Dakedo Imouto ja Nai|俺が好きなのは妹だけど妹じゃない
-2018/11/28-06:00:01 09 Kaze ga Tsuyoku Fuite Iru|風が強く吹いている
 2018/11/26-06:00:01 06 Tsurune Kazemai Koukou Kyuudou Bu|ツルネ ―風舞高校弓道部―
 2018/11/26-00:00:01 08 Ulysses Jeanne d`Arc to Renkin no Kishi|ユリシーズ ジャンヌ・ダルクと錬金の騎士
 2018/11/25-12:00:01 34 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
