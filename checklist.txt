@@ -1,4 +1,6 @@
-Last Update: 2018/12/07-00:00:01
+Last Update: 2018/12/07-06:00:01
+2018/12/07-06:00:01 10 Zombieland Saga|ゾンビランドサガ
+2018/12/07-06:00:01 09 Karakuri Circus|からくりサーカス
 2018/12/07-00:00:01 35 Aikatsu Friends!|アイカツフレンズ！
 2018/12/07-00:00:01 10 Rerided Tokigoe no Derrida|RErideD -刻越えのデリダ-
 2018/12/07-00:00:01 09 Merc Storia Mukiryoku Shounen to Bin no Naka no Shoujo|メルクストーリア -無気力少年と瓶の中の少女-
@@ -55,8 +57,6 @@ Last Update: 2018/12/07-00:00:01
 2018/12/01-00:00:02 09 Kitsune no Koe|狐狸之声
 2018/11/30-12:00:01 21 Banana Fish|BANANA FISH
 2018/11/30-12:00:01 09 Bakumatsu|BAKUMATSU
-2018/11/30-06:00:01 09 Zombieland Saga|ゾンビランドサガ
-2018/11/30-00:00:01 08 Karakuri Circus|からくりサーカス
 2018/11/26-06:00:01 06 Tsurune Kazemai Koukou Kyuudou Bu|ツルネ ―風舞高校弓道部―
 2018/11/26-00:00:01 08 Ulysses Jeanne d`Arc to Renkin no Kishi|ユリシーズ ジャンヌ・ダルクと錬金の騎士
 2018/11/25-12:00:01 34 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
