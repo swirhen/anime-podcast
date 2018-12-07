@@ -1,4 +1,14 @@
-Last Update: 2018/12/07-18:00:01
+Last Update: 2018/12/08-00:00:01
+2018/12/08-00:00:01 23 Bang Dream! Garupa Pico|BanG Dream! ガルパ☆ピコ
+2018/12/08-00:00:01 22 Banana Fish|BANANA FISH
+2018/12/08-00:00:01 10 Yagate Kimi ni Naru|やがて君になる
+2018/12/08-00:00:01 10 Uchi no Maid ga Uzasugiru!|うちのメイドがウザすぎる！
+2018/12/08-00:00:01 10 Tonari no Kyuuketsuki-san|となりの吸血鬼さん
+2018/12/08-00:00:01 10 Toaru Majutsu no Index III|とある魔術の禁書目録III
+2018/12/08-00:00:01 10 Kitsune no Koe|狐狸之声
+2018/12/08-00:00:01 10 Hinomaru Zumou|火ノ丸相撲
+2018/12/08-00:00:01 10 Gakuen Basara|学園BASARA
+2018/12/08-00:00:01 10 Bakumatsu|BAKUMATSU
 2018/12/07-06:00:01 10 Zombieland Saga|ゾンビランドサガ
 2018/12/07-06:00:01 09 Karakuri Circus|からくりサーカス
 2018/12/07-00:00:01 35 Aikatsu Friends!|アイカツフレンズ！
@@ -25,7 +35,6 @@ Last Update: 2018/12/07-18:00:01
 2018/12/04-06:00:01 09 Otona no Bouguya-san|おとなの防具屋さん
 2018/12/04-06:00:01 09 Golden Kamuy (2018)|ゴールデンカムイ2
 2018/12/04-00:00:01 10 Akanesasu Shoujo|あかねさす少女
-2018/12/04-00:00:01 09 Gakuen Basara|学園BASARA
 2018/12/03-18:00:02 42 Hugtto! Precure|HuGっと！ プリキュア
 2018/12/03-06:00:01 47 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/12/03-06:00:01 23 Baki|バキ
@@ -47,16 +56,7 @@ Last Update: 2018/12/07-18:00:01
 2018/12/01-12:00:01 09 Irozuku Sekai no Ashita kara|色づく世界の明日から
 2018/12/01-06:00:01 09 Okoshiyasu, Chitose-chan|おこしやす、ちとせちゃん
 2018/12/01-06:00:01 09 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
-2018/12/01-06:00:01 09 Hinomaru Zumou|火ノ丸相撲
 2018/12/01-06:00:01 08 Senran Kagura Shinovi Master - Tokyo Youma Hen|閃乱カグラ SHINOVI MASTER -東京妖魔篇-
-2018/12/01-00:00:02 22 Bang Dream! Garupa Pico|BanG Dream! ガルパ☆ピコ
-2018/12/01-00:00:02 09 Yagate Kimi ni Naru|やがて君になる
-2018/12/01-00:00:02 09 Uchi no Maid ga Uzasugiru!|うちのメイドがウザすぎる！
-2018/12/01-00:00:02 09 Tonari no Kyuuketsuki-san|となりの吸血鬼さん
-2018/12/01-00:00:02 09 Toaru Majutsu no Index III|とある魔術の禁書目録III
-2018/12/01-00:00:02 09 Kitsune no Koe|狐狸之声
-2018/11/30-12:00:01 21 Banana Fish|BANANA FISH
-2018/11/30-12:00:01 09 Bakumatsu|BAKUMATSU
 2018/11/26-06:00:01 06 Tsurune Kazemai Koukou Kyuudou Bu|ツルネ ―風舞高校弓道部―
 2018/11/26-00:00:01 08 Ulysses Jeanne d`Arc to Renkin no Kishi|ユリシーズ ジャンヌ・ダルクと錬金の騎士
 2018/11/25-12:00:01 34 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
