@@ -1,7 +1,8 @@
-Last Update: 2018/12/09-18:00:01
+Last Update: 2018/12/10-00:00:01
+2018/12/10-00:00:01 35 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
+2018/12/10-00:00:01 09 Ulysses Jeanne d`Arc to Renkin no Kishi|ユリシーズ ジャンヌ・ダルクと錬金の騎士
 2018/12/09-18:00:01 36 Kiratto Pri-chan|キラッとプリ☆チャン
 2018/12/09-18:00:01 35 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
-2018/12/09-18:00:01 34 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2018/12/09-18:00:01 10 Sono Toki, Kanojo wa.|その時、カノジョは。
 2018/12/09-18:00:01 10 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
 2018/12/09-06:00:01 10 Sword Art Online Alicization|ソードアート・オンライン アリシゼーション
@@ -60,7 +61,6 @@ Last Update: 2018/12/09-18:00:01
 2018/12/03-06:00:01 09 Anima Yell!|アニマエール！
 2018/12/03-00:00:01 10 Double Decker! Doug|DOUBLE DECKER! ダグ＆キリル
 2018/11/26-06:00:01 06 Tsurune Kazemai Koukou Kyuudou Bu|ツルネ ―風舞高校弓道部―
-2018/11/26-00:00:01 08 Ulysses Jeanne d`Arc to Renkin no Kishi|ユリシーズ ジャンヌ・ダルクと錬金の騎士
 2018/11/25-12:00:01 21 Zoids Wild|ゾイドワイルド
 2018/11/23-12:00:01 03 Devidol!|でびどる！
 2018/10/24-00:00:01 03 Hashiri Tsuzukete Yokattatte.|走り続けてよかったって。
