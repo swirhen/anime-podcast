@@ -1,4 +1,5 @@
-Last Update: 2018/12/10-18:00:01
+Last Update: 2018/12/11-00:00:01
+2018/12/11-00:00:01 11 Akanesasu Shoujo|あかねさす少女
 2018/12/10-12:00:01 48 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2018/12/10-06:00:01 24 Baki|バキ
 2018/12/10-06:00:01 10 Shuudengo, Capsule Hotel de, Joushi ni Binetsu Tsutawaru Yoru.|終電後、カプセルホテルで、上司に微熱伝わる夜。
@@ -57,7 +58,6 @@ Last Update: 2018/12/10-18:00:01
 2018/12/04-06:00:01 09 Souten no Ken Regenesis (2018)|蒼天の拳 REGENESIS(第2期)
 2018/12/04-06:00:01 09 Otona no Bouguya-san|おとなの防具屋さん
 2018/12/04-06:00:01 09 Golden Kamuy (2018)|ゴールデンカムイ2
-2018/12/04-00:00:01 10 Akanesasu Shoujo|あかねさす少女
 2018/12/03-18:00:02 42 Hugtto! Precure|HuGっと！ プリキュア
 2018/12/03-00:00:01 10 Double Decker! Doug|DOUBLE DECKER! ダグ＆キリル
 2018/11/26-06:00:01 06 Tsurune Kazemai Koukou Kyuudou Bu|ツルネ ―風舞高校弓道部―
