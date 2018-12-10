@@ -110,11 +110,11 @@ echo "Audio Extension2: "$AEXT2
 echo "Audio Extension3: "$AEXT3
 rm fmt.txt
 
-mkvextract tracks "$1" 1:video.h264
+mkvextract tracks "$1" 0:video.h264
 #ffm -i "$1" -s $VSIZE -vcodec libx264 -b 2500k -r $R -crf 20 -g 230 -mbd 2 -me_method umh -subq 6 -qdiff 6 -me_range 32 -nr 50 -qmin 12 -sc_threshold 65 -bidir_refine 1 -keyint_min 3 -cmp chroma -flags bitexact+alt+mv4+loop -level 30 -threads 0  /tmp/vga/"$1".m4v
 if [ $MLFLG -eq 1 ]; then
-    mkvextract tracks "$1" 2:audio1.$AEXT1
-    mkvextract tracks "$1" 3:audio2.$AEXT2
+    mkvextract tracks "$1" 1:audio1.$AEXT1
+    mkvextract tracks "$1" 2:audio2.$AEXT2
     if [ $AEXT1 != "aac" ]; then
         ffm -i audio1.$AEXT1 -acodec libfaac -ar 48000 -ab 128k audio1.aac
     fi
@@ -123,9 +123,9 @@ if [ $MLFLG -eq 1 ]; then
     fi
     MP4Box -tmp /data/tmp -fps $FPS -add video.h264 -add audio1.aac -add audio2.aac -new "$NAME.mp4"
 elif [ $MLFLG -eq 2 ]; then
-    mkvextract tracks "$1" 2:audio1.$AEXT1
-    mkvextract tracks "$1" 3:audio2.$AEXT2
-    mkvextract tracks "$1" 4:audio3.$AEXT3
+    mkvextract tracks "$1" 1:audio1.$AEXT1
+    mkvextract tracks "$1" 2:audio2.$AEXT2
+    mkvextract tracks "$1" 3:audio3.$AEXT3
     if [ $AEXT1 != "aac" ]; then
         ffm -i audio1.$AEXT1 -acodec libfaac -ar 48000 -ab 128k audio1.aac
     fi
@@ -137,7 +137,7 @@ elif [ $MLFLG -eq 2 ]; then
     fi
     MP4Box -tmp /data/tmp -fps $FPS -add video.h264 -add audio1.aac -add audio2.aac -add audio3.aac -new "$NAME.mp4"
 else
-    mkvextract tracks "$1" 2:audio1.$AEXT1
+    mkvextract tracks "$1" 1:audio1.$AEXT1
     if [ $AEXT1 != "aac" ]; then
         ffm -i audio1.$AEXT1 -acodec libfaac -ar 48000 -ab 128k -ac 2 audio1.aac
     fi

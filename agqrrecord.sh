@@ -42,9 +42,8 @@ ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【超A&G
 until [ -s "$filename" ]
 do
 # ランダム変数(サーバ分散対応)
-num=`expr $RANDOM % 2 + 1`
-#num2=`expr $RANDOM % 2 + 1`
-#num3=`expr $RANDOM % 2 + 1`
+#um=`expr $RANDOM % 2 + 1`
+num=1
     echo "/usr/bin/rtmpdump --rtmp \"rtmpe://fms${num}.uniqueradio.jp/\" --playpath \"aandg22\" --app \"?rtmp://fms-base1.mitene.ad.jp/agqr/\" --live -o \"$filename\" --stop $rectime"
 #	/usr/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "aandg2" --app "?rtmp://fms-base1.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime
 	/usr/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "aandg22" --app "?rtmp://fms-base1.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime

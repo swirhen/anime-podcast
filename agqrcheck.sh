@@ -11,8 +11,10 @@ FILE=${SCRIPT_DIR}/aandg
 FILE2=${SCRIPT_DIR}/aandg2
 REC_FILE=${SCRIPT_DIR}/agqr_rec
 
-num=`expr $RANDOM % 2 + 1`
+#num=`expr $RANDOM % 2 + 1`
+num=1
 PP=`cat ${FILE}`
+echo "/usr/bin/rtmpdump --rtmp \"rtmpe://fms${num}.uniqueradio.jp/\" --playpath \"${PP}\" --app \"?rtmp://fms-base1.mitene.ad.jp/agqr/\" --live -o \"${REC_FILE}\" --stop 1"
 /usr/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "${PP}" --app "?rtmp://fms-base1.mitene.ad.jp/agqr/" --live -o "${REC_FILE}" --stop 1
 
 if [ -s ${REC_FILE} ]; then
