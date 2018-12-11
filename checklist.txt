@@ -1,8 +1,12 @@
-Last Update: 2018/12/12-00:00:01
+Last Update: 2018/12/12-06:00:02
+2018/12/12-06:00:02 37 Captain Tsubasa|キャプテン翼
+2018/12/12-06:00:02 11 Jingai-san no Yome|人外さんの嫁
+2018/12/12-06:00:02 10 Tokyo Ghoul Re (2018)|東京喰種:re 最終章
+2018/12/12-06:00:02 10 Conception|CONCEPTION
+2018/12/12-06:00:02 08 Tsurune Kazemai Koukou Kyuudou Bu|ツルネ ―風舞高校弓道部―
 2018/12/12-00:00:01 62 Black Clover|ブラッククローバー
 2018/12/12-00:00:01 11 Ken En Ken Aoki Kagayaki|軒轅剣・蒼き曜
 2018/12/12-00:00:01 10 Idolmaster Side M Wake Atte Mini|アイドルマスター SideM 理由あってMini！
-2018/12/12-00:00:01 07 Tsurune Kazemai Koukou Kyuudou Bu|ツルネ ―風舞高校弓道部―
 2018/12/11-06:00:01 43 Hugtto! Precure|HuGっと！ プリキュア
 2018/12/11-06:00:01 11 Uchuu Senkan Tiramisu II|宇宙戦艦ティラミスII
 2018/12/11-06:00:01 11 Tensei Shitara Slime Datta Ken|転生したらスライムだった件
@@ -56,10 +60,6 @@ Last Update: 2018/12/12-00:00:01
 2018/12/06-00:00:01 22 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
 2018/12/06-00:00:01 10 Kaze ga Tsuyoku Fuite Iru|風が強く吹いている
 2018/12/06-00:00:01 08 Ore ga Suki na no wa Imouto Dakedo Imouto ja Nai|俺が好きなのは妹だけど妹じゃない
-2018/12/05-06:00:02 10 Jingai-san no Yome|人外さんの嫁
-2018/12/05-06:00:02 09 Tokyo Ghoul Re (2018)|東京喰種:re 最終章
-2018/12/05-06:00:02 09 Conception|CONCEPTION
-2018/12/04-18:00:01 36 Captain Tsubasa|キャプテン翼
 2018/12/03-00:00:01 10 Double Decker! Doug|DOUBLE DECKER! ダグ＆キリル
 2018/11/25-12:00:01 21 Zoids Wild|ゾイドワイルド
 2018/11/23-12:00:01 03 Devidol!|でびどる！
