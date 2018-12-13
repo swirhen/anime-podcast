@@ -1,4 +1,5 @@
-Last Update: 2018/12/14-00:00:02
+Last Update: 2018/12/14-06:00:01
+2018/12/14-06:00:01 11 Zombieland Saga|ゾンビランドサガ
 2018/12/14-00:00:02 36 Aikatsu Friends!|アイカツフレンズ！
 2018/12/14-00:00:02 11 Uchi no Maid ga Uzasugiru!|うちのメイドがウザすぎる！
 2018/12/14-00:00:02 11 Rerided Tokigoe no Derrida|RErideD -刻越えのデリダ-
@@ -58,7 +59,6 @@ Last Update: 2018/12/14-00:00:02
 2018/12/08-00:00:01 10 Hinomaru Zumou|火ノ丸相撲
 2018/12/08-00:00:01 10 Gakuen Basara|学園BASARA
 2018/12/08-00:00:01 10 Bakumatsu|BAKUMATSU
-2018/12/07-06:00:01 10 Zombieland Saga|ゾンビランドサガ
 2018/12/07-00:00:01 07 Han-Gyaku-Sei Million Arthur|叛逆性ミリオンアーサー
 2018/12/03-00:00:01 10 Double Decker! Doug|DOUBLE DECKER! ダグ＆キリル
 2018/11/25-12:00:01 21 Zoids Wild|ゾイドワイルド
