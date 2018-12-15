@@ -1,4 +1,7 @@
-Last Update: 2018/12/15-18:00:01
+Last Update: 2018/12/16-00:00:01
+2018/12/16-00:00:01 11 Radiant|ラディアン
+2018/12/16-00:00:01 11 Gyakuten Saiban Season 2|逆転裁判 ～その「真実」、異議あり！～ Season2
+2018/12/16-00:00:01 11 Dakaretai Otoko 1-i ni Odosarete Imasu.|抱かれたい男1位に脅されています。
 2018/12/15-12:00:02 11 Kishuku Gakkou no Juliet|寄宿学校のジュリエット
 2018/12/15-12:00:02 11 Irozuku Sekai no Ashita kara|色づく世界の明日から
 2018/12/15-06:00:01 11 Okoshiyasu, Chitose-chan|おこしやす、ちとせちゃん
@@ -56,9 +59,6 @@ Last Update: 2018/12/15-18:00:01
 2018/12/09-06:00:01 10 SSSS.Gridman|SSSS.GRIDMAN
 2018/12/09-06:00:01 10 Release the Spyce|RELEASE THE SPYCE
 2018/12/09-06:00:01 10 Goblin Slayer|ゴブリンスレイヤー
-2018/12/09-00:00:01 10 Radiant|ラディアン
-2018/12/09-00:00:01 10 Gyakuten Saiban Season 2|逆転裁判 ～その「真実」、異議あり！～ Season2
-2018/12/09-00:00:01 10 Dakaretai Otoko 1-i ni Odosarete Imasu.|抱かれたい男1位に脅されています。
 2018/12/07-00:00:01 07 Han-Gyaku-Sei Million Arthur|叛逆性ミリオンアーサー
 2018/12/03-00:00:01 10 Double Decker! Doug|DOUBLE DECKER! ダグ＆キリル
 2018/11/25-12:00:01 21 Zoids Wild|ゾイドワイルド
