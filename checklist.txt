@@ -1,4 +1,5 @@
-Last Update: 2018/12/19-06:00:01
+Last Update: 2018/12/19-12:00:01
+2018/12/19-12:00:01 38 Captain Tsubasa|キャプテン翼
 2018/12/19-06:00:01 11 Conception|CONCEPTION
 2018/12/19-00:00:01 63 Black Clover|ブラッククローバー
 2018/12/19-00:00:01 12 Ken En Ken Aoki Kagayaki|軒轅剣・蒼き曜
@@ -57,7 +58,6 @@ Last Update: 2018/12/19-06:00:01
 2018/12/13-00:00:01 23 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
 2018/12/13-00:00:01 11 Kaze ga Tsuyoku Fuite Iru|風が強く吹いている
 2018/12/13-00:00:01 09 Ore ga Suki na no wa Imouto Dakedo Imouto ja Nai|俺が好きなのは妹だけど妹じゃない
-2018/12/12-06:00:02 37 Captain Tsubasa|キャプテン翼
 2018/12/07-00:00:01 07 Han-Gyaku-Sei Million Arthur|叛逆性ミリオンアーサー
 2018/11/25-12:00:01 21 Zoids Wild|ゾイドワイルド
 2018/11/23-12:00:01 03 Devidol!|でびどる！
