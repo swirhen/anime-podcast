@@ -1,4 +1,8 @@
-Last Update: 2018/12/23-00:00:01
+Last Update: 2018/12/23-06:00:01
+2018/12/23-06:00:01 12 Sword Art Online Alicization|ソードアート・オンライン アリシゼーション
+2018/12/23-06:00:01 12 SSSS.Gridman|SSSS.GRIDMAN
+2018/12/23-06:00:01 12 Release the Spyce|RELEASE THE SPYCE
+2018/12/23-06:00:01 11 Goblin Slayer|ゴブリンスレイヤー
 2018/12/23-00:00:01 12 Radiant|ラディアン
 2018/12/23-00:00:01 12 Gyakuten Saiban Season 2|逆転裁判 ～その「真実」、異議あり！～ Season2
 2018/12/23-00:00:01 12 Dakaretai Otoko 1-i ni Odosarete Imasu.|抱かれたい男1位に脅されています。
@@ -41,10 +45,6 @@ Last Update: 2018/12/23-00:00:01
 2018/12/16-18:00:01 36 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2018/12/16-18:00:01 11 Sono Toki, Kanojo wa.|その時、カノジョは。
 2018/12/16-18:00:01 11 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
-2018/12/16-06:00:02 11 Sword Art Online Alicization|ソードアート・オンライン アリシゼーション
-2018/12/16-06:00:02 11 SSSS.Gridman|SSSS.GRIDMAN
-2018/12/16-06:00:02 11 Release the Spyce|RELEASE THE SPYCE
-2018/12/16-06:00:02 10.5 Goblin Slayer|ゴブリンスレイヤー
 2018/12/13-00:00:01 23 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
 2018/12/13-00:00:01 11 Kaze ga Tsuyoku Fuite Iru|風が強く吹いている
 2018/12/07-00:00:01 07 Han-Gyaku-Sei Million Arthur|叛逆性ミリオンアーサー
