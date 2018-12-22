@@ -1,4 +1,8 @@
-Last Update: 2018/12/22-06:00:01
+Last Update: 2018/12/22-12:00:01
+2018/12/22-12:00:01 12 Okoshiyasu, Chitose-chan|おこしやす、ちとせちゃん
+2018/12/22-12:00:01 12 Kishuku Gakkou no Juliet|寄宿学校のジュリエット
+2018/12/22-12:00:01 12 Irozuku Sekai no Ashita kara|色づく世界の明日から
+2018/12/22-12:00:01 12 Hinomaru Zumou|火ノ丸相撲
 2018/12/22-06:00:01 12 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
 2018/12/22-06:00:01 11 Senran Kagura Shinovi Master - Tokyo Youma Hen|閃乱カグラ SHINOVI MASTER -東京妖魔篇-
 2018/12/22-00:00:01 25 Bang Dream! Garupa Pico|BanG Dream! ガルパ☆ピコ
@@ -42,10 +46,6 @@ Last Update: 2018/12/22-06:00:01
 2018/12/16-00:00:01 11 Radiant|ラディアン
 2018/12/16-00:00:01 11 Gyakuten Saiban Season 2|逆転裁判 ～その「真実」、異議あり！～ Season2
 2018/12/16-00:00:01 11 Dakaretai Otoko 1-i ni Odosarete Imasu.|抱かれたい男1位に脅されています。
-2018/12/15-12:00:02 11 Kishuku Gakkou no Juliet|寄宿学校のジュリエット
-2018/12/15-12:00:02 11 Irozuku Sekai no Ashita kara|色づく世界の明日から
-2018/12/15-06:00:01 11 Okoshiyasu, Chitose-chan|おこしやす、ちとせちゃん
-2018/12/15-06:00:01 11 Hinomaru Zumou|火ノ丸相撲
 2018/12/13-00:00:01 23 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
 2018/12/13-00:00:01 11 Kaze ga Tsuyoku Fuite Iru|風が強く吹いている
 2018/12/07-00:00:01 07 Han-Gyaku-Sei Million Arthur|叛逆性ミリオンアーサー
