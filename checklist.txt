@@ -1,5 +1,10 @@
-Last Update: 2018/12/25-00:00:01
-2018/12/25-00:00:01 0 Strike the Blood III|ストライク・ザ・ブラッド OVA
+Last Update: 2018/12/25-06:00:01
+2018/12/25-06:00:01 45 Hugtto! Precure|HuGっと！ プリキュア
+2018/12/25-06:00:01 13 Uchuu Senkan Tiramisu II|宇宙戦艦ティラミスII
+2018/12/25-06:00:01 13 Tensei Shitara Slime Datta Ken|転生したらスライムだった件
+2018/12/25-06:00:01 12 Souten no Ken Regenesis (2018)|蒼天の拳 REGENESIS(第2期)
+2018/12/25-06:00:01 12 Otona no Bouguya-san|おとなの防具屋さん
+2018/12/25-06:00:01 01 Strike the Blood III|ストライク・ザ・ブラッド OVA
 2018/12/24-06:00:01 12 Double Decker! Doug|DOUBLE DECKER! ダグ＆キリル
 2018/12/24-06:00:01 11 Ulysses Jeanne d`Arc to Renkin no Kishi|ユリシーズ ジャンヌ・ダルクと錬金の騎士
 2018/12/24-06:00:01 10 Tsurune Kazemai Koukou Kyuudou Bu|ツルネ ―風舞高校弓道部―
@@ -32,12 +37,7 @@ Last Update: 2018/12/25-00:00:01
 2018/12/19-00:00:01 63 Black Clover|ブラッククローバー
 2018/12/19-00:00:01 12 Ken En Ken Aoki Kagayaki|軒轅剣・蒼き曜
 2018/12/19-00:00:01 11 Tokyo Ghoul Re (2018)|東京喰種:re 最終章
-2018/12/19-00:00:01 11 Otona no Bouguya-san|おとなの防具屋さん
 2018/12/19-00:00:01 11 Idolmaster Side M Wake Atte Mini|アイドルマスター SideM 理由あってMini！
-2018/12/18-12:00:01 12 Uchuu Senkan Tiramisu II|宇宙戦艦ティラミスII
-2018/12/18-06:00:01 12 Tensei Shitara Slime Datta Ken|転生したらスライムだった件
-2018/12/18-06:00:01 11 Souten no Ken Regenesis (2018)|蒼天の拳 REGENESIS(第2期)
-2018/12/18-00:00:02 44 Hugtto! Precure|HuGっと！ プリキュア
 2018/12/17-06:00:01 11 Shuudengo, Capsule Hotel de, Joushi ni Binetsu Tsutawaru Yoru.|終電後、カプセルホテルで、上司に微熱伝わる夜。
 2018/12/16-18:00:01 11 Sono Toki, Kanojo wa.|その時、カノジョは。
 2018/12/13-00:00:01 23 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
