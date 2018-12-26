@@ -1,4 +1,8 @@
-Last Update: 2018/12/26-00:00:01
+Last Update: 2018/12/26-12:00:01
+2018/12/26-12:00:01 39 Captain Tsubasa|キャプテン翼
+2018/12/26-12:00:01 24 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
+2018/12/26-12:00:01 12 Tokyo Ghoul Re (2018)|東京喰種:re 最終章
+2018/12/26-12:00:01 12 Conception|CONCEPTION
 2018/12/26-00:00:01 64 Black Clover|ブラッククローバー
 2018/12/25-12:00:01 02 Strike the Blood III|ストライク・ザ・ブラッド OVA
 2018/12/25-06:00:01 45 Hugtto! Precure|HuGっと！ プリキュア
@@ -30,12 +34,8 @@ Last Update: 2018/12/26-00:00:01
 2018/12/21-00:00:01 10 Ingress the Animation|INGRESS THE ANIMATION
 2018/12/20-12:00:01 12 Seishun Buta Yarou wa Bunny Girl Senpai no Yume o Minai|青春ブタ野郎はバニーガール先輩の夢を見ない
 2018/12/20-12:00:01 11 Beelzebub-jou no Oki ni Mesu Mama.|ベルゼブブ嬢のお気に召すまま。
-2018/12/19-12:00:01 38 Captain Tsubasa|キャプテン翼
-2018/12/19-06:00:01 11 Conception|CONCEPTION
-2018/12/19-00:00:01 11 Tokyo Ghoul Re (2018)|東京喰種:re 最終章
 2018/12/17-06:00:01 11 Shuudengo, Capsule Hotel de, Joushi ni Binetsu Tsutawaru Yoru.|終電後、カプセルホテルで、上司に微熱伝わる夜。
 2018/12/16-18:00:01 11 Sono Toki, Kanojo wa.|その時、カノジョは。
-2018/12/13-00:00:01 23 Chuukan Kanriroku Tonegawa|中間管理録トネガワ
 2018/12/13-00:00:01 11 Kaze ga Tsuyoku Fuite Iru|風が強く吹いている
 2018/12/07-00:00:01 07 Han-Gyaku-Sei Million Arthur|叛逆性ミリオンアーサー
 2018/11/25-12:00:01 21 Zoids Wild|ゾイドワイルド
