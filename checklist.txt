@@ -17,12 +17,11 @@ Last Update: 2019/01/09-18:56:53
 2019/01/09-18:56:53 12 Kaze ga Tsuyoku Fuite Iru|風が強く吹いている
 2019/01/09-18:56:53 12 Goblin Slayer|ゴブリンスレイヤー
 2019/01/09-18:56:53 0 Watashi ni Tenshi ga Maiorita!|私に天使が舞い降りた！
-2019/01/09-18:56:53 0 Ueno-san wa Bukiyou|映画クレヨンしんちゃん オラの引越し物語～サボテン大襲撃～
+2019/01/09-18:56:53 0 Ueno-san wa Bukiyou|上野さんは不器用
 2019/01/09-18:56:53 0 Tate no Yuusha no Nariagari|盾の勇者の成り上がり
 2019/01/09-18:56:53 0 Rinshi!! Ekoda-chan|臨死!! 江古田ちゃん
 2019/01/09-18:56:53 0 Mob Psycho 100 II|モブサイコ100II
 2019/01/09-18:56:53 0 Ikkitousen Western Wolves|一騎当千 Western Wolves
-2019/01/09-18:56:53 0 Gekijouban Fate Stay Night Heaven`s Feel|劇場版 Fate/stay night[Heaven's Feel]
 2019/01/09-18:56:53 0 Fukigen na Mononokean Tsuzuki|不機嫌なモノノケ庵 續
 2019/01/09-18:56:53 0 Egao no Daika|エガオノダイカ
 2019/01/09-18:56:53 0 Dororo (2019)|どろろ
@@ -31,6 +30,10 @@ Last Update: 2019/01/09-18:56:53
 2019/01/09-18:56:53 0 Bang Dream! 2nd Season|BanG Dream! 2nd Season
 2019/01/09-18:56:53 0 Ame-iro Cocoa Side G|雨色ココア Rainy colorへようこそ！
 2019/01/09-18:56:53 0 3D Kanojo Real Girl (2019)|3D彼女 リアルガール(第2シーズン)
+2019/01/09-18:56:53 0 Kakegurui XX|賭ケグルイ××
+2019/01/09-18:56:53 0 Pastel Memories|ぱすてるメモリーズ
+2019/01/09-18:56:53 0 Papa Datte, Shitai|パパだって、したい
+2019/01/09-18:56:53 0 W`z|W'z 《ウィズ》
 2018/12/28-00:00:01 38 Aikatsu Friends!|アイカツフレンズ！
 2018/12/28-00:00:01 12 Merc Storia Mukiryoku Shounen to Bin no Naka no Shoujo|メルクストーリア -無気力少年と瓶の中の少女-
 2018/12/28-00:00:01 12 Karakuri Circus|からくりサーカス
