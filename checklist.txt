@@ -1,7 +1,11 @@
-Last Update: 2019/01/11-00:00:01
+Last Update: 2019/01/11-06:00:01
+2019/01/11-06:00:01 02 Bang Dream! 2nd Season|BanG Dream! 2nd Season
+2019/01/11-06:00:01 01 Girly Air Force|ガーリー・エアフォース
+2019/01/11-06:00:01 0 Yakusoku no Neverland|約束のネバーランド
+2019/01/11-06:00:01 0 Grimms Notes The Animation|グリムノーツ The Animation
+2019/01/11-06:00:01 0 Go-Toubun no Hanayome|五等分の花嫁
 2019/01/11-00:00:01 39 Aikatsu Friends!|アイカツフレンズ！
 2019/01/11-00:00:01 13 Karakuri Circus|からくりサーカス
-2019/01/11-00:00:01 0 Girly Air Force|ガーリー・エアフォース
 2019/01/10-18:00:01 01 Virtual-san wa Miteiru|バーチャルさんはみている
 2019/01/10-18:00:01 01 Revisions|revisions
 2019/01/10-18:00:01 01 Meiji Tokyo Renka|明治東亰恋伽
@@ -25,7 +29,6 @@ Last Update: 2019/01/11-00:00:01
 2019/01/10-00:00:01 01 Egao no Daika|エガオノダイカ
 2019/01/10-00:00:01 01 Dororo (2019)|どろろ
 2019/01/10-00:00:01 01 Circlet Princess|サークレット・プリンセス
-2019/01/10-00:00:01 01 Bang Dream! 2nd Season|BanG Dream! 2nd Season
 2019/01/10-00:00:01 01 Ame-iro Cocoa Side G|雨色ココア Rainy colorへようこそ！
 2019/01/10-00:00:01 01 3D Kanojo Real Girl (2019)|3D彼女 リアルガール(第2シーズン)
 2019/01/09-18:56:53 65 Black Clover|ブラッククローバー
