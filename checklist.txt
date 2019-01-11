@@ -1,4 +1,9 @@
-Last Update: 2019/01/11-18:00:01
+Last Update: 2019/01/12-00:00:01
+2019/01/12-00:00:01 14 Toaru Majutsu no Index III|とある魔術の禁書目録III
+2019/01/12-00:00:01 13 Hinomaru Zumou|火ノ丸相撲
+2019/01/12-00:00:01 03 Boogiepop wa Warawanai|ブギーポップは笑わない
+2019/01/12-00:00:01 02 Egao no Daika|エガオノダイカ
+2019/01/12-00:00:01 0 Date a Live III|デート・ア・ライブIII
 2019/01/11-12:00:01 01 Yakusoku no Neverland|約束のネバーランド
 2019/01/11-12:00:01 01 Grimms Notes The Animation|グリムノーツ The Animation
 2019/01/11-12:00:01 01 Go-Toubun no Hanayome|五等分の花嫁
@@ -12,7 +17,6 @@ Last Update: 2019/01/11-18:00:01
 2019/01/10-18:00:01 01 Kemurikusa (2019)|ケムリクサ
 2019/01/10-18:00:01 01 Doukyonin wa Hiza, Tokidoki, Atama no Ue.|同居人はひざ、時々、頭のうえ。
 2019/01/10-12:00:01 40 Captain Tsubasa|キャプテン翼
-2019/01/10-12:00:01 02 Boogiepop wa Warawanai|ブギーポップは笑わない
 2019/01/10-00:00:01 52 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2019/01/10-00:00:01 14 Radiant|ラディアン
 2019/01/10-00:00:01 01 Watashi ni Tenshi ga Maiorita!|私に天使が舞い降りた！
@@ -26,7 +30,6 @@ Last Update: 2019/01/11-18:00:01
 2019/01/10-00:00:01 01 Kakegurui XX|賭ケグルイ××
 2019/01/10-00:00:01 01 Ikkitousen Western Wolves|一騎当千 Western Wolves
 2019/01/10-00:00:01 01 Fukigen na Mononokean Tsuzuki|不機嫌なモノノケ庵 續
-2019/01/10-00:00:01 01 Egao no Daika|エガオノダイカ
 2019/01/10-00:00:01 01 Dororo (2019)|どろろ
 2019/01/10-00:00:01 01 Circlet Princess|サークレット・プリンセス
 2019/01/10-00:00:01 01 Ame-iro Cocoa Side G|雨色ココア Rainy colorへようこそ！
@@ -39,7 +42,6 @@ Last Update: 2019/01/11-18:00:01
 2019/01/09-18:56:53 22 Zoids Wild|ゾイドワイルド
 2019/01/09-18:56:53 14 Tensei Shitara Slime Datta Ken|転生したらスライムだった件
 2019/01/09-18:56:53 13.5 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
-2019/01/09-18:56:53 13 Toaru Majutsu no Index III|とある魔術の禁書目録III
 2019/01/09-18:56:53 13 Sword Art Online Alicization|ソードアート・オンライン アリシゼーション
 2019/01/09-18:56:53 13 Okoshiyasu, Chitose-chan|おこしやす、ちとせちゃん
 2019/01/09-18:56:53 13 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
@@ -47,4 +49,3 @@ Last Update: 2019/01/11-18:00:01
 2018/12/25-12:00:01 02 Strike the Blood III|ストライク・ザ・ブラッド OVA
 2018/12/24-06:00:01 10 Tsurune Kazemai Koukou Kyuudou Bu|ツルネ ―風舞高校弓道部―
 2018/12/23-00:00:01 12 Gyakuten Saiban Season 2|逆転裁判 ～その「真実」、異議あり！～ Season2
-2018/12/22-12:00:01 12 Hinomaru Zumou|火ノ丸相撲
