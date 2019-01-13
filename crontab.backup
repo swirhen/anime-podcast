@@ -127,3 +127,5 @@ MAILTO=""
 
 # agqr playpathチェック
 25,55 * * * * /data/share/movie/sh/agqrcheck.sh
+
+0 0 * * * wget -r http://9a839f6a.ngrok.io/C95/ --restrict-file-names=nocontrol -P /data/share/temp/d1901-06/takano/ -nd -nc
