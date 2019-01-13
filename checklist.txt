@@ -1,5 +1,6 @@
-Last Update: 2019/01/13-18:00:01
-0 0 Endro~!|えんどろ～！
+Last Update: 2019/01/14-00:00:01
+2019/01/14-00:00:01 53 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2019/01/14-00:00:01 01 Endro~!|えんどろ～！
 2019/01/13-18:00:01 40 Kiratto Pri-chan|キラッとプリ☆チャン
 2019/01/13-18:00:01 39 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2019/01/13-18:00:01 39 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
@@ -34,7 +35,6 @@ Last Update: 2019/01/13-18:00:01
 2019/01/10-18:00:01 01 Kemurikusa (2019)|ケムリクサ
 2019/01/10-18:00:01 01 Doukyonin wa Hiza, Tokidoki, Atama no Ue.|同居人はひざ、時々、頭のうえ。
 2019/01/10-12:00:01 40 Captain Tsubasa|キャプテン翼
-2019/01/10-00:00:01 52 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2019/01/10-00:00:01 01 Watashi ni Tenshi ga Maiorita!|私に天使が舞い降りた！
 2019/01/10-00:00:01 01 Ueno-san wa Bukiyou|上野さんは不器用
 2019/01/10-00:00:01 01 Tate no Yuusha no Nariagari|盾の勇者の成り上がり
