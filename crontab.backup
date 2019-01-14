@@ -18,8 +18,8 @@ MAILTO=""
 #4 8 1,2,3,23,24,27-31 8 * /data/share/movie/sh/rec_nhk.sh NHK1 13560 "/data/share/movie/98 PSP用/agqr/" "夏休み子ども科学電話相談"
 
 # Abema Fresh
-# 第2,4月曜
-59 21 8-14,22-28 * * [ "$(date '+\%w')" -eq 1 ] && /data/share/movie/sh/freshrecord.sh "ゴー☆ジャス＠レボ☆リューショ" secondshot 0
+# 第2,4月曜(毎週取得)
+59 21 * * 1 /data/share/movie/sh/freshrecord.sh "ゴー☆ジャス＠レボ☆リューショ" secondshot 0
 # SP
 # 隔週水曜(毎週取得)
 59 20 * * 3 /data/share/movie/sh/freshrecord.sh "伊藤美来の「フレッシュはじめました」" ito_miku 0
