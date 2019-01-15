@@ -34,7 +34,7 @@ MAILTO=""
 #29 21 * * 5 /data/share/movie/sh/freshrecord.sh "津田健次郎・大河元気のジョシ禁ラジオ" hibiki 1 0 1
 
 # SP
-59 15 11 1 * /data/share/movie/sh/agqrrecord.sh "南早紀と下野紘の アゲアゲ チ金 FRIDAY!" 45 3600
+#59 15 11 1 * /data/share/movie/sh/agqrrecord.sh "南早紀と下野紘の アゲアゲ チ金 FRIDAY!" 45 3600
 
 # 帯
 59 19 * * 1 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 黒沢ともよ" 45 3600 v
