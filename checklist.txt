@@ -1,9 +1,10 @@
-Last Update: 2019/01/16-06:00:01
+Last Update: 2019/01/16-12:00:01
+2019/01/16-12:00:01 02 Kakegurui XX|賭ケグルイ××
+2019/01/16-12:00:01 01 Eromanga Sensei OVA|エロマンガ先生
 2019/01/16-06:00:01 13 Kaze ga Tsuyoku Fuite Iru|風が強く吹いている
 2019/01/16-06:00:01 02 Rinshi!! Ekoda-chan|臨死!! 江古田ちゃん
 2019/01/16-06:00:01 02 Ame-iro Cocoa Side G|雨色ココア Rainy colorへようこそ！
 2019/01/16-06:00:01 02 3D Kanojo Real Girl (2019)|3D彼女 リアルガール(第2シーズン)
-2019/01/16-06:00:01 0 Eromanga Sensei OVA|エロマンガ先生
 2019/01/16-00:00:01 66 Black Clover|ブラッククローバー
 2019/01/16-00:00:01 02 Watashi ni Tenshi ga Maiorita!|私に天使が舞い降りた！
 2019/01/16-00:00:01 02 Circlet Princess|サークレット・プリンセス
@@ -54,7 +55,6 @@ Last Update: 2019/01/16-06:00:01
 2019/01/10-18:00:01 01 Doukyonin wa Hiza, Tokidoki, Atama no Ue.|同居人はひざ、時々、頭のうえ。
 2019/01/10-12:00:01 40 Captain Tsubasa|キャプテン翼
 2019/01/10-00:00:01 01 Tate no Yuusha no Nariagari|盾の勇者の成り上がり
-2019/01/10-00:00:01 01 Kakegurui XX|賭ケグルイ××
 2019/01/10-00:00:01 01 Ikkitousen Western Wolves|一騎当千 Western Wolves
 2019/01/09-18:56:53 22 Zoids Wild|ゾイドワイルド
 2018/12/25-12:00:01 02 Strike the Blood III|ストライク・ザ・ブラッド OVA
