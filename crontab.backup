@@ -20,12 +20,12 @@ MAILTO=""
 # Abema Fresh
 # 第2,4月曜(毎週取得)
 59 21 * * 1 /data/share/movie/sh/freshrecord.sh "ゴー☆ジャス＠レボ☆リューショ" secondshot 0
-# SP
 # 隔週水曜(毎週取得)
 59 20 * * 3 /data/share/movie/sh/freshrecord.sh "伊藤美来の「フレッシュはじめました」" ito_miku 0
 59 20 * * 3 /data/share/movie/sh/freshrecord.sh "愛美のPerfect Woman" hibiki 1
 # 隔週木曜(毎週取得)
 59 19 * * 4 /data/share/movie/sh/freshrecord.sh "日笠・日高のお日様ぐみ！" hibiki 1
+
 # 月～金 帯
 29 21 * * 1 /data/share/movie/sh/freshrecord.sh "仲村宗悟・Machicoのらくおん" hibiki 1 0 1
 29 21 * * 2 /data/share/movie/sh/freshrecord.sh "中島由貴・武田羅梨沙多胡のかわいいラジオ" hibiki 1 0 1
@@ -105,13 +105,13 @@ MAILTO=""
 10 5 9 7 1 /data/share/movie/sh/agqrrelease.sh
 
 # twitter search
-*/5 * * * * /home/swirhen/twitterchk/twitterchk.sh "twitter-search" "カラオケMAX" "7/20"
+#*/5 * * * * /home/swirhen/twitterchk/twitterchk.sh "twitter-search" "カラオケMAX" "7/20"
 #*/5 * * * * /home/swirhen/twitterchk/twitterchk.sh "twitter-search" "デレ.*5th" "\(譲\|出\).*幕張" "LV"
 
 # crawler
 */10 17,18 * * 2 /home/swirhen/crawler_check/crawler_check.sh "dereradi_blomaga" "http://ch.nicovideo.jp/dereradi/blomaga/nico/feed"
 */10 22 * * 3 /home/swirhen/crawler_check/crawler_check.sh "derepa_blomaga" "http://ch.nicovideo.jp/cinderellaparty/blomaga/nico/feed"
-*/10 * * * * /home/swirhen/crawler_check/crawler_check.sh "theater_generation" "http://www.e-onkyo.com/search/search.aspx?q=THE+IDOLM%40STER+MILLION+THE%40TER+GENERATION"
+#*/10 * * * * /home/swirhen/crawler_check/crawler_check.sh "theater_generation" "http://www.e-onkyo.com/search/search.aspx?q=THE+IDOLM%40STER+MILLION+THE%40TER+GENERATION"
 
 # 汎用 torrent seed check
 0 * * * * /home/swirhen/torrentsearch/torrentsearch2.sh
@@ -128,4 +128,4 @@ MAILTO=""
 # agqr playpathチェック
 25,55 * * * * /data/share/movie/sh/agqrcheck.sh
 
-0 0 * * * wget -r http://9a839f6a.ngrok.io/C95/ --restrict-file-names=nocontrol -P /data/share/temp/d1901-06/takano/ -nd -nc
+#0 0 * * * wget -r http://9a839f6a.ngrok.io/C95/ --restrict-file-names=nocontrol -P /data/share/temp/d1901-06/takano/ -nd -nc
