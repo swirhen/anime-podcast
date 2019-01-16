@@ -41,7 +41,7 @@ done < ${NICO_LIST_FILE}
 # にこきゃっしゅ
 if [ "${dir: -3}" = "mp4" ]; then
     jsonfile="${dir%.*}.json"
-    title=`cat "${jsonfile}" | sed "s/.*videoTitle\":\"\([^\"]*\)\".*/\1/"`
+    title=`cat "${jsonfile}" | jq ".videoTitle" | sed "s/\"//g"`
 
     cnt=0
     hit_flg=0
@@ -84,9 +84,9 @@ dircnt=`ls "${dir}" | wc -l`
 for partdir in "${dir}"/*
 do
     # entry.jsonからtitleを取得
-    title=`cat "${partdir}"/entry.json | sed "s/.*title\":\"\([^\"]*\)\".*/\1/" | sed 's#\/##g' | sed 's#\\\#_#g'`
+    title=`cat "${partdir}"/entry.json | jq ".title" | sed "s/\"//g" | sed 's#\/##g' | sed 's#\\\#_#g'`
     # entry.jsonからpartを取得
-    part=`cat "${partdir}"/entry.json | sed "s/.*part\":\"\([^\"]*\)\".*/\1/" | sed 's#\/##g' | sed 's#\\\#_#g'`
+    part=`cat "${partdir}"/entry.json | jq ".page_data.part" | sed "s/\"//g" | sed 's#\/##g' | sed 's#\\\#_#g'`
 
     # blv保存ディレクトリの下のblvファイル数を調べる
     filecnt=`ls "${partdir}"/*/*.blv | wc -l`
