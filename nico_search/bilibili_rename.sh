@@ -140,7 +140,7 @@ do
         filename="${FILENAME_LAYOUT}"
     fi
 
-    filename=`echo "${filename}" | sed "s/嘉宾/ゲスト/"`
+    filename=`echo "${filename}" | sed "s/嘉宾/ゲスト/g" | sed "s/:/：/g"`
 
     if [ ${filecnt} -eq 1 ]; then
         # blvが1個だけの場合
