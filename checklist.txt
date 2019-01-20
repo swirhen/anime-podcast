@@ -1,4 +1,7 @@
-Last Update: 2019/01/21-00:00:01
+Last Update: 2019/01/21-06:00:01
+2019/01/21-06:00:01 13 Tsurune Kazemai Koukou Kyuudou Bu|ツルネ ―風舞高校弓道部―
+2019/01/21-06:00:01 03 Ueno-san wa Bukiyou|上野さんは不器用
+2019/01/21-06:00:01 03 Papa Datte, Shitai|パパだって、したい
 2019/01/21-00:00:01 54 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2019/01/21-00:00:01 41 Kiratto Pri-chan|キラッとプリ☆チャン
 2019/01/21-00:00:01 40 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
@@ -52,9 +55,6 @@ Last Update: 2019/01/21-00:00:01
 2019/01/15-00:00:02 47 Hugtto! Precure|HuGっと！ プリキュア
 2019/01/15-00:00:02 02 Mob Psycho 100 II|モブサイコ100II
 2019/01/15-00:00:02 02 Dororo (2019)|どろろ
-2019/01/14-12:00:01 12 Tsurune Kazemai Koukou Kyuudou Bu|ツルネ ―風舞高校弓道部―
-2019/01/14-06:00:01 02 Ueno-san wa Bukiyou|上野さんは不器用
-2019/01/14-06:00:01 02 Papa Datte, Shitai|パパだって、したい
 2019/01/10-00:00:01 01 Ikkitousen Western Wolves|一騎当千 Western Wolves
 2019/01/09-18:56:53 22 Zoids Wild|ゾイドワイルド
 2018/12/25-12:00:01 02 Strike the Blood III|ストライク・ザ・ブラッド OVA
