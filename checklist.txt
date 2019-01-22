@@ -1,4 +1,7 @@
-Last Update: 2019/01/22-18:00:02
+Last Update: 2019/01/23-00:00:01
+2019/01/23-00:00:01 67 Black Clover|ブラッククローバー
+2019/01/23-00:00:01 42 Captain Tsubasa|キャプテン翼
+2019/01/23-00:00:01 03 Watashi ni Tenshi ga Maiorita!|私に天使が舞い降りた！
 2019/01/22-12:00:01 02 Kemono Friends 2|けものフレンズ2
 2019/01/22-06:00:01 48 Hugtto! Precure|HuGっと！ プリキュア
 2019/01/22-06:00:01 16 Tensei Shitara Slime Datta Ken|転生したらスライムだった件
@@ -45,15 +48,12 @@ Last Update: 2019/01/22-18:00:02
 2019/01/17-06:00:01 02 Meiji Tokyo Renka|明治東亰恋伽
 2019/01/17-06:00:01 02 Kemurikusa (2019)|ケムリクサ
 2019/01/17-06:00:01 02 Doukyonin wa Hiza, Tokidoki, Atama no Ue.|同居人はひざ、時々、頭のうえ。
-2019/01/17-00:00:01 41 Captain Tsubasa|キャプテン翼
 2019/01/17-00:00:01 02 Tate no Yuusha no Nariagari|盾の勇者の成り上がり
 2019/01/16-12:00:01 02 Kakegurui XX|賭ケグルイ××
 2019/01/16-06:00:01 13 Kaze ga Tsuyoku Fuite Iru|風が強く吹いている
 2019/01/16-06:00:01 02 Rinshi!! Ekoda-chan|臨死!! 江古田ちゃん
 2019/01/16-06:00:01 02 Ame-iro Cocoa Side G|雨色ココア Rainy colorへようこそ！
 2019/01/16-06:00:01 02 3D Kanojo Real Girl (2019)|3D彼女 リアルガール(第2シーズン)
-2019/01/16-00:00:01 66 Black Clover|ブラッククローバー
-2019/01/16-00:00:01 02 Watashi ni Tenshi ga Maiorita!|私に天使が舞い降りた！
 2019/01/16-00:00:01 02 Circlet Princess|サークレット・プリンセス
 2019/01/10-00:00:01 01 Ikkitousen Western Wolves|一騎当千 Western Wolves
 2019/01/09-18:56:53 22 Zoids Wild|ゾイドワイルド
