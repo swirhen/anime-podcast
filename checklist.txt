@@ -1,4 +1,5 @@
-Last Update: 2019/01/22-06:00:01
+Last Update: 2019/01/22-12:00:01
+2019/01/22-12:00:01 02 Kemono Friends 2|けものフレンズ2
 2019/01/22-06:00:01 48 Hugtto! Precure|HuGっと！ プリキュア
 2019/01/22-06:00:01 16 Tensei Shitara Slime Datta Ken|転生したらスライムだった件
 2019/01/22-06:00:01 03 Pastel Memories|ぱすてるメモリーズ
@@ -54,7 +55,6 @@ Last Update: 2019/01/22-06:00:01
 2019/01/16-00:00:01 66 Black Clover|ブラッククローバー
 2019/01/16-00:00:01 02 Watashi ni Tenshi ga Maiorita!|私に天使が舞い降りた！
 2019/01/16-00:00:01 02 Circlet Princess|サークレット・プリンセス
-2019/01/15-18:00:02 01 Kemono Friends 2|けものフレンズ2
 2019/01/10-00:00:01 01 Ikkitousen Western Wolves|一騎当千 Western Wolves
 2019/01/09-18:56:53 22 Zoids Wild|ゾイドワイルド
 2018/12/25-12:00:01 02 Strike the Blood III|ストライク・ザ・ブラッド OVA
