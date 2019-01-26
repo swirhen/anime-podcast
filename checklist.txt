@@ -1,9 +1,13 @@
-Last Update: 2019/01/27-00:00:01
+Last Update: 2019/01/27-06:00:02
+2019/01/27-06:00:02 16 Sword Art Online Alicization|ソードアート・オンライン アリシゼーション
+2019/01/27-06:00:02 03 Mini Toji|みにとじ
+2019/01/27-06:00:02 03 Kaguya-sama wa Kokurasetai Tensai-tachi no Ren`ai Zunousen|かぐや様は告らせたい～天才たちの恋愛頭脳戦～
+2019/01/27-06:00:02 03 Hulaing Babies|フライングベイビーズ
+2019/01/27-06:00:02 03 Endro~!|えんどろ～！
 2019/01/27-00:00:01 17 Radiant|ラディアン
 2019/01/27-00:00:01 14 Gyakuten Saiban Season 2|逆転裁判 ～その「真実」、異議あり！～ Season2
 2019/01/27-00:00:01 04 Fukigen na Mononokean Tsuzuki|不機嫌なモノノケ庵 續
 2019/01/27-00:00:01 03 Bermuda Triangle Colorful Pastrale|バミューダトライアングル ～カラフル・パストラーレ～
-2019/01/27-00:00:01 02 Hulaing Babies|フライングベイビーズ
 2019/01/26-18:00:01 16 Okoshiyasu, Chitose-chan|おこしやす、ちとせちゃん
 2019/01/26-18:00:01 16 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
 2019/01/26-18:00:01 03 Mahou Shoujo Tokushusen Asuka|魔法少女特殊戦あすか
@@ -51,11 +55,7 @@ Last Update: 2019/01/27-00:00:01
 2019/01/21-00:00:01 40 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2019/01/21-00:00:01 02 Kouya no Kotobuki Hikoutai|荒野のコトブキ飛行隊
 2019/01/20-12:00:01 15 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
-2019/01/20-06:00:01 15 Sword Art Online Alicization|ソードアート・オンライン アリシゼーション
 2019/01/20-06:00:01 03 W`z|W'z 《ウィズ》
-2019/01/20-06:00:01 02 Mini Toji|みにとじ
-2019/01/20-06:00:01 02 Kaguya-sama wa Kokurasetai Tensai-tachi no Ren`ai Zunousen|かぐや様は告らせたい～天才たちの恋愛頭脳戦～
-2019/01/20-06:00:01 02 Endro~!|えんどろ～！
 2019/01/10-00:00:01 01 Ikkitousen Western Wolves|一騎当千 Western Wolves
 2019/01/09-18:56:53 22 Zoids Wild|ゾイドワイルド
 2018/12/25-12:00:01 02 Strike the Blood III|ストライク・ザ・ブラッド OVA
