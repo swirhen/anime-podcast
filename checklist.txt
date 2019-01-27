@@ -1,4 +1,10 @@
-Last Update: 2019/01/27-06:00:02
+Last Update: 2019/01/27-12:00:01
+2019/01/27-12:00:01 55 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2019/01/27-12:00:01 42 Kiratto Pri-chan|キラッとプリ☆チャン
+2019/01/27-12:00:01 41 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
+2019/01/27-12:00:01 41 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
+2019/01/27-12:00:01 16 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
+2019/01/27-12:00:01 04 W`z|W'z 《ウィズ》
 2019/01/27-06:00:02 16 Sword Art Online Alicization|ソードアート・オンライン アリシゼーション
 2019/01/27-06:00:02 03 Mini Toji|みにとじ
 2019/01/27-06:00:02 03 Kaguya-sama wa Kokurasetai Tensai-tachi no Ren`ai Zunousen|かぐや様は告らせたい～天才たちの恋愛頭脳戦～
@@ -49,13 +55,7 @@ Last Update: 2019/01/27-06:00:02
 2019/01/21-18:00:01 01 Manaria Friends|マナリアフレンズ
 2019/01/21-06:00:01 03 Ueno-san wa Bukiyou|上野さんは不器用
 2019/01/21-06:00:01 03 Papa Datte, Shitai|パパだって、したい
-2019/01/21-00:00:01 54 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
-2019/01/21-00:00:01 41 Kiratto Pri-chan|キラッとプリ☆チャン
-2019/01/21-00:00:01 40 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
-2019/01/21-00:00:01 40 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2019/01/21-00:00:01 02 Kouya no Kotobuki Hikoutai|荒野のコトブキ飛行隊
-2019/01/20-12:00:01 15 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
-2019/01/20-06:00:01 03 W`z|W'z 《ウィズ》
 2019/01/10-00:00:01 01 Ikkitousen Western Wolves|一騎当千 Western Wolves
 2019/01/09-18:56:53 22 Zoids Wild|ゾイドワイルド
 2018/12/25-12:00:01 02 Strike the Blood III|ストライク・ザ・ブラッド OVA
