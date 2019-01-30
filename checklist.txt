@@ -1,4 +1,8 @@
-Last Update: 2019/01/31-00:00:01
+Last Update: 2019/01/31-06:00:01
+2019/01/31-06:00:01 04 Virtual-san wa Miteiru|バーチャルさんはみている
+2019/01/31-06:00:01 04 Revisions|revisions
+2019/01/31-06:00:01 04 Meiji Tokyo Renka|明治東亰恋伽
+2019/01/31-06:00:01 04 Doukyonin wa Hiza, Tokidoki, Atama no Ue.|同居人はひざ、時々、頭のうえ。
 2019/01/31-00:00:01 04 Tate no Yuusha no Nariagari|盾の勇者の成り上がり
 2019/01/31-00:00:01 04 Kemurikusa (2019)|ケムリクサ
 2019/01/30-12:00:01 43 Captain Tsubasa|キャプテン翼
@@ -51,11 +55,7 @@ Last Update: 2019/01/31-00:00:01
 2019/01/25-06:00:01 04 Bang Dream! 2nd Season|BanG Dream! 2nd Season
 2019/01/25-00:00:01 41 Aikatsu Friends!|アイカツフレンズ！
 2019/01/25-00:00:01 14.5 Karakuri Circus|からくりサーカス
-2019/01/25-00:00:01 03 Revisions|revisions
 2019/01/25-00:00:01 03 Girly Air Force|ガーリー・エアフォース
-2019/01/24-06:00:01 03 Virtual-san wa Miteiru|バーチャルさんはみている
-2019/01/24-06:00:01 03 Meiji Tokyo Renka|明治東亰恋伽
-2019/01/24-06:00:01 03 Doukyonin wa Hiza, Tokidoki, Atama no Ue.|同居人はひざ、時々、頭のうえ。
 2019/01/10-00:00:01 01 Ikkitousen Western Wolves|一騎当千 Western Wolves
 2019/01/09-18:56:53 22 Zoids Wild|ゾイドワイルド
 2018/12/25-12:00:01 02 Strike the Blood III|ストライク・ザ・ブラッド OVA
