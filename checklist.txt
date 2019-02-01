@@ -1,4 +1,9 @@
-Last Update: 2019/02/02-00:00:01
+Last Update: 2019/02/02-06:00:01
+2019/02/02-06:00:01 17 Okoshiyasu, Chitose-chan|おこしやす、ちとせちゃん
+2019/02/02-06:00:01 17 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
+2019/02/02-06:00:01 04 Mahou Shoujo Tokushusen Asuka|魔法少女特殊戦あすか
+2019/02/02-06:00:01 04 Domestic na Kanojo|ドメスティックな彼女
+2019/02/02-06:00:01 04 B-Project Zecchou Emotion|B-PROJECT～絶頂＊エモーション～
 2019/02/02-00:00:01 17 Toaru Majutsu no Index III|とある魔術の禁書目録III
 2019/02/02-00:00:01 16 Hinomaru Zumou|火ノ丸相撲
 2019/02/02-00:00:01 06 Boogiepop wa Warawanai|ブギーポップは笑わない
@@ -51,11 +56,6 @@ Last Update: 2019/02/02-00:00:01
 2019/01/27-00:00:01 14 Gyakuten Saiban Season 2|逆転裁判 ～その「真実」、異議あり！～ Season2
 2019/01/27-00:00:01 04 Fukigen na Mononokean Tsuzuki|不機嫌なモノノケ庵 續
 2019/01/27-00:00:01 03 Bermuda Triangle Colorful Pastrale|バミューダトライアングル ～カラフル・パストラーレ～
-2019/01/26-18:00:01 16 Okoshiyasu, Chitose-chan|おこしやす、ちとせちゃん
-2019/01/26-18:00:01 16 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
-2019/01/26-18:00:01 03 Mahou Shoujo Tokushusen Asuka|魔法少女特殊戦あすか
-2019/01/26-18:00:01 03 Domestic na Kanojo|ドメスティックな彼女
-2019/01/26-18:00:01 03 B-Project Zecchou Emotion|B-PROJECT～絶頂＊エモーション～
 2019/01/10-00:00:01 01 Ikkitousen Western Wolves|一騎当千 Western Wolves
 2019/01/09-18:56:53 22 Zoids Wild|ゾイドワイルド
 2018/12/25-12:00:01 02 Strike the Blood III|ストライク・ザ・ブラッド OVA
