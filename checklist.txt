@@ -1,4 +1,7 @@
-Last Update: 2019/02/01-06:00:01
+Last Update: 2019/02/01-12:00:01
+2019/02/01-12:00:01 04 Yakusoku no Neverland|約束のネバーランド
+2019/02/01-12:00:01 04 Grimms Notes The Animation|グリムノーツ The Animation
+2019/02/01-12:00:01 04 Go-Toubun no Hanayome|五等分の花嫁
 2019/02/01-06:00:01 05 Bang Dream! 2nd Season|BanG Dream! 2nd Season
 2019/02/01-00:00:01 42 Aikatsu Friends!|アイカツフレンズ！
 2019/02/01-00:00:01 15 Karakuri Circus|からくりサーカス
@@ -52,10 +55,7 @@ Last Update: 2019/02/01-06:00:01
 2019/01/26-00:00:02 15 Hinomaru Zumou|火ノ丸相撲
 2019/01/26-00:00:02 05 Boogiepop wa Warawanai|ブギーポップは笑わない
 2019/01/26-00:00:02 04 Egao no Daika|エガオノダイカ
-2019/01/26-00:00:02 03 Go-Toubun no Hanayome|五等分の花嫁
 2019/01/26-00:00:02 03 Date a Live III|デート・ア・ライブIII
-2019/01/25-12:00:01 03 Yakusoku no Neverland|約束のネバーランド
-2019/01/25-12:00:01 03 Grimms Notes The Animation|グリムノーツ The Animation
 2019/01/10-00:00:01 01 Ikkitousen Western Wolves|一騎当千 Western Wolves
 2019/01/09-18:56:53 22 Zoids Wild|ゾイドワイルド
 2018/12/25-12:00:01 02 Strike the Blood III|ストライク・ザ・ブラッド OVA
