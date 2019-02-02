@@ -1,4 +1,10 @@
-Last Update: 2019/02/03-00:00:01
+Last Update: 2019/02/03-06:00:01
+2019/02/03-06:00:01 18 Radiant|ラディアン
+2019/02/03-06:00:01 17 Sword Art Online Alicization|ソードアート・オンライン アリシゼーション
+2019/02/03-06:00:01 05 W`z|W'z 《ウィズ》
+2019/02/03-06:00:01 04 Mini Toji|みにとじ
+2019/02/03-06:00:01 04 Kaguya-sama wa Kokurasetai Tensai-tachi no Ren`ai Zunousen|かぐや様は告らせたい～天才たちの恋愛頭脳戦～
+2019/02/03-06:00:01 04 Endro~!|えんどろ～！
 2019/02/03-00:00:01 15 Gyakuten Saiban Season 2|逆転裁判 ～その「真実」、異議あり！～ Season2
 2019/02/03-00:00:01 05 Fukigen na Mononokean Tsuzuki|不機嫌なモノノケ庵 續
 2019/02/03-00:00:01 04 Bermuda Triangle Colorful Pastrale|バミューダトライアングル ～カラフル・パストラーレ～
@@ -50,12 +56,6 @@ Last Update: 2019/02/03-00:00:01
 2019/01/27-12:00:01 41 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2019/01/27-12:00:01 41 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2019/01/27-12:00:01 16 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
-2019/01/27-12:00:01 04 W`z|W'z 《ウィズ》
-2019/01/27-06:00:02 16 Sword Art Online Alicization|ソードアート・オンライン アリシゼーション
-2019/01/27-06:00:02 03 Mini Toji|みにとじ
-2019/01/27-06:00:02 03 Kaguya-sama wa Kokurasetai Tensai-tachi no Ren`ai Zunousen|かぐや様は告らせたい～天才たちの恋愛頭脳戦～
-2019/01/27-06:00:02 03 Endro~!|えんどろ～！
-2019/01/27-00:00:01 17 Radiant|ラディアン
 2019/01/10-00:00:01 01 Ikkitousen Western Wolves|一騎当千 Western Wolves
 2019/01/09-18:56:53 22 Zoids Wild|ゾイドワイルド
 2018/12/25-12:00:01 02 Strike the Blood III|ストライク・ザ・ブラッド OVA
