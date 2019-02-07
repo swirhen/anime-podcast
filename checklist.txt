@@ -1,4 +1,5 @@
-Last Update: 2019/02/07-18:00:01
+Last Update: 2019/02/08-00:00:01
+2019/02/08-00:00:01 05 Girly Air Force|ガーリー・エアフォース
 2019/02/07-12:00:01 05 Revisions|revisions
 2019/02/07-06:00:01 44 Captain Tsubasa|キャプテン翼
 2019/02/07-06:00:01 05 Virtual-san wa Miteiru|バーチャルさんはみている
@@ -56,7 +57,6 @@ Last Update: 2019/02/07-18:00:01
 2019/02/01-06:00:01 05 Bang Dream! 2nd Season|BanG Dream! 2nd Season
 2019/02/01-00:00:01 42 Aikatsu Friends!|アイカツフレンズ！
 2019/02/01-00:00:01 15 Karakuri Circus|からくりサーカス
-2019/02/01-00:00:01 04 Girly Air Force|ガーリー・エアフォース
 2019/01/28-06:00:01 04 Ueno-san wa Bukiyou|上野さんは不器用
 2019/01/09-18:56:53 22 Zoids Wild|ゾイドワイルド
 2018/12/25-12:00:01 02 Strike the Blood III|ストライク・ザ・ブラッド OVA
