@@ -1,4 +1,8 @@
-Last Update: 2019/02/09-09:04:30
+Last Update: 2019/02/10-00:00:01
+2019/02/10-00:00:01 19 Radiant|ラディアン
+2019/02/10-00:00:01 16 Gyakuten Saiban Season 2|逆転裁判 ～その「真実」、異議あり！～ Season2
+2019/02/10-00:00:01 06 Fukigen na Mononokean Tsuzuki|不機嫌なモノノケ庵 續
+2019/02/10-00:00:01 05 Bermuda Triangle Colorful Pastrale|バミューダトライアングル ～カラフル・パストラーレ～
 2019/02/09-09:04:30 01 Star Twinkle Precure|スター☆トゥインクルプリキュア
 2019/02/09-06:00:01 18 Toaru Majutsu no Index III|とある魔術の禁書目録III
 2019/02/09-06:00:01 18 Okoshiyasu, Chitose-chan|おこしやす、ちとせちゃん
@@ -47,15 +51,11 @@ Last Update: 2019/02/09-09:04:30
 2019/02/03-18:00:02 17 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
 2019/02/03-12:00:01 42 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2019/02/03-12:00:01 42 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
-2019/02/03-06:00:01 18 Radiant|ラディアン
 2019/02/03-06:00:01 17 Sword Art Online Alicization|ソードアート・オンライン アリシゼーション
 2019/02/03-06:00:01 05 W`z|W'z 《ウィズ》
 2019/02/03-06:00:01 04 Mini Toji|みにとじ
 2019/02/03-06:00:01 04 Kaguya-sama wa Kokurasetai Tensai-tachi no Ren`ai Zunousen|かぐや様は告らせたい～天才たちの恋愛頭脳戦～
 2019/02/03-06:00:01 04 Endro~!|えんどろ～！
-2019/02/03-00:00:01 15 Gyakuten Saiban Season 2|逆転裁判 ～その「真実」、異議あり！～ Season2
-2019/02/03-00:00:01 05 Fukigen na Mononokean Tsuzuki|不機嫌なモノノケ庵 續
-2019/02/03-00:00:01 04 Bermuda Triangle Colorful Pastrale|バミューダトライアングル ～カラフル・パストラーレ～
 2019/02/02-00:00:01 04 Hulaing Babies|フライングベイビーズ
 2019/02/01-00:00:01 15 Karakuri Circus|からくりサーカス
 2019/01/09-18:56:53 22 Zoids Wild|ゾイドワイルド
