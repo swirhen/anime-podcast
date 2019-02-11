@@ -1,4 +1,7 @@
-Last Update: 2019/02/11-18:00:01
+Last Update: 2019/02/12-00:00:01
+2019/02/12-00:00:01 16 Karakuri Circus|からくりサーカス
+2019/02/12-00:00:01 06 Mob Psycho 100 II|モブサイコ100II
+2019/02/12-00:00:01 06 Dororo (2019)|どろろ
 2019/02/11-06:00:01 06 Ueno-san wa Bukiyou|上野さんは不器用
 2019/02/11-06:00:01 06 Papa Datte, Shitai|パパだって、したい
 2019/02/11-06:00:01 04 Manaria Friends|マナリアフレンズ
@@ -53,10 +56,7 @@ Last Update: 2019/02/11-18:00:01
 2019/02/05-06:00:01 56 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2019/02/05-06:00:01 18 Tensei Shitara Slime Datta Ken|転生したらスライムだった件
 2019/02/05-06:00:01 05 Pastel Memories|ぱすてるメモリーズ
-2019/02/05-00:00:01 05 Mob Psycho 100 II|モブサイコ100II
-2019/02/05-00:00:01 05 Dororo (2019)|どろろ
 2019/02/05-00:00:01 02 Ikkitousen Western Wolves|一騎当千 Western Wolves
 2019/02/02-00:00:01 04 Hulaing Babies|フライングベイビーズ
-2019/02/01-00:00:01 15 Karakuri Circus|からくりサーカス
 2019/01/09-18:56:53 22 Zoids Wild|ゾイドワイルド
 2018/12/25-12:00:01 02 Strike the Blood III|ストライク・ザ・ブラッド OVA
