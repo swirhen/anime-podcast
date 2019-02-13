@@ -1,4 +1,8 @@
-Last Update: 2019/02/13-06:00:01
+Last Update: 2019/02/13-12:00:01
+2019/02/13-12:00:01 17 Kaze ga Tsuyoku Fuite Iru|風が強く吹いている
+2019/02/13-12:00:01 06 Kakegurui XX|賭ケグルイ××
+2019/02/13-12:00:01 06 Circlet Princess|サークレット・プリンセス
+2019/02/13-12:00:01 06 3D Kanojo Real Girl (2019)|3D彼女 リアルガール(第2シーズン)
 2019/02/13-06:00:01 06 Rinshi!! Ekoda-chan|臨死!! 江古田ちゃん
 2019/02/13-06:00:01 06 Ame-iro Cocoa Side G|雨色ココア sideG
 2019/02/13-00:00:01 70 Black Clover|ブラッククローバー
@@ -52,10 +56,6 @@ Last Update: 2019/02/13-06:00:01
 2019/02/07-06:00:01 05 Doukyonin wa Hiza, Tokidoki, Atama no Ue.|同居人はひざ、時々、頭のうえ。
 2019/02/07-00:00:01 05 Tate no Yuusha no Nariagari|盾の勇者の成り上がり
 2019/02/07-00:00:01 05 Kemurikusa (2019)|ケムリクサ
-2019/02/06-06:00:01 16 Kaze ga Tsuyoku Fuite Iru|風が強く吹いている
-2019/02/06-06:00:01 05 Kakegurui XX|賭ケグルイ××
-2019/02/06-06:00:01 05 3D Kanojo Real Girl (2019)|3D彼女 リアルガール(第2シーズン)
-2019/02/06-00:00:01 05 Circlet Princess|サークレット・プリンセス
 2019/02/05-00:00:01 02 Ikkitousen Western Wolves|一騎当千 Western Wolves
 2019/02/02-00:00:01 04 Hulaing Babies|フライングベイビーズ
 2019/01/09-18:56:53 22 Zoids Wild|ゾイドワイルド
