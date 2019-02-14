@@ -1,4 +1,10 @@
-Last Update: 2019/02/15-00:00:01
+Last Update: 2019/02/15-06:00:01
+2019/02/15-06:00:01 45 Captain Tsubasa|キャプテン翼
+2019/02/15-06:00:01 17 Karakuri Circus|からくりサーカス
+2019/02/15-06:00:01 07 Bang Dream! 2nd Season|BanG Dream! 2nd Season
+2019/02/15-06:00:01 06 Yakusoku no Neverland|約束のネバーランド
+2019/02/15-06:00:01 06 Grimms Notes The Animation|グリムノーツ The Animation
+2019/02/15-06:00:01 06 Go-Toubun no Hanayome|五等分の花嫁
 2019/02/15-00:00:01 44 Aikatsu Friends!|アイカツフレンズ！
 2019/02/15-00:00:01 06 Virtual-san wa Miteiru|バーチャルさんはみている
 2019/02/15-00:00:01 06 Kemurikusa (2019)|ケムリクサ
@@ -20,7 +26,6 @@ Last Update: 2019/02/15-00:00:01
 2019/02/12-06:00:02 19 Tensei Shitara Slime Datta Ken|転生したらスライムだった件
 2019/02/12-06:00:02 06 Pastel Memories|ぱすてるメモリーズ
 2019/02/12-06:00:02 05 Kemono Friends 2|けものフレンズ2
-2019/02/12-00:00:01 16 Karakuri Circus|からくりサーカス
 2019/02/12-00:00:01 06 Mob Psycho 100 II|モブサイコ100II
 2019/02/12-00:00:01 06 Dororo (2019)|どろろ
 2019/02/11-06:00:01 06 Ueno-san wa Bukiyou|上野さんは不器用
@@ -51,11 +56,6 @@ Last Update: 2019/02/15-00:00:01
 2019/02/09-06:00:01 05 Domestic na Kanojo|ドメスティックな彼女
 2019/02/09-06:00:01 05 Date a Live III|デート・ア・ライブIII
 2019/02/09-06:00:01 05 B-Project Zecchou Emotion|B-PROJECT～絶頂＊エモーション～
-2019/02/08-06:00:01 06 Bang Dream! 2nd Season|BanG Dream! 2nd Season
-2019/02/08-06:00:01 05 Yakusoku no Neverland|約束のネバーランド
-2019/02/08-06:00:01 05 Grimms Notes The Animation|グリムノーツ The Animation
-2019/02/08-06:00:01 05 Go-Toubun no Hanayome|五等分の花嫁
-2019/02/07-06:00:01 44 Captain Tsubasa|キャプテン翼
 2019/02/05-00:00:01 02 Ikkitousen Western Wolves|一騎当千 Western Wolves
 2019/02/02-00:00:01 04 Hulaing Babies|フライングベイビーズ
 2019/01/09-18:56:53 22 Zoids Wild|ゾイドワイルド
