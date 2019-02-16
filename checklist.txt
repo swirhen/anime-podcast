@@ -1,4 +1,9 @@
-Last Update: 2019/02/17-00:00:01
+Last Update: 2019/02/17-06:00:01
+2019/02/17-06:00:01 18.5 Sword Art Online Alicization|ソードアート・オンライン アリシゼーション
+2019/02/17-06:00:01 07 W`z|W'z 《ウィズ》
+2019/02/17-06:00:01 06 Mini Toji|みにとじ
+2019/02/17-06:00:01 06 Kaguya-sama wa Kokurasetai Tensai-tachi no Ren`ai Zunousen|かぐや様は告らせたい～天才たちの恋愛頭脳戦～
+2019/02/17-06:00:01 06 Endro~!|えんどろ～！
 2019/02/17-00:00:01 20 Radiant|ラディアン
 2019/02/17-00:00:01 17 Gyakuten Saiban Season 2|逆転裁判 ～その「真実」、異議あり！～ Season2
 2019/02/17-00:00:01 07 Fukigen na Mononokean Tsuzuki|不機嫌なモノノケ庵 續
@@ -51,11 +56,6 @@ Last Update: 2019/02/17-00:00:01
 2019/02/10-12:00:01 43 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2019/02/10-12:00:01 43 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2019/02/10-12:00:01 18 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
-2019/02/10-06:00:01 18 Sword Art Online Alicization|ソードアート・オンライン アリシゼーション
-2019/02/10-06:00:01 06 W`z|W'z 《ウィズ》
-2019/02/10-06:00:01 05 Mini Toji|みにとじ
-2019/02/10-06:00:01 05 Kaguya-sama wa Kokurasetai Tensai-tachi no Ren`ai Zunousen|かぐや様は告らせたい～天才たちの恋愛頭脳戦～
-2019/02/10-06:00:01 05 Endro~!|えんどろ～！
 2019/02/09-06:00:01 18 Okoshiyasu, Chitose-chan|おこしやす、ちとせちゃん
 2019/02/05-00:00:01 02 Ikkitousen Western Wolves|一騎当千 Western Wolves
 2019/02/02-00:00:01 04 Hulaing Babies|フライングベイビーズ
