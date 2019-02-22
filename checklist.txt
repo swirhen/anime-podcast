@@ -1,4 +1,6 @@
-Last Update: 2019/02/23-00:00:01
+Last Update: 2019/02/23-06:00:02
+2019/02/23-06:00:02 20 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
+2019/02/23-06:00:02 07 Domestic na Kanojo|ドメスティックな彼女
 2019/02/23-00:00:01 20 Toaru Majutsu no Index III|とある魔術の禁書目録III
 2019/02/23-00:00:01 19 Hinomaru Zumou|火ノ丸相撲
 2019/02/23-00:00:01 09 Boogiepop wa Warawanai|ブギーポップは笑わない
@@ -52,9 +54,7 @@ Last Update: 2019/02/23-00:00:01
 2019/02/17-00:00:01 17 Gyakuten Saiban Season 2|逆転裁判 ～その「真実」、異議あり！～ Season2
 2019/02/17-00:00:01 07 Fukigen na Mononokean Tsuzuki|不機嫌なモノノケ庵 續
 2019/02/17-00:00:01 06 Bermuda Triangle Colorful Pastrale|バミューダトライアングル ～カラフル・パストラーレ～
-2019/02/16-06:00:01 19 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
 2019/02/16-06:00:01 06 Mahou Shoujo Tokushusen Asuka|魔法少女特殊戦あすか
-2019/02/16-06:00:01 06 Domestic na Kanojo|ドメスティックな彼女
 2019/02/16-06:00:01 06 B-Project Zecchou Emotion|B-PROJECT～絶頂＊エモーション～
 2019/02/09-06:00:01 18 Okoshiyasu, Chitose-chan|おこしやす、ちとせちゃん
 2019/02/05-00:00:01 02 Ikkitousen Western Wolves|一騎当千 Western Wolves
