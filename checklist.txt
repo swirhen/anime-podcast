@@ -1,4 +1,7 @@
-Last Update: 2019/03/05-18:00:01
+Last Update: 2019/03/06-00:00:01
+2019/03/06-00:00:01 73 Black Clover|ブラッククローバー
+2019/03/06-00:00:01 09 Watashi ni Tenshi ga Maiorita!|私に天使が舞い降りた！
+2019/03/06-00:00:01 09 Circlet Princess|サークレット・プリンセス
 2019/03/05-18:00:01 48 Captain Tsubasa|キャプテン翼
 2019/03/05-06:00:01 22 Tensei Shitara Slime Datta Ken|転生したらスライムだった件
 2019/03/05-06:00:01 09 Pastel Memories|ぱすてるメモリーズ
@@ -53,9 +56,6 @@ Last Update: 2019/03/05-18:00:01
 2019/02/27-06:00:01 19 Kaze ga Tsuyoku Fuite Iru|風が強く吹いている
 2019/02/27-06:00:01 08 Rinshi!! Ekoda-chan|臨死!! 江古田ちゃん
 2019/02/27-06:00:01 08 Ame-iro Cocoa Side G|雨色ココア sideG
-2019/02/27-00:00:01 72 Black Clover|ブラッククローバー
-2019/02/27-00:00:01 08 Watashi ni Tenshi ga Maiorita!|私に天使が舞い降りた！
-2019/02/27-00:00:01 08 Circlet Princess|サークレット・プリンセス
 2019/02/18-06:00:02 07 Papa Datte, Shitai|パパだって、したい
 2019/02/17-00:00:01 20 Radiant|ラディアン
 2019/02/09-06:00:01 18 Okoshiyasu, Chitose-chan|おこしやす、ちとせちゃん
