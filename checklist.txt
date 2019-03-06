@@ -1,4 +1,6 @@
-Last Update: 2019/03/06-18:00:01
+Last Update: 2019/03/07-00:00:01
+2019/03/07-00:00:01 09 Tate no Yuusha no Nariagari|盾の勇者の成り上がり
+2019/03/07-00:00:01 09 Kemurikusa (2019)|ケムリクサ
 2019/03/06-12:00:01 09 Kakegurui XX|賭ケグルイ××
 2019/03/06-06:00:01 20 Kaze ga Tsuyoku Fuite Iru|風が強く吹いている
 2019/03/06-06:00:01 09 Rinshi!! Ekoda-chan|臨死!! 江古田ちゃん
@@ -54,8 +56,6 @@ Last Update: 2019/03/06-18:00:01
 2019/02/28-12:00:01 08 Revisions|revisions
 2019/02/28-06:00:01 08 Meiji Tokyo Renka|明治東亰恋伽
 2019/02/28-06:00:01 08 Doukyonin wa Hiza, Tokidoki, Atama no Ue.|同居人はひざ、時々、頭のうえ。
-2019/02/28-00:00:02 08 Tate no Yuusha no Nariagari|盾の勇者の成り上がり
-2019/02/28-00:00:02 08 Kemurikusa (2019)|ケムリクサ
 2019/02/18-06:00:02 07 Papa Datte, Shitai|パパだって、したい
 2019/02/17-00:00:01 20 Radiant|ラディアン
 2019/02/09-06:00:01 18 Okoshiyasu, Chitose-chan|おこしやす、ちとせちゃん
