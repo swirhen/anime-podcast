@@ -1,4 +1,9 @@
-Last Update: 2019/03/08-18:00:01
+Last Update: 2019/03/09-00:00:01
+2019/03/09-00:00:01 22 Toaru Majutsu no Index III|とある魔術の禁書目録III
+2019/03/09-00:00:01 21 Hinomaru Zumou|火ノ丸相撲
+2019/03/09-00:00:01 15 Boogiepop wa Warawanai|ブギーポップは笑わない
+2019/03/09-00:00:01 10 Egao no Daika|エガオノダイカ
+2019/03/09-00:00:01 09 Date a Live III|デート・ア・ライブIII
 2019/03/08-06:00:01 20 Karakuri Circus|からくりサーカス
 2019/03/08-06:00:01 10 Bang Dream! 2nd Season|BanG Dream! 2nd Season
 2019/03/08-06:00:01 09 Yakusoku no Neverland|約束のネバーランド
@@ -51,11 +56,6 @@ Last Update: 2019/03/08-18:00:01
 2019/03/02-06:00:01 21 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
 2019/03/02-06:00:01 08 Mahou Shoujo Tokushusen Asuka|魔法少女特殊戦あすか
 2019/03/02-06:00:01 08 Domestic na Kanojo|ドメスティックな彼女
-2019/03/02-00:00:01 21 Toaru Majutsu no Index III|とある魔術の禁書目録III
-2019/03/02-00:00:01 20 Hinomaru Zumou|火ノ丸相撲
-2019/03/02-00:00:01 14 Boogiepop wa Warawanai|ブギーポップは笑わない
-2019/03/02-00:00:01 09 Egao no Daika|エガオノダイカ
-2019/03/02-00:00:01 08 Date a Live III|デート・ア・ライブIII
 2019/02/18-06:00:02 07 Papa Datte, Shitai|パパだって、したい
 2019/02/17-00:00:01 20 Radiant|ラディアン
 2019/02/09-06:00:01 18 Okoshiyasu, Chitose-chan|おこしやす、ちとせちゃん
