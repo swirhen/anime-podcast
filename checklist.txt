@@ -1,4 +1,5 @@
-Last Update: 2019/03/11-12:00:01
+Last Update: 2019/03/11-18:00:01
+2019/03/11-18:00:01 06 Star Twinkle Precure|スター☆トゥインクルプリキュア
 2019/03/11-06:00:01 10 Ueno-san wa Bukiyou|上野さんは不器用
 2019/03/11-06:00:01 08 Manaria Friends|マナリアフレンズ
 2019/03/11-06:00:01 07 Piano no Mori (2019)|ピアノの森(TVシリーズ 第2シリーズ)
@@ -52,7 +53,6 @@ Last Update: 2019/03/11-12:00:01
 2019/03/05-06:00:01 08 Kemono Friends 2|けものフレンズ2
 2019/03/05-00:00:01 09 Mob Psycho 100 II|モブサイコ100II
 2019/03/05-00:00:01 09 Dororo (2019)|どろろ
-2019/03/04-06:00:01 05 Star Twinkle Precure|スター☆トゥインクルプリキュア
 2019/03/04-06:00:01 03 Zoku Owarimonogatari|続・終物語
 2019/03/04-00:00:01 03 Ikkitousen Western Wolves|一騎当千 Western Wolves
 2019/03/03-12:00:01 46 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
