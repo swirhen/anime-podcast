@@ -1,4 +1,9 @@
-Last Update: 2019/03/15-18:00:01
+Last Update: 2019/03/16-00:00:01
+2019/03/16-00:00:01 23 Toaru Majutsu no Index III|とある魔術の禁書目録III
+2019/03/16-00:00:01 22 Hinomaru Zumou|火ノ丸相撲
+2019/03/16-00:00:01 16 Boogiepop wa Warawanai|ブギーポップは笑わない
+2019/03/16-00:00:01 11 Egao no Daika|エガオノダイカ
+2019/03/16-00:00:01 10 Date a Live III|デート・ア・ライブIII
 2019/03/15-06:00:01 11 Bang Dream! 2nd Season|BanG Dream! 2nd Season
 2019/03/15-06:00:01 10 Yakusoku no Neverland|約束のネバーランド
 2019/03/15-06:00:01 10 Grimms Notes The Animation|グリムノーツ The Animation
@@ -48,11 +53,6 @@ Last Update: 2019/03/15-18:00:01
 2019/03/09-06:00:01 09 Mahou Shoujo Tokushusen Asuka|魔法少女特殊戦あすか
 2019/03/09-06:00:01 09 Domestic na Kanojo|ドメスティックな彼女
 2019/03/09-06:00:01 09 B-Project Zecchou Emotion|B-PROJECT～絶頂＊エモーション～
-2019/03/09-00:00:01 22 Toaru Majutsu no Index III|とある魔術の禁書目録III
-2019/03/09-00:00:01 21 Hinomaru Zumou|火ノ丸相撲
-2019/03/09-00:00:01 15 Boogiepop wa Warawanai|ブギーポップは笑わない
-2019/03/09-00:00:01 10 Egao no Daika|エガオノダイカ
-2019/03/09-00:00:01 09 Date a Live III|デート・ア・ライブIII
 2019/03/04-06:00:01 03 Zoku Owarimonogatari|続・終物語
 2019/03/04-00:00:01 03 Ikkitousen Western Wolves|一騎当千 Western Wolves
 2019/03/03-12:00:01 46 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
