@@ -7,6 +7,7 @@ MAILTO=""
 #0 0 * * * /data/share/gyazo/tyozo/del.sh
 0 1 * * * /home/swirhen/sh/backup.sh
 0 1 * * * /data/share/movie/sh/cron_backup.sh
+0 1 * * * /data/share/movie/sh/backup.sh
 
 #* * 1-7 * * [ "$(date '+\%w')" -eq 1 ] && echo "だいいちげつようび～"
 #* * 8-14 * * [ "$(date '+\%w')" -eq 1 ] && echo "だいにかようび～"
