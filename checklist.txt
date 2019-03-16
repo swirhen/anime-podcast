@@ -1,4 +1,7 @@
-Last Update: 2019/03/16-18:00:01
+Last Update: 2019/03/17-00:00:01
+2019/03/17-00:00:01 21 Gyakuten Saiban Season 2|逆転裁判 ～その「真実」、異議あり！～ Season2
+2019/03/17-00:00:01 11 Fukigen na Mononokean Tsuzuki|不機嫌なモノノケ庵 續
+2019/03/17-00:00:01 10 Bermuda Triangle Colorful Pastrale|バミューダトライアングル ～カラフル・パストラーレ～
 2019/03/16-06:00:01 22 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
 2019/03/16-06:00:01 10 Mahou Shoujo Tokushusen Asuka|魔法少女特殊戦あすか
 2019/03/16-06:00:01 10 Domestic na Kanojo|ドメスティックな彼女
@@ -50,9 +53,6 @@ Last Update: 2019/03/16-18:00:01
 2019/03/10-06:00:01 09 Mini Toji|みにとじ
 2019/03/10-06:00:01 09 Kaguya-sama wa Kokurasetai Tensai-tachi no Ren`ai Zunousen|かぐや様は告らせたい～天才たちの恋愛頭脳戦～
 2019/03/10-06:00:01 09 Endro~!|えんどろ～！
-2019/03/10-00:00:01 20 Gyakuten Saiban Season 2|逆転裁判 ～その「真実」、異議あり！～ Season2
-2019/03/10-00:00:01 10 Fukigen na Mononokean Tsuzuki|不機嫌なモノノケ庵 續
-2019/03/10-00:00:01 09 Bermuda Triangle Colorful Pastrale|バミューダトライアングル ～カラフル・パストラーレ～
 2019/03/04-06:00:01 03 Zoku Owarimonogatari|続・終物語
 2019/03/04-00:00:01 03 Ikkitousen Western Wolves|一騎当千 Western Wolves
 2019/03/03-12:00:01 46 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
