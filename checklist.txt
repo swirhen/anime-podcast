@@ -1,4 +1,9 @@
-Last Update: 2019/03/17-00:00:01
+Last Update: 2019/03/17-06:00:01
+2019/03/17-06:00:01 62 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2019/03/17-06:00:01 36 Zoids Wild|ゾイドワイルド
+2019/03/17-06:00:01 22 Sword Art Online Alicization|ソードアート・オンライン アリシゼーション
+2019/03/17-06:00:01 10 Kaguya-sama wa Kokurasetai Tensai-tachi no Ren`ai Zunousen|かぐや様は告らせたい～天才たちの恋愛頭脳戦～
+2019/03/17-06:00:01 10 Endro~!|えんどろ～！
 2019/03/17-00:00:01 21 Gyakuten Saiban Season 2|逆転裁判 ～その「真実」、異議あり！～ Season2
 2019/03/17-00:00:01 11 Fukigen na Mononokean Tsuzuki|不機嫌なモノノケ庵 續
 2019/03/17-00:00:01 10 Bermuda Triangle Colorful Pastrale|バミューダトライアングル ～カラフル・パストラーレ～
@@ -42,17 +47,12 @@ Last Update: 2019/03/17-00:00:01
 2019/03/11-06:00:01 10 Ueno-san wa Bukiyou|上野さんは不器用
 2019/03/11-06:00:01 08 Manaria Friends|マナリアフレンズ
 2019/03/11-06:00:01 07 Piano no Mori (2019)|ピアノの森(TVシリーズ 第2シリーズ)
-2019/03/11-00:00:01 61 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
-2019/03/11-00:00:01 35 Zoids Wild|ゾイドワイルド
 2019/03/11-00:00:01 09 Kouya no Kotobuki Hikoutai|荒野のコトブキ飛行隊
 2019/03/10-12:00:01 48 Kiratto Pri-chan|キラッとプリ☆チャン
 2019/03/10-12:00:01 47 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
 2019/03/10-12:00:01 22 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
-2019/03/10-06:00:01 21 Sword Art Online Alicization|ソードアート・オンライン アリシゼーション
 2019/03/10-06:00:01 10 W`z|W'z 《ウィズ》
 2019/03/10-06:00:01 09 Mini Toji|みにとじ
-2019/03/10-06:00:01 09 Kaguya-sama wa Kokurasetai Tensai-tachi no Ren`ai Zunousen|かぐや様は告らせたい～天才たちの恋愛頭脳戦～
-2019/03/10-06:00:01 09 Endro~!|えんどろ～！
 2019/03/04-06:00:01 03 Zoku Owarimonogatari|続・終物語
 2019/03/04-00:00:01 03 Ikkitousen Western Wolves|一騎当千 Western Wolves
 2019/03/03-12:00:01 46 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
