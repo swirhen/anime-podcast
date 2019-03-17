@@ -1,4 +1,7 @@
-Last Update: 2019/03/18-00:00:01
+Last Update: 2019/03/18-06:00:01
+2019/03/18-06:00:01 11 Ueno-san wa Bukiyou|上野さんは不器用
+2019/03/18-06:00:01 09 Manaria Friends|マナリアフレンズ
+2019/03/18-06:00:01 08 Piano no Mori (2019)|ピアノの森(TVシリーズ 第2シリーズ)
 2019/03/18-00:00:01 10 Kouya no Kotobuki Hikoutai|荒野のコトブキ飛行隊
 2019/03/17-12:00:01 49 Kiratto Pri-chan|キラッとプリ☆チャン
 2019/03/17-12:00:01 48 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
@@ -50,9 +53,6 @@ Last Update: 2019/03/18-00:00:01
 2019/03/12-00:00:01 10 Mob Psycho 100 II|モブサイコ100II
 2019/03/12-00:00:01 10 Dororo (2019)|どろろ
 2019/03/11-18:00:01 06 Star Twinkle Precure|スター☆トゥインクルプリキュア
-2019/03/11-06:00:01 10 Ueno-san wa Bukiyou|上野さんは不器用
-2019/03/11-06:00:01 08 Manaria Friends|マナリアフレンズ
-2019/03/11-06:00:01 07 Piano no Mori (2019)|ピアノの森(TVシリーズ 第2シリーズ)
 2019/03/10-06:00:01 09 Mini Toji|みにとじ
 2019/03/04-06:00:01 03 Zoku Owarimonogatari|続・終物語
 2019/03/04-00:00:01 03 Ikkitousen Western Wolves|一騎当千 Western Wolves
