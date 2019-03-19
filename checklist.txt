@@ -1,4 +1,7 @@
-Last Update: 2019/03/19-18:00:01
+Last Update: 2019/03/20-00:00:01
+2019/03/20-00:00:01 75 Black Clover|ブラッククローバー
+2019/03/20-00:00:01 11 Watashi ni Tenshi ga Maiorita!|私に天使が舞い降りた！
+2019/03/20-00:00:01 11 Circlet Princess|サークレット・プリンセス
 2019/03/19-06:00:01 24 Tensei Shitara Slime Datta Ken|転生したらスライムだった件
 2019/03/19-06:00:01 11 Pastel Memories|ぱすてるメモリーズ
 2019/03/19-06:00:01 10 Kemono Friends 2|けものフレンズ2
@@ -48,9 +51,6 @@ Last Update: 2019/03/19-18:00:01
 2019/03/13-06:00:01 10 Rinshi!! Ekoda-chan|臨死!! 江古田ちゃん
 2019/03/13-06:00:01 10 Ame-iro Cocoa Side G|雨色ココア sideG
 2019/03/13-06:00:01 10 3D Kanojo Real Girl (2019)|3D彼女 リアルガール(第2シーズン)
-2019/03/13-00:00:01 74 Black Clover|ブラッククローバー
-2019/03/13-00:00:01 10 Watashi ni Tenshi ga Maiorita!|私に天使が舞い降りた！
-2019/03/13-00:00:01 10 Circlet Princess|サークレット・プリンセス
 2019/03/12-18:00:01 49 Captain Tsubasa|キャプテン翼
 2019/03/11-18:00:01 06 Star Twinkle Precure|スター☆トゥインクルプリキュア
 2019/03/10-06:00:01 09 Mini Toji|みにとじ
