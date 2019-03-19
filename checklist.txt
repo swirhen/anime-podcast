@@ -1,4 +1,9 @@
-Last Update: 2019/03/20-00:00:01
+Last Update: 2019/03/20-06:00:01
+2019/03/20-06:00:01 22 Kaze ga Tsuyoku Fuite Iru|風が強く吹いている
+2019/03/20-06:00:01 11 Rinshi!! Ekoda-chan|臨死!! 江古田ちゃん
+2019/03/20-06:00:01 11 Ame-iro Cocoa Side G|雨色ココア sideG
+2019/03/20-06:00:01 11 3D Kanojo Real Girl (2019)|3D彼女 リアルガール(第2シーズン)
+2019/03/20-06:00:01 07 Star Twinkle Precure|スター☆トゥインクルプリキュア
 2019/03/20-00:00:01 75 Black Clover|ブラッククローバー
 2019/03/20-00:00:01 11 Watashi ni Tenshi ga Maiorita!|私に天使が舞い降りた！
 2019/03/20-00:00:01 11 Circlet Princess|サークレット・プリンセス
@@ -47,12 +52,7 @@ Last Update: 2019/03/20-00:00:01
 2019/03/14-00:00:01 10 Tate no Yuusha no Nariagari|盾の勇者の成り上がり
 2019/03/14-00:00:01 10 Kemurikusa (2019)|ケムリクサ
 2019/03/13-12:00:01 10 Kakegurui XX|賭ケグルイ××
-2019/03/13-06:00:01 21 Kaze ga Tsuyoku Fuite Iru|風が強く吹いている
-2019/03/13-06:00:01 10 Rinshi!! Ekoda-chan|臨死!! 江古田ちゃん
-2019/03/13-06:00:01 10 Ame-iro Cocoa Side G|雨色ココア sideG
-2019/03/13-06:00:01 10 3D Kanojo Real Girl (2019)|3D彼女 リアルガール(第2シーズン)
 2019/03/12-18:00:01 49 Captain Tsubasa|キャプテン翼
-2019/03/11-18:00:01 06 Star Twinkle Precure|スター☆トゥインクルプリキュア
 2019/03/10-06:00:01 09 Mini Toji|みにとじ
 2019/03/04-06:00:01 03 Zoku Owarimonogatari|続・終物語
 2019/03/04-00:00:01 03 Ikkitousen Western Wolves|一騎当千 Western Wolves
