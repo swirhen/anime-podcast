@@ -37,7 +37,6 @@ MAILTO=""
 #29 21 * * 5 /data/share/movie/sh/freshrecord.sh "津田健次郎・大河元気のジョシ禁ラジオ" hibiki 1 0 1
 
 # SP
-#59 15 11 1 * /data/share/movie/sh/agqrrecord.sh "南早紀と下野紘の アゲアゲ チ金 FRIDAY!" 45 3600
 
 # 帯
 59 19 * * 1 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 黒沢ともよ" 45 3600 v
@@ -50,6 +49,8 @@ MAILTO=""
 #59 18 * * 1 /data/share/movie/sh/agqrrecord.sh "石原夏織のCarry up！？" 45 1800 v
 59 20 * * 1 /data/share/movie/sh/radikorec.sh -o "ご注文はラジオですか？？ ～WELCOME【う・さ！】～" -t 1860 QRR
 29 21 * * 1 /data/share/movie/sh/agqrrecord.sh "東山奈央のラジオ＠リビング" 45 1800
+# 4月から
+#59 22 * * 1 /data/share/movie/sh/agqrrecord.sh "東山奈央のラジオ＠リビング" 45 1800
 59 21 * * 1 /data/share/movie/sh/agqrrecord.sh "井口裕香のむ～～～ん⊂（　＾ω＾）⊃" 45 3600 v
 59 22 * * 1 /data/share/movie/sh/agqrrecord.sh "阿澄佳奈 星空ひなたぼっこ" 45 1800 v
 59 0 * * 2 /data/share/movie/sh/agqrrecord.sh "西明日香のデリケートゾーン！" 45 1800 v
@@ -65,7 +66,6 @@ MAILTO=""
 # -- WED
 #29 1 * * 4 /data/share/movie/sh/agqrrecord.sh "武内駿輔のGooooood JOB！" 45 1800
 # -- THU
-#29 17 * 4,5,6 4 /data/share/movie/sh/agqrrecord.sh "大久保瑠美・桑原由気 まなべる！ライトノベル！" 45 1800
 59 20 * * 4 /data/share/movie/sh/agqrrecord.sh "アニゲラ！ディドゥーーン！！" 45 1800
 29 21 * * 4 /data/share/movie/sh/radikorec.sh -o "田村ゆかりの乙女心▽症候群" -t 1860 QRR
 #59 21 * * 4 /data/share/movie/sh/agqrrecord.sh "豊崎愛生のおかえりらじお" 45 3600
