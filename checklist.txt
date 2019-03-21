@@ -1,4 +1,7 @@
-Last Update: 2019/03/21-18:00:01
+Last Update: 2019/03/22-00:00:01
+2019/03/22-00:00:01 49 Aikatsu Friends!|アイカツフレンズ！
+2019/03/22-00:00:01 22 Karakuri Circus|からくりサーカス
+2019/03/22-00:00:01 11 Girly Air Force|ガーリー・エアフォース
 2019/03/21-12:00:01 11 Revisions|revisions
 2019/03/21-06:00:01 11 Virtual-san wa Miteiru|バーチャルさんはみている
 2019/03/21-06:00:01 11 Doukyonin wa Hiza, Tokidoki, Atama no Ue.|同居人はひざ、時々、頭のうえ。
@@ -49,9 +52,6 @@ Last Update: 2019/03/21-18:00:01
 2019/03/15-06:00:01 10 Yakusoku no Neverland|約束のネバーランド
 2019/03/15-06:00:01 10 Grimms Notes The Animation|グリムノーツ The Animation
 2019/03/15-06:00:01 10 Go-Toubun no Hanayome|五等分の花嫁
-2019/03/15-00:00:01 48 Aikatsu Friends!|アイカツフレンズ！
-2019/03/15-00:00:01 21 Karakuri Circus|からくりサーカス
-2019/03/15-00:00:01 10 Girly Air Force|ガーリー・エアフォース
 2019/03/14-06:00:02 10 Meiji Tokyo Renka|明治東亰恋伽
 2019/03/10-06:00:01 09 Mini Toji|みにとじ
 2019/03/04-06:00:01 03 Zoku Owarimonogatari|続・終物語
