@@ -1,4 +1,8 @@
-Last Update: 2019/03/25-00:00:01
+Last Update: 2019/03/25-06:00:01
+2019/03/25-06:00:01 12 Ueno-san wa Bukiyou|上野さんは不器用
+2019/03/25-06:00:01 10 Manaria Friends|マナリアフレンズ
+2019/03/25-06:00:01 09 Piano no Mori (2019)|ピアノの森(TVシリーズ 第2シリーズ)
+2019/03/25-06:00:01 08 Star Twinkle Precure|スター☆トゥインクルプリキュア
 2019/03/25-00:00:01 11 Kouya no Kotobuki Hikoutai|荒野のコトブキ飛行隊
 2019/03/24-12:00:01 63 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2019/03/24-12:00:01 50 Kiratto Pri-chan|キラッとプリ☆チャン
@@ -39,7 +43,6 @@ Last Update: 2019/03/25-00:00:01
 2019/03/20-06:00:01 11 Rinshi!! Ekoda-chan|臨死!! 江古田ちゃん
 2019/03/20-06:00:01 11 Ame-iro Cocoa Side G|雨色ココア sideG
 2019/03/20-06:00:01 11 3D Kanojo Real Girl (2019)|3D彼女 リアルガール(第2シーズン)
-2019/03/20-06:00:01 07 Star Twinkle Precure|スター☆トゥインクルプリキュア
 2019/03/20-00:00:01 75 Black Clover|ブラッククローバー
 2019/03/20-00:00:01 11 Watashi ni Tenshi ga Maiorita!|私に天使が舞い降りた！
 2019/03/20-00:00:01 11 Circlet Princess|サークレット・プリンセス
@@ -48,9 +51,6 @@ Last Update: 2019/03/25-00:00:01
 2019/03/19-06:00:01 10 Kemono Friends 2|けものフレンズ2
 2019/03/19-00:00:01 11 Mob Psycho 100 II|モブサイコ100II
 2019/03/19-00:00:01 11 Dororo (2019)|どろろ
-2019/03/18-06:00:01 11 Ueno-san wa Bukiyou|上野さんは不器用
-2019/03/18-06:00:01 09 Manaria Friends|マナリアフレンズ
-2019/03/18-06:00:01 08 Piano no Mori (2019)|ピアノの森(TVシリーズ 第2シリーズ)
 2019/03/14-06:00:02 10 Meiji Tokyo Renka|明治東亰恋伽
 2019/03/10-06:00:01 09 Mini Toji|みにとじ
 2019/03/04-06:00:01 03 Zoku Owarimonogatari|続・終物語
