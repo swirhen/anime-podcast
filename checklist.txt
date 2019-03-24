@@ -1,4 +1,5 @@
-Last Update: 2019/03/24-18:00:01
+Last Update: 2019/03/25-00:00:01
+2019/03/25-00:00:01 11 Kouya no Kotobuki Hikoutai|荒野のコトブキ飛行隊
 2019/03/24-12:00:01 63 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2019/03/24-12:00:01 50 Kiratto Pri-chan|キラッとプリ☆チャン
 2019/03/24-12:00:01 49 Layton Mystery Tanteisha Katri no Nazotoki File|レイトン ミステリー探偵社～カトリーのナゾトキファイル～
@@ -50,7 +51,6 @@ Last Update: 2019/03/24-18:00:01
 2019/03/18-06:00:01 11 Ueno-san wa Bukiyou|上野さんは不器用
 2019/03/18-06:00:01 09 Manaria Friends|マナリアフレンズ
 2019/03/18-06:00:01 08 Piano no Mori (2019)|ピアノの森(TVシリーズ 第2シリーズ)
-2019/03/18-00:00:01 10 Kouya no Kotobuki Hikoutai|荒野のコトブキ飛行隊
 2019/03/14-06:00:02 10 Meiji Tokyo Renka|明治東亰恋伽
 2019/03/10-06:00:01 09 Mini Toji|みにとじ
 2019/03/04-06:00:01 03 Zoku Owarimonogatari|続・終物語
