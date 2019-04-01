@@ -105,9 +105,9 @@ do
 done
 
 # ts を行末に含む行が現れたら、ffmpegで保存開始
-filename="[FRESH LIVE] ${program_name//\//_} (${DATE})"
+filename="【FRESH LIVE】 ${program_name//\//_} (${DATE})"
 if [ "${archive_flg}" = "1" ]; then
-    filename="[FRESH LIVE(archive)] ${program_name//\//_}"
+    filename="【FRESH LIVE(archive)】 ${program_name//\//_}"
 fi
 
 # つぶやく(開始報告)

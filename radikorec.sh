@@ -173,7 +173,7 @@ fi
 cd /data/tmp ; wdir=`pwd`
 
 station_name=`curl -s "http://radiko.jp/v2/api/program/station/today?station_id=$channel" |/usr/bin/xpath -e "//station/name/text()" 2>/dev/null`
-output="${wdir}/${fname:=[${station_name}]${pgmname}_`date +%Y%m%d-%H%M`}.flv"
+output="${wdir}/${fname:=【${station_name}】${pgmname}_`date +%Y%m%d-%H%M`}.flv"
 
 # playerurl=http://radiko.jp/player/swf/player_2.0.1.00.swf <---radiko仕様変更点
 #playerurl=http://radiko.jp/player/swf/player_$VERSION.swf
