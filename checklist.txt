@@ -1,4 +1,5 @@
-Last Update: 2019/04/02-06:00:01
+Last Update: 2019/04/02-12:00:01
+2019/04/02-12:00:01 12 Kemono Friends 2|けものフレンズ2
 2019/04/02-06:00:01 64 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2019/04/02-06:00:01 38 Zoids Wild|ゾイドワイルド
 2019/04/02-06:00:01 09 Star Twinkle Precure|スター☆トゥインクルプリキュア
@@ -12,7 +13,6 @@ Last Update: 2019/04/02-06:00:01
 2019/03/28-00:00:01 12 Tate no Yuusha no Nariagari|盾の勇者の成り上がり
 2019/03/27-00:00:01 76 Black Clover|ブラッククローバー
 2019/03/27-00:00:01 51 Captain Tsubasa|キャプテン翼
-2019/03/26-06:00:01 11 Kemono Friends 2|けものフレンズ2
 2019/03/26-00:00:01 12 Dororo (2019)|どろろ
 2019/03/20-06:00:01 11 Ame-iro Cocoa Side G|雨色ココア sideG
 2019/02/09-06:00:01 18 Okoshiyasu, Chitose-chan|おこしやす、ちとせちゃん
