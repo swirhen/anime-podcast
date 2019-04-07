@@ -1,4 +1,6 @@
-Last Update: 2019/04/07-18:00:01
+Last Update: 2019/04/08-00:00:01
+2019/04/08-00:00:01 01 Bokutachi wa Benkyou ga Dekinai|ぼくたちは勉強ができない
+2019/04/08-00:00:01 0 Gunjou no Magmell|群青のマグメル
 2019/04/07-12:00:01 52 Kiratto Pri-chan|キラッとプリ☆チャン
 2019/04/07-12:00:01 50 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2019/04/07-12:00:01 26 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
@@ -7,7 +9,7 @@ Last Update: 2019/04/07-18:00:01
 2019/04/07-06:00:01 01 Senryuu Shoujo|川柳少女
 2019/04/07-06:00:01 01 Nobunaga-sensei no Osanazuma|ノブナガ先生の幼な妻
 2019/04/07-06:00:01 01 Joshi Kausei|女子かう生
-2019/04/07-06:00:01 01 Chou Kadou Girl 16 Amazing Stranger|超可動ガール1/6
+2019/04/07-06:00:01 01 Chou Kadou Girl 16 Amazing Stranger|超可動ガール1／6
 2019/04/07-06:00:01 01 Bakumatsu Ren`ai Bakumatsu Kareshi Gaiden - Crisis|BAKUMATSUクライシス
 2019/04/06-12:00:01 01 Midara na Ao-chan wa Benkyou ga Dekinai|みだらな青ちゃんは勉強ができない
 2019/04/06-12:00:01 01 Hitoribocchi no Marumaru Seikatsu|ひとりぼっちの○○生活
