@@ -1,6 +1,14 @@
-Last Update: 2019/04/08-00:00:01
+Last Update: 2019/04/08-06:00:01
+2019/04/08-06:00:01 65 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2019/04/08-06:00:01 39 Zoids Wild|ゾイドワイルド
+2019/04/08-06:00:01 01 Gunjou no Magmell|群青のマグメル
+2019/04/08-06:00:01 0 Shoumetsu Toshi|消滅都市
+2019/04/08-06:00:01 0 Nande Koko ni Sensei ga! (通常ver.)|なんでここに先生が!?
+2019/04/08-06:00:01 0 Mayonaka no Occult Koumuin|真夜中のオカルト公務員
+2019/04/08-06:00:01 0 Hachigatsu no Cinderella Nine|八月のシンデレラナイン
+2019/04/08-06:00:01 0 Fairy Gone|Fairy gone フェアリーゴーン
+2019/04/08-06:00:01 0 Araiya-san! Ore to Aitsu ga Onnayu de!|洗い屋さん！～俺とアイツが女湯で!?～
 2019/04/08-00:00:01 01 Bokutachi wa Benkyou ga Dekinai|ぼくたちは勉強ができない
-2019/04/08-00:00:01 0 Gunjou no Magmell|群青のマグメル
 2019/04/07-12:00:01 52 Kiratto Pri-chan|キラッとプリ☆チャン
 2019/04/07-12:00:01 50 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2019/04/07-12:00:01 26 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
@@ -22,8 +30,6 @@ Last Update: 2019/04/08-00:00:01
 2019/04/03-18:00:01 01 Konoyo no Hate de Koi o Utau Shoujo Yu-no|この世の果てで恋を唄う少女YU-NO
 2019/04/03-18:00:01 01 Idolmaster Cinderella Girls Gekijou Climax Season|アイドルマスター シンデレラガールズ劇場 CLIMAX SEASON
 2019/04/03-06:00:01 77 Black Clover|ブラッククローバー
-2019/04/02-06:00:01 64 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
-2019/04/02-06:00:01 38 Zoids Wild|ゾイドワイルド
 2019/04/02-06:00:01 09 Star Twinkle Precure|スター☆トゥインクルプリキュア
 2019/04/01-06:00:02 10 Piano no Mori (2019)|ピアノの森(TVシリーズ 第2シリーズ)
 2019/03/26-00:00:01 12 Dororo (2019)|どろろ
