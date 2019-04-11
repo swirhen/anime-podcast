@@ -33,6 +33,7 @@ do
   for LINE in "${NAME_LST1[@]}"
   do
     SF="${LINE%%\|*}"
+    SF=`echo "${SF}" | sed "s/&amp;/\&/g"`
     NAME="${LINE#*\|}"
     ext=`echo $FILE_NAME | sed "s/.*\.\(.*\)/\1/"`
 
