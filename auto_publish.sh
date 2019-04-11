@@ -176,15 +176,11 @@ do
     # titleと一致するかどうかチェック
     fetch_flg=0
     if [ ${sub_flg} -eq 0 -a "`echo \"${title}\" | grep \"${NAME}\"`" != "" ]; then
-        if [ "`echo \"${title}\" | grep \"Overlord III Special\"`" = "" ]; then
-            fetch_flg=1
-        fi
+        fetch_flg=1
     elif [ ${sub_flg} -eq 1 -a "`echo \"${title2}\" | grep \"${NAME}\"`" != "" ]; then
-        if [ "`echo \"${title2}\" | grep \"Overlord III Special\"`" = "" ]; then
-            title="${title2}"
-            link="${link2}"
-            fetch_flg=1
-        fi
+        title="${title2}"
+        link="${link2}"
+        fetch_flg=1
     fi
 
     # 一致した場合、titleから話数の数値を取得
