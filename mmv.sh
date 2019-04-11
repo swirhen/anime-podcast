@@ -9,6 +9,7 @@ while read DUMMY DUMMY2 LINE
 do
   if [ ${cnt} != 0 ]; then
     NAME="${LINE#*\|}"
+    NAME=`echo ${NAME} | sed "s/&amp;/\&/g"`
     nn=`echo $1 | sed -e "s/\(${NAME}\).*\.mp4/\1/"`
     if [ "$nn" != "$1" ]; then
       echo "# move $1"
