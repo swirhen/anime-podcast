@@ -1,6 +1,7 @@
-Last Update: 2019/04/12-06:00:01
+Last Update: 2019/04/12-12:00:02
+2019/04/12-12:00:02 02 Yatogame-chan Kansatsu Nikki|八十亀ちゃんかんさつにっき
+2019/04/12-12:00:02 01 Sarazanmai|さらざんまい
 2019/04/12-06:00:01 01 Nande Koko ni Sensei ga! (もっとたゆたゆver.)|なんでここに先生が!? (もっとたゆたゆver.)
-2019/04/12-06:00:01 0 Sarazanmai|さらざんまい
 2019/04/12-00:00:02 25 Karakuri Circus|からくりサーカス
 2019/04/12-00:00:02 02 Han-Gyaku-Sei Million Arthur (2019)|叛逆性ミリオンアーサー2
 2019/04/11-18:16:31 01 Carole &amp; Tuesday|キャロル&チューズデイ
@@ -41,5 +42,4 @@ Last Update: 2019/04/12-06:00:01
 2019/04/06-12:00:01 01 Hitoribocchi no Marumaru Seikatsu|ひとりぼっちの○○生活
 2019/04/06-12:00:01 01 Fruits Basket (2019)|フルーツバスケット
 2019/04/06-06:00:01 25 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
-2019/04/05-06:00:01 01 Yatogame-chan Kansatsu Nikki|八十亀ちゃんかんさつにっき
 2019/04/01-06:00:02 10 Piano no Mori (2019)|ピアノの森(TVシリーズ 第2シリーズ)
