@@ -1,4 +1,5 @@
-Last Update: 2019/04/18-00:00:01
+Last Update: 2019/04/18-06:00:01
+2019/04/18-06:00:01 02 Kenja no Mago|賢者の孫
 2019/04/18-00:00:01 15 Tate no Yuusha no Nariagari|盾の勇者の成り上がり
 2019/04/18-00:00:01 02 Sewayaki Kitsune no Senko-san|世話やきキツネの仙狐さん
 2019/04/17-06:00:01 02 Strike Witches 501 Butai Hasshin Shimasu!!|ストライクウィッチーズ 501部隊発進しますっ！
@@ -41,6 +42,5 @@ Last Update: 2019/04/18-00:00:01
 2019/04/12-00:00:02 25 Karakuri Circus|からくりサーカス
 2019/04/12-00:00:02 02 Han-Gyaku-Sei Million Arthur (2019)|叛逆性ミリオンアーサー2
 2019/04/11-18:16:31 01 Carole &amp; Tuesday|キャロル&チューズデイ
-2019/04/11-12:00:02 01 Kenja no Mago|賢者の孫
 2019/04/08-06:00:01 65 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2019/04/08-06:00:01 39 Zoids Wild|ゾイドワイルド
