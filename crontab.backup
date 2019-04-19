@@ -27,7 +27,6 @@ MAILTO=""
 # 隔週水曜(毎週取得)
 59 20 * * 3 /data/share/movie/sh/freshrecord.sh "フレッシュはじめました" ito_miku 0
 59 20 * * 3 /data/share/movie/sh/freshrecord.sh "愛美のPerfect Woman" hibiki 1
-59 20 * * 4 /data/share/movie/sh/freshrecord.sh "愛美のPerfect Woman" hibiki 1
 # 隔週木曜(毎週取得)
 59 19 * * 4 /data/share/movie/sh/freshrecord.sh "日笠・日高のお日様ぐみ！" hibiki 1
 
