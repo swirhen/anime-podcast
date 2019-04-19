@@ -1,4 +1,6 @@
-Last Update: 2019/04/19-18:00:01
+Last Update: 2019/04/20-00:00:01
+2019/04/20-00:00:01 03 Bakumatsu Ren`ai Bakumatsu Kareshi Gaiden - Crisis|BAKUMATSUクライシス
+2019/04/20-00:00:01 02 Bungou Stray Dogs (2019)|文豪ストレイドッグス3
 2019/04/19-12:00:01 02 Sarazanmai|さらざんまい
 2019/04/19-06:00:01 0 Strike Witches： 501 Butai Hasshin Shimasu!!|ストライクウィッチーズ2
 2019/04/19-06:00:01 0 One Punch Man 2|ワンパンマン(第2期)
@@ -47,7 +49,5 @@ Last Update: 2019/04/19-18:00:01
 2019/04/13-06:00:01 02 Midara na Ao-chan wa Benkyou ga Dekinai|みだらな青ちゃんは勉強ができない
 2019/04/13-06:00:01 02 Hitoribocchi no Marumaru Seikatsu|ひとりぼっちの○○生活
 2019/04/13-06:00:01 02 Fruits Basket (2019)|フルーツバスケット
-2019/04/13-06:00:01 01 Bungou Stray Dogs (2019)|文豪ストレイドッグス3
-2019/04/13-00:00:01 02 Bakumatsu Ren`ai Bakumatsu Kareshi Gaiden - Crisis|BAKUMATSUクライシス
 2019/04/08-06:00:01 65 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2019/04/08-06:00:01 39 Zoids Wild|ゾイドワイルド
