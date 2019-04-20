@@ -1,4 +1,8 @@
-Last Update: 2019/04/21-00:00:01
+Last Update: 2019/04/21-06:00:01
+2019/04/21-06:00:01 40 Zoids Wild|ゾイドワイルド
+2019/04/21-06:00:01 03 Kono Oto Tomare!|この音とまれ！
+2019/04/21-06:00:01 03 Kimetsu no Yaiba|鬼滅の刃
+2019/04/21-06:00:01 03 Bokutachi wa Benkyou ga Dekinai|ぼくたちは勉強ができない
 2019/04/21-00:00:01 03 Nobunaga-sensei no Osanazuma|ノブナガ先生の幼な妻
 2019/04/21-00:00:01 03 Joshi Kausei|女子かう生
 2019/04/21-00:00:01 03 Chou Kadou Girl 16 Amazing Stranger|超可動ガール1／6
@@ -46,8 +50,4 @@ Last Update: 2019/04/21-00:00:01
 2019/04/14-18:00:01 53 Kiratto Pri-chan|キラッとプリ☆チャン
 2019/04/14-18:00:01 51 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2019/04/14-12:00:01 27 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
-2019/04/14-06:00:01 02 Kono Oto Tomare!|この音とまれ！
-2019/04/14-06:00:01 02 Kimetsu no Yaiba|鬼滅の刃
-2019/04/14-06:00:01 02 Bokutachi wa Benkyou ga Dekinai|ぼくたちは勉強ができない
 2019/04/08-06:00:01 65 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
-2019/04/08-06:00:01 39 Zoids Wild|ゾイドワイルド
