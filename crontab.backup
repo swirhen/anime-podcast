@@ -1,7 +1,6 @@
 # m h  dom mon dow   command
 MAILTO=""
 */15 * * * * /home/swirhen/sh/upip.sh
-*/15 * * * * wget -O - "https://dyn.value-domain.com/cgi-bin/dyn.fcg?d=swirhen.tv&p=irankae1&h=*" > /dev/null 2>&1
 @reboot /home/swirhen/sh/tiarrakw.sh
 @reboot /home/swirhen/sh/tigkw.sh
 @reboot mkdir /tmp/vga
