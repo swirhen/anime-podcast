@@ -1,5 +1,9 @@
-Last Update: 2019/04/22-00:00:01
-0 02 Mix： Meisei Story|MIX
+Last Update: 2019/04/22-01:24:28
+2019/04/22-01:24:28 03 Shoumetsu Toshi|消滅都市
+2019/04/22-01:24:28 03 Nande Koko ni Sensei ga! (通常ver.)|なんでここに先生が!?
+2019/04/22-01:24:28 03 Mayonaka no Occult Koumuin|真夜中のオカルト公務員
+2019/04/22-01:24:28 03 Fairy Gone|Fairy gone フェアリーゴーン
+2019/04/22-01:24:28 03 Araiya-san! Ore to Aitsu ga Onnayu de!|洗い屋さん！～俺とアイツが女湯で!?～
 2019/04/22-00:00:01 66 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2019/04/22-00:00:01 12 Star Twinkle Precure|スター☆トゥインクルプリキュア
 2019/04/22-00:00:01 03 Gunjou no Magmell|群青のマグメル
@@ -39,9 +43,5 @@ Last Update: 2019/04/22-00:00:01
 2019/04/16-06:00:01 02 RobiHachi|RobiHachi
 2019/04/16-00:00:01 14 Dororo (2019)|どろろ
 2019/04/16-00:00:01 02 Namu Amida Butsu! Rendai Utena|なむあみだ仏っ！-蓮台 UTENA-
-2019/04/15-06:00:01 02 Shoumetsu Toshi|消滅都市
-2019/04/15-06:00:01 02 Nande Koko ni Sensei ga! (通常ver.)|なんでここに先生が!?
-2019/04/15-06:00:01 02 Mayonaka no Occult Koumuin|真夜中のオカルト公務員
 2019/04/15-06:00:01 02 Hachigatsu no Cinderella Nine|八月のシンデレラナイン
-2019/04/15-06:00:01 02 Fairy Gone|Fairy gone フェアリーゴーン
-2019/04/15-06:00:01 02 Araiya-san! Ore to Aitsu ga Onnayu de!|洗い屋さん！～俺とアイツが女湯で!?～
+0 02 Mix： Meisei Story|MIX
