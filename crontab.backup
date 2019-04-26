@@ -20,7 +20,7 @@ MAILTO=""
 
 # Abema Fresh
 # SP
-59 20 22 3 * /data/share/movie/sh/freshrecord.sh "木戸衣吹" kido-ibuki 0
+59 20 26 4 * /data/share/movie/sh/freshrecord.sh "木戸衣吹" kido-ibuki 0
 # 第2,4月曜(毎週取得)
 #59 21 * * 1 /data/share/movie/sh/freshrecord.sh "リューション" secondshot 0
 # 隔週水曜(毎週取得)
