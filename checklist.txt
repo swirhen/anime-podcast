@@ -1,4 +1,6 @@
-Last Update: 2019/04/26-18:00:01
+Last Update: 2019/04/27-00:00:02
+2019/04/27-00:00:02 04 Bakumatsu Ren`ai Bakumatsu Kareshi Gaiden - Crisis|BAKUMATSUクライシス
+2019/04/27-00:00:02 03 Bungou Stray Dogs (2019)|文豪ストレイドッグス3
 2019/04/26-06:00:01 03 Sarazanmai|さらざんまい
 2019/04/26-00:00:01 27 Karakuri Circus|からくりサーカス
 2019/04/26-00:00:01 04 Yatogame-chan Kansatsu Nikki|八十亀ちゃんかんさつにっき
@@ -43,5 +45,3 @@ Last Update: 2019/04/26-18:00:01
 2019/04/20-06:00:01 03 Midara na Ao-chan wa Benkyou ga Dekinai|みだらな青ちゃんは勉強ができない
 2019/04/20-06:00:01 03 Hitoribocchi no Marumaru Seikatsu|ひとりぼっちの○○生活
 2019/04/20-06:00:01 03 Fruits Basket (2019)|フルーツバスケット
-2019/04/20-00:00:01 03 Bakumatsu Ren`ai Bakumatsu Kareshi Gaiden - Crisis|BAKUMATSUクライシス
-2019/04/20-00:00:01 02 Bungou Stray Dogs (2019)|文豪ストレイドッグス3
