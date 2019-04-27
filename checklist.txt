@@ -1,4 +1,7 @@
-Last Update: 2019/04/28-00:00:01
+Last Update: 2019/04/28-06:00:01
+2019/04/28-06:00:01 04 Kono Oto Tomare!|この音とまれ！
+2019/04/28-06:00:01 04 Kimetsu no Yaiba|鬼滅の刃
+2019/04/28-06:00:01 04 Bokutachi wa Benkyou ga Dekinai|ぼくたちは勉強ができない
 2019/04/28-00:00:01 67 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2019/04/28-00:00:01 41 Zoids Wild|ゾイドワイルド
 2019/04/28-00:00:01 04 Nobunaga-sensei no Osanazuma|ノブナガ先生の幼な妻
@@ -42,6 +45,3 @@ Last Update: 2019/04/28-00:00:01
 2019/04/21-12:00:01 54 Kiratto Pri-chan|キラッとプリ☆チャン
 2019/04/21-12:00:01 52 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2019/04/21-12:00:01 28 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
-2019/04/21-06:00:01 03 Kono Oto Tomare!|この音とまれ！
-2019/04/21-06:00:01 03 Kimetsu no Yaiba|鬼滅の刃
-2019/04/21-06:00:01 03 Bokutachi wa Benkyou ga Dekinai|ぼくたちは勉強ができない
