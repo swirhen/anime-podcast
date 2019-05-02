@@ -1,7 +1,9 @@
-Last Update: 2019/05/02-00:00:01
+Last Update: 2019/05/02-10:18:55
+2019/05/02-10:18:55 04 Kenja no Mago|賢者の孫
+2019/05/02-10:18:55 04 Carole &amp; Tuesday|キャロル&チューズデイ
+2019/05/02-10:18:55 01 Grisaia|グリザイアの楽園
 2019/05/02-00:00:01 17 Tate no Yuusha no Nariagari|盾の勇者の成り上がり
 2019/05/02-00:00:01 04 Sewayaki Kitsune no Senko-san|世話やきキツネの仙狐さん
-2019/05/02-00:00:01 0 Grisaia|グリザイアの楽園
 2019/05/01-06:00:01 04 Strike Witches 501 Butai Hasshin Shimasu!!|ストライクウィッチーズ 501部隊発進しますっ！
 2019/05/01-06:00:01 04 One Punch Man (2019)|ワンパンマン2
 2019/05/01-06:00:01 04 Isekai Quartet|異世界かるてっと
@@ -46,5 +48,3 @@ Last Update: 2019/05/02-00:00:01
 2019/04/26-00:00:01 04 Yatogame-chan Kansatsu Nikki|八十亀ちゃんかんさつにっき
 2019/04/26-00:00:01 04 Han-Gyaku-Sei Million Arthur (2019)|叛逆性ミリオンアーサー2
 2019/04/26-00:00:01 03 Nande Koko ni Sensei ga! (もっとたゆたゆver.)|なんでここに先生が!? (もっとたゆたゆver.)
-2019/04/25-12:00:01 03 Carole &amp; Tuesday|キャロル&チューズデイ
-2019/04/25-06:00:01 03 Kenja no Mago|賢者の孫
