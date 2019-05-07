@@ -123,17 +123,17 @@ do
         cat "${CRAWL_TEMP}" | sed "y/０１２３４５６７８９　/0123456789 /" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" > ${DL_SH}
     fi
 
-    # dl.shが吐かれたらdl.shを実行
+    # dl.shが吐かれたらdl.shを実行 ※現在、まともに動作しないのでキックしない
     # 最新話数をインクリメントして、tempリストに吐き出す(最終更新を更新)
     # 吐かれていなければインクリメントせずに吐き出す
     if [ -s ${DL_SH} ]; then
         dl_flg=1
         chmod +x ${DL_SH}
-        ${DL_SH}
+        #${DL_SH}
         #cat ${DL_SH}
-        ls *.mp4 >> ${RESULT_FILE}
+        #ls *.mp4 >> ${RESULT_FILE}
         echo "${KEYWORD} ${EP_NUM}" >> ${RESULT_FILE}
-        mv *.mp4 "${SCRIPT_DIR}/${SAVE_DIR_NUM}"*
+        #mv *.mp4 "${SCRIPT_DIR}/${SAVE_DIR_NUM}"*
         (( EP_NUM++ ))
         echo "${DATETIME} ${EP_NUM} ${URL} ${KEYWORD} ${IGNORE_WORD} ${SAVE_DIR_NUM} ${NUM_PREFIX} ${NUM_SUFFIX} ${SED_STR//\\/\\\\}" >> ${LIST_TEMP}
     else
