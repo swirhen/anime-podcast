@@ -1,7 +1,7 @@
-Last Update: 2019/05/07-12:35:52
+Last Update: 2019/05/07-18:00:01
+2019/05/07-18:00:01 238 https://ch.nicovideo.jp/cinderellaparty/video おまけ放送 * 01 | 回 s/\\(第.*回\\).*\\(CINDERELLA PARTY\\).*\\(おまけ放送.*\\)/\\2！ \\1 \\3/
+2019/05/07-18:00:01 156 https://ch.nicovideo.jp/dereradi/video デレラジ * 03 第 回 s/「\\(デレラジ☆(スター)\\).*\\(第[0-9]\\+回\\).*/\\1 \\2\\"/
 2019/05/07-12:35:52 309 https://ch.nicovideo.jp/MillionRADIO/video 回おまけ放送】 * 09 第 回 
-2019/05/07-12:35:52 237 https://ch.nicovideo.jp/cinderellaparty/video おまけ放送 * 01 | 回 s/\\(第.*回\\).*\\(CINDERELLA PARTY\\).*\\(おまけ放送.*\\)/\\2！ \\1 \\3/
-2019/05/07-12:31:15 155 https://ch.nicovideo.jp/dereradi/video デレラジ * 03 第 回 s/「\\(デレラジ☆(スター)\\).*\\(第[0-9]\\+回\\).*/\\1 \\2\\"/
 2019/05/02-18:00:01 237 https://ch.nicovideo.jp/cinderellaparty/video アーカイブ動画 * 01 | 回 s/\\(第.*回\\).*\\(CINDERELLA PARTY\\).*アーカイブ動画\\(.*\\)/\\2！ \\1 \\3/
 2019/04/26-18:00:01 309 https://ch.nicovideo.jp/MillionRADIO/video 回】 * 09 第 回 
 2019/04/24-00:00:01 46 https://ch.nicovideo.jp/search/%E6%B4%A5%E7%94%B0%E5%AE%B6%20-%E3%83%80%E3%82%A4%E3%82%B8%E3%82%A7%E3%82%B9%E3%83%88?channel_id=ch2567656&mode=s&sort=f&order=d&type=video 津田美波の津田家 * 06 ＃ | s/\\([^\\"]*\\)\\"\\([^\\"]*\\)\\".*＃\\([0-9０-９]\\+\\)\\(.*\\)/\\1\\"\\2\\" \\"津田美波の津田家 -TSUDAYA- #\\3\\4/
