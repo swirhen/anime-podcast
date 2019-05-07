@@ -1,47 +1,49 @@
-Last Update: 2019/04/22-03:04:32
-2019/04/22-03:04:32 03 Mix： Meisei Story|MIX
-2019/04/22-03:04:32 03 Hachigatsu no Cinderella Nine|八月のシンデレラナイン
-2019/04/22-01:24:28 03 Shoumetsu Toshi|消滅都市
-2019/04/22-01:24:28 03 Nande Koko ni Sensei ga! (通常ver.)|なんでここに先生が!?
-2019/04/22-01:24:28 03 Mayonaka no Occult Koumuin|真夜中のオカルト公務員
-2019/04/22-01:24:28 03 Fairy Gone|Fairy gone フェアリーゴーン
-2019/04/22-01:24:28 03 Araiya-san! Ore to Aitsu ga Onnayu de!|洗い屋さん！～俺とアイツが女湯で!?～
-2019/04/22-00:00:01 66 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
-2019/04/22-00:00:01 12 Star Twinkle Precure|スター☆トゥインクルプリキュア
-2019/04/22-00:00:01 03 Gunjou no Magmell|群青のマグメル
-2019/04/21-12:00:01 54 Kiratto Pri-chan|キラッとプリ☆チャン
-2019/04/21-12:00:01 52 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
-2019/04/21-12:00:01 28 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
-2019/04/21-06:00:01 40 Zoids Wild|ゾイドワイルド
-2019/04/21-06:00:01 03 Kono Oto Tomare!|この音とまれ！
-2019/04/21-06:00:01 03 Kimetsu no Yaiba|鬼滅の刃
-2019/04/21-06:00:01 03 Bokutachi wa Benkyou ga Dekinai|ぼくたちは勉強ができない
-2019/04/21-00:00:01 03 Nobunaga-sensei no Osanazuma|ノブナガ先生の幼な妻
-2019/04/21-00:00:01 03 Joshi Kausei|女子かう生
-2019/04/21-00:00:01 03 Chou Kadou Girl 16 Amazing Stranger|超可動ガール1／6
-2019/04/20-06:00:01 27 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
-2019/04/20-06:00:01 03 Senryuu Shoujo|川柳少女
-2019/04/20-06:00:01 03 Midara na Ao-chan wa Benkyou ga Dekinai|みだらな青ちゃんは勉強ができない
-2019/04/20-06:00:01 03 Hitoribocchi no Marumaru Seikatsu|ひとりぼっちの○○生活
-2019/04/20-06:00:01 03 Fruits Basket (2019)|フルーツバスケット
-2019/04/20-00:00:01 03 Bakumatsu Ren`ai Bakumatsu Kareshi Gaiden - Crisis|BAKUMATSUクライシス
-2019/04/20-00:00:01 02 Bungou Stray Dogs (2019)|文豪ストレイドッグス3
-2019/04/19-12:00:01 02 Sarazanmai|さらざんまい
-2019/04/19-00:00:01 26 Karakuri Circus|からくりサーカス
-2019/04/19-00:00:01 03 Yatogame-chan Kansatsu Nikki|八十亀ちゃんかんさつにっき
-2019/04/19-00:00:01 03 Han-Gyaku-Sei Million Arthur (2019)|叛逆性ミリオンアーサー2
-2019/04/19-00:00:01 02 Nande Koko ni Sensei ga! (もっとたゆたゆver.)|なんでここに先生が!? (もっとたゆたゆver.)
-2019/04/18-12:00:01 02 Carole &amp; Tuesday|キャロル&チューズデイ
-2019/04/18-06:00:01 02 Kenja no Mago|賢者の孫
-2019/04/18-00:00:01 15 Tate no Yuusha no Nariagari|盾の勇者の成り上がり
-2019/04/18-00:00:01 02 Sewayaki Kitsune no Senko-san|世話やきキツネの仙狐さん
-2019/04/17-06:00:01 02 Strike Witches 501 Butai Hasshin Shimasu!!|ストライクウィッチーズ 501部隊発進しますっ！
-2019/04/17-06:00:01 02 One Punch Man (2019)|ワンパンマン2
-2019/04/17-06:00:01 02 Isekai Quartet|異世界かるてっと
-2019/04/17-06:00:01 01 King of Prism Shiny Seven Stars|KING OF PRISM -Shiny Seven Stars-
-2019/04/17-00:00:01 79 Black Clover|ブラッククローバー
-2019/04/17-00:00:01 03 Konoyo no Hate de Koi o Utau Shoujo Yu-no|この世の果てで恋を唄う少女YU-NO
-2019/04/17-00:00:01 03 Idolmaster Cinderella Girls Gekijou Climax Season|アイドルマスター シンデレラガールズ劇場 CLIMAX SEASON
-2019/04/16-06:00:01 02 RobiHachi|RobiHachi
-2019/04/16-00:00:01 14 Dororo (2019)|どろろ
-2019/04/16-00:00:01 02 Namu Amida Butsu! Rendai Utena|なむあみだ仏っ！-蓮台 UTENA-
+Last Update: 2019/05/07-06:00:02
+2019/05/07-06:00:02 05 RobiHachi|RobiHachi
+2019/05/07-00:00:01 17 Dororo (2019)|どろろ
+2019/05/07-00:00:01 05 Namu Amida Butsu! Rendai Utena|なむあみだ仏っ！-蓮台 UTENA-
+2019/05/06-06:00:01 05 Shoumetsu Toshi|消滅都市
+2019/05/06-06:00:01 05 Nande Koko ni Sensei ga! (通常ver.)|なんでここに先生が!?
+2019/05/06-06:00:01 05 Mayonaka no Occult Koumuin|真夜中のオカルト公務員
+2019/05/06-06:00:01 05 Hachigatsu no Cinderella Nine|八月のシンデレラナイン
+2019/05/06-06:00:01 05 Fairy Gone|Fairy gone フェアリーゴーン
+2019/05/06-06:00:01 05 Araiya-san! Ore to Aitsu ga Onnayu de!|洗い屋さん！～俺とアイツが女湯で!?～
+2019/05/06-06:00:01 02 Shingeki no Kyojin Season 3 (2019)|進撃の巨人 Season3 Part.2
+2019/05/06-06:00:01 02 Kidou Senshi Gundam The Origin - Zen`ya Akai Suisei|機動戦士ガンダム THE ORIGIN 前夜 赤い彗星
+2019/05/06-00:00:01 68 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2019/05/06-00:00:01 42 Zoids Wild|ゾイドワイルド
+2019/05/06-00:00:01 05 Mix： Meisei Story|MIX
+2019/05/06-00:00:01 05 Gunjou no Magmell|群青のマグメル
+2019/05/05-12:00:01 56 Kiratto Pri-chan|キラッとプリ☆チャン
+2019/05/05-12:00:01 54 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
+2019/05/05-12:00:01 30 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
+2019/05/05-12:00:01 05 Kono Oto Tomare!|この音とまれ！
+2019/05/05-12:00:01 05 Kimetsu no Yaiba|鬼滅の刃
+2019/05/05-12:00:01 05 Bokutachi wa Benkyou ga Dekinai|ぼくたちは勉強ができない
+2019/05/05-00:00:01 05 Nobunaga-sensei no Osanazuma|ノブナガ先生の幼な妻
+2019/05/05-00:00:01 05 Joshi Kausei|女子かう生
+2019/05/05-00:00:01 05 Chou Kadou Girl 16 Amazing Stranger|超可動ガール1／6
+2019/05/04-06:00:01 28.5 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
+2019/05/04-06:00:01 05 Senryuu Shoujo|川柳少女
+2019/05/04-06:00:01 05 Midara na Ao-chan wa Benkyou ga Dekinai|みだらな青ちゃんは勉強ができない
+2019/05/04-06:00:01 05 Hitoribocchi no Marumaru Seikatsu|ひとりぼっちの○○生活
+2019/05/04-06:00:01 05 Fruits Basket (2019)|フルーツバスケット
+2019/05/04-00:00:02 05 Bakumatsu Ren`ai Bakumatsu Kareshi Gaiden - Crisis|BAKUMATSUクライシス
+2019/05/04-00:00:02 04 Bungou Stray Dogs (2019)|文豪ストレイドッグス3
+2019/05/03-06:00:01 04 Sarazanmai|さらざんまい
+2019/05/03-00:00:01 28 Karakuri Circus|からくりサーカス
+2019/05/03-00:00:01 05 Yatogame-chan Kansatsu Nikki|八十亀ちゃんかんさつにっき
+2019/05/03-00:00:01 05 Han-Gyaku-Sei Million Arthur (2019)|叛逆性ミリオンアーサー2
+2019/05/03-00:00:01 04 Nande Koko ni Sensei ga! (もっとたゆたゆver.)|なんでここに先生が!? (もっとたゆたゆver.)
+2019/05/02-10:18:55 04 Kenja no Mago|賢者の孫
+2019/05/02-10:18:55 04 Carole &amp; Tuesday|キャロル&チューズデイ
+2019/05/02-00:00:01 17 Tate no Yuusha no Nariagari|盾の勇者の成り上がり
+2019/05/02-00:00:01 04 Sewayaki Kitsune no Senko-san|世話やきキツネの仙狐さん
+2019/05/01-06:00:01 04 Strike Witches 501 Butai Hasshin Shimasu!!|ストライクウィッチーズ 501部隊発進しますっ！
+2019/05/01-06:00:01 04 One Punch Man (2019)|ワンパンマン2
+2019/05/01-06:00:01 04 Isekai Quartet|異世界かるてっと
+2019/05/01-00:00:01 81 Black Clover|ブラッククローバー
+2019/05/01-00:00:01 05 Konoyo no Hate de Koi o Utau Shoujo Yu-no|この世の果てで恋を唄う少女YU-NO
+2019/05/01-00:00:01 05 Idolmaster Cinderella Girls Gekijou Climax Season|アイドルマスター シンデレラガールズ劇場 CLIMAX SEASON
+2019/05/01-00:00:01 03 King of Prism Shiny Seven Stars|KING OF PRISM -Shiny Seven Stars-
+2019/04/30-00:00:02 13 Star Twinkle Precure|スター☆トゥインクルプリキュア
