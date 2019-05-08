@@ -1,4 +1,5 @@
-Last Update: 2019/05/09-00:00:01
+Last Update: 2019/05/09-06:00:01
+2019/05/09-06:00:01 05 Kenja no Mago|賢者の孫
 2019/05/09-00:00:01 18 Tate no Yuusha no Nariagari|盾の勇者の成り上がり
 2019/05/09-00:00:01 05 Sewayaki Kitsune no Senko-san|世話やきキツネの仙狐さん
 2019/05/08-06:00:01 05 Strike Witches 501 Butai Hasshin Shimasu!!|ストライクウィッチーズ 501部隊発進しますっ！
@@ -45,5 +46,4 @@ Last Update: 2019/05/09-00:00:01
 2019/05/03-00:00:01 05 Yatogame-chan Kansatsu Nikki|八十亀ちゃんかんさつにっき
 2019/05/03-00:00:01 05 Han-Gyaku-Sei Million Arthur (2019)|叛逆性ミリオンアーサー2
 2019/05/03-00:00:01 04 Nande Koko ni Sensei ga! (もっとたゆたゆver.)|なんでここに先生が!? (もっとたゆたゆver.)
-2019/05/02-10:18:55 04 Kenja no Mago|賢者の孫
 2019/05/02-10:18:55 04 Carole &amp; Tuesday|キャロル&チューズデイ
