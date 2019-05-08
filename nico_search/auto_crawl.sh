@@ -17,6 +17,7 @@ LOG_FILE=${SCRIPT_DIR}/autocrawl_${DATETIME2}.log
 FLG_FILE=${SCRIPT_DIR}/autocrawl_running
 DL_SH=${SCRIPT_DIR}/dl.sh
 CRAWL_TEMP=${SCRIPT_DIR}/crawl_temp
+RESULT_TEMP=${SCRIPT_DIR}/result_temp
 RESULT_FILE=${SCRIPT_DIR}/result
 
 end() {
@@ -116,12 +117,12 @@ do
         # 検索ページ(www.nicovideo.jp)用
         cat "${CRAWL_TEMP}" | sed "y/０１２３４５６７８９　/0123456789 /" | grep ".*a title.*${KEYWORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#${NICODL_CMD} \"http://www.nicovideo.jp\2\" \"\1\"#" | sed "s/\ href.*//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" > ${DL_SH}
         # dl.shが機能しないので、slack用のテキストを作成
-        cat "${CRAWL_TEMP}" | sed "y/０１２３４５６７８９　/0123456789 /" | grep ".*a title.*${KEYWORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#\1 http://www.nicovideo.jp\2#" | sed "s/\ href.*//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" > ${RESULT_FILE}
+        cat "${CRAWL_TEMP}" | sed "y/０１２３４５６７８９　/0123456789 /" | grep ".*a title.*${KEYWORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#\1 http://www.nicovideo.jp\2#" | sed "s/\ href.*//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" > ${RESULT_TEMP}
     else
         # ニコニコチャンネル(ch.nicovideo.jp)用
         cat "${CRAWL_TEMP}" | sed "y/０１２３４５６７８９　/0123456789 /" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" > ${DL_SH}
         # dl.shが機能しないので、slack用のテキストを作成
-        cat "${CRAWL_TEMP}" | sed "y/０１２３４５６７８９　/0123456789 /" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=##" | sed "s/title=//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" > ${RESULT_FILE}
+        cat "${CRAWL_TEMP}" | sed "y/０１２３４５６７８９　/0123456789 /" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=##" | sed "s/title=//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" > ${RESULT_TEMP}
     fi
 
     # dl.shが吐かれたらdl.shを実行 ※現在、まともに動作しないのでキックしない
@@ -129,11 +130,12 @@ do
     # 吐かれていなければインクリメントせずに吐き出す
     if [ -s ${DL_SH} ]; then
         dl_flg=1
-        chmod +x ${DL_SH}
+        #chmod +x ${DL_SH}
         #${DL_SH}
         #cat ${DL_SH}
         #ls *.mp4 >> ${RESULT_FILE}
 #        echo "${KEYWORD} ${EP_NUM}" >> ${RESULT_FILE}
+        cat ${RESULT_TEMP} >> ${RESULT_FILE}
         #mv *.mp4 "${SCRIPT_DIR}/${SAVE_DIR_NUM}"*
         (( EP_NUM++ ))
         echo "${DATETIME} ${EP_NUM} ${URL} ${KEYWORD} ${IGNORE_WORD} ${SAVE_DIR_NUM} ${NUM_PREFIX} ${NUM_SUFFIX} ${SED_STR//\\/\\\\}" >> ${LIST_TEMP}
