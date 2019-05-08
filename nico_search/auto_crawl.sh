@@ -117,7 +117,7 @@ do
         # 検索ページ(www.nicovideo.jp)用
         cat "${CRAWL_TEMP}" | sed "y/０１２３４５６７８９　/0123456789 /" | grep ".*a title.*${KEYWORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#${NICODL_CMD} \"http://www.nicovideo.jp\2\" \"\1\"#" | sed "s/\ href.*//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" > ${DL_SH}
         # dl.shが機能しないので、slack用のテキストを作成
-        cat "${CRAWL_TEMP}" | sed "y/０１２３４５６７８９　/0123456789 /" | grep ".*a title.*${KEYWORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#\1 http://www.nicovideo.jp\2#" | sed "s/\ href.*//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" > ${RESULT_TEMP}
+        cat "${CRAWL_TEMP}" | sed "y/０１２３４５６７８９　/0123456789 /" | grep ".*a title.*${KEYWORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#\"\1\" \"http://www.nicovideo.jp\2\"#" | sed "s/\ href.*//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" > ${RESULT_TEMP}
     else
         # ニコニコチャンネル(ch.nicovideo.jp)用
         cat "${CRAWL_TEMP}" | sed "y/０１２３４５６７８９　/0123456789 /" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" > ${DL_SH}
