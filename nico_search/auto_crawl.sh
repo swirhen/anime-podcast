@@ -115,12 +115,13 @@ do
     if [ "${URL:8:2}" = "ww" ]; then
         # 検索ページ(www.nicovideo.jp)用
         cat "${CRAWL_TEMP}" | sed "y/０１２３４５６７８９　/0123456789 /" | grep ".*a title.*${KEYWORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#${NICODL_CMD} \"http://www.nicovideo.jp\2\" \"\1\"#" | sed "s/\ href.*//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" > ${DL_SH}
+        # dl.shが機能しないので、slack用のテキストを作成
+        cat "${CRAWL_TEMP}" | sed "y/０１２３４５６７８９　/0123456789 /" | grep ".*a title.*${KEYWORD}" | sed "s#^.*<a.*title=\"\(.*\)\".*href=\"\(.*\)?ref.*#\1 http://www.nicovideo.jp\2#" | sed "s/\ href.*//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" > ${RESULT_FILE}
     else
         # ニコニコチャンネル(ch.nicovideo.jp)用
-#        echo "curl -sS \"${URL}\" | grep \"http.*title.*${KEYWORD}\" | sed \"s#^.*<a href=#${NICODL_CMD} #\" | sed \"s/title=//\" | grep \"${EPNUM}\" | grep -v \"${IGNORE_WORD}\" | sed \"${SED_STR}\" > ${DL_SH}"
-        #cat "${CRAWL_TEMP}" | perl -pe 's/(href=".*?".*?|title=".*?)\n/$1/g' | grep "http.*title.*${KEYWORD}" | sed "s#^.*href=#${NICODL_CMD} #" | sed "s/title=//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" | sed "y/０１２３４５６７８９　/0123456789 /" | sort | uniq > $DL_SH}
-        cat "${CRAWL_TEMP}" | sed "y/０１２３４５６７８９　/0123456789 /" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}"
         cat "${CRAWL_TEMP}" | sed "y/０１２３４５６７８９　/0123456789 /" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=#${NICODL_CMD} #" | sed "s/title=//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" > ${DL_SH}
+        # dl.shが機能しないので、slack用のテキストを作成
+        cat "${CRAWL_TEMP}" | sed "y/０１２３４５６７８９　/0123456789 /" | grep "http.*title.*${KEYWORD}" | sed "s#^.*<a href=##" | sed "s/title=//" | grep "${EPNUM}" | grep -v "${IGNORE_WORD}" | sed "${SED_STR}" > ${RESULT_FILE}
     fi
 
     # dl.shが吐かれたらdl.shを実行 ※現在、まともに動作しないのでキックしない
@@ -132,7 +133,7 @@ do
         #${DL_SH}
         #cat ${DL_SH}
         #ls *.mp4 >> ${RESULT_FILE}
-        echo "${KEYWORD} ${EP_NUM}" >> ${RESULT_FILE}
+#        echo "${KEYWORD} ${EP_NUM}" >> ${RESULT_FILE}
         #mv *.mp4 "${SCRIPT_DIR}/${SAVE_DIR_NUM}"*
         (( EP_NUM++ ))
         echo "${DATETIME} ${EP_NUM} ${URL} ${KEYWORD} ${IGNORE_WORD} ${SAVE_DIR_NUM} ${NUM_PREFIX} ${NUM_SUFFIX} ${SED_STR//\\/\\\\}" >> ${LIST_TEMP}
@@ -150,11 +151,11 @@ if [ ${dl_flg} -eq 1 ]; then
     git push origin master
     post_msg="@here 【nicocrawler】新規更新がありました
 \`\`\`
-download files:
+download urls:
 `cat ${RESULT_FILE}`
 \`\`\`"
     slack_post "${post_msg}"
-    ${SCRIPT_DIR}/nicorelease.sh
+    # ${SCRIPT_DIR}/nicorelease.sh
 fi
 
 end
