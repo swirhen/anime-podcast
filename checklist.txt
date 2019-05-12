@@ -1,4 +1,12 @@
-Last Update: 2019/05/13-00:00:01
+Last Update: 2019/05/13-06:00:01
+2019/05/13-06:00:01 06 Shoumetsu Toshi|消滅都市
+2019/05/13-06:00:01 06 Nande Koko ni Sensei ga! (通常ver.)|なんでここに先生が!?
+2019/05/13-06:00:01 06 Mayonaka no Occult Koumuin|真夜中のオカルト公務員
+2019/05/13-06:00:01 06 Hachigatsu no Cinderella Nine|八月のシンデレラナイン
+2019/05/13-06:00:01 06 Fairy Gone|Fairy gone フェアリーゴーン
+2019/05/13-06:00:01 06 Araiya-san! Ore to Aitsu ga Onnayu de!|洗い屋さん！～俺とアイツが女湯で!?～
+2019/05/13-06:00:01 03 Shingeki no Kyojin Season 3 (2019)|進撃の巨人 Season3 Part.2
+2019/05/13-06:00:01 03 Kidou Senshi Gundam The Origin - Zen`ya Akai Suisei|機動戦士ガンダム THE ORIGIN 前夜 赤い彗星
 2019/05/13-00:00:01 69 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2019/05/13-00:00:01 43 Zoids Wild|ゾイドワイルド
 2019/05/13-00:00:01 06 Mix： Meisei Story|MIX
@@ -39,11 +47,3 @@ Last Update: 2019/05/13-00:00:01
 2019/05/07-06:00:02 05 RobiHachi|RobiHachi
 2019/05/07-00:00:01 17 Dororo (2019)|どろろ
 2019/05/07-00:00:01 05 Namu Amida Butsu! Rendai Utena|なむあみだ仏っ！-蓮台 UTENA-
-2019/05/06-06:00:01 05 Shoumetsu Toshi|消滅都市
-2019/05/06-06:00:01 05 Nande Koko ni Sensei ga! (通常ver.)|なんでここに先生が!?
-2019/05/06-06:00:01 05 Mayonaka no Occult Koumuin|真夜中のオカルト公務員
-2019/05/06-06:00:01 05 Hachigatsu no Cinderella Nine|八月のシンデレラナイン
-2019/05/06-06:00:01 05 Fairy Gone|Fairy gone フェアリーゴーン
-2019/05/06-06:00:01 05 Araiya-san! Ore to Aitsu ga Onnayu de!|洗い屋さん！～俺とアイツが女湯で!?～
-2019/05/06-06:00:01 02 Shingeki no Kyojin Season 3 (2019)|進撃の巨人 Season3 Part.2
-2019/05/06-06:00:01 02 Kidou Senshi Gundam The Origin - Zen`ya Akai Suisei|機動戦士ガンダム THE ORIGIN 前夜 赤い彗星
