@@ -1,4 +1,7 @@
-Last Update: 2019/05/15-00:00:02
+Last Update: 2019/05/15-06:00:01
+2019/05/15-06:00:01 06 Strike Witches 501 Butai Hasshin Shimasu!!|ストライクウィッチーズ 501部隊発進しますっ！
+2019/05/15-06:00:01 06 One Punch Man (2019)|ワンパンマン2
+2019/05/15-06:00:01 06 Isekai Quartet|異世界かるてっと
 2019/05/15-00:00:02 83 Black Clover|ブラッククローバー
 2019/05/15-00:00:02 07 Konoyo no Hate de Koi o Utau Shoujo Yu-no|この世の果てで恋を唄う少女YU-NO
 2019/05/15-00:00:02 07 Idolmaster Cinderella Girls Gekijou Climax Season|アイドルマスター シンデレラガールズ劇場 CLIMAX SEASON
@@ -43,7 +46,4 @@ Last Update: 2019/05/15-00:00:02
 2019/05/09-06:00:01 05 Kenja no Mago|賢者の孫
 2019/05/09-00:00:01 18 Tate no Yuusha no Nariagari|盾の勇者の成り上がり
 2019/05/09-00:00:01 05 Sewayaki Kitsune no Senko-san|世話やきキツネの仙狐さん
-2019/05/08-06:00:01 05 Strike Witches 501 Butai Hasshin Shimasu!!|ストライクウィッチーズ 501部隊発進しますっ！
-2019/05/08-06:00:01 05 One Punch Man (2019)|ワンパンマン2
-2019/05/08-06:00:01 05 Isekai Quartet|異世界かるてっと
 2019/05/08-06:00:01 04 King of Prism Shiny Seven Stars|KING OF PRISM -Shiny Seven Stars-
