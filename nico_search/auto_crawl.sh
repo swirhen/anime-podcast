@@ -151,7 +151,7 @@ if [ ${dl_flg} -eq 1 ]; then
     git commit -m 'checklist.txt update' checklist.txt
     git pull
     git push origin master
-    post_msg="@here 【nicocrawler】新規更新がありました
+    post_msg="@channel 【nicocrawler】新規更新がありました
 \`\`\`
 download urls:
 `cat ${RESULT_FILE}`
