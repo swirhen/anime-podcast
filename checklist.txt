@@ -1,4 +1,9 @@
-Last Update: 2019/05/25-00:00:01
+Last Update: 2019/05/25-06:00:01
+2019/05/25-06:00:01 31 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
+2019/05/25-06:00:01 08 Senryuu Shoujo|川柳少女
+2019/05/25-06:00:01 08 Midara na Ao-chan wa Benkyou ga Dekinai|みだらな青ちゃんは勉強ができない
+2019/05/25-06:00:01 08 Hitoribocchi no Marumaru Seikatsu|ひとりぼっちの○○生活
+2019/05/25-06:00:01 08 Fruits Basket (2019)|フルーツバスケット
 2019/05/25-00:00:01 08 Bakumatsu Ren`ai Bakumatsu Kareshi Gaiden - Crisis|BAKUMATSUクライシス
 2019/05/25-00:00:01 07 Bungou Stray Dogs (2019)|文豪ストレイドッグス3
 2019/05/24-06:00:01 31 Karakuri Circus|からくりサーカス
@@ -42,8 +47,3 @@ Last Update: 2019/05/25-00:00:01
 2019/05/19-00:00:01 07 Nobunaga-sensei no Osanazuma|ノブナガ先生の幼な妻
 2019/05/19-00:00:01 07 Joshi Kausei|女子かう生
 2019/05/19-00:00:01 07 Chou Kadou Girl 16 Amazing Stranger|超可動ガール1／6
-2019/05/18-12:00:01 30 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
-2019/05/18-12:00:01 07 Senryuu Shoujo|川柳少女
-2019/05/18-12:00:01 07 Midara na Ao-chan wa Benkyou ga Dekinai|みだらな青ちゃんは勉強ができない
-2019/05/18-12:00:01 07 Hitoribocchi no Marumaru Seikatsu|ひとりぼっちの○○生活
-2019/05/18-12:00:01 07 Fruits Basket (2019)|フルーツバスケット
