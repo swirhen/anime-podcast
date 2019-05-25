@@ -1,4 +1,7 @@
-Last Update: 2019/05/26-00:00:01
+Last Update: 2019/05/26-06:00:02
+2019/05/26-06:00:02 08 Kono Oto Tomare!|この音とまれ！
+2019/05/26-06:00:02 08 Kimetsu no Yaiba|鬼滅の刃
+2019/05/26-06:00:02 08 Bokutachi wa Benkyou ga Dekinai|ぼくたちは勉強ができない
 2019/05/26-00:00:01 08 Nobunaga-sensei no Osanazuma|ノブナガ先生の幼な妻
 2019/05/26-00:00:01 08 Joshi Kausei|女子かう生
 2019/05/26-00:00:01 08 Chou Kadou Girl 16 Amazing Stranger|超可動ガール1／6
@@ -44,6 +47,3 @@ Last Update: 2019/05/26-00:00:01
 2019/05/19-18:00:01 56 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2019/05/19-12:00:01 58 Kiratto Pri-chan|キラッとプリ☆チャン
 2019/05/19-12:00:01 32 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
-2019/05/19-06:00:01 07 Kono Oto Tomare!|この音とまれ！
-2019/05/19-06:00:01 07 Kimetsu no Yaiba|鬼滅の刃
-2019/05/19-06:00:01 07 Bokutachi wa Benkyou ga Dekinai|ぼくたちは勉強ができない
