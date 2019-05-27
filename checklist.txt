@@ -1,4 +1,7 @@
-Last Update: 2019/05/28-00:00:01
+Last Update: 2019/05/28-06:00:01
+2019/05/28-06:00:01 20 Dororo (2019)|どろろ
+2019/05/28-06:00:01 08 RobiHachi|RobiHachi
+2019/05/28-06:00:01 08 Gunjou no Magmell|群青のマグメル
 2019/05/28-00:00:01 08 Namu Amida Butsu! Rendai Utena|なむあみだ仏っ！-蓮台 UTENA-
 2019/05/27-06:00:01 08 Shoumetsu Toshi|消滅都市
 2019/05/27-06:00:01 08 Nande Koko ni Sensei ga! (通常ver.)|なんでここに先生が!?
@@ -42,8 +45,5 @@ Last Update: 2019/05/28-00:00:01
 2019/05/22-06:00:01 06 King of Prism Shiny Seven Stars|KING OF PRISM -Shiny Seven Stars-
 2019/05/22-00:00:01 08 Konoyo no Hate de Koi o Utau Shoujo Yu-no|この世の果てで恋を唄う少女YU-NO
 2019/05/22-00:00:01 08 Idolmaster Cinderella Girls Gekijou Climax Season|アイドルマスター シンデレラガールズ劇場 CLIMAX SEASON
-2019/05/21-06:00:01 19 Dororo (2019)|どろろ
-2019/05/21-06:00:01 07 RobiHachi|RobiHachi
 2019/05/20-06:00:01 07 Hachigatsu no Cinderella Nine|八月のシンデレラナイン
 2019/05/20-06:00:01 07 Araiya-san! Ore to Aitsu ga Onnayu de!|洗い屋さん！～俺とアイツが女湯で!?～
-2019/05/20-00:00:01 07 Gunjou no Magmell|群青のマグメル
