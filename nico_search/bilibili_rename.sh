@@ -69,9 +69,10 @@ if [ "${dir: -3}" = "mp4" ]; then
             title=`echo "${title}" | sed "y/０１２３４５６７８９　/0123456789 /"`
         fi
         if [ "${AUDIO_ENCODE}" = "1" ]; then
-            echo "/usr/bin/wine ffmpeg3.exe -i \"${filename}.mp4\" -acodec copy -map 0:1 \"${filename}.m4a\""
-            echo "mv \"${filename}.mp4\" ${DIR_PREFIX}*/mp4/"
-            echo "mv \"${filename}.m4a\" ${DIR_PREFIX}*/"
+            echo "mv \"${dir}\" \"${title}.mp4\""
+            echo "/usr/bin/wine ffmpeg3.exe -i \"${title}.mp4\" -acodec copy -map 0:1 \"${title}.m4a\""
+            echo "mv \"${title}.mp4\" ${DIR_PREFIX}*/mp4/"
+            echo "mv \"${title}.m4a\" ${DIR_PREFIX}*/"
         else
             echo "mv \"${dir}\" \"${title}.mp4\""
             echo "mv \"${title}.mp4\" ${DIR_PREFIX}*/"
