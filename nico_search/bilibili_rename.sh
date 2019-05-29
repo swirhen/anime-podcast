@@ -31,11 +31,12 @@ done < ${RENAME_LIST_FILE}
 NICO_DIR_PREFIXS=()
 NICO_KEYWORDS=()
 NICO_SED_STRS=()
-while read DIR_PREFIX KEYWORD SED_STR
+while read DIR_PREFIX KEYWORD SED_STR AUDIO_ENCODE
 do
     NICO_DIR_PREFIXS+=( "${DIR_PREFIX}" )
     NICO_KEYWORDS+=( "${KEYWORD}" )
     NICO_SED_STRS+=( "${SED_STR}" )
+    NICO_AUDIO_ENCODES+=( "${AUDIO_ENCODE}" )
 done < ${NICO_LIST_FILE}
 
 # にこきゃっしゅ
@@ -54,6 +55,7 @@ if [ "${dir: -3}" = "mp4" ]; then
         if [[ ${title} =~ ${NICO_KEYWORDS[${cnt}]} ]]; then
             DIR_PREFIX="${NICO_DIR_PREFIXS[${cnt}]}"
             SED_STR="${NICO_SED_STRS[${cnt}]}"
+            AUDIO_ENCODE=${NICO_AUDIO_ENCODES[${cnt}]}
             hit_flg=1
             break
         fi
@@ -66,8 +68,14 @@ if [ "${dir: -3}" = "mp4" ]; then
         else
             title=`echo "${title}" | sed "y/０１２３４５６７８９　/0123456789 /"`
         fi
-        echo "mv \"${dir}\" \"${title}.mp4\""
-        echo "mv \"${title}.mp4\" ${DIR_PREFIX}*/"
+        if [ "${AUDIO_ENCODE}" = "1" ]; then
+            echo "/usr/bin/wine ffmpeg3.exe -i \"${filename}.mp4\" -acodec copy -map 0:1 \"${filename}.m4a\""
+            echo "mv \"${filename}.mp4\" ${DIR_PREFIX}*/mp4/"
+            echo "mv \"${filename}.m4a\" ${DIR_PREFIX}*/"
+        else
+            echo "mv \"${dir}\" \"${title}.mp4\""
+            echo "mv \"${title}.mp4\" ${DIR_PREFIX}*/"
+        fi
     else
         echo "mv \"${dir}\" \"${title}.mp4\""
     fi
