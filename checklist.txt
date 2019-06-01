@@ -1,4 +1,7 @@
-Last Update: 2019/06/02-00:00:01
+Last Update: 2019/06/02-06:00:01
+2019/06/02-06:00:01 09 Kono Oto Tomare!|この音とまれ！
+2019/06/02-06:00:01 09 Kimetsu no Yaiba|鬼滅の刃
+2019/06/02-06:00:01 09 Bokutachi wa Benkyou ga Dekinai|ぼくたちは勉強ができない
 2019/06/02-00:00:01 71 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2019/06/02-00:00:01 17 Star Twinkle Precure|スター☆トゥインクルプリキュア
 2019/06/02-00:00:01 09 Nobunaga-sensei no Osanazuma|ノブナガ先生の幼な妻
@@ -40,9 +43,6 @@ Last Update: 2019/06/02-00:00:01
 2019/05/26-18:00:01 59 Kiratto Pri-chan|キラッとプリ☆チャン
 2019/05/26-18:00:01 57 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2019/05/26-18:00:01 33 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
-2019/05/26-06:00:02 08 Kono Oto Tomare!|この音とまれ！
-2019/05/26-06:00:02 08 Kimetsu no Yaiba|鬼滅の刃
-2019/05/26-06:00:02 08 Bokutachi wa Benkyou ga Dekinai|ぼくたちは勉強ができない
 2019/05/25-06:00:01 08 Hitoribocchi no Marumaru Seikatsu|ひとりぼっちの○○生活
 2019/05/24-06:00:01 08 Han-Gyaku-Sei Million Arthur (2019)|叛逆性ミリオンアーサー2
 2019/05/24-00:00:01 44 Zoids Wild|ゾイドワイルド
