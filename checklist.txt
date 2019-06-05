@@ -1,4 +1,8 @@
-Last Update: 2019/06/06-00:00:01
+Last Update: 2019/06/06-06:00:01
+2019/06/06-06:00:01 72 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
+2019/06/06-06:00:01 45 Zoids Wild|ゾイドワイルド
+2019/06/06-06:00:01 09 Mix： Meisei Story|MIX
+2019/06/06-06:00:01 09 Kenja no Mago|賢者の孫
 2019/06/06-00:00:01 22 Tate no Yuusha no Nariagari|盾の勇者の成り上がり
 2019/06/06-00:00:01 09 Sewayaki Kitsune no Senko-san|世話やきキツネの仙狐さん
 2019/06/05-06:00:01 09 Strike Witches 501 Butai Hasshin Shimasu!!|ストライクウィッチーズ 501部隊発進しますっ！
@@ -23,12 +27,10 @@ Last Update: 2019/06/06-00:00:01
 2019/06/02-06:00:01 09 Kono Oto Tomare!|この音とまれ！
 2019/06/02-06:00:01 09 Kimetsu no Yaiba|鬼滅の刃
 2019/06/02-06:00:01 09 Bokutachi wa Benkyou ga Dekinai|ぼくたちは勉強ができない
-2019/06/02-00:00:01 71 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2019/06/02-00:00:01 17 Star Twinkle Precure|スター☆トゥインクルプリキュア
 2019/06/02-00:00:01 09 Nobunaga-sensei no Osanazuma|ノブナガ先生の幼な妻
 2019/06/02-00:00:01 09 Joshi Kausei|女子かう生
 2019/06/02-00:00:01 09 Chou Kadou Girl 16 Amazing Stranger|超可動ガール1／6
-2019/06/02-00:00:01 08 Mix： Meisei Story|MIX
 2019/06/01-18:00:01 09 Senryuu Shoujo|川柳少女
 2019/06/01-18:00:01 09 Midara na Ao-chan wa Benkyou ga Dekinai|みだらな青ちゃんは勉強ができない
 2019/06/01-18:00:01 09 Fruits Basket (2019)|フルーツバスケット
@@ -40,10 +42,8 @@ Last Update: 2019/06/06-00:00:01
 2019/05/31-00:00:01 09 Yatogame-chan Kansatsu Nikki|八十亀ちゃんかんさつにっき
 2019/05/31-00:00:01 08 Nande Koko ni Sensei ga! (もっとたゆたゆver.)|なんでここに先生が!? (もっとたゆたゆver.)
 2019/05/31-00:00:01 08 Carole &amp; Tuesday|キャロル&チューズデイ
-2019/05/30-06:00:01 08 Kenja no Mago|賢者の孫
 2019/05/30-00:00:01 08 One Punch Man (2019)|ワンパンマン2
 2019/05/29-00:00:01 08 Araiya-san! Ore to Aitsu ga Onnayu de!|洗い屋さん！～俺とアイツが女湯で!?～
 2019/05/25-06:00:01 08 Hitoribocchi no Marumaru Seikatsu|ひとりぼっちの○○生活
 2019/05/24-06:00:01 08 Han-Gyaku-Sei Million Arthur (2019)|叛逆性ミリオンアーサー2
-2019/05/24-00:00:01 44 Zoids Wild|ゾイドワイルド
 2019/05/20-06:00:01 07 Hachigatsu no Cinderella Nine|八月のシンデレラナイン
