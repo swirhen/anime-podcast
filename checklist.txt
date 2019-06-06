@@ -1,4 +1,7 @@
-Last Update: 2019/06/07-00:00:01
+Last Update: 2019/06/07-06:00:02
+2019/06/07-06:00:02 33 Karakuri Circus|からくりサーカス
+2019/06/07-06:00:02 09 Sarazanmai|さらざんまい
+2019/06/07-06:00:02 09 Nande Koko ni Sensei ga! (もっとたゆたゆver.)|なんでここに先生が!? (もっとたゆたゆver.)
 2019/06/07-00:00:01 10 Yatogame-chan Kansatsu Nikki|八十亀ちゃんかんさつにっき
 2019/06/06-12:00:01 46 Zoids Wild|ゾイドワイルド
 2019/06/06-12:00:01 09 Carole &amp; Tuesday|キャロル&チューズデイ
@@ -37,11 +40,8 @@ Last Update: 2019/06/07-00:00:01
 2019/06/01-18:00:01 09 Midara na Ao-chan wa Benkyou ga Dekinai|みだらな青ちゃんは勉強ができない
 2019/06/01-18:00:01 09 Fruits Basket (2019)|フルーツバスケット
 2019/06/01-06:00:01 32 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
-2019/06/01-00:00:01 32 Karakuri Circus|からくりサーカス
 2019/06/01-00:00:01 09 Bakumatsu Ren`ai Bakumatsu Kareshi Gaiden - Crisis|BAKUMATSUクライシス
 2019/06/01-00:00:01 08 Bungou Stray Dogs (2019)|文豪ストレイドッグス3
-2019/05/31-12:00:01 08 Sarazanmai|さらざんまい
-2019/05/31-00:00:01 08 Nande Koko ni Sensei ga! (もっとたゆたゆver.)|なんでここに先生が!? (もっとたゆたゆver.)
 2019/05/30-00:00:01 08 One Punch Man (2019)|ワンパンマン2
 2019/05/29-00:00:01 08 Araiya-san! Ore to Aitsu ga Onnayu de!|洗い屋さん！～俺とアイツが女湯で!?～
 2019/05/25-06:00:01 08 Hitoribocchi no Marumaru Seikatsu|ひとりぼっちの○○生活
