@@ -1,4 +1,7 @@
-Last Update: 2019/06/09-06:00:01
+Last Update: 2019/06/09-12:00:01
+2019/06/09-12:00:01 61 Kiratto Pri-chan|キラッとプリ☆チャン
+2019/06/09-12:00:01 59 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
+2019/06/09-12:00:01 35 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
 2019/06/09-06:00:01 10 Kono Oto Tomare!|この音とまれ！
 2019/06/09-06:00:01 10 Kimetsu no Yaiba|鬼滅の刃
 2019/06/09-06:00:01 10 Bokutachi wa Benkyou ga Dekinai|ぼくたちは勉強ができない
@@ -39,9 +42,6 @@ Last Update: 2019/06/09-06:00:01
 2019/06/03-06:00:01 09 Fairy Gone|Fairy gone フェアリーゴーン
 2019/06/03-06:00:01 06 Shingeki no Kyojin Season 3 (2019)|進撃の巨人 Season3 Part.2
 2019/06/03-06:00:01 06 Kidou Senshi Gundam The Origin - Zen`ya Akai Suisei|機動戦士ガンダム THE ORIGIN 前夜 赤い彗星
-2019/06/02-12:00:01 60 Kiratto Pri-chan|キラッとプリ☆チャン
-2019/06/02-12:00:01 58 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
-2019/06/02-12:00:01 34 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
 2019/06/02-00:00:01 17 Star Twinkle Precure|スター☆トゥインクルプリキュア
 2019/05/30-00:00:01 08 One Punch Man (2019)|ワンパンマン2
 2019/05/29-00:00:01 08 Araiya-san! Ore to Aitsu ga Onnayu de!|洗い屋さん！～俺とアイツが女湯で!?～
