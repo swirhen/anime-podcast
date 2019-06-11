@@ -1,7 +1,10 @@
-Last Update: 2019/06/11-18:00:02
+Last Update: 2019/06/12-00:00:01
+2019/06/12-00:00:01 87 Black Clover|ブラッククローバー
+2019/06/12-00:00:01 19 Star Twinkle Precure|スター☆トゥインクルプリキュア
+2019/06/12-00:00:01 11 Konoyo no Hate de Koi o Utau Shoujo Yu-no|この世の果てで恋を唄う少女YU-NO
+2019/06/12-00:00:01 11 Idolmaster Cinderella Girls Gekijou Climax Season|アイドルマスター シンデレラガールズ劇場 CLIMAX SEASON
 2019/06/11-18:00:02 73 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2019/06/11-18:00:02 47 Zoids Wild|ゾイドワイルド
-2019/06/11-18:00:02 18 Star Twinkle Precure|スター☆トゥインクルプリキュア
 2019/06/11-18:00:02 10 Mix： Meisei Story|MIX
 2019/06/11-06:00:01 10 RobiHachi|RobiHachi
 2019/06/11-00:00:01 22 Dororo (2019)|どろろ
@@ -40,9 +43,6 @@ Last Update: 2019/06/11-18:00:02
 2019/06/06-00:00:01 09 Sewayaki Kitsune no Senko-san|世話やきキツネの仙狐さん
 2019/06/05-06:00:01 09 Strike Witches 501 Butai Hasshin Shimasu!!|ストライクウィッチーズ 501部隊発進しますっ！
 2019/06/05-06:00:01 09 Isekai Quartet|異世界かるてっと
-2019/06/05-00:00:01 86 Black Clover|ブラッククローバー
-2019/06/05-00:00:01 10 Konoyo no Hate de Koi o Utau Shoujo Yu-no|この世の果てで恋を唄う少女YU-NO
-2019/06/05-00:00:01 10 Idolmaster Cinderella Girls Gekijou Climax Season|アイドルマスター シンデレラガールズ劇場 CLIMAX SEASON
 2019/06/05-00:00:01 08 King of Prism Shiny Seven Stars|KING OF PRISM -Shiny Seven Stars-
 2019/05/30-00:00:01 08 One Punch Man (2019)|ワンパンマン2
 2019/05/29-00:00:01 08 Araiya-san! Ore to Aitsu ga Onnayu de!|洗い屋さん！～俺とアイツが女湯で!?～
