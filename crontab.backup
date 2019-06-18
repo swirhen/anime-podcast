@@ -92,6 +92,7 @@ MAILTO=""
 59 18 * * 6 /data/share/movie/sh/radikorec.sh -o "A＆Gリクエストアワー 阿澄佳奈のキミまち！" -t 7260 QRR
 59 20 * * 7 /data/share/movie/sh/radikorec.sh -o "大橋彩香のAny Beat！" -t 1860 QRR
 59 21 * * 7 /data/share/movie/sh/radikorec.sh -o "水瀬いのり MELODY FLAG" -t 1860 QRR
+# 6月終了
 29 1 * * 1 /data/share/movie/sh/radikorec.sh -o "ご注文はラジオですか？？ ～WELCOME【う・さ！】～" -t 1860 QRR
 #29 16 * * 7 /data/share/movie/sh/agqrrecord.sh "和氣あず未と鈴木絵理のハートフルラジオ！" 45 1800 a azueri
 # -- IJUIN
