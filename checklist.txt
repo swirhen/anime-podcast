@@ -1,4 +1,10 @@
-Last Update: 2019/06/22-00:00:01
+Last Update: 2019/06/22-06:00:01
+2019/06/22-06:00:01 35 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
+2019/06/22-06:00:01 12 Senryuu Shoujo|川柳少女
+2019/06/22-06:00:01 12 Midara na Ao-chan wa Benkyou ga Dekinai|みだらな青ちゃんは勉強ができない
+2019/06/22-06:00:01 12 Hitoribocchi no Marumaru Seikatsu|ひとりぼっちの○○生活
+2019/06/22-06:00:01 12 Fruits Basket (2019)|フルーツバスケット
+2019/06/22-06:00:01 11 Bungou Stray Dogs (2019)|文豪ストレイドッグス3
 2019/06/22-00:00:01 35 Karakuri Circus|からくりサーカス
 2019/06/21-18:00:01 12 Han-Gyaku-Sei Million Arthur (2019)|叛逆性ミリオンアーサー2
 2019/06/21-00:00:01 11 Nande Koko ni Sensei ga! (もっとたゆたゆver.)|なんでここに先生が!? (もっとたゆたゆver.)
@@ -33,12 +39,6 @@ Last Update: 2019/06/22-00:00:01
 2019/06/16-00:00:01 11 Nobunaga-sensei no Osanazuma|ノブナガ先生の幼な妻
 2019/06/16-00:00:01 11 Joshi Kausei|女子かう生
 2019/06/16-00:00:01 11 Chou Kadou Girl 16 Amazing Stranger|超可動ガール1／6
-2019/06/15-06:00:01 34 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
-2019/06/15-06:00:01 11 Senryuu Shoujo|川柳少女
-2019/06/15-06:00:01 11 Midara na Ao-chan wa Benkyou ga Dekinai|みだらな青ちゃんは勉強ができない
-2019/06/15-06:00:01 11 Hitoribocchi no Marumaru Seikatsu|ひとりぼっちの○○生活
-2019/06/15-06:00:01 11 Fruits Basket (2019)|フルーツバスケット
-2019/06/15-00:00:01 10 Bungou Stray Dogs (2019)|文豪ストレイドッグス3
 2019/06/12-00:00:01 19 Star Twinkle Precure|スター☆トゥインクルプリキュア
 2019/06/11-18:00:02 73 Shinkansen Henkei Robo Shinkalion|新幹線変形ロボ シンカリオン THE ANIMATION
 2019/06/11-18:00:02 47 Zoids Wild|ゾイドワイルド
