@@ -1,5 +1,5 @@
-Last Update: 2019/07/02-00:00:01
-2019/07/02-00:00:01 13 https://ch.nicovideo.jp/namarabu/video 【無料版】なまらぶ * 99 第 回 
+Last Update: 2019/07/02-06:00:01
+2019/07/02-06:00:01 14 https://ch.nicovideo.jp/namarabu/video 【無料版】なまらぶ * 99 第 回 
 2019/06/28-18:00:01 316 https://ch.nicovideo.jp/MillionRADIO/video 回おまけ放送】 * 09 第 回 
 2019/06/28-18:00:01 316 https://ch.nicovideo.jp/MillionRADIO/video 回】 * 09 第 回 
 2019/06/27-18:00:01 245 https://ch.nicovideo.jp/cinderellaparty/video アーカイブ動画 * 01 | 回 s/\\(第.*回\\).*\\(CINDERELLA PARTY\\).*アーカイブ動画\\(.*\\)/\\2！ \\1 \\3/
