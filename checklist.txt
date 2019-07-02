@@ -1,8 +1,9 @@
-Last Update: 2019/07/03-00:00:01
+Last Update: 2019/07/03-06:00:01
+2019/07/03-06:00:01 12 One Punch Man (2019)|ワンパンマン2
+2019/07/03-06:00:01 01 Tejina Senpai|手品先輩
+2019/07/03-06:00:01 01 Sounan Desuka|ソウナンですか？
 2019/07/03-00:00:01 90 Black Clover|ブラッククローバー
 2019/07/03-00:00:01 14 Konoyo no Hate de Koi o Utau Shoujo Yu-no|この世の果てで恋を唄う少女YU-NO
-2019/07/03-00:00:01 0 Tejina Senpai|手品先輩
-2019/07/03-00:00:01 0 Sounan Desuka|ソウナンですか？
 2019/07/02-12:00:01 01 Starmyu 3|スタミュ 高校星歌劇3
 2019/07/02-06:00:01 01 Katsute Kami Datta Kemono-tachi e|かつて神だった獣たちへ
 2019/07/02-00:00:01 21 Star Twinkle Precure|スター☆トゥインクルプリキュア
@@ -16,5 +17,4 @@ Last Update: 2019/07/03-00:00:01
 2019/06/29-06:00:01 36 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
 2019/06/29-06:00:01 13 Fruits Basket (2019)|フルーツバスケット
 2019/06/28-00:00:01 12 Carole &amp; Tuesday|キャロル&チューズデイ
-2019/06/26-06:00:01 11 One Punch Man (2019)|ワンパンマン2
 2019/06/26-00:00:01 11 King of Prism Shiny Seven Stars|KING OF PRISM -Shiny Seven Stars-
