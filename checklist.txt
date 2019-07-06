@@ -1,9 +1,10 @@
-Last Update: 2019/07/06-06:00:01
+Last Update: 2019/07/06-12:00:02
+2019/07/06-12:00:02 01 En`en no Shouboutai|炎炎ノ消防隊
+2019/07/06-12:00:02 01 Araburu Kisetsu no Otome-domo yo.|荒ぶる季節の乙女どもよ。
 2019/07/06-06:00:01 37 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
 2019/07/06-06:00:01 14 Fruits Basket (2019)|フルーツバスケット
 2019/07/06-06:00:01 01 Joshikousei no Mudazukai|女子高生の無駄づかい
 2019/07/06-06:00:01 01 Dr. Stone|Dr.STONE
-2019/07/06-06:00:01 0 Araburu Kisetsu no Otome-domo yo.|荒ぶる季節の乙女どもよ。
 2019/07/05-12:00:01 01 Uchi no Ko no Tame Naraba, Ore wa Moshikashitara Maou mo Taoseru Kamo Shirenai.|うちの娘の為ならば、俺はもしかしたら魔王も倒せるかもしれない。
 2019/07/05-00:00:01 12.5 Carole &amp; Tuesday|キャロル&チューズデイ
 2019/07/04-12:30:39 01 Maou-sama, Retry!|魔王様、リトライ！
@@ -24,4 +25,3 @@ Last Update: 2019/07/06-06:00:01
 2019/06/30-12:00:01 38 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
 2019/06/30-06:00:02 13 Kimetsu no Yaiba|鬼滅の刃
 2019/06/26-00:00:01 11 King of Prism Shiny Seven Stars|KING OF PRISM -Shiny Seven Stars-
-0 0 En`en no Shouboutai|炎炎ノ消防隊
