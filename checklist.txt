@@ -1,6 +1,12 @@
-Last Update: 2019/07/08-00:00:01
+Last Update: 2019/07/08-06:00:01
+2019/07/08-06:00:01 12 Hachigatsu no Cinderella Nine|八月のシンデレラナイン
+2019/07/08-06:00:01 01 Ensemble Stars!|あんさんぶるスターズ！
+2019/07/08-06:00:01 0 Yubisaki kara Honki no Netsujou Osananajimi wa Shouboushi|指先から本気の熱情-幼なじみは消防士-
+2019/07/08-06:00:01 0 Vinland Saga|ヴィンランド・サガ
+2019/07/08-06:00:01 0 Re Stage! Dream Days|Re:ステージ！ ドリームデイズ♪
+2019/07/08-06:00:01 0 Naka no Hito Genome [Jikkyouchuu]|ナカノヒトゲノム【実況中】
+2019/07/08-06:00:01 0 Karakai Jouzu no Takagi-san 2|からかい上手の高木さん②
 2019/07/08-00:00:01 0 Naka no Hito Genome [Jikkyouchuu]|ナカノヒトゲノム【実況中】
-2019/07/08-00:00:01 0 Ensemble Stars!|あんさんぶるスターズ！
 2019/07/07-12:00:01 65 Kiratto Pri-chan|キラッとプリ☆チャン
 2019/07/07-12:00:01 63 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2019/07/07-12:00:01 39 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
@@ -27,6 +33,5 @@ Last Update: 2019/07/08-00:00:01
 2019/07/02-06:00:01 01 Katsute Kami Datta Kemono-tachi e|かつて神だった獣たちへ
 2019/07/02-00:00:01 21 Star Twinkle Precure|スター☆トゥインクルプリキュア
 2019/07/01-12:00:01 13 Mix： Meisei Story|MIX
-2019/07/01-06:00:01 11 Hachigatsu no Cinderella Nine|八月のシンデレラナイン
 2019/07/01-06:00:01 10 Kidou Senshi Gundam The Origin - Zen`ya Akai Suisei|機動戦士ガンダム THE ORIGIN 前夜 赤い彗星
 2019/06/26-00:00:01 11 King of Prism Shiny Seven Stars|KING OF PRISM -Shiny Seven Stars-
