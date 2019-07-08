@@ -12,17 +12,18 @@ for a in `ls -rt *話*.(avi|mp4|mkv|wmv)`
 do
   if [ -f "$a" ]; then
     error=0
+    b=`echo "${a}" | sed "s/\!/\\\\!/g"`
     until [ -f "/data/share/movie/98 PSP用/$a.mp4" ];
     do
       error=`expr $error + 1`
       if [ $error -gt 10 ]; then
         break;
       fi
-      /data/share/movie/sh/169mp44.sh "$a" "/data/share/movie/98 PSP用/"
+      /data/share/movie/sh/169mp44.sh "$b" "/data/share/movie/98 PSP用/"
     done
     /data/share/movie/sh/mmpc.sh
     #/data/share/movie/sh/mmpc3.sh
-    /data/share/movie/sh/mmv.sh "$a"
+    /data/share/movie/sh/mmv.sh "$b"
     sleep 3
     /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【publish】$a.mp4"
     ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【publish】$a.mp4"
