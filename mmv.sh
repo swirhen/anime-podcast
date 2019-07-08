@@ -10,8 +10,8 @@ do
   if [ ${cnt} != 0 ]; then
     NAME="${LINE#*\|}"
     NAME=`echo "${NAME}" | sed "s/&amp;/\&/g"`
-    nn=`echo $1 | sed -e "s/\(${NAME}\).*\.mp4/\1/"`
-    if [ "$nn" != "$1" ]; then
+    nn=`echo "$1" | sed -e "s/\ 第.*話\.mp4//"`
+    if [ "${nn}" = "${NAME}" ]; then
       echo "# move $1"
       mv -v "$1" /data/share/movie/*"${NAME}"/.
       break
