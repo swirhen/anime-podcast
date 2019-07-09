@@ -1,4 +1,8 @@
-Last Update: 2019/07/09-18:00:01
+Last Update: 2019/07/10-00:00:01
+2019/07/10-00:00:01 91 Black Clover|ブラッククローバー
+2019/07/10-00:00:01 15 Konoyo no Hate de Koi o Utau Shoujo Yu-no|この世の果てで恋を唄う少女YU-NO
+2019/07/10-00:00:01 02 Tejina Senpai|手品先輩
+2019/07/10-00:00:01 02 Sounan Desuka|ソウナンですか？
 2019/07/09-12:00:01 01 Cop Craft|コップクラフト
 2019/07/09-12:00:01 01 Arifureta Shokugyou de Sekai Saikyou|ありふれた職業で世界最強
 2019/07/09-06:00:01 01 Kochouki Wakaki Nobunaga|胡蝶綺 ～若き信長～
@@ -29,10 +33,6 @@ Last Update: 2019/07/09-18:00:01
 2019/07/04-12:30:39 01 Maou-sama, Retry!|魔王様、リトライ！
 2019/07/04-06:00:01 01 Kanata no Astra|彼方のアストラ
 2019/07/04-06:00:01 01 Dumbbell Nan Kilo Moteru|ダンベル何キロ持てる？
-2019/07/03-06:00:01 01 Tejina Senpai|手品先輩
-2019/07/03-06:00:01 01 Sounan Desuka|ソウナンですか？
-2019/07/03-00:00:01 90 Black Clover|ブラッククローバー
-2019/07/03-00:00:01 14 Konoyo no Hate de Koi o Utau Shoujo Yu-no|この世の果てで恋を唄う少女YU-NO
 2019/07/02-00:00:01 21 Star Twinkle Precure|スター☆トゥインクルプリキュア
 2019/07/01-12:00:01 13 Mix： Meisei Story|MIX
 2019/07/01-06:00:01 10 Kidou Senshi Gundam The Origin - Zen`ya Akai Suisei|機動戦士ガンダム THE ORIGIN 前夜 赤い彗星
