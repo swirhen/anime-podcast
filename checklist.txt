@@ -1,4 +1,9 @@
-Last Update: 2019/07/12-18:00:01
+Last Update: 2019/07/13-00:00:01
+2019/07/13-00:00:01 02 Joshikousei no Mudazukai|女子高生の無駄づかい
+2019/07/13-00:00:01 02 Dr. Stone|Dr.STONE
+2019/07/13-00:00:01 0 Toaru Kagaku no Accelerator|とある科学の超電磁砲S
+2019/07/13-00:00:01 0 Machikado Mazoku|まちカドまぞく
+2019/07/13-00:00:01 0 Hakata Mentai! Pirikarako-chan|博多明太！ぴりからこちゃん
 2019/07/12-12:00:01 01 Given|ギヴン
 2019/07/12-06:00:01 02 Uchi no Ko no Tame Naraba, Ore wa Moshikashitara Maou mo Taoseru Kamo Shirenai.|うちの娘の為ならば、俺はもしかしたら魔王も倒せるかもしれない。
 2019/07/11-12:00:01 13 Carole &amp; Tuesday|キャロル&チューズデイ
@@ -33,8 +38,6 @@ Last Update: 2019/07/12-18:00:01
 2019/07/06-12:00:02 01 Araburu Kisetsu no Otome-domo yo.|荒ぶる季節の乙女どもよ。
 2019/07/06-06:00:01 37 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
 2019/07/06-06:00:01 14 Fruits Basket (2019)|フルーツバスケット
-2019/07/06-06:00:01 01 Joshikousei no Mudazukai|女子高生の無駄づかい
-2019/07/06-06:00:01 01 Dr. Stone|Dr.STONE
 2019/07/04-12:30:39 01 Maou-sama, Retry!|魔王様、リトライ！
 2019/07/01-12:00:01 13 Mix： Meisei Story|MIX
 2019/07/01-06:00:01 10 Kidou Senshi Gundam The Origin - Zen`ya Akai Suisei|機動戦士ガンダム THE ORIGIN 前夜 赤い彗星
