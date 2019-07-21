@@ -110,7 +110,7 @@ MAILTO=""
 # crawler
 */10 17,18 * * 2 /home/swirhen/crawler_check/crawler_check.sh "dereradi_blomaga" "http://ch.nicovideo.jp/dereradi/blomaga/nico/feed"
 */10 22 * * 3 /home/swirhen/crawler_check/crawler_check.sh "derepa_blomaga" "http://ch.nicovideo.jp/cinderellaparty/blomaga/nico/feed"
-0 1,7,3,19 * * * /home/swirhen/crawler_check/crawler_check.sh "music_journey" "https://mora.jp/search/top?keyWord=%E6%A1%9C%E5%AE%88" "search_hitArea" "見つかりませんでした"
+1 0,6,12,18 * * * /home/swirhen/crawler_check/crawler_check.sh "music_journey" "https://mora.jp/search/top?keyWord=%E6%A1%9C%E5%AE%88" "search_hitArea" "見つかりませんでした"
 
 # 汎用 torrent seed check
 0 * * * * /home/swirhen/torrentsearch/torrentsearch2.sh
