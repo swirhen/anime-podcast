@@ -1,4 +1,6 @@
-Last Update: 2019/07/23-00:00:01
+Last Update: 2019/07/23-06:00:01
+2019/07/23-06:00:01 03 Cop Craft|コップクラフト
+2019/07/23-06:00:01 03 Arifureta Shokugyou de Sekai Saikyou|ありふれた職業で世界最強
 2019/07/23-00:00:01 04 Starmyu 3|スタミュ 高校星歌劇3
 2019/07/23-00:00:01 04 Katsute Kami Datta Kemono-tachi e|かつて神だった獣たちへ
 2019/07/23-00:00:01 03 Kochouki Wakaki Nobunaga|胡蝶綺 ～若き信長～
@@ -38,8 +40,6 @@ Last Update: 2019/07/23-00:00:01
 2019/07/17-00:00:01 16 Konoyo no Hate de Koi o Utau Shoujo Yu-no|この世の果てで恋を唄う少女YU-NO
 2019/07/17-00:00:01 03 Tejina Senpai|手品先輩
 2019/07/17-00:00:01 03 Sounan Desuka|ソウナンですか？
-2019/07/16-06:00:01 02 Cop Craft|コップクラフト
-2019/07/16-06:00:01 02 Arifureta Shokugyou de Sekai Saikyou|ありふれた職業で世界最強
 2019/07/13-06:00:01 02 En`en no Shouboutai|炎炎ノ消防隊
 2019/07/08-18:00:01 03 Vinland Saga|ヴィンランド・サガ
 2019/07/06-06:00:01 37 JoJo no Kimyou na Bouken Ougon no Kaze|ジョジョの奇妙な冒険 黄金の風
