@@ -1,4 +1,8 @@
-Last Update: 2019/07/30-18:00:01
+Last Update: 2019/07/31-00:00:01
+2019/07/31-00:00:01 94 Black Clover|ブラッククローバー
+2019/07/31-00:00:01 17.5 Konoyo no Hate de Koi o Utau Shoujo Yu-no|この世の果てで恋を唄う少女YU-NO
+2019/07/31-00:00:01 05 Tejina Senpai|手品先輩
+2019/07/31-00:00:01 05 Sounan Desuka|ソウナンですか？
 2019/07/30-06:00:01 04 Cop Craft|コップクラフト
 2019/07/30-06:00:01 04 Arifureta Shokugyou de Sekai Saikyou|ありふれた職業で世界最強
 2019/07/30-00:00:02 05 Starmyu 3|スタミュ 高校星歌劇3
@@ -37,9 +41,5 @@ Last Update: 2019/07/30-18:00:01
 2019/07/25-00:00:01 04 Dumbbell Nan Kilo Moteru|ダンベル何キロ持てる？
 2019/07/25-00:00:01 03 Isekai Cheat Magician|異世界チート魔術師
 2019/07/24-06:00:01 24 Star Twinkle Precure|スター☆トゥインクルプリキュア
-2019/07/24-00:00:01 93 Black Clover|ブラッククローバー
-2019/07/24-00:00:01 17 Konoyo no Hate de Koi o Utau Shoujo Yu-no|この世の果てで恋を唄う少女YU-NO
-2019/07/24-00:00:01 04 Tejina Senpai|手品先輩
-2019/07/24-00:00:01 04 Sounan Desuka|ソウナンですか？
 2019/07/22-00:00:01 15 Mix： Meisei Story|MIX
 2019/07/19-00:00:01 14 Carole &amp; Tuesday|キャロル&チューズデイ
