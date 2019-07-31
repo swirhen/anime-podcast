@@ -1,4 +1,5 @@
-Last Update: 2019/08/01-00:00:01
+Last Update: 2019/08/01-06:00:01
+2019/08/01-06:00:01 05 Maou-sama, Retry!|魔王様、リトライ！
 2019/08/01-00:00:01 05 Kanata no Astra|彼方のアストラ
 2019/08/01-00:00:01 05 Dumbbell Nan Kilo Moteru|ダンベル何キロ持てる？
 2019/08/01-00:00:01 04 Isekai Cheat Magician|異世界チート魔術師
@@ -39,7 +40,6 @@ Last Update: 2019/08/01-00:00:01
 2019/07/26-06:00:01 04 Uchi no Ko no Tame Naraba, Ore wa Moshikashitara Maou mo Taoseru Kamo Shirenai.|うちの娘の為ならば、俺はもしかしたら魔王も倒せるかもしれない。
 2019/07/26-06:00:01 03 Machikado Mazoku|まちカドまぞく
 2019/07/26-06:00:01 03 Given|ギヴン
-2019/07/25-06:00:01 04 Maou-sama, Retry!|魔王様、リトライ！
 2019/07/24-06:00:01 24 Star Twinkle Precure|スター☆トゥインクルプリキュア
 2019/07/22-00:00:01 15 Mix： Meisei Story|MIX
 2019/07/19-00:00:01 14 Carole &amp; Tuesday|キャロル&チューズデイ
