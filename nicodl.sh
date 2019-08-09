@@ -5,7 +5,7 @@ url=$1
 title=$2
 audflg=$3
 
-/usr/bin/python /data/share/movie/sh/nicovideo-dl -u swirhen@gmail.com -p irankae1 "${url}" -o nicodl_temp
+/usr/bin/python3 /data/share/movie/sh/nicovideo-dl -u swirhen@gmail.com -p irankae1 "${url}" -o nicodl_temp
 
 # 音声エンコ
 if [ "${audflg:-null}" != null ]; then
