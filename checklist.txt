@@ -1,4 +1,6 @@
-Last Update: 2019/08/13-18:00:01
+Last Update: 2019/08/14-00:00:01
+2019/08/14-00:00:01 96 Black Clover|ブラッククローバー
+2019/08/14-00:00:01 19 Konoyo no Hate de Koi o Utau Shoujo Yu-no|この世の果てで恋を唄う少女YU-NO
 2019/08/13-06:00:01 06 Cop Craft|コップクラフト
 2019/08/13-06:00:01 05.5 Arifureta Shokugyou de Sekai Saikyou|ありふれた職業で世界最強
 2019/08/13-00:00:01 07 Starmyu 3|スタミュ 高校星歌劇3
@@ -37,8 +39,6 @@ Last Update: 2019/08/13-18:00:01
 2019/08/08-00:00:01 06 Kanata no Astra|彼方のアストラ
 2019/08/08-00:00:01 06 Dumbbell Nan Kilo Moteru|ダンベル何キロ持てる？
 2019/08/08-00:00:01 05 Isekai Cheat Magician|異世界チート魔術師
-2019/08/07-00:00:01 95 Black Clover|ブラッククローバー
-2019/08/07-00:00:01 18 Konoyo no Hate de Koi o Utau Shoujo Yu-no|この世の果てで恋を唄う少女YU-NO
 2019/08/07-00:00:01 06 Tejina Senpai|手品先輩
 2019/08/07-00:00:01 06 Sounan Desuka|ソウナンですか？
 2019/07/29-06:00:01 03 Bem|BEM
