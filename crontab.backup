@@ -82,6 +82,8 @@ MAILTO=""
 29 19 * * 6 /data/share/movie/sh/agqrrecord.sh "早見沙織のふり～すたいる♪" 45 1800
 59 19 * * 6 /data/share/movie/sh/agqrrecord.sh "フレッシュたかまつ" 45 1800
 29 20 * * 6 /data/share/movie/sh/agqrrecord.sh "内田真礼とおはなししません？" 45 1800
+# 9/28おわり
+29 22 * * 6 /data/share/movie/sh/radikorec.sh -o "ゆきんこ・りえしょんのいちごまみれだよ～" -t 1860 IBS
 59 23 * * 6 /data/share/movie/sh/radikorec.sh -o "上坂すみれの▽をつければかわいかろう" -t 1860 QRR
 #59 23 * * 6 /data/share/movie/sh/agqrrecord.sh "戸松遥のココロ☆ハルカス" 45 1800
 #29 0 * * 7 /data/share/movie/sh/agqrrecord.sh "寿美菜子のラフラフ" 45 1800
@@ -98,6 +100,7 @@ MAILTO=""
 29 8 * * 1-4 /data/share/movie/sh/radikorec.sh -o "伊集院光とらじおと" -t 9060 TBS
 # りむ鯖
 5 3 * * 2 /data/share/movie/sh/agqrrelease.sh
+# ちまみれ 9/28おわり
 35 22 * * 6 /data/share/movie/sh/agqrrelease.sh
 5 0 * * 6 /data/share/movie/sh/agqrrelease.sh
 25 22 * * 7 /data/share/movie/sh/agqrrelease.sh
