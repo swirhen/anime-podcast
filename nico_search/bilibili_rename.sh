@@ -99,6 +99,8 @@ do
 
     # blv保存ディレクトリの下のblvファイル数を調べる
     filecnt=`ls "${partdir}"/*/*.blv | wc -l`
+    # blv保存ディレクトリの下のvideo.m4sファイル数を調べる
+    filecnt2=`ls "${partdir}"/*/video.m4s | wc -l`
 
     # ファイル名=title
     filename="${title}"
@@ -155,8 +157,14 @@ do
         # blvが1個だけの場合
         echo "/usr/bin/wine ffmpeg3.exe -i \"${partdir}\"/*/0.blv -c copy \"${filename}.mp4\""
     elif [ ${filecnt} -eq 0 ]; then
-        # 0個の場合(普通無い)なにもしない
-        i=0
+        # 0個の場合(普通無い)新形式の可能性
+        if [ ${filecnt2} -eq 1 ]; then
+            # ffmpegでmux
+            echo "/usr/bin/wine ffmpeg3.exe -i \"${partdir}\"/*/video.m4s -i \"${partdir}\"/*/audio.m4s -c copy \"${filename}.mp4\""
+        else
+            # TODO 2個以上の時(あるのか？)
+            continue
+        fi
     else
         rm -f "${filename}.list"
         for file in `eval echo "${partdir}"/*/{0..$(( filecnt - 1 ))}.blv`
