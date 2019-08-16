@@ -1,4 +1,10 @@
-Last Update: 2019/08/17-00:00:01
+Last Update: 2019/08/17-06:00:01
+2019/08/17-06:00:01 20 Fruits Basket (2019)|フルーツバスケット
+2019/08/17-06:00:01 07 Granbelm|グランベルム
+2019/08/17-06:00:01 07 Araburu Kisetsu no Otome-domo yo.|荒ぶる季節の乙女どもよ。
+2019/08/17-06:00:01 06 Tsuujou Kougeki ga Zentai Kougeki de Nikai Kougeki no Okaasan wa Suki Desuka|通常攻撃が全体攻撃で二回攻撃のお母さんは好きですか？
+2019/08/17-06:00:01 06 En`en no Shouboutai|炎炎ノ消防隊
+2019/08/17-06:00:01 06 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka Familia Myth II|ダンジョンに出会いを求めるのは間違っているだろうかII
 2019/08/17-00:00:01 07 Joshikousei no Mudazukai|女子高生の無駄づかい
 2019/08/17-00:00:01 07 Dr. Stone|Dr.STONE
 2019/08/17-00:00:01 06 Toaru Kagaku no Accelerator|とある科学の超電磁砲S
@@ -35,10 +41,4 @@ Last Update: 2019/08/17-00:00:01
 2019/08/11-06:00:01 06 Lord El-Melloi II-sei no Jikenbo Rail Zeppelin Grace Note|ロード・エルメロイII世の事件簿 -魔眼蒐集列車 Grace note-
 2019/08/10-12:00:01 17 Mix： Meisei Story|MIX
 2019/08/10-06:00:01 25 Star Twinkle Precure|スター☆トゥインクルプリキュア
-2019/08/10-06:00:01 19 Fruits Basket (2019)|フルーツバスケット
-2019/08/10-06:00:01 06 Granbelm|グランベルム
-2019/08/10-06:00:01 06 Araburu Kisetsu no Otome-domo yo.|荒ぶる季節の乙女どもよ。
-2019/08/10-06:00:01 05 Tsuujou Kougeki ga Zentai Kougeki de Nikai Kougeki no Okaasan wa Suki Desuka|通常攻撃が全体攻撃で二回攻撃のお母さんは好きですか？
-2019/08/10-06:00:01 05 En`en no Shouboutai|炎炎ノ消防隊
-2019/08/10-06:00:01 05 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka Familia Myth II|ダンジョンに出会いを求めるのは間違っているだろうかII
 2019/07/29-06:00:01 03 Bem|BEM
