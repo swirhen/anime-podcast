@@ -1,4 +1,6 @@
-Last Update: 2019/09/11-00:00:02
+Last Update: 2019/09/11-06:00:01
+2019/09/11-06:00:01 11 Sounan Desuka|ソウナンですか？
+2019/09/11-06:00:01 100 Black Clover|ブラッククローバー
 2019/09/11-00:00:02 23 Konoyo no Hate de Koi o Utau Shoujo Yu-no|この世の果てで恋を唄う少女YU-NO
 2019/09/11-00:00:02 11 Tejina Senpai|手品先輩
 2019/09/10-12:00:01 30 Star Twinkle Precure|スター☆トゥインクルプリキュア
@@ -38,7 +40,5 @@ Last Update: 2019/09/11-00:00:02
 2019/09/05-00:00:01 10 Kanata no Astra|彼方のアストラ
 2019/09/05-00:00:01 10 Dumbbell Nan Kilo Moteru|ダンベル何キロ持てる？
 2019/09/05-00:00:01 09 Isekai Cheat Magician|異世界チート魔術師
-2019/09/04-00:00:01 99 Black Clover|ブラッククローバー
-2019/09/04-00:00:01 10 Sounan Desuka|ソウナンですか？
 2019/09/02-06:00:01 09 Vinland Saga|ヴィンランド・サガ
 2019/09/02-06:00:01 08 Yubisaki kara Honki no Netsujou Osananajimi wa Shouboushi|指先から本気の熱情-幼なじみは消防士-
