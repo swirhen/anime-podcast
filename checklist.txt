@@ -1,4 +1,8 @@
-Last Update: 2019/09/14-12:00:01
+Last Update: 2019/09/14-18:00:01
+2019/09/14-18:00:01 24 Fruits Basket (2019)|フルーツバスケット
+2019/09/14-18:00:01 11 Granbelm|グランベルム
+2019/09/14-18:00:01 11 Araburu Kisetsu no Otome-domo yo.|荒ぶる季節の乙女どもよ。
+2019/09/14-18:00:01 10 En`en no Shouboutai|炎炎ノ消防隊
 2019/09/14-06:00:02 11 Dr. Stone|Dr.STONE
 2019/09/14-06:00:02 10 Tsuujou Kougeki ga Zentai Kougeki de Nikai Kougeki no Okaasan wa Suki Desuka|通常攻撃が全体攻撃で二回攻撃のお母さんは好きですか？
 2019/09/14-06:00:02 10 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka Familia Myth II|ダンジョンに出会いを求めるのは間違っているだろうかII
@@ -36,9 +40,5 @@ Last Update: 2019/09/14-12:00:01
 2019/09/08-06:00:01 23 Kimetsu no Yaiba|鬼滅の刃
 2019/09/08-06:00:01 10 Senki Zesshou Symphogear XV|戦姫絶唱シンフォギアXV
 2019/09/08-06:00:01 10 Lord El-Melloi II-sei no Jikenbo Rail Zeppelin Grace Note|ロード・エルメロイII世の事件簿 -魔眼蒐集列車 Grace note-
-2019/09/07-06:00:01 23 Fruits Basket (2019)|フルーツバスケット
-2019/09/07-06:00:01 10 Granbelm|グランベルム
-2019/09/07-06:00:01 10 Araburu Kisetsu no Otome-domo yo.|荒ぶる季節の乙女どもよ。
-2019/09/07-06:00:01 09 En`en no Shouboutai|炎炎ノ消防隊
 2019/09/02-06:00:01 09 Vinland Saga|ヴィンランド・サガ
 2019/09/02-06:00:01 08 Yubisaki kara Honki no Netsujou Osananajimi wa Shouboushi|指先から本気の熱情-幼なじみは消防士-
