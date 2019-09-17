@@ -1,44 +1,43 @@
-Last Update: 2019/09/05-06:00:01
-2019/09/05-06:00:01 10 Maou-sama, Retry!|魔王様、リトライ！
-2019/09/05-00:00:01 10 Kanata no Astra|彼方のアストラ
-2019/09/05-00:00:01 10 Dumbbell Nan Kilo Moteru|ダンベル何キロ持てる？
-2019/09/05-00:00:01 09 Isekai Cheat Magician|異世界チート魔術師
-2019/09/04-00:00:01 99 Black Clover|ブラッククローバー
-2019/09/04-00:00:01 22 Konoyo no Hate de Koi o Utau Shoujo Yu-no|この世の果てで恋を唄う少女YU-NO
-2019/09/04-00:00:01 10 Tejina Senpai|手品先輩
-2019/09/04-00:00:01 10 Sounan Desuka|ソウナンですか？
-2019/09/03-06:00:01 09 Cop Craft|コップクラフト
-2019/09/03-06:00:01 08 Arifureta Shokugyou de Sekai Saikyou|ありふれた職業で世界最強
-2019/09/03-00:00:01 10 Starmyu 3|スタミュ 高校星歌劇3
-2019/09/03-00:00:01 10 Katsute Kami Datta Kemono-tachi e|かつて神だった獣たちへ
-2019/09/03-00:00:01 09 Kochouki Wakaki Nobunaga|胡蝶綺 ～若き信長～
-2019/09/03-00:00:01 09 Kawaikereba Hentai demo Suki ni Natte Kuremasu ka|可愛ければ変態でも好きになってくれますか？
-2019/09/03-00:00:01 06 Bem|BEM
-2019/09/02-06:00:01 09 Vinland Saga|ヴィンランド・サガ
-2019/09/02-06:00:01 09 Karakai Jouzu no Takagi-san 2|からかい上手の高木さん②
+Last Update: 2019/09/17-12:00:01
+2019/09/17-06:00:01 10 Cop Craft|コップクラフト
+2019/09/17-06:00:01 10 Arifureta Shokugyou de Sekai Saikyou|ありふれた職業で世界最強
+2019/09/17-00:00:01 11 Kochouki Wakaki Nobunaga|胡蝶綺 ～若き信長～
+2019/09/17-00:00:01 11 Kawaikereba Hentai demo Suki ni Natte Kuremasu ka|可愛ければ変態でも好きになってくれますか？
+2019/09/17-00:00:01 11 Karakai Jouzu no Takagi-san 2|からかい上手の高木さん②
+2019/09/17-00:00:01 10 Vinland Saga|ヴィンランド・サガ
+2019/09/17-00:00:01 08 Bem|BEM
+2019/09/16-00:00:01 11 Naka no Hito Genome|ナカノヒトゲノム【実況中】
+2019/09/16-00:00:01 11 Ensemble Stars!|あんさんぶるスターズ！
+2019/09/16-00:00:01 10.5 Re Stage! Dream Days|Re:ステージ！ ドリームデイズ♪
+2019/09/15-12:00:01 75 Kiratto Pri-chan|キラッとプリ☆チャン
+2019/09/15-12:00:01 73 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
+2019/09/15-12:00:01 49 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
+2019/09/15-06:00:01 24 Kimetsu no Yaiba|鬼滅の刃
+2019/09/15-06:00:01 11 Senki Zesshou Symphogear XV|戦姫絶唱シンフォギアXV
+2019/09/15-06:00:01 11 Lord El-Melloi II-sei no Jikenbo Rail Zeppelin Grace Note|ロード・エルメロイII世の事件簿 -魔眼蒐集列車 Grace note-
+2019/09/14-18:00:01 24 Fruits Basket (2019)|フルーツバスケット
+2019/09/14-18:00:01 11 Granbelm|グランベルム
+2019/09/14-18:00:01 11 Araburu Kisetsu no Otome-domo yo.|荒ぶる季節の乙女どもよ。
+2019/09/14-18:00:01 10 En`en no Shouboutai|炎炎ノ消防隊
+2019/09/14-06:00:02 11 Dr. Stone|Dr.STONE
+2019/09/14-06:00:02 10 Tsuujou Kougeki ga Zentai Kougeki de Nikai Kougeki no Okaasan wa Suki Desuka|通常攻撃が全体攻撃で二回攻撃のお母さんは好きですか？
+2019/09/14-06:00:02 10 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka Familia Myth II|ダンジョンに出会いを求めるのは間違っているだろうかII
+2019/09/14-00:00:01 11 Joshikousei no Mudazukai|女子高生の無駄づかい
+2019/09/14-00:00:01 10 Toaru Kagaku no Accelerator|とある科学の超電磁砲S
+2019/09/14-00:00:01 10 Hakata Mentai! Pirikarako-chan|博多明太！ぴりからこちゃん
+2019/09/13-18:00:01 10 Given|ギヴン
+2019/09/13-06:00:01 11 Uchi no Ko no Tame Naraba, Ore wa Moshikashitara Maou mo Taoseru Kamo Shirenai.|うちの娘の為ならば、俺はもしかしたら魔王も倒せるかもしれない。
+2019/09/13-06:00:01 10 Machikado Mazoku|まちカドまぞく
+2019/09/12-18:00:02 21 Carole &amp; Tuesday|キャロル&チューズデイ
+2019/09/12-12:00:01 11 Maou-sama, Retry!|魔王様、リトライ！
+2019/09/12-00:00:01 11 Kanata no Astra|彼方のアストラ
+2019/09/12-00:00:01 11 Dumbbell Nan Kilo Moteru|ダンベル何キロ持てる？
+2019/09/12-00:00:01 10 Isekai Cheat Magician|異世界チート魔術師
+2019/09/11-06:00:01 11 Sounan Desuka|ソウナンですか？
+2019/09/11-06:00:01 100 Black Clover|ブラッククローバー
+2019/09/11-00:00:02 23 Konoyo no Hate de Koi o Utau Shoujo Yu-no|この世の果てで恋を唄う少女YU-NO
+2019/09/11-00:00:02 11 Tejina Senpai|手品先輩
+2019/09/10-12:00:01 30 Star Twinkle Precure|スター☆トゥインクルプリキュア
+2019/09/10-12:00:01 21 Mix： Meisei Story|MIX
+2019/09/10-06:00:01 11 Starmyu 3|スタミュ 高校星歌劇3
 2019/09/02-06:00:01 08 Yubisaki kara Honki no Netsujou Osananajimi wa Shouboushi|指先から本気の熱情-幼なじみは消防士-
-2019/09/02-00:00:02 09 Re Stage! Dream Days|Re:ステージ！ ドリームデイズ♪
-2019/09/02-00:00:02 09 Naka no Hito Genome|ナカノヒトゲノム【実況中】
-2019/09/02-00:00:02 09 Ensemble Stars!|あんさんぶるスターズ！
-2019/09/01-12:00:01 73 Kiratto Pri-chan|キラッとプリ☆チャン
-2019/09/01-12:00:01 71 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
-2019/09/01-12:00:01 47 Fairy Tail (2018)|FAIRY TAIL ファイナルシリーズ
-2019/09/01-06:00:01 22 Kimetsu no Yaiba|鬼滅の刃
-2019/09/01-06:00:01 09 Senki Zesshou Symphogear XV|戦姫絶唱シンフォギアXV
-2019/09/01-06:00:01 09 Lord El-Melloi II-sei no Jikenbo Rail Zeppelin Grace Note|ロード・エルメロイII世の事件簿 -魔眼蒐集列車 Grace note-
-2019/08/31-06:00:01 22 Fruits Basket (2019)|フルーツバスケット
-2019/08/31-06:00:01 09 Granbelm|グランベルム
-2019/08/31-06:00:01 09 Araburu Kisetsu no Otome-domo yo.|荒ぶる季節の乙女どもよ。
-2019/08/31-06:00:01 08 Tsuujou Kougeki ga Zentai Kougeki de Nikai Kougeki no Okaasan wa Suki Desuka|通常攻撃が全体攻撃で二回攻撃のお母さんは好きですか？
-2019/08/31-06:00:01 08 En`en no Shouboutai|炎炎ノ消防隊
-2019/08/31-06:00:01 08 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka Familia Myth II|ダンジョンに出会いを求めるのは間違っているだろうかII
-2019/08/31-00:00:02 09 Joshikousei no Mudazukai|女子高生の無駄づかい
-2019/08/31-00:00:02 09 Dr. Stone|Dr.STONE
-2019/08/31-00:00:02 08 Toaru Kagaku no Accelerator|とある科学の超電磁砲S
-2019/08/31-00:00:02 08 Machikado Mazoku|まちカドまぞく
-2019/08/31-00:00:02 08 Hakata Mentai! Pirikarako-chan|博多明太！ぴりからこちゃん
-2019/08/31-00:00:02 08 Given|ギヴン
-2019/08/30-06:00:01 09 Uchi no Ko no Tame Naraba, Ore wa Moshikashitara Maou mo Taoseru Kamo Shirenai.|うちの娘の為ならば、俺はもしかしたら魔王も倒せるかもしれない。
-2019/08/30-00:00:01 19 Carole &amp; Tuesday|キャロル&チューズデイ
-2019/08/28-18:00:01 28 Star Twinkle Precure|スター☆トゥインクルプリキュア
-2019/08/28-18:00:01 19 Mix： Meisei Story|MIX
