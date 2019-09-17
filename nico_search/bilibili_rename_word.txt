@@ -1,5 +1,5 @@
 99 0 小鸟之音 第 回 2 ことりの音 ##PROGRAM_NAME##%##NUM_PREFIX####NUM####NUM_SUFFIX##
-17 1 RAKU-ON 第 回 2 仲村宗悟・Machicoのらくおん ##PROGRAM_NAME##%##NUM_PREFIX####NUM####NUM_SUFFIX## 回）% %原版
+17 1 RAKU-ON 第 回 2 仲村宗悟・Machicoのらくおんｆ ##PROGRAM_NAME##%##NUM_PREFIX####NUM####NUM_SUFFIX## 回）% %原版
 99 0 ○○放送局 第 回 2 原由実の○○放送局%大盛 『##PROGRAM_NAME##』%##NUM_PREFIX####NUM####NUM_SUFFIX##
 18 0 Gor☆geous 第 回 2 ゴー☆ジャス＠レボ☆リューション～こんな声優ファン☆タスティック%with%ちくわP～ 【##NUM_PREFIX####NUM####NUM_SUFFIX##】##PROGRAM_NAME##
 18 0 ゴー☆ジャス 第 界 2 ゴー☆ジャス＠レボ☆リューション～こんな声優ファン☆タスティック%with%ちくわP～ 【##NUM_PREFIX####NUM####NUM_SUFFIX##】##PROGRAM_NAME##
