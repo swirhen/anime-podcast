@@ -44,9 +44,9 @@ do
 # ランダム変数(サーバ分散対応)
 #um=`expr $RANDOM % 2 + 1`
 num=1
-    echo "/usr/bin/rtmpdump --rtmp \"rtmpe://fms${num}.uniqueradio.jp/\" --playpath \"aandg22\" --app \"?rtmp://fms-base1.mitene.ad.jp/agqr/\" --live -o \"$filename\" --stop $rectime"
+    echo "/usr/bin/rtmpdump --rtmp \"rtmpe://fms${num}.uniqueradio.jp/\" --playpath \"${PLAYPATH}\" --app \"?rtmp://fms-base1.mitene.ad.jp/agqr/\" --live -o \"$filename\" --stop $rectime"
 #	/usr/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "aandg2" --app "?rtmp://fms-base1.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime
-	/usr/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "aandg22" --app "?rtmp://fms-base1.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime
+	/usr/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "${PLAYPATH}" --app "?rtmp://fms-base1.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime
 done
 # 保存フォルダへ移動
 cd "/data/share/movie/98 PSP用/agqr/flv"
