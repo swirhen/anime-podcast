@@ -1,4 +1,6 @@
-Last Update: 2019/10/01-00:00:01
+Last Update: 2019/10/01-06:00:02
+2019/10/01-06:00:02 12 Cop Craft|コップクラフト
+2019/10/01-06:00:02 12 Arifureta Shokugyou de Sekai Saikyou|ありふれた職業で世界最強
 2019/10/01-00:00:01 10 Bem|BEM
 2019/09/30-06:00:01 12 Vinland Saga|ヴィンランド・サガ
 2019/09/30-00:00:01 0 w Hataage! Kemono Michi - 01 Preview (AT-X 1280x720 x264 AAC).mp4|旗揚！けものみち
@@ -11,8 +13,6 @@ Last Update: 2019/10/01-00:00:01
 2019/09/26-06:00:01 01 Kandagawa Jet Girls|神田川JET GIRLS
 2019/09/25-00:00:01 25 Konoyo no Hate de Koi o Utau Shoujo Yu-no|この世の果てで恋を唄う少女YU-NO
 2019/09/25-00:00:01 102 Black Clover|ブラッククローバー
-2019/09/24-06:00:01 11 Cop Craft|コップクラフト
-2019/09/24-06:00:01 11 Arifureta Shokugyou de Sekai Saikyou|ありふれた職業で世界最強
 2019/09/23-00:00:01 12 Ensemble Stars!|あんさんぶるスターズ！
 2019/09/21-06:00:01 12 Araburu Kisetsu no Otome-domo yo.|荒ぶる季節の乙女どもよ。
 2019/09/21-06:00:01 11 En`en no Shouboutai|炎炎ノ消防隊
