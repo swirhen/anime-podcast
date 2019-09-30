@@ -22,29 +22,20 @@ MAILTO=""
 # Abema Fresh
 # SP
 59 20 29 7 * /data/share/movie/sh/freshrecord.sh "木戸衣吹" kido-ibuki 0
-# 第2,4月曜(毎週取得)
-#59 21 * * 1 /data/share/movie/sh/freshrecord.sh "リューション" secondshot 0
 # 隔週水曜(毎週取得)
 59 20 * * 3 /data/share/movie/sh/freshrecord.sh "フレッシュはじめました" ito_miku 0
 59 20 * * 3 /data/share/movie/sh/freshrecord.sh "愛美のPerfect Woman" hibiki 1
 # 隔週木曜(毎週取得)
 59 19 * * 4 /data/share/movie/sh/freshrecord.sh "日笠・日高のお日様ぐみ！" hibiki 1
 
-# 月～金 帯
-#29 21 * * 1 /data/share/movie/sh/freshrecord.sh "仲村宗悟・Machicoのらくおん" hibiki 1 0 1
-#29 21 * * 2 /data/share/movie/sh/freshrecord.sh "中島由貴・武田羅梨沙多胡のかわいいラジオ" hibiki 1 0 1
-#29 21 * * 3 /data/share/movie/sh/freshrecord.sh "小林裕介・石上静香のゆずらないラジオ" hibiki 1 0 1
-#29 21 * * 4 /data/share/movie/sh/freshrecord.sh "大坪由佳・青山吉能の週末、何してる？" hibiki 1 0 1
-#29 21 * * 5 /data/share/movie/sh/freshrecord.sh "津田健次郎・大河元気のジョシ禁ラジオ" hibiki 1 0 1
-
 # SP
 
 # 帯
-59 19 * * 1 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 黒沢ともよ" 45 3600 v
-59 19 * * 2 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 深川芹亜" 45 3600 v
-59 19 * * 3 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 田中美海" 45 3600 v
-59 19 * * 4 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 松田利冴" 45 3600 v
-59 19 * * 5 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 吉田有里" 45 3600 v
+#59 19 * * 1 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 黒沢ともよ" 45 3600 v
+#59 19 * * 2 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 深川芹亜" 45 3600 v
+#59 19 * * 3 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 田中美海" 45 3600 v
+#59 19 * * 4 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 松田利冴" 45 3600 v
+#59 19 * * 5 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 吉田有里" 45 3600 v
 59 23 * * 1-4 /data/share/movie/sh/agqrrecord.sh "鷲崎健のヨルナイト×ヨルナイト" 45 3600 v
 # -- MON
 #29 17 * 4,5,6 1 /data/share/movie/sh/agqrrecord.sh "大久保瑠美・桑原由気 まなべる！ライトノベル！" 45 1800 v
@@ -52,7 +43,7 @@ MAILTO=""
 59 21 * * 1 /data/share/movie/sh/agqrrecord.sh "井口裕香のむ～～～ん⊂（　＾ω＾）⊃" 45 3600 v
 59 22 * * 1 /data/share/movie/sh/agqrrecord.sh "東山奈央のラジオ＠リビング" 45 1800
 29 23 * * 1 /data/share/movie/sh/agqrrecord.sh "山崎はるかのC_est Parti！！" 45 1800 v
-59 0 * * 2 /data/share/movie/sh/agqrrecord.sh "西明日香のデリケートゾーン！" 45 1800 v
+#59 0 * * 2 /data/share/movie/sh/agqrrecord.sh "西明日香のデリケートゾーン！" 45 1800 v
 29 2 * * 2 /data/share/movie/sh/agqrrecord.sh "佐藤亜美菜のアミメン！" 45 1800 v
 59 2 * * 2 /data/share/movie/sh/agqrrecord.sh "伊福部崇のラジオのラジオ" 45 1800
 # -- TUE
@@ -63,35 +54,28 @@ MAILTO=""
 59 0 * * 3 /data/share/movie/sh/agqrrecord.sh "洲崎西" 45 1800
 29 1 * * 3 /data/share/movie/sh/agqrrecord.sh "春佳・彩花のSSちゃんねる" 45 1800
 # -- WED
-#29 1 * * 4 /data/share/movie/sh/agqrrecord.sh "武内駿輔のGooooood JOB！" 45 1800
 # -- THU
 59 20 * * 4 /data/share/movie/sh/agqrrecord.sh "アニゲラ！ディドゥーーン！！" 45 1800
 29 21 * * 4 /data/share/movie/sh/radikorec.sh -o "田村ゆかりの乙女心▽症候群" -t 1860 QRR
-#59 21 * * 4 /data/share/movie/sh/agqrrecord.sh "豊崎愛生のおかえりらじお" 45 3600
-#59 22 * * 4 /data/share/movie/sh/agqrrecord.sh "花澤香菜のひとりでできるかな？" 45 1800
 29 23 * * 4 /data/share/movie/sh/agqrrecord.sh "竹達・沼倉の初ラジ！" 45 1800
 59 1 * * 5 /data/share/movie/sh/agqrrecord.sh "阿澄佳奈 星空ひなたぼっこ" 45 1800 v
 # -- FRI
 59 17 * * 5 /data/share/movie/sh/agqrrecord.sh "A&G ARTIST ZONE 立花理香のTHE CATCH" 45 3600 v
 59 21 * * 5 /data/share/movie/sh/agqrrecord.sh "れい＆ゆいの文化放送ホームランラジオ！" 45 3600 v
 # -- SAT
-#59 13 * * 6 /data/share/movie/sh/rec_nhk.sh FM 7260 "/data/share/movie/98 PSP用/agqr/" "アニソン・アカデミー"
 29 14 * * 6 /data/share/movie/sh/agqrrecord.sh "サンセルモ presents 結婚式は あいのなかで" 45 1800 v
 29 18 * * 6 /data/share/movie/sh/agqrrecord.sh "髙森奈津美とおちゃっちゃしよ？" 45 1800 v
-#59 18 * * 6 /data/share/movie/sh/agqrrecord.sh "小澤亜李・長縄まりあのおざなり" 45 1800 v
+59 18 * * 6 /data/share/movie/sh/radikorec.sh -o "A＆Gリクエストアワー 阿澄佳奈のキミまち！" -t 7260 QRR
 29 19 * * 6 /data/share/movie/sh/agqrrecord.sh "早見沙織のふり～すたいる♪" 45 1800
 59 19 * * 6 /data/share/movie/sh/agqrrecord.sh "フレッシュたかまつ" 45 1800
 29 20 * * 6 /data/share/movie/sh/agqrrecord.sh "内田真礼とおはなししません？" 45 1800
 # 9/28おわり
-29 22 * * 6 /data/share/movie/sh/radikorec.sh -o "ゆきんこ・りえしょんのいちごまみれだよ～" -t 1860 IBS
+#29 22 * * 6 /data/share/movie/sh/radikorec.sh -o "ゆきんこ・りえしょんのいちごまみれだよ～" -t 1860 IBS
 59 23 * * 6 /data/share/movie/sh/radikorec.sh -o "上坂すみれの▽をつければかわいかろう" -t 1860 QRR
-#59 23 * * 6 /data/share/movie/sh/agqrrecord.sh "戸松遥のココロ☆ハルカス" 45 1800
-#29 0 * * 7 /data/share/movie/sh/agqrrecord.sh "寿美菜子のラフラフ" 45 1800
 59 0 * * 7 /data/share/movie/sh/agqrrecord.sh "あどりぶ" 45 1800
-#59 2 * * 7 /data/share/movie/sh/radikorec.sh -o "井口裕香のトーキングすむすむ" -t 1860 QRR
 59 1 * * 7 /data/share/movie/sh/radikorec.sh -o "やっぱりSが好き ～SAY YOU！LOVE ME！～" -t 1860 JORF
 # -- SUN
-59 18 * * 6 /data/share/movie/sh/radikorec.sh -o "A＆Gリクエストアワー 阿澄佳奈のキミまち！" -t 7260 QRR
+59 19 * * 7 /data/share/movie/sh/agqrrecord.sh "小原好美のココロおきなく" 45 1800
 59 20 * * 7 /data/share/movie/sh/radikorec.sh -o "大橋彩香のAny Beat！" -t 1860 QRR
 59 21 * * 7 /data/share/movie/sh/radikorec.sh -o "水瀬いのり MELODY FLAG" -t 1860 QRR
 # 6月終了
@@ -100,8 +84,6 @@ MAILTO=""
 29 8 * * 1-4 /data/share/movie/sh/radikorec.sh -o "伊集院光とらじおと" -t 9060 TBS
 # りむ鯖
 5 3 * * 2 /data/share/movie/sh/agqrrelease.sh
-# ちまみれ 9/28おわり
-35 22 * * 6 /data/share/movie/sh/agqrrelease.sh
 5 0 * * 6 /data/share/movie/sh/agqrrelease.sh
 25 22 * * 7 /data/share/movie/sh/agqrrelease.sh
 35 22 2 7 1 /data/share/movie/sh/agqrrelease.sh
@@ -114,7 +96,6 @@ MAILTO=""
 
 # crawler
 */10 17,18 * * 2 /home/swirhen/crawler_check/crawler_check.sh "dereradi_blomaga" "http://ch.nicovideo.jp/dereradi/blomaga/nico/feed"
-#*/10 22 * * 3 /home/swirhen/crawler_check/crawler_check.sh "derepa_blomaga" "http://ch.nicovideo.jp/cinderellaparty/blomaga/nico/feed"
 1 0,6,12,18 * * * /home/swirhen/crawler_check/crawler_check.sh "music_journey" "https://mora.jp/search/top?keyWord=%E6%A1%9C%E5%AE%88" "search_hitArea" "見つかりませんでした"
 
 # 汎用 torrent seed check
