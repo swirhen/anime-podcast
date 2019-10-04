@@ -283,7 +283,11 @@ do
 #        TITLE_EN=`echo ${title} | sed "s/\[Leopard-Raws\]\ \(.*\)\ -\ 01\ RAW.*/\1/"`
 #        DL_HASH=`echo ${link} | sed "s/.*hash=\(.*\)/\1/"`
         TITLE_EN=`echo ${title} | sed "s/\[.*\]\ \(.*\)\ -\ 01\ .*/\1/"`
-        echo "title: ${TITLE_EN}"
+        if [[ "${title}" == "${TITLE_EN}" ]]; then
+            logging "# なんかバグ : TITLE_EN = ${TITLE_EN}"
+            continue
+        fi
+#        echo "title: ${TITLE_EN}"
 
         # 新重複対策(TITLE_ENをリストに入れるようにした)
         if [ "`grep "${TITLE_EN}" ${NEW_PROGRAM_FILE}`" = "" ]; then
