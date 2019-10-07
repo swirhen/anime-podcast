@@ -1,4 +1,6 @@
-Last Update: 2019/10/08-00:00:01
+Last Update: 2019/10/08-06:00:01
+2019/10/08-06:00:01 01 Stand My Heroes Piece of Truth|スタンドマイヒーローズ　PIECE OF TRUTH
+2019/10/08-06:00:01 01 Phantasy Star Online 2 the Animation|ファンタシースターオンライン2 エピソード・オラクル
 2019/10/08-00:00:01 11 Bem|BEM
 2019/10/08-00:00:01 01 XL Joushi.|XL上司。
 2019/10/08-00:00:01 01 Val x Love|戦×恋
@@ -8,8 +10,6 @@ Last Update: 2019/10/08-00:00:01
 2019/10/08-00:00:01 01 Fairy Gone (2019)|Fairy gone フェアリーゴーン(第2クール)
 2019/10/08-00:00:01 01 Bokutachi wa Benkyou ga Dekinai!|ぼくたちは勉強ができない！
 2019/10/08-00:00:01 01 Actors Songs Connection|ACTORS -Songs Connection-
-2019/10/08-00:00:01 0 Stand My Heroes Piece of Truth|スタンドマイヒーローズ　PIECE OF TRUTH
-2019/10/08-00:00:01 0 Phantasy Star Online 2 the Animation|ファンタシースターオンライン2 エピソード・オラクル
 2019/10/07-18:12:23 01 Keishichou Tokumu Bu Tokushu Kyouakuhan Taisaku Shitsu Dai Nana Ka Tokunana|警視庁 特務部 特殊凶悪犯対策室 第七課 -トクナナ-
 2019/10/07-06:00:01 13 Vinland Saga|ヴィンランド・サガ
 2019/10/07-00:00:02 13 Ensemble Stars!|あんさんぶるスターズ！
