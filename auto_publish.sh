@@ -282,14 +282,15 @@ do
 #        link=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
 #        TITLE_EN=`echo ${title} | sed "s/\[Leopard-Raws\]\ \(.*\)\ -\ 01\ RAW.*/\1/"`
 #        DL_HASH=`echo ${link} | sed "s/.*hash=\(.*\)/\1/"`
-        logging "title: ${title}"
+#        logging "title: ${title}"
         if [[ `echo "${title}" | grep "^w\ "` != "" ]]; then
             logging "# なんかバグ : title = ${title}"
             title2=`echo ${title} | sed "s/^w\ \(.*\)/\1/"`
             title="${title2}"
         fi
 
-        TITLE_EN=`echo ${title} | sed "s/\[.*\]\ \(.*\)\ -\ 01\ .*/\1/"`
+        logging "echo: `echo ${title}`"
+        TITLE_EN=`echo "${title}" | sed "s/\[.*\]\ \(.*\)\ -\ 01\ .*/\1/"`
         logging "TITLE_EN: ${TITLE_EN}"
         if [[ `echo "${TITLE_EN}" | grep "^w\ "` != "" ]]; then
             logging "# なんかバグ : TITLE_EN = ${TITLE_EN}"
