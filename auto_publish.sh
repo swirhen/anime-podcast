@@ -283,7 +283,7 @@ do
 #        TITLE_EN=`echo ${title} | sed "s/\[Leopard-Raws\]\ \(.*\)\ -\ 01\ RAW.*/\1/"`
 #        DL_HASH=`echo ${link} | sed "s/.*hash=\(.*\)/\1/"`
         logging "title: ${title}"
-        if [ `echo "${title}" | grep "^w\ "` != "" ]; then
+        if [[ `echo "${title}" | grep "^w\ "` != "" ]]; then
             logging "# なんかバグ : title = ${title}"
             title2=`echo ${title} | sed "s/^w\ \(.*\)/\1/"`
             title="${title2}"
@@ -291,7 +291,7 @@ do
 
         TITLE_EN=`echo ${title} | sed "s/\[.*\]\ \(.*\)\ -\ 01\ .*/\1/"`
         logging "TITLE_EN: ${TITLE_EN}"
-        if [[ "${title}" == "${TITLE_EN}" ]]; then
+        if [[ `echo "${TITLE_EN}" | grep "^w\ "` != "" ]]; then
             logging "# なんかバグ : TITLE_EN = ${TITLE_EN}"
             continue
         fi
