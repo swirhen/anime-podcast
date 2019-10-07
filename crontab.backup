@@ -103,6 +103,7 @@ MAILTO=""
 
 # swirhentv auto download
 0 0,6,12,18 * * * /data/share/movie/sh/auto_publish.sh
+#5 19 7 10 * /data/share/movie/sh/auto_publish.sh
 
 # ニコニコチャンネルクローラー
 0 0,6,12,18 * * * /data/share/movie/sh/nico_search/auto_crawl.sh
