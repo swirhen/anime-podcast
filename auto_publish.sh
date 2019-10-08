@@ -279,13 +279,10 @@ do
 
     # titleリストを精査して、「 - 01 」を含むものを探す
     if [[ ${title} =~ -\ 01\  ]]; then
-        logging "echo: "`echo "${title}"`
         TITLE_EN=`echo "${title}" | sed "s/\[.*\]\ \(.*\)\ -\ 01\ .*/\1/"`
-        logging "TITLE_EN: ${TITLE_EN}"
 
         # 新重複対策(TITLE_ENをリストに入れるようにした)
         if [ "`grep "${TITLE_EN}" ${NEW_PROGRAM_FILE}`" = "" ]; then
-#            TITLE_JA=`get_ja_title_list "${DL_HASH}"`
             TITLE_JA=`get_ja_title_list2 "${TITLE_EN}"`
 
             # 日本語タイトルが取得できていたら、新番組取得済リストへ追加
