@@ -279,24 +279,9 @@ do
 
     # titleリストを精査して、「 - 01 」を含むものを探す
     if [[ ${title} =~ -\ 01\  ]]; then
-#        link=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
-#        TITLE_EN=`echo ${title} | sed "s/\[Leopard-Raws\]\ \(.*\)\ -\ 01\ RAW.*/\1/"`
-#        DL_HASH=`echo ${link} | sed "s/.*hash=\(.*\)/\1/"`
-#        logging "title: ${title}"
-        if [[ `echo "${title}" | grep "^w\ "` != "" ]]; then
-            logging "# なんかバグ : title = ${title}"
-            title2=`echo ${title} | sed "s/^w\ \(.*\)/\1/"`
-            title="${title2}"
-        fi
-
-        logging "echo: `echo ${title}`"
+        logging "echo: "`echo "${title}"`
         TITLE_EN=`echo "${title}" | sed "s/\[.*\]\ \(.*\)\ -\ 01\ .*/\1/"`
         logging "TITLE_EN: ${TITLE_EN}"
-        if [[ `echo "${TITLE_EN}" | grep "^w\ "` != "" ]]; then
-            logging "# なんかバグ : TITLE_EN = ${TITLE_EN}"
-            continue
-        fi
-#        echo "title: ${TITLE_EN}"
 
         # 新重複対策(TITLE_ENをリストに入れるようにした)
         if [ "`grep "${TITLE_EN}" ${NEW_PROGRAM_FILE}`" = "" ]; then
