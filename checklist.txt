@@ -1,8 +1,12 @@
-Last Update: 2019/10/14-00:00:01
+Last Update: 2019/10/14-06:00:01
+2019/10/14-06:00:01 14 Vinland Saga|ヴィンランド・サガ
+2019/10/14-06:00:01 02 XL Joushi.|XL上司。
+2019/10/14-06:00:01 02 Fairy Gone (2019)|Fairy gone フェアリーゴーン(第2クール)
+2019/10/14-06:00:01 02 Actors Songs Connection|ACTORS -Songs Connection-
+2019/10/14-06:00:01 01 Tenka Hyakken Meiji-kan e Youkoso!|天華百剣～めいじ館へようこそ！～
+2019/10/14-06:00:01 01 Rifle Is Beautiful|ライフル・イズ・ビューティフル
 2019/10/14-00:00:01 14 Ensemble Stars!|あんさんぶるスターズ！
 2019/10/14-00:00:01 02 Keishichou Tokumu Bu Tokushu Kyouakuhan Taisaku Shitsu Dai Nana Ka Tokunana|警視庁 特務部 特殊凶悪犯対策室 第七課 -トクナナ-
-2019/10/14-00:00:01 0 Tenka Hyakken Meiji-kan e Youkoso!|天華百剣～めいじ館へようこそ！～
-2019/10/14-00:00:01 0 Rifle Is Beautiful|ライフル・イズ・ビューティフル
 2019/10/13-18:00:01 01 Boku no Hero Academia 4|僕のヒーローアカデミア(第2期)
 2019/10/13-12:00:01 79 Kiratto Pri-chan|キラッとプリ☆チャン
 2019/10/13-12:00:01 77 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
@@ -40,10 +44,6 @@ Last Update: 2019/10/14-00:00:01
 2019/10/08-06:00:01 01 Stand My Heroes Piece of Truth|スタンドマイヒーローズ　PIECE OF TRUTH
 2019/10/08-06:00:01 01 Phantasy Star Online 2 the Animation|ファンタシースターオンライン2 エピソード・オラクル
 2019/10/08-00:00:01 11 Bem|BEM
-2019/10/08-00:00:01 01 XL Joushi.|XL上司。
-2019/10/08-00:00:01 01 Fairy Gone (2019)|Fairy gone フェアリーゴーン(第2クール)
-2019/10/08-00:00:01 01 Actors Songs Connection|ACTORS -Songs Connection-
-2019/10/07-06:00:01 13 Vinland Saga|ヴィンランド・サガ
 2019/10/02-06:00:01 32 Star Twinkle Precure|スター☆トゥインクルプリキュア
 2019/10/02-06:00:01 23 Mix： Meisei Story|MIX
 2019/09/26-06:00:01 01 Kandagawa Jet Girls|神田川JET GIRLS
