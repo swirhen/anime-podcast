@@ -1,4 +1,6 @@
-Last Update: 2019/10/15-18:00:01
+Last Update: 2019/10/16-00:00:02
+2019/10/16-00:00:02 105 Black Clover|ブラッククローバー
+2019/10/16-00:00:02 02 ZX Code Reunion|Z/X Code reunion
 2019/10/15-06:00:01 02 Watashi, Nouryoku wa Heikinchi dette Itta yo ne!|私、能力は平均値でって言ったよね！
 2019/10/15-00:00:01 02 Stand My Heroes Piece of Truth|スタンドマイヒーローズ　PIECE OF TRUTH
 2019/10/15-00:00:01 02 Phantasy Star Online 2 the Animation|ファンタシースターオンライン2 エピソード・オラクル
@@ -41,8 +43,6 @@ Last Update: 2019/10/15-18:00:01
 2019/10/10-00:00:01 02 Radiant (2019)|ラディアン(第2シリーズ)
 2019/10/10-00:00:01 02 Hataage! Kemono Michi|旗揚！けものみち
 2019/10/10-00:00:01 02 Ahiru no Sora|あひるの空
-2019/10/09-06:00:01 01 ZX Code Reunion|Z/X Code reunion
-2019/10/09-00:00:01 104 Black Clover|ブラッククローバー
 2019/10/02-06:00:01 32 Star Twinkle Precure|スター☆トゥインクルプリキュア
 2019/10/02-06:00:01 23 Mix： Meisei Story|MIX
 2019/09/26-06:00:01 01 Kandagawa Jet Girls|神田川JET GIRLS
