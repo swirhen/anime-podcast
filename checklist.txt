@@ -1,4 +1,5 @@
-Last Update: 2019/10/26-06:00:01
+Last Update: 2019/10/26-12:00:01
+2019/10/26-12:00:01 01 High Score Girl II|ハイスコアガールII
 2019/10/26-06:00:01 17 Dr. Stone|Dr.STONE
 2019/10/26-06:00:01 14 En`en no Shouboutai|炎炎ノ消防隊
 2019/10/26-06:00:01 04 Null Peta|ぬるぺた
@@ -7,7 +8,6 @@ Last Update: 2019/10/26-06:00:01
 2019/10/26-06:00:01 03 Shokugeki no Souma Shin no Sara|食戟のソーマ 神ノ皿
 2019/10/26-06:00:01 03 Shin Chuuka Ichiban!|真・中華一番！
 2019/10/26-06:00:01 03 Kabukichou Sherlock|歌舞伎町シャーロック
-2019/10/26-06:00:01 0 High Score Girl II|ハイスコアガールII
 2019/10/25-12:00:01 01 Psycho-Pass 3|PSYCHO-PASS サイコパス 3
 2019/10/25-06:00:02 04 Houkago Saikoro Club|放課後さいころ倶楽部
 2019/10/25-06:00:02 04 Azur Lane the Animation|アズールレーン
