@@ -1,4 +1,8 @@
-Last Update: 2019/11/03-00:00:01
+Last Update: 2019/11/03-06:00:01
+2019/11/03-06:00:01 05 Kono Oto Tomare! (2019)|この音とまれ！(第2クール)
+2019/11/03-06:00:01 05 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate/Grand Order -絶対魔獣戦線バビロニア-
+2019/11/03-06:00:01 05 Bokutachi wa Benkyou ga Dekinai!|ぼくたちは勉強ができない！
+2019/11/03-06:00:01 04 Sword Art Online Alicization - War of Underworld|ソードアート・オンライン アリシゼーション War of Underworld
 2019/11/03-00:00:01 05 Val x Love|戦×恋
 2019/11/03-00:00:01 05 Mairimashita! Iruma-kun|魔入りました！入間くん
 2019/11/02-18:00:01 05 Aikatsu on Parade!|アイカツオンパレード！
@@ -43,10 +47,6 @@ Last Update: 2019/11/03-00:00:01
 2019/10/28-00:00:01 03 Rifle Is Beautiful|ライフル・イズ・ビューティフル
 2019/10/27-18:00:01 81 Kiratto Pri-chan|キラッとプリ☆チャン
 2019/10/27-12:00:01 79 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
-2019/10/27-06:00:01 04 Kono Oto Tomare! (2019)|この音とまれ！(第2クール)
-2019/10/27-06:00:01 04 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate/Grand Order -絶対魔獣戦線バビロニア-
-2019/10/27-06:00:01 04 Bokutachi wa Benkyou ga Dekinai!|ぼくたちは勉強ができない！
-2019/10/27-06:00:01 03 Sword Art Online Alicization - War of Underworld|ソードアート・オンライン アリシゼーション War of Underworld
 2019/10/27-06:00:01 03 Boku no Hero Academia 4|僕のヒーローアカデミア(第2期)
 2019/10/25-00:00:01 03 Soukyuu no Fafner Dead Aggressor - The Beyond|蒼穹のファフナー
 2019/10/02-06:00:01 32 Star Twinkle Precure|スター☆トゥインクルプリキュア
