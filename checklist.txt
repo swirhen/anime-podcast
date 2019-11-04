@@ -1,4 +1,6 @@
-Last Update: 2019/11/04-18:00:01
+Last Update: 2019/11/05-00:00:01
+2019/11/05-00:00:01 05 Stand My Heroes Piece of Truth|スタンドマイヒーローズ　PIECE OF TRUTH
+2019/11/05-00:00:01 05 Phantasy Star Online 2 the Animation|ファンタシースターオンライン2 エピソード・オラクル
 2019/11/04-06:00:01 17 Vinland Saga|ヴィンランド・サガ
 2019/11/04-06:00:01 05 XL Joushi.|XL上司。
 2019/11/04-06:00:01 05 Fairy Gone (2019)|Fairy gone フェアリーゴーン(第2クール)
@@ -44,8 +46,6 @@ Last Update: 2019/11/04-18:00:01
 2019/10/30-06:00:01 04 Kandagawa Jet Girls|神田川JET GIRLS
 2019/10/30-00:00:01 107 Black Clover|ブラッククローバー
 2019/10/29-06:00:01 04 Watashi, Nouryoku wa Heikinchi dette Itta yo ne!|私、能力は平均値でって言ったよね！
-2019/10/29-00:00:01 04 Stand My Heroes Piece of Truth|スタンドマイヒーローズ　PIECE OF TRUTH
-2019/10/29-00:00:01 04 Phantasy Star Online 2 the Animation|ファンタシースターオンライン2 エピソード・オラクル
 2019/10/27-12:00:01 79 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2019/10/27-06:00:01 03 Boku no Hero Academia 4|僕のヒーローアカデミア(第2期)
 2019/10/25-00:00:01 03 Soukyuu no Fafner Dead Aggressor - The Beyond|蒼穹のファフナー
