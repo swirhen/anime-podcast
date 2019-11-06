@@ -1,10 +1,12 @@
-Last Update: 2019/11/07-00:00:01
+Last Update: 2019/11/07-06:00:01
+2019/11/07-06:00:01 06 Ore o Suki na no wa Omae Dake ka yo|俺を好きなのはお前だけかよ
+2019/11/07-06:00:01 06 Honzuki no Gekokujou Shisho ni Naru Tame ni wa Shudan o Erande Iraremasen|本好きの下剋上 司書になるためには手段を選んでいられません
+2019/11/07-06:00:01 05 Chihayafuru 3|ちはやふる3
 2019/11/07-00:00:01 06 Radiant (2019)|ラディアン(第2シリーズ)
 2019/11/07-00:00:01 06 Hataage! Kemono Michi|旗揚！けものみち
 2019/11/07-00:00:01 06 Ahiru no Sora|あひるの空
 2019/11/07-00:00:01 05 Shinchou Yuusha Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru|慎重勇者～この勇者が俺TUEEEくせに慎重すぎる～
 2019/11/07-00:00:01 05 Nanatsu no Taizai Kamigami no Gekirin|七つの大罪 神々の逆鱗
-2019/11/07-00:00:01 04 Chihayafuru 3|ちはやふる3
 2019/11/06-06:00:01 04.5 Kandagawa Jet Girls|神田川JET GIRLS
 2019/11/06-00:00:01 108 Black Clover|ブラッククローバー
 2019/11/06-00:00:01 05 ZX Code Reunion|Z/X Code reunion
@@ -44,8 +46,6 @@ Last Update: 2019/11/07-00:00:01
 2019/11/01-06:00:01 04 Assassins Pride|アサシンズプライド
 2019/11/01-06:00:01 02 Psycho-Pass 3|PSYCHO-PASS サイコパス 3
 2019/11/01-00:00:01 05 Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ikinuku you desu!|超人高校生たちは異世界でも余裕で生き抜くようです！
-2019/10/31-06:00:01 05 Ore o Suki na no wa Omae Dake ka yo|俺を好きなのはお前だけかよ
-2019/10/31-06:00:01 05 Honzuki no Gekokujou Shisho ni Naru Tame ni wa Shudan o Erande Iraremasen|本好きの下剋上 司書になるためには手段を選んでいられません
 2019/10/27-12:00:01 79 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2019/10/27-06:00:01 03 Boku no Hero Academia 4|僕のヒーローアカデミア(第2期)
 2019/10/25-00:00:01 03 Soukyuu no Fafner Dead Aggressor - The Beyond|蒼穹のファフナー
