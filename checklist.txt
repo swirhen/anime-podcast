@@ -1,4 +1,9 @@
-Last Update: 2019/11/08-00:00:01
+Last Update: 2019/11/08-06:00:01
+2019/11/08-06:00:01 06 Houkago Saikoro Club|放課後さいころ倶楽部
+2019/11/08-06:00:01 06 Azur Lane the Animation|アズールレーン
+2019/11/08-06:00:01 05 Assassins Pride|アサシンズプライド
+2019/11/08-06:00:01 03 Psycho-Pass 3|PSYCHO-PASS サイコパス 3
+2019/11/08-06:00:01 0 Beastars|BEASTARS
 2019/11/08-00:00:01 06 Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ikinuku you desu!|超人高校生たちは異世界でも余裕で生き抜くようです！
 2019/11/07-06:00:01 06 Ore o Suki na no wa Omae Dake ka yo|俺を好きなのはお前だけかよ
 2019/11/07-06:00:01 06 Honzuki no Gekokujou Shisho ni Naru Tame ni wa Shudan o Erande Iraremasen|本好きの下剋上 司書になるためには手段を選んでいられません
@@ -41,11 +46,7 @@ Last Update: 2019/11/08-00:00:01
 2019/11/02-00:00:01 05 Chuubyou Gekihatsu Boy|厨病激発ボーイ
 2019/11/02-00:00:01 04 Hoshiai no Sora|星合の空
 2019/11/01-18:00:01 11 Hakata Mentai! Pirikarako-chan|博多明太！ぴりからこちゃん
-2019/11/01-06:00:01 05 Houkago Saikoro Club|放課後さいころ倶楽部
-2019/11/01-06:00:01 05 Azur Lane the Animation|アズールレーン
 2019/11/01-06:00:01 04 No Guns Life|ノー・ガンズ・ライフ
-2019/11/01-06:00:01 04 Assassins Pride|アサシンズプライド
-2019/11/01-06:00:01 02 Psycho-Pass 3|PSYCHO-PASS サイコパス 3
 2019/10/27-12:00:01 79 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2019/10/27-06:00:01 03 Boku no Hero Academia 4|僕のヒーローアカデミア(第2期)
 2019/10/25-00:00:01 03 Soukyuu no Fafner Dead Aggressor - The Beyond|蒼穹のファフナー
