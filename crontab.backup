@@ -18,6 +18,7 @@ MAILTO=""
 
 # SP
 #4 8 1,2,3,23,24,27-31 8 * /data/share/movie/sh/rec_nhk.sh NHK1 13560 "/data/share/movie/98 PSP用/agqr/" "夏休み子ども科学電話相談"
+59 18 8 11 * /data/share/movie/sh/radikorec.sh -o "Anime ＆ Seiyu Music Night 平山笑美特集" -t 1860 RN1
 
 # Abema Fresh
 # SP
