@@ -1,5 +1,9 @@
-Last Update: 2019/11/08-18:00:01
-2019/11/08-18:00:01 02 Beastars|BEASTARS
+Last Update: 2019/11/09-00:00:01
+2019/11/09-00:00:01 19 Dr. Stone|Dr.STONE
+2019/11/09-00:00:01 06 Null Peta|ぬるぺた
+2019/11/09-00:00:01 06 Chuubyou Gekihatsu Boy|厨病激発ボーイ
+2019/11/09-00:00:01 05 No Guns Life|ノー・ガンズ・ライフ
+2019/11/09-00:00:01 03 Beastars|BEASTARS
 2019/11/08-06:00:01 06 Houkago Saikoro Club|放課後さいころ倶楽部
 2019/11/08-06:00:01 06 Azur Lane the Animation|アズールレーン
 2019/11/08-06:00:01 05 Assassins Pride|アサシンズプライド
@@ -41,12 +45,8 @@ Last Update: 2019/11/08-18:00:01
 2019/11/02-06:00:01 04 Shin Chuuka Ichiban!|真・中華一番！
 2019/11/02-06:00:01 04 Kabukichou Sherlock|歌舞伎町シャーロック
 2019/11/02-06:00:01 02 High Score Girl II|ハイスコアガールII
-2019/11/02-00:00:01 18 Dr. Stone|Dr.STONE
-2019/11/02-00:00:01 05 Null Peta|ぬるぺた
-2019/11/02-00:00:01 05 Chuubyou Gekihatsu Boy|厨病激発ボーイ
 2019/11/02-00:00:01 04 Hoshiai no Sora|星合の空
 2019/11/01-18:00:01 11 Hakata Mentai! Pirikarako-chan|博多明太！ぴりからこちゃん
-2019/11/01-06:00:01 04 No Guns Life|ノー・ガンズ・ライフ
 2019/10/27-12:00:01 79 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2019/10/27-06:00:01 03 Boku no Hero Academia 4|僕のヒーローアカデミア(第2期)
 2019/10/25-00:00:01 03 Soukyuu no Fafner Dead Aggressor - The Beyond|蒼穹のファフナー
