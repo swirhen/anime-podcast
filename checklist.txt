@@ -1,4 +1,7 @@
-Last Update: 2019/11/09-18:00:01
+Last Update: 2019/11/10-00:00:01
+2019/11/10-00:00:01 06 Val x Love|戦×恋
+2019/11/10-00:00:01 06 Mairimashita! Iruma-kun|魔入りました！入間くん
+2019/11/10-00:00:01 04 Boku no Hero Academia 4|僕のヒーローアカデミア(第2期)
 2019/11/09-12:00:01 06 Aikatsu on Parade!|アイカツオンパレード！
 2019/11/09-06:00:01 16 En`en no Shouboutai|炎炎ノ消防隊
 2019/11/09-06:00:01 05 Shokugeki no Souma Shin no Sara|食戟のソーマ 神ノ皿
@@ -42,13 +45,10 @@ Last Update: 2019/11/09-18:00:01
 2019/11/03-06:00:01 05 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate/Grand Order -絶対魔獣戦線バビロニア-
 2019/11/03-06:00:01 05 Bokutachi wa Benkyou ga Dekinai!|ぼくたちは勉強ができない！
 2019/11/03-06:00:01 04 Sword Art Online Alicization - War of Underworld|ソードアート・オンライン アリシゼーション War of Underworld
-2019/11/03-00:00:01 05 Val x Love|戦×恋
-2019/11/03-00:00:01 05 Mairimashita! Iruma-kun|魔入りました！入間くん
 2019/11/02-06:00:01 05 Granblue Fantasy The Animation Season 2|GRANBLUE FANTASY The Animation Season 2
 2019/11/02-00:00:01 04 Hoshiai no Sora|星合の空
 2019/11/01-18:00:01 11 Hakata Mentai! Pirikarako-chan|博多明太！ぴりからこちゃん
 2019/10/27-12:00:01 79 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
-2019/10/27-06:00:01 03 Boku no Hero Academia 4|僕のヒーローアカデミア(第2期)
 2019/10/25-00:00:01 03 Soukyuu no Fafner Dead Aggressor - The Beyond|蒼穹のファフナー
 2019/10/02-06:00:01 32 Star Twinkle Precure|スター☆トゥインクルプリキュア
 2019/10/02-06:00:01 23 Mix： Meisei Story|MIX
