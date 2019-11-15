@@ -1,4 +1,9 @@
-Last Update: 2019/11/16-00:00:01
+Last Update: 2019/11/16-06:00:01
+2019/11/16-06:00:01 17 En`en no Shouboutai|炎炎ノ消防隊
+2019/11/16-06:00:01 06 Shokugeki no Souma Shin no Sara|食戟のソーマ 神ノ皿
+2019/11/16-06:00:01 06 Kabukichou Sherlock|歌舞伎町シャーロック
+2019/11/16-06:00:01 06 Granblue Fantasy The Animation Season 2|GRANBLUE FANTASY The Animation Season 2
+2019/11/16-06:00:01 04 High Score Girl II|ハイスコアガールII
 2019/11/16-00:00:01 20 Dr. Stone|Dr.STONE
 2019/11/16-00:00:01 07 Null Peta|ぬるぺた
 2019/11/16-00:00:01 07 Chuubyou Gekihatsu Boy|厨病激発ボーイ
@@ -41,13 +46,8 @@ Last Update: 2019/11/16-00:00:01
 2019/11/10-00:00:01 06 Mairimashita! Iruma-kun|魔入りました！入間くん
 2019/11/10-00:00:01 04 Boku no Hero Academia 4|僕のヒーローアカデミア(第2期)
 2019/11/09-12:00:01 06 Aikatsu on Parade!|アイカツオンパレード！
-2019/11/09-06:00:01 16 En`en no Shouboutai|炎炎ノ消防隊
-2019/11/09-06:00:01 05 Shokugeki no Souma Shin no Sara|食戟のソーマ 神ノ皿
 2019/11/09-06:00:01 05 Shin Chuuka Ichiban!|真・中華一番！
-2019/11/09-06:00:01 05 Kabukichou Sherlock|歌舞伎町シャーロック
-2019/11/09-06:00:01 03 High Score Girl II|ハイスコアガールII
 2019/11/04-06:00:01 17 Vinland Saga|ヴィンランド・サガ
-2019/11/02-06:00:01 05 Granblue Fantasy The Animation Season 2|GRANBLUE FANTASY The Animation Season 2
 2019/11/01-18:00:01 11 Hakata Mentai! Pirikarako-chan|博多明太！ぴりからこちゃん
 2019/10/25-00:00:01 03 Soukyuu no Fafner Dead Aggressor - The Beyond|蒼穹のファフナー
 2019/10/02-06:00:01 32 Star Twinkle Precure|スター☆トゥインクルプリキュア
