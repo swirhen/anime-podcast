@@ -1,4 +1,9 @@
-Last Update: 2019/11/20-18:00:01
+Last Update: 2019/11/21-00:00:01
+2019/11/21-00:00:01 08 Radiant (2019)|ラディアン(第2シリーズ)
+2019/11/21-00:00:01 08 Hataage! Kemono Michi|旗揚！けものみち
+2019/11/21-00:00:01 08 Ahiru no Sora|あひるの空
+2019/11/21-00:00:01 07 Shinchou Yuusha Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru|慎重勇者～この勇者が俺TUEEEくせに慎重すぎる～
+2019/11/21-00:00:01 07 Nanatsu no Taizai Kamigami no Gekirin|七つの大罪 神々の逆鱗
 2019/11/20-06:00:01 07 ZX Code Reunion|Z／X Code reunion
 2019/11/20-06:00:01 07 Chihayafuru 3|ちはやふる3
 2019/11/20-06:00:01 06 Kandagawa Jet Girls|神田川JET GIRLS
@@ -43,9 +48,4 @@ Last Update: 2019/11/20-18:00:01
 2019/11/14-06:00:01 07 Ore o Suki na no wa Omae Dake ka yo|俺を好きなのはお前だけかよ
 2019/11/14-06:00:01 07 Honzuki no Gekokujou Shisho ni Naru Tame ni wa Shudan o Erande Iraremasen|本好きの下剋上 司書になるためには手段を選んでいられません
 2019/11/14-06:00:01 05 Beastars|BEASTARS
-2019/11/14-00:00:01 07 Radiant (2019)|ラディアン(第2シリーズ)
-2019/11/14-00:00:01 07 Hataage! Kemono Michi|旗揚！けものみち
-2019/11/14-00:00:01 07 Ahiru no Sora|あひるの空
-2019/11/14-00:00:01 06 Shinchou Yuusha Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru|慎重勇者～この勇者が俺TUEEEくせに慎重すぎる～
-2019/11/14-00:00:01 06 Nanatsu no Taizai Kamigami no Gekirin|七つの大罪 神々の逆鱗
 2019/10/02-06:00:01 32 Star Twinkle Precure|スター☆トゥインクルプリキュア
