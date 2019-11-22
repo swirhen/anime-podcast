@@ -1,4 +1,9 @@
-Last Update: 2019/11/22-12:00:01
+Last Update: 2019/11/23-00:00:01
+2019/11/23-00:00:01 21 Dr. Stone|Dr.STONE
+2019/11/23-00:00:01 08 Null Peta|ぬるぺた
+2019/11/23-00:00:01 08 Chuubyou Gekihatsu Boy|厨病激発ボーイ
+2019/11/23-00:00:01 07 No Guns Life|ノー・ガンズ・ライフ
+2019/11/23-00:00:01 07 Hoshiai no Sora|星合の空
 2019/11/22-06:00:01 08 Houkago Saikoro Club|放課後さいころ倶楽部
 2019/11/22-06:00:01 07 Azur Lane the Animation|アズールレーン
 2019/11/22-06:00:01 07 Assassins Pride|アサシンズプライド
@@ -43,9 +48,4 @@ Last Update: 2019/11/22-12:00:01
 2019/11/16-06:00:01 06 Kabukichou Sherlock|歌舞伎町シャーロック
 2019/11/16-06:00:01 06 Granblue Fantasy The Animation Season 2|GRANBLUE FANTASY The Animation Season 2
 2019/11/16-06:00:01 04 High Score Girl II|ハイスコアガールII
-2019/11/16-00:00:01 20 Dr. Stone|Dr.STONE
-2019/11/16-00:00:01 07 Null Peta|ぬるぺた
-2019/11/16-00:00:01 07 Chuubyou Gekihatsu Boy|厨病激発ボーイ
-2019/11/16-00:00:01 06 No Guns Life|ノー・ガンズ・ライフ
-2019/11/16-00:00:01 06 Hoshiai no Sora|星合の空
 2019/10/02-06:00:01 32 Star Twinkle Precure|スター☆トゥインクルプリキュア
