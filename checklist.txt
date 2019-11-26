@@ -1,4 +1,6 @@
-Last Update: 2019/11/26-18:00:01
+Last Update: 2019/11/27-00:00:02
+2019/11/27-00:00:02 111 Black Clover|ブラッククローバー
+2019/11/27-00:00:02 08 ZX Code Reunion|Z／X Code reunion
 2019/11/26-06:00:01 08 Watashi, Nouryoku wa Heikinchi dette Itta yo ne!|私、能力は平均値でって言ったよね！
 2019/11/26-06:00:01 08 Stand My Heroes Piece of Truth|スタンドマイヒーローズ　PIECE OF TRUTH
 2019/11/26-06:00:01 08 Phantasy Star Online 2 the Animation|ファンタシースターオンライン2 エピソード・オラクル
@@ -44,8 +46,6 @@ Last Update: 2019/11/26-18:00:01
 2019/11/21-00:00:01 08 Ahiru no Sora|あひるの空
 2019/11/21-00:00:01 07 Shinchou Yuusha Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru|慎重勇者～この勇者が俺TUEEEくせに慎重すぎる～
 2019/11/21-00:00:01 07 Nanatsu no Taizai Kamigami no Gekirin|七つの大罪 神々の逆鱗
-2019/11/20-06:00:01 07 ZX Code Reunion|Z／X Code reunion
 2019/11/20-06:00:01 07 Chihayafuru 3|ちはやふる3
 2019/11/20-06:00:01 06 Kandagawa Jet Girls|神田川JET GIRLS
-2019/11/20-00:00:02 110 Black Clover|ブラッククローバー
 2019/10/02-06:00:01 32 Star Twinkle Precure|スター☆トゥインクルプリキュア
