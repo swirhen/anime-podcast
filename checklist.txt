@@ -1,4 +1,6 @@
-Last Update: 2019/12/01-12:00:01
+Last Update: 2019/12/01-18:00:01
+2019/12/01-18:00:01 86 Kiratto Pri-chan|キラッとプリ☆チャン
+2019/12/01-18:00:01 83 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2019/12/01-06:00:01 09 Kono Oto Tomare! (2019)|この音とまれ！(第2クール)
 2019/12/01-06:00:01 09 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate/Grand Order -絶対魔獣戦線バビロニア-
 2019/12/01-06:00:01 09 Bokutachi wa Benkyou ga Dekinai!|ぼくたちは勉強ができない！
@@ -46,6 +48,4 @@ Last Update: 2019/12/01-12:00:01
 2019/11/25-00:00:01 08 Keishichou Tokumu Bu Tokushu Kyouakuhan Taisaku Shitsu Dai Nana Ka Tokunana|警視庁 特務部 特殊凶悪犯対策室 第七課 -トクナナ-
 2019/11/25-00:00:01 07 Tenka Hyakken Meiji-kan e Youkoso!|天華百剣～めいじ館へようこそ！～
 2019/11/25-00:00:01 07 Rifle Is Beautiful|ライフル・イズ・ビューティフル
-2019/11/24-12:00:01 85 Kiratto Pri-chan|キラッとプリ☆チャン
-2019/11/24-12:00:01 82 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2019/10/02-06:00:01 32 Star Twinkle Precure|スター☆トゥインクルプリキュア
