@@ -1,4 +1,10 @@
-Last Update: 2019/12/04-18:00:01
+Last Update: 2019/12/05-00:00:01
+2019/12/05-00:00:01 10 Radiant (2019)|ラディアン(第2シリーズ)
+2019/12/05-00:00:01 10 Hataage! Kemono Michi|旗揚！けものみち
+2019/12/05-00:00:01 10 Ahiru no Sora|あひるの空
+2019/12/05-00:00:01 09 Shinchou Yuusha Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru|慎重勇者～この勇者が俺TUEEEくせに慎重すぎる～
+2019/12/05-00:00:01 09 Nanatsu no Taizai Kamigami no Gekirin|七つの大罪 神々の逆鱗
+2019/12/05-00:00:01 09 Chihayafuru 3|ちはやふる3
 2019/12/04-06:00:01 08 Kandagawa Jet Girls|神田川JET GIRLS
 2019/12/04-00:00:01 112 Black Clover|ブラッククローバー
 2019/12/04-00:00:01 09 ZX Code Reunion|Z／X Code reunion
@@ -41,11 +47,5 @@ Last Update: 2019/12/04-18:00:01
 2019/11/28-06:00:01 09 Ore o Suki na no wa Omae Dake ka yo|俺を好きなのはお前だけかよ
 2019/11/28-06:00:01 09 Honzuki no Gekokujou Shisho ni Naru Tame ni wa Shudan o Erande Iraremasen|本好きの下剋上 司書になるためには手段を選んでいられません
 2019/11/28-06:00:01 07 Beastars|BEASTARS
-2019/11/28-00:00:01 09 Radiant (2019)|ラディアン(第2シリーズ)
-2019/11/28-00:00:01 09 Hataage! Kemono Michi|旗揚！けものみち
-2019/11/28-00:00:01 09 Ahiru no Sora|あひるの空
-2019/11/28-00:00:01 08 Shinchou Yuusha Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru|慎重勇者～この勇者が俺TUEEEくせに慎重すぎる～
-2019/11/28-00:00:01 08 Nanatsu no Taizai Kamigami no Gekirin|七つの大罪 神々の逆鱗
-2019/11/28-00:00:01 08 Chihayafuru 3|ちはやふる3
 2019/11/25-06:00:01 08 XL Joushi.|XL上司。
 2019/10/02-06:00:01 32 Star Twinkle Precure|スター☆トゥインクルプリキュア
