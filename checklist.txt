@@ -1,4 +1,8 @@
-Last Update: 2019/12/06-00:00:01
+Last Update: 2019/12/06-06:00:01
+2019/12/06-06:00:01 10 Houkago Saikoro Club|放課後さいころ倶楽部
+2019/12/06-06:00:01 09 Azur Lane the Animation|アズールレーン
+2019/12/06-06:00:01 09 Assassins Pride|アサシンズプライド
+2019/12/06-06:00:01 07 Psycho-Pass 3|PSYCHO-PASS サイコパス 3
 2019/12/06-00:00:01 10 Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ikinuku you desu!|超人高校生たちは異世界でも余裕で生き抜くようです！
 2019/12/05-06:00:01 10 Honzuki no Gekokujou Shisho ni Naru Tame ni wa Shudan o Erande Iraremasen|本好きの下剋上 司書になるためには手段を選んでいられません
 2019/12/05-06:00:01 09.5 Ore o Suki na no wa Omae Dake ka yo|俺を好きなのはお前だけかよ
@@ -43,9 +47,5 @@ Last Update: 2019/12/06-00:00:01
 2019/11/30-00:00:01 09 Chuubyou Gekihatsu Boy|厨病激発ボーイ
 2019/11/30-00:00:01 08 No Guns Life|ノー・ガンズ・ライフ
 2019/11/29-12:00:02 08 Hoshiai no Sora|星合の空
-2019/11/29-06:00:01 09 Houkago Saikoro Club|放課後さいころ倶楽部
-2019/11/29-06:00:01 08 Azur Lane the Animation|アズールレーン
-2019/11/29-06:00:01 08 Assassins Pride|アサシンズプライド
-2019/11/29-06:00:01 06 Psycho-Pass 3|PSYCHO-PASS サイコパス 3
 2019/11/25-06:00:01 08 XL Joushi.|XL上司。
 2019/10/02-06:00:01 32 Star Twinkle Precure|スター☆トゥインクルプリキュア
