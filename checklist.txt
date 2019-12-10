@@ -1,4 +1,5 @@
-Last Update: 2019/12/11-00:00:01
+Last Update: 2019/12/11-06:00:01
+2019/12/11-06:00:01 09 Kandagawa Jet Girls|神田川JET GIRLS
 2019/12/11-00:00:01 113 Black Clover|ブラッククローバー
 2019/12/11-00:00:01 10 ZX Code Reunion|Z／X Code reunion
 2019/12/10-06:00:01 10 Watashi, Nouryoku wa Heikinchi dette Itta yo ne!|私、能力は平均値でって言ったよね！
@@ -45,7 +46,6 @@ Last Update: 2019/12/11-00:00:01
 2019/12/05-00:00:01 09 Shinchou Yuusha Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru|慎重勇者～この勇者が俺TUEEEくせに慎重すぎる～
 2019/12/05-00:00:01 09 Nanatsu no Taizai Kamigami no Gekirin|七つの大罪 神々の逆鱗
 2019/12/05-00:00:01 09 Chihayafuru 3|ちはやふる3
-2019/12/04-06:00:01 08 Kandagawa Jet Girls|神田川JET GIRLS
 2019/11/30-06:00:01 08 Kabukichou Sherlock|歌舞伎町シャーロック
 2019/11/25-06:00:01 08 XL Joushi.|XL上司。
 2019/10/02-06:00:01 32 Star Twinkle Precure|スター☆トゥインクルプリキュア
