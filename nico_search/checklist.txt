@@ -1,6 +1,6 @@
-Last Update: 2019/12/11-00:00:01
+Last Update: 2019/12/11-06:00:01
+2019/12/11-06:00:01 188 https://ch.nicovideo.jp/dereradi/video デレラジ * 03 第 回 s/「\\(デレラジ☆(スター)\\).*\\(第[0-9]\\+回\\).*/\\1 \\2\\"/
 2019/12/11-00:00:01 43 https://ch.nicovideo.jp/search/%E3%81%BE%E3%81%A4%E3%81%84%E3%81%8C%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%20-%E3%83%80%E3%82%A4%E3%82%B8%E3%82%A7%E3%82%B9%E3%83%88?channel_id=ch2567656&mode=s&sort=f&order=d&type=video まついがプロデュース * 02 ＃ | s/\\([^\\"]*\\)\\"\\([^\\"]*\\)\\".*＃\\([0-9０-９]\\+\\)\\(.*\\)/\\1\\"\\2\\" \\"まついがプロデュース #\\3\\4/
-2019/12/11-00:00:01 187 https://ch.nicovideo.jp/dereradi/video デレラジ * 03 第 回 s/「\\(デレラジ☆(スター)\\).*\\(第[0-9]\\+回\\).*/\\1 \\2\\"/
 2019/12/10-00:00:02 25 https://ch.nicovideo.jp/hibiki/video らくおん 有料版 99 第 回 
 2019/12/06-18:00:01 338 https://ch.nicovideo.jp/MillionRADIO/video 回おまけ放送】 * 09 第 回 
 2019/12/06-18:00:01 338 https://ch.nicovideo.jp/MillionRADIO/video 回】 * 09 第 回 
