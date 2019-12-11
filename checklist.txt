@@ -1,4 +1,8 @@
-Last Update: 2019/12/12-00:00:02
+Last Update: 2019/12/12-06:00:01
+2019/12/12-06:00:01 11 Honzuki no Gekokujou Shisho ni Naru Tame ni wa Shudan o Erande Iraremasen|本好きの下剋上 司書になるためには手段を選んでいられません
+2019/12/12-06:00:01 10 Ore o Suki na no wa Omae Dake ka yo|俺を好きなのはお前だけかよ
+2019/12/12-06:00:01 10 Chihayafuru 3|ちはやふる3
+2019/12/12-06:00:01 09 Beastars|BEASTARS
 2019/12/12-00:00:02 11 Radiant (2019)|ラディアン(第2シリーズ)
 2019/12/12-00:00:02 11 Hataage! Kemono Michi|旗揚！けものみち
 2019/12/12-00:00:02 11 Ahiru no Sora|あひるの空
@@ -42,10 +46,6 @@ Last Update: 2019/12/12-00:00:02
 2019/12/06-06:00:01 09 Assassins Pride|アサシンズプライド
 2019/12/06-06:00:01 07 Psycho-Pass 3|PSYCHO-PASS サイコパス 3
 2019/12/06-00:00:01 10 Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ikinuku you desu!|超人高校生たちは異世界でも余裕で生き抜くようです！
-2019/12/05-06:00:01 10 Honzuki no Gekokujou Shisho ni Naru Tame ni wa Shudan o Erande Iraremasen|本好きの下剋上 司書になるためには手段を選んでいられません
-2019/12/05-06:00:01 09.5 Ore o Suki na no wa Omae Dake ka yo|俺を好きなのはお前だけかよ
-2019/12/05-06:00:01 08 Beastars|BEASTARS
-2019/12/05-00:00:01 09 Chihayafuru 3|ちはやふる3
 2019/11/30-06:00:01 08 Kabukichou Sherlock|歌舞伎町シャーロック
 2019/11/25-06:00:01 08 XL Joushi.|XL上司。
 2019/10/02-06:00:01 32 Star Twinkle Precure|スター☆トゥインクルプリキュア
