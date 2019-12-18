@@ -92,8 +92,7 @@ MAILTO=""
 10 5 9 7 1 /data/share/movie/sh/agqrrelease.sh
 
 # twitter search
-*/10 * * * * /home/swirhen/twitterchk/twitterchk.sh "twitter-yumeijin" "キノコ音学校"
-1-51/10 * * * * /home/swirhen/twitterchk/twitterchk.sh "twitter-seiyu" "キノコ音学校"
+#*/10 * * * * /home/swirhen/twitterchk/twitterchk.sh
 
 # crawler
 */10 17,18 * * 2 /home/swirhen/crawler_check/crawler_check.sh "dereradi_blomaga" "http://ch.nicovideo.jp/dereradi/blomaga/nico/feed"
