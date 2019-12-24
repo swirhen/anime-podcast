@@ -1,4 +1,6 @@
-Last Update: 2019/12/24-18:00:01
+Last Update: 2019/12/25-00:00:01
+2019/12/25-00:00:01 12 ZX Code Reunion|Z／X Code reunion
+2019/12/25-00:00:01 115 Black Clover|ブラッククローバー
 2019/12/24-00:00:01 12 Phantasy Star Online 2 the Animation|ファンタシースターオンライン2 エピソード・オラクル
 2019/12/23-18:00:01 11 Keishichou Tokumu Bu Tokushu Kyouakuhan Taisaku Shitsu Dai Nana Ka Tokunana|警視庁 特務部 特殊凶悪犯対策室 第七課 -トクナナ-
 2019/12/23-06:00:01 23 Vinland Saga|ヴィンランド・サガ
@@ -29,8 +31,6 @@ Last Update: 2019/12/24-18:00:01
 2019/12/19-00:00:01 11 Nanatsu no Taizai Kamigami no Gekirin|七つの大罪 神々の逆鱗
 2019/12/19-00:00:01 10 Shinchou Yuusha Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru|慎重勇者～この勇者が俺TUEEEくせに慎重すぎる～
 2019/12/18-06:00:01 10 Kandagawa Jet Girls|神田川JET GIRLS
-2019/12/18-00:00:02 114 Black Clover|ブラッククローバー
-2019/12/18-00:00:02 11 ZX Code Reunion|Z／X Code reunion
 2019/12/17-00:00:01 11 Stand My Heroes Piece of Truth|スタンドマイヒーローズ　PIECE OF TRUTH
 2019/12/15-06:00:01 11 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate／Grand Order -絶対魔獣戦線バビロニア-
 2019/12/14-06:00:01 08 High Score Girl II|ハイスコアガールII
