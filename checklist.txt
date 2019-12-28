@@ -1,4 +1,5 @@
-Last Update: 2019/12/28-12:00:01
+Last Update: 2019/12/28-18:00:01
+2019/12/28-18:00:01 13 Aikatsu on Parade!|アイカツオンパレード！
 2019/12/28-06:00:01 12 Kabukichou Sherlock|歌舞伎町シャーロック
 2019/12/26-06:00:02 11 Beastars|BEASTARS
 2019/12/26-00:00:01 13 Radiant (2019)|ラディアン(第2シリーズ)
@@ -20,7 +21,6 @@ Last Update: 2019/12/28-12:00:01
 2019/12/22-06:00:02 11 Sword Art Online Alicization - War of Underworld|ソードアート・オンライン アリシゼーション War of Underworld
 2019/12/22-00:00:02 12 Mairimashita! Iruma-kun|魔入りました！入間くん
 2019/12/22-00:00:02 10 Boku no Hero Academia 4|僕のヒーローアカデミア(第2期)
-2019/12/21-12:00:01 12 Aikatsu on Parade!|アイカツオンパレード！
 2019/12/21-06:00:01 22 En`en no Shouboutai|炎炎ノ消防隊
 2019/12/21-00:00:01 11 No Guns Life|ノー・ガンズ・ライフ
 2019/12/20-18:00:01 11 Hoshiai no Sora|星合の空
