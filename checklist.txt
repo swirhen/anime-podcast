@@ -6,7 +6,6 @@ Last Update: 2020/01/02-18:00:01
 2019/12/29-00:00:01 11 Boku no Hero Academia 4|僕のヒーローアカデミア(第4期)
 2019/12/28-18:00:01 13 Aikatsu on Parade!|アイカツオンパレード！
 2019/12/28-06:00:01 12 Kabukichou Sherlock|歌舞伎町シャーロック
-2019/12/26-06:00:02 11 Beastars|BEASTARS
 2019/12/26-00:00:01 13 Radiant (2019)|ラディアン(第2シリーズ)
 2019/12/26-00:00:01 13 Ahiru no Sora|あひるの空
 2019/12/26-00:00:01 12 Nanatsu no Taizai Kamigami no Gekirin|七つの大罪 神々の逆鱗
@@ -16,14 +15,6 @@ Last Update: 2020/01/02-18:00:01
 2019/12/25-00:00:01 115 Black Clover|ブラッククローバー
 2019/12/24-00:00:01 12 Phantasy Star Online 2 the Animation|ファンタシースターオンライン2 エピソード・オラクル
 2019/12/23-18:00:01 11 Keishichou Tokumu Bu Tokushu Kyouakuhan Taisaku Shitsu Dai Nana Ka Tokunana|警視庁 特務部 特殊凶悪犯対策室 第七課 -トクナナ-
-2019/12/23-00:00:01 11 Tenka Hyakken Meiji-kan e Youkoso!|天華百剣～めいじ館へようこそ！～
 2019/12/22-18:00:01 86 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
-2019/12/21-06:00:01 22 En`en no Shouboutai|炎炎ノ消防隊
-2019/12/21-00:00:01 11 No Guns Life|ノー・ガンズ・ライフ
-2019/12/20-18:00:01 11 Hoshiai no Sora|星合の空
-2019/12/17-00:00:01 11 Stand My Heroes Piece of Truth|スタンドマイヒーローズ PIECE OF TRUTH
 2019/12/15-06:00:01 11 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate／Grand Order -絶対魔獣戦線バビロニア-
-2019/12/14-06:00:01 08 High Score Girl II|ハイスコアガールII
-2019/12/14-00:00:01 11 Null Peta|ぬるぺた
-2019/12/13-06:00:01 11 Houkago Saikoro Club|放課後さいころ倶楽部
 2019/10/02-06:00:01 45 Star Twinkle Precure|スター☆トゥインクルプリキュア
