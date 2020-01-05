@@ -1,4 +1,7 @@
-Last Update: 2020/01/05-12:00:01
+Last Update: 2020/01/05-18:00:01
+2020/01/05-18:00:01 87 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
+2020/01/05-18:00:01 01 Koisuru Asteroid|恋する小惑星
+2020/01/05-18:00:01 01 Darwin`s Game|ダーウィンズゲーム
 2020/01/05-12:00:01 01 Magia Record Mahou Shoujo Madoka Magica Gaide|マギアレコード 魔法少女まどか☆マギカ外伝
 2020/01/05-06:00:01 12 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate／Grand Order -絶対魔獣戦線バビロニア-
 2020/01/05-00:00:01 14 Mairimashita! Iruma-kun|魔入りました！入間くん
@@ -17,7 +20,4 @@ Last Update: 2020/01/05-12:00:01
 2019/12/25-00:00:01 115 Black Clover|ブラッククローバー
 2019/12/24-00:00:01 12 Phantasy Star Online 2 the Animation|ファンタシースターオンライン2 エピソード・オラクル
 2019/12/23-18:00:01 11 Keishichou Tokumu Bu Tokushu Kyouakuhan Taisaku Shitsu Dai Nana Ka Tokunana|警視庁 特務部 特殊凶悪犯対策室 第七課 -トクナナ-
-2019/12/22-18:00:01 86 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2019/10/02-06:00:01 45 Star Twinkle Precure|スター☆トゥインクルプリキュア
-0 0 Darwin`s Game|ダーウィンズゲーム
-0 0 Koisuru Asteroid|恋する小惑星
