@@ -43,7 +43,7 @@ MAILTO=""
 59 20 * * 1 /data/share/movie/sh/radikorec.sh -o "MOMO・SORA・SHIINA Talking Box" -t 1860 QRR
 59 21 * * 1 /data/share/movie/sh/agqrrecord.sh "井口裕香のむ～～～ん⊂（　＾ω＾）⊃" 45 3600 v
 59 22 * * 1 /data/share/movie/sh/agqrrecord.sh "東山奈央のラジオ＠リビング" 45 1800
-29 23 * * 1 /data/share/movie/sh/agqrrecord.sh "山崎はるかのC_est Parti！！" 45 1800 v
+29 23 * * 1 /data/share/movie/sh/agqrrecord.sh "山崎はるかとまるぴ……近っっ！！" 45 1800 v
 #59 0 * * 2 /data/share/movie/sh/agqrrecord.sh "西明日香のデリケートゾーン！" 45 1800 v
 29 2 * * 2 /data/share/movie/sh/agqrrecord.sh "佐藤亜美菜のアミメン！" 45 1800 v
 59 2 * * 2 /data/share/movie/sh/agqrrecord.sh "伊福部崇のラジオのラジオ" 45 1800
@@ -73,7 +73,7 @@ MAILTO=""
 #29 22 * * 6 /data/share/movie/sh/radikorec.sh -o "ゆきんこ・りえしょんのいちごまみれだよ～" -t 1860 IBS
 59 23 * * 6 /data/share/movie/sh/radikorec.sh -o "上坂すみれの▽をつければかわいかろう" -t 1860 QRR
 59 0 * * 7 /data/share/movie/sh/agqrrecord.sh "あどりぶ" 45 1800
-59 1 * * 7 /data/share/movie/sh/radikorec.sh -o "やっぱりSが好き ～SAY YOU！LOVE ME！～" -t 1860 JORF
+#59 1 * * 7 /data/share/movie/sh/radikorec.sh -o "やっぱりSが好き ～SAY YOU！LOVE ME！～" -t 1860 JORF
 # -- SUN
 29 19 * * 7 /data/share/movie/sh/agqrrecord.sh "早見沙織のふり～すたいる♪" 45 1800
 59 19 * * 7 /data/share/movie/sh/agqrrecord.sh "小原好美のココロおきなく" 45 1800
