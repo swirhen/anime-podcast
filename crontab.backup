@@ -53,7 +53,6 @@ MAILTO=""
 59 22 * * 2 /data/share/movie/sh/agqrrecord.sh "村川梨衣の a りえしょんぷり～ず" 45 1800 v
 29 23 * * 2 /data/share/movie/sh/agqrrecord.sh "佐倉としたい大西" 45 1800 v
 59 0 * * 3 /data/share/movie/sh/agqrrecord.sh "洲崎西" 45 1800
-29 1 * * 3 /data/share/movie/sh/agqrrecord.sh "春佳・彩花のSSちゃんねる" 45 1800
 # -- WED
 # -- THU
 59 20 * * 4 /data/share/movie/sh/agqrrecord.sh "アニゲラ！ディドゥーーン！！" 45 1800
@@ -72,13 +71,13 @@ MAILTO=""
 # 9/28おわり
 #29 22 * * 6 /data/share/movie/sh/radikorec.sh -o "ゆきんこ・りえしょんのいちごまみれだよ～" -t 1860 IBS
 59 23 * * 6 /data/share/movie/sh/radikorec.sh -o "上坂すみれの▽をつければかわいかろう" -t 1860 QRR
-59 0 * * 7 /data/share/movie/sh/agqrrecord.sh "あどりぶ" 45 1800
 #59 1 * * 7 /data/share/movie/sh/radikorec.sh -o "やっぱりSが好き ～SAY YOU！LOVE ME！～" -t 1860 JORF
 # -- SUN
 29 19 * * 7 /data/share/movie/sh/agqrrecord.sh "早見沙織のふり～すたいる♪" 45 1800
 59 19 * * 7 /data/share/movie/sh/agqrrecord.sh "小原好美のココロおきなく" 45 1800
 59 20 * * 7 /data/share/movie/sh/radikorec.sh -o "大橋彩香のAny Beat！" -t 1860 QRR
 59 21 * * 7 /data/share/movie/sh/radikorec.sh -o "水瀬いのり MELODY FLAG" -t 1860 QRR
+29 0 * * 1 /data/share/movie/sh/radikorec.sh -o "小倉唯のyui＊room" -t 1860 QRR
 # 6月終了
 #29 1 * * 1 /data/share/movie/sh/radikorec.sh -o "ご注文はラジオですか？？ ～WELCOME【う・さ！】～" -t 1860 QRR
 # -- IJUIN
