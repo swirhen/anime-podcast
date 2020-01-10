@@ -1,4 +1,9 @@
-Last Update: 2020/01/10-18:00:01
+Last Update: 2020/01/11-00:00:01
+2020/01/11-00:00:01 02 Koisuru Asteroid|恋する小惑星
+2020/01/11-00:00:01 0 Yatogame-chan Kansatsu Nikki Nisatsume|八十亀ちゃんかんさつにっき 2さつめ
+2020/01/11-00:00:01 0 Toaru Kagaku no Railgun T|とある科学の超電磁砲T
+2020/01/11-00:00:01 0 Oshi ga Budoukan Itte Kuretara Shinu|推しが武道館いってくれたら死ぬ
+2020/01/11-00:00:01 0 Jibaku Shounen Hanako-kun|地縛少年花子くん
 2020/01/10-12:00:01 01 Somali to Mori no Kamisama|ソマリと森の神様
 2020/01/10-12:00:01 01 Show by Rock!! Mashumairesh!!|SHOW BY ROCK!!ましゅまいれっしゅ!!
 2020/01/10-12:00:01 01 Hatena Illusion|はてな☆イリュージョン
@@ -23,7 +28,6 @@ Last Update: 2020/01/10-18:00:01
 2020/01/06-12:00:01 01 Eizouken ni wa Te o Dasu na!|映像研には手を出すな！
 2020/01/06-06:00:01 01 Rebirth|RS計画 -Rebirth Storage-
 2020/01/05-18:00:01 87 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
-2020/01/05-18:00:01 01 Koisuru Asteroid|恋する小惑星
 2020/01/05-18:00:01 01 Darwin`s Game|ダーウィンズゲーム
 2020/01/05-12:00:01 01 Magia Record Mahou Shoujo Madoka Magica Gaide|マギアレコード 魔法少女まどか☆マギカ外伝
 2020/01/05-06:00:01 12 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate／Grand Order -絶対魔獣戦線バビロニア-
