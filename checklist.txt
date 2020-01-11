@@ -1,4 +1,9 @@
-Last Update: 2020/01/11-18:00:01
+Last Update: 2020/01/12-00:00:01
+2020/01/12-00:00:01 15 Mairimashita! Iruma-kun|魔入りました！入間くん
+2020/01/12-00:00:01 13 Boku no Hero Academia 4|僕のヒーローアカデミア(第4期)
+2020/01/12-00:00:01 0 Oda Shinamon Nobunaga|織田シナモン信長
+2020/01/12-00:00:01 0 Nanabun no Nijuuni|22/7
+2020/01/12-00:00:01 0 Boku no Tonari ni Ankoku Hakaishin ga Imasu.|ぼくのとなりに暗黒破壊神がいます。
 2020/01/11-18:00:01 14 Aikatsu on Parade!|アイカツオンパレード！
 2020/01/11-12:00:01 01 Runway de Waratte|ランウェイで笑って
 2020/01/11-12:00:01 01 Rikei ga Koi ni Ochita no de Shoumei Shite Mita.|理系が恋に落ちたので証明してみた。
@@ -35,8 +40,6 @@ Last Update: 2020/01/11-18:00:01
 2020/01/05-18:00:01 87 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2020/01/05-12:00:01 01 Magia Record Mahou Shoujo Madoka Magica Gaide|マギアレコード 魔法少女まどか☆マギカ外伝
 2020/01/05-06:00:01 12 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate／Grand Order -絶対魔獣戦線バビロニア-
-2020/01/05-00:00:01 14 Mairimashita! Iruma-kun|魔入りました！入間くん
-2020/01/05-00:00:01 12 Boku no Hero Academia 4|僕のヒーローアカデミア(第4期)
 2019/12/30-00:00:01 11 Rifle Is Beautiful|ライフル・イズ・ビューティフル
 2019/12/29-18:00:01 90 Kiratto Pri-chan|キラッとプリ☆チャン
 2019/10/02-06:00:01 45 Star Twinkle Precure|スター☆トゥインクルプリキュア
