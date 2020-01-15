@@ -1,4 +1,10 @@
-Last Update: 2020/01/15-18:00:02
+Last Update: 2020/01/16-00:00:01
+2020/01/16-00:00:01 15 Radiant (2019)|ラディアン(第2シリーズ)
+2020/01/16-00:00:01 15 Ahiru no Sora|あひるの空
+2020/01/16-00:00:01 14 Nanatsu no Taizai Kamigami no Gekirin|七つの大罪 神々の逆鱗
+2020/01/16-00:00:01 14 Chihayafuru 3|ちはやふる3
+2020/01/16-00:00:01 03 Re - Zero kara Hajimeru Isekai Seikatsu New edition|Re:ゼロから始める異世界生活 新編集版
+2020/01/16-00:00:01 02 Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu.|痛いのは嫌なので防御力に極振りしたいと思います。
 2020/01/15-12:00:01 01 Isekai Quartet 2|異世界かるてっと
 2020/01/15-00:00:01 117 Black Clover|ブラッククローバー
 2020/01/15-00:00:01 02 Natsunagu!|なつなぐ！
@@ -41,11 +47,5 @@ Last Update: 2020/01/15-18:00:02
 2020/01/10-06:00:01 01 Infinite Dendrogram|インフィニット・デンドログラム
 2020/01/09-12:00:01 01 Plunderer|プランダラ
 2020/01/09-12:00:01 01 Kuutei Dragons|空挺ドラゴンズ
-2020/01/09-06:00:01 01 Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu.|痛いのは嫌なので防御力に極振りしたいと思います。
-2020/01/09-00:00:01 14 Radiant (2019)|ラディアン(第2シリーズ)
-2020/01/09-00:00:01 14 Ahiru no Sora|あひるの空
-2020/01/09-00:00:01 13 Nanatsu no Taizai Kamigami no Gekirin|七つの大罪 神々の逆鱗
-2020/01/09-00:00:01 13 Chihayafuru 3|ちはやふる3
-2020/01/09-00:00:01 02 Re - Zero kara Hajimeru Isekai Seikatsu New edition|Re:ゼロから始める異世界生活 新編集版
 2019/12/30-00:00:01 11 Rifle Is Beautiful|ライフル・イズ・ビューティフル
 2019/10/02-06:00:01 45 Star Twinkle Precure|スター☆トゥインクルプリキュア
