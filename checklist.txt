@@ -1,6 +1,12 @@
-Last Update: 2020/01/18-18:00:01
+Last Update: 2020/01/19-00:00:01
+2020/01/19-00:00:01 16 Mairimashita! Iruma-kun|魔入りました！入間くん
+2020/01/19-00:00:01 14 Boku no Hero Academia 4|僕のヒーローアカデミア(第4期)
+2020/01/19-00:00:01 02 Oda Shinamon Nobunaga|織田シナモン信長
+2020/01/19-00:00:01 02 Nanabun no Nijuuni|22/7
+2020/01/19-00:00:01 02 Ishuzoku Reviewers|異種族レビュアーズ
+2020/01/19-00:00:01 02 Boku no Tonari ni Ankoku Hakaishin ga Imasu.|ぼくのとなりに暗黒破壊神がいます。
+2020/01/19-00:00:01 01 BanG Dream! 3rd Season|BanG Dream! 3rd Season
 2020/01/18-18:00:01 15 Aikatsu on Parade!|アイカツオンパレード！
-2020/01/18-18:00:01 0 BanG Dream! 3rd Season|BanG Dream! 3rd Season
 2020/01/18-12:00:01 14 Kabukichou Sherlock|歌舞伎町シャーロック
 2020/01/18-12:00:01 02 Runway de Waratte|ランウェイで笑って
 2020/01/18-06:00:02 03 Darwin`s Game|ダーウィンズゲーム
@@ -34,7 +40,6 @@ Last Update: 2020/01/18-18:00:01
 2020/01/14-00:00:01 14 Phantasy Star Online 2 the Animation|ファンタシースターオンライン2 エピソード・オラクル
 2020/01/14-00:00:01 02 pet|pet
 2020/01/14-00:00:01 02 Heya Camp|へやキャン△
-2020/01/13-12:00:02 01 Ishuzoku Reviewers|異種族レビュアーズ
 2020/01/13-12:00:02 01 Dorohedoro|ドロヘドロ
 2020/01/13-06:00:01 03 ID Invaded|ID:INVADED イド：インヴェイデッド
 2020/01/13-06:00:01 02 Rebirth|RS計画 -Rebirth Storage-
@@ -43,10 +48,5 @@ Last Update: 2020/01/18-18:00:01
 2020/01/12-12:00:01 91 Kiratto Pri-chan|キラッとプリ☆チャン
 2020/01/12-06:00:01 13 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate／Grand Order -絶対魔獣戦線バビロニア-
 2020/01/12-06:00:01 02 Magia Record Mahou Shoujo Madoka Magica Gaide|マギアレコード 魔法少女まどか☆マギカ外伝
-2020/01/12-06:00:01 01 Oda Shinamon Nobunaga|織田シナモン信長
-2020/01/12-06:00:01 01 Nanabun no Nijuuni|22/7
-2020/01/12-06:00:01 01 Boku no Tonari ni Ankoku Hakaishin ga Imasu.|ぼくのとなりに暗黒破壊神がいます。
-2020/01/12-00:00:01 15 Mairimashita! Iruma-kun|魔入りました！入間くん
-2020/01/12-00:00:01 13 Boku no Hero Academia 4|僕のヒーローアカデミア(第4期)
 2019/12/30-00:00:01 11 Rifle Is Beautiful|ライフル・イズ・ビューティフル
 2019/10/02-06:00:01 45 Star Twinkle Precure|スター☆トゥインクルプリキュア
