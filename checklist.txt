@@ -1,4 +1,7 @@
-Last Update: 2020/01/19-00:00:01
+Last Update: 2020/01/19-06:00:01
+2020/01/19-06:00:01 14 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate／Grand Order -絶対魔獣戦線バビロニア-
+2020/01/19-06:00:01 03 Magia Record Mahou Shoujo Madoka Magica Gaide|マギアレコード 魔法少女まどか☆マギカ外伝
+2020/01/19-06:00:01 02 Kyokou Suiri|虚構推理
 2020/01/19-00:00:01 16 Mairimashita! Iruma-kun|魔入りました！入間くん
 2020/01/19-00:00:01 14 Boku no Hero Academia 4|僕のヒーローアカデミア(第4期)
 2020/01/19-00:00:01 02 Oda Shinamon Nobunaga|織田シナモン信長
@@ -35,7 +38,6 @@ Last Update: 2020/01/19-00:00:01
 2020/01/15-00:00:01 117 Black Clover|ブラッククローバー
 2020/01/15-00:00:01 02 Natsunagu!|なつなぐ！
 2020/01/15-00:00:01 02 Majutsushi Orphen Hagure Tabi|魔術士オーフェンはぐれ旅
-2020/01/14-12:00:01 01 Kyokou Suiri|虚構推理
 2020/01/14-06:00:01 02 Murenase! Seton Gakuen|群れなせ！シートン学園
 2020/01/14-00:00:01 14 Phantasy Star Online 2 the Animation|ファンタシースターオンライン2 エピソード・オラクル
 2020/01/14-00:00:01 02 pet|pet
@@ -46,7 +48,5 @@ Last Update: 2020/01/19-00:00:01
 2020/01/13-06:00:01 02 Eizouken ni wa Te o Dasu na!|映像研には手を出すな！
 2020/01/12-18:00:01 88 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2020/01/12-12:00:01 91 Kiratto Pri-chan|キラッとプリ☆チャン
-2020/01/12-06:00:01 13 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate／Grand Order -絶対魔獣戦線バビロニア-
-2020/01/12-06:00:01 02 Magia Record Mahou Shoujo Madoka Magica Gaide|マギアレコード 魔法少女まどか☆マギカ外伝
 2019/12/30-00:00:01 11 Rifle Is Beautiful|ライフル・イズ・ビューティフル
 2019/10/02-06:00:01 45 Star Twinkle Precure|スター☆トゥインクルプリキュア
