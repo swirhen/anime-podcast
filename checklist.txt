@@ -1,4 +1,7 @@
-Last Update: 2020/01/20-00:00:01
+Last Update: 2020/01/20-06:00:01
+2020/01/20-06:00:01 04 ID Invaded|ID:INVADED イド：インヴェイデッド
+2020/01/20-06:00:01 03 Eizouken ni wa Te o Dasu na!|映像研には手を出すな！
+2020/01/20-06:00:01 02 Dorohedoro|ドロヘドロ
 2020/01/20-00:00:01 03 Yatogame-chan Kansatsu Nikki Nisatsume|八十亀ちゃんかんさつにっき 2さつめ
 2020/01/20-00:00:01 03 Rebirth|RS計画 -Rebirth Storage-
 2020/01/19-12:00:01 92 Kiratto Pri-chan|キラッとプリ☆チャン
@@ -45,8 +48,5 @@ Last Update: 2020/01/20-00:00:01
 2020/01/14-00:00:01 14 Phantasy Star Online 2 the Animation|ファンタシースターオンライン2 エピソード・オラクル
 2020/01/14-00:00:01 02 pet|pet
 2020/01/14-00:00:01 02 Heya Camp|へやキャン△
-2020/01/13-12:00:02 01 Dorohedoro|ドロヘドロ
-2020/01/13-06:00:01 03 ID Invaded|ID:INVADED イド：インヴェイデッド
-2020/01/13-06:00:01 02 Eizouken ni wa Te o Dasu na!|映像研には手を出すな！
 2019/12/30-00:00:01 11 Rifle Is Beautiful|ライフル・イズ・ビューティフル
 2019/10/02-06:00:01 45 Star Twinkle Precure|スター☆トゥインクルプリキュア
