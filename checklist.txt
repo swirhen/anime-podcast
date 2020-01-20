@@ -1,4 +1,7 @@
-Last Update: 2020/01/20-18:00:01
+Last Update: 2020/01/21-00:00:01
+2020/01/21-00:00:01 15 Phantasy Star Online 2 the Animation|ファンタシースターオンライン2 エピソード・オラクル
+2020/01/21-00:00:01 03 pet|pet
+2020/01/21-00:00:01 03 Heya Camp|へやキャン△
 2020/01/20-06:00:01 04 ID Invaded|ID:INVADED イド：インヴェイデッド
 2020/01/20-06:00:01 03 Eizouken ni wa Te o Dasu na!|映像研には手を出すな！
 2020/01/20-06:00:01 02 Dorohedoro|ドロヘドロ
@@ -45,7 +48,4 @@ Last Update: 2020/01/20-18:00:01
 2020/01/15-00:00:01 02 Natsunagu!|なつなぐ！
 2020/01/15-00:00:01 02 Majutsushi Orphen Hagure Tabi|魔術士オーフェンはぐれ旅
 2020/01/14-06:00:01 02 Murenase! Seton Gakuen|群れなせ！シートン学園
-2020/01/14-00:00:01 14 Phantasy Star Online 2 the Animation|ファンタシースターオンライン2 エピソード・オラクル
-2020/01/14-00:00:01 02 pet|pet
-2020/01/14-00:00:01 02 Heya Camp|へやキャン△
 2019/10/02-06:00:01 48 Star Twinkle Precure|スター☆トゥインクルプリキュア
