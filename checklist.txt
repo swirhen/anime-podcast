@@ -1,51 +1,51 @@
-Last Update: 2020/01/21-06:00:01
-2020/01/21-06:00:01 03 Murenase! Seton Gakuen|群れなせ！シートン学園
-2020/01/21-00:00:01 15 Phantasy Star Online 2 the Animation|ファンタシースターオンライン2 エピソード・オラクル
-2020/01/21-00:00:01 03 pet|pet
-2020/01/21-00:00:01 03 Heya Camp|へやキャン△
-2020/01/20-06:00:01 04 ID Invaded|ID:INVADED イド：インヴェイデッド
-2020/01/20-06:00:01 03 Eizouken ni wa Te o Dasu na!|映像研には手を出すな！
-2020/01/20-06:00:01 02 Dorohedoro|ドロヘドロ
-2020/01/20-00:00:01 03 Yatogame-chan Kansatsu Nikki Nisatsume|八十亀ちゃんかんさつにっき 2さつめ
-2020/01/20-00:00:01 03 Rebirth|RS計画 -Rebirth Storage-
-2020/01/19-12:00:01 92 Kiratto Pri-chan|キラッとプリ☆チャン
-2020/01/19-12:00:01 89 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
-2020/01/19-06:00:01 14 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate／Grand Order -絶対魔獣戦線バビロニア-
-2020/01/19-06:00:01 03 Magia Record Mahou Shoujo Madoka Magica Gaide|マギアレコード 魔法少女まどか☆マギカ外伝
-2020/01/19-06:00:01 02 Kyokou Suiri|虚構推理
-2020/01/19-00:00:01 16 Mairimashita! Iruma-kun|魔入りました！入間くん
-2020/01/19-00:00:01 14 Boku no Hero Academia 4|僕のヒーローアカデミア(第4期)
-2020/01/19-00:00:01 02 Oda Shinamon Nobunaga|織田シナモン信長
-2020/01/19-00:00:01 02 Nanabun no Nijuuni|22／7
-2020/01/19-00:00:01 02 Ishuzoku Reviewers|異種族レビュアーズ
-2020/01/19-00:00:01 02 Boku no Tonari ni Ankoku Hakaishin ga Imasu.|ぼくのとなりに暗黒破壊神がいます。
+Last Update: 2020/01/28-14:31:54
+2020/01/28-14:31:54 93 Kiratto Pri-chan|キラッとプリ☆チャン
+2020/01/28-14:31:54 90 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
+2020/01/28-14:31:54 49 Star Twinkle Precure|スター☆トゥインクルプリキュア
+2020/01/28-14:31:54 17 Mairimashita! Iruma-kun|魔入りました！入間くん
+2020/01/28-14:31:54 16 Radiant (2019)|ラディアン(第2シリーズ)
+2020/01/28-14:31:54 16 Phantasy Star Online 2 the Animation|ファンタシースターオンライン2 エピソード・オラクル
+2020/01/28-14:31:54 16 Aikatsu on Parade!|アイカツオンパレード！
+2020/01/28-14:31:54 16 Ahiru no Sora|あひるの空
+2020/01/28-14:31:54 15 Nanatsu no Taizai Kamigami no Gekirin|七つの大罪 神々の逆鱗
+2020/01/28-14:31:54 15 Kabukichou Sherlock|歌舞伎町シャーロック
+2020/01/28-14:31:54 15 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate／Grand Order -絶対魔獣戦線バビロニア-
+2020/01/28-14:31:54 15 Chihayafuru 3|ちはやふる3
+2020/01/28-14:31:54 15 Boku no Hero Academia 4|僕のヒーローアカデミア(第4期)
+2020/01/28-14:31:54 118 Black Clover|ブラッククローバー
+2020/01/28-14:31:54 05 ID Invaded|ID:INVADED イド：インヴェイデッド
+2020/01/28-14:31:54 04 pet|pet
+2020/01/28-14:31:54 04 Yatogame-chan Kansatsu Nikki Nisatsume|八十亀ちゃんかんさつにっき 2さつめ
+2020/01/28-14:31:54 04 Rebirth|RS計画 -Rebirth Storage-
+2020/01/28-14:31:54 04 Re - Zero kara Hajimeru Isekai Seikatsu New edition|Re:ゼロから始める異世界生活 新編集版
+2020/01/28-14:31:54 04 Murenase! Seton Gakuen|群れなせ！シートン学園
+2020/01/28-14:31:54 04 Magia Record Mahou Shoujo Madoka Magica Gaide|マギアレコード 魔法少女まどか☆マギカ外伝
+2020/01/28-14:31:54 04 Koisuru Asteroid|恋する小惑星
+2020/01/28-14:31:54 04 Heya Camp|へやキャン△
+2020/01/28-14:31:54 04 Eizouken ni wa Te o Dasu na!|映像研には手を出すな！
+2020/01/28-14:31:54 04 Darwin`s Game|ダーウィンズゲーム
+2020/01/28-14:31:54 03 Toaru Kagaku no Railgun T|とある科学の超電磁砲T
+2020/01/28-14:31:54 03 Somali to Mori no Kamisama|ソマリと森の神様
+2020/01/28-14:31:54 03 Show by Rock!! Mashumairesh!!|SHOW BY ROCK!!ましゅまいれっしゅ!!
+2020/01/28-14:31:54 03 Runway de Waratte|ランウェイで笑って
+2020/01/28-14:31:54 03 Rikei ga Koi ni Ochita no de Shoumei Shite Mita.|理系が恋に落ちたので証明してみた。
+2020/01/28-14:31:54 03 Plunderer|プランダラ
+2020/01/28-14:31:54 03 Oshi ga Budoukan Itte Kuretara Shinu|推しが武道館いってくれたら死ぬ
+2020/01/28-14:31:54 03 Oda Shinamon Nobunaga|織田シナモン信長
+2020/01/28-14:31:54 03 Nekopara (2020)|ネコぱら
+2020/01/28-14:31:54 03 Nanabun no Nijuuni|22／7
+2020/01/28-14:31:54 03 Majutsushi Orphen Hagure Tabi|魔術士オーフェンはぐれ旅
+2020/01/28-14:31:54 03 Kyokou Suiri|虚構推理
+2020/01/28-14:31:54 03 Kuutei Dragons|空挺ドラゴンズ
+2020/01/28-14:31:54 03 Jibaku Shounen Hanako-kun|地縛少年花子くん
+2020/01/28-14:31:54 03 Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu.|痛いのは嫌なので防御力に極振りしたいと思います。
+2020/01/28-14:31:54 03 Ishuzoku Reviewers|異種族レビュアーズ
+2020/01/28-14:31:54 03 Infinite Dendrogram|インフィニット・デンドログラム
+2020/01/28-14:31:54 03 Housekishou Richard-shi no Nazo Kantei|宝石商リチャード氏の謎鑑定
+2020/01/28-14:31:54 03 Hatena Illusion|はてな☆イリュージョン
+2020/01/28-14:31:54 03 Haikyuu!! To the Top|ハイキュー!! TO THE TOP
+2020/01/28-14:31:54 03 Dorohedoro|ドロヘドロ
+2020/01/28-14:31:54 03 Boku no Tonari ni Ankoku Hakaishin ga Imasu.|ぼくのとなりに暗黒破壊神がいます。
+2020/01/28-14:31:54 02 Isekai Quartet 2|異世界かるてっと
 2020/01/19-00:00:01 01 BanG Dream! 3rd Season|BanG Dream! 3rd Season
-2020/01/18-18:00:01 15 Aikatsu on Parade!|アイカツオンパレード！
-2020/01/18-12:00:01 14 Kabukichou Sherlock|歌舞伎町シャーロック
-2020/01/18-12:00:01 02 Runway de Waratte|ランウェイで笑って
-2020/01/18-06:00:02 03 Darwin`s Game|ダーウィンズゲーム
-2020/01/18-06:00:02 02 Rikei ga Koi ni Ochita no de Shoumei Shite Mita.|理系が恋に落ちたので証明してみた。
-2020/01/18-06:00:02 02 Haikyuu!! To the Top|ハイキュー!! TO THE TOP
-2020/01/18-00:00:01 03 Koisuru Asteroid|恋する小惑星
-2020/01/18-00:00:01 02 Toaru Kagaku no Railgun T|とある科学の超電磁砲T
-2020/01/18-00:00:01 02 Oshi ga Budoukan Itte Kuretara Shinu|推しが武道館いってくれたら死ぬ
-2020/01/18-00:00:01 02 Jibaku Shounen Hanako-kun|地縛少年花子くん
-2020/01/17-06:00:01 02 Somali to Mori no Kamisama|ソマリと森の神様
-2020/01/17-06:00:01 02 Housekishou Richard-shi no Nazo Kantei|宝石商リチャード氏の謎鑑定
-2020/01/17-06:00:01 02 Hatena Illusion|はてな☆イリュージョン
-2020/01/17-00:00:01 02 Show by Rock!! Mashumairesh!!|SHOW BY ROCK!!ましゅまいれっしゅ!!
-2020/01/17-00:00:01 02 Plunderer|プランダラ
-2020/01/17-00:00:01 02 Nekopara (2020)|ネコぱら
-2020/01/17-00:00:01 02 Kuutei Dragons|空挺ドラゴンズ
-2020/01/17-00:00:01 02 Infinite Dendrogram|インフィニット・デンドログラム
-2020/01/16-00:00:01 15 Radiant (2019)|ラディアン(第2シリーズ)
-2020/01/16-00:00:01 15 Ahiru no Sora|あひるの空
-2020/01/16-00:00:01 14 Nanatsu no Taizai Kamigami no Gekirin|七つの大罪 神々の逆鱗
-2020/01/16-00:00:01 14 Chihayafuru 3|ちはやふる3
-2020/01/16-00:00:01 03 Re - Zero kara Hajimeru Isekai Seikatsu New edition|Re:ゼロから始める異世界生活 新編集版
-2020/01/16-00:00:01 02 Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu.|痛いのは嫌なので防御力に極振りしたいと思います。
-2020/01/15-12:00:01 01 Isekai Quartet 2|異世界かるてっと
-2020/01/15-00:00:01 117 Black Clover|ブラッククローバー
 2020/01/15-00:00:01 02 Natsunagu!|なつなぐ！
-2020/01/15-00:00:01 02 Majutsushi Orphen Hagure Tabi|魔術士オーフェンはぐれ旅
-2019/10/02-06:00:01 48 Star Twinkle Precure|スター☆トゥインクルプリキュア
