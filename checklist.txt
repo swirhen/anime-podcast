@@ -1,4 +1,6 @@
-Last Update: 2020/02/02-18:00:01
+Last Update: 2020/02/03-00:00:01
+2020/02/03-00:00:01 05 Yatogame-chan Kansatsu Nikki Nisatsume|八十亀ちゃんかんさつにっき 2さつめ
+2020/02/03-00:00:01 05 Rebirth|RS計画 -Rebirth Storage-
 2020/02/02-18:00:01 91 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2020/02/02-12:46:12 01 Healin` Good Precure|ヒーリングっど♡プリキュア
 2020/02/02-12:00:01 94 Kiratto Pri-chan|キラッとプリ☆チャン
@@ -41,8 +43,6 @@ Last Update: 2020/02/02-18:00:01
 2020/01/28-14:31:54 15 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate／Grand Order -絶対魔獣戦線バビロニア-
 2020/01/28-14:31:54 05 ID Invaded|ID:INVADED イド：インヴェイデッド
 2020/01/28-14:31:54 04 pet|pet
-2020/01/28-14:31:54 04 Yatogame-chan Kansatsu Nikki Nisatsume|八十亀ちゃんかんさつにっき 2さつめ
-2020/01/28-14:31:54 04 Rebirth|RS計画 -Rebirth Storage-
 2020/01/28-14:31:54 04 Murenase! Seton Gakuen|群れなせ！シートン学園
 2020/01/28-14:31:54 04 Heya Camp|へやキャン△
 2020/01/28-14:31:54 04 Eizouken ni wa Te o Dasu na!|映像研には手を出すな！
