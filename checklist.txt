@@ -1,4 +1,6 @@
-Last Update: 2020/02/04-18:00:01
+Last Update: 2020/02/05-00:00:01
+2020/02/05-00:00:01 120 Black Clover|ブラッククローバー
+2020/02/05-00:00:01 05 Majutsushi Orphen Hagure Tabi|魔術士オーフェンはぐれ旅
 2020/02/04-06:00:01 05 Murenase! Seton Gakuen|群れなせ！シートン学園
 2020/02/04-00:00:01 17 Phantasy Star Online 2 the Animation|ファンタシースターオンライン2 エピソード・オラクル
 2020/02/04-00:00:01 05 pet|pet
@@ -42,9 +44,7 @@ Last Update: 2020/02/04-18:00:01
 2020/01/30-00:00:01 16 Chihayafuru 3|ちはやふる3
 2020/01/30-00:00:01 05 Re - Zero kara Hajimeru Isekai Seikatsu New edition|Re:ゼロから始める異世界生活 新編集版
 2020/01/30-00:00:01 04 Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu.|痛いのは嫌なので防御力に極振りしたいと思います。
-2020/01/29-06:00:01 04 Majutsushi Orphen Hagure Tabi|魔術士オーフェンはぐれ旅
 2020/01/29-06:00:01 03 Isekai Quartet 2|異世界かるてっと
-2020/01/29-00:00:01 119 Black Clover|ブラッククローバー
 2020/01/28-14:31:54 15 Kabukichou Sherlock|歌舞伎町シャーロック
 2020/01/28-14:31:54 15 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate／Grand Order -絶対魔獣戦線バビロニア-
 2020/01/28-14:31:54 03 Housekishou Richard-shi no Nazo Kantei|宝石商リチャード氏の謎鑑定
