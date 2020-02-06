@@ -1,4 +1,9 @@
-Last Update: 2020/02/06-18:00:02
+Last Update: 2020/02/07-00:00:01
+2020/02/07-00:00:01 05 Show by Rock!! Mashumairesh!!|SHOW BY ROCK!!ましゅまいれっしゅ!!
+2020/02/07-00:00:01 05 Plunderer|プランダラ
+2020/02/07-00:00:01 05 Nekopara (2020)|ネコぱら
+2020/02/07-00:00:01 05 Kuutei Dragons|空挺ドラゴンズ
+2020/02/07-00:00:01 05 Infinite Dendrogram|インフィニット・デンドログラム
 2020/02/06-00:00:01 18 Radiant (2019)|ラディアン(第2シリーズ)
 2020/02/06-00:00:01 18 Ahiru no Sora|あひるの空
 2020/02/06-00:00:01 17 Nanatsu no Taizai Kamigami no Gekirin|七つの大罪 神々の逆鱗
@@ -39,11 +44,6 @@ Last Update: 2020/02/06-18:00:02
 2020/02/01-00:00:01 04 Oshi ga Budoukan Itte Kuretara Shinu|推しが武道館いってくれたら死ぬ
 2020/02/01-00:00:01 04 Jibaku Shounen Hanako-kun|地縛少年花子くん
 2020/01/31-06:00:01 04 Hatena Illusion|はてな☆イリュージョン
-2020/01/31-00:00:01 04 Show by Rock!! Mashumairesh!!|SHOW BY ROCK!!ましゅまいれっしゅ!!
-2020/01/31-00:00:01 04 Plunderer|プランダラ
-2020/01/31-00:00:01 04 Nekopara (2020)|ネコぱら
-2020/01/31-00:00:01 04 Kuutei Dragons|空挺ドラゴンズ
-2020/01/31-00:00:01 04 Infinite Dendrogram|インフィニット・デンドログラム
 2020/01/30-06:00:02 04 Natsunagu!|なつなぐ！
 2020/01/28-14:31:54 15 Kabukichou Sherlock|歌舞伎町シャーロック
 2020/01/28-14:31:54 15 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate／Grand Order -絶対魔獣戦線バビロニア-
