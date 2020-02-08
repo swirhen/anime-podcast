@@ -1,4 +1,6 @@
-Last Update: 2020/02/08-12:00:01
+Last Update: 2020/02/08-18:00:01
+2020/02/08-18:00:01 18 Aikatsu on Parade!|アイカツオンパレード！
+2020/02/08-18:00:01 05 Runway de Waratte|ランウェイで笑って
 2020/02/08-12:00:01 05 Haikyuu!! To the Top|ハイキュー!! TO THE TOP
 2020/02/08-06:00:02 05 Rikei ga Koi ni Ochita no de Shoumei Shite Mita.|理系が恋に落ちたので証明してみた。
 2020/02/08-06:00:02 05 Darwin`s Game|ダーウィンズゲーム
@@ -43,8 +45,6 @@ Last Update: 2020/02/08-12:00:01
 2020/02/02-00:00:01 04 Nanabun no Nijuuni|22／7
 2020/02/02-00:00:01 04 Ishuzoku Reviewers|異種族レビュアーズ
 2020/02/02-00:00:01 04 Boku no Tonari ni Ankoku Hakaishin ga Imasu.|ぼくのとなりに暗黒破壊神がいます。
-2020/02/01-18:00:01 17 Aikatsu on Parade!|アイカツオンパレード！
-2020/02/01-12:00:01 04 Runway de Waratte|ランウェイで笑って
 2020/01/28-14:31:54 15 Kabukichou Sherlock|歌舞伎町シャーロック
 2020/01/28-14:31:54 15 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate／Grand Order -絶対魔獣戦線バビロニア-
 2020/01/28-14:31:54 03 Housekishou Richard-shi no Nazo Kantei|宝石商リチャード氏の謎鑑定
