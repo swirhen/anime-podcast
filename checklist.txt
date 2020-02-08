@@ -1,7 +1,10 @@
-Last Update: 2020/02/09-00:00:01
+Last Update: 2020/02/09-06:00:02
+2020/02/09-06:00:02 17 Kabukichou Sherlock|歌舞伎町シャーロック
+2020/02/09-06:00:02 16 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate／Grand Order -絶対魔獣戦線バビロニア-
+2020/02/09-06:00:02 06 Magia Record Mahou Shoujo Madoka Magica Gaide|マギアレコード 魔法少女まどか☆マギカ外伝
+2020/02/09-06:00:02 05 Kyokou Suiri|虚構推理
 2020/02/09-00:00:01 19 Mairimashita! Iruma-kun|魔入りました！入間くん
 2020/02/09-00:00:01 17 Boku no Hero Academia 4|僕のヒーローアカデミア(第4期)
-2020/02/09-00:00:01 16 Kabukichou Sherlock|歌舞伎町シャーロック
 2020/02/09-00:00:01 05 Oda Shinamon Nobunaga|織田シナモン信長
 2020/02/09-00:00:01 05 Nanabun no Nijuuni|22／7
 2020/02/09-00:00:01 05 Ishuzoku Reviewers|異種族レビュアーズ
@@ -44,8 +47,5 @@ Last Update: 2020/02/09-00:00:01
 2020/02/02-18:00:01 91 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2020/02/02-12:46:12 01 Healin` Good Precure|ヒーリングっど♡プリキュア
 2020/02/02-12:00:01 94 Kiratto Pri-chan|キラッとプリ☆チャン
-2020/02/02-06:00:02 05 Magia Record Mahou Shoujo Madoka Magica Gaide|マギアレコード 魔法少女まどか☆マギカ外伝
-2020/02/02-06:00:02 04 Kyokou Suiri|虚構推理
-2020/01/28-14:31:54 15 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate／Grand Order -絶対魔獣戦線バビロニア-
 2020/01/28-14:31:54 03 Housekishou Richard-shi no Nazo Kantei|宝石商リチャード氏の謎鑑定
 2020/01/19-00:00:01 01 BanG Dream! 3rd Season|BanG Dream! 3rd Season
