@@ -60,7 +60,6 @@ MAILTO=""
 29 23 * * 4 /data/share/movie/sh/agqrrecord.sh "竹達・沼倉の初ラジ！" 45 1800
 59 1 * * 5 /data/share/movie/sh/agqrrecord.sh "阿澄佳奈 星空ひなたぼっこ" 45 1800 v
 # -- FRI
-59 17 * * 5 /data/share/movie/sh/agqrrecord.sh "A&G ARTIST ZONE 立花理香のTHE CATCH" 45 3600 v
 59 21 * * 5 /data/share/movie/sh/agqrrecord.sh "れい＆ゆいの文化放送ホームランラジオ！" 45 3600 v
 # -- SAT
 29 14 * * 6 /data/share/movie/sh/agqrrecord.sh "サンセルモ presents 結婚式は あいのなかで" 45 1800 v
