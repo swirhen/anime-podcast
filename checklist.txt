@@ -1,4 +1,7 @@
-Last Update: 2020/02/23-00:00:01
+Last Update: 2020/02/23-06:00:02
+2020/02/23-06:00:02 18 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate／Grand Order -絶対魔獣戦線バビロニア-
+2020/02/23-06:00:02 08 Magia Record Mahou Shoujo Madoka Magica Gaide|マギアレコード 魔法少女まどか☆マギカ外伝
+2020/02/23-06:00:02 07 Kyokou Suiri|虚構推理
 2020/02/23-00:00:01 21 Mairimashita! Iruma-kun|魔入りました！入間くん
 2020/02/23-00:00:01 19 Boku no Hero Academia 4|僕のヒーローアカデミア(第4期)
 2020/02/23-00:00:01 07 Oda Shinamon Nobunaga|織田シナモン信長
@@ -42,9 +45,6 @@ Last Update: 2020/02/23-00:00:01
 2020/02/16-18:00:01 96 Kiratto Pri-chan|キラッとプリ☆チャン
 2020/02/16-18:00:01 93 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2020/02/16-12:00:02 03 Healin` Good Precure|ヒーリングっど♡プリキュア
-2020/02/16-06:00:01 17 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate／Grand Order -絶対魔獣戦線バビロニア-
-2020/02/16-06:00:01 07 Magia Record Mahou Shoujo Madoka Magica Gaide|マギアレコード 魔法少女まどか☆マギカ外伝
-2020/02/16-06:00:01 06 Kyokou Suiri|虚構推理
 2020/02/15-00:00:02 06 Toaru Kagaku no Railgun T|とある科学の超電磁砲T
 2020/02/14-06:00:01 06 Hatena Illusion|はてな☆イリュージョン
 2020/02/14-00:00:01 06 Infinite Dendrogram|インフィニット・デンドログラム
