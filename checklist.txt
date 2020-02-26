@@ -1,4 +1,5 @@
-Last Update: 2020/02/26-12:00:02
+Last Update: 2020/02/26-18:00:01
+2020/02/26-18:00:01 07 Isekai Quartet 2|異世界かるてっと
 2020/02/26-00:00:01 123 Black Clover|ブラッククローバー
 2020/02/26-00:00:01 08 Majutsushi Orphen Hagure Tabi|魔術士オーフェンはぐれ旅
 2020/02/25-06:00:01 08 Murenase! Seton Gakuen|群れなせ！シートン学園
@@ -42,7 +43,6 @@ Last Update: 2020/02/26-12:00:02
 2020/02/20-00:00:01 08 Re - Zero kara Hajimeru Isekai Seikatsu New edition|Re:ゼロから始める異世界生活 新編集版
 2020/02/20-00:00:01 07 Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu.|痛いのは嫌なので防御力に極振りしたいと思います。
 2020/02/19-18:00:02 19 Chihayafuru 3|ちはやふる3
-2020/02/19-12:00:01 06 Isekai Quartet 2|異世界かるてっと
 2020/02/19-00:00:01 07 Rebirth|RS計画 -Rebirth Storage-
 2020/02/19-00:00:01 07 Natsunagu!|なつなぐ！
 2020/02/15-00:00:02 06 Toaru Kagaku no Railgun T|とある科学の超電磁砲T
