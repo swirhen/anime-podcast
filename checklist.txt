@@ -1,4 +1,6 @@
-Last Update: 2020/02/27-12:00:02
+Last Update: 2020/02/27-18:00:01
+2020/02/27-18:00:01 08 Plunderer|プランダラ
+2020/02/27-18:00:01 08 Kuutei Dragons|空挺ドラゴンズ
 2020/02/27-06:00:02 09 Re - Zero kara Hajimeru Isekai Seikatsu New edition|Re:ゼロから始める異世界生活 新編集版
 2020/02/27-00:00:01 21 Ahiru no Sora|あひるの空
 2020/02/27-00:00:01 20 Nanatsu no Taizai Kamigami no Gekirin|七つの大罪 神々の逆鱗
@@ -40,9 +42,7 @@ Last Update: 2020/02/27-12:00:02
 2020/02/21-12:00:01 07 Somali to Mori no Kamisama|ソマリと森の神様
 2020/02/21-06:00:02 07 Show by Rock!! Mashumairesh!!|SHOW BY ROCK!!ましゅまいれっしゅ!!
 2020/02/21-06:00:02 07 Housekishou Richard-shi no Nazo Kantei|宝石商リチャード氏の謎鑑定
-2020/02/21-00:00:02 07 Plunderer|プランダラ
 2020/02/21-00:00:02 07 Nekopara (2020)|ネコぱら
-2020/02/21-00:00:02 07 Kuutei Dragons|空挺ドラゴンズ
 2020/02/20-06:00:02 20 Radiant (2019)|ラディアン(第2シリーズ)
 2020/02/19-00:00:01 07 Rebirth|RS計画 -Rebirth Storage-
 2020/02/15-00:00:02 06 Toaru Kagaku no Railgun T|とある科学の超電磁砲T
