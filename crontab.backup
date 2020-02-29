@@ -83,7 +83,6 @@ MAILTO=""
 29 8 * * 1-4 /data/share/movie/sh/radikorec.sh -o "伊集院光とらじおと" -t 9060 TBS
 # りむ鯖
 5 3 * * 2 /data/share/movie/sh/agqrrelease.sh
-5 0 * * 5 /data/share/movie/sh/agqrrelease.sh
 35 23 * * 5 /data/share/movie/sh/agqrrelease.sh
 5 0 * * 7 /data/share/movie/sh/agqrrelease.sh
 
