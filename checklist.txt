@@ -1,4 +1,7 @@
-Last Update: 2020/03/02-00:00:01
+Last Update: 2020/03/02-06:00:02
+2020/03/02-06:00:02 10 ID Invaded|ID:INVADED イド：インヴェイデッド
+2020/03/02-06:00:02 09 Eizouken ni wa Te o Dasu na!|映像研には手を出すな！
+2020/03/02-06:00:02 08 Dorohedoro|ドロヘドロ
 2020/03/02-00:00:01 09 Yatogame-chan Kansatsu Nikki Nisatsume|八十亀ちゃんかんさつにっき 2さつめ
 2020/03/01-18:00:01 98 Kiratto Pri-chan|キラッとプリ☆チャン
 2020/03/01-12:00:02 05 Healin` Good Precure|ヒーリングっど♡プリキュア
@@ -42,9 +45,6 @@ Last Update: 2020/03/02-00:00:01
 2020/02/25-00:00:01 20 Phantasy Star Online 2 the Animation|ファンタシースターオンライン2 エピソード・オラクル
 2020/02/25-00:00:01 08 pet|pet
 2020/02/25-00:00:01 08 Heya Camp|へやキャン△
-2020/02/24-06:00:01 09 ID Invaded|ID:INVADED イド：インヴェイデッド
-2020/02/24-06:00:01 08 Eizouken ni wa Te o Dasu na!|映像研には手を出すな！
-2020/02/24-06:00:01 07 Dorohedoro|ドロヘドロ
 2020/02/23-18:00:01 94 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2020/02/23-06:00:02 18 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate／Grand Order -絶対魔獣戦線バビロニア-
 2020/01/19-00:00:01 01 BanG Dream! 3rd Season|BanG Dream! 3rd Season
