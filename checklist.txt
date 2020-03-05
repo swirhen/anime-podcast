@@ -1,4 +1,6 @@
-Last Update: 2020/03/05-12:00:01
+Last Update: 2020/03/05-18:00:01
+2020/03/05-18:00:01 09 Plunderer|プランダラ
+2020/03/05-18:00:01 09 Kuutei Dragons|空挺ドラゴンズ
 2020/03/05-00:00:01 22 Ahiru no Sora|あひるの空
 2020/03/05-00:00:01 21 Nanatsu no Taizai Kamigami no Gekirin|七つの大罪 神々の逆鱗
 2020/03/05-00:00:01 21 Chihayafuru 3|ちはやふる3
@@ -43,8 +45,6 @@ Last Update: 2020/03/05-12:00:01
 2020/02/28-00:00:01 08 Rebirth|RS計画 -Rebirth Storage-
 2020/02/28-00:00:01 08 Nekopara (2020)|ネコぱら
 2020/02/28-00:00:01 07 Infinite Dendrogram|インフィニット・デンドログラム
-2020/02/27-18:00:01 08 Plunderer|プランダラ
-2020/02/27-18:00:01 08 Kuutei Dragons|空挺ドラゴンズ
 2020/02/23-18:00:01 94 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2020/02/23-06:00:02 18 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate／Grand Order -絶対魔獣戦線バビロニア-
 2020/01/19-00:00:01 01 BanG Dream! 3rd Season|BanG Dream! 3rd Season
