@@ -1,4 +1,11 @@
-Last Update: 2020/03/07-18:00:02
+Last Update: 2020/03/08-00:00:01
+2020/03/08-00:00:01 23 Mairimashita! Iruma-kun|魔入りました！入間くん
+2020/03/08-00:00:01 21 Kabukichou Sherlock|歌舞伎町シャーロック
+2020/03/08-00:00:01 21 Boku no Hero Academia 4|僕のヒーローアカデミア(第4期)
+2020/03/08-00:00:01 09 Oda Shinamon Nobunaga|織田シナモン信長
+2020/03/08-00:00:01 09 Nanabun no Nijuuni|22／7
+2020/03/08-00:00:01 09 Ishuzoku Reviewers|異種族レビュアーズ
+2020/03/08-00:00:01 09 Boku no Tonari ni Ankoku Hakaishin ga Imasu.|ぼくのとなりに暗黒破壊神がいます。
 2020/03/07-18:00:02 22 Aikatsu on Parade!|アイカツオンパレード！
 2020/03/07-12:00:02 09 Runway de Waratte|ランウェイで笑って
 2020/03/07-12:00:02 09 Haikyuu!! To the Top|ハイキュー!! TO THE TOP
@@ -37,13 +44,6 @@ Last Update: 2020/03/07-18:00:02
 2020/03/01-12:00:02 05 Healin` Good Precure|ヒーリングっど♡プリキュア
 2020/03/01-06:00:02 09 Magia Record Mahou Shoujo Madoka Magica Gaide|マギアレコード 魔法少女まどか☆マギカ外伝
 2020/03/01-06:00:02 08 Kyokou Suiri|虚構推理
-2020/03/01-00:00:01 22 Mairimashita! Iruma-kun|魔入りました！入間くん
-2020/03/01-00:00:01 20 Boku no Hero Academia 4|僕のヒーローアカデミア(第4期)
-2020/03/01-00:00:01 08 Oda Shinamon Nobunaga|織田シナモン信長
-2020/03/01-00:00:01 08 Nanabun no Nijuuni|22／7
-2020/03/01-00:00:01 08 Ishuzoku Reviewers|異種族レビュアーズ
-2020/03/01-00:00:01 08 Boku no Tonari ni Ankoku Hakaishin ga Imasu.|ぼくのとなりに暗黒破壊神がいます。
-2020/02/29-12:00:01 20 Kabukichou Sherlock|歌舞伎町シャーロック
 2020/02/29-00:00:02 07 Toaru Kagaku no Railgun T|とある科学の超電磁砲T
 2020/02/23-18:00:01 94 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
 2020/02/23-06:00:02 18 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate／Grand Order -絶対魔獣戦線バビロニア-
