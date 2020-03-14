@@ -1,4 +1,9 @@
-Last Update: 2020/03/14-18:00:01
+Last Update: 2020/03/15-00:00:01
+2020/03/15-00:00:01 22 Boku no Hero Academia 4|僕のヒーローアカデミア(第4期)
+2020/03/15-00:00:01 10 Oda Shinamon Nobunaga|織田シナモン信長
+2020/03/15-00:00:01 10 Nanabun no Nijuuni|22／7
+2020/03/15-00:00:01 10 Ishuzoku Reviewers|異種族レビュアーズ
+2020/03/15-00:00:01 10 Boku no Tonari ni Ankoku Hakaishin ga Imasu.|ぼくのとなりに暗黒破壊神がいます。
 2020/03/14-18:00:01 22 Kabukichou Sherlock|歌舞伎町シャーロック
 2020/03/14-18:00:01 10 Runway de Waratte|ランウェイで笑って
 2020/03/14-18:00:01 10 Haikyuu!! To the Top|ハイキュー!! TO THE TOP
@@ -38,11 +43,6 @@ Last Update: 2020/03/14-18:00:01
 2020/03/08-06:00:01 19 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate／Grand Order -絶対魔獣戦線バビロニア-
 2020/03/08-06:00:01 10 Magia Record Mahou Shoujo Madoka Magica Gaide|マギアレコード 魔法少女まどか☆マギカ外伝
 2020/03/08-06:00:01 09 Kyokou Suiri|虚構推理
-2020/03/08-00:00:01 21 Boku no Hero Academia 4|僕のヒーローアカデミア(第4期)
-2020/03/08-00:00:01 09 Oda Shinamon Nobunaga|織田シナモン信長
-2020/03/08-00:00:01 09 Nanabun no Nijuuni|22／7
-2020/03/08-00:00:01 09 Ishuzoku Reviewers|異種族レビュアーズ
-2020/03/08-00:00:01 09 Boku no Tonari ni Ankoku Hakaishin ga Imasu.|ぼくのとなりに暗黒破壊神がいます。
 2020/03/07-00:00:01 09 Rebirth|RS計画 -Rebirth Storage-
 2020/02/29-00:00:02 07 Toaru Kagaku no Railgun T|とある科学の超電磁砲T
 2020/02/23-18:00:01 94 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
