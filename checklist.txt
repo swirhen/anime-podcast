@@ -1,4 +1,6 @@
-Last Update: 2020/03/16-18:00:02
+Last Update: 2020/03/17-00:00:01
+2020/03/17-00:00:01 11 pet|pet
+2020/03/17-00:00:01 11 Heya Camp|へやキャン△
 2020/03/16-18:00:02 11 Yatogame-chan Kansatsu Nikki Nisatsume|八十亀ちゃんかんさつにっき 2さつめ
 2020/03/16-06:00:02 12 ID Invaded|ID:INVADED イド：インヴェイデッド
 2020/03/16-06:00:02 11 Eizouken ni wa Te o Dasu na!|映像研には手を出すな！
@@ -42,8 +44,6 @@ Last Update: 2020/03/16-18:00:02
 2020/03/11-00:00:01 10 Majutsushi Orphen Hagure Tabi|魔術士オーフェンはぐれ旅
 2020/03/10-06:00:02 10 Murenase! Seton Gakuen|群れなせ！シートン学園
 2020/03/10-00:00:01 22 Phantasy Star Online 2 the Animation|ファンタシースターオンライン2 エピソード・オラクル
-2020/03/10-00:00:01 10 pet|pet
-2020/03/10-00:00:01 10 Heya Camp|へやキャン△
 2020/03/07-00:00:01 09 Rebirth|RS計画 -Rebirth Storage-
 2020/02/29-00:00:02 07 Toaru Kagaku no Railgun T|とある科学の超電磁砲T
 2020/01/19-00:00:01 01 BanG Dream! 3rd Season|BanG Dream! 3rd Season
