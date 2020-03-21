@@ -1,4 +1,9 @@
-Last Update: 2020/03/21-18:00:02
+Last Update: 2020/03/22-00:00:01
+2020/03/22-00:00:01 23 Boku no Hero Academia 4|僕のヒーローアカデミア(第4期)
+2020/03/22-00:00:01 11 Oda Shinamon Nobunaga|織田シナモン信長
+2020/03/22-00:00:01 11 Nanabun no Nijuuni|22／7
+2020/03/22-00:00:01 11 Ishuzoku Reviewers|異種族レビュアーズ
+2020/03/22-00:00:01 11 Boku no Tonari ni Ankoku Hakaishin ga Imasu.|ぼくのとなりに暗黒破壊神がいます。
 2020/03/21-18:00:02 23 Kabukichou Sherlock|歌舞伎町シャーロック
 2020/03/21-18:00:02 11 Runway de Waratte|ランウェイで笑って
 2020/03/21-12:00:01 24 Aikatsu on Parade!|アイカツオンパレード！
@@ -40,9 +45,4 @@ Last Update: 2020/03/21-18:00:02
 2020/03/15-06:00:02 20 Fate Grand Order Zettai Majuu Sensen Babylonia|Fate／Grand Order -絶対魔獣戦線バビロニア-
 2020/03/15-06:00:02 11 Magia Record Mahou Shoujo Madoka Magica Gaide|マギアレコード 魔法少女まどか☆マギカ外伝
 2020/03/15-06:00:02 10 Kyokou Suiri|虚構推理
-2020/03/15-00:00:01 22 Boku no Hero Academia 4|僕のヒーローアカデミア(第4期)
-2020/03/15-00:00:01 10 Oda Shinamon Nobunaga|織田シナモン信長
-2020/03/15-00:00:01 10 Nanabun no Nijuuni|22／7
-2020/03/15-00:00:01 10 Ishuzoku Reviewers|異種族レビュアーズ
-2020/03/15-00:00:01 10 Boku no Tonari ni Ankoku Hakaishin ga Imasu.|ぼくのとなりに暗黒破壊神がいます。
 2020/01/19-00:00:01 01 BanG Dream! 3rd Season|BanG Dream! 3rd Season
