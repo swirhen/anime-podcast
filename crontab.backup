@@ -22,7 +22,7 @@ MAILTO=""
 
 # Abema Fresh
 # SP
-59 20 31 1 * /data/share/movie/sh/freshrecord.sh "木戸衣吹" kido-ibuki 0
+59 20 27 3 * /data/share/movie/sh/freshrecord.sh "木戸衣吹" kido-ibuki 0
 # 隔週水曜(毎週取得)
 59 20 * * 3 /data/share/movie/sh/freshrecord.sh "フレッシュはじめました" ito_miku 0
 59 20 * * 3 /data/share/movie/sh/freshrecord.sh "愛美のPerfect Woman" hibiki 1
@@ -50,8 +50,7 @@ MAILTO=""
 # -- TUE
 29 16 * * 2 /data/share/movie/sh/agqrrecord.sh "渕上舞のとりあえずまぁ、話だけでも。" 45 1800 v
 59 20 * * 2 /data/share/movie/sh/agqrrecord.sh "TrySailのTRYangle harmony" 45 1800
-# 3/31から
-#29 21 * * 2 /data/share/movie/sh/agqrrecord.sh "上田麗奈のひみつばこ" 45 1800 v
+29 21 * * 2 /data/share/movie/sh/agqrrecord.sh "上田麗奈のひみつばこ" 45 1800 v
 59 22 * * 2 /data/share/movie/sh/agqrrecord.sh "村川梨衣の a りえしょんぷり～ず" 45 1800 v
 29 23 * * 2 /data/share/movie/sh/agqrrecord.sh "佐倉としたい大西" 45 1800 v
 59 0 * * 3 /data/share/movie/sh/agqrrecord.sh "洲崎西" 45 1800
