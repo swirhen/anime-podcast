@@ -63,6 +63,7 @@ MAILTO=""
 # -- FRI
 59 21 * * 5 /data/share/movie/sh/agqrrecord.sh "れい＆ゆいの文化放送ホームランラジオ！" 45 3600 v
 # -- SAT
+59 13 * * 6 /data/share/movie/sh/agqrrecord.sh "原田彩楓のさやのま" 45 1800 v
 29 14 * * 6 /data/share/movie/sh/agqrrecord.sh "サンセルモ presents 結婚式は あいのなかで" 45 1800 v
 29 18 * * 6 /data/share/movie/sh/agqrrecord.sh "髙森奈津美とおちゃっちゃしよ？" 45 1800 v
 59 18 * * 6 /data/share/movie/sh/radikorec.sh -o "A＆Gリクエストアワー 阿澄佳奈のキミまち！" -t 7260 QRR
