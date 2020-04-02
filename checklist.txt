@@ -1,4 +1,5 @@
-Last Update: 2020/04/02-12:00:01
+Last Update: 2020/04/02-18:00:01
+2020/04/02-18:00:01 12 Plunderer|プランダラ
 2020/04/02-06:00:01 01 Tamayomi|球詠
 2020/04/02-00:00:01 25 Ahiru no Sora|あひるの空
 2020/04/01-00:00:02 128 Black Clover|ブラッククローバー
@@ -18,7 +19,6 @@ Last Update: 2020/04/02-12:00:01
 2020/03/20-12:00:01 11 Oshi ga Budoukan Itte Kuretara Shinu|推しが武道館いってくれたら死ぬ
 2020/03/20-06:00:02 11 Show by Rock!! Mashumairesh!!|SHOW BY ROCK!!ましゅまいれっしゅ!!
 2020/03/20-06:00:02 11 Housekishou Richard-shi no Nazo Kantei|宝石商リチャード氏の謎鑑定
-2020/03/19-18:00:02 11 Plunderer|プランダラ
 2020/03/19-18:00:02 11 Kuutei Dragons|空挺ドラゴンズ
 2020/03/17-18:00:01 11 Natsunagu!|なつなぐ！
 2020/01/19-00:00:01 01 BanG Dream! 3rd Season|BanG Dream! 3rd Season
