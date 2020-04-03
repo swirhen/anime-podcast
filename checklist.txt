@@ -1,4 +1,5 @@
-Last Update: 2020/04/03-18:00:02
+Last Update: 2020/04/04-00:00:02
+2020/04/04-00:00:02 10 Toaru Kagaku no Railgun T|とある科学の超電磁砲T
 2020/04/03-12:00:02 01 Kakushigoto|かくしごと
 2020/04/03-06:00:01 01 Hachi-nan tte, Sore wa Nai deshou!|八男って、それはないでしょう！
 2020/04/03-00:00:02 12 Infinite Dendrogram|インフィニット・デンドログラム
@@ -11,7 +12,6 @@ Last Update: 2020/04/03-18:00:02
 2020/03/29-12:00:01 09 Healin` Good Precure|ヒーリングっど♡プリキュア
 2020/03/29-00:00:01 24 Boku no Hero Academia 4|僕のヒーローアカデミア(第4期)
 2020/03/28-06:00:01 12 Haikyuu!! To the Top|ハイキュー!! TO THE TOP
-2020/03/28-00:00:02 09 Toaru Kagaku no Railgun T|とある科学の超電磁砲T
 2020/03/27-06:00:02 11 Hatena Illusion|はてな☆イリュージョン
 2020/03/25-18:00:02 12 Rebirth|RS計画 -Rebirth Storage-
 2020/03/23-00:00:01 96 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
