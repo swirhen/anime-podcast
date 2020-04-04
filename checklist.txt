@@ -1,7 +1,7 @@
-Last Update: 2020/04/04-06:00:01
-2020/04/04-06:00:01 0 Shin Sakura Taisen the Animation|新サクラ大戦 the Animation
-2020/04/04-06:00:01 0 Nami yo Kiite Kure|波よ聞いてくれ
-2020/04/04-06:00:01 0 Listeners|LISTENERS
+Last Update: 2020/04/04-12:00:02
+2020/04/04-12:00:02 01 Shin Sakura Taisen the Animation|新サクラ大戦 the Animation
+2020/04/04-12:00:02 01 Nami yo Kiite Kure|波よ聞いてくれ
+2020/04/04-12:00:02 01 Listeners|LISTENERS
 2020/04/04-00:00:02 10 Toaru Kagaku no Railgun T|とある科学の超電磁砲T
 2020/04/03-12:00:02 01 Kakushigoto|かくしごと
 2020/04/03-06:00:01 01 Hachi-nan tte, Sore wa Nai deshou!|八男って、それはないでしょう！
