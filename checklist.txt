@@ -1,4 +1,6 @@
-Last Update: 2020/04/07-18:00:01
+Last Update: 2020/04/08-00:00:01
+2020/04/08-00:00:01 129 Black Clover|ブラッククローバー
+2020/04/08-00:00:01 0 Houkago Teibou Nisshi|放課後ていぼう日誌
 2020/04/07-18:00:01 01 Shachou, Battle no Jikan Desu!|社長、バトルの時間です！
 2020/04/07-18:00:01 01 Fruits Basket (2020)|フルーツバスケット 2nd season
 2020/04/07-12:00:01 01 Princess Connect! ReDive |プリンセスコネクト！Re:Dive
@@ -24,7 +26,6 @@ Last Update: 2020/04/07-18:00:01
 2020/04/02-18:00:01 12 Plunderer|プランダラ
 2020/04/02-06:00:01 01 Tamayomi|球詠
 2020/04/02-00:00:01 25 Ahiru no Sora|あひるの空
-2020/04/01-00:00:02 128 Black Clover|ブラッククローバー
 2020/03/31-12:00:01 02 Appare Ranman!|天晴爛漫！
 2020/03/27-06:00:02 11 Hatena Illusion|はてな☆イリュージョン
 2020/03/23-00:00:01 96 Gegege no Kitarou (2018)|ゲゲゲの鬼太郎 第6期
