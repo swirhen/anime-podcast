@@ -106,3 +106,5 @@ MAILTO=""
 
 # agqr playpathチェック
 25,55 * * * * /data/share/movie/sh/agqrcheck.sh
+# radiko 地域判定チェック
+15,45 * * * * /data/share/movie/sh/radikocheck.sh
