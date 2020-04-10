@@ -1,4 +1,6 @@
-Last Update: 2020/04/10-18:00:02
+Last Update: 2020/04/11-00:00:01
+2020/04/11-00:00:01 11 Toaru Kagaku no Railgun T|とある科学の超電磁砲T
+2020/04/11-00:00:01 02 Shin Sakura Taisen the Animation|新サクラ大戦 the Animation
 2020/04/10-12:00:01 01 Mewkledreamy|ミュークルドリーミー
 2020/04/10-12:00:01 01 Fugou Keiji - Balance Unlimited|富豪刑事 Balance:UNLIMITED
 2020/04/10-06:00:02 02 Kakushigoto|かくしごと
@@ -26,10 +28,8 @@ Last Update: 2020/04/10-18:00:02
 2020/04/05-12:00:02 01 Gal to Kyouryuu|ギャルと恐竜
 2020/04/05-12:00:02 01 Arte|アルテ
 2020/04/05-06:00:01 01 Bungou to Alchemist Shinpan no Haguruma|文豪とアルケミスト ～審判ノ歯車～
-2020/04/04-12:00:02 01 Shin Sakura Taisen the Animation|新サクラ大戦 the Animation
 2020/04/04-12:00:02 01 Nami yo Kiite Kure|波よ聞いてくれ
 2020/04/04-12:00:02 01 Listeners|LISTENERS
-2020/04/04-00:00:02 10 Toaru Kagaku no Railgun T|とある科学の超電磁砲T
 2020/04/03-00:00:02 12 Infinite Dendrogram|インフィニット・デンドログラム
 2020/03/31-12:00:01 02 Appare Ranman!|天晴爛漫！
 2020/03/27-06:00:02 11 Hatena Illusion|はてな☆イリュージョン
