@@ -54,7 +54,7 @@ get_ja_title_list2() {
     TITLE_JA=`curl -s "http://cal.syoboi.jp/find?sd=0&kw=${SEARCH_WORD_ENC}" | grep "キーワード.*${SEARCH_WORD}" | head -1 |  sed "s/<small.*small>//" | sed "s/<\/a>.*//" | sed "s/.*>//"`
 
     if [ "${TITLE_JA}" = "" ]; then
-        TITLE_JA=`curl -s "http://cal.syoboi.jp/find?sd=0&kw=${SEARCH_WORD_ENC2}" | grep "キーワード.*${SEARCH_WORD2}" | head -1 |  sed "s/<small.*small>//" | sed "s/<\/a>.*//" | sed "s/.*>//" | sed "s/\!/！/g" | sed "s/?/？/g"`
+        TITLE_JA=`curl -s "http://cal.syoboi.jp/find?sd=0&kw=${SEARCH_WORD_ENC2}" | grep "キーワード.*${SEARCH_WORD2}" | head -1 |  sed "s/<small.*small>//" | sed "s/<\/a>.*//" | sed "s/.*>//" | sed "s/\!/！/g" | sed "s/?/？/g" | sed "s/:/：/g"`
     fi
 
     echo "${TITLE_JA/\//／}"
