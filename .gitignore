@@ -3,7 +3,6 @@
 *.iml
 *.xml
 *.temp
-end*.txt
 agqr
 *result
 autopub_running
