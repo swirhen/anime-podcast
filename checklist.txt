@@ -1,12 +1,15 @@
-Last Update: 2020/04/12-06:00:02
+Last Update: 2020/04/12-12:00:02
+2020/04/12-12:00:02 11 Healin` Good Precure|ヒーリングっど♡プリキュア
+2020/04/12-12:00:02 104 Kiratto Pri-chan|キラッとプリ☆チャン
+2020/04/12-12:00:02 02 Digimon Adventure;|デジモンアドベンチャー：
+2020/04/12-12:00:02 01 Kaguya-sama wa Kokurasetai 2|かぐや様は告らせたい？～天才たちの恋愛頭脳戦～
+2020/04/12-12:00:02 01 Argonavis from Bang Dream! Animation|アルゴナビス from BanG Dream!
 2020/04/12-06:00:02 02 Yesterday o Utatte|イエスタデイをうたって
 2020/04/12-06:00:02 02 Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei Shiteshimatta...|乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった…
 2020/04/12-06:00:02 02 Honzuki no Gekokujou Shisho ni Naru Tame ni wa Shudan o Erande Iraremasen (2020)|本好きの下剋上 司書になるためには手段を選んでいられません 第二部
 2020/04/12-06:00:02 02 Gal to Kyouryuu|ギャルと恐竜
 2020/04/12-06:00:02 02 Bungou to Alchemist Shinpan no Haguruma|文豪とアルケミスト ～審判ノ歯車～
 2020/04/12-06:00:02 02 Arte|アルテ
-2020/04/12-06:00:02 0 Kaguya-sama wa Kokurasetai 2|かぐや様は告らせたい？～天才たちの恋愛頭脳戦～
-2020/04/12-06:00:02 0 Argonavis from Bang Dream! Animation|アルゴナビス from BanG Dream!
 2020/04/11-12:00:01 01 Shokugeki no Souma Gou no Sara|食戟のソーマ 豪ノ皿
 2020/04/11-06:00:02 02 Nami yo Kiite Kure|波よ聞いてくれ
 2020/04/11-06:00:02 02 Listeners|LISTENERS
@@ -15,7 +18,6 @@ Last Update: 2020/04/12-06:00:02
 2020/04/10-12:00:01 01 Mewkledreamy|ミュークルドリーミー
 2020/04/10-12:00:01 01 Fugou Keiji - Balance Unlimited|富豪刑事 Balance：UNLIMITED
 2020/04/10-06:00:02 02 Kakushigoto|かくしごと
-2020/04/10-06:00:02 01 Digimon Adventure;|デジモンアドベンチャー：
 2020/04/10-00:00:01 02 Hachi-nan tte, Sore wa Nai deshou!|八男って、それはないでしょう！
 2020/04/10-00:00:01 01 BNA|BNA ビー・エヌ・エー
 2020/04/09-18:00:01 13 Plunderer|プランダラ
@@ -31,8 +33,6 @@ Last Update: 2020/04/12-06:00:02
 2020/04/07-06:00:02 01 Jashin-chan Dropkick`|邪神ちゃんドロップキック'
 2020/04/06-12:00:01 01 Gleipnir|グレイプニル
 2020/04/06-06:00:02 01 Tsugu Tsugumomo|継つぐもも
-2020/04/05-12:00:02 103 Kiratto Pri-chan|キラッとプリ☆チャン
-2020/04/05-12:00:02 10 Healin` Good Precure|ヒーリングっど♡プリキュア
 2020/04/03-00:00:02 12 Infinite Dendrogram|インフィニット・デンドログラム
 2020/03/31-12:00:01 02 Appare Ranman!|天晴爛漫！
 2020/03/27-06:00:02 11 Hatena Illusion|はてな☆イリュージョン
