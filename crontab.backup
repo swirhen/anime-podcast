@@ -1,6 +1,7 @@
 # m h  dom mon dow   command
 MAILTO=""
 */15 * * * * /home/swirhen/sh/upip.sh
+0 0 * * * /home/swirhen/sh/upip.sh f
 */15 * * * * /home/swirhen/sh/checkdatadrv.sh
 @reboot /home/swirhen/sh/tiarrakw.sh
 @reboot /home/swirhen/sh/tigkw.sh
