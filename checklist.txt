@@ -1,4 +1,6 @@
-Last Update: 2020/04/14-00:00:01
+Last Update: 2020/04/14-06:00:02
+2020/04/14-06:00:02 02 Princess Connect! ReDive |プリンセスコネクト！Re：Dive
+2020/04/14-06:00:02 02 Fruits Basket (2020)|フルーツバスケット 2nd season
 2020/04/14-00:00:01 02 Shironeko Project Zero Chronicle|白猫プロジェクト ZERO CHRONICLE
 2020/04/14-00:00:01 02 Jashin-chan Dropkick`|邪神ちゃんドロップキック'
 2020/04/13-06:00:02 02 Shachou, Battle no Jikan Desu!|社長、バトルの時間です！
@@ -31,8 +33,6 @@ Last Update: 2020/04/14-00:00:01
 2020/04/09-00:00:01 02 Tamayomi|球詠
 2020/04/08-06:00:01 01 Houkago Teibou Nisshi|放課後ていぼう日誌
 2020/04/08-00:00:01 129 Black Clover|ブラッククローバー
-2020/04/07-18:00:01 01 Fruits Basket (2020)|フルーツバスケット 2nd season
-2020/04/07-12:00:01 01 Princess Connect! ReDive |プリンセスコネクト！Re：Dive
 2020/04/03-00:00:02 12 Infinite Dendrogram|インフィニット・デンドログラム
 2020/03/31-12:00:01 02 Appare Ranman!|天晴爛漫！
 2020/03/27-06:00:02 11 Hatena Illusion|はてな☆イリュージョン
