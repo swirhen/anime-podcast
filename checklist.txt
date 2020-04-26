@@ -1,4 +1,6 @@
-Last Update: 2020/04/27-00:00:01
+Last Update: 2020/04/27-06:00:01
+2020/04/27-06:00:01 04 Shachou, Battle no Jikan Desu!|社長、バトルの時間です！
+2020/04/27-06:00:01 04 Gleipnir|グレイプニル
 2020/04/27-00:00:01 04 Tsugu Tsugumomo|継つぐもも
 2020/04/26-12:00:02 106 Kiratto Pri-chan|キラッとプリ☆チャン
 2020/04/26-06:00:02 04 Yesterday o Utatte|イエスタデイをうたって
@@ -25,8 +27,6 @@ Last Update: 2020/04/27-00:00:01
 2020/04/21-06:00:02 03 Princess Connect! ReDive |プリンセスコネクト！Re：Dive
 2020/04/21-00:00:01 03 Shironeko Project Zero Chronicle|白猫プロジェクト ZERO CHRONICLE
 2020/04/21-00:00:01 03 Jashin-chan Dropkick`|邪神ちゃんドロップキック'
-2020/04/20-12:00:01 03 Shachou, Battle no Jikan Desu!|社長、バトルの時間です！
-2020/04/20-12:00:01 03 Gleipnir|グレイプニル
 2020/04/19-12:00:02 12 Healin` Good Precure|ヒーリングっど♡プリキュア
 2020/04/19-12:00:02 03 Digimon Adventure;|デジモンアドベンチャー：
 2020/04/19-00:00:01 03 Bungou to Alchemist Shinpan no Haguruma|文豪とアルケミスト ～審判ノ歯車～
