@@ -14,34 +14,36 @@ REC_FILE=${SCRIPT_DIR}/agqr_rec
 #num=`expr $RANDOM % 2 + 1`
 num=1
 PP=`cat ${FILE}`
-echo "/usr/bin/rtmpdump --rtmp \"rtmpe://fms${num}.uniqueradio.jp/\" --playpath \"${PP}\" --app \"?rtmp://fms-base1.mitene.ad.jp/agqr/\" --live -o \"${REC_FILE}\" --stop 1"
-/usr/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "${PP}" --app "?rtmp://fms-base1.mitene.ad.jp/agqr/" --live -o "${REC_FILE}" --stop 1
+if [ "${PP}" != "" ]; then
+    echo "/usr/bin/rtmpdump --rtmp \"rtmpe://fms${num}.uniqueradio.jp/\" --playpath \"${PP}\" --app \"?rtmp://fms-base1.mitene.ad.jp/agqr/\" --live -o \"${REC_FILE}\" --stop 1"
+    /usr/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "${PP}" --app "?rtmp://fms-base1.mitene.ad.jp/agqr/" --live -o "${REC_FILE}" --stop 1
 
-if [ -s ${REC_FILE} ]; then
-    rm -f ${REC_FILE}
-    exit 0
-else
-    rm -f ${REC_FILE}
-    PP2=`cat ${FILE2}`
-    /usr/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "${PP2}" --app "?rtmp://fms-base1.mitene.ad.jp/agqr/" --live -o "${REC_FILE}" --stop 1
     if [ -s ${REC_FILE} ]; then
         rm -f ${REC_FILE}
-        # エラーだったFILEをFILE2に、成功したPPをFILEに
-        echo ${PP} > ${FILE2}
-        echo ${PP2} > ${FILE}
-
-        cd /data/share/movie/sh
-        git commit -m 'playpath update' ${FILE}
-        git commit -m 'playpath2 update' ${FILE2}
-        git pull
-        git push origin master
-
-        # つぶやく
-        /home/swirhen/tiasock/tiasock_common.sh "#anigera@w" "【超A&G playpathチェック】有効playpathが変更されました 旧playpath: ${PP} 新playpath: ${PP2}"
-        ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "@here 【超A&G playpathチェック】有効playpathが変更されました 旧playpath: ${PP} 新playpath: ${PP2}"
+        exit 0
     else
-        # つぶやく
-        /home/swirhen/tiasock/tiasock_common.sh "#anigera@w" "【超A&G playpathチェック】エラー：playpathが両方無効になりました playpath: ${PP}、${PP2}"
-        ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "@channel 【超A&G playpathチェック】エラー：playpathが両方無効になりました playpath: ${PP}、${PP2}"
+        rm -f ${REC_FILE}
+        PP2=`cat ${FILE2}`
+        /usr/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "${PP2}" --app "?rtmp://fms-base1.mitene.ad.jp/agqr/" --live -o "${REC_FILE}" --stop 1
+        if [ -s ${REC_FILE} ]; then
+            rm -f ${REC_FILE}
+            # エラーだったFILEをFILE2に、成功したPPをFILEに
+            echo ${PP} > ${FILE2}
+            echo ${PP2} > ${FILE}
+
+            cd /data/share/movie/sh
+            git commit -m 'playpath update' ${FILE}
+            git commit -m 'playpath2 update' ${FILE2}
+            git pull
+            git push origin master
+
+            # つぶやく
+            /home/swirhen/tiasock/tiasock_common.sh "#anigera@w" "【超A&G playpathチェック】有効playpathが変更されました 旧playpath: ${PP} 新playpath: ${PP2}"
+            ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "@here 【超A&G playpathチェック】有効playpathが変更されました 旧playpath: ${PP} 新playpath: ${PP2}"
+        else
+            # つぶやく
+            /home/swirhen/tiasock/tiasock_common.sh "#anigera@w" "【超A&G playpathチェック】エラー：playpathが両方無効になりました playpath: ${PP}、${PP2}"
+            ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "@channel 【超A&G playpathチェック】エラー：playpathが両方無効になりました playpath: ${PP}、${PP2}"
+        fi
     fi
 fi
