@@ -10,11 +10,17 @@ FILE=${SCRIPT_DIR}/loc_radiko
 TMPFILE=/tmp/loc_radiko
 
 ${SCRIPT_DIR}/radikorec.sh -a 2>&1 | tail -1 > ${TMPFILE}
-DIFF=`diff ${FILE} ${TMPFILE}`
+if [ "`cat ${TMPFILE}`" = "" ]; then
+    DIFF=`diff ${FILE} ${TMPFILE}`
 
-if [ "${DIFF}" != "" ]; then
+    if [ "${DIFF}" != "" ]; then
+        # つぶやく
+        /home/swirhen/tiasock/tiasock_common.sh "#anigera@w" "【radiko 地域判定チェック】判定地域が変更されました: `cat ${TMPFILE}`"
+        ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "@channel 【radiko 地域判定チェック】判定地域が変更されました: `cat ${TMPFILE}`"
+        cp ${TMPFILE} ${FILE}
+    fi
+else
     # つぶやく
-    /home/swirhen/tiasock/tiasock_common.sh "#anigera@w" "【radiko 地域判定チェック】判定地域が変更されました: `cat ${TMPFILE}`"
-    ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "@channel 【radiko 地域判定チェック】判定地域が変更されました: `cat ${TMPFILE}`"
-    cp ${TMPFILE} ${FILE}
+    /home/swirhen/tiasock/tiasock_common.sh "#anigera@w" "【radiko 地域判定チェック】判定地域が取得できませんでした"
+    ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "@channel 【radiko 地域判定チェック】判定地域が取得できませんでした"
 fi
