@@ -1,6 +1,7 @@
-Last Update: 2020/04/30-18:00:01
+Last Update: 2020/05/01-00:00:02
+2020/05/01-00:00:02 05 Hachi-nan tte, Sore wa Nai deshou!|八男って、それはないでしょう！
+2020/05/01-00:00:02 01 Gekijouban Soushuuhen Made in Abyss|劇場版総集編 メイドインアビス
 2020/04/30-18:00:01 16 Plunderer|プランダラ
-2020/04/30-18:00:01 0 Gekijouban Soushuuhen Made in Abyss|劇場版総集編 メイドインアビス
 2020/04/30-06:00:01 04 BNA|BNA ビー・エヌ・エー
 2020/04/30-00:00:01 29 Ahiru no Sora|あひるの空
 2020/04/30-00:00:01 05 Tamayomi|球詠
@@ -26,7 +27,6 @@ Last Update: 2020/04/30-18:00:01
 2020/04/25-00:00:01 03 Appare Ranman!|天晴爛漫！
 2020/04/24-06:00:02 04 Kakushigoto|かくしごと
 2020/04/24-06:00:02 03 Mewkledreamy|ミュークルドリーミー
-2020/04/24-00:00:02 04 Hachi-nan tte, Sore wa Nai deshou!|八男って、それはないでしょう！
 2020/04/22-00:00:01 03 Houkago Teibou Nisshi|放課後ていぼう日誌
 2020/04/19-12:00:02 12 Healin` Good Precure|ヒーリングっど♡プリキュア
 2020/04/19-12:00:02 03 Digimon Adventure;|デジモンアドベンチャー：
