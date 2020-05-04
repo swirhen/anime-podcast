@@ -108,9 +108,9 @@ elif [ "${err}" != "" ]; then
     curl -s -S "${URI2}" > ${RSS_TEMP}
 fi
 xmllint --format ${RSS_TEMP} > ${RSS_XML}
-# URI2 対応(nyaa.si)
-curl -s -S "${URI2}" > ${RSS_TEMP2}
-xmllint --format ${RSS_TEMP2} > ${RSS_XML2}
+# URI2 対応(leopard)
+#curl -s -S "${URI2}" > ${RSS_TEMP2}
+#xmllint --format ${RSS_TEMP2} > ${RSS_XML2}
 
 LAST_UPDS=()
 EP_NUMS=()
@@ -122,10 +122,10 @@ END_EPISODES=()
 END_EPISODES_NG=()
 
 # サブチェックリスト(nyaaからも取得するリスト)
-while read NAME
-do
-  NAMES_SUB+=( "${NAME}" )
-done < ${LIST_FILE2}
+#while read NAME
+#do
+#  NAMES_SUB+=( "${NAME}" )
+#done < ${LIST_FILE2}
 
 # チェックリストの取得
 while read LAST_UPD EP_NUM NAME
@@ -162,7 +162,7 @@ do
   do
     # <title>タグ内取得
     title=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep title | sed "s#<title>\(.*\)</title>#\1#" | sed "s/^      //"`
-    title2=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML2}" | grep title | sed "s#<title>\(.*\)</title>#\1#" | sed "s/^      //"`
+    #title2=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML2}" | grep title | sed "s#<title>\(.*\)</title>#\1#" | sed "s/^      //"`
 
     # titleが空白になったらループ終了
     if [ "${title}" = "" -a "${title2}" = "" ]; then
@@ -171,7 +171,7 @@ do
 
     # linkタグ内取得
     link=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
-    link2=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML2}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
+    #link2=`echo "cat /rss/channel/item[${cnt2}]" | xmllint --shell "${RSS_XML2}" | grep link | sed "s#<link>\(.*\)</link>#\1#" | sed "s/^      //" | sed "s/amp;//"`
 
     # titleと一致するかどうかチェック
     fetch_flg=0
