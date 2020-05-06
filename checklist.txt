@@ -1,4 +1,6 @@
-Last Update: 2020/05/06-18:00:02
+Last Update: 2020/05/07-00:00:01
+2020/05/07-00:00:01 30 Ahiru no Sora|あひるの空
+2020/05/07-00:00:01 06 Tamayomi|球詠
 2020/05/05-12:00:01 05 Fruits Basket (2020)|フルーツバスケット 2nd season
 2020/05/05-06:00:02 05 Princess Connect! ReDive |プリンセスコネクト！Re：Dive
 2020/05/05-00:00:01 05 Shironeko Project Zero Chronicle|白猫プロジェクト ZERO CHRONICLE
@@ -23,8 +25,6 @@ Last Update: 2020/05/06-18:00:02
 2020/05/01-00:00:02 05 Hachi-nan tte, Sore wa Nai deshou!|八男って、それはないでしょう！
 2020/04/30-18:00:01 16 Plunderer|プランダラ
 2020/04/30-06:00:01 04 BNA|BNA ビー・エヌ・エー
-2020/04/30-00:00:01 29 Ahiru no Sora|あひるの空
-2020/04/30-00:00:01 05 Tamayomi|球詠
 2020/04/29-00:00:02 132 Black Clover|ブラッククローバー
 2020/04/26-12:00:02 106 Kiratto Pri-chan|キラッとプリ☆チャン
 2020/04/25-00:00:01 03 Appare Ranman!|天晴爛漫！
