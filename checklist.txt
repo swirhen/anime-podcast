@@ -1,4 +1,6 @@
-Last Update: 2020/05/19-00:00:01
+Last Update: 2020/05/19-06:00:01
+2020/05/19-06:00:01 07 Princess Connect! ReDive |プリンセスコネクト！Re：Dive
+2020/05/19-06:00:01 07 Fruits Basket (2020)|フルーツバスケット 2nd season
 2020/05/19-00:00:01 07 Shironeko Project Zero Chronicle|白猫プロジェクト ZERO CHRONICLE
 2020/05/19-00:00:01 07 Jashin-chan Dropkick`|邪神ちゃんドロップキック'
 2020/05/18-06:00:02 07 Shachou, Battle no Jikan Desu!|社長、バトルの時間です！
@@ -22,8 +24,6 @@ Last Update: 2020/05/19-00:00:01
 2020/05/14-06:00:01 06 BNA|BNA ビー・エヌ・エー
 2020/05/14-00:00:01 31 Ahiru no Sora|あひるの空
 2020/05/14-00:00:01 07 Tamayomi|球詠
-2020/05/12-12:00:01 06 Fruits Basket (2020)|フルーツバスケット 2nd season
-2020/05/12-06:00:01 06 Princess Connect! ReDive |プリンセスコネクト！Re：Dive
 2020/05/01-06:00:01 04 Mewkledreamy|ミュークルドリーミー
 2020/05/01-06:00:01 02 Gekijouban Soushuuhen Made in Abyss|劇場版総集編 メイドインアビス
 2020/04/29-00:00:02 132 Black Clover|ブラッククローバー
