@@ -1,4 +1,5 @@
-Last Update: 2020/06/02-06:00:01
+Last Update: 2020/06/02-12:00:01
+2020/06/02-12:00:01 09 Fruits Basket (2020)|フルーツバスケット 2nd season
 2020/06/02-06:00:01 09 Princess Connect! ReDive |プリンセスコネクト！Re：Dive
 2020/06/02-00:00:01 09 Jashin-chan Dropkick`|邪神ちゃんドロップキック'
 2020/06/01-18:00:01 09 Shachou, Battle no Jikan Desu!|社長、バトルの時間です！
@@ -21,7 +22,6 @@ Last Update: 2020/06/02-06:00:01
 2020/05/28-12:00:01 08 BNA|BNA ビー・エヌ・エー
 2020/05/28-06:00:01 09 Tamayomi|球詠
 2020/05/28-00:00:01 33 Ahiru no Sora|あひるの空
-2020/05/27-00:00:01 08 Fruits Basket (2020)|フルーツバスケット 2nd season
 2020/05/23-00:00:02 15 Toaru Kagaku no Railgun T|とある科学の超電磁砲T
 2020/05/17-06:00:01 07 Gal to Kyouryuu|ギャルと恐竜
 2020/05/01-06:00:01 04 Mewkledreamy|ミュークルドリーミー
