@@ -84,6 +84,10 @@ if [ "${dir: -3}" = "mp4" ]; then
     exit 0
 elif [ "${dir: -4}" = "json" ]; then
     exit 0
+elif [ "${dir: -4}" = ".thm" ]; then
+    exit 0
+elif [ "${dir: -4}" = ".xml" ]; then
+    exit 0
 fi
 
 # 与えられたディレクトリ以下のパートディレクトリの数を調べる
