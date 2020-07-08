@@ -1,4 +1,6 @@
-Last Update: 2020/07/08-18:00:01
+Last Update: 2020/07/09-00:00:01
+2020/07/09-00:00:01 38 Ahiru no Sora|あひるの空
+2020/07/09-00:00:01 0 Re Zero kara Hajimeru Isekai Seikatsu 2nd Season|Re:ゼロから始める異世界生活 2nd season
 2020/07/08-06:00:01 01 Umayon|うまよん
 2020/07/08-06:00:01 01 Muhyo to Roji no Mahouritsu Soudan Jimusho (2020)|ムヒョとロージーの魔法律相談事務所(第2期)
 2020/07/08-00:00:01 133 Black Clover|ブラッククローバー
@@ -14,7 +16,6 @@ Last Update: 2020/07/08-18:00:01
 2020/07/05-00:00:01 08 Bungou to Alchemist Shinpan no Haguruma|文豪とアルケミスト ～審判ノ歯車～
 2020/07/04-12:00:01 01 Dokyuu Hentai HxEros|ド級編隊エグゼロス
 2020/07/03-06:00:01 09 Mewkledreamy|ミュークルドリーミー
-2020/07/02-00:00:01 37 Ahiru no Sora|あひるの空
 2020/06/28-00:00:01 12 Argonavis from Bang Dream! Animation|アルゴナビス from BanG Dream!
 2020/06/14-06:00:01 11 Honzuki no Gekokujou Shisho ni Naru Tame ni wa Shudan o Erande Iraremasen (2020)|本好きの下剋上 司書になるためには手段を選んでいられません 第二部
 2020/06/14-06:00:01 11 Arte|アルテ
