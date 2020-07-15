@@ -1,4 +1,7 @@
-Last Update: 2020/07/15-18:00:01
+Last Update: 2020/07/16-00:00:01
+2020/07/16-00:00:01 39 Ahiru no Sora|あひるの空
+2020/07/16-00:00:01 02 Re Zero kara Hajimeru Isekai Seikatsu 2nd Season|Re：ゼロから始める異世界生活 2nd season
+2020/07/16-00:00:01 0 Gibiate|ジビエート
 2020/07/15-12:00:01 02 Yichang Shengwu Jianwen Lu|異常生物見聞録
 2020/07/15-00:00:01 134 Black Clover|ブラッククローバー
 2020/07/15-00:00:01 09 Bungou to Alchemist Shinpan no Haguruma|文豪とアルケミスト ～審判ノ歯車～
@@ -24,8 +27,6 @@ Last Update: 2020/07/15-18:00:01
 2020/07/10-06:00:01 10 Mewkledreamy|ミュークルドリーミー
 2020/07/09-18:00:01 01 Great Pretender|GREAT PRETENDER
 2020/07/09-12:00:01 01 Deca-Dence|デカダンス
-2020/07/09-06:00:01 01 Re Zero kara Hajimeru Isekai Seikatsu 2nd Season|Re：ゼロから始める異世界生活 2nd season
-2020/07/09-00:00:01 38 Ahiru no Sora|あひるの空
 2020/07/05-12:00:01 03 Hulaing Babies Aratame Staying Babies|ステイングベイビーズ
 2020/05/23-00:00:02 15 Toaru Kagaku no Railgun T|とある科学の超電磁砲T
 2020/05/01-06:00:01 02 Gekijouban Soushuuhen Made in Abyss|劇場版総集編 メイドインアビス
