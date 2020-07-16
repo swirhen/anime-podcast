@@ -1,4 +1,6 @@
-Last Update: 2020/07/16-18:00:01
+Last Update: 2020/07/17-00:00:01
+2020/07/17-00:00:01 02 Great Pretender|GREAT PRETENDER
+2020/07/17-00:00:01 0 Koi to Producer Evol x Love|恋とプロデューサー～EVOL×LOVE～
 2020/07/16-06:00:01 02 Deca-Dence|デカダンス
 2020/07/16-06:00:01 01 Gibiate|ジビエート
 2020/07/16-00:00:01 39 Ahiru no Sora|あひるの空
@@ -26,7 +28,6 @@ Last Update: 2020/07/16-18:00:01
 2020/07/11-06:00:01 01 No Guns Life (2020)|ノー・ガンズ・ライフ(第2期)
 2020/07/10-12:00:02 01 Yahari Ore no Seishun LoveCome wa Machigatte Iru. Kan|やはり俺の青春ラブコメはまちがっている。完
 2020/07/10-06:00:01 10 Mewkledreamy|ミュークルドリーミー
-2020/07/09-18:00:01 01 Great Pretender|GREAT PRETENDER
 2020/07/05-12:00:01 03 Hulaing Babies Aratame Staying Babies|ステイングベイビーズ
 2020/05/23-00:00:02 15 Toaru Kagaku no Railgun T|とある科学の超電磁砲T
 2020/05/01-06:00:01 02 Gekijouban Soushuuhen Made in Abyss|劇場版総集編 メイドインアビス
