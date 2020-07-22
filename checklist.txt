@@ -1,4 +1,5 @@
-Last Update: 2020/07/22-06:00:01
+Last Update: 2020/07/22-12:00:01
+2020/07/22-12:00:01 03 Yichang Shengwu Jianwen Lu|異常生物見聞録
 2020/07/22-00:00:01 135 Black Clover|ブラッククローバー
 2020/07/22-00:00:01 03 Umayon|うまよん
 2020/07/22-00:00:01 03 Muhyo to Roji no Mahouritsu Soudan Jimusho (2020)|ムヒョとロージーの魔法律相談事務所(第2期)
@@ -28,7 +29,6 @@ Last Update: 2020/07/22-06:00:01
 2020/07/16-06:00:01 01 Gibiate|ジビエート
 2020/07/16-00:00:01 39 Ahiru no Sora|あひるの空
 2020/07/16-00:00:01 02 Re Zero kara Hajimeru Isekai Seikatsu 2nd Season|Re：ゼロから始める異世界生活 2nd season
-2020/07/15-12:00:01 02 Yichang Shengwu Jianwen Lu|異常生物見聞録
 2020/07/05-12:00:01 03 Hulaing Babies Aratame Staying Babies|ステイングベイビーズ
 2020/05/23-00:00:02 15 Toaru Kagaku no Railgun T|とある科学の超電磁砲T
 2020/05/01-06:00:01 02 Gekijouban Soushuuhen Made in Abyss|劇場版総集編 メイドインアビス
