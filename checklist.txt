@@ -1,4 +1,9 @@
-Last Update: 2020/08/04-18:00:02
+Last Update: 2020/08/05-00:00:01
+2020/08/05-00:00:01 137 Black Clover|ブラッククローバー
+2020/08/05-00:00:01 05 Umayon|うまよん
+2020/08/05-00:00:01 05 Muhyo to Roji no Mahouritsu Soudan Jimusho (2020)|ムヒョとロージーの魔法律相談事務所(第2期)
+2020/08/05-00:00:01 05 Houkago Teibou Nisshi|放課後ていぼう日誌
+2020/08/05-00:00:01 05 Bang Dream! Garupa Pico Oomori|BanG Dream! ガルパ☆ピコ～大盛り～
 2020/08/04-12:00:01 18 Fruits Basket (2020)|フルーツバスケット 2nd season
 2020/08/04-06:00:01 05 The God of High School|THE GOD OF HIGH SCHOOL ゴッド・オブ・ハイスクール
 2020/08/03-06:00:02 04 Monster Musume no Oisha-san|モンスター娘のお医者さん
@@ -29,9 +34,4 @@ Last Update: 2020/08/04-18:00:02
 2020/07/30-06:00:01 03 Gibiate|ジビエート
 2020/07/30-00:00:01 41 Ahiru no Sora|あひるの空
 2020/07/29-12:00:02 04 Yichang Shengwu Jianwen Lu|異常生物見聞録
-2020/07/29-00:00:01 136 Black Clover|ブラッククローバー
-2020/07/29-00:00:01 04 Umayon|うまよん
-2020/07/29-00:00:01 04 Muhyo to Roji no Mahouritsu Soudan Jimusho (2020)|ムヒョとロージーの魔法律相談事務所(第2期)
-2020/07/29-00:00:01 04 Houkago Teibou Nisshi|放課後ていぼう日誌
-2020/07/29-00:00:01 04 Bang Dream! Garupa Pico Oomori|BanG Dream! ガルパ☆ピコ～大盛り～
 2020/07/27-06:00:01 04.5 Hulaing Babies Aratame Staying Babies|ステイングベイビーズ
