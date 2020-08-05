@@ -1,4 +1,7 @@
-Last Update: 2020/08/05-18:00:01
+Last Update: 2020/08/06-00:00:01
+2020/08/06-00:00:01 42 Ahiru no Sora|あひるの空
+2020/08/06-00:00:01 05 Re Zero kara Hajimeru Isekai Seikatsu 2nd Season|Re：ゼロから始める異世界生活 2nd season
+2020/08/06-00:00:01 04 Gibiate|ジビエート
 2020/08/05-12:00:01 05 Yichang Shengwu Jianwen Lu|異常生物見聞録
 2020/08/05-00:00:01 137 Black Clover|ブラッククローバー
 2020/08/05-00:00:01 05 Umayon|うまよん
@@ -30,8 +33,5 @@ Last Update: 2020/08/05-18:00:01
 2020/08/01-00:00:01 04 Great Pretender|GREAT PRETENDER
 2020/08/01-00:00:01 03 Fugou Keiji - Balance Unlimited|富豪刑事 Balance：UNLIMITED
 2020/07/31-12:00:01 03 Koi to Producer Evol x Love|恋とプロデューサー～EVOL×LOVE～
-2020/07/30-06:00:01 04 Re Zero kara Hajimeru Isekai Seikatsu 2nd Season|Re：ゼロから始める異世界生活 2nd season
 2020/07/30-06:00:01 04 Deca-Dence|デカダンス
-2020/07/30-06:00:01 03 Gibiate|ジビエート
-2020/07/30-00:00:01 41 Ahiru no Sora|あひるの空
 2020/07/27-06:00:01 04.5 Hulaing Babies Aratame Staying Babies|ステイングベイビーズ
