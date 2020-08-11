@@ -3,6 +3,7 @@ MAILTO=""
 5-50/15 * * * * /home/swirhen/sh/upip.sh
 0 0 * * * /home/swirhen/sh/upip.sh f
 */15 * * * * /home/swirhen/sh/checkdatadrv.sh
+*/5 * * * * /home/swirhen/sh/checkmysqlservice.sh
 @reboot /home/swirhen/sh/tiarrakw.sh
 @reboot /home/swirhen/sh/tigkw.sh
 @reboot mkdir /tmp/vga
