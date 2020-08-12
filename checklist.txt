@@ -1,4 +1,9 @@
-Last Update: 2020/08/12-18:00:02
+Last Update: 2020/08/13-00:00:01
+2020/08/13-00:00:01 43 Ahiru no Sora|あひるの空
+2020/08/13-00:00:01 06 Yichang Shengwu Jianwen Lu|異常生物見聞録
+2020/08/13-00:00:01 06 The God of High School|THE GOD OF HIGH SCHOOL ゴッド・オブ・ハイスクール
+2020/08/13-00:00:01 06 Re Zero kara Hajimeru Isekai Seikatsu 2nd Season|Re：ゼロから始める異世界生活 2nd season
+2020/08/13-00:00:01 05 Gibiate|ジビエート
 2020/08/12-00:00:01 138 Black Clover|ブラッククローバー
 2020/08/12-00:00:01 06 Umayon|うまよん
 2020/08/12-00:00:01 06 Muhyo to Roji no Mahouritsu Soudan Jimusho (2020)|ムヒョとロージーの魔法律相談事務所(第2期)
@@ -27,11 +32,6 @@ Last Update: 2020/08/12-18:00:02
 2020/08/07-06:00:01 04 Fugou Keiji - Balance Unlimited|富豪刑事 Balance：UNLIMITED
 2020/08/07-00:00:02 05 Great Pretender|GREAT PRETENDER
 2020/08/06-06:00:01 05 Deca-Dence|デカダンス
-2020/08/06-00:00:01 42 Ahiru no Sora|あひるの空
-2020/08/06-00:00:01 05 Re Zero kara Hajimeru Isekai Seikatsu 2nd Season|Re：ゼロから始める異世界生活 2nd season
-2020/08/06-00:00:01 04 Gibiate|ジビエート
-2020/08/05-12:00:01 05 Yichang Shengwu Jianwen Lu|異常生物見聞録
-2020/08/04-06:00:01 05 The God of High School|THE GOD OF HIGH SCHOOL ゴッド・オブ・ハイスクール
 2020/08/02-00:00:01 12 Bungou to Alchemist Shinpan no Haguruma|文豪とアルケミスト ～審判ノ歯車～
 2020/08/02-00:00:01 04 Strike the Blood IV|ストライク・ザ・ブラッドIV
 2020/07/27-06:00:01 04.5 Hulaing Babies Aratame Staying Babies|ステイングベイビーズ
