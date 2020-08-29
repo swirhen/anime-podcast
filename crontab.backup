@@ -66,7 +66,7 @@ MAILTO=""
 # -- SAT
 59 13 * * 6 /data/share/movie/sh/agqrrecord.sh "原田彩楓のさやのま" 45 1800 v
 29 14 * * 6 /data/share/movie/sh/agqrrecord.sh "サンセルモ presents 結婚式は あいのなかで" 45 1800 v
-29 18 * * 6 /data/share/movie/sh/agqrrecord.sh "髙森奈津美とおちゃっちゃしよ？" 45 1800 v
+29 18 * * 6 /data/share/movie/sh/agqrrecord.sh "武田羅梨沙多胡・山根綺のぐろばる" 45 1800 v
 59 18 * * 6 /data/share/movie/sh/radikorec.sh -o "A＆Gリクエストアワー 阿澄佳奈のキミまち！" -t 7260 QRR
 59 19 * * 6 /data/share/movie/sh/agqrrecord.sh "フレッシュたかまつ" 45 1800
 29 20 * * 6 /data/share/movie/sh/agqrrecord.sh "内田真礼とおはなししません？" 45 1800
