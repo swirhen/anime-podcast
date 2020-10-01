@@ -1,4 +1,7 @@
-Last Update: 2020/10/02-00:00:01
+Last Update: 2020/10/02-06:00:01
+2020/10/02-06:00:01 22 Mewkledreamy|ミュークルドリーミー
+2020/10/02-06:00:01 0 Higurashi no Naku Koro ni (2020)|ひぐらしのなく頃に(新)
+2020/10/02-06:00:01 0 Assault Lily Bouquet|アサルトリリィ BOUQUET
 2020/10/02-00:00:01 13 Great Pretender|GREAT PRETENDER
 2020/09/30-00:00:01 145 Black Clover|ブラッククローバー
 2020/09/30-00:00:01 13 Bang Dream! Garupa Pico Oomori|BanG Dream! ガルパ☆ピコ～大盛り～
@@ -7,7 +10,6 @@ Last Update: 2020/10/02-00:00:01
 2020/09/27-12:00:02 119 Kiratto Pri-chan|キラッとプリ☆チャン
 2020/09/26-06:00:01 13 En`en no Shouboutai Ni no Shou|炎炎ノ消防隊 弐ノ章
 2020/09/26-06:00:01 01 Ochikobore Fruit Tart|おちこぼれフルーツタルト
-2020/09/25-06:00:01 21 Mewkledreamy|ミュークルドリーミー
 2020/09/25-00:00:01 11 Koi to Producer Evol x Love|恋とプロデューサー～EVOL×LOVE～
 2020/09/24-00:00:01 49 Ahiru no Sora|あひるの空
 2020/09/17-00:00:01 11 Yichang Shengwu Jianwen Lu|異常生物見聞録
