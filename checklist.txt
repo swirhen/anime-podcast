@@ -1,4 +1,7 @@
-Last Update: 2020/10/06-18:00:01
+Last Update: 2020/10/07-00:00:01
+2020/10/07-00:00:01 146 Black Clover|ブラッククローバー
+2020/10/07-00:00:01 14 Bang Dream! Garupa Pico Oomori|BanG Dream! ガルパ☆ピコ～大盛り～
+2020/10/07-00:00:01 0 Maou-jou de Oyasumi|魔王城でおやすみ
 2020/10/06-12:00:01 01 One Room Third Season|One Room サードシーズン
 2020/10/06-12:00:01 01 Golden Kamuy (2020)|ゴールデンカムイ(第三期)
 2020/10/06-06:00:01 01 KV|100万の命の上に俺は立っている
@@ -23,8 +26,6 @@ Last Update: 2020/10/06-18:00:01
 2020/10/02-12:00:01 01 Assault Lily Bouquet|アサルトリリィ BOUQUET
 2020/10/02-06:00:01 22 Mewkledreamy|ミュークルドリーミー
 2020/10/02-00:00:01 13 Great Pretender|GREAT PRETENDER
-2020/09/30-00:00:01 145 Black Clover|ブラッククローバー
-2020/09/30-00:00:01 13 Bang Dream! Garupa Pico Oomori|BanG Dream! ガルパ☆ピコ～大盛り～
 2020/09/26-06:00:01 01 Ochikobore Fruit Tart|おちこぼれフルーツタルト
 2020/09/25-00:00:01 11 Koi to Producer Evol x Love|恋とプロデューサー～EVOL×LOVE～
 2020/09/24-00:00:01 49 Ahiru no Sora|あひるの空
