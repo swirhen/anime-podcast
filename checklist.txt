@@ -1,11 +1,17 @@
-Last Update: 2020/10/10-00:00:01
+Last Update: 2020/10/10-06:00:01
+2020/10/10-06:00:01 15 En`en no Shouboutai Ni no Shou|炎炎ノ消防隊 弐ノ章
+2020/10/10-06:00:01 02 Tonikaku Kawaii|トニカクカワイイ
+2020/10/10-06:00:01 02 Rail Romanesque|レヱル・ロマネスク
+2020/10/10-06:00:01 02 King`s Raid Ishi o Tsugu Mono-tachi|キングスレイド 意志を継ぐものたち
+2020/10/10-06:00:01 02 Jujutsu Kaisen|呪術廻戦
+2020/10/10-06:00:01 02 Haikyuu!! To the Top (2020)|ハイキュー!! TO THE TOP(第2クール)
+2020/10/10-06:00:01 02 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka Familia Myth III|劇場版 ダンジョンに出会いを求めるのは間違っているだろうか -オリオンの矢-
 2020/10/10-00:00:01 02 Majo no Tabitabi|魔女の旅々
 2020/10/10-00:00:01 02 KV|100万の命の上に俺は立っている
 2020/10/09-12:00:01 01 Adachi to Shimamura|安達としまむら
 2020/10/09-06:00:01 23 Mewkledreamy|ミュークルドリーミー
 2020/10/09-06:00:01 02 Higurashi no Naku Koro ni (2020)|ひぐらしのなく頃に(新)
 2020/10/09-06:00:01 02 Assault Lily Bouquet|アサルトリリィ BOUQUET
-2020/10/09-06:00:01 01 King`s Raid Ishi o Tsugu Mono-tachi|キングスレイド 意志を継ぐものたち
 2020/10/09-06:00:01 01 Guraburu!|ぐらぶるっ！
 2020/10/09-06:00:01 01 Akudama Drive|アクダマドライブ
 2020/10/08-18:00:01 01 Eternity Shin`ya no Nurekoi Channel|エタニティ ～深夜の濡恋ちゃんねる♡～
@@ -25,17 +31,11 @@ Last Update: 2020/10/10-00:00:01
 2020/10/05-06:00:01 01 Iwa Kakeru! Sport Climbing Girls|いわかける！ -Sport Climbing Girls-
 2020/10/04-18:00:01 01 Sen`yoku no Sigrdrifa|戦翼のシグルドリーヴァ
 2020/10/04-18:00:01 01 Han`you no Yashahime Sengoku Otogizoushi|半妖の夜叉姫
-2020/10/04-18:00:01 01 Haikyuu!! To the Top (2020)|ハイキュー!! TO THE TOP(第2クール)
 2020/10/04-12:00:02 27 Healin` Good Precure|ヒーリングっど♡プリキュア
 2020/10/04-12:00:02 18 Digimon Adventure;|デジモンアドベンチャー：
 2020/10/04-12:00:02 120 Kiratto Pri-chan|キラッとプリ☆チャン
 2020/10/04-12:00:02 01 Mahouka Koukou no Rettousei Raihousha Hen|魔法科高校の劣等生 来訪者編
 2020/10/04-06:00:01 01 Love Live! Nijigasaki Gakuen School Idol Doukoukai|ラブライブ！虹ヶ咲学園スクールアイドル同好会
-2020/10/03-12:00:01 01 Tonikaku Kawaii|トニカクカワイイ
-2020/10/03-12:00:01 01 Rail Romanesque|レヱル・ロマネスク
-2020/10/03-12:00:01 01 Jujutsu Kaisen|呪術廻戦
-2020/10/03-12:00:01 01 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka Familia Myth III|劇場版 ダンジョンに出会いを求めるのは間違っているだろうか -オリオンの矢-
-2020/10/03-06:00:01 14 En`en no Shouboutai Ni no Shou|炎炎ノ消防隊 弐ノ章
 2020/09/26-06:00:01 01 Ochikobore Fruit Tart|おちこぼれフルーツタルト
 2020/09/25-00:00:01 11 Koi to Producer Evol x Love|恋とプロデューサー～EVOL×LOVE～
 2020/09/24-00:00:01 49 Ahiru no Sora|あひるの空
