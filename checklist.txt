@@ -1,4 +1,6 @@
-Last Update: 2020/10/09-18:00:02
+Last Update: 2020/10/10-00:00:01
+2020/10/10-00:00:01 02 Majo no Tabitabi|魔女の旅々
+2020/10/10-00:00:01 02 KV|100万の命の上に俺は立っている
 2020/10/09-12:00:01 01 Adachi to Shimamura|安達としまむら
 2020/10/09-06:00:01 23 Mewkledreamy|ミュークルドリーミー
 2020/10/09-06:00:01 02 Higurashi no Naku Koro ni (2020)|ひぐらしのなく頃に(新)
@@ -18,7 +20,6 @@ Last Update: 2020/10/09-18:00:02
 2020/10/07-00:00:01 14 Bang Dream! Garupa Pico Oomori|BanG Dream! ガルパ☆ピコ～大盛り～
 2020/10/06-12:00:01 01 One Room Third Season|One Room サードシーズン
 2020/10/06-12:00:01 01 Golden Kamuy (2020)|ゴールデンカムイ(第三期)
-2020/10/06-06:00:01 01 KV|100万の命の上に俺は立っている
 2020/10/05-12:00:01 01 Kami-tachi ni Hirowareta Otoko|神達に拾われた男
 2020/10/05-06:00:01 01 Munou na Nana|無能なナナ
 2020/10/05-06:00:01 01 Iwa Kakeru! Sport Climbing Girls|いわかける！ -Sport Climbing Girls-
@@ -32,7 +33,6 @@ Last Update: 2020/10/09-18:00:02
 2020/10/04-06:00:01 01 Love Live! Nijigasaki Gakuen School Idol Doukoukai|ラブライブ！虹ヶ咲学園スクールアイドル同好会
 2020/10/03-12:00:01 01 Tonikaku Kawaii|トニカクカワイイ
 2020/10/03-12:00:01 01 Rail Romanesque|レヱル・ロマネスク
-2020/10/03-12:00:01 01 Majo no Tabitabi|魔女の旅々
 2020/10/03-12:00:01 01 Jujutsu Kaisen|呪術廻戦
 2020/10/03-12:00:01 01 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka Familia Myth III|劇場版 ダンジョンに出会いを求めるのは間違っているだろうか -オリオンの矢-
 2020/10/03-06:00:01 14 En`en no Shouboutai Ni no Shou|炎炎ノ消防隊 弐ノ章
