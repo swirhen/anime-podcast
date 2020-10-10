@@ -1,5 +1,6 @@
-Last Update: 2020/10/10-12:00:01
-0 0 Dqdai|ドラゴンクエスト ダイの大冒険
+Last Update: 2020/10/10-18:00:01
+2020/10/10-18:00:01 05 Strike the Blood IV|ストライク・ザ・ブラッドIV
+2020/10/10-18:00:01 01 Dqdai|ドラゴンクエスト ダイの大冒険
 2020/10/10-06:00:01 15 En`en no Shouboutai Ni no Shou|炎炎ノ消防隊 弐ノ章
 2020/10/10-06:00:01 02 Tonikaku Kawaii|トニカクカワイイ
 2020/10/10-06:00:01 02 Rail Romanesque|レヱル・ロマネスク
@@ -41,5 +42,4 @@ Last Update: 2020/10/10-12:00:01
 2020/09/25-00:00:01 11 Koi to Producer Evol x Love|恋とプロデューサー～EVOL×LOVE～
 2020/09/24-00:00:01 49 Ahiru no Sora|あひるの空
 2020/09/17-00:00:01 12 Yichang Shengwu Jianwen Lu|異常生物見聞録
-2020/08/02-00:00:01 04 Strike the Blood IV|ストライク・ザ・ブラッドIV
 2020/07/27-06:00:01 04.5 Hulaing Babies Aratame Staying Babies|ステイングベイビーズ
