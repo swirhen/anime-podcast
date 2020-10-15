@@ -1,4 +1,8 @@
-Last Update: 2020/10/15-18:00:01
+Last Update: 2020/10/16-00:00:02
+2020/10/16-00:00:02 02 Noblesse|NOBLESSE -ノブレス-
+2020/10/16-00:00:02 02 Guraburu!|ぐらぶるっ！
+2020/10/16-00:00:02 02 Akudama Drive|アクダマドライブ
+2020/10/16-00:00:02 0 Osomatsu-san 3|おそ松さん(第3期)
 2020/10/15-12:00:01 02 Strike Witches Road to Berlin|ストライクウィッチーズ ROAD to BERLIN
 2020/10/15-06:00:01 01 Dogeza de Tanondemita|土下座で頼んでみた
 2020/10/15-00:00:01 02 Kuma Kuma Kuma Bear|100万の命の上に俺は立っている
@@ -40,10 +44,7 @@ Last Update: 2020/10/15-18:00:01
 2020/10/09-12:00:01 01 Adachi to Shimamura|安達としまむら
 2020/10/09-06:00:01 02 Higurashi no Naku Koro ni (2020)|ひぐらしのなく頃に(新)
 2020/10/09-06:00:01 02 Assault Lily Bouquet|アサルトリリィ BOUQUET
-2020/10/09-06:00:01 01 Guraburu!|ぐらぶるっ！
-2020/10/09-06:00:01 01 Akudama Drive|アクダマドライブ
 2020/10/08-12:00:01 01 kimisen|キミと僕の最後の戦場、あるいは世界が始まる聖戦
-2020/10/08-12:00:01 01 Noblesse|NOBLESSE -ノブレス-
 2020/10/08-06:00:01 14 Great Pretender|GREAT PRETENDER
 2020/09/26-06:00:01 01 Ochikobore Fruit Tart|おちこぼれフルーツタルト
 2020/09/25-00:00:01 11 Koi to Producer Evol x Love|恋とプロデューサー～EVOL×LOVE～
