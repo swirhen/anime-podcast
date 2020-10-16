@@ -1,4 +1,11 @@
-Last Update: 2020/10/17-00:00:01
+Last Update: 2020/10/17-06:00:01
+2020/10/17-06:00:01 16 En`en no Shouboutai Ni no Shou|炎炎ノ消防隊 弐ノ章
+2020/10/17-06:00:01 03 Tonikaku Kawaii|トニカクカワイイ
+2020/10/17-06:00:01 03 Rail Romanesque|レヱル・ロマネスク
+2020/10/17-06:00:01 03 King`s Raid Ishi o Tsugu Mono-tachi|キングスレイド 意志を継ぐものたち
+2020/10/17-06:00:01 03 Jujutsu Kaisen|呪術廻戦
+2020/10/17-06:00:01 03 Haikyuu!! To the Top (2020)|ハイキュー!! TO THE TOP(第2クール)
+2020/10/17-06:00:01 03 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka Familia Myth III|劇場版 ダンジョンに出会いを求めるのは間違っているだろうか -オリオンの矢-
 2020/10/17-00:00:01 03 Majo no Tabitabi|魔女の旅々
 2020/10/17-00:00:01 03 KV|100万の命の上に俺は立っている
 2020/10/16-06:00:01 03 Higurashi no Naku Koro ni (2020)|ひぐらしのなく頃に(新)
@@ -37,13 +44,6 @@ Last Update: 2020/10/17-00:00:01
 2020/10/11-00:00:01 02 Love Live! Nijigasaki Gakuen School Idol Doukoukai|ラブライブ！虹ヶ咲学園スクールアイドル同好会
 2020/10/11-00:00:01 02 Han`you no Yashahime Sengoku Otogizoushi|半妖の夜叉姫
 2020/10/11-00:00:01 02 Dqdai|ドラゴンクエスト ダイの大冒険
-2020/10/10-06:00:01 15 En`en no Shouboutai Ni no Shou|炎炎ノ消防隊 弐ノ章
-2020/10/10-06:00:01 02 Tonikaku Kawaii|トニカクカワイイ
-2020/10/10-06:00:01 02 Rail Romanesque|レヱル・ロマネスク
-2020/10/10-06:00:01 02 King`s Raid Ishi o Tsugu Mono-tachi|キングスレイド 意志を継ぐものたち
-2020/10/10-06:00:01 02 Jujutsu Kaisen|呪術廻戦
-2020/10/10-06:00:01 02 Haikyuu!! To the Top (2020)|ハイキュー!! TO THE TOP(第2クール)
-2020/10/10-06:00:01 02 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka Familia Myth III|劇場版 ダンジョンに出会いを求めるのは間違っているだろうか -オリオンの矢-
 2020/10/08-12:00:01 01 kimisen|キミと僕の最後の戦場、あるいは世界が始まる聖戦
 2020/10/08-06:00:01 14 Great Pretender|GREAT PRETENDER
 2020/09/26-06:00:01 01 Ochikobore Fruit Tart|おちこぼれフルーツタルト
