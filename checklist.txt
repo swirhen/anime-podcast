@@ -1,4 +1,6 @@
-Last Update: 2020/10/16-18:00:01
+Last Update: 2020/10/17-00:00:01
+2020/10/17-00:00:01 03 Majo no Tabitabi|魔女の旅々
+2020/10/17-00:00:01 03 KV|100万の命の上に俺は立っている
 2020/10/16-06:00:01 03 Higurashi no Naku Koro ni (2020)|ひぐらしのなく頃に(新)
 2020/10/16-06:00:01 03 Assault Lily Bouquet|アサルトリリィ BOUQUET
 2020/10/16-06:00:01 02 Adachi to Shimamura|安達としまむら
@@ -42,8 +44,6 @@ Last Update: 2020/10/16-18:00:01
 2020/10/10-06:00:01 02 Jujutsu Kaisen|呪術廻戦
 2020/10/10-06:00:01 02 Haikyuu!! To the Top (2020)|ハイキュー!! TO THE TOP(第2クール)
 2020/10/10-06:00:01 02 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka Familia Myth III|劇場版 ダンジョンに出会いを求めるのは間違っているだろうか -オリオンの矢-
-2020/10/10-00:00:01 02 Majo no Tabitabi|魔女の旅々
-2020/10/10-00:00:01 02 KV|100万の命の上に俺は立っている
 2020/10/08-12:00:01 01 kimisen|キミと僕の最後の戦場、あるいは世界が始まる聖戦
 2020/10/08-06:00:01 14 Great Pretender|GREAT PRETENDER
 2020/09/26-06:00:01 01 Ochikobore Fruit Tart|おちこぼれフルーツタルト
