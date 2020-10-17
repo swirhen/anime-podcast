@@ -1,4 +1,6 @@
-Last Update: 2020/10/17-18:00:01
+Last Update: 2020/10/18-00:00:01
+2020/10/18-00:00:01 03 Han`you no Yashahime Sengoku Otogizoushi|半妖の夜叉姫
+2020/10/18-00:00:01 02 Gochuumon wa Usagi Desuka Bloom|ご注文はうさぎですか？BLOOM
 2020/10/17-12:00:01 03 Dqdai|ドラゴンクエスト ダイの大冒険
 2020/10/17-06:00:01 16 En`en no Shouboutai Ni no Shou|炎炎ノ消防隊 弐ノ章
 2020/10/17-06:00:01 03 Tonikaku Kawaii|トニカクカワイイ
@@ -30,7 +32,6 @@ Last Update: 2020/10/17-18:00:01
 2020/10/12-12:00:01 01 Maesetsu! Opening Act|まえせつ！
 2020/10/12-06:00:02 02 Kami-tachi ni Hirowareta Otoko|神達に拾われた男
 2020/10/12-06:00:02 01 Yuukoku no Moriarty|憂国のモリアーティ
-2020/10/12-06:00:02 01 Gochuumon wa Usagi Desuka Bloom|ご注文はうさぎですか？BLOOM
 2020/10/12-00:00:01 02 Munou na Nana|無能なナナ
 2020/10/11-18:00:01 01 Taisou Zamurai|体操ザムライ
 2020/10/11-12:00:01 28 Healin` Good Precure|ヒーリングっど♡プリキュア
@@ -43,7 +44,6 @@ Last Update: 2020/10/17-18:00:01
 2020/10/11-06:00:01 02 Mahouka Koukou no Rettousei Raihousha Hen|魔法科高校の劣等生 来訪者編
 2020/10/11-00:00:01 06 Strike the Blood IV|ストライク・ザ・ブラッドIV
 2020/10/11-00:00:01 02 Love Live! Nijigasaki Gakuen School Idol Doukoukai|ラブライブ！虹ヶ咲学園スクールアイドル同好会
-2020/10/11-00:00:01 02 Han`you no Yashahime Sengoku Otogizoushi|半妖の夜叉姫
 2020/10/08-12:00:01 01 kimisen|キミと僕の最後の戦場、あるいは世界が始まる聖戦
 2020/10/08-06:00:01 14 Great Pretender|GREAT PRETENDER
 2020/09/26-06:00:01 01 Ochikobore Fruit Tart|おちこぼれフルーツタルト
