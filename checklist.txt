@@ -1,4 +1,6 @@
-Last Update: 2020/10/23-18:00:01
+Last Update: 2020/10/24-00:00:01
+2020/10/24-00:00:01 04 Majo no Tabitabi|魔女の旅々
+2020/10/24-00:00:01 04 KV|100万の命の上に俺は立っている
 2020/10/23-06:00:01 04 Higurashi no Naku Koro ni (2020)|ひぐらしのなく頃に(新)
 2020/10/23-06:00:01 04 Assault Lily Bouquet|アサルトリリィ BOUQUET
 2020/10/23-06:00:01 03 Adachi to Shimamura|安達としまむら
@@ -43,8 +45,6 @@ Last Update: 2020/10/23-18:00:01
 2020/10/17-06:00:01 03 Jujutsu Kaisen|呪術廻戦
 2020/10/17-06:00:01 03 Haikyuu!! To the Top (2020)|ハイキュー!! TO THE TOP(第2クール)
 2020/10/17-06:00:01 03 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka Familia Myth III|劇場版 ダンジョンに出会いを求めるのは間違っているだろうか -オリオンの矢-
-2020/10/17-00:00:01 03 Majo no Tabitabi|魔女の旅々
-2020/10/17-00:00:01 03 KV|100万の命の上に俺は立っている
 2020/10/11-00:00:01 06 Strike the Blood IV|ストライク・ザ・ブラッドIV
 2020/10/08-12:00:01 01 kimisen|キミと僕の最後の戦場、あるいは世界が始まる聖戦
 2020/09/25-00:00:01 11 Koi to Producer Evol x Love|恋とプロデューサー～EVOL×LOVE～
