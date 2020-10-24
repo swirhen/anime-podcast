@@ -1,4 +1,6 @@
-Last Update: 2020/10/24-06:00:01
+Last Update: 2020/10/24-12:00:01
+2020/10/24-12:00:01 04 Haikyuu!! To the Top (2020)|ハイキュー!! TO THE TOP(第2クール)
+2020/10/24-12:00:01 04 Dqdai|ドラゴンクエスト ダイの大冒険
 2020/10/24-06:00:01 17 En`en no Shouboutai Ni no Shou|炎炎ノ消防隊 弐ノ章
 2020/10/24-06:00:01 04 Tonikaku Kawaii|トニカクカワイイ
 2020/10/24-06:00:01 04 Rail Romanesque|レヱル・ロマネスク
@@ -43,8 +45,6 @@ Last Update: 2020/10/24-06:00:01
 2020/10/18-06:00:01 02 Kamisama ni Natta Hi|神様になった日
 2020/10/18-00:00:01 03 Han`you no Yashahime Sengoku Otogizoushi|半妖の夜叉姫
 2020/10/18-00:00:01 02 Gochuumon wa Usagi Desuka Bloom|ご注文はうさぎですか？BLOOM
-2020/10/17-12:00:01 03 Dqdai|ドラゴンクエスト ダイの大冒険
-2020/10/17-06:00:01 03 Haikyuu!! To the Top (2020)|ハイキュー!! TO THE TOP(第2クール)
 2020/10/11-00:00:01 06 Strike the Blood IV|ストライク・ザ・ブラッドIV
 2020/10/08-12:00:01 01 kimisen|キミと僕の最後の戦場、あるいは世界が始まる聖戦
 2020/09/25-00:00:01 11 Koi to Producer Evol x Love|恋とプロデューサー～EVOL×LOVE～
