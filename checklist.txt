@@ -1,7 +1,14 @@
-Last Update: 2020/10/31-00:00:01
+Last Update: 2020/10/31-06:00:01
+2020/10/31-06:00:01 18 En`en no Shouboutai Ni no Shou|炎炎ノ消防隊 弐ノ章
+2020/10/31-06:00:01 05 Tonikaku Kawaii|トニカクカワイイ
+2020/10/31-06:00:01 05 Rail Romanesque|レヱル・ロマネスク
+2020/10/31-06:00:01 05 King`s Raid Ishi o Tsugu Mono-tachi|キングスレイド 意志を継ぐものたち
+2020/10/31-06:00:01 05 Jujutsu Kaisen|呪術廻戦
+2020/10/31-06:00:01 05 Haikyuu!! To the Top (2020)|ハイキュー!! TO THE TOP(第2クール)
+2020/10/31-06:00:01 05 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka Familia Myth III|劇場版 ダンジョンに出会いを求めるのは間違っているだろうか -オリオンの矢-
+2020/10/31-06:00:01 01 D4DJ First Mix|D4DJ First Mix
 2020/10/31-00:00:01 05 Majo no Tabitabi|魔女の旅々
 2020/10/31-00:00:01 05 KV|100万の命の上に俺は立っている
-2020/10/31-00:00:01 0 D4DJ First Mix|D4DJ First Mix
 2020/10/30-06:00:01 05 Higurashi no Naku Koro ni (2020)|ひぐらしのなく頃に(新)
 2020/10/30-06:00:01 05 Assault Lily Bouquet|アサルトリリィ BOUQUET
 2020/10/30-06:00:01 04 Adachi to Shimamura|安達としまむら
@@ -39,12 +46,5 @@ Last Update: 2020/10/31-00:00:01
 2020/10/25-06:00:01 03 Kamisama ni Natta Hi|神様になった日
 2020/10/25-00:00:02 04 Han`you no Yashahime Sengoku Otogizoushi|半妖の夜叉姫
 2020/10/25-00:00:02 03 Gochuumon wa Usagi Desuka Bloom|ご注文はうさぎですか？BLOOM
-2020/10/24-12:00:01 04 Haikyuu!! To the Top (2020)|ハイキュー!! TO THE TOP(第2クール)
 2020/10/24-12:00:01 04 Dqdai|ドラゴンクエスト ダイの大冒険
-2020/10/24-06:00:01 17 En`en no Shouboutai Ni no Shou|炎炎ノ消防隊 弐ノ章
-2020/10/24-06:00:01 04 Tonikaku Kawaii|トニカクカワイイ
-2020/10/24-06:00:01 04 Rail Romanesque|レヱル・ロマネスク
-2020/10/24-06:00:01 04 King`s Raid Ishi o Tsugu Mono-tachi|キングスレイド 意志を継ぐものたち
-2020/10/24-06:00:01 04 Jujutsu Kaisen|呪術廻戦
-2020/10/24-06:00:01 04 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka Familia Myth III|劇場版 ダンジョンに出会いを求めるのは間違っているだろうか -オリオンの矢-
 2020/10/08-12:00:01 01 kimisen|キミと僕の最後の戦場、あるいは世界が始まる聖戦
