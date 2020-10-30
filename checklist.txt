@@ -1,4 +1,7 @@
-Last Update: 2020/10/30-18:00:01
+Last Update: 2020/10/31-00:00:01
+2020/10/31-00:00:01 05 Majo no Tabitabi|魔女の旅々
+2020/10/31-00:00:01 05 KV|100万の命の上に俺は立っている
+2020/10/31-00:00:01 0 D4DJ First Mix|D4DJ First Mix
 2020/10/30-06:00:01 05 Higurashi no Naku Koro ni (2020)|ひぐらしのなく頃に(新)
 2020/10/30-06:00:01 05 Assault Lily Bouquet|アサルトリリィ BOUQUET
 2020/10/30-06:00:01 04 Adachi to Shimamura|安達としまむら
@@ -44,6 +47,4 @@ Last Update: 2020/10/30-18:00:01
 2020/10/24-06:00:01 04 King`s Raid Ishi o Tsugu Mono-tachi|キングスレイド 意志を継ぐものたち
 2020/10/24-06:00:01 04 Jujutsu Kaisen|呪術廻戦
 2020/10/24-06:00:01 04 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka Familia Myth III|劇場版 ダンジョンに出会いを求めるのは間違っているだろうか -オリオンの矢-
-2020/10/24-00:00:01 04 Majo no Tabitabi|魔女の旅々
-2020/10/24-00:00:01 04 KV|100万の命の上に俺は立っている
 2020/10/08-12:00:01 01 kimisen|キミと僕の最後の戦場、あるいは世界が始まる聖戦
