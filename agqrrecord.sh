@@ -61,7 +61,7 @@ cd "/data/share/movie/98 PSP用/agqr/flv"
 # リスト作成
 rm -f "list_${efilename}"
 touch "list_${efilename}"
-for file in `$efilename.*`
+for file in $efilename.*
 do
     echo "file ${file}" >> "${$efilename}.list"
 done
