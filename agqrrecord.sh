@@ -57,6 +57,7 @@ do
     #echo "elapsed: ${elapsed}"
     #rectime_rem=`expr ${rectime} - ${elapsed}`
     rectime_rem=`expr ${rectime} - ${mov_duration}`
+    rectime=${rectime_rem}
     file_num=$(( 10#${file_num} + 1 ))
     file_num_zp="0${file_num}"
     file_num="${file_num_zp: -2}"
