@@ -9,7 +9,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE:-$0}")"; pwd)"
 PYTHON_PATH="python3"
 FILE=${SCRIPT_DIR}/aandg
 FILE2=${SCRIPT_DIR}/aandg2
-REC_FILE=${SCRIPT_DIR}/agqr_rec
+REC_FILE=${SCRIPT_DIR}/agqr_rec.mp4
 
 #num=`expr $RANDOM % 2 + 1`
 num=1
