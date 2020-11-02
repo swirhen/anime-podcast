@@ -34,47 +34,40 @@ MAILTO=""
 # SP
 
 # 帯
-#59 19 * * 1 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 黒沢ともよ" 45 3600 v
-#59 19 * * 2 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 深川芹亜" 45 3600 v
-#59 19 * * 3 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 田中美海" 45 3600 v
-#59 19 * * 4 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 松田利冴" 45 3600 v
-#59 19 * * 5 /data/share/movie/sh/agqrrecord.sh "A&G NEXT BREAKS FIVE STARS 吉田有里" 45 3600 v
-59 23 * * 1-4 /data/share/movie/sh/agqrrecord.sh "鷲崎健のヨルナイト×ヨルナイト" 45 3600 v
+59 23 * * 1-4 /data/share/movie/sh/agqrrecord.sh "鷲崎健のヨルナイト×ヨルナイト" 90 3600 v
 # -- MON
-#29 17 * 4,5,6 1 /data/share/movie/sh/agqrrecord.sh "大久保瑠美・桑原由気 まなべる！ライトノベル！" 45 1800 v
-59 21 * * 1 /data/share/movie/sh/agqrrecord.sh "井口裕香のむ～～～ん⊂（　＾ω＾）⊃" 45 3600 v
-59 22 * * 1 /data/share/movie/sh/agqrrecord.sh "東山奈央のラジオ＠リビング" 45 1800
-29 23 * * 1 /data/share/movie/sh/agqrrecord.sh "山崎はるかとまるぴ……近っっ！！" 45 1800 v
-#59 0 * * 2 /data/share/movie/sh/agqrrecord.sh "西明日香のデリケートゾーン！" 45 1800 v
-29 2 * * 2 /data/share/movie/sh/agqrrecord.sh "佐藤亜美菜のアミメン！" 45 1800 v
-59 2 * * 2 /data/share/movie/sh/agqrrecord.sh "伊福部崇のラジオのラジオ" 45 1800
+#29 17 * 4,5,6 1 /data/share/movie/sh/agqrrecord.sh "大久保瑠美・桑原由気 まなべる！ライトノベル！" 90 1800 v
+59 21 * * 1 /data/share/movie/sh/agqrrecord.sh "井口裕香のむ～～～ん⊂（　＾ω＾）⊃" 90 3600 v
+59 22 * * 1 /data/share/movie/sh/agqrrecord.sh "東山奈央のラジオ＠リビング" 90 1800
+29 23 * * 1 /data/share/movie/sh/agqrrecord.sh "山崎はるかとまるぴ……近っっ！！" 90 1800 v
+29 2 * * 2 /data/share/movie/sh/agqrrecord.sh "佐藤亜美菜のアミメン！" 90 1800 v
+59 2 * * 2 /data/share/movie/sh/agqrrecord.sh "伊福部崇のラジオのラジオ" 90 1800
 # -- TUE
-29 16 * * 2 /data/share/movie/sh/agqrrecord.sh "渕上舞のとりあえずまぁ、話だけでも。" 45 1800 v
-59 20 * * 2 /data/share/movie/sh/agqrrecord.sh "TrySailのTRYangle harmony" 45 1800
-29 21 * * 2 /data/share/movie/sh/agqrrecord.sh "上田麗奈のひみつばこ" 45 1800
-59 22 * * 2 /data/share/movie/sh/agqrrecord.sh "村川梨衣の a りえしょんぷり～ず" 45 1800 v
-29 23 * * 2 /data/share/movie/sh/agqrrecord.sh "佐倉としたい大西" 45 1800 v
-59 0 * * 3 /data/share/movie/sh/agqrrecord.sh "洲崎西" 45 1800
+29 16 * * 2 /data/share/movie/sh/agqrrecord.sh "渕上舞のとりあえずまぁ、話だけでも。" 90 1800 v
+59 20 * * 2 /data/share/movie/sh/agqrrecord.sh "TrySailのTRYangle harmony" 90 1800
+29 21 * * 2 /data/share/movie/sh/agqrrecord.sh "上田麗奈のひみつばこ" 90 1800
+59 22 * * 2 /data/share/movie/sh/agqrrecord.sh "村川梨衣の a りえしょんぷり～ず" 90 1800 v
+29 23 * * 2 /data/share/movie/sh/agqrrecord.sh "佐倉としたい大西" 90 1800 v
+59 0 * * 3 /data/share/movie/sh/agqrrecord.sh "洲崎西" 90 1800
 # -- WED
-59 20 * * 3 /data/share/movie/sh/agqrrecord.sh "夕実＆梨沙のラフストーリーは突然に" 45 1800
+59 20 * * 3 /data/share/movie/sh/agqrrecord.sh "夕実＆梨沙のラフストーリーは突然に" 90 1800
 # -- THU
-59 20 * * 4 /data/share/movie/sh/agqrrecord.sh "アニゲラ！ディドゥーーン！！" 45 1800
+59 20 * * 4 /data/share/movie/sh/agqrrecord.sh "アニゲラ！ディドゥーーン！！" 90 1800
 29 21 * * 4 /data/share/movie/sh/radikorec.sh -o "田村ゆかりの乙女心▽症候群" -t 1860 QRR
-29 23 * * 4 /data/share/movie/sh/agqrrecord.sh "竹達・沼倉の初ラジ！" 45 1800
-59 1 * * 5 /data/share/movie/sh/agqrrecord.sh "阿澄佳奈 星空ひなたぼっこ" 45 1800 v
+29 23 * * 4 /data/share/movie/sh/agqrrecord.sh "竹達・沼倉の初ラジ！" 90 1800
+59 1 * * 5 /data/share/movie/sh/agqrrecord.sh "阿澄佳奈 星空ひなたぼっこ" 90 1800 v
 # -- FRI
 # -- SAT
-59 13 * * 6 /data/share/movie/sh/agqrrecord.sh "原田彩楓のさやのま" 45 1800 v
-29 14 * * 6 /data/share/movie/sh/agqrrecord.sh "サンセルモ presents 結婚式は あいのなかで" 45 1800 v
-#29 18 * * 6 /data/share/movie/sh/agqrrecord.sh "武田羅梨沙多胡・山根綺のぐろばる" 45 1800 v
+59 13 * * 6 /data/share/movie/sh/agqrrecord.sh "原田彩楓のさやのま" 90 1800 v
+29 14 * * 6 /data/share/movie/sh/agqrrecord.sh "サンセルモ presents 結婚式は あいのなかで" 90 1800 v
 59 18 * * 6 /data/share/movie/sh/radikorec.sh -o "A＆Gリクエストアワー 阿澄佳奈のキミまち！" -t 7260 QRR
-59 19 * * 6 /data/share/movie/sh/agqrrecord.sh "フレッシュたかまつ" 45 1800
-29 20 * * 6 /data/share/movie/sh/agqrrecord.sh "内田真礼とおはなししません？" 45 1800
+59 19 * * 6 /data/share/movie/sh/agqrrecord.sh "フレッシュたかまつ" 90 1800
+29 20 * * 6 /data/share/movie/sh/agqrrecord.sh "内田真礼とおはなししません？" 90 1800
 59 23 * * 6 /data/share/movie/sh/radikorec.sh -o "上坂すみれの▽をつければかわいかろう" -t 1860 QRR
 59 1 * * 7 /data/share/movie/sh/radikorec.sh -o "MOMO・SORA・SHIINA Talking Box" -t 1860 QRR
 # -- SUN
-29 19 * * 7 /data/share/movie/sh/agqrrecord.sh "早見沙織のふり～すたいる♪" 45 1800
-59 19 * * 7 /data/share/movie/sh/agqrrecord.sh "小原好美のココロおきなく" 45 1800
+29 19 * * 7 /data/share/movie/sh/agqrrecord.sh "早見沙織のふり～すたいる♪" 90 1800
+59 19 * * 7 /data/share/movie/sh/agqrrecord.sh "小原好美のココロおきなく" 90 1800
 59 20 * * 7 /data/share/movie/sh/radikorec.sh -o "大橋彩香のAny Beat！" -t 1860 QRR
 59 21 * * 7 /data/share/movie/sh/radikorec.sh -o "水瀬いのり MELODY FLAG" -t 1860 QRR
 29 0 * * 1 /data/share/movie/sh/radikorec.sh -o "小倉唯のyui＊room" -t 1860 QRR
