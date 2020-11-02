@@ -48,7 +48,7 @@ file_num="01"
 until [ ${rectime_rem} -gt 0 ]
 do
     filename="${filename}.${file_num}"
-    /usr/bin/wine ffmpeg3.exe -i "${PLAYPATH}" -c copy -t ${rectime_rem} "${filename}"
+    /usr/bin/wine ffmpeg.exe -i "${PLAYPATH}" -c copy -t ${rectime_rem} "${filename}"
     elapsed="`expr \`date +%s\` - $starttime`"
     echo "elapsed: ${elapsed}"
     rectime_rem=`expr ${rectime} - ${elapsed}`
