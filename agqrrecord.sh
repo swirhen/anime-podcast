@@ -32,9 +32,11 @@ fi
 # 日付時刻
 dt=`date +"%Y%m%d_%H%M"`
 # 保存ファイル名
-filename="/data/share/movie/98 PSP用/agqr/flv/""$dt"_"$name.flv"
+#filename="/data/share/movie/98 PSP用/agqr/flv/""$dt"_"$name.flv"
+filename="/data/share/movie/98 PSP用/agqr/flv/$dt"_"$name.mp4"
 # パスを除いたファイル名
-efilename="$dt"_"$name.flv"
+#efilename="$dt"_"$name.flv"
+efilename="$dt"_"$name.mp4"
 # つぶやく
 /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【超A&G自動保存開始】$efilename"
 ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【超A&G自動保存開始】$efilename"
@@ -44,9 +46,9 @@ do
 # ランダム変数(サーバ分散対応)
 #um=`expr $RANDOM % 2 + 1`
 num=1
-    echo "/usr/bin/rtmpdump --rtmp \"rtmpe://fms${num}.uniqueradio.jp/\" --playpath \"${PLAYPATH}\" --app \"?rtmp://fms-base1.mitene.ad.jp/agqr/\" --live -o \"$filename\" --stop $rectime"
-#	/usr/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "aandg2" --app "?rtmp://fms-base1.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime
-	/usr/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "${PLAYPATH}" --app "?rtmp://fms-base1.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime
+    #echo "/usr/bin/rtmpdump --rtmp \"rtmpe://fms${num}.uniqueradio.jp/\" --playpath \"${PLAYPATH}\" --app \"?rtmp://fms-base1.mitene.ad.jp/agqr/\" --live -o \"$filename\" --stop $rectime"
+    #/usr/bin/rtmpdump --rtmp "rtmpe://fms${num}.uniqueradio.jp/" --playpath "${PLAYPATH}" --app "?rtmp://fms-base1.mitene.ad.jp/agqr/" --live -o "$filename" --stop $rectime
+    /usr/bin/wine ffmpeg3.exe -i "${PLAYPATH}" -c copy -t $rectime "${filename}"
 done
 # 保存フォルダへ移動
 cd "/data/share/movie/98 PSP用/agqr/flv"
@@ -54,9 +56,10 @@ cd "/data/share/movie/98 PSP用/agqr/flv"
 if [ "${vidflg}" = "v" ]; then
     until [ -f "/data/share/movie/98 PSP用/agqr/$efilename.mp4" ];
     do
-      /data/share/movie/sh/169mp4_agqr.sh "$efilename" "/data/share/movie/98 PSP用/agqr/"
+      #/data/share/movie/sh/169mp4_agqr.sh "$efilename" "/data/share/movie/98 PSP用/agqr/"
+      mv "$filename" "/data/share/movie/98 PSP用/agqr/$efilename.mp4"
     done
-else 
+else
     until [ -f "/data/share/movie/98 PSP用/agqr/$efilename.mp3" ];
     do
       /usr/bin/wine ffmpeg.exe -i "$efilename" -acodec libmp3lame -ab 64k -ac 2 -ar 24000 "/data/share/movie/98 PSP用/agqr/$efilename.mp3"
