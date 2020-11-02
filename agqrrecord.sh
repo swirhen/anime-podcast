@@ -43,14 +43,14 @@ efilename="$dt"_"$name.mp4"
 ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【超A&G自動保存開始】$efilename"
 # 接続失敗対策、時間経過まで処理を繰り返す
 starttime=`date +%s`
-rectime_rem=$rectime
+rectime_rem=${rectime}
 file_num="01"
 until [ ${rectime_rem} -gt 0 ]
 do
     filename="${filename}.${file_num}"
-    /usr/bin/wine ffmpeg3.exe -i "${PLAYPATH}" -c copy -t $rectime_rem "${filename}"
+    /usr/bin/wine ffmpeg3.exe -i "${PLAYPATH}" -c copy -t ${rectime_rem} "${filename}"
     elapsed="`expr \`date +%s\` - $starttime`"
-    rectime_rem=`expr $rectime - $elapsed`
+    rectime_rem=`expr ${rectime} - ${elapsed}`
     (( file_num++ ))
     file_num_zp="0${file_num}"
     file_num="${file_num_zp: -2}"
