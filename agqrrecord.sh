@@ -50,6 +50,7 @@ do
     filename="${filename}.${file_num}"
     /usr/bin/wine ffmpeg3.exe -i "${PLAYPATH}" -c copy -t ${rectime_rem} "${filename}"
     elapsed="`expr \`date +%s\` - $starttime`"
+    echo "elapsed: ${elapsed}"
     rectime_rem=`expr ${rectime} - ${elapsed}`
     (( file_num++ ))
     file_num_zp="0${file_num}"
@@ -61,7 +62,7 @@ cd "/data/share/movie/98 PSP用/agqr/flv"
 # リスト作成
 rm -f "list_${efilename}"
 touch "list_${efilename}"
-for file in $efilename.*
+for file in ${efilename}.*
 do
     echo "file ${file}" >> "list_${efilename}"
 done
