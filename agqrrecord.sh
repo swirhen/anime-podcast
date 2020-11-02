@@ -50,12 +50,13 @@ do
     filename_rec="${filename}.${file_num}.mp4"
     /usr/bin/wine ffmpeg3.exe -i "${PLAYPATH}" -c copy -t ${rectime_rem} "${filename_rec}"
     mov_duration=`ffprobe -i "${filename_rec}" -select_streams v:0 -show_entries stream=duration 2>&1 | grep duration | sed s/duration=// | sed "s/\.[0-9]*$//g"`
-    if [ ${rectime} -ge ${mov_duration} ]; then
+    if [ ${mov_duration} -ge ${rectime} ]; then
         break
     fi
-    elapsed="`expr \`date +%s\` - $starttime`"
-    echo "elapsed: ${elapsed}"
-    rectime_rem=`expr ${rectime} - ${elapsed}`
+    #elapsed="`expr \`date +%s\` - $starttime`"
+    #echo "elapsed: ${elapsed}"
+    #rectime_rem=`expr ${rectime} - ${elapsed}`
+    rectime_rem=`expr ${rectime} - ${mov_duration}`
     file_num=$(( 10#${file_num} + 1 ))
     file_num_zp="0${file_num}"
     file_num="${file_num_zp: -2}"
