@@ -52,7 +52,7 @@ do
     elapsed="`expr \`date +%s\` - $starttime`"
     echo "elapsed: ${elapsed}"
     rectime_rem=`expr ${rectime} - ${elapsed}`
-    file_num=`expr 10#$file_num + 1`
+    file_num=$(( 10#${file_num} + 1 ))
     file_num_zp="0${file_num}"
     file_num="${file_num_zp: -2}"
 done
