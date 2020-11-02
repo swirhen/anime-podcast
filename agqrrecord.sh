@@ -63,7 +63,7 @@ rm -f "list_${efilename}"
 touch "list_${efilename}"
 for file in $efilename.*
 do
-    echo "file ${file}" >> "${$efilename}.list"
+    echo "file ${file}" >> "list_${efilename}"
 done
 
 # 映像付きならばエンコード用のシェルを呼ぶ。音声のみならmp3エンコード
