@@ -45,14 +45,14 @@ ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【超A&G
 starttime=`date +%s`
 rectime_rem=${rectime}
 file_num="01"
-until [ ${rectime_rem} -gt 0 ]
+until [ ${rectime_rem} -le 0 ]
 do
-    filename="${filename}.${file_num}"
-    /usr/bin/wine ffmpeg3.exe -i "${PLAYPATH}" -c copy -t ${rectime_rem} "${filename}"
+    filename_rec="${filename}.${file_num}.mp4"
+    /usr/bin/wine ffmpeg3.exe -i "${PLAYPATH}" -c copy -t ${rectime_rem} "${filename_rec}"
     elapsed="`expr \`date +%s\` - $starttime`"
     echo "elapsed: ${elapsed}"
     rectime_rem=`expr ${rectime} - ${elapsed}`
-    (( file_num++ ))
+    file_num=`expr 10#$file_num + 1`
     file_num_zp="0${file_num}"
     file_num="${file_num_zp: -2}"
 done
@@ -62,7 +62,7 @@ cd "/data/share/movie/98 PSP用/agqr/flv"
 # リスト作成
 rm -f "list_${efilename}"
 touch "list_${efilename}"
-for file in ${efilename}.*
+for file in ${efilename}.*.mp4
 do
     echo "file ${file}" >> "list_${efilename}"
 done
