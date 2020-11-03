@@ -75,12 +75,14 @@ done
 if [ "${vidflg}" = "v" ]; then
     until [ -f "/data/share/movie/98 PSP用/agqr/$efilename.mp4" ];
     do
-        /usr/bin/wine ffmpeg3.exe -safe 0 -f concat -i "list_${efilename}" "/data/share/movie/98 PSP用/agqr/$efilename.mp4"
+        #/usr/bin/wine ffmpeg3.exe -safe 0 -f concat -i "list_${efilename}" "/data/share/movie/98 PSP用/agqr/$efilename.mp4"
+        /usr/bin/wine ffmpeg3.exe -i "${efilename}.01.mp4" "/data/share/movie/98 PSP用/agqr/$efilename.mp4"
     done
 else
     until [ -f "/data/share/movie/98 PSP用/agqr/$efilename.mp3" ];
     do
-        /usr/bin/wine ffmpeg3.exe -safe 0 -f concat -i "list_${efilename}" -acodec libmp3lame -ab 64k -ac 2 -ar 24000 "/data/share/movie/98 PSP用/agqr/$efilename.mp3"
+        #/usr/bin/wine ffmpeg3.exe -safe 0 -f concat -i "list_${efilename}" -acodec libmp3lame -ab 64k -ac 2 -ar 24000 "/data/share/movie/98 PSP用/agqr/$efilename.mp3"
+        /usr/bin/wine ffmpeg3.exe -i "${efilename}.01.mp4" -acodec libmp3lame -ab 64k -ac 2 -ar 24000 "/data/share/movie/98 PSP用/agqr/$efilename.mp3"
     done
 fi
 rm -f "list_${efilename}"
