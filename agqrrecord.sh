@@ -17,6 +17,7 @@ vidflg=$4
 recflg=$5
 PYTHON_PATH="python3"
 PLAYPATH=`cat ${SCRIPT_DIR}/aandg`
+PLAYPATH=`cat ${SCRIPT_DIR}/aandg2`
 # オフセット
 sleep $offset
 # 隔週対応
@@ -41,21 +42,18 @@ efilename="$dt"_"$name.mp4"
 # つぶやく
 /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【超A&G自動保存開始】$efilename"
 ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【超A&G自動保存開始】$efilename"
-# 接続失敗対策、時間経過まで処理を繰り返す
-starttime=`date +%s`
+
 rectime_rem=${rectime}
 file_num="01"
 until [ ${rectime_rem} -le 0 ]
 do
     filename_rec="${filename}.${file_num}.mp4"
-    /usr/bin/wine ffmpeg3.exe -i "${PLAYPATH}" -c copy -t ${rectime_rem} "${filename_rec}"
+    /usr/bin/rtmpdump --rtmp "rtmpe://fms1.uniqueradio.jp/" --playpath "aandg1" --app "?rtmp://fms-base2.mitene.ad.jp/agqr/" --live -o "${filename_rec}" --stop ${rectime_rem}
+    #/usr/bin/wine ffmpeg3.exe -i "${PLAYPATH}" -c copy -t ${rectime_rem} "${filename_rec}"
     mov_duration=`ffprobe -i "${filename_rec}" -select_streams v:0 -show_entries stream=duration 2>&1 | grep duration | sed s/duration=// | sed "s/\.[0-9]*$//g"`
     if [ ${mov_duration} -ge ${rectime} ]; then
         break
     fi
-    #elapsed="`expr \`date +%s\` - $starttime`"
-    #echo "elapsed: ${elapsed}"
-    #rectime_rem=`expr ${rectime} - ${elapsed}`
     rectime_rem=`expr ${rectime} - ${mov_duration}`
     rectime=${rectime_rem}
     file_num=$(( 10#${file_num} + 1 ))
