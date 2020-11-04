@@ -18,17 +18,19 @@ recflg=$5
 PYTHON_PATH="python3"
 PLAYPATH=`cat ${SCRIPT_DIR}/aandg`
 PLAYPATH=`cat ${SCRIPT_DIR}/aandg2`
+
 # オフセット
 sleep $offset
+
 # 隔週対応
 if [ "${recflg:-null}" != null ]; then
 flgfile="/data/share/movie/98 PSP用/agqr/flg/$recflg"
-	if [ -f "$flgfile" ]; then
-		rm "$flgfile"
-	else
-		touch "$flgfile"
-		exit
-	fi
+    if [ -f "$flgfile" ]; then
+        rm "$flgfile"
+    else
+        touch "$flgfile"
+        exit
+    fi
 fi
 # 日付時刻
 dt=`date +"%Y%m%d_%H%M"`
@@ -37,6 +39,7 @@ dt=`date +"%Y%m%d_%H%M"`
 filename="/data/share/movie/98 PSP用/agqr/flv/$dt"_"$name"
 # パスを除いたファイル名
 efilename="$dt"_"$name"
+
 # つぶやく
 /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【超A&G自動保存開始】$efilename"
 ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【超A&G自動保存開始】$efilename"
