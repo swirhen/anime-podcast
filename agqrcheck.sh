@@ -39,7 +39,7 @@ else
     ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【超A&G チェック】HLSでの録画に失敗しました: ${PLIST}"
 fi
 
-if [ "$1" != "" -a ${okflg1} -eq 1 -a ${okfkg2} -eq 1 ]; then
+if [ "$1" != "" -a ${okflg1} -eq 1 -a ${okflg2} -eq 1 ]; then
     /home/swirhen/tiasock/tiasock_common.sh "#anigera@w" "【超A&G チェック 定時報告】RTMP / HLS 録画URLはともに有効です ${PP} / ${PLIST}"
     ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【超A&G チェック 定時報告】RTMP / HLS 録画URLはともに有効です ${PP} / ${PLIST}"
 fi
