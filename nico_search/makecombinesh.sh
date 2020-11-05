@@ -9,5 +9,8 @@ for d in temp/${1}/*
 do
 /data/share/temp/voiceactor_nico_ch/bilibili_rename.sh "${d}" >> combine.sh
 done
-echo "/data/share/movie/sh/nico_search/nicorelease.sh" >> combine.sh
+relfilg=`grep '*/"' combine.sh`
+if [ "${relfilg}" != "" ]; then
+    echo "/data/share/movie/sh/nico_search/nicorelease.sh" >> combine.sh
+fi
 cat combine.sh
