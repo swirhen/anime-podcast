@@ -1,4 +1,7 @@
-Last Update: 2020/11/10-00:00:01
+Last Update: 2020/11/10-06:00:02
+2020/11/10-06:00:02 06 One Room Third Season|One Room サードシーズン
+2020/11/10-06:00:02 06 Maou-jou de Oyasumi|魔王城でおやすみ
+2020/11/10-06:00:02 05 Osomatsu-san 3|おそ松さん(第3期)
 2020/11/10-00:00:01 06 Golden Kamuy (2020)|ゴールデンカムイ(第三期)
 2020/11/10-00:00:01 06 Eternity Shin`ya no Nurekoi Channel|エタニティ ～深夜の濡恋ちゃんねる♡～
 2020/11/10-00:00:01 05 Ochikobore Fruit Tart|おちこぼれフルーツタルト
@@ -43,8 +46,5 @@ Last Update: 2020/11/10-00:00:01
 2020/11/04-00:00:01 18 Bang Dream! Garupa Pico Oomori|BanG Dream! ガルパ☆ピコ～大盛り～
 2020/11/04-00:00:01 150 Black Clover|ブラッククローバー
 2020/11/04-00:00:01 05 Ikebukuro West Gate Park|池袋ウエストゲートパーク
-2020/11/03-06:00:01 05 One Room Third Season|One Room サードシーズン
-2020/11/03-06:00:01 05 Maou-jou de Oyasumi|魔王城でおやすみ
-2020/11/03-06:00:01 04 Osomatsu-san 3|おそ松さん(第3期)
 2020/10/26-12:00:01 01 Toji no Miko Kizamishi Issen no Tomoshibi|刀使ノ巫女 刻みし一閃の燈火
 2020/10/08-12:00:01 01 kimisen|キミと僕の最後の戦場、あるいは世界が始まる聖戦
