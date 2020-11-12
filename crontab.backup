@@ -32,7 +32,6 @@ MAILTO=""
 59 19 * * 4 /data/share/movie/sh/freshrecord.sh "日笠・日高のお日様ぐみ！" hibiki 1
 
 # SP
-59 10 * * 3 /data/share/movie/sh/agqrrecord.sh "ひだかくま_agqrrecord_debug_test" 50 1800 v
 
 # 帯
 59 23 * * 1-4 /data/share/movie/sh/agqrrecord.sh "鷲崎健のヨルナイト×ヨルナイト" 50 3600 v
@@ -97,7 +96,7 @@ MAILTO=""
 0 0,6,12,18 * * * /data/share/movie/sh/nico_search/auto_crawl.sh
 
 # 音泉クローラー
-0 * * * * /data/share/movie/sh/onsen_crawler/onsen_crawler.sh
+#0 * * * * /data/share/movie/sh/onsen_crawler/onsen_crawler.sh
 
 # agqr playpathチェック
 25,55 * * * * /data/share/movie/sh/agqrcheck.sh
