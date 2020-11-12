@@ -23,7 +23,7 @@ if [ -s ${REC_FILE} ]; then
     okflg1=1
 else
     rm -f ${REC_FILE}
-    /home/swirhen/tiasock/tiasock_common.sh "#anigera@w" "【超A&G チェック】RTMPでの録画にに失敗しました: ${PP}"
+    /home/swirhen/tiasock/tiasock_common.sh "#anigera@w" "【超A&G チェック】RTMPでの録画に失敗しました: ${PP}"
     ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【超A&G チェック】RTMPでの録画に失敗しました: ${PP}"
 fi
 
@@ -35,7 +35,7 @@ if [ -s ${REC_FILE} ]; then
     okflg2=1
 else
     rm -f ${REC_FILE}
-    /home/swirhen/tiasock/tiasock_common.sh "#anigera@w" "【超A&G チェック】HLSでの録画にに失敗しました: ${PLIST}"
+    /home/swirhen/tiasock/tiasock_common.sh "#anigera@w" "【超A&G チェック】HLSでの録画に失敗しました: ${PLIST}"
     ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【超A&G チェック】HLSでの録画に失敗しました: ${PLIST}"
 fi
 
