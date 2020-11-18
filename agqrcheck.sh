@@ -24,6 +24,7 @@ if [ ${chkflg1} -eq 1 ]; then
 
     if [ -s ${REC_FILE} ]; then
         rm -f ${REC_FILE}
+        okflg1=1
     else
         rm -f ${REC_FILE}
         /home/swirhen/tiasock/tiasock_common.sh "#anigera@w" "【超A&G チェック】RTMPでの録画に失敗しました: ${PP}"
