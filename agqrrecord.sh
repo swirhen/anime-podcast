@@ -16,8 +16,12 @@ rectime=$3
 vidflg=$4
 recflg=$5
 PYTHON_PATH="python3"
+MODE=hls
+#MODE=rtmp
 PLAYPATH=`cat ${SCRIPT_DIR}/aandg`
-PLAYPATH=`cat ${SCRIPT_DIR}/aandg2`
+if [ "${MODE}" = "rtmp" ]; then
+    PLAYPATH=`cat ${SCRIPT_DIR}/aandg2`
+fi
 
 # オフセット
 sleep $offset
@@ -50,9 +54,11 @@ file_num="01"
 until [ ${rectime_rem} -le 0 ]
 do
     filename_rec="${filename}.${file_num}.mp4"
-    /usr/bin/rtmpdump --rtmp "rtmpe://fms1.uniqueradio.jp/" --playpath "aandg1" --app "?rtmp://fms-base2.mitene.ad.jp/agqr/" --live -o "${filename_rec}" --stop ${rectime_rem}
-    # HLS録画(rtmp終了対策)
-    #/usr/bin/wine ffmpeg3.exe -i "${PLAYPATH}" -c copy -t ${rectime_rem} "${filename_rec}"
+    if [ "${MODE}" = "rtmp" ]; then
+        /usr/bin/rtmpdump --rtmp "rtmpe://fms1.uniqueradio.jp/" --playpath "aandg1" --app "?rtmp://fms-base2.mitene.ad.jp/agqr/" --live -o "${filename_rec}" --stop ${rectime_rem}
+    else
+        /usr/bin/wine ffmpeg3.exe -i "${PLAYPATH}" -c copy -t ${rectime_rem} "${filename_rec}"
+    fi
     mov_duration=`ffprobe -i "${filename_rec}" -select_streams v:0 -show_entries stream=duration 2>&1 | grep duration | sed s/duration=// | sed "s/\.[0-9]*$//g"`
     if [ ${mov_duration} -ge ${rectime} ]; then
         break
