@@ -1,4 +1,7 @@
-Last Update: 2020/11/20-00:00:01
+Last Update: 2020/11/20-06:00:01
+2020/11/20-06:00:01 08 Higurashi no Naku Koro ni (2020)|ひぐらしのなく頃に(新)
+2020/11/20-06:00:01 07 Assault Lily Bouquet|アサルトリリィ BOUQUET
+2020/11/20-06:00:01 07 Adachi to Shimamura|安達としまむら
 2020/11/20-00:00:01 19 Great Pretender|GREAT PRETENDER
 2020/11/20-00:00:01 07 Noblesse|NOBLESSE -ノブレス-
 2020/11/20-00:00:01 07 Guraburu!|ぐらぶるっ！
@@ -43,8 +46,5 @@ Last Update: 2020/11/20-00:00:01
 2020/11/14-00:00:02 07 Majo no Tabitabi|魔女の旅々
 2020/11/14-00:00:02 07 KV|100万の命の上に俺は立っている
 2020/11/14-00:00:02 03 D4DJ First Mix|D4DJ First Mix
-2020/11/13-06:00:02 07 Higurashi no Naku Koro ni (2020)|ひぐらしのなく頃に(新)
-2020/11/13-06:00:02 06 Adachi to Shimamura|安達としまむら
-2020/11/06-06:00:01 06 Assault Lily Bouquet|アサルトリリィ BOUQUET
 2020/10/26-12:00:01 01 Toji no Miko Kizamishi Issen no Tomoshibi|刀使ノ巫女 刻みし一閃の燈火
 2020/10/08-12:00:01 01 kimisen|キミと僕の最後の戦場、あるいは世界が始まる聖戦
