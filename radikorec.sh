@@ -42,11 +42,11 @@ if [ "$2" != "" ]; then
 fi
 
 if [ "$OPTION_o" = "TRUE" ]; then
-   pgmname="$VALUE_o"
+    pgmname="$VALUE_o"
 fi
 
 if [ "$OPTION_t" = "TRUE" ]; then
-  rectime=$VALUE_t
+    rectime=$VALUE_t
 fi
 
 station_name=`curl -s "http://radiko.jp/v2/api/program/station/today?station_id=$channel" |/usr/bin/xpath -e "//station/name/text()" 2>/dev/null`
@@ -69,6 +69,9 @@ fi
 # つぶやく
 /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【Radiko自動録音開始】${station_name} ${pgmname}"
 ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【Radiko自動録音開始】${efilename}"
+
+# オフセット
+sleep ${offset}
 
 # 録音時間に満たないファイルが生成されてしまった場合、続きから録音し直す(最終的に録音時間合計に達するまで続ける)
 rectime_rem=${rectime}
