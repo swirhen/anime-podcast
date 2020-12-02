@@ -85,5 +85,4 @@ auth2(partialkey, token)
 url = f'http://f-radiko.smartstream.ne.jp/{argv[1]}/_definst_/simul-stream.stream/playlist.m3u8'
 m3u8 = gen_temp_chunk_m3u8_url(url, token)
 
-# os.system(f"ffplay -nodisp -loglevel quiet -headers 'X-Radiko-Authtoken:{token}' -i '{m3u8}'")
-print( "playlist: " + m3u8 + "\ntoken: " + token )
+print( "area: " + area + "\nplaylist: " + m3u8 + "\ntoken: " + token )
