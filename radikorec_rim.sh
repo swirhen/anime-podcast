@@ -56,7 +56,7 @@ filename="${TMP_PATH}/【${station_name}】${pgmname}_`date +%Y%m%d-%H%M`}"
 efilename="【${station_name}】${pgmname}_`date +%Y%m%d-%H%M`}"
 
 # プレイリストURL、トークン、エリア情報を取得
-PLINFO=( `${PYTHON_PATH} radikoauth.py ${channel}` )
+PLINFO=( `${PYTHON_PATH} ${SCRIPT_DIR}/radikoauth.py ${channel}` )
 m3u8=${PLINFO[2]}
 token=${PLINFO[3]}
 area="${PLINFO[4]} ${PLINFO[5]}"
