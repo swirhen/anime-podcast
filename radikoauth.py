@@ -85,4 +85,5 @@ area = auth2(partialkey, token)
 url = f'http://f-radiko.smartstream.ne.jp/{argv[1]}/_definst_/simul-stream.stream/playlist.m3u8'
 m3u8 = gen_temp_chunk_m3u8_url(url, token)
 
-print( "area: " + area + "\nplaylist: " + m3u8 + "\ntoken: " + token )
+# print("area: " + area + "\nplaylist: " + m3u8 + "\ntoken: " + token)
+print(m3u8 + " " + token + "" + area)
