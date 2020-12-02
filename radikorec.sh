@@ -55,10 +55,6 @@ filename="${TMP_PATH}/【${station_name}】${pgmname}_`date +%Y%m%d-%H%M`}"
 # パスを除いたファイル名
 efilename="【${station_name}】${pgmname}_`date +%Y%m%d-%H%M`}"
 
-# つぶやく
-/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【Radiko自動録音開始】${station_name} ${pgmname}"
-${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【Radiko自動録音開始】${efilename}"
-
 # プレイリストURL、トークン、エリア情報を取得
 PLINFO=( `${PYTHON_PATH} radikoauth.py ${channel}` )
 m3u8=${PLINFO[2]}
@@ -69,6 +65,10 @@ if [ "$OPTION_a" = "TRUE" ]; then
     echo "${area}"
     exit 0
 fi
+
+# つぶやく
+/home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【Radiko自動録音開始】${station_name} ${pgmname}"
+${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【Radiko自動録音開始】${efilename}"
 
 # 録音時間に満たないファイルが生成されてしまった場合、続きから録音し直す(最終的に録音時間合計に達するまで続ける)
 rectime_rem=${rectime}
