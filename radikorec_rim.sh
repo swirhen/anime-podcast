@@ -75,7 +75,7 @@ file_num="01"
 until [ ${rectime_rem} -le 0 ]
 do
     filename_rec="${filename}.${file_num}.m4a"
-    /usr/bin/wine ffmpeg3.exe -headers "X-Radiko-Authtoken:${token}" -i "${m3u8}" -c copy -t ${rectime_rem} "${filename_rec}"
+    ffmpeg -headers "X-Radiko-Authtoken:${token}" -i "${m3u8}" -c copy -t ${rectime_rem} "${filename_rec}"
     mov_duration=`ffprobe -i "${filename_rec}" -select_streams v:0 -show_entries stream=duration 2>&1 | grep duration | sed s/duration=// | sed "s/\.[0-9]*$//g"`
     if [ ${mov_duration} -ge ${rectime} ]; then
         break
@@ -99,7 +99,7 @@ do
 done
 
 # 連結
-/usr/bin/wine ffmpeg3.exe -safe 0 -f concat -i "list_${efilename}" "$efilename.m4a"
+ffmpeg -safe 0 -f concat -i "list_${efilename}" "$efilename.m4a"
 
 # 送信
 scp -P 49879 "${efilename}.m4a" swirhen.tv:/data/share/temp/agqr/
