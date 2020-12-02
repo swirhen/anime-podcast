@@ -37,7 +37,7 @@ fi
 # オプション処理
 channel=$1
 offset=0
-if [ $2 != "" ]; then
+if [ "$2" != "" ]; then
     offset=$2
 fi
 
