@@ -49,7 +49,7 @@ if [ "$OPTION_t" = "TRUE" ]; then
     rectime=$VALUE_t
 fi
 
-station_name=`curl -s "http://radiko.jp/v2/api/program/station/today?station_id=$channel" |/usr/bin/xpath -e "//station/name/text()" 2>/dev/null`
+station_name=`curl -s "http://radiko.jp/v2/api/program/station/today?station_id=$channel" |/usr/bin/xpath "//station/name/text()" 2>/dev/null`
 # 保存ファイル名
 filename="${TMP_PATH}/【${station_name}】${pgmname}_`date +%Y%m%d-%H%M`}"
 # パスを除いたファイル名
