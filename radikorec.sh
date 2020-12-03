@@ -102,7 +102,7 @@ done
 cd "${TMP_PATH}"
 
 # ファイルが複数ある場合、リスト作成
-filecnt==` ls "${efilename}".*.m4aa | wc -l`
+filecnt=`ls "${efilename}".*.m4a | wc -l`
 if [ ${filecnt} -gt 1 ]; then
     rm -f "list_${efilename}"
     touch "list_${efilename}"
