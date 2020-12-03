@@ -101,20 +101,24 @@ done
 # 保存フォルダへ移動
 cd "${TMP_PATH}"
 
-# リスト作成
-rm -f "list_${efilename}"
-touch "list_${efilename}"
-for file in "${efilename}".*.m4a
-do
-    echo "file ${file}" >> "list_${efilename}"
-done
+# ファイルが複数ある場合、リスト作成
+filecnt==` ls "${efilename}".*.m4aa | wc -l`
+if [ ${filecnt} -gt 1 ]; then
+    rm -f "list_${efilename}"
+    touch "list_${efilename}"
+    for file in "${efilename}".*.m4a
+    do
+        echo "file ${file}" >> "list_${efilename}"
+    done
+    # 連結
+    ${FFMPEG_PATH} -safe 0 -f concat -i "list_${efilename}" "${OUTPUT_PATH}/$efilename.m4a"
 
-# 連結
-${FFMPEG_PATH} -safe 0 -f concat -i "list_${efilename}" "${OUTPUT_PATH}/$efilename.m4a"
-
-# あとしまつ
-rm -f "list_${efilename}"
-rm -f "${efilename}".*.m4a
+    # あとしまつ
+    # rm -f "list_${efilename}"
+    rm -f "${efilename}".*.m4a
+else
+    mv "${efilename}".01.m4a "${OUTPUT_PATH}/$efilename.m4a"
+fi
 
 # rssフィード生成シェル
 /data/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
