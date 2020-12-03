@@ -76,7 +76,7 @@ until [ ${rectime_rem} -le 0 ]
 do
     filename_rec="${filename}.${file_num}.m4a"
     ${SCRIPT_DIR}/ffmpeg -headers "X-Radiko-Authtoken:${token}" -i "${m3u8}" -c copy -t ${rectime_rem} "${filename_rec}"
-    mov_duration=`ffprobe -i "${filename_rec}" -select_streams v:0 -show_entries stream=duration 2>&1 | grep duration | sed s/duration=// | sed "s/\.[0-9]*$//g"`
+    mov_duration=`${SCRIPT_DIR}/ffprobe -i "${filename_rec}" -select_streams v:0 -show_entries stream=duration 2>&1 | grep duration | sed s/duration=// | sed "s/\.[0-9]*$//g"`
     if [ ${mov_duration} -ge ${rectime} ]; then
         break
     fi
@@ -99,7 +99,7 @@ do
 done
 
 # 連結
-ffmpeg -safe 0 -f concat -i "list_${efilename}" "$efilename.m4a"
+${SCRIPT_DIR}/ffmpeg -safe 0 -f concat -i "list_${efilename}" "$efilename.m4a"
 
 # 送信
 scp -P 49879 "${efilename}.m4a" swirhen.tv:/data/share/temp/agqr/
