@@ -60,11 +60,11 @@ efilename="【${station_name}】${pgmname}_`date +%Y%m%d-%H%M`}"
 
 # プレイリストURL、トークン、エリア情報を取得
 if [ "${channel}" != "" ]; then
-    PLINFO=( `${PYTHON_PATH} ${SCRIPT_DIR}/radikoauth.py ${channel}` )
+    PLINFO=( `${PYTHON_PATH} ${SCRIPT_DIR}/radikoauth_rim.py ${channel}` )
     m3u8=${PLINFO[0]}
     token=${PLINFO[1]}
 else
-    PLINFO=( `${PYTHON_PATH} ${SCRIPT_DIR}/radikoauth.py` )
+    PLINFO=( `${PYTHON_PATH} ${SCRIPT_DIR}/radikoauth_rim.py` )
     area="${PLINFO[0]} ${PLINFO[1]}"
 fi
 
