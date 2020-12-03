@@ -1,4 +1,8 @@
-Last Update: 2020/12/03-18:00:01
+Last Update: 2020/12/04-00:00:02
+2020/12/04-00:00:02 21 Great Pretender|GREAT PRETENDER
+2020/12/04-00:00:02 09 Noblesse|NOBLESSE -ノブレス-
+2020/12/04-00:00:02 09 Guraburu!|ぐらぶるっ！
+2020/12/04-00:00:02 09 Akudama Drive|アクダマドライブ
 2020/12/03-12:00:02 09 Strike Witches Road to Berlin|ストライクウィッチーズ ROAD to BERLIN
 2020/12/03-06:00:02 09 Kimisen|キミと僕の最後の戦場、あるいは世界が始まる聖戦
 2020/12/03-00:00:02 09 Kuma Kuma Kuma Bear|100万の命の上に俺は立っている
@@ -44,7 +48,3 @@ Last Update: 2020/12/03-18:00:01
 2020/11/27-06:00:01 09 Higurashi no Naku Koro ni (2020)|ひぐらしのなく頃に(新)
 2020/11/27-06:00:01 08 Assault Lily Bouquet|アサルトリリィ BOUQUET
 2020/11/27-06:00:01 08 Adachi to Shimamura|安達としまむら
-2020/11/27-00:00:02 20 Great Pretender|GREAT PRETENDER
-2020/11/27-00:00:02 08 Noblesse|NOBLESSE -ノブレス-
-2020/11/27-00:00:02 08 Guraburu!|ぐらぶるっ！
-2020/11/27-00:00:02 08 Akudama Drive|アクダマドライブ
