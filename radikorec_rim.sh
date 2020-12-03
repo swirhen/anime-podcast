@@ -5,6 +5,9 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE:-$0}")"; pwd)"
 PATH=$PATH:/usr/local/bin
 PYTHON_PATH="python3"
 TMP_PATH="${SCRIPT_DIR}"
+OUTPUT_PATH="${SCRIPT_DIR}"
+FFMPEG_PATH="${SCRIPT_DIR}/ffmpeg"
+FFPROBE_PATH="${SCRIPT_DIR}/ffprobe"
 
 # 使い方
 show_usage() {
@@ -56,10 +59,14 @@ filename="${TMP_PATH}/【${station_name}】${pgmname}_`date +%Y%m%d-%H%M`}"
 efilename="【${station_name}】${pgmname}_`date +%Y%m%d-%H%M`}"
 
 # プレイリストURL、トークン、エリア情報を取得
-PLINFO=( `${PYTHON_PATH} ${SCRIPT_DIR}/radikoauth.py ${channel}` )
-m3u8=${PLINFO[2]}
-token=${PLINFO[3]}
-area="${PLINFO[4]} ${PLINFO[5]}"
+if [ "${channel}" != "" ]; then
+    PLINFO=( `${PYTHON_PATH} ${SCRIPT_DIR}/radikoauth.py ${channel}` )
+    m3u8=${PLINFO[0]}
+    token=${PLINFO[1]}
+else
+    PLINFO=( `${PYTHON_PATH} ${SCRIPT_DIR}/radikoauth.py` )
+    area="${PLINFO[0]} ${PLINFO[1]}"
+fi
 
 if [ "$OPTION_a" = "TRUE" ]; then
     echo "${area}"
@@ -75,8 +82,8 @@ file_num="01"
 until [ ${rectime_rem} -le 0 ]
 do
     filename_rec="${filename}.${file_num}.m4a"
-    ${SCRIPT_DIR}/ffmpeg -headers "X-Radiko-Authtoken:${token}" -i "${m3u8}" -c copy -t ${rectime_rem} "${filename_rec}"
-    mov_duration=`${SCRIPT_DIR}/ffprobe -i "${filename_rec}" -select_streams v:0 -show_entries stream=duration 2>&1 | grep duration | sed s/duration=// | sed "s/\.[0-9]*$//g"`
+    ${FFMPEG_PATH} -headers "X-Radiko-Authtoken:${token}" -i "${m3u8}" -c copy -t ${rectime_rem} "${filename_rec}"
+    mov_duration=`${FFPROBE_PATH} -i "${filename_rec}" -select_streams v:0 -show_entries stream=duration 2>&1 | grep duration | sed s/duration=// | sed "s/\.[0-9]*$//g"`
     if [ ${mov_duration} -ge ${rectime} ]; then
         break
     fi
@@ -99,7 +106,7 @@ do
 done
 
 # 連結
-${SCRIPT_DIR}/ffmpeg -safe 0 -f concat -i "list_${efilename}" "$efilename.m4a"
+${FFMPEG_PATH} -safe 0 -f concat -i "list_${efilename}" "${OUTPUT_PATH}/$efilename.m4a"
 
 # 送信
 scp -P 49879 "${efilename}.m4a" swirhen.tv:/data/share/temp/agqr/
