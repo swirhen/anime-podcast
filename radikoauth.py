@@ -61,7 +61,6 @@ def auth2(partialkey, auth_token):
     res = urllib.request.urlopen(req)
     txt = res.read()
     area = txt.decode()
-    print(txt)
     return area
 
 
