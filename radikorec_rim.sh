@@ -75,7 +75,7 @@ file_num="01"
 until [ ${rectime_rem} -le 0 ]
 do
     filename_rec="${filename}.${file_num}.m4a"
-    ffmpeg -headers "X-Radiko-Authtoken:${token}" -i "${m3u8}" -c copy -t ${rectime_rem} "${filename_rec}"
+    ${SCRIPT_DIR}/ffmpeg -headers "X-Radiko-Authtoken:${token}" -i "${m3u8}" -c copy -t ${rectime_rem} "${filename_rec}"
     mov_duration=`ffprobe -i "${filename_rec}" -select_streams v:0 -show_entries stream=duration 2>&1 | grep duration | sed s/duration=// | sed "s/\.[0-9]*$//g"`
     if [ ${mov_duration} -ge ${rectime} ]; then
         break
