@@ -54,9 +54,9 @@ fi
 
 station_name=`curl -s "http://radiko.jp/v2/api/program/station/today?station_id=$channel" |/usr/bin/xpath -e "//station/name/text()" 2>/dev/null`
 # 保存ファイル名
-filename="${TMP_PATH}/【${station_name}】${pgmname}_`date +%Y%m%d-%H%M`}"
+filename="${TMP_PATH}/【${station_name}】${pgmname}_`date +%Y%m%d-%H%M`"
 # パスを除いたファイル名
-efilename="【${station_name}】${pgmname}_`date +%Y%m%d-%H%M`}"
+efilename="【${station_name}】${pgmname}_`date +%Y%m%d-%H%M`"
 
 # プレイリストURL、トークン、エリア情報を取得
 if [ "${channel}" != "" ]; then
