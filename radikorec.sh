@@ -110,6 +110,7 @@ if [ ${filecnt} -gt 1 ]; then
     do
         echo "file ${file}" >> "list_${efilename}"
     done
+
     # 連結
     ${FFMPEG_PATH} -safe 0 -f concat -i "list_${efilename}" "${OUTPUT_PATH}/${efilename}.m4a"
 
