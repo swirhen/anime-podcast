@@ -1,6 +1,5 @@
 #!/bin/bash
-# radikorec
-# radiko録音用スクリプト
+# radikorec : radiko録音用スクリプト
 # Usage: radikorec.sh [-a] [-o program_name] [-t recording_seconds] station_ID offset
 #       -a  Output area info(ex. JP13,東京都,tokyo Japan). No recording.
 #       -o  Default output_name = 【station_name】program_name_`date +%Y%m%d-%H%M`.m4a
