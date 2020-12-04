@@ -1,5 +1,13 @@
 #!/bin/bash
-# Install: ffmpeg
+# radikorec
+# radiko録音用スクリプト
+# Usage: radikorec.sh [-a] [-o program_name] [-t recording_seconds] station_ID offset
+#       -a  Output area info(ex. JP13,東京都,tokyo Japan). No recording.
+#       -o  Default output_name = 【station_name】program_name_`date +%Y%m%d-%H%M`.m4a
+#           ex) "hogehoge" -> 【文化放送】hogehoge_20130123-1700.m4a
+#       -t  60 = 1 minute, 3600 = 1 hour
+# Ex: radikorec.sh -o "program name" -t 1830 QRR 10
+# Require: ffmpeg, xpath
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE:-$0}")"; pwd)"
 PATH=$PATH:/usr/local/bin
