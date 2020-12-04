@@ -11,12 +11,11 @@ FFPROBE_PATH="ffprobe"
 
 # 使い方
 show_usage() {
-  echo "Usage: $COMMAND [-a] [-o bangumi_mei] [-t recording_seconds] station_ID offset"
+  echo "Usage: $COMMAND [-a] [-o program_name] [-t recording_seconds] station_ID offset"
   echo '       -a  Output area info(ex. 'JP13,東京都,tokyo Japan'). No recording.'
-  echo '       -o  Default output_name = /data/tmp/[${station_name}]_`date +%Y%m%d-%H%M`.m4a'
-  echo '             "hogehoge" = /data/tmp/[JOQR]hogehoge_20130123-1700.m4a'
-  echo '       -t  Default recording_seconds = 30'
-  echo '           60 = 1 minute, 3600 = 1 hour, 0 = go on recording until stopped(control-C)'
+  echo '       -o  Default output_name = 【station_name】program_name_`date +%Y%m%d-%H%M`.m4a'
+  echo '           ex) "hogehoge" -> 【文化放送】hogehoge_20130123-1700.m4a'
+  echo '       -t  60 = 1 minute, 3600 = 1 hour'
 }
 
 # 引数解析
@@ -52,26 +51,27 @@ if [ "$OPTION_t" = "TRUE" ]; then
     rectime=$VALUE_t
 fi
 
-station_name=`curl -s "http://radiko.jp/v2/api/program/station/today?station_id=$channel" |/usr/bin/xpath -e "//station/name/text()" 2>/dev/null`
-# 保存ファイル名
-filename="${TMP_PATH}/【${station_name}】${pgmname}_`date +%Y%m%d-%H%M`"
-# パスを除いたファイル名
-efilename="【${station_name}】${pgmname}_`date +%Y%m%d-%H%M`"
-
 # プレイリストURL、トークン、エリア情報を取得
 if [ "${channel}" != "" ]; then
     PLINFO=( `${PYTHON_PATH} ${SCRIPT_DIR}/radikoauth.py ${channel}` )
     m3u8=${PLINFO[0]}
     token=${PLINFO[1]}
 else
-    PLINFO=( `${PYTHON_PATH} ${SCRIPT_DIR}/radikoauth.py` )
-    area="${PLINFO[0]} ${PLINFO[1]}"
+    PLINFO=`${PYTHON_PATH} ${SCRIPT_DIR}/radikoauth.py`
+    area="${PLINFO}"
 fi
 
 if [ "$OPTION_a" = "TRUE" ]; then
     echo "${area}"
     exit 0
 fi
+
+# 放送局名
+station_name=`curl -s "http://radiko.jp/v2/api/program/station/today?station_id=$channel" |/usr/bin/xpath -e "//station/name/text()" 2>/dev/null`
+# 保存ファイル名
+filename="${TMP_PATH}/【${station_name}】${pgmname}_`date +%Y%m%d-%H%M`"
+# パスを除いたファイル名
+efilename="【${station_name}】${pgmname}_`date +%Y%m%d-%H%M`"
 
 # つぶやく
 /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【Radiko自動録音開始】${station_name} ${pgmname}"
@@ -111,13 +111,13 @@ if [ ${filecnt} -gt 1 ]; then
         echo "file ${file}" >> "list_${efilename}"
     done
     # 連結
-    ${FFMPEG_PATH} -safe 0 -f concat -i "list_${efilename}" "${OUTPUT_PATH}/$efilename.m4a"
+    ${FFMPEG_PATH} -safe 0 -f concat -i "list_${efilename}" "${OUTPUT_PATH}/${efilename}.m4a"
 
     # あとしまつ
     # rm -f "list_${efilename}"
     rm -f "${efilename}".*.m4a
 else
-    mv "${efilename}".01.m4a "${OUTPUT_PATH}/$efilename.m4a"
+    mv "${efilename}".01.m4a "${OUTPUT_PATH}/${efilename}.m4a"
 fi
 
 # rssフィード生成シェル
