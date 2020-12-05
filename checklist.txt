@@ -1,4 +1,6 @@
-Last Update: 2020/12/05-18:00:01
+Last Update: 2020/12/06-00:00:01
+2020/12/06-00:00:01 10 Han`you no Yashahime Sengoku Otogizoushi|半妖の夜叉姫
+2020/12/06-00:00:01 09 Gochuumon wa Usagi Desuka Bloom|ご注文はうさぎですか？BLOOM
 2020/12/05-12:00:01 10 Dqdai|ドラゴンクエスト ダイの大冒険
 2020/12/05-06:00:02 23 En`en no Shouboutai Ni no Shou|炎炎ノ消防隊 弐ノ章
 2020/12/05-06:00:02 10 Tonikaku Kawaii|トニカクカワイイ
@@ -46,5 +48,3 @@ Last Update: 2020/12/05-18:00:01
 2020/11/29-06:00:01 09 Mahouka Koukou no Rettousei Raihousha Hen|魔法科高校の劣等生 来訪者編
 2020/11/29-06:00:01 08.5 Sen`yoku no Sigrdrifa|戦翼のシグルドリーヴァ
 2020/11/29-06:00:01 08 Kamisama ni Natta Hi|神様になった日
-2020/11/29-00:00:01 09 Han`you no Yashahime Sengoku Otogizoushi|半妖の夜叉姫
-2020/11/29-00:00:01 08 Gochuumon wa Usagi Desuka Bloom|ご注文はうさぎですか？BLOOM
