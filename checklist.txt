@@ -1,4 +1,7 @@
-Last Update: 2020/12/06-00:00:01
+Last Update: 2020/12/06-06:00:01
+2020/12/06-06:00:01 10 Mahouka Koukou no Rettousei Raihousha Hen|魔法科高校の劣等生 来訪者編
+2020/12/06-06:00:01 09 Sen`yoku no Sigrdrifa|戦翼のシグルドリーヴァ
+2020/12/06-06:00:01 09 Kamisama ni Natta Hi|神様になった日
 2020/12/06-00:00:01 10 Han`you no Yashahime Sengoku Otogizoushi|半妖の夜叉姫
 2020/12/06-00:00:01 09 Gochuumon wa Usagi Desuka Bloom|ご注文はうさぎですか？BLOOM
 2020/12/05-12:00:01 10 Dqdai|ドラゴンクエスト ダイの大冒険
@@ -45,6 +48,3 @@ Last Update: 2020/12/06-00:00:01
 2020/11/29-12:00:01 128 Kiratto Pri-chan|キラッとプリ☆チャン
 2020/11/29-12:00:01 09 Iwa Kakeru! Sport Climbing Girls|いわかける！ -Sport Climbing Girls-
 2020/11/29-12:00:01 08 Taisou Zamurai|体操ザムライ
-2020/11/29-06:00:01 09 Mahouka Koukou no Rettousei Raihousha Hen|魔法科高校の劣等生 来訪者編
-2020/11/29-06:00:01 08.5 Sen`yoku no Sigrdrifa|戦翼のシグルドリーヴァ
-2020/11/29-06:00:01 08 Kamisama ni Natta Hi|神様になった日
