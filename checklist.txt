@@ -1,4 +1,8 @@
-Last Update: 2020/12/07-00:00:01
+Last Update: 2020/12/07-06:00:02
+2020/12/07-06:00:02 10 Love Live! Nijigasaki Gakuen School Idol Doukoukai|ラブライブ！虹ヶ咲学園スクールアイドル同好会
+2020/12/07-06:00:02 10 Kami-tachi ni Hirowareta Otoko|神達に拾われた男
+2020/12/07-06:00:02 09 Maesetsu! Opening Act|まえせつ！
+2020/12/07-06:00:02 0 Shingeki no Kyojin The Final Season|進撃の巨人 The Final Season
 2020/12/07-00:00:01 10 Munou na Nana|無能なナナ
 2020/12/07-00:00:01 09 Yuukoku no Moriarty|憂国のモリアーティ
 2020/12/06-12:00:02 35 Healin` Good Precure|ヒーリングっど♡プリキュア
@@ -45,6 +49,3 @@ Last Update: 2020/12/07-00:00:01
 2020/12/01-00:00:01 09 Eternity Shin`ya no Nurekoi Channel|エタニティ ～深夜の濡恋ちゃんねる♡～
 2020/12/01-00:00:01 08 Ochikobore Fruit Tart|おちこぼれフルーツタルト
 2020/12/01-00:00:01 02 Toji no Miko Kizamishi Issen no Tomoshibi|刀使ノ巫女 刻みし一閃の燈火
-2020/11/30-06:00:02 09 Love Live! Nijigasaki Gakuen School Idol Doukoukai|ラブライブ！虹ヶ咲学園スクールアイドル同好会
-2020/11/30-06:00:02 09 Kami-tachi ni Hirowareta Otoko|神達に拾われた男
-2020/11/30-06:00:02 08 Maesetsu! Opening Act|まえせつ！
