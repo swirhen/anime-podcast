@@ -87,11 +87,18 @@ filecnt=`ls "${efilename}".*.mp4 | wc -l`
 if [ ${filecnt} -gt 1 ]; then
     rm -f "list_${efilename}"
     touch "list_${efilename}"
-    for file in "${efilename}".*.mp4
+
+    # ファイル名にスペースが含まれる場合、アンダースコアに変更してからリスト化する
+    if [ "`echo ${efilename} | grep ' '`" != "" ]; then
+        rename "s/\ /_/g" "${efilename}".*.mp4
+    fi
+    efilename2="${efilename// /_}"
+
+    for file in "${efilename2}".*.mp4
     do
         echo "file ${file}" >> "list_${efilename}"
     done
-    
+
     # 連結
     /usr/bin/wine ffmpeg3.exe -safe 0 -f concat -i "list_${efilename}" "${efilename}.mp4"
     rm -f "${efilename}".*.mp4
