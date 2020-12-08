@@ -19,6 +19,10 @@ PYTHON_PATH="python3"
 MODE=hls
 #MODE=rtmp
 PLAYPATH=`cat ${SCRIPT_DIR}/aandg`
+OUTPUT_PATH="/data/share/movie/98 PSP用/agqr"
+TMP_PATH="${OUTPUT_PATH}/flv"
+FLG_PATH="${OUTPUT_PATH}/flg"
+
 if [ "${MODE}" = "rtmp" ]; then
     PLAYPATH=`cat ${SCRIPT_DIR}/aandg2`
 fi
@@ -28,7 +32,7 @@ sleep $offset
 
 # 隔週対応
 if [ "${recflg:-null}" != null ]; then
-flgfile="/data/share/movie/98 PSP用/agqr/flg/$recflg"
+flgfile="${FLG_PATH}/$recflg"
     if [ -f "$flgfile" ]; then
         rm "$flgfile"
     else
@@ -40,7 +44,7 @@ fi
 dt=`date +"%Y%m%d_%H%M"`
 
 # 保存ファイル名
-filename="/data/share/movie/98 PSP用/agqr/flv/$dt"_"$name"
+filename="${TMP_PATH}/$dt"_"$name"
 # パスを除いたファイル名
 efilename="$dt"_"$name"
 
@@ -60,10 +64,15 @@ do
         /usr/bin/wine ffmpeg3.exe -i "${PLAYPATH}" -c copy -t ${rectime_rem} "${filename_rec}"
     fi
     mov_duration=`ffprobe -i "${filename_rec}" -select_streams v:0 -show_entries stream=duration 2>&1 | grep duration | sed s/duration=// | sed "s/\.[0-9]*$//g"`
-    if [ ${mov_duration} -ge ${rectime} ]; then
+    # 取得したファイルが0秒、もしくは録音時間以上なら終わる
+    if [ ${mov_duration} -eq 0 -o ${mov_duration} -gt ${rectime} ]; then
         break
     fi
     rectime_rem=`expr ${rectime} - ${mov_duration}`
+    # 残り秒数が10秒以下なら完了とする
+    if [ ${rectime_rem} -le 10 ]; then
+        break
+    fi
     rectime=${rectime_rem}
     file_num=$(( 10#${file_num} + 1 ))
     file_num_zp="0${file_num}"
@@ -71,29 +80,32 @@ do
 done
 
 # 保存フォルダへ移動
-cd "/data/share/movie/98 PSP用/agqr/flv"
+cd "${TMP_PATH}"
 
-# リスト作成
-rm -f "list_${efilename}"
-touch "list_${efilename}"
-for file in "${efilename}".*.mp4
-do
-    echo "file ${file}" >> "list_${efilename}"
-done
-
-# 映像付きならばエンコード用のシェルを呼ぶ。音声のみならmp3エンコード
-if [ "${vidflg}" = "v" ]; then
-    until [ -f "/data/share/movie/98 PSP用/agqr/$efilename.mp4" ];
+# ファイルが複数ある場合、リスト作成し、連結
+filecnt=`ls "${efilename}".*.mp4 | wc -l`
+if [ ${filecnt} -gt 1 ]; then
+    rm -f "list_${efilename}"
+    touch "list_${efilename}"
+    for file in "${efilename}".*.mp4
     do
-        /usr/bin/wine ffmpeg3.exe -safe 0 -f concat -i "list_${efilename}" "/data/share/movie/98 PSP用/agqr/$efilename.mp4"
+        echo "file ${file}" >> "list_${efilename}"
     done
+    
+    # 連結
+    /usr/bin/wine ffmpeg3.exe -safe 0 -f concat -i "list_${efilename}" "${efilename}.mp4"
+    rm -f "${efilename}".*.mp4
+    # rm -f "list_${efilename}"
 else
-    until [ -f "/data/share/movie/98 PSP用/agqr/$efilename.mp3" ];
-    do
-        /usr/bin/wine ffmpeg3.exe -safe 0 -f concat -i "list_${efilename}" -acodec libmp3lame -ab 64k -ac 2 -ar 24000 "/data/share/movie/98 PSP用/agqr/$efilename.mp3"
-    done
+    mv "${efilename}.01.mp4" "${efilename}.mp4"
 fi
-rm -f "list_${efilename}"
+
+# 映像付き指定ならば出力ディレクトリにコピー。音声のみ指定なら音声抽出
+if [ "${vidflg}" = "v" ]; then
+    cp "${efilename}.mp4" "${OUTPUT_PATH}/"
+else
+    /usr/bin/wine ffmpeg3.exe -i "${efilename}.mp4" -acodec copy -map 0:1 "${OUTPUT_PATH}/${efilename}.m4a"
+fi
 
 # rssフィード生成シェル
 /data/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
