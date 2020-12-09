@@ -55,7 +55,7 @@ ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【超A&G
 
 # 番組名バリデート
 pgmname=`curl https://agqr.sun-yryr.com/api/today | jq ".[] | select(.ft == \"${dt2}\") | .title" | sed "s/\!/！/g"`
-if [ "${pgmname}" != "" ]; then
+if [ "${pgmname}" = "" ]; then
     ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "@channel 【超A&G自動保存】番組表apiからこの時間開始の番組名が取得出来ませんでした。リピート放送の何かに変更されている場合があります。ご確認ください
 from arg: ${name}"
 fi
