@@ -20,55 +20,45 @@ MAILTO=""
 
 # SP
 #4 8 1,2,3,23,24,27-31 8 * /data/share/movie/sh/rec_nhk.sh NHK1 13560 "/data/share/movie/98 PSP用/agqr/" "夏休み子ども科学電話相談"
-#59 18 8 11 * /data/share/movie/sh/radikorec.sh -o "Anime ＆ Seiyu Music Night 平山笑美特集" -t 1860 RN1
-
-# Abema Fresh
-# SP
-#59 20 24 6 * /data/share/movie/sh/freshrecord.sh "木戸衣吹" kido-ibuki 0
-# 隔週水曜(毎週取得)
-59 20 * * 3 /data/share/movie/sh/freshrecord.sh "フレッシュはじめました" ito_miku 0
-59 20 * * 3 /data/share/movie/sh/freshrecord.sh "愛美のPerfect Woman" hibiki 1
-# 隔週木曜(毎週取得)
-59 19 * * 4 /data/share/movie/sh/freshrecord.sh "日笠・日高のお日様ぐみ！" hibiki 1
 
 # SP
-59 0 6,13,20,27 12 * /data/share/movie/sh/agqrrecord.sh "木戸衣吹と田辺留依の「ふたラジ！！」" 50 1830
+0 1 6,13,20,27 12 * /data/share/movie/sh/agqrrecord.sh "木戸衣吹と田辺留依の「ふたラジ！！」" 30 1800
+0 12 8 12 * /data/share/movie/sh/agqrrecord.sh "long time record test" 30 3600 v
 
 # 帯
-59 23 * * 1-4 /data/share/movie/sh/agqrrecord.sh "鷲崎健のヨルナイト×ヨルナイト" 50 3630 v
+0 0 * * 2-5 /data/share/movie/sh/agqrrecord.sh "鷲崎健のヨルナイト×ヨルナイト" 30 3600 v
 # -- MON
-#29 17 * 4,5,6 1 /data/share/movie/sh/agqrrecord.sh "大久保瑠美・桑原由気 まなべる！ライトノベル！" 50 1830 v
-59 21 * * 1 /data/share/movie/sh/agqrrecord.sh "井口裕香のむ～～～ん⊂（　＾ω＾）⊃" 50 3630 v
-59 22 * * 1 /data/share/movie/sh/agqrrecord.sh "東山奈央のラジオ＠リビング" 50 1830
-29 23 * * 1 /data/share/movie/sh/agqrrecord.sh "山崎はるかとまるぴ……近っっ！！" 50 1830 v
-29 2 * * 2 /data/share/movie/sh/agqrrecord.sh "佐藤亜美菜のアミメン！" 50 1830 v
-59 2 * * 2 /data/share/movie/sh/agqrrecord.sh "伊福部崇のラジオのラジオ" 50 1830
+#29 17 * 4,5,6 1 /data/share/movie/sh/agqrrecord.sh "大久保瑠美・桑原由気 まなべる！ライトノベル！" 30 1800 v
+0 22 * * 1 /data/share/movie/sh/agqrrecord.sh "井口裕香のむ～～～ん⊂（　＾ω＾）⊃" 30 3600 v
+0 23 * * 1 /data/share/movie/sh/agqrrecord.sh "東山奈央のラジオ＠リビング" 30 1800
+30 23 * * 1 /data/share/movie/sh/agqrrecord.sh "山崎はるかとまるぴ……近っっ！！" 30 1800 v
+30 2 * * 2 /data/share/movie/sh/agqrrecord.sh "佐藤亜美菜のアミメン！" 30 1800 v
+0 3 * * 2 /data/share/movie/sh/agqrrecord.sh "伊福部崇のラジオのラジオ" 30 1800
 # -- TUE
-29 16 * * 2 /data/share/movie/sh/agqrrecord.sh "渕上舞のとりあえずまぁ、話だけでも。" 50 1830 v
-59 20 * * 2 /data/share/movie/sh/agqrrecord.sh "TrySailのTRYangle harmony" 50 1830
-29 21 * * 2 /data/share/movie/sh/agqrrecord.sh "上田麗奈のひみつばこ" 50 1830
-59 22 * * 2 /data/share/movie/sh/agqrrecord.sh "村川梨衣の a りえしょんぷり～ず" 50 1830 v
-29 23 * * 2 /data/share/movie/sh/agqrrecord.sh "佐倉としたい大西" 50 1830 v
-59 0 * * 3 /data/share/movie/sh/agqrrecord.sh "洲崎西" 50 1830
+30 17 * * 2 /data/share/movie/sh/agqrrecord.sh "渕上舞のとりあえずまぁ、話だけでも。" 30 1800 v
+0 21 * * 2 /data/share/movie/sh/agqrrecord.sh "TrySailのTRYangle harmony" 30 1800
+30 21 * * 2 /data/share/movie/sh/agqrrecord.sh "上田麗奈のひみつばこ" 30 1800
+30 23 * * 2 /data/share/movie/sh/agqrrecord.sh "佐倉としたい大西" 30 1800 v
+0 1 * * 3 /data/share/movie/sh/agqrrecord.sh "洲崎西" 30 1800
 # -- WED
-59 20 * * 3 /data/share/movie/sh/agqrrecord.sh "夕実＆梨沙のラフストーリーは突然に" 50 1830
+0 21 * * 3 /data/share/movie/sh/agqrrecord.sh "夕実＆梨沙のラフストーリーは突然に" 30 1800
 # -- THU
-59 20 * * 4 /data/share/movie/sh/agqrrecord.sh "アニゲラ！ディドゥーーン！！" 50 1830
+0 21 * * 4 /data/share/movie/sh/agqrrecord.sh "アニゲラ！ディドゥーーン！！" 30 1800
 30 21 * * 4 /data/share/movie/sh/radikorec.sh -o "田村ゆかりの乙女心▽症候群" -t 1830 QRR
-29 23 * * 4 /data/share/movie/sh/agqrrecord.sh "竹達・沼倉の初ラジ！" 50 1830
-59 1 * * 5 /data/share/movie/sh/agqrrecord.sh "阿澄佳奈 星空ひなたぼっこ" 50 1830 v
+30 23 * * 4 /data/share/movie/sh/agqrrecord.sh "竹達・沼倉の初ラジ！" 30 1800
+0 2 * * 5 /data/share/movie/sh/agqrrecord.sh "阿澄佳奈 星空ひなたぼっこ" 30 1800 v
 # -- FRI
 # -- SAT
-59 13 * * 6 /data/share/movie/sh/agqrrecord.sh "原田彩楓のさやのま" 50 1830 v
-29 14 * * 6 /data/share/movie/sh/agqrrecord.sh "サンセルモ presents 結婚式は あいのなかで" 50 1830 v
+0 14 * * 6 /data/share/movie/sh/agqrrecord.sh "原田彩楓のさやのま" 30 1800 v
+30 14 * * 6 /data/share/movie/sh/agqrrecord.sh "サンセルモ presents 結婚式は あいのなかで" 30 1800 v
 0 19 * * 6 /data/share/movie/sh/radikorec.sh -o "A＆Gリクエストアワー 阿澄佳奈のキミまち！" -t 7230 QRR
-59 19 * * 6 /data/share/movie/sh/agqrrecord.sh "フレッシュたかまつ" 50 1830
-29 20 * * 6 /data/share/movie/sh/agqrrecord.sh "内田真礼とおはなししません？" 50 1830
+0 20 * * 6 /data/share/movie/sh/agqrrecord.sh "フレッシュたかまつ" 30 1800
+30 20 * * 6 /data/share/movie/sh/agqrrecord.sh "内田真礼とおはなししません？" 30 1800
 0 0 * * 7 /data/share/movie/sh/radikorec.sh -o "上坂すみれの▽をつければかわいかろう" -t 1830 QRR
 0 2 * * 7 /data/share/movie/sh/radikorec.sh -o "MOMO・SORA・SHIINA Talking Box" -t 1830 QRR
 # -- SUN
-29 19 * * 7 /data/share/movie/sh/agqrrecord.sh "早見沙織のふり～すたいる♪" 50 1830
-59 19 * * 7 /data/share/movie/sh/agqrrecord.sh "小原好美のココロおきなく" 50 1830
+30 19 * * 7 /data/share/movie/sh/agqrrecord.sh "早見沙織のふり～すたいる♪" 30 1800
+0 20 * * 7 /data/share/movie/sh/agqrrecord.sh "小原好美のココロおきなく" 30 1800
 0 21 * * 7 /data/share/movie/sh/radikorec.sh -o "大橋彩香のAny Beat！" -t 1830 QRR
 0 22 * * 7 /data/share/movie/sh/radikorec.sh -o "水瀬いのり MELODY FLAG" -t 1830 QRR
 30 0 * * 1 /data/share/movie/sh/radikorec.sh -o "小倉唯のyui＊room" -t 1830 QRR
