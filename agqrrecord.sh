@@ -42,6 +42,7 @@ flgfile="${FLG_PATH}/$recflg"
 fi
 # 日付時刻
 dt=`date +"%Y%m%d_%H%M"`
+dt2=`date +"%Y%m%d%H%M"`
 
 # 保存ファイル名
 filename="${TMP_PATH}/$dt"_"$name"
@@ -51,6 +52,19 @@ efilename="$dt"_"$name"
 # つぶやく
 /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【超A&G自動保存開始】$efilename"
 ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【超A&G自動保存開始】$efilename"
+
+# 番組名バリデート
+pgmname=`curl https://agqr.sun-yryr.com/api/today | jq ".[] | select(.ft == \"${dt2}\") | .title" | sed "s/\!/！/g"`
+if [ "${pgmname}" != "" ]; then
+    ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "@channel 【超A&G自動保存】番組表apiからこの時間開始の番組名が取得出来ませんでした。リピート放送の何かに変更されている場合があります。ご確認ください
+from arg: ${name}"
+fi
+
+if [ "${pgmname}" != "${name}" ]; then
+    ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "@channel 【超A&G自動保存】番組表apiから取得した番組名と指定番組名が違っています。確認してください
+from arg: ${name}
+from api: ${pgmname}"
+fi
 
 # 録音時間に満たないファイルが生成されてしまった場合、続きから録音し直す(最終的に録音時間合計に達するまで続ける)
 rectime_rem=${rectime}
