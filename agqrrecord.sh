@@ -83,8 +83,8 @@ do
         break
     fi
     rectime_rem=`expr ${rectime} - ${mov_duration}`
-    # 残り秒数が10秒以下なら完了とする
-    if [ ${rectime_rem} -le 10 ]; then
+    # 残り秒数が15秒以下なら完了とする
+    if [ ${rectime_rem} -le 15 ]; then
         break
     fi
     rectime=${rectime_rem}
