@@ -115,7 +115,7 @@ if [ ${filecnt} -gt 1 ]; then
 
     # 連結
     /usr/bin/wine ffmpeg3.exe -safe 0 -f concat -i "list_${efilename}" "${efilename}.mp4"
-    rm -f "${efilename}".*.mp4
+    rm -f "${efilename2}".*.mp4
     # rm -f "list_${efilename}"
 else
     mv "${efilename}.01.mp4" "${efilename}.mp4"
