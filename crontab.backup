@@ -43,7 +43,7 @@ MAILTO=""
 # -- WED
 0 21 * * 3 /data/share/movie/sh/agqrrecord.sh "夕実＆梨沙のラフストーリーは突然に" 30 1800
 # -- THU
-0 21 * * 4 /data/share/movie/sh/agqrrecord.sh "アニゲラ！ディドゥーーン！！" 30 1800
+0 21 * * 4 /data/share/movie/sh/agqrrecord.sh "アニゲラ！ディドゥーーン！！！" 30 1800
 30 21 * * 4 /data/share/movie/sh/radikorec.sh -o "田村ゆかりの乙女心▽症候群" -t 1830 QRR
 30 23 * * 4 /data/share/movie/sh/agqrrecord.sh "竹達・沼倉の初ラジ！" 30 1800
 0 2 * * 5 /data/share/movie/sh/agqrrecord.sh "阿澄佳奈 星空ひなたぼっこ" 30 1800 v
