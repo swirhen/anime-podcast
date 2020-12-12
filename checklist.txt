@@ -1,4 +1,5 @@
-Last Update: 2020/12/12-06:00:01
+Last Update: 2020/12/12-12:00:01
+2020/12/12-12:00:01 11 Dqdai|ドラゴンクエスト ダイの大冒険
 2020/12/12-06:00:01 11 Tonikaku Kawaii|トニカクカワイイ
 2020/12/12-06:00:01 11 Rail Romanesque|レヱル・ロマネスク
 2020/12/12-06:00:01 11 King`s Raid Ishi o Tsugu Mono-tachi|キングスレイド 意志を継ぐものたち
@@ -45,6 +46,5 @@ Last Update: 2020/12/12-06:00:01
 2020/12/06-06:00:01 09 Kamisama ni Natta Hi|神様になった日
 2020/12/06-00:00:01 10 Han`you no Yashahime Sengoku Otogizoushi|半妖の夜叉姫
 2020/12/06-00:00:01 09 Gochuumon wa Usagi Desuka Bloom|ご注文はうさぎですか？BLOOM
-2020/12/05-12:00:01 10 Dqdai|ドラゴンクエスト ダイの大冒険
 2020/12/05-00:00:01 06 D4DJ First Mix|D4DJ First Mix
 2020/12/01-00:00:01 02 Toji no Miko Kizamishi Issen no Tomoshibi|刀使ノ巫女 刻みし一閃の燈火
