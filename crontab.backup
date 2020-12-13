@@ -55,7 +55,7 @@ MAILTO=""
 0 0 * * 7 /data/share/movie/sh/radikorec.sh -o "上坂すみれの▽をつければかわいかろう" -t 1830 QRR
 0 2 * * 7 /data/share/movie/sh/radikorec.sh -o "MOMO・SORA・SHIINA Talking Box" -t 1830 QRR
 # -- SUN
-30 19 * * 7 /data/share/movie/sh/agqrrecord.sh "早見沙織のふり～すたいる♪" 30 1800
+30 19 * * 7 /data/share/movie/sh/agqrrecord.sh "早見沙織の ふり～すたいる♪" 30 1800
 0 20 * * 7 /data/share/movie/sh/agqrrecord.sh "小原好美のココロおきなく" 30 1800
 0 21 * * 7 /data/share/movie/sh/radikorec.sh -o "大橋彩香のAny Beat！" -t 1830 QRR
 0 22 * * 7 /data/share/movie/sh/radikorec.sh -o "水瀬いのり MELODY FLAG" -t 1830 QRR
