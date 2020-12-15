@@ -54,13 +54,12 @@ efilename="$dt"_"$name"
 ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【超A&G自動保存開始】$efilename"
 
 # 番組名バリデート
-pgmname=`curl https://agqr.sun-yryr.com/api/today | jq -r ".[] | select(.ft == \"${dt2}\") | .title" | sed "s/\!/！/g"`
+#pgmname=`curl https://agqr.sun-yryr.com/api/today | jq -r ".[] | select(.ft == \"${dt2}\") | .title" | sed "s/\!/！/g"`
+pgmname=`curl https://agqr.sun-yryr.com/api/now | jq -r ".title" | sed "s/\!/！/g"`
 if [ "${pgmname}" = "" ]; then
-    ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "@channel 【超A&G自動保存】番組表apiからこの時間開始の番組名が取得出来ませんでした。リピート放送の何かに変更されている場合があります。ご確認ください
+    ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "@channel 【超A&G自動保存】番組表apiから番組名が取得出来ませんでした。ご確認ください
 from arg: ${name}"
-fi
-
-if [ "${pgmname}" != "${name}" ]; then
+elif [ "${pgmname}" != "${name}" ]; then
     ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "@channel 【超A&G自動保存】番組表apiから取得した番組名と指定番組名が違っています。確認してください
 from arg: ${name}
 from api: ${pgmname}"
