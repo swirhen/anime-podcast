@@ -1,4 +1,5 @@
-Last Update: 2020/12/17-06:00:01
+Last Update: 2020/12/17-12:00:02
+2020/12/17-12:00:02 11 Strike Witches Road to Berlin|ストライクウィッチーズ ROAD to BERLIN
 2020/12/17-06:00:01 11 Noblesse|NOBLESSE -ノブレス-
 2020/12/17-06:00:01 11 Kimisen|キミと僕の最後の戦場、あるいは世界が始まる聖戦
 2020/12/17-00:00:01 11 Kuma Kuma Kuma Bear|100万の命の上に俺は立っている
@@ -44,7 +45,6 @@ Last Update: 2020/12/17-06:00:01
 2020/12/11-00:00:01 10 Guraburu!|ぐらぶるっ！
 2020/12/11-00:00:01 10 Akudama Drive|アクダマドライブ
 2020/12/10-12:00:01 22 Great Pretender|GREAT PRETENDER
-2020/12/10-12:00:01 10 Strike Witches Road to Berlin|ストライクウィッチーズ ROAD to BERLIN
 2020/12/08-06:00:01 09 Osomatsu-san 3|おそ松さん(第3期)
 2020/12/05-00:00:01 06 D4DJ First Mix|D4DJ First Mix
 2020/12/01-00:00:01 02 Toji no Miko Kizamishi Issen no Tomoshibi|刀使ノ巫女 刻みし一閃の燈火
