@@ -1,4 +1,8 @@
-Last Update: 2020/12/21-00:00:01
+Last Update: 2020/12/21-06:00:01
+2020/12/21-06:00:01 12 Love Live! Nijigasaki Gakuen School Idol Doukoukai|ラブライブ！虹ヶ咲学園スクールアイドル同好会
+2020/12/21-06:00:01 12 Kami-tachi ni Hirowareta Otoko|神達に拾われた男
+2020/12/21-06:00:01 11 Maesetsu! Opening Act|まえせつ！
+2020/12/21-06:00:01 03 Shingeki no Kyojin The Final Season|進撃の巨人 The Final Season
 2020/12/21-00:00:01 12 Munou na Nana|無能なナナ
 2020/12/21-00:00:01 11 Yuukoku no Moriarty|憂国のモリアーティ
 2020/12/20-12:00:01 37 Healin` Good Precure|ヒーリングっど♡プリキュア
@@ -32,10 +36,6 @@ Last Update: 2020/12/21-00:00:01
 2020/12/15-00:00:00 11 Golden Kamuy (2020)|ゴールデンカムイ(第三期)
 2020/12/15-00:00:00 10 Ochikobore Fruit Tart|おちこぼれフルーツタルト
 2020/12/14-18:00:01 11 Eternity Shin`ya no Nurekoi Channel|エタニティ ～深夜の濡恋ちゃんねる♡～
-2020/12/14-06:00:01 11 Love Live! Nijigasaki Gakuen School Idol Doukoukai|ラブライブ！虹ヶ咲学園スクールアイドル同好会
-2020/12/14-06:00:01 11 Kami-tachi ni Hirowareta Otoko|神達に拾われた男
-2020/12/14-06:00:01 10 Maesetsu! Opening Act|まえせつ！
-2020/12/14-06:00:01 02 Shingeki no Kyojin The Final Season|進撃の巨人 The Final Season
 2020/12/12-06:00:01 11 Rail Romanesque|レヱル・ロマネスク
 2020/12/12-06:00:01 11 Haikyuu!! To the Top (2020)|ハイキュー!! TO THE TOP(第2クール)
 2020/12/10-12:00:01 22 Great Pretender|GREAT PRETENDER
