@@ -1,4 +1,6 @@
-Last Update: 2020/12/21-18:00:01
+Last Update: 2020/12/22-00:00:01
+2020/12/22-00:00:01 12 Golden Kamuy (2020)|ゴールデンカムイ(第三期)
+2020/12/22-00:00:01 11 Ochikobore Fruit Tart|おちこぼれフルーツタルト
 2020/12/21-06:00:01 12 Love Live! Nijigasaki Gakuen School Idol Doukoukai|ラブライブ！虹ヶ咲学園スクールアイドル同好会
 2020/12/21-06:00:01 11 Maesetsu! Opening Act|まえせつ！
 2020/12/21-06:00:01 03 Shingeki no Kyojin The Final Season|進撃の巨人 The Final Season
@@ -32,8 +34,6 @@ Last Update: 2020/12/21-18:00:01
 2020/12/16-00:00:01 11 Maou-jou de Oyasumi|魔王城でおやすみ
 2020/12/16-00:00:01 11 Ikebukuro West Gate Park|池袋ウエストゲートパーク
 2020/12/15-06:00:01 11 One Room Third Season|One Room サードシーズン
-2020/12/15-00:00:00 11 Golden Kamuy (2020)|ゴールデンカムイ(第三期)
-2020/12/15-00:00:00 10 Ochikobore Fruit Tart|おちこぼれフルーツタルト
 2020/12/14-18:00:01 11 Eternity Shin`ya no Nurekoi Channel|エタニティ ～深夜の濡恋ちゃんねる♡～
 2020/12/12-06:00:01 11 Rail Romanesque|レヱル・ロマネスク
 2020/12/12-06:00:01 11 Haikyuu!! To the Top (2020)|ハイキュー!! TO THE TOP(第2クール)
