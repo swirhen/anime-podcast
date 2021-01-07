@@ -1,6 +1,9 @@
-Last Update: 2021/01/08-00:00:02
-2021/01/08-00:00:02 0 Yuru Camp Season 2|ゆるキャン△ SEASON2
-2021/01/08-00:00:02 0 Show by Rock!! Stars!!|SHOW BY ROCK!!STARS!!
+Last Update: 2021/01/08-06:00:01
+2021/01/08-06:00:01 14 Higurashi no Naku Koro ni (2020)|ひぐらしのなく頃に業
+2021/01/08-06:00:01 01 Yuru Camp Season 2|ゆるキャン△ SEASON2
+2021/01/08-06:00:01 01 Show by Rock!! Stars!!|SHOW BY ROCK!!STARS!!
+2021/01/08-06:00:01 0 Tenchi Souzou Design Bu|天地創造デザイン部
+2021/01/08-06:00:01 0 Go-Toubun no Hanayome ∬|五等分の花嫁∬
 2021/01/07-12:00:01 01 Soukou Musume Senki|装甲娘戦機
 2021/01/07-12:00:01 01 I-Chu Halfway Through the Idol|22／7 検算中
 2021/01/07-12:00:01 01 Hortensia Saga|オルタンシア・サーガ
@@ -22,6 +25,5 @@ Last Update: 2021/01/08-00:00:02
 2020/12/27-00:00:01 13 Han`you no Yashahime Sengoku Otogizoushi|半妖の夜叉姫
 2020/12/26-12:00:01 13 Dqdai|ドラゴンクエスト ダイの大冒険
 2020/12/26-06:00:01 13 Jujutsu Kaisen|呪術廻戦
-2020/12/25-06:00:02 13 Higurashi no Naku Koro ni (2020)|ひぐらしのなく頃に業
 2020/12/05-00:00:01 06 D4DJ First Mix|D4DJ First Mix
 2020/12/01-00:00:01 02 Toji no Miko Kizamishi Issen no Tomoshibi|刀使ノ巫女 刻みし一閃の燈火
