@@ -1,8 +1,13 @@
-Last Update: 2021/01/09-00:00:02
-2021/01/09-00:00:02 0 Yakusoku no Neverland 2nd Season|約束のネバーランド(第2期)
-2021/01/09-00:00:02 0 Kumo Desu ga, Nanika|蜘蛛ですが、なにか？
-2021/01/09-00:00:02 0 Idolls!|アイドールズ！
-2021/01/09-00:00:02 0 Go-Toubun no Hanayome 2|五等分の花嫁∬
+Last Update: 2021/01/09-06:00:01
+2021/01/09-06:00:01 15 King`s Raid Ishi o Tsugu Mono-tachi|キングスレイド 意志を継ぐものたち
+2021/01/09-06:00:01 01 Yakusoku no Neverland 2nd Season|約束のネバーランド(第2期)
+2021/01/09-06:00:01 01 Kumo Desu ga, Nanika|蜘蛛ですが、なにか？
+2021/01/09-06:00:01 01 Idolls!|アイドールズ！
+2021/01/09-06:00:01 01 Go-Toubun no Hanayome 2|五等分の花嫁∬
+2021/01/09-06:00:01 0 Project Scard Praeter no Kizu|プレイタの傷
+2021/01/09-06:00:01 0 Otona no Bouguya-san II|おとなの防具屋さんII
+2021/01/09-06:00:01 0 Ore dake Haireru Kakushi Dungeon|俺だけ入れる隠しダンジョン
+2021/01/09-06:00:01 0 Back Arrow|バック・アロウ
 2021/01/08-12:00:01 01 Tenchi Souzou Design Bu|天地創造デザイン部
 2021/01/08-12:00:01 01 Go-Toubun no Hanayome ∬|五等分の花嫁∬
 2021/01/08-06:00:01 14 Higurashi no Naku Koro ni (2020)|ひぐらしのなく頃に業
@@ -25,7 +30,6 @@ Last Update: 2021/01/09-00:00:02
 2020/12/27-12:00:01 38 Healin` Good Precure|ヒーリングっど♡プリキュア
 2020/12/27-12:00:01 30 Digimon Adventure;|デジモンアドベンチャー：
 2020/12/27-12:00:01 132 Kiratto Pri-chan|キラッとプリ☆チャン
-2020/12/27-00:00:01 14 King`s Raid Ishi o Tsugu Mono-tachi|キングスレイド 意志を継ぐものたち
 2020/12/27-00:00:01 13 Han`you no Yashahime Sengoku Otogizoushi|半妖の夜叉姫
 2020/12/26-12:00:01 13 Dqdai|ドラゴンクエスト ダイの大冒険
 2020/12/26-06:00:01 13 Jujutsu Kaisen|呪術廻戦
