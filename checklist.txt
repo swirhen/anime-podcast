@@ -1,4 +1,5 @@
-Last Update: 2021/01/09-18:00:01
+Last Update: 2021/01/10-00:00:02
+2021/01/10-00:00:02 14 Han`you no Yashahime Sengoku Otogizoushi|半妖の夜叉姫
 2021/01/09-12:00:01 14 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/01/09-12:00:01 01 Project Scard Praeter no Kizu|プレイタの傷
 2021/01/09-12:00:01 01 Otona no Bouguya-san II|おとなの防具屋さんII
@@ -31,7 +32,6 @@ Last Update: 2021/01/09-18:00:01
 2020/12/27-12:00:01 38 Healin` Good Precure|ヒーリングっど♡プリキュア
 2020/12/27-12:00:01 30 Digimon Adventure;|デジモンアドベンチャー：
 2020/12/27-12:00:01 132 Kiratto Pri-chan|キラッとプリ☆チャン
-2020/12/27-00:00:01 13 Han`you no Yashahime Sengoku Otogizoushi|半妖の夜叉姫
 2020/12/26-06:00:01 13 Jujutsu Kaisen|呪術廻戦
 2020/12/05-00:00:01 06 D4DJ First Mix|D4DJ First Mix
 2020/12/01-00:00:01 02 Toji no Miko Kizamishi Issen no Tomoshibi|刀使ノ巫女 刻みし一閃の燈火
