@@ -1,8 +1,13 @@
-Last Update: 2021/01/10-06:00:01
-2021/01/10-06:00:01 0 Kai Byoui Ramune|怪病医ラムネ
-2021/01/10-06:00:01 0 Horimiya|ホリミヤ
-2021/01/10-06:00:01 0 Hataraku Saibou!!|はたらく細胞!!
-2021/01/10-06:00:01 0 Hataraku Saibou Black|はたらく細胞BLACK
+Last Update: 2021/01/10-12:00:01
+2021/01/10-12:00:01 39 Healin` Good Precure|ヒーリングっど♡プリキュア
+2021/01/10-12:00:01 36 Mewkledreamy|ミュークルドリーミー
+2021/01/10-12:00:01 31 Digimon Adventure;|デジモンアドベンチャー：
+2021/01/10-12:00:01 133 Kiratto Pri-chan|キラッとプリ☆チャン
+2021/01/10-12:00:01 01 Kai Byoui Ramune|怪病医ラムネ
+2021/01/10-12:00:01 01 Horimiya|ホリミヤ
+2021/01/10-12:00:01 01 Hataraku Saibou!!|はたらく細胞!!
+2021/01/10-12:00:01 01 Hataraku Saibou Black|はたらく細胞BLACK
+2021/01/10-12:00:01 0 World Trigger 2nd Season|ワールドトリガー 2ndシーズン
 2021/01/10-00:00:02 14 Han`you no Yashahime Sengoku Otogizoushi|半妖の夜叉姫
 2021/01/09-12:00:01 14 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/01/09-12:00:01 01 Project Scard Praeter no Kizu|プレイタの傷
@@ -32,10 +37,6 @@ Last Update: 2021/01/10-06:00:01
 2021/01/01-12:00:01 02 Grisaia Phantom Trigger - The Animation|グリザイア：ファントムトリガー THE ANIMATION
 2020/12/30-12:00:01 02 Azur Lane Bisoku Zenshin!|アズールレーン びそくぜんしんっ！
 2020/12/28-06:00:01 04 Shingeki no Kyojin The Final Season|進撃の巨人 The Final Season
-2020/12/27-18:00:01 35 Mewkledreamy|ミュークルドリーミー
-2020/12/27-12:00:01 38 Healin` Good Precure|ヒーリングっど♡プリキュア
-2020/12/27-12:00:01 30 Digimon Adventure;|デジモンアドベンチャー：
-2020/12/27-12:00:01 132 Kiratto Pri-chan|キラッとプリ☆チャン
 2020/12/26-06:00:01 13 Jujutsu Kaisen|呪術廻戦
 2020/12/05-00:00:01 06 D4DJ First Mix|D4DJ First Mix
 2020/12/01-00:00:01 02 Toji no Miko Kizamishi Issen no Tomoshibi|刀使ノ巫女 刻みし一閃の燈火
