@@ -1,8 +1,10 @@
-Last Update: 2021/01/14-00:00:01
+Last Update: 2021/01/14-06:00:02
+2021/01/14-06:00:02 02 Soukou Musume Senki|装甲娘戦機
+2021/01/14-06:00:02 02 Hortensia Saga|オルタンシア・サーガ
+2021/01/14-06:00:02 01 Nanatsu no Taizai Fundo no Shinpan|七つの大罪 憤怒の審判
+2021/01/14-06:00:02 01 Log Horizon Entaku Houkai|ログ・ホライズン 円卓崩壊
 2021/01/14-00:00:01 02 Re Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2|Re:ゼロから始める異世界生活 2nd season 後半クール
 2021/01/14-00:00:01 02 I-Chu Halfway Through the Idol|22／7 検算中
-2021/01/14-00:00:01 0 Nanatsu no Taizai Fundo no Shinpan|七つの大罪 憤怒の審判
-2021/01/14-00:00:01 0 Log Horizon Entaku Houkai|ログ・ホライズン 円卓崩壊
 2021/01/13-12:00:02 01 World Witches Hasshin Shimasu!|ワールドウィッチーズ発進しますっ！
 2021/01/13-12:00:02 01 Wonder Egg Priority|ワンダーエッグ・プライオリティ
 2021/01/13-12:00:02 01 Wave!! Surfing Yappe!!|WAVE!!～サーフィンやっぺ!!～
@@ -51,8 +53,6 @@ Last Update: 2021/01/14-00:00:01
 2021/01/08-06:00:01 14 Higurashi no Naku Koro ni (2020)|ひぐらしのなく頃に業
 2021/01/08-06:00:01 01 Yuru Camp Season 2|ゆるキャン△ SEASON2
 2021/01/08-06:00:01 01 Show by Rock!! Stars!!|SHOW BY ROCK!!STARS!!
-2021/01/07-12:00:01 01 Soukou Musume Senki|装甲娘戦機
-2021/01/07-12:00:01 01 Hortensia Saga|オルタンシア・サーガ
 2021/01/05-18:00:01 13 Osomatsu-san 3|おそ松さん(第3期)
 2021/01/01-12:00:01 02 Grisaia Phantom Trigger - The Animation|グリザイア：ファントムトリガー THE ANIMATION
 2020/12/30-12:00:01 02 Azur Lane Bisoku Zenshin!|アズールレーン びそくぜんしんっ！
