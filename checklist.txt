@@ -1,4 +1,7 @@
-Last Update: 2021/01/14-18:00:01
+Last Update: 2021/01/15-00:00:01
+2021/01/15-00:00:01 14 Osomatsu-san 3|おそ松さん(第3期)
+2021/01/15-00:00:01 02 Yuru Camp Season 2|ゆるキャン△ SEASON2
+2021/01/15-00:00:01 02 Show by Rock!! Stars!!|SHOW BY ROCK!!STARS!!
 2021/01/14-18:00:01 01 Kaifuku Jutsushi no Yarinaoshi|回復術士のやり直し
 2021/01/14-12:00:01 02 Beastars Season 2|BEASTARS(第2期)
 2021/01/14-06:00:02 02 Soukou Musume Senki|装甲娘戦機
@@ -52,9 +55,6 @@ Last Update: 2021/01/14-18:00:01
 2021/01/08-12:00:01 01 Tenchi Souzou Design Bu|天地創造デザイン部
 2021/01/08-12:00:01 01 Go-Toubun no Hanayome ∬|五等分の花嫁∬
 2021/01/08-06:00:01 14 Higurashi no Naku Koro ni (2020)|ひぐらしのなく頃に業
-2021/01/08-06:00:01 01 Yuru Camp Season 2|ゆるキャン△ SEASON2
-2021/01/08-06:00:01 01 Show by Rock!! Stars!!|SHOW BY ROCK!!STARS!!
-2021/01/05-18:00:01 13 Osomatsu-san 3|おそ松さん(第3期)
 2021/01/01-12:00:01 02 Grisaia Phantom Trigger - The Animation|グリザイア：ファントムトリガー THE ANIMATION
 2020/12/30-12:00:01 02 Azur Lane Bisoku Zenshin!|アズールレーン びそくぜんしんっ！
 2020/12/26-06:00:01 13 Jujutsu Kaisen|呪術廻戦
