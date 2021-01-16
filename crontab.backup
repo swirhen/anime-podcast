@@ -49,7 +49,6 @@ MAILTO=""
 0 2 * * 5 /data/share/movie/sh/agqrrecord.sh "阿澄佳奈 星空ひなたぼっこ" 30 1800 v
 # -- FRI
 # -- SAT
-0 14 * * 6 /data/share/movie/sh/agqrrecord.sh "原田彩楓のさやのま" 30 1800 v
 30 14 * * 6 /data/share/movie/sh/agqrrecord.sh "サンセルモ presents 結婚式は あいのなかで" 30 1800 v
 0 19 * * 6 /data/share/movie/sh/radikorec.sh -o "A＆Gリクエストアワー 阿澄佳奈のキミまち！" -t 7230 QRR
 0 0 * * 7 /data/share/movie/sh/radikorec.sh -o "上坂すみれの▽をつければかわいかろう" -t 1830 QRR
