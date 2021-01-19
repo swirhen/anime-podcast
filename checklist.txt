@@ -1,4 +1,6 @@
-Last Update: 2021/01/19-18:00:01
+Last Update: 2021/01/20-00:00:01
+2021/01/20-00:00:01 160 Black Clover|ブラッククローバー
+2021/01/20-00:00:01 03 Gekidol|ゲキドル
 2021/01/19-18:00:01 15 Osomatsu-san 3|おそ松さん(第3期)
 2021/01/19-18:00:01 02 Wave!! Surfing Yappe!!|WAVE!!～サーフィンやっぺ!!～
 2021/01/19-12:00:01 03 Hataraku Saibou Black|はたらく細胞BLACK
@@ -54,8 +56,6 @@ Last Update: 2021/01/19-18:00:01
 2021/01/13-12:00:02 01 Wonder Egg Priority|ワンダーエッグ・プライオリティ
 2021/01/13-12:00:02 01 Tensei Shitara Slime Datta Ken 2nd Season|転生したらスライムだった件 第2期 第1部
 2021/01/13-12:00:02 01 Bungou Stray Dogs Wan!|文豪ストレイドッグス わん！
-2021/01/13-00:00:01 159 Black Clover|ブラッククローバー
-2021/01/13-00:00:01 02 Gekidol|ゲキドル
 2021/01/08-12:00:01 01 Go-Toubun no Hanayome ∬|五等分の花嫁∬
 2021/01/01-12:00:01 02 Grisaia Phantom Trigger - The Animation|グリザイア：ファントムトリガー THE ANIMATION
 2020/12/30-12:00:01 02 Azur Lane Bisoku Zenshin!|アズールレーン びそくぜんしんっ！
