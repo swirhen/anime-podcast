@@ -1,4 +1,6 @@
-Last Update: 2021/01/19-12:00:01
+Last Update: 2021/01/19-18:00:01
+2021/01/19-18:00:01 15 Osomatsu-san 3|おそ松さん(第3期)
+2021/01/19-18:00:01 02 Wave!! Surfing Yappe!!|WAVE!!～サーフィンやっぺ!!～
 2021/01/19-12:00:01 03 Hataraku Saibou Black|はたらく細胞BLACK
 2021/01/19-06:00:02 03 Ura Sekai Picnic|裏世界ピクニック
 2021/01/19-06:00:02 03 Uma Musume Pretty Derby Season 2|ウマ娘 プリティーダービー Season 2
@@ -38,7 +40,6 @@ Last Update: 2021/01/19-12:00:01
 2021/01/15-06:00:01 02 Tenchi Souzou Design Bu|天地創造デザイン部
 2021/01/15-06:00:01 02 Go-Toubun no Hanayome 2|五等分の花嫁∬
 2021/01/15-06:00:01 02 2.43 Seiin Koukou Danshi Volley Bu|2.43 清陰高校男子バレー部
-2021/01/15-00:00:01 14 Osomatsu-san 3|おそ松さん(第3期)
 2021/01/15-00:00:01 02 Yuru Camp Season 2|ゆるキャン△ SEASON2
 2021/01/15-00:00:01 02 Show by Rock!! Stars!!|SHOW BY ROCK!!STARS!!
 2021/01/14-18:00:01 01 Kaifuku Jutsushi no Yarinaoshi|回復術士のやり直し
@@ -51,7 +52,6 @@ Last Update: 2021/01/19-12:00:01
 2021/01/14-00:00:01 02 I-Chu Halfway Through the Idol|22／7 検算中
 2021/01/13-12:00:02 01 World Witches Hasshin Shimasu!|ワールドウィッチーズ発進しますっ！
 2021/01/13-12:00:02 01 Wonder Egg Priority|ワンダーエッグ・プライオリティ
-2021/01/13-12:00:02 01 Wave!! Surfing Yappe!!|WAVE!!～サーフィンやっぺ!!～
 2021/01/13-12:00:02 01 Tensei Shitara Slime Datta Ken 2nd Season|転生したらスライムだった件 第2期 第1部
 2021/01/13-12:00:02 01 Bungou Stray Dogs Wan!|文豪ストレイドッグス わん！
 2021/01/13-00:00:01 159 Black Clover|ブラッククローバー
