@@ -1,4 +1,7 @@
-Last Update: 2021/01/22-18:00:01
+Last Update: 2021/01/23-00:00:01
+2021/01/23-00:00:01 03 Kumo Desu ga, Nanika|蜘蛛ですが、なにか？
+2021/01/23-00:00:01 03 Jaku-chara Tomozaki-kun|弱キャラ友崎くん
+2021/01/23-00:00:01 03 Idolls!|アイドールズ！
 2021/01/22-06:00:02 16 Higurashi no Naku Koro ni (2020)|ひぐらしのなく頃に業
 2021/01/22-06:00:02 03 Yakusoku no Neverland 2nd Season|約束のネバーランド(第2期)
 2021/01/22-06:00:02 03 Tenchi Souzou Design Bu|天地創造デザイン部
@@ -54,9 +57,6 @@ Last Update: 2021/01/22-18:00:01
 2021/01/16-06:00:01 02 Otona no Bouguya-san II|おとなの防具屋さんII
 2021/01/16-06:00:01 02 Ore dake Haireru Kakushi Dungeon|俺だけ入れる隠しダンジョン
 2021/01/16-06:00:01 02 Back Arrow|バック・アロウ
-2021/01/16-00:00:02 02 Kumo Desu ga, Nanika|蜘蛛ですが、なにか？
-2021/01/16-00:00:02 02 Jaku-chara Tomozaki-kun|弱キャラ友崎くん
-2021/01/16-00:00:02 02 Idolls!|アイドールズ！
 2021/01/08-12:00:01 01 Go-Toubun no Hanayome ∬|五等分の花嫁∬
 2021/01/01-12:00:01 02 Grisaia Phantom Trigger - The Animation|グリザイア：ファントムトリガー THE ANIMATION
 2020/12/30-12:00:01 02 Azur Lane Bisoku Zenshin!|アズールレーン びそくぜんしんっ！
