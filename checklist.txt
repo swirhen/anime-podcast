@@ -1,6 +1,10 @@
-Last Update: 2021/01/24-00:00:01
+Last Update: 2021/01/24-06:00:02
+2021/01/24-06:00:02 03 World Trigger 2nd Season|ワールドトリガー 2ndシーズン
+2021/01/24-06:00:02 03 Kai Byoui Ramune|怪病医ラムネ
+2021/01/24-06:00:02 03 Horimiya|ホリミヤ
+2021/01/24-06:00:02 03 Hataraku Saibou!!|はたらく細胞!!
+2021/01/24-06:00:02 01 Burn the Witch|ARP Backstage Pass
 2021/01/24-00:00:01 16 Han`you no Yashahime Sengoku Otogizoushi|半妖の夜叉姫
-2021/01/24-00:00:01 0 Burn the Witch|ARP Backstage Pass
 2021/01/23-18:00:01 16 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/01/23-06:00:02 17 King`s Raid Ishi o Tsugu Mono-tachi|キングスレイド 意志を継ぐものたち
 2021/01/23-06:00:02 15 Jujutsu Kaisen|呪術廻戦
@@ -54,10 +58,6 @@ Last Update: 2021/01/24-00:00:01
 2021/01/17-12:00:01 32 Digimon Adventure;|デジモンアドベンチャー：
 2021/01/17-12:00:01 134 Kiratto Pri-chan|キラッとプリ☆チャン
 2021/01/17-12:00:01 02 SK8|SK∞ エスケーエイト
-2021/01/17-06:00:02 02 World Trigger 2nd Season|ワールドトリガー 2ndシーズン
-2021/01/17-06:00:02 02 Kai Byoui Ramune|怪病医ラムネ
-2021/01/17-06:00:02 02 Horimiya|ホリミヤ
-2021/01/17-06:00:02 02 Hataraku Saibou!!|はたらく細胞!!
 2021/01/08-12:00:01 01 Go-Toubun no Hanayome ∬|五等分の花嫁∬
 2021/01/01-12:00:01 02 Grisaia Phantom Trigger - The Animation|グリザイア：ファントムトリガー THE ANIMATION
 2020/12/30-12:00:01 02 Azur Lane Bisoku Zenshin!|アズールレーン びそくぜんしんっ！
