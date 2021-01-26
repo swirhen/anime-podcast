@@ -1,4 +1,7 @@
-Last Update: 2021/01/27-00:00:01
+Last Update: 2021/01/27-06:00:01
+2021/01/27-06:00:01 03 World Witches Hasshin Shimasu!|ワールドウィッチーズ発進しますっ！
+2021/01/27-06:00:01 03 Tensei Shitara Slime Datta Ken 2nd Season|転生したらスライムだった件 第2期 第1部
+2021/01/27-06:00:01 03 Bungou Stray Dogs Wan!|文豪ストレイドッグス わん！
 2021/01/27-00:00:01 161 Black Clover|ブラッククローバー
 2021/01/27-00:00:01 16 Osomatsu-san 3|おそ松さん(第3期)
 2021/01/27-00:00:01 04 Gekidol|ゲキドル
@@ -55,9 +58,6 @@ Last Update: 2021/01/27-00:00:01
 2021/01/21-00:00:01 02 Wonder Egg Priority|ワンダーエッグ・プライオリティ
 2021/01/21-00:00:01 02 Nanatsu no Taizai Fundo no Shinpan|七つの大罪 憤怒の審判
 2021/01/21-00:00:01 02 Log Horizon Entaku Houkai|ログ・ホライズン 円卓崩壊
-2021/01/20-06:00:02 02 World Witches Hasshin Shimasu!|ワールドウィッチーズ発進しますっ！
-2021/01/20-06:00:02 02 Tensei Shitara Slime Datta Ken 2nd Season|転生したらスライムだった件 第2期 第1部
-2021/01/20-06:00:02 02 Bungou Stray Dogs Wan!|文豪ストレイドッグス わん！
 2021/01/19-12:00:01 03 Hataraku Saibou Black|はたらく細胞BLACK
 2021/01/08-12:00:01 01 Go-Toubun no Hanayome ∬|五等分の花嫁∬
 2021/01/01-12:00:01 02 Grisaia Phantom Trigger - The Animation|グリザイア：ファントムトリガー THE ANIMATION
