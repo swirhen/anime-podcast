@@ -1,4 +1,8 @@
-Last Update: 2021/01/31-18:00:01
+Last Update: 2021/02/01-00:00:01
+2021/02/01-00:00:01 39 Mewkledreamy|ミュークルドリーミー
+2021/02/01-00:00:01 04 Yatogame-chan Kansatsu Nikki Sansatsume|八十亀ちゃんかんさつにっき 3さつめ
+2021/02/01-00:00:01 04 Skate Leading Stars|スケートリーディング☆スターズ
+2021/02/01-00:00:01 04 Kemono Jihen|怪物事変
 2021/01/31-12:00:01 42 Healin` Good Precure|ヒーリングっど♡プリキュア
 2021/01/31-12:00:01 34 Digimon Adventure;|デジモンアドベンチャー：
 2021/01/31-12:00:01 136 Kiratto Pri-chan|キラッとプリ☆チャン
@@ -53,10 +57,6 @@ Last Update: 2021/01/31-18:00:01
 2021/01/25-06:00:01 03 Non Non Biyori Nonstop|のんのんびより のんすとっぷ
 2021/01/25-06:00:01 03 Mushoku Tensei Isekai Ittara Honki Dasu|無職転生～異世界行ったら本気だす～
 2021/01/25-06:00:01 03 Idoly Pride|IDOLY PRIDE
-2021/01/25-00:00:01 03 Yatogame-chan Kansatsu Nikki Sansatsume|八十亀ちゃんかんさつにっき 3さつめ
-2021/01/25-00:00:01 03 Skate Leading Stars|スケートリーディング☆スターズ
-2021/01/25-00:00:01 03 Kemono Jihen|怪物事変
-2021/01/24-18:00:02 38 Mewkledreamy|ミュークルドリーミー
 2021/01/24-18:00:02 03 Burn the Witch|ARP Backstage Pass
 2021/01/19-12:00:01 03 Hataraku Saibou Black|はたらく細胞BLACK
 2021/01/08-12:00:01 01 Go-Toubun no Hanayome ∬|五等分の花嫁∬
