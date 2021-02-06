@@ -1,4 +1,5 @@
-Last Update: 2021/02/06-18:00:01
+Last Update: 2021/02/07-00:00:01
+2021/02/07-00:00:01 18 Han`you no Yashahime Sengoku Otogizoushi|半妖の夜叉姫
 2021/02/06-12:00:01 18 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/02/06-12:00:01 05 Ore dake Haireru Kakushi Dungeon|俺だけ入れる隠しダンジョン
 2021/02/06-06:00:01 19 King`s Raid Ishi o Tsugu Mono-tachi|キングスレイド 意志を継ぐものたち
@@ -56,7 +57,6 @@ Last Update: 2021/02/06-18:00:01
 2021/01/31-06:00:01 04 Kai Byoui Ramune|怪病医ラムネ
 2021/01/31-06:00:01 04 Horimiya|ホリミヤ
 2021/01/31-06:00:01 04 Hataraku Saibou!!|はたらく細胞!!
-2021/01/31-00:00:01 17 Han`you no Yashahime Sengoku Otogizoushi|半妖の夜叉姫
 2021/01/24-18:00:02 03 Burn the Witch|ARP Backstage Pass
 2021/01/19-12:00:01 03 Hataraku Saibou Black|はたらく細胞BLACK
 2021/01/08-12:00:01 01 Go-Toubun no Hanayome ∬|五等分の花嫁∬
