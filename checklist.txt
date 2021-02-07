@@ -1,4 +1,11 @@
-Last Update: 2021/02/08-00:00:01
+Last Update: 2021/02/08-06:00:01
+2021/02/08-06:00:01 09 Shingeki no Kyojin The Final Season|進撃の巨人 The Final Season
+2021/02/08-06:00:01 05 Yatogame-chan Kansatsu Nikki Sansatsume|八十亀ちゃんかんさつにっき 3さつめ
+2021/02/08-06:00:01 05 Skate Leading Stars|スケートリーディング☆スターズ
+2021/02/08-06:00:01 05 Non Non Biyori Nonstop|のんのんびより のんすとっぷ
+2021/02/08-06:00:01 05 Mushoku Tensei Isekai Ittara Honki Dasu|無職転生～異世界行ったら本気だす～
+2021/02/08-06:00:01 05 Kemono Jihen|怪物事変
+2021/02/08-06:00:01 05 Idoly Pride|IDOLY PRIDE
 2021/02/07-18:00:01 40 Mewkledreamy|ミュークルドリーミー
 2021/02/07-12:00:02 43 Healin` Good Precure|ヒーリングっど♡プリキュア
 2021/02/07-12:00:02 35 Digimon Adventure;|デジモンアドベンチャー：
@@ -50,13 +57,6 @@ Last Update: 2021/02/08-00:00:01
 2021/02/02-06:00:01 05 Uma Musume Pretty Derby Season 2|ウマ娘 プリティーダービー Season 2
 2021/02/02-06:00:01 04 Azur Lane Bisoku Zenshin!|アズールレーン びそくぜんしんっ！
 2021/02/02-00:00:01 05 Lasdan|たとえばラストダンジョン前の村の少年が序盤の街で暮らすような物語
-2021/02/01-06:00:01 08 Shingeki no Kyojin The Final Season|進撃の巨人 The Final Season
-2021/02/01-06:00:01 04 Non Non Biyori Nonstop|のんのんびより のんすとっぷ
-2021/02/01-06:00:01 04 Mushoku Tensei Isekai Ittara Honki Dasu|無職転生～異世界行ったら本気だす～
-2021/02/01-06:00:01 04 Idoly Pride|IDOLY PRIDE
-2021/02/01-00:00:01 04 Yatogame-chan Kansatsu Nikki Sansatsume|八十亀ちゃんかんさつにっき 3さつめ
-2021/02/01-00:00:01 04 Skate Leading Stars|スケートリーディング☆スターズ
-2021/02/01-00:00:01 04 Kemono Jihen|怪物事変
 2021/01/24-18:00:02 03 Burn the Witch|ARP Backstage Pass
 2021/01/19-12:00:01 03 Hataraku Saibou Black|はたらく細胞BLACK
 2021/01/08-12:00:01 01 Go-Toubun no Hanayome ∬|五等分の花嫁∬
