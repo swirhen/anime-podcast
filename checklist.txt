@@ -1,4 +1,7 @@
-Last Update: 2021/02/17-00:00:01
+Last Update: 2021/02/17-06:00:01
+2021/02/17-06:00:01 06 World Witches Hasshin Shimasu!|ワールドウィッチーズ発進しますっ！
+2021/02/17-06:00:01 06 Tensei Shitara Slime Datta Ken 2nd Season|転生したらスライムだった件 第2期 第1部
+2021/02/17-06:00:01 06 Bungou Stray Dogs Wan!|文豪ストレイドッグス わん！
 2021/02/17-00:00:01 19 Osomatsu-san 3|おそ松さん(第3期)
 2021/02/17-00:00:01 164 Black Clover|ブラッククローバー
 2021/02/17-00:00:01 07 Gekidol|ゲキドル
@@ -49,12 +52,9 @@ Last Update: 2021/02/17-00:00:01
 2021/02/11-06:00:01 06 Hortensia Saga|オルタンシア・サーガ
 2021/02/11-06:00:01 05 Kaifuku Jutsushi no Yarinaoshi|回復術士のやり直し
 2021/02/11-00:00:02 06 Re Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2|Re:ゼロから始める異世界生活 2nd season 後半クール
-2021/02/11-00:00:02 05 World Witches Hasshin Shimasu!|ワールドウィッチーズ発進しますっ！
 2021/02/11-00:00:02 05 Wonder Egg Priority|ワンダーエッグ・プライオリティ
 2021/02/11-00:00:02 05 Nanatsu no Taizai Fundo no Shinpan|七つの大罪 憤怒の審判
-2021/02/11-00:00:02 05 Bungou Stray Dogs Wan!|文豪ストレイドッグス わん！
 2021/02/11-00:00:02 04 Majutsushi Orphen Hagure Tabi Kimluck Hen|魔術士オーフェンはぐれ旅 キムラック編
-2021/02/10-06:00:02 05 Tensei Shitara Slime Datta Ken 2nd Season|転生したらスライムだった件 第2期 第1部
 2021/02/07-06:00:01 05 World Trigger 2nd Season|ワールドトリガー 2ndシーズン
 2021/02/05-06:00:01 05 Yakusoku no Neverland 2nd Season|約束のネバーランド(第2期)
 2021/01/24-18:00:02 03 Burn the Witch|ARP Backstage Pass
