@@ -1,4 +1,6 @@
-Last Update: 2021/02/27-12:00:01
+Last Update: 2021/02/27-18:00:01
+2021/02/27-18:00:01 21 Dqdai|ドラゴンクエスト ダイの大冒険
+2021/02/27-18:00:01 07 Log Horizon Entaku Houkai|ログ・ホライズン 円卓崩壊
 2021/02/27-12:00:01 22 King`s Raid Ishi o Tsugu Mono-tachi|キングスレイド 意志を継ぐものたち
 2021/02/27-12:00:01 20 Jujutsu Kaisen|呪術廻戦
 2021/02/27-12:00:01 08 Project Scard Praeter no Kizu|プレイタの傷
@@ -55,8 +57,6 @@ Last Update: 2021/02/27-12:00:01
 2021/02/21-06:00:01 07 Horimiya|ホリミヤ
 2021/02/21-06:00:01 07 Hataraku Saibou!!|はたらく細胞!!
 2021/02/21-00:00:01 20 Han`you no Yashahime Sengoku Otogizoushi|半妖の夜叉姫
-2021/02/20-18:00:01 20 Dqdai|ドラゴンクエスト ダイの大冒険
-2021/02/18-00:00:02 06 Log Horizon Entaku Houkai|ログ・ホライズン 円卓崩壊
 2021/01/24-18:00:02 03 Burn the Witch|ARP Backstage Pass
 2021/01/19-12:00:01 03 Hataraku Saibou Black|はたらく細胞BLACK
 2021/01/08-12:00:01 01 Go-Toubun no Hanayome ∬|五等分の花嫁∬
