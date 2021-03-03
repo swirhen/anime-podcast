@@ -1,4 +1,9 @@
-Last Update: 2021/03/04-00:00:01
+Last Update: 2021/03/04-06:00:01
+2021/03/04-06:00:01 09 Soukou Musume Senki|装甲娘戦機
+2021/03/04-06:00:01 09 I-Chu Halfway Through the Idol|22／7 検算中
+2021/03/04-06:00:01 09 Hortensia Saga|オルタンシア・サーガ
+2021/03/04-06:00:01 08 Log Horizon Entaku Houkai|ログ・ホライズン 円卓崩壊
+2021/03/04-06:00:01 08 Kaifuku Jutsushi no Yarinaoshi|回復術士のやり直し
 2021/03/04-00:00:01 09 Re Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2|Re:ゼロから始める異世界生活 2nd season 後半クール
 2021/03/04-00:00:01 08 Wonder Egg Priority|ワンダーエッグ・プライオリティ
 2021/03/04-00:00:01 08 Nanatsu no Taizai Fundo no Shinpan|七つの大罪 憤怒の審判
@@ -31,7 +36,6 @@ Last Update: 2021/03/04-00:00:01
 2021/02/28-06:00:01 07 World Trigger 2nd Season|ワールドトリガー 2ndシーズン
 2021/02/28-00:00:01 21 Han`you no Yashahime Sengoku Otogizoushi|半妖の夜叉姫
 2021/02/27-18:00:01 21 Dqdai|ドラゴンクエスト ダイの大冒険
-2021/02/27-18:00:01 07 Log Horizon Entaku Houkai|ログ・ホライズン 円卓崩壊
 2021/02/27-12:00:01 22 King`s Raid Ishi o Tsugu Mono-tachi|キングスレイド 意志を継ぐものたち
 2021/02/27-12:00:01 20 Jujutsu Kaisen|呪術廻戦
 2021/02/27-12:00:01 08 Project Scard Praeter no Kizu|プレイタの傷
@@ -51,10 +55,6 @@ Last Update: 2021/03/04-00:00:01
 2021/02/26-06:00:01 07 Dr. Stone Stone Wars|Dr.STONE STONE WARS
 2021/02/26-00:00:01 08 Yuru Camp Season 2|ゆるキャン△ SEASON2
 2021/02/26-00:00:01 08 Beastars Season 2|BEASTARS(第2期)
-2021/02/25-06:00:01 08 Soukou Musume Senki|装甲娘戦機
-2021/02/25-06:00:01 08 I-Chu Halfway Through the Idol|22／7 検算中
-2021/02/25-06:00:01 08 Hortensia Saga|オルタンシア・サーガ
-2021/02/25-06:00:01 07 Kaifuku Jutsushi no Yarinaoshi|回復術士のやり直し
 2021/02/21-12:00:01 45 Healin` Good Precure|ヒーリングっど♡プリキュア
 2021/01/24-18:00:02 03 Burn the Witch|ARP Backstage Pass
 2021/01/19-12:00:01 03 Hataraku Saibou Black|はたらく細胞BLACK
