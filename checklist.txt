@@ -1,4 +1,6 @@
-Last Update: 2021/03/06-06:00:02
+Last Update: 2021/03/06-12:00:01
+2021/03/06-12:00:01 23 King`s Raid Ishi o Tsugu Mono-tachi|キングスレイド 意志を継ぐものたち
+2021/03/06-12:00:01 22 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/03/06-06:00:02 21 Jujutsu Kaisen|呪術廻戦
 2021/03/06-06:00:02 09 Wixoss Diva(A)Live|WIXOSS DIVA(A)LIVE
 2021/03/06-06:00:02 09 Project Scard Praeter no Kizu|プレイタの傷
@@ -53,8 +55,6 @@ Last Update: 2021/03/06-06:00:02
 2021/02/28-06:00:01 08 Horimiya|ホリミヤ
 2021/02/28-06:00:01 07 World Trigger 2nd Season|ワールドトリガー 2ndシーズン
 2021/02/28-00:00:01 21 Han`you no Yashahime Sengoku Otogizoushi|半妖の夜叉姫
-2021/02/27-18:00:01 21 Dqdai|ドラゴンクエスト ダイの大冒険
-2021/02/27-12:00:01 22 King`s Raid Ishi o Tsugu Mono-tachi|キングスレイド 意志を継ぐものたち
 2021/02/21-12:00:01 45 Healin` Good Precure|ヒーリングっど♡プリキュア
 2021/01/24-18:00:02 03 Burn the Witch|ARP Backstage Pass
 2021/01/19-12:00:01 03 Hataraku Saibou Black|はたらく細胞BLACK
