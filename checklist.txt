@@ -1,4 +1,7 @@
-Last Update: 2021/03/18-00:00:02
+Last Update: 2021/03/18-06:00:01
+2021/03/18-06:00:01 11 Soukou Musume Senki|装甲娘戦機
+2021/03/18-06:00:01 11 Hortensia Saga|オルタンシア・サーガ
+2021/03/18-06:00:01 10 Kaifuku Jutsushi no Yarinaoshi|回復術士のやり直し
 2021/03/18-00:00:02 11 Re Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2|Re:ゼロから始める異世界生活 2nd season 後半クール
 2021/03/18-00:00:02 11 I-Chu Halfway Through the Idol|22／7 検算中
 2021/03/18-00:00:02 10 Wonder Egg Priority|ワンダーエッグ・プライオリティ
@@ -49,9 +52,6 @@ Last Update: 2021/03/18-00:00:02
 2021/03/12-00:00:01 10 Yuru Camp Season 2|ゆるキャン△ SEASON2
 2021/03/12-00:00:01 10 Show by Rock!! Stars!!|SHOW BY ROCK!!STARS!!
 2021/03/11-12:00:01 10 Beastars Season 2|BEASTARS(第2期)
-2021/03/11-06:00:01 10 Soukou Musume Senki|装甲娘戦機
-2021/03/11-06:00:01 10 Hortensia Saga|オルタンシア・サーガ
-2021/03/11-06:00:01 09 Kaifuku Jutsushi no Yarinaoshi|回復術士のやり直し
 2021/03/08-06:00:02 13 Shingeki no Kyojin The Final Season|進撃の巨人 The Final Season
 2021/03/07-12:00:01 39 Digimon Adventure;|デジモンアドベンチャー：
 2021/03/06-00:00:01 09 Idolls!|アイドールズ！
