@@ -73,7 +73,7 @@ MAILTO=""
 */10 * * * * /home/swirhen/twitterchk/twitterchk.sh
 
 # crawler
-*/10 17,18 * * 2 /home/swirhen/crawler_check/crawler_check.sh "dereradi_blomaga" "http://ch.nicovideo.jp/dereradi/blomaga/nico/feed"
+#*/10 17,18 * * 2 /home/swirhen/crawler_check/crawler_check.sh "dereradi_blomaga" "http://ch.nicovideo.jp/dereradi/blomaga/nico/feed"
 
 # 汎用 torrent seed check
 0 * * * * /home/swirhen/torrentsearch/torrentsearch2.sh
@@ -82,7 +82,7 @@ MAILTO=""
 0 0,6,12,18 * * * /data/share/movie/sh/auto_publish.sh
 
 # ニコニコチャンネルクローラー
-0 0,6,12,18 * * * /data/share/movie/sh/nico_search/auto_crawl.sh
+#0 0,6,12,18 * * * /data/share/movie/sh/nico_search/auto_crawl.sh
 
 # 音泉クローラー
 #0 * * * * /data/share/movie/sh/onsen_crawler/onsen_crawler.sh
