@@ -1,4 +1,6 @@
-Last Update: 2021/03/19-18:00:01
+Last Update: 2021/03/20-00:00:01
+2021/03/20-00:00:01 11 Kumo Desu ga, Nanika|蜘蛛ですが、なにか？
+2021/03/20-00:00:01 11 Jaku-chara Tomozaki-kun|弱キャラ友崎くん
 2021/03/19-06:00:02 24 Higurashi no Naku Koro ni (2020)|ひぐらしのなく頃に業
 2021/03/19-06:00:02 11 Tenchi Souzou Design Bu|天地創造デザイン部
 2021/03/19-06:00:02 11 Go-Toubun no Hanayome 2|五等分の花嫁∬
@@ -50,8 +52,6 @@ Last Update: 2021/03/19-18:00:01
 2021/03/13-06:00:01 10 Wixoss Diva(A)Live|WIXOSS DIVA(A)LIVE
 2021/03/13-06:00:01 10 Otona no Bouguya-san II|おとなの防具屋さんII
 2021/03/13-06:00:01 10 Back Arrow|バック・アロウ
-2021/03/13-00:00:01 10 Kumo Desu ga, Nanika|蜘蛛ですが、なにか？
-2021/03/13-00:00:01 10 Jaku-chara Tomozaki-kun|弱キャラ友崎くん
 2021/03/08-06:00:02 13 Shingeki no Kyojin The Final Season|進撃の巨人 The Final Season
 2021/03/07-12:00:01 39 Digimon Adventure;|デジモンアドベンチャー：
 2021/03/06-00:00:01 09 Idolls!|アイドールズ！
