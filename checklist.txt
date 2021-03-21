@@ -1,4 +1,7 @@
-Last Update: 2021/03/21-06:00:01
+Last Update: 2021/03/21-12:00:01
+2021/03/21-12:00:01 40 Digimon Adventure;|デジモンアドベンチャー：
+2021/03/21-12:00:01 143 Kiratto Pri-chan|キラッとプリ☆チャン
+2021/03/21-12:00:01 10 World Trigger 2nd Season|ワールドトリガー 2ndシーズン
 2021/03/21-06:00:01 11 Kai Byoui Ramune|怪病医ラムネ
 2021/03/21-06:00:01 11 Horimiya|ホリミヤ
 2021/03/20-12:00:01 25 King`s Raid Ishi o Tsugu Mono-tachi|キングスレイド 意志を継ぐものたち
@@ -47,12 +50,9 @@ Last Update: 2021/03/21-06:00:01
 2021/03/15-00:00:01 10 Skate Leading Stars|スケートリーディング☆スターズ
 2021/03/15-00:00:01 10 Kemono Jihen|怪物事変
 2021/03/14-12:00:01 45 Mewkledreamy|ミュークルドリーミー
-2021/03/14-12:00:01 142 Kiratto Pri-chan|キラッとプリ☆チャン
 2021/03/14-12:00:01 09.5 SK8|SK∞ エスケーエイト
-2021/03/14-12:00:01 09 World Trigger 2nd Season|ワールドトリガー 2ndシーズン
 2021/03/13-12:00:01 10 Project Scard Praeter no Kizu|プレイタの傷
 2021/03/08-06:00:02 13 Shingeki no Kyojin The Final Season|進撃の巨人 The Final Season
-2021/03/07-12:00:01 39 Digimon Adventure;|デジモンアドベンチャー：
 2021/03/06-00:00:01 09 Idolls!|アイドールズ！
 2021/02/21-12:00:01 45 Healin` Good Precure|ヒーリングっど♡プリキュア
 2021/01/24-18:00:02 03 Burn the Witch|ARP Backstage Pass
