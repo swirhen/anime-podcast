@@ -1,4 +1,7 @@
-Last Update: 2021/03/23-00:00:01
+Last Update: 2021/03/23-06:00:01
+2021/03/23-06:00:01 12 Ura Sekai Picnic|裏世界ピクニック
+2021/03/23-06:00:01 12 Uma Musume Pretty Derby Season 2|ウマ娘 プリティーダービー Season 2
+2021/03/23-06:00:01 11 Azur Lane Bisoku Zenshin!|アズールレーン びそくぜんしんっ！
 2021/03/22-12:00:02 15 Shingeki no Kyojin The Final Season|進撃の巨人 The Final Season
 2021/03/22-06:00:01 11 Non Non Biyori Nonstop|のんのんびより のんすとっぷ
 2021/03/22-06:00:01 11 Mushoku Tensei Isekai Ittara Honki Dasu|無職転生～異世界行ったら本気だす～
@@ -48,9 +51,6 @@ Last Update: 2021/03/23-00:00:01
 2021/03/17-00:00:01 11 Gekidol|ゲキドル
 2021/03/17-00:00:01 10 Wave!! Surfing Yappe!!|WAVE!!～サーフィンやっぺ!!～
 2021/03/17-00:00:01 10 Shin Chuuka Ichiban! 2nd Season|真・中華一番！(第二期)
-2021/03/16-06:00:01 11 Ura Sekai Picnic|裏世界ピクニック
-2021/03/16-06:00:01 11 Uma Musume Pretty Derby Season 2|ウマ娘 プリティーダービー Season 2
-2021/03/16-06:00:01 10 Azur Lane Bisoku Zenshin!|アズールレーン びそくぜんしんっ！
 2021/03/13-12:00:01 10 Project Scard Praeter no Kizu|プレイタの傷
 2021/03/06-00:00:01 09 Idolls!|アイドールズ！
 2021/01/19-12:00:01 03 Hataraku Saibou Black|はたらく細胞BLACK
