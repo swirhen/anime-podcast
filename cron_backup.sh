@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# cronのバックアップ
 cd /data/share/movie/sh
 crontab -l > crontab.backup
 
