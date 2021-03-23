@@ -1,4 +1,9 @@
-Last Update: 2021/03/23-18:00:01
+Last Update: 2021/03/24-00:00:02
+2021/03/24-00:00:02 24 Osomatsu-san 3|おそ松さん(第3期)
+2021/03/24-00:00:02 169 Black Clover|ブラッククローバー
+2021/03/24-00:00:02 12 Gekidol|ゲキドル
+2021/03/24-00:00:02 11 Wave!! Surfing Yappe!!|WAVE!!～サーフィンやっぺ!!～
+2021/03/24-00:00:02 11 Shin Chuuka Ichiban! 2nd Season|真・中華一番！(第二期)
 2021/03/23-06:00:01 12 Uma Musume Pretty Derby Season 2|ウマ娘 プリティーダービー Season 2
 2021/03/23-06:00:01 11 Azur Lane Bisoku Zenshin!|アズールレーン びそくぜんしんっ！
 2021/03/22-12:00:02 15 Shingeki no Kyojin The Final Season|進撃の巨人 The Final Season
@@ -45,9 +50,4 @@ Last Update: 2021/03/23-18:00:01
 2021/03/17-06:00:02 10 World Witches Hasshin Shimasu!|ワールドウィッチーズ発進しますっ！
 2021/03/17-06:00:02 10 Tensei Shitara Slime Datta Ken 2nd Season|転生したらスライムだった件 第2期 第1部
 2021/03/17-06:00:02 10 Bungou Stray Dogs Wan!|文豪ストレイドッグス わん！
-2021/03/17-00:00:01 23 Osomatsu-san 3|おそ松さん(第3期)
-2021/03/17-00:00:01 168 Black Clover|ブラッククローバー
-2021/03/17-00:00:01 11 Gekidol|ゲキドル
-2021/03/17-00:00:01 10 Wave!! Surfing Yappe!!|WAVE!!～サーフィンやっぺ!!～
-2021/03/17-00:00:01 10 Shin Chuuka Ichiban! 2nd Season|真・中華一番！(第二期)
 2021/03/13-12:00:01 10 Project Scard Praeter no Kizu|プレイタの傷
