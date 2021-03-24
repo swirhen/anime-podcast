@@ -1,4 +1,9 @@
-Last Update: 2021/03/25-00:00:02
+Last Update: 2021/03/25-06:00:02
+2021/03/25-06:00:02 12 Soukou Musume Senki|装甲娘戦機
+2021/03/25-06:00:02 12 I-Chu Halfway Through the Idol|22／7 検算中
+2021/03/25-06:00:02 12 Hortensia Saga|オルタンシア・サーガ
+2021/03/25-06:00:02 11 Nanatsu no Taizai Fundo no Shinpan|七つの大罪 憤怒の審判
+2021/03/25-06:00:02 11 Kaifuku Jutsushi no Yarinaoshi|回復術士のやり直し
 2021/03/25-00:00:02 11 Wonder Egg Priority|ワンダーエッグ・プライオリティ
 2021/03/25-00:00:02 11 Log Horizon Entaku Houkai|ログ・ホライズン 円卓崩壊
 2021/03/25-00:00:02 10 Majutsushi Orphen Hagure Tabi Kimluck Hen|魔術士オーフェンはぐれ旅 キムラック編
@@ -43,9 +48,4 @@ Last Update: 2021/03/25-00:00:02
 2021/03/19-00:00:01 11 Yuru Camp Season 2|ゆるキャン△ SEASON2
 2021/03/19-00:00:01 11 Show by Rock!! Stars!!|SHOW BY ROCK!!STARS!!
 2021/03/19-00:00:01 11 Beastars Season 2|BEASTARS(第2期)
-2021/03/18-06:00:01 11 Soukou Musume Senki|装甲娘戦機
-2021/03/18-06:00:01 11 Hortensia Saga|オルタンシア・サーガ
-2021/03/18-06:00:01 10 Kaifuku Jutsushi no Yarinaoshi|回復術士のやり直し
-2021/03/18-00:00:02 11 I-Chu Halfway Through the Idol|22／7 検算中
-2021/03/18-00:00:02 10 Nanatsu no Taizai Fundo no Shinpan|七つの大罪 憤怒の審判
 2021/03/13-12:00:01 10 Project Scard Praeter no Kizu|プレイタの傷
