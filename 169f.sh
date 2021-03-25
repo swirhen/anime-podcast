@@ -21,7 +21,7 @@ do
       if [ $error -gt 10 ]; then
         break;
       fi
-      /data/share/movie/sh/169mp44.sh "$a" "/data/share/movie/98 PSP用/"
+      /data/share/movie/sh/169mp4.sh "$a" "/data/share/movie/98 PSP用/"
     done
     /data/share/movie/sh/mmpc.sh
 #    if [ "$1" = "" ]; then
