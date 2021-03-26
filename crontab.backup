@@ -56,6 +56,8 @@ MAILTO=""
 # -- SUN
 # 4/4開始、時間未定
 #MM HH * * 7 /data/share/movie/sh/agqrrecord.sh "hololive IDOL PROJECT presents ホロライブアイドル道ラジオ～私たちの歌をきけッ！"
+# 4/4番組改編
+#0 17 * * 7 /data/share/movie/sh/agqrrecord.sh "星街すいせい・田所あずさ 平行線すくらんぶる" 30 1800 v
 0 17 * * 7 /data/share/movie/sh/agqrrecord.sh "ホロライブ presents 星街すいせいのMUSIC SPACE" 30 1800 v
 30 19 * * 7 /data/share/movie/sh/agqrrecord.sh "早見沙織の ふり～すたいる♪" 30 1800
 0 20 * * 7 /data/share/movie/sh/agqrrecord.sh "小原好美のココロおきなく" 30 1800
