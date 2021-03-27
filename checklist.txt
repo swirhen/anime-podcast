@@ -1,4 +1,6 @@
-Last Update: 2021/03/27-12:00:01
+Last Update: 2021/03/27-18:00:01
+2021/03/27-18:00:01 26 King`s Raid Ishi o Tsugu Mono-tachi|キングスレイド 意志を継ぐものたち
+2021/03/27-18:00:01 24 Jujutsu Kaisen|呪術廻戦
 2021/03/27-06:00:01 12 Back Arrow|バック・アロウ
 2021/03/27-00:00:02 12 Kumo Desu ga, Nanika|蜘蛛ですが、なにか？
 2021/03/26-12:00:01 11 Yakusoku no Neverland 2nd Season|約束のネバーランド(第2期)
@@ -32,9 +34,7 @@ Last Update: 2021/03/27-12:00:01
 2021/03/21-12:00:01 10 World Trigger 2nd Season|ワールドトリガー 2ndシーズン
 2021/03/21-06:00:01 11 Kai Byoui Ramune|怪病医ラムネ
 2021/03/21-06:00:01 11 Horimiya|ホリミヤ
-2021/03/20-12:00:01 25 King`s Raid Ishi o Tsugu Mono-tachi|キングスレイド 意志を継ぐものたち
 2021/03/20-12:00:01 24 Dqdai|ドラゴンクエスト ダイの大冒険
-2021/03/20-06:00:02 23 Jujutsu Kaisen|呪術廻戦
 2021/03/20-06:00:02 11 Otona no Bouguya-san II|おとなの防具屋さんII
 2021/03/19-06:00:02 24 Higurashi no Naku Koro ni (2020)|ひぐらしのなく頃に業
 2021/03/19-00:00:01 11 Show by Rock!! Stars!!|SHOW BY ROCK!!STARS!!
