@@ -1,4 +1,8 @@
-Last Update: 2021/03/30-18:00:01
+Last Update: 2021/03/31-00:00:02
+2021/03/31-00:00:02 25 Osomatsu-san 3|おそ松さん(第3期)
+2021/03/31-00:00:02 170 Black Clover|ブラッククローバー
+2021/03/31-00:00:02 12 Wave!! Surfing Yappe!!|WAVE!!～サーフィンやっぺ!!～
+2021/03/31-00:00:02 12 Shin Chuuka Ichiban! 2nd Season|真・中華一番！(第二期)
 2021/03/28-18:00:01 47 Mewkledreamy|ミュークルドリーミー
 2021/03/28-18:00:01 41 Digimon Adventure;|デジモンアドベンチャー：
 2021/03/28-18:00:01 144 Kiratto Pri-chan|キラッとプリ☆チャン
@@ -20,8 +24,4 @@ Last Update: 2021/03/30-18:00:01
 2021/03/24-06:00:01 11 World Witches Hasshin Shimasu!|ワールドウィッチーズ発進しますっ！
 2021/03/24-06:00:01 11 Tensei Shitara Slime Datta Ken 2nd Season|転生したらスライムだった件 第2期 第1部
 2021/03/24-06:00:01 11 Bungou Stray Dogs Wan!|文豪ストレイドッグス わん！
-2021/03/24-00:00:02 24 Osomatsu-san 3|おそ松さん(第3期)
-2021/03/24-00:00:02 169 Black Clover|ブラッククローバー
-2021/03/24-00:00:02 11 Wave!! Surfing Yappe!!|WAVE!!～サーフィンやっぺ!!～
-2021/03/24-00:00:02 11 Shin Chuuka Ichiban! 2nd Season|真・中華一番！(第二期)
 2021/03/13-12:00:01 10 Project Scard Praeter no Kizu|プレイタの傷
