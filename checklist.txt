@@ -1,4 +1,6 @@
-Last Update: 2021/04/04-06:00:01
+Last Update: 2021/04/04-12:00:01
+2021/04/04-12:00:01 42 Digimon Adventure;|デジモンアドベンチャー：
+2021/04/04-12:00:01 145 Kiratto Pri-chan|キラッとプリ☆チャン
 2021/04/04-00:00:01 02 Boku no Hero Academia 5|僕のヒーローアカデミア(第5期)
 2021/04/03-18:00:01 26 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/04/03-18:00:01 01 Mashiro no Oto|ましろのおと
@@ -6,8 +8,6 @@ Last Update: 2021/04/04-06:00:01
 2021/04/02-06:00:02 01 Shaman King 2021|SHAMAN KING
 2021/04/01-06:00:01 12 Nanatsu no Taizai Fundo no Shinpan|七つの大罪 憤怒の審判
 2021/03/28-18:00:01 47 Mewkledreamy|ミュークルドリーミー
-2021/03/28-18:00:01 41 Digimon Adventure;|デジモンアドベンチャー：
-2021/03/28-18:00:01 144 Kiratto Pri-chan|キラッとプリ☆チャン
 2021/03/28-18:00:01 11 World Trigger 2nd Season|ワールドトリガー 2ndシーズン
 2021/03/28-18:00:01 11 SK8|SK∞ エスケーエイト
 2021/03/27-00:00:02 12 Kumo Desu ga, Nanika|蜘蛛ですが、なにか？
