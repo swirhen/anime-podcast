@@ -1,8 +1,10 @@
-Last Update: 2021/04/10-06:00:02
+Last Update: 2021/04/10-12:00:01
+2021/04/10-12:00:01 27 Dqdai|ドラゴンクエスト ダイの大冒険
+2021/04/10-12:00:01 02 Mashiro no Oto|ましろのおと
+2021/04/10-12:00:01 01 Subarashiki Kono Sekai the Animation|すばらしきこのせかい The Animation
+2021/04/10-12:00:01 01 Blue Reflection Ray|BLUE REFLECTION RAY／澪
 2021/04/10-06:00:02 14 Back Arrow|バック・アロウ
 2021/04/10-06:00:02 02 SSSS.Dynazenon|SSSS.DYNAZENON
-2021/04/10-06:00:02 0 Subarashiki Kono Sekai the Animation|すばらしきこのせかい The Animation
-2021/04/10-06:00:02 0 Blue Reflection Ray|BLUE REFLECTION RAY／澪
 2021/04/10-00:00:02 13 Kumo Desu ga, Nanika|蜘蛛ですが、なにか？
 2021/04/09-18:00:01 01 Isekai Maou to Shoukan Shoujo no Dorei Majutsu Omega|異世界魔王と召喚少女の奴隷魔術Ω
 2021/04/09-18:00:01 01 Bakuten!!|バクテン!!
@@ -32,5 +34,3 @@ Last Update: 2021/04/10-06:00:02
 2021/04/04-12:00:01 42 Digimon Adventure;|デジモンアドベンチャー：
 2021/04/04-12:00:01 145 Kiratto Pri-chan|キラッとプリ☆チャン
 2021/04/04-00:00:01 02 Boku no Hero Academia 5|僕のヒーローアカデミア(第5期)
-2021/04/03-18:00:01 26 Dqdai|ドラゴンクエスト ダイの大冒険
-2021/04/03-18:00:01 01 Mashiro no Oto|ましろのおと
