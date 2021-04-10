@@ -1,4 +1,6 @@
-Last Update: 2021/04/10-18:00:01
+Last Update: 2021/04/11-00:00:01
+2021/04/11-00:00:01 03 Boku no Hero Academia 5|僕のヒーローアカデミア(第5期)
+2021/04/11-00:00:01 0 Slime300|スライム倒して300年、知らないうちにレベルMAXになってました
 2021/04/10-12:00:01 27 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/04/10-12:00:01 02 Mashiro no Oto|ましろのおと
 2021/04/10-12:00:01 01 Subarashiki Kono Sekai the Animation|すばらしきこのせかい The Animation
@@ -33,4 +35,3 @@ Last Update: 2021/04/10-18:00:01
 2021/04/05-06:00:01 01 Nomad Megalo Box 2|NOMAD メガロボクス2
 2021/04/04-12:00:01 42 Digimon Adventure;|デジモンアドベンチャー：
 2021/04/04-12:00:01 145 Kiratto Pri-chan|キラッとプリ☆チャン
-2021/04/04-00:00:01 02 Boku no Hero Academia 5|僕のヒーローアカデミア(第5期)
