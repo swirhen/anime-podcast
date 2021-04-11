@@ -1,4 +1,7 @@
-Last Update: 2021/04/12-00:00:02
+Last Update: 2021/04/12-06:00:01
+2021/04/12-06:00:01 02 Seven Knights Revolution Eiyuu no Keishousha|セブンナイツ レボリューション -英雄の継承者-
+2021/04/12-06:00:01 02 Sayonara Watashi no Cramer|さよなら私のクラマー
+2021/04/12-06:00:01 02 Nomad Megalo Box 2|NOMAD メガロボクス2
 2021/04/12-00:00:02 02 Yuukoku no Moriarty Part 2|憂国のモリアーティ(2クール目)
 2021/04/12-00:00:02 02 Shakunetsu Kabaddi|灼熱カバディ
 2021/04/12-00:00:02 02 Sentouin, Hakenshimasu|戦闘員、派遣します！
@@ -36,7 +39,4 @@ Last Update: 2021/04/12-00:00:02
 2021/04/06-06:00:02 01 Yakunara Mug Cup mo|やくならマグカップも
 2021/04/06-06:00:02 01 Koi to Yobu ni wa Kimochi Warui|恋と呼ぶには気持ち悪い
 2021/04/06-06:00:02 01 Hige o Soru. Soshite Joshikousei o Hirou.|ひげを剃る。そして女子高生を拾う。
-2021/04/05-12:00:01 01 Seven Knights Revolution Eiyuu no Keishousha|セブンナイツ レボリューション -英雄の継承者-
-2021/04/05-12:00:01 01 Sayonara Watashi no Cramer|さよなら私のクラマー
-2021/04/05-06:00:01 01 Nomad Megalo Box 2|NOMAD メガロボクス2
 2021/04/04-12:00:01 145 Kiratto Pri-chan|キラッとプリ☆チャン
