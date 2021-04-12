@@ -27,7 +27,7 @@ MAILTO=""
 # 帯
 0 0 * * 2-5 /data/share/movie/sh/agqrrecord.sh "鷲崎健のヨルナイト×ヨルナイト" 30 3600 v
 # -- MON
-#29 17 * 4,5,6 1 /data/share/movie/sh/agqrrecord.sh "大久保瑠美・桑原由気 まなべる！ライトノベル！" 30 1800 v
+0 17 * 4,5,6 1 /data/share/movie/sh/agqrrecord.sh "大久保瑠美・桑原由気 まなべる！ライトノベル！" 30 1800 v
 0 21 * * 1 /data/share/movie/sh/agqrrecord.sh "内田真礼とおはなししません？" 30 1800 v
 0 22 * * 1 /data/share/movie/sh/agqrrecord.sh "井口裕香のむ～～～ん ⊂( ＾ω＾)⊃" 30 3600 v
 0 23 * * 1 /data/share/movie/sh/agqrrecord.sh "東山奈央のラジオ＠リビング" 30 1800
