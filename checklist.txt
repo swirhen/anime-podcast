@@ -1,4 +1,6 @@
-Last Update: 2021/04/13-18:00:01
+Last Update: 2021/04/14-00:00:01
+2021/04/14-00:00:01 02 Odd Taxi|オッドタクシー
+2021/04/14-00:00:01 02 Fruits Basket the Final|フルーツバスケット The Final
 2021/04/13-12:00:02 01 Fumetsu no Anata e|不滅のあなたへ
 2021/04/13-06:00:01 01 Tokyo Revengers|東京リベンジャーズ
 2021/04/13-00:00:01 02 Yakunara Mug Cup mo|やくならマグカップも
@@ -41,6 +43,4 @@ Last Update: 2021/04/13-18:00:01
 2021/04/08-00:00:01 13 Nanatsu no Taizai Fundo no Shinpan|七つの大罪 憤怒の審判
 2021/04/07-12:00:01 01 Tensura Nikki Tensei Shitara Slime Datta Ken|転生したらスライムだった件 転スラ日記
 2021/04/07-06:00:02 01 Seijo no Maryoku wa Bannou Desu|聖女の魔力は万能です
-2021/04/07-06:00:02 01 Odd Taxi|オッドタクシー
-2021/04/07-06:00:02 01 Fruits Basket the Final|フルーツバスケット The Final
 2021/04/04-12:00:01 145 Kiratto Pri-chan|キラッとプリ☆チャン
