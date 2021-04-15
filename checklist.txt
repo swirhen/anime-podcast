@@ -1,4 +1,6 @@
-Last Update: 2021/04/15-18:00:01
+Last Update: 2021/04/16-00:00:01
+2021/04/16-00:00:01 03 Shaman King 2021|SHAMAN KING
+2021/04/16-00:00:01 02 Hetalia World Stars|ヘタリア The World Twinkle
 2021/04/15-12:00:01 02 Mars Red|MARS RED
 2021/04/15-06:00:01 01 Osamake|幼なじみが絶対に負けないラブコメ
 2021/04/15-00:00:01 14 Nanatsu no Taizai Fundo no Shinpan|七つの大罪 憤怒の審判
@@ -41,7 +43,5 @@ Last Update: 2021/04/15-18:00:01
 2021/04/09-18:00:01 01 Isekai Maou to Shoukan Shoujo no Dorei Majutsu Omega|異世界魔王と召喚少女の奴隷魔術Ω
 2021/04/09-18:00:01 01 Bakuten!!|バクテン!!
 2021/04/09-06:00:01 01 Zombie Land Saga Revenge|ゾンビランドサガ リベンジ
-2021/04/09-06:00:01 01 Hetalia World Stars|ヘタリア The World Twinkle
 2021/04/09-06:00:01 01 Fairy Ranmaru Anata no Kokoro Otasuke Shimasu|Fairy蘭丸～あなたの心お助けします～
-2021/04/09-00:00:01 02 Shaman King 2021|SHAMAN KING
 2021/04/04-12:00:01 145 Kiratto Pri-chan|キラッとプリ☆チャン
