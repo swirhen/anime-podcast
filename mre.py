@@ -12,7 +12,7 @@ sys.path.append(str(current_dir) + '/python-lib/')
 FILE_PATH = str(current_dir) + '/checklist.txt'
 
 args = sys.argv
-if len(args) > 1:
+if len(args) > 0:
     print(args[1])
     print(args[2])
     sys.exit(0)
