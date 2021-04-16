@@ -36,6 +36,6 @@ for name in renamelist:
             dstdir = dstdir[0]
             shutil.move(FILENAME, dstdir)
         else:
-            print('directory not found. ' + nameJ)
+            print('directory not found. makedir ' + nameJ)
             os.makedirs(nameJ)
             shutil.move(FILENAME, nameJ)
