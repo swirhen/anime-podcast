@@ -380,7 +380,7 @@ logging "### movie file  rename start."
 
 rm *.torrent
 #/data/share/movie/sh/mre.sh
-{PYTHON_PATH} /data/share/movie/sh/mre.py
+${PYTHON_PATH} /data/share/movie/sh/mre.py
 
 logging "renamed movie files:"
 ls *話.mp4 >> ${LOG_FILE}
