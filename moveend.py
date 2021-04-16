@@ -101,7 +101,7 @@ def waitenter():
     input('(Enterで続行します)\n> ')
 
 args = sys.argv
-os.system('cls')
+os.system('clear')
 
 if len(args) > 1:
     YEAR = args[1]
