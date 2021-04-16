@@ -4,7 +4,7 @@
 # 第1引数(省略可)はリネーム元ファイルの話数数字の前の文字を入力する。デフォルトは半角スペース。
 # 第2引数(省略可)はリネーム元ファイルの話数数字の後の文字を入力する。デフォルトは半角スペースもしくは、第1引数が指定されている場合は第1引数。
 
-import os, glob, sys, pathlib,pprint,re
+import os, glob, sys, pathlib,re
 
 current_dir = pathlib.Path(__file__).resolve().parent
 sys.path.append(str(current_dir) + '/python-lib/')
@@ -34,14 +34,12 @@ except Exception:
 
 # make rename list
 renamelist = []
-for line in listfile:
+for line in listfile.readlines():
     if re.search('^Last Update', line):
         continue
     line = re.sub(r'^[^ ]+ [^ ]+ ', '', line)
     line = line.strip().split("|")
     renamelist.append(line)
-
-pprint.pprint(renamelist)
 
 # make file list
 filelist = []
