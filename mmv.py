@@ -17,13 +17,10 @@ import swirhentv_util
 
 args = sys.argv
 FILENAME = ''
-if len(args) > 1:
+if len(args) == 2:
     FILENAME = args[1]
-elif len(args) == 1:
-    print('too less arguments.')
-    exit(1)
 else:
-    print('too many arguments.')
+    print('usage: ' + args[0] + ' [FILENAME]')
     exit(1)
 
 # make rename list
