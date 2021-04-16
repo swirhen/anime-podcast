@@ -21,7 +21,7 @@ dirlist.sort()
 
 num = 1
 for directory in dirlist:
-    exp = r'^00|^9[2-9]|^sh|^nico|^on|^py'
+    exp = r'^00|^9[2-9]|^sh'
     if re.match(exp, directory):
         print(directory + ' : 処理除外')
         continue
