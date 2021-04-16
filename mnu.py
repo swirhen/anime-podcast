@@ -8,10 +8,7 @@
 
 import glob
 import os
-import pathlib
-import pprint
 import re
-import shutil
 import sys
 
 args = sys.argv
@@ -21,4 +18,23 @@ if len(args) == 2:
 
 dirlist = glob.glob('*/')
 
-pprint.pprint(dirlist)
+num = 1
+for directory in dirlist:
+    exp = r'^00|^9[2-9]|^sh|^nico|^on|^py'
+    if re.match(exp, directory):
+        print(directory + ' : 処理除外')
+        continue
+    else:
+        exp = r'^[0-9][0-9]\ (.*)'
+        newdirname = re.sub(exp, r'\1', directory)
+        os.rename(directory, newdirname)
+        if ARG == '-r':
+            if directory != newdirname:
+                print('# rename ' + directory + ' -> ' + newdirname)
+            continue
+        else:
+            numstr = '{0:02d}'.format(num)
+            os.rename(newdirname, numstr + ' ' + newdirname)
+            if directory != numstr + ' ' + newdirname:
+                print('# rename ' + directory + ' -> ' + numstr + ' ' + newdirname)
+            num += 1
