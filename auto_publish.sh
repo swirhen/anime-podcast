@@ -379,7 +379,8 @@ aria2c --listen-port=38888 --max-upload-limit=200K --seed-ratio=0.01 --seed-time
 logging "### movie file  rename start."
 
 rm *.torrent
-/data/share/movie/sh/mre.sh
+#/data/share/movie/sh/mre.sh
+{PYTHON_PATH} /data/share/movie/sh/mre.py
 
 logging "renamed movie files:"
 ls *話.mp4 >> ${LOG_FILE}

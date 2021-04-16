@@ -12,8 +12,6 @@ LIST_FILE_PATH = str(current_dir) + '/checklist.txt'
 
 SFX1 = '\ '
 SFX2 = '\ '
-print(SFX1)
-print(SFX2)
 args = sys.argv
 if len(args) > 1:
     SFX1 = args[1]
