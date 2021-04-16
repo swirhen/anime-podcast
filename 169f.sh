@@ -24,9 +24,8 @@ do
       /data/share/movie/sh/169mp4.sh "$a" "/data/share/movie/98 PSP用/"
     done
     /data/share/movie/sh/mmpc.sh
-#    if [ "$1" = "" ]; then
-      /data/share/movie/sh/mmv.sh "$a"
-#    fi
+#    /data/share/movie/sh/mmv.sh "$a"
+    ${PYTHON_PATH} /data/share/movie/sh/mmv.py "$a"
     sleep 3
     /home/swirhen/tiasock/tiasock_common.sh "#Twitter@t2" "【publish】$a.mp4"
     ${PYTHON_PATH} /home/swirhen/sh/slackbot/swirhentv/post.py "bot-open" "【publish】$a.mp4"
