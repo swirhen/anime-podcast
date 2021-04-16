@@ -12,10 +12,15 @@ sys.path.append(str(current_dir) + '/python-lib/')
 FILE_PATH = str(current_dir) + '/checklist.txt'
 
 args = sys.argv
-if len(args) > 0:
-    print(args[1])
-    print(args[2])
-    sys.exit(0)
+if len(args) > 1:
+    SFX1 = args[1]
+    if len(args) == 2:
+        SFX2 = args[1]
+    elif len(args) == 3:
+        SFX2 = args[2]
+    else:
+        print("too many arguments.")
+        exit(1)
 
 # file open
 try:
