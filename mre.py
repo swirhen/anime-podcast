@@ -13,6 +13,7 @@ import sys
 current_dir = pathlib.Path(__file__).resolve().parent
 sys.path.append(str(current_dir) + '/python-lib/')
 LIST_FILE_PATH = str(current_dir) + '/checklist.txt'
+import swirhentv_util
 
 SFX1 = '\ '
 SFX2 = '\ '
@@ -27,21 +28,8 @@ if len(args) > 1:
         print("too many arguments.")
         exit(1)
 
-# file open
-try:
-    listfile = open(LIST_FILE_PATH, 'r', encoding='utf-8')
-except Exception:
-    print("open error. not found file: ", str(LIST_FILE_PATH))
-    sys.exit(1)
-
 # make rename list
-renamelist = []
-for line in listfile.readlines():
-    if re.search('^Last Update', line):
-        continue
-    line = re.sub(r'^[^ ]+ [^ ]+ ', '', line)
-    line = line.strip().split("|")
-    renamelist.append(line)
+renamelist = swirhentv_util.make_rename_list()
 
 # make file list
 filelist = []
@@ -56,7 +44,7 @@ for filename in filelist:
     for name in renamelist:
         nameE = name[0]
         nameJ = name[1]
-        exp = r'.*(' + nameE + ').*' + SFX1 + '([1-9]{0,1}[0-9][0-9](.5)?)' + SFX2 + '.*\.(.*)'
+        exp = r'.*(' + nameE + ').*' + SFX1 + '([0-9]{0,1}[0-9][0-9](.5)?)' + SFX2 + '.*\.(.*)'
         name = re.sub(exp, r'\1', filename)
         num = re.sub(exp, r'\2', filename)
         ext = re.sub(exp, r'\4', filename)
