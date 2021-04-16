@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # 動画リネーム用シェル
+# checklist.txtの後半(英語ファイル名|日本語ファイル名)のデータを使って動画ファイルをリネームする
+# [英語ファイル名] -[SFX1][話数][SFX2](mp4 1280x720 aac).mp4
+# -> [日本語ファイル名] 第[話数]話.mp4
 # 第1引数(省略可)はリネーム元ファイルの話数数字の前の文字を入力する。デフォルトは半角スペース。
 # 第2引数(省略可)はリネーム元ファイルの話数数字の後の文字を入力する。デフォルトは半角スペースもしくは、第1引数が指定されている場合は第1引数。
 
@@ -12,7 +15,6 @@ import sys
 
 current_dir = pathlib.Path(__file__).resolve().parent
 sys.path.append(str(current_dir) + '/python-lib/')
-LIST_FILE_PATH = str(current_dir) + '/checklist.txt'
 import swirhentv_util
 
 SFX1 = '\ '
