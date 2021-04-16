@@ -17,6 +17,7 @@ if len(args) == 2:
     ARG = args[1]
 
 dirlist = glob.glob('*/')
+dirlist.sort()
 
 num = 1
 for directory in dirlist:
