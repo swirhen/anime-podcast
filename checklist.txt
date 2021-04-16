@@ -1,4 +1,23 @@
-Last Update: 2021/04/12-12:04:07
+Last Update: 2021/04/16-06:00:01
+2021/04/16-06:00:01 02 Zombie Land Saga Revenge|ゾンビランドサガ リベンジ
+2021/04/16-06:00:01 02 Fairy Ranmaru Anata no Kokoro Otasuke Shimasu|Fairy蘭丸～あなたの心お助けします～
+2021/04/16-00:00:01 03 Shaman King 2021|SHAMAN KING
+2021/04/16-00:00:01 02 Hetalia World Stars|ヘタリア The World Twinkle
+2021/04/15-12:00:01 02 Mars Red|MARS RED
+2021/04/15-06:00:01 01 Osamake|幼なじみが絶対に負けないラブコメ
+2021/04/15-00:00:01 14 Nanatsu no Taizai Fundo no Shinpan|七つの大罪 憤怒の審判
+2021/04/15-00:00:01 02 Super Cub|スーパーカブ
+2021/04/15-00:00:01 02 Jouran The Princess of Snow and Blood|擾乱 THE PRINCESS OF SNOW AND BLOOD
+2021/04/15-00:00:01 02 Fulldive-Rpg|究極進化したフルダイブRPGが現実よりもクソゲーだったら
+2021/04/14-06:00:02 02 Tensura Nikki Tensei Shitara Slime Datta Ken|転生したらスライムだった件 転スラ日記
+2021/04/14-06:00:02 02 Seijo no Maryoku wa Bannou Desu|聖女の魔力は万能です
+2021/04/14-00:00:01 02 Odd Taxi|オッドタクシー
+2021/04/14-00:00:01 02 Fruits Basket the Final|フルーツバスケット The Final
+2021/04/13-12:00:02 01 Fumetsu no Anata e|不滅のあなたへ
+2021/04/13-06:00:01 01 Tokyo Revengers|東京リベンジャーズ
+2021/04/13-00:00:01 02 Yakunara Mug Cup mo|やくならマグカップも
+2021/04/13-00:00:01 02 Koi to Yobu ni wa Kimochi Warui|恋と呼ぶには気持ち悪い
+2021/04/13-00:00:01 02 Hige o Soru. Soshite Joshikousei o Hirou.|ひげを剃る。そして女子高生を拾う。
 2021/04/12-12:04:07 01 Ijiranaide, Nagatoro-san|イジらないで、長瀞さん
 2021/04/12-12:04:07 01 Battle Athletess Daiundoukai Restart!|バトルアスリーテス大運動会 ReSTART!
 2021/04/12-06:00:01 02 Seven Knights Revolution Eiyuu no Keishousha|セブンナイツ レボリューション -英雄の継承者-
@@ -25,20 +44,4 @@ Last Update: 2021/04/12-12:04:07
 2021/04/10-00:00:02 13 Kumo Desu ga, Nanika|蜘蛛ですが、なにか？
 2021/04/09-18:00:01 01 Isekai Maou to Shoukan Shoujo no Dorei Majutsu Omega|異世界魔王と召喚少女の奴隷魔術Ω
 2021/04/09-18:00:01 01 Bakuten!!|バクテン!!
-2021/04/09-06:00:01 01 Zombie Land Saga Revenge|ゾンビランドサガ リベンジ
-2021/04/09-06:00:01 01 Mars Red|MARS RED
-2021/04/09-06:00:01 01 Hetalia World Stars|ヘタリア The World Twinkle
-2021/04/09-06:00:01 01 Fairy Ranmaru Anata no Kokoro Otasuke Shimasu|Fairy蘭丸～あなたの心お助けします～
-2021/04/09-00:00:01 02 Shaman King 2021|SHAMAN KING
-2021/04/08-06:00:01 01 Super Cub|スーパーカブ
-2021/04/08-06:00:01 01 Jouran The Princess of Snow and Blood|擾乱 THE PRINCESS OF SNOW AND BLOOD
-2021/04/08-06:00:01 01 Fulldive-Rpg|究極進化したフルダイブRPGが現実よりもクソゲーだったら
-2021/04/08-00:00:01 13 Nanatsu no Taizai Fundo no Shinpan|七つの大罪 憤怒の審判
-2021/04/07-12:00:01 01 Tensura Nikki Tensei Shitara Slime Datta Ken|転生したらスライムだった件 転スラ日記
-2021/04/07-06:00:02 01 Seijo no Maryoku wa Bannou Desu|聖女の魔力は万能です
-2021/04/07-06:00:02 01 Odd Taxi|オッドタクシー
-2021/04/07-06:00:02 01 Fruits Basket the Final|フルーツバスケット The Final
-2021/04/06-06:00:02 01 Yakunara Mug Cup mo|やくならマグカップも
-2021/04/06-06:00:02 01 Koi to Yobu ni wa Kimochi Warui|恋と呼ぶには気持ち悪い
-2021/04/06-06:00:02 01 Hige o Soru. Soshite Joshikousei o Hirou.|ひげを剃る。そして女子高生を拾う。
 2021/04/04-12:00:01 145 Kiratto Pri-chan|キラッとプリ☆チャン
