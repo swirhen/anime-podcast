@@ -1,4 +1,6 @@
-Last Update: 2021/04/17-00:00:01
+Last Update: 2021/04/17-06:00:02
+2021/04/17-06:00:02 15 Back Arrow|バック・アロウ
+2021/04/17-06:00:02 03 SSSS.Dynazenon|SSSS.DYNAZENON
 2021/04/17-00:00:01 14 Kumo Desu ga, Nanika|蜘蛛ですが、なにか？
 2021/04/16-18:00:01 01 Cestvs The Roman Fighter|セスタス -The Roman Fighter-
 2021/04/16-12:00:01 02 Isekai Maou to Shoukan Shoujo no Dorei Majutsu Omega|異世界魔王と召喚少女の奴隷魔術Ω
@@ -43,6 +45,4 @@ Last Update: 2021/04/17-00:00:01
 2021/04/10-12:00:01 02 Mashiro no Oto|ましろのおと
 2021/04/10-12:00:01 01 Subarashiki Kono Sekai the Animation|すばらしきこのせかい The Animation
 2021/04/10-12:00:01 01 Blue Reflection Ray|BLUE REFLECTION RAY／澪
-2021/04/10-06:00:02 14 Back Arrow|バック・アロウ
-2021/04/10-06:00:02 02 SSSS.Dynazenon|SSSS.DYNAZENON
 2021/04/04-12:00:01 145 Kiratto Pri-chan|キラッとプリ☆チャン
