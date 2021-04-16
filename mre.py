@@ -4,7 +4,11 @@
 # 第1引数(省略可)はリネーム元ファイルの話数数字の前の文字を入力する。デフォルトは半角スペース。
 # 第2引数(省略可)はリネーム元ファイルの話数数字の後の文字を入力する。デフォルトは半角スペースもしくは、第1引数が指定されている場合は第1引数。
 
-import os, glob, sys, pathlib,re
+import glob
+import os
+import pathlib
+import re
+import sys
 
 current_dir = pathlib.Path(__file__).resolve().parent
 sys.path.append(str(current_dir) + '/python-lib/')
@@ -41,7 +45,11 @@ for line in listfile.readlines():
 
 # make file list
 filelist = []
-filelist.extend(glob.glob("*.mp4") + glob.glob("*.mkv") + glob.glob("*.avi") + glob.glob("*.wmv"))
+filelist.extend(
+    glob.glob("*.mp4") +
+    glob.glob("*.mkv") +
+    glob.glob("*.avi") +
+    glob.glob("*.wmv"))
 
 # rename files
 for filename in filelist:
@@ -55,7 +63,7 @@ for filename in filelist:
 
         if nameE == name:
             if os.path.isfile(filename + '.aria2'):
-                print('#' + filename +' 成育中！')
+                print('#' + filename + ' 成育中！')
             else:
                 newname = nameJ + ' 第' + num + '話.' + ext
                 if filename != newname:
