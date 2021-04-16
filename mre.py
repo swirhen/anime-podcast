@@ -16,4 +16,4 @@ pprint.pprint(sys.path)
 
 import util
 
-print(file_open('checklist.txt'))
+print(util.file_open('checklist.txt'))
