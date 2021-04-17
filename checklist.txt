@@ -1,7 +1,11 @@
-Last Update: 2021/04/18-00:00:01
+Last Update: 2021/04/18-06:00:01
+2021/04/18-06:00:01 02 Shadows House|シャドーハウス
+2021/04/18-06:00:01 02 Ijiranaide, Nagatoro-san|イジらないで、長瀞さん
+2021/04/18-06:00:01 02 Eighty-Six|86-エイティシックス-
+2021/04/18-06:00:01 02 Edens Zero|EDENS ZERO
+2021/04/18-06:00:01 01 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
 2021/04/18-00:00:01 04 Boku no Hero Academia 5|僕のヒーローアカデミア(第5期)
 2021/04/18-00:00:01 02 Slime300|スライム倒して300年、知らないうちにレベルMAXになってました
-2021/04/18-00:00:01 0 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
 2021/04/17-12:00:01 28 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/04/17-12:00:01 03 Mashiro no Oto|ましろのおと
 2021/04/17-12:00:01 02 Subarashiki Kono Sekai the Animation|すばらしきこのせかい The Animation
@@ -31,7 +35,6 @@ Last Update: 2021/04/18-00:00:01
 2021/04/13-00:00:01 02 Yakunara Mug Cup mo|やくならマグカップも
 2021/04/13-00:00:01 02 Koi to Yobu ni wa Kimochi Warui|恋と呼ぶには気持ち悪い
 2021/04/13-00:00:01 02 Hige o Soru. Soshite Joshikousei o Hirou.|ひげを剃る。そして女子高生を拾う。
-2021/04/12-12:04:07 01 Ijiranaide, Nagatoro-san|イジらないで、長瀞さん
 2021/04/12-12:04:07 01 Battle Athletess Daiundoukai Restart!|バトルアスリーテス大運動会 ReSTART!
 2021/04/12-06:00:01 02 Seven Knights Revolution Eiyuu no Keishousha|セブンナイツ レボリューション -英雄の継承者-
 2021/04/12-06:00:01 02 Sayonara Watashi no Cramer|さよなら私のクラマー
@@ -43,7 +46,4 @@ Last Update: 2021/04/18-00:00:01
 2021/04/12-00:00:02 01 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
 2021/04/11-18:00:01 43 Digimon Adventure;|デジモンアドベンチャー：
 2021/04/11-18:00:01 01 Bishounen Tanteidan|美少年探偵団
-2021/04/11-12:00:01 01 Shadows House|シャドーハウス
-2021/04/11-12:00:01 01 Eighty-Six|86-エイティシックス-
-2021/04/11-12:00:01 01 Edens Zero|EDENS ZERO
 2021/04/04-12:00:01 145 Kiratto Pri-chan|キラッとプリ☆チャン
