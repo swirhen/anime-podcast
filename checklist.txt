@@ -1,4 +1,9 @@
-Last Update: 2021/04/18-18:00:02
+Last Update: 2021/04/19-00:00:01
+2021/04/19-00:00:01 03 Yuukoku no Moriarty Part 2|憂国のモリアーティ(2クール目)
+2021/04/19-00:00:01 03 Shakunetsu Kabaddi|灼熱カバディ
+2021/04/19-00:00:01 03 Sentouin, Hakenshimasu|戦闘員、派遣します！
+2021/04/19-00:00:01 03 Nomad Megalo Box 2|NOMAD メガロボクス2
+2021/04/19-00:00:01 03 Dragon, Ie o Kau|ドラゴン、家を買う。
 2021/04/18-12:00:01 44 Digimon Adventure;|デジモンアドベンチャー：
 2021/04/18-12:00:01 02 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
 2021/04/18-12:00:01 02 Bishounen Tanteidan|美少年探偵団
@@ -41,9 +46,4 @@ Last Update: 2021/04/18-18:00:02
 2021/04/13-00:00:01 02 Hige o Soru. Soshite Joshikousei o Hirou.|ひげを剃る。そして女子高生を拾う。
 2021/04/12-06:00:01 02 Seven Knights Revolution Eiyuu no Keishousha|セブンナイツ レボリューション -英雄の継承者-
 2021/04/12-06:00:01 02 Sayonara Watashi no Cramer|さよなら私のクラマー
-2021/04/12-06:00:01 02 Nomad Megalo Box 2|NOMAD メガロボクス2
-2021/04/12-00:00:02 02 Yuukoku no Moriarty Part 2|憂国のモリアーティ(2クール目)
-2021/04/12-00:00:02 02 Shakunetsu Kabaddi|灼熱カバディ
-2021/04/12-00:00:02 02 Sentouin, Hakenshimasu|戦闘員、派遣します！
-2021/04/12-00:00:02 02 Dragon, Ie o Kau|ドラゴン、家を買う。
 2021/04/04-12:00:01 145 Kiratto Pri-chan|キラッとプリ☆チャン
