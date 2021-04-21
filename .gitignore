@@ -16,3 +16,5 @@ new_program_result.txt
 new_program_result_ng.txt
 nico_search/nico
 nico_search/nico_imas
+*pycache*
+python-lib/*pycache*
