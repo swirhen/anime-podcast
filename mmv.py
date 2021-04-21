@@ -29,7 +29,8 @@ renamelist = swirhentv_util.make_rename_list()
 # move file
 for name in renamelist:
     nameJ = name[1]
-    exp = r'.*' + nameJ + '.*'
+    nameJ_exp = name[1].replace('(', '\(').replace(')', '\)')
+    exp = r'.*' + nameJ_exp + '.*'
     if re.match(exp, FILENAME):
         dstdir = glob.glob('*' + nameJ)
         if len(dstdir) > 0:
