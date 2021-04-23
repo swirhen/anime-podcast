@@ -269,6 +269,30 @@ def move_98(endlist):
     print('ALL: 移動完了')
 
 
+# シンボリックリンク削除
+def remove_98(endlist):
+    os.system('clear')
+    for name in endlist:
+        if name[0] == '#':
+            continue
+
+        check = True
+        filelist = list(pathlib.Path(PSPMP4_98_DIR).glob(name + ' 第*.mp4'))
+        for file in filelist:
+            if not os.path.islink(file):
+                check = False
+                break
+
+        if not check:
+            print(name + ': 対象にシンボリックリンクでないファイルが存在。スキップします')
+
+        # 削除
+        for file in filelist:
+            os.remove(file)
+
+        print(name + ' シンボリックリンク削除: OK')
+
+
 # main
 args = sys.argv
 os.system('clear')
