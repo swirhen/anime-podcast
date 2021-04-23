@@ -126,7 +126,7 @@ def move_root(endlist):
         print(name + ' : ' + str(size) + ' Bytes')
 
     print('totalsize : ' + str(filesize) + ' Bytes')
-    print('totalsize : ' + str(filesize / 1024 / 1024 / 1024) + ' GB')
+    print('totalsize : ' + str(round((filesize / 1024 / 1024 / 1024), 1)) + ' GB')
 
 
 # main
