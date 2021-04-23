@@ -239,7 +239,8 @@ def move_98(endlist):
             print('移動処理をスキップ')
         else:
             # 移動先のファイルチェック
-            if len(glob.glob(dstpath + '/' + name + ' 第*.mp4')) > 0:
+            dstlist = glob.glob(dstpath + '/' + name + ' 第*.mp4')
+            if len(dstlist) > 0:
                 print('既に存在しているため、移動無し')
                 continue
             else:
