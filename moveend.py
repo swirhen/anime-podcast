@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 # 期またぎ移動用スクリプト
 import os,sys,re,glob
+import pprint
 
 BASE_DIR = '/data/share/movie'
 PSPMP4_98_DIR = BASE_DIR + '/98 PSP用'
