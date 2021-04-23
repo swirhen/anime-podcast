@@ -278,16 +278,19 @@ def remove_98(endlist):
 
         check = True
         filelist = list(pathlib.Path(PSPMP4_98_DIR).glob(name + ' 第*.mp4'))
-        for file in filelist:
-            if not os.path.islink(file):
-                check = False
-                break
+        if len(filelist) > 0:
+            for file in filelist:
+                if not os.path.islink(file):
+                    check = False
+                    break
 
         if not check:
             print(name + ': 対象にシンボリックリンクでないファイルが存在。スキップします')
+            continue
 
         # 削除
         for file in filelist:
+            print('remove symbolic link: ' + file.name)
             os.remove(file)
 
         print(name + ' シンボリックリンク削除: OK')
@@ -321,12 +324,6 @@ if len(args) > 5:
     CHECK = args[5]
 else:
     CHECK = askcheck()
-
-print('YEAR: ' + YEAR + '\n'
-                        'QUARTER: ' + QUARTER + '\n'
-                                                'TARGET: ' + TARGET + '\n'
-                                                                      'PROGRESS: ' + PROGRESS + '\n'
-                                                                                                'CHECK: ' + CHECK + '\n')
 
 # 終了ファイルリストの存在チェック・読み込み
 END_LIST_FILE = BASE_DIR + '/end_' + YEAR + 'Q' + QUARTER + '.txt'
