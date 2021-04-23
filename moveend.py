@@ -144,8 +144,12 @@ def move_root(endlist):
     if len(FIND_ROOT_MV_DIR) > 0:
         dstpath = FIND_ROOT_MV_DIR[0]
     else:
-        # 移動先ディレクトリを仮で決定
-        dstpath = ROOT_MV_DIR + '/' + YEAR + '-Q' + QUARTER + '終了分'
+        # 最後の番号を取得
+        lastpath = sorted(glob.glob(ROOT_MV_DIR + '/*'))[-1]
+        dstnum = str(int(re.sub(r'^.*\/', '', lastpath)[1:3]) + 1).zfill(3)
+        dstpath = ROOT_MV_DIR + '/' + dstnum.ljust(4) + YEAR + '-Q' + QUARTER + '終了分'
+        print('destination directory is not found. make directory: ' + dstpath)
+        os.makedirs(dstpath)
 
     # 移動
     for name in endlist:
