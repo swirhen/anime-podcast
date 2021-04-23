@@ -346,7 +346,7 @@ if TARGET == '1':
 elif TARGET == '2':
     if PROGRESS == '1':
         move_98(endlist)
-    # elif PROGRESS == '2':
-    #     remove_98(endlist)
+    elif PROGRESS == '2':
+        remove_98(endlist)
     elif PROGRESS == '3':
         move_98(endlist)
