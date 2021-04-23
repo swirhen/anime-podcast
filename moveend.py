@@ -215,7 +215,7 @@ def move_98(endlist):
     dstpath = ''
     find_pspmp4_mv_dir = glob.glob(PSPMP4_MV_DIR + '/' + QUARTER + 'Q-' + YEAR)
     if len(find_pspmp4_mv_dir) > 0:
-        dstpath = find_pspmp4_mv_dir
+        dstpath = find_pspmp4_mv_dir[0]
     else:
         dstpath = PSPMP4_MV_DIR + '/' + QUARTER + 'Q-' + YEAR
         print('destination directory is not found. make directory: ' + dstpath)
@@ -239,9 +239,7 @@ def move_98(endlist):
             print('移動処理をスキップ')
         else:
             # 移動先のファイルチェック
-            print(dstpath + '/' + name + ' 第*.mp4')
             dstlist = glob.glob(dstpath + '/' + name + ' 第*.mp4')
-            print('hogei: ' + dstlist)
             if len(dstlist) > 0:
                 print('既に存在しているため、移動無し')
                 continue
