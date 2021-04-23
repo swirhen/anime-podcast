@@ -1,4 +1,9 @@
-Last Update: 2021/04/24-00:00:01
+Last Update: 2021/04/24-06:00:01
+2021/04/24-06:00:01 16 Back Arrow|バック・アロウ
+2021/04/24-06:00:01 04 SSSS.Dynazenon|SSSS.DYNAZENON
+2021/04/24-06:00:01 03 Subarashiki Kono Sekai the Animation|すばらしきこのせかい The Animation
+2021/04/24-06:00:01 03 Mars Red|MARS RED
+2021/04/24-06:00:01 03 Blue Reflection Ray|BLUE REFLECTION RAY／澪
 2021/04/24-00:00:01 15 Kumo Desu ga, Nanika|蜘蛛ですが、なにか？
 2021/04/23-06:00:01 03 Isekai Maou to Shoukan Shoujo no Dorei Majutsu Omega|異世界魔王と召喚少女の奴隷魔術Ω
 2021/04/23-06:00:01 03 Bakuten!!|バクテン!!
@@ -41,9 +46,4 @@ Last Update: 2021/04/24-00:00:01
 2021/04/18-00:00:01 02 Slime300|スライム倒して300年、知らないうちにレベルMAXになってました
 2021/04/17-12:00:01 28 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/04/17-12:00:01 03 Mashiro no Oto|ましろのおと
-2021/04/17-12:00:01 02 Subarashiki Kono Sekai the Animation|すばらしきこのせかい The Animation
-2021/04/17-12:00:01 02 Blue Reflection Ray|BLUE REFLECTION RAY／澪
-2021/04/17-06:00:02 15 Back Arrow|バック・アロウ
-2021/04/17-06:00:02 03 SSSS.Dynazenon|SSSS.DYNAZENON
-2021/04/15-12:00:01 02 Mars Red|MARS RED
 2021/04/04-12:00:01 145 Kiratto Pri-chan|キラッとプリ☆チャン
