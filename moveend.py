@@ -221,7 +221,7 @@ def move_98(endlist):
         print('destination directory is not found. make directory: ' + dstpath)
         os.makedirs(dstpath)
 
-    dstlink = PSPMP4_98_DIR + '/' + + QUARTER + 'Q-' + YEAR
+    dstlink = PSPMP4_98_DIR + '/' + QUARTER + 'Q-' + YEAR
     if not os.path.exists(dstlink):
         print('symbolic link is not found. make link: ' + dstlink)
         os.symlink(dstpath, dstlink)
