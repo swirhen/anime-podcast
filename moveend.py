@@ -118,8 +118,8 @@ def move_root(endlist):
     filesize = 0
     for name in endlist:
         print(name)
-        dir = glob.glob('*' + name)[0]
-        print(dir)
+        dir = glob.glob('*' + name)
+        print(dir[0])
         size = get_dir_size(dir)
         filesize += size
         print(name + ' : ' + str(size) + ' Bytes')
