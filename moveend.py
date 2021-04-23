@@ -295,6 +295,8 @@ def remove_98(endlist):
 
         print(name + ' シンボリックリンク削除: OK')
 
+    print('ALL: 削除完了')
+
 
 # main
 args = sys.argv
