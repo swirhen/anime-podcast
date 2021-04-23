@@ -113,7 +113,7 @@ def get_dir_size(path):
 
 
 def move_root(endlist):
-    os.system('clear')
+    # os.system('clear')
     # 容量チェック
     filesize = 0
     for name in endlist:
