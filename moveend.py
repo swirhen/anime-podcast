@@ -117,7 +117,7 @@ def move_root(endlist):
     # 容量チェック
     filesize = 0
     for name in endlist:
-        dir = glob.glob('*' + name)
+        dir = glob.glob('*' + name)[0]
         size = get_dir_size(dir)
         filesize += size
         print(name + ' : ' + str(size) + ' Bytes')
