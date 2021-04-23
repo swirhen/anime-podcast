@@ -3,7 +3,7 @@
 # 期またぎ移動用スクリプト
 import os,sys,re,glob
 
-BASE_DIR = '/data/shar/movie'
+BASE_DIR = '/data/share/movie'
 PSPMP4_98_DIR = BASE_DIR + '/98 PSP用'
 PSPMP4_MV_DIR = '/data2/movie2/pspmp4'
 ROOT_MV_DIR = '/data3/movie3'
@@ -164,7 +164,6 @@ print('YEAR: ' + YEAR + '\n'
 # 終了ファイルリストの存在チェック・読み込み
 END_LIST_FILE = BASE_DIR + '/end_' + YEAR + 'Q' + QUARTER + '.txt'
 
-print(END_LIST_FILE)
 if not os.path.isfile(END_LIST_FILE):
     print('endlist file not found.')
     exit(1)
