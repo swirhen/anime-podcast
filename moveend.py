@@ -239,6 +239,7 @@ def move_98(endlist):
             print('移動処理をスキップ')
         else:
             # 移動先のファイルチェック
+            print(dstpath + '/' + name + ' 第*.mp4')
             dstlist = glob.glob(dstpath + '/' + name + ' 第*.mp4')
             print('hogei: ' + dstlist)
             if len(dstlist) > 0:
