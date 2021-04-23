@@ -123,7 +123,8 @@ def move_root(endlist):
         size = get_dir_size(path[0])
         filesize += size
 
-    print('totalsize : ' + str(math.ceil(filesize / 1024 / 1024 / 1024)) + ' GB')
+    totalsize = math.ceil(filesize / 1024 / 1024 / 1024)
+    print('totalsize : ' + str(totalsize) + ' GB')
     freesize = math.floor(psutil.disk_usage(ROOT_MV_DIR).free / 1024 / 1024 / 1024)
     print('freesize(' + ROOT_MV_DIR + ') : ' + str(freesize))
 
