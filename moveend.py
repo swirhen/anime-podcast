@@ -9,7 +9,7 @@ PSPMP4_MV_DIR = '/data2/movie2/pspmp4'
 ROOT_MV_DIR = '/data3/movie3'
 ROOT_MV_LINK_DIR = '/data/share/movie/0004 過去連載終了分'
 END_LIST_FILE = ''
-END_FILES = []
+END_LIST = []
 YEAR = ''
 QUARTER = ''
 TARGET = ''
@@ -130,11 +130,11 @@ def get_file_size(path, filename):
 
 
 # 移動処理(ルート)
-def move_root(endlist):
+def move_root(end_list):
     os.system('clear')
     # 容量チェック
     filesize = 0
-    for name in endlist:
+    for name in end_list:
         path = glob.glob(BASE_DIR + '/*' + name)
         if len(path) > 0:
             size = get_dir_size(path[0])
@@ -171,7 +171,7 @@ def move_root(endlist):
         os.symlink(dstpath, ROOT_MV_LINK_DIR + '/' + dstnum.ljust(4) + YEAR + '-Q' + QUARTER + '終了分')
 
     # 移動
-    for name in endlist:
+    for name in end_list:
         if name[0] == '#':
             continue
 
@@ -190,11 +190,11 @@ def move_root(endlist):
 
 
 # 移動処理(98 PSP用)
-def move_98(endlist):
+def move_98(end_list):
     os.system('clear')
     # 容量チェック
     totalsize = 0
-    for name in endlist:
+    for name in end_list:
         size = math.ceil(get_file_size(PSPMP4_98_DIR, name) / 1024 / 1024)
         print(name + ' : ' + str(size) + ' MB')
         totalsize += size
@@ -228,7 +228,7 @@ def move_98(endlist):
         os.symlink(dstpath, dstlink)
 
     # 移動
-    for name in endlist:
+    for name in end_list:
         if name[0] == '#':
             continue
 
@@ -270,9 +270,9 @@ def move_98(endlist):
 
 
 # シンボリックリンク削除
-def remove_98(endlist):
+def remove_98(end_list):
     os.system('clear')
-    for name in endlist:
+    for name in end_list:
         if name[0] == '#':
             continue
 
@@ -335,17 +335,17 @@ if not os.path.isfile(END_LIST_FILE):
     exit(1)
 
 listfile = open(END_LIST_FILE, 'r', encoding='utf-8')
-endlist = []
+END_LIST = []
 for line in listfile.readlines():
-    endlist.append(line.strip())
+    END_LIST.append(line.strip())
 
 # 処理分岐
 if TARGET == '1':
-    move_root(endlist)
+    move_root(END_LIST)
 elif TARGET == '2':
     if PROGRESS == '1':
-        move_98(endlist)
+        move_98(END_LIST)
     elif PROGRESS == '2':
-        remove_98(endlist)
+        remove_98(END_LIST)
     elif PROGRESS == '3':
-        move_98(endlist)
+        move_98(END_LIST)
