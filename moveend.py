@@ -175,6 +175,8 @@ endlist = []
 for line in listfile.readlines():
     endlist.append(line)
 
+    print(endlist)
+
 # 処理分岐
 if TARGET == '1':
     move_root(endlist)
