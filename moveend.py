@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # 期またぎ移動用スクリプト
-import os, sys, re, glob, math, psutil, pprint
+import os, sys, re, glob, math, psutil, shutil, pprint
 
 BASE_DIR = '/data/share/movie'
 PSPMP4_98_DIR = BASE_DIR + '/98 PSP用'
 PSPMP4_MV_DIR = '/data2/movie2/pspmp4'
 ROOT_MV_DIR = '/data3/movie3'
-ROOT_MV_DIR_LINK = '/data/share/movie/0004 過去連載終了分'
+ROOT_MV_LINK_DIR = '/data/share/movie/0004 過去連載終了分'
 END_LIST_FILE = ''
 END_FILES = []
 YEAR = ''
@@ -117,16 +117,14 @@ def move_root(endlist):
     # 容量チェック
     filesize = 0
     for name in endlist:
-        print(name)
         path = glob.glob(BASE_DIR + '/*' + name)
-        print(path)
         size = get_dir_size(path[0])
         filesize += size
 
     totalsize = math.ceil(filesize / 1024 / 1024 / 1024)
-    print('totalsize : ' + str(totalsize) + ' GB')
+    print('total size : ' + str(totalsize) + ' GB')
     freesize = math.floor(psutil.disk_usage(ROOT_MV_DIR).free / 1024 / 1024 / 1024)
-    print('freesize(' + ROOT_MV_DIR + ') : ' + str(freesize))
+    print('free space size(' + ROOT_MV_DIR + ') : ' + str(freesize) + ' GB')
 
     if totalsize < freesize:
         print('Disk Space Check :OK')
@@ -136,7 +134,33 @@ def move_root(endlist):
 
     waitenter()
 
-    print('hogei')
+    # 移動先ディレクトリ作成
+    dstpath = ''
+    FIND_ROOT_MV_DIR = glob.glob(ROOT_MV_DIR + '/*' + YEAR + '-Q' + QUARTER + '終了分')
+    if len(FIND_ROOT_MV_DIR) > 0:
+        dstpath = FIND_ROOT_MV_DIR[0]
+    else:
+        # 移動先ディレクトリを仮で決定
+        dstpath = ROOT_MV_DIR + '/' + YEAR + '-Q' + QUARTER + '終了分'
+
+    # 移動
+    for name in endlist:
+        if name[0] == '#':
+            continue
+
+        srcpath = glob.glob(BASE_DIR + '/*' + name)
+        if len(srcpath) > 0:
+            srcpath = srcpath[0]
+        else:
+            print('source path (' + BASE_DIR + '/*' + name + ') is not found')
+            continue
+
+        print('# move: ' + srcpath + ' -> ' + dstpath)
+        result = shutil.move(srcpath, dstpath)
+        print('# complete: ' + result)
+
+    print('ALL: 移動完了')
+
 
 # main
 args = sys.argv
