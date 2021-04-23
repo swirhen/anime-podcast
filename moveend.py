@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # 期またぎ移動用スクリプト
-import os,sys,re
+import os,sys,re,glob
 
 BASE_DIR = '/data/shar/movie'
 PSPMP4_98_DIR = BASE_DIR + '/98 PSP用'
@@ -13,7 +13,7 @@ END_FILES = []
 YEAR = ''
 QUARTER = ''
 TARGET = ''
-PRG = ''
+PROGRESS = ''
 CHECK = ''
 
 
@@ -100,6 +100,33 @@ def askconfirm():
 def waitenter():
     input('(Enterで続行します)\n> ')
 
+
+def get_dir_size(path):
+    total = 0
+    with os.scandir(path) as it:
+        for entry in it:
+            if entry.is_file():
+                total += entry.stat().st_size
+            elif entry.is_dir():
+                total += get_dir_size(entry.path)
+    return total
+
+
+def move_root(endlist):
+    os.system('clear')
+    # 容量チェック
+    filesize = 0
+    for name in endlist:
+        dir = glob.glob('*' + name)
+        size = get_dir_size(dir)
+        filesize += size
+        print(name + ' : ' + str(size) + ' Bytes')
+
+    print('totalsize : ' + str(filesize) + ' Bytes')
+    print('totalsize : ' + str(filesize / 1024 / 1024 / 1024) + ' GB')
+
+
+# main
 args = sys.argv
 os.system('clear')
 
@@ -128,11 +155,31 @@ if len(args) > 5:
 else:
     CHECK = askcheck()
 
-# askconfirm()
-# waitenter()
-
 print('YEAR: ' + YEAR + '\n'
       'QUARTER: ' + QUARTER + '\n'
       'TARGET: ' + TARGET + '\n'
       'PROGRESS: ' + PROGRESS + '\n'
       'CHECK: ' + CHECK + '\n')
+
+# 終了ファイルリストの存在チェック・読み込み
+END_LIST_FILE = BASE_DIR + '/end_' + YEAR + 'Q' + QUARTER + '.txt'
+
+if not os.path.isfile(END_LIST_FILE):
+    print('endlist file not found.')
+    exit(1)
+
+listfile = open(END_LIST_FILE, 'r', encoding='utf-8')
+endlist = []
+for line in listfile.readlines():
+    endlist.append(line)
+
+# 処理分岐
+if TARGET == '1':
+    move_root(endlist)
+# elif TARGET == '2':
+#     if PROGRESS == '1':
+#         move_98(endlist)
+#     elif PROGRESS == '2':
+#         remove_98(endlist)
+#     elif PROGRESS == '3':
+#         move_98(endlist)
