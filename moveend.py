@@ -127,6 +127,15 @@ def move_root(endlist):
     freesize = math.floor(psutil.disk_usage(ROOT_MV_DIR).free / 1024 / 1024 / 1024)
     print('freesize(' + ROOT_MV_DIR + ') : ' + str(freesize))
 
+    if filesize < freesize:
+        print('Disk Space Check :OK')
+    else:
+        print('Disk Space Check :NG')
+        exit(1)
+
+    waitenter()
+
+    print('hogei')
 
 # main
 args = sys.argv
