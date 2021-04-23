@@ -198,7 +198,8 @@ def move_98(endlist):
         print(name + ' : ' + str(size) + ' MB')
         totalsize += size
 
-    print('total size : ' + str(math.ceil(totalsize / 1024)) + ' GB')
+    totalsize = math.ceil(totalsize / 1024)
+    print('total size : ' + str(totalsize) + ' GB')
     freesize = math.floor(psutil.disk_usage(PSPMP4_MV_DIR).free / 1024 / 1024 / 1024)
     print('free space size(' + PSPMP4_MV_DIR + ') : ' + str(freesize) + ' GB')
 
