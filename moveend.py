@@ -118,8 +118,12 @@ def move_root(endlist):
     filesize = 0
     for name in endlist:
         path = glob.glob(BASE_DIR + '/*' + name)
-        size = get_dir_size(path[0])
-        filesize += size
+        if len(path) > 0:
+            size = get_dir_size(path[0])
+            filesize += size
+        else:
+            print('source path (' + BASE_DIR + '/*' + name + ') is not found')
+            continue
 
     totalsize = math.ceil(filesize / 1024 / 1024 / 1024)
     print('total size : ' + str(totalsize) + ' GB')
