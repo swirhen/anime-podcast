@@ -168,6 +168,7 @@ def move_root(endlist):
         dstpath = ROOT_MV_DIR + '/' + dstnum.ljust(4) + YEAR + '-Q' + QUARTER + '終了分'
         print('destination directory is not found. make directory: ' + dstpath)
         os.makedirs(dstpath)
+        os.symlink(dstpath, ROOT_MV_LINK_DIR + '/' + dstnum.ljust(4) + YEAR + '-Q' + QUARTER + '終了分')
 
     # 移動
     for name in endlist:
