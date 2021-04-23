@@ -17,6 +17,7 @@ PROGRESS = ''
 CHECK = ''
 
 
+# 入力(年)
 def askyear():
     YEAR = input('Year? (YYYY)\n'
                  'q: quit\n> ')
@@ -30,6 +31,7 @@ def askyear():
         askyear()
 
 
+# 入力(期)
 def askquarter():
     QUARTER = input('Quarter? (1-4)\n'
                     'q: quit\n> ')
@@ -43,6 +45,7 @@ def askquarter():
         askquarter()
 
 
+# 入力(ターゲット)
 def asktarget():
     TARGET = input('Target?\n'
                    '1: root(' + BASE_DIR + ')\n'
@@ -58,6 +61,7 @@ def asktarget():
         asktarget()
 
 
+# 入力(処理種別)
 def askprogress():
     PROGRESS = input('Progress?\n'
                      '1: move end program 2: remove symbolic link 3: check only\n'
@@ -72,6 +76,7 @@ def askprogress():
         askprogress()
 
 
+# 入力(チェックの有無)
 def askcheck():
     CHECK = input('Check?\n'
                   '0: off 1: on\n'
@@ -86,6 +91,7 @@ def askcheck():
         askcheck()
 
 
+# 入力(y/n)
 def askconfirm():
     res = input('> ')
     if res == 'y' or res == 'Y':
@@ -97,10 +103,12 @@ def askconfirm():
         askconfirm()
 
 
+# 待ち(Enter)
 def waitenter():
     input('(Enterで続行します)\n> ')
 
 
+# 配下のファイルサイズ合計の取得(パス指定)
 def get_dir_size(path):
     total = 0
     with os.scandir(path) as it:
@@ -112,6 +120,16 @@ def get_dir_size(path):
     return total
 
 
+# 配下のファイルサイズ合計の取得(パス, ファイル名指定)
+def get_file_size(path, filename):
+    total = 0
+    filelist = sorted(glob.glob(path + '/' + filename + ' 第*.mp4'))
+    for file in filelist:
+        total += os.path.getsize(file)
+    return total
+
+
+# 移動処理(ルート)
 def move_root(endlist):
     os.system('clear')
     # 容量チェック
@@ -170,6 +188,21 @@ def move_root(endlist):
     print('ALL: 移動完了')
 
 
+# 移動処理(98 PSP用)
+def move_98(endlist):
+    os.system('clear')
+    # 容量チェック
+    totalsize = 0
+    for name in endlist:
+        size = math.ceil(get_file_size(PSPMP4_98_DIR, name) / 1024 / 1024)
+        print(name + ' : ' + size + ' MB')
+        totalsize += size
+
+    print('total size : ' + str(math.ceil(totalsize / 1024)) + ' GB')
+    freesize = math.floor(psutil.disk_usage(PSPMP4_MV_DIR).free / 1024 / 1024 / 1024)
+    print('free space size(' + PSPMP4_MV_DIR + ') : ' + str(freesize) + ' GB')
+
+
 # main
 args = sys.argv
 os.system('clear')
@@ -220,10 +253,10 @@ for line in listfile.readlines():
 # 処理分岐
 if TARGET == '1':
     move_root(endlist)
-# elif TARGET == '2':
-#     if PROGRESS == '1':
-#         move_98(endlist)
-#     elif PROGRESS == '2':
-#         remove_98(endlist)
-#     elif PROGRESS == '3':
-#         move_98(endlist)
+elif TARGET == '2':
+    if PROGRESS == '1':
+        move_98(endlist)
+    # elif PROGRESS == '2':
+    #     remove_98(endlist)
+    elif PROGRESS == '3':
+        move_98(endlist)
