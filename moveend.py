@@ -240,7 +240,7 @@ def move_98(endlist):
             if filecount != last_episode_count:
                 pprint.pprint(filelist_ignore_inteval_episodes)
                 print('最終話とみられるファイル: ' + filelist_ignore_inteval_episodes[-1])
-                print('ファイル個数: ' + filecount + ' 一致しません。')
+                print('ファイル個数: ' + str(filecount) + ' 一致しません。')
                 print('move sure?')
                 if askconfirm() == 1:
                     print('スキップします')
