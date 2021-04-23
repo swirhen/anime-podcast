@@ -195,7 +195,7 @@ def move_98(endlist):
     totalsize = 0
     for name in endlist:
         size = math.ceil(get_file_size(PSPMP4_98_DIR, name) / 1024 / 1024)
-        print(name + ' : ' + size + ' MB')
+        print(name + ' : ' + str(size) + ' MB')
         totalsize += size
 
     print('total size : ' + str(math.ceil(totalsize / 1024)) + ' GB')
