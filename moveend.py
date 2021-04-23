@@ -240,6 +240,7 @@ def move_98(endlist):
         else:
             # 移動先のファイルチェック
             dstlist = glob.glob(dstpath + '/' + name + ' 第*.mp4')
+            print('hogei: ' + dstlist)
             if len(dstlist) > 0:
                 print('既に存在しているため、移動無し')
                 continue
