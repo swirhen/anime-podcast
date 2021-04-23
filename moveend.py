@@ -4,6 +4,8 @@
 import os,sys,re,glob
 import pprint
 
+import math
+
 BASE_DIR = '/data/share/movie'
 PSPMP4_98_DIR = BASE_DIR + '/98 PSP用'
 PSPMP4_MV_DIR = '/data2/movie2/pspmp4'
@@ -126,7 +128,7 @@ def move_root(endlist):
         print(name + ' : ' + str(size) + ' Bytes')
 
     print('totalsize : ' + str(filesize) + ' Bytes')
-    print('totalsize : ' + str(round((filesize / 1024 / 1024 / 1024), 1)) + ' GB')
+    print('totalsize : ' + str(math.ceil(filesize / 1024 / 1024 / 1024)) + ' GB')
 
 
 # main
