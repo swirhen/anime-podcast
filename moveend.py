@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # 期またぎ移動用スクリプト
-import os, sys, re, glob, math, psutil, shutil, pprint
-import pathlib
+import os, sys, re, glob, math, psutil, shutil, pprint, pathlib
 
 BASE_DIR = '/data/share/movie'
 PSPMP4_98_DIR = BASE_DIR + '/98 PSP用'
@@ -165,7 +164,7 @@ def move_root(endlist):
     else:
         # 最後の番号を取得
         lastpath = sorted(glob.glob(ROOT_MV_DIR + '/*'))[-1]
-        dstnum = str(int(re.sub(r'^.*\/', '', lastpath)[1:3]) + 1).zfill(3)
+        dstnum = str(int(re.sub(r'^.*/', '', lastpath)[1:3]) + 1).zfill(3)
         dstpath = ROOT_MV_DIR + '/' + dstnum.ljust(4) + YEAR + '-Q' + QUARTER + '終了分'
         print('destination directory is not found. make directory: ' + dstpath)
         os.makedirs(dstpath)
@@ -262,7 +261,7 @@ def move_98(endlist):
                     for movefile in movefiles:
                         print('move: ' + movefile + ' -> ' + dstpath)
                         shutil.move(movefile, dstpath)
-                        only_filename = re.sub(r'^.*\/', '', movefile)
+                        only_filename = re.sub(r'^.*/', '', movefile)
                         os.symlink(dstpath + '/' + only_filename, movefile)
                         print(only_filename + ': 移動完了')
 
