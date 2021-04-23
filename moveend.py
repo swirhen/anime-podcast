@@ -158,9 +158,9 @@ def move_root(endlist):
 
     # 移動先ディレクトリ作成
     dstpath = ''
-    FIND_ROOT_MV_DIR = glob.glob(ROOT_MV_DIR + '/*' + YEAR + '-Q' + QUARTER + '終了分')
-    if len(FIND_ROOT_MV_DIR) > 0:
-        dstpath = FIND_ROOT_MV_DIR[0]
+    find_root_mv_dir = glob.glob(ROOT_MV_DIR + '/*' + YEAR + '-Q' + QUARTER + '終了分')
+    if len(find_root_mv_dir) > 0:
+        dstpath = find_root_mv_dir[0]
     else:
         # 最後の番号を取得
         lastpath = sorted(glob.glob(ROOT_MV_DIR + '/*'))[-1]
@@ -201,6 +201,56 @@ def move_98(endlist):
     print('total size : ' + str(math.ceil(totalsize / 1024)) + ' GB')
     freesize = math.floor(psutil.disk_usage(PSPMP4_MV_DIR).free / 1024 / 1024 / 1024)
     print('free space size(' + PSPMP4_MV_DIR + ') : ' + str(freesize) + ' GB')
+
+    if totalsize < freesize:
+        print('Disk Space Check :OK')
+    else:
+        print('Disk Space Check :NG')
+        exit(1)
+
+    waitenter()
+
+    # 移動先ディレクトリ、シンボリックリンク作成
+    dstpath = ''
+    find_pspmp4_mv_dir = glob.glob(PSPMP4_MV_DIR + '/' + QUARTER + 'Q-' + YEAR)
+    if len(find_pspmp4_mv_dir) > 0:
+        dstpath = find_pspmp4_mv_dir
+    else:
+        dstpath = PSPMP4_MV_DIR + '/' + QUARTER + 'Q-' + YEAR
+        print('destination directory is not found. make directory: ' + dstpath)
+        os.makedirs(dstpath)
+
+    dstlink = PSPMP4_98_DIR + '/' + + QUARTER + 'Q-' + YEAR
+    if not os.path.exists(dstlink):
+        print('symbolic link is not found. make link: ' + dstlink)
+        os.symlink(dstpath, dstlink)
+
+    # 移動
+    for name in endlist:
+        if name[0] == '#':
+            continue
+
+        if CHECK == '1':
+            # TODO 抜けチェック
+
+        if PROGRESS == '3':
+            print('移動処理をスキップ')
+        else:
+            # 移動先のファイルチェック
+            if len(glob.glob(dstpath + '/' + name + ' 第*.mp4')) > 0:
+                print('既に存在しているため、移動無し')
+                continue
+            else:
+                movefiles = glob.glob(PSPMP4_98_DIR + '/' + name + ' 第*.mp4')
+                if len(movefiles) > 0:
+                    for movefile in movefiles:
+                        print('move: ' + movefile + ' -> ' + dstpath)
+                        shutil.move(movefile, dstpath)
+                        only_filename = re.sub(r'^.*\/', '', movefile)
+                        os.symlink(dstpath + '/' + only_filename, movefile)
+                        print(only_filename + ': 移動完了')
+
+    print('ALL: 移動完了')
 
 
 # main
