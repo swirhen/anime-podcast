@@ -235,7 +235,7 @@ def move_98(endlist):
         if CHECK == '1':
             filelist = list(pathlib.Path(PSPMP4_98_DIR).glob(name + ' 第*.mp4'))
             filelist_ignore_inteval_episodes = sorted([p.name for p in filelist if not re.search(r'\.5', str(p))])
-            filecount = str(len(filelist_ignore_inteval_episodes))
+            filecount = len(filelist_ignore_inteval_episodes)
             last_episode_count = int(re.sub(r'.*第(.*)話.*', r'\1', filelist_ignore_inteval_episodes[-1]))
             if filecount != last_episode_count:
                 pprint.pprint(filelist_ignore_inteval_episodes)
