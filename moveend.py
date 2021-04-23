@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # 期またぎ移動用スクリプト
-import os,sys,re,glob
-import pprint
-
-import math
+import os, sys, re, glob, math, psutil, pprint
 
 BASE_DIR = '/data/share/movie'
 PSPMP4_98_DIR = BASE_DIR + '/98 PSP用'
@@ -49,8 +46,8 @@ def askquarter():
 def asktarget():
     TARGET = input('Target?\n'
                    '1: root(' + BASE_DIR + ')\n'
-                   '2: pspmp4(' + PSPMP4_98_DIR + ')\n'
-                   'q: quit\n> ')
+                                           '2: pspmp4(' + PSPMP4_98_DIR + ')\n'
+                                                                          'q: quit\n> ')
     if re.match(r'[1-2]$', TARGET):
         return TARGET
     elif TARGET == 'q' or TARGET == 'Q':
@@ -116,7 +113,7 @@ def get_dir_size(path):
 
 
 def move_root(endlist):
-    # os.system('clear')
+    os.system('clear')
     # 容量チェック
     filesize = 0
     for name in endlist:
@@ -125,10 +122,10 @@ def move_root(endlist):
         print(path)
         size = get_dir_size(path[0])
         filesize += size
-        print(name + ' : ' + str(size) + ' Bytes')
 
-    print('totalsize : ' + str(filesize) + ' Bytes')
     print('totalsize : ' + str(math.ceil(filesize / 1024 / 1024 / 1024)) + ' GB')
+    freesize = math.floor(psutil.disk_usage(ROOT_MV_DIR).free / 1024 / 1024 / 1024)
+    print('freesize(' + ROOT_MV_DIR + ') : ' + str(freesize))
 
 
 # main
@@ -161,10 +158,10 @@ else:
     CHECK = askcheck()
 
 print('YEAR: ' + YEAR + '\n'
-      'QUARTER: ' + QUARTER + '\n'
-      'TARGET: ' + TARGET + '\n'
-      'PROGRESS: ' + PROGRESS + '\n'
-      'CHECK: ' + CHECK + '\n')
+                        'QUARTER: ' + QUARTER + '\n'
+                                                'TARGET: ' + TARGET + '\n'
+                                                                      'PROGRESS: ' + PROGRESS + '\n'
+                                                                                                'CHECK: ' + CHECK + '\n')
 
 # 終了ファイルリストの存在チェック・読み込み
 END_LIST_FILE = BASE_DIR + '/end_' + YEAR + 'Q' + QUARTER + '.txt'
@@ -177,8 +174,6 @@ listfile = open(END_LIST_FILE, 'r', encoding='utf-8')
 endlist = []
 for line in listfile.readlines():
     endlist.append(line.strip())
-
-pprint.pprint(endlist)
 
 # 処理分岐
 if TARGET == '1':
