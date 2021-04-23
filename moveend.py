@@ -232,6 +232,7 @@ def move_98(endlist):
 
         if CHECK == '1':
             # TODO 抜けチェック
+            print('TODO')
 
         if PROGRESS == '3':
             print('移動処理をスキップ')
