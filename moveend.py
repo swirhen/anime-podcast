@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 # 期またぎ移動用スクリプト
 import os, sys, re, glob, math, psutil, shutil, pprint
+import pathlib
 
 BASE_DIR = '/data/share/movie'
 PSPMP4_98_DIR = BASE_DIR + '/98 PSP用'
@@ -232,8 +233,20 @@ def move_98(endlist):
             continue
 
         if CHECK == '1':
-            # TODO 抜けチェック
-            print('TODO')
+            filelist = list(pathlib.Path(PSPMP4_98_DIR).glob(name + ' 第*.mp4'))
+            filelist_ignore_inteval_episodes = sorted([p.name for p in filelist if not re.search(r'\.5', str(p))])
+            filecount = str(len(filelist_ignore_inteval_episodes))
+            last_episode_count = re.sub(r'.*第(.*)話.*', r'\1', filelist_ignore_inteval_episodes[-1])
+            if filecount != last_episode_count:
+                pprint.pprint(filelist_ignore_inteval_episodes)
+                print('最終話とみられるファイル: ' + filelist_ignore_inteval_episodes[-1])
+                print('ファイル個数: ' + filecount + ' 一致しません。')
+                print('move sure?')
+                if askconfirm() == 1:
+                    print('スキップします')
+                    continue
+            else:
+                print(name + ' 抜けチェック: OK')
 
         if PROGRESS == '3':
             print('移動処理をスキップ')
@@ -244,7 +257,7 @@ def move_98(endlist):
                 print('既に存在しているため、移動無し')
                 continue
             else:
-                movefiles = glob.glob(PSPMP4_98_DIR + '/' + name + ' 第*.mp4')
+                movefiles = sorted(glob.glob(PSPMP4_98_DIR + '/' + name + ' 第*.mp4'))
                 if len(movefiles) > 0:
                     for movefile in movefiles:
                         print('move: ' + movefile + ' -> ' + dstpath)
