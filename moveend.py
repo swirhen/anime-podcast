@@ -164,6 +164,7 @@ print('YEAR: ' + YEAR + '\n'
 # 終了ファイルリストの存在チェック・読み込み
 END_LIST_FILE = BASE_DIR + '/end_' + YEAR + 'Q' + QUARTER + '.txt'
 
+print(END_LIST_FILE)
 if not os.path.isfile(END_LIST_FILE):
     print('endlist file not found.')
     exit(1)
