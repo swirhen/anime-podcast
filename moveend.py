@@ -174,7 +174,7 @@ if not os.path.isfile(END_LIST_FILE):
 listfile = open(END_LIST_FILE, 'r', encoding='utf-8')
 endlist = []
 for line in listfile.readlines():
-    endlist.append(line)
+    endlist.append(line.strip())
 
 pprint.pprint(endlist)
 
