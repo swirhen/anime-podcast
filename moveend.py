@@ -289,7 +289,7 @@ def remove_98(endlist):
             continue
 
         # 削除
-        for file in filelist:
+        for file in sorted(filelist):
             print('remove symbolic link: ' + file.name)
             os.remove(file)
 
