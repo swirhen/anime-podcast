@@ -185,7 +185,7 @@ do
 
     # 一致した場合、titleから話数の数値を取得
     if [ ${fetch_flg} -eq 1 ]; then
-      EPNUM=`echo "${title}" | sed "s/.*${NAME}.* - \([0-9.]\{2,5\}\).*/\1/"`
+      EPNUM=`echo "${title}" | sed "s/.*${NAME}.* \([0-9.]\{2,5\}\) .*/\1/"`
       EPNUM_N=${EPNUM}
 
       # 取得した文字列が3桁より多い場合、.5話の可能性がある(0d.5 が4桁。d.5 の可能性は一旦考えない)
