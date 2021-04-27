@@ -2,13 +2,16 @@
 # -*- coding: utf-8 -*-
 # swirhen.tv auto publish batch
 # import section
-import pathlib, re
+import os, pathlib, re, sys, shutil
 import urllib.request
 from bs4 import BeautifulSoup
 from datetime import datetime as dt
+current_dir = pathlib.Path(__file__).resolve().parent
+sys.path.append(str(current_dir) + '/python-lib/')
+import swirhentv_util as swutil
 
 # argments section
-SCRIPT_DIR = str(pathlib.Path(__file__).resolve().parent)
+SCRIPT_DIR = str(current_dir)
 DOWNLOAD_DIR = SCRIPT_DIR + '/data/share/movie'
 LIST_FILE = SCRIPT_DIR + '/checklist.txt'
 LIST_FILE2 = SCRIPT_DIR + '/sub_checklist.txt'
@@ -27,6 +30,7 @@ SYOBOCAL_URI = 'http://cal.syoboi.jp/find?sd=0&kw='
 CHANNEL = 'bot-open'
 POST_FLG = 1
 LOG_FILE = SCRIPT_DIR + '/autopub_${DATETIME2}.log'
+LOG_DIR = SCRIPT_DIR + '/logs'
 FLG_FILE = SCRIPT_DIR + '/autopub_running'
 LEOPARD_INDEX = SCRIPT_DIR + '/leopard_index.html'
 INDEX_GET = 0
@@ -63,3 +67,31 @@ def syobocal_search(search_word):
         return result[0].translate(str.maketrans({';': '；', '!': '！', ':': '：', '/': '／'}))
     else:
         return ''
+
+
+# ログ書き込み
+def logging(logstr):
+    td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
+    print(td + ' ' + logstr)
+    with open(LOG_FILE, 'a') as logfile:
+        logfile.write(td + ' ' + logstr + '\n')
+
+
+# 終了のあとしまつ
+def end(exit_code):
+    shutil.move(LOG_FILE, LOG_DIR)
+    os.remove(FLG_FILE)
+    exit(exit_code)
+
+
+# main section
+# running flag file check
+if os.path.isfile(FLG_FILE):
+    logging('### running flag file exist. delete flag file? (y/n)')
+    if swutil.askconfirm() == 0:
+        os.remove(FLG_FILE)
+    shutil.move(LOG_FILE, LOG_DIR)
+    exit(1)
+else:
+    flg_file = pathlib.Path(FLG_FILE)
+    flg_file.touch()

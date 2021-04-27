@@ -45,3 +45,14 @@ def slack_post(channel, text, username='swirhentv', icon_emoji=''):
 def slack_upload(channel, filepath, filetype='text'):
     slack = Slacker(slackbot_settings.API_TOKEN)
     slack.files.upload(channels=channel, file_=filepath, filetype=filetype)
+
+
+def askconfirm():
+    res = input('> ')
+    if res == 'y' or res == 'Y':
+        return 0
+    elif res == 'n' or res == 'N':
+        return 1
+    else:
+        print('y/nを入力してください。(EnterのみはNo)')
+        askconfirm()
