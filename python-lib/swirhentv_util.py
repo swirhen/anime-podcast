@@ -65,3 +65,13 @@ def grep_file(filepath, word):
     for line in lines:
         if line.strip() == word:
             return(line.strip())
+
+
+def writefile_new(filepath, str):
+    with open(filepath, 'w') as file:
+        file.write(str + '\n')
+
+
+def writefile_append(filepath, str):
+    with open(filepath, 'a') as file:
+        file.write(str + '\n')
