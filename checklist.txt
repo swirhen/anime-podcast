@@ -1,4 +1,37 @@
-Last Update: 2021/04/23-18:00:01
+Last Update: 2021/04/27-12:00:01
+2021/04/27-12:00:01 04 Odd Taxi|オッドタクシー
+2021/04/27-12:00:01 04 Fruits Basket the Final|フルーツバスケット The Final
+2021/04/27-00:00:01 04 Yakunara Mug Cup mo|やくならマグカップも
+2021/04/27-00:00:01 04 Koi to Yobu ni wa Kimochi Warui|恋と呼ぶには気持ち悪い
+2021/04/27-00:00:01 04 Hige o Soru. Soshite Joshikousei o Hirou.|ひげを剃る。そして女子高生を拾う。
+2021/04/27-00:00:01 03 Tokyo Revengers|東京リベンジャーズ
+2021/04/27-00:00:01 03 Fumetsu no Anata e|不滅のあなたへ
+2021/04/26-06:00:02 04 Seven Knights Revolution Eiyuu no Keishousha|セブンナイツ レボリューション -英雄の継承者-
+2021/04/26-06:00:02 04 Sayonara Watashi no Cramer|さよなら私のクラマー
+2021/04/26-00:00:01 04 Yuukoku no Moriarty Part 2|憂国のモリアーティ(2クール目)
+2021/04/26-00:00:01 04 Shakunetsu Kabaddi|灼熱カバディ
+2021/04/26-00:00:01 04 Sentouin, Hakenshimasu|戦闘員、派遣します！
+2021/04/26-00:00:01 04 Nomad Megalo Box 2|NOMAD メガロボクス2
+2021/04/26-00:00:01 04 Dragon, Ie o Kau|ドラゴン、家を買う。
+2021/04/25-12:00:01 45 Digimon Adventure;|デジモンアドベンチャー：
+2021/04/25-12:00:01 03 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
+2021/04/25-12:00:01 03 Bishounen Tanteidan|美少年探偵団
+2021/04/25-12:00:01 03 Battle Athletess Daiundoukai Restart!|バトルアスリーテス大運動会 ReSTART!
+2021/04/25-06:00:01 03 Shadows House|シャドーハウス
+2021/04/25-06:00:01 03 Ijiranaide, Nagatoro-san|イジらないで、長瀞さん
+2021/04/25-06:00:01 03 Eighty-Six|86-エイティシックス-
+2021/04/25-06:00:01 03 Edens Zero|EDENS ZERO
+2021/04/25-00:00:01 05 Boku no Hero Academia 5|僕のヒーローアカデミア(第5期)
+2021/04/25-00:00:01 03 Slime300|スライム倒して300年、知らないうちにレベルMAXになってました
+2021/04/25-00:00:01 02 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
+2021/04/24-18:00:01 29 Dqdai|ドラゴンクエスト ダイの大冒険
+2021/04/24-12:00:01 04 Mashiro no Oto|ましろのおと
+2021/04/24-06:00:01 16 Back Arrow|バック・アロウ
+2021/04/24-06:00:01 04 SSSS.Dynazenon|SSSS.DYNAZENON
+2021/04/24-06:00:01 03 Subarashiki Kono Sekai the Animation|すばらしきこのせかい The Animation
+2021/04/24-06:00:01 03 Mars Red|MARS RED
+2021/04/24-06:00:01 03 Blue Reflection Ray|BLUE REFLECTION RAY／澪
+2021/04/24-00:00:01 15 Kumo Desu ga, Nanika|蜘蛛ですが、なにか？
 2021/04/23-06:00:01 03 Isekai Maou to Shoukan Shoujo no Dorei Majutsu Omega|異世界魔王と召喚少女の奴隷魔術Ω
 2021/04/23-06:00:01 03 Bakuten!!|バクテン!!
 2021/04/23-00:00:02 04 Shaman King 2021|SHAMAN KING
@@ -13,37 +46,4 @@ Last Update: 2021/04/23-18:00:01
 2021/04/22-00:00:01 02 Osamake|幼なじみが絶対に負けないラブコメ
 2021/04/21-06:00:01 03 Tensura Nikki Tensei Shitara Slime Datta Ken|転生したらスライムだった件 転スラ日記
 2021/04/21-06:00:01 03 Seijo no Maryoku wa Bannou Desu|聖女の魔力は万能です
-2021/04/21-00:00:01 03 Odd Taxi|オッドタクシー
-2021/04/20-12:00:01 03 Fruits Basket the Final|フルーツバスケット The Final
-2021/04/20-00:00:01 03 Yakunara Mug Cup mo|やくならマグカップも
-2021/04/20-00:00:01 03 Koi to Yobu ni wa Kimochi Warui|恋と呼ぶには気持ち悪い
-2021/04/20-00:00:01 03 Hige o Soru. Soshite Joshikousei o Hirou.|ひげを剃る。そして女子高生を拾う。
-2021/04/20-00:00:01 02 Tokyo Revengers|東京リベンジャーズ
-2021/04/20-00:00:01 02 Fumetsu no Anata e|不滅のあなたへ
-2021/04/19-06:00:02 03 Seven Knights Revolution Eiyuu no Keishousha|セブンナイツ レボリューション -英雄の継承者-
-2021/04/19-06:00:02 03 Sayonara Watashi no Cramer|さよなら私のクラマー
-2021/04/19-00:00:01 03 Yuukoku no Moriarty Part 2|憂国のモリアーティ(2クール目)
-2021/04/19-00:00:01 03 Shakunetsu Kabaddi|灼熱カバディ
-2021/04/19-00:00:01 03 Sentouin, Hakenshimasu|戦闘員、派遣します！
-2021/04/19-00:00:01 03 Nomad Megalo Box 2|NOMAD メガロボクス2
-2021/04/19-00:00:01 03 Dragon, Ie o Kau|ドラゴン、家を買う。
-2021/04/18-12:00:01 44 Digimon Adventure;|デジモンアドベンチャー：
-2021/04/18-12:00:01 02 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
-2021/04/18-12:00:01 02 Bishounen Tanteidan|美少年探偵団
-2021/04/18-12:00:01 02 Battle Athletess Daiundoukai Restart!|バトルアスリーテス大運動会 ReSTART!
-2021/04/18-06:00:01 02 Shadows House|シャドーハウス
-2021/04/18-06:00:01 02 Ijiranaide, Nagatoro-san|イジらないで、長瀞さん
-2021/04/18-06:00:01 02 Eighty-Six|86-エイティシックス-
-2021/04/18-06:00:01 02 Edens Zero|EDENS ZERO
-2021/04/18-06:00:01 01 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
-2021/04/18-00:00:01 04 Boku no Hero Academia 5|僕のヒーローアカデミア(第5期)
-2021/04/18-00:00:01 02 Slime300|スライム倒して300年、知らないうちにレベルMAXになってました
-2021/04/17-12:00:01 28 Dqdai|ドラゴンクエスト ダイの大冒険
-2021/04/17-12:00:01 03 Mashiro no Oto|ましろのおと
-2021/04/17-12:00:01 02 Subarashiki Kono Sekai the Animation|すばらしきこのせかい The Animation
-2021/04/17-12:00:01 02 Blue Reflection Ray|BLUE REFLECTION RAY／澪
-2021/04/17-06:00:02 15 Back Arrow|バック・アロウ
-2021/04/17-06:00:02 03 SSSS.Dynazenon|SSSS.DYNAZENON
-2021/04/17-00:00:01 14 Kumo Desu ga, Nanika|蜘蛛ですが、なにか？
-2021/04/15-12:00:01 02 Mars Red|MARS RED
 2021/04/04-12:00:01 145 Kiratto Pri-chan|キラッとプリ☆チャン
