@@ -63,5 +63,5 @@ def grep_file(filepath, word):
         lines = f.readlines()
 
     for line in lines:
-        if line.find(word) >= 0:
+        if line.strip() == word:
             return(line.strip())
