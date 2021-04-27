@@ -18,3 +18,4 @@ nico_search/nico
 nico_search/nico_imas
 *pycache*
 python-lib/*pycache*
+python-lib/slackbot_settings.py
