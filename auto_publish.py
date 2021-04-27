@@ -95,3 +95,4 @@ if os.path.isfile(FLG_FILE):
 else:
     flg_file = pathlib.Path(FLG_FILE)
     flg_file.touch()
+    print('OK')
