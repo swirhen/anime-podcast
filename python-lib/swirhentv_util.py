@@ -4,6 +4,8 @@
 import pathlib
 import re
 import sys
+from slacker import Slacker
+import slackbot_settings
 
 current_dir = pathlib.Path(__file__).resolve().parent
 CHECKLIST_FILE_PATH = str(current_dir) + '/../checklist.txt'
@@ -27,3 +29,14 @@ def make_rename_list():
         renamelist.append(line)
 
     return renamelist
+
+
+def slack_post(channel, text, username='swirhentv', icon_emoji=''):
+    slack = Slacker(slackbot_settings.API_TOKEN)
+    slack.chat.post_message(
+        channel,
+        text,
+        username=username,
+        icon_emoji=icon_emoji,
+        link_names=1,
+    )
