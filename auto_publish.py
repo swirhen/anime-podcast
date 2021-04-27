@@ -87,9 +87,11 @@ def end(exit_code):
 # main section
 # running flag file check
 if os.path.isfile(FLG_FILE):
-    logging('### running flag file exist. delete flag file? (y/n)')
+    logging('### running flag file exist.')
+    print('delete flag file? (y/n)')
     if swutil.askconfirm() == 0:
         os.remove(FLG_FILE)
+        logging('### running flag file deleted manually.')
     shutil.move(LOG_FILE, LOG_DIR)
     exit(1)
 else:
