@@ -42,6 +42,6 @@ def slack_post(channel, text, username='swirhentv', icon_emoji=''):
     )
 
 
-def slack_upload(channel, filepath):
+def slack_upload(channel, filepath, filetype='text'):
     slack = Slacker(slackbot_settings.API_TOKEN)
-    slack.files.upload(channels=channel, file_=filepath)
+    slack.files.upload(channels=channel, file_=filepath, filetype=filetype)
