@@ -58,10 +58,10 @@ def askconfirm():
         askconfirm()
 
 
-def grep_file(filepath, grepword):
+def grep_file(filepath, word):
     with open(filepath, 'r', newline='') as f:
         lines = f.readlines()
 
     for line in lines:
-        if line.find(grepword) >= 0:
-            print(line[:-1])
+        if line.find(word) >= 0:
+            return(line.strip())
