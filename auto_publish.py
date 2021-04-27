@@ -29,7 +29,7 @@ SYOBOCAL_URI = 'http://cal.syoboi.jp/find?sd=0&kw='
 # PYTHON_PATH = 'python3'
 CHANNEL = 'bot-open'
 POST_FLG = 1
-LOG_FILE = SCRIPT_DIR + '/autopub_${DATETIME2}.log'
+LOG_FILE = SCRIPT_DIR + '/autopub_' + DATETIME2 + '.log'
 LOG_DIR = SCRIPT_DIR + '/logs'
 FLG_FILE = SCRIPT_DIR + '/autopub_running'
 LEOPARD_INDEX = SCRIPT_DIR + '/leopard_index.html'
