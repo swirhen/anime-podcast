@@ -56,3 +56,12 @@ def askconfirm():
     else:
         print('y/nを入力してください。(EnterのみはNo)')
         askconfirm()
+
+
+def grep_file(filepath, grepword):
+    with open(filepath, 'r', newline='') as f:
+        lines = f.readlines()
+
+    for line in lines:
+        if line.find(grepword) >= 0:
+            print(line[:-1])
