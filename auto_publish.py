@@ -38,15 +38,15 @@ NEW_PROGRAM_FILE = SCRIPT_DIR + '/new_program.txt'
 # 新番組日本語名取得
 def get_jp_title(title_en):
     # 取得した英語タイトルの "-" をスペースに変換、"："、"."、"!" を削除、3ワード分を取得
-    SEARCH_WORD = re.sub(r'([^ ]*) ([^ ]*) ([^ ]*) .*', r'\1 \2 \3', title_en.translate(str.maketrans('-', ' ', '!：:.,'))).replace(' ', '+')
+    search_word = re.sub(r'([^ ]*) ([^ ]*) ([^ ]*) .*', r'\1 \2 \3', title_en.translate(str.maketrans('-', ' ', '!：:.,'))).replace(' ', '+')
     # 2ワード分のもの
-    SEARCH_WORD2 = re.sub(r'(.*)\+.*', r'\1', SEARCH_WORD)
+    search_word2 = re.sub(r'(.*)\+.*', r'\1', search_word)
 
-    result1 = syobocal_search(SEARCH_WORD)
+    result1 = syobocal_search(search_word)
     if result1 != '':
         return result1
     else:
-        return syobocal_search(SEARCH_WORD2)
+        return syobocal_search(search_word2)
 
 
 # しょぼいカレンダー検索
