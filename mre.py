@@ -14,27 +14,16 @@ import re
 import sys
 
 
-def main():
+def main(filepath, SFX1='\ ', SFX2='\ '):
     current_dir = pathlib.Path(__file__).resolve().parent
     sys.path.append(str(current_dir) + '/python-lib/')
     import swirhentv_util
-    SFX1 = '\ '
-    SFX2 = '\ '
-    args = sys.argv
-    if len(args) > 1:
-        SFX1 = args[1]
-        if len(args) == 2:
-            SFX2 = args[1]
-        elif len(args) == 3:
-            SFX2 = args[2]
-        else:
-            print("too many arguments.")
-            exit(1)
 
     # make rename list
     renamelist = swirhentv_util.make_rename_list()
 
     # make file list
+    os.chdir(filepath)
     filelist = []
     filelist.extend(
         glob.glob("*.mp4") +
