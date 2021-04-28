@@ -11,6 +11,7 @@ from datetime import datetime as dt
 current_dir = pathlib.Path(__file__).resolve().parent
 sys.path.append(str(current_dir) + '/python-lib/')
 import swirhentv_util as swutil
+import mre
 import xml.etree.ElementTree as ET
 
 # argments section
@@ -292,3 +293,6 @@ for download in downloads:
     shutil.move(DOWNLOAD_DIR + '/' + title + '.torrent', SEED_BACKUP_DIR)
 
 logging('### movie file rename start.')
+mre.main()
+
+end(0)
