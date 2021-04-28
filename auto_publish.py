@@ -125,7 +125,6 @@ for item in xml_root.findall('./channel/item'):
     seed_list.append(seed_info)
 
 # チェックリストの取得
-# file open
 listfile = ''
 check_lists = []
 try:
@@ -142,10 +141,6 @@ for line in listfile.readlines():
     episode_number = re.sub(r'^([^ ]*) ([^ ]*) (.*)', r'\2', line).strip()
     name = re.sub(r'^([^ ]*) ([^ ]*) (.*)', r'\3', line).strip().split("|")[0]
     name_j = re.sub(r'^([^ ]*) ([^ ]*) (.*)', r'\3', line).strip().split("|")[1]
-    # last_updates.append(last_update)
-    # episode_numbers.append(episode_number)
-    # names.append(name)
-    # names_j.append(name_j)
     check_list = [last_update, episode_number, name, name_j]
     check_lists.append(check_list)
 
@@ -283,4 +278,10 @@ if len(new_result) > 0:
 repo.git.pull()
 repo.git.push()
 
-# TODO つづき
+# seedダウンロード・seed育成処理開始
+for download in downloads:
+    link = download[0]
+    title = download[1]
+    urllib.request.urlretrieve(link, DOWNLOAD_DIR + '/' + title + '.torrent')
+
+# TODO 続き
