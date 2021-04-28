@@ -83,7 +83,7 @@ def writefile_append(filepath, str):
 
 
 def len_file(filepath):
-    return sum([1 for _ in open(filepath).readline()])
+    return sum([1 for _ in open(filepath)])
 
 
 def torrent_download(filepath, slack_channel='bot-open'):
