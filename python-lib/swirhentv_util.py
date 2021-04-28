@@ -82,6 +82,10 @@ def writefile_append(filepath, str):
         file.write(str + '\n')
 
 
+def len_file(filepath):
+    return sum([1 for _ in open(filepath).readline()])
+
+
 def torrent_download(filepath, slack_channel='bot-open'):
     os.chdir(filepath)
     seedlist = glob.glob('*.torrent')
