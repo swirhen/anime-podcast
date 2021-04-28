@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # swirhen.tv python library
+import glob
+import os
 import pathlib
+import pprint
 import re
+import subprocess
 import sys
+import time
 from slacker import Slacker
 import slackbot_settings
 
@@ -75,3 +80,30 @@ def writefile_new(filepath, str):
 def writefile_append(filepath, str):
     with open(filepath, 'a') as file:
         file.write(str + '\n')
+
+
+def torrent_download(filepath, slack_channel='bot-open'):
+    os.chdir(filepath)
+    seedlist = glob.glob('*.torrent')
+    if len(seedlist) == 0:
+        print('seed file not found: ' + filepath)
+        return(1)
+
+    post_msg='swirhen.tv seed douwnload start: 以下のファイルの栽培を開始\n' + \
+             '```' + '\n'.join(seedlist) + '```'
+    slack_post(slack_channel, post_msg)
+
+    proc = subprocess.Popen('aria2c --listen-port=38888 --max-upload-limit=200K --seed-ratio=0.01 --seed-time=1 *.torrent', shell=True)
+    time.sleep(10)
+
+    while True:
+        if len(glob.glob(filepath + '/*.aria2')) == 0:
+            proc.kill()
+            break
+
+        pprint.pprint(glob.glob(filepath + '/*.aria2'))
+        time.sleep(10)
+
+    post_msg='swirhen.tv seed douwnload complete: 以下のファイルの栽培を開始\n' + \
+             '```' + '\n'.join(seedlist) + '```'
+    slack_post(slack_channel, post_msg)
