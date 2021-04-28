@@ -94,7 +94,7 @@ def sed_del(filepath, sed_keyword):
     lines_data = open(filepath).readlines()
     for line in lines_data:
         if not re.search(sed_keyword, line):
-            writefile_append(line.strip(), tempfile)
+            writefile_append(tempfile, line.strip())
 
     shutil.move(tempfile, filepath)
 
