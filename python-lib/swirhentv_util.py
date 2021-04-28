@@ -6,6 +6,7 @@ import os
 import pathlib
 import pprint
 import re
+import shutil
 import subprocess
 import sys
 import time
@@ -84,6 +85,17 @@ def writefile_append(filepath, str):
 
 def len_file(filepath):
     return len(open(filepath).readlines())
+
+
+def sed_del(filepath, sed_keyword):
+    tempfile = str(current_dir) + '/sed_del_temp'
+    os.remove(pathlib.Path(tempfile))
+    lines_data = open(filepath).readlines()
+    for line in lines_data:
+        if not re.search(sed_keyword, line):
+            writefile_append(line.strip(), tempfile)
+
+    shutil.move(tempfile, filepath)
 
 
 def torrent_download(filepath, slack_channel='bot-open'):

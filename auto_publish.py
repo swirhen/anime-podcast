@@ -8,6 +8,7 @@ import urllib.request
 import math
 from bs4 import BeautifulSoup
 from datetime import datetime as dt
+import datetime
 current_dir = pathlib.Path(__file__).resolve().parent
 sys.path.append(str(current_dir) + '/python-lib/')
 import swirhentv_util as swutil
@@ -247,7 +248,7 @@ for seed_info in seed_list:
                 swutil.writefile_append(NEW_RESULT_FILE_NG, title_en)
 
 if new_hit_flag == 1:
-    post_msg='@here 新番組検知！\n' + \
+    post_msg = '@here 新番組検知！\n' + \
                 'リストに追加されたので、次回ダウンロード対象となります\n' + \
                 '対象外にする場合は、リストから削除、保存ディレクトリを削除してください\n' + \
                 '```' + '\n'.join(new_result) + '```'
@@ -255,10 +256,10 @@ if new_hit_flag == 1:
     logging(post_msg)
 
 if new_hit_flag_ng == 1:
-    post_msg='@here 新番組検知！\n' + \
-             '検知しましたが、日本語タイトルが検索で取得できなかったので、何もしませんでした\n' + \
-             '手動追加を検討してください\n' + \
-             '```' + '\n'.join(new_result_ng) + '```'
+    post_msg = '@here 新番組検知！\n' + \
+                '検知しましたが、日本語タイトルが検索で取得できなかったので、何もしませんでした\n' + \
+                '手動追加を検討してください\n' + \
+                '```' + '\n'.join(new_result_ng) + '```'
     slackpost(post_msg)
     logging(post_msg)
 
@@ -288,11 +289,51 @@ for download in downloads:
 logging('### torrent download start.')
 swutil.torrent_download(DOWNLOAD_DIR)
 
+# seeds backup
 for download in downloads:
     title = download[1]
     shutil.move(DOWNLOAD_DIR + '/' + title + '.torrent', SEED_BACKUP_DIR)
 
+# seedダウンロード処理終了を報告
+if len(result) > 0:
+    post_msg = 'seed download completed.\n' + \
+                '```' + '\n'.join(result) + '```'
+    slackpost(post_msg)
+    logging(post_msg)
+else:
+    post_msg = 'swirhen.tv auto publish completed. (no new episode)'
+    slackpost(post_msg)
+    logging(post_msg)
+    end(0)
+
 logging('### movie file rename start.')
-mre.main()
+mre.main(DOWNLOAD_DIR)
+
+logging('renamed movie files: ')
+download_files_with_path = sorted(list(pathlib.Path(DOWNLOAD_DIR).glob('*話*.mp4')))
+for dlfwp in download_files_with_path:
+    logging(dlfwp.name)
+
+# 終了エピソードがある場合、終了リストの編集
+# 終了リストがあるかどうかチェック
+resent_end_list_file = sorted(list(pathlib.Path(DOWNLOAD_DIR).glob('end*.txt')))[-1]
+resent_end_list_file_mtime = datetime.date.fromtimestamp(int(os.path.getmtime(resent_end_list_file)))
+now = datetime.date.today()
+if (now - resent_end_list_file_mtime).days >= 30:
+    # 30日以上前なので、新しく作る
+    year = re.sub(r'end_(....)Q.*', r'\1', resent_end_list_file.name)
+    quarter = re.sub(r'.*Q(.).*', r'\1', resent_end_list_file.name)
+    if quarter == 4:
+        year = int(year) + 1
+        quarter = 1
+    else:
+        quarter = int(quarter) + 1
+
+    resent_end_list_file = pathlib.Path(DOWNLOAD_DIR + '/end_' + str(year) + 'Q' + str(quarter) + '.txt')
+
+if len(end_episodes) > 0:
+    post_msg_end = '# 終了とみられる番組で、抜けチェックOKのため、終了リストに追加/チェックリストから削除\n' + \
+                '```' + '\n'.join(end_episodes) + '```'
+
 
 end(0)
