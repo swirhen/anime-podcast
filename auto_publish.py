@@ -95,7 +95,7 @@ def end(exit_code):
 
 # main section
 # running flag file check
-if __name__ == '__main__':
+def main():
     if os.path.isfile(FLG_FILE):
         logging('### running flag file exist.')
         print('delete flag file? (y/n)')
@@ -359,3 +359,7 @@ if __name__ == '__main__':
     slackupload(LOG_FILE)
 
     end(0)
+
+
+if __name__ == '__main__':
+    main()
