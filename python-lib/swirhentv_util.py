@@ -91,9 +91,9 @@ def torrent_download(filepath, slack_channel='bot-open'):
     seedlist = glob.glob('*.torrent')
     if len(seedlist) == 0:
         print('seed file not found: ' + filepath)
-        return(1)
+        return 1
 
-    post_msg='swirhen.tv seed douwnload start:\n' + \
+    post_msg='swirhen.tv seed download start:\n' + \
              '```' + '\n'.join(seedlist) + '```'
     slack_post(slack_channel, post_msg)
 
@@ -108,6 +108,7 @@ def torrent_download(filepath, slack_channel='bot-open'):
         pprint.pprint(glob.glob(filepath + '/*.aria2'))
         time.sleep(10)
 
-    post_msg='swirhen.tv seed douwnload complete:\n' + \
+    post_msg='swirhen.tv seed download complete:\n' + \
              '```' + '\n'.join(seedlist) + '```'
     slack_post(slack_channel, post_msg)
+    return 0

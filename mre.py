@@ -13,52 +13,56 @@ import pathlib
 import re
 import sys
 
-current_dir = pathlib.Path(__file__).resolve().parent
-sys.path.append(str(current_dir) + '/python-lib/')
-import swirhentv_util
 
-SFX1 = '\ '
-SFX2 = '\ '
-args = sys.argv
-if len(args) > 1:
-    SFX1 = args[1]
-    if len(args) == 2:
-        SFX2 = args[1]
-    elif len(args) == 3:
-        SFX2 = args[2]
-    else:
-        print("too many arguments.")
-        exit(1)
+def main():
+    current_dir = pathlib.Path(__file__).resolve().parent
+    sys.path.append(str(current_dir) + '/python-lib/')
+    import swirhentv_util
+    SFX1 = '\ '
+    SFX2 = '\ '
+    args = sys.argv
+    if len(args) > 1:
+        SFX1 = args[1]
+        if len(args) == 2:
+            SFX2 = args[1]
+        elif len(args) == 3:
+            SFX2 = args[2]
+        else:
+            print("too many arguments.")
+            exit(1)
 
-# make rename list
-renamelist = swirhentv_util.make_rename_list()
+    # make rename list
+    renamelist = swirhentv_util.make_rename_list()
 
-# make file list
-filelist = []
-filelist.extend(
-    glob.glob("*.mp4") +
-    glob.glob("*.mkv") +
-    glob.glob("*.avi") +
-    glob.glob("*.wmv"))
+    # make file list
+    filelist = []
+    filelist.extend(
+        glob.glob("*.mp4") +
+        glob.glob("*.mkv") +
+        glob.glob("*.avi") +
+        glob.glob("*.wmv"))
 
-# rename files
-for filename in filelist:
-    for name in renamelist:
-        nameE = name[0]
-        nameJ = name[1]
-        exp = r'.*(' + nameE + ').*' + SFX1 + '([0-9]{0,1}[0-9][0-9](.5)?)' + SFX2 + '.*\.(.*)'
-        name = re.sub(exp, r'\1', filename)
-        num = re.sub(exp, r'\2', filename)
-        ext = re.sub(exp, r'\4', filename)
+    # rename files
+    for filename in filelist:
+        for name in renamelist:
+            nameE = name[0]
+            nameJ = name[1]
+            exp = r'.*(' + nameE + ').*' + SFX1 + '([0-9]{0,1}[0-9][0-9](.5)?)' + SFX2 + '.*\.(.*)'
+            name = re.sub(exp, r'\1', filename)
+            num = re.sub(exp, r'\2', filename)
+            ext = re.sub(exp, r'\4', filename)
 
-        if nameE == name:
-            if os.path.isfile(filename + '.aria2'):
-                print('#' + filename + ' 成育中！')
-            else:
-                newname = nameJ + ' 第' + num + '話.' + ext
-                if filename != newname:
-                    print('# rename ' + filename + ' -> ' + newname)
-                    os.rename(filename, newname)
+            if nameE == name:
+                if os.path.isfile(filename + '.aria2'):
+                    print('#' + filename + ' 成育中！')
                 else:
-                    print('# 変更後のファイル名が同じ')
-            break
+                    newname = nameJ + ' 第' + num + '話.' + ext
+                    if filename != newname:
+                        print('# rename ' + filename + ' -> ' + newname)
+                        os.rename(filename, newname)
+                    else:
+                        print('# 変更後のファイル名が同じ')
+                break
+
+
+main()

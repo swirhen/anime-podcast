@@ -16,6 +16,7 @@ import xml.etree.ElementTree as ET
 # argments section
 SCRIPT_DIR = str(current_dir)
 DOWNLOAD_DIR = '/data/share/movie'
+SEED_BACKUP_DIR = SCRIPT_DIR + '/download_seeds'
 LIST_FILE = SCRIPT_DIR + '/checklist.txt'
 LIST_TEMP = SCRIPT_DIR + '/checklist.temp'
 RSS_TEMP = SCRIPT_DIR + '/rss.temp'
@@ -283,4 +284,11 @@ for download in downloads:
     title = download[1]
     urllib.request.urlretrieve(link, DOWNLOAD_DIR + '/' + title + '.torrent')
 
-# TODO 続き
+logging('### torrent download start.')
+swutil.torrent_download(DOWNLOAD_DIR)
+
+for download in downloads:
+    title = download[1]
+    shutil.move(DOWNLOAD_DIR + '/' + title + '.torrent', SEED_BACKUP_DIR)
+
+logging('### movie file rename start.')
