@@ -59,14 +59,14 @@ filepath = ''
 SFX1 = '\ '
 SFX2 = '\ '
 args = sys.argv
-if len(args) == 1:
-    filepath = args[2]
-    if len(args) == 2:
-        SFX1 = args[3]
-    elif len(args) == 3:
-        SFX2 = args[4]
-    else:
-        print("too many arguments.")
-        exit(1)
+if len(args) > 0:
+    filepath = args[1]
+    if len(args) > 1:
+        SFX1 = args[2]
+        if len(args) > 2:
+            SFX2 = args[3]
+        else:
+            print("too many arguments.")
+            exit(1)
 
 main(filepath, SFX1, SFX2)
