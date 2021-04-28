@@ -88,8 +88,9 @@ def len_file(filepath):
 
 
 def sed_del(filepath, sed_keyword):
-    tempfile = str(current_dir) + '/sed_del_temp'
-    os.remove(pathlib.Path(tempfile))
+    tempfile = filepath + '.sed_del_temp'
+    if pathlib.Path(tempfile).is_file():
+        os.remove(pathlib.Path(tempfile))
     lines_data = open(filepath).readlines()
     for line in lines_data:
         if not re.search(sed_keyword, line):
