@@ -2,13 +2,19 @@
 # -*- coding: utf-8 -*-
 # swirhen.tv auto publish batch
 # import section
-import os, pathlib, re, sys, shutil, glob, git
-import urllib.request
-
-import math
-from bs4 import BeautifulSoup
-from datetime import datetime as dt
 import datetime
+import git
+import glob
+import math
+import os
+import pathlib
+import re
+import shutil
+import subprocess
+import sys
+import urllib.request
+from datetime import datetime as dt
+from bs4 import BeautifulSoup
 current_dir = pathlib.Path(__file__).resolve().parent
 sys.path.append(str(current_dir) + '/python-lib/')
 import swirhentv_util as swutil
@@ -314,6 +320,10 @@ def main():
     download_files_with_path = sorted(list(pathlib.Path(DOWNLOAD_DIR).glob('*話*.mp4')))
     for dlfwp in download_files_with_path:
         logging(dlfwp.name)
+
+    # auto encode
+    logging('### auto encode start.')
+    subprocess.run('/data/share/movie/sh/169f.sh', shell=True)
 
     # 終了エピソードがある場合、終了リストの編集
     # 終了リストがあるかどうかチェック
