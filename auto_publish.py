@@ -187,31 +187,31 @@ for check_list in check_lists:
                 hit_flag = episode_number_diff
                 diff_over_flag = 1
 
-            if hit_flag > 0:
-                logging('new episode: ' + seed_episode_number + ' local: ' + episode_number)
-                if hit_flag > 1:
-                    logging(title + '    ↑前回との差分が1話以上検出されています。差分話数: ' + hit_flag)
-                    result.append(title + '\n↑前回との差分が1話以上検出されています。差分話数: ' + hit_flag)
+        if hit_flag > 0:
+            logging('new episode: ' + seed_episode_number + ' local: ' + episode_number)
+            if hit_flag > 1:
+                logging(title + '    ↑前回との差分が1話以上検出されています。差分話数: ' + hit_flag)
+                result.append(title + '\n↑前回との差分が1話以上検出されています。差分話数: ' + hit_flag)
+            else:
+                result.append(title)
+            downloads.append([link, title])
+
+            # titleに「END」が含まれるときは終了作品チェックを行う
+            if re.search('END', title):
+                filepath = glob.glob(DOWNLOAD_DIR + '/*' + name_j)[0]
+                filelist = list(pathlib.Path(filepath).glob(name_j + ' 第*.mp4'))
+                filelist_ignore_inteval_episodes = sorted([p.name for p in filelist if not re.search(r'\.5', str(p))])
+                filecount = len(filelist_ignore_inteval_episodes) + 1
+
+                logging('終了とみられるエピソード: ' + title)
+                if filecount == int(seed_episode_number):
+                    logging('    抜けチェック:OK 既存エピソードファイル数(.5話を除く): ' + str(filecount) + ' / 最終エピソード番号: ' + seed_episode_number)
+                    end_episodes.append(name_j)
                 else:
-                    result.append(title)
-                downloads.append(link)
+                    logging('    抜けチェック:NG 既存エピソードファイル数(.5話を除く): ' + str(filecount) + ' / 最終エピソード番号: ' + seed_episode_number)
+                    end_episodes_ngs.append(name_j)
 
-                # titleに「END」が含まれるときは終了作品チェックを行う
-                if re.search('END', title):
-                    filepath = glob.glob(DOWNLOAD_DIR + '/*' + name_j)[0]
-                    filelist = list(pathlib.Path(filepath).glob(name_j + ' 第*.mp4'))
-                    filelist_ignore_inteval_episodes = sorted([p.name for p in filelist if not re.search(r'\.5', str(p))])
-                    filecount = len(filelist_ignore_inteval_episodes) + 1
-
-                    logging('終了とみられるエピソード: ' + title)
-                    if filecount == int(seed_episode_number):
-                        logging('    抜けチェック:OK 既存エピソードファイル数(.5話を除く): ' + str(filecount) + ' / 最終エピソード番号: ' + seed_episode_number)
-                        end_episodes.append(name_j)
-                    else:
-                        logging('    抜けチェック:NG 既存エピソードファイル数(.5話を除く): ' + str(filecount) + ' / 最終エピソード番号: ' + seed_episode_number)
-                        end_episodes_ngs.append(name_j)
-
-                break
+            break
 
     # 新規エピソードがある場合、最新話数と最終取得日時を更新して、tempリストへ追加
     # 無い場合は元のリストの行をそのまま追加
@@ -256,6 +256,7 @@ if new_hit_flag == 1:
                 '対象外にする場合は、リストから削除、保存ディレクトリを削除してください\n' + \
                 '```' + '\n'.join(new_result) + '```'
     slackpost(post_msg)
+    logging(post_msg)
 
 if new_hit_flag_ng == 1:
     post_msg='@here 新番組検知！\n' + \
@@ -263,8 +264,23 @@ if new_hit_flag_ng == 1:
              '手動追加を検討してください\n' + \
              '```' + '\n'.join(new_result_ng) + '```'
     slackpost(post_msg)
+    logging(post_msg)
 
 # 何らかのエラーで途中で処理が途切れたりして、チェックリスト実体とtempに行数の差が出てしまった場合、警告
+if swutil.len_file(LIST_FILE) != swutil.len(LIST_TEMP):
+    slackpost('@channel !!! リスト行数が変化しました。 checklist.txt のコミットログを確認してください')
+    logging('@channel !!! リスト行数が変化しました。 checklist.txt のコミットログを確認してください')
 
+# 処理の終わったtempリストを降順ソートし、実体に上書き→gitコミット
+output_list = sorted(open(LIST_TEMP).readlines(), reverse=True)
+with open(LIST_FILE, 'w') as file:
+    file.writelines(output_list)
 
+repo = git.Repo(SCRIPT_DIR)
+repo.git.commit(LIST_FILE, message='checklist.txt update')
+if len(new_result) > 0:
+    repo.git.commit(NEW_PROGRAM_FILE, message='new_program.txt update')
+repo.git.pull()
+repo.git.push()
 
+# TODO つづき
