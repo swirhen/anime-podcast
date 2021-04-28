@@ -210,11 +210,10 @@ for check_list in check_lists:
 
     # 新規エピソードがある場合、最新話数と最終取得日時を更新して、tempリストへ追加
     # 無い場合は元のリストの行をそのまま追加
-    with open(LIST_TEMP, 'a') as listfile_temp:
-        if hit_flag > 0:
-            listfile_temp.write('{} {} {}|{}'.format(DATETIME, seed_episode_number, name, name_j))
-        else:
-            listfile_temp.write('{} {} {}|{}'.format(last_update, episode_number, name, name_j))
+    if hit_flag > 0:
+        swutil.writefile_append(LIST_TEMP, '{} {} {}|{}'.format(DATETIME, seed_episode_number, name, name_j))
+    else:
+        swutil.writefile_append(LIST_TEMP, '{} {} {}|{}'.format(last_update, episode_number, name, name_j))
 
 # 新番組1話対応
 new_hit_flag = 0
@@ -262,7 +261,7 @@ if new_hit_flag_ng == 1:
     logging(post_msg)
 
 # 何らかのエラーで途中で処理が途切れたりして、チェックリスト実体とtempに行数の差が出てしまった場合、警告
-if swutil.len_file(LIST_FILE) != swutil.len(LIST_TEMP):
+if swutil.len_file(LIST_FILE) != swutil.len_file(LIST_TEMP):
     slackpost('@channel !!! リスト行数が変化しました。 checklist.txt のコミットログを確認してください')
     logging('@channel !!! リスト行数が変化しました。 checklist.txt のコミットログを確認してください')
 
