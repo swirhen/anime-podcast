@@ -171,16 +171,19 @@ def move_movie_proc(file_path):
         name_j_exp = name[1].replace('(', '\(').replace(')', '\)')
         if re.search(r'' + name_j_exp, pathlib.Path(file_path).name):
             parent_dir = pathlib.Path(file_path).parent
-            print(str(parent_dir))
-            dst_dir = list(parent_dir.glob('*' + name_j))
-            pprint.pprint(dst_dir)
-            if len(dst_dir) == 1:
-                shutil.move(file_path, dst_dir[0])
-            else:
+            dst_dirs = list(parent_dir.glob('*' + name_j))
+            dst_dir = ''
+            if len(dst_dirs) == 1:
+                dst_dir = dst_dirs[0]
+            elif len(dst_dirs) == 0:
                 print('directory not found. makedir ' + name_j)
-                os.makedirs(str(parent_dir) + '/' + name_j)
-                shutil.move(file_path, str(parent_dir) + '/' + name_j)
+                dst_dir = str(parent_dir) + '/' + name_j
+                os.makedirs(dst_dir)
+            else:
+                print('directory so many.' + name_j)
+                exit(1)
 
+            shutil.move(file_path, dst_dir)
 
 # トレント栽培
 def torrent_download(filepath, slack_channel='bot-open'):
