@@ -183,6 +183,7 @@ def move_movie_proc(file_path):
                 print('directory so many.' + name_j)
                 exit(1)
 
+            print('move file. ' + file_path + ' -> ' + dst_dir)
             shutil.move(file_path, dst_dir)
 
 # トレント栽培
