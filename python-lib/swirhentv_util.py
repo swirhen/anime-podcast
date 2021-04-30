@@ -136,13 +136,13 @@ def rename_movie_file(file_path, separator1='\ ', separator2='\ '):
             ext = re.sub(exp, r'\4', filename)
 
             if name_e == name:
-                if os.path.isfile(file_path + '.aria2'):
-                    print('#' + file_path + ' 成育中！')
+                if os.path.isfile(filename + '.aria2'):
+                    print('#' + filename + ' 成育中！')
                 else:
                     new_name = name_j + ' 第' + num + '話.' + ext
                     if file_path != new_name:
-                        print('# rename ' + file_path + ' -> ' + new_name)
-                        os.rename(file_path, new_name)
+                        print('# rename ' + filename + ' -> ' + new_name)
+                        os.rename(filename, new_name)
                     else:
                         print('# 変更後のファイル名が同じ')
                 break
