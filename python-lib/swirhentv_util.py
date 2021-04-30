@@ -169,15 +169,15 @@ def move_movie_proc(file_path):
     for name in renamelist:
         name_j = name[1]
         name_j_exp = name[1].replace('(', '\(').replace(')', '\)')
-        if re.search(name_j_exp, file_path.name):
-            parent_dir = file_path.parent
+        if re.search(name_j_exp, pathlib.Path(file_path).name):
+            parent_dir = pathlib.Path(file_path).parent
             dst_dir = list(pathlib.Path(parent_dir).glob('*' + name_j))
             if len(dst_dir) == 1:
                 shutil.move(file_path, dst_dir[0])
             else:
                 print('directory not found. makedir ' + name_j)
-                os.makedirs(parent_dir + '/' + name_j)
-                shutil.move(file_path, parent_dir + '/' + name_j)
+                os.makedirs(str(parent_dir) + '/' + name_j)
+                shutil.move(file_path, str(parent_dir) + '/' + name_j)
 
 
 # トレント栽培
