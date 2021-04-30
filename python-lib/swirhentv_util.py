@@ -108,6 +108,49 @@ def sed_del(filepath, sed_keyword):
     shutil.move(tempfile, filepath)
 
 
+# 動画リネーム用シェル
+# checklist.txtの後半(英語ファイル名|日本語ファイル名)のデータを使って動画ファイルをリネームする
+# [英語ファイル名] -[SFX1][話数][SFX2](mp4 1280x720 aac).mp4
+# -> [日本語ファイル名] 第[話数]話.mp4
+# 第1引数: 処理するディレクトリ(指定したディレクトリ以下のすべてのファイルをリネームする)
+# 第2引数(省略可)はリネーム元ファイルの話数数字の前の文字を入力する。デフォルトは半角スペース。
+# 第3引数(省略可)はリネーム元ファイルの話数数字の後の文字を入力する。デフォルトは半角スペース。
+def rename_movie_file(file_path=current_dir, separator1='\ ', separator2='\ '):
+    # make rename list
+    renamelist = make_rename_list()
+
+    # make file list
+    os.chdir(file_path)
+    filelist = []
+    filelist.extend(
+        glob.glob("*.mp4") +
+        glob.glob("*.mkv") +
+        glob.glob("*.avi") +
+        glob.glob("*.wmv"))
+
+    # rename files
+    for filename in filelist:
+        for name in renamelist:
+            name_e = name[0]
+            name_j = name[1]
+            exp = r'.*(' + name_e + ').*' + separator1 + '([0-9]{0,1}[0-9][0-9](.5)?)' + separator2 + '.*\.(.*)'
+            name = re.sub(exp, r'\1', filename)
+            num = re.sub(exp, r'\2', filename)
+            ext = re.sub(exp, r'\4', filename)
+
+            if name_e == name:
+                if os.path.isfile(filename + '.aria2'):
+                    print('#' + filename + ' 成育中！')
+                else:
+                    newname = name_j + ' 第' + num + '話.' + ext
+                    if filename != newname:
+                        print('# rename ' + filename + ' -> ' + newname)
+                        os.rename(filename, newname)
+                    else:
+                        print('# 変更後のファイル名が同じ')
+                break
+
+
 # トレント栽培
 def torrent_download(filepath, slack_channel='bot-open'):
     os.chdir(filepath)

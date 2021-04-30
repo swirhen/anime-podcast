@@ -7,51 +7,12 @@
 # 第1引数(省略可)はリネーム元ファイルの話数数字の前の文字を入力する。デフォルトは半角スペース。
 # 第2引数(省略可)はリネーム元ファイルの話数数字の後の文字を入力する。デフォルトは半角スペースもしくは、第1引数が指定されている場合は第1引数。
 
-import glob
 import os
 import pathlib
-import re
 import sys
 current_dir = pathlib.Path(__file__).resolve().parent
 sys.path.append(str(current_dir) + '/python-lib/')
-import swirhentv_util
-
-
-def main(file_path=current_dir, separator1='\ ', separator2='\ '):
-
-    # make rename list
-    renamelist = swirhentv_util.make_rename_list()
-
-    # make file list
-    os.chdir(file_path)
-    filelist = []
-    filelist.extend(
-        glob.glob("*.mp4") +
-        glob.glob("*.mkv") +
-        glob.glob("*.avi") +
-        glob.glob("*.wmv"))
-
-    # rename files
-    for filename in filelist:
-        for name in renamelist:
-            name_e = name[0]
-            name_j = name[1]
-            exp = r'.*(' + name_e + ').*' + separator1 + '([0-9]{0,1}[0-9][0-9](.5)?)' + separator2 + '.*\.(.*)'
-            name = re.sub(exp, r'\1', filename)
-            num = re.sub(exp, r'\2', filename)
-            ext = re.sub(exp, r'\4', filename)
-
-            if name_e == name:
-                if os.path.isfile(filename + '.aria2'):
-                    print('#' + filename + ' 成育中！')
-                else:
-                    newname = name_j + ' 第' + num + '話.' + ext
-                    if filename != newname:
-                        print('# rename ' + filename + ' -> ' + newname)
-                        os.rename(filename, newname)
-                    else:
-                        print('# 変更後のファイル名が同じ')
-                break
+import swirhentv_util as swutil
 
 
 # main section
@@ -66,6 +27,7 @@ if __name__ == '__main__':
         filepath = args[1]
         if len(args) > 2:
             SFX1 = args[2]
+            SFX2 = args[2]
             if len(args) > 3:
                 SFX2 = args[3]
             else:
@@ -73,4 +35,4 @@ if __name__ == '__main__':
                 print('usage: ' + args[0] + ' [filepath] (separator1) (separator2)')
                 exit(1)
 
-    main(filepath, SFX1, SFX2)
+    swutil.rename_movie_file(filepath, SFX1, SFX2)
