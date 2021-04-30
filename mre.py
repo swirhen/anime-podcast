@@ -61,7 +61,7 @@ if __name__ == '__main__':
     SFX2 = '\ '
     args = sys.argv
     if len(args) == 1:
-        filepath = current_dir
+        filepath = os.getcwd()
     elif len(args) > 1:
         filepath = args[1]
         if len(args) > 2:
