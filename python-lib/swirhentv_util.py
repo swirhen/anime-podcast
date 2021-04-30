@@ -108,28 +108,25 @@ def sed_del(filepath, sed_keyword):
     shutil.move(tempfile, filepath)
 
 
-# 動画リネーム用シェル
+# 動画リネーム
 # checklist.txtの後半(英語ファイル名|日本語ファイル名)のデータを使って動画ファイルをリネームする
 # [英語ファイル名] -[SFX1][話数][SFX2](mp4 1280x720 aac).mp4
 # -> [日本語ファイル名] 第[話数]話.mp4
-# 第1引数: 処理するディレクトリ(指定したディレクトリ以下のすべてのファイルをリネームする)
+# 第1引数: ディレクトリ(指定したディレクトリ以下のすべてのファイルをリネームする)
 # 第2引数(省略可)はリネーム元ファイルの話数数字の前の文字を入力する。デフォルトは半角スペース。
 # 第3引数(省略可)はリネーム元ファイルの話数数字の後の文字を入力する。デフォルトは半角スペース。
-def rename_movie_file(file_path=current_dir, separator1='\ ', separator2='\ '):
+def rename_movie_file(file_path, separator1='\ ', separator2='\ '):
     # make rename list
     renamelist = make_rename_list()
 
     # make file list
     os.chdir(file_path)
-    filelist = []
-    filelist.extend(
-        glob.glob("*.mp4") +
-        glob.glob("*.mkv") +
-        glob.glob("*.avi") +
-        glob.glob("*.wmv"))
+    file_list = []
+    file_list.extend(
+        glob.glob("*.mp4") + glob.glob("*.mkv") + glob.glob("*.avi") + glob.glob("*.wmv"))
 
     # rename files
-    for filename in filelist:
+    for filename in file_list:
         for name in renamelist:
             name_e = name[0]
             name_j = name[1]
@@ -139,16 +136,48 @@ def rename_movie_file(file_path=current_dir, separator1='\ ', separator2='\ '):
             ext = re.sub(exp, r'\4', filename)
 
             if name_e == name:
-                if os.path.isfile(filename + '.aria2'):
-                    print('#' + filename + ' 成育中！')
+                if os.path.isfile(file_path + '.aria2'):
+                    print('#' + file_path + ' 成育中！')
                 else:
-                    newname = name_j + ' 第' + num + '話.' + ext
-                    if filename != newname:
-                        print('# rename ' + filename + ' -> ' + newname)
-                        os.rename(filename, newname)
+                    new_name = name_j + ' 第' + num + '話.' + ext
+                    if file_path != new_name:
+                        print('# rename ' + file_path + ' -> ' + new_name)
+                        os.rename(file_path, new_name)
                     else:
                         print('# 変更後のファイル名が同じ')
                 break
+
+
+# 動画移動
+# checklist.txtの後半(日本語ファイル名)のデータを使って動画ファイルを移動する
+# 引数のファイルが一致する日本語ファイル名を同名のディレクトリに移動する(ディレクトリなければつくる)
+# 引数がディレクトリだったら、ディレクトリ以下のファイルすべてを処理
+def move_movie(file_path):
+    # arg check
+    if os.path.isdir(file_path):
+        for filename in pathlib.Path(file_path).glob('*.mp4'):
+            move_movie_proc(filename)
+    else:
+        move_movie_proc(file_path)
+
+
+# 動画移動のメイン処理
+def move_movie_proc(file_path):
+    # make rename list
+    renamelist = make_rename_list()
+    # move file
+    for name in renamelist:
+        name_j = name[1]
+        name_j_exp = name[1].replace('(', '\(').replace(')', '\)')
+        if re.search(name_j_exp, file_path.name):
+            parent_dir = file_path.parent
+            dst_dir = list(pathlib.Path(parent_dir).glob('*' + name_j))
+            if len(dst_dir) == 1:
+                shutil.move(file_path, dst_dir[0])
+            else:
+                print('directory not found. makedir ' + name_j)
+                os.makedirs(parent_dir + '/' + name_j)
+                shutil.move(file_path, parent_dir + '/' + name_j)
 
 
 # トレント栽培

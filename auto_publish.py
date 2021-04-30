@@ -18,7 +18,6 @@ from bs4 import BeautifulSoup
 current_dir = pathlib.Path(__file__).resolve().parent
 sys.path.append(str(current_dir) + '/python-lib/')
 import swirhentv_util as swutil
-import mre
 import xml.etree.ElementTree as ET
 
 # argments section
@@ -314,7 +313,7 @@ def main():
         end(0)
 
     logging('### movie file rename start.')
-    mre.main(DOWNLOAD_DIR)
+    swutil.rename_movie(DOWNLOAD_DIR)
 
     logging('renamed movie files: ')
     download_files_with_path = sorted(list(pathlib.Path(DOWNLOAD_DIR).glob('*話*.mp4')))
