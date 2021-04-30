@@ -56,6 +56,11 @@ def slack_upload(channel, filepath, filetype='text'):
     slack.files.upload(channels=channel, file_=filepath, filetype=filetype)
 
 
+# twitterでつぶやく(tiarrametroのsocket経由)
+def tweeet(text, channel='#Twitter@t2'):
+    subprocess.run('/usr/bin/php /home/swirhen/tiasock/tiasock.php "' + channel + '" "' + text + '"', shell=True)
+
+
 # y/nをきく
 def askconfirm():
     res = input('> ')
@@ -225,6 +230,15 @@ def torrent_download(filepath, slack_channel='bot-open'):
 
 
 # 動画エンコード
+# ディレクトリ内の動画をエンコードし、つぶやいたりする
+def encode_mp4(input_dir, output_dir):
+    for filename in pathlib.Path(input_dir).glob('*話*.mp4'):
+        encode_mp4_proc(str(filename), output_dir)
+        tweeet('【publish】' + filename.name + '.mp4')
+        slack_post('bot-open', '【publish】' + filename.name + '.mp4')
+
+
+# 動画エンコードのメイン処理
 def encode_mp4_proc(file_path, output_dir, tmpdir='/data/tmp'):
     file_name = pathlib.Path(file_path).name
     encode_arg = ' -s "960x540" -b:v 1500k -vcodec libx264 -trellis 2 -bf 3 -b_strategy 1 -bidir_refine 1 -crf 25 -g 240 -mbd 2 -me_method umh -subq 6 -qdiff 6 -me_range 32 -sc_threshold 65 -keyint_min 3 -nr 100 -qmin 12 -sn -partitions parti4x4+partp4x4+partp8x8 -f mp4 -coder 1 -movflags faststart -acodec aac -ac 2 -ar 48000 -b:a 128k -async 100 -threads 0 '
