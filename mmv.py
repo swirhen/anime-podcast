@@ -5,11 +5,10 @@
 # 引数のファイルが一致する日本語ファイル名を同名のディレクトリに移動する(ディレクトリなければつくる)
 
 import pathlib
-import swirhentv_util as swutil
 import sys
-
 current_dir = pathlib.Path(__file__).resolve().parent
 sys.path.append(str(current_dir) + '/python-lib/')
+import swirhentv_util as swutil
 
 
 # main section
