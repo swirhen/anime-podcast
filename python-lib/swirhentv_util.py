@@ -8,13 +8,17 @@ import pprint
 import re
 import shutil
 import subprocess
+import urllib.request
 import sys
 import time
+
+from bs4 import BeautifulSoup
 from slacker import Slacker
 import slackbot_settings
 
 current_dir = pathlib.Path(__file__).resolve().parent
 CHECKLIST_FILE_PATH = str(current_dir) + '/../checklist.txt'
+SYOBOCAL_URI = 'http://cal.syoboi.jp/find?sd=0&kw='
 
 
 # checklist.txtの最後のセクションから、英語タイトル -> 日本語タイトルの変換リストを得る
@@ -119,6 +123,36 @@ def sed_del(filepath, sed_keyword):
             writefile_append(tempfile, line.strip())
 
     shutil.move(tempfile, filepath)
+
+
+# 新番組日本語名取得
+def get_jp_title(title_en):
+    # 取得した英語タイトルの "-" をスペースに変換、"："、"."、"!" を削除、3ワード分を取得
+    search_word = re.sub(r'([^ ]*) ([^ ]*) ([^ ]*) .*', r'\1 \2 \3', title_en.translate(str.maketrans('-', ' ', '!：:.,'))).replace(' ', '+')
+    # 2ワード分のもの
+    search_word2 = re.sub(r'(.*)\+.*', r'\1', search_word)
+
+    result1 = syobocal_search(search_word)
+    if result1 != '':
+        return result1
+    else:
+        return syobocal_search(search_word2)
+
+
+# しょぼいカレンダー検索
+def syobocal_search(search_word):
+    html = urllib.request.urlopen(SYOBOCAL_URI + search_word)
+    soup = BeautifulSoup(html, "html.parser")
+
+    result = []
+    for a in soup.find_all('a'):
+        if re.search(r'tid', str(a)):
+            result += a
+
+    if len(result) > 0:
+        return result[0].translate(str.maketrans({';': '；', '!': '！', ':': '：', '/': '／'}))
+    else:
+        return ''
 
 
 # 動画リネーム

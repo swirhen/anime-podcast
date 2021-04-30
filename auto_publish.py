@@ -10,11 +10,9 @@ import os
 import pathlib
 import re
 import shutil
-import subprocess
 import sys
 import urllib.request
 from datetime import datetime as dt
-from bs4 import BeautifulSoup
 current_dir = pathlib.Path(__file__).resolve().parent
 sys.path.append(str(current_dir) + '/python-lib/')
 import swirhentv_util as swutil
@@ -34,7 +32,6 @@ TDATETIME = dt.now()
 DATETIME = TDATETIME.strftime('%Y/%m/%d-%H:%M:%S')
 DATETIME2 = TDATETIME.strftime('%Y%m%d%H%M%S')
 SEED_URI = 'https://nyaa.si/?q=Ohys-Raws&f=0&c=1_4&page=rss'
-SYOBOCAL_URI = 'http://cal.syoboi.jp/find?sd=0&kw='
 CHANNEL = 'bot-open'
 POST_FLG = 1
 LOG_FILE = SCRIPT_DIR + '/autopub_' + DATETIME2 + '.log'
@@ -45,36 +42,6 @@ INDEX_GET = 0
 NEW_RESULT_FILE = SCRIPT_DIR + '/new_program_result.txt'
 NEW_RESULT_FILE_NG = SCRIPT_DIR + '/new_program_result_ng.txt'
 NEW_PROGRAM_FILE = SCRIPT_DIR + '/new_program.txt'
-
-
-# 新番組日本語名取得
-def get_jp_title(title_en):
-    # 取得した英語タイトルの "-" をスペースに変換、"："、"."、"!" を削除、3ワード分を取得
-    search_word = re.sub(r'([^ ]*) ([^ ]*) ([^ ]*) .*', r'\1 \2 \3', title_en.translate(str.maketrans('-', ' ', '!：:.,'))).replace(' ', '+')
-    # 2ワード分のもの
-    search_word2 = re.sub(r'(.*)\+.*', r'\1', search_word)
-
-    result1 = syobocal_search(search_word)
-    if result1 != '':
-        return result1
-    else:
-        return syobocal_search(search_word2)
-
-
-# しょぼいカレンダー検索
-def syobocal_search(search_word):
-    html = urllib.request.urlopen(SYOBOCAL_URI + search_word)
-    soup = BeautifulSoup(html, "html.parser")
-
-    result = []
-    for a in soup.find_all('a'):
-        if re.search(r'tid', str(a)):
-            result += a
-
-    if len(result) > 0:
-        return result[0].translate(str.maketrans({';': '；', '!': '！', ':': '：', '/': '／'}))
-    else:
-        return ''
 
 
 # ログ書き込み
@@ -238,7 +205,7 @@ def main():
 
             # 重複を避けるため、new_program.txtを検索
             if swutil.grep_file(NEW_PROGRAM_FILE, title_en) != "":
-                title_ja = get_jp_title(title_en)
+                title_ja = swutil.get_jp_title(title_en)
 
                 if title_ja != '':
                     # 日本語タイトルが取得できていたら、新番組取得済リストへ追加
