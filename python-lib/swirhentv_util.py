@@ -169,7 +169,7 @@ def move_movie_proc(file_path):
     for name in renamelist:
         name_j = name[1]
         name_j_exp = name[1].replace('(', '\(').replace(')', '\)')
-        if re.search(name_j_exp, pathlib.Path(file_path).name):
+        if re.search(r'' + name_j_exp, pathlib.Path(file_path).name):
             parent_dir = pathlib.Path(file_path).parent
             dst_dir = list(parent_dir.glob('*' + name_j))
             if len(dst_dir) == 1:
