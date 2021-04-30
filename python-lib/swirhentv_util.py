@@ -16,7 +16,6 @@ import slackbot_settings
 current_dir = pathlib.Path(__file__).resolve().parent
 CHECKLIST_FILE_PATH = str(current_dir) + '/../checklist.txt'
 
-
 # checklist.txtの最後のセクションから、英語タイトル -> 日本語タイトルの変換リストを得る
 def make_rename_list():
     # file open
@@ -37,7 +36,6 @@ def make_rename_list():
 
     return renamelist
 
-
 # slackにpostする
 def slack_post(channel, text, username='swirhentv', icon_emoji=''):
     slack = Slacker(slackbot_settings.API_TOKEN)
@@ -49,12 +47,10 @@ def slack_post(channel, text, username='swirhentv', icon_emoji=''):
         link_names=1,
     )
 
-
 # slackにファイルアップロード
 def slack_upload(channel, filepath, filetype='text'):
     slack = Slacker(slackbot_settings.API_TOKEN)
     slack.files.upload(channels=channel, file_=filepath, filetype=filetype)
-
 
 # y/nをきく
 def askconfirm():
@@ -67,7 +63,6 @@ def askconfirm():
         print('y/nを入力してください。(EnterのみはNo)')
         askconfirm()
 
-
 # grep
 def grep_file(filepath, word):
     with open(filepath, 'r', newline='') as f:
@@ -77,23 +72,19 @@ def grep_file(filepath, word):
         if line.strip() == word:
             return(line.strip())
 
-
 # ファイル書き込み(新規)
 def writefile_new(filepath, str):
     with open(filepath, 'w') as file:
         file.write(str + '\n')
-
 
 # ファイル書き込み(追記)
 def writefile_append(filepath, str):
     with open(filepath, 'a') as file:
         file.write(str + '\n')
 
-
 # ファイルの行数を得る
 def len_file(filepath):
     return len(open(filepath).readlines())
-
 
 # キーワードの含まれる行を削除
 def sed_del(filepath, sed_keyword):
@@ -106,7 +97,6 @@ def sed_del(filepath, sed_keyword):
             writefile_append(tempfile, line.strip())
 
     shutil.move(tempfile, filepath)
-
 
 # 動画リネーム
 # checklist.txtの後半(英語ファイル名|日本語ファイル名)のデータを使って動画ファイルをリネームする
@@ -147,7 +137,6 @@ def rename_movie_file(file_path, separator1='\ ', separator2='\ '):
                         print('# 変更後のファイル名が同じ')
                 break
 
-
 # 動画移動
 # checklist.txtの後半(日本語ファイル名)のデータを使って動画ファイルを移動する
 # 引数のファイルが一致する日本語ファイル名を同名のディレクトリに移動する(ディレクトリなければつくる)
@@ -159,7 +148,6 @@ def move_movie(file_path):
             move_movie_proc(filename)
     else:
         move_movie_proc(file_path)
-
 
 # 動画移動のメイン処理
 def move_movie_proc(file_path):
