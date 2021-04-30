@@ -17,6 +17,7 @@ current_dir = pathlib.Path(__file__).resolve().parent
 CHECKLIST_FILE_PATH = str(current_dir) + '/../checklist.txt'
 
 
+# checklist.txtの最後のセクションから、英語タイトル -> 日本語タイトルの変換リストを得る
 def make_rename_list():
     # file open
     try:
@@ -37,6 +38,7 @@ def make_rename_list():
     return renamelist
 
 
+# slackにpostする
 def slack_post(channel, text, username='swirhentv', icon_emoji=''):
     slack = Slacker(slackbot_settings.API_TOKEN)
     slack.chat.post_message(
@@ -48,11 +50,13 @@ def slack_post(channel, text, username='swirhentv', icon_emoji=''):
     )
 
 
+# slackにファイルアップロード
 def slack_upload(channel, filepath, filetype='text'):
     slack = Slacker(slackbot_settings.API_TOKEN)
     slack.files.upload(channels=channel, file_=filepath, filetype=filetype)
 
 
+# y/nをきく
 def askconfirm():
     res = input('> ')
     if res == 'y' or res == 'Y':
@@ -64,6 +68,7 @@ def askconfirm():
         askconfirm()
 
 
+# grep
 def grep_file(filepath, word):
     with open(filepath, 'r', newline='') as f:
         lines = f.readlines()
@@ -73,20 +78,24 @@ def grep_file(filepath, word):
             return(line.strip())
 
 
+# ファイル書き込み(新規)
 def writefile_new(filepath, str):
     with open(filepath, 'w') as file:
         file.write(str + '\n')
 
 
+# ファイル書き込み(追記)
 def writefile_append(filepath, str):
     with open(filepath, 'a') as file:
         file.write(str + '\n')
 
 
+# ファイルの行数を得る
 def len_file(filepath):
     return len(open(filepath).readlines())
 
 
+# キーワードの含まれる行を削除
 def sed_del(filepath, sed_keyword):
     tempfile = filepath + '.sed_del_temp'
     if pathlib.Path(tempfile).is_file():
@@ -99,6 +108,7 @@ def sed_del(filepath, sed_keyword):
     shutil.move(tempfile, filepath)
 
 
+# トレント栽培
 def torrent_download(filepath, slack_channel='bot-open'):
     os.chdir(filepath)
     seedlist = glob.glob('*.torrent')

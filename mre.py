@@ -12,18 +12,18 @@ import os
 import pathlib
 import re
 import sys
+current_dir = pathlib.Path(__file__).resolve().parent
+sys.path.append(str(current_dir) + '/python-lib/')
+import swirhentv_util
 
 
-def main(filepath, SFX1='\ ', SFX2='\ '):
-    current_dir = pathlib.Path(__file__).resolve().parent
-    sys.path.append(str(current_dir) + '/python-lib/')
-    import swirhentv_util
+def main(file_path=current_dir, separator1='\ ', separator2='\ '):
 
     # make rename list
     renamelist = swirhentv_util.make_rename_list()
 
     # make file list
-    os.chdir(filepath)
+    os.chdir(file_path)
     filelist = []
     filelist.extend(
         glob.glob("*.mp4") +
@@ -34,18 +34,18 @@ def main(filepath, SFX1='\ ', SFX2='\ '):
     # rename files
     for filename in filelist:
         for name in renamelist:
-            nameE = name[0]
-            nameJ = name[1]
-            exp = r'.*(' + nameE + ').*' + SFX1 + '([0-9]{0,1}[0-9][0-9](.5)?)' + SFX2 + '.*\.(.*)'
+            name_e = name[0]
+            name_j = name[1]
+            exp = r'.*(' + name_e + ').*' + separator1 + '([0-9]{0,1}[0-9][0-9](.5)?)' + separator2 + '.*\.(.*)'
             name = re.sub(exp, r'\1', filename)
             num = re.sub(exp, r'\2', filename)
             ext = re.sub(exp, r'\4', filename)
 
-            if nameE == name:
+            if name_e == name:
                 if os.path.isfile(filename + '.aria2'):
                     print('#' + filename + ' 成育中！')
                 else:
-                    newname = nameJ + ' 第' + num + '話.' + ext
+                    newname = name_j + ' 第' + num + '話.' + ext
                     if filename != newname:
                         print('# rename ' + filename + ' -> ' + newname)
                         os.rename(filename, newname)
