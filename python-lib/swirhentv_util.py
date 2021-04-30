@@ -171,7 +171,7 @@ def move_movie_proc(file_path):
         name_j_exp = name[1].replace('(', '\(').replace(')', '\)')
         if re.search(name_j_exp, pathlib.Path(file_path).name):
             parent_dir = pathlib.Path(file_path).parent
-            dst_dir = list(pathlib.Path(parent_dir).glob('*' + name_j))
+            dst_dir = list(parent_dir.glob('*' + name_j))
             if len(dst_dir) == 1:
                 shutil.move(file_path, dst_dir[0])
             else:
