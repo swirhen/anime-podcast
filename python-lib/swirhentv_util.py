@@ -21,27 +21,6 @@ CHECKLIST_FILE_PATH = str(current_dir) + '/../checklist.txt'
 SYOBOCAL_URI = 'http://cal.syoboi.jp/find?sd=0&kw='
 
 
-# checklist.txtの最後のセクションから、英語タイトル -> 日本語タイトルの変換リストを得る
-def make_rename_list():
-    # file open
-    try:
-        listfile = open(CHECKLIST_FILE_PATH, 'r', encoding='utf-8')
-    except Exception:
-        print("open error. not found file: ", str(CHECKLIST_FILE_PATH))
-        sys.exit(1)
-
-    # make rename list
-    renamelist = []
-    for line in listfile.readlines():
-        if re.search('^Last Update', line):
-            continue
-        line = re.sub(r'^[^ ]+ [^ ]+ ', '', line)
-        line = line.strip().split("|")
-        renamelist.append(line)
-
-    return renamelist
-
-
 # slackにpostする
 def slack_post(channel, text, username='swirhentv', icon_emoji=''):
     slack = Slacker(slackbot_settings.API_TOKEN)
@@ -153,6 +132,27 @@ def syobocal_search(search_word):
         return result[0].translate(str.maketrans({';': '；', '!': '！', ':': '：', '/': '／'}))
     else:
         return ''
+
+
+# checklist.txtの最後のセクションから、英語タイトル -> 日本語タイトルの変換リストを得る
+def make_rename_list():
+    # file open
+    try:
+        listfile = open(CHECKLIST_FILE_PATH, 'r', encoding='utf-8')
+    except Exception:
+        print("open error. not found file: ", str(CHECKLIST_FILE_PATH))
+        sys.exit(1)
+
+    # make rename list
+    renamelist = []
+    for line in listfile.readlines():
+        if re.search('^Last Update', line):
+            continue
+        line = re.sub(r'^[^ ]+ [^ ]+ ', '', line)
+        line = line.strip().split("|")
+        renamelist.append(line)
+
+    return renamelist
 
 
 # 動画リネーム
