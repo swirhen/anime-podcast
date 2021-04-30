@@ -281,7 +281,7 @@ def main():
         end(0)
 
     logging('### movie file rename start.')
-    swutil.rename_movie(DOWNLOAD_DIR)
+    swutil.rename_movie_file(DOWNLOAD_DIR)
 
     logging('renamed movie files: ')
     download_files_with_path = sorted(list(pathlib.Path(DOWNLOAD_DIR).glob('*話*.mp4')))
