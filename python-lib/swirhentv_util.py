@@ -210,11 +210,7 @@ def torrent_download(filepath, slack_channel='bot-open'):
     return 0
 
 # 動画エンコード
-def encode_mp4(file_path):
-    tmpdir = '/data/tmp'
+def encode_mp4_proc(file_path, output_dir, tmpdir='/data/tmp'):
     file_name = pathlib.Path(file_path).name
-
-    # fps check
-    proc = subprocess.run('/usr/bin/wine ffmpeg3.exe -i ' + str(file_path), shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-    streaminfo = proc.stdout.decode('UTF8').split('\r\n')
-    grep_list(streaminfo, '23\.98|29\.97|30\.00|24\.00|25\.00')
+    encode_arg = ' "960x540" -b:v 1500k -vcodec libx264 -trellis 2 -bf 3 -b_strategy 1 -bidir_refine 1 -crf 25 -g 240 -mbd 2 -me_method umh -subq 6 -qdiff 6 -me_range 32 -sc_threshold 65 -keyint_min 3 -nr 100 -qmin 12 -sn -partitions parti4x4+partp4x4+partp8x8 -f mp4 -coder 1 -movflags faststart -acodec aac -ac 2 -ar 48000 -b:a 128k -async 100 -threads 0 '
+    subprocess.run('/usr/bin/wine ffmpeg3.exe -i '  + str(file_path) + encode_arg + '"' + output_dir + '/' + file_name + '.mp4"')
