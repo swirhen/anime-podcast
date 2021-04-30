@@ -21,7 +21,6 @@ import xml.etree.ElementTree as ET
 # argments section
 SCRIPT_DIR = str(current_dir)
 DOWNLOAD_DIR = '/data/share/movie'
-SEED_BACKUP_DIR = SCRIPT_DIR + '/download_seeds'
 OUTPUT_DIR = '/data/share/movie/98 PSP用'
 LIST_FILE = SCRIPT_DIR + '/checklist.txt'
 LIST_TEMP = SCRIPT_DIR + '/checklist.temp'
@@ -254,6 +253,13 @@ def main():
     repo.git.pull()
     repo.git.push()
 
+    # ここで結果が0ならおわる
+    if len(result) == 0:
+        post_msg = 'swirhen.tv auto publish completed. (no new episode)'
+        slackpost(post_msg)
+        logging(post_msg)
+        end(0)
+
     # seedダウンロード・seed育成処理開始
     for download in downloads:
         link = download[0]
@@ -261,32 +267,21 @@ def main():
         urllib.request.urlretrieve(link, DOWNLOAD_DIR + '/' + title + '.torrent')
 
     logging('### torrent download start.')
-    swutil.torrent_download(DOWNLOAD_DIR)
-
-    # seeds backup
-    for download in downloads:
-        title = download[1]
-        shutil.move(DOWNLOAD_DIR + '/' + title + '.torrent', SEED_BACKUP_DIR)
-
-    # seedダウンロード処理終了を報告
-    if len(result) > 0:
-        post_msg = 'seed download completed.\n' + \
-                    '```' + '\n'.join(result) + '```'
-        slackpost(post_msg)
-        logging(post_msg)
-    else:
-        post_msg = 'swirhen.tv auto publish completed. (no new episode)'
-        slackpost(post_msg)
-        logging(post_msg)
-        end(0)
+    log = swutil.torrent_download(DOWNLOAD_DIR)
+    logging(log)
 
     logging('### movie file rename start.')
     swutil.rename_movie_file(DOWNLOAD_DIR)
 
-    logging('renamed movie files: ')
+    renamed_files = []
     download_files_with_path = sorted(list(pathlib.Path(DOWNLOAD_DIR).glob('*話*.mp4')))
     for dlfwp in download_files_with_path:
-        logging(dlfwp.name)
+        renamed_files.append(dlfwp.name)
+    post_msg='renamed movie files:\n' + \
+                '```' + '\n'.join(renamed_files) + '```'
+    slackpost(post_msg)
+    logging(post_msg)
+
 
     # auto encode
     logging('### auto encode start.')

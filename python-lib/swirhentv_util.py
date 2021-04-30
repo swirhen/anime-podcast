@@ -4,7 +4,6 @@
 import glob
 import os
 import pathlib
-import pprint
 import re
 import shutil
 import subprocess
@@ -19,6 +18,8 @@ import slackbot_settings
 current_dir = pathlib.Path(__file__).resolve().parent
 CHECKLIST_FILE_PATH = str(current_dir) + '/../checklist.txt'
 SYOBOCAL_URI = 'http://cal.syoboi.jp/find?sd=0&kw='
+SCRIPT_DIR = str(current_dir)
+SEED_BACKUP_DIR = SCRIPT_DIR + '/download_seeds'
 
 
 # slackにpostする
@@ -238,6 +239,7 @@ def move_movie_proc(file_path):
 def torrent_download(filepath, slack_channel='bot-open'):
     os.chdir(filepath)
     seedlist = glob.glob('*.torrent')
+    return_log = []
     if len(seedlist) == 0:
         print('seed file not found: ' + filepath)
         return 1
@@ -245,6 +247,7 @@ def torrent_download(filepath, slack_channel='bot-open'):
     post_msg='swirhen.tv seed download start:\n' + \
              '```' + '\n'.join(seedlist) + '```'
     slack_post(slack_channel, post_msg)
+    return_log.append(post_msg)
 
     proc = subprocess.Popen('aria2c --listen-port=38888 --max-upload-limit=200K --seed-ratio=0.01 --seed-time=1 *.torrent', shell=True)
     time.sleep(10)
@@ -254,13 +257,20 @@ def torrent_download(filepath, slack_channel='bot-open'):
             proc.kill()
             break
 
-        pprint.pprint(glob.glob(filepath + '/*.aria2'))
         time.sleep(10)
 
-    post_msg='swirhen.tv seed download complete:\n' + \
-             '```' + '\n'.join(seedlist) + '```'
+    # seeds backup
+    for seedfile in seedlist:
+        if not os.path.isfile(SEED_BACKUP_DIR + '/' + seedfile):
+            shutil.move(seedfile, SEED_BACKUP_DIR)
+        else:
+            os.remove(seedfile)
+
+    post_msg='swirhen.tv seed download complete'
     slack_post(slack_channel, post_msg)
-    return 0
+    return_log.append(post_msg)
+
+    return '\n'.join(return_log)
 
 
 # 動画エンコード
