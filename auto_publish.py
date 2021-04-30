@@ -24,6 +24,7 @@ import xml.etree.ElementTree as ET
 SCRIPT_DIR = str(current_dir)
 DOWNLOAD_DIR = '/data/share/movie'
 SEED_BACKUP_DIR = SCRIPT_DIR + '/download_seeds'
+OUTPUT_DIR = '/data/share/movie/98 PSP用'
 LIST_FILE = SCRIPT_DIR + '/checklist.txt'
 LIST_TEMP = SCRIPT_DIR + '/checklist.temp'
 RSS_TEMP = SCRIPT_DIR + '/rss.temp'
@@ -322,7 +323,7 @@ def main():
 
     # auto encode
     logging('### auto encode start.')
-    subprocess.run('/data/share/movie/sh/169f.sh', shell=True)
+    swutil.encode_mp4(DOWNLOAD_DIR, OUTPUT_DIR)
 
     # 終了エピソードがある場合、終了リストの編集
     # 終了リストがあるかどうかチェック

@@ -234,9 +234,10 @@ def torrent_download(filepath, slack_channel='bot-open'):
 def encode_mp4(input_dir, output_dir):
     for filename in pathlib.Path(input_dir).glob('*話*.mp4'):
         encode_mp4_proc(str(filename), output_dir)
+        time.sleep(3)
         subprocess.run('/home/swirhen/mkpodcast.rb -t "' + output_dir + '/*.*" -b "http://swirhen.tv/movie/pspmp4/" -o "' + output_dir + '/index.xml" --title "最近のアニメ"', shell=True)
-        tweeet('【publish】' + filename.name + '.mp4')
-        slack_post('bot-open', '【publish】' + filename.name + '.mp4')
+        # tweeet('【publish】' + filename.name + '.mp4')
+        # slack_post('bot-open', '【publish】' + filename.name + '.mp4')
 
 
 # 動画エンコードのメイン処理
