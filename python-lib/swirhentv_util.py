@@ -236,9 +236,10 @@ def encode_mp4(input_dir, output_dir):
         encode_mp4_proc(str(filename), output_dir)
         time.sleep(3)
         subprocess.run('/home/swirhen/mkpodcast.rb -t "' + output_dir + '/*.*" -b "http://swirhen.tv/movie/pspmp4/" -o "' + output_dir + '/index.xml" --title "最近のアニメ"', shell=True)
-        # tweeet('【publish】' + filename.name + '.mp4')
-        # slack_post('bot-open', '【publish】' + filename.name + '.mp4')
-        move_movie(filename)
+        tweeet('【publish】' + filename.name + '.mp4')
+        slack_post('bot-open', '【publish】' + filename.name + '.mp4')
+
+    move_movie(input_dir)
 
 
 # 動画エンコードのメイン処理
