@@ -63,14 +63,21 @@ def askconfirm():
         print('y/nを入力してください。(EnterのみはNo)')
         askconfirm()
 
-# grep
-def grep_file(filepath, word):
-    with open(filepath, 'r', newline='') as f:
+# grep(完全一致)
+def grep_file(file_path, word):
+    with open(file_path, 'r', newline='') as f:
         lines = f.readlines()
 
     for line in lines:
         if line.strip() == word:
-            return(line.strip())
+            return line.strip()
+
+# grep(配列)
+def grep_list(greplist, word):
+    for item in greplist:
+        m = re.search(word, item)
+        if m:
+            return m.group()
 
 # ファイル書き込み(新規)
 def writefile_new(filepath, str):
@@ -172,7 +179,7 @@ def move_movie_proc(file_path):
                 exit(1)
 
             print('move file. ' + str(file_path) + ' -> ' + str(dst_dir))
-            shutil.move(file_path, dst_dir)
+            shutil.move(file_path, str(dst_dir))
 
 # トレント栽培
 def torrent_download(filepath, slack_channel='bot-open'):
@@ -201,3 +208,13 @@ def torrent_download(filepath, slack_channel='bot-open'):
              '```' + '\n'.join(seedlist) + '```'
     slack_post(slack_channel, post_msg)
     return 0
+
+# 動画エンコード
+def encode_mp4(file_path):
+    tmpdir = '/data/tmp'
+    file_name = pathlib.Path(file_path).name
+
+    # fps check
+    proc = subprocess.run('/usr/bin/wine ffmpeg3.exe -i ' + str(file_path), shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+    streaminfo = proc.stdout.decode('UTF8').split('\r\n')
+    grep_list(streaminfo, '23\.98|29\.97|30\.00|24\.00|25\.00')
