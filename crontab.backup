@@ -78,7 +78,8 @@ MAILTO=""
 0 * * * * /home/swirhen/torrentsearch/torrentsearch2.sh
 
 # swirhentv auto download
-0 0,6,12,18 * * * /data/share/movie/sh/auto_publish.sh
+#0 0,6,12,18 * * * /data/share/movie/sh/auto_publish.sh
+0 0,6,12,18 * * * python /data/share/movie/sh/auto_publish.py
 
 # ニコニコチャンネルクローラー
 #0 0,6,12,18 * * * /data/share/movie/sh/nico_search/auto_crawl.sh
