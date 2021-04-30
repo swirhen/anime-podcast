@@ -179,7 +179,7 @@ def move_movie_proc(file_path):
                 exit(1)
 
             print('move file. ' + str(file_path) + ' -> ' + str(dst_dir))
-            shutil.move(file_path, str(dst_dir))
+            shutil.move(str(file_path), str(dst_dir))
 
 # トレント栽培
 def torrent_download(filepath, slack_channel='bot-open'):
