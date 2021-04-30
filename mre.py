@@ -60,14 +60,17 @@ if __name__ == '__main__':
     SFX1 = '\ '
     SFX2 = '\ '
     args = sys.argv
-    if len(args) > 1:
+    if len(args) == 1:
+        print('usage: ' + args[0] + ' [filepath] (separator1) (separator2)')
+        exit(1)
+    elif len(args) > 1:
         filepath = args[1]
         if len(args) > 2:
             SFX1 = args[2]
             if len(args) > 3:
                 SFX2 = args[3]
             else:
-                print("too many arguments.")
+                print('too many arguments.')
                 exit(1)
 
     main(filepath, SFX1, SFX2)
