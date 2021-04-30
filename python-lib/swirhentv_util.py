@@ -16,6 +16,7 @@ import slackbot_settings
 current_dir = pathlib.Path(__file__).resolve().parent
 CHECKLIST_FILE_PATH = str(current_dir) + '/../checklist.txt'
 
+
 # checklist.txtの最後のセクションから、英語タイトル -> 日本語タイトルの変換リストを得る
 def make_rename_list():
     # file open
@@ -36,6 +37,7 @@ def make_rename_list():
 
     return renamelist
 
+
 # slackにpostする
 def slack_post(channel, text, username='swirhentv', icon_emoji=''):
     slack = Slacker(slackbot_settings.API_TOKEN)
@@ -47,10 +49,12 @@ def slack_post(channel, text, username='swirhentv', icon_emoji=''):
         link_names=1,
     )
 
+
 # slackにファイルアップロード
 def slack_upload(channel, filepath, filetype='text'):
     slack = Slacker(slackbot_settings.API_TOKEN)
     slack.files.upload(channels=channel, file_=filepath, filetype=filetype)
+
 
 # y/nをきく
 def askconfirm():
@@ -63,6 +67,7 @@ def askconfirm():
         print('y/nを入力してください。(EnterのみはNo)')
         askconfirm()
 
+
 # grep(完全一致)
 def grep_file(file_path, word):
     with open(file_path, 'r', newline='') as f:
@@ -72,6 +77,7 @@ def grep_file(file_path, word):
         if line.strip() == word:
             return line.strip()
 
+
 # grep(配列)
 def grep_list(greplist, word):
     for item in greplist:
@@ -79,19 +85,23 @@ def grep_list(greplist, word):
         if m:
             return m.group()
 
+
 # ファイル書き込み(新規)
-def writefile_new(filepath, str):
+def writefile_new(filepath, string):
     with open(filepath, 'w') as file:
-        file.write(str + '\n')
+        file.write(string + '\n')
+
 
 # ファイル書き込み(追記)
-def writefile_append(filepath, str):
+def writefile_append(filepath, string):
     with open(filepath, 'a') as file:
-        file.write(str + '\n')
+        file.write(string + '\n')
+
 
 # ファイルの行数を得る
 def len_file(filepath):
     return len(open(filepath).readlines())
+
 
 # キーワードの含まれる行を削除
 def sed_del(filepath, sed_keyword):
@@ -104,6 +114,7 @@ def sed_del(filepath, sed_keyword):
             writefile_append(tempfile, line.strip())
 
     shutil.move(tempfile, filepath)
+
 
 # 動画リネーム
 # checklist.txtの後半(英語ファイル名|日本語ファイル名)のデータを使って動画ファイルをリネームする
@@ -144,6 +155,7 @@ def rename_movie_file(file_path, separator1='\ ', separator2='\ '):
                         print('# 変更後のファイル名が同じ')
                 break
 
+
 # 動画移動
 # checklist.txtの後半(日本語ファイル名)のデータを使って動画ファイルを移動する
 # 引数のファイルが一致する日本語ファイル名を同名のディレクトリに移動する(ディレクトリなければつくる)
@@ -155,6 +167,7 @@ def move_movie(file_path):
             move_movie_proc(filename)
     else:
         move_movie_proc(file_path)
+
 
 # 動画移動のメイン処理
 def move_movie_proc(file_path):
@@ -180,6 +193,7 @@ def move_movie_proc(file_path):
 
             print('move file. ' + str(file_path) + ' -> ' + str(dst_dir))
             shutil.move(str(file_path), str(dst_dir))
+
 
 # トレント栽培
 def torrent_download(filepath, slack_channel='bot-open'):
@@ -209,9 +223,10 @@ def torrent_download(filepath, slack_channel='bot-open'):
     slack_post(slack_channel, post_msg)
     return 0
 
+
 # 動画エンコード
 def encode_mp4_proc(file_path, output_dir, tmpdir='/data/tmp'):
     file_name = pathlib.Path(file_path).name
     encode_arg = ' -s "960x540" -b:v 1500k -vcodec libx264 -trellis 2 -bf 3 -b_strategy 1 -bidir_refine 1 -crf 25 -g 240 -mbd 2 -me_method umh -subq 6 -qdiff 6 -me_range 32 -sc_threshold 65 -keyint_min 3 -nr 100 -qmin 12 -sn -partitions parti4x4+partp4x4+partp8x8 -f mp4 -coder 1 -movflags faststart -acodec aac -ac 2 -ar 48000 -b:a 128k -async 100 -threads 0 '
-    subprocess.run('/usr/bin/wine ffmpeg3.exe -i "'  + str(file_path) + '"' + encode_arg + '"' + tmpdir + '/' + file_name + '.mp4"', shell=True)
+    subprocess.run('/usr/bin/wine ffmpeg3.exe -i "' + str(file_path) + '"' + encode_arg + '"' + tmpdir + '/' + file_name + '.mp4"', shell=True)
     shutil.move(tmpdir + '/' + file_name + '.mp4', output_dir)
