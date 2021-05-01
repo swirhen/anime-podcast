@@ -266,7 +266,7 @@ def torrent_download(filepath, slack_channel='bot-open'):
         else:
             os.remove(seedfile)
 
-    post_msg='swirhen.tv seed download complete'
+    post_msg='swirhen.tv seed download completed.'
     slack_post(slack_channel, post_msg)
     return_log.append(post_msg)
 
