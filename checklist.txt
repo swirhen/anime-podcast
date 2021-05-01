@@ -1,4 +1,7 @@
-Last Update: 2021/05/02-00:00:02
+Last Update: 2021/05/02-06:00:02
+2021/05/02-06:00:02 04 Shadows House|シャドーハウス
+2021/05/02-06:00:02 04 Ijiranaide, Nagatoro-san|イジらないで、長瀞さん
+2021/05/02-06:00:02 04 Eighty-Six|86-エイティシックス-
 2021/05/02-00:00:02 06 Boku no Hero Academia 5|僕のヒーローアカデミア(第5期)
 2021/05/02-00:00:02 04 Slime300|スライム倒して300年、知らないうちにレベルMAXになってました
 2021/05/02-00:00:02 03 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
@@ -43,7 +46,4 @@ Last Update: 2021/05/02-00:00:02
 2021/04/25-12:00:01 03 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
 2021/04/25-12:00:01 03 Bishounen Tanteidan|美少年探偵団
 2021/04/25-12:00:01 03 Battle Athletess Daiundoukai Restart!|バトルアスリーテス大運動会 ReSTART!
-2021/04/25-06:00:01 03 Shadows House|シャドーハウス
-2021/04/25-06:00:01 03 Ijiranaide, Nagatoro-san|イジらないで、長瀞さん
-2021/04/25-06:00:01 03 Eighty-Six|86-エイティシックス-
 2021/04/25-06:00:01 03 Edens Zero|EDENS ZERO
