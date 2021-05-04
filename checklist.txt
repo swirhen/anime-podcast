@@ -1,4 +1,6 @@
-Last Update: 2021/05/05-00:00:01
+Last Update: 2021/05/05-06:00:02
+2021/05/05-06:00:02 05 Tensura Nikki Tensei Shitara Slime Datta Ken|転生したらスライムだった件 転スラ日記
+2021/05/05-06:00:02 05 Seijo no Maryoku wa Bannou Desu|聖女の魔力は万能です
 2021/05/05-00:00:01 05 Odd Taxi|オッドタクシー
 2021/05/05-00:00:01 05 Fruits Basket the Final|フルーツバスケット The Final
 2021/05/05-00:00:01 04 Fumetsu no Anata e|不滅のあなたへ
@@ -45,5 +47,3 @@ Last Update: 2021/05/05-00:00:01
 2021/04/29-00:00:02 04 Jouran The Princess of Snow and Blood|擾乱 THE PRINCESS OF SNOW AND BLOOD
 2021/04/29-00:00:02 04 Fulldive-Rpg|究極進化したフルダイブRPGが現実よりもクソゲーだったら
 2021/04/29-00:00:02 03 Osamake|幼なじみが絶対に負けないラブコメ
-2021/04/28-06:00:01 04 Tensura Nikki Tensei Shitara Slime Datta Ken|転生したらスライムだった件 転スラ日記
-2021/04/28-06:00:01 04 Seijo no Maryoku wa Bannou Desu|聖女の魔力は万能です
