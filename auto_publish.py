@@ -85,10 +85,7 @@ def main():
         seed_list.append(seed_info)
 
     # チェックリストの取得
-    check_lists = []
-    check_lists = swiutil.make_check_list
-    import pprint
-    pprint.pprint(check_lists)
+    check_lists = swiutil.make_check_list()
 
     # リストチェック＆seedダウンロード処理開始：tempリストに日時を出力
     swiutil.writefile_new(LIST_TEMP, 'Last Update: ' + DATETIME)

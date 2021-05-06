@@ -4,7 +4,6 @@
 import glob
 import os
 import pathlib
-import pprint
 import re
 import shutil
 import subprocess
@@ -150,7 +149,6 @@ def make_check_list():
     for line in listfile.readlines():
         if re.search('^Last Update', line):
             continue
-        print(line)
         last_update = re.sub(r'^([^ ]+) ([^ ]+) (.*)', r'\1', line).strip()
         episode_number = re.sub(r'^([^ ]*) ([^ ]*) (.*)', r'\2', line).strip()
         name = re.sub(r'^([^ ]*) ([^ ]*) (.*)', r'\3', line).strip().split("|")[0]
@@ -158,7 +156,6 @@ def make_check_list():
         check_list = [last_update, episode_number, name, name_j]
         check_lists.append(check_list)
 
-    pprint.pprint(check_lists)
     return check_lists
 
 
