@@ -4,6 +4,7 @@
 import glob
 import os
 import pathlib
+import pprint
 import re
 import shutil
 import subprocess
@@ -145,7 +146,7 @@ def make_check_list():
         print("open error. not found file: " + str(CHECKLIST_FILE_PATH))
         sys.exit(1)
 
-        # make rename list
+    # make check list
     for line in listfile.readlines():
         if re.search('^Last Update', line):
             continue
@@ -156,6 +157,7 @@ def make_check_list():
         check_list = [last_update, episode_number, name, name_j]
         check_lists.append(check_list)
 
+    pprint.pprint(check_lists)
     return check_lists
 
 
