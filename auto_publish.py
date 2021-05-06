@@ -13,10 +13,10 @@ import shutil
 import sys
 import urllib.request
 from datetime import datetime as dt
+import xml.etree.ElementTree as elementTree
 current_dir = pathlib.Path(__file__).resolve().parent
 sys.path.append(str(current_dir) + '/python-lib/')
-import swirhentv_util as swutil
-import xml.etree.ElementTree as ET
+import swirhentv_util as swiutil
 
 # argments section
 SCRIPT_DIR = str(current_dir)
@@ -24,22 +24,14 @@ DOWNLOAD_DIR = '/data/share/movie'
 OUTPUT_DIR = '/data/share/movie/98 PSP用'
 LIST_FILE = SCRIPT_DIR + '/checklist.txt'
 LIST_TEMP = SCRIPT_DIR + '/checklist.temp'
-RSS_TEMP = SCRIPT_DIR + '/rss.temp'
-RSS_XML = SCRIPT_DIR + '/rss.xml'
-RESULT_FILE = SCRIPT_DIR + '/autodl.result'
 TDATETIME = dt.now()
 DATETIME = TDATETIME.strftime('%Y/%m/%d-%H:%M:%S')
 DATETIME2 = TDATETIME.strftime('%Y%m%d%H%M%S')
 SEED_URI = 'https://nyaa.si/?q=Ohys-Raws&f=0&c=1_4&page=rss'
 CHANNEL = 'bot-open'
-POST_FLG = 1
-LOG_FILE = SCRIPT_DIR + '/autopub_' + DATETIME2 + '.log'
 LOG_DIR = SCRIPT_DIR + '/logs'
+LOG_FILE = LOG_DIR + '/autopub_' + DATETIME2 + '.log'
 FLG_FILE = SCRIPT_DIR + '/autopub_running'
-LEOPARD_INDEX = SCRIPT_DIR + '/leopard_index.html'
-INDEX_GET = 0
-NEW_RESULT_FILE = SCRIPT_DIR + '/new_program_result.txt'
-NEW_RESULT_FILE_NG = SCRIPT_DIR + '/new_program_result_ng.txt'
 NEW_PROGRAM_FILE = SCRIPT_DIR + '/new_program.txt'
 
 
@@ -47,20 +39,19 @@ NEW_PROGRAM_FILE = SCRIPT_DIR + '/new_program.txt'
 def logging(log_str):
     td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
     print(td + ' ' + log_str)
-    swutil.writefile_append(LOG_FILE, td + ' ' + log_str)
+    swiutil.writefile_append(LOG_FILE, td + ' ' + log_str)
 
 
 def slackpost(post_str):
-    swutil.slack_post(CHANNEL, post_str)
+    swiutil.slack_post(CHANNEL, post_str)
 
 
 def slackupload(file_path):
-    swutil.slack_upload(CHANNEL, file_path)
+    swiutil.slack_upload(CHANNEL, file_path)
 
 
 # 終了のあとしまつ
 def end(exit_code):
-    shutil.move(LOG_FILE, LOG_DIR)
     os.remove(FLG_FILE)
     exit(exit_code)
 
@@ -71,7 +62,7 @@ def main():
     if os.path.isfile(FLG_FILE):
         logging('### running flag file exist.')
         print('delete flag file? (y/n)')
-        if swutil.askconfirm() == 0:
+        if swiutil.askconfirm() == 0:
             os.remove(FLG_FILE)
             logging('### running flag file deleted manually.')
         shutil.move(LOG_FILE, LOG_DIR)
@@ -83,45 +74,23 @@ def main():
     logging('### auto publish start.')
     slackpost('swirhen.tv auto publish start...')
 
-    # seed download
-    req = urllib.request.Request(SEED_URI)
-    with urllib.request.urlopen(req) as response:
-        XmlData = response.read()
-
-    # 取得したxmlからリストを作成
+    # nyaa torrentのfeedをxmlとして取得、title(ファイル名)とlink(torrentファイルのURL)を配列seed_listに入れる
     seed_list = []
     req = urllib.request.Request(SEED_URI)
     with urllib.request.urlopen(req) as response:
         xml_string = response.read()
 
-    xml_root = ET.fromstring(xml_string)
+    xml_root = elementTree.fromstring(xml_string)
 
     for item in xml_root.findall('./channel/item'):
         seed_info = [item.find('title').text, item.find('link').text]
         seed_list.append(seed_info)
 
     # チェックリストの取得
-    listfile = ''
-    check_lists = []
-    try:
-        listfile = open(LIST_FILE, 'r', encoding='utf-8')
-    except Exception:
-        logging("open error. not found file: " + str(LIST_FILE))
-        end(1)
-
-    # make rename list
-    for line in listfile.readlines():
-        if re.search('^Last Update', line):
-            continue
-        last_update = re.sub(r'^([^ ]+) ([^ ]+) (.*)', r'\1', line).strip()
-        episode_number = re.sub(r'^([^ ]*) ([^ ]*) (.*)', r'\2', line).strip()
-        name = re.sub(r'^([^ ]*) ([^ ]*) (.*)', r'\3', line).strip().split("|")[0]
-        name_j = re.sub(r'^([^ ]*) ([^ ]*) (.*)', r'\3', line).strip().split("|")[1]
-        check_list = [last_update, episode_number, name, name_j]
-        check_lists.append(check_list)
+    check_lists = swiutil.make_check_list
 
     # リストチェック＆seedダウンロード処理開始：tempリストに日時を出力
-    swutil.writefile_new(LIST_TEMP, 'Last Update: ' + DATETIME)
+    swiutil.writefile_new(LIST_TEMP, 'Last Update: ' + DATETIME)
 
     # 結果リスト
     result = []
@@ -187,9 +156,9 @@ def main():
         # 新規エピソードがある場合、最新話数と最終取得日時を更新して、tempリストへ追加
         # 無い場合は元のリストの行をそのまま追加
         if hit_flag > 0:
-            swutil.writefile_append(LIST_TEMP, '{} {} {}|{}'.format(DATETIME, seed_episode_number, name, name_j))
+            swiutil.writefile_append(LIST_TEMP, '{} {} {}|{}'.format(DATETIME, seed_episode_number, name, name_j))
         else:
-            swutil.writefile_append(LIST_TEMP, '{} {} {}|{}'.format(last_update, episode_number, name, name_j))
+            swiutil.writefile_append(LIST_TEMP, '{} {} {}|{}'.format(last_update, episode_number, name, name_j))
 
     # 新番組1話対応
     new_hit_flag = 0
@@ -203,22 +172,23 @@ def main():
             title_en = re.sub(r'\[.*] (.*) - 01 .*', r'\1', title)
 
             # 重複を避けるため、new_program.txtを検索
-            if swutil.grep_file(NEW_PROGRAM_FILE, title_en) != "":
-                title_ja = swutil.get_jp_title(title_en)
+            if swiutil.grep_file(NEW_PROGRAM_FILE, title_en) != "":
+                title_ja = swiutil.get_jp_title(title_en)
 
                 if title_ja != '':
                     # 日本語タイトルが取得できていたら、新番組取得済リストへ追加
                     # チェックリスト(tempと実体両方)に次回取得のためのレコードを追加
+                    # 番組名ディレクトリを作成
                     new_hit_flag = 1
-                    swutil.writefile_append(LIST_FILE, '{} {} {}|{}'.format(DATETIME, '0', title_en, title_ja))
-                    swutil.writefile_append(LIST_TEMP, '{} {} {}|{}'.format(DATETIME, '0', title_en, title_ja))
-                    swutil.writefile_append(NEW_PROGRAM_FILE, title_en)
-                    new_result.append(title_en)
+                    swiutil.writefile_append(LIST_FILE, '{} {} {}|{}'.format(DATETIME, '0', title_en, title_ja))
+                    swiutil.writefile_append(LIST_TEMP, '{} {} {}|{}'.format(DATETIME, '0', title_en, title_ja))
+                    swiutil.writefile_append(NEW_PROGRAM_FILE, title_en)
                     os.makedirs(DOWNLOAD_DIR + '/' + title_ja)
+                    new_result.append(title_en)
                 else:
                     # 日本語タイトルが取得できなかった1話は何もしないが報告だけする
                     new_hit_flag_ng = 1
-                    swutil.writefile_append(NEW_RESULT_FILE_NG, title_en)
+                    new_result_ng.append(title_en)
 
     if new_hit_flag == 1:
         post_msg = '@here 新番組検知！\n' + \
@@ -237,7 +207,7 @@ def main():
         logging(post_msg)
 
     # 何らかのエラーで途中で処理が途切れたりして、チェックリスト実体とtempに行数の差が出てしまった場合、警告
-    if swutil.len_file(LIST_FILE) != swutil.len_file(LIST_TEMP):
+    if swiutil.len_file(LIST_FILE) != swiutil.len_file(LIST_TEMP):
         slackpost('@channel !!! リスト行数が変化しました。 checklist.txt のコミットログを確認してください')
         logging('@channel !!! リスト行数が変化しました。 checklist.txt のコミットログを確認してください')
 
@@ -267,11 +237,11 @@ def main():
         urllib.request.urlretrieve(link, DOWNLOAD_DIR + '/' + title + '.torrent')
 
     logging('### torrent download start.')
-    log = swutil.torrent_download(DOWNLOAD_DIR)
+    log = swiutil.torrent_download(DOWNLOAD_DIR)
     logging(log)
 
     logging('### movie file rename start.')
-    swutil.rename_movie_file(DOWNLOAD_DIR)
+    swiutil.rename_movie_file(DOWNLOAD_DIR)
 
     renamed_files = []
     download_files_with_path = sorted(list(pathlib.Path(DOWNLOAD_DIR).glob('*話*.mp4')))
@@ -282,10 +252,9 @@ def main():
     slackpost(post_msg)
     logging(post_msg)
 
-
     # auto encode
     logging('### auto encode start.')
-    swutil.encode_mp4(DOWNLOAD_DIR, OUTPUT_DIR)
+    swiutil.encode_movie_in_directory(DOWNLOAD_DIR, OUTPUT_DIR)
 
     # 終了エピソードがある場合、終了リストの編集
     # 終了リストがあるかどうかチェック
@@ -310,8 +279,8 @@ def main():
         slackpost(post_msg_end)
         logging(post_msg_end)
         for end_episode in end_episodes:
-            swutil.sed_del(LIST_FILE, end_episode)
-            swutil.writefile_append(resent_end_list_file, end_episode)
+            swiutil.sed_del(LIST_FILE, end_episode)
+            swiutil.writefile_append(resent_end_list_file, end_episode)
 
         repo = git.Repo(SCRIPT_DIR)
         repo.git.commit(LIST_FILE, message='checklist.txt update')
@@ -324,7 +293,7 @@ def main():
         slackpost(post_msg_end_ng)
         logging(post_msg_end_ng)
         for end_episode_ng in end_episode_ngs:
-            swutil.writefile_append(resent_end_list_file, end_episode_ng)
+            swiutil.writefile_append(resent_end_list_file, end_episode_ng)
 
     logging('### all process completed.')
     slackpost('swirhen.tv auto publish completed.')

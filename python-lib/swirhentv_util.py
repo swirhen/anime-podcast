@@ -135,6 +135,28 @@ def syobocal_search(search_word):
         return ''
 
 
+# checklist.txtからチェックリストの配列を得る
+# 書式は"最終更新日時 取得話数 英語タイトル名|日本語タイトル名
+def make_check_list():
+    check_lists = []
+    try:
+        listfile = open(CHECKLIST_FILE_PATH, 'r', encoding='utf-8')
+    except Exception:
+        print("open error. not found file: " + str(CHECKLIST_FILE_PATH))
+        sys.exit(1)
+
+        # make rename list
+    for line in listfile.readlines():
+        if re.search('^Last Update', line):
+            continue
+        last_update = re.sub(r'^([^ ]+) ([^ ]+) (.*)', r'\1', line).strip()
+        episode_number = re.sub(r'^([^ ]*) ([^ ]*) (.*)', r'\2', line).strip()
+        name = re.sub(r'^([^ ]*) ([^ ]*) (.*)', r'\3', line).strip().split("|")[0]
+        name_j = re.sub(r'^([^ ]*) ([^ ]*) (.*)', r'\3', line).strip().split("|")[1]
+        check_list = [last_update, episode_number, name, name_j]
+        check_lists.append(check_list)
+
+
 # checklist.txtの最後のセクションから、英語タイトル -> 日本語タイトルの変換リストを得る
 def make_rename_list():
     # file open
@@ -274,10 +296,11 @@ def torrent_download(filepath, slack_channel='bot-open'):
 
 
 # 動画エンコード
-# ディレクトリ内の動画をエンコードし、つぶやいたりする
-def encode_mp4(input_dir, output_dir):
+# ディレクトリ内の動画をエンコードし、完了都度フィード生成し、つぶやく(twitterとslack)
+# 全完了後、各作品ディレクトリへの移動処理
+def encode_movie_in_directory(input_dir, output_dir):
     for filename in pathlib.Path(input_dir).glob('*話*.mp4'):
-        encode_mp4_proc(str(filename), output_dir)
+        encode_movie_proc(str(filename), output_dir)
         time.sleep(3)
         subprocess.run('/home/swirhen/mkpodcast.rb -t "' + output_dir + '/*.*" -b "http://swirhen.tv/movie/pspmp4/" -o "' + output_dir + '/index.xml" --title "最近のアニメ"', shell=True)
         tweeet('【publish】' + filename.name + '.mp4')
@@ -287,7 +310,7 @@ def encode_mp4(input_dir, output_dir):
 
 
 # 動画エンコードのメイン処理
-def encode_mp4_proc(file_path, output_dir, tmpdir='/data/tmp'):
+def encode_movie_proc(file_path, output_dir, tmpdir='/data/tmp'):
     file_name = pathlib.Path(file_path).name
     encode_arg = ' -s "960x540" -b:v 1500k -vcodec libx264 -trellis 2 -bf 3 -b_strategy 1 -bidir_refine 1 -crf 25 -g 240 -mbd 2 -me_method umh -subq 6 -qdiff 6 -me_range 32 -sc_threshold 65 -keyint_min 3 -nr 100 -qmin 12 -sn -partitions parti4x4+partp4x4+partp8x8 -f mp4 -coder 1 -movflags faststart -acodec aac -ac 2 -ar 48000 -b:a 128k -async 100 -threads 0 '
     subprocess.run('/usr/bin/wine ffmpeg3.exe -i "' + str(file_path) + '"' + encode_arg + '"' + tmpdir + '/' + file_name + '.mp4"', shell=True)
