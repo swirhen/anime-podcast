@@ -294,8 +294,10 @@ def torrent_download(filepath, slack_channel='bot-open'):
     seedlist = glob.glob('*.torrent')
     return_log = []
     if len(seedlist) == 0:
-        print('seed file not found: ' + filepath)
-        return 1
+        log_str = 'seed file not found: ' + filepath
+        td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
+        return_log.append(td + ' ' + log_str)
+        return '\n'.join(return_log)
 
     post_msg='swirhen.tv seed download start:\n' + \
              '```' + '\n'.join(seedlist) + '```'
