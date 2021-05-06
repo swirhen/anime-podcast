@@ -8,14 +8,14 @@ import pathlib
 import sys
 current_dir = pathlib.Path(__file__).resolve().parent
 sys.path.append(str(current_dir) + '/python-lib/')
-import swirhentv_util as swutil
+import swirhentv_util as swiutil
 
 
 # main section
 if __name__ == '__main__':
     args = sys.argv
     if len(args) == 2:
-        swutil.move_movie(args[1])
+        swiutil.move_movie(args[1])
     else:
         print('usage: ' + args[0] + ' [FILENAME or DIRECTORY]')
         exit(1)

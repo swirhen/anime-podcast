@@ -302,7 +302,7 @@ def encode_movie_in_directory(input_dir, output_dir):
     for filename in pathlib.Path(input_dir).glob('*話*.mp4'):
         encode_movie_proc(str(filename), output_dir)
         time.sleep(3)
-        subprocess.run('/home/swirhen/mkpodcast.rb -t "' + output_dir + '/*.*" -b "http://swirhen.tv/movie/pspmp4/" -o "' + output_dir + '/index.xml" --title "最近のアニメ"', shell=True)
+        make_feed(output_dir)
         tweeet('【publish】' + filename.name + '.mp4')
         slack_post('bot-open', '【publish】' + filename.name + '.mp4')
 
@@ -315,3 +315,7 @@ def encode_movie_proc(file_path, output_dir, tmpdir='/data/tmp'):
     encode_arg = ' -s "960x540" -b:v 1500k -vcodec libx264 -trellis 2 -bf 3 -b_strategy 1 -bidir_refine 1 -crf 25 -g 240 -mbd 2 -me_method umh -subq 6 -qdiff 6 -me_range 32 -sc_threshold 65 -keyint_min 3 -nr 100 -qmin 12 -sn -partitions parti4x4+partp4x4+partp8x8 -f mp4 -coder 1 -movflags faststart -acodec aac -ac 2 -ar 48000 -b:a 128k -async 100 -threads 0 '
     subprocess.run('/usr/bin/wine ffmpeg3.exe -i "' + str(file_path) + '"' + encode_arg + '"' + tmpdir + '/' + file_name + '.mp4"', shell=True)
     shutil.move(tmpdir + '/' + file_name + '.mp4', output_dir)
+
+
+def make_feed(target_dir):
+    subprocess.run(SCRIPT_DIR +  '../mkpodcast.rb -t "' + target_dir + '/*.*" -b "http://swirhen.tv/movie/pspmp4/" -o "' + target_dir + '/index.xml" --title "最近のアニメ"', shell=True)

@@ -12,7 +12,7 @@ import pathlib
 import sys
 current_dir = pathlib.Path(__file__).resolve().parent
 sys.path.append(str(current_dir) + '/python-lib/')
-import swirhentv_util as swutil
+import swirhentv_util as swiutil
 
 
 # main section
@@ -35,4 +35,4 @@ if __name__ == '__main__':
                 print('usage: ' + args[0] + ' [filepath] (separator1) (separator2)')
                 exit(1)
 
-    swutil.rename_movie(filepath, SFX1, SFX2)
+    swiutil.rename_movie(filepath, SFX1, SFX2)
