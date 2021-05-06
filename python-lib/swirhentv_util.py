@@ -335,13 +335,15 @@ def encode_movie_in_directory(input_dir, output_dir):
     return_log = []
 
     for filename in pathlib.Path(input_dir).glob('*話*.mp4'):
+        td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
+        return_log.append(td + ' movie encode start: ' + filename.name + '.mp4')
         encode_movie_proc(str(filename), output_dir)
         time.sleep(3)
         make_feed(output_dir)
         tweeet('【publish】' + filename.name + '.mp4')
         slack_post('bot-open', '【publish】' + filename.name + '.mp4')
         td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
-        return_log.append(td + 'movie encode complete: ' + filename.name + '.mp4')
+        return_log.append(td + ' movie encode complete: ' + filename.name + '.mp4')
 
     function_log = move_movie(input_dir)
     return_log.append(function_log)
