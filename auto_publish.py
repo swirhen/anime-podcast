@@ -9,7 +9,6 @@ import math
 import os
 import pathlib
 import re
-import shutil
 import sys
 import urllib.request
 from datetime import datetime as dt
@@ -65,7 +64,6 @@ def main():
         if swiutil.askconfirm() == 0:
             os.remove(FLG_FILE)
             logging('### running flag file deleted manually.')
-        shutil.move(LOG_FILE, LOG_DIR)
         exit(1)
     else:
         flg_file = pathlib.Path(FLG_FILE)
