@@ -150,6 +150,7 @@ def make_check_list():
     for line in listfile.readlines():
         if re.search('^Last Update', line):
             continue
+        print(line)
         last_update = re.sub(r'^([^ ]+) ([^ ]+) (.*)', r'\1', line).strip()
         episode_number = re.sub(r'^([^ ]*) ([^ ]*) (.*)', r'\2', line).strip()
         name = re.sub(r'^([^ ]*) ([^ ]*) (.*)', r'\3', line).strip().split("|")[0]
