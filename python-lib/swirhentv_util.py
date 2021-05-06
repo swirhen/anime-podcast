@@ -156,6 +156,8 @@ def make_check_list():
         check_list = [last_update, episode_number, name, name_j]
         check_lists.append(check_list)
 
+    return check_lists
+
 
 # checklist.txtの最後のセクションから、英語タイトル -> 日本語タイトルの変換リストを得る
 def make_rename_list():
