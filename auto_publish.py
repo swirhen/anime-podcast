@@ -127,7 +127,6 @@ def main():
                 elif episode_number_diff > 1:
                     # 差分が2以上のときは差分をフラグに入れる
                     hit_flag = episode_number_diff
-                    diff_over_flag = 1
 
             if hit_flag > 0:
                 logging(title + ' new episode: ' + seed_episode_number + ' local: ' + episode_number)
