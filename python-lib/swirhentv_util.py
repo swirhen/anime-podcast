@@ -243,9 +243,11 @@ def move_movie(file_path):
     # arg check
     if os.path.isdir(file_path):
         for filename in pathlib.Path(file_path).glob('*.mp4'):
-            return_log = move_movie_proc(filename)
+            function_log = move_movie_proc(filename)
+            return_log.append(function_log)
     else:
-        return_log = move_movie_proc(file_path)
+        function_log = move_movie_proc(file_path)
+        return_log.append(function_log)
 
     return '\n'.join(return_log)
 
