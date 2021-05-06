@@ -109,9 +109,7 @@ def main():
         name = check_list[2]
         name_j = check_list[3]
         hit_flag = 0
-        diff_over_flag = 0
 
-        title = ''
         seed_episode_number = ''
         # シードリストループ
         for seed_info in seed_list:
