@@ -319,3 +319,8 @@ def encode_movie_proc(file_path, output_dir, tmpdir='/data/tmp'):
 
 def make_feed(target_dir):
     subprocess.run(SCRIPT_DIR +  '/../mkpodcast.rb -t "' + target_dir + '/*.*" -b "http://swirhen.tv/movie/pspmp4/" -o "' + target_dir + '/index.xml" --title "最近のアニメ"', shell=True)
+
+
+def make_feed_manually(target_dir, title):
+    target_dir_not_parent_dir = pathlib.Path(target_dir).name
+    subprocess.run(SCRIPT_DIR +  '/../mkpodcast.rb -t "' + target_dir + '/*.*" -b "http://swirhen.tv/movie/pspmp4/' + target_dir_not_parent_dir + '/" -o "' + target_dir + '.xml" --title "' + title + '"', shell=True)
