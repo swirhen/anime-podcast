@@ -132,13 +132,11 @@ def main():
                     diff_over_flag = 1
 
             if hit_flag > 0:
-                logging('new episode: ' + seed_episode_number + ' local: ' + episode_number)
-                if hit_flag > 1:
-                    logging(title + '    ↑前回との差分が1話以上検出されています。差分話数: ' + hit_flag)
-                    result.append(title + '\n↑前回との差分が1話以上検出されています。差分話数: ' + hit_flag)
-                else:
-                    result.append(title)
+                logging(title + ' new episode: ' + seed_episode_number + ' local: ' + episode_number)
+                result.append(title)
                 downloads.append([link, title])
+                if hit_flag > 1:
+                    logging(title + '\n    ↑前回との差分が1話以上検出されています。差分話数: ' + hit_flag)
 
                 # titleに「END」が含まれるときは終了作品チェックを行う
                 if re.search('END', title):
