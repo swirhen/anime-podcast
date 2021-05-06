@@ -209,7 +209,7 @@ def main():
     # 何らかのエラーで途中で処理が途切れたりして、チェックリスト実体とtempに行数の差が出てしまった場合、警告
     if swiutil.len_file(LIST_FILE) != swiutil.len_file(LIST_TEMP):
         slackpost('@channel !!! リスト行数が変化しました。 checklist.txt のコミットログを確認してください')
-        logging('@channel !!! リスト行数が変化しました。 checklist.txt のコミットログを確認してください')
+        logging('!!! リスト行数が変化しました。 checklist.txt のコミットログを確認してください')
 
     # 処理の終わったtempリストを降順ソートし、実体に上書き→gitコミット
     output_list = sorted(open(LIST_TEMP).readlines(), reverse=True)
