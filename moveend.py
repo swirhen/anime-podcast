@@ -19,11 +19,11 @@ CHECK = ''
 
 # 入力(年)
 def askyear():
-    YEAR = input('Year? (YYYY)\n'
+    year = input('Year? (YYYY)\n'
                  'q: quit\n> ')
-    if re.match(r'^[1-2][0-9][0-9][0-9]$', YEAR):
-        return YEAR
-    elif YEAR == 'q' or YEAR == 'Q':
+    if re.match(r'^[1-2][0-9][0-9][0-9]$', year):
+        return year
+    elif year == 'q' or year == 'Q':
         print('bye')
         exit(0)
     else:
@@ -33,11 +33,11 @@ def askyear():
 
 # 入力(期)
 def askquarter():
-    QUARTER = input('Quarter? (1-4)\n'
+    quarter = input('Quarter? (1-4)\n'
                     'q: quit\n> ')
-    if re.match(r'[1-4]$', QUARTER):
-        return QUARTER
-    elif QUARTER == 'q' or QUARTER == 'Q':
+    if re.match(r'[1-4]$', quarter):
+        return quarter
+    elif quarter == 'q' or quarter == 'Q':
         print('bye')
         exit(0)
     else:
@@ -47,13 +47,13 @@ def askquarter():
 
 # 入力(ターゲット)
 def asktarget():
-    TARGET = input('Target?\n'
+    target = input('Target?\n'
                    '1: root(' + BASE_DIR + ')\n'
                                            '2: pspmp4(' + PSPMP4_98_DIR + ')\n'
                                                                           'q: quit\n> ')
-    if re.match(r'[1-2]$', TARGET):
-        return TARGET
-    elif TARGET == 'q' or TARGET == 'Q':
+    if re.match(r'[1-2]$', target):
+        return target
+    elif target == 'q' or target == 'Q':
         print('bye')
         exit(0)
     else:
@@ -63,12 +63,12 @@ def asktarget():
 
 # 入力(処理種別)
 def askprogress():
-    PROGRESS = input('Progress?\n'
+    progress = input('Progress?\n'
                      '1: move end program 2: remove symbolic link 3: check only\n'
                      'q: quit\n> ')
-    if re.match(r'[1-3]$', PROGRESS):
-        return PROGRESS
-    elif PROGRESS == 'q' or PROGRESS == 'Q':
+    if re.match(r'[1-3]$', progress):
+        return progress
+    elif progress == 'q' or progress == 'Q':
         print('bye')
         exit(0)
     else:
@@ -78,12 +78,12 @@ def askprogress():
 
 # 入力(チェックの有無)
 def askcheck():
-    CHECK = input('Check?\n'
+    check = input('Check?\n'
                   '0: off 1: on\n'
                   'q: quit\n> ')
-    if re.match(r'[1-3]$', CHECK):
-        return CHECK
-    elif CHECK == 'q' or CHECK == 'Q':
+    if re.match(r'[1-3]$', check):
+        return check
+    elif check == 'q' or check == 'Q':
         print('bye')
         exit(0)
     else:
@@ -334,10 +334,7 @@ if not os.path.isfile(END_LIST_FILE):
     print('endlist file not found.')
     exit(1)
 
-listfile = open(END_LIST_FILE, 'r', encoding='utf-8')
-END_LIST = []
-for line in listfile.readlines():
-    END_LIST.append(line.strip())
+END_LIST = open(END_LIST_FILE, 'r', encoding='utf-8').read().splitlines()
 
 # 処理分岐
 if TARGET == '1':

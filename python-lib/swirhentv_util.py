@@ -10,6 +10,7 @@ import subprocess
 import urllib.request
 import sys
 import time
+from datetime import datetime as dt
 
 from bs4 import BeautifulSoup
 from slacker import Slacker
@@ -19,7 +20,7 @@ current_dir = pathlib.Path(__file__).resolve().parent
 CHECKLIST_FILE_PATH = str(current_dir) + '/../checklist.txt'
 SYOBOCAL_URI = 'http://cal.syoboi.jp/find?sd=0&kw='
 SCRIPT_DIR = str(current_dir)
-SEED_BACKUP_DIR = SCRIPT_DIR + '/download_seeds'
+SEED_BACKUP_DIR = SCRIPT_DIR + '/../download_seeds'
 
 
 # slackにpostする
@@ -188,6 +189,8 @@ def make_rename_list():
 # 第2引数(省略可)はリネーム元ファイルの話数数字の前の文字を入力する。デフォルトは半角スペース。
 # 第3引数(省略可)はリネーム元ファイルの話数数字の後の文字を入力する。デフォルトは半角スペース。
 def rename_movie_file(file_path, separator1='\ ', separator2='\ '):
+    return_log = []
+
     # make rename list
     renamelist = make_rename_list()
 
@@ -209,15 +212,26 @@ def rename_movie_file(file_path, separator1='\ ', separator2='\ '):
 
             if name_e == name:
                 if os.path.isfile(filename + '.aria2'):
-                    print('#' + filename + ' 成育中！')
+                    td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
+                    log_str = filename + '.aria2 が存在。 成育中'
+                    return_log.append(td + ' ' + log_str)
+                    print(log_str)
                 else:
                     new_name = name_j + ' 第' + num + '話.' + ext
                     if file_path != new_name:
-                        print('# rename ' + filename + ' -> ' + new_name)
+                        td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
+                        log_str = 'rename ' + filename + ' -> ' + new_name
+                        return_log.append(td + ' ' + log_str)
+                        print(log_str)
                         os.rename(filename, new_name)
                     else:
-                        print('# 変更後のファイル名が同じ')
+                        td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
+                        log_str = '変更後のファイル名が同じ'
+                        return_log.append(td + ' ' + log_str)
+                        print(log_str)
                 break
+
+    return '\n'.join(return_log)
 
 
 # 動画移動
@@ -225,16 +239,20 @@ def rename_movie_file(file_path, separator1='\ ', separator2='\ '):
 # 引数のファイルが一致する日本語ファイル名を同名のディレクトリに移動する(ディレクトリなければつくる)
 # 引数がディレクトリだったら、ディレクトリ以下のファイルすべてを処理
 def move_movie(file_path):
+    return_log = []
     # arg check
     if os.path.isdir(file_path):
         for filename in pathlib.Path(file_path).glob('*.mp4'):
-            move_movie_proc(filename)
+            return_log = move_movie_proc(filename)
     else:
-        move_movie_proc(file_path)
+        return_log = move_movie_proc(file_path)
+
+    return '\n'.join(return_log)
 
 
 # 動画移動のメイン処理
 def move_movie_proc(file_path):
+    return_log = []
     # make rename list
     renamelist = make_rename_list()
     # move file
@@ -248,15 +266,26 @@ def move_movie_proc(file_path):
             if len(dst_dirs) == 1:
                 dst_dir = dst_dirs[0]
             elif len(dst_dirs) == 0:
-                print('directory not found. makedir ' + name_j)
+                log_str = 'directory not found. makedir ' + name_j
+                td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
+                return_log.append(td + ' ' + log_str)
+                print(log_str)
                 dst_dir = str(parent_dir) + '/' + name_j
                 os.makedirs(dst_dir)
             else:
-                print('directory so many.' + name_j)
+                log_str = 'directory so many.' + name_j
+                td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
+                return_log.append(td + ' ' + log_str)
+                print(log_str)
                 exit(1)
 
-            print('move file. ' + str(file_path) + ' -> ' + str(dst_dir))
+            log_str = 'move file. ' + str(file_path) + ' -> ' + str(dst_dir)
+            td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
+            return_log.append(td + ' ' + log_str)
+            print(log_str)
             shutil.move(str(file_path), str(dst_dir))
+
+    return '\n'.join(return_log)
 
 
 # トレント栽培
@@ -271,7 +300,8 @@ def torrent_download(filepath, slack_channel='bot-open'):
     post_msg='swirhen.tv seed download start:\n' + \
              '```' + '\n'.join(seedlist) + '```'
     slack_post(slack_channel, post_msg)
-    return_log.append(post_msg)
+    td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
+    return_log.append(td + ' ' + post_msg.replace('`',''))
 
     proc = subprocess.Popen('aria2c --listen-port=38888 --max-upload-limit=200K --seed-ratio=0.01 --seed-time=1 *.torrent', shell=True)
     time.sleep(10)
@@ -292,7 +322,8 @@ def torrent_download(filepath, slack_channel='bot-open'):
 
     post_msg='swirhen.tv seed download completed.'
     slack_post(slack_channel, post_msg)
-    return_log.append(post_msg)
+    td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
+    return_log.append(td + ' ' + post_msg)
 
     return '\n'.join(return_log)
 
@@ -301,14 +332,21 @@ def torrent_download(filepath, slack_channel='bot-open'):
 # ディレクトリ内の動画をエンコードし、完了都度フィード生成し、つぶやく(twitterとslack)
 # 全完了後、各作品ディレクトリへの移動処理
 def encode_movie_in_directory(input_dir, output_dir):
+    return_log = []
+
     for filename in pathlib.Path(input_dir).glob('*話*.mp4'):
         encode_movie_proc(str(filename), output_dir)
         time.sleep(3)
         make_feed(output_dir)
         tweeet('【publish】' + filename.name + '.mp4')
         slack_post('bot-open', '【publish】' + filename.name + '.mp4')
+        td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
+        return_log.append(td + 'movie encode complete: ' + filename.name + '.mp4')
 
-    move_movie(input_dir)
+    function_log = move_movie(input_dir)
+    return_log.append(function_log)
+
+    return '\n'.join(return_log)
 
 
 # 動画エンコードのメイン処理
@@ -319,10 +357,12 @@ def encode_movie_proc(file_path, output_dir, tmpdir='/data/tmp'):
     shutil.move(tmpdir + '/' + file_name + '.mp4', output_dir)
 
 
+# しゅにるスクリプト呼び出し フィード作成(最近のアニメ)
 def make_feed(target_dir):
     subprocess.run(SCRIPT_DIR +  '/../mkpodcast.rb -t "' + target_dir + '/*.*" -b "http://swirhen.tv/movie/pspmp4/" -o "' + target_dir + '/index.xml" --title "最近のアニメ"', shell=True)
 
 
+# しゅにるスクリプト呼び出し フィード作成(任意のディレクトリ、タイトル)
 def make_feed_manually(target_dir, title):
     target_dir_not_parent_dir = pathlib.Path(target_dir).name
     subprocess.run(SCRIPT_DIR +  '/../mkpodcast.rb -t "' + target_dir + '/*.*" -b "http://swirhen.tv/movie/pspmp4/' + target_dir_not_parent_dir + '/" -o "' + target_dir + '.xml" --title "' + title + '"', shell=True)

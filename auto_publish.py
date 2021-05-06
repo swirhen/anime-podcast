@@ -41,6 +41,12 @@ def logging(log_str):
     swiutil.writefile_append(LOG_FILE, td + ' ' + log_str)
 
 
+# ログ書き込み(時刻無し)
+def logging_without_timestamp(log_str):
+    print(log_str)
+    swiutil.writefile_append(LOG_FILE, log_str)
+
+
 def slackpost(post_str):
     swiutil.slack_post(CHANNEL, post_str)
 
@@ -234,12 +240,12 @@ def main():
         title = download[1]
         urllib.request.urlretrieve(link, DOWNLOAD_DIR + '/' + title + '.torrent')
 
-    logging('### torrent download start.')
-    log = swiutil.torrent_download(DOWNLOAD_DIR)
-    logging(log)
+    function_log = swiutil.torrent_download(DOWNLOAD_DIR)
+    logging_without_timestamp(function_log)
 
     logging('### movie file rename start.')
-    swiutil.rename_movie_file(DOWNLOAD_DIR)
+    function_log = swiutil.rename_movie_file(DOWNLOAD_DIR)
+    logging_without_timestamp(function_log)
 
     renamed_files = []
     download_files_with_path = sorted(list(pathlib.Path(DOWNLOAD_DIR).glob('*話*.mp4')))
@@ -248,11 +254,12 @@ def main():
     post_msg='renamed movie files:\n' + \
                 '```' + '\n'.join(renamed_files) + '```'
     slackpost(post_msg)
-    logging(post_msg)
+    logging(post_msg.replace('`',''))
 
     # auto encode
     logging('### auto encode start.')
-    swiutil.encode_movie_in_directory(DOWNLOAD_DIR, OUTPUT_DIR)
+    function_log = swiutil.encode_movie_in_directory(DOWNLOAD_DIR, OUTPUT_DIR)
+    logging_without_timestamp(function_log)
 
     # 終了エピソードがある場合、終了リストの編集
     # 終了リストがあるかどうかチェック
