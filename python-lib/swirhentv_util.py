@@ -220,7 +220,7 @@ def rename_movie_file(file_path, separator1='\ ', separator2='\ '):
                     new_name = name_j + ' 第' + num + '話.' + ext
                     if file_path != new_name:
                         td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
-                        log_str = 'rename ' + filename + ' -> ' + new_name
+                        log_str = 'rename file: ' + filename + ' -> ' + new_name
                         return_log.append(td + ' ' + log_str)
                         print(log_str)
                         os.rename(filename, new_name)
@@ -279,7 +279,7 @@ def move_movie_proc(file_path):
                 print(log_str)
                 exit(1)
 
-            log_str = 'move file. ' + str(file_path) + ' -> ' + str(dst_dir)
+            log_str = 'move file: ' + str(file_path) + ' -> ' + str(dst_dir)
             td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
             return_log.append(td + ' ' + log_str)
             print(log_str)
