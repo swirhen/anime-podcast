@@ -1,4 +1,6 @@
-Last Update: 2021/05/09-06:00:01
+Last Update: 2021/05/09-12:00:02
+2021/05/09-12:00:02 47 Digimon Adventure;|デジモンアドベンチャー：
+2021/05/09-12:00:02 150 Kiratto Pri-chan|キラッとプリ☆チャン
 2021/05/09-06:00:01 05 Shadows House|シャドーハウス
 2021/05/09-06:00:01 05 Ijiranaide, Nagatoro-san|イジらないで、長瀞さん
 2021/05/09-06:00:01 05 Eighty-Six|86-エイティシックス-
@@ -42,8 +44,6 @@ Last Update: 2021/05/09-06:00:01
 2021/05/03-00:00:02 05 Sentouin, Hakenshimasu|戦闘員、派遣します！
 2021/05/03-00:00:02 05 Nomad Megalo Box 2|NOMAD メガロボクス2
 2021/05/03-00:00:02 05 Dragon, Ie o Kau|ドラゴン、家を買う。
-2021/05/02-12:00:02 46 Digimon Adventure;|デジモンアドベンチャー：
-2021/05/02-12:00:02 149 Kiratto Pri-chan|キラッとプリ☆チャン
 2021/05/02-12:00:02 04 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
 2021/05/02-12:00:02 04 Bishounen Tanteidan|美少年探偵団
 2021/05/02-12:00:02 04 Battle Athletess Daiundoukai Restart!|バトルアスリーテス大運動会 ReSTART!
