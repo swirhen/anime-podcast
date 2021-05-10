@@ -257,6 +257,7 @@ def move_movie_proc(file_path):
     return_log = []
     # make rename list
     renamelist = make_rename_list()
+    print(renamelist)
     # move file
     for name in renamelist:
         name_j = name[1]
