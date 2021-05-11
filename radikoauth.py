@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import urllib.request, urllib.error, urllib.parse
-import os, sys, datetime, argparse, re
+import re
 import base64
 from sys import argv
 
@@ -76,14 +76,15 @@ def gen_temp_chunk_m3u8_url(url, auth_token):
     return lines[0]
 
 
-res = auth1()
-ret = get_partial_key(res)
-token = ret[1]
-partialkey = ret[0]
-area = auth2(partialkey, token)
-if len(argv) > 1:
-    url = f'http://f-radiko.smartstream.ne.jp/{argv[1]}/_definst_/simul-stream.stream/playlist.m3u8'
-    m3u8 = gen_temp_chunk_m3u8_url(url, token)
-    print(m3u8 + " " + token)
-else:
-    print(area)
+if __name__ == '__main__':
+    res = auth1()
+    ret = get_partial_key(res)
+    token = ret[1]
+    partialkey = ret[0]
+    area = auth2(partialkey, token)
+    if len(argv) > 1:
+        url = f'http://f-radiko.smartstream.ne.jp/{argv[1]}/_definst_/simul-stream.stream/playlist.m3u8'
+        m3u8 = gen_temp_chunk_m3u8_url(url, token)
+        print(m3u8 + " " + token)
+    else:
+        print(area)
