@@ -23,5 +23,4 @@ else
 fi
 
 # rssフィード生成シェル
-/data/share/movie/sh/mmmpc.sh agqr "超！A&G(+α)"
-/data/share/movie/sh/mmmpc2.sh agqr "超！A&G(+α)"
+python3 /data/share/movie/sh/mmmpc.py agqr "超！A&G(+α)"
