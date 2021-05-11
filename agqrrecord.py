@@ -77,7 +77,7 @@ if __name__ == '__main__':
 
     # 開始ツイートリツイートよろぺこー
     swiutil.tweeet('【超A&G自動保存開始】' + filename_without_path)
-    swiutil.slack_post('【超A&G自動保存開始】' + filename_without_path)
+    swiutil.slack_post(SLACK_CHANNEL, '【超A&G自動保存開始】' + filename_without_path)
 
     # 番組名バリデート
     req = urllib.request.Request(url=VALIDATE_API_URI, headers=BROWSER_HEADERS)
@@ -142,4 +142,4 @@ if __name__ == '__main__':
 
     # 終了ツイート
     swiutil.tweeet('【超A&G自動保存終了】' + filename_without_path)
-    swiutil.slack_post('【超A&G自動保存終了】' + filename_without_path)
+    swiutil.slack_post(SLACK_CHANNEL, '【超A&G自動保存終了】' + filename_without_path)
