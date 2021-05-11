@@ -97,7 +97,7 @@ if __name__ == '__main__':
     # 録音時間に満たないファイルが生成されてしまった場合、続きから録音し直す(最終的に録音時間合計に達するまで続ける)
     rectime_remain = record_time
     file_num = '01'
-    while rectime_remain > 0:
+    while int(rectime_remain) > 0:
         filename_rec = filename + file_num + '.mp4'
         subprocess.run('/usr/bin/wine ffmpeg3.exe -i "' + STREAM_URI + '" -c copy -t ' + rectime_remain + ' "' + filename_rec + '"', shell=True)
         duration = subprocess.run('ffprobe -i "' + filename_rec + '" -select_streams v:0 -show_entries stream=duration | grep duration | sed s/duration=// | sed "s/\.[0-9]*$//g"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.decode().strip()
