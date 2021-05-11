@@ -128,6 +128,8 @@ if __name__ == '__main__':
 
         # 連結
         subprocess.run('/usr/bin/wine ffmpeg3.exe -safe 0 -f concat -i "' + concat_list_file + '" "' + filename_without_path + '.mp4', shell=True)
+        for file in open(concat_list_file).read().splitlines():
+            os.remove(file)
     else:
         shutil.move(filename + '01.mp4', filename + '.mp4')
 
@@ -135,7 +137,7 @@ if __name__ == '__main__':
     if video_flag == 'v':
         shutil.copy(filename + '.mp4', OUTPUT_PATH)
     else:
-        subprocess.run('/usr/bin/wine ffmpeg3.exe -i "' + filename + '.mp4" -acodec copy -map 0:1 "' + OUTPUT_PATH + '/' + filename_without_path + '.m4a', shell=True)
+        subprocess.run('/usr/bin/wine ffmpeg3.exe -i "' + filename + '.mp4" -acodec copy -map 0:1 "' + OUTPUT_PATH + '/' + filename_without_path + '.m4a"', shell=True)
 
     # rssフィード生成
     swiutil.make_feed_manually(OUTPUT_PATH, '超！A&G(+α)')
