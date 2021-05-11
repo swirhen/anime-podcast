@@ -107,6 +107,8 @@ if __name__ == '__main__':
 
         # 拡張子
         record_extent = 'mp4'
+        # 謎の文字列
+        opt_str = 'v'
     else:
         OPERATION_STR='Radiko'
         # 現在放送中情報からIDで検索し、放送局名取得
@@ -133,7 +135,8 @@ if __name__ == '__main__':
 
         # 拡張子
         record_extent = 'm4a'
-
+        # 謎の文字列
+        opt_str = 'a'
 
     # 開始ツイートリツイートよろぺこー
     swiutil.tweeet(f'【{OPERATION_STR}自動保存開始】' + filename_without_path)
@@ -166,7 +169,7 @@ if __name__ == '__main__':
 
         subprocess.run(ffmpeg_str, shell=True)
 
-        duration = subprocess.run(f'ffprobe -i "{filename_rec}" -select_streams v:0 -show_entries stream=duration | grep duration | sed s/duration=// | sed "s/\.[0-9]*$//g"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.decode().strip()
+        duration = subprocess.run(f'ffprobe -i "{filename_rec}" -select_streams {opt_str}:0 -show_entries stream=duration | grep duration | sed s/duration=// | sed "s/\.[0-9]*$//g"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.decode().strip()
         rectime_remain = int(rectime_remain) - int(duration)
 
         # 録音ファイルが0秒 or 残り時間が15秒未満なら終わる
