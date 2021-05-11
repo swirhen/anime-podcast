@@ -75,6 +75,10 @@ if __name__ == '__main__':
             if len(args) == 7:
                 skip_flag_filename = args[6]
 
+    if operation_mode == 'r' and station_id == '':
+        print('Radikoモードの場合は放送局IDを指定してぺこ')
+        exit(1)
+
     # オフセット
     time.sleep(int(start_offset))
 
