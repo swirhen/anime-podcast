@@ -14,31 +14,32 @@ import urllib.request
 from datetime import datetime as dt
 import xml.etree.ElementTree as elementTree
 current_dir = pathlib.Path(__file__).resolve().parent
-sys.path.append(str(current_dir) + '/python-lib/')
+sys.path.append(f'{str(current_dir)}/python-lib/')
 import swirhentv_util as swiutil
 
 # argments section
 SCRIPT_DIR = str(current_dir)
 DOWNLOAD_DIR = '/data/share/movie'
 OUTPUT_DIR = '/data/share/movie/98 PSP用'
-LIST_FILE = SCRIPT_DIR + '/checklist.txt'
-LIST_TEMP = SCRIPT_DIR + '/checklist.temp'
+LIST_FILE = f'{SCRIPT_DIR}/checklist.txt'
+LIST_TEMP = f'{SCRIPT_DIR}/checklist.temp'
 TDATETIME = dt.now()
 DATETIME = TDATETIME.strftime('%Y/%m/%d-%H:%M:%S')
 DATETIME2 = TDATETIME.strftime('%Y%m%d%H%M%S')
 SEED_URI = 'https://nyaa.si/?q=Ohys-Raws&f=0&c=1_4&page=rss'
 CHANNEL = 'bot-open'
-LOG_DIR = SCRIPT_DIR + '/logs'
-LOG_FILE = LOG_DIR + '/autopub_' + DATETIME2 + '.log'
-FLG_FILE = SCRIPT_DIR + '/autopub_running'
-NEW_PROGRAM_FILE = SCRIPT_DIR + '/new_program.txt'
+LOG_DIR = f'{SCRIPT_DIR}/logs'
+LOG_FILE = f'{LOG_DIR}/autopub_{DATETIME2}.log'
+FLG_FILE = f'{SCRIPT_DIR}/autopub_running'
+NEW_PROGRAM_FILE = f'{SCRIPT_DIR}/new_program.txt'
 
 
 # ログ書き込み
 def logging(log_str):
     td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
-    print(td + ' ' + log_str)
-    swiutil.writefile_append(LOG_FILE, td + ' ' + log_str)
+    logstr = f'{td} {log_str}'
+    print(logstr)
+    swiutil.writefile_append(LOG_FILE, logstr)
 
 
 # ログ書き込み(時刻無し)
@@ -94,7 +95,7 @@ def main():
     check_lists = swiutil.make_check_list()
 
     # リストチェック＆seedダウンロード処理開始：tempリストに日時を出力
-    swiutil.writefile_new(LIST_TEMP, 'Last Update: ' + DATETIME)
+    swiutil.writefile_new(LIST_TEMP, f'Last Update: {DATETIME}')
 
     # 結果リスト
     result = []
@@ -129,25 +130,25 @@ def main():
                     hit_flag = episode_number_diff
 
             if hit_flag > 0:
-                logging(title + ' new episode: ' + seed_episode_number + ' local: ' + episode_number)
+                logging(f'{title} new episode: {seed_episode_number} local: {episode_number}')
                 result.append(title)
                 downloads.append([link, title])
                 if hit_flag > 1:
-                    logging(title + '\n    ↑前回との差分が1話以上検出されています。差分話数: ' + hit_flag)
+                    logging(f'{title}\n    ↑前回との差分が1話以上検出されています。差分話数: {hit_flag}')
 
                 # titleに「END」が含まれるときは終了作品チェックを行う
                 if re.search('END', title):
-                    filepath = glob.glob(DOWNLOAD_DIR + '/*' + name_j)[0]
-                    filelist = list(pathlib.Path(filepath).glob(name_j + ' 第*.mp4'))
+                    filepath = glob.glob(f'{DOWNLOAD_DIR}/*{name_j}')[0]
+                    filelist = list(pathlib.Path(filepath).glob(f'{name_j} 第*.mp4'))
                     filelist_ignore_inteval_episodes = sorted([p.name for p in filelist if not re.search(r'\.5', str(p))])
                     filecount = len(filelist_ignore_inteval_episodes) + 1
 
-                    logging('終了とみられるエピソード: ' + title)
+                    logging(f'終了とみられるエピソード: {title}')
                     if filecount == int(seed_episode_number):
-                        logging('    抜けチェック:OK 既存エピソードファイル数(.5話を除く): ' + str(filecount) + ' / 最終エピソード番号: ' + seed_episode_number)
+                        logging(f'    抜けチェック:OK 既存エピソードファイル数(.5話を除く): {str(filecount)} / 最終エピソード番号: {seed_episode_number}')
                         end_episodes.append(name_j)
                     else:
-                        logging('    抜けチェック:NG 既存エピソードファイル数(.5話を除く): ' + str(filecount) + ' / 最終エピソード番号: ' + seed_episode_number)
+                        logging(f'    抜けチェック:NG 既存エピソードファイル数(.5話を除く): {str(filecount)} / 最終エピソード番号: {seed_episode_number}')
                         end_episode_ngs.append(name_j)
 
                 break
@@ -155,9 +156,9 @@ def main():
         # 新規エピソードがある場合、最新話数と最終取得日時を更新して、tempリストへ追加
         # 無い場合は元のリストの行をそのまま追加
         if hit_flag > 0:
-            swiutil.writefile_append(LIST_TEMP, '{} {} {}|{}'.format(DATETIME, seed_episode_number, name, name_j))
+            swiutil.writefile_append(LIST_TEMP, f'{DATETIME} {seed_episode_number} {name}|{name_j}')
         else:
-            swiutil.writefile_append(LIST_TEMP, '{} {} {}|{}'.format(last_update, episode_number, name, name_j))
+            swiutil.writefile_append(LIST_TEMP, f'{last_update} {episode_number} {name}|{name_j}')
 
     # 新番組1話対応
     new_hit_flag = 0
@@ -179,10 +180,10 @@ def main():
                     # チェックリスト(tempと実体両方)に次回取得のためのレコードを追加
                     # 番組名ディレクトリを作成
                     new_hit_flag = 1
-                    swiutil.writefile_append(LIST_FILE, '{} {} {}|{}'.format(DATETIME, '0', title_en, title_ja))
-                    swiutil.writefile_append(LIST_TEMP, '{} {} {}|{}'.format(DATETIME, '0', title_en, title_ja))
+                    swiutil.writefile_append(LIST_FILE, f'{DATETIME} 0 {title_en}|{title_ja}')
+                    swiutil.writefile_append(LIST_TEMP, f'{DATETIME} 0 {title_en}|{title_ja}')
                     swiutil.writefile_append(NEW_PROGRAM_FILE, title_en)
-                    os.makedirs(DOWNLOAD_DIR + '/' + title_ja)
+                    os.makedirs(f'{DOWNLOAD_DIR}/{title_ja}')
                     new_result.append(title_en)
                 else:
                     # 日本語タイトルが取得できなかった1話は何もしないが報告だけする
@@ -190,17 +191,17 @@ def main():
                     new_result_ng.append(title_en)
 
     if new_hit_flag == 1:
-        post_msg = '@here 新番組検知！\n' + \
-                    'リストに追加されたので、次回ダウンロード対象となります\n' + \
-                    '対象外にする場合は、リストから削除、保存ディレクトリを削除してください\n' + \
+        post_msg = '@here 新番組検知！\n' \
+                    'リストに追加されたので、次回ダウンロード対象となります\n' \
+                    '対象外にする場合は、リストから削除、保存ディレクトリを削除してください\n' \
                     '```' + '\n'.join(new_result) + '```'
         slackpost(post_msg)
         logging(post_msg)
 
     if new_hit_flag_ng == 1:
-        post_msg = '@here 新番組検知！\n' + \
-                    '検知しましたが、日本語タイトルが検索で取得できなかったので、何もしませんでした\n' + \
-                    '手動追加を検討してください\n' + \
+        post_msg = '@here 新番組検知！\n' \
+                    '検知しましたが、日本語タイトルが検索で取得できなかったので、何もしませんでした\n' \
+                    '手動追加を検討してください\n' \
                     '```' + '\n'.join(new_result_ng) + '```'
         slackpost(post_msg)
         logging(post_msg)
@@ -233,7 +234,7 @@ def main():
     for download in downloads:
         link = download[0]
         title = download[1]
-        urllib.request.urlretrieve(link, DOWNLOAD_DIR + '/' + title + '.torrent')
+        urllib.request.urlretrieve(link, f'{DOWNLOAD_DIR}/{title}.torrent')
 
     function_log = swiutil.torrent_download(DOWNLOAD_DIR)
     logging_without_timestamp(function_log)
@@ -246,7 +247,7 @@ def main():
     download_files_with_path = sorted(list(pathlib.Path(DOWNLOAD_DIR).glob('*話*.mp4')))
     for dlfwp in download_files_with_path:
         renamed_files.append(dlfwp.name)
-    post_msg='renamed movie files:\n' + \
+    post_msg='renamed movie files:\n' \
                 '```' + '\n'.join(renamed_files) + '```'
     slackpost(post_msg)
     logging(post_msg.replace('`',''))
@@ -271,10 +272,10 @@ def main():
         else:
             quarter = int(quarter) + 1
 
-        resent_end_list_file = pathlib.Path(DOWNLOAD_DIR + '/end_' + str(year) + 'Q' + str(quarter) + '.txt')
+        resent_end_list_file = pathlib.Path(f'{DOWNLOAD_DIR}/end_{str(year)}Q{str(quarter)}.txt')
 
     if len(end_episodes) > 0:
-        post_msg_end = '# 終了とみられる番組で、抜けチェックOKのため、終了リストに追加/チェックリストから削除\n' + \
+        post_msg_end = '# 終了とみられる番組で、抜けチェックOKのため、終了リストに追加/チェックリストから削除\n' \
                     '```' + '\n'.join(end_episodes) + '```'
         slackpost(post_msg_end)
         logging(post_msg_end)
@@ -288,7 +289,7 @@ def main():
         repo.git.push()
 
     if len(end_episode_ngs) > 0:
-        post_msg_end_ng = '@channel 終了とみられる番組で、抜けチェックNGのため、終了リストにのみ追加(要 抜けチェック)\n' + \
+        post_msg_end_ng = '@channel 終了とみられる番組で、抜けチェックNGのため、終了リストにのみ追加(要 抜けチェック)\n' \
                        '```' + '\n'.join(end_episode_ngs) + '```'
         slackpost(post_msg_end_ng)
         logging(post_msg_end_ng)

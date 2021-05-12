@@ -6,10 +6,10 @@
 import pathlib
 import sys
 current_dir = pathlib.Path(__file__).resolve().parent
-sys.path.append(str(current_dir) + '/python-lib/')
+sys.path.append(f'{str(current_dir)}/python-lib/')
 import swirhentv_util as swiutil
 
-TARGET_DIR = str(current_dir) + '/../98 PSP用'
+TARGET_DIR = f'{str(current_dir)}/../98 PSP用'
 
 # main section
 if __name__ == '__main__':

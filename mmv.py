@@ -8,7 +8,7 @@ import pathlib
 import sys
 import os
 current_dir = pathlib.Path(__file__).resolve().parent
-sys.path.append(str(current_dir) + '/python-lib/')
+sys.path.append(f'{str(current_dir)}/python-lib/')
 import swirhentv_util as swiutil
 
 
@@ -21,5 +21,5 @@ if __name__ == '__main__':
         filepath = os.getcwd()
         swiutil.move_movie(filepath)
     else:
-        print('usage: ' + args[0] + ' [FILENAME or DIRECTORY]')
+        print(f'usage: {args[0]} [FILENAME or DIRECTORY]')
         exit(1)

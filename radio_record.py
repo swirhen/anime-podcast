@@ -25,16 +25,16 @@ import urllib.request
 from datetime import datetime as dt
 import xml.etree.ElementTree as elementTree
 current_dir = pathlib.Path(__file__).resolve().parent
-sys.path.append(str(current_dir) + '/python-lib/')
+sys.path.append(f'{str(current_dir)}/python-lib/')
 import swirhentv_util as swiutil
 import radikoauth
 
 # argments section
 SCRIPT_DIR = str(current_dir)
-OUTPUT_PATH = SCRIPT_DIR + '/../98 PSP用/agqr'
-TMP_PATH = OUTPUT_PATH + '/flv'
-FLG_PATH = OUTPUT_PATH + '/flg'
-AGQR_STREAM_URI_FILE = SCRIPT_DIR + '/m3u8_url'
+OUTPUT_PATH = f'{SCRIPT_DIR}/../98 PSP用/agqr'
+TMP_PATH = f'{OUTPUT_PATH}/flv'
+FLG_PATH = f'{OUTPUT_PATH}/flg'
+AGQR_STREAM_URI_FILE = f'{SCRIPT_DIR}/m3u8_url'
 AGQR_STREAM_URI = open(AGQR_STREAM_URI_FILE).read().splitlines()[0]
 AGQR_VALIDATE_API_URI = 'https://agqr.sun-yryr.com/api/now'
 RADIKO_PROGRAM_INFO_URI = 'http://radiko.jp/v3/program/now/JP8.xml'
@@ -103,8 +103,8 @@ if __name__ == '__main__':
         program_name_from_api = json_data['title']
 
         # 保存ファイル名(拡張子無し)
-        filename_without_path = dt + '_' + program_name
-        filename_with_path = TMP_PATH + '/' + filename_without_path
+        filename_without_path = f'{dt}_{program_name}'
+        filename_with_path = f'{TMP_PATH}/{filename_without_path}'
 
         # 一時保存拡張子
         record_extent = 'mp4'
@@ -133,8 +133,8 @@ if __name__ == '__main__':
         RADIKO_STREAM_TOKEN = auth_info[1]
 
         # 保存ファイル名(拡張子無し)
-        filename_without_path = f'【{station_name}】{program_name}_' + dt
-        filename_with_path = TMP_PATH + '/' + filename_without_path
+        filename_without_path = f'【{station_name}】{program_name}_{dt}'
+        filename_with_path = f'{TMP_PATH}/{filename_without_path}'
 
         # 一時保存拡張子
         record_extent = 'm4a'
@@ -142,17 +142,17 @@ if __name__ == '__main__':
         opt_str = 'a'
 
     # 開始ツイートリツイートよろぺこー
-    swiutil.tweeet(f'【{operation_str}自動保存開始】' + filename_without_path)
-    swiutil.slack_post(SLACK_CHANNEL, f'【{operation_str}自動保存開始】' + filename_without_path)
+    swiutil.tweeet(f'【{operation_str}自動保存開始】{filename_without_path}')
+    swiutil.slack_post(SLACK_CHANNEL, f'【{operation_str}自動保存開始】{filename_without_path}')
 
     # 番組名バリデート
     if program_name_from_api == '':
-        post_str = f'{mention}【{operation_str}自動保存】番組表apiから番組名が取得出来ませんでした。ご確認ください\n' + \
+        post_str = f'{mention}【{operation_str}自動保存】番組表apiから番組名が取得出来ませんでした。ご確認ください\n' \
                    f'from arg:{program_name}'
         swiutil.slack_post(SLACK_CHANNEL, post_str)
     elif program_name_from_api != program_name:
-        post_str = f'{mention}【{operation_str}自動保存】番組表apiから取得した番組名と指定番組名が違っています。確認してください\n' + \
-                   f'from arg:{program_name}\n' + \
+        post_str = f'{mention}【{operation_str}自動保存】番組表apiから取得した番組名と指定番組名が違っています。確認してください\n' \
+                   f'from arg:{program_name}\n' \
                    f'from api:{program_name_from_api}'
         swiutil.slack_post(SLACK_CHANNEL, post_str)
 

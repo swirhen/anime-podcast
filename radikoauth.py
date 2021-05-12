@@ -95,7 +95,7 @@ def main(station_id=''):
 if __name__ == '__main__':
     if len(argv) > 1:
         info = main(argv[1])
-        print(info[0] + ' ' + info[1])
+        print(f'{info[0]} {info[1]}')
     else:
         info = main()
         print(info[0])

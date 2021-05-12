@@ -4,7 +4,7 @@
 import os, sys, re, glob, math, psutil, shutil, pprint, pathlib
 
 BASE_DIR = '/data/share/movie'
-PSPMP4_98_DIR = BASE_DIR + '/98 PSP用'
+PSPMP4_98_DIR = f'{BASE_DIR}/98 PSP用'
 PSPMP4_MV_DIR = '/data2/movie2/pspmp4'
 ROOT_MV_DIR = '/data3/movie3'
 ROOT_MV_LINK_DIR = '/data/share/movie/0004 過去連載終了分'
@@ -48,9 +48,9 @@ def askquarter():
 # 入力(ターゲット)
 def asktarget():
     target = input('Target?\n'
-                   '1: root(' + BASE_DIR + ')\n'
-                                           '2: pspmp4(' + PSPMP4_98_DIR + ')\n'
-                                                                          'q: quit\n> ')
+                   f'1: root({BASE_DIR})\n'
+                   f'2: pspmp4({PSPMP4_98_DIR})\n'
+                    'q: quit\n> ')
     if re.match(r'[1-2]$', target):
         return target
     elif target == 'q' or target == 'Q':
@@ -123,7 +123,7 @@ def get_dir_size(path):
 # 配下のファイルサイズ合計の取得(パス, ファイル名指定)
 def get_file_size(path, filename):
     total = 0
-    filelist = sorted(glob.glob(path + '/' + filename + ' 第*.mp4'))
+    filelist = sorted(glob.glob(f'{path}/{filename} 第*.mp4'))
     for file in filelist:
         total += os.path.getsize(file)
     return total
@@ -135,18 +135,18 @@ def move_root(end_list):
     # 容量チェック
     filesize = 0
     for name in end_list:
-        path = glob.glob(BASE_DIR + '/*' + name)
+        path = glob.glob(f'{BASE_DIR}/*{name}')
         if len(path) > 0:
             size = get_dir_size(path[0])
             filesize += size
         else:
-            print('source path (' + BASE_DIR + '/*' + name + ') is not found')
+            print(f'source path ({BASE_DIR}/*{name}) is not found')
             continue
 
     totalsize = math.ceil(filesize / 1024 / 1024 / 1024)
-    print('total size : ' + str(totalsize) + ' GB')
+    print(f'total size : {str(totalsize)} GB')
     freesize = math.floor(psutil.disk_usage(ROOT_MV_DIR).free / 1024 / 1024 / 1024)
-    print('free space size(' + ROOT_MV_DIR + ') : ' + str(freesize) + ' GB')
+    print(f'free space size({ROOT_MV_DIR}) : {str(freesize)} GB')
 
     if totalsize < freesize:
         print('Disk Space Check :OK')
@@ -158,33 +158,33 @@ def move_root(end_list):
 
     # 移動先ディレクトリ作成
     dstpath = ''
-    find_root_mv_dir = glob.glob(ROOT_MV_DIR + '/*' + YEAR + '-Q' + QUARTER + '終了分')
+    find_root_mv_dir = glob.glob(f'{ROOT_MV_DIR}/*{YEAR}-Q{QUARTER}終了分')
     if len(find_root_mv_dir) > 0:
         dstpath = find_root_mv_dir[0]
     else:
         # 最後の番号を取得
-        lastpath = sorted(glob.glob(ROOT_MV_DIR + '/*'))[-1]
-        dstnum = str(int(re.sub(r'^.*/', '', lastpath)[1:3]) + 1).zfill(3)
-        dstpath = ROOT_MV_DIR + '/' + dstnum.ljust(4) + YEAR + '-Q' + QUARTER + '終了分'
-        print('destination directory is not found. make directory: ' + dstpath)
+        lastpath = sorted(glob.glob(f'{ROOT_MV_DIR}/*'))[-1]
+        dstnum = str(int(pathlib.Path(lastpath).name[1:3]) + 1).zfill(3)
+        dstpath = f'{ROOT_MV_DIR}/{dstnum} {YEAR}-Q{QUARTER}終了分'
+        print(f'destination directory is not found. make directory: {dstpath}')
         os.makedirs(dstpath)
-        os.symlink(dstpath, ROOT_MV_LINK_DIR + '/' + dstnum.ljust(4) + YEAR + '-Q' + QUARTER + '終了分')
+        os.symlink(dstpath, f'{ROOT_MV_LINK_DIR}/{dstnum} {YEAR}-Q{QUARTER}終了分')
 
     # 移動
     for name in end_list:
         if name[0] == '#':
             continue
 
-        srcpath = glob.glob(BASE_DIR + '/*' + name)
+        srcpath = glob.glob(f'{BASE_DIR}/*{name}')
         if len(srcpath) > 0:
             srcpath = srcpath[0]
         else:
-            print('source path (' + BASE_DIR + '/*' + name + ') is not found')
+            print(f'source path ({BASE_DIR}/*{name}) is not found')
             continue
 
-        print('# move: ' + srcpath + ' -> ' + dstpath)
+        print(f'# move: {srcpath} -> {dstpath}')
         result = shutil.move(srcpath, dstpath)
-        print('# complete: ' + result)
+        print(f'# complete: {result}')
 
     print('ALL: 移動完了')
 
@@ -196,13 +196,13 @@ def move_98(end_list):
     totalsize = 0
     for name in end_list:
         size = math.ceil(get_file_size(PSPMP4_98_DIR, name) / 1024 / 1024)
-        print(name + ' : ' + str(size) + ' MB')
+        print(f'{name} : {str(size)} MB')
         totalsize += size
 
     totalsize = math.ceil(totalsize / 1024)
-    print('total size : ' + str(totalsize) + ' GB')
+    print(f'total size : {str(totalsize)} GB')
     freesize = math.floor(psutil.disk_usage(PSPMP4_MV_DIR).free / 1024 / 1024 / 1024)
-    print('free space size(' + PSPMP4_MV_DIR + ') : ' + str(freesize) + ' GB')
+    print(f'free space size({PSPMP4_MV_DIR}) : {str(freesize)} GB')
 
     if totalsize < freesize:
         print('Disk Space Check :OK')
@@ -214,17 +214,17 @@ def move_98(end_list):
 
     # 移動先ディレクトリ、シンボリックリンク作成
     dstpath = ''
-    find_pspmp4_mv_dir = glob.glob(PSPMP4_MV_DIR + '/' + QUARTER + 'Q-' + YEAR)
+    find_pspmp4_mv_dir = glob.glob(f'{PSPMP4_MV_DIR}/{QUARTER}Q-{YEAR}')
     if len(find_pspmp4_mv_dir) > 0:
         dstpath = find_pspmp4_mv_dir[0]
     else:
-        dstpath = PSPMP4_MV_DIR + '/' + QUARTER + 'Q-' + YEAR
-        print('destination directory is not found. make directory: ' + dstpath)
+        dstpath = f'{PSPMP4_MV_DIR}/{QUARTER}Q-{YEAR}'
+        print(f'destination directory is not found. make directory: {dstpath}')
         os.makedirs(dstpath)
 
-    dstlink = PSPMP4_98_DIR + '/' + QUARTER + 'Q-' + YEAR
+    dstlink = f'{PSPMP4_98_DIR}/{QUARTER}Q-{YEAR}'
     if not os.path.exists(dstlink):
-        print('symbolic link is not found. make link: ' + dstlink)
+        print(f'symbolic link is not found. make link: {dstlink}')
         os.symlink(dstpath, dstlink)
 
     # 移動
@@ -233,38 +233,38 @@ def move_98(end_list):
             continue
 
         if CHECK == '1':
-            filelist = list(pathlib.Path(PSPMP4_98_DIR).glob(name + ' 第*.mp4'))
+            filelist = list(pathlib.Path(PSPMP4_98_DIR).glob(f'{name} 第*.mp4'))
             filelist_ignore_inteval_episodes = sorted([p.name for p in filelist if not re.search(r'\.5', str(p))])
             filecount = len(filelist_ignore_inteval_episodes)
             last_episode_count = int(re.sub(r'.*第(.*)話.*', r'\1', filelist_ignore_inteval_episodes[-1]))
             if filecount != last_episode_count:
                 pprint.pprint(filelist_ignore_inteval_episodes)
-                print('最終話とみられるファイル: ' + filelist_ignore_inteval_episodes[-1])
-                print('ファイル個数: ' + str(filecount) + ' 一致しません。')
+                print(f'最終話とみられるファイル: {filelist_ignore_inteval_episodes[-1]}')
+                print(f'ファイル個数: {str(filecount)} 一致しません。')
                 print('move sure?')
                 if askconfirm() == 1:
                     print('スキップします')
                     continue
             else:
-                print(name + ' 抜けチェック: OK')
+                print(f'{name} 抜けチェック: OK')
 
         if PROGRESS == '3':
             print('移動処理をスキップ')
         else:
             # 移動先のファイルチェック
-            dstlist = glob.glob(dstpath + '/' + name + ' 第*.mp4')
+            dstlist = glob.glob(f'{dstpath}/{name} 第*.mp4')
             if len(dstlist) > 0:
                 print('既に存在しているため、移動無し')
                 continue
             else:
-                movefiles = sorted(glob.glob(PSPMP4_98_DIR + '/' + name + ' 第*.mp4'))
+                movefiles = sorted(glob.glob(f'{PSPMP4_98_DIR}/{name} 第*.mp4'))
                 if len(movefiles) > 0:
                     for movefile in movefiles:
-                        print('move: ' + movefile + ' -> ' + dstpath)
+                        print(f'move: {movefile} -> {dstpath}')
                         shutil.move(movefile, dstpath)
                         only_filename = re.sub(r'^.*/', '', movefile)
-                        os.symlink(dstpath + '/' + only_filename, movefile)
-                        print(only_filename + ': 移動完了')
+                        os.symlink(f'{dstpath}/{only_filename}', movefile)
+                        print(f'{only_filename}: 移動完了')
 
     print('ALL: 移動完了')
 
@@ -277,7 +277,7 @@ def remove_98(end_list):
             continue
 
         check = True
-        filelist = list(pathlib.Path(PSPMP4_98_DIR).glob(name + ' 第*.mp4'))
+        filelist = list(pathlib.Path(PSPMP4_98_DIR).glob(f'{name} 第*.mp4'))
         if len(filelist) > 0:
             for file in filelist:
                 if not os.path.islink(file):
@@ -285,15 +285,15 @@ def remove_98(end_list):
                     break
 
         if not check:
-            print(name + ': 対象にシンボリックリンクでないファイルが存在。スキップします')
+            print(f'{name}: 対象にシンボリックリンクでないファイルが存在。スキップします')
             continue
 
         # 削除
         for file in sorted(filelist):
-            print('remove symbolic link: ' + file.name)
+            print(f'remove symbolic link: {file.name}')
             os.remove(file)
 
-        print(name + ' シンボリックリンク削除: OK')
+        print(f'{name} シンボリックリンク削除: OK')
 
     print('ALL: 削除完了')
 
@@ -328,10 +328,10 @@ else:
     CHECK = askcheck()
 
 # 終了ファイルリストの存在チェック・読み込み
-END_LIST_FILE = BASE_DIR + '/end_' + YEAR + 'Q' + QUARTER + '.txt'
+END_LIST_FILE = f'{BASE_DIR}/end_{YEAR}Q{QUARTER}.txt'
 
 if not os.path.isfile(END_LIST_FILE):
-    print('endlist file not found.')
+    print(f'endlist file({END_LIST_FILE}) not found.')
     exit(1)
 
 END_LIST = open(END_LIST_FILE, 'r', encoding='utf-8').read().splitlines()

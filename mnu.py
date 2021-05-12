@@ -23,7 +23,7 @@ num = 1
 for directory in dirlist:
     exp = r'^00|^9[2-9]|^sh'
     if re.match(exp, directory):
-        print(directory + ' : 処理除外')
+        print(f'{directory} : 処理除外')
         continue
     else:
         exp = r'^[0-9][0-9]\ (.*)'
@@ -31,11 +31,11 @@ for directory in dirlist:
         os.rename(directory, newdirname)
         if ARG == '-r':
             if directory != newdirname:
-                print('# rename ' + directory + ' -> ' + newdirname)
+                print(f'# rename {directory} -> {newdirname}')
             continue
         else:
             numstr = '{0:02d}'.format(num)
             os.rename(newdirname, numstr + ' ' + newdirname)
             if directory != numstr + ' ' + newdirname:
-                print('# rename ' + directory + ' -> ' + numstr + ' ' + newdirname)
+                print(f'# rename {directory} -> {numstr} {newdirname}')
             num += 1
