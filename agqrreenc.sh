@@ -3,6 +3,7 @@
 # require: ffmpeg
 # usage: agqrrecord.sh [flvファイル名] [動画フラグ]
 # 動画フラグ: vなら映像付き、それ以外なら音声と見なしてエンコする
+# TODO いまうごかない pythonizeついでになおす(ほぼつかってないので優先度低)
 vidflg=$2
 # パスを除いたファイル名
 efilename="$1"
