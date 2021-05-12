@@ -75,12 +75,13 @@ def agqr_check(check_option):
 
 # radiko check
 def radiko_check(check_option):
-    # ストリームURIとtoken
-    authinfo = radikoauth.main(station_id)
+    # ストリームURIとtoken(仮に文化放送とする)
+    authinfo = radikoauth.main('QRR')
     RADIKO_STREAM_URI = authinfo[0]
     RADIKO_STREAM_TOKEN = authinfo[1]
 
     temp_file = f'{TMP_PATH}/radiko_rec_temp.m4a'
+
     if os.path.exists(temp_file):
         os.remove(temp_file)
 
