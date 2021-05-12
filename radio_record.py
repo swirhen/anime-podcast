@@ -84,7 +84,7 @@ def radiko_check(check_option):
 # agqr check
 def radiko_location_check(check_option):
     # 地域情報
-    location_info = radikoauth.main()[0].strip()
+    location_info = radikoauth.main()[0].strip().replace('\r', '')
 
     if location_info == '':
         swiutil.tweeet('【radiko 地域判定チェック】判定地域が取得できませんでした')
