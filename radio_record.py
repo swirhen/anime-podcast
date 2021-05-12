@@ -43,6 +43,8 @@ AGQR_VALIDATE_API_URI = 'https://agqr.sun-yryr.com/api/now'
 RADIKO_PROGRAM_INFO_URI = 'http://radiko.jp/v3/program/now/JP8.xml'
 RADIKO_STREAM_URI = ''
 RADIKO_STREAM_TOKEN = ''
+RADIKO_LOCATION_INFO_FILE = f'{SCRIPT_DIR}/loc_radiko'
+RADIKO_LOCATION_INFO_FROM_FILE = open(RADIKO_LOCATION_INFO_FILE).read().splitlines()[0]
 SLACK_CHANNEL = 'bot-open'
 BROWSER_HEADERS = {
     "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0",
@@ -81,7 +83,16 @@ def radiko_check(check_option):
 
 # agqr check
 def radiko_location_check(check_option):
-    print('hello world.')
+    # 地域情報
+    location_info = radikoauth.main()
+
+    if location_info == '':
+        swiutil.tweeet('【radiko 地域判定チェック】判定地域が取得できませんでした')
+        swiutil.slack_post(SLACK_CHANNEL, '@channel 【radiko 地域判定チェック】判定地域が取得できませんでした')
+    elif location_info != RADIKO_LOCATION_INFO_FROM_FILE:
+        swiutil.tweeet(f'【radiko 地域判定チェック】判定地域が変更されました: {location_info}')
+        swiutil.slack_post(SLACK_CHANNEL, f'@channel 【radiko 地域判定チェック】判定地域が変更されました: {location_info}')
+        swiutil.writefile_new(RADIKO_LOCATION_INFO_FILE, location_info)
 
     exit(0)
 
