@@ -61,7 +61,7 @@ def agqr_check(check_option):
             swiutil.tweeet('【超A&G チェック 定時報告】録画URLは有効です')
             swiutil.slack_post(SLACK_CHANNEL, '【超A&G チェック 定時報告】録画URLは有効です')
 
-        os.remove(temp_file)
+        # os.remove(temp_file)
     else:
         swiutil.tweeet(f'【超A&G チェック】HLSでの録画に失敗しました: {AGQR_STREAM_URI}')
         swiutil.slack_post(SLACK_CHANNEL, f'【超A&G チェック】HLSでの録画に失敗しました: {AGQR_STREAM_URI}')
