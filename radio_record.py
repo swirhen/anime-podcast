@@ -56,7 +56,9 @@ def agqr_check(check_option):
     temp_file = f'{TMP_PATH}/agqr_rec_temp.mp4'
     if os.path.exists(temp_file):
         os.remove(temp_file)
+
     agqr_record('10', temp_file)
+
     if os.path.isfile(temp_file):
         if check_option != '':
             swiutil.tweeet('【超A&G チェック 定時報告】録画URLは有効です')
@@ -78,11 +80,28 @@ def radiko_check(check_option):
     RADIKO_STREAM_URI = authinfo[0]
     RADIKO_STREAM_TOKEN = authinfo[1]
 
+    temp_file = f'{TMP_PATH}/radiko_rec_temp.m4a'
+    if os.path.exists(temp_file):
+        os.remove(temp_file)
+
+    radiko_record('10', temp_file)
+
+    if os.path.isfile(temp_file):
+        if check_option != '':
+            swiutil.tweeet('【Radiko チェック 定時報告】録画URLは有効です')
+            swiutil.slack_post(SLACK_CHANNEL, '【Radiko チェック 定時報告】録画URLは有効です')
+    else:
+        swiutil.tweeet(f'【Radiko チェック】HLSでの録画に失敗しました: {RADIKO_STREAM_URI}')
+        swiutil.slack_post(SLACK_CHANNEL, f'【Radiko チェック】HLSでの録画に失敗しました: {RADIKO_STREAM_URI}')
+
+    if os.path.exists(temp_file):
+        os.remove(temp_file)
+
     exit(0)
 
 
 # agqr check
-def radiko_location_check(check_option):
+def radiko_location_check():
     # 地域情報
     location_info = radikoauth.main()[0].strip()
 
@@ -122,7 +141,7 @@ if __name__ == '__main__':
         elif args[1] == 'cr':
             radiko_check(check_opt)
         elif args[1] == 'crl':
-            radiko_location_check(check_opt)
+            radiko_location_check()
 
     if len(args) < 5 or len(args) > 7:
         print(f'usage: {args[0]} [operation_mode] [program_name] [start_offset] [record_time] [(video_flag) or station_id] (skip_flag_filename)')
