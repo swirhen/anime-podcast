@@ -124,7 +124,6 @@ def agqr_record(rec_time, output_file):
 # radiko record
 def radiko_record(rec_time, output_file, stream_url, stream_token):
     ffmpeg_str = f'/usr/bin/wine ffmpeg3.exe -headers "X-Radiko-Authtoken:{stream_token}" -i "{stream_url}" -c copy -t {rec_time} "{output_file}"'
-    print(ffmpeg_str)
     subprocess.run(ffmpeg_str, shell=True)
 
 
