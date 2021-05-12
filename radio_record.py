@@ -95,8 +95,8 @@ def radiko_check(check_option):
         swiutil.tweeet(f'【Radiko チェック】HLSでの録画に失敗しました: {RADIKO_STREAM_URI}')
         swiutil.slack_post(SLACK_CHANNEL, f'【Radiko チェック】HLSでの録画に失敗しました: {RADIKO_STREAM_URI}')
 
-    if os.path.exists(temp_file):
-        os.remove(temp_file)
+    # if os.path.exists(temp_file):
+    #     os.remove(temp_file)
 
     exit(0)
 
