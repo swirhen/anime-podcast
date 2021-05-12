@@ -83,8 +83,10 @@ MAILTO=""
 # 音泉クローラー
 #0 * * * * /data/share/movie/sh/onsen_crawler/onsen_crawler.sh
 
-# agqr playpathチェック
-25,55 * * * * /data/share/movie/sh/agqrcheck.sh
-5 0 * * * /data/share/movie/sh/agqrcheck.sh 1
-# radiko 地域判定チェック
-15,45 * * * * /data/share/movie/sh/radikocheck.sh
+# agqr プレイリストURLチェック
+25,55 * * * * python /data/share/movie/sh/radio_record.py ca
+5 0 * * * python /data/share/movie/sh/radio_record.py ca force
+# radiko プレイリストURL＆地域判定チェック
+15,45 * * * * python /data/share/movie/sh/radio_record.py crl
+5,35 * * * * python /data/share/movie/sh/radio_record.py cr
+6 0 * * * python /data/share/movie/sh/radio_record.py cr force
