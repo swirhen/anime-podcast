@@ -103,7 +103,7 @@ def radiko_record(rec_time, output_file):
 # main section
 if __name__ == '__main__':
     args = sys.argv
-    if len(args) > 2:
+    if len(args) > 1:
         check_opt = ''
         if len(args) == 3:
             opt = args[2]
