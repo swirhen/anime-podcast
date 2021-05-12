@@ -2,9 +2,13 @@
 # -*- coding: utf-8 -*-
 # 超A&G / radiko 予約録画用スクリプト
 # require: ffmpeg(なるべくあたらしめのやつ), ffprobe, grep, sed
-# usage: python radio_record.py [動作モード(a(gqr) or r(adiko))] [番組名] [開始オフセット] [録画時間] [(動画フラグ) or 放送局ID] (隔週フラグファイル名)
+# usage: python radio_record.py [動作モード] [番組名 or (テストオプション)] [開始オフセット] [録画時間] [(動画フラグ) or 放送局ID] (隔週フラグファイル名)
 # 動作モードa (agqr)の場合 : YYYYMMDD_HHMM_番組名.mp4(m4a) というファイルになる
 # 動作モードr (radiko)の場合 : 【放送局名】番組名_YYYYMMDD_HHMM.m4a というファイルになる
+# 動作モードca : agqrの録音チェック 10秒取得し異常が無いかチェックする
+# 動作モードcr : radikoの録音チェック 10秒取得し異常が無いかチェックする
+# 動作モードcrl : radikoの地域チェック 地域情報を取得し変化がないかチェックする
+# ca, cr, crlのとき、第2引数に何か文字列が設定された場合は強制チェック報告する(定時報告用)
 # 開始オフセット: sec
 # 録画時間: sec
 # 動画フラグ(radikoモードでは放送局ID): vなら映像付き、それ以外(省略可)なら音声と見なしてエンコする
@@ -46,6 +50,50 @@ BROWSER_HEADERS = {
 }
 
 
+# agqr check
+def agqr_check(check_option):
+    temp_file = f'{TMP_PATH}/agqr_rec_temp.mp4'
+    if os.path.exists(temp_file):
+        os.remove(temp_file)
+    agqr_record('10', temp_file)
+    if os.path.isfile(temp_file):
+        if check_option != '':
+            swiutil.tweeet('【超A&G チェック 定時報告】録画URLは有効です')
+            swiutil.slack_post(SLACK_CHANNEL, '【超A&G チェック 定時報告】録画URLは有効です')
+
+        os.remove(temp_file)
+    else:
+        swiutil.tweeet(f'【超A&G チェック】HLSでの録画に失敗しました: {AGQR_STREAM_URI}')
+        swiutil.slack_post(SLACK_CHANNEL, f'【超A&G チェック】HLSでの録画に失敗しました: {AGQR_STREAM_URI}')
+        if os.path.exists(temp_file):
+            os.remove(temp_file)
+
+
+# radiko check
+def radiko_check(check_option):
+    # ストリームURIとtoken
+    authinfo = radikoauth.main(station_id)
+    RADIKO_STREAM_URI = authinfo[0]
+    RADIKO_STREAM_TOKEN = authinfo[1]
+
+
+# agqr check
+def radiko_location_check(check_option):
+    print('hello world.')
+
+
+# agqr record
+def agqr_record(rec_time, output_file):
+    ffmpeg_str = f'/usr/bin/wine ffmpeg3.exe -i "{AGQR_STREAM_URI}" -c copy -t {rec_time} "{output_file}"'
+    subprocess.run(ffmpeg_str, shell=True)
+
+
+# radiko record
+def radiko_record(rec_time, output_file):
+    ffmpeg_str = f'/usr/bin/wine ffmpeg3.exe -headers "X-Radiko-Authtoken:{RADIKO_STREAM_TOKEN}" -i "{RADIKO_STREAM_URI}" -c copy -t {rec_time} "{output_file}"'
+    subprocess.run(ffmpeg_str, shell=True)
+
+
 # main section
 if __name__ == '__main__':
     args = sys.argv
@@ -60,6 +108,21 @@ if __name__ == '__main__':
     video_flag = 'a'
     station_id = ''
     skip_flag_filename = ''
+
+    if len(args) == 2:
+        check_opt = ''
+        if len(args) == 3:
+            opt = args[2]
+
+        if args[1] == 'ca':
+            agqr_check(check_opt)
+        elif args[1] == 'cr':
+            radiko_check(check_opt)
+        elif args[1] == 'crl':
+            radiko_location_check(check_opt)
+        else:
+            print(f'usage: {args[0]} [operation_mode] [program_name or test_option] [start_offset] [record_time] [video_flag or station_id] (skip_flag_filename)')
+            exit(1)
 
     if len(args) > 4:
         operation_mode = args[1]
@@ -76,7 +139,7 @@ if __name__ == '__main__':
 
     if operation_mode == 'r' and station_id == '':
         print('Radikoモードの場合は放送局IDを指定してぺこ')
-        print(f'usage: {args[0]} [operation_mode] [program_name] [start_offset] [record_time] [video_flag or station_id] (skip_flag_filename)')
+        print(f'usage: {args[0]} [operation_mode] [program_name or test_option] [start_offset] [record_time] [video_flag or station_id] (skip_flag_filename)')
         exit(1)
 
     # オフセット
@@ -162,11 +225,9 @@ if __name__ == '__main__':
     while int(rectime_remain) > 0:
         filename_rec = f'{filename_with_path}{file_num}.{record_extent}'
         if operation_mode == 'a':
-            ffmpeg_str = f'/usr/bin/wine ffmpeg3.exe -i "{AGQR_STREAM_URI}" -c copy -t {rectime_remain} "{filename_rec}"'
+            agqr_record(rectime_remain, filename_rec)
         else:
-            ffmpeg_str = f'/usr/bin/wine ffmpeg3.exe -headers "X-Radiko-Authtoken:{RADIKO_STREAM_TOKEN}" -i "{RADIKO_STREAM_URI}" -c copy -t {rectime_remain} "{filename_rec}"'
-
-        subprocess.run(ffmpeg_str, shell=True)
+            radiko_record(rectime_remain, filename_rec)
 
         duration = subprocess.run(f'ffprobe -i "{filename_rec}" -select_streams {opt_str}:0 -show_entries stream=duration | grep duration | sed s/duration=// | sed "s/\.[0-9]*$//g"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.decode().strip()
         rectime_remain = int(rectime_remain) - int(duration)
