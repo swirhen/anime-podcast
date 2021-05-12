@@ -60,13 +60,12 @@ def agqr_check(check_option):
         if check_option != '':
             swiutil.tweeet('【超A&G チェック 定時報告】録画URLは有効です')
             swiutil.slack_post(SLACK_CHANNEL, '【超A&G チェック 定時報告】録画URLは有効です')
-
-        # os.remove(temp_file)
     else:
         swiutil.tweeet(f'【超A&G チェック】HLSでの録画に失敗しました: {AGQR_STREAM_URI}')
         swiutil.slack_post(SLACK_CHANNEL, f'【超A&G チェック】HLSでの録画に失敗しました: {AGQR_STREAM_URI}')
-        if os.path.exists(temp_file):
-            os.remove(temp_file)
+
+    if os.path.exists(temp_file):
+        os.remove(temp_file)
 
     exit(0)
 
@@ -106,7 +105,7 @@ if __name__ == '__main__':
     if len(args) > 1:
         check_opt = ''
         if len(args) == 3:
-            opt = args[2]
+            check_opt = args[2]
 
         if args[1] == 'ca':
             agqr_check(check_opt)
