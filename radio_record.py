@@ -41,8 +41,6 @@ FLG_PATH = f'{OUTPUT_PATH}/flg'
 AGQR_STREAM_URI = 'http://ic-www.uniqueradio.jp/iphone/3G.m3u8'
 AGQR_VALIDATE_API_URI = 'https://agqr.sun-yryr.com/api/now'
 RADIKO_PROGRAM_INFO_URI = 'http://radiko.jp/v3/program/now/JP8.xml'
-RADIKO_STREAM_URI = ''
-RADIKO_STREAM_TOKEN = ''
 RADIKO_LOCATION_INFO_FILE = f'{SCRIPT_DIR}/loc_radiko'
 RADIKO_LOCATION_INFO_FROM_FILE = open(RADIKO_LOCATION_INFO_FILE).read().splitlines()[0]
 SLACK_CHANNEL = 'bot-open'
@@ -77,26 +75,26 @@ def agqr_check(check_option):
 def radiko_check(check_option):
     # ストリームURIとtoken(仮に文化放送とする)
     authinfo = radikoauth.main('QRR')
-    RADIKO_STREAM_URI = authinfo[0]
-    RADIKO_STREAM_TOKEN = authinfo[1]
+    radikostreamurl = authinfo[0]
+    radikostreamtoken = authinfo[1]
 
     temp_file = f'{TMP_PATH}/radiko_rec_temp.m4a'
 
     if os.path.exists(temp_file):
         os.remove(temp_file)
 
-    radiko_record('10', temp_file)
+    radiko_record('10', temp_file, radikostreamurl, radikostreamtoken)
 
     if os.path.isfile(temp_file):
         if check_option != '':
             swiutil.tweeet('【Radiko チェック 定時報告】録画URLは有効です')
             swiutil.slack_post(SLACK_CHANNEL, '【Radiko チェック 定時報告】録画URLは有効です')
     else:
-        swiutil.tweeet(f'【Radiko チェック】HLSでの録画に失敗しました: {RADIKO_STREAM_URI}')
-        swiutil.slack_post(SLACK_CHANNEL, f'【Radiko チェック】HLSでの録画に失敗しました: {RADIKO_STREAM_URI}')
+        swiutil.tweeet(f'【Radiko チェック】HLSでの録画に失敗しました: {radikostreamurl}')
+        swiutil.slack_post(SLACK_CHANNEL, f'【Radiko チェック】HLSでの録画に失敗しました: {radikostreamtoken}')
 
-    # if os.path.exists(temp_file):
-    #     os.remove(temp_file)
+    if os.path.exists(temp_file):
+        os.remove(temp_file)
 
     exit(0)
 
@@ -124,8 +122,8 @@ def agqr_record(rec_time, output_file):
 
 
 # radiko record
-def radiko_record(rec_time, output_file):
-    ffmpeg_str = f'/usr/bin/wine ffmpeg3.exe -headers "X-Radiko-Authtoken:{RADIKO_STREAM_TOKEN}" -i "{RADIKO_STREAM_URI}" -c copy -t {rec_time} "{output_file}"'
+def radiko_record(rec_time, output_file, stream_url, stream_token):
+    ffmpeg_str = f'/usr/bin/wine ffmpeg3.exe -headers "X-Radiko-Authtoken:{stream_token}" -i "{stream_url}" -c copy -t {rec_time} "{output_file}"'
     print(ffmpeg_str)
     subprocess.run(ffmpeg_str, shell=True)
 
@@ -190,6 +188,8 @@ if __name__ == '__main__':
     program_name_from_api = ''
     record_extent = ''
     mention = ''
+    radiko_stream_url = ''
+    radiko_stream_token = ''
     if operation_mode == 'a':
         operation_str = '超A&G'
         # 現在放送中番組名を取得
@@ -225,8 +225,8 @@ if __name__ == '__main__':
 
         # ストリームURIとtoken
         auth_info = radikoauth.main(station_id)
-        RADIKO_STREAM_URI = auth_info[0]
-        RADIKO_STREAM_TOKEN = auth_info[1]
+        radiko_stream_url = auth_info[0]
+        radiko_stream_token = auth_info[1]
 
         # 保存ファイル名(拡張子無し)
         filename_without_path = f'【{station_name}】{program_name}_{dt}'
@@ -260,7 +260,7 @@ if __name__ == '__main__':
         if operation_mode == 'a':
             agqr_record(rectime_remain, filename_rec)
         else:
-            radiko_record(rectime_remain, filename_rec)
+            radiko_record(rectime_remain, filename_rec, radiko_stream_url, radiko_stream_token)
 
         duration = subprocess.run(f'ffprobe -i "{filename_rec}" -select_streams {opt_str}:0 -show_entries stream=duration | grep duration | sed s/duration=// | sed "s/\.[0-9]*$//g"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.decode().strip()
         rectime_remain = int(rectime_remain) - int(duration)
