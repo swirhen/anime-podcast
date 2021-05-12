@@ -114,9 +114,6 @@ if __name__ == '__main__':
             radiko_check(check_opt)
         elif args[1] == 'crl':
             radiko_location_check(check_opt)
-        else:
-            print(f'usage: {args[0]} [operation_mode] [program_name or test_option] [start_offset] [record_time] [video_flag or station_id] (skip_flag_filename)')
-            exit(1)
 
     if len(args) < 5 or len(args) > 7:
         print(f'usage: {args[0]} [operation_mode] [program_name] [start_offset] [record_time] [(video_flag) or station_id] (skip_flag_filename)')
