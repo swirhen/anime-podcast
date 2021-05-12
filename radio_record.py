@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # 超A&G / radiko 予約録画用スクリプト
-# require: ffmpeg,いろいろ
-# usage: python radio_record.py [動作モード(a or r)] [番組名] [開始オフセット] [録画時間] (動画フラグ or 放送局ID) (隔週フラグファイル名)
-# 動作モードa (agqr)の場合 : YYYYMMDD_HHMM_番組名.mp4(mp3) というファイルになる
+# require: ffmpeg(なるべくあたらしめのやつ), ffprobe, grep, sed
+# usage: python radio_record.py [動作モード(a(gqr) or r(adiko))] [番組名] [開始オフセット] [録画時間] [(動画フラグ) or 放送局ID] (隔週フラグファイル名)
+# 動作モードa (agqr)の場合 : YYYYMMDD_HHMM_番組名.mp4(m4a) というファイルになる
 # 動作モードr (radiko)の場合 : 【放送局名】番組名_YYYYMMDD_HHMM.m4a というファイルになる
 # 開始オフセット: sec
 # 録画時間: sec
-# 動画フラグ(radikoモードでは放送局ID): vなら映像付き、それ以外なら音声と見なしてエンコする
-# 隔週フラグファイル名:
+# 動画フラグ(radikoモードでは放送局ID): vなら映像付き、それ以外(省略可)なら音声と見なしてエンコする
+# 隔週フラグファイル名(めんどくさいので未実装):
 #     フラグファイルがあるかどうかチェックして、なければ作成だけして録画しない
 #     あれば削除して録画する
 # import section
@@ -40,7 +40,6 @@ AGQR_VALIDATE_API_URI = 'https://agqr.sun-yryr.com/api/now'
 RADIKO_PROGRAM_INFO_URI = 'http://radiko.jp/v3/program/now/JP8.xml'
 RADIKO_STREAM_URI = ''
 RADIKO_STREAM_TOKEN = ''
-OPERATION_STR=''
 SLACK_CHANNEL = 'bot-open'
 BROWSER_HEADERS = {
     "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0",
@@ -51,7 +50,7 @@ BROWSER_HEADERS = {
 if __name__ == '__main__':
     args = sys.argv
     if len(args) < 5 or len(args) > 7:
-        print(f'usage: {args[0]} [operation_mode] [program_name] [start_offset] [record_time] [video_flag or station_id] (skip_flag_filename)')
+        print(f'usage: {args[0]} [operation_mode] [program_name] [start_offset] [record_time] [(video_flag) or station_id] (skip_flag_filename)')
         exit(1)
 
     operation_mode = ''
@@ -77,6 +76,7 @@ if __name__ == '__main__':
 
     if operation_mode == 'r' and station_id == '':
         print('Radikoモードの場合は放送局IDを指定してぺこ')
+        print(f'usage: {args[0]} [operation_mode] [program_name] [start_offset] [record_time] [video_flag or station_id] (skip_flag_filename)')
         exit(1)
 
     # オフセット
@@ -88,30 +88,33 @@ if __name__ == '__main__':
     tdatetime = dt.now()
     dt = tdatetime.strftime('%Y%m%d_%H%M')
 
-    # 保存ファイル名、処理名、RadikoはURL取得
-    xml_root = ''
+    # 動作モードによる変数切り替え
+    operation_str = ''
     station_name = ''
     program_name_from_api = ''
     record_extent = ''
+    mention = ''
     if operation_mode == 'a':
-        OPERATION_STR='超A&G'
+        operation_str = '超A&G'
         # 現在放送中番組名を取得
         req = urllib.request.Request(url=AGQR_VALIDATE_API_URI, headers=BROWSER_HEADERS)
         response = urllib.request.urlopen(req).read()
         json_data = json.loads(response)
         program_name_from_api = json_data['title']
 
-        # ファイル名
+        # 保存ファイル名(拡張子無し)
         filename_without_path = dt + '_' + program_name
         filename_with_path = TMP_PATH + '/' + filename_without_path
 
-        # 拡張子
+        # 一時保存拡張子
         record_extent = 'mp4'
-        # 謎の文字列
+        # 長さ取得の際のオプション文字列
         opt_str = 'v'
+        # メンション文字列
+        mention = '@channel '
     else:
-        OPERATION_STR='Radiko'
-        # 現在放送中情報からIDで検索し、放送局名取得
+        operation_str = 'Radiko'
+        # 放送局IDから放送局名を取得現在放送中番組名を取得
         req = urllib.request.Request(RADIKO_PROGRAM_INFO_URI)
         with urllib.request.urlopen(req) as response:
             xml_string = response.read()
@@ -121,38 +124,34 @@ if __name__ == '__main__':
         for station in xml_root.findall('./stations/station'):
             if station.attrib['id'] == station_id:
                 station_name = station.find('name').text
-                # 番組名も取得してしまう
+                # 番組名取得(現在放送中xmlから取れるのは直近の2番組なので、1番目を取得)
                 program_name_from_api = station.findall('progs/prog')[0].find('title').text
 
-        # URIとtoken
-        authinfo = radikoauth.main(station_id)
-        RADIKO_STREAM_URI = authinfo[0]
-        RADIKO_STREAM_TOKEN = authinfo[1]
+        # ストリームURIとtoken
+        auth_info = radikoauth.main(station_id)
+        RADIKO_STREAM_URI = auth_info[0]
+        RADIKO_STREAM_TOKEN = auth_info[1]
 
-        # ファイル名
+        # 保存ファイル名(拡張子無し)
         filename_without_path = f'【{station_name}】{program_name}_' + dt
         filename_with_path = TMP_PATH + '/' + filename_without_path
 
-        # 拡張子
+        # 一時保存拡張子
         record_extent = 'm4a'
-        # 謎の文字列
+        # 長さ取得の際のオプション文字列
         opt_str = 'a'
 
     # 開始ツイートリツイートよろぺこー
-    swiutil.tweeet(f'【{OPERATION_STR}自動保存開始】' + filename_without_path)
-    swiutil.slack_post(SLACK_CHANNEL, f'【{OPERATION_STR}自動保存開始】' + filename_without_path)
+    swiutil.tweeet(f'【{operation_str}自動保存開始】' + filename_without_path)
+    swiutil.slack_post(SLACK_CHANNEL, f'【{operation_str}自動保存開始】' + filename_without_path)
 
-    # 番組名バリデート(radiko側はメンションしない)
-    mention = ''
-    if operation_mode == 'a':
-        mention = '@channel '
-
+    # 番組名バリデート
     if program_name_from_api == '':
-        post_str = f'{mention}【{OPERATION_STR}自動保存】番組表apiから番組名が取得出来ませんでした。ご確認ください\n' + \
+        post_str = f'{mention}【{operation_str}自動保存】番組表apiから番組名が取得出来ませんでした。ご確認ください\n' + \
                    f'from arg:{program_name}'
         swiutil.slack_post(SLACK_CHANNEL, post_str)
     elif program_name_from_api != program_name:
-        post_str = f'{mention}【{OPERATION_STR}自動保存】番組表apiから取得した番組名と指定番組名が違っています。確認してください\n' + \
+        post_str = f'{mention}【{operation_str}自動保存】番組表apiから取得した番組名と指定番組名が違っています。確認してください\n' + \
                    f'from arg:{program_name}\n' + \
                    f'from api:{program_name_from_api}'
         swiutil.slack_post(SLACK_CHANNEL, post_str)
@@ -184,6 +183,7 @@ if __name__ == '__main__':
     if filecount > 1:
         os.chdir(TMP_PATH)
         concat_list_file = f'list_{filename_without_path}'
+        concat_files = []
         if os.path.exists(concat_list_file):
             os.remove(concat_list_file)
         for file in glob.glob(f'{filename_without_path}*.{record_extent}'):
@@ -192,28 +192,33 @@ if __name__ == '__main__':
                 rename_file = file.replace(' ','_')
                 shutil.move(file, rename_file)
                 swiutil.writefile_append(concat_list_file, f'file {rename_file}')
+                concat_files.append(rename_file)
             else:
                 swiutil.writefile_append(concat_list_file, f'file {file}')
+                concat_files.append(file)
 
         # 連結
-        subprocess.run(f'/usr/bin/wine ffmpeg3.exe -safe 0 -f concat -i "{concat_list_file}" "{filename_without_path}.{record_extent}', shell=True)
-        for file in open(concat_list_file).read().splitlines():
+        subprocess.run(f'/usr/bin/wine ffmpeg3.exe -safe 0 -f concat -i "{concat_list_file}" "{filename_without_path}.{record_extent}"', shell=True)
+        # 連結元ファイル削除
+        for file in concat_files:
             os.remove(file)
     else:
+        # ファイルが1つだった場合はリネームだけする
         shutil.move(f'{filename_with_path}01.{record_extent}', f'{filename_with_path}.{record_extent}')
 
-    # 映像付き指定ならば出力ディレクトリにコピー。音声のみ指定なら音声抽出
+    # (agqrモード)映像付き指定ならば出力ディレクトリにコピー。音声のみ指定なら音声抽出
     if operation_mode == 'a':
         if video_flag == 'v':
             shutil.copy(f'{filename_with_path}.{record_extent}', OUTPUT_PATH)
         else:
-            subprocess.run(f'/usr/bin/wine ffmpeg3.exe -i "{filename_with_path}.mp4" -acodec copy -map 0:1 "{OUTPUT_PATH}/{filename_without_path}.m4a"', shell=True)
+            subprocess.run(f'/usr/bin/wine ffmpeg3.exe -i "{filename_with_path}.{record_extent}" -acodec copy -map 0:1 "{OUTPUT_PATH}/{filename_without_path}.m4a"', shell=True)
     else:
+        # Radikoモードは即時出力ディレクトリに移動
         shutil.move(f'{filename_with_path}.{record_extent}', OUTPUT_PATH)
 
     # rssフィード生成
     swiutil.make_feed_manually(OUTPUT_PATH, '超！A&G(+α)')
 
     # 終了ツイート
-    swiutil.tweeet(f'【{OPERATION_STR}自動保存終了】{filename_without_path}')
-    swiutil.slack_post(SLACK_CHANNEL, f'【{OPERATION_STR}自動保存終了】{filename_without_path}')
+    swiutil.tweeet(f'【{operation_str}自動保存終了】{filename_without_path}')
+    swiutil.slack_post(SLACK_CHANNEL, f'【{operation_str}自動保存終了】{filename_without_path}')
