@@ -68,6 +68,8 @@ def agqr_check(check_option):
         if os.path.exists(temp_file):
             os.remove(temp_file)
 
+    exit(0)
+
 
 # radiko check
 def radiko_check(check_option):
@@ -76,10 +78,14 @@ def radiko_check(check_option):
     RADIKO_STREAM_URI = authinfo[0]
     RADIKO_STREAM_TOKEN = authinfo[1]
 
+    exit(0)
+
 
 # agqr check
 def radiko_location_check(check_option):
     print('hello world.')
+
+    exit(0)
 
 
 # agqr record
