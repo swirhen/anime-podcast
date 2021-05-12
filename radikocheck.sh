@@ -9,7 +9,7 @@ PYTHON_PATH="python3"
 FILE=${SCRIPT_DIR}/loc_radiko
 TMPFILE=/tmp/loc_radiko
 
-pyhton3 ${SCRIPT_DIR}/radikoauth.py | head -1 > ${TMPFILE}
+python3 ${SCRIPT_DIR}/radikoauth.py | head -1 > ${TMPFILE}
 if [ "`cat ${TMPFILE}`" != "" ]; then
     DIFF=`diff ${FILE} ${TMPFILE}`
 
