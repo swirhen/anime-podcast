@@ -103,19 +103,7 @@ def radiko_record(rec_time, output_file):
 # main section
 if __name__ == '__main__':
     args = sys.argv
-    if len(args) < 5 or len(args) > 7:
-        print(f'usage: {args[0]} [operation_mode] [program_name] [start_offset] [record_time] [(video_flag) or station_id] (skip_flag_filename)')
-        exit(1)
-
-    operation_mode = ''
-    program_name = ''
-    start_offset = 0
-    record_time = 0
-    video_flag = 'a'
-    station_id = ''
-    skip_flag_filename = ''
-
-    if len(args) == 2:
+    if len(args) > 2:
         check_opt = ''
         if len(args) == 3:
             opt = args[2]
@@ -129,6 +117,18 @@ if __name__ == '__main__':
         else:
             print(f'usage: {args[0]} [operation_mode] [program_name or test_option] [start_offset] [record_time] [video_flag or station_id] (skip_flag_filename)')
             exit(1)
+
+    if len(args) < 5 or len(args) > 7:
+        print(f'usage: {args[0]} [operation_mode] [program_name] [start_offset] [record_time] [(video_flag) or station_id] (skip_flag_filename)')
+        exit(1)
+
+    operation_mode = ''
+    program_name = ''
+    start_offset = 0
+    record_time = 0
+    video_flag = 'a'
+    station_id = ''
+    skip_flag_filename = ''
 
     if len(args) > 4:
         operation_mode = args[1]
