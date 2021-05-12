@@ -7,7 +7,6 @@ MAILTO=""
 @reboot /home/swirhen/sh/tiarrakw.sh
 @reboot /home/swirhen/sh/tigkw.sh
 @reboot mkdir /tmp/vga
-#0 0 * * * /data/share/gyazo/tyozo/del.sh
 0 1 * * * /home/swirhen/sh/backup.sh
 0 1 * * * /data/share/movie/sh/cron_backup.sh
 10 3 * * * /data/share/movie/sh/backup.sh
@@ -22,47 +21,44 @@ MAILTO=""
 #4 8 1,2,3,23,24,27-31 8 * /data/share/movie/sh/rec_nhk.sh NHK1 13560 "/data/share/movie/98 PSP用/agqr/" "夏休み子ども科学電話相談"
 
 # SP
-0 1 6,13,20,27 12 * /data/share/movie/sh/agqrrecord.sh "木戸衣吹と田辺留依の「ふたラジ！！」" 30 1800
 
 # 帯
-0 0 * * 2-5 /data/share/movie/sh/agqrrecord.sh "鷲崎健のヨルナイト×ヨルナイト" 30 3600 v
+0 0 * * 2-5 python3 /data/share/movie/sh/radio_record.py a "鷲崎健のヨルナイト×ヨルナイト" 30 3600 v
 # -- MON
-0 17 * 4,5,6 1 /data/share/movie/sh/agqrrecord.sh "大久保瑠美・桑原由気 まなべる！ライトノベル！" 30 1800 v
-0 21 * * 1 /data/share/movie/sh/agqrrecord.sh "内田真礼とおはなししません？" 30 1800 v
-0 22 * * 1 /data/share/movie/sh/agqrrecord.sh "井口裕香のむ～～～ん ⊂( ＾ω＾)⊃" 30 3600 v
-0 23 * * 1 /data/share/movie/sh/agqrrecord.sh "東山奈央のラジオ＠リビング" 30 1800
-30 23 * * 1 /data/share/movie/sh/agqrrecord.sh "山崎はるかとまるぴ……近っっ！！" 30 1800 v
-30 2 * * 2 /data/share/movie/sh/agqrrecord.sh "佐藤亜美菜のアミメン！" 30 1800 v
+0 17 * 4,5,6 1 python3 /data/share/movie/sh/radio_record.py a "大久保瑠美・桑原由気 まなべる！ライトノベル！" 30 1800 v
+0 21 * * 1 python3 /data/share/movie/sh/radio_record.py a "内田真礼とおはなししません？" 30 1800 v
+0 22 * * 1 python3 /data/share/movie/sh/radio_record.py a "井口裕香のむ～～～ん ⊂( ＾ω＾)⊃" 30 3600 v
+0 23 * * 1 python3 /data/share/movie/sh/radio_record.py a "東山奈央のラジオ＠リビング" 30 1800
+30 23 * * 1 python3 /data/share/movie/sh/radio_record.py a "山崎はるかとまるぴ……近っっ！！" 30 1800 v
+30 2 * * 2 python3 /data/share/movie/sh/radio_record.py a "佐藤亜美菜のアミメン！" 30 1800 v
 # -- TUE
-30 17 * * 2 /data/share/movie/sh/agqrrecord.sh "渕上舞のとりあえずまぁ、話だけでも。" 30 1800 v
-#0 21 * * 2 /data/share/movie/sh/agqrrecord.sh "TrySailのTRYangle harmony" 30 1800
-30 21 * * 2 /data/share/movie/sh/agqrrecord.sh "上田麗奈のひみつばこ" 30 1800
-30 23 * * 2 /data/share/movie/sh/agqrrecord.sh "佐倉としたい大西" 30 1800 v
-0 1 * * 3 /data/share/movie/sh/agqrrecord.sh "洲崎西" 30 1800
-30 2 * * 3 /data/share/movie/sh/agqrrecord.sh "伊福部崇のラジオのラジオ" 30 1800
+30 17 * * 2 python3 /data/share/movie/sh/radio_record.py a "渕上舞のとりあえずまぁ、話だけでも。" 30 1800 v
+30 21 * * 2 python3 /data/share/movie/sh/radio_record.py a "上田麗奈のひみつばこ" 30 1800
+30 23 * * 2 python3 /data/share/movie/sh/radio_record.py a "佐倉としたい大西" 30 1800 v
+0 1 * * 3 python3 /data/share/movie/sh/radio_record.py a "洲崎西" 30 1800
+30 2 * * 3 python3 /data/share/movie/sh/radio_record.py a "伊福部崇のラジオのラジオ" 30 1800
 # -- WED
-0 21 * * 3 /data/share/movie/sh/agqrrecord.sh "夕実＆梨沙のラフストーリーは突然に" 30 1800
+0 21 * * 3 python3 /data/share/movie/sh/radio_record.py a "夕実＆梨沙のラフストーリーは突然に" 30 1800
 # -- THU
-#0 21 * * 4 /data/share/movie/sh/agqrrecord.sh "アニゲラ！ディドゥーーン！！！" 30 1800
-30 21 * * 4 /data/share/movie/sh/radikorec.sh -o "田村ゆかりの乙女心▽症候群" -t 1830 QRR
-30 23 * * 4 /data/share/movie/sh/agqrrecord.sh "竹達・沼倉の初ラジ！" 30 1800
-0 2 * * 5 /data/share/movie/sh/agqrrecord.sh "阿澄佳奈 星空ひなたぼっこ" 30 1800 v
+30 21 * * 4 python /data/share/movie/sh/radio_record.py r "田村ゆかりの乙女心▽症候群" 1 1830 QRR
+30 23 * * 4 python3 /data/share/movie/sh/radio_record.py a "竹達・沼倉の初ラジ！" 30 1800
+0 2 * * 5 python3 /data/share/movie/sh/radio_record.py a "阿澄佳奈 星空ひなたぼっこ" 30 1800 v
 # -- FRI
 # -- SAT
-30 14 * * 6 /data/share/movie/sh/agqrrecord.sh "サンセルモ presents 結婚式は あいのなかで" 30 1800 v
-0 19 * * 6 /data/share/movie/sh/radikorec.sh -o "A＆Gリクエストアワー 阿澄佳奈のキミまち！" -t 7230 QRR
-0 0 * * 7 /data/share/movie/sh/radikorec.sh -o "上坂すみれの▽をつければかわいかろう" -t 1830 QRR
-0 2 * * 7 /data/share/movie/sh/radikorec.sh -o "MOMO・SORA・SHIINA Talking Box" -t 1830 QRR
+30 14 * * 6 python3 /data/share/movie/sh/radio_record.py a "サンセルモ presents 結婚式は あいのなかで" 30 1800 v
+0 19 * * 6 python /data/share/movie/sh/radio_record.py r "A＆Gリクエストアワー 阿澄佳奈のキミまち！" 1 7230 QRR
+0 0 * * 7 python /data/share/movie/sh/radio_record.py r "上坂すみれの▽をつければかわいかろう" 1 1830 QRR
+0 2 * * 7 python /data/share/movie/sh/radio_record.py r "MOMO・SORA・SHIINA Talking Box" 1 1830 QRR
 # -- SUN
-0 17 * * 7 /data/share/movie/sh/agqrrecord.sh "星街すいせい・田所あずさ 平行線すくらんぶる" 30 1800
-30 17 * * 7 /data/share/movie/sh/agqrrecord.sh "hololive IDOL PROJECT presents ホロライブアイドル道ラジオ～私たちの歌をきけッ！" 30 1800
-30 19 * * 7 /data/share/movie/sh/agqrrecord.sh "早見沙織の ふり～すたいる♪" 30 1800
-0 20 * * 7 /data/share/movie/sh/agqrrecord.sh "小原好美のココロおきなく" 30 1800
-0 21 * * 7 /data/share/movie/sh/radikorec.sh -o "大橋彩香のAny Beat！" -t 1830 QRR
-0 22 * * 7 /data/share/movie/sh/radikorec.sh -o "水瀬いのり MELODY FLAG" -t 1830 QRR
-30 0 * * 1 /data/share/movie/sh/radikorec.sh -o "小倉唯のyui＊room" -t 1830 QRR
+0 17 * * 7 python3 /data/share/movie/sh/radio_record.py a "星街すいせい・田所あずさ 平行線すくらんぶる" 30 1800
+30 17 * * 7 python3 /data/share/movie/sh/radio_record.py a "hololive IDOL PROJECT presents ホロライブアイドル道ラジオ～私たちの歌をきけッ！" 30 1800
+30 19 * * 7 python3 /data/share/movie/sh/radio_record.py a "早見沙織の ふり～すたいる♪" 30 1800
+0 20 * * 7 python3 /data/share/movie/sh/radio_record.py a "小原好美のココロおきなく" 30 1800
+0 21 * * 7 python /data/share/movie/sh/radio_record.py r "大橋彩香のAny Beat！" 1 1830 QRR
+0 22 * * 7 python /data/share/movie/sh/radio_record.py r "水瀬いのり MELODY FLAG" 1 1830 QRR
+30 0 * * 1 python /data/share/movie/sh/radio_record.py r "小倉唯のyui＊room" 1 1830 QRR
 # -- IJUIN
-30 8 * * 1-4 /data/share/movie/sh/radikorec.sh -o "伊集院光とらじおと" -t 9030 TBS
+30 8 * * 1-4 python /data/share/movie/sh/radio_record.py r "伊集院光とらじおと" 1 9030 TBS
 # りむ鯖
 5 3 * * 2 /data/share/movie/sh/agqrrelease.sh
 35 23 * * 5 /data/share/movie/sh/agqrrelease.sh
