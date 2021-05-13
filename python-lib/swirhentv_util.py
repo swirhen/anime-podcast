@@ -72,11 +72,10 @@ def grep_file(file_path, word):
 
 # grep(配列, 部分一致)
 def grep_list(greplist, word):
-    result = ''
+    result = []
     for item in greplist:
-        m = re.search(word, item)
-        if m:
-            result = m.group()
+        if re.search(word, item):
+            result.append(item)
 
     return result
 
