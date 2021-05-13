@@ -70,12 +70,15 @@ def grep_file(file_path, word):
 
     return result
 
-# grep(配列)
+# grep(配列, 部分一致)
 def grep_list(greplist, word):
+    result = ''
     for item in greplist:
         m = re.search(word, item)
         if m:
-            return m.group()
+            result = m.group()
+
+    return result
 
 
 # ファイル書き込み(新規)
