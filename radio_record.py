@@ -227,7 +227,8 @@ if __name__ == '__main__':
             if station.attrib['id'] == station_id:
                 station_name = station.find('name').text
                 # 番組名取得(現在放送中xmlから取れるのは直近の2番組なので、1番目を取得)
-                program_name_from_api = station.findall('progs/prog')[0].find('title').text
+                # Radikoくんは放送時間ぴったりだと直前の番組が1番目になっているので、2番目を取るようにしてみる
+                program_name_from_api = station.findall('progs/prog')[1].find('title').text
 
         # ストリームURIとtoken
         auth_info = radikoauth.main(station_id)
