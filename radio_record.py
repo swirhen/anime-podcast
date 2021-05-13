@@ -42,7 +42,8 @@ AGQR_STREAM_URI = 'http://ic-www.uniqueradio.jp/iphone/3G.m3u8'
 AGQR_VALIDATE_API_URI = 'https://agqr.sun-yryr.com/api/now'
 RADIKO_PROGRAM_INFO_URI = 'http://radiko.jp/v3/program/now/JP8.xml'
 RADIKO_LOCATION_INFO_FILE = f'{SCRIPT_DIR}/loc_radiko'
-RADIKO_LOCATION_INFO_FROM_FILE = open(RADIKO_LOCATION_INFO_FILE).read().splitlines()[0]
+with open(RADIKO_LOCATION_INFO_FILE) as file:
+    RADIKO_LOCATION_INFO_FROM_FILE = file.read().splitlines()[0]
 SLACK_CHANNEL = 'bot-open'
 BROWSER_HEADERS = {
     "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0",

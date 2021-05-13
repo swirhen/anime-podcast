@@ -212,7 +212,8 @@ def main():
         logging('!!! リスト行数が変化しました。 checklist.txt のコミットログを確認してください')
 
     # 処理の終わったtempリストを降順ソートし、実体に上書き→gitコミット
-    output_list = sorted(open(LIST_TEMP).readlines(), reverse=True)
+    with open(LIST_TEMP) as file:
+        output_list = sorted(file.readlines(), reverse=True)
     with open(LIST_FILE, 'w') as file:
         file.writelines(output_list)
 

@@ -8,7 +8,6 @@ import re
 import shutil
 import subprocess
 import urllib.request
-import sys
 import time
 from datetime import datetime as dt
 
@@ -58,24 +57,32 @@ def askconfirm():
         askconfirm()
 
 
-# grep(完全一致)
-def grep_file(file_path, word):
-    with open(file_path, 'r', newline='') as f:
-        lines = f.readlines()
+# grep(ファイル, 完全一致/部分一致)
+def grep_file(file_path, word, regexp_mode=False):
+    with open(file_path) as file:
+        lines = file.read().splitlines()
 
-    result = ''
+    result = []
     for line in lines:
-        if line.strip() == word:
-            result = line.strip()
+        if regexp_mode:
+            if re.search(word, line):
+                result.append(line)
+        else:
+            if line == word:
+                result.append(line)
 
     return result
 
-# grep(配列, 部分一致)
-def grep_list(greplist, word):
+# grep(配列, 部分一致/完全一致)
+def grep_list(greplist, word, regexp_mode=True):
     result = []
     for item in greplist:
-        if re.search(word, item):
-            result.append(item)
+        if regexp_mode:
+            if re.search(word, item):
+                result.append(item)
+        else:
+            if word == item:
+                result.append(item)
 
     return result
 
@@ -94,18 +101,24 @@ def writefile_append(filepath, string):
 
 # ファイルの行数を得る
 def len_file(filepath):
-    return len(open(filepath).readlines())
+    with open(filepath) as file:
+        return len(file.readlines())
 
 
-# キーワードの含まれる行を削除
-def sed_del(filepath, sed_keyword):
+# キーワードの含まれる行を削除(部分一致/完全一致)
+def sed_del(filepath, sed_keyword, regexp_mode=True):
     tempfile = filepath + '.sed_del_temp'
     if pathlib.Path(tempfile).is_file():
-        os.remove(pathlib.Path(tempfile))
-    lines_data = open(filepath).readlines()
-    for line in lines_data:
-        if not re.search(sed_keyword, line):
-            writefile_append(tempfile, line.strip())
+        os.remove(tempfile)
+    with open(filepath) as file:
+        lines = file.read().splitlines()
+    for line in lines:
+        if regexp_mode:
+            if not re.search(sed_keyword, line):
+                writefile_append(tempfile, line)
+        else:
+            if sed_keyword != line:
+                writefile_append(tempfile, line)
 
     shutil.move(tempfile, filepath)
 
@@ -144,43 +157,32 @@ def syobocal_search(search_word):
 # 書式は"最終更新日時 取得話数 英語タイトル名|日本語タイトル名
 def make_check_list():
     check_lists = []
-    try:
-        listfile = open(CHECKLIST_FILE_PATH, 'r', encoding='utf-8')
-    except Exception:
-        print("open error. not found file: " + str(CHECKLIST_FILE_PATH))
-        sys.exit(1)
-
-    # make check list
-    for line in listfile.readlines():
-        if re.search('^Last Update', line):
-            continue
-        last_update = re.sub(r'^([^ ]+) ([^ ]+) (.*)', r'\1', line).strip()
-        episode_number = re.sub(r'^([^ ]*) ([^ ]*) (.*)', r'\2', line).strip()
-        name = re.sub(r'^([^ ]*) ([^ ]*) (.*)', r'\3', line).strip().split("|")[0]
-        name_j = re.sub(r'^([^ ]*) ([^ ]*) (.*)', r'\3', line).strip().split("|")[1]
-        check_list = [last_update, episode_number, name, name_j]
-        check_lists.append(check_list)
+    with open(CHECKLIST_FILE_PATH) as file:
+        # make check list
+        for line in file.read().splitlines():
+            if re.search('^Last Update', line):
+                continue
+            last_update = re.sub(r'^([^ ]+) ([^ ]+) (.*)', r'\1', line)
+            episode_number = re.sub(r'^([^ ]*) ([^ ]*) (.*)', r'\2', line)
+            name = re.sub(r'^([^ ]*) ([^ ]*) (.*)', r'\3', line).split('|')[0]
+            name_j = re.sub(r'^([^ ]*) ([^ ]*) (.*)', r'\3', line).split('|')[1]
+            check_list = [last_update, episode_number, name, name_j]
+            check_lists.append(check_list)
 
     return check_lists
 
 
 # checklist.txtの最後のセクションから、英語タイトル -> 日本語タイトルの変換リストを得る
 def make_rename_list():
-    # file open
-    try:
-        listfile = open(CHECKLIST_FILE_PATH, 'r', encoding='utf-8')
-    except Exception:
-        print("open error. not found file: ", str(CHECKLIST_FILE_PATH))
-        sys.exit(1)
-
-    # make rename list
-    renamelist = []
-    for line in listfile.readlines():
-        if re.search('^Last Update', line):
-            continue
-        line = re.sub(r'^[^ ]+ [^ ]+ ', '', line)
-        line = line.strip().split("|")
-        renamelist.append(line)
+    with open(CHECKLIST_FILE_PATH) as file:
+        # make rename list
+        renamelist = []
+        for line in file.read().splitlines():
+            if re.search('^Last Update', line):
+                continue
+            line = re.sub(r'^[^ ]+ [^ ]+ ', '', line)
+            line = line.split('|')
+            renamelist.append(line)
 
     return renamelist
 

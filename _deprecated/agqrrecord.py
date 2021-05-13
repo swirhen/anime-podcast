@@ -32,7 +32,8 @@ OUTPUT_PATH = SCRIPT_DIR + '/../98 PSP用/agqr'
 TMP_PATH = OUTPUT_PATH + '/flv'
 FLG_PATH = OUTPUT_PATH + '/flg'
 STREAM_URI_FILE = SCRIPT_DIR + '/m3u8_url'
-STREAM_URI = open(STREAM_URI_FILE).read().splitlines()[0]
+with open(STREAM_URI_FILE) as file:
+    STREAM_URI = file.read().splitlines()[0]
 VALIDATE_API_URI = 'https://agqr.sun-yryr.com/api/now'
 SLACK_CHANNEL = 'bot-open'
 BROWSER_HEADERS = {
@@ -128,8 +129,9 @@ if __name__ == '__main__':
 
         # 連結
         subprocess.run('/usr/bin/wine ffmpeg3.exe -safe 0 -f concat -i "' + concat_list_file + '" "' + filename_without_path + '.mp4', shell=True)
-        for file in open(concat_list_file).read().splitlines():
-            os.remove(file)
+        with open(concat_list_file) as f:
+            for file in f.read().splitlines():
+                os.remove(file)
     else:
         shutil.move(filename + '01.mp4', filename + '.mp4')
 

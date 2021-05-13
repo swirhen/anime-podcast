@@ -18,7 +18,8 @@ LISTFILE = f'{TARGET_DIR_PARENT}/list.txt'
 
 # main section
 if __name__ == '__main__':
-    lines = open(LISTFILE, 'r', encoding='utf-8').read().splitlines()
+    with open(LISTFILE) as file:
+        lines = file.read().splitlines()
     for line in lines:
         feed_directry_name = re.sub(r'^([^ ]+) (.*)', r'\1', line)
         feed_directory = f'{TARGET_DIR_PARENT}/{feed_directry_name}'

@@ -334,7 +334,8 @@ if not os.path.isfile(END_LIST_FILE):
     print(f'endlist file({END_LIST_FILE}) not found.')
     exit(1)
 
-END_LIST = open(END_LIST_FILE, 'r', encoding='utf-8').read().splitlines()
+with open(END_LIST_FILE) as file:
+    END_LIST = file.read().splitlines()
 
 # 処理分岐
 if TARGET == '1':
