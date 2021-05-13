@@ -71,7 +71,7 @@ MAILTO=""
 #*/10 17,18 * * 2 /home/swirhen/crawler_check/crawler_check.sh "dereradi_blomaga" "http://ch.nicovideo.jp/dereradi/blomaga/nico/feed"
 
 # 汎用 torrent seed check
-0 * * * * /home/swirhen/torrentsearch/torrentsearch2.sh
+0 * * * * python /home/swirhen/sh/checker/torrentsearch/torrentsearch.py
 
 # swirhentv auto download
 #0 0,6,12,18 * * * /data/share/movie/sh/auto_publish.sh
