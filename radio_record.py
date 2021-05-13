@@ -12,7 +12,7 @@
 # 開始オフセット: sec
 # 録画時間: sec
 # 動画フラグ(radikoモードでは放送局ID): vなら映像付き、それ以外(省略可)なら音声と見なしてエンコする
-# 隔週フラグファイル名(めんどくさいので未実装):
+# 隔週フラグファイル名:
 #     フラグファイルがあるかどうかチェックして、なければ作成だけして録画しない
 #     あれば削除して録画する
 # import section
@@ -175,7 +175,13 @@ if __name__ == '__main__':
     # オフセット
     time.sleep(int(start_offset))
 
-    # TODO 隔週対応(いまないのであとでいい)
+    # 隔週対応
+    flg_filename_with_path = f'{FLG_PATH}/{skip_flag_filename}'
+    if os.path.exists(flg_filename_with_path):
+        os.remove(flg_filename_with_path)
+    else:
+        pathlib.Path(flg_filename_with_path).touch()
+        exit(0)
 
     # 日付時刻
     tdatetime = dt.now()
@@ -186,6 +192,7 @@ if __name__ == '__main__':
     station_name = ''
     program_name_from_api = ''
     record_extent = ''
+    opt_str = ''
     mention = ''
     radiko_stream_url = ''
     radiko_stream_token = ''
