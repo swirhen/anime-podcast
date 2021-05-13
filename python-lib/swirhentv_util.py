@@ -63,10 +63,12 @@ def grep_file(file_path, word):
     with open(file_path, 'r', newline='') as f:
         lines = f.readlines()
 
+    result = ''
     for line in lines:
         if line.strip() == word:
-            return line.strip()
+            result = line.strip()
 
+    return result
 
 # grep(配列)
 def grep_list(greplist, word):
