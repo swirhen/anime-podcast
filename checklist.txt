@@ -1,4 +1,8 @@
-Last Update: 2021/05/15-00:00:02
+Last Update: 2021/05/15-06:00:02
+2021/05/15-06:00:02 19 Back Arrow|バック・アロウ
+2021/05/15-06:00:02 07 SSSS.Dynazenon|SSSS.DYNAZENON
+2021/05/15-06:00:02 06 Subarashiki Kono Sekai the Animation|すばらしきこのせかい The Animation
+2021/05/15-06:00:02 06 Blue Reflection Ray|BLUE REFLECTION RAY／澪
 2021/05/15-00:00:02 18 Kumo Desu ga, Nanika|蜘蛛ですが、なにか？
 2021/05/14-06:00:02 06 Zombie Land Saga Revenge|ゾンビランドサガ リベンジ
 2021/05/14-06:00:02 06 Mars Red|MARS RED
@@ -43,7 +47,3 @@ Last Update: 2021/05/15-00:00:02
 2021/05/09-00:00:02 04 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
 2021/05/08-18:00:02 31 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/05/08-12:00:02 06 Mashiro no Oto|ましろのおと
-2021/05/08-12:00:02 05 Subarashiki Kono Sekai the Animation|すばらしきこのせかい The Animation
-2021/05/08-12:00:02 05 Blue Reflection Ray|BLUE REFLECTION RAY／澪
-2021/05/08-06:00:02 18 Back Arrow|バック・アロウ
-2021/05/08-06:00:02 06 SSSS.Dynazenon|SSSS.DYNAZENON
