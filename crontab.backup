@@ -65,23 +65,13 @@ MAILTO=""
 5 0 * * 7 /data/share/movie/sh/agqrrelease.sh
 
 # twitter search
-*/10 * * * * /home/swirhen/twitterchk/twitterchk.sh
-
-# crawler
-#*/10 17,18 * * 2 /home/swirhen/crawler_check/crawler_check.sh "dereradi_blomaga" "http://ch.nicovideo.jp/dereradi/blomaga/nico/feed"
+*/10 * * * * python /home/swirhen/sh/checker/twitterchk/twitter_check.py
 
 # 汎用 torrent seed check
 0 * * * * python /home/swirhen/sh/checker/torrentsearch/torrentsearch.py
 
 # swirhentv auto download
-#0 0,6,12,18 * * * /data/share/movie/sh/auto_publish.sh
 0 0,6,12,18 * * * python /data/share/movie/sh/auto_publish.py
-
-# ニコニコチャンネルクローラー
-#0 0,6,12,18 * * * /data/share/movie/sh/nico_search/auto_crawl.sh
-
-# 音泉クローラー
-#0 * * * * /data/share/movie/sh/onsen_crawler/onsen_crawler.sh
 
 # agqr プレイリストURLチェック
 25,55 * * * * python /data/share/movie/sh/radio_record.py ca
