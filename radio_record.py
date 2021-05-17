@@ -177,12 +177,13 @@ if __name__ == '__main__':
     time.sleep(int(start_offset))
 
     # 隔週対応
-    flg_filename_with_path = f'{FLG_PATH}/{skip_flag_filename}'
-    if os.path.exists(flg_filename_with_path):
-        os.remove(flg_filename_with_path)
-    else:
-        pathlib.Path(flg_filename_with_path).touch()
-        exit(0)
+    if skip_flag_filename != '':
+        flg_filename_with_path = f'{FLG_PATH}/{skip_flag_filename}'
+        if os.path.exists(flg_filename_with_path):
+            os.remove(flg_filename_with_path)
+        else:
+            pathlib.Path(flg_filename_with_path).touch()
+            exit(0)
 
     # 日付時刻
     tdatetime = dt.now()
