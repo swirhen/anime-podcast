@@ -218,6 +218,14 @@ if __name__ == '__main__':
         mention = '@channel '
     else:
         operation_str = 'Radiko'
+        # エリアチェック
+        location_info = radikoauth.main()[0].strip()
+        location_area = location_info[0:4]
+        if location_area != 'JP8,':
+            post_str = f'【{operation_str}自動保存】エリア判定が現在茨城県(JP8)以外のため、番組が取得出来ない可能性があります。ご確認ください\n' \
+                       f'現在のエリア:{location_info}'
+            swiutil.slack_post(SLACK_CHANNEL, post_str)
+
         # 放送局IDから放送局名を取得現在放送中番組名を取得
         req = urllib.request.Request(RADIKO_PROGRAM_INFO_URI)
         with urllib.request.urlopen(req) as response:
@@ -236,9 +244,6 @@ if __name__ == '__main__':
         auth_info = radikoauth.main(station_id)
         radiko_stream_url = auth_info[0]
         radiko_stream_token = auth_info[1]
-        if radiko_stream_url == '':
-            print('err')
-            exit(1)
 
         # 保存ファイル名(拡張子無し)
         filename_without_path = f'【{station_name}】{program_name}_{dt}'
