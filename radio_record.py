@@ -235,6 +235,9 @@ if __name__ == '__main__':
         auth_info = radikoauth.main(station_id)
         radiko_stream_url = auth_info[0]
         radiko_stream_token = auth_info[1]
+        if radiko_stream_url == '':
+            print('err')
+            exit(1)
 
         # 保存ファイル名(拡張子無し)
         filename_without_path = f'【{station_name}】{program_name}_{dt}'
