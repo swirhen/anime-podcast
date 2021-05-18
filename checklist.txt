@@ -1,4 +1,6 @@
-Last Update: 2021/05/18-18:00:01
+Last Update: 2021/05/19-00:00:02
+2021/05/19-00:00:02 07 Odd Taxi|オッドタクシー
+2021/05/19-00:00:02 07 Fruits Basket the Final|フルーツバスケット The Final
 2021/05/18-00:00:02 07 Yakunara Mug Cup mo|やくならマグカップも
 2021/05/18-00:00:02 07 Koi to Yobu ni wa Kimochi Warui|恋と呼ぶには気持ち悪い
 2021/05/18-00:00:02 07 Hige o Soru. Soshite Joshikousei o Hirou.|ひげを剃る。そして女子高生を拾う。
@@ -45,5 +47,3 @@ Last Update: 2021/05/18-18:00:01
 2021/05/13-00:00:02 05 Osamake|幼なじみが絶対に負けないラブコメ
 2021/05/12-06:00:01 06 Tensura Nikki Tensei Shitara Slime Datta Ken|転生したらスライムだった件 転スラ日記
 2021/05/12-06:00:01 06 Seijo no Maryoku wa Bannou Desu|聖女の魔力は万能です
-2021/05/12-00:00:02 06 Odd Taxi|オッドタクシー
-2021/05/12-00:00:02 06 Fruits Basket the Final|フルーツバスケット The Final
