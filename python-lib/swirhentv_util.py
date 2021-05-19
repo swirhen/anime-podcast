@@ -294,7 +294,7 @@ def move_movie_proc(file_path):
 def truncate(in_str, num_bytes, encoding='utf-8'):
     while len(in_str.encode(encoding)) > num_bytes:
         in_str = in_str[:-1]
-    return str
+    return in_str
 
 
 # トレント栽培
