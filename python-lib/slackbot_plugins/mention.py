@@ -111,7 +111,7 @@ def torrent_move_and_download(message, argment):
 
     seeds = list(pathlib.Path(seed_dir).glob(glob_str))
     for seed in seeds:
-        shutil.move(seed, target_dir)
+        shutil.move(seed.resolve(), target_dir.resolve())
 
     # TODO だうんろーど
 
