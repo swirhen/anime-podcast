@@ -16,10 +16,10 @@ from slacker import Slacker
 import slackbot_settings
 
 current_dir = pathlib.Path(__file__).resolve().parent
-CHECKLIST_FILE_PATH = str(current_dir) + '/../checklist.txt'
+CHECKLIST_FILE_PATH = f'{str(current_dir)}/../checklist.txt'
 SYOBOCAL_URI = 'http://cal.syoboi.jp/find?sd=0&kw='
 SCRIPT_DIR = str(current_dir)
-SEED_BACKUP_DIR = SCRIPT_DIR + '/../download_seeds'
+SEED_BACKUP_DIR = f'{SCRIPT_DIR}/../download_seeds'
 
 
 # slackにpostする
@@ -42,7 +42,7 @@ def slack_upload(channel, filepath, filetype='text'):
 
 # twitterでつぶやく(tiarrametroのsocket経由)
 def tweeet(text, channel='#Twitter@t2'):
-    subprocess.run('/usr/bin/php /home/swirhen/tiasock/tiasock.php "' + channel + '" "' + text + '"', shell=True)
+    subprocess.run(f'/usr/bin/php /home/swirhen/tiasock/tiasock.php "{channel}" "{text}"', shell=True)
 
 
 # y/nをきく
@@ -90,13 +90,13 @@ def grep_list(greplist, word, regexp_mode=True):
 # ファイル書き込み(新規)
 def writefile_new(filepath, string):
     with open(filepath, 'w') as file:
-        file.write(string + '\n')
+        file.write(f'{string}\n')
 
 
 # ファイル書き込み(追記)
 def writefile_append(filepath, string):
     with open(filepath, 'a') as file:
-        file.write(string + '\n')
+        file.write(f'{string}\n')
 
 
 # ファイルの行数を得る
@@ -107,7 +107,7 @@ def len_file(filepath):
 
 # キーワードの含まれる行を削除(部分一致/完全一致)
 def sed_del(filepath, sed_keyword, regexp_mode=True):
-    tempfile = filepath + '.sed_del_temp'
+    tempfile = f'{filepath}.sed_del_temp'
     if pathlib.Path(tempfile).is_file():
         os.remove(tempfile)
     with open(filepath) as file:
@@ -139,12 +139,12 @@ def get_jp_title(title_en):
 
 # しょぼいカレンダー検索
 def syobocal_search(search_word):
-    html = urllib.request.urlopen(SYOBOCAL_URI + search_word)
+    html = urllib.request.urlopen(f'{SYOBOCAL_URI}{search_word}')
     soup = BeautifulSoup(html, "html.parser")
 
     result = []
     for a in soup.find_all('a'):
-        if re.search(r'tid', str(a)):
+        if re.search('tid', str(a)):
             result += a
 
     if len(result) > 0:
@@ -217,24 +217,19 @@ def rename_movie_file(file_path, separator1='\ ', separator2='\ '):
             ext = re.sub(exp, r'\4', filename)
 
             if name_e == name:
-                if os.path.isfile(filename + '.aria2'):
-                    td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
-                    log_str = filename + '.aria2 が存在。 成育中'
-                    return_log.append(td + ' ' + log_str)
-                    print(log_str)
+                td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
+                if os.path.isfile(f'{filename}.aria2'):
+                    log_str = f'{filename}.aria2 が存在。 成育中'
                 else:
-                    new_name = name_j + ' 第' + num + '話.' + ext
+                    new_name = f'{name_j} 第{num}話.{ext}'
                     if file_path != new_name:
-                        td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
-                        log_str = 'rename file: ' + filename + ' -> ' + new_name
-                        return_log.append(td + ' ' + log_str)
-                        print(log_str)
+                        log_str = f'rename file: {filename} -> {new_name}'
                         os.rename(filename, new_name)
                     else:
-                        td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
                         log_str = '変更後のファイル名が同じ'
-                        return_log.append(td + ' ' + log_str)
-                        print(log_str)
+
+                return_log.append(f'{td} {log_str}')
+                print(log_str)
                 break
 
     return '\n'.join(return_log)
@@ -269,27 +264,26 @@ def move_movie_proc(file_path):
         name_j_exp = name[1].replace('(', '\(').replace(')', '\)')
         if re.search(r'' + name_j_exp, pathlib.Path(file_path).name):
             parent_dir = pathlib.Path(file_path).parent
-            dst_dirs = list(parent_dir.glob('*' + name_j))
+            dst_dirs = list(parent_dir.glob(f'*{name_j}'))
             dst_dir = ''
+            td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
             if len(dst_dirs) == 1:
                 dst_dir = dst_dirs[0]
             elif len(dst_dirs) == 0:
-                log_str = 'directory not found. makedir ' + name_j
-                td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
-                return_log.append(td + ' ' + log_str)
+                log_str = f'directory not found. makedir {name_j}'
+                return_log.append(f'{td} {log_str}')
                 print(log_str)
-                dst_dir = str(parent_dir) + '/' + name_j
+                dst_dir = f'{str(parent_dir)}/{name_j}'
                 os.makedirs(dst_dir)
             else:
-                log_str = 'directory so many.' + name_j
-                td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
-                return_log.append(td + ' ' + log_str)
+                log_str = f'directory so many. {name_j}'
+                return_log.append(f'{td} {log_str}')
                 print(log_str)
                 exit(1)
 
-            log_str = 'move file: ' + str(file_path) + ' -> ' + str(dst_dir)
+            log_str = f'move file: {str(file_path)} -> {str(dst_dir)}'
             td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
-            return_log.append(td + ' ' + log_str)
+            return_log.append(f'{td} {log_str}')
             print(log_str)
             shutil.move(str(file_path), str(dst_dir))
 
@@ -302,22 +296,22 @@ def torrent_download(filepath, slack_channel='bot-open'):
     seedlist = glob.glob('*.torrent')
     return_log = []
     if len(seedlist) == 0:
-        log_str = 'seed file not found: ' + filepath
+        log_str = f'seed file not found: {filepath}'
         td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
-        return_log.append(td + ' ' + log_str)
+        return_log.append(f'{td} {log_str}')
         return '\n'.join(return_log)
 
-    post_msg='swirhen.tv seed download start:\n' + \
+    post_msg='swirhen.tv seed download start:\n' \
              '```' + '\n'.join(seedlist) + '```'
     slack_post(slack_channel, post_msg)
     td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
-    return_log.append(td + ' ' + post_msg.replace('`',''))
+    return_log.append(f'{td} {post_msg.replace("`", "")}')
 
     proc = subprocess.Popen('aria2c --listen-port=38888 --max-upload-limit=200K --seed-ratio=0.01 --seed-time=1 *.torrent', shell=True)
     time.sleep(10)
 
     while True:
-        if len(glob.glob(filepath + '/*.aria2')) == 0:
+        if len(glob.glob(f'{filepath}/*.aria2')) == 0:
             proc.kill()
             break
 
@@ -325,7 +319,7 @@ def torrent_download(filepath, slack_channel='bot-open'):
 
     # seeds backup
     for seedfile in seedlist:
-        if not os.path.isfile(SEED_BACKUP_DIR + '/' + seedfile):
+        if not os.path.isfile(f'{SEED_BACKUP_DIR}/{seedfile}'):
             shutil.move(seedfile, SEED_BACKUP_DIR)
         else:
             os.remove(seedfile)
@@ -333,7 +327,7 @@ def torrent_download(filepath, slack_channel='bot-open'):
     post_msg='swirhen.tv seed download completed.'
     slack_post(slack_channel, post_msg)
     td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
-    return_log.append(td + ' ' + post_msg)
+    return_log.append(f'{td} {post_msg}')
 
     return '\n'.join(return_log)
 
@@ -346,14 +340,14 @@ def encode_movie_in_directory(input_dir, output_dir):
 
     for filename in pathlib.Path(input_dir).glob('*話*.mp4'):
         td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
-        return_log.append(td + ' movie encode start: ' + filename.name + '.mp4')
+        return_log.append(f'{td} movie encode start: {filename.name}.mp4')
         encode_movie_proc(str(filename), output_dir)
         time.sleep(3)
         make_feed(output_dir)
-        tweeet('【publish】' + filename.name + '.mp4')
-        slack_post('bot-open', '【publish】' + filename.name + '.mp4')
+        tweeet(f'【publish】{filename.name}.mp4')
+        slack_post('bot-open', f'【publish】{filename.name}.mp4')
         td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
-        return_log.append(td + ' movie encode complete: ' + filename.name + '.mp4')
+        return_log.append(f'{td} movie encode complete: {filename.name}.mp4')
 
     function_log = move_movie(input_dir)
     return_log.append(function_log)
@@ -364,17 +358,17 @@ def encode_movie_in_directory(input_dir, output_dir):
 # 動画エンコードのメイン処理
 def encode_movie_proc(file_path, output_dir, tmpdir='/data/tmp'):
     file_name = pathlib.Path(file_path).name
-    encode_arg = ' -s "960x540" -b:v 1500k -vcodec libx264 -trellis 2 -bf 3 -b_strategy 1 -bidir_refine 1 -crf 25 -g 240 -mbd 2 -me_method umh -subq 6 -qdiff 6 -me_range 32 -sc_threshold 65 -keyint_min 3 -nr 100 -qmin 12 -sn -partitions parti4x4+partp4x4+partp8x8 -f mp4 -coder 1 -movflags faststart -acodec aac -ac 2 -ar 48000 -b:a 128k -async 100 -threads 0 '
-    subprocess.run('/usr/bin/wine ffmpeg3.exe -i "' + str(file_path) + '"' + encode_arg + '"' + tmpdir + '/' + file_name + '.mp4"', shell=True)
-    shutil.move(tmpdir + '/' + file_name + '.mp4', output_dir)
+    encode_arg = '-s "960x540" -b:v 1500k -vcodec libx264 -trellis 2 -bf 3 -b_strategy 1 -bidir_refine 1 -crf 25 -g 240 -mbd 2 -me_method umh -subq 6 -qdiff 6 -me_range 32 -sc_threshold 65 -keyint_min 3 -nr 100 -qmin 12 -sn -partitions parti4x4+partp4x4+partp8x8 -f mp4 -coder 1 -movflags faststart -acodec aac -ac 2 -ar 48000 -b:a 128k -async 100 -threads 0'
+    subprocess.run(f'/usr/bin/wine ffmpeg3.exe -i "{str(file_path)}" {encode_arg} "{tmpdir}/{file_name}.mp4"', shell=True)
+    shutil.move(f'{tmpdir}/{file_name}.mp4', output_dir)
 
 
 # しゅにるスクリプト呼び出し フィード作成(最近のアニメ)
 def make_feed(target_dir):
-    subprocess.run(SCRIPT_DIR +  '/../mkpodcast.rb -t "' + target_dir + '/*.*" -b "http://swirhen.tv/movie/pspmp4/" -o "' + target_dir + '/index.xml" --title "最近のアニメ"', shell=True)
+    subprocess.run(f'{SCRIPT_DIR}/../mkpodcast.rb -t "{target_dir}/*.*" -b "http://swirhen.tv/movie/pspmp4/" -o "{target_dir}/index.xml" --title "最近のアニメ"', shell=True)
 
 
 # しゅにるスクリプト呼び出し フィード作成(任意のディレクトリ、タイトル)
 def make_feed_manually(target_dir, title):
     target_dir_not_parent_dir = pathlib.Path(target_dir).name
-    subprocess.run(SCRIPT_DIR +  '/../mkpodcast.rb -t "' + target_dir + '/*.*" -b "http://swirhen.tv/movie/pspmp4/' + target_dir_not_parent_dir + '/" -o "' + target_dir + '.xml" --title "' + title + '"', shell=True)
+    subprocess.run(f'{SCRIPT_DIR}/../mkpodcast.rb -t "{target_dir}/*.*" -b "http://swirhen.tv/movie/pspmp4/{target_dir_not_parent_dir}/" -o "{target_dir}.xml" --title "{title}"', shell=True)
