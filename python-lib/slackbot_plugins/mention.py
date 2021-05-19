@@ -14,7 +14,8 @@ from slackbot.bot import respond_to
 import swirhentv_util as swiutil
 
 # argment section
-SEED_DOWNLOAD_DIR = '/data/share/temp/torrentsearch'
+SHARE_TEMP_DIR = '/data/share/temp'
+SEED_DOWNLOAD_DIR = f'{SHARE_TEMP_DIR}/torrentsearch'
 DATE = datetime.now().strftime('%Y%m%d')
 
 
@@ -24,14 +25,7 @@ def doya(message):
     message.send('(｀・ω・´)ドヤァ...')
 
 
-@respond_to('^ *test')
-def test(message):
-    message.send('test!')
-    swiutil.slack_upload('bot-sandbox', 'slackbot_run.py')
-    message.reply('おわた(｀・ω・´)')
-
-
-@respond_to('^ seed(.*)')
+@respond_to('^ *seed(.*)')
 def announce_seed_info(message, argment):
     if argment != '':
         past_days = int(argment)
@@ -61,7 +55,52 @@ def announce_seed_info(message, argment):
     message.send(post_str)
 
 
-@respond_to('^ ')
+@respond_to('^ *tdl(.*)')
+def torrent_move_and_download(message, argment):
+    argments = argment.split()
+    seed_dir = ''
+    target_dir = ''
+    keyword = ''
+    if len(argments) > 0:
+        seed_dir = argments[0]
+        target_dir = argments[1]
+        if len(argments) > 2:
+            keyword = argments[2]
+    else:
+        message.send('ひきすうがおかしいよ(´･ω･`)')
+        return 1
+
+    # 種移動元：移動先決定
+    seed_dir = f'{SEED_DOWNLOAD_DIR}/{seed_dir}'
+    if target_dir == 'd':
+        dlist = list(pathlib.Path(SHARE_TEMP_DIR).glob('d2*/'))
+        dlist.sort(key=os.path.getctime, reverse=True)
+        target_dir = dlist[0]
+    elif target_dir == 'm':
+        dlist = list(pathlib.Path(SHARE_TEMP_DIR).glob('c2*/'))
+        dlist.sort(key=os.path.getctime, reverse=True)
+        target_dir = dlist[0]
+    elif target_dir == 'c':
+        dlist = list(pathlib.Path(SHARE_TEMP_DIR).glob('01*/'))
+        dlist.sort(key=os.path.getctime, reverse=True)
+        target_dir = dlist[0]
+    elif target_dir == 'cm':
+        target_dir = list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER CINDERELLA GIRLS').glob('music'))[0]
+    elif target_dir == 'cl':
+        target_dir = list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER CINDERELLA GIRLS').glob('livedvd'))[0]
+    elif target_dir == 'mm':
+        target_dir = list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER MILLION LIVE').glob('music'))[0]
+    elif target_dir == 'ml':
+        target_dir = list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER MILLION LIVE').glob('livedvd'))[0]
+    elif target_dir == 'hm':
+        target_dir = list(pathlib.Path(f'{SHARE_TEMP_DIR}/hololive IDOL PROJECT').glob('music'))[0]
+    elif target_dir == 'hl':
+        target_dir = list(pathlib.Path(f'{SHARE_TEMP_DIR}/hololive IDOL PROJECT').glob('live'))[0]
+    else:
+        message.send('でぃれくとりしていのしかた:\nd: どうじん c: みせいりほん m: えろまんが cm: でれおんがく cl: でれらいぶ mm: みりおんがく ml:みりらいぶ hm:ほろおんがく hl:ほろらいぶ')
+        return 1
+
+    message.send(f'src: {seed_dir.resolve()} dst: {target_dir.resolve()}')
 
 
 # @respond_to('^ *sdl')
