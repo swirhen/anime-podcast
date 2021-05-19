@@ -3,12 +3,9 @@
 # notice: ../slackbot_run.pyから読み込まれるので、カレントディレクトリは1個上の扱い
 # import section
 import os
-import pprint
 
-import sys
 import pathlib
 import subprocess
-import time
 from datetime import datetime
 from slackbot.bot import respond_to
 import swirhentv_util as swiutil
