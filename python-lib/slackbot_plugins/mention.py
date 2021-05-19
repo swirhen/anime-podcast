@@ -7,8 +7,8 @@ import subprocess
 import time
 from datetime import datetime
 from slackbot.bot import respond_to
-current_dir = pathlib.Path(__file__).resolve().parent
-sys.path.append(f'{str(current_dir)}/../')
+# current_dir = pathlib.Path(__file__).resolve().parent
+# sys.path.append(f'{str(current_dir)}/../')
 import swirhentv_util as swiutil
 
 
@@ -21,7 +21,7 @@ def doya(message):
 @respond_to('^ *test')
 def test(message):
     message.send('test!')
-    swiutil.slack_upload('bot-sandbox', '../slackbot_run.py')
+    swiutil.slack_upload('bot-sandbox', 'slackbot_run.py')
     message.reply('おわた(｀・ω・´)')
 
 
