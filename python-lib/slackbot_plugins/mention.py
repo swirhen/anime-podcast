@@ -31,7 +31,7 @@ def test(message):
     message.reply('おわた(｀・ω・´)')
 
 
-@respond_to('^ *seed(.*)')
+@respond_to('^ seed(.*)')
 def announce_seed_info(message, argment):
     if argment != '':
         past_days = int(argment)
@@ -59,6 +59,9 @@ def announce_seed_info(message, argment):
     post_str += '```'
 
     message.send(post_str)
+
+
+@respond_to('^ ')
 
 
 # @respond_to('^ *sdl')
