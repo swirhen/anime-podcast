@@ -43,7 +43,7 @@ def announce_seed_info(message, argment):
         past_days = 3
     message.send(f'あつめた種の情報をおしらせするよ(さいきん{past_days}にちぶん)')
     paths = list(pathlib.Path(SEED_DOWNLOAD_DIR).glob('2*'))
-    paths.sort(key=os.path.getctime, reverse=True)
+    paths.sort(key=os.path.getmtime, reverse=True)
     get_paths = paths[:past_days]
     seed_info = dict()
     for get_path in get_paths:
@@ -89,15 +89,15 @@ def torrent_move_and_download(message, argment):
 
     if target_dir == 'd':
         dlist = list(pathlib.Path(SHARE_TEMP_DIR).glob('d2*/'))
-        dlist.sort(key=os.path.getctime, reverse=True)
+        dlist.sort(key=os.path.getmtime, reverse=True)
         target_dir = dlist[0]
     elif target_dir == 'm':
         dlist = list(pathlib.Path(SHARE_TEMP_DIR).glob('c2*/'))
-        dlist.sort(key=os.path.getctime, reverse=True)
+        dlist.sort(key=os.path.getmtime, reverse=True)
         target_dir = dlist[0]
     elif target_dir == 'c':
         dlist = list(pathlib.Path(SHARE_TEMP_DIR).glob('01*/'))
-        dlist.sort(key=os.path.getctime, reverse=True)
+        dlist.sort(key=os.path.getmtime, reverse=True)
         target_dir = dlist[0]
     elif target_dir == 'cm':
         target_dir = list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER CINDERELLA GIRLS').glob('music'))[0]
