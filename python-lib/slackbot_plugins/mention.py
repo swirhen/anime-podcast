@@ -8,12 +8,14 @@ import pathlib
 import shutil
 import subprocess
 from datetime import datetime
+import time
 from slackbot.bot import respond_to
 import swirhentv_util as swiutil
 
 # argment section
 SHARE_TEMP_DIR = '/data/share/temp'
 SEED_DOWNLOAD_DIR = f'{SHARE_TEMP_DIR}/torrentsearch'
+SEED_BACKUP_DIR = f'{SHARE_TEMP_DIR}/torrentsearch/downloaded'
 DATE = datetime.now().strftime('%Y%m%d')
 
 
@@ -30,7 +32,7 @@ def announce_seed_info(message, argment):
     else:
         past_days = 3
     message.send(f'あつめた種の情報をおしらせするよ(さいきん{past_days}にちぶん)')
-    paths = list(pathlib.Path(SEED_DOWNLOAD_DIR).glob('*'))
+    paths = list(pathlib.Path(SEED_DOWNLOAD_DIR).glob('2*'))
     paths.sort(key=os.path.getctime, reverse=True)
     get_paths = paths[:past_days]
     seed_info = dict()
@@ -94,12 +96,16 @@ def torrent_move_and_download(message, argment):
         target_dir = list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER MILLION LIVE').glob('music'))[0]
     elif target_dir == 'ml':
         target_dir = list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER MILLION LIVE').glob('livedvd'))[0]
+    elif target_dir == 'sm':
+        target_dir = list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER Shiny Colors').glob('music'))[0]
+    elif target_dir == 'sl':
+        target_dir = list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER Shiny Colors').glob('livedvd'))[0]
     elif target_dir == 'hm':
         target_dir = list(pathlib.Path(f'{SHARE_TEMP_DIR}/hololive IDOL PROJECT').glob('music'))[0]
     elif target_dir == 'hl':
         target_dir = list(pathlib.Path(f'{SHARE_TEMP_DIR}/hololive IDOL PROJECT').glob('live'))[0]
     else:
-        message.send('でぃれくとりしていのしかた:\nd: どうじん c: みせいりほん m: えろまんが cm: でれおんがく cl: でれらいぶ mm: みりおんがく ml:みりらいぶ hm:ほろおんがく hl:ほろらいぶ')
+        message.send('でぃれくとりしていのしかた:\nd: どうじん c: みせいりほん m: えろまんが\ncm: でれおんがく cl: でれらいぶ\nmm: みりおんがく ml:みりらいぶ\nsm:しゃにおんがく sl:しゃにらいぶ \nhm:ほろおんがく hl:ほろらいぶ')
         return 1
 
     post_str = ''
@@ -107,14 +113,41 @@ def torrent_move_and_download(message, argment):
     if keyword != '':
         post_str = f' keyword: {keyword}'
         glob_str = f'*{keyword}*'
-    message.send(f'たねのいどう src: {seed_dir.resolve()} dst: {target_dir.resolve()}{post_str}')
+    message.send(f'たねのいどう src: {str(seed_dir)} dst: {str(target_dir)}{post_str}')
 
     seeds = list(pathlib.Path(seed_dir).glob(glob_str))
     for seed in seeds:
         mv = shutil.move(str(seed), str(target_dir))
-        message.send(mv)
 
-    # TODO だうんろーど
+    # 栽培
+    seedlist = list(pathlib.Path(target_dir).glob('*.torrent'))
+    if len(seedlist) == 0:
+        message.send('たねがみつからなかったよ(´･ω･`)')
+        return 1
+
+    message.send('さいばいをかいしするよ(｀･ω･´)')
+
+    proc = subprocess.Popen(f'aria2c --listen-port=38888 --max-upload-limit=200K --seed-ratio=0.01 --seed-time=1 "{str(target_dir)}/"*.torrent', shell=True)
+    time.sleep(10)
+
+    while True:
+        if len(list(pathlib.Path(target_dir).glob('*.aria2'))) == 0:
+            proc.kill()
+            break
+
+        time.sleep(10)
+
+    # seeds backup
+    seeds = []
+    for seed in list(pathlib.Path(target_dir).glob('*.torrent')):
+        seeds.append(seed.name)
+        if not os.path.isfile(f'{SEED_BACKUP_DIR}/{seed.name}'):
+            shutil.move(str(seed), SEED_BACKUP_DIR)
+        else:
+            os.remove(str(seed))
+
+    message.send('おわったよ(｀･ω･´)')
+    message.send('```' + '\n'.join(seeds) + '```')
 
 
 # @respond_to('^ *sdl')
