@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
+import pathlib
 from socket import gethostname
 HOSTNAME=gethostname()
+current_dir = pathlib.Path(__file__).resolve().parent
 
-with open('slack_api_token') as apifile:
+with open(f'{str(current_dir)}/slack_api_token') as apifile:
     API_TOKEN = apifile.read().splitlines()
 
 default_reply = "slackbot ( " + HOSTNAME + " )は起動しています"
