@@ -12,41 +12,41 @@ sys.path.append(f'{str(current_dir)}/../')
 import swirhentv_util as swiutil
 
 
-@respond_to('^ *‚Å‚©‚µ‚½.*')
-@respond_to('^ *‚æ‚­‚â‚Á‚½.*')
+@respond_to('^ *ã§ã‹ã—ãŸ.*')
+@respond_to('^ *ã‚ˆãã‚„ã£ãŸ.*')
 def doya(message):
-    message.send('(MEƒÖEL)ƒhƒ„ƒ@...')
+    message.send('(ï½€ãƒ»Ï‰ãƒ»Â´)ãƒ‰ãƒ¤ã‚¡...')
 
 
 @respond_to('^ *test')
 def test(message):
     message.send('test!')
     swiutil.slack_upload('bot-sandbox', '../slackbot_run.py')
-    message.reply('‚¨‚í‚½(MEƒÖEL)')
+    message.reply('ãŠã‚ãŸ(ï½€ãƒ»Ï‰ãƒ»Â´)')
 
 
 # @respond_to('^ *sdl')
 # def seed_download(message):
-#     message.send('‚â‚é[')
+#     message.send('ã‚„ã‚‹ãƒ¼')
 #     resultfile = "/data/share/movie/sh/autodl.result"
 #     cmd = '/data/share/movie/sh/autodl.sh 1'
 #     call_cmd(cmd)
 #     if os.path.exists(resultfile):
 #         result = open(resultfile).read()
-#         message.reply('‚¨‚í‚½(MEƒÖEL)\n```' + 'download seeds:\n' + result + '```')
+#         message.reply('ãŠã‚ãŸ(ï½€ãƒ»Ï‰ãƒ»Â´)\n```' + 'download seeds:\n' + result + '```')
 #     else:
-#         message.send('‚¨‚í‚½(LEƒÖE`)')
+#         message.send('ãŠã‚ãŸ(Â´ãƒ»Ï‰ãƒ»`)')
 #
 #
 # @respond_to('^ *tdl')
 # def torrent_download(message):
-#     message.send('‚â‚é[')
+#     message.send('ã‚„ã‚‹ãƒ¼')
 #     launch_dt = datetime.now().strftime('%Y%m%d%H%M%S')
 #     logfile = 'temp/torrent_download_' + launch_dt + '.temp'
 #     filetitle = 'torrent_download_' + launch_dt
 #     cmd = './tdl.sh &> {0}'.format(logfile)
 #     call_cmd(cmd)
-#     message.reply('‚¨‚í‚½(MEƒÖEL)')
+#     message.reply('ãŠã‚ãŸ(ï½€ãƒ»Ï‰ãƒ»Â´)')
 #     time.sleep(1)
 #     file_upload(logfile, filetitle, 'text', message)
 #     time.sleep(1)
@@ -55,13 +55,13 @@ def test(message):
 #
 # @respond_to('^ *mre')
 # def movie_rename(message):
-#     message.send('‚â‚é[')
+#     message.send('ã‚„ã‚‹ãƒ¼')
 #     launch_dt = datetime.now().strftime('%Y%m%d%H%M%S')
 #     logfile = 'temp/mre' + launch_dt + '.temp'
 #     filetitle = 'movie_rename_' + launch_dt
 #     cmd = './mre.sh &> {0}'.format(logfile)
 #     call_cmd(cmd)
-#     message.reply('‚¨‚í‚½(MEƒÖEL)')
+#     message.reply('ãŠã‚ãŸ(ï½€ãƒ»Ï‰ãƒ»Â´)')
 #     time.sleep(1)
 #     file_upload(logfile, filetitle, 'text', message)
 #     time.sleep(1)
@@ -70,13 +70,13 @@ def test(message):
 #
 # @respond_to('^ *rmm')
 # def movie_rename2(message):
-#     message.send('‚â‚é[')
+#     message.send('ã‚„ã‚‹ãƒ¼')
 #     launch_dt = datetime.now().strftime('%Y%m%d%H%M%S')
 #     logfile = 'temp/rmm_' + launch_dt + '.temp'
 #     filetitle = 'movie_rename_' + launch_dt
 #     cmd = './rmm.sh &> {0}'.format(logfile)
 #     call_cmd(cmd)
-#     message.reply('‚¨‚í‚½(MEƒÖEL)')
+#     message.reply('ãŠã‚ãŸ(ï½€ãƒ»Ï‰ãƒ»Â´)')
 #     time.sleep(1)
 #     file_upload(logfile, filetitle, 'text', message)
 #     time.sleep(1)
@@ -85,16 +85,16 @@ def test(message):
 #
 # @respond_to('^ *ae')
 # def auto_encode(message):
-#     message.send('‚â‚é[')
+#     message.send('ã‚„ã‚‹ãƒ¼')
 #     launch_dt = datetime.now().strftime('%Y/%m/%d %H:%M:%S')
 #     cmd = '/data/share/movie/sh/169f.sh'
 #     call_cmd(cmd)
-#     message.reply('‚¨‚í‚½(MEƒÖEL) (' + launch_dt + ' ‚©‚¢‚µ‚Ì ‚¨[‚Æ‚¦‚ñ‚±[‚Ç)')
+#     message.reply('ãŠã‚ãŸ(ï½€ãƒ»Ï‰ãƒ»Â´) (' + launch_dt + ' ã‹ã„ã—ã® ãŠãƒ¼ã¨ãˆã‚“ã“ãƒ¼ã©)')
 #
 #
 # @respond_to('^ *tss (.*)')
 # def torrent_search(message, argment):
-#     message.send('‚³‚ª‚·[')
+#     message.send('ã•ãŒã™ãƒ¼')
 #     launch_dt = datetime.now().strftime('%Y%m%d%H%M%S')
 #     logfile = 'temp/tss_' + launch_dt + '.temp'
 #     filetitle = 'seed_search_result_' + launch_dt
@@ -102,10 +102,10 @@ def test(message):
 #     call_cmd(cmd)
 #     result = open(logfile).read()
 #     if result == 'no result.':
-#         message.send('‚È‚©‚Á‚½‚æ(LEƒÖE`)')
+#         message.send('ãªã‹ã£ãŸã‚ˆ(Â´ãƒ»Ï‰ãƒ»`)')
 #         os.remove(logfile)
 #     else:
-#         message.reply('‚ ‚Á‚½‚æ(MEƒÖEL)')
+#         message.reply('ã‚ã£ãŸã‚ˆ(ï½€ãƒ»Ï‰ãƒ»Â´)')
 #         time.sleep(1)
 #         file_upload(logfile, filetitle, 'text', message)
 #         time.sleep(1)
@@ -114,7 +114,7 @@ def test(message):
 #
 # @respond_to('^ *nico (.*)')
 # def torrent_search(message, argment):
-#     message.send('‚³‚ª‚·[')
+#     message.send('ã•ãŒã™ãƒ¼')
 #     launch_dt = datetime.now().strftime('%Y%m%d%H%M%S')
 #     logfile = 'temp/nico_' + launch_dt + '.temp'
 #     filetitle = 'niconico_search_result_' + launch_dt
@@ -122,10 +122,10 @@ def test(message):
 #     call_cmd(cmd)
 #     result = open(logfile).read()
 #     if result == '':
-#         message.send('‚È‚©‚Á‚½‚æ(LEƒÖE`)')
+#         message.send('ãªã‹ã£ãŸã‚ˆ(Â´ãƒ»Ï‰ãƒ»`)')
 #         os.remove(logfile)
 #     else:
-#         message.reply('‚ ‚Á‚½‚æ(MEƒÖEL)')
+#         message.reply('ã‚ã£ãŸã‚ˆ(ï½€ãƒ»Ï‰ãƒ»Â´)')
 #         time.sleep(1)
 #         file_upload(logfile, filetitle, 'text', message)
 #         time.sleep(1)
@@ -134,12 +134,12 @@ def test(message):
 #
 # @respond_to('^ *il (.*)')
 # def insert_list(message, argment):
-#     message.send('ƒŠƒXƒg‚É‚Â‚¢‚©‚·‚é‚Å(/data/share/movie/sh/checklist.txt)')
+#     message.send('ãƒªã‚¹ãƒˆã«ã¤ã„ã‹ã™ã‚‹ã§(/data/share/movie/sh/checklist.txt)')
 #     launch_dt = datetime.now().strftime('%Y%m%d%H%M%S')
 #     logfile = 'temp/insert_list_' + launch_dt + '.temp'
 #     cmd = './chklist_mod.sh i "{0}" > {1}'.format(argment.replace(' ', '_').replace(',', '" "'), logfile)
 #     call_cmd(cmd)
-#     message.reply('‚¨‚ ‚èB')
+#     message.reply('ãŠã‚ã‚Šã€‚')
 #     time.sleep(1)
 #     file_upload(logfile, logfile, 'text', message)
 #     time.sleep(1)
@@ -148,12 +148,12 @@ def test(message):
 #
 # @respond_to('^ *dl (.*)')
 # def delete_list(message, argment):
-#     message.send('ƒŠƒXƒg‚©‚ç‚³‚­‚¶‚å‚·‚é‚Å(/data/share/movie/sh/checklist.txt)')
+#     message.send('ãƒªã‚¹ãƒˆã‹ã‚‰ã•ãã˜ã‚‡ã™ã‚‹ã§(/data/share/movie/sh/checklist.txt)')
 #     launch_dt = datetime.now().strftime('%Y%m%d%H%M%S')
 #     logfile = 'temp/delete_list_' + launch_dt + '.temp'
 #     cmd = './chklist_mod.sh d "{0}" > {1}'.format(argment.replace(' ', '_').replace(',', '" "'), logfile)
 #     call_cmd(cmd)
-#     message.reply('‚¨‚ ‚èB')
+#     message.reply('ãŠã‚ã‚Šã€‚')
 #     time.sleep(1)
 #     file_upload(logfile, logfile, 'text', message)
 #     time.sleep(1)
@@ -171,12 +171,12 @@ def test(message):
 #         else:
 #             wordlist.append(arg)
 #
-#     message.send('ƒŠƒXƒg‚É‚Â‚¢‚©‚·‚é‚Å(' + listpath + ')')
+#     message.send('ãƒªã‚¹ãƒˆã«ã¤ã„ã‹ã™ã‚‹ã§(' + listpath + ')')
 #     launch_dt = datetime.now().strftime('%Y%m%d%H%M%S')
 #     logfile = 'temp/insert_list_manual_' + launch_dt + '.temp'
 #     cmd = './common_list_mod.sh "{0}" i "{1}" > {2}'.format(listpath, '_'.join(wordlist).replace(',', '" "'), logfile)
 #     call_cmd(cmd)
-#     message.reply('‚¨‚ ‚èB')
+#     message.reply('ãŠã‚ã‚Šã€‚')
 #     time.sleep(1)
 #     file_upload(logfile, logfile, 'text', message)
 #     time.sleep(1)
@@ -194,12 +194,12 @@ def test(message):
 #         else:
 #             wordlist.append(arg)
 #
-#     message.send('ƒŠƒXƒg‚©‚ç‚³‚­‚¶‚å‚·‚é‚Å(' + listpath + ')')
+#     message.send('ãƒªã‚¹ãƒˆã‹ã‚‰ã•ãã˜ã‚‡ã™ã‚‹ã§(' + listpath + ')')
 #     launch_dt = datetime.now().strftime('%Y%m%d%H%M%S')
 #     logfile = 'temp/delete_list_manual_' + launch_dt + '.temp'
 #     cmd = './common_list_mod.sh "{0}" d "{1}" > {2}'.format(listpath, '_'.join(wordlist).replace(',', '" "'), logfile)
 #     call_cmd(cmd)
-#     message.reply('‚¨‚ ‚èB')
+#     message.reply('ãŠã‚ã‚Šã€‚')
 #     time.sleep(1)
 #     file_upload(logfile, logfile, 'text', message)
 #     time.sleep(1)
@@ -208,21 +208,21 @@ def test(message):
 #
 # @respond_to('^ *reload.*')
 # def reload(message):
-#     message.reply(slackbot_settings.HOSTNAME + ' slackbot ©ŒÈXV‚µ‚Ü‚·')
+#     message.reply(slackbot_settings.HOSTNAME + ' slackbot è‡ªå·±æ›´æ–°ã—ã¾ã™')
 #     cmd = './update.sh 2 ' + message._body['channel']
 #     call_cmd(cmd)
 #
 #
 # @respond_to('^ *reboot.*')
 # def reboot(message):
-#     message.reply(slackbot_settings.HOSTNAME + ' slackbot Ä‹N“®‚µ‚Ü‚·')
+#     message.reply(slackbot_settings.HOSTNAME + ' slackbot å†èµ·å‹•ã—ã¾ã™')
 #     cmd = './update.sh 0 ' + message._body['channel']
 #     call_cmd(cmd)
 #
 #
 # @respond_to('^ *update.*')
 # def update(message):
-#     message.reply(slackbot_settings.HOSTNAME + ' slackbot ©ŒÈXV & Ä‹N“®‚µ‚Ü‚·')
+#     message.reply(slackbot_settings.HOSTNAME + ' slackbot è‡ªå·±æ›´æ–° & å†èµ·å‹•ã—ã¾ã™')
 #     cmd = './update.sh 1 ' + message._body['channel']
 #     call_cmd(cmd)
 
