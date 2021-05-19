@@ -29,8 +29,9 @@ def test(message):
     message.reply('おわた(｀・ω・´)')
 
 
-@respond_to('^ *seed (.*)')
-def announce_seed_info(message, past_days=3):
+@respond_to('^ *seed(.*)')
+def announce_seed_info(message, argment='3'):
+    past_days = argment.strip()
     message.send(f'ちょっきん{past_days}日間にあつめた種の情報をおしらせするよ')
     message.send(f'みじっそうだよーべろべろー')
 
