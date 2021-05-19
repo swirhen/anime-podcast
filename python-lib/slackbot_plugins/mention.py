@@ -127,7 +127,7 @@ def torrent_move_and_download(message, argment):
 
     message.send('さいばいをかいしするよ(｀･ω･´)')
 
-    proc = subprocess.Popen(f'aria2c --listen-port=38888 --max-upload-limit=200K --seed-ratio=0.01 --seed-time=1 "{str(target_dir)}/"*.torrent', shell=True)
+    proc = subprocess.Popen(f'aria2c --listen-port=38888 --max-upload-limit=200K --seed-ratio=0.01 --seed-time=1 --dir="{str(target_dir)}" "{str(target_dir)}/"*.torrent', shell=True)
     time.sleep(10)
 
     while True:
