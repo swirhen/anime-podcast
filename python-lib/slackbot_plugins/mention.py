@@ -1,5 +1,7 @@
 # swirhen.tv slackbot
 # mention plugin
+# notice: ../slackbot_run.pyから読み込まれるので、カレントディレクトリは1個上の扱い
+# import section
 import os
 import sys
 import pathlib
@@ -7,9 +9,11 @@ import subprocess
 import time
 from datetime import datetime
 from slackbot.bot import respond_to
-# current_dir = pathlib.Path(__file__).resolve().parent
-# sys.path.append(f'{str(current_dir)}/../')
 import swirhentv_util as swiutil
+
+# argment section
+SEED_DOWNLOAD_DIR = '/data/share/temp/torrentsearch'
+DATE = datetime.now().strftime('%Y%m%d')
 
 
 @respond_to('^ *でかした.*')
@@ -23,6 +27,12 @@ def test(message):
     message.send('test!')
     swiutil.slack_upload('bot-sandbox', 'slackbot_run.py')
     message.reply('おわた(｀・ω・´)')
+
+
+@respond_to('^ *seed (.*)')
+def announce_seed_info(message, past_days=3):
+    message.send(f'ちょっきん{past_days}日間にあつめた種の情報をおしらせするよ')
+    message.send(f'みじっそうだよーべろべろー')
 
 
 # @respond_to('^ *sdl')
