@@ -77,7 +77,8 @@ def torrent_move_and_download(message, argment):
         if len(argments) > 2:
             keyword = argments[2]
     else:
-        message.send('ひきすうがおかしいよ(´･ω･`)')
+        message.send('つかいかた(´･ω･`)\ntdl [たねのあるディレクトリ] [いどうさきのディレクトリ] [いどうするたねをしぼりこむキーワード]\n')
+        message.send('でぃれくとりしていのしかた:\nd: どうじん c: みせいりほん m: えろまんが\ncm: でれおんがく cl: でれらいぶ\nmm: みりおんがく ml:みりらいぶ\nsm:しゃにおんがく sl:しゃにらいぶ \nhm:ほろおんがく hl:ほろらいぶ\nもしくは ふるぱすもじれつ')
         return 1
 
     # 種移動元：移動先決定
@@ -167,7 +168,7 @@ def torrent_search(message, argment):
         if len(argments) > 1:
             target_category = argments[1]
     else:
-        message.send('ひきすうがおかしいよ(´･ω･`)')
+        message.send('つかいかた(´･ω･`)\nts [けんさくキーワード] [たいしょうカテゴリ]\nカテゴリ: doujin/manga/music/comic/live/all\n(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ/ぜんぶ)')
         return 1
 
     message.send(f'さがしてくるよ(｀･ω･´)\nたいしょうカテゴリ: {target_category} きーわーど: {keyword}')
