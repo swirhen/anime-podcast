@@ -30,8 +30,11 @@ def test(message):
 
 
 @respond_to('^ *seed(.*)')
-def announce_seed_info(message, argment='3'):
-    past_days = int(argment)
+def announce_seed_info(message, argment):
+    if argment != '':
+        past_days = int(argment)
+    else:
+        past_days = 3
     message.send(f'ちょっきん{past_days}日間にあつめた種の情報をおしらせするよ')
     message.send(f'みじっそうだよーべろべろー')
 
