@@ -3,6 +3,8 @@
 # notice: ../slackbot_run.pyから読み込まれるので、カレントディレクトリは1個上の扱い
 # import section
 import os
+import pprint
+
 import sys
 import pathlib
 import subprocess
@@ -37,6 +39,7 @@ def announce_seed_info(message, argment):
         past_days = 3
     message.send(f'あつめた種の情報をおしらせするよ(さいきん{past_days}にちぶん)')
     paths = list(pathlib.Path(SEED_DOWNLOAD_DIR).glob('*'))
+    pprint.pprint(paths)
     paths.sort(key=os.path.getctime(), reverse=True)
     get_paths = paths[:past_days]
     seed_info = dict()
