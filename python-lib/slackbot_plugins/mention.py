@@ -42,8 +42,7 @@ def announce_seed_info(message, argment):
     else:
         past_days = 3
     message.send(f'あつめた種の情報をおしらせするよ(さいきん{past_days}にちぶん)')
-    paths = list(pathlib.Path(SEED_DOWNLOAD_DIR).glob('2*'))
-    paths.sort(key=os.path.getmtime, reverse=True)
+    paths = sorted(list(pathlib.Path(SEED_DOWNLOAD_DIR).glob('2*')), reverse=True)
     get_paths = paths[:past_days]
     seed_info = dict()
     for get_path in get_paths:
@@ -88,17 +87,11 @@ def torrent_move_and_download(message, argment):
         seed_dir = pathlib.Path(f'{SEED_DOWNLOAD_DIR}/{seed_dir}')
 
     if target_dir == 'd':
-        dlist = list(pathlib.Path(SHARE_TEMP_DIR).glob('d2*/'))
-        dlist.sort(key=os.path.getmtime, reverse=True)
-        target_dir = dlist[0]
+        target_dir = sorted(list(pathlib.Path(SHARE_TEMP_DIR).glob('d2*/')), reverse=True)[0]
     elif target_dir == 'm':
-        dlist = list(pathlib.Path(SHARE_TEMP_DIR).glob('c2*/'))
-        dlist.sort(key=os.path.getmtime, reverse=True)
-        target_dir = dlist[0]
+        target_dir = sorted(list(pathlib.Path(SHARE_TEMP_DIR).glob('c2*/')), reverse=True)[0]
     elif target_dir == 'c':
-        dlist = list(pathlib.Path(SHARE_TEMP_DIR).glob('01*/'))
-        dlist.sort(key=os.path.getmtime, reverse=True)
-        target_dir = dlist[0]
+        target_dir = list(pathlib.Path(SHARE_TEMP_DIR).glob('01*/'))[0]
     elif target_dir == 'cm':
         target_dir = list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER CINDERELLA GIRLS').glob('music'))[0]
     elif target_dir == 'cl':
@@ -115,8 +108,10 @@ def torrent_move_and_download(message, argment):
         target_dir = list(pathlib.Path(f'{SHARE_TEMP_DIR}/hololive IDOL PROJECT').glob('music'))[0]
     elif target_dir == 'hl':
         target_dir = list(pathlib.Path(f'{SHARE_TEMP_DIR}/hololive IDOL PROJECT').glob('live'))[0]
+    elif os.path.isdir(pathlib.Path(target_dir)):
+        print('target_dir fullpath check: OK')
     else:
-        message.send('でぃれくとりしていのしかた:\nd: どうじん c: みせいりほん m: えろまんが\ncm: でれおんがく cl: でれらいぶ\nmm: みりおんがく ml:みりらいぶ\nsm:しゃにおんがく sl:しゃにらいぶ \nhm:ほろおんがく hl:ほろらいぶ')
+        message.send('でぃれくとりしていのしかた:\nd: どうじん c: みせいりほん m: えろまんが\ncm: でれおんがく cl: でれらいぶ\nmm: みりおんがく ml:みりらいぶ\nsm:しゃにおんがく sl:しゃにらいぶ \nhm:ほろおんがく hl:ほろらいぶ\nもしくは ふるぱすもじれつ')
         return 1
 
     post_str = ''
