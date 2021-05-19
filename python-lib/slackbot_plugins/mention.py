@@ -5,6 +5,7 @@
 import os
 
 import pathlib
+import shutil
 import subprocess
 from datetime import datetime
 from slackbot.bot import respond_to
@@ -58,7 +59,7 @@ def torrent_move_and_download(message, argment):
     seed_dir = ''
     target_dir = ''
     keyword = ''
-    if len(argments) > 0:
+    if len(argments) > 1:
         seed_dir = argments[0]
         target_dir = argments[1]
         if len(argments) > 2:
@@ -101,7 +102,18 @@ def torrent_move_and_download(message, argment):
         message.send('でぃれくとりしていのしかた:\nd: どうじん c: みせいりほん m: えろまんが cm: でれおんがく cl: でれらいぶ mm: みりおんがく ml:みりらいぶ hm:ほろおんがく hl:ほろらいぶ')
         return 1
 
-    message.send(f'src: {seed_dir.resolve()} dst: {target_dir.resolve()}')
+    post_str = ''
+    glob_str = '*'
+    if keyword != '':
+        post_str = f' keyword: {keyword}'
+        glob_str = f'*{keyword}*'
+    message.send(f'たねのいどう src: {seed_dir.resolve()} dst: {target_dir.resolve()}{post_str}')
+
+    seeds = list(pathlib.Path(seed_dir).glob(glob_str))
+    for seed in seeds:
+        shutil.move(seed, target_dir)
+
+    # TODO だうんろーど
 
 
 # @respond_to('^ *sdl')
