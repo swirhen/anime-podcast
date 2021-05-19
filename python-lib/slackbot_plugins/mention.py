@@ -54,7 +54,7 @@ def announce_seed_info(message, argment):
     for dir in seed_info:
         post_str += f'directory {dir} in seeds:\n'
         for seed in seed_info[dir]:
-            post_str += f'{seed}\n'
+            post_str += f'    {seed}\n'
 
     post_str += '```'
 
