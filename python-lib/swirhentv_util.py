@@ -290,6 +290,13 @@ def move_movie_proc(file_path):
     return '\n'.join(return_log)
 
 
+# 文字列カット(指定バイト数より多い場合文字単位で削除)
+def truncate(in_str, num_bytes, encoding='utf-8'):
+    while len(in_str.encode(encoding)) > num_bytes:
+        in_str = in_str[:-1]
+    return str
+
+
 # トレント栽培
 def torrent_download(filepath, slack_channel='bot-open'):
     os.chdir(filepath)

@@ -234,7 +234,7 @@ def main():
     # seedダウンロード・seed育成処理開始
     for download in downloads:
         link = download[0]
-        title = download[1]
+        title = swiutil.truncate(download[1].translate(str.maketrans('/;!','___')), 247)
         urllib.request.urlretrieve(link, f'{DOWNLOAD_DIR}/{title}.torrent')
 
     function_log = swiutil.torrent_download(DOWNLOAD_DIR)

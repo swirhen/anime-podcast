@@ -186,7 +186,7 @@ def torrent_search(message, argment):
             hit_flag = 1
             if not os.path.isdir(TODAY_DOWNLOAD_DIR):
                 os.mkdir(TODAY_DOWNLOAD_DIR)
-            item_title = item_title.translate(str.maketrans('/;!','___'))
+            item_title = swiutil.truncate(item_title.translate(str.maketrans('/;!','___')), 247)
             hit_result.append([item_category, item_title, keyword])
             urllib.request.urlretrieve(item_link, f'{TODAY_DOWNLOAD_DIR}/{item_title}.torrent')
             swiutil.writefile_append(DL_URL_LIST_FILE, item_link)
