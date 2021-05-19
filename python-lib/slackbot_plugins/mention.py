@@ -35,8 +35,28 @@ def announce_seed_info(message, argment):
         past_days = int(argment)
     else:
         past_days = 3
-    message.send(f'ちょっきん{past_days}日間にあつめた種の情報をおしらせするよ')
-    message.send(f'みじっそうだよーべろべろー')
+    message.send(f'あつめた種の情報をおしらせするよ(さいきん{past_days}にちぶん)')
+    paths = list(pathlib.Path(SEED_DOWNLOAD_DIR).glob('*'))
+    paths.sort(key=os.path.getctime(), reverse=True)
+    get_paths = paths[:past_days]
+    seed_info = dict()
+    for get_path in get_paths:
+        if not get_path.name in seed_info:
+            seed_info[get_path.name] = []
+
+        seed_list = list(pathlib.Path(get_path).glob('*'))
+        for seed in seed_list:
+            seed_info[get_path.name].append(seed.name)
+
+    post_str = '```'
+    for dir in seed_info:
+        post_str += f'directory {dir} in seeds:\n'
+        for seed in seed_info[dir]:
+            post_str += f'{seed}\n'
+
+    post_str += '```'
+
+    message.send(post_str)
 
 
 # @respond_to('^ *sdl')
