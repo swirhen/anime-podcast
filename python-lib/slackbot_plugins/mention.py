@@ -3,20 +3,29 @@
 # notice: ../slackbot_run.pyから読み込まれるので、カレントディレクトリは1個上の扱い
 # import section
 import os
-
+import re
+import sys
 import pathlib
 import shutil
 import subprocess
 from datetime import datetime
 import time
+import git
+import urllib.request
 from slackbot.bot import respond_to
 import swirhentv_util as swiutil
+sys.path.append('/home/swirhen/sh/checker/torrentsearch')
+import torrentsearch as trsc
 
 # argment section
 SHARE_TEMP_DIR = '/data/share/temp'
 SEED_DOWNLOAD_DIR = f'{SHARE_TEMP_DIR}/torrentsearch'
 SEED_BACKUP_DIR = f'{SHARE_TEMP_DIR}/torrentsearch/downloaded'
-DATE = datetime.now().strftime('%Y%m%d')
+TDATETIME = datetime.now()
+DATE = TDATETIME.strftime('%Y%m%d')
+TODAY_DOWNLOAD_DIR = f'/data/share/temp/torrentsearch/{DATE}'
+DL_URL_LIST_FILE = f'/home/swirhen/sh/checker/torrentsearch/download_url.txt'
+GIT_ROOT_DIR = '/home/swirhen/sh'
 
 
 @respond_to('^ *でかした.*')
@@ -25,6 +34,7 @@ def doya(message):
     message.send('(｀・ω・´)ドヤァ...')
 
 
+# 最近の自動取得seed問い合わせ
 @respond_to('^ *seed(.*)')
 def announce_seed_info(message, argment):
     if argment != '':
@@ -55,6 +65,7 @@ def announce_seed_info(message, argment):
     message.send(post_str)
 
 
+# 取得seedを移動、栽培
 @respond_to('^ *tdl(.*)')
 def torrent_move_and_download(message, argment):
     argments = argment.split()
@@ -150,213 +161,56 @@ def torrent_move_and_download(message, argment):
     message.send('```' + '\n'.join(seeds) + '```')
 
 
-# @respond_to('^ *sdl')
-# def seed_download(message):
-#     message.send('やるー')
-#     resultfile = "/data/share/movie/sh/autodl.result"
-#     cmd = '/data/share/movie/sh/autodl.sh 1'
-#     call_cmd(cmd)
-#     if os.path.exists(resultfile):
-#         result = open(resultfile).read()
-#         message.reply('おわた(｀・ω・´)\n```' + 'download seeds:\n' + result + '```')
-#     else:
-#         message.send('おわた(´・ω・`)')
-#
-#
-# @respond_to('^ *tdl')
-# def torrent_download(message):
-#     message.send('やるー')
-#     launch_dt = datetime.now().strftime('%Y%m%d%H%M%S')
-#     logfile = 'temp/torrent_download_' + launch_dt + '.temp'
-#     filetitle = 'torrent_download_' + launch_dt
-#     cmd = './tdl.sh &> {0}'.format(logfile)
-#     call_cmd(cmd)
-#     message.reply('おわた(｀・ω・´)')
-#     time.sleep(1)
-#     file_upload(logfile, filetitle, 'text', message)
-#     time.sleep(1)
-#     os.remove(logfile)
-#
-#
-# @respond_to('^ *mre')
-# def movie_rename(message):
-#     message.send('やるー')
-#     launch_dt = datetime.now().strftime('%Y%m%d%H%M%S')
-#     logfile = 'temp/mre' + launch_dt + '.temp'
-#     filetitle = 'movie_rename_' + launch_dt
-#     cmd = './mre.sh &> {0}'.format(logfile)
-#     call_cmd(cmd)
-#     message.reply('おわた(｀・ω・´)')
-#     time.sleep(1)
-#     file_upload(logfile, filetitle, 'text', message)
-#     time.sleep(1)
-#     os.remove(logfile)
-#
-#
-# @respond_to('^ *rmm')
-# def movie_rename2(message):
-#     message.send('やるー')
-#     launch_dt = datetime.now().strftime('%Y%m%d%H%M%S')
-#     logfile = 'temp/rmm_' + launch_dt + '.temp'
-#     filetitle = 'movie_rename_' + launch_dt
-#     cmd = './rmm.sh &> {0}'.format(logfile)
-#     call_cmd(cmd)
-#     message.reply('おわた(｀・ω・´)')
-#     time.sleep(1)
-#     file_upload(logfile, filetitle, 'text', message)
-#     time.sleep(1)
-#     os.remove(logfile)
-#
-#
-# @respond_to('^ *ae')
-# def auto_encode(message):
-#     message.send('やるー')
-#     launch_dt = datetime.now().strftime('%Y/%m/%d %H:%M:%S')
-#     cmd = '/data/share/movie/sh/169f.sh'
-#     call_cmd(cmd)
-#     message.reply('おわた(｀・ω・´) (' + launch_dt + ' かいしの おーとえんこーど)')
-#
-#
-# @respond_to('^ *tss (.*)')
-# def torrent_search(message, argment):
-#     message.send('さがすー')
-#     launch_dt = datetime.now().strftime('%Y%m%d%H%M%S')
-#     logfile = 'temp/tss_' + launch_dt + '.temp'
-#     filetitle = 'seed_search_result_' + launch_dt
-#     cmd = './tss.sh {0} > {1}'.format(argment, logfile)
-#     call_cmd(cmd)
-#     result = open(logfile).read()
-#     if result == 'no result.':
-#         message.send('なかったよ(´・ω・`)')
-#         os.remove(logfile)
-#     else:
-#         message.reply('あったよ(｀・ω・´)')
-#         time.sleep(1)
-#         file_upload(logfile, filetitle, 'text', message)
-#         time.sleep(1)
-#         os.remove(logfile)
-#
-#
-# @respond_to('^ *nico (.*)')
-# def torrent_search(message, argment):
-#     message.send('さがすー')
-#     launch_dt = datetime.now().strftime('%Y%m%d%H%M%S')
-#     logfile = 'temp/nico_' + launch_dt + '.temp'
-#     filetitle = 'niconico_search_result_' + launch_dt
-#     cmd = '/data/share/temp/voiceactor_nico_ch/sls_crawlnicoch.sh "{0}" > {1}'.format(argment, logfile)
-#     call_cmd(cmd)
-#     result = open(logfile).read()
-#     if result == '':
-#         message.send('なかったよ(´・ω・`)')
-#         os.remove(logfile)
-#     else:
-#         message.reply('あったよ(｀・ω・´)')
-#         time.sleep(1)
-#         file_upload(logfile, filetitle, 'text', message)
-#         time.sleep(1)
-#         os.remove(logfile)
-#
-#
-# @respond_to('^ *il (.*)')
-# def insert_list(message, argment):
-#     message.send('リストについかするで(/data/share/movie/sh/checklist.txt)')
-#     launch_dt = datetime.now().strftime('%Y%m%d%H%M%S')
-#     logfile = 'temp/insert_list_' + launch_dt + '.temp'
-#     cmd = './chklist_mod.sh i "{0}" > {1}'.format(argment.replace(' ', '_').replace(',', '" "'), logfile)
-#     call_cmd(cmd)
-#     message.reply('おあり。')
-#     time.sleep(1)
-#     file_upload(logfile, logfile, 'text', message)
-#     time.sleep(1)
-#     os.remove(logfile)
-#
-#
-# @respond_to('^ *dl (.*)')
-# def delete_list(message, argment):
-#     message.send('リストからさくじょするで(/data/share/movie/sh/checklist.txt)')
-#     launch_dt = datetime.now().strftime('%Y%m%d%H%M%S')
-#     logfile = 'temp/delete_list_' + launch_dt + '.temp'
-#     cmd = './chklist_mod.sh d "{0}" > {1}'.format(argment.replace(' ', '_').replace(',', '" "'), logfile)
-#     call_cmd(cmd)
-#     message.reply('おあり。')
-#     time.sleep(1)
-#     file_upload(logfile, logfile, 'text', message)
-#     time.sleep(1)
-#     os.remove(logfile)
-#
-#
-# @respond_to('^ *ilm (.*)')
-# def insert_list_manual(message, argment):
-#     args = argment.split()
-#     listpath = args[0]
-#     wordlist = []
-#     for i, arg in enumerate(args):
-#         if i < 1:
-#             pass
-#         else:
-#             wordlist.append(arg)
-#
-#     message.send('リストについかするで(' + listpath + ')')
-#     launch_dt = datetime.now().strftime('%Y%m%d%H%M%S')
-#     logfile = 'temp/insert_list_manual_' + launch_dt + '.temp'
-#     cmd = './common_list_mod.sh "{0}" i "{1}" > {2}'.format(listpath, '_'.join(wordlist).replace(',', '" "'), logfile)
-#     call_cmd(cmd)
-#     message.reply('おあり。')
-#     time.sleep(1)
-#     file_upload(logfile, logfile, 'text', message)
-#     time.sleep(1)
-#     os.remove(logfile)
-#
-#
-# @respond_to('^ *dlm (.*)')
-# def delete_list_manual(message, argment):
-#     args = argment.split()
-#     listpath = args[0]
-#     wordlist = []
-#     for i, arg in enumerate(args):
-#         if i < 1:
-#             pass
-#         else:
-#             wordlist.append(arg)
-#
-#     message.send('リストからさくじょするで(' + listpath + ')')
-#     launch_dt = datetime.now().strftime('%Y%m%d%H%M%S')
-#     logfile = 'temp/delete_list_manual_' + launch_dt + '.temp'
-#     cmd = './common_list_mod.sh "{0}" d "{1}" > {2}'.format(listpath, '_'.join(wordlist).replace(',', '" "'), logfile)
-#     call_cmd(cmd)
-#     message.reply('おあり。')
-#     time.sleep(1)
-#     file_upload(logfile, logfile, 'text', message)
-#     time.sleep(1)
-#     os.remove(logfile)
-#
-#
-# @respond_to('^ *reload.*')
-# def reload(message):
-#     message.reply(slackbot_settings.HOSTNAME + ' slackbot 自己更新します')
-#     cmd = './update.sh 2 ' + message._body['channel']
-#     call_cmd(cmd)
-#
-#
-# @respond_to('^ *reboot.*')
-# def reboot(message):
-#     message.reply(slackbot_settings.HOSTNAME + ' slackbot 再起動します')
-#     cmd = './update.sh 0 ' + message._body['channel']
-#     call_cmd(cmd)
-#
-#
-# @respond_to('^ *update.*')
-# def update(message):
-#     message.reply(slackbot_settings.HOSTNAME + ' slackbot 自己更新 & 再起動します')
-#     cmd = './update.sh 1 ' + message._body['channel']
-#     call_cmd(cmd)
+# torrent 検索
+@respond_to('^ *ts(.*)')
+def torrent_search(message, argment):
+    argments = argment.split()
+    keyword = ''
+    target_category = 'all'
+    if len(argments) > 0:
+        keyword = argments[0]
+        if len(argments) > 1:
+            target_category = argments[1]
+    else:
+        message.send('ひきすうがおかしいよ(´･ω･`)')
+        return 1
 
+    message.send(f'さがしてくるよ(｀･ω･´)\nたいしょうカテゴリ: {target_category} きーわーど: {keyword}')
+    seed_list = trsc.get_seed_list(target_category)
 
-def call_cmd(cmd):
-    ret = subprocess.run(cmd, shell=True)
-    return ret
+    hit_flag = 0
+    hit_result = []
+    for seed_item in seed_list:
+        item_category = seed_item[0]
+        item_title = seed_item[1]
+        item_link = seed_item[2]
 
+        if re.search(keyword, item_title) and \
+            len(swiutil.grep_file(DL_URL_LIST_FILE, item_link)) == 0:
+            hit_flag = 1
+            if not os.path.isdir(TODAY_DOWNLOAD_DIR):
+                os.mkdir(TODAY_DOWNLOAD_DIR)
+            item_title = item_title.translate(str.maketrans('/;!','___'))
+            hit_result.append([item_category, item_title, keyword])
+            urllib.request.urlretrieve(item_link, f'{TODAY_DOWNLOAD_DIR}/{item_title}.torrent')
+            swiutil.writefile_append(DL_URL_LIST_FILE, item_link)
 
-def exec_cmd(cmd):
-    ret = subprocess.check_output(cmd, shell=True, universal_newlines=True)
-    return ret
+    if hit_flag == 1:
+        post_str = f'みつかったよ\n```# 結果\n'
+        for result_item in hit_result:
+            post_str += f'カテゴリ: {result_item[0]} キーワード: {result_item[2]} タイトル: {result_item[1]}\n'
+
+        post_str += f'# ダウンロードしたseedファイル ({TODAY_DOWNLOAD_DIR})\n'
+        for result_item in hit_result:
+            post_str += f'{result_item[1]}.torrent\n'
+
+        post_str += '```'
+
+        repo = git.Repo(GIT_ROOT_DIR)
+        repo.git.commit(DL_URL_LIST_FILE, message='download_url.txt update')
+        repo.git.pull()
+        repo.git.push()
+
+        message.send(post_str)
+    else:
+        message.send('なかったよ(´･ω･`)')
