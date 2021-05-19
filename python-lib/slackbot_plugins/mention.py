@@ -31,7 +31,7 @@ def test(message):
 
 @respond_to('^ *seed(.*)')
 def announce_seed_info(message, argment='3'):
-    past_days = argment.strip()
+    past_days = int(argment)
     message.send(f'ちょっきん{past_days}日間にあつめた種の情報をおしらせするよ')
     message.send(f'みじっそうだよーべろべろー')
 
