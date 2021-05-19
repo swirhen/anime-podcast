@@ -71,7 +71,7 @@ def torrent_move_and_download(message, argment):
         return 1
 
     # 種移動元：移動先決定
-    seed_dir = f'{SEED_DOWNLOAD_DIR}/{seed_dir}'
+    seed_dir = pathlib.Path(f'{SEED_DOWNLOAD_DIR}/{seed_dir}')
     if target_dir == 'd':
         dlist = list(pathlib.Path(SHARE_TEMP_DIR).glob('d2*/'))
         dlist.sort(key=os.path.getctime, reverse=True)
