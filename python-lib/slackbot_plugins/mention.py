@@ -77,8 +77,16 @@ def torrent_move_and_download(message, argment):
         if len(argments) > 2:
             keyword = argments[2]
     else:
-        message.send('つかいかた(´･ω･`)\ntdl [たねのあるディレクトリ] [いどうさきのディレクトリ] [いどうするたねをしぼりこむキーワード]\n')
-        message.send('でぃれくとりしていのしかた:\nd: どうじん c: みせいりほん m: えろまんが\ncm: でれおんがく cl: でれらいぶ\nmm: みりおんがく ml:みりらいぶ\nsm:しゃにおんがく sl:しゃにらいぶ \nhm:ほろおんがく hl:ほろらいぶ\nもしくは ふるぱすもじれつ')
+        message.send('つかいかた(´･ω･`)\n'
+                     'tdl [たねのあるディレクトリ] [いどうさきのディレクトリ] [いどうするたねをしぼりこむキーワード]\n'
+                     'いどうもとディレクトリ: ひづけ(YYYYMMDD) もしくは t(きょうのひづけ)'
+                     'いどうさきディレクトリしていのしかた:\n'
+                     'd: どうじん c: みせいりほん m: えろまんが\n'
+                     'cm: でれおんがく cl: でれらいぶ\n'
+                     'mm: みりおんがく ml:みりらいぶ\n'
+                     'sm:しゃにおんがく sl:しゃにらいぶ\n'
+                     'hm:ほろおんがく hl:ほろらいぶ'
+                     '\nもしくは ふるぱすもじれつ')
         return 1
 
     # 種移動元：移動先決定
@@ -112,7 +120,7 @@ def torrent_move_and_download(message, argment):
     elif os.path.isdir(pathlib.Path(target_dir)):
         print('target_dir fullpath check: OK')
     else:
-        message.send('でぃれくとりしていのしかた:\n'
+        message.send('いどうさきディレクトリしていのしかた:\n'
                      'd: どうじん c: みせいりほん m: えろまんが\n'
                      'cm: でれおんがく cl: でれらいぶ\n'
                      'mm: みりおんがく ml:みりらいぶ\n'
