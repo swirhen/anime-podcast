@@ -112,7 +112,13 @@ def torrent_move_and_download(message, argment):
     elif os.path.isdir(pathlib.Path(target_dir)):
         print('target_dir fullpath check: OK')
     else:
-        message.send('でぃれくとりしていのしかた:\nd: どうじん c: みせいりほん m: えろまんが\ncm: でれおんがく cl: でれらいぶ\nmm: みりおんがく ml:みりらいぶ\nsm:しゃにおんがく sl:しゃにらいぶ \nhm:ほろおんがく hl:ほろらいぶ\nもしくは ふるぱすもじれつ')
+        message.send('でぃれくとりしていのしかた:\n'
+                     'd: どうじん c: みせいりほん m: えろまんが\n'
+                     'cm: でれおんがく cl: でれらいぶ\n'
+                     'mm: みりおんがく ml:みりらいぶ\n'
+                     'sm:しゃにおんがく sl:しゃにらいぶ\n'
+                     'hm:ほろおんがく hl:ほろらいぶ\n'
+                     'もしくは ふるぱすもじれつ')
         return 1
 
     post_str = ''
