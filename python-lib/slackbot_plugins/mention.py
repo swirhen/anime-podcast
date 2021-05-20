@@ -123,14 +123,19 @@ def torrent_move_and_download(message, argment):
     message.send(f'たねのいどう src: {str(seed_dir)} dst: {str(target_dir)}{post_str}')
 
     seeds = list(pathlib.Path(seed_dir).glob(glob_str))
+    seed_names = []
     for seed in seeds:
-        mv = shutil.move(str(seed), str(target_dir))
+        shutil.move(str(seed), str(target_dir))
+        seed_names.append(seed.name)
 
     # 栽培
     seedlist = list(pathlib.Path(target_dir).glob('*.torrent'))
     if len(seedlist) == 0:
         message.send('たねがみつからなかったよ(´･ω･`)')
         return 1
+    else:
+        post_str = '```いどうしたたね:\n' + '\n'.join(seed_names) + '```'
+        message.send(post_str)
 
     message.send('さいばいをかいしするよ(｀･ω･´)')
 
@@ -145,16 +150,13 @@ def torrent_move_and_download(message, argment):
         time.sleep(10)
 
     # seeds backup
-    seeds = []
-    for seed in list(pathlib.Path(target_dir).glob('*.torrent')):
-        seeds.append(seed.name)
+    for seed in seedlist:
         if not os.path.isfile(f'{SEED_BACKUP_DIR}/{seed.name}'):
             shutil.move(str(seed), SEED_BACKUP_DIR)
         else:
             os.remove(str(seed))
 
     message.send('おわったよ(｀･ω･´)')
-    message.send('```' + '\n'.join(seeds) + '```')
 
 
 # torrent 検索
