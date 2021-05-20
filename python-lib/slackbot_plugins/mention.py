@@ -80,7 +80,7 @@ def torrent_move_and_download(message, argment):
         message.send('つかいかた(´･ω･`)\n'
                      'tdl [たねのあるディレクトリ] [いどうさきのディレクトリ] [いどうするたねをしぼりこむキーワード]\n'
                      'いどうもとディレクトリ: ひづけ(YYYYMMDD) もしくは t(きょうのひづけ)\n'
-                     'いどうさきディレクトリしていのしかた:\n'
+                     'いどうさきディレクトリ:\n'
                      'd: どうじん c: みせいりほん m: えろまんが\n'
                      'cm: でれおんがく cl: でれらいぶ\n'
                      'mm: みりおんがく ml:みりらいぶ\n'
@@ -120,7 +120,7 @@ def torrent_move_and_download(message, argment):
     elif os.path.isdir(pathlib.Path(target_dir)):
         print('target_dir fullpath check: OK')
     else:
-        message.send('いどうさきディレクトリしていのしかた:\n'
+        message.send('いどうさきディレクトリ:\n'
                      'd: どうじん c: みせいりほん m: えろまんが\n'
                      'cm: でれおんがく cl: でれらいぶ\n'
                      'mm: みりおんがく ml:みりらいぶ\n'
