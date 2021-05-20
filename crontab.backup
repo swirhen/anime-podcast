@@ -7,6 +7,7 @@ MAILTO=""
 @reboot /home/swirhen/sh/tiarrakw.sh
 @reboot /home/swirhen/sh/tigkw.sh
 @reboot mkdir /tmp/vga
+@reboot nohup python /data/share/movie/sh/python-lib/slackbot_run.py > /dev/null &
 0 1 * * * /home/swirhen/sh/backup.sh
 0 1 * * * /data/share/movie/sh/cron_backup.sh
 10 3 * * * /data/share/movie/sh/backup.sh
