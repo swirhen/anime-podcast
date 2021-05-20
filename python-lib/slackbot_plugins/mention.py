@@ -21,9 +21,6 @@ import torrentsearch as trsc
 SHARE_TEMP_DIR = '/data/share/temp'
 SEED_DOWNLOAD_DIR = f'{SHARE_TEMP_DIR}/torrentsearch'
 SEED_BACKUP_DIR = f'{SHARE_TEMP_DIR}/torrentsearch/downloaded'
-TDATETIME = datetime.now()
-DATE = TDATETIME.strftime('%Y%m%d')
-TODAY_DOWNLOAD_DIR = f'/data/share/temp/torrentsearch/{DATE}'
 DL_URL_LIST_FILE = f'/home/swirhen/sh/checker/torrentsearch/download_url.txt'
 GIT_ROOT_DIR = '/home/swirhen/sh'
 
@@ -67,6 +64,9 @@ def announce_seed_info(message, argment):
 # 取得seedを移動、栽培
 @respond_to('^ *tdl(.*)')
 def torrent_move_and_download(message, argment):
+    tdatetime = datetime.now()
+    date = tdatetime.strftime('%Y%m%d')
+    today_download_dir = f'/data/share/temp/torrentsearch/{date}'
     argments = argment.split()
     seed_dir = ''
     target_dir = ''
@@ -83,7 +83,7 @@ def torrent_move_and_download(message, argment):
 
     # 種移動元：移動先決定
     if seed_dir == 't':
-        seed_dir = pathlib.Path(f'{SEED_DOWNLOAD_DIR}/{DATE}')
+        seed_dir = pathlib.Path(today_download_dir)
     else:
         seed_dir = pathlib.Path(f'{SEED_DOWNLOAD_DIR}/{seed_dir}')
 
@@ -160,6 +160,9 @@ def torrent_move_and_download(message, argment):
 # torrent 検索
 @respond_to('^ *ts(.*)')
 def torrent_search(message, argment):
+    tdatetime = datetime.now()
+    date = tdatetime.strftime('%Y%m%d')
+    today_download_dir = f'/data/share/temp/torrentsearch/{date}'
     argments = argment.split()
     keyword = ''
     target_category = 'all'
@@ -184,11 +187,11 @@ def torrent_search(message, argment):
         if re.search(keyword, item_title) and \
             len(swiutil.grep_file(DL_URL_LIST_FILE, item_link)) == 0:
             hit_flag = 1
-            if not os.path.isdir(TODAY_DOWNLOAD_DIR):
-                os.mkdir(TODAY_DOWNLOAD_DIR)
+            if not os.path.isdir(today_download_dir):
+                os.mkdir(today_download_dir)
             item_title = swiutil.truncate(item_title.translate(str.maketrans('/;!','___')), 247)
             hit_result.append([item_category, item_title, keyword])
-            urllib.request.urlretrieve(item_link, f'{TODAY_DOWNLOAD_DIR}/{item_title}.torrent')
+            urllib.request.urlretrieve(item_link, f'{today_download_dir}/{item_title}.torrent')
             swiutil.writefile_append(DL_URL_LIST_FILE, item_link)
 
     if hit_flag == 1:
@@ -196,7 +199,7 @@ def torrent_search(message, argment):
         for result_item in hit_result:
             post_str += f'カテゴリ: {result_item[0]} キーワード: {result_item[2]} タイトル: {result_item[1]}\n'
 
-        post_str += f'# ダウンロードしたseedファイル ({TODAY_DOWNLOAD_DIR})\n'
+        post_str += f'# ダウンロードしたseedファイル ({today_download_dir})\n'
         for result_item in hit_result:
             post_str += f'{result_item[1]}.torrent\n'
 
