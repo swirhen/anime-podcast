@@ -59,7 +59,7 @@ def discord_post(text):
 # discordにuploadする
 def discord_upload(filename):
     with open(filename, 'rb') as file:
-        files = {'param_name': (pathlib.Path(filename).name, file, 'plain/text')}
+        files = {'param_name': (pathlib.Path(filename).name, file, 'text/plain')}
         requests.post(DISCORD_WEBHOOK_URI, files=files)
 
 
