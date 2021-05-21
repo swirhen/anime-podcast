@@ -39,7 +39,8 @@ async def on_message(message):
     if message.content == '/neko':
         await message.channel.send('にゃーん')
 
-    if re.search('/seed.*', message.content):
+    # 種情報
+    if re.search('^/seed.*', message.content):
         tdatetime = datetime.now()
         dt = tdatetime.strftime('%Y%m%d%H%M%S')
         result_file_name = f'{SCRIPT_DIR}/seed_info_{dt}.txt'
@@ -51,6 +52,25 @@ async def on_message(message):
         swiutil.writefile_new(result_file_name, result)
         await message.channel.send(file=discord.File(result_file_name))
         os.remove(result_file_name)
+
+    if re.search('^/ts.*', message.content):
+        tdatetime = datetime.now()
+        dt = tdatetime.strftime('%Y%m%d%H%M%S')
+        result_file_name = f'{SCRIPT_DIR}/seed_search_{dt}.txt'
+        keyword = ''
+        target_category = 'all'
+        argments = message.content.split()
+        if len(argments) > 2:
+            keyword = argments[1]
+            if len(argments) > 3:
+                target_category = argments[2]
+        else:
+            await message.channel.send('つかいかた(´･ω･`)\nts [けんさくキーワード] [たいしょうカテゴリ]\nカテゴリ: doujin/manga/music/comic/live/all\n(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ/ぜんぶ)')
+            return
+
+        await message.channel.send(f'さがしてくるよ(｀･ω･´)\nたいしょうカテゴリ: {target_category} きーわーど: {keyword}')
+        result = bu.seed_search(keyword, target_category)
+        await message.channel.send(result)
 
 
 def str_to_array(in_str):
