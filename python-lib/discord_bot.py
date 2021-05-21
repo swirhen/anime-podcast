@@ -101,5 +101,6 @@ def str_to_array(in_str):
     return result
 
 
-# Botの起動とDiscordサーバーへの接続
-client.run(TOKEN)
+if __name__ == "__main__":
+    # Botの起動とDiscordサーバーへの接続
+    client.run(TOKEN)
