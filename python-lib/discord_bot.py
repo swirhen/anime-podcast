@@ -39,8 +39,8 @@ async def on_message(message):
         past_days = 3
         if len(message.content.split()) > 1:
             past_days = int(message.content.split()[1])
-        await message.channel.send(f'あつめた種の情報をおしらせするよ(さいきん {past_days} にちぶん)')
-        result = bu.get_seed_directory(past_days)
+        result = f'あつめた種の情報をおしらせするよ(さいきん {past_days} にちぶん)\n'
+        result += bu.get_seed_directory(past_days)
         await message.channel.send(result)
 
 
