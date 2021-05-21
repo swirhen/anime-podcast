@@ -88,7 +88,7 @@ def multi_post(channel, text, username='swirhentv', icon_emoji=''):
 # discord/slack multi upload
 def multi_upload(channel, filename, filetype='text'):
     slack_upload(channel, filename, filetype)
-    discord_upload(channel, filetype)
+    discord_upload(channel, filename)
 
 
 # y/nをきく

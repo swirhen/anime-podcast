@@ -48,12 +48,12 @@ def logging_without_timestamp(log_str):
     swiutil.writefile_append(LOG_FILE, log_str)
 
 
-def slackpost(post_str):
-    swiutil.slack_post(CHANNEL, post_str)
+def mutipost(post_str):
+    swiutil.multi_post(CHANNEL, post_str)
 
 
-def slackupload(file_path):
-    swiutil.slack_upload(CHANNEL, file_path)
+def multiupload(file_path):
+    swiutil.multi_upload(CHANNEL, file_path)
 
 
 # 終了のあとしまつ
@@ -77,7 +77,7 @@ def main():
         flg_file.touch()
 
     logging('### auto publish start.')
-    slackpost('swirhen.tv auto publish start...')
+    mutipost('swirhen.tv auto publish start...')
 
     # nyaa torrentのfeedをxmlとして取得、title(ファイル名)とlink(torrentファイルのURL)を配列seed_listに入れる
     seed_list = []
@@ -195,7 +195,7 @@ def main():
                     'リストに追加されたので、次回ダウンロード対象となります\n' \
                     '対象外にする場合は、リストから削除、保存ディレクトリを削除してください\n' \
                     '```' + '\n'.join(new_result) + '```'
-        slackpost(post_msg)
+        mutipost(post_msg)
         logging(post_msg)
 
     if new_hit_flag_ng == 1:
@@ -203,12 +203,12 @@ def main():
                     '検知しましたが、日本語タイトルが検索で取得できなかったので、何もしませんでした\n' \
                     '手動追加を検討してください\n' \
                     '```' + '\n'.join(new_result_ng) + '```'
-        slackpost(post_msg)
+        mutipost(post_msg)
         logging(post_msg)
 
     # 何らかのエラーで途中で処理が途切れたりして、チェックリスト実体とtempに行数の差が出てしまった場合、警告
     if swiutil.len_file(LIST_FILE) != swiutil.len_file(LIST_TEMP):
-        slackpost('@channel !!! リスト行数が変化しました。 checklist.txt のコミットログを確認してください')
+        mutipost('@channel !!! リスト行数が変化しました。 checklist.txt のコミットログを確認してください')
         logging('!!! リスト行数が変化しました。 checklist.txt のコミットログを確認してください')
 
     # 処理の終わったtempリストを降順ソートし、実体に上書き→gitコミット
@@ -227,7 +227,7 @@ def main():
     # ここで結果が0ならおわる
     if len(result) == 0:
         post_msg = 'swirhen.tv auto publish completed. (no new episode)'
-        slackpost(post_msg)
+        mutipost(post_msg)
         logging(post_msg)
         end(0)
 
@@ -250,7 +250,7 @@ def main():
         renamed_files.append(dlfwp.name)
     post_msg='renamed movie files:\n' \
                 '```' + '\n'.join(renamed_files) + '```'
-    slackpost(post_msg)
+    mutipost(post_msg)
     logging(post_msg.replace('`',''))
 
     # auto encode
@@ -278,7 +278,7 @@ def main():
     if len(end_episodes) > 0:
         post_msg_end = '# 終了とみられる番組で、抜けチェックOKのため、終了リストに追加/チェックリストから削除\n' \
                     '```' + '\n'.join(end_episodes) + '```'
-        slackpost(post_msg_end)
+        mutipost(post_msg_end)
         logging(post_msg_end)
         for end_episode in end_episodes:
             swiutil.sed_del(LIST_FILE, end_episode)
@@ -292,14 +292,14 @@ def main():
     if len(end_episode_ngs) > 0:
         post_msg_end_ng = '@channel 終了とみられる番組で、抜けチェックNGのため、終了リストにのみ追加(要 抜けチェック)\n' \
                        '```' + '\n'.join(end_episode_ngs) + '```'
-        slackpost(post_msg_end_ng)
+        mutipost(post_msg_end_ng)
         logging(post_msg_end_ng)
         for end_episode_ng in end_episode_ngs:
             swiutil.writefile_append(resent_end_list_file, end_episode_ng)
 
     logging('### all process completed.')
-    slackpost('swirhen.tv auto publish completed.')
-    slackupload(LOG_FILE)
+    mutipost('swirhen.tv auto publish completed.')
+    multiupload(LOG_FILE)
 
     end(0)
 
