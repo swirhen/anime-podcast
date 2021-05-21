@@ -21,8 +21,7 @@ CHECKLIST_FILE_PATH = f'{str(current_dir)}/../checklist.txt'
 SYOBOCAL_URI = 'http://cal.syoboi.jp/find?sd=0&kw='
 SCRIPT_DIR = str(current_dir)
 SEED_BACKUP_DIR = f'{SCRIPT_DIR}/../download_seeds'
-with open(f'{str(current_dir)}/discord_webhook_url_general') as file:
-    DISCORD_WEBHOOK_URI = file.read().splitlines()[0]
+DISCORD_WEBHOOK_URI_FILE_PREFIX = 'discord_webhook_url_'
 
 
 # slackにpostする
@@ -49,18 +48,24 @@ def tweeet(text, channel='#Twitter@t2'):
 
 
 # discordにpostする
-def discord_post(text):
+def discord_post(channel, text):
+    with open(f'{str(current_dir)}/discord_webhook_url_{channel}') as file:
+        discord_webhook_uri = file.read().splitlines()[0]
+
     main_content = {
         'content': text
     }
-    requests.post(DISCORD_WEBHOOK_URI, main_content)
+    requests.post(discord_webhook_uri, main_content)
 
 
 # discordにuploadする
-def discord_upload(filename):
+def discord_upload(channel, filename):
+    with open(f'{str(current_dir)}/discord_webhook_url_{channel}') as file:
+        discord_webhook_uri = file.read().splitlines()[0]
+
     with open(filename, 'rb') as file:
         files = {'param_name': (pathlib.Path(filename).name, file)}
-        requests.post(DISCORD_WEBHOOK_URI, files=files)
+        requests.post(discord_webhook_uri, files=files)
 
 
 # y/nをきく
