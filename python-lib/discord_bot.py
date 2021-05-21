@@ -150,6 +150,15 @@ async def on_message(message):
 
         result = bu.seed_move(seed_dir, target_dir, keyword)
         await message.channel.send(result)
+        seedlist = bu.get_seeds_list(target_dir)
+        if len(seedlist) == 0:
+            await message.channel.send('たねがみつからなかったよ(´・ω・`)')
+            return
+        else:
+            await message.channel.send('いどうしたたね:')
+            swiutil.writefile_new(result_file_name, '\n'.join(seedlist))
+            await message.channel.send(file=discord.File(result_file_name))
+            os.remove(result_file_name)
 
     # 種移動&栽培
     elif re.search('^/tdl.*', message.content):

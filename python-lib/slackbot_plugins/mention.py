@@ -83,6 +83,13 @@ def torrent_move(message, argument):
 
     result = bu.seed_move(seed_dir, target_dir, keyword)
     message.send(result)
+    seedlist = bu.get_seeds_list(target_dir)
+    if len(seedlist) == 0:
+        message.send('たねがみつからなかったよ(´・ω・`)')
+        return 1
+    else:
+        post_str = '```いどうしたたね:\n' + '\n'.join(seedlist) + '```'
+        message.send(post_str)
 
 
 # 取得seedを移動、栽培
