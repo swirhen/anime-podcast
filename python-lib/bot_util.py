@@ -1,5 +1,5 @@
 # swirhen.tv bot utility
-# slackbot ‚Æ discord bot‚©‚çŒÄ‚Ño‚·‹¤’Êˆ—
+# slackbot ã¨ discord botã‹ã‚‰å‘¼ã³å‡ºã™å…±é€šå‡¦ç†
 # import section
 import os
 import re
@@ -68,11 +68,11 @@ def seed_search(keyword, target_category):
             swiutil.writefile_append(DL_URL_LIST_FILE, item_link)
 
     if hit_flag == 1:
-        post_str = f'‚İ‚Â‚©‚Á‚½‚æ\n```# Œ‹‰Ê\n'
+        post_str = f'ã¿ã¤ã‹ã£ãŸã‚ˆ\n```# çµæœ\n'
         for result_item in hit_result:
-            post_str += f'ƒJƒeƒSƒŠ: {result_item[0]} ƒL[ƒ[ƒh: {result_item[2]} ƒ^ƒCƒgƒ‹: {result_item[1]}\n'
+            post_str += f'ã‚«ãƒ†ã‚´ãƒª: {result_item[0]} ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰: {result_item[2]} ã‚¿ã‚¤ãƒˆãƒ«: {result_item[1]}\n'
 
-        post_str += f'# ƒ_ƒEƒ“ƒ[ƒh‚µ‚½seedƒtƒ@ƒCƒ‹ ({today_download_dir})\n'
+        post_str += f'# ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ãŸseedãƒ•ã‚¡ã‚¤ãƒ« ({today_download_dir})\n'
         for result_item in hit_result:
             post_str += f'{result_item[1]}.torrent\n'
 
@@ -85,4 +85,4 @@ def seed_search(keyword, target_category):
 
         return post_str
     else:
-        return '‚È‚©‚Á‚½‚æ(L¥ƒÖ¥`)'
+        return 'ãªã‹ã£ãŸã‚ˆ(Â´ï½¥Ï‰ï½¥`)'
