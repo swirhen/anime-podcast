@@ -82,7 +82,7 @@ def discord_upload(channel, filename):
 # discord/slack multi post
 def multi_post(channel, text, username='swirhentv', icon_emoji=''):
     slack_post(channel, text, username, icon_emoji)
-    discord_post(channel, text)
+    discord_post(channel, text.replace('@channel', '@everyone'))
 
 
 # discord/slack multi upload
