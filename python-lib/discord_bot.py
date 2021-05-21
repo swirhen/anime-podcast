@@ -40,7 +40,7 @@ async def on_message(message):
         await message.channel.send('にゃーん')
 
     # 種情報
-    if re.search('^/seed.*', message.content):
+    elif re.search('^/seed.*', message.content):
         tdatetime = datetime.now()
         dt = tdatetime.strftime('%Y%m%d%H%M%S')
         result_file_name = f'{SCRIPT_DIR}/seed_info_{dt}.txt'
@@ -53,7 +53,7 @@ async def on_message(message):
         await message.channel.send(file=discord.File(result_file_name))
         os.remove(result_file_name)
 
-    if re.search('^/ts.*', message.content):
+    elif re.search('^/ts.*', message.content):
         tdatetime = datetime.now()
         dt = tdatetime.strftime('%Y%m%d%H%M%S')
         result_file_name = f'{SCRIPT_DIR}/seed_search_{dt}.txt'
@@ -74,31 +74,10 @@ async def on_message(message):
             await message.channel.send(result)
         else:
             await message.channel.send('みつかったよ(｀･ω･´)')
-            result_mod = result.replace('みつかったよ\n```','').replace('```','')
+            result_mod = result.replace('みつかったよ(｀･ω･´)\n```','').replace('```','')
             swiutil.writefile_new(result_file_name, result_mod)
             await message.channel.send(file=discord.File(result_file_name))
             os.remove(result_file_name)
-
-
-def str_to_array(in_str):
-    result = []
-    if len(in_str) <= 2000:
-        return [in_str]
-    else:
-        res_line = ''
-        res_line_temp = ''
-        for line in in_str.split('\n'):
-            res_line_temp += f'{res_line}{line}\n'
-            if len(res_line_temp) > 2000:
-                result.append(res_line)
-                res_line = line
-            else:
-                res_line = res_line_temp
-            res_line_temp = ''
-
-    result.append(res_line)
-
-    return result
 
 
 if __name__ == "__main__":
