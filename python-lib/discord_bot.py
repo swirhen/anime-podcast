@@ -62,7 +62,7 @@ def str_to_array(in_str):
                 res_line = line
             else:
                 res_line = res_line_temp
-        result.append(res_line)
+        # result.append(res_line)
 
         return result
 
