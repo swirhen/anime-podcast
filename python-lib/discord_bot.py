@@ -3,6 +3,7 @@
 import os
 import pathlib
 import re
+from datetime import datetime
 import discord
 import bot_util as bu
 import swirhentv_util as swiutil
@@ -38,17 +39,17 @@ async def on_message(message):
         await message.channel.send('にゃーん')
 
     if re.search('/seed.*', message.content):
+        tdatetime = datetime.now()
+        dt = tdatetime.strftime('%Y%m%d%H%M%S')
+        result_file_name = f'seed_info_{dt}.txt'
         past_days = 3
         if len(message.content.split()) > 1:
             past_days = int(message.content.split()[1])
         await message.channel.send(f'あつめた種の情報をおしらせするよ(さいきん {past_days} にちぶん)')
         result = bu.get_seed_directory(past_days)
-        # results = str_to_array(result)
-        # for result in results:
-        #     await message.channel.send(f'```{result}```')
-        swiutil.writefile_new('result_temp.txt', result)
-        await message.channel.send(file=discord.File('result_temp.txt'))
-        os.remove('result_temp.txt')
+        swiutil.writefile_new(result_file_name, result)
+        await message.channel.send(file=discord.File(result_file_name))
+        os.remove(result_file_name)
 
 
 def str_to_array(in_str):
