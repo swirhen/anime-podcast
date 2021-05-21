@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
 # import sections
+import os
 import pathlib
 import re
 import discord
 import bot_util as bu
+import swirhentv_util as swiutil
 
 # argment section
 SHARE_TEMP_DIR = '/data/share/temp'
@@ -41,9 +43,12 @@ async def on_message(message):
             past_days = int(message.content.split()[1])
         await message.channel.send(f'あつめた種の情報をおしらせするよ(さいきん {past_days} にちぶん)')
         result = bu.get_seed_directory(past_days)
-        results = str_to_array(result)
-        for result in results:
-            await message.channel.send(f'```{result}```')
+        # results = str_to_array(result)
+        # for result in results:
+        #     await message.channel.send(f'```{result}```')
+        swiutil.writefile_new('result_temp', result)
+        await message.channel.send(file=discord.File('result_temp'))
+        os.remove('result_temp')
 
 
 def str_to_array(in_str):
