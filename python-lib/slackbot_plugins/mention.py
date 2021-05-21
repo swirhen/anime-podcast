@@ -122,7 +122,7 @@ def report_seed_list(message, argument):
     arguments = argument.split()
     keyword = ''
     if len(arguments) > 0:
-        target_category = arguments[1]
+        target_category = arguments[0]
     else:
         message.send('つかいかた(´･ω･`)\n'
                      'tl [たいしょうカテゴリ]\n'
