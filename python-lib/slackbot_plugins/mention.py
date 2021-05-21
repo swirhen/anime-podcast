@@ -67,37 +67,8 @@ def torrent_move_and_download(message, argment):
                      '\nもしくは ふるぱすもじれつ')
         return 1
 
-    # 種移動元：移動先決定
-    if seed_dir == 't':
-        seed_dir = pathlib.Path(today_download_dir)
-    else:
-        seed_dir = pathlib.Path(f'{SEED_DOWNLOAD_DIR}/{seed_dir}')
-
-    if target_dir == 'd':
-        target_dir = sorted(list(pathlib.Path(SHARE_TEMP_DIR).glob('d2*/')), reverse=True)[0]
-    elif target_dir == 'm':
-        target_dir = sorted(list(pathlib.Path(SHARE_TEMP_DIR).glob('c2*/')), reverse=True)[0]
-    elif target_dir == 'c':
-        target_dir = list(pathlib.Path(SHARE_TEMP_DIR).glob('01*/'))[0]
-    elif target_dir == 'cm':
-        target_dir = list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER CINDERELLA GIRLS').glob('music'))[0]
-    elif target_dir == 'cl':
-        target_dir = list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER CINDERELLA GIRLS').glob('livedvd'))[0]
-    elif target_dir == 'mm':
-        target_dir = list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER MILLION LIVE').glob('music'))[0]
-    elif target_dir == 'ml':
-        target_dir = list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER MILLION LIVE').glob('livedvd'))[0]
-    elif target_dir == 'sm':
-        target_dir = list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER Shiny Colors').glob('music'))[0]
-    elif target_dir == 'sl':
-        target_dir = list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER Shiny Colors').glob('livedvd'))[0]
-    elif target_dir == 'hm':
-        target_dir = list(pathlib.Path(f'{SHARE_TEMP_DIR}/hololive IDOL PROJECT').glob('music'))[0]
-    elif target_dir == 'hl':
-        target_dir = list(pathlib.Path(f'{SHARE_TEMP_DIR}/hololive IDOL PROJECT').glob('live'))[0]
-    elif os.path.isdir(pathlib.Path(target_dir)):
-        print('target_dir fullpath check: OK')
-    else:
+    target_dir = bu.choose_target_dir(target_dir)
+    if target_dir == '':
         message.send('いどうさきディレクトリ:\n'
                      'd: どうじん c: みせいりほん m: えろまんが\n'
                      'cm: でれおんがく cl: でれらいぶ\n'
@@ -107,46 +78,21 @@ def torrent_move_and_download(message, argment):
                      'もしくは ふるぱすもじれつ')
         return 1
 
-    post_str = ''
-    glob_str = '*'
-    if keyword != '':
-        post_str = f' keyword: {keyword}'
-        glob_str = f'*{keyword}*'
-    message.send(f'たねのいどう src: {str(seed_dir)} dst: {str(target_dir)}{post_str}')
-
-    seeds = list(pathlib.Path(seed_dir).glob(glob_str))
-    seed_names = []
-    for seed in seeds:
-        shutil.move(str(seed), str(target_dir))
-        seed_names.append(seed.name)
+    result = bu.seed_move(seed_dir, target_dir, keyword)
+    message.send(result)
 
     # 栽培
-    seedlist = list(pathlib.Path(target_dir).glob('*.torrent'))
+    seedlist = bu.get_seeds_list(target_dir)
     if len(seedlist) == 0:
         message.send('たねがみつからなかったよ(´･ω･`)')
         return 1
     else:
-        post_str = '```いどうしたたね:\n' + '\n'.join(seed_names) + '```'
+        post_str = '```いどうしたたね:\n' + '\n'.join(seedlist) + '```'
         message.send(post_str)
 
     message.send('さいばいをかいしするよ(｀･ω･´)')
 
-    proc = subprocess.Popen(f'aria2c --listen-port=38888 --max-upload-limit=200K --seed-ratio=0.01 --seed-time=1 --dir="{str(target_dir)}" "{str(target_dir)}/"*.torrent', shell=True)
-    time.sleep(10)
-
-    while True:
-        if len(list(pathlib.Path(target_dir).glob('*.aria2'))) == 0:
-            proc.kill()
-            break
-
-        time.sleep(10)
-
-    # seeds backup
-    for seed in seedlist:
-        if not os.path.isfile(f'{SEED_BACKUP_DIR}/{seed.name}'):
-            shutil.move(str(seed), SEED_BACKUP_DIR)
-        else:
-            os.remove(str(seed))
+    bu.plant_seed(target_dir)
 
     message.send('おわったよ(｀･ω･´)')
 

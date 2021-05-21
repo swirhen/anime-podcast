@@ -129,39 +129,39 @@ def seed_move(seed_dir, target_dir, keyword):
     today_download_dir = f'{SEED_DOWNLOAD_DIR}/{date}'
 
     result = ''
-    # 種移動元：移動先決定
+    # 種移動元決定
     if seed_dir == 't':
-        seed_dir = pathlib.Path(today_download_dir)
+        seed_dir = today_download_dir
     else:
-        seed_dir = pathlib.Path(f'{SEED_DOWNLOAD_DIR}/{seed_dir}')
+        seed_dir = str(pathlib.Path(f'{SEED_DOWNLOAD_DIR}/{seed_dir}'))
 
     post_str = ''
     glob_str = '*'
     if keyword != '':
         post_str = f' keyword: {keyword}'
         glob_str = f'*{keyword}*'
-    result = f'たねのいどう src: {str(seed_dir)} dst: {str(target_dir)}{post_str}\n'
+    result = f'たねのいどう src: {str(seed_dir)} dst: {target_dir}{post_str}\n'
 
     seeds = list(pathlib.Path(seed_dir).glob(glob_str))
     for seed in seeds:
-        shutil.move(str(seed), str(target_dir))
+        shutil.move(str(seed), target_dir)
+
+    return result
+
+
+# 移動先の種列挙
+def get_seeds_list(target_dir):
+    result = []
+    seeds = list(pathlib.Path(target_dir).glob('*.torrent'))
+    for seed in seeds:
+        result.append(seed.name)
 
     return result
 
 
 # 種栽培
 def plant_seed(target_dir):
-    result = ''
-    seedlist = list(pathlib.Path(target_dir).glob('*.torrent'))
-    if len(seedlist) == 0:
-        return f'たねがみつからなかったよ(´･ω･`) ({target_dir})'
-    # else:
-        # post_str = '```いどうしたたね:\n' + '\n'.join(seed_names) + '```'
-        # message.send(post_str)
-
-    # message.send('さいばいをかいしするよ(｀･ω･´)')
-
-    proc = subprocess.Popen(f'aria2c --listen-port=38888 --max-upload-limit=200K --seed-ratio=0.01 --seed-time=1 --dir="{str(target_dir)}" "{str(target_dir)}/"*.torrent', shell=True)
+    proc = subprocess.Popen(f'aria2c --listen-port=38888 --max-upload-limit=200K --seed-ratio=0.01 --seed-time=1 --dir="{target_dir}" "{target_dir}/"*.torrent', shell=True)
     time.sleep(10)
 
     while True:
@@ -172,13 +172,16 @@ def plant_seed(target_dir):
         time.sleep(10)
 
     # seeds backup
-    for seed in seedlist:
+    seed_backup(target_dir)
+
+
+# seed backup
+def seed_backup(target_dir):
+    for seed in pathlib.Path(target_dir).glob('*.torrent'):
         if not os.path.isfile(f'{SEED_BACKUP_DIR}/{seed.name}'):
             shutil.move(str(seed), SEED_BACKUP_DIR)
         else:
             os.remove(str(seed))
-
-    # message.send('おわったよ(｀･ω･´)')
 
 
 # discord用 文字数が2000を超えたら改行単位で配列にする
