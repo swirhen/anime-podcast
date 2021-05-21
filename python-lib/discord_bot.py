@@ -42,9 +42,8 @@ async def on_message(message):
         await message.channel.send(f'あつめた種の情報をおしらせするよ(さいきん {past_days} にちぶん)')
         result = bu.get_seed_directory(past_days)
         results = str_to_array(result)
-        print(results)
-        for result in results:
-            await message.channel.send(result)
+        # for result in results:
+        #     await message.channel.send(result)
 
 
 def str_to_array(in_str):
@@ -54,6 +53,7 @@ def str_to_array(in_str):
     else:
         res_line = ''
         res_line_temp = ''
+        print(in_str.split('\n'))
         for line in in_str.split('\n'):
             res_line_temp += f'{res_line}{line}\n'
             if len(res_line_temp) > 2000:
