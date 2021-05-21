@@ -41,7 +41,7 @@ def announce_seed_info(message, argment):
         past_days = 3
     message.send(f'あつめた種の情報をおしらせするよ(さいきん {past_days} にちぶん)')
     result = bu.get_seed_directory(past_days)
-    message.send(result)
+    message.send(f'```{result}```')
 
 
 # 取得seedを移動、栽培

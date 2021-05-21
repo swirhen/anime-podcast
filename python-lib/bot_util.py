@@ -37,11 +37,9 @@ def get_seed_directory(past_days):
         for seed in seed_list:
             seed_info[get_path.name].append(seed.name)
 
-    result = '```'
     for path in seed_info:
         result += f'directory {path} in seeds:\n'
         for seed in seed_info[path]:
             result += f'    {seed}\n'
-    result += '```'
 
     return result
