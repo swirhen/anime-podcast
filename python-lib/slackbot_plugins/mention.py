@@ -137,5 +137,5 @@ def report_seed_list(message, argument):
         post_str = '```'
         for seed in seed_list:
             post_str += f'{seed[1]}\n'
-        post_str = '```'
+        post_str += '```'
         message.send(post_str)
