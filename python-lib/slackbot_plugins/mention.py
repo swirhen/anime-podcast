@@ -7,6 +7,7 @@ import pathlib
 import sys
 from datetime import datetime
 from slackbot.bot import respond_to
+import slackbot_settings
 from slacker import Slacker
 slack = Slacker(slackbot_settings.API_TOKEN)
 import bot_util as bu
