@@ -84,6 +84,7 @@ async def on_message(message):
         else:
             await message.channel.send(f'なんかとれなかったよ(´・ω・`)\n')
 
+    # 種サーチ
     elif re.search('^/ts.*', message.content):
         tdatetime = datetime.now()
         dt = tdatetime.strftime('%Y%m%d%H%M%S')
@@ -109,7 +110,48 @@ async def on_message(message):
             swiutil.writefile_new(result_file_name, result_mod)
             await message.channel.send(file=discord.File(result_file_name))
             os.remove(result_file_name)
-    
+
+    # 種移動のみ
+    elif re.search('^/tmv.*', message.content):
+        tdatetime = datetime.now()
+        dt = tdatetime.strftime('%Y%m%d%H%M%S')
+        result_file_name = f'{SCRIPT_DIR}/seed_move_{dt}.txt'
+        arguments = message.content.split()
+        seed_dir = ''
+        target_dir = ''
+        keyword = ''
+        if len(arguments) > 2:
+            seed_dir = arguments[1]
+            target_dir = arguments[2]
+            if len(arguments) > 3:
+                keyword = arguments[3]
+        else:
+            await message.channel.send('つかいかた(´・ω・`)\n'
+                                       'tdl [たねのあるディレクトリ] [いどうさきのディレクトリ] [いどうするたねをしぼりこむキーワード]\n'
+                                       'いどうもとディレクトリ: ひづけ(YYYYMMDD) もしくは t(きょうのひづけ)\n'
+                                       'いどうさきディレクトリ:\n'
+                                       'd: どうじん c: みせいりほん m: えろまんが\n'
+                                       'cm: でれおんがく cl: でれらいぶ\n'
+                                       'mm: みりおんがく ml:みりらいぶ\n'
+                                       'sm:しゃにおんがく sl:しゃにらいぶ\n'
+                                       'hm:ほろおんがく hl:ほろらいぶ\n'
+                                       'もしくは ふるぱすもじれつ')
+
+        target_dir = bu.choose_target_dir(target_dir)
+        if target_dir == '':
+            message.send('いどうさきディレクトリ:\n'
+                         'd: どうじん c: みせいりほん m: えろまんが\n'
+                         'cm: でれおんがく cl: でれらいぶ\n'
+                         'mm: みりおんがく ml:みりらいぶ\n'
+                         'sm:しゃにおんがく sl:しゃにらいぶ\n'
+                         'hm:ほろおんがく hl:ほろらいぶ\n'
+                         'もしくは ふるぱすもじれつ')
+            return
+
+        result = bu.seed_move(seed_dir, target_dir, keyword)
+        await message.channel.send(result)
+
+    # 種移動&栽培
     elif re.search('^/tdl.*', message.content):
         tdatetime = datetime.now()
         dt = tdatetime.strftime('%Y%m%d%H%M%S')

@@ -42,6 +42,49 @@ def announce_seed_info(message, argument):
     message.send(f'```{result}```')
 
 
+# 取得seedを移動のみ
+@respond_to('^ *tmv(.*)')
+def torrent_move(message, argument):
+    tdatetime = datetime.now()
+    date = tdatetime.strftime('%Y%m%d')
+    today_download_dir = f'/data/share/temp/torrentsearch/{date}'
+    arguments = argument.split()
+    seed_dir = ''
+    target_dir = ''
+    keyword = ''
+    if len(arguments) > 1:
+        seed_dir = arguments[0]
+        target_dir = arguments[1]
+        if len(arguments) > 2:
+            keyword = arguments[2]
+    else:
+        message.send('つかいかた(´・ω・`)\n'
+                     'tdl [たねのあるディレクトリ] [いどうさきのディレクトリ] [いどうするたねをしぼりこむキーワード]\n'
+                     'いどうもとディレクトリ: ひづけ(YYYYMMDD) もしくは t(きょうのひづけ)\n'
+                     'いどうさきディレクトリ:\n'
+                     'd: どうじん c: みせいりほん m: えろまんが\n'
+                     'cm: でれおんがく cl: でれらいぶ\n'
+                     'mm: みりおんがく ml:みりらいぶ\n'
+                     'sm:しゃにおんがく sl:しゃにらいぶ\n'
+                     'hm:ほろおんがく hl:ほろらいぶ\n'
+                     'もしくは ふるぱすもじれつ')
+        return 1
+
+    target_dir = bu.choose_target_dir(target_dir)
+    if target_dir == '':
+        message.send('いどうさきディレクトリ:\n'
+                     'd: どうじん c: みせいりほん m: えろまんが\n'
+                     'cm: でれおんがく cl: でれらいぶ\n'
+                     'mm: みりおんがく ml:みりらいぶ\n'
+                     'sm:しゃにおんがく sl:しゃにらいぶ\n'
+                     'hm:ほろおんがく hl:ほろらいぶ\n'
+                     'もしくは ふるぱすもじれつ')
+        return 1
+
+    result = bu.seed_move(seed_dir, target_dir, keyword)
+    message.send(result)
+
+
 # 取得seedを移動、栽培
 @respond_to('^ *tdl(.*)')
 def torrent_move_and_download(message, argument):
