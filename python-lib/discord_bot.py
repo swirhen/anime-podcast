@@ -46,9 +46,9 @@ async def on_message(message):
         # results = str_to_array(result)
         # for result in results:
         #     await message.channel.send(f'```{result}```')
-        swiutil.writefile_new('result_temp', result)
-        await message.channel.send(file=discord.File('result_temp'))
-        os.remove('result_temp')
+        swiutil.writefile_new('result_temp.txt', result)
+        await message.channel.send(file=discord.File('result_temp.txt'))
+        os.remove('result_temp.txt')
 
 
 def str_to_array(in_str):
