@@ -5,7 +5,7 @@ import discord
 # 自分のBotのアクセストークンに置き換えてください
 current_dir = pathlib.Path(__file__).resolve().parent
 with open(f'{str(current_dir)}/discord_token') as tokenfile:
-    TOKEN = tokenfile.read().splitlines()
+    TOKEN = tokenfile.read().splitlines()[0]
 
 # 接続に必要なオブジェクトを生成
 client = discord.Client()
