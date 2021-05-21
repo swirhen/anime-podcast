@@ -54,6 +54,7 @@ def str_to_array(in_str):
     else:
         res_line = ''
         res_line_temp = ''
+        print(str.split('\n'))
         for line in str.split('\n'):
             res_line_temp += f'{res_line}{line}\n'
             if len(res_line_temp) > 2000:
