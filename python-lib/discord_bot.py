@@ -60,9 +60,9 @@ async def on_message(message):
         keyword = ''
         target_category = 'all'
         argments = message.content.split()
-        if len(argments) > 2:
+        if len(argments) > 1:
             keyword = argments[1]
-            if len(argments) > 3:
+            if len(argments) > 2:
                 target_category = argments[2]
         else:
             await message.channel.send('つかいかた(´･ω･`)\nts [けんさくキーワード] [たいしょうカテゴリ]\nカテゴリ: doujin/manga/music/comic/live/all\n(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ/ぜんぶ)')
