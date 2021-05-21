@@ -8,6 +8,7 @@ import re
 import shutil
 import subprocess
 import urllib.request
+import requests
 import time
 from datetime import datetime as dt
 
@@ -20,6 +21,8 @@ CHECKLIST_FILE_PATH = f'{str(current_dir)}/../checklist.txt'
 SYOBOCAL_URI = 'http://cal.syoboi.jp/find?sd=0&kw='
 SCRIPT_DIR = str(current_dir)
 SEED_BACKUP_DIR = f'{SCRIPT_DIR}/../download_seeds'
+with open(f'{str(current_dir)}/discord_webhook_url_general') as file:
+    DISCORD_WEBHOOK_URI = file.read().splitlines()[0]
 
 
 # slackにpostする
@@ -43,6 +46,14 @@ def slack_upload(channel, filepath, filetype='text'):
 # twitterでつぶやく(tiarrametroのsocket経由)
 def tweeet(text, channel='#Twitter@t2'):
     subprocess.run(f'/usr/bin/php /home/swirhen/tiasock/tiasock.php "{channel}" "{text}"', shell=True)
+
+
+# discordにpostする
+def discord_post(text):
+    main_content = {
+        'content': text
+    }
+    requests.post(DISCORD_WEBHOOK_URI, main_content)
 
 
 # y/nをきく
