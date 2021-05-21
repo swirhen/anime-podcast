@@ -2,10 +2,15 @@
 # mention plugin
 # notice: ../slackbot_run.pyから読み込まれるので、カレントディレクトリは1個上の扱い
 # import section
+import os
+import pathlib
 import sys
 from datetime import datetime
 from slackbot.bot import respond_to
+from slacker import Slacker
+slack = Slacker(slackbot_settings.API_TOKEN)
 import bot_util as bu
+import swirhentv_util as swiutil
 sys.path.append('/home/swirhen/sh/checker/torrentsearch')
 import torrentsearch as trsc
 
@@ -14,7 +19,8 @@ SHARE_TEMP_DIR = '/data/share/temp'
 SEED_DOWNLOAD_DIR = f'{SHARE_TEMP_DIR}/torrentsearch'
 SEED_BACKUP_DIR = f'{SHARE_TEMP_DIR}/torrentsearch/downloaded'
 DL_URL_LIST_FILE = f'/home/swirhen/sh/checker/torrentsearch/download_url.txt'
-GIT_ROOT_DIR = '/home/swirhen/sh'
+current_dir = pathlib.Path(__file__).resolve().parent
+SCRIPT_DIR = str(current_dir)
 
 
 @respond_to('^ *でかした.*')
@@ -119,8 +125,11 @@ def torrent_search(message, argument):
 # torrent 最近のリスト
 @respond_to('^ *tl(.*)')
 def report_seed_list(message, argument):
+    tdatetime = datetime.now()
+    dt = tdatetime.strftime('%Y%m%d%H%M%S')
+    result_file_name = f'{SCRIPT_DIR}/seed_list_{dt}.txt'
     arguments = argument.split()
-    keyword = ''
+    target_category = ''
     if len(arguments) > 0:
         target_category = arguments[0]
     else:
@@ -134,8 +143,21 @@ def report_seed_list(message, argument):
     if len(seed_list) > 0:
         message.send(f'さいきんまかれたたねのリストだよ(｀･ω･´)\n'
                      f'たいしょうカテゴリ: {target_category}')
-        post_str = '```'
+        result = ''
         for seed in seed_list:
-            post_str += f'{seed[1]}\n'
-        post_str += '```'
-        message.send(post_str)
+            result += f'{seed[1]}\n'
+        swiutil.writefile_new(result_file_name, result)
+        file_upload(result_file_name, result_file_name, 'text', message)
+        os.remove(result_file_name)
+
+
+def file_upload(filename, filetitle, filetype, message):
+    if os.path.getsize(filename) == 0:
+        message.send('```(no log)```')
+    else:
+        slack.files.upload(
+            filename,
+            filename=filetitle,
+            filetype=filetype,
+            channels=message._body['channel'],
+        )

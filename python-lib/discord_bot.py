@@ -16,7 +16,6 @@ SHARE_TEMP_DIR = '/data/share/temp'
 SEED_DOWNLOAD_DIR = f'{SHARE_TEMP_DIR}/torrentsearch'
 SEED_BACKUP_DIR = f'{SHARE_TEMP_DIR}/torrentsearch/downloaded'
 DL_URL_LIST_FILE = f'/home/swirhen/sh/checker/torrentsearch/download_url.txt'
-GIT_ROOT_DIR = '/home/swirhen/sh'
 current_dir = pathlib.Path(__file__).resolve().parent
 SCRIPT_DIR = str(current_dir)
 with open(f'{SCRIPT_DIR}/discord_token') as tokenfile:
@@ -56,6 +55,7 @@ async def on_message(message):
         await message.channel.send(file=discord.File(result_file_name))
         os.remove(result_file_name)
 
+    # 種リスト
     elif re.search('^/tl.*', message.content):
         tdatetime = datetime.now()
         dt = tdatetime.strftime('%Y%m%d%H%M%S')
