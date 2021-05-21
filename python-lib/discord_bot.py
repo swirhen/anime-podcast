@@ -65,7 +65,7 @@ async def on_message(message):
         if len(arguments) > 1:
             target_category = arguments[1]
         else:
-            message.send('つかいかた(´･ω･`)\n'
+            message.send('つかいかた(´・ω・`)\n'
                          'tl [たいしょうカテゴリ]\n'
                          'カテゴリ: doujin/manga/music/comic/live\n'
                          '(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ)')
@@ -73,7 +73,7 @@ async def on_message(message):
 
         seed_list = trsc.get_seed_list(target_category)
         if len(seed_list) > 0:
-            await message.channel.send(f'さいきんまかれたたねのリストだよ(｀･ω･´)\n'
+            await message.channel.send(f'さいきんまかれたたねのリストだよ(｀・ω・´)\n'
                                        f'たいしょうカテゴリ: {target_category}')
             result = ''
             for seed in seed_list:
@@ -82,7 +82,7 @@ async def on_message(message):
             await message.channel.send(file=discord.File(result_file_name))
             os.remove(result_file_name)
         else:
-            await message.channel.send(f'なんかとれなかったよ(´･ω･`)\n')
+            await message.channel.send(f'なんかとれなかったよ(´・ω・`)\n')
 
     elif re.search('^/ts.*', message.content):
         tdatetime = datetime.now()
@@ -96,16 +96,16 @@ async def on_message(message):
             if len(arguments) > 2:
                 target_category = arguments[2]
         else:
-            await message.channel.send('つかいかた(´･ω･`)\nts [けんさくキーワード] [たいしょうカテゴリ]\nカテゴリ: doujin/manga/music/comic/live/all\n(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ/ぜんぶ)')
+            await message.channel.send('つかいかた(´・ω・`)\nts [けんさくキーワード] [たいしょうカテゴリ]\nカテゴリ: doujin/manga/music/comic/live/all\n(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ/ぜんぶ)')
             return
 
-        await message.channel.send(f'さがしてくるよ(｀･ω･´)\nたいしょうカテゴリ: {target_category} きーわーど: {keyword}')
+        await message.channel.send(f'さがしてくるよ(｀・ω・´)\nたいしょうカテゴリ: {target_category} きーわーど: {keyword}')
         result = bu.seed_search(keyword, target_category)
         if re.search('なかったよ',result):
             await message.channel.send(result)
         else:
-            await message.channel.send('みつかったよ(｀･ω･´)')
-            result_mod = result.replace('みつかったよ(｀･ω･´)\n```','').replace('```','')
+            await message.channel.send('みつかったよ(｀・ω・´)')
+            result_mod = result.replace('みつかったよ(｀・ω・´)\n```','').replace('```','')
             swiutil.writefile_new(result_file_name, result_mod)
             await message.channel.send(file=discord.File(result_file_name))
             os.remove(result_file_name)
@@ -124,7 +124,7 @@ async def on_message(message):
             if len(arguments) > 3:
                 keyword = arguments[3]
         else:
-            await message.channel.send('つかいかた(´･ω･`)\n'
+            await message.channel.send('つかいかた(´・ω・`)\n'
                                         'tdl [たねのあるディレクトリ] [いどうさきのディレクトリ] [いどうするたねをしぼりこむキーワード]\n'
                                         'いどうもとディレクトリ: ひづけ(YYYYMMDD) もしくは t(きょうのひづけ)\n'
                                         'いどうさきディレクトリ:\n'
@@ -152,7 +152,7 @@ async def on_message(message):
         # 栽培
         seedlist = bu.get_seeds_list(target_dir)
         if len(seedlist) == 0:
-            await message.channel.send('たねがみつからなかったよ(´･ω･`)')
+            await message.channel.send('たねがみつからなかったよ(´・ω・`)')
             return
         else:
             await message.channel.send('いどうしたたね:')
@@ -160,11 +160,11 @@ async def on_message(message):
             await message.channel.send(file=discord.File(result_file_name))
             os.remove(result_file_name)
 
-        await message.channel.send('さいばいをかいしするよ(｀･ω･´)')
+        await message.channel.send('さいばいをかいしするよ(｀・ω・´)')
 
         bu.plant_seed(target_dir)
 
-        await message.channel.send('おわったよ(｀･ω･´)')
+        await message.channel.send('おわったよ(｀・ω・´)')
 
 
 if __name__ == "__main__":

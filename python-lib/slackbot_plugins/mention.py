@@ -58,7 +58,7 @@ def torrent_move_and_download(message, argument):
         if len(arguments) > 2:
             keyword = arguments[2]
     else:
-        message.send('つかいかた(´･ω･`)\n'
+        message.send('つかいかた(´・ω・`)\n'
                      'tdl [たねのあるディレクトリ] [いどうさきのディレクトリ] [いどうするたねをしぼりこむキーワード]\n'
                      'いどうもとディレクトリ: ひづけ(YYYYMMDD) もしくは t(きょうのひづけ)\n'
                      'いどうさきディレクトリ:\n'
@@ -87,17 +87,17 @@ def torrent_move_and_download(message, argument):
     # 栽培
     seedlist = bu.get_seeds_list(target_dir)
     if len(seedlist) == 0:
-        message.send('たねがみつからなかったよ(´･ω･`)')
+        message.send('たねがみつからなかったよ(´・ω・`)')
         return 1
     else:
         post_str = '```いどうしたたね:\n' + '\n'.join(seedlist) + '```'
         message.send(post_str)
 
-    message.send('さいばいをかいしするよ(｀･ω･´)')
+    message.send('さいばいをかいしするよ(｀・ω・´)')
 
     bu.plant_seed(target_dir)
 
-    message.send('おわったよ(｀･ω･´)')
+    message.send('おわったよ(｀・ω・´)')
 
 
 # torrent 検索
@@ -111,13 +111,13 @@ def torrent_search(message, argument):
         if len(arguments) > 1:
             target_category = arguments[1]
     else:
-        message.send('つかいかた(´･ω･`)\n'
+        message.send('つかいかた(´・ω・`)\n'
                      'ts [けんさくキーワード] [たいしょうカテゴリ]\n'
                      'カテゴリ: doujin/manga/music/comic/live/all\n'
                      '(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ/ぜんぶ)')
         return 1
 
-    message.send(f'さがしてくるよ(｀･ω･´)\n'
+    message.send(f'さがしてくるよ(｀・ω・´)\n'
                  f'たいしょうカテゴリ: {target_category} きーわーど: {keyword}')
     result = bu.seed_search(keyword, target_category)
     message.send(result)
@@ -134,7 +134,7 @@ def report_seed_list(message, argument):
     if len(arguments) > 0:
         target_category = arguments[0]
     else:
-        message.send('つかいかた(´･ω･`)\n'
+        message.send('つかいかた(´・ω・`)\n'
                      'tl [たいしょうカテゴリ]\n'
                      'カテゴリ: doujin/manga/music/comic/live\n'
                      '(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ)')
@@ -142,7 +142,7 @@ def report_seed_list(message, argument):
 
     seed_list = trsc.get_seed_list(target_category)
     if len(seed_list) > 0:
-        message.send(f'さいきんまかれたたねのリストだよ(｀･ω･´)\n'
+        message.send(f'さいきんまかれたたねのリストだよ(｀・ω・´)\n'
                      f'たいしょうカテゴリ: {target_category}')
         result = ''
         for seed in seed_list:
