@@ -37,8 +37,9 @@ async def on_message(message):
     if re.search('/seed.*', message.content):
         past_days = 3
         if len(message.content.split()) > 1:
-            past_days = message.content.split()[1]
-        announce_seed_info(past_days)
+            past_days = int(message.content.split()[1])
+        result = announce_seed_info(past_days)
+        message.channel.send(result)
 
 
 # 最近の自動取得seed問い合わせ
