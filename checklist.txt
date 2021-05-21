@@ -1,4 +1,8 @@
-Last Update: 2021/05/22-00:00:02
+Last Update: 2021/05/22-06:00:02
+2021/05/22-06:00:02 20 Back Arrow|バック・アロウ
+2021/05/22-06:00:02 08 SSSS.Dynazenon|SSSS.DYNAZENON
+2021/05/22-06:00:02 07 Subarashiki Kono Sekai the Animation|すばらしきこのせかい The Animation
+2021/05/22-06:00:02 07 Blue Reflection Ray|BLUE REFLECTION RAY／澪
 2021/05/22-00:00:02 19 Kumo Desu ga, Nanika|蜘蛛ですが、なにか？
 2021/05/22-00:00:02 07 Mars Red|MARS RED
 2021/05/22-00:00:02 06 Cestvs The Roman Fighter|セスタス -The Roman Fighter-
@@ -43,7 +47,3 @@ Last Update: 2021/05/22-00:00:02
 2021/05/16-00:00:02 05 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
 2021/05/15-12:00:02 32 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/05/15-12:00:02 07 Mashiro no Oto|ましろのおと
-2021/05/15-06:00:02 19 Back Arrow|バック・アロウ
-2021/05/15-06:00:02 07 SSSS.Dynazenon|SSSS.DYNAZENON
-2021/05/15-06:00:02 06 Subarashiki Kono Sekai the Animation|すばらしきこのせかい The Animation
-2021/05/15-06:00:02 06 Blue Reflection Ray|BLUE REFLECTION RAY／澪
