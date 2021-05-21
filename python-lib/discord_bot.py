@@ -41,8 +41,29 @@ async def on_message(message):
             past_days = int(message.content.split()[1])
         await message.channel.send(f'あつめた種の情報をおしらせするよ(さいきん {past_days} にちぶん)')
         result = bu.get_seed_directory(past_days)
-        print(len(result))
-        await message.channel.send(result)
+        results = str_to_array(result)
+        print(results)
+        for result in results:
+            await message.channel.send(result)
+
+
+def str_to_array(in_str):
+    result = []
+    if len(in_str) <= 2000:
+        return [in_str]
+    else:
+        res_line = ''
+        res_line_temp = ''
+        for line in str.split('\n'):
+            res_line_temp += f'{res_line}{line}\n'
+            if len(res_line_temp) > 2000:
+                result.append(res_line)
+                res_line = line
+            else:
+                res_line = res_line_temp
+        result.append(res_line)
+
+        return result
 
 
 # Botの起動とDiscordサーバーへの接続
