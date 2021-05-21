@@ -65,10 +65,10 @@ async def on_message(message):
         if len(arguments) > 1:
             target_category = arguments[1]
         else:
-            message.send('つかいかた(´・ω・`)\n'
-                         'tl [たいしょうカテゴリ]\n'
-                         'カテゴリ: doujin/manga/music/comic/live\n'
-                         '(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ)')
+            await message.channel.send('つかいかた(´・ω・`)\n'
+                                        'tl [たいしょうカテゴリ]\n'
+                                        'カテゴリ: doujin/manga/music/comic/live\n'
+                                        '(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ)')
             return
 
         seed_list = trsc.get_seed_list(target_category)
