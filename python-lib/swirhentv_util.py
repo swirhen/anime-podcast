@@ -21,7 +21,7 @@ CHECKLIST_FILE_PATH = f'{str(current_dir)}/../checklist.txt'
 SYOBOCAL_URI = 'http://cal.syoboi.jp/find?sd=0&kw='
 SCRIPT_DIR = str(current_dir)
 SEED_BACKUP_DIR = f'{SCRIPT_DIR}/../download_seeds'
-DISCORD_WEBHOOK_URI_FILE_PREFIX = 'discord_webhook_url_'
+DISCORD_WEBHOOK_URI_FILE = 'discord_webhook_url'
 
 
 # slackにpostする
@@ -47,25 +47,36 @@ def tweeet(text, channel='#Twitter@t2'):
     subprocess.run(f'/usr/bin/php /home/swirhen/tiasock/tiasock.php "{channel}" "{text}"', shell=True)
 
 
+# discord channel decision
+def get_discord_webhook_url(target_channel):
+    result = ''
+    with open(DISCORD_WEBHOOK_URI_FILE) as file:
+        for line in file.read().splitlines():
+            channel = line.split()[0]
+            webhook_uri = line.split()[1]
+            if channel == target_channel:
+                result = webhook_uri
+                break
+    return result
+
+
 # discordにpostする
 def discord_post(channel, text):
-    with open(f'{str(current_dir)}/discord_webhook_url_{channel}') as file:
-        discord_webhook_uri = file.read().splitlines()[0]
-
-    main_content = {
-        'content': text
-    }
-    requests.post(discord_webhook_uri, main_content)
+    discord_webhook_uri = get_discord_webhook_url(channel)
+    if discord_webhook_uri != '':
+        main_content = {
+            'content': text
+        }
+        requests.post(discord_webhook_uri, main_content)
 
 
 # discordにuploadする
 def discord_upload(channel, filename):
-    with open(f'{str(current_dir)}/discord_webhook_url_{channel}') as file:
-        discord_webhook_uri = file.read().splitlines()[0]
-
-    with open(filename, 'rb') as file:
-        files = {'param_name': (pathlib.Path(filename).name, file)}
-        requests.post(discord_webhook_uri, files=files)
+    discord_webhook_uri = get_discord_webhook_url(channel)
+    if discord_webhook_uri != '':
+        with open(filename, 'rb') as file:
+            files = {'param_name': (pathlib.Path(filename).name, file)}
+            requests.post(discord_webhook_uri, files=files)
 
 
 # y/nをきく
