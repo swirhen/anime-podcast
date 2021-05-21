@@ -39,7 +39,7 @@ async def on_message(message):
         if len(message.content.split()) > 1:
             past_days = int(message.content.split()[1])
         result = announce_seed_info(past_days)
-        message.channel.send(result)
+        await message.channel.send(result)
 
 
 # 最近の自動取得seed問い合わせ
