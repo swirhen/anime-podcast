@@ -79,6 +79,18 @@ def discord_upload(channel, filename):
             requests.post(discord_webhook_uri, files=files)
 
 
+# discord/slack multi post
+def multi_post(channel, text, username='swirhentv', icon_emoji=''):
+    slack_post(channel, text, username, icon_emoji)
+    discord_post(channel, text)
+
+
+# discord/slack multi upload
+def multi_upload(channel, filename, filetype='text'):
+    slack_upload(channel, filename, filetype)
+    discord_upload(channel, filetype)
+
+
 # y/nをきく
 def askconfirm():
     res = input('> ')
