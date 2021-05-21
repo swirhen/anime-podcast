@@ -61,10 +61,10 @@ def agqr_check(check_option):
     if os.path.isfile(temp_file):
         if check_option != '':
             swiutil.tweeet('【超A&G チェック 定時報告】録画URLは有効です')
-            swiutil.slack_post(SLACK_CHANNEL, '【超A&G チェック 定時報告】録画URLは有効です')
+            swiutil.multi_post(SLACK_CHANNEL, '【超A&G チェック 定時報告】録画URLは有効です')
     else:
         swiutil.tweeet(f'【超A&G チェック】HLSでの録画に失敗しました: {AGQR_STREAM_URI}')
-        swiutil.slack_post(SLACK_CHANNEL, f'【超A&G チェック】HLSでの録画に失敗しました: {AGQR_STREAM_URI}')
+        swiutil.multi_post(SLACK_CHANNEL, f'【超A&G チェック】HLSでの録画に失敗しました: {AGQR_STREAM_URI}')
 
     if os.path.exists(temp_file):
         os.remove(temp_file)
@@ -89,10 +89,10 @@ def radiko_check(check_option):
     if os.path.isfile(temp_file):
         if check_option != '':
             swiutil.tweeet('【Radiko チェック 定時報告】録画URLは有効です')
-            swiutil.slack_post(SLACK_CHANNEL, '【Radiko チェック 定時報告】録画URLは有効です')
+            swiutil.multi_post(SLACK_CHANNEL, '【Radiko チェック 定時報告】録画URLは有効です')
     else:
         swiutil.tweeet(f'【Radiko チェック】HLSでの録画に失敗しました: {radikostreamurl}')
-        swiutil.slack_post(SLACK_CHANNEL, f'【Radiko チェック】HLSでの録画に失敗しました: {radikostreamtoken}')
+        swiutil.multi_post(SLACK_CHANNEL, f'【Radiko チェック】HLSでの録画に失敗しました: {radikostreamtoken}')
 
     if os.path.exists(temp_file):
         os.remove(temp_file)
@@ -107,10 +107,10 @@ def radiko_location_check():
 
     if location_info == '':
         swiutil.tweeet('【radiko 地域判定チェック】判定地域が取得できませんでした')
-        swiutil.slack_post(SLACK_CHANNEL, '@channel 【radiko 地域判定チェック】判定地域が取得できませんでした')
+        swiutil.multi_post(SLACK_CHANNEL, '@channel 【radiko 地域判定チェック】判定地域が取得できませんでした')
     elif location_info != RADIKO_LOCATION_INFO_FROM_FILE:
         swiutil.tweeet(f'【radiko 地域判定チェック】判定地域が変更されました: {location_info}')
-        swiutil.slack_post(SLACK_CHANNEL, f'@channel 【radiko 地域判定チェック】判定地域が変更されました: {location_info}')
+        swiutil.multi_post(SLACK_CHANNEL, f'@channel 【radiko 地域判定チェック】判定地域が変更されました: {location_info}')
         swiutil.writefile_new(RADIKO_LOCATION_INFO_FILE, location_info)
 
     exit(0)
@@ -224,7 +224,7 @@ if __name__ == '__main__':
         if location_area != 'JP8,':
             post_str = f'【{operation_str}自動保存】エリア判定が現在茨城県(JP8)以外のため、番組が取得出来ない可能性があります。ご確認ください\n' \
                        f'現在のエリア:{location_info}'
-            swiutil.slack_post(SLACK_CHANNEL, post_str)
+            swiutil.multi_post(SLACK_CHANNEL, post_str)
 
         # 放送局IDから放送局名を取得現在放送中番組名を取得
         req = urllib.request.Request(RADIKO_PROGRAM_INFO_URI)
@@ -256,18 +256,18 @@ if __name__ == '__main__':
 
     # 開始ツイートリツイートよろぺこー
     swiutil.tweeet(f'【{operation_str}自動保存開始】{filename_without_path}')
-    swiutil.slack_post(SLACK_CHANNEL, f'【{operation_str}自動保存開始】{filename_without_path}')
+    swiutil.multi_post(SLACK_CHANNEL, f'【{operation_str}自動保存開始】{filename_without_path}')
 
     # 番組名バリデート
     if program_name_from_api == '':
         post_str = f'{mention}【{operation_str}自動保存】番組表apiから番組名が取得出来ませんでした。ご確認ください\n' \
                    f'from arg:{program_name}'
-        swiutil.slack_post(SLACK_CHANNEL, post_str)
+        swiutil.multi_post(SLACK_CHANNEL, post_str)
     elif program_name_from_api != program_name:
         post_str = f'{mention}【{operation_str}自動保存】番組表apiから取得した番組名と指定番組名が違っています。確認してください\n' \
                    f'from arg:{program_name}\n' \
                    f'from api:{program_name_from_api}'
-        swiutil.slack_post(SLACK_CHANNEL, post_str)
+        swiutil.multi_post(SLACK_CHANNEL, post_str)
 
     # 録音時間に満たないファイルが生成されてしまった場合、続きから録音し直す(最終的に録音時間合計に達するまで続ける)
     rectime_remain = record_time
@@ -332,4 +332,4 @@ if __name__ == '__main__':
 
     # 終了ツイート
     swiutil.tweeet(f'【{operation_str}自動保存終了】{filename_without_path}')
-    swiutil.slack_post(SLACK_CHANNEL, f'【{operation_str}自動保存終了】{filename_without_path}')
+    swiutil.multi_post(SLACK_CHANNEL, f'【{operation_str}自動保存終了】{filename_without_path}')
