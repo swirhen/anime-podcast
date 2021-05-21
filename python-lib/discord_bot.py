@@ -104,6 +104,17 @@ async def on_message(message):
                                         'hm:ほろおんがく hl:ほろらいぶ\n'
                                         'もしくは ふるぱすもじれつ')
 
+        target_dir = bu.choose_target_dir(target_dir)
+        if target_dir == '':
+            message.send('いどうさきディレクトリ:\n'
+                         'd: どうじん c: みせいりほん m: えろまんが\n'
+                         'cm: でれおんがく cl: でれらいぶ\n'
+                         'mm: みりおんがく ml:みりらいぶ\n'
+                         'sm:しゃにおんがく sl:しゃにらいぶ\n'
+                         'hm:ほろおんがく hl:ほろらいぶ\n'
+                         'もしくは ふるぱすもじれつ')
+            return
+
         result = bu.seed_move(seed_dir, target_dir, keyword)
         await message.channel.send(result)
 
@@ -111,7 +122,7 @@ async def on_message(message):
         seedlist = bu.get_seeds_list(target_dir)
         if len(seedlist) == 0:
             await message.channel.send('たねがみつからなかったよ(´･ω･`)')
-            return 1
+            return
         else:
             await message.channel.send('いどうしたたね:')
             swiutil.writefile_new(result_file_name, '\n'.join(seedlist))
