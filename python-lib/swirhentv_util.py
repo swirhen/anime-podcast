@@ -21,7 +21,7 @@ CHECKLIST_FILE_PATH = f'{str(current_dir)}/../checklist.txt'
 SYOBOCAL_URI = 'http://cal.syoboi.jp/find?sd=0&kw='
 SCRIPT_DIR = str(current_dir)
 SEED_BACKUP_DIR = f'{SCRIPT_DIR}/../download_seeds'
-DISCORD_WEBHOOK_URI_FILE = 'discord_webhook_url'
+DISCORD_WEBHOOK_URI_FILE = '{SCRIPT_DIR}/discord_webhook_url'
 
 
 # slackにpostする
