@@ -54,14 +54,14 @@ def str_to_array(in_str):
     else:
         res_line = ''
         res_line_temp = ''
-        for line in str.split('\n'):
-            print(line)
+        for line in in_str.split('\n'):
             res_line_temp += f'{res_line}{line}\n'
             if len(res_line_temp) > 2000:
                 result.append(res_line)
                 res_line = line
             else:
                 res_line = res_line_temp
+        result.append(res_line)
 
         return result
 
