@@ -56,6 +56,14 @@ def discord_post(text):
     requests.post(DISCORD_WEBHOOK_URI, main_content)
 
 
+# discordにuploadする
+def discord_upload(filename):
+    with open(filename, 'rb') as file:
+        files = {'param_name': (pathlib.Path(filename).name, file, 'plain/text')}
+        data = {'another_key': 'another_value'}
+        requests.post(DISCORD_WEBHOOK_URI, files=files, data=data)
+
+
 # y/nをきく
 def askconfirm():
     res = input('> ')
