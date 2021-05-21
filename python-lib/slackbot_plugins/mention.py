@@ -13,6 +13,7 @@ import time
 import git
 import urllib.request
 from slackbot.bot import respond_to
+import bot_util as bu
 import swirhentv_util as swiutil
 sys.path.append('/home/swirhen/sh/checker/torrentsearch')
 import torrentsearch as trsc
@@ -38,27 +39,9 @@ def announce_seed_info(message, argment):
         past_days = int(argment)
     else:
         past_days = 3
-    message.send(f'あつめた種の情報をおしらせするよ(さいきん{past_days}にちぶん)')
-    paths = sorted(list(pathlib.Path(SEED_DOWNLOAD_DIR).glob('2*')), reverse=True)
-    get_paths = paths[:past_days]
-    seed_info = dict()
-    for get_path in get_paths:
-        if not get_path.name in seed_info:
-            seed_info[get_path.name] = []
-
-        seed_list = list(pathlib.Path(get_path).glob('*'))
-        for seed in seed_list:
-            seed_info[get_path.name].append(seed.name)
-
-    post_str = '```'
-    for dir in seed_info:
-        post_str += f'directory {dir} in seeds:\n'
-        for seed in seed_info[dir]:
-            post_str += f'    {seed}\n'
-
-    post_str += '```'
-
-    message.send(post_str)
+    message.send(f'あつめた種の情報をおしらせするよ(さいきん {past_days} にちぶん)')
+    result = bu.get_seed_directory(past_days)
+    message.send(result)
 
 
 # 取得seedを移動、栽培

@@ -3,6 +3,7 @@
 import pathlib
 import re
 import discord
+import bot_util as bu
 
 # argment section
 SHARE_TEMP_DIR = '/data/share/temp'
@@ -38,33 +39,9 @@ async def on_message(message):
         past_days = 3
         if len(message.content.split()) > 1:
             past_days = int(message.content.split()[1])
-        result = announce_seed_info(past_days)
+        await message.channel.send(f'あつめた種の情報をおしらせするよ(さいきん {past_days} にちぶん)')
+        result = bu.get_seed_directory(past_days)
         await message.channel.send(result)
-
-
-# 最近の自動取得seed問い合わせ
-def announce_seed_info(past_days):
-    return_message = ''
-    return_message += f'あつめた種の情報をおしらせするよ(さいきん{past_days}にちぶん)\n'
-    paths = sorted(list(pathlib.Path(SEED_DOWNLOAD_DIR).glob('2*')), reverse=True)
-    get_paths = paths[:past_days]
-    seed_info = dict()
-    for get_path in get_paths:
-        if not get_path.name in seed_info:
-            seed_info[get_path.name] = []
-
-        seed_list = list(pathlib.Path(get_path).glob('*'))
-        for seed in seed_list:
-            seed_info[get_path.name].append(seed.name)
-
-    return_message += '```'
-    for dir in seed_info:
-        return_message += f'directory {dir} in seeds:\n'
-        for seed in seed_info[dir]:
-            return_message += f'    {seed}\n'
-    return_message += '```'
-
-    return return_message
 
 
 # Botの起動とDiscordサーバーへの接続
