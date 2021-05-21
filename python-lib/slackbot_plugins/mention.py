@@ -7,6 +7,7 @@ from datetime import datetime
 from slackbot.bot import respond_to
 import bot_util as bu
 sys.path.append('/home/swirhen/sh/checker/torrentsearch')
+import torrentsearch as trsc
 
 # argument section
 SHARE_TEMP_DIR = '/data/share/temp'
@@ -113,3 +114,28 @@ def torrent_search(message, argument):
                  f'たいしょうカテゴリ: {target_category} きーわーど: {keyword}')
     result = bu.seed_search(keyword, target_category)
     message.send(result)
+
+
+# torrent 最近のリスト
+@respond_to('^ *tl(.*)')
+def report_seed_list(message, argument):
+    arguments = argument.split()
+    keyword = ''
+    if len(arguments) > 0:
+        target_category = arguments[1]
+    else:
+        message.send('つかいかた(´･ω･`)\n'
+                     'tl [たいしょうカテゴリ]\n'
+                     'カテゴリ: doujin/manga/music/comic/live\n'
+                     '(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ)')
+        return 1
+
+    seed_list = trsc.get_seed_list(target_category)
+    if len(seed_list) > 0:
+        message.send(f'さいきんまかれたたねのリストだよ(｀･ω･´)\n'
+                     f'たいしょうカテゴリ: {target_category}')
+        post_str = '```'
+        for seed in seed_list:
+            post_str += f'{seed[1]}\n'
+        post_str = '```'
+        message.send(post_str)
