@@ -15,7 +15,7 @@ import swirhentv_util as swiutil
 sys.path.append('/home/swirhen/sh/checker/torrentsearch')
 import torrentsearch as trsc
 
-# argment section
+# argument section
 SHARE_TEMP_DIR = '/data/share/temp'
 SEED_DOWNLOAD_DIR = f'{SHARE_TEMP_DIR}/torrentsearch'
 SEED_BACKUP_DIR = f'{SHARE_TEMP_DIR}/torrentsearch/downloaded'

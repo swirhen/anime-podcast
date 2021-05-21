@@ -33,7 +33,7 @@ sys.path.append(f'{str(current_dir)}/python-lib/')
 import swirhentv_util as swiutil
 import radikoauth
 
-# argments section
+# arguments section
 SCRIPT_DIR = str(current_dir)
 OUTPUT_PATH = f'{SCRIPT_DIR}/../98 PSP用/agqr'
 TMP_PATH = f'{OUTPUT_PATH}/flv'

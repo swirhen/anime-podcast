@@ -2,18 +2,13 @@
 # mention plugin
 # notice: ../slackbot_run.pyから読み込まれるので、カレントディレクトリは1個上の扱い
 # import section
-import os
 import sys
-import pathlib
-import shutil
-import subprocess
 from datetime import datetime
-import time
 from slackbot.bot import respond_to
 import bot_util as bu
 sys.path.append('/home/swirhen/sh/checker/torrentsearch')
 
-# argment section
+# argument section
 SHARE_TEMP_DIR = '/data/share/temp'
 SEED_DOWNLOAD_DIR = f'{SHARE_TEMP_DIR}/torrentsearch'
 SEED_BACKUP_DIR = f'{SHARE_TEMP_DIR}/torrentsearch/downloaded'
@@ -29,9 +24,9 @@ def doya(message):
 
 # 最近の自動取得seed問い合わせ
 @respond_to('^ *seed(.*)')
-def announce_seed_info(message, argment):
-    if argment != '':
-        past_days = int(argment)
+def announce_seed_info(message, argument):
+    if argument != '':
+        past_days = int(argument)
     else:
         past_days = 3
     message.send(f'あつめた種の情報をおしらせするよ(さいきん {past_days} にちぶん)')
@@ -41,19 +36,19 @@ def announce_seed_info(message, argment):
 
 # 取得seedを移動、栽培
 @respond_to('^ *tdl(.*)')
-def torrent_move_and_download(message, argment):
+def torrent_move_and_download(message, argument):
     tdatetime = datetime.now()
     date = tdatetime.strftime('%Y%m%d')
     today_download_dir = f'/data/share/temp/torrentsearch/{date}'
-    argments = argment.split()
+    arguments = argument.split()
     seed_dir = ''
     target_dir = ''
     keyword = ''
-    if len(argments) > 1:
-        seed_dir = argments[0]
-        target_dir = argments[1]
-        if len(argments) > 2:
-            keyword = argments[2]
+    if len(arguments) > 1:
+        seed_dir = arguments[0]
+        target_dir = arguments[1]
+        if len(arguments) > 2:
+            keyword = arguments[2]
     else:
         message.send('つかいかた(´･ω･`)\n'
                      'tdl [たねのあるディレクトリ] [いどうさきのディレクトリ] [いどうするたねをしぼりこむキーワード]\n'
@@ -63,8 +58,8 @@ def torrent_move_and_download(message, argment):
                      'cm: でれおんがく cl: でれらいぶ\n'
                      'mm: みりおんがく ml:みりらいぶ\n'
                      'sm:しゃにおんがく sl:しゃにらいぶ\n'
-                     'hm:ほろおんがく hl:ほろらいぶ'
-                     '\nもしくは ふるぱすもじれつ')
+                     'hm:ほろおんがく hl:ほろらいぶ\n'
+                     'もしくは ふるぱすもじれつ')
         return 1
 
     target_dir = bu.choose_target_dir(target_dir)
@@ -99,18 +94,22 @@ def torrent_move_and_download(message, argment):
 
 # torrent 検索
 @respond_to('^ *ts(.*)')
-def torrent_search(message, argment):
-    argments = argment.split()
+def torrent_search(message, argument):
+    arguments = argument.split()
     keyword = ''
     target_category = 'all'
-    if len(argments) > 0:
-        keyword = argments[0]
-        if len(argments) > 1:
-            target_category = argments[1]
+    if len(arguments) > 0:
+        keyword = arguments[0]
+        if len(arguments) > 1:
+            target_category = arguments[1]
     else:
-        message.send('つかいかた(´･ω･`)\nts [けんさくキーワード] [たいしょうカテゴリ]\nカテゴリ: doujin/manga/music/comic/live/all\n(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ/ぜんぶ)')
+        message.send('つかいかた(´･ω･`)\n'
+                     'ts [けんさくキーワード] [たいしょうカテゴリ]\n'
+                     'カテゴリ: doujin/manga/music/comic/live/all\n'
+                     '(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ/ぜんぶ)')
         return 1
 
-    message.send(f'さがしてくるよ(｀･ω･´)\nたいしょうカテゴリ: {target_category} きーわーど: {keyword}')
+    message.send(f'さがしてくるよ(｀･ω･´)\n'
+                 f'たいしょうカテゴリ: {target_category} きーわーど: {keyword}')
     result = bu.seed_search(keyword, target_category)
     message.send(result)

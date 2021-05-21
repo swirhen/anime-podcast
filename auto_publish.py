@@ -17,7 +17,7 @@ current_dir = pathlib.Path(__file__).resolve().parent
 sys.path.append(f'{str(current_dir)}/python-lib/')
 import swirhentv_util as swiutil
 
-# argments section
+# arguments section
 SCRIPT_DIR = str(current_dir)
 DOWNLOAD_DIR = '/data/share/movie'
 OUTPUT_DIR = '/data/share/movie/98 PSP用'

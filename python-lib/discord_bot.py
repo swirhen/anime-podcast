@@ -8,7 +8,7 @@ import discord
 import bot_util as bu
 import swirhentv_util as swiutil
 
-# argment section
+# argument section
 SHARE_TEMP_DIR = '/data/share/temp'
 SEED_DOWNLOAD_DIR = f'{SHARE_TEMP_DIR}/torrentsearch'
 SEED_BACKUP_DIR = f'{SHARE_TEMP_DIR}/torrentsearch/downloaded'
@@ -59,11 +59,11 @@ async def on_message(message):
         result_file_name = f'{SCRIPT_DIR}/seed_search_{dt}.txt'
         keyword = ''
         target_category = 'all'
-        argments = message.content.split()
-        if len(argments) > 1:
-            keyword = argments[1]
-            if len(argments) > 2:
-                target_category = argments[2]
+        arguments = message.content.split()
+        if len(arguments) > 1:
+            keyword = arguments[1]
+            if len(arguments) > 2:
+                target_category = arguments[2]
         else:
             await message.channel.send('つかいかた(´･ω･`)\nts [けんさくキーワード] [たいしょうカテゴリ]\nカテゴリ: doujin/manga/music/comic/live/all\n(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ/ぜんぶ)')
             return
@@ -78,6 +78,51 @@ async def on_message(message):
             swiutil.writefile_new(result_file_name, result_mod)
             await message.channel.send(file=discord.File(result_file_name))
             os.remove(result_file_name)
+    
+    elif re.search('^/tdl.*', message.content):
+        tdatetime = datetime.now()
+        dt = tdatetime.strftime('%Y%m%d%H%M%S')
+        result_file_name = f'{SCRIPT_DIR}/seed_move_{dt}.txt'
+        arguments = message.content.split()
+        seed_dir = ''
+        target_dir = ''
+        keyword = ''
+        if len(arguments) > 2:
+            seed_dir = arguments[1]
+            target_dir = arguments[2]
+            if len(arguments) > 3:
+                keyword = arguments[3]
+        else:
+            await message.channel.send('つかいかた(´･ω･`)\n'
+                                        'tdl [たねのあるディレクトリ] [いどうさきのディレクトリ] [いどうするたねをしぼりこむキーワード]\n'
+                                        'いどうもとディレクトリ: ひづけ(YYYYMMDD) もしくは t(きょうのひづけ)\n'
+                                        'いどうさきディレクトリ:\n'
+                                        'd: どうじん c: みせいりほん m: えろまんが\n'
+                                        'cm: でれおんがく cl: でれらいぶ\n'
+                                        'mm: みりおんがく ml:みりらいぶ\n'
+                                        'sm:しゃにおんがく sl:しゃにらいぶ\n'
+                                        'hm:ほろおんがく hl:ほろらいぶ\n'
+                                        'もしくは ふるぱすもじれつ')
+
+        result = bu.seed_move(seed_dir, target_dir, keyword)
+        await message.channel.send(result)
+
+        # 栽培
+        seedlist = bu.get_seeds_list(target_dir)
+        if len(seedlist) == 0:
+            await message.channel.send('たねがみつからなかったよ(´･ω･`)')
+            return 1
+        else:
+            await message.channel.send('いどうしたたね:')
+            swiutil.writefile_new(result_file_name, '\n'.join(seedlist))
+            await message.channel.send(file=discord.File(result_file_name))
+            os.remove(result_file_name)
+
+        await message.channel.send('さいばいをかいしするよ(｀･ω･´)')
+
+        bu.plant_seed(target_dir)
+
+        await message.channel.send('おわったよ(｀･ω･´)')
 
 
 if __name__ == "__main__":
