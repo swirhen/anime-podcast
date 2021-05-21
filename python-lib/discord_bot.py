@@ -15,7 +15,8 @@ SEED_BACKUP_DIR = f'{SHARE_TEMP_DIR}/torrentsearch/downloaded'
 DL_URL_LIST_FILE = f'/home/swirhen/sh/checker/torrentsearch/download_url.txt'
 GIT_ROOT_DIR = '/home/swirhen/sh'
 current_dir = pathlib.Path(__file__).resolve().parent
-with open(f'{str(current_dir)}/discord_token') as tokenfile:
+SCRIPT_DIR = str(current_dir)
+with open(f'{SCRIPT_DIR}/discord_token') as tokenfile:
     TOKEN = tokenfile.read().splitlines()[0]
 
 
@@ -41,7 +42,7 @@ async def on_message(message):
     if re.search('/seed.*', message.content):
         tdatetime = datetime.now()
         dt = tdatetime.strftime('%Y%m%d%H%M%S')
-        result_file_name = f'seed_info_{dt}.txt'
+        result_file_name = f'{SCRIPT_DIR}/seed_info_{dt}.txt'
         past_days = 3
         if len(message.content.split()) > 1:
             past_days = int(message.content.split()[1])
