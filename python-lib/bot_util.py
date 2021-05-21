@@ -93,31 +93,33 @@ def seed_search(keyword, target_category):
 # 移動先ディレクトリ判定
 def choose_target_dir(target_dir):
     if target_dir == 'd':
-        return sorted(list(pathlib.Path(SHARE_TEMP_DIR).glob('d2*/')), reverse=True)[0]
+        target_dir = sorted(list(pathlib.Path(SHARE_TEMP_DIR).glob('d2*/')), reverse=True)[0]
     elif target_dir == 'm':
-        return  sorted(list(pathlib.Path(SHARE_TEMP_DIR).glob('c2*/')), reverse=True)[0]
+        target_dir =  sorted(list(pathlib.Path(SHARE_TEMP_DIR).glob('c2*/')), reverse=True)[0]
     elif target_dir == 'c':
-        return  list(pathlib.Path(SHARE_TEMP_DIR).glob('01*/'))[0]
+        target_dir =  list(pathlib.Path(SHARE_TEMP_DIR).glob('01*/'))[0]
     elif target_dir == 'cm':
-        return  list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER CINDERELLA GIRLS').glob('music'))[0]
+        target_dir =  list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER CINDERELLA GIRLS').glob('music'))[0]
     elif target_dir == 'cl':
-        return  list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER CINDERELLA GIRLS').glob('livedvd'))[0]
+        target_dir =  list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER CINDERELLA GIRLS').glob('livedvd'))[0]
     elif target_dir == 'mm':
-        return  list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER MILLION LIVE').glob('music'))[0]
+        target_dir =  list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER MILLION LIVE').glob('music'))[0]
     elif target_dir == 'ml':
-        return  list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER MILLION LIVE').glob('livedvd'))[0]
+        target_dir =  list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER MILLION LIVE').glob('livedvd'))[0]
     elif target_dir == 'sm':
-        return  list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER Shiny Colors').glob('music'))[0]
+        target_dir =  list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER Shiny Colors').glob('music'))[0]
     elif target_dir == 'sl':
-        return  list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER Shiny Colors').glob('livedvd'))[0]
+        target_dir =  list(pathlib.Path(f'{SHARE_TEMP_DIR}/THE IDOLM@STER Shiny Colors').glob('livedvd'))[0]
     elif target_dir == 'hm':
-        return  list(pathlib.Path(f'{SHARE_TEMP_DIR}/hololive IDOL PROJECT').glob('music'))[0]
+        target_dir =  list(pathlib.Path(f'{SHARE_TEMP_DIR}/hololive IDOL PROJECT').glob('music'))[0]
     elif target_dir == 'hl':
-        return  list(pathlib.Path(f'{SHARE_TEMP_DIR}/hololive IDOL PROJECT').glob('live'))[0]
+        target_dir =  list(pathlib.Path(f'{SHARE_TEMP_DIR}/hololive IDOL PROJECT').glob('live'))[0]
     elif os.path.isdir(pathlib.Path(target_dir)):
-        return target_dir
+        target_dir = target_dir
     else:
-        return ''
+        target_dir = ''
+
+    return str(target_dir)
 
 
 # 種の所定位置への移動
