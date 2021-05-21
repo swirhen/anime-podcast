@@ -70,7 +70,14 @@ async def on_message(message):
 
         await message.channel.send(f'さがしてくるよ(｀･ω･´)\nたいしょうカテゴリ: {target_category} きーわーど: {keyword}')
         result = bu.seed_search(keyword, target_category)
-        await message.channel.send(result)
+        if re.search('なかったよ',result):
+            await message.channel.send(result)
+        else:
+            await message.channel.send('みつかったよ(｀･ω･´)')
+            result_mod = result.replace('みつかったよ\n```','').replace('```','')
+            swiutil.writefile_new(result_file_name, result_mod)
+            await message.channel.send(file=discord.File(result_file_name))
+            os.remove(result_file_name)
 
 
 def str_to_array(in_str):
