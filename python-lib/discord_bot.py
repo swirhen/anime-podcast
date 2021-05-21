@@ -35,38 +35,31 @@ async def on_message(message):
         await message.channel.send('にゃーん')
 
     if re.search('/seed.*', message.content):
-        argment = ''
-        if len(message.content.split()) > 1:
-            argment = message.content.split()[1]
-        announce_seed_info(message, argment)
-
-
-def announce_seed_info(message, argment):
-    if argment != '':
-        past_days = int(argment)
-    else:
         past_days = 3
-    await message.channel.send(f'あつめた種の情報をおしらせするよ(さいきん{past_days}にちぶん)')
-    paths = sorted(list(pathlib.Path(SEED_DOWNLOAD_DIR).glob('2*')), reverse=True)
-    get_paths = paths[:past_days]
-    seed_info = dict()
-    for get_path in get_paths:
-        if not get_path.name in seed_info:
-            seed_info[get_path.name] = []
+        if len(message.content.split()) > 1:
+            past_days = message.content.split()[1]
 
-        seed_list = list(pathlib.Path(get_path).glob('*'))
-        for seed in seed_list:
-            seed_info[get_path.name].append(seed.name)
+        await message.channel.send(f'あつめた種の情報をおしらせするよ(さいきん{past_days}にちぶん)')
+        paths = sorted(list(pathlib.Path(SEED_DOWNLOAD_DIR).glob('2*')), reverse=True)
+        get_paths = paths[:past_days]
+        seed_info = dict()
+        for get_path in get_paths:
+            if not get_path.name in seed_info:
+                seed_info[get_path.name] = []
 
-    post_str = '```'
-    for dir in seed_info:
-        post_str += f'directory {dir} in seeds:\n'
-        for seed in seed_info[dir]:
-            post_str += f'    {seed}\n'
+            seed_list = list(pathlib.Path(get_path).glob('*'))
+            for seed in seed_list:
+                seed_info[get_path.name].append(seed.name)
 
-    post_str += '```'
+        post_str = '```'
+        for dir in seed_info:
+            post_str += f'directory {dir} in seeds:\n'
+            for seed in seed_info[dir]:
+                post_str += f'    {seed}\n'
 
-    await message.channel.send(post_str)
+        post_str += '```'
+
+        await message.channel.send(post_str)
 
 
 # Botの起動とDiscordサーバーへの接続
