@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # import sections
+import sys
 import os
 import pathlib
 import re
@@ -7,6 +8,8 @@ from datetime import datetime
 import discord
 import bot_util as bu
 import swirhentv_util as swiutil
+sys.path.append('/home/swirhen/sh/checker/torrentsearch')
+import torrentsearch as trsc
 
 # argument section
 SHARE_TEMP_DIR = '/data/share/temp'
@@ -52,6 +55,34 @@ async def on_message(message):
         swiutil.writefile_new(result_file_name, result)
         await message.channel.send(file=discord.File(result_file_name))
         os.remove(result_file_name)
+
+    elif re.search('^/tl.*', message.content):
+        tdatetime = datetime.now()
+        dt = tdatetime.strftime('%Y%m%d%H%M%S')
+        result_file_name = f'{SCRIPT_DIR}/seed_list_{dt}.txt'
+        target_category = ''
+        arguments = message.content.split()
+        if len(arguments) > 1:
+            target_category = arguments[1]
+        else:
+            message.send('つかいかた(´･ω･`)\n'
+                         'tl [たいしょうカテゴリ]\n'
+                         'カテゴリ: doujin/manga/music/comic/live\n'
+                         '(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ)')
+            return
+
+        seed_list = trsc.get_seed_list(target_category)
+        if len(seed_list) > 0:
+            await message.channel.send(f'さいきんまかれたたねのリストだよ(｀･ω･´)\n'
+                                       f'たいしょうカテゴリ: {target_category}')
+            result = ''
+            for seed in seed_list:
+                result += f'{seed[1]}\n'
+            swiutil.writefile_new(result_file_name, result)
+            await message.channel.send(file=discord.File(result_file_name))
+            os.remove(result_file_name)
+        else:
+            await message.channel.send(f'なんかとれなかったよ(´･ω･`)\n')
 
     elif re.search('^/ts.*', message.content):
         tdatetime = datetime.now()
