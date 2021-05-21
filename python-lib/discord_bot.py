@@ -38,12 +38,13 @@ async def on_message(message):
         past_days = 3
         if len(message.content.split()) > 1:
             past_days = message.content.split()[1]
-        announce_seed_info(message, past_days)
+        announce_seed_info(past_days)
 
 
 # 最近の自動取得seed問い合わせ
-async def announce_seed_info(message, past_days):
-    await message.channel.send(f'あつめた種の情報をおしらせするよ(さいきん{past_days}にちぶん)')
+def announce_seed_info(past_days):
+    return_message = ''
+    return_message += f'あつめた種の情報をおしらせするよ(さいきん{past_days}にちぶん)\n'
     paths = sorted(list(pathlib.Path(SEED_DOWNLOAD_DIR).glob('2*')), reverse=True)
     get_paths = paths[:past_days]
     seed_info = dict()
@@ -55,15 +56,14 @@ async def announce_seed_info(message, past_days):
         for seed in seed_list:
             seed_info[get_path.name].append(seed.name)
 
-    post_str = '```'
+    return_message += '```'
     for dir in seed_info:
-        post_str += f'directory {dir} in seeds:\n'
+        return_message += f'directory {dir} in seeds:\n'
         for seed in seed_info[dir]:
-            post_str += f'    {seed}\n'
+            return_message += f'    {seed}\n'
+    return_message += '```'
 
-    post_str += '```'
-
-    await message.channel.send(post_str)
+    return return_message
 
 
 # Botの起動とDiscordサーバーへの接続
