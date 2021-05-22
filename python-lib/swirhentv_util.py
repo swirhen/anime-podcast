@@ -82,7 +82,14 @@ def discord_upload(channel, filename):
 # discord/slack multi post
 def multi_post(channel, text, username='swirhentv', icon_emoji=''):
     slack_post(channel, text, username, icon_emoji)
-    discord_post(channel, text.replace('@channel', '@everyone'))
+    if len(text) > 2000:
+        date_time = dt.now().strftime('%Y%m%d%H%M%S')
+        post_file_temp = f'{SCRIPT_DIR}/discord_post_temp_{date_time}.txt'
+        writefile_new(post_file_temp, text)
+        discord_upload(channel, post_file_temp)
+        os.remove(post_file_temp)
+    else:
+        discord_post(channel, text.replace('@channel', '@everyone'))
 
 
 # discord/slack multi upload
@@ -118,6 +125,7 @@ def grep_file(file_path, word, regexp_mode=False):
                 result.append(line)
 
     return result
+
 
 # grep(配列, 部分一致/完全一致)
 def grep_list(greplist, word, regexp_mode=True):

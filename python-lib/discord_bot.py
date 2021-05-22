@@ -25,11 +25,13 @@ with open(f'{SCRIPT_DIR}/discord_token') as tokenfile:
 # 接続に必要なオブジェクトを生成
 client = discord.Client()
 
+
 # 起動時に動作する処理
 @client.event
 async def on_ready():
     # 起動したらターミナルにログイン通知が表示される
     print('ログインしました')
+
 
 # メッセージ受信時に動作する処理
 @client.event
@@ -51,9 +53,12 @@ async def on_message(message):
             past_days = int(message.content.split()[1])
         await message.channel.send(f'あつめた種の情報をおしらせするよ(さいきん {past_days} にちぶん)')
         result = bu.get_seed_directory(past_days)
-        swiutil.writefile_new(result_file_name, result)
-        await message.channel.send(file=discord.File(result_file_name))
-        os.remove(result_file_name)
+        if len(result) > 2000:
+            swiutil.writefile_new(result_file_name, result)
+            await message.channel.send(file=discord.File(result_file_name))
+            os.remove(result_file_name)
+        else:
+            await message.channel.send(result)
 
     # 種リスト
     elif re.search('^/tl.*', message.content):
@@ -66,9 +71,9 @@ async def on_message(message):
             target_category = arguments[1]
         else:
             await message.channel.send('つかいかた(´・ω・`)\n'
-                                        'tl [たいしょうカテゴリ]\n'
-                                        'カテゴリ: doujin/manga/music/comic/live\n'
-                                        '(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ)')
+                                       'tl [たいしょうカテゴリ]\n'
+                                       'カテゴリ: doujin/manga/music/comic/live\n'
+                                       '(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ)')
             return
 
         seed_list = trsc.get_seed_list(target_category)
@@ -78,9 +83,12 @@ async def on_message(message):
             result = ''
             for seed in seed_list:
                 result += f'{seed[1]}\n'
-            swiutil.writefile_new(result_file_name, result)
-            await message.channel.send(file=discord.File(result_file_name))
-            os.remove(result_file_name)
+            if len(result) > 2000:
+                swiutil.writefile_new(result_file_name, result)
+                await message.channel.send(file=discord.File(result_file_name))
+                os.remove(result_file_name)
+            else:
+                await message.channel.send(result)
         else:
             await message.channel.send(f'なんかとれなかったよ(´・ω・`)\n')
 
@@ -97,19 +105,25 @@ async def on_message(message):
             if len(arguments) > 2:
                 target_category = arguments[2]
         else:
-            await message.channel.send('つかいかた(´・ω・`)\nts [けんさくキーワード] [たいしょうカテゴリ]\nカテゴリ: doujin/manga/music/comic/live/all\n(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ/ぜんぶ)')
+            await message.channel.send('つかいかた(´・ω・`)\nts [けんさくキーワード] [たいしょうカテゴリ]\n'
+                                       'カテゴリ: doujin/manga/music/comic/live/all\n'
+                                       '(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ/ぜんぶ)')
             return
 
-        await message.channel.send(f'さがしてくるよ(｀・ω・´)\nたいしょうカテゴリ: {target_category} きーわーど: {keyword}')
+        await message.channel.send('さがしてくるよ(｀・ω・´)\n'
+                                  f'たいしょうカテゴリ: {target_category} きーわーど: {keyword}')
         result = bu.seed_search(keyword, target_category)
-        if re.search('なかったよ',result):
+        if re.search('なかったよ', result):
             await message.channel.send(result)
         else:
-            await message.channel.send('みつかったよ(｀・ω・´)')
-            result_mod = result.replace('みつかったよ(｀・ω・´)\n```','').replace('```','')
-            swiutil.writefile_new(result_file_name, result_mod)
-            await message.channel.send(file=discord.File(result_file_name))
-            os.remove(result_file_name)
+            if len(result) > 2000:
+                await message.channel.send('みつかったよ(｀・ω・´)')
+                result_mod = result.replace('みつかったよ(｀・ω・´)\n```', '').replace('```', '')
+                swiutil.writefile_new(result_file_name, result_mod)
+                await message.channel.send(file=discord.File(result_file_name))
+                os.remove(result_file_name)
+            else:
+                await message.channel.send(result)
 
     # 種移動のみ
     elif re.search('^/tmv.*', message.content):
@@ -156,9 +170,13 @@ async def on_message(message):
             return
         else:
             await message.channel.send('いどうしたたね:')
-            swiutil.writefile_new(result_file_name, '\n'.join(seedlist))
-            await message.channel.send(file=discord.File(result_file_name))
-            os.remove(result_file_name)
+            result = '\n'.join(seedlist)
+            if len(result) > 2000:
+                swiutil.writefile_new(result_file_name, result)
+                await message.channel.send(file=discord.File(result_file_name))
+                os.remove(result_file_name)
+            else:
+                await message.channel.send(f'```{result}```')
 
     # 種移動&栽培
     elif re.search('^/tdl.*', message.content):
@@ -176,15 +194,15 @@ async def on_message(message):
                 keyword = arguments[3]
         else:
             await message.channel.send('つかいかた(´・ω・`)\n'
-                                        'tdl [たねのあるディレクトリ] [いどうさきのディレクトリ] [いどうするたねをしぼりこむキーワード]\n'
-                                        'いどうもとディレクトリ: ひづけ(YYYYMMDD) もしくは t(きょうのひづけ)\n'
-                                        'いどうさきディレクトリ:\n'
-                                        'd: どうじん c: みせいりほん m: えろまんが\n'
-                                        'cm: でれおんがく cl: でれらいぶ\n'
-                                        'mm: みりおんがく ml:みりらいぶ\n'
-                                        'sm:しゃにおんがく sl:しゃにらいぶ\n'
-                                        'hm:ほろおんがく hl:ほろらいぶ\n'
-                                        'もしくは ふるぱすもじれつ')
+                                       'tdl [たねのあるディレクトリ] [いどうさきのディレクトリ] [いどうするたねをしぼりこむキーワード]\n'
+                                       'いどうもとディレクトリ: ひづけ(YYYYMMDD) もしくは t(きょうのひづけ)\n'
+                                       'いどうさきディレクトリ:\n'
+                                       'd: どうじん c: みせいりほん m: えろまんが\n'
+                                       'cm: でれおんがく cl: でれらいぶ\n'
+                                       'mm: みりおんがく ml:みりらいぶ\n'
+                                       'sm:しゃにおんがく sl:しゃにらいぶ\n'
+                                       'hm:ほろおんがく hl:ほろらいぶ\n'
+                                       'もしくは ふるぱすもじれつ')
 
         target_dir = bu.choose_target_dir(target_dir)
         if target_dir == '':
@@ -207,9 +225,13 @@ async def on_message(message):
             return
         else:
             await message.channel.send('いどうしたたね:')
-            swiutil.writefile_new(result_file_name, '\n'.join(seedlist))
-            await message.channel.send(file=discord.File(result_file_name))
-            os.remove(result_file_name)
+            result = '\n'.join(seedlist)
+            if len(result) > 2000:
+                swiutil.writefile_new(result_file_name, result)
+                await message.channel.send(file=discord.File(result_file_name))
+                os.remove(result_file_name)
+            else:
+                await message.channel.send(f'```{result}```')
 
         await message.channel.send('さいばいをかいしするよ(｀・ω・´)')
 
