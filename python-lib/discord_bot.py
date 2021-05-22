@@ -58,7 +58,7 @@ async def on_message(message):
             await message.channel.send(file=discord.File(result_file_name))
             os.remove(result_file_name)
         else:
-            await message.channel.send(result)
+            await message.channel.send(f'```{result}```')
 
     # 種リスト
     elif re.search('^/tl.*', message.content):
@@ -88,7 +88,7 @@ async def on_message(message):
                 await message.channel.send(file=discord.File(result_file_name))
                 os.remove(result_file_name)
             else:
-                await message.channel.send(result)
+                await message.channel.send(f'```{result}```')
         else:
             await message.channel.send(f'なんかとれなかったよ(´・ω・`)\n')
 
