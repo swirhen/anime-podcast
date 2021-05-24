@@ -231,7 +231,7 @@ def twitter_search(message, argument):
                      'けんさくかいしにちじ: YYYY-MM-DD HH:MM:SSけいしき\n'
                      'もしくは [なんふんまえ]m/[なんじかんまえ]h/[なんにちまえ]d\n'
                      'けんさくしゅうりょうにちじ: nowといれたら げんざいにちじ\n'
-                     'じぶんのtwitteridをむしする: デフォルトは むしする(なにかいれると むししない)\n'
+                     'じぶんのtwitteridをむしする: 0:むしする 1:むししない\n'
                      'twitteridでけんさく: デフォルトはキーワードけんさく(なにかいれると twitteridでけんさく)')
         return 1
 
@@ -287,7 +287,7 @@ def twitter_search(message, argument):
     if nick_flg != '':
         nick_flg = True
         k_n_str = 'twitterid'
-    if your_nick_ignore_flg != '':
+    if your_nick_ignore_flg == '1':
         your_nick_ignore_flg = False
         k_n_i_str = 'むししない'
 
