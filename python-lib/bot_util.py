@@ -247,9 +247,9 @@ def twitter_search(keyword_or_nick, channel, since, until, your_nick_ignore_flg=
         text = log[1]
         date = log[2]
 
-        if nick_flg == False \
-            and re.search(keyword_or_nick, text.replace('\n','_')):
-            result.append(f'チャンネル: {channel} キーワード: {keyword_or_nick}\n[{date}] <{nick}> {text}')
+        if not nick_flg:
+            if re.search(keyword_or_nick, text.replace('\n','_')):
+                result.append(f'チャンネル: {channel} キーワード: {keyword_or_nick}\n[{date}] <{nick}> {text}')
         else:
             result.append(f'[{date}] <{nick}> {text}')
 
