@@ -242,9 +242,6 @@ async def on_message(message):
 
     # twitter検索
     elif re.search('^/tws.*', message.content):
-        tdatetime = dt.now()
-        date_time = tdatetime.strftime('%Y%m%d%H%M%S')
-        result_file_name = f'{SCRIPT_DIR}/twitter_search_{date_time}.txt'
         arguments = message.content.split()
         if len(arguments) == 7:
             keyword = arguments[1]
@@ -292,23 +289,23 @@ async def on_message(message):
         now_datetime = dt.now().strftime('%Y/%m/%d %H:%M:%S')
         if since[-1] == 'm':
             shift_minutes = int(since[:-1])
-            since = (now_time - dt.timedelta(minutes=int(shift_minutes))).strftime('%Y/%m/%d %H:%M:%S')
+            since = (now_time - datetime.timedelta(minutes=int(shift_minutes))).strftime('%Y/%m/%d %H:%M:%S')
         elif since[-1] == 'h':
             shift_hours = int(since[:-1])
-            since = (now_time - dt.timedelta(hours=int(shift_hours))).strftime('%Y/%m/%d %H:%M:%S')
+            since = (now_time - datetime.timedelta(hours=int(shift_hours))).strftime('%Y/%m/%d %H:%M:%S')
         elif since[-1] == 'd':
             shift_days = int(since[:-1])
-            since = (now_time - dt.timedelta(days=int(shift_days))).strftime('%Y/%m/%d %H:%M:%S')
+            since = (now_time - datetime.timedelta(days=int(shift_days))).strftime('%Y/%m/%d %H:%M:%S')
     
         if until[-1] == 'm':
             shift_minutes = int(until[:-1])
-            until = (now_time - dt.timedelta(minutes=int(shift_minutes))).strftime('%Y/%m/%d %H:%M:%S')
+            until = (now_time - datetime.timedelta(minutes=int(shift_minutes))).strftime('%Y/%m/%d %H:%M:%S')
         elif until[-1] == 'h':
             shift_hours = int(until[:-1])
-            until = (now_time - dt.timedelta(hours=int(shift_hours))).strftime('%Y/%m/%d %H:%M:%S')
+            until = (now_time - datetime.timedelta(hours=int(shift_hours))).strftime('%Y/%m/%d %H:%M:%S')
         elif until[-1] == 'd':
             shift_days = int(until[:-1])
-            until = (now_time - dt.timedelta(days=int(shift_days))).strftime('%Y/%m/%d %H:%M:%S')
+            until = (now_time - datetime.timedelta(days=int(shift_days))).strftime('%Y/%m/%d %H:%M:%S')
         elif until == 'now':
             until = now_datetime
     
