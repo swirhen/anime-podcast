@@ -230,7 +230,7 @@ def twitter_search(message, argument):
                      '(ゆうめいじん/せいゆう/かくげーぜい/えし/おともだち/いちもん/いちざ/ほろ/ほろのえ)\n'
                      'けんさくかいしにちじ: YYYY-MM-DD HH:MM:SSけいしき\n'
                      'もしくは [なんふんまえ]m/[なんじかんまえ]h/[なんにちまえ]d\n'
-                     'けんさくしゅうりょうにちじ: しょうりゃくしたばあいは げんざいにちじ\n'
+                     'けんさくしゅうりょうにちじ: nowといれたら げんざいにちじ\n'
                      'じぶんのtwitteridをむしする: デフォルトは むしする(なにかいれると むししない)\n'
                      'twitteridでけんさく: デフォルトはキーワードけんさく(なにかいれると twitteridでけんさく)')
         return 1
@@ -270,17 +270,16 @@ def twitter_search(message, argument):
         shift_days = int(since[:-1])
         since = (now_time - datetime.timedelta(days=int(shift_days))).strftime('%Y/%m/%d %H:%M:%S')
 
-    if until != '':
-        if until[-1] == 'm':
-            shift_minutes = int(until[:-1])
-            until = (now_time - datetime.timedelta(minutes=int(shift_minutes))).strftime('%Y/%m/%d %H:%M:%S')
-        elif until[-1] == 'h':
-            shift_hours = int(until[:-1])
-            until = (now_time - datetime.timedelta(hours=int(shift_hours))).strftime('%Y/%m/%d %H:%M:%S')
-        elif until[-1] == 'd':
-            shift_days = int(until[:-1])
-            until = (now_time - datetime.timedelta(days=int(shift_days))).strftime('%Y/%m/%d %H:%M:%S')
-    else:
+    if until[-1] == 'm':
+        shift_minutes = int(until[:-1])
+        until = (now_time - datetime.timedelta(minutes=int(shift_minutes))).strftime('%Y/%m/%d %H:%M:%S')
+    elif until[-1] == 'h':
+        shift_hours = int(until[:-1])
+        until = (now_time - datetime.timedelta(hours=int(shift_hours))).strftime('%Y/%m/%d %H:%M:%S')
+    elif until[-1] == 'd':
+        shift_days = int(until[:-1])
+        until = (now_time - datetime.timedelta(days=int(shift_days))).strftime('%Y/%m/%d %H:%M:%S')
+    elif until == 'now':
         until = now_datetime
 
     k_n_str = 'キーワード'
