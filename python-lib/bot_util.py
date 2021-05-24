@@ -242,6 +242,7 @@ def twitter_search(keyword_or_nick, channel, since, until, your_nick_ignore_flg=
     cursor.close()
 
     result = []
+    result_str = ''
     for log in logs:
         nick = log[0]
         text = log[1]
@@ -249,8 +250,17 @@ def twitter_search(keyword_or_nick, channel, since, until, your_nick_ignore_flg=
 
         if not nick_flg:
             if re.search(keyword_or_nick, text.replace('\n','_')):
-                result.append(f'チャンネル: {channel} キーワード: {keyword_or_nick}\n[{date}] <{nick}> {text}')
+                result.append(f'[{date}] <{nick}> {text}')
         else:
             result.append(f'[{date}] <{nick}> {text}')
 
-    return result
+    if len(result) > 0:
+        if nick_flg:
+            result_str = f'みつかったにぇ！(｀・ω・´)\n'
+        else:
+            result_str = f'みつかったにぇ！(｀・ω・´)\n'
+        result_str += '```' + '\n'.join(result) + '```'
+    else:
+        result_str = f'なかったにぇ(´・ω・`)\n'
+
+    return result_str
