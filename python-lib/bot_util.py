@@ -255,12 +255,6 @@ def twitter_search(keyword_or_nick, channel, since, until, your_nick_ignore_flg=
             result.append(f'[{date}] <{nick}> {text}')
 
     if len(result) > 0:
-        if nick_flg:
-            result_str = f'みつかったにぇ！(｀・ω・´)\n'
-        else:
-            result_str = f'みつかったにぇ！(｀・ω・´)\n'
         result_str += '```' + '\n'.join(result) + '```'
-    else:
-        result_str = f'なかったにぇ(´・ω・`)\n'
 
     return result_str

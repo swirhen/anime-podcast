@@ -5,7 +5,8 @@
 import os
 import pathlib
 import sys
-from datetime import datetime
+from datetime import datetime as dt
+import datetime
 from slackbot.bot import respond_to
 import slackbot_settings
 from slacker import Slacker
@@ -45,7 +46,7 @@ def announce_seed_info(message, argument):
 # 取得seedを移動のみ
 @respond_to('^ *tmv(.*)')
 def torrent_move(message, argument):
-    tdatetime = datetime.now()
+    tdatetime = dt.now()
     date = tdatetime.strftime('%Y%m%d')
     today_download_dir = f'/data/share/temp/torrentsearch/{date}'
     arguments = argument.split()
@@ -95,7 +96,7 @@ def torrent_move(message, argument):
 # 取得seedを移動、栽培
 @respond_to('^ *tdl(.*)')
 def torrent_move_and_download(message, argument):
-    tdatetime = datetime.now()
+    tdatetime = dt.now()
     date = tdatetime.strftime('%Y%m%d')
     today_download_dir = f'/data/share/temp/torrentsearch/{date}'
     arguments = argument.split()
@@ -176,9 +177,9 @@ def torrent_search(message, argument):
 # torrent 最近のリスト
 @respond_to('^ *tl(.*)')
 def report_seed_list(message, argument):
-    tdatetime = datetime.now()
-    dt = tdatetime.strftime('%Y%m%d%H%M%S')
-    result_file_name = f'{SCRIPT_DIR}/seed_list_{dt}.txt'
+    tdatetime = dt.now()
+    date_time = tdatetime.strftime('%Y%m%d%H%M%S')
+    result_file_name = f'{SCRIPT_DIR}/seed_list_{date_time}.txt'
     arguments = argument.split()
     target_category = ''
     if len(arguments) > 0:
@@ -200,6 +201,120 @@ def report_seed_list(message, argument):
         swiutil.writefile_new(result_file_name, result)
         file_upload(result_file_name, result_file_name, 'text', message)
         os.remove(result_file_name)
+
+
+# twitter検索
+@respond_to('^ *tws(.*)')
+def twitter_search(message, argument):
+    arguments = argument.split()
+    keyword = ''
+    channel = ''
+    since = ''
+    until = ''
+    your_nick_ignore_flg = ''
+    nick_flg = ''
+    if len(arguments) > 2:
+        keyword = arguments[0]
+        channel = arguments[1]
+        since = arguments[2]
+        if len(arguments) > 3:
+            until = arguments[3]
+            if len(arguments) > 4:
+                your_nick_ignore_flg = arguments[4]
+                if len(arguments) > 5:
+                    nick_flg = arguments[5]
+    else:
+        message.send('つかいかた(´・ω・`)\n'
+                     'tws [けんさくキーワード or twitterid] [チャンネル] [けんさくかいしにちじ] (けんさくしゅうりょうにちじ) (じぶんのnickをむしする) (twitteridでけんさく)\n'
+                     'チャンネル: y/s/k/e/f/c/m/h/ha\n'
+                     '(ゆうめいじん/せいゆう/かくげーぜい/えし/おともだち/いちもん/いちざ/ほろ/ほろのえ)\n'
+                     'けんさくかいしにちじ: YYYY-MM-DD HH:MM:SSけいしき\n'
+                     'もしくは [なんふんまえ]m/[なんじかんまえ]h/[なんにちまえ]d\n'
+                     'けんさくしゅうりょうにちじ: しょうりゃくしたばあいは げんざいにちじ\n'
+                     'じぶんのtwitteridをむしする: デフォルトは むしする(なにかいれると むししない)\n'
+                     'twitteridでけんさく: デフォルトはキーワードけんさく(なにかいれると twitteridでけんさく)')
+        return 1
+
+    if channel == 'y':
+        channel = '#Twitter有名人@t'
+    elif channel == 's':
+        channel = '#twitter声優@t'
+    elif channel == 'k':
+        channel = '#twitter格ゲー@t'
+    elif channel == 'e':
+        channel = '#twitter絵描きさん@t'
+    elif channel == 'f':
+        channel = '#おともだちtwitter@t'
+    elif channel == 'c':
+        channel = '#シンデレラ一門@t'
+    elif channel == 'm':
+        channel = '#ミリオン一座@t'
+    elif channel == 'h':
+        channel = '#hololive@t'
+    elif channel == 'ha':
+        channel = '#holoart@t'
+    else:
+        message.send('チャンネル: y/s/k/e/f/c/m/h/ha\n'
+                     '(ゆうめいじん/せいゆう/かくげーぜい/えし/おともだち/いちもん/いちざ/ほろ/ほろのえ)\n')
+        return 1
+
+    now_time = dt.now()
+    now_datetime = dt.now().strftime('%Y/%m/%d %H:%M:%S')
+    if since[-1] == 'm':
+        shift_minutes = int(since[:-1])
+        since = (now_time - datetime.timedelta(minutes=int(shift_minutes))).strftime('%Y/%m/%d %H:%M:%S')
+    elif since[-1] == 'h':
+        shift_hours = int(since[:-1])
+        since = (now_time - datetime.timedelta(hours=int(shift_hours))).strftime('%Y/%m/%d %H:%M:%S')
+    elif since[-1] == 'd':
+        shift_days = int(since[:-1])
+        since = (now_time - datetime.timedelta(days=int(shift_days))).strftime('%Y/%m/%d %H:%M:%S')
+
+    if until != '':
+        if until[-1] == 'm':
+            shift_minutes = int(until[:-1])
+            until = (now_time - datetime.timedelta(minutes=int(shift_minutes))).strftime('%Y/%m/%d %H:%M:%S')
+        elif until[-1] == 'h':
+            shift_hours = int(until[:-1])
+            until = (now_time - datetime.timedelta(hours=int(shift_hours))).strftime('%Y/%m/%d %H:%M:%S')
+        elif until[-1] == 'd':
+            shift_days = int(until[:-1])
+            until = (now_time - datetime.timedelta(days=int(shift_days))).strftime('%Y/%m/%d %H:%M:%S')
+    else:
+        until = now_datetime
+
+    k_n_str = 'キーワード'
+    k_n_i_str = 'むしする'
+    if nick_flg != '':
+        nick_flg = True
+        k_n_str = 'twitterid'
+    if your_nick_ignore_flg:
+        your_nick_ignore_flg = False
+        k_n_i_str = 'むししない'
+
+    post_str = f'けんさくするにぇ(｀・ω・´)\n' \
+               f'{k_n_str}: {keyword} チャンネル: {channel}\n' \
+               f'いつから: {since} いつまで: {until}\n' \
+               f'じぶんのtwitteridをむしする: {k_n_i_str}'
+
+    message.send(post_str)
+    result = bu.twitter_search(keyword, channel, since, until, your_nick_ignore_flg, nick_flg)
+    if len(result) > 0:
+        message.send('みつかったにぇ！(｀・ω・´)')
+        if len(result) > 4000:
+            tdatetime = dt.now()
+            date_time = tdatetime.strftime('%Y%m%d%H%M%S')
+            result_file_name = f'{SCRIPT_DIR}/twitter_search_{date_time}.txt'
+            swiutil.writefile_new(result_file_name, result.replace('`',''))
+            file_upload(result_file_name, result_file_name, 'text', message)
+            os.remove(result_file_name)
+        else:
+            message.send(result)
+    else:
+        message.send('なかったにぇ(´・ω・`)')
+
+
+
 
 
 def file_upload(filename, filetitle, filetype, message):
