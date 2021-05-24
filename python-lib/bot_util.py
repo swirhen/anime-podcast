@@ -253,3 +253,4 @@ def twitter_search(keyword_or_nick, channel, since, until, your_nick_ignore_flg=
         else:
             result.append(f'[{date}] <{nick}> {text}')
 
+    return result
