@@ -198,12 +198,12 @@ def twitter_search(keyword_or_nick, channel, since, until, your_nick_ignore_flg=
 
     # all log select
     select_sql = "select n.name, l.log, l.created_on" \
-                 " from channel c,log l ,nick n" \
+                 " from channel c, log l, nick n" \
                  " where l.channel_id = c.id" \
                  " and l.nick_id = n.id" \
                 f" and l.created_on >= '{since}'" \
                 f" and l.created_on <= '{until}'" \
-                f" and c.name = {channel}"
+                f" and c.name = '{channel}'"
 
     if nick_flg:
         select_sql += f" and n.name = '{keyword_or_nick}'"
