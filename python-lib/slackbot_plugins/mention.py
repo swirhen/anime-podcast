@@ -284,9 +284,13 @@ def twitter_search(message, argument):
     if nick_flg == '1':
         nick_flg = True
         k_n_str = 'twitterid'
+    else:
+        nick_flg = False
     if your_nick_ignore_flg == '1':
         your_nick_ignore_flg = False
         k_n_i_str = 'むししない'
+    else:
+        your_nick_ignore_flg = True
 
     post_str = f'けんさくするにぇ(｀・ω・´)\n' \
                f'{k_n_str}: {keyword} チャンネル: {channel}\n' \
