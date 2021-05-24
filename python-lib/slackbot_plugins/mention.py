@@ -313,9 +313,6 @@ def twitter_search(message, argument):
         message.send('なかったにぇ(´・ω・`)')
 
 
-
-
-
 def file_upload(filename, filetitle, filetype, message):
     if os.path.getsize(filename) == 0:
         message.send('```(no log)```')
