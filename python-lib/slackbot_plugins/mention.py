@@ -287,7 +287,7 @@ def twitter_search(message, argument):
     if nick_flg != '':
         nick_flg = True
         k_n_str = 'twitterid'
-    if your_nick_ignore_flg:
+    if your_nick_ignore_flg != '':
         your_nick_ignore_flg = False
         k_n_i_str = 'むししない'
 
