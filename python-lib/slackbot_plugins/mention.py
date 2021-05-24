@@ -213,26 +213,23 @@ def twitter_search(message, argument):
     until = ''
     your_nick_ignore_flg = ''
     nick_flg = ''
-    if len(arguments) > 2:
+    if len(arguments) == 6:
         keyword = arguments[0]
         channel = arguments[1]
         since = arguments[2]
-        if len(arguments) > 3:
-            until = arguments[3]
-            if len(arguments) > 4:
-                your_nick_ignore_flg = arguments[4]
-                if len(arguments) > 5:
-                    nick_flg = arguments[5]
+        until = arguments[3]
+        nick_flg = arguments[4]
+        your_nick_ignore_flg = arguments[5]
     else:
         message.send('つかいかた(´・ω・`)\n'
-                     'tws [けんさくキーワード or twitterid] [チャンネル] [けんさくかいしにちじ] (けんさくしゅうりょうにちじ) (じぶんのnickをむしする) (twitteridでけんさく)\n'
+                     'tws [けんさくキーワード or twitterid] [チャンネル] [けんさくかいしにちじ] [けんさくしゅうりょうにちじ] [twitteridでけんさく] [じぶんのtwitteridをむしする]\n'
                      'チャンネル: y/s/k/e/f/c/m/h/ha\n'
                      '(ゆうめいじん/せいゆう/かくげーぜい/えし/おともだち/いちもん/いちざ/ほろ/ほろのえ)\n'
                      'けんさくかいしにちじ: YYYY-MM-DD HH:MM:SSけいしき\n'
                      'もしくは [なんふんまえ]m/[なんじかんまえ]h/[なんにちまえ]d\n'
                      'けんさくしゅうりょうにちじ: nowといれたら げんざいにちじ\n'
-                     'じぶんのtwitteridをむしする: 0:むしする 1:むししない\n'
-                     'twitteridでけんさく: デフォルトはキーワードけんさく(なにかいれると twitteridでけんさく)')
+                     'twitteridでけんさく: 0: キーワードけんさく 1: twitteridでけんさく\n'
+                     'じぶんのtwitteridをむしする: 0: むしする 1: むししない')
         return 1
 
     if channel == 'y':
@@ -284,7 +281,7 @@ def twitter_search(message, argument):
 
     k_n_str = 'キーワード'
     k_n_i_str = 'むしする'
-    if nick_flg != '':
+    if nick_flg == '1':
         nick_flg = True
         k_n_str = 'twitterid'
     if your_nick_ignore_flg == '1':
