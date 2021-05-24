@@ -4,7 +4,8 @@ import sys
 import os
 import pathlib
 import re
-from datetime import datetime
+from datetime import datetime as dt
+import datetime
 import discord
 import bot_util as bu
 import swirhentv_util as swiutil
@@ -45,9 +46,9 @@ async def on_message(message):
 
     # 種情報
     elif re.search('^/seed.*', message.content):
-        tdatetime = datetime.now()
-        dt = tdatetime.strftime('%Y%m%d%H%M%S')
-        result_file_name = f'{SCRIPT_DIR}/seed_info_{dt}.txt'
+        tdatetime = dt.now()
+        date_time = tdatetime.strftime('%Y%m%d%H%M%S')
+        result_file_name = f'{SCRIPT_DIR}/seed_info_{date_time}.txt'
         past_days = 3
         if len(message.content.split()) > 1:
             past_days = int(message.content.split()[1])
@@ -62,9 +63,9 @@ async def on_message(message):
 
     # 種リスト
     elif re.search('^/tl.*', message.content):
-        tdatetime = datetime.now()
-        dt = tdatetime.strftime('%Y%m%d%H%M%S')
-        result_file_name = f'{SCRIPT_DIR}/seed_list_{dt}.txt'
+        tdatetime = dt.now()
+        date_time = tdatetime.strftime('%Y%m%d%H%M%S')
+        result_file_name = f'{SCRIPT_DIR}/seed_list_{date_time}.txt'
         target_category = ''
         arguments = message.content.split()
         if len(arguments) > 1:
@@ -94,9 +95,9 @@ async def on_message(message):
 
     # 種サーチ
     elif re.search('^/ts.*', message.content):
-        tdatetime = datetime.now()
-        dt = tdatetime.strftime('%Y%m%d%H%M%S')
-        result_file_name = f'{SCRIPT_DIR}/seed_search_{dt}.txt'
+        tdatetime = dt.now()
+        date_time = tdatetime.strftime('%Y%m%d%H%M%S')
+        result_file_name = f'{SCRIPT_DIR}/seed_search_{date_time}.txt'
         keyword = ''
         target_category = 'all'
         arguments = message.content.split()
@@ -127,9 +128,9 @@ async def on_message(message):
 
     # 種移動のみ
     elif re.search('^/tmv.*', message.content):
-        tdatetime = datetime.now()
-        dt = tdatetime.strftime('%Y%m%d%H%M%S')
-        result_file_name = f'{SCRIPT_DIR}/seed_move_{dt}.txt'
+        tdatetime = dt.now()
+        date_time = tdatetime.strftime('%Y%m%d%H%M%S')
+        result_file_name = f'{SCRIPT_DIR}/seed_move_{date_time}.txt'
         arguments = message.content.split()
         seed_dir = ''
         target_dir = ''
@@ -180,9 +181,9 @@ async def on_message(message):
 
     # 種移動&栽培
     elif re.search('^/tdl.*', message.content):
-        tdatetime = datetime.now()
-        dt = tdatetime.strftime('%Y%m%d%H%M%S')
-        result_file_name = f'{SCRIPT_DIR}/seed_move_{dt}.txt'
+        tdatetime = dt.now()
+        date_time = tdatetime.strftime('%Y%m%d%H%M%S')
+        result_file_name = f'{SCRIPT_DIR}/seed_move_{date_time}.txt'
         arguments = message.content.split()
         seed_dir = ''
         target_dir = ''
@@ -238,6 +239,112 @@ async def on_message(message):
         bu.plant_seed(target_dir)
 
         await message.channel.send('おわったよ(｀・ω・´)')
+
+    # twitter検索
+    elif re.search('^/tws.*', message.content):
+        tdatetime = dt.now()
+        date_time = tdatetime.strftime('%Y%m%d%H%M%S')
+        result_file_name = f'{SCRIPT_DIR}/twitter_search_{date_time}.txt'
+        arguments = message.content.split()
+        if len(arguments) == 7:
+            keyword = arguments[1]
+            channel = arguments[2]
+            since = arguments[3]
+            until = arguments[4]
+            nick_flg = arguments[5]
+            your_nick_ignore_flg = arguments[6]
+        else:
+            await message.channel.send('つかいかた(´・ω・`)\n'
+                                       'tws [けんさくキーワード or twitterid] [チャンネル] [けんさくかいしにちじ] [けんさくしゅうりょうにちじ] [twitteridでけんさく] [じぶんのtwitteridをむしする]\n'
+                                       'チャンネル: y/s/k/e/f/c/m/h/ha\n'
+                                       '(ゆうめいじん/せいゆう/かくげーぜい/えし/おともだち/いちもん/いちざ/ほろ/ほろのえ)\n'
+                                       'けんさくかいしにちじ: YYYY-MM-DD HH:MM:SSけいしき\n'
+                                       'もしくは [なんふんまえ]m/[なんじかんまえ]h/[なんにちまえ]d\n'
+                                       'けんさくしゅうりょうにちじ: nowといれたら げんざいにちじ\n'
+                                       'twitteridでけんさく: 0: キーワードけんさく 1: twitteridでけんさく\n'
+                                       'じぶんのtwitteridをむしする: 0: むしする 1: むししない')
+            return
+
+        if channel == 'y':
+            channel = '#Twitter有名人@t'
+        elif channel == 's':
+            channel = '#twitter声優@t'
+        elif channel == 'k':
+            channel = '#twitter格ゲー@t'
+        elif channel == 'e':
+            channel = '#twitter絵描きさん@t'
+        elif channel == 'f':
+            channel = '#おともだちtwitter@t'
+        elif channel == 'c':
+            channel = '#シンデレラ一門@t'
+        elif channel == 'm':
+            channel = '#ミリオン一座@t'
+        elif channel == 'h':
+            channel = '#hololive@t'
+        elif channel == 'ha':
+            channel = '#holoart@t'
+        else:
+            message.send('チャンネル: y/s/k/e/f/c/m/h/ha\n'
+                         '(ゆうめいじん/せいゆう/かくげーぜい/えし/おともだち/いちもん/いちざ/ほろ/ほろのえ)\n')
+            return 1
+    
+        now_time = dt.now()
+        now_datetime = dt.now().strftime('%Y/%m/%d %H:%M:%S')
+        if since[-1] == 'm':
+            shift_minutes = int(since[:-1])
+            since = (now_time - dt.timedelta(minutes=int(shift_minutes))).strftime('%Y/%m/%d %H:%M:%S')
+        elif since[-1] == 'h':
+            shift_hours = int(since[:-1])
+            since = (now_time - dt.timedelta(hours=int(shift_hours))).strftime('%Y/%m/%d %H:%M:%S')
+        elif since[-1] == 'd':
+            shift_days = int(since[:-1])
+            since = (now_time - dt.timedelta(days=int(shift_days))).strftime('%Y/%m/%d %H:%M:%S')
+    
+        if until[-1] == 'm':
+            shift_minutes = int(until[:-1])
+            until = (now_time - dt.timedelta(minutes=int(shift_minutes))).strftime('%Y/%m/%d %H:%M:%S')
+        elif until[-1] == 'h':
+            shift_hours = int(until[:-1])
+            until = (now_time - dt.timedelta(hours=int(shift_hours))).strftime('%Y/%m/%d %H:%M:%S')
+        elif until[-1] == 'd':
+            shift_days = int(until[:-1])
+            until = (now_time - dt.timedelta(days=int(shift_days))).strftime('%Y/%m/%d %H:%M:%S')
+        elif until == 'now':
+            until = now_datetime
+    
+        k_n_str = 'キーワード'
+        k_n_i_str = 'むしする'
+        if nick_flg == '1':
+            nick_flg = True
+            k_n_str = 'twitterid'
+        else:
+            nick_flg = False
+        if your_nick_ignore_flg == '1':
+            your_nick_ignore_flg = False
+            k_n_i_str = 'むししない'
+        else:
+            your_nick_ignore_flg = True
+    
+        post_str = f'けんさくするにぇ(｀・ω・´)\n' \
+                   f'{k_n_str}: {keyword} チャンネル: {channel}\n' \
+                   f'いつから: {since} いつまで: {until}\n' \
+                   f'じぶんのtwitteridをむしする: {k_n_i_str}'
+
+        await message.channel.send(post_str)
+        result = bu.twitter_search(keyword, channel, since, until, your_nick_ignore_flg, nick_flg)
+        if len(result) > 0:
+            await message.channel.send('みつかったにぇ！(｀・ω・´)')
+            if len(result) > 2000:
+                tdatetime = dt.now()
+                date_time = tdatetime.strftime('%Y%m%d%H%M%S')
+                result_file_name = f'{SCRIPT_DIR}/twitter_search_{date_time}.txt'
+                swiutil.writefile_new(result_file_name, result.replace('`',''))
+                await message.channel.send(file=discord.File(result_file_name))
+                os.remove(result_file_name)
+            else:
+                await message.channel.send(result)
+        else:
+            await message.channel.send('なかったにぇ(´・ω・`)')
 
 
 if __name__ == "__main__":
