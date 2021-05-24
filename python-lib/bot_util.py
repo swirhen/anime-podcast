@@ -255,6 +255,6 @@ def twitter_search(keyword_or_nick, channel, since, until, your_nick_ignore_flg=
             result.append(f'[{date}] <{nick}> {text}')
 
     if len(result) > 0:
-        result_str += '```' + '\n'.join(result) + '```'
+        result_str += '\n'.join(result)
 
     return result_str
