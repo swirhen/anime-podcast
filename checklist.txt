@@ -1,4 +1,6 @@
-Last Update: 2021/05/25-18:00:01
+Last Update: 2021/05/26-00:00:02
+2021/05/26-00:00:02 08 Odd Taxi|オッドタクシー
+2021/05/26-00:00:02 08 Fruits Basket the Final|フルーツバスケット The Final
 2021/05/25-00:00:01 08 Yakunara Mug Cup mo|やくならマグカップも
 2021/05/25-00:00:01 08 Koi to Yobu ni wa Kimochi Warui|恋と呼ぶには気持ち悪い
 2021/05/25-00:00:01 08 Hige o Soru. Soshite Joshikousei o Hirou.|ひげを剃る。そして女子高生を拾う。
@@ -45,5 +47,3 @@ Last Update: 2021/05/25-18:00:01
 2021/05/19-15:49:23 07 Jouran The Princess of Snow and Blood|擾乱 THE PRINCESS OF SNOW AND BLOOD
 2021/05/19-06:00:01 07 Tensura Nikki Tensei Shitara Slime Datta Ken|転生したらスライムだった件 転スラ日記
 2021/05/19-06:00:01 07 Seijo no Maryoku wa Bannou Desu|聖女の魔力は万能です
-2021/05/19-00:00:02 07 Odd Taxi|オッドタクシー
-2021/05/19-00:00:02 07 Fruits Basket the Final|フルーツバスケット The Final
