@@ -25,6 +25,16 @@ GIT_ROOT_DIR = '/home/swirhen/sh'
 YOUR_NICK = 'swirhen'
 
 
+# 日付文字列取得
+def get_now_datetime_str(dt_type):
+    if dt_type == 'ymdhms':
+        return datetime.now().strftime('%Y%m%d%H%M%S')
+    elif dt_type == 'ymd_hms':
+        return datetime.now().strftime('%Y/%m/%d-%H:%M:%S')
+    elif dt_type == 'ymd':
+        return datetime.now().strftime('%Y%m%d')
+
+
 # ダウンロードした種情報の取得
 def get_seed_directory(past_days):
     result = ''
@@ -260,6 +270,31 @@ def twitter_search(keyword_or_nick, channel, since, until, your_nick_ignore_flg=
     return result_str
 
 
+# チャンネル名判定
+def choose_channel(target_channel):
+    if target_channel == 'y':
+        target_channel = '#Twitter有名人@t'
+    elif target_channel == 's':
+        target_channel = '#twitter声優@t'
+    elif target_channel == 'k':
+        target_channel = '#twitter格ゲー@t'
+    elif target_channel == 'e':
+        target_channel = '#twitter絵描きさん@t'
+    elif target_channel == 'f':
+        target_channel = '#おともだちtwitter@t'
+    elif target_channel == 'c':
+        target_channel = '#シンデレラ一門@t'
+    elif target_channel == 'm':
+        target_channel = '#ミリオン一座@t'
+    elif target_channel == 'h':
+        target_channel = '#hololive@t'
+    elif target_channel == 'ha':
+        target_channel = '#holoart@t'
+    else:
+        target_channel = ''
+    return target_channel
+
+
 # 各種返答メッセージ
 MESSAGE_DICT = dict()
 MESSAGE_DICT['usage_torrent_move'] = 'つかいかた(´・ω・`)\n' \
@@ -283,10 +318,6 @@ MESSAGE_DICT['usage_torrent_search'] = 'つかいかた(´・ω・`)\n' \
                                        'ts [けんさくキーワード] [たいしょうカテゴリ]\n' \
                                        'カテゴリ: doujin/manga/music/comic/live/all\n' \
                                        '(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ/ぜんぶ)'
-MESSAGE_DICT['usage_torrent_list'] = 'つかいかた(´・ω・`)\n' \
-                                     'tl [たいしょうカテゴリ]\n' \
-                                     'カテゴリ: doujin/manga/music/comic/live\n' \
-                                     '(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ)'
 MESSAGE_DICT['usage_report_seed_list'] = 'つかいかた(´・ω・`)\n' \
                                          'tl [たいしょうカテゴリ]\n' \
                                          'カテゴリ: doujin/manga/music/comic/live\n' \
@@ -302,6 +333,7 @@ MESSAGE_DICT['usage_twitter_search'] = 'つかいかた(´・ω・`)\n' \
                                        'じぶんのtwitteridをむしする: 0: むしする 1: むししない'
 MESSAGE_DICT['usage_twitter_search_channel_choice'] = 'チャンネル: y/s/k/e/f/c/m/h/ha\n' \
                                                       '(ゆうめいじん/せいゆう/かくげーぜい/えし/おともだち/いちもん/いちざ/ほろ/ほろのえ)'
+
 
 # 各種返答メッセージ
 def generate_message(message_type):

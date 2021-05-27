@@ -59,27 +59,12 @@ def torrent_move(message, argument):
         if len(arguments) > 2:
             keyword = arguments[2]
     else:
-        message.send('つかいかた(´・ω・`)\n'
-                     'tdl [たねのあるディレクトリ] [いどうさきのディレクトリ] [いどうするたねをしぼりこむキーワード]\n'
-                     'いどうもとディレクトリ: ひづけ(YYYYMMDD) もしくは t(きょうのひづけ)\n'
-                     'いどうさきディレクトリ:\n'
-                     'd: どうじん c: みせいりほん m: えろまんが\n'
-                     'cm: でれおんがく cl: でれらいぶ\n'
-                     'mm: みりおんがく ml:みりらいぶ\n'
-                     'sm:しゃにおんがく sl:しゃにらいぶ\n'
-                     'hm:ほろおんがく hl:ほろらいぶ\n'
-                     'もしくは ふるぱすもじれつ')
+        message.send(bu.generate_message('usage_torrent_move'))
         return 1
 
     target_dir = bu.choose_target_dir(target_dir)
     if target_dir == '':
-        message.send('いどうさきディレクトリ:\n'
-                     'd: どうじん c: みせいりほん m: えろまんが\n'
-                     'cm: でれおんがく cl: でれらいぶ\n'
-                     'mm: みりおんがく ml:みりらいぶ\n'
-                     'sm:しゃにおんがく sl:しゃにらいぶ\n'
-                     'hm:ほろおんがく hl:ほろらいぶ\n'
-                     'もしくは ふるぱすもじれつ')
+        message.send(bu.generate_message('usage_torrent_move_directory_choice'))
         return 1
 
     result = bu.seed_move(seed_dir, target_dir, keyword)
@@ -109,27 +94,12 @@ def torrent_move_and_download(message, argument):
         if len(arguments) > 2:
             keyword = arguments[2]
     else:
-        message.send('つかいかた(´・ω・`)\n'
-                     'tdl [たねのあるディレクトリ] [いどうさきのディレクトリ] [いどうするたねをしぼりこむキーワード]\n'
-                     'いどうもとディレクトリ: ひづけ(YYYYMMDD) もしくは t(きょうのひづけ)\n'
-                     'いどうさきディレクトリ:\n'
-                     'd: どうじん c: みせいりほん m: えろまんが\n'
-                     'cm: でれおんがく cl: でれらいぶ\n'
-                     'mm: みりおんがく ml:みりらいぶ\n'
-                     'sm:しゃにおんがく sl:しゃにらいぶ\n'
-                     'hm:ほろおんがく hl:ほろらいぶ\n'
-                     'もしくは ふるぱすもじれつ')
+        message.send(bu.generate_message('usage_torrent_move'))
         return 1
 
     target_dir = bu.choose_target_dir(target_dir)
     if target_dir == '':
-        message.send('いどうさきディレクトリ:\n'
-                     'd: どうじん c: みせいりほん m: えろまんが\n'
-                     'cm: でれおんがく cl: でれらいぶ\n'
-                     'mm: みりおんがく ml:みりらいぶ\n'
-                     'sm:しゃにおんがく sl:しゃにらいぶ\n'
-                     'hm:ほろおんがく hl:ほろらいぶ\n'
-                     'もしくは ふるぱすもじれつ')
+        message.send(bu.generate_message('usage_torrent_move_directory_choice'))
         return 1
 
     result = bu.seed_move(seed_dir, target_dir, keyword)
@@ -162,10 +132,7 @@ def torrent_search(message, argument):
         if len(arguments) > 1:
             target_category = arguments[1]
     else:
-        message.send('つかいかた(´・ω・`)\n'
-                     'ts [けんさくキーワード] [たいしょうカテゴリ]\n'
-                     'カテゴリ: doujin/manga/music/comic/live/all\n'
-                     '(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ/ぜんぶ)')
+        message.send(bu.generate_message('usage_torrent_search'))
         return 1
 
     message.send(f'さがしてくるよ(｀・ω・´)\n'
@@ -185,10 +152,7 @@ def report_seed_list(message, argument):
     if len(arguments) > 0:
         target_category = arguments[0]
     else:
-        message.send('つかいかた(´・ω・`)\n'
-                     'tl [たいしょうカテゴリ]\n'
-                     'カテゴリ: doujin/manga/music/comic/live\n'
-                     '(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ)')
+        message.send(bu.generate_message('usage_report_seed_list'))
         return 1
 
     seed_list = trsc.get_seed_list(target_category)
@@ -221,38 +185,12 @@ def twitter_search(message, argument):
         nick_flg = arguments[4]
         your_nick_ignore_flg = arguments[5]
     else:
-        message.send('つかいかた(´・ω・`)\n'
-                     'tws [けんさくキーワード or twitterid] [チャンネル] [けんさくかいしにちじ] [けんさくしゅうりょうにちじ] [twitteridでけんさく] [じぶんのtwitteridをむしする]\n'
-                     'チャンネル: y/s/k/e/f/c/m/h/ha\n'
-                     '(ゆうめいじん/せいゆう/かくげーぜい/えし/おともだち/いちもん/いちざ/ほろ/ほろのえ)\n'
-                     'けんさくかいしにちじ: YYYY-MM-DD HH:MM:SSけいしき\n'
-                     'もしくは [なんふんまえ]m/[なんじかんまえ]h/[なんにちまえ]d\n'
-                     'けんさくしゅうりょうにちじ: nowといれたら げんざいにちじ\n'
-                     'twitteridでけんさく: 0: キーワードけんさく 1: twitteridでけんさく\n'
-                     'じぶんのtwitteridをむしする: 0: むしする 1: むししない')
+        message.send(bu.generate_message('usage_twitter_search'))
         return 1
 
-    if channel == 'y':
-        channel = '#Twitter有名人@t'
-    elif channel == 's':
-        channel = '#twitter声優@t'
-    elif channel == 'k':
-        channel = '#twitter格ゲー@t'
-    elif channel == 'e':
-        channel = '#twitter絵描きさん@t'
-    elif channel == 'f':
-        channel = '#おともだちtwitter@t'
-    elif channel == 'c':
-        channel = '#シンデレラ一門@t'
-    elif channel == 'm':
-        channel = '#ミリオン一座@t'
-    elif channel == 'h':
-        channel = '#hololive@t'
-    elif channel == 'ha':
-        channel = '#holoart@t'
-    else:
-        message.send('チャンネル: y/s/k/e/f/c/m/h/ha\n'
-                     '(ゆうめいじん/せいゆう/かくげーぜい/えし/おともだち/いちもん/いちざ/ほろ/ほろのえ)\n')
+    channel = bu.choose_channel(channel)
+    if channel == '':
+        message.send(bu.generate_message('usage_twitter_search_channel_choice'))
         return 1
 
     now_time = dt.now()
