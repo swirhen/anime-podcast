@@ -331,9 +331,8 @@ def twitter_search2(nick, count):
 
     cursor.close()
 
-    result = []
     result_str = '```'
-    if len(result) > 0:
+    if len(logs) > 0:
         for i,log in enumerate(logs):
             nick = log[0]
             text = log[1]
