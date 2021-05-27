@@ -258,3 +258,51 @@ def twitter_search(keyword_or_nick, channel, since, until, your_nick_ignore_flg=
         result_str += '```' + '\n'.join(result) + '```'
 
     return result_str
+
+
+# 各種返答メッセージ
+MESSAGE_DICT = dict()
+MESSAGE_DICT['usage_torrent_move'] = 'つかいかた(´・ω・`)\n' \
+                                     'tdl [たねのあるディレクトリ] [いどうさきのディレクトリ] [いどうするたねをしぼりこむキーワード]\n' \
+                                     'いどうもとディレクトリ: ひづけ(YYYYMMDD) もしくは t(きょうのひづけ)\n' \
+                                     'いどうさきディレクトリ:\n' \
+                                     'd: どうじん c: みせいりほん m: えろまんが\n' \
+                                     'cm: でれおんがく cl: でれらいぶ\n' \
+                                     'mm: みりおんがく ml:みりらいぶ\n' \
+                                     'sm:しゃにおんがく sl:しゃにらいぶ\n' \
+                                     'hm:ほろおんがく hl:ほろらいぶ\n' \
+                                     'もしくは ふるぱすもじれつ'
+MESSAGE_DICT['usage_torrent_move_directory_choice'] = 'いどうさきディレクトリ:\n' \
+                                                      'd: どうじん c: みせいりほん m: えろまんが\n' \
+                                                      'cm: でれおんがく cl: でれらいぶ\n' \
+                                                      'mm: みりおんがく ml:みりらいぶ\n' \
+                                                      'sm:しゃにおんがく sl:しゃにらいぶ\n' \
+                                                      'hm:ほろおんがく hl:ほろらいぶ\n' \
+                                                      'もしくは ふるぱすもじれつ'
+MESSAGE_DICT['usage_torrent_search'] = 'つかいかた(´・ω・`)\n' \
+                                       'ts [けんさくキーワード] [たいしょうカテゴリ]\n' \
+                                       'カテゴリ: doujin/manga/music/comic/live/all\n' \
+                                       '(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ/ぜんぶ)'
+MESSAGE_DICT['usage_torrent_list'] = 'つかいかた(´・ω・`)\n' \
+                                     'tl [たいしょうカテゴリ]\n' \
+                                     'カテゴリ: doujin/manga/music/comic/live\n' \
+                                     '(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ)'
+MESSAGE_DICT['usage_report_seed_list'] = 'つかいかた(´・ω・`)\n' \
+                                         'tl [たいしょうカテゴリ]\n' \
+                                         'カテゴリ: doujin/manga/music/comic/live\n' \
+                                         '(どうじん/えろまんが/おんがく/いっぱんまんが/らいぶ)'
+MESSAGE_DICT['usage_twitter_search'] = 'つかいかた(´・ω・`)\n' \
+                                       'tws [けんさくキーワード or twitterid] [チャンネル] [けんさくかいしにちじ] [けんさくしゅうりょうにちじ] [twitteridでけんさく] [じぶんのtwitteridをむしする]\n' \
+                                       'チャンネル: y/s/k/e/f/c/m/h/ha\n' \
+                                       '(ゆうめいじん/せいゆう/かくげーぜい/えし/おともだち/いちもん/いちざ/ほろ/ほろのえ)\n' \
+                                       'けんさくかいしにちじ: YYYY-MM-DD HH:MM:SSけいしき\n' \
+                                       'もしくは [なんふんまえ]m/[なんじかんまえ]h/[なんにちまえ]d\n' \
+                                       'けんさくしゅうりょうにちじ: nowといれたら げんざいにちじ\n' \
+                                       'twitteridでけんさく: 0: キーワードけんさく 1: twitteridでけんさく\n' \
+                                       'じぶんのtwitteridをむしする: 0: むしする 1: むししない'
+MESSAGE_DICT['usage_twitter_search_channel_choice'] = 'チャンネル: y/s/k/e/f/c/m/h/ha\n' \
+                                                      '(ゆうめいじん/せいゆう/かくげーぜい/えし/おともだち/いちもん/いちざ/ほろ/ほろのえ)'
+
+# 各種返答メッセージ
+def generate_message(message_type):
+    return MESSAGE_DICT[message_type]
