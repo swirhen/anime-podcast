@@ -339,7 +339,7 @@ def twitter_search2(nick, count):
             text = log[1]
             date = log[2]
             result_str = f'[{date}] <{nick}> {text}\n{result_str}'
-            if i > count:
+            if i >= count:
                 break
     
     result_str = f'```{result_str}```'
