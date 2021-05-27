@@ -7,7 +7,7 @@ import sys
 import pathlib
 import shutil
 import subprocess
-from datetime import datetime
+import datetime
 import time
 import git
 import MySQLdb
@@ -26,13 +26,23 @@ YOUR_NICK = 'swirhen'
 
 
 # 日付文字列取得
-def get_now_datetime_str(dt_type):
-    if dt_type == 'ymdhms':
-        return datetime.now().strftime('%Y%m%d%H%M%S')
-    elif dt_type == 'ymd_hms':
-        return datetime.now().strftime('%Y/%m/%d-%H:%M:%S')
-    elif dt_type == 'ymd':
-        return datetime.now().strftime('%Y%m%d')
+def get_now_datetime_str(dt_type, shift_datetime='0'):
+    now_datetime = datetime.datetime.now()
+    if shift_datetime[-1] == 'm':
+        date_time = now_datetime - datetime.timedelta(minutes=int(shift_datetime[:-1]))
+    elif shift_datetime[-1] == 'h':
+        date_time = now_datetime - datetime.timedelta(hours=int(shift_datetime[:-1]))
+    elif shift_datetime[-1] == 'd':
+        date_time = now_datetime - datetime.timedelta(days=int(shift_datetime[:-1]))
+    else:
+        date_time = now_datetime
+
+    if dt_type == 'YMDHMS':
+        return date_time.strftime('%Y%m%d%H%M%S')
+    elif dt_type == 'YMD_HMS':
+        return date_time.strftime('%Y/%m/%d-%H:%M:%S')
+    elif dt_type == 'YMD':
+        return date_time.strftime('%Y%m%d')
     else:
         return ''
 
@@ -61,8 +71,7 @@ def get_seed_directory(past_days):
 
 # 種検索＆ダウンロード
 def seed_search(keyword, target_category):
-    tdatetime = datetime.now()
-    date = tdatetime.strftime('%Y%m%d')
+    date = get_now_datetime_str('YMD')
     today_download_dir = f'{SEED_DOWNLOAD_DIR}/{date}'
     seed_list = trsc.get_seed_list(target_category)
 
@@ -138,8 +147,7 @@ def choose_target_dir(target_dir):
 
 # 種の所定位置への移動
 def seed_move(seed_dir, target_dir, keyword):
-    tdatetime = datetime.now()
-    date = tdatetime.strftime('%Y%m%d')
+    date = get_now_datetime_str('YMD')
     today_download_dir = f'{SEED_DOWNLOAD_DIR}/{date}'
 
     result = ''
