@@ -282,7 +282,7 @@ def twitter_search(keyword_or_nick, channel, since, until, your_nick_ignore_flg=
 
 # twitter search(nick and count)
 def twitter_search2(nick, count):
-    since = get_now_datetime_str('YMD_HMS', '7D')
+    since = get_now_datetime_str('YMD_HMS', '7d')
 
     # database connect
     connection = MySQLdb.connect(
@@ -302,8 +302,6 @@ def twitter_search2(nick, count):
                     f" and n.name = '{nick}'" \
                     f" and n.name not like '%swirhen%'" \
                     " order by l.created_on"
-
-    print(select_sql)
 
     cursor.execute(select_sql)
 
