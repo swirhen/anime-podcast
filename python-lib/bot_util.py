@@ -334,16 +334,13 @@ def twitter_search2(nick, count):
     cursor.close()
 
     result = []
-    result_str = ''
-    for log in logs:
-        nick = log[0]
-        text = log[1]
-        date = log[2]
-
     result_str = '```'
     if len(result) > 0:
         for i,log in enumerate(logs):
-            result_str += f'{log}\n'
+            nick = log[0]
+            text = log[1]
+            date = log[2]
+            result_str += f'[{date}] <{nick}> {text}\n'
             if i > count:
                 break
 
