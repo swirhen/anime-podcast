@@ -5,8 +5,6 @@
 import os
 import pathlib
 import sys
-from datetime import datetime as dt
-import datetime
 from slackbot.bot import respond_to
 import slackbot_settings
 from slacker import Slacker
@@ -46,9 +44,6 @@ def announce_seed_info(message, argument):
 # 取得seedを移動のみ
 @respond_to('^ *tmv(.*)')
 def torrent_move(message, argument):
-    tdatetime = dt.now()
-    date = tdatetime.strftime('%Y%m%d')
-    today_download_dir = f'/data/share/temp/torrentsearch/{date}'
     arguments = argument.split()
     seed_dir = ''
     target_dir = ''
@@ -81,9 +76,6 @@ def torrent_move(message, argument):
 # 取得seedを移動、栽培
 @respond_to('^ *tdl(.*)')
 def torrent_move_and_download(message, argument):
-    tdatetime = dt.now()
-    date = tdatetime.strftime('%Y%m%d')
-    today_download_dir = f'/data/share/temp/torrentsearch/{date}'
     arguments = argument.split()
     seed_dir = ''
     target_dir = ''
@@ -144,8 +136,7 @@ def torrent_search(message, argument):
 # torrent 最近のリスト
 @respond_to('^ *tl(.*)')
 def report_seed_list(message, argument):
-    tdatetime = dt.now()
-    date_time = tdatetime.strftime('%Y%m%d%H%M%S')
+    date_time = bu.get_now_datetime_str('YMDHMS')
     result_file_name = f'{SCRIPT_DIR}/seed_list_{date_time}.txt'
     arguments = argument.split()
     target_category = ''
@@ -193,29 +184,8 @@ def twitter_search(message, argument):
         message.send(bu.generate_message('usage_twitter_search_channel_choice'))
         return 1
 
-    now_time = dt.now()
-    now_datetime = dt.now().strftime('%Y/%m/%d %H:%M:%S')
-    if since[-1] == 'm':
-        shift_minutes = int(since[:-1])
-        since = (now_time - datetime.timedelta(minutes=int(shift_minutes))).strftime('%Y/%m/%d %H:%M:%S')
-    elif since[-1] == 'h':
-        shift_hours = int(since[:-1])
-        since = (now_time - datetime.timedelta(hours=int(shift_hours))).strftime('%Y/%m/%d %H:%M:%S')
-    elif since[-1] == 'd':
-        shift_days = int(since[:-1])
-        since = (now_time - datetime.timedelta(days=int(shift_days))).strftime('%Y/%m/%d %H:%M:%S')
-
-    if until[-1] == 'm':
-        shift_minutes = int(until[:-1])
-        until = (now_time - datetime.timedelta(minutes=int(shift_minutes))).strftime('%Y/%m/%d %H:%M:%S')
-    elif until[-1] == 'h':
-        shift_hours = int(until[:-1])
-        until = (now_time - datetime.timedelta(hours=int(shift_hours))).strftime('%Y/%m/%d %H:%M:%S')
-    elif until[-1] == 'd':
-        shift_days = int(until[:-1])
-        until = (now_time - datetime.timedelta(days=int(shift_days))).strftime('%Y/%m/%d %H:%M:%S')
-    elif until == 'now':
-        until = now_datetime
+    since = bu.get_now_datetime_str('YMD_HMS', since)
+    until = bu.get_now_datetime_str('YMD_HMS', until)
 
     k_n_str = 'キーワード'
     k_n_i_str = 'むしする'
@@ -240,8 +210,7 @@ def twitter_search(message, argument):
     if len(result) > 0:
         message.send('みつかったにぇ！(｀・ω・´)')
         if len(result) > 4000:
-            tdatetime = dt.now()
-            date_time = tdatetime.strftime('%Y%m%d%H%M%S')
+            date_time = bu.get_now_datetime_str('YMDHMS')
             result_file_name = f'{SCRIPT_DIR}/twitter_search_{date_time}.txt'
             swiutil.writefile_new(result_file_name, result.replace('`',''))
             file_upload(result_file_name, result_file_name, 'text', message)
