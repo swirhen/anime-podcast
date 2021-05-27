@@ -17,7 +17,7 @@ SEED_BACKUP_DIR = f'{SHARE_TEMP_DIR}/torrentsearch/downloaded'
 DL_URL_LIST_FILE = f'/home/swirhen/sh/checker/torrentsearch/download_url.txt'
 current_dir = pathlib.Path(__file__).resolve().parent
 SCRIPT_DIR = str(current_dir)
-with open(f'{SCRIPT_DIR}/discord_token') as tokenfile:
+with open(f'{SCRIPT_DIR}/discord_token_ztb') as tokenfile:
     TOKEN = tokenfile.read().splitlines()[0]
 
 
