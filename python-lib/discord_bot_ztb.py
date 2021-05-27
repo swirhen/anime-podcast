@@ -46,7 +46,7 @@ async def on_message(message):
 
 if __name__ == "__main__":
     pid = os.getpid()
-    with open(f'{SCRIPT_DIR}/discordbot.pid', 'w') as pidfile:
+    with open(f'{SCRIPT_DIR}/discordbot_ztb.pid', 'w') as pidfile:
         pidfile.write(str(pid))
     # Botの起動とDiscordサーバーへの接続
     client.run(TOKEN)
