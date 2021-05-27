@@ -303,8 +303,6 @@ def twitter_search2(nick, count):
                     f" and n.name not like '%swirhen%'" \
                     " order by l.created_on"
 
-    print(select_sql)
-
     cursor.execute(select_sql)
 
     logs = []
@@ -340,6 +338,7 @@ def twitter_search2(nick, count):
             nick = log[0]
             text = log[1]
             date = log[2]
+            print(f'[{date}] <{nick}> {text}')
             result_str += f'[{date}] <{nick}> {text}\n'
             if i > count:
                 break
