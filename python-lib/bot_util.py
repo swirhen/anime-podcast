@@ -280,6 +280,74 @@ def twitter_search(keyword_or_nick, channel, since, until, your_nick_ignore_flg=
     return result_str
 
 
+# twitter search(nick and count)
+def twitter_search2(nick, count):
+    since = get_now_datetime_str('YMD_HMS', '7D')
+
+    # database connect
+    connection = MySQLdb.connect(
+        host='localhost',
+        user='tiarra',
+        passwd='arrati',
+        db='tiarra')
+    cursor = connection.cursor()
+
+    # all log select
+    select_sql = "select n.name, l.log, l.created_on" \
+                    " from channel c, log l, nick n" \
+                    " where l.channel_id = c.id" \
+                    " and l.nick_id = n.id" \
+                    f" and l.created_on >= '{since}'" \
+                    f" and c.name = '#hololive@t'" \
+                    f" and n.name = '{nick}'" \
+                    f" and n.name not like '%swirhen%'" \
+                    " order by l.created_on"
+
+    cursor.execute(select_sql)
+
+    logs = []
+    nick_p = ''
+    log_text_p = ''
+    date_p = ''
+    for row in cursor:
+        nick = row[0]
+        log_text = row[1]
+        date = row[2].strftime('%Y/%m/%d %H:%M:%S')
+
+        # 1行前とnick, 投稿日時が同じ場合はログに改行を加えて追加する
+        # 違う場合、1行前のものを配列に加える
+        if nick_p != '':
+            if nick_p == nick and date_p == date:
+                log_text_p += f'\n{log_text}'
+            else:
+                logs.append([nick_p, log_text_p, date_p])
+                log_text_p = log_text
+
+        nick_p = nick
+        date_p = date
+
+    # ループ終了 最後の行
+    logs.append([nick_p, log_text_p, date_p])
+
+    cursor.close()
+
+    result = []
+    result_str = ''
+    for log in logs:
+        nick = log[0]
+        text = log[1]
+        date = log[2]
+
+    result_str = '```'
+    if len(result) > 0:
+        for i,log in enumerate(logs):
+            result_str += f'{log}\n'
+            if i > count:
+                break
+
+    return result_str
+
+
 # チャンネル名判定
 def choose_channel(target_channel):
     if target_channel == 'y':
@@ -343,6 +411,8 @@ MESSAGE_DICT['usage_twitter_search'] = 'つかいかた(´・ω・`)\n' \
                                        'じぶんのtwitteridをむしする: 0: むしする 1: むししない'
 MESSAGE_DICT['usage_twitter_search_channel_choice'] = 'チャンネル: y/s/k/e/f/c/m/h/ha\n' \
                                                       '(ゆうめいじん/せいゆう/かくげーぜい/えし/おともだち/いちもん/いちざ/ほろ/ほろのえ)'
+
+
 
 
 # 各種返答メッセージ
