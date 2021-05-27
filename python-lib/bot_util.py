@@ -306,28 +306,29 @@ def twitter_search2(nick, count):
     cursor.execute(select_sql)
 
     logs = []
-    nick_p = ''
-    log_text_p = ''
-    date_p = ''
-    for row in cursor:
-        nick = row[0]
-        log_text = row[1]
-        date = row[2].strftime('%Y/%m/%d %H:%M:%S')
+    if len(cursor.fetchall()) > 0:
+        nick_p = ''
+        log_text_p = ''
+        date_p = ''
+        for row in cursor:
+            nick = row[0]
+            log_text = row[1]
+            date = row[2].strftime('%Y/%m/%d %H:%M:%S')
 
-        # 1行前とnick, 投稿日時が同じ場合はログに改行を加えて追加する
-        # 違う場合、1行前のものを配列に加える
-        if nick_p != '':
-            if nick_p == nick and date_p == date:
-                log_text_p += f'\n{log_text}'
-            else:
-                logs.append([nick_p, log_text_p, date_p])
-                log_text_p = log_text
+            # 1行前とnick, 投稿日時が同じ場合はログに改行を加えて追加する
+            # 違う場合、1行前のものを配列に加える
+            if nick_p != '':
+                if nick_p == nick and date_p == date:
+                    log_text_p += f'\n{log_text}'
+                else:
+                    logs.append([nick_p, log_text_p, date_p])
+                    log_text_p = log_text
 
-        nick_p = nick
-        date_p = date
+            nick_p = nick
+            date_p = date
 
-    # ループ終了 最後の行
-    logs.append([nick_p, log_text_p, date_p])
+        # ループ終了 最後の行
+        logs.append([nick_p, log_text_p, date_p])
 
     cursor.close()
 
