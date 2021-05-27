@@ -305,4 +305,7 @@ MESSAGE_DICT['usage_twitter_search_channel_choice'] = 'チャンネル: y/s/k/e/
 
 # 各種返答メッセージ
 def generate_message(message_type):
-    return MESSAGE_DICT[message_type]
+    if MESSAGE_DICT in message_type:
+        return MESSAGE_DICT[message_type]
+    else:
+        return ''
