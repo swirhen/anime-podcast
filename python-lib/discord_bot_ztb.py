@@ -43,6 +43,36 @@ async def on_message(message):
     # 「/neko」と発言したら「にゃーん」が返る処理
     if message.content == '/neko':
         await message.channel.send('にゃーん')
+    
+    # ホロメン twitter検索
+    elif re.search('^/hts.*', message.content):
+        arguments = message.content.split()
+        keyword = ''
+        count = '5'
+        if len(arguments) > 1:
+            keyword = arguments[1]
+            if len(arguments) > 2:
+                count = arguments[2]
+        else:
+            await message.channel.send(bu.generate_message('usage_holomen_twitter_search'))
+            return
+
+        await message.channel.send('さがすにぇ(｀・ω・´)')
+
+        result = bu.twitter_search2(keyword, count)
+
+        if len(result) > 0:
+            await message.channel.send('みつかったにぇ！(｀・ω・´)')
+            if len(result) > 2000:
+                result_file_name = f'{SCRIPT_DIR}/twitter_search2_{date_time}.txt'
+                swiutil.writefile_new(result_file_name, result.replace('`',''))
+                await message.channel.send(file=discord.File(result_file_name))
+                os.remove(result_file_name)
+            else:
+                await message.channel.send(result)
+        else:
+            await message.channel.send('そのこはここ1週間postがないにぇ(´・ω・`)しんでんで...')
+
 
 if __name__ == "__main__":
     pid = os.getpid()

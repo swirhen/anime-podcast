@@ -335,7 +335,7 @@ def twitter_search2(nick, count):
     if len(logs) > 0:
         logs.reverse()
         for i,log in enumerate(logs):
-            if i >= count:
+            if i >= int(count):
                 break
             nick = log[0]
             text = log[1]
@@ -410,8 +410,8 @@ MESSAGE_DICT['usage_twitter_search'] = 'つかいかた(´・ω・`)\n' \
                                        'じぶんのtwitteridをむしする: 0: むしする 1: むししない'
 MESSAGE_DICT['usage_twitter_search_channel_choice'] = 'チャンネル: y/s/k/e/f/c/m/h/ha\n' \
                                                       '(ゆうめいじん/せいゆう/かくげーぜい/えし/おともだち/いちもん/いちざ/ほろ/ほろのえ)'
-
-
+MESSAGE_DICT['usage_holomen_twitter_search'] = 'つかいかた(´・ω・`)\n' \
+                                               'hts [twitterid] (さかのぼるpostのかず デフォルト 5)'
 
 
 # 各種返答メッセージ
