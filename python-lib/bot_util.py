@@ -33,6 +33,8 @@ def get_now_datetime_str(dt_type):
         return datetime.now().strftime('%Y/%m/%d-%H:%M:%S')
     elif dt_type == 'ymd':
         return datetime.now().strftime('%Y%m%d')
+    else:
+        return ''
 
 
 # ダウンロードした種情報の取得
