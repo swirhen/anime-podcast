@@ -15,7 +15,7 @@ if __name__ == '__main__':
     args = sys.argv
     debug_flg = False
     debug_arg = 25
-    here_txt = '@jihou '
+    here_txt = '@here '
     debug_str = ''
     if len(args) > 1:
         debug_flg = True
@@ -44,6 +44,7 @@ if __name__ == '__main__':
             post_str = f'{here_txt}{hour} 時ごろをお知らせします。'
     
     su.discord_post(CHANNEL, f'{post_str}{debug_str}')
+    post_str = post_str.replace('@here ', '')
     su.discord_post(CHANNEL_OPEN, f'{post_str}{debug_str}')
     if hour == 2 or debug_arg == 2:
         su.discord_upload(CHANNEL, NEYOU_FILE)
