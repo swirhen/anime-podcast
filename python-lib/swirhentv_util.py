@@ -466,5 +466,5 @@ def get_feed_xml_list(listfile=''):
                         info[title_strip] = []
                     else:
                         info[title_strip].append([title_strip])
-            result = info
+        return info
     return result
