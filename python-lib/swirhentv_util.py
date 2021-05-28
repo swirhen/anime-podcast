@@ -444,17 +444,23 @@ def make_feed_manually(target_dir, title):
 
 # xml list
 def get_feed_xml_list(listfile=''):
-    import pprint
     result = []
     if listfile == '':
         xml_list = sorted(list(pathlib.Path(FEED_XML_DIR).glob('*.xml')))
-        pprint.pprint(xml_list)
         for xml_file in xml_list:
             with open(xml_file) as file:
                 for line in file.read().splitlines():
                     if re.search('title', line):
                         xml_title = re.sub('<.*?>', '', line).strip()
-                        result.append([xml_title, xml_file.name])
+                        result.append([xml_title, xml_file.name.replace('.xml', '')])
                         break
         return result
+    else:
+        xml_file = list(pathlib.Path(FEED_XML_DIR).glob(f'{listfile}.xml'))[0]
+        with open(xml_file) as file:
+            for line in file.read().splitlines():
+                if re.search('title', line):
+                    xml_title = re.sub('<.*?>', '', line).strip()
+                    result.append([xml_title])
+
 
