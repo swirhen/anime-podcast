@@ -444,6 +444,7 @@ def make_feed_manually(target_dir, title):
 
 # xml list
 def get_feed_xml_list(listfile=''):
+    result = []
     if listfile == '':
         xml_list = list(pathlib.Path(FEED_XML_DIR).glob('*.xml'))
         for xml_file in xml_list:
@@ -452,5 +453,6 @@ def get_feed_xml_list(listfile=''):
                     if re.search('title', line):
                         xml_title = re.sub('<.*?>', '', line).strip()
                         break
-            print(f'{xml_file.name}:{xml_title}')
+            result = [xml_title, xml_file.name]
+        return result
 
