@@ -7,7 +7,7 @@ import bot_util as bu
 current_dir = pathlib.Path(__file__).resolve().parent
 SCRIPT_DIR = str(current_dir)
 CHANNEL = 'jihou'
-CHANNEL_OPEN = 'ztb_jihou_open'
+CHANNEL_OPEN = 'ztb_jihou'
 NEYOU_FILE = f'{SCRIPT_DIR}/neyou.jpg'
 
 
@@ -15,7 +15,7 @@ if __name__ == '__main__':
     args = sys.argv
     debug_flg = False
     debug_arg = 25
-    here_txt = '@here '
+    here_txt = '@じかんをきにしているひと '
     debug_str = ''
     if len(args) > 1:
         debug_flg = True
@@ -44,7 +44,7 @@ if __name__ == '__main__':
             post_str = f'{here_txt}{hour} 時ごろをお知らせします。'
     
     su.discord_post(CHANNEL, f'{post_str}{debug_str}')
-    post_str = post_str.replace('@here ', '')
+    post_str = post_str.replace('@じかんをきにしているひと ', '')
     su.discord_post(CHANNEL_OPEN, f'{post_str}{debug_str}')
     if hour == 2 or debug_arg == 2:
         su.discord_upload(CHANNEL, NEYOU_FILE)
