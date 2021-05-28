@@ -10,6 +10,7 @@ if __name__ == '__main__':
     args = sys.argv
     if len(args) > 1:
         debug = True
+        debug_str = ' (debugちゅう)'
 
     hour = int(bu.get_now_datetime_str('H'))
     date = bu.get_now_datetime_str('YMD_A')
@@ -23,10 +24,9 @@ if __name__ == '__main__':
     else:
         if debug:
             hourminute = bu.get_now_datetime_str('HM')
-            post_str = f'@here {hourminute} ごろをお知らせします。(debug mode)'
+            post_str = f'@here {hourminute} ごろをお知らせします。'
             print(post_str)
-            exit(0)
         else:
             post_str = f'@here {hour} 時ごろをお知らせします。'
     
-    su.discord_post(CHANNEL, post_str)
+    su.discord_post(CHANNEL, f'{post_str}{debug_str}')
