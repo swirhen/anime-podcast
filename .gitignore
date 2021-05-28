@@ -18,5 +18,6 @@ nico_search/nico
 nico_search/nico_imas
 *pycache*
 python-lib/*pycache*
-python-lib/slack_api_token
-python-lib/slackbot.pid
+python-lib/*token*
+python-lib/*.pid
+python-lib/*webhook*
