@@ -7,6 +7,7 @@ import pathlib
 import re
 import shutil
 import subprocess
+from swirhen.checker.torrentsearch.torrentsearch import DOWNLOAD_DIR
 import urllib.request
 import requests
 import time
@@ -17,12 +18,12 @@ from slacker import Slacker
 import slackbot_settings
 
 current_dir = pathlib.Path(__file__).resolve().parent
-CHECKLIST_FILE_PATH = f'{str(current_dir)}/../checklist.txt'
 SYOBOCAL_URI = 'http://cal.syoboi.jp/find?sd=0&kw='
 SCRIPT_DIR = str(current_dir)
+CHECKLIST_FILE_PATH = f'{SCRIPT_DIR}/../checklist.txt'
 SEED_BACKUP_DIR = f'{SCRIPT_DIR}/../download_seeds'
 DISCORD_WEBHOOK_URI_FILE = f'{SCRIPT_DIR}/discord_webhook_url'
-
+FEED_XML_DIR = f'{SCRIPT_DIR}/../../98 PSP用'
 
 # slackにpostする
 def slack_post(channel, text, username='swirhentv', icon_emoji=''):
@@ -441,3 +442,11 @@ def make_feed(target_dir):
 def make_feed_manually(target_dir, title):
     target_dir_not_parent_dir = pathlib.Path(target_dir).name
     subprocess.run(f'{SCRIPT_DIR}/../mkpodcast.rb -t "{target_dir}/*.*" -b "http://swirhen.tv/movie/pspmp4/{target_dir_not_parent_dir}/" -o "{target_dir}.xml" --title "{title}"', shell=True)
+
+
+# xml list
+def get_feed_xml_list(listfile=''):
+    if listfile == '':
+        xml_list = list(pathlib.Path(FEED_XML_DIR).glob('*.xml'))
+        for xml_file in xml_list:
+            print(xml_file.name)
