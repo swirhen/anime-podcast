@@ -447,6 +447,7 @@ def get_feed_xml_list(listfile=''):
     result = []
     if listfile == '':
         xml_list = sorted(list(pathlib.Path(FEED_XML_DIR).glob('*.xml')))
+        pprint.pprint(xml_list)
         for xml_file in xml_list:
             with open(xml_file) as file:
                 for line in file.read().splitlines():
