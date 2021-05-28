@@ -44,7 +44,6 @@ if __name__ == '__main__':
             post_str = f'{here_txt}{hour} 時ごろをお知らせします。'
     
     su.discord_post(CHANNEL, f'{post_str}{debug_str}')
-    post_str = post_str.replace('@じかんをきにしているひと ', '')
     su.discord_post(CHANNEL_OPEN, f'{post_str}{debug_str}')
     if hour == 2 or debug_arg == 2:
         su.discord_upload(CHANNEL, NEYOU_FILE)
