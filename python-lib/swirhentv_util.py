@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # swirhen.tv python library
-import glob
 import os
 import pathlib
 import re
 import shutil
 import subprocess
-from swirhen.checker.torrentsearch.torrentsearch import DOWNLOAD_DIR
 import urllib.request
 import requests
 import time
