@@ -15,7 +15,7 @@ if __name__ == '__main__':
     args = sys.argv
     debug_flg = False
     debug_arg = 25
-    here_txt = '@じかんをきにしているひと '
+    here_txt = '@jihou '
     debug_str = ''
     if len(args) > 1:
         debug_flg = True
