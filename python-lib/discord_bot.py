@@ -44,6 +44,9 @@ async def on_message(message):
     if message.content == '/neko':
         await message.channel.send('にゃーん')
 
+    elif message.content == '/kokodoko':
+        await message.channel.send(message.channel.name)
+
     # 種情報
     elif re.search('^/seed.*', message.content):
         past_days = 3
