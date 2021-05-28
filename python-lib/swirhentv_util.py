@@ -458,8 +458,13 @@ def get_feed_xml_list(listfile=''):
         xml_file = list(pathlib.Path(FEED_XML_DIR).glob(f'{listfile}.xml'))[0]
         with open(xml_file) as file:
             for line in file.read().splitlines():
+                info = dict()
                 if re.search('title', line):
                     xml_title = re.sub(r'<.*?>', '', line).strip()
                     title_strip = re.sub(r'(.*) 第.*', r'\1', xml_title)
-                    result.append([title_strip])
+                    if not xml_title in info:
+                        info[title_strip] = []
+                    else:
+                        info[title_strip].append([title_strip])
+            result = info
     return result
