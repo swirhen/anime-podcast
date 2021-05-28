@@ -47,10 +47,10 @@ async def on_message(message):
     # ホロメン twitter検索
     elif re.search('^/hts.*', message.content):
         arguments = message.content.split()
-        keyword = ''
+        name = ''
         count = '5'
         if len(arguments) > 1:
-            keyword = arguments[1]
+            name = arguments[1]
             if len(arguments) > 2:
                 count = arguments[2]
         else:
@@ -59,7 +59,8 @@ async def on_message(message):
 
         await message.channel.send('さがすにぇ(｀・ω・´)')
 
-        result = bu.twitter_search2(keyword, count)
+        name = bu.get_holomen_twitter_id(name) 
+        result = bu.twitter_search2(name, count)
 
         if len(result) > 0:
             await message.channel.send('みつかったにぇ！(｀・ω・´)')
