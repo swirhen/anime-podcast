@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+ebug# -*- coding: utf-8 -*-
 import sys
 import pathlib
 import swirhentv_util as su
@@ -13,6 +13,7 @@ NEYOU_FILE = f'{SCRIPT_DIR}/neyou.jpg'
 if __name__ == '__main__':
     args = sys.argv
     here_txt = '@here '
+    debug_arg = 25
     if len(args) > 1:
         debug = True
         debug_arg = int(args[1])
