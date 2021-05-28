@@ -281,7 +281,7 @@ async def on_message(message):
                 await message.channel.send(file=discord.File(result_file_name))
                 os.remove(result_file_name)
             else:
-                await message.channel.send(result)
+                await message.channel.send(result.replace('```','`'))
         else:
             await message.channel.send('そのこはここ1週間postがないにぇ(´・ω・`)しんでんで...')
 
