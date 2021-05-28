@@ -45,7 +45,7 @@ async def on_message(message):
     if message.content == '/neko':
         await message.channel.send('にゃーん')
     
-    if Message.channel.name == 'bot-sandbox':
+    if message.channel.name == 'bot-sandbox':
         # ホロメン twitter検索
         if re.search('^/hts.*', message.content):
             arguments = message.content.split()
