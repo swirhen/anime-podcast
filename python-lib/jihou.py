@@ -12,10 +12,12 @@ NEYOU_FILE = f'{SCRIPT_DIR}/neyou.jpg'
 
 if __name__ == '__main__':
     args = sys.argv
-    here_txt = '@here '
+    debug_flg = False
     debug_arg = 25
+    here_txt = '@here '
+    debug_str = ''
     if len(args) > 1:
-        debug = True
+        debug_flg = True
         debug_arg = int(args[1])
         here_txt = ''
         debug_str = ' (debugちゅう)'
@@ -33,7 +35,7 @@ if __name__ == '__main__':
     elif hour == 15 or debug_arg == 15:
         post_str = f'{here_txt}{hour} 時ごろをお知らせします。おやつです。'
     else:
-        if debug:
+        if debug_flg:
             hourminute = bu.get_now_datetime_str('HM')
             post_str = f'{here_txt}{hourminute} ごろをお知らせします。'
             print(post_str)
