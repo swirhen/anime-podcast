@@ -444,6 +444,7 @@ def make_feed_manually(target_dir, title):
 
 # xml list
 def get_feed_xml_list(listfile=''):
+    import pprint
     result = []
     if listfile == '':
         xml_list = sorted(list(pathlib.Path(FEED_XML_DIR).glob('*.xml')))
