@@ -57,9 +57,9 @@ async def on_message(message):
             await message.channel.send(bu.generate_message('usage_holomen_twitter_search'))
             return
 
-        await message.channel.send('さがすにぇ(｀・ω・´)')
-
         name = bu.get_holomen_twitter_id(name)
+        await message.channel.send(f'さがすにぇ(｀・ω・´)\ntarget twitter id: {name}')
+
         result = bu.twitter_search2(name, count)
 
         if len(result) > 0:
