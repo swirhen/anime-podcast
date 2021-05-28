@@ -455,6 +455,7 @@ def get_feed_xml_list(listfile=''):
                         result.append([xml_title, xml_file.name.replace('.xml', '')])
                         break
     else:
+        # TODO debug
         xml_file = list(pathlib.Path(FEED_XML_DIR).glob(f'{listfile}.xml'))[0]
         with open(xml_file) as file:
             for line in file.read().splitlines():
