@@ -450,7 +450,7 @@ def get_feed_xml_list(listfile=''):
             with open(xml_file) as file:
                 for line in file.read().splitlines():
                     if re.search('title', line):
-                        xml_title = line
+                        xml_title = re.sub('<.*?>', '', xml_title).strip()
                         break
             print(f'{xml_file.name}:{xml_title}')
 
