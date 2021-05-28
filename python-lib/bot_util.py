@@ -7,6 +7,7 @@ import sys
 import pathlib
 import shutil
 import subprocess
+import locale
 import datetime
 import time
 import git
@@ -43,6 +44,11 @@ def get_now_datetime_str(dt_type, shift_datetime='0'):
         return date_time.strftime('%Y/%m/%d-%H:%M:%S')
     elif dt_type == 'YMD':
         return date_time.strftime('%Y%m%d')
+    elif dt_type == 'YMD_A':
+        locale.setlocale(locale.LC_TIME, 'ja_JP.UTF-8')
+        return date_time.strftime('%Y/%-m/%-d (%A)')
+    elif dt_type == 'H':
+        return date_time.strftime('%h')
     else:
         return ''
 
