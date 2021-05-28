@@ -437,11 +437,12 @@ def generate_message(message_type):
 # ホロメン twitter id
 def get_holomen_twitter_id(name):
     result = name
-    with open(HOLOMEN_TWITTER_ID_LIST) as file:
-        for line in file.read().splitlines():
-            names = line.split()[0]
-            twitter = line.split()[1]
-            if re.search(name, names):
-                result = twitter
-                break
+    if name != '':
+        with open(HOLOMEN_TWITTER_ID_LIST) as file:
+            for line in file.read().splitlines():
+                names = line.split()[0]
+                twitter = line.split()[1]
+                if re.search(name, names):
+                    result = twitter
+                    break
     return result
