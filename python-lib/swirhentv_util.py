@@ -454,7 +454,6 @@ def get_feed_xml_list(listfile=''):
                         xml_title = re.sub('<.*?>', '', line).strip()
                         result.append([xml_title, xml_file.name.replace('.xml', '')])
                         break
-        return result
     else:
         xml_file = list(pathlib.Path(FEED_XML_DIR).glob(f'{listfile}.xml'))[0]
         with open(xml_file) as file:
@@ -462,5 +461,4 @@ def get_feed_xml_list(listfile=''):
                 if re.search('title', line):
                     xml_title = re.sub('<.*?>', '', line).strip()
                     result.append([xml_title])
-
-
+    return result
