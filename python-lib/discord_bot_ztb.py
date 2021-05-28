@@ -59,7 +59,7 @@ async def on_message(message):
 
         await message.channel.send('さがすにぇ(｀・ω・´)')
 
-        name = bu.get_holomen_twitter_id(name) 
+        name = bu.get_holomen_twitter_id(name)
         result = bu.twitter_search2(name, count)
 
         if len(result) > 0:
