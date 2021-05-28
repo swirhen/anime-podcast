@@ -423,7 +423,7 @@ MESSAGE_DICT['usage_twitter_search'] = 'つかいかた(´・ω・`)\n' \
 MESSAGE_DICT['usage_twitter_search_channel_choice'] = 'チャンネル: y/s/k/e/f/c/m/h/ha\n' \
                                                       '(ゆうめいじん/せいゆう/かくげーぜい/えし/おともだち/いちもん/いちざ/ほろ/ほろのえ)'
 MESSAGE_DICT['usage_holomen_twitter_search'] = 'つかいかた(´・ω・`)\n' \
-                                               'hts [twitterid] (さかのぼるpostのかず デフォルト 5)'
+                                               'hts [twitterid or ニックネーム] (さかのぼるpostのかず デフォルト 5)'
 
 
 # 各種返答メッセージ
