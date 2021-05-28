@@ -447,4 +447,10 @@ def get_feed_xml_list(listfile=''):
     if listfile == '':
         xml_list = list(pathlib.Path(FEED_XML_DIR).glob('*.xml'))
         for xml_file in xml_list:
-            print(xml_file.name)
+            with open(xml_file) as file:
+                for line in file.read().splitlines():
+                    if re.search('title', line):
+                        xml_title = line
+                        break
+            print(f'{xml_file.name}:{xml_title}')
+
