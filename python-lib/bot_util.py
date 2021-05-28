@@ -48,7 +48,9 @@ def get_now_datetime_str(dt_type, shift_datetime='0'):
         locale.setlocale(locale.LC_TIME, 'ja_JP.UTF-8')
         return date_time.strftime('%Y/%-m/%-d (%A)')
     elif dt_type == 'H':
-        return date_time.strftime('%h')
+        return date_time.strftime('%-H')
+    elif dt_type == 'HM':
+        return date_time.strftime('%-H:%M')
     else:
         return ''
 
