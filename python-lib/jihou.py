@@ -1,25 +1,33 @@
 # -*- coding: utf-8 -*-
 import sys
+import pathlib
 import swirhentv_util as su
 import bot_util as bu
 
+current_dir = pathlib.Path(__file__).resolve().parent
+SCRIPT_DIR = str(current_dir)
 CHANNEL = 'ztb_jihou'
+NEYOU_FILE = f'{SCRIPT_DIR}/neyou.jpg'
 
 
 if __name__ == '__main__':
     args = sys.argv
     if len(args) > 1:
         debug = True
+        debug_arg = int(args[1])
         debug_str = ' (debugちゅう)'
 
     hour = int(bu.get_now_datetime_str('H'))
     date = bu.get_now_datetime_str('YMD_A')
-    if hour == 0:
+    if hour == 0 or debug_arg == 0:
         date = bu.get_now_datetime_str('YMD_A')
         post_str = f'@here {date} になりました。 {str(hour)} 時ごろをお知らせします。'
-    elif hour == 12:
+    if hour == 0 or debug_arg == 0:
+        date = bu.get_now_datetime_str('YMD_A')
+        post_str = f'@here {date} になりました。 {str(hour)} 時ごろをお知らせします。'
+    elif hour == 12 or debug_arg == 12:
         post_str = f'@here {hour} 時ごろをお知らせします。おひるです。'
-    elif hour == 15:
+    elif hour == 15 or debug_arg == 15:
         post_str = f'@here {hour} 時ごろをお知らせします。おやつです。'
     else:
         if debug:
@@ -30,3 +38,5 @@ if __name__ == '__main__':
             post_str = f'@here {hour} 時ごろをお知らせします。'
     
     su.discord_post(CHANNEL, f'{post_str}{debug_str}')
+    if hour == 2 or debug_arg == 2:
+        su.discord_upload(CHANNEL, NEYOU_FILE)
