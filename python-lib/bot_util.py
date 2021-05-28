@@ -24,6 +24,9 @@ SEED_BACKUP_DIR = f'{SHARE_TEMP_DIR}/torrentsearch/downloaded'
 DL_URL_LIST_FILE = f'/home/swirhen/sh/checker/torrentsearch/download_url.txt'
 GIT_ROOT_DIR = '/home/swirhen/sh'
 YOUR_NICK = 'swirhen'
+current_dir = pathlib.Path(__file__).resolve().parent
+SCRIPT_DIR = str(current_dir)
+HOLOMEN_TWITTER_ID_LIST = f'{SCRIPT_DIR}/holomen_twitter_id_list.txt'
 
 
 # 日付文字列取得
@@ -429,3 +432,16 @@ def generate_message(message_type):
         return MESSAGE_DICT[message_type]
     else:
         return ''
+
+
+# ホロメン twitter id
+def get_holomen_twitter_id(name):
+    result = ''
+    with open(HOLOMEN_TWITTER_ID_LIST) as file:
+        for line in file.read().splitlines():
+            names = line.split()[0]
+            twitter = line.split()[1]
+            if re.search(name, names):
+                result = twitter
+                break
+    return result
