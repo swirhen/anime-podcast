@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # import sections
+from email.message import Message
 import sys
 import os
 import pathlib
@@ -44,35 +45,36 @@ async def on_message(message):
     if message.content == '/neko':
         await message.channel.send('にゃーん')
     
-    # ホロメン twitter検索
-    elif re.search('^/hts.*', message.content):
-        arguments = message.content.split()
-        name = ''
-        count = '5'
-        if len(arguments) > 1:
-            name = arguments[1]
-            if len(arguments) > 2:
-                count = arguments[2]
-        else:
-            await message.channel.send(bu.generate_message('usage_holomen_twitter_search'))
-            return
-
-        name = bu.get_holomen_twitter_id(name)
-        await message.channel.send(f'さがすにぇ(｀・ω・´)\ntarget twitter id: {name}')
-
-        result = bu.twitter_search2(name, count)
-
-        if len(result) > 0:
-            await message.channel.send('みつかったにぇ！(｀・ω・´)')
-            if len(result) > 2000:
-                result_file_name = f'{SCRIPT_DIR}/twitter_search2_{date_time}.txt'
-                swiutil.writefile_new(result_file_name, result.replace('`',''))
-                await message.channel.send(file=discord.File(result_file_name))
-                os.remove(result_file_name)
+    if Message.channel.name == 'bot-sandbox':
+        # ホロメン twitter検索
+        if re.search('^/hts.*', message.content):
+            arguments = message.content.split()
+            name = ''
+            count = '5'
+            if len(arguments) > 1:
+                name = arguments[1]
+                if len(arguments) > 2:
+                    count = arguments[2]
             else:
-                await message.channel.send(result)
-        else:
-            await message.channel.send('そのこはここ1週間postがないにぇ(´・ω・`)しんでんで...')
+                await message.channel.send(bu.generate_message('usage_holomen_twitter_search'))
+                return
+
+            name = bu.get_holomen_twitter_id(name)
+            await message.channel.send(f'さがすにぇ(｀・ω・´)\ntarget twitter id: {name}')
+
+            result = bu.twitter_search2(name, count)
+
+            if len(result) > 0:
+                await message.channel.send('みつかったにぇ！(｀・ω・´)')
+                if len(result) > 2000:
+                    result_file_name = f'{SCRIPT_DIR}/twitter_search2_{date_time}.txt'
+                    swiutil.writefile_new(result_file_name, result.replace('`',''))
+                    await message.channel.send(file=discord.File(result_file_name))
+                    os.remove(result_file_name)
+                else:
+                    await message.channel.send(result)
+            else:
+                await message.channel.send('そのこはここ1週間postがないにぇ(´・ω・`)しんでんで...')
 
 
 if __name__ == "__main__":
