@@ -6,7 +6,7 @@ import bot_util as bu
 
 current_dir = pathlib.Path(__file__).resolve().parent
 SCRIPT_DIR = str(current_dir)
-CHANNEL = 'ztb_jihou'
+CHANNEL = 'jihou'
 CHANNEL_OPEN = 'ztb_jihou_open'
 NEYOU_FILE = f'{SCRIPT_DIR}/neyou.jpg'
 
