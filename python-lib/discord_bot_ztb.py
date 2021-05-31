@@ -89,7 +89,8 @@ async def on_message(message):
                             post_str = 'キーワードはxmlのなまえと一致したぺこ。xmlのさいしん10件を表示するぺこ\n'
                         else:
                             post_str = 'キーワードはxmlのタイトルと一致したぺこ。xmlのさいしん10件を表示するぺこ\n'
-                        post_str += '```'
+                        await message.channel.send(post_str)
+                        post_str = '```'
                         for i, item in enumerate(result):
                             if i == 0:
                                 continue
@@ -100,7 +101,8 @@ async def on_message(message):
                         post_str += '```'
                     else:
                         post_str = 'キーワードはxmlのなかのタイトルに一致したぺこ。ヒットしたxmlを表示するぺこ\n'
-                        post_str += '```'
+                        await message.channel.send(post_str)
+                        post_str = '```'
                         for i, item in enumerate(result):
                             if i == 0:
                                 continue
