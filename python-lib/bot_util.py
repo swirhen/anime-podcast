@@ -425,10 +425,11 @@ MESSAGE_DICT['usage_twitter_search_channel_choice'] = 'チャンネル: y/s/k/e/
 MESSAGE_DICT['usage_holomen_twitter_search'] = 'つかいかた(´・ω・`)\n' \
                                                'hts [twitterid or ニックネーム] (さかのぼるpostのかず デフォルト 5)'
 MESSAGE_DICT['usage_swirhentv_feed_search'] = 'つかいかた(´・ω・`)\n' \
-                                               'すいれん.tv のフィードを検索するぺこ(｀・ω・´)\n' \
-                                               '特定のワードをいれると フィードのタイトル/ファイル名/フィード内のタイトルから検索するぺこ\n' \
-                                               'フィードリストはこちらぺこ(1日1回更新)\n' \
-                                               'http://swirhen.tv/movie/pspmp4/swirhentv_feed_list.txt'
+                                              'sws (けんさくキーワード)' \
+                                              'すいれん.tv のフィードを検索するぺこ(｀・ω・´)\n' \
+                                              'けんさくキーワードをいれると フィードのタイトル/ファイル名/フィード内のタイトル から検索するぺこ\n' \
+                                              'フィードリストはこちらぺこ(1日1回更新)\n' \
+                                              'http://swirhen.tv/movie/pspmp4/swirhentv_feed_list.txt'
 
 
 # 各種返答メッセージ
