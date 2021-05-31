@@ -108,7 +108,7 @@ async def on_message(message):
                                 post_str += f'タイトル: {item[0]} URL: {item[1]}\n'
                         post_str += '```'
                     if len(post_str) > 2000:
-                        result_file_name = f'{SCRIPT_DIR}/swirhentv_swearch_{date_time}.txt'
+                        result_file_name = f'{SCRIPT_DIR}/swirhentv_search_{date_time}.txt'
                         swiutil.writefile_new(result_file_name, result.replace('`',''))
                         await message.channel.send(file=discord.File(result_file_name))
                         os.remove(result_file_name)
@@ -120,12 +120,13 @@ async def on_message(message):
                     return
             else:
                 result = swiutil.get_feed_xml_list()
-                post_str = '```'
                 for item in result:
                     post_str += f'{item[0]}: {item[1]}\n'
-                post_str += '```'
-                await message.channel.send(f'めにゅーぺこ(｀・ω・´)\n{post_str}')
-
+                await message.channel.send(f'めにゅーぺこ(｀・ω・´)')
+                result_file_name = f'{SCRIPT_DIR}/swirhentv_search_menu_{date_time}.txt'
+                swiutil.writefile_new(result_file_name, post_str)
+                await message.channel.send(file=discord.File(result_file_name))
+                os.remove(result_file_name)
 
 if __name__ == "__main__":
     pid = os.getpid()
