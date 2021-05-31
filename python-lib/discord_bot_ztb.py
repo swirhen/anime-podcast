@@ -115,23 +115,11 @@ async def on_message(message):
                         os.remove(result_file_name)
                     else:
                         await message.channel.send(post_str)
-                    return
                 else:
                     await message.channel.send('ねぇぺこ(´・ω・`)\n')
-                    return
             else:
-                result = swiutil.get_feed_xml_list()
-                post_str = ''
-                for item in result:
-                    if not re.search('ラジオ', item[1]):
-                        post_str += f'{item[0]}: {item[1]}\n'
-                # post_str += '```'
-                await message.channel.send(f'めにゅーぺこ(｀・ω・´)')
-                # await message.channel.send(post_str)
-                result_file_name = f'{SCRIPT_DIR}/swirhentv_search_menu_{date_time}.txt'
-                swiutil.writefile_new(result_file_name, post_str)
-                await message.channel.send(file=discord.File(result_file_name))
-                os.remove(result_file_name)
+                await message.channel.send(bu.generate_message('usage_swirhentv_feed_search'))
+
 
 if __name__ == "__main__":
     pid = os.getpid()

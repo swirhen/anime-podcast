@@ -424,6 +424,11 @@ MESSAGE_DICT['usage_twitter_search_channel_choice'] = 'チャンネル: y/s/k/e/
                                                       '(ゆうめいじん/せいゆう/かくげーぜい/えし/おともだち/いちもん/いちざ/ほろ/ほろのえ)'
 MESSAGE_DICT['usage_holomen_twitter_search'] = 'つかいかた(´・ω・`)\n' \
                                                'hts [twitterid or ニックネーム] (さかのぼるpostのかず デフォルト 5)'
+MESSAGE_DICT['usage_swirhentv_feed_search'] = 'つかいかた(´・ω・`)\n' \
+                                               'すいれん.tv のフィードを検索するぺこ(｀・ω・´)\n' \
+                                               '特定のワードをいれると フィードのタイトル/ファイル名/フィード内のタイトルから検索するぺこ' \
+                                               'フィードリストはこちらぺこ(1日1回更新)\n' \
+                                               'http://swirhen.tv/movie/pspmp4/swirhentv_feed_list.txt'
 
 
 # 各種返答メッセージ

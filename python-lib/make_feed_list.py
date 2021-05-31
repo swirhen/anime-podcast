@@ -6,7 +6,6 @@ import pathlib
 import re
 import sys
 current_dir = pathlib.Path(__file__).resolve().parent
-# sys.path.append(f'{str(current_dir)}/')
 import swirhentv_util as swiutil
 
 SCRIPT_DIR = str(current_dir)
