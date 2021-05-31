@@ -120,6 +120,7 @@ async def on_message(message):
                     return
             else:
                 result = swiutil.get_feed_xml_list()
+                post_str = ''
                 for item in result:
                     post_str += f'{item[0]}: {item[1]}\n'
                 await message.channel.send(f'めにゅーぺこ(｀・ω・´)')
