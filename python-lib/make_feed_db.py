@@ -44,6 +44,7 @@ def make_feed_data(feedname=''):
     feed_names = table_xml.search(query.id == 'xml_names')[0]['data']
     for feed_name in feed_names:
         if feedname == '' or feedname == feed_name:
+            print(feed_name)
             xml_file = f'{FEED_XML_DIR}/{feed_name}.xml'
             title_list = []
             with open(xml_file) as file:
