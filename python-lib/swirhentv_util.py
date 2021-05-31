@@ -498,16 +498,22 @@ def get_feed_xml_list(argument):
         #         break
         #     result.append(item.text)
     else:
-        # TODO ripgrep
         temp_list = []
-        for xml_info in xml_infos:
-            with open(f'{FEED_XML_DIR}/{xml_info[0]}.xml') as file:
-                xml_root = elementTree.fromstring(file.read())
-            xml_title = xml_root.find('./channel/title').text.strip()
-            for item in xml_root.findall('./channel/item/title'):
-                if re.search(argument, item.text):
-                    temp_list.append([xml_title, f'{SWIRHENTV_URI}{xml_info[0]}.xml'])
-                    break
+        feed_files = subprocess.run(f'rg "{argument}" "{FEED_XML_DIR}/"*.xml -l', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.decode().strip().splitlines()
+        feed_files_str = '" "'.join(feed_files)
+        feed_infos = subprocess.run(f'rg title "{feed_files_str}" -m 1 | sed "s/\(.*\.xml\).*>\(.*\)<.*/\\1|\\2/"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.decode().strip().splitlines()
+        for feed_info in feed_infos:
+            xml_file = feed_info.split('|')[0].replace(f'{FEED_XML_DIR}/', '')
+            xml_title = feed_info.split('|')[1]
+            temp_list.append([xml_title, f'{SWIRHENTV_URI}{xml_file}'])
+        # for xml_info in xml_infos:
+        #     with open(f'{FEED_XML_DIR}/{xml_info[0]}.xml') as file:
+        #         xml_root = elementTree.fromstring(file.read())
+        #     xml_title = xml_root.find('./channel/title').text.strip()
+        #     for item in xml_root.findall('./channel/item/title'):
+        #         if re.search(argument, item.text):
+        #             temp_list.append([xml_title, f'{SWIRHENTV_URI}{xml_info[0]}.xml'])
+        #             break
 
         if len(temp_list) > 0:
             result.append('3')
