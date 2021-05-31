@@ -77,8 +77,8 @@ async def on_message(message):
                 await message.channel.send('そのこはここ1週間postがないにぇ(´・ω・`)しんでんで...')
         
         elif re.search('^/sws.*', message.content):
-            argument = re.sub(r'^/sws', '', message.content)
-            if argument.strip() == '':
+            argument = re.sub(r'^/sws', '', message.content).strip()
+            if argument != '':
                 await message.channel.send('さがしてくるぺこ！(｀・ω・´)\n'
                                         f'検索キーワード: {argument}')
                 result = swiutil.get_feed_xml_list(argument)
