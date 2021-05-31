@@ -489,9 +489,10 @@ def get_feed_xml_list(argument=''):
             for xml_file in xml_files:
                 with open(xml_file) as file:
                     xml_root = elementTree.fromstring(file.read())
+                xml_title = xml_root.find('./channel/title').text
                 for item in xml_root.findall('./channel/item/title'):
                     if re.search(argument, item.text):
-                        temp_list.append([xml_info[1], f'{SWIRHENTV_URI}{xml_info[0]}.xml'])
+                        temp_list.append([xml_title, f'{SWIRHENTV_URI}{xml_file.name}'])
                         break
             if len(temp_list) > 0:
                 result.append('3')
