@@ -461,14 +461,6 @@ def get_feed_xml_list(argument):
         xml_names.append(xml_name)
         xml_titles.append(xml_title)
         xml_infos.append([xml_name, xml_title, xml_file])
-    # xml_files = sorted(list(pathlib.Path(FEED_XML_DIR).glob('*.xml')))
-    # for xml_file in xml_files:
-    #     with open(xml_file) as file:
-    #         xml_root = elementTree.fromstring(file.read())
-    #         xml_title = xml_root.find('./channel/title').text.strip()
-    #     xml_names.append(xml_file.name.replace('.xml', ''))
-    #     xml_titles.append(xml_title)
-    #     xml_infos.append([xml_file.name.replace('.xml', ''), xml_title, xml_file])
     hit_flag = False
     hit_xml = ''
     if argument in xml_names:
@@ -491,12 +483,6 @@ def get_feed_xml_list(argument):
             if i == 0:
                 continue
             result.append(title)
-        # with open(hit_xml) as file:
-        #     xml_root = elementTree.fromstring(file.read())
-        # for i,item in enumerate(xml_root.findall('./channel/item/title')):
-        #     if i > 9:
-        #         break
-        #     result.append(item.text)
     else:
         temp_list = []
         feed_files = subprocess.run(f'rg "{argument}" "{FEED_XML_DIR}/"*.xml -l', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.decode().strip().splitlines()
@@ -506,14 +492,6 @@ def get_feed_xml_list(argument):
             xml_file = feed_info.split('|')[0].replace(f'{FEED_XML_DIR}/', '')
             xml_title = feed_info.split('|')[1]
             temp_list.append([xml_title, f'{SWIRHENTV_URI}{xml_file}'])
-        # for xml_info in xml_infos:
-        #     with open(f'{FEED_XML_DIR}/{xml_info[0]}.xml') as file:
-        #         xml_root = elementTree.fromstring(file.read())
-        #     xml_title = xml_root.find('./channel/title').text.strip()
-        #     for item in xml_root.findall('./channel/item/title'):
-        #         if re.search(argument, item.text):
-        #             temp_list.append([xml_title, f'{SWIRHENTV_URI}{xml_info[0]}.xml'])
-        #             break
 
         if len(temp_list) > 0:
             result.append('3')
