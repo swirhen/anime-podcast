@@ -122,16 +122,16 @@ async def on_message(message):
                     return
             else:
                 result = swiutil.get_feed_xml_list()
-                post_str = '```'
+                post_str = ''
                 for item in result:
                     post_str += f'{item[1]} '
-                post_str += '```'
+                # post_str += '```'
                 await message.channel.send(f'めにゅーぺこ(｀・ω・´) 謎の文字列ぺこ')
-                await message.channel.send(post_str)
-                # result_file_name = f'{SCRIPT_DIR}/swirhentv_search_menu_{date_time}.txt'
-                # swiutil.writefile_new(result_file_name, post_str)
-                # await message.channel.send(file=discord.File(result_file_name))
-                # os.remove(result_file_name)
+                # await message.channel.send(post_str)
+                result_file_name = f'{SCRIPT_DIR}/swirhentv_search_menu_{date_time}.txt'
+                swiutil.writefile_new(result_file_name, post_str)
+                await message.channel.send(file=discord.File(result_file_name))
+                os.remove(result_file_name)
 
 if __name__ == "__main__":
     pid = os.getpid()
