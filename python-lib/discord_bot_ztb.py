@@ -109,7 +109,7 @@ async def on_message(message):
                         post_str += '```'
                     if len(post_str) > 2000:
                         result_file_name = f'{SCRIPT_DIR}/swirhentv_search_{date_time}.txt'
-                        swiutil.writefile_new(result_file_name, result.replace('`',''))
+                        swiutil.writefile_new(result_file_name, post_str.replace('`',''))
                         await message.channel.send(file=discord.File(result_file_name))
                         os.remove(result_file_name)
                     else:
