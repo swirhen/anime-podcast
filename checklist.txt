@@ -1,4 +1,29 @@
-Last Update: 2021/05/29-00:00:02
+Last Update: 2021/05/31-12:05:30
+2021/05/31-12:05:30 50 Digimon Adventure;|デジモンアドベンチャー：
+2021/05/31-12:05:30 34 Dqdai|ドラゴンクエスト ダイの大冒険
+2021/05/31-12:05:30 21 Back Arrow|バック・アロウ
+2021/05/31-12:05:30 153 Kiratto Pri-chan|キラッとプリ☆チャン
+2021/05/31-12:05:30 10 Boku no Hero Academia 5|僕のヒーローアカデミア(第5期)
+2021/05/31-12:05:30 09 Yuukoku no Moriarty Part 2|憂国のモリアーティ(2クール目)
+2021/05/31-12:05:30 09 Shakunetsu Kabaddi|灼熱カバディ
+2021/05/31-12:05:30 09 Seven Knights Revolution Eiyuu no Keishousha|セブンナイツ レボリューション -英雄の継承者-
+2021/05/31-12:05:30 09 Sentouin, Hakenshimasu|戦闘員、派遣します！
+2021/05/31-12:05:30 09 Sayonara Watashi no Cramer|さよなら私のクラマー
+2021/05/31-12:05:30 09 SSSS.Dynazenon|SSSS.DYNAZENON
+2021/05/31-12:05:30 09 Nomad Megalo Box 2|NOMAD メガロボクス2
+2021/05/31-12:05:30 09 Mashiro no Oto|ましろのおと
+2021/05/31-12:05:30 09 Dragon, Ie o Kau|ドラゴン、家を買う。
+2021/05/31-12:05:30 08 Subarashiki Kono Sekai the Animation|すばらしきこのせかい The Animation
+2021/05/31-12:05:30 08 Slime300|スライム倒して300年、知らないうちにレベルMAXになってました
+2021/05/31-12:05:30 08 Shadows House|シャドーハウス
+2021/05/31-12:05:30 08 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
+2021/05/31-12:05:30 08 Ijiranaide, Nagatoro-san|イジらないで、長瀞さん
+2021/05/31-12:05:30 08 Eighty-Six|86-エイティシックス-
+2021/05/31-12:05:30 08 Edens Zero|EDENS ZERO
+2021/05/31-12:05:30 08 Blue Reflection Ray|BLUE REFLECTION RAY／澪
+2021/05/31-12:05:30 08 Bishounen Tanteidan|美少年探偵団
+2021/05/31-12:05:30 08 Battle Athletess Daiundoukai Restart!|バトルアスリーテス大運動会 ReSTART!
+2021/05/31-12:05:30 07 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
 2021/05/29-00:00:02 20 Kumo Desu ga, Nanika|蜘蛛ですが、なにか？
 2021/05/28-12:24:35 08 Isekai Maou to Shoukan Shoujo no Dorei Majutsu Omega|異世界魔王と召喚少女の奴隷魔術Ω
 2021/05/28-12:24:35 08 Bakuten!!|バクテン!!
@@ -22,28 +47,3 @@ Last Update: 2021/05/29-00:00:02
 2021/05/25-00:00:01 08 Hige o Soru. Soshite Joshikousei o Hirou.|ひげを剃る。そして女子高生を拾う。
 2021/05/25-00:00:01 07 Tokyo Revengers|東京リベンジャーズ
 2021/05/25-00:00:01 07 Fumetsu no Anata e|不滅のあなたへ
-2021/05/24-06:00:01 08 Seven Knights Revolution Eiyuu no Keishousha|セブンナイツ レボリューション -英雄の継承者-
-2021/05/24-06:00:01 08 Sayonara Watashi no Cramer|さよなら私のクラマー
-2021/05/24-00:00:02 08 Yuukoku no Moriarty Part 2|憂国のモリアーティ(2クール目)
-2021/05/24-00:00:02 08 Shakunetsu Kabaddi|灼熱カバディ
-2021/05/24-00:00:02 08 Sentouin, Hakenshimasu|戦闘員、派遣します！
-2021/05/24-00:00:02 08 Nomad Megalo Box 2|NOMAD メガロボクス2
-2021/05/24-00:00:02 08 Dragon, Ie o Kau|ドラゴン、家を買う。
-2021/05/23-18:00:02 07 Bishounen Tanteidan|美少年探偵団
-2021/05/23-12:00:02 49 Digimon Adventure;|デジモンアドベンチャー：
-2021/05/23-12:00:02 152 Kiratto Pri-chan|キラッとプリ☆チャン
-2021/05/23-12:00:02 07 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
-2021/05/23-12:00:02 07 Edens Zero|EDENS ZERO
-2021/05/23-12:00:02 07 Battle Athletess Daiundoukai Restart!|バトルアスリーテス大運動会 ReSTART!
-2021/05/23-06:00:01 07 Shadows House|シャドーハウス
-2021/05/23-06:00:01 07 Ijiranaide, Nagatoro-san|イジらないで、長瀞さん
-2021/05/23-06:00:01 07 Eighty-Six|86-エイティシックス-
-2021/05/23-00:00:02 09 Boku no Hero Academia 5|僕のヒーローアカデミア(第5期)
-2021/05/23-00:00:02 07 Slime300|スライム倒して300年、知らないうちにレベルMAXになってました
-2021/05/23-00:00:02 06 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
-2021/05/22-12:00:01 33 Dqdai|ドラゴンクエスト ダイの大冒険
-2021/05/22-12:00:01 08 Mashiro no Oto|ましろのおと
-2021/05/22-06:00:02 20 Back Arrow|バック・アロウ
-2021/05/22-06:00:02 08 SSSS.Dynazenon|SSSS.DYNAZENON
-2021/05/22-06:00:02 07 Subarashiki Kono Sekai the Animation|すばらしきこのせかい The Animation
-2021/05/22-06:00:02 07 Blue Reflection Ray|BLUE REFLECTION RAY／澪
