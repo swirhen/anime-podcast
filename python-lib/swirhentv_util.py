@@ -477,7 +477,7 @@ def get_feed_xml_list(argument=''):
         if hit_flag:
             with open(xml_file) as file:
                 xml_root = elementTree.fromstring(file.read())
-            for i,item in xml_root.findall('./channel/item/title'):
+            for i,item in enumerate(xml_root.findall('./channel/item/title')):
                 if i > 9:
                     break
                 result.append(item.text)
