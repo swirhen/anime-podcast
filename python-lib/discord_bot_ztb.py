@@ -75,6 +75,56 @@ async def on_message(message):
                     await message.channel.send(result)
             else:
                 await message.channel.send('そのこはここ1週間postがないにぇ(´・ω・`)しんでんで...')
+        
+        elif re.search('^/sws.*', message.content):
+            arguments = message.content.split()
+            if len(arguments) == 2:
+                await message.channel.send('さがしてくるぺこ！(｀・ω・´)\n'
+                                        f'検索キーワード: {arguments[1]}')
+                result = swiutil.get_feed_xml_list(arguments[1])
+                if len(result) > 0:
+                    await message.channel.send('みつかったぺこ(｀・ω・´)\n')
+                    if result[0] == '1' or result[0] == '2':
+                        if result[0] == '1':
+                            post_str = 'キーワードはxmlのなまえと一致したぺこ。xmlのさいしん10件を表示するぺこ\n'
+                        else:
+                            post_str = 'キーワードはxmlのタイトルと一致したぺこ。xmlのさいしん10件を表示するぺこ\n'
+                        post_str += '```'
+                        for i, item in enumerate(result):
+                            if i == 0:
+                                continue
+                            elif i == 1:
+                                post_str += f'タイトル: {item[0]} URL: {item[1]}\n'
+                            else:
+                                post_str += f'{item}'
+                        post_str += '```'
+                    else:
+                        post_str = 'キーワードはxmlのなかのタイトルに一致したぺこ。ヒットしたxmlを表示するぺこ\n'
+                        post_str += '```'
+                        for i, item in enumerate(result):
+                            if i == 0:
+                                continue
+                            else:
+                                post_str += f'タイトル: {item[0]} URL: {item[1]}\n'
+                        post_str += '```'
+                    if len(post_str) > 2000:
+                        result_file_name = f'{SCRIPT_DIR}/swirhentv_swearch_{date_time}.txt'
+                        swiutil.writefile_new(result_file_name, result.replace('`',''))
+                        await message.channel.send(file=discord.File(result_file_name))
+                        os.remove(result_file_name)
+                    else:
+                        await message.channel.send(post_str)
+                    return
+                else:
+                    await message.channel.send('ねぇぺこ(´・ω・`)\n')
+                    return
+            else:
+                result = swiutil.get_feed_xml_list()
+                post_str = '```'
+                for item in result:
+                    post_str += f'{item[0]}: {item[1]}\n'
+                post_str += '```'
+                await message.channel.send(f'めにゅーぺこ(｀・ω・´)\n{post_str}')
 
 
 if __name__ == "__main__":
