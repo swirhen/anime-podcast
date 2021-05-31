@@ -3,7 +3,7 @@
 # swirhentv make feed list
 # import section
 import pathlib
-import re
+import pprint
 import sys
 from time import time
 import xml.etree.ElementTree as elementTree
@@ -51,6 +51,7 @@ def make_feed_data(feedname=''):
                 xml_root = elementTree.fromstring(file.read())
             for item in xml_root.findall('./channel/item/title'):
                 title_list.append(item.text.strip())
+            pprint.pprint(title_list)
             if table_feed.search(query.id == feed_name):
                 table_feed.update({'data': title_list}, query.id == feed_name)
             else:
