@@ -4,9 +4,11 @@
 # import section
 import pathlib
 import re
+import sys
+current_dir = pathlib.Path(__file__).resolve().parent
+sys.path.append(f'{str(current_dir)}/')
 import swirhentv_util as swiutil
 
-current_dir = pathlib.Path(__file__).resolve().parent
 SCRIPT_DIR = str(current_dir)
 FILENAME = f'{SCRIPT_DIR}/../../98 PSP用/swirhentv_feed_list.txt'
 
