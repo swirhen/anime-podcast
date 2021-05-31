@@ -5,8 +5,9 @@
 import pathlib
 import re
 import sys
+from time import time
 import xml.etree.ElementTree as elementTree
-from tinydb import TinyDB, Query
+from tinydb import TinyDB, Query, queries
 current_dir = pathlib.Path(__file__).resolve().parent
 import swirhentv_util as swiutil
 
@@ -36,6 +37,23 @@ def make_feed_list():
     table_xml.insert({'id': 'xml_infos', 'data': xml_infos})
 
 
+def make_feed_data(id=''):
+    table_xml = FEED_DB.table('xml_list')
+    query = Query()
+    if id == '':
+        FEED_DB.drop_table('feed_data')
+        table_feed = FEED_DB.table('feed_data')
+        feed_names = table_xml.search(query.id == 'xml_names')[0]['data']
+        for feed_name in feed_names:
+            xml_file = f'{FEED_XML_DIR}/{feed_name}.xml'
+            title_list = []
+            with open(xml_file) as file:
+                xml_root = elementTree.fromstring(file.read())
+            for item in xml_root.findall('./channel/item/title'):
+                title_list.append(item.text.strip())
+            table_feed.insert({'id': feed_name, 'data': title_list})
+
+
 # main section
 if __name__ == '__main__':
     args = sys.argv
@@ -44,4 +62,5 @@ if __name__ == '__main__':
         index = args[1]
 
     if index == '':
-        make_feed_list()
+        # make_feed_list()
+        make_feed_data()
