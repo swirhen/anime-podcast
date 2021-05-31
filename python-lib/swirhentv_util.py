@@ -484,19 +484,12 @@ def get_feed_xml_list(argument):
             result.append(title)
     else:
         temp_list = []
-        # for xml_file in xml_files:
-        #     with open(xml_file) as file:
-        #         xml_root = elementTree.fromstring(file.read())
-        #     xml_title = xml_root.find('./channel/title').text.strip()
-        #     for item in xml_root.findall('./channel/item/title'):
-        #         if re.search(argument, item.text):
-        #             temp_list.append([xml_title, f'{SWIRHENTV_URI}{xml_file.name}'])
-        #             break
         for xml_info in xml_infos:
             feed_data = table_feed.search(query.id == xml_info[0])[0]['data']
             for title in feed_data:
                 if re.search(argument, title):
                     temp_list.append([xml_info[1], f'{SWIRHENTV_URI}{xml_info[0]}.xml'])
+                    break
 
         if len(temp_list) > 0:
             result.append('3')
