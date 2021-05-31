@@ -124,9 +124,10 @@ async def on_message(message):
                 result = swiutil.get_feed_xml_list()
                 post_str = ''
                 for item in result:
-                    post_str += f'{item[1]} '
+                    if not re.search('ラジオ', item[1]):
+                        post_str += f'{item[0]}: {item[1]}\n'
                 # post_str += '```'
-                await message.channel.send(f'めにゅーぺこ(｀・ω・´) 謎の文字列ぺこ')
+                await message.channel.send(f'めにゅーぺこ(｀・ω・´)')
                 # await message.channel.send(post_str)
                 result_file_name = f'{SCRIPT_DIR}/swirhentv_search_menu_{date_time}.txt'
                 swiutil.writefile_new(result_file_name, post_str)
