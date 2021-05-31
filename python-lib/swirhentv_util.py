@@ -12,6 +12,7 @@ import time
 from datetime import datetime as dt
 
 from bs4 import BeautifulSoup
+import xml.etree.ElementTree as elementTree
 from slacker import Slacker
 import slackbot_settings
 
@@ -22,6 +23,7 @@ CHECKLIST_FILE_PATH = f'{SCRIPT_DIR}/../checklist.txt'
 SEED_BACKUP_DIR = f'{SCRIPT_DIR}/../download_seeds'
 DISCORD_WEBHOOK_URI_FILE = f'{SCRIPT_DIR}/discord_webhook_url'
 FEED_XML_DIR = f'{SCRIPT_DIR}/../../98 PSP用'
+SWIRHENTV_URI = 'http://swirhen.tv/movie/pspmp4/'
 
 # slackにpostする
 def slack_post(channel, text, username='swirhentv', icon_emoji=''):
@@ -443,29 +445,52 @@ def make_feed_manually(target_dir, title):
 
 
 # xml list
-def get_feed_xml_list(listfile=''):
+def get_feed_xml_list(argument=''):
     result = []
-    if listfile == '':
-        xml_list = sorted(list(pathlib.Path(FEED_XML_DIR).glob('*.xml')))
-        for xml_file in xml_list:
-            with open(xml_file) as file:
-                for line in file.read().splitlines():
-                    if re.search('title', line):
-                        xml_title = re.sub('<.*?>', '', line).strip()
-                        result.append([xml_title, xml_file.name.replace('.xml', '')])
-                        break
-    else:
-        # TODO debug
-        xml_file = list(pathlib.Path(FEED_XML_DIR).glob(f'{listfile}.xml'))[0]
+    xml_names = []
+    xml_titles = []
+    xml_infos = []
+    xml_files = sorted(list(pathlib.Path(FEED_XML_DIR).glob('*.xml')))
+    for xml_file in xml_files:
         with open(xml_file) as file:
-            for line in file.read().splitlines():
-                info = dict()
-                if re.search('title', line):
-                    xml_title = re.sub(r'<.*?>', '', line).strip()
-                    title_strip = re.sub(r'(.*) 第.*', r'\1', xml_title)
-                    if not xml_title in info:
-                        info[title_strip] = []
-                    else:
-                        info[title_strip].append([title_strip])
-        return info
+            xml_root = elementTree.fromstring(file.read())
+            xml_title = xml_root.find('./channel/title').text
+        xml_names.append(xml_file.name.replace('.xml', ''))
+        xml_titles.append(xml_title)
+        xml_infos.append([xml_file.name.replace('.xml', ''), xml_title])
+    if argument == '':
+        result = xml_infos
+    else:
+        hit_flag = False
+        if argument in xml_names:
+            hit_flag = True
+            result.append('1')
+            for xml_info in xml_infos:
+                if argument == xml_info[0]:
+                    result.append([xml_info[1], f'{SWIRHENTV_URI}{xml_info[0]}.xml'])
+        if argument in xml_titles:
+            hit_flag = True
+            result.append('2')
+            for xml_info in xml_infos:
+                if argument == xml_info[1]:
+                    result.append([xml_info[1], f'{SWIRHENTV_URI}{xml_info[0]}.xml'])
+        if hit_flag:
+            with open(xml_file) as file:
+                xml_root = elementTree.fromstring(file.read())
+            for i,item in xml_root.findall('./channel/item/title'):
+                if i > 9:
+                    break
+                result.append(item.text)
+        else:
+            temp_list = []
+            for xml_file in xml_files:
+                with open(xml_file) as file:
+                    xml_root = elementTree.fromstring(file.read())
+                for item in xml_root.findall('./channel/item/title'):
+                    if re.search(argument, item.text):
+                        temp_list.append([xml_info[1], f'{SWIRHENTV_URI}{xml_info[0]}.xml'])
+                        break
+            if len(temp_list) > 0:
+                result.append('3')
+                result.extend(temp_list)
     return result
