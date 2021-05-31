@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # swirhen.tv python library
+# import section
 import os
 import pathlib
 import re
@@ -11,19 +12,19 @@ import requests
 import time
 import glob
 from datetime import datetime as dt
-
 from bs4 import BeautifulSoup
 import xml.etree.ElementTree as elementTree
 from slacker import Slacker
 import slackbot_settings
 
+# argment section
 current_dir = pathlib.Path(__file__).resolve().parent
-SYOBOCAL_URI = 'http://cal.syoboi.jp/find?sd=0&kw='
 SCRIPT_DIR = str(current_dir)
 CHECKLIST_FILE_PATH = f'{SCRIPT_DIR}/../checklist.txt'
 SEED_BACKUP_DIR = f'{SCRIPT_DIR}/../download_seeds'
 DISCORD_WEBHOOK_URI_FILE = f'{SCRIPT_DIR}/discord_webhook_url'
 FEED_XML_DIR = f'{SCRIPT_DIR}/../../98 PSP用'
+SYOBOCAL_URI = 'http://cal.syoboi.jp/find?sd=0&kw='
 SWIRHENTV_URI = 'http://swirhen.tv/movie/pspmp4/'
 
 # slackにpostする
