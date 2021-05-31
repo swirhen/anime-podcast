@@ -77,11 +77,11 @@ async def on_message(message):
                 await message.channel.send('そのこはここ1週間postがないにぇ(´・ω・`)しんでんで...')
         
         elif re.search('^/sws.*', message.content):
-            arguments = message.content.split()
-            if len(arguments) == 2:
+            argument = re.sub(r'^/sws', '', message.content)
+            if argument.strip() == '':
                 await message.channel.send('さがしてくるぺこ！(｀・ω・´)\n'
-                                        f'検索キーワード: {arguments[1]}')
-                result = swiutil.get_feed_xml_list(arguments[1])
+                                        f'検索キーワード: {argument}')
+                result = swiutil.get_feed_xml_list(argument)
                 if len(result) > 0:
                     await message.channel.send('みつかったぺこ(｀・ω・´)\n')
                     if result[0] == '1' or result[0] == '2':
@@ -96,7 +96,7 @@ async def on_message(message):
                             elif i == 1:
                                 post_str += f'タイトル: {item[0]} URL: {item[1]}\n'
                             else:
-                                post_str += f'{item}\n'
+                                post_str += f'{item}'
                         post_str += '```'
                     else:
                         post_str = 'キーワードはxmlのなかのタイトルに一致したぺこ。ヒットしたxmlを表示するぺこ\n'
