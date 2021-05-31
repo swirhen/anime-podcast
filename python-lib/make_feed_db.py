@@ -44,14 +44,12 @@ def make_feed_data(feedname=''):
     feed_names = table_xml.search(query.id == 'xml_names')[0]['data']
     for feed_name in feed_names:
         if feedname == '' or feedname == feed_name:
-            print(feed_name)
             xml_file = f'{FEED_XML_DIR}/{feed_name}.xml'
             title_list = []
             with open(xml_file) as file:
                 xml_root = elementTree.fromstring(file.read())
             for item in xml_root.findall('./channel/item/title'):
                 title_list.append(item.text.strip())
-            pprint.pprint(title_list)
             if table_feed.search(query.id == feed_name):
                 table_feed.update({'data': title_list}, query.id == feed_name)
             else:
