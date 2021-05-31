@@ -453,14 +453,22 @@ def get_feed_xml_list(argument):
     xml_names = []
     xml_titles = []
     xml_infos = []
-    xml_files = sorted(list(pathlib.Path(FEED_XML_DIR).glob('*.xml')))
-    for xml_file in xml_files:
-        with open(xml_file) as file:
-            xml_root = elementTree.fromstring(file.read())
-            xml_title = xml_root.find('./channel/title').text.strip()
-        xml_names.append(xml_file.name.replace('.xml', ''))
+    feed_infos = subprocess.run(f'rg title "{FEED_XML_DIR}/"*.xml -m 1 | sed "s/\(.*\.xml\).*>\(.*\)<.*/\\1|\\2/"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.decode().strip().splitlines()
+    for feed_info in feed_infos:
+        xml_file = feed_info.split('|')[0]
+        xml_name = xml_file.replace(f'{FEED_XML_DIR}/', '')[:-4]
+        xml_title = feed_info.split('|')[1]
+        xml_names.append(xml_name)
         xml_titles.append(xml_title)
-        xml_infos.append([xml_file.name.replace('.xml', ''), xml_title, xml_file])
+        xml_infos.append([xml_name, xml_title, xml_file])
+    # xml_files = sorted(list(pathlib.Path(FEED_XML_DIR).glob('*.xml')))
+    # for xml_file in xml_files:
+    #     with open(xml_file) as file:
+    #         xml_root = elementTree.fromstring(file.read())
+    #         xml_title = xml_root.find('./channel/title').text.strip()
+    #     xml_names.append(xml_file.name.replace('.xml', ''))
+    #     xml_titles.append(xml_title)
+    #     xml_infos.append([xml_file.name.replace('.xml', ''), xml_title, xml_file])
     hit_flag = False
     hit_xml = ''
     if argument in xml_names:
