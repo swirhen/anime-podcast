@@ -158,6 +158,55 @@ def report_seed_list(message, argument):
         os.remove(result_file_name)
 
 
+# swirhen.tv feed検索
+@respond_to('^ *sws(.*)')
+def swirhentv_feed_search(message, argument):
+    date_time = bu.get_now_datetime_str('YMDHMS')
+    result_file_name = f'{SCRIPT_DIR}/swirhentv_search_{date_time}.txt'
+    argument = argument.strip()
+    if argument != '':
+        message.send(f'さがしてくるぺこ！(｀・ω・´) 検索キーワード: {argument}')
+        result = swiutil.get_feed_xml_list(argument)
+        if len(result) > 0:
+            message.send('みつかったぺこ(｀・ω・´)\n')
+            if result[0] == '1' or result[0] == '2':
+                if result[0] == '1':
+                    post_str = 'キーワードはxmlのなまえと一致したぺこ。xmlのさいしん10件を表示するぺこ\n'
+                else:
+                    post_str = 'キーワードはxmlのタイトルと一致したぺこ。xmlのさいしん10件を表示するぺこ\n'
+                message.send(post_str)
+                post_str = '```'
+                for i, item in enumerate(result):
+                    if i == 0:
+                        continue
+                    elif i == 1:
+                        post_str += f'タイトル: {item[0]} URL: {item[1]}\n'
+                    else:
+                        post_str += f'{item}\n'
+                post_str += '```'
+            else:
+                post_str = 'キーワードはxmlのなかのタイトルに一致したぺこ。ヒットしたxmlを表示するぺこ'
+                message.send(post_str)
+                post_str = '```'
+                for i, item in enumerate(result):
+                    if i == 0:
+                        continue
+                    else:
+                        post_str += f'タイトル: {item[0]} URL: {item[1]}\n'
+                post_str += '```'
+            if len(post_str) > 4000:
+                result_file_name = f'{SCRIPT_DIR}/swirhentv_search_{date_time}.txt'
+                swiutil.writefile_new(result_file_name, post_str.replace('`',''))
+                file_upload(result_file_name, result_file_name, 'text', message)
+                os.remove(result_file_name)
+            else:
+                message.send(post_str)
+        else:
+            message.send('ねぇぺこ(´・ω・`)\n')
+    else:
+        message.send(bu.generate_message('usage_swirhentv_feed_search'))
+
+
 # twitter検索
 @respond_to('^ *tws(.*)')
 def twitter_search(message, argument):
