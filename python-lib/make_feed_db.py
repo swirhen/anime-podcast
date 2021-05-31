@@ -7,14 +7,13 @@ import re
 import sys
 import xml.etree.ElementTree as elementTree
 from tinydb import TinyDB, Query
-import tinydb
 current_dir = pathlib.Path(__file__).resolve().parent
 import swirhentv_util as swiutil
 
 SCRIPT_DIR = str(current_dir)
 DB_FILENAME = f'{SCRIPT_DIR}/swirhentv_feed_db.json'
 FEED_XML_DIR = f'{SCRIPT_DIR}/../../98 PSP用'
-FEED_DB = tinydb(DB_FILENAME)
+FEED_DB = TinyDB(DB_FILENAME)
 
 
 # make feed list
