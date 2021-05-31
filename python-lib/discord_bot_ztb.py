@@ -97,7 +97,7 @@ async def on_message(message):
                             elif i == 1:
                                 post_str += f'タイトル: {item[0]} URL: {item[1]}\n'
                             else:
-                                post_str += f'{item}'
+                                post_str += f'{item}\n'
                         post_str += '```'
                     else:
                         post_str = 'キーワードはxmlのなかのタイトルに一致したぺこ。ヒットしたxmlを表示するぺこ\n'
