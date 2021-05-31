@@ -457,25 +457,28 @@ def get_feed_xml_list(argument=''):
             xml_title = xml_root.find('./channel/title').text
         xml_names.append(xml_file.name.replace('.xml', ''))
         xml_titles.append(xml_title)
-        xml_infos.append([xml_file.name.replace('.xml', ''), xml_title])
+        xml_infos.append([xml_file.name.replace('.xml', ''), xml_title, xml_file])
     if argument == '':
         result = xml_infos
     else:
         hit_flag = False
+        hit_xml = ''
         if argument in xml_names:
             hit_flag = True
             result.append('1')
             for xml_info in xml_infos:
                 if argument == xml_info[0]:
+                    hit_xml = xml_info[2]
                     result.append([xml_info[1], f'{SWIRHENTV_URI}{xml_info[0]}.xml'])
         if argument in xml_titles:
             hit_flag = True
             result.append('2')
             for xml_info in xml_infos:
                 if argument == xml_info[1]:
+                    hit_xml = xml_info[2]
                     result.append([xml_info[1], f'{SWIRHENTV_URI}{xml_info[0]}.xml'])
         if hit_flag:
-            with open(xml_file) as file:
+            with open(hit_xml) as file:
                 xml_root = elementTree.fromstring(file.read())
             for i,item in enumerate(xml_root.findall('./channel/item/title')):
                 if i > 9:
