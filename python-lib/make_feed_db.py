@@ -31,9 +31,9 @@ def make_feed_list():
         xml_names.append(xml_file.name.replace('.xml', ''))
         xml_titles.append(xml_title)
         xml_infos.append([xml_file.name.replace('.xml', ''), xml_title])
-    table_xml.insert({'xml_names': xml_names})
-    table_xml.insert({'xml_titles': xml_titles})
-    table_xml.insert({'xml_infos': xml_infos})
+    table_xml.insert({'id': 'xml_names', 'data': xml_names})
+    table_xml.insert({'id': 'xml_titles', 'data': xml_titles})
+    table_xml.insert({'id': 'xml_infos', 'data': xml_infos})
 
 
 # main section
