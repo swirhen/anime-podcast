@@ -3,14 +3,12 @@
 # swirhentv make feed list
 # import section
 import pathlib
-import pprint
 import sys
-from time import time
 import xml.etree.ElementTree as elementTree
-from tinydb import TinyDB, Query, queries
+from tinydb import TinyDB, Query
 current_dir = pathlib.Path(__file__).resolve().parent
-import swirhentv_util as swiutil
 
+# argment section
 SCRIPT_DIR = str(current_dir)
 DB_FILENAME = f'{SCRIPT_DIR}/swirhentv_feed_db.json'
 FEED_XML_DIR = f'{SCRIPT_DIR}/../../98 PSP用'
@@ -39,8 +37,8 @@ def make_feed_list():
 
 def make_feed_data(feedname=''):
     table_xml = FEED_DB.table('xml_list')
-    query = Query()
     table_feed = FEED_DB.table('feed_data')
+    query = Query()
     feed_names = table_xml.search(query.id == 'xml_names')[0]['data']
     for feed_name in feed_names:
         if feedname == '' or feedname == feed_name:

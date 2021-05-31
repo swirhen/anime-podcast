@@ -13,6 +13,7 @@ import time
 import glob
 from datetime import datetime as dt
 from bs4 import BeautifulSoup
+from tinydb import TinyDB, Query
 import xml.etree.ElementTree as elementTree
 from slacker import Slacker
 import slackbot_settings
@@ -26,6 +27,9 @@ DISCORD_WEBHOOK_URI_FILE = f'{SCRIPT_DIR}/discord_webhook_url'
 FEED_XML_DIR = f'{SCRIPT_DIR}/../../98 PSP用'
 SYOBOCAL_URI = 'http://cal.syoboi.jp/find?sd=0&kw='
 SWIRHENTV_URI = 'http://swirhen.tv/movie/pspmp4/'
+DB_FILENAME = f'{SCRIPT_DIR}/swirhentv_feed_db.json'
+FEED_DB = TinyDB(DB_FILENAME)
+
 
 # slackにpostする
 def slack_post(channel, text, username='swirhentv', icon_emoji=''):
@@ -447,56 +451,54 @@ def make_feed_manually(target_dir, title):
 
 
 # xml list
-def get_feed_xml_list(argument=''):
+def get_feed_xml_list(argument):
+    table_xml = FEED_DB.table('xml_list')
+    table_feed = FEED_DB.table('feed_data')
+    query = Query()
     result = []
-    xml_names = []
-    xml_titles = []
-    xml_infos = []
-    xml_files = sorted(list(pathlib.Path(FEED_XML_DIR).glob('*.xml')))
-    for xml_file in xml_files:
-        with open(xml_file) as file:
-            xml_root = elementTree.fromstring(file.read())
-            xml_title = xml_root.find('./channel/title').text.strip()
-        xml_names.append(xml_file.name.replace('.xml', ''))
-        xml_titles.append(xml_title)
-        xml_infos.append([xml_file.name.replace('.xml', ''), xml_title, xml_file])
-    if argument == '':
-        result = xml_infos
+    xml_names = table_xml.search(query.id == 'xml_names')[0]['data']
+    xml_titles = table_xml.search(query.id == 'xml_titles')[0]['data']
+    xml_infos = table_xml.search(query.id == 'xml_infos')[0]['data']
+    # xml_files = sorted(list(pathlib.Path(FEED_XML_DIR).glob('*.xml')))
+    hit_flag = False
+    feed_name = ''
+    if argument in xml_names:
+        hit_flag = True
+        result.append('1')
+        for xml_info in xml_infos:
+            if xml_info[0] == argument:
+                feed_name = xml_info[0]
+                result.append([xml_info[1], f'{SWIRHENTV_URI}{xml_info[0]}.xml'])
+    if argument in xml_titles:
+        hit_flag = True
+        result.append('2')
+        for xml_info in xml_infos:
+            if xml_info[1] == argument:
+                feed_name = xml_info[0]
+                result.append([xml_info[1], f'{SWIRHENTV_URI}{xml_info[0]}.xml'])
+    if hit_flag:
+        feed_data = table_feed.search(query.id == feed_name)[0]['data']
+        for i,title in enumerate(feed_data):
+            if i > 9:
+                break
+            result.append(title)
     else:
-        hit_flag = False
-        hit_xml = ''
-        if argument in xml_names:
-            hit_flag = True
-            result.append('1')
-            for xml_info in xml_infos:
-                if argument == xml_info[0]:
-                    hit_xml = xml_info[2]
-                    result.append([xml_info[1], f'{SWIRHENTV_URI}{xml_info[0]}.xml'])
-        if argument in xml_titles:
-            hit_flag = True
-            result.append('2')
-            for xml_info in xml_infos:
-                if argument == xml_info[1]:
-                    hit_xml = xml_info[2]
-                    result.append([xml_info[1], f'{SWIRHENTV_URI}{xml_info[0]}.xml'])
-        if hit_flag:
-            with open(hit_xml) as file:
-                xml_root = elementTree.fromstring(file.read())
-            for i,item in enumerate(xml_root.findall('./channel/item/title')):
-                if i > 9:
-                    break
-                result.append(item.text)
-        else:
-            temp_list = []
-            for xml_file in xml_files:
-                with open(xml_file) as file:
-                    xml_root = elementTree.fromstring(file.read())
-                xml_title = xml_root.find('./channel/title').text.strip()
-                for item in xml_root.findall('./channel/item/title'):
-                    if re.search(argument, item.text):
-                        temp_list.append([xml_title, f'{SWIRHENTV_URI}{xml_file.name}'])
-                        break
-            if len(temp_list) > 0:
-                result.append('3')
-                result.extend(temp_list)
+        temp_list = []
+        # for xml_file in xml_files:
+        #     with open(xml_file) as file:
+        #         xml_root = elementTree.fromstring(file.read())
+        #     xml_title = xml_root.find('./channel/title').text.strip()
+        #     for item in xml_root.findall('./channel/item/title'):
+        #         if re.search(argument, item.text):
+        #             temp_list.append([xml_title, f'{SWIRHENTV_URI}{xml_file.name}'])
+        #             break
+        for xml_info in xml_infos:
+            feed_data = table_feed.search(query.id == xml_info[0])[0]['data']
+            for title in feed_data:
+                if re.search(argument, title):
+                    temp_list.append([xml_info[1], f'{SWIRHENTV_URI}{xml_info[0]}.xml'])
+
+        if len(temp_list) > 0:
+            result.append('3')
+            result.extend(temp_list)
     return result
