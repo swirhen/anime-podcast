@@ -116,7 +116,7 @@ async def on_message(message):
                     else:
                         await message.channel.send(post_str)
                 else:
-                    await message.channel.send('ねぇぺこ(´・ω・`)\n')
+                    await message.channel.send('ねぇぺこ(´・ω・`)')
             else:
                 await message.channel.send(bu.generate_message('usage_swirhentv_feed_search'))
 
