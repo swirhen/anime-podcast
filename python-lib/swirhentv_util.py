@@ -451,6 +451,7 @@ def get_feed_xml_list(argument=''):
     xml_titles = []
     xml_infos = []
     xml_files = sorted(list(pathlib.Path(FEED_XML_DIR).glob('*.xml')))
+    print(len(xml_files))
     for xml_file in xml_files:
         print(xml_file.name)
         with open(xml_file) as file:
