@@ -486,13 +486,19 @@ def get_feed_xml_list(argument):
                 hit_xml = xml_info[2]
                 result.append([xml_info[1], f'{SWIRHENTV_URI}{xml_info[0]}.xml'])
     if hit_flag:
-        with open(hit_xml) as file:
-            xml_root = elementTree.fromstring(file.read())
-        for i,item in enumerate(xml_root.findall('./channel/item/title')):
-            if i > 9:
-                break
-            result.append(item.text)
+        feed_titles = subprocess.run(f'rg title "{hit_xml}" -m 11 | sed "s/.*>\(.*\)<.*/\\1/"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.decode().strip().splitlines()
+        for i,title in enumerate(feed_titles):
+            if i == 0:
+                continue
+            result.append(title)
+        # with open(hit_xml) as file:
+        #     xml_root = elementTree.fromstring(file.read())
+        # for i,item in enumerate(xml_root.findall('./channel/item/title')):
+        #     if i > 9:
+        #         break
+        #     result.append(item.text)
     else:
+        # TODO ripgrep
         temp_list = []
         for xml_info in xml_infos:
             with open(f'{FEED_XML_DIR}/{xml_info[0]}.xml') as file:
