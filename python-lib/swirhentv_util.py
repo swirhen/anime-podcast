@@ -455,7 +455,7 @@ def get_feed_xml_list(argument=''):
     for xml_file in xml_files:
         with open(xml_file) as file:
             xml_root = elementTree.fromstring(file.read())
-            xml_title = xml_root.find('./channel/title').text
+            xml_title = xml_root.find('./channel/title').text.strip()
         xml_names.append(xml_file.name.replace('.xml', ''))
         xml_titles.append(xml_title)
         xml_infos.append([xml_file.name.replace('.xml', ''), xml_title, xml_file])
