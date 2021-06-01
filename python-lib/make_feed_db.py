@@ -53,7 +53,7 @@ def make_feed_data(argument=''):
         cur.execute(drop_table_sql)
         cur.execute(create_table_sql)
 
-    feeds = subprocess.run(f'rg -H "      <title>" -A 1 {xml_file} | sed "s/^\/.*\/\(.*\)\.xml.*>\(.*\)<.*/\\1|\\2/"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.decode().strip().splitlines()
+    feeds = subprocess.run(f'rg -H "      <title>" {xml_file} | sed "s/^\/.*\/\(.*\)\.xml.*>\(.*\)<.*/\\1|\\2/"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.decode().strip().splitlines()
     values = []
     for feed in feeds:
         feed_info = feed.split('|')
