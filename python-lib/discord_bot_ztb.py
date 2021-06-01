@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# import sections
+# import section
 from email.message import Message
 import sys
 import os
