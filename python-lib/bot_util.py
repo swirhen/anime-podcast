@@ -156,7 +156,6 @@ def choose_target_dir(target_dir):
     return str(target_dir)
 
 
-
 # 種の所定位置への移動
 def seed_move(seed_dir, target_dir, keyword):
     date = get_now_datetime_str('YMD')
