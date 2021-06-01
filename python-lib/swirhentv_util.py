@@ -449,6 +449,7 @@ def make_feed(target_dir):
 def make_feed_manually(target_dir, title):
     target_dir_not_parent_dir = pathlib.Path(target_dir).name
     subprocess.run(f'{SCRIPT_DIR}/../mkpodcast.rb -t "{target_dir}/*.*" -b "http://swirhen.tv/movie/pspmp4/{target_dir_not_parent_dir}/" -o "{target_dir}.xml" --title "{title}"', shell=True)
+    db.make_feed_list_data()
     db.make_feed_data(target_dir)
 
 
