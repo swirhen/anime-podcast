@@ -1,4 +1,6 @@
-Last Update: 2021/06/02-00:00:02
+Last Update: 2021/06/02-06:00:02
+2021/06/02-06:00:02 09 Tensura Nikki Tensei Shitara Slime Datta Ken|転生したらスライムだった件 転スラ日記
+2021/06/02-06:00:02 09 Seijo no Maryoku wa Bannou Desu|聖女の魔力は万能です
 2021/06/02-00:00:02 09 Odd Taxi|オッドタクシー
 2021/06/02-00:00:02 09 Fruits Basket the Final|フルーツバスケット The Final
 2021/06/01-00:00:02 09 Yakunara Mug Cup mo|やくならマグカップも
@@ -44,5 +46,3 @@ Last Update: 2021/06/02-00:00:02
 2021/05/27-00:00:02 08 Super Cub|スーパーカブ
 2021/05/27-00:00:02 08 Fulldive-Rpg|究極進化したフルダイブRPGが現実よりもクソゲーだったら
 2021/05/27-00:00:02 07 Osamake|幼なじみが絶対に負けないラブコメ
-2021/05/26-06:00:02 08 Tensura Nikki Tensei Shitara Slime Datta Ken|転生したらスライムだった件 転スラ日記
-2021/05/26-06:00:02 08 Seijo no Maryoku wa Bannou Desu|聖女の魔力は万能です
