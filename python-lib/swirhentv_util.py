@@ -16,6 +16,7 @@ from bs4 import BeautifulSoup
 import xml.etree.ElementTree as elementTree
 from slacker import Slacker
 import slackbot_settings
+import sqlite3
 
 # argment section
 current_dir = pathlib.Path(__file__).resolve().parent
@@ -26,6 +27,7 @@ DISCORD_WEBHOOK_URI_FILE = f'{SCRIPT_DIR}/discord_webhook_url'
 FEED_XML_DIR = f'{SCRIPT_DIR}/../../98 PSP用'
 SYOBOCAL_URI = 'http://cal.syoboi.jp/find?sd=0&kw='
 SWIRHENTV_URI = 'http://swirhen.tv/movie/pspmp4/'
+FEED_DB = f'{SCRIPT_DIR}/swirhentv_feed.db'
 
 
 # slackにpostする
@@ -500,3 +502,51 @@ def get_feed_xml_list(argument=''):
                 result.append('3')
                 result.extend(temp_list)
         return result
+
+
+# swirhentv feed search(sqlite)
+def swirhentv_feed_search(argument):
+    conn = sqlite3.connect(FEED_DB)
+    cur = conn.cursor()
+    result = []
+    xml_list = list(cur.execute('select * from feed'))
+    hit_flag = False
+    hit_name = ''
+    for xml_info in xml_list:
+        xml_name = xml_info[0]
+        xml_title = xml_info[1]
+        if argument == xml_name:
+            hit_flag = True
+            hit_name = xml_name
+            result.append('1')
+            result.append([xml_title, f'{SWIRHENTV_URI}{xml_name}.xml'])
+            break
+        elif argument == xml_title:
+            hit_flag = True
+            hit_name = xml_name
+            result.append('2')
+            result.append([xml_title, f'{SWIRHENTV_URI}{xml_name}.xml'])
+            break
+
+    if hit_flag:
+        feed_list = list(cur.execute(f'select title from feed_data where name = "{hit_name}" limit 10'))
+        conn.close()
+        for feed in feed_list:
+            result.append(feed[0])
+    else:
+        temp_list = []
+        feeds = list(cur.execute('select f.title, d.name, count(d.name)'
+        ' from feed_data d, feed f'
+        f' where d.title like "%{argument}%"'
+        ' and d.name = f.name'
+        ' group by d.name'))
+        conn.close()
+        if len(feeds) > 0:
+            for feed in feeds:
+                temp_list.append([feed[0], feed[1], feed[2]])
+
+        if len(temp_list) > 0:
+            result.append('3')
+            result.extend(temp_list)
+
+    return result
