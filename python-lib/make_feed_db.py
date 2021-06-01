@@ -4,54 +4,55 @@
 # import section
 import pathlib
 import sys
-import xml.etree.ElementTree as elementTree
-from tinydb import TinyDB, Query
+import sqlite3
+import swirhentv_util as swiutil
 current_dir = pathlib.Path(__file__).resolve().parent
+
 
 # argment section
 SCRIPT_DIR = str(current_dir)
-DB_FILENAME = f'{SCRIPT_DIR}/swirhentv_feed_db.json'
 FEED_XML_DIR = f'{SCRIPT_DIR}/../../98 PSP用'
-FEED_DB = TinyDB(DB_FILENAME)
+FEED_DB = f'{SCRIPT_DIR}/swirhentv_feed.db'
+
+# フィードのタイトルとファイル名のリストを作成する
+def make_feed_list_data():
+    xml_infos = swiutil.get_feed_xml_list()
+    conn = sqlite3.connect(FEED_DB)
+    cur = conn.cursor()
+    drop_table_sql = 'drop table if exists feed'
+    create_table_sql = 'create table if not exists feed(' \
+                        ' name string primary key,' \
+                        ' title string,' \
+                        ' path string)'
+    cur.execute(drop_table_sql)
+    cur.execute(create_table_sql)
+    values = []
+    for xml_info in xml_infos:
+        values.append(f'("{xml_info[0]}", "{xml_info[1]}", "{xml_info[2]}")')
+    values_str = ', '.join(values)
+    insert_sql = f'insert into feed values{values}'
+    cur.execute(insert_sql)
+    conn.commit()
+    conn.close()
 
 
-# make feed list
-def make_feed_list():
-    FEED_DB.drop_table('xml_list')
-    table_xml = FEED_DB.table('xml_list')
-    xml_files = sorted(list(pathlib.Path(FEED_XML_DIR).glob('*.xml')))
-    xml_names = []
-    xml_titles = []
-    xml_infos = []
-    for xml_file in xml_files:
-        with open(xml_file) as file:
-            xml_root = elementTree.fromstring(file.read())
-            xml_title = xml_root.find('./channel/title').text.strip()
-        xml_names.append(xml_file.name.replace('.xml', ''))
-        xml_titles.append(xml_title)
-        xml_infos.append([xml_file.name.replace('.xml', ''), xml_title])
-    table_xml.insert({'id': 'xml_names', 'data': xml_names})
-    table_xml.insert({'id': 'xml_titles', 'data': xml_titles})
-    table_xml.insert({'id': 'xml_infos', 'data': xml_infos})
-
-
-def make_feed_data(feedname=''):
-    table_xml = FEED_DB.table('xml_list')
-    table_feed = FEED_DB.table('feed_data')
-    query = Query()
-    feed_names = table_xml.search(query.id == 'xml_names')[0]['data']
-    for feed_name in feed_names:
-        if feedname == '' or feedname == feed_name:
-            xml_file = f'{FEED_XML_DIR}/{feed_name}.xml'
-            title_list = []
-            with open(xml_file) as file:
-                xml_root = elementTree.fromstring(file.read())
-            for item in xml_root.findall('./channel/item/title'):
-                title_list.append(item.text.strip())
-            if table_feed.search(query.id == feed_name):
-                table_feed.update({'data': title_list}, query.id == feed_name)
-            else:
-                table_feed.insert({'id': feed_name, 'data': title_list})
+# def make_feed_data(feedname=''):
+#     table_xml = FEED_DB.table('xml_list')
+#     table_feed = FEED_DB.table('feed_data')
+#     query = Query()
+#     feed_names = table_xml.search(query.id == 'xml_names')[0]['data']
+#     for feed_name in feed_names:
+#         if feedname == '' or feedname == feed_name:
+#             xml_file = f'{FEED_XML_DIR}/{feed_name}.xml'
+#             title_list = []
+#             with open(xml_file) as file:
+#                 xml_root = elementTree.fromstring(file.read())
+#             for item in xml_root.findall('./channel/item/title'):
+#                 title_list.append(item.text.strip())
+#             if table_feed.search(query.id == feed_name):
+#                 table_feed.update({'data': title_list}, query.id == feed_name)
+#             else:
+#                 table_feed.insert({'id': feed_name, 'data': title_list})
 
 
 # main section
@@ -62,10 +63,10 @@ if __name__ == '__main__':
         arg = args[1]
 
     if arg == '':
-        make_feed_list()
-        make_feed_data()
+        make_feed_list_data()
+        # make_feed_data()
     elif arg == 'xml':
-        make_feed_list()
-    else:
-        make_feed_data(arg)
+        make_feed_list_data()
+    # else:
+    #     make_feed_data(arg)
 
