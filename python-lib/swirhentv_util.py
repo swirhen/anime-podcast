@@ -453,59 +453,16 @@ def make_feed_manually(target_dir, title):
     db.make_feed_data(target_dir_not_parent_dir)
 
 
-# swirhentv xml search
-def get_feed_xml_list(argument=''):
-    result = []
-    xml_names = []
-    xml_titles = []
+# get swirhentv feed file list
+def get_feed_xml_list():
     xml_infos = []
     feed_infos = subprocess.run(f'rg title "{FEED_XML_DIR}/"*.xml -m 1 | sed "s/\(.*\.xml\).*>\(.*\)<.*/\\1|\\2/"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.decode().strip().splitlines()
     for feed_info in feed_infos:
         xml_file = feed_info.split('|')[0]
         xml_name = xml_file.replace(f'{FEED_XML_DIR}/', '')[:-4]
         xml_title = feed_info.split('|')[1]
-        xml_names.append(xml_name)
-        xml_titles.append(xml_title)
         xml_infos.append([xml_name, xml_title, xml_file])
-    hit_flag = False
-    hit_xml = ''
-    if argument == '':
-        return xml_infos
-    else:
-        if argument in xml_names:
-            hit_flag = True
-            result.append('1')
-            for xml_info in xml_infos:
-                if argument == xml_info[0]:
-                    hit_xml = xml_info[2]
-                    result.append([xml_info[1], f'{SWIRHENTV_URI}{xml_info[0]}.xml'])
-        if argument in xml_titles:
-            hit_flag = True
-            result.append('2')
-            for xml_info in xml_infos:
-                if argument == xml_info[1]:
-                    hit_xml = xml_info[2]
-                    result.append([xml_info[1], f'{SWIRHENTV_URI}{xml_info[0]}.xml'])
-        if hit_flag:
-            feed_titles = subprocess.run(f'rg title "{hit_xml}" -m 11 | sed "s/.*>\(.*\)<.*/\\1/"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.decode().strip().splitlines()
-            for i,title in enumerate(feed_titles):
-                if i == 0:
-                    continue
-                result.append(title)
-        else:
-            temp_list = []
-            feed_files = subprocess.run(f'rg "{argument}" "{FEED_XML_DIR}/"*.xml -l', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.decode().strip().splitlines()
-            feed_files_str = '" "'.join(feed_files)
-            feed_infos = subprocess.run(f'rg title "{feed_files_str}" -m 1 | sed "s/\(.*\.xml\).*>\(.*\)<.*/\\1|\\2/"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.decode().strip().splitlines()
-            for feed_info in feed_infos:
-                xml_file = feed_info.split('|')[0].replace(f'{FEED_XML_DIR}/', '')
-                xml_title = feed_info.split('|')[1]
-                temp_list.append([xml_title, f'{SWIRHENTV_URI}{xml_file}'])
-
-            if len(temp_list) > 0:
-                result.append('3')
-                result.extend(temp_list)
-        return result
+    return xml_infos
 
 
 # swirhentv feed search(sqlite)

@@ -7,10 +7,9 @@ import subprocess
 import sys
 import sqlite3
 import swirhentv_util as swiutil
-current_dir = pathlib.Path(__file__).resolve().parent
-
 
 # argment section
+current_dir = pathlib.Path(__file__).resolve().parent
 SCRIPT_DIR = str(current_dir)
 FEED_XML_DIR = f'{SCRIPT_DIR}/../../98 PSP用'
 FEED_DB = f'{SCRIPT_DIR}/swirhentv_feed.db'
@@ -37,6 +36,7 @@ def make_feed_list_data():
     conn.close()
 
 
+# フィード内のタイトルリストを作成する(引数あった場合は特定のフィードのみ)
 def make_feed_data(argument=''):
     conn = sqlite3.connect(FEED_DB)
     cur = conn.cursor()
