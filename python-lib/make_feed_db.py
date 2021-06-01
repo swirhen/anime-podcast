@@ -60,7 +60,6 @@ def make_feed_data(argument=''):
         values.append(f'("{feed_info[0]}", "{feed_info[1]}")')
     values_str = ', '.join(values)
     insert_sql = f'insert into feed_data values{values_str}'
-    print(values_str)
     cur.execute(insert_sql)
     conn.commit()
     conn.close()
