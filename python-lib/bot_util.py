@@ -165,6 +165,9 @@ def seed_move(seed_dir, target_dir, keyword):
     # 種移動元決定
     if seed_dir == 't':
         seed_dir = today_download_dir
+    elif str.isdigit(seed_dir) and (int(seed_dir) > 0 or int(seed_dir) >= 100):
+        date_offset = get_now_datetime_str('YMD', f'{seed_dir}d')
+        seed_dir = str(pathlib.Path(f'{SEED_DOWNLOAD_DIR}/{date_offset}'))
     else:
         seed_dir = str(pathlib.Path(f'{SEED_DOWNLOAD_DIR}/{seed_dir}'))
 
