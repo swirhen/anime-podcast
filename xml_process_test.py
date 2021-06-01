@@ -85,7 +85,7 @@ def main(arg='all'):
     # ElementTree
     if arg == 'all' or arg == 'et':
         et(xml_string)
-    elif arg == 'all' or arg == 'lint':
+    if arg == 'all' or arg == 'lint':
         lint()
-    elif arg == 'all' or arg == 'rg':
+    if arg == 'all' or arg == 'rg':
         rg()
