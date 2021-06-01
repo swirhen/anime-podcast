@@ -30,7 +30,7 @@ def make_feed_list_data():
     for xml_info in xml_infos:
         values.append(f'("{xml_info[0]}", "{xml_info[1]}", "{xml_info[2]}")')
     values_str = ', '.join(values)
-    insert_sql = f'insert into feed values{values}'
+    insert_sql = f'insert into feed values{values_str}'
     cur.execute(insert_sql)
     conn.commit()
     conn.close()
