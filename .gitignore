@@ -20,4 +20,5 @@ nico_search/nico_imas
 python-lib/*pycache*
 python-lib/*token*
 python-lib/*.pid
+python-lib/*.db
 python-lib/*webhook*
