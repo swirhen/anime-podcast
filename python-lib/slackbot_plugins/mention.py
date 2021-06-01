@@ -166,7 +166,7 @@ def swirhentv_feed_search(message, argument):
     argument = argument.strip()
     if argument != '':
         message.send(f'さがしてくるぺこ！(｀・ω・´) 検索キーワード: {argument}')
-        result = swiutil.get_feed_xml_list(argument)
+        result = swiutil.feed_search(argument)
         if len(result) > 0:
             message.send('みつかったぺこ(｀・ω・´)\n')
             if result[0] == '1' or result[0] == '2':
@@ -192,7 +192,7 @@ def swirhentv_feed_search(message, argument):
                     if i == 0:
                         continue
                     else:
-                        post_str += f'タイトル: {item[0]} URL: {item[1]}\n'
+                        post_str += f'タイトル: {item[0]}(ヒット {item[1]}件) URL: {item[2]}\n'
                 post_str += '```'
             if len(post_str) > 4000:
                 result_file_name = f'{SCRIPT_DIR}/swirhentv_search_{date_time}.txt'

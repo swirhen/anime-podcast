@@ -505,7 +505,7 @@ def get_feed_xml_list(argument=''):
 
 
 # swirhentv feed search(sqlite)
-def swirhentv_feed_search(argument):
+def feed_search(argument):
     conn = sqlite3.connect(FEED_DB)
     cur = conn.cursor()
     result = []
@@ -543,7 +543,7 @@ def swirhentv_feed_search(argument):
         conn.close()
         if len(feeds) > 0:
             for feed in feeds:
-                temp_list.append([feed[0], feed[1], feed[2]])
+                temp_list.append([feed[0], str(feed[2]), f'{SWIRHENTV_URI}{feed[1]}.xml'])
 
         if len(temp_list) > 0:
             result.append('3')

@@ -80,7 +80,7 @@ async def on_message(message):
             argument = re.sub(r'^/sws', '', message.content).strip()
             if argument != '':
                 await message.channel.send(f'さがしてくるぺこ！(｀・ω・´) 検索キーワード: {argument}')
-                result = swiutil.get_feed_xml_list(argument)
+                result = swiutil.feed_search(argument)
                 if len(result) > 0:
                     await message.channel.send('みつかったぺこ(｀・ω・´)\n')
                     if result[0] == '1' or result[0] == '2':
@@ -106,7 +106,7 @@ async def on_message(message):
                             if i == 0:
                                 continue
                             else:
-                                post_str += f'タイトル: {item[0]} URL: {item[1]}\n'
+                                post_str += f'タイトル: {item[0]}(ヒット {item[1]}件) URL: {item[2]}\n'
                         post_str += '```'
                     if len(post_str) > 2000:
                         result_file_name = f'{SCRIPT_DIR}/swirhentv_search_{date_time}.txt'
