@@ -166,7 +166,7 @@ async def on_message(message):
 
             await message.channel.send('さがしてくるしゅば(｀・ω・´)\n'
                                     f'たいしょうカテゴリ: {target_category} きーわーど: {keyword}')
-            result = bu.seed_search(keyword, target_category, 'not_dl')
+            result = bu.seed_search(keyword, target_category, 'not_dl', True)
             if re.search('なかったしゅば(´・ω・`)', result):
                 await message.channel.send(result)
             else:

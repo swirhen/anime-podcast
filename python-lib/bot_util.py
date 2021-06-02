@@ -83,7 +83,7 @@ def get_seed_directory(past_days):
 
 
 # 種検索＆ダウンロード
-def seed_search(keyword, target_category, not_dl_flg):
+def seed_search(keyword, target_category, not_dl_flg, open_flg=False):
     date = get_now_datetime_str('YMD')
     today_download_dir = f'{SEED_DOWNLOAD_DIR}/{date}'
     if not_dl_flg == '':
@@ -96,7 +96,7 @@ def seed_search(keyword, target_category, not_dl_flg):
         for result_item in hit_result:
             post_str += f'カテゴリ: {result_item[0]} キーワード: {result_item[2]} タイトル: {result_item[1]}\n'
             if not_dl_flg != '':
-                if result_item[4] != None:
+                if result_item[4] != None and open_flg == False:
                     post_str += f'ダウンロード済み 保存先: {result_item[4]}\n'
                 else:
                     post_str += f'URL: {result_item[3]}\n'
