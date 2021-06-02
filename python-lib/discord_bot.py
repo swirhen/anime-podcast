@@ -104,6 +104,8 @@ async def on_message(message):
         else:
             await message.channel.send(bu.generate_message('usage_torrent_search'))
             return
+        if target_category == 'all':
+            not_dl_flg = '1'
 
         await message.channel.send('さがしてくるしゅば(｀・ω・´)\n'
                                   f'たいしょうカテゴリ: {target_category} きーわーど: {keyword}')
