@@ -142,6 +142,15 @@ def grep_file(file_path, word, regexp_mode=False):
     return result
 
 
+# grep2(ファイル, 完全一致/部分一致)
+def grep_file2(file_path, word, complete_fetch=False):
+    opt_str = ''
+    if complete_fetch:
+        opt_str = '-x'
+    result = subprocess.run(f'grep {opt_str} "{word}" "{file_path}"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.decode().strip().splitlines()
+    return result
+
+
 # grep(配列, 部分一致/完全一致)
 def grep_list(greplist, word, regexp_mode=True):
     result = []
