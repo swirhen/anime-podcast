@@ -45,7 +45,7 @@ def make_feed_data(argument=''):
     create_table_sql = 'create table if not exists feed_data(' \
                         ' name string,' \
                         ' title string,' \
-                        " created_at timestamp default (datetime(\'now\', \'localtime\')))"
+                        ' created_at timestamp default (datetime(\'now\', \'localtime\')))'
     delete_record_sql = 'delete from feed_data where name'
     if argument != '':
         xml_file = f'"{FEED_XML_DIR}/{argument}.xml"'
