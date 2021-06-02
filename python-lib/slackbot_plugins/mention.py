@@ -127,7 +127,7 @@ def torrent_search(message, argument):
         message.send(bu.generate_message('usage_torrent_search'))
         return 1
 
-    message.send(f'さがしてくるよ(｀・ω・´)\n'
+    message.send(f'さがしてくるしゅば(｀・ω・´)\n'
                  f'たいしょうカテゴリ: {target_category} きーわーど: {keyword}')
     result = bu.seed_search(keyword, target_category)
     message.send(result)
@@ -140,22 +140,28 @@ def report_seed_list(message, argument):
     result_file_name = f'{SCRIPT_DIR}/seed_list_{date_time}.txt'
     arguments = argument.split()
     target_category = ''
+    offset_days = '1'
     if len(arguments) > 0:
         target_category = arguments[0]
+        if len(arguments) > 1:
+            offset_days = arguments[1]
     else:
         message.send(bu.generate_message('usage_report_seed_list'))
         return 1
 
-    seed_list = trsc.get_seed_list(target_category)
+    seed_list = trsc.search_seed_resent(target_category, offset_days)
     if len(seed_list) > 0:
-        message.send(f'さいきんまかれたたねのリストだよ(｀・ω・´)\n'
-                     f'たいしょうカテゴリ: {target_category}')
+        message.send(f'さいきんまかれたたねのリストをとってくるしゅば(｀・ω・´)\n'
+                     f'たいしょうカテゴリ: {target_category} ({offset_days} にちまえから)')
         result = ''
         for seed in seed_list:
-            result += f'{seed[1]}\n'
-        swiutil.writefile_new(result_file_name, result)
-        file_upload(result_file_name, result_file_name, 'text', message)
-        os.remove(result_file_name)
+            result += f'{seed[0]}\n'
+        if len(result) > 4000:
+            swiutil.writefile_new(result_file_name, result)
+            file_upload(result_file_name, result_file_name, 'text', message)
+            os.remove(result_file_name)
+        else:
+            message.send(f'```{result}```')
 
 
 # swirhen.tv feed検索

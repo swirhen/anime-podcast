@@ -78,7 +78,7 @@ async def on_message(message):
                                        f'たいしょうカテゴリ: {target_category} ({offset_days} にちまえから)')
             result = ''
             for seed in seed_list:
-                result += f'{seed[0]} : {seed[1]}\n'
+                result += f'{seed[0]}\n'
             if len(result) > 2000:
                 result_file_name = f'{SCRIPT_DIR}/seed_list_{date_time}.txt'
                 swiutil.writefile_new(result_file_name, result)
