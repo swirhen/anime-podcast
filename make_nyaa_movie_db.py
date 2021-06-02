@@ -56,7 +56,7 @@ def make_nyaa_data():
         values.append(f'("{item_title}", "{item_link}", "{item_pubdate}")')
 
     values_str = ', '.join(values)
-    insert_sql = 'insert into feed_data(category, title, link, pubdate)' \
+    insert_sql = 'insert into feed_data(title, link, pubdate)' \
                 f' values{values_str}' \
                 ' on conflict(link) do nothing'
     cur.execute(insert_sql)
