@@ -105,15 +105,15 @@ async def on_message(message):
             await message.channel.send(bu.generate_message('usage_torrent_search'))
             return
 
-        await message.channel.send('さがしてくるよ(｀・ω・´)\n'
+        await message.channel.send('さがしてくるしゅば(｀・ω・´)\n'
                                   f'たいしょうカテゴリ: {target_category} きーわーど: {keyword}')
         result = bu.seed_search(keyword, target_category, not_dl_flg)
         if re.search('なかったよ', result):
             await message.channel.send(result)
         else:
             if len(result) > 2000:
-                await message.channel.send('みつかったよ(｀・ω・´)')
-                result_mod = result.replace('みつかったよ(｀・ω・´)\n```', '').replace('```', '')
+                await message.channel.send('みつかったしゅば(｀・ω・´)')
+                result_mod = result.replace('みつかったしゅば(｀・ω・´)\n```', '').replace('```', '')
                 result_file_name = f'{SCRIPT_DIR}/seed_search_{date_time}.txt'
                 swiutil.writefile_new(result_file_name, result_mod)
                 await message.channel.send(file=discord.File(result_file_name))

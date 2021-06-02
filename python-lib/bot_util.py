@@ -92,9 +92,10 @@ def seed_search(keyword, target_category, not_dl_flg):
         hit_result = trsc.search_seed(False, target_category, keyword)
 
     if len(hit_result) > 0:
-        post_str = f'みつかったよ(｀･ω･´)\n```# 結果\n'
+        post_str = f'みつかったしゅば(｀・ω・´)\n```# 結果\n'
         for result_item in hit_result:
             post_str += f'カテゴリ: {result_item[0]} キーワード: {result_item[2]} タイトル: {result_item[1]}\n'
+            post_str += f'URL: {result_item[3]}\n'
 
         if not_dl_flg == '':
             post_str += f'# ダウンロードしたseedファイル ({today_download_dir})\n'
@@ -104,7 +105,7 @@ def seed_search(keyword, target_category, not_dl_flg):
         post_str += '```'
         return post_str
     else:
-        return 'なかったよ(´･ω･`)'
+        return 'なかったしゅば(´・ω・`)'
 
 
 # 移動先ディレクトリ判定
