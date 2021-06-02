@@ -24,7 +24,7 @@ def make_feed_list_data():
                         ' name string primary key,' \
                         ' title string,' \
                         ' path string,' \
-                        " created_at timestamp default (datetime('now', 'localtime'))"
+                        ' created_at timestamp default (datetime(\'now\', \'localtime\'))'
     cur.execute(drop_table_sql)
     cur.execute(create_table_sql)
     values = []
