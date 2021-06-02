@@ -100,7 +100,8 @@ def seed_search(keyword, target_category, not_dl_flg):
             post_str += f'# ダウンロードしたseedファイル ({today_download_dir})\n'
             for result_item in hit_result:
                 post_str += f'{result_item[1]}.torrent\n'
-            post_str += '```'
+
+        post_str += '```'
         return post_str
     else:
         return 'なかったよ(´･ω･`)'
