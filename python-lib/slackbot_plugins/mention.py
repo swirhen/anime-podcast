@@ -129,6 +129,8 @@ def torrent_search(message, argument):
     else:
         message.send(bu.generate_message('usage_torrent_search'))
         return 1
+    if target_category == 'all':
+        not_dl_flg = '1'
 
     message.send(f'さがしてくるしゅば(｀・ω・´)\n'
                  f'たいしょうカテゴリ: {target_category} きーわーど: {keyword}')
