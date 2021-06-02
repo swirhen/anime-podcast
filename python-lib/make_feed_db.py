@@ -24,14 +24,14 @@ def make_feed_list_data():
                         ' name string primary key,' \
                         ' title string,' \
                         ' path string,' \
-                        ' created_at detetime default (datetime(''now'', ''localtime''))'
+                        " created_at timestamp default (datetime('now', 'localtime'))"
     cur.execute(drop_table_sql)
     cur.execute(create_table_sql)
     values = []
     for xml_info in xml_infos:
         values.append(f'("{xml_info[0]}", "{xml_info[1]}", "{xml_info[2]}")')
     values_str = ', '.join(values)
-    insert_sql = f'insert into feed values{values_str}'
+    insert_sql = f'insert into feed(name, title) values{values_str}'
     cur.execute(insert_sql)
     conn.commit()
     conn.close()
@@ -45,7 +45,7 @@ def make_feed_data(argument=''):
     create_table_sql = 'create table if not exists feed_data(' \
                         ' name string,' \
                         ' title string,' \
-                        ' created_at detetime default (datetime("now", "localtime"))'
+                        " created_at timestamp default (datetime('now', 'localtime'))"
     delete_record_sql = 'delete from feed_data where name'
     if argument != '':
         xml_file = f'"{FEED_XML_DIR}/{argument}.xml"'
@@ -61,7 +61,7 @@ def make_feed_data(argument=''):
         feed_info = feed.split('|')
         values.append(f'("{feed_info[0]}", "{feed_info[1]}")')
     values_str = ', '.join(values)
-    insert_sql = f'insert into feed_data values{values_str}'
+    insert_sql = f'insert into feed_data(name, title) values{values_str}'
     cur.execute(insert_sql)
     conn.commit()
     conn.close()
