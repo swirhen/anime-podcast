@@ -32,6 +32,8 @@ current_dir = pathlib.Path(__file__).resolve().parent
 sys.path.append(f'{str(current_dir)}/python-lib/')
 import swirhentv_util as swiutil
 import radikoauth
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 
 # arguments section
 SCRIPT_DIR = str(current_dir)
@@ -201,10 +203,10 @@ if __name__ == '__main__':
     if operation_mode == 'a':
         operation_str = '超A&G'
         # 現在放送中番組名を取得
-        #req = urllib.request.Request(url=AGQR_VALIDATE_API_URI, headers=BROWSER_HEADERS)
-        #response = urllib.request.urlopen(req).read()
-        #json_data = json.loads(response)
-        #program_name_from_api = json_data['title']
+        req = urllib.request.Request(url=AGQR_VALIDATE_API_URI, headers=BROWSER_HEADERS)
+        response = urllib.request.urlopen(req).read()
+        json_data = json.loads(response)
+        program_name_from_api = json_data['title']
 
         # 保存ファイル名(拡張子無し)
         filename_without_path = f'{dt}_{program_name}'
@@ -259,16 +261,16 @@ if __name__ == '__main__':
     swiutil.multi_post(SLACK_CHANNEL, f'【{operation_str}自動保存開始】{filename_without_path}')
 
     # 番組名バリデート
-    if operation_mode != 'a':
-        if program_name_from_api == '':
-            post_str = f'{mention}【{operation_str}自動保存】番組表apiから番組名が取得出来ませんでした。ご確認ください\n' \
-                       f'from arg:{program_name}'
-            swiutil.multi_post(SLACK_CHANNEL, post_str)
-        elif program_name_from_api != program_name:
-            post_str = f'{mention}【{operation_str}自動保存】番組表apiから取得した番組名と指定番組名が違っています。確認してください\n' \
-                       f'from arg:{program_name}\n' \
-                       f'from api:{program_name_from_api}'
-            swiutil.multi_post(SLACK_CHANNEL, post_str)
+    # if operation_mode != 'a':
+    if program_name_from_api == '':
+        post_str = f'{mention}【{operation_str}自動保存】番組表apiから番組名が取得出来ませんでした。ご確認ください\n' \
+                    f'from arg:{program_name}'
+        swiutil.multi_post(SLACK_CHANNEL, post_str)
+    elif program_name_from_api != program_name:
+        post_str = f'{mention}【{operation_str}自動保存】番組表apiから取得した番組名と指定番組名が違っています。確認してください\n' \
+                    f'from arg:{program_name}\n' \
+                    f'from api:{program_name_from_api}'
+        swiutil.multi_post(SLACK_CHANNEL, post_str)
 
     # 録音時間に満たないファイルが生成されてしまった場合、続きから録音し直す(最終的に録音時間合計に達するまで続ける)
     rectime_remain = record_time
