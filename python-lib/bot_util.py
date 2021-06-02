@@ -96,7 +96,7 @@ def seed_search(keyword, target_category, not_dl_flg):
         for result_item in hit_result:
             post_str += f'カテゴリ: {result_item[0]} キーワード: {result_item[2]} タイトル: {result_item[1]}\n'
             if not_dl_flg != '':
-                if result_item[4] != '':
+                if result_item[4] != None:
                     post_str += f'ダウンロード済み 保存先: {result_item[4]}\n'
                 else:
                     post_str += f'URL: {result_item[3]}\n'
