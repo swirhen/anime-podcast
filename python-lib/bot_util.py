@@ -83,20 +83,24 @@ def get_seed_directory(past_days):
 
 
 # 種検索＆ダウンロード
-def seed_search(keyword, target_category):
+def seed_search(keyword, target_category, not_dl_flg):
     date = get_now_datetime_str('YMD')
     today_download_dir = f'{SEED_DOWNLOAD_DIR}/{date}'
-    hit_result = trsc.search_seed(True, target_category, keyword)
+    if not_dl_flg != '':
+        hit_result = trsc.search_seed(True, target_category, keyword)
+    else:
+        hit_result = trsc.search_seed(False, target_category, keyword)
 
     if len(hit_result) > 0:
         post_str = f'みつかったよ(｀･ω･´)\n```# 結果\n'
         for result_item in hit_result:
             post_str += f'カテゴリ: {result_item[0]} キーワード: {result_item[2]} タイトル: {result_item[1]}\n'
 
-        post_str += f'# ダウンロードしたseedファイル ({today_download_dir})\n'
-        for result_item in hit_result:
-            post_str += f'{result_item[1]}.torrent\n'
-        post_str += '```'
+        if not_dl_flg != '':
+            post_str += f'# ダウンロードしたseedファイル ({today_download_dir})\n'
+            for result_item in hit_result:
+                post_str += f'{result_item[1]}.torrent\n'
+            post_str += '```'
         return post_str
     else:
         return 'なかったよ(´･ω･`)'

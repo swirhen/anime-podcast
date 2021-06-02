@@ -119,17 +119,20 @@ def torrent_search(message, argument):
     arguments = argument.split()
     keyword = ''
     target_category = 'all'
+    not_dl_flg = ''
     if len(arguments) > 0:
         keyword = arguments[0]
         if len(arguments) > 1:
             target_category = arguments[1]
+            if len(arguments) > 2:
+                not_dl_flg = '1'
     else:
         message.send(bu.generate_message('usage_torrent_search'))
         return 1
 
     message.send(f'さがしてくるしゅば(｀・ω・´)\n'
                  f'たいしょうカテゴリ: {target_category} きーわーど: {keyword}')
-    result = bu.seed_search(keyword, target_category)
+    result = bu.seed_search(keyword, target_category, not_dl_flg)
     message.send(result)
 
 

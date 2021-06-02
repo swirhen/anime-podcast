@@ -93,18 +93,21 @@ async def on_message(message):
     elif re.search('^/ts.*', message.content):
         keyword = ''
         target_category = 'all'
+        not_dl_flg = ''
         arguments = message.content.split()
         if len(arguments) > 1:
             keyword = arguments[1]
             if len(arguments) > 2:
                 target_category = arguments[2]
+                if len(arguments) > 3:
+                    not_dl_flg = '1'
         else:
             await message.channel.send(bu.generate_message('usage_torrent_search'))
             return
 
         await message.channel.send('さがしてくるよ(｀・ω・´)\n'
                                   f'たいしょうカテゴリ: {target_category} きーわーど: {keyword}')
-        result = bu.seed_search(keyword, target_category)
+        result = bu.seed_search(keyword, target_category, not_dl_flg)
         if re.search('なかったよ', result):
             await message.channel.send(result)
         else:
