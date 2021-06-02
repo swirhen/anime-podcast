@@ -143,7 +143,7 @@ def grep_file(file_path, word, regexp_mode=False):
 
 
 # grep2(ファイル, 完全一致/部分一致)
-def grep_file2(file_path, word, complete_fetch=False):
+def grep_file2(file_path, word, complete_fetch=True):
     opt_str = ''
     if complete_fetch:
         opt_str = '-x'

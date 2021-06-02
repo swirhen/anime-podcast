@@ -63,19 +63,22 @@ async def on_message(message):
     elif re.search('^/tl.*', message.content):
         arguments = message.content.split()
         target_category = ''
+        offset_days = '1'
         if len(arguments) > 1:
             target_category = arguments[1]
+            if len(arguments) > 2:
+                offset_days = arguments[2]
         else:
             await message.channel.send(bu.generate_message('usage_report_seed_list'))
             return
 
-        seed_list = trsc.get_seed_list(target_category)
+        seed_list = trsc.search_seed_resent(target_category, offset_days)
         if len(seed_list) > 0:
-            await message.channel.send(f'さいきんまかれたたねのリストだよ(｀・ω・´)\n'
-                                       f'たいしょうカテゴリ: {target_category}')
+            await message.channel.send(f'さいきんまかれたたねのリストをとってくるしゅば(｀・ω・´)\n'
+                                       f'たいしょうカテゴリ: {target_category} ({offset_days} にちまえから)')
             result = ''
             for seed in seed_list:
-                result += f'{seed[1]}\n'
+                result += f'{seed[0]} : {seed[1]}\n'
             if len(result) > 2000:
                 result_file_name = f'{SCRIPT_DIR}/seed_list_{date_time}.txt'
                 swiutil.writefile_new(result_file_name, result)
@@ -84,7 +87,7 @@ async def on_message(message):
             else:
                 await message.channel.send(f'```{result}```')
         else:
-            await message.channel.send(f'なんかとれなかったよ(´・ω・`)\n')
+            await message.channel.send(f'なんかとれなかったしゅば(´・ω・`)\n')
 
     # 種サーチ
     elif re.search('^/ts.*', message.content):
@@ -250,7 +253,6 @@ async def on_message(message):
                 await message.channel.send(result)
         else:
             await message.channel.send('なかったにぇ(´・ω・`)')
-
 
     # ホロメン twitter検索
     elif re.search('^/hts.*', message.content):
