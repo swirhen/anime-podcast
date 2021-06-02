@@ -72,6 +72,7 @@ MAILTO=""
 */10 * * * * python /home/swirhen/sh/checker/twitterchk/twitter_check.py
 
 # 汎用 torrent seed check
+55 * * * * python /home/swirhen/sh/checker/torrentsearch/make_nyaa_db.py
 0 * * * * python /home/swirhen/sh/checker/torrentsearch/torrentsearch.py
 
 # swirhentv auto download
