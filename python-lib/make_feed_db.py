@@ -29,7 +29,7 @@ def make_feed_list_data():
     cur.execute(create_table_sql)
     values = []
     for xml_info in xml_infos:
-        values.append(f'("{xml_info[0]}", "{xml_info[1]}", "{xml_info[2]}", localtime)')
+        values.append(f'("{xml_info[0]}", "{xml_info[1]}", "{xml_info[2]}", ''localtime'')')
     values_str = ', '.join(values)
     insert_sql = f'insert into feed values{values_str}'
     cur.execute(insert_sql)
@@ -59,7 +59,7 @@ def make_feed_data(argument=''):
     values = []
     for feed in feeds:
         feed_info = feed.split('|')
-        values.append(f'("{feed_info[0]}", "{feed_info[1]}", localtime)')
+        values.append(f'("{feed_info[0]}", "{feed_info[1]}", ''localtime'')')
     values_str = ', '.join(values)
     insert_sql = f'insert into feed_data values{values_str}'
     cur.execute(insert_sql)
