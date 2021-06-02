@@ -155,7 +155,6 @@ async def on_message(message):
         elif re.search('^/ts.*', message.content):
             keyword = ''
             target_category = 'all'
-            not_dl_flg = ''
             arguments = message.content.split()
             if len(arguments) > 1:
                 keyword = arguments[1]
