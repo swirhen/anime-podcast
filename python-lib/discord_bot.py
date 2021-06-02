@@ -108,7 +108,7 @@ async def on_message(message):
         await message.channel.send('さがしてくるしゅば(｀・ω・´)\n'
                                   f'たいしょうカテゴリ: {target_category} きーわーど: {keyword}')
         result = bu.seed_search(keyword, target_category, not_dl_flg)
-        if re.search('なかったよ', result):
+        if re.search('なかったしゅば', result):
             await message.channel.send(result)
         else:
             if len(result) > 2000:
