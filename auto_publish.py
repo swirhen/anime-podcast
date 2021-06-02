@@ -32,6 +32,7 @@ LOG_DIR = f'{SCRIPT_DIR}/logs'
 LOG_FILE = f'{LOG_DIR}/autopub_{DATETIME2}.log'
 FLG_FILE = f'{SCRIPT_DIR}/autopub_running'
 NEW_PROGRAM_FILE = f'{SCRIPT_DIR}/new_program.txt'
+LAST_CHECK_DATE_FILE = f'{SCRIPT_DIR}/last_check_date.txt'
 
 
 # ログ書き込み
@@ -78,18 +79,27 @@ def main():
 
     logging('### auto publish start.')
     multipost('swirhen.tv auto publish start...')
+    # 最終取得時刻
+    last_check_date = ''
+    with open(LAST_CHECK_DATE_FILE) as file:
+        last_check_date = file.read().splitlines()[0]
+    # 今回の取得時刻
+    now_date = dt.now().strftime('%Y-%m-%d %H:%M')
 
-    # nyaa torrentのfeedをxmlとして取得、title(ファイル名)とlink(torrentファイルのURL)を配列seed_listに入れる
-    seed_list = []
-    req = urllib.request.Request(SEED_URI)
-    with urllib.request.urlopen(req) as response:
-        xml_string = response.read()
+    # # nyaa torrentのfeedをxmlとして取得、title(ファイル名)とlink(torrentファイルのURL)を配列seed_listに入れる
+    # seed_list = []
+    # req = urllib.request.Request(SEED_URI)
+    # with urllib.request.urlopen(req) as response:
+    #     xml_string = response.read()
 
-    xml_root = elementTree.fromstring(xml_string)
+    # xml_root = elementTree.fromstring(xml_string)
 
-    for item in xml_root.findall('./channel/item'):
-        seed_info = [item.find('title').text, item.find('link').text]
-        seed_list.append(seed_info)
+    # for item in xml_root.findall('./channel/item'):
+    #     seed_info = [item.find('title').text, item.find('link').text]
+    #     seed_list.append(seed_info)
+
+    # DB(5分前に更新)からseedリストを取得
+    seed_list = swiutil.get_feed_list(last_check_date)
 
     # チェックリストの取得
     check_lists = swiutil.make_check_list()
@@ -232,10 +242,15 @@ def main():
         end(0)
 
     # seedダウンロード・seed育成処理開始
+    dl_links = []
     for download in downloads:
         link = download[0]
         title = swiutil.truncate(download[1].translate(str.maketrans('/;!','___')), 247)
         urllib.request.urlretrieve(link, f'{DOWNLOAD_DIR}/{title}.torrent')
+        dl_links.append(link)
+
+    # DB更新
+    swiutil.update_download_feed(dl_links)
 
     function_log = swiutil.torrent_download(DOWNLOAD_DIR)
     logging_without_timestamp(function_log)
@@ -300,6 +315,9 @@ def main():
     logging('### all process completed.')
     multipost('swirhen.tv auto publish completed.')
     multiupload(LOG_FILE)
+
+    # 直近処理時間記録
+    swiutil.writefile_new(LAST_CHECK_DATE_FILE, now_date)
 
     end(0)
 

@@ -45,7 +45,7 @@ def make_nyaa_data():
                         ' title string,' \
                         ' link string unique,' \
                         ' pubdate timestamp,' \
-                        ' download_dir string,' \
+                        ' download_flag boolean,' \
                         ' created_at timestamp default (datetime(\'now\', \'localtime\')))'
 
     values = []

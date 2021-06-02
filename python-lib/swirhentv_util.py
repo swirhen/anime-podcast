@@ -29,6 +29,7 @@ FEED_XML_DIR = f'{SCRIPT_DIR}/../../98 PSP用'
 SYOBOCAL_URI = 'http://cal.syoboi.jp/find?sd=0&kw='
 SWIRHENTV_URI = 'http://swirhen.tv/movie/pspmp4/'
 FEED_DB = f'{SCRIPT_DIR}/swirhentv_feed.db'
+NYAA_MOVIE_FEED_DB = f'{SCRIPT_DIR}/../nyaa_movie_feed.db'
 
 
 # slackにpostする
@@ -263,6 +264,32 @@ def make_rename_list():
             renamelist.append(line)
 
     return renamelist
+
+
+# 種検索(sqlite3)
+def get_feed_list(last_check_date):
+    conn = sqlite3.connect(NYAA_MOVIE_FEED_DB)
+    cur = conn.cursor()
+
+    select_sql = 'select title, link from feed_data' \
+                f' where created_at > "{last_check_date}"' \
+                 ' and download_flag = 0'
+    
+    result = list(cur.execute(select_sql))
+    conn.close()
+    return result
+
+
+# ダウンロードのアップデート
+def update_download_feed(values):
+    conn = sqlite3.connect(NYAA_MOVIE_FEED_DB)
+    cur = conn.cursor()
+
+    str_value = '", "'.join(values)
+    update_sql = f'update feed_data set download_flag = True where link in ("{str_value}")'
+    cur.execute(update_sql)
+    conn.commit()
+    conn.close()
 
 
 # 動画リネーム
