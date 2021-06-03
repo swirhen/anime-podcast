@@ -106,9 +106,11 @@ async def on_message(message):
             return
         if target_category == 'all':
             not_dl_flg = '1'
+        if not_dl_flg == '1':
+            dl_post_str = 'ダウンロードもするしゅば(｀・ω・´)'
 
-        await message.channel.send('さがしてくるしゅば(｀・ω・´)\n'
-                                  f'たいしょうカテゴリ: {target_category} きーわーど: {keyword}')
+        await message.channel.send(f'さがしてくるしゅば(｀・ω・´){dl_post_str}\n'
+                                   f'たいしょうカテゴリ: {target_category} きーわーど: {keyword}')
         result = bu.seed_search(keyword, target_category, not_dl_flg)
         if re.search('なかったしゅば', result):
             await message.channel.send(result)
