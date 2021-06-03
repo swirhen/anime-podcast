@@ -106,7 +106,8 @@ async def on_message(message):
             return
         if target_category == 'all':
             not_dl_flg = '1'
-        if not_dl_flg == '1':
+        dl_post_str = ''
+        if not_dl_flg != '1':
             dl_post_str = 'ダウンロードもするしゅば(｀・ω・´)'
 
         await message.channel.send(f'さがしてくるしゅば(｀・ω・´){dl_post_str}\n'
