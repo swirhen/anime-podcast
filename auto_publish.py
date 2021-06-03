@@ -68,10 +68,8 @@ def end(exit_code):
 def main():
     if os.path.isfile(FLG_FILE):
         logging('### running flag file exist.')
-        print('delete flag file? (y/n)')
-        if swiutil.askconfirm() == 0:
-            os.remove(FLG_FILE)
-            logging('### running flag file deleted manually.')
+        multipost('@here swirhen.tv auto publish: 起動フラグファイルを検知、終了しました\n'
+                  '前回異常終了などで残っている場合は削除してください')
         exit(1)
     else:
         flg_file = pathlib.Path(FLG_FILE)
@@ -85,18 +83,6 @@ def main():
         last_check_date = file.read().splitlines()[0]
     # 今回の取得時刻
     now_date = dt.now().strftime('%Y-%m-%d %H:%M')
-
-    # # nyaa torrentのfeedをxmlとして取得、title(ファイル名)とlink(torrentファイルのURL)を配列seed_listに入れる
-    # seed_list = []
-    # req = urllib.request.Request(SEED_URI)
-    # with urllib.request.urlopen(req) as response:
-    #     xml_string = response.read()
-
-    # xml_root = elementTree.fromstring(xml_string)
-
-    # for item in xml_root.findall('./channel/item'):
-    #     seed_info = [item.find('title').text, item.find('link').text]
-    #     seed_list.append(seed_info)
 
     # DB(5分前に更新)からseedリストを取得
     seed_list = swiutil.get_feed_list(last_check_date)
