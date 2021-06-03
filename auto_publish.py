@@ -12,7 +12,6 @@ import re
 import sys
 import urllib.request
 from datetime import datetime as dt
-import xml.etree.ElementTree as elementTree
 current_dir = pathlib.Path(__file__).resolve().parent
 sys.path.append(f'{str(current_dir)}/python-lib/')
 import swirhentv_util as swiutil

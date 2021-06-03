@@ -13,7 +13,6 @@ import time
 import glob
 from datetime import datetime as dt
 from bs4 import BeautifulSoup
-import xml.etree.ElementTree as elementTree
 from slacker import Slacker
 import slackbot_settings
 import sqlite3
