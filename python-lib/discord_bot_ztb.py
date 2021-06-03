@@ -45,7 +45,7 @@ async def on_message(message):
     if message.content == '/neko':
         await message.channel.send('にゃーん')
     
-    if message.channel.name == 'bot-sandbox':
+    if message.channel.name == 'twitter-search':
         # ホロメン twitter検索
         if re.search('^/hts.*', message.content):
             arguments = message.content.split()
@@ -76,8 +76,9 @@ async def on_message(message):
             else:
                 await message.channel.send('そのこはここ1週間postがないにぇ(´・ω・`)しんでんで...')
         
+    if message.channel.name == 'bot-sandbox':
         # swirhen.tv feed検索
-        elif re.search('^/sws.*', message.content):
+        if re.search('^/sws.*', message.content):
             argument = re.sub(r'^/sws', '', message.content).strip()
             if argument != '':
                 await message.channel.send(f'さがしてくるぺこ！(｀・ω・´) 検索キーワード: {argument}')
