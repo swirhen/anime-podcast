@@ -127,24 +127,7 @@ def askconfirm():
 
 
 # grep(ファイル, 完全一致/部分一致)
-def grep_file(file_path, word, regexp_mode=False):
-    with open(file_path) as file:
-        lines = file.read().splitlines()
-
-    result = []
-    for line in lines:
-        if regexp_mode:
-            if re.search(word, line):
-                result.append(line)
-        else:
-            if line == word:
-                result.append(line)
-
-    return result
-
-
-# grep2(ファイル, 完全一致/部分一致)
-def grep_file2(file_path, word, complete_fetch=True):
+def grep_file(file_path, word, complete_fetch=True):
     opt_str = ''
     if complete_fetch:
         opt_str = '-x'
@@ -162,7 +145,6 @@ def grep_list(greplist, word, regexp_mode=True):
         else:
             if word == item:
                 result.append(item)
-
     return result
 
 
@@ -186,20 +168,10 @@ def len_file(filepath):
 
 # キーワードの含まれる行を削除(部分一致/完全一致)
 def sed_del(filepath, sed_keyword, regexp_mode=True):
-    tempfile = f'{filepath}.sed_del_temp'
-    if pathlib.Path(tempfile).is_file():
-        os.remove(tempfile)
-    with open(filepath) as file:
-        lines = file.read().splitlines()
-    for line in lines:
-        if regexp_mode:
-            if not re.search(sed_keyword, line):
-                writefile_append(tempfile, line)
-        else:
-            if sed_keyword != line:
-                writefile_append(tempfile, line)
-
-    shutil.move(tempfile, filepath)
+    if regexp_mode:
+        subprocess.run(f'sed -i -e "/{sed_keyword}/d" "{filepath}"', shell=True)
+    else:
+        subprocess.run(f'sed -i -e "/^{sed_keyword}$/d" "{filepath}"', shell=True)
 
 
 # 新番組日本語名取得
