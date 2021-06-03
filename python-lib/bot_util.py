@@ -94,7 +94,8 @@ def seed_search(keyword, target_category, not_dl_flg, open_flg=False):
     if len(hit_result) > 0:
         post_str = f'みつかったしゅば(｀・ω・´)\n```# 結果\n'
         for result_item in hit_result:
-            post_str += f'カテゴリ: {result_item[0]} タイトル: {result_item[1]} URL: {result_item[3]}\n'
+            post_str += f'カテゴリ: {result_item[0]} タイトル: {result_item[1]}\n' \
+                        f'URL: {result_item[3]}\n'
             if not_dl_flg != '':
                 if result_item[4] != None and open_flg == False:
                     post_str += f'ダウンロード済み 保存先: {result_item[4]}\n'
