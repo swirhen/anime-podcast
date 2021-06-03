@@ -4,12 +4,14 @@
 # convert from mmmpc.sh
 # 引数1: /data/share/movie/98 PSP用 以下のディレクトリ名
 # 引数2: フィードタイトル
+# import section
 import pathlib
 import sys
 current_dir = pathlib.Path(__file__).resolve().parent
 sys.path.append(f'{str(current_dir)}/python-lib/')
 import swirhentv_util as swiutil
 
+# argment section
 TARGET_DIR_PARENT = f'{str(current_dir)}/../98 PSP用'
 
 

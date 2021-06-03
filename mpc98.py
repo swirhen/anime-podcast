@@ -5,6 +5,7 @@
 # /data/share/movie/98 PSP用/list.txt のリストファイルにある情報をもとに
 # 複数の番組フィードを作成する
 # リストファイルの書式: [フィードのディレクトリ名(98 PSP用の下にあること)] [フィードタイトル]
+# import section
 import pathlib
 import re
 import sys
@@ -13,6 +14,7 @@ sys.path.append(f'{str(current_dir)}/python-lib/')
 import swirhentv_util as swiutil
 
 
+# argument section
 TARGET_DIR_PARENT = f'{str(current_dir)}/../98 PSP用'
 LISTFILE = f'{TARGET_DIR_PARENT}/list.txt'
 

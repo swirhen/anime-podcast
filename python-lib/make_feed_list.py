@@ -4,7 +4,6 @@
 # import section
 import pathlib
 import re
-import sys
 current_dir = pathlib.Path(__file__).resolve().parent
 import swirhentv_util as swiutil
 

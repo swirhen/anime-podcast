@@ -5,12 +5,13 @@
 # 92〜99、00で開始するディレクトリは無視
 # shって名前のdirも無視
 # 引数 "-r" をつけると先頭の連番とスペースを削除
-
+# import section
 import glob
 import os
 import re
 import sys
 
+# main section
 args = sys.argv
 ARG = ''
 if len(args) == 2:

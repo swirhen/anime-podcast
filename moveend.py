@@ -1,8 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # 期またぎ移動用スクリプト
-import os, sys, re, glob, math, psutil, shutil, pprint, pathlib
+# import section
+import glob
+import math
+import os
+import pathlib
+import pprint
+import re
+import shutil
+import sys
 
+# argment section
 BASE_DIR = '/data/share/movie'
 PSPMP4_98_DIR = f'{BASE_DIR}/98 PSP用'
 PSPMP4_MV_DIR = '/data2/movie2/pspmp4'

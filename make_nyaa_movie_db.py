@@ -3,7 +3,6 @@
 # nyaatorrent make feed db(movie-raw)
 # import section
 import pathlib
-import sys
 from datetime import datetime as dt
 import urllib.request
 import sqlite3

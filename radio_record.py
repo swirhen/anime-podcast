@@ -35,7 +35,7 @@ import radikoauth
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
-# arguments section
+# argument section
 SCRIPT_DIR = str(current_dir)
 OUTPUT_PATH = f'{SCRIPT_DIR}/../98 PSP用/agqr'
 TMP_PATH = f'{OUTPUT_PATH}/flv'
