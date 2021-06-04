@@ -374,6 +374,41 @@ def choose_channel(target_channel):
     return target_channel
 
 
+def mhrize_weapon_expected_value_calc(melee, attribute, sharpness, crit):
+        if sharpness in ['y', 'yellow', '黄', '黄色', 'きいろ']:
+            sharpness = '黄色'
+            melee_mag = 1
+            attribute_mag = 0.74
+        elif sharpness in ['g', 'green', '緑', 'みどり']:
+            sharpness = '緑'
+            melee_mag = 1.05
+            attribute_mag = 1
+        elif sharpness in ['b', 'blue', '青', 'あお']:
+            sharpness = '青'
+            melee_mag = 1.2
+            attribute_mag = 1.0625
+        elif sharpness in ['w', 'white', '白', 'しろ']:
+            sharpness = '白'
+            melee_mag = 1.32
+            attribute_mag = 1.15
+        elif sharpness in ['p', 'purple', '紫', 'むらさき']:
+            sharpness = '紫'
+            melee_mag = 1.39
+            attribute_mag = 1.2
+
+        if attribute != '':
+            attr_str = f' / 属性値: {attribute}'
+        if crit != '':
+            crit_str = f' / 会心: {crit}%'
+            crit_str2 = f' * 会心補正(1 + (0.25 * {int(crit) / 100}))'
+        post_str = f'[MHRize weapon expected value calculator] (｀・ω・´)\n攻撃力: {melee} / 斬れ味: {sharpness}{attr_str}{crit_str}\nの武器の期待値は～\n'
+        post_str += f'物理: {round(int(melee) * melee_mag * (1 + (0.25 * (int(crit) / 100))))} ({melee} * 斬れ味補正({melee_mag}){crit_str2})\n'
+        if attribute != '':
+            post_str += f'属性: {round(int(attribute) * attribute_mag)} ({attribute} * 斬れ味補正({attribute_mag})\n'
+        post_str += f'合計 {round(int(melee) * melee_mag * (1 + (0.25 * (int(crit) / 100)))) + round(int(attribute) * attribute_mag)} なのら～'
+
+        return post_str
+
 # 各種返答メッセージ
 MESSAGE_DICT = dict()
 MESSAGE_DICT['usage_torrent_move'] = 'つかいかた(´・ω・`)\n' \
