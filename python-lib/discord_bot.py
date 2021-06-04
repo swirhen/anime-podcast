@@ -340,9 +340,9 @@ async def on_message(message):
             crit_str = f' / 会心: {crit}%'
             crit_str2 = f' * 会心補正(1 + 0.25 * {int(crit) / 100})'
         post_str = f'[MHRize weapon expected value calculator] (｀・ω・´) 攻撃力: {melee} / 斬れ味: {sharpness}{attr_str}{crit_str}\nの武器の期待値は～\n'
-        post_str += f'物理: {round(int(melee) * melee_mag * (1 + (0.25 * {int(crit) / 100})))} ({melee} * 斬れ味補正({str(melee_mag)}){crit_str2})\n'
-        post_str += f'属性: {round(int(attribute) * attribute_mag)} ({attribute} * 斬れ味補正({str(attribute_mag)})\n'
-        post_str += f'合計 {round(int(melee) * melee_mag * (1 + (0.25 * {int(crit) / 100}))) + round(int(attribute) * attribute_mag)} なのら～'
+        post_str += f'物理: {round(int(melee) * melee_mag * (1 + (0.25 * (int(crit) / 100))))} ({melee} * 斬れ味補正({melee_mag}){crit_str2})\n'
+        post_str += f'属性: {round(int(attribute) * attribute_mag)} ({attribute} * 斬れ味補正({attribute_mag})\n'
+        post_str += f'合計 {round(int(melee) * melee_mag * (1 + (0.25 * (int(crit) / 100)))) + round(int(attribute) * attribute_mag)} なのら～'
         await message.channel.send(post_str)
 
 if __name__ == "__main__":
