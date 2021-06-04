@@ -1,4 +1,6 @@
-Last Update: 2021/06/05-00:00:02
+Last Update: 2021/06/05-06:00:02
+2021/06/05-06:00:02 22 Back Arrow|バック・アロウ
+2021/06/05-06:00:02 10 SSSS.Dynazenon|SSSS.DYNAZENON
 2021/06/05-00:00:02 21 Kumo Desu ga, Nanika|蜘蛛ですが、なにか？
 2021/06/05-00:00:02 09 Mars Red|MARS RED
 2021/06/04-18:00:01 09 Isekai Maou to Shoukan Shoujo no Dorei Majutsu Omega|異世界魔王と召喚少女の奴隷魔術Ω
@@ -24,14 +26,12 @@ Last Update: 2021/06/05-00:00:02
 2021/06/01-00:00:02 08 Fumetsu no Anata e|不滅のあなたへ
 2021/05/31-12:05:30 50 Digimon Adventure;|デジモンアドベンチャー：
 2021/05/31-12:05:30 34 Dqdai|ドラゴンクエスト ダイの大冒険
-2021/05/31-12:05:30 21 Back Arrow|バック・アロウ
 2021/05/31-12:05:30 10 Boku no Hero Academia 5|僕のヒーローアカデミア(第5期)
 2021/05/31-12:05:30 09 Yuukoku no Moriarty Part 2|憂国のモリアーティ(2クール目)
 2021/05/31-12:05:30 09 Shakunetsu Kabaddi|灼熱カバディ
 2021/05/31-12:05:30 09 Seven Knights Revolution Eiyuu no Keishousha|セブンナイツ レボリューション -英雄の継承者-
 2021/05/31-12:05:30 09 Sentouin, Hakenshimasu|戦闘員、派遣します！
 2021/05/31-12:05:30 09 Sayonara Watashi no Cramer|さよなら私のクラマー
-2021/05/31-12:05:30 09 SSSS.Dynazenon|SSSS.DYNAZENON
 2021/05/31-12:05:30 09 Nomad Megalo Box 2|NOMAD メガロボクス2
 2021/05/31-12:05:30 09 Mashiro no Oto|ましろのおと
 2021/05/31-12:05:30 09 Dragon, Ie o Kau|ドラゴン、家を買う。
