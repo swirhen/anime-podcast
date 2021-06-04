@@ -74,7 +74,7 @@ def discord_post(channel, text):
         main_content = {
             'content': text
         }
-        requests.post(discord_webhook_uri, main_content)
+        requests.post(discord_webhook_uri, main_content.replace('@channel', '@here'))
 
 
 # discordにuploadする
@@ -89,6 +89,11 @@ def discord_upload(channel, filename):
 # discord/slack multi post
 def multi_post(channel, text, username='swirhentv', icon_emoji=''):
     if len(text) > 4000:
+        if text.split('\n')[0][0] == '@':
+            slack_post(channel, text.split('\n')[0])
+            text = re.sub('^.*\n', '', text)
+        if re.search('```', text):
+            text = text.replace('```', '')
         date_time = dt.now().strftime('%Y%m%d%H%M%S')
         post_file_temp = f'{SCRIPT_DIR}/slack_post_temp_{date_time}.txt'
         writefile_new(post_file_temp, text)
@@ -98,13 +103,18 @@ def multi_post(channel, text, username='swirhentv', icon_emoji=''):
         slack_post(channel, text, username, icon_emoji)
 
     if len(text) > 2000:
+        if text.split('\n')[0][0] == '@':
+            slack_post(channel, text.split('\n')[0])
+            text = re.sub('^.*\n', '', text)
+        if re.search('```', text):
+            text = text.replace('```', '')
         date_time = dt.now().strftime('%Y%m%d%H%M%S')
         post_file_temp = f'{SCRIPT_DIR}/discord_post_temp_{date_time}.txt'
         writefile_new(post_file_temp, text)
         discord_upload(channel, post_file_temp)
         os.remove(post_file_temp)
     else:
-        discord_post(channel, text.replace('@channel', '@everyone'))
+        discord_post(channel, text.replace('@channel', '@here'))
 
 
 # discord/slack multi upload
