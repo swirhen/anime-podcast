@@ -72,9 +72,9 @@ def discord_post(channel, text):
     discord_webhook_uri = get_discord_webhook_url(channel)
     if discord_webhook_uri != '':
         main_content = {
-            'content': text
+            'content': text.replace('@channel', '@here')
         }
-        requests.post(discord_webhook_uri, main_content.replace('@channel', '@here'))
+        requests.post(discord_webhook_uri, main_content)
 
 
 # discordにuploadする
