@@ -420,6 +420,11 @@ MESSAGE_DICT['usage_swirhentv_feed_search'] = 'つかいかた(´・ω・`)\n' \
                                               'けんさくキーワードをいれると フィードのタイトル/ファイル名/フィード内のタイトル から検索するぺこ\n' \
                                               'フィードリストはこちらぺこ(1日1回更新)\n' \
                                               'http://swirhen.tv/movie/pspmp4/swirhentv_feed_list.txt'
+MESSAGE_DICT['usage_mhrize_weapon_expected_value_calc'] = 'つかいかた(´・ω・`)\n' \
+                                              'wex [こうげきりょく] [きれあじ] (ぞくせいち) (かいしんパーセント)\n'\
+                                              'ライズのぶきの期待値計算をするのら(｀・ω・´)\n' \
+                                              '属性会心スキルとかは考慮しねえのら(｀・ω・´)\n' \
+                                              'モンハンはあそびじゃねえのら(｀・ω・´)'
 
 
 # 各種返答メッセージ
