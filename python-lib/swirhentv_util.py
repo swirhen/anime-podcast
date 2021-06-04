@@ -104,7 +104,7 @@ def multi_post(channel, text, username='swirhentv', icon_emoji=''):
 
     if len(text) > 2000:
         if text.split('\n')[0][0] == '@':
-            slack_post(channel, text.split('\n')[0])
+            discord_post(channel, text.split('\n')[0])
             text = re.sub('^.*\n', '', text)
         if re.search('```', text):
             text = text.replace('```', '')
