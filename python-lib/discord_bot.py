@@ -301,7 +301,7 @@ async def on_message(message):
         melee = '0'
         sharpness = ''
         attribute = '0'
-        crit = '100'
+        crit = '0'
         if len(arguments) > 2:
             melee = arguments[1]
             sharpness = arguments[2]
