@@ -1,4 +1,6 @@
-Last Update: 2021/06/07-00:00:02
+Last Update: 2021/06/07-06:00:01
+2021/06/07-06:00:01 10 Seven Knights Revolution Eiyuu no Keishousha|セブンナイツ レボリューション -英雄の継承者-
+2021/06/07-06:00:01 10 Sayonara Watashi no Cramer|さよなら私のクラマー
 2021/06/07-00:00:02 10 Yuukoku no Moriarty Part 2|憂国のモリアーティ(2クール目)
 2021/06/07-00:00:02 10 Shakunetsu Kabaddi|灼熱カバディ
 2021/06/07-00:00:02 10 Sentouin, Hakenshimasu|戦闘員、派遣します！
@@ -44,5 +46,3 @@ Last Update: 2021/06/07-00:00:02
 2021/06/01-00:00:02 09 Hige o Soru. Soshite Joshikousei o Hirou.|ひげを剃る。そして女子高生を拾う。
 2021/06/01-00:00:02 08 Tokyo Revengers|東京リベンジャーズ
 2021/06/01-00:00:02 08 Fumetsu no Anata e|不滅のあなたへ
-2021/05/31-12:05:30 09 Seven Knights Revolution Eiyuu no Keishousha|セブンナイツ レボリューション -英雄の継承者-
-2021/05/31-12:05:30 09 Sayonara Watashi no Cramer|さよなら私のクラマー
