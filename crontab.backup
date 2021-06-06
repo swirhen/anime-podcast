@@ -51,7 +51,6 @@ MAILTO=""
 # -- SAT
 30 14 * * 6 python /data/share/movie/sh/radio_record.py a "サンセルモ presents 結婚式は あいのなかで" 30 1800 v
 0 19 * * 6 python /data/share/movie/sh/radio_record.py r "A＆Gリクエストアワー 阿澄佳奈のキミまち！" 1 7230 QRR
-0 0 * * 7 python /data/share/movie/sh/radio_record.py r "上坂すみれの▽をつければかわいかろう" 1 1830 QRR
 0 2 * * 7 python /data/share/movie/sh/radio_record.py r "MOMO・SORA・SHIINA Talking Box" 1 1830 QRR
 # -- SUN
 0 17 * * 7 python /data/share/movie/sh/radio_record.py a "星街すいせい・田所あずさ 平行線すくらんぶる" 30 1800
