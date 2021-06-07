@@ -19,14 +19,17 @@ FEED_URI = 'https://nyaa.si/?q=Ohys-Raws&f=0&c=1_4&page=rss'
 def get_seed_list_proc():
     seed_list = []
     req = urllib.request.Request(FEED_URI)
-    with urllib.request.urlopen(req) as response:
-        xml_string = response.read()
+    try:
+        with urllib.request.urlopen(req) as response:
+            xml_string = response.read()
+    except Exception as e:
+        print(e)
+    else:
+        xml_root = elementTree.fromstring(xml_string)
 
-    xml_root = elementTree.fromstring(xml_string)
-
-    for item in xml_root.findall('./channel/item'):
-        seed_info = [item.find('title').text, item.find('link').text, item.find('pubDate').text[:-6]]
-        seed_list.append(seed_info)
+        for item in xml_root.findall('./channel/item'):
+            seed_info = [item.find('title').text, item.find('link').text, item.find('pubDate').text[:-6]]
+            seed_list.append(seed_info)
 
     return seed_list
 

@@ -26,9 +26,13 @@ def auth1():
         "X-Radiko-Device": "pc",
     }
     req = urllib.request.Request(url, None, headers)
-    res = urllib.request.urlopen(req)
-    auth_response["body"] = res.read()
-    auth_response["headers"] = res.info()
+    try:
+        res = urllib.request.urlopen(req)
+    except Exception as e:
+        print(e)
+    else:
+        auth_response["body"] = res.read()
+        auth_response["headers"] = res.info()
     return auth_response
 
 
@@ -51,6 +55,7 @@ def get_partial_key(auth_response):
 
 def auth2(partialkey, auth_token):
     url = "https://radiko.jp/v2/api/auth2"
+    area = ''
     headers = {
         "X-Radiko-AuthToken": auth_token,
         "X-Radiko-Partialkey": partialkey,
@@ -58,9 +63,13 @@ def auth2(partialkey, auth_token):
         "X-Radiko-Device": 'pc'
     }
     req = urllib.request.Request(url, None, headers)
-    res = urllib.request.urlopen(req)
-    txt = res.read()
-    area = txt.decode()
+    try:
+        res = urllib.request.urlopen(req)
+    except Exception as e:
+        print(e)
+    else:
+        txt = res.read()
+        area = txt.decode()
     return area
 
 
@@ -69,11 +78,16 @@ def gen_temp_chunk_m3u8_url(url, auth_token):
         "X-Radiko-AuthToken": auth_token,
     }
     req = urllib.request.Request(url, None, headers)
-    res = urllib.request.urlopen(req)
-    body = res.read().decode()
-    lines = re.findall('^https?://.+m3u8$', body, flags=(re.MULTILINE))
-    # embed()
-    return lines[0]
+    try:
+        res = urllib.request.urlopen(req)
+    except Exception as e:
+        print(e)
+        return ''
+    else:
+        body = res.read().decode()
+        lines = re.findall('^https?://.+m3u8$', body, flags=(re.MULTILINE))
+        # embed()
+        return lines[0]
 
 
 def main(station_id=''):

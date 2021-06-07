@@ -209,6 +209,7 @@ def syobocal_search(search_word):
         html = urllib.request.urlopen(f'{SYOBOCAL_URI}{search_word}')
     except Exception as e:
         print(e)
+        return ''
     else:
         soup = BeautifulSoup(html, "html.parser")
 
