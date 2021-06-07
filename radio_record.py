@@ -32,8 +32,6 @@ current_dir = pathlib.Path(__file__).resolve().parent
 sys.path.append(f'{str(current_dir)}/python-lib/')
 import swirhentv_util as swiutil
 import radikoauth
-import ssl
-ssl._create_default_https_context = ssl._create_unverified_context
 
 # argument section
 SCRIPT_DIR = str(current_dir)
@@ -47,9 +45,6 @@ RADIKO_LOCATION_INFO_FILE = f'{SCRIPT_DIR}/loc_radiko'
 with open(RADIKO_LOCATION_INFO_FILE) as file:
     RADIKO_LOCATION_INFO_FROM_FILE = file.read().splitlines()[0]
 SLACK_CHANNEL = 'bot-open'
-BROWSER_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0",
-}
 
 
 # agqr check
@@ -203,7 +198,7 @@ if __name__ == '__main__':
     if operation_mode == 'a':
         operation_str = '超A&G'
         # 現在放送中番組名を取得
-        req = urllib.request.Request(url=AGQR_VALIDATE_API_URI, headers=BROWSER_HEADERS)
+        req = urllib.request.Request(url=AGQR_VALIDATE_API_URI)
         response = urllib.request.urlopen(req).read()
         json_data = json.loads(response)
         program_name_from_api = json_data['title']
