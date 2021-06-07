@@ -231,8 +231,12 @@ def main():
     for download in downloads:
         link = download[0]
         title = swiutil.truncate(download[1].translate(str.maketrans('/;!','___')), 247)
-        urllib.request.urlretrieve(link, f'{DOWNLOAD_DIR}/{title}.torrent')
-        dl_links.append(link)
+        try:
+            urllib.request.urlretrieve(link, f'{DOWNLOAD_DIR}/{title}.torrent')
+        except Exception as e:
+            logging(f'# download error: {e}')
+        else:
+            dl_links.append(link)
 
     # DB更新
     swiutil.update_download_feed(dl_links)

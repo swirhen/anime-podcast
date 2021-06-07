@@ -203,8 +203,7 @@ if __name__ == '__main__':
             response = urllib.request.urlopen(req).read()
         except Exception as e:
             print(e)
-            response = ''
-        if response != '':
+        else:
             json_data = json.loads(response)
             program_name_from_api = json_data['title']
 
@@ -235,8 +234,7 @@ if __name__ == '__main__':
                 xml_string = response.read()
         except Exception as e:
             print(e)
-            xml_string = ''
-        if xml_string != '':
+        else:
             xml_root = elementTree.fromstring(xml_string)
             for station in xml_root.findall('./stations/station'):
                 if station.attrib['id'] == station_id:

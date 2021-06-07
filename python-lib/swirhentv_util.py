@@ -74,7 +74,10 @@ def discord_post(channel, text):
         main_content = {
             'content': text.replace('@channel', '@here')
         }
-        requests.post(discord_webhook_uri, main_content)
+        try:
+            requests.post(discord_webhook_uri, main_content)
+        except Exception as e:
+            print(e)
 
 
 # discordにuploadする
@@ -83,7 +86,10 @@ def discord_upload(channel, filename):
     if discord_webhook_uri != '':
         with open(filename, 'rb') as file:
             files = {'param_name': (pathlib.Path(filename).name, file)}
-            requests.post(discord_webhook_uri, files=files)
+            try:
+                requests.post(discord_webhook_uri, files=files)
+            except Exception as e:
+                print(e)
 
 
 # discord/slack multi post
@@ -199,18 +205,22 @@ def get_jp_title(title_en):
 
 # しょぼいカレンダー検索
 def syobocal_search(search_word):
-    html = urllib.request.urlopen(f'{SYOBOCAL_URI}{search_word}')
-    soup = BeautifulSoup(html, "html.parser")
-
-    result = []
-    for a in soup.find_all('a'):
-        if re.search('tid', str(a)):
-            result += a
-
-    if len(result) > 0:
-        return result[0].translate(str.maketrans({';': '；', '!': '！', ':': '：', '/': '／'}))
+    try:
+        html = urllib.request.urlopen(f'{SYOBOCAL_URI}{search_word}')
+    except Exception as e:
+        print(e)
     else:
-        return ''
+        soup = BeautifulSoup(html, "html.parser")
+
+        result = []
+        for a in soup.find_all('a'):
+            if re.search('tid', str(a)):
+                result += a
+
+        if len(result) > 0:
+            return result[0].translate(str.maketrans({';': '；', '!': '！', ':': '：', '/': '／'}))
+        else:
+            return ''
 
 
 # checklist.txtからチェックリストの配列を得る
