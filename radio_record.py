@@ -199,9 +199,14 @@ if __name__ == '__main__':
         operation_str = '超A&G'
         # 現在放送中番組名を取得
         req = urllib.request.Request(url=AGQR_VALIDATE_API_URI)
-        response = urllib.request.urlopen(req).read()
-        json_data = json.loads(response)
-        program_name_from_api = json_data['title']
+        try:
+            response = urllib.request.urlopen(req).read()
+        except Exception as e:
+            print(e)
+            response = ''
+        if response != '':
+            json_data = json.loads(response)
+            program_name_from_api = json_data['title']
 
         # 保存ファイル名(拡張子無し)
         filename_without_path = f'{dt}_{program_name}'
@@ -225,17 +230,20 @@ if __name__ == '__main__':
 
         # 放送局IDから放送局名を取得現在放送中番組名を取得
         req = urllib.request.Request(RADIKO_PROGRAM_INFO_URI)
-        with urllib.request.urlopen(req) as response:
-            xml_string = response.read()
-
-        xml_root = elementTree.fromstring(xml_string)
-
-        for station in xml_root.findall('./stations/station'):
-            if station.attrib['id'] == station_id:
-                station_name = station.find('name').text
-                # 番組名取得(現在放送中xmlから取れるのは直近の2番組なので、1番目を取得)
-                # Radikoくんは放送時間ぴったりだと直前の番組が1番目になっているので、2番目を取るようにしてみる
-                program_name_from_api = station.findall('progs/prog')[1].find('title').text
+        try:
+            with urllib.request.urlopen(req) as response:
+                xml_string = response.read()
+        except Exception as e:
+            print(e)
+            xml_string = ''
+        if xml_string != '':
+            xml_root = elementTree.fromstring(xml_string)
+            for station in xml_root.findall('./stations/station'):
+                if station.attrib['id'] == station_id:
+                    station_name = station.find('name').text
+                    # 番組名取得(現在放送中xmlから取れるのは直近の2番組なので、1番目を取得)
+                    # Radikoくんは放送時間ぴったりだと直前の番組が1番目になっているので、2番目を取るようにしてみる
+                    program_name_from_api = station.findall('progs/prog')[1].find('title').text
 
         # ストリームURIとtoken
         auth_info = radikoauth.main(station_id)
