@@ -41,7 +41,7 @@ OUTPUT_PATH = f'{SCRIPT_DIR}/../98 PSP用/agqr'
 TMP_PATH = f'{OUTPUT_PATH}/flv'
 FLG_PATH = f'{OUTPUT_PATH}/flg'
 AGQR_STREAM_URI = 'http://ic-www.uniqueradio.jp/iphone/3G.m3u8'
-AGQR_VALIDATE_API_URI = 'https://agqr.sun-yryr.com/api/now'
+AGQR_VALIDATE_API_URI = 'http://localhost:1234/api/now'
 RADIKO_PROGRAM_INFO_URI = 'http://radiko.jp/v3/program/now/JP8.xml'
 RADIKO_LOCATION_INFO_FILE = f'{SCRIPT_DIR}/loc_radiko'
 with open(RADIKO_LOCATION_INFO_FILE) as file:
