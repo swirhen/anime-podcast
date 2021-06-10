@@ -57,9 +57,11 @@ def multiupload(file_path):
 
 
 # 終了のあとしまつ
-def end(exit_code):
+def end(proc_date):
     os.remove(FLG_FILE)
-    exit(exit_code)
+    # 直近処理時間記録
+    swiutil.writefile_new(LAST_CHECK_DATE_FILE, proc_date)
+    exit(0)
 
 
 # main section
@@ -224,7 +226,7 @@ def main():
         post_msg = 'swirhen.tv auto publish completed. (no new episode)'
         multipost(post_msg)
         logging(post_msg)
-        end(0)
+        end(now_date)
 
     # seedダウンロード・seed育成処理開始
     dl_links = []
@@ -305,10 +307,7 @@ def main():
     multipost('swirhen.tv auto publish completed.')
     multiupload(LOG_FILE)
 
-    # 直近処理時間記録
-    swiutil.writefile_new(LAST_CHECK_DATE_FILE, now_date)
-
-    end(0)
+    end(now_date)
 
 
 if __name__ == '__main__':
