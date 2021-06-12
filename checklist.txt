@@ -1,4 +1,6 @@
-Last Update: 2021/06/12-12:00:01
+Last Update: 2021/06/12-18:00:02
+2021/06/12-18:00:02 36 Dqdai|ドラゴンクエスト ダイの大冒険
+2021/06/12-18:00:02 10 Subarashiki Kono Sekai the Animation|すばらしきこのせかい The Animation
 2021/06/12-12:00:01 11 Mashiro no Oto|ましろのおと
 2021/06/12-12:00:01 10 Blue Reflection Ray|BLUE REFLECTION RAY／澪
 2021/06/12-06:00:01 23 Back Arrow|バック・アロウ
@@ -44,5 +46,3 @@ Last Update: 2021/06/12-12:00:01
 2021/06/06-00:00:02 11 Boku no Hero Academia 5|僕のヒーローアカデミア(第5期)
 2021/06/06-00:00:02 09 Slime300|スライム倒して300年、知らないうちにレベルMAXになってました
 2021/06/06-00:00:02 08 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
-2021/06/05-18:00:02 35 Dqdai|ドラゴンクエスト ダイの大冒険
-2021/06/05-12:00:02 09 Subarashiki Kono Sekai the Animation|すばらしきこのせかい The Animation
