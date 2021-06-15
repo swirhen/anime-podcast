@@ -2,6 +2,7 @@
 .idea
 *.iml
 *.temp
+*.db
 agqr
 autopub_running
 logs
@@ -14,5 +15,4 @@ python-lib/*token*
 python-lib/*.pid
 python-lib/*.db
 python-lib/*webhook*
-*.db
 last_check_date.txt
