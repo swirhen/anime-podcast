@@ -29,7 +29,7 @@ def choice_the_picture(urlflag=False):
     if urlflag:
         return choiced_file_path.replace('/data', 'http://swirhen.tv')
     else:
-        return recent_filelist[1:] + [choiced_file_path]
+        return (recent_filelist[1:] + [choiced_file_path])
 
 
 def reply_url_the_picture():
