@@ -13,12 +13,12 @@ tmp=`readlink -f "$PWD"`
 drive=`expr "$tmp" : "\/\(data.\?\)\/.*"`
 # しゅつりょくさきがしていされてるばあい そっち
 if [ "${2:-null}" != null -o "${2:-null}" != "" ]; then
-  tmp=`readlink -f "$2"`
-  drive=`expr "$tmp" : "\/\(data.\?\)\/.*"`
+    tmp=`readlink -f "$2"`
+    drive=`expr "$tmp" : "\/\(data.\?\)\/.*"`
 fi
 # わからないばあいは /data
 if [ ${drive:-null} = null ] ; then
-  drive=data
+    drive=data
 fi
 # いろいろちぇっく
 # へんなfpsのどうがのばあい 30000/1001にとういつしてごまかす
@@ -29,8 +29,8 @@ echo `egrep '.*tbr.*' /tmp/fps.txt`
 fpsck=`egrep -c '.*(23\.98|29\.97|30\.00|24\.00|25\.00) tbr.*' /tmp/fps.txt`
 opt=""
 if [ $fpsck -eq 0 ]; then
-  echo "# $1 is invalid fps!"
-  opt=$fpsfix
+    echo "# $1 is invalid fps!"
+    opt=$fpsfix
 fi
 # あすぺくとひをじどうはんべつする
 echo "$1 aspect check"
@@ -40,27 +40,27 @@ asw=`echo $asck | cut -d"," -f3 | cut -d"x" -f1 | sed "s/\s//g"`
 ash=`echo $asck | cut -d"," -f3 | cut -d"x" -f2 | sed "s/\s//g"`
 echo "width: $asw"
 if [ ${#ash} -gt 4 ]; then
-  ash=`echo $ash | cut -d"[" -f1`
+    ash=`echo $ash | cut -d"[" -f1`
 fi
 echo "height: $ash"
 # あすぺくとひをじどうはんべつする
 aspect=`echo "scale=2; $ash / $asw" | bc`
 wide="32:27"
 if [ $aspect = ".75" ]; then
-	echo "# $1 is 4:3!"
-	wide="8:9"
+    echo "# $1 is 4:3!"
+    wide="8:9"
 fi
 if [ $asw = "1440" -a $ash = "1080" ]; then
-	echo "# $1 is 4:3... no! 16:9!"
-	wide="32:27"
+    echo "# $1 is 4:3... no! 16:9!"
+    wide="32:27"
 fi
 if [ ${5:-null} = "1" ]; then
-  echo "# comp 16:9"
-  wide="32:27"
+    echo "# comp 16:9"
+    wide="32:27"
 fi
 if [ ${5:-null} = "0" ]; then
-  echo "# comp 4:3"
-  wide="8:9"
+    echo "# comp 4:3"
+    wide="8:9"
 fi
 size="960x540"
 if [ $asw = "640" -a $ash = "480" ]; then

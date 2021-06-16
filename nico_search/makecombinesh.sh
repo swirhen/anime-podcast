@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 if [ $# = 0 ]; then
-	echo "usage $0 [/data/share/temp/voiceactor_nico_ch/temp on date dir]"
-	exit 1
+    echo "usage $0 [/data/share/temp/voiceactor_nico_ch/temp on date dir]"
+    exit 1
 fi
 cd /data/share/temp/voiceactor_nico_ch
 cat /dev/null > combine.sh
