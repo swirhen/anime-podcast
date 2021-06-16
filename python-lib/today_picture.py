@@ -42,7 +42,7 @@ def reply_url_the_picture():
 def upload_the_picture():
     filelist = choice_the_picture()
     swiutil.discord_post(CHANNEL, 'どどんどどんどんどん！\n'
-                        'きょうの一枚はこれだ！(すいれん.tv のとあるディレクトリから画像をランダムに抽出)')
+                        'きょうの一枚はこれだ！')
     swiutil.discord_upload(CHANNEL, filelist[-1])
     with open(RECENT_LIST, mode='w') as file:
         file.write('\n'.join(filelist))
