@@ -42,6 +42,7 @@ def reply_url_the_picture():
 
 def upload_the_picture():
     filelist = choice_the_picture()
+    print('\n'.join(filelist))
     swiutil.discord_post(CHANNEL, 'どどんどどんどんどん！\n'
                         'きょうの一枚はこれだ！')
     swiutil.discord_upload(CHANNEL, filelist[-1])
