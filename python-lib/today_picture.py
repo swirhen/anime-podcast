@@ -3,6 +3,7 @@
 # すいれんさんの待ち受け画像貯蔵ディレクトリ(2021年以降)から画像を1枚ランダムで表示する
 # 直近30枚からは表示しない
 # import section
+import os
 import subprocess
 import random
 import pathlib
@@ -19,8 +20,10 @@ CHANNEL = 'bot-open'
 
 def choice_the_picture(urlflag=False):
     fileset = set(subprocess.run(f'find {PIC_DIR} -type f -newermt "2021-01-01"', shell=True, stdout=subprocess.PIPE).stdout.decode().strip().splitlines())
-    with open(RECENT_LIST) as file:
-        recent_filelist = file.read().splitlines()
+    recent_filelist = []
+    if os.path.exists(RECENT_LIST):
+        with open(RECENT_LIST) as file:
+            recent_filelist = file.read().splitlines()
     choiced_file_path = random.choice(list(fileset - set(recent_filelist)))
 
     if urlflag:

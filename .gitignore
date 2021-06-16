@@ -15,4 +15,5 @@ python-lib/*token*
 python-lib/*.pid
 python-lib/*.db
 python-lib/*webhook*
+python-lib/today_picture_recent.txt
 last_check_date.txt
