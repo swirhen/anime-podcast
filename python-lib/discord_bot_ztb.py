@@ -10,6 +10,7 @@ import bot_util as bu
 import swirhentv_util as swiutil
 sys.path.append('/home/swirhen/sh/checker/torrentsearch')
 import torrentsearch as trsc
+import today_picture
 
 # argument section
 SHARE_TEMP_DIR = '/data/share/temp'
@@ -44,7 +45,7 @@ async def on_message(message):
     # 「/neko」と発言したら「にゃーん」が返る処理
     if message.content == '/neko':
         await message.channel.send('にゃーん')
-    
+
     if message.channel.name == 'twitter-search':
         # ホロメン twitter検索
         if re.search('^/hts.*', message.content):
@@ -99,7 +100,7 @@ async def on_message(message):
             await message.channel.send(post_str)
 
         # swirhen.tv feed検索
-        if re.search('^/sws.*', message.content):
+        elif re.search('^/sws.*', message.content):
             argument = re.sub(r'^/sws', '', message.content).strip()
             if argument != '':
                 await message.channel.send(f'さがしてくるぺこ！(｀・ω・´) 検索キーワード: {argument}')
@@ -142,6 +143,11 @@ async def on_message(message):
                     await message.channel.send('ねぇぺこ(´・ω・`)')
             else:
                 await message.channel.send(bu.generate_message('usage_swirhentv_feed_search'))
+
+        # 画像おみくじ
+        elif message.content == '/jpg':
+            rep = today_picture.reply_url_the_picture()
+            await message.channel.send(rep)
 
         # 種リスト
         elif re.search('^/tl.*', message.content):

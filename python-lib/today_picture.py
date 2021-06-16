@@ -14,8 +14,8 @@ current_dir = pathlib.Path(__file__).resolve().parent
 SCRIPT_DIR = str(current_dir)
 RECENT_LIST = f'{SCRIPT_DIR}/today_picture_recent.txt'
 PIC_DIR = '/data/share/temp/wallpaper*'
-CHANNEL = 'bot-open'
-# CHANNEL = 'ztb_bot-sandbox'
+# CHANNEL = 'bot-open'
+CHANNEL = 'ztb_bot-sandbox'
 
 
 def choice_the_picture(urlflag=False):
@@ -30,6 +30,14 @@ def choice_the_picture(urlflag=False):
         return choiced_file_path.replace('/data', 'http://swirhen.tv')
     else:
         return recent_filelist[1:] + [choiced_file_path]
+
+
+def reply_url_the_picture():
+    fileurl = choice_the_picture(True)
+    reply_text = '画像おみくじ　ぬん₍₍ ◝((๑╹ᆺ╹))◟ ⁾⁾ぬん\n' \
+                '(すいれん.tv のとあるディレクトリから画像をランダムに抽出)\n' \
+                f'{fileurl}'
+    return reply_text
 
 
 def upload_the_picture():

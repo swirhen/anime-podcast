@@ -9,6 +9,7 @@ import bot_util as bu
 import swirhentv_util as swiutil
 sys.path.append('/home/swirhen/sh/checker/torrentsearch')
 import torrentsearch as trsc
+import today_picture
 
 # argument section
 SHARE_TEMP_DIR = '/data/share/temp'
@@ -43,6 +44,11 @@ async def on_message(message):
     # 「/neko」と発言したら「にゃーん」が返る処理
     if message.content == '/neko':
         await message.channel.send('にゃーん')
+
+    # 画像おみくじ
+    elif message.content == '/jpg':
+        rep = today_picture.reply_url_the_picture()
+        await message.channel.send(rep)
 
     # 種情報
     elif re.search('^/seed.*', message.content):
