@@ -87,3 +87,6 @@ MAILTO=""
 15,45 * * * * python /data/share/movie/sh/radio_record.py crl
 5,35 * * * * python /data/share/movie/sh/radio_record.py cr
 6 0 * * * python /data/share/movie/sh/radio_record.py cr force
+
+# きょうのいちまい
+0 12 * * * python /data/share/movie/sh/python-lib/today_picture.py
