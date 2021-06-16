@@ -14,8 +14,8 @@ current_dir = pathlib.Path(__file__).resolve().parent
 SCRIPT_DIR = str(current_dir)
 RECENT_LIST = f'{SCRIPT_DIR}/today_picture_recent.txt'
 PIC_DIR = '/data/share/temp/wallpaper*'
-# CHANNEL = 'ztb_today_pic'
-CHANNEL = 'bot-open'
+CHANNEL = 'ztb_today_pic'
+# CHANNEL = 'bot-open'
 
 
 def choice_the_picture(urlflag=False):
@@ -29,7 +29,7 @@ def choice_the_picture(urlflag=False):
     if urlflag:
         return choiced_file_path.replace('/data', 'http://swirhen.tv')
     else:
-        return (recent_filelist[-3:] + [choiced_file_path])
+        return (recent_filelist[-29:] + [choiced_file_path])
 
 
 def reply_url_the_picture():
