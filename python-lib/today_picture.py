@@ -24,13 +24,12 @@ def choice_the_picture(urlflag=False):
     if os.path.exists(RECENT_LIST):
         with open(RECENT_LIST) as file:
             recent_filelist = file.read().splitlines()
-    print(recent_filelist)
     choiced_file_path = random.choice(list(fileset - set(recent_filelist)))
 
     if urlflag:
         return choiced_file_path.replace('/data', 'http://swirhen.tv')
     else:
-        return (recent_filelist[1:] + [choiced_file_path])
+        return (recent_filelist[-3:] + [choiced_file_path])
 
 
 def reply_url_the_picture():
