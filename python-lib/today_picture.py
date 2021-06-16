@@ -31,7 +31,7 @@ def choice_the_picture(urlflag=False):
 
 def upload_the_picture():
     filelist = choice_the_picture()
-    swiutil.discord_post('どどんどどんどんどん！\n'
+    swiutil.discord_post(CHANNEL, 'どどんどどんどんどん！\n'
                         'きょうの一枚はこれだ！(すいれん.tv のとあるディレクトリから画像をランダムに抽出)')
     swiutil.discord_upload(CHANNEL, filelist[-1])
     with open(RECENT_LIST, mode='w') as file:
