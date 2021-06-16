@@ -14,7 +14,8 @@ current_dir = pathlib.Path(__file__).resolve().parent
 SCRIPT_DIR = str(current_dir)
 RECENT_LIST = f'{SCRIPT_DIR}/today_picture_recent.txt'
 PIC_DIR = '/data/share/temp/wallpaper*'
-CHANNEL = 'ztb_today_pic'
+# CHANNEL = 'ztb_today_pic'
+CHANNEL = 'bot-open'
 
 
 def choice_the_picture(urlflag=False):
