@@ -24,7 +24,7 @@ def choice_the_picture(urlflag=False):
     choiced_file_path = random.choice(list(fileset - set(recent_filelist)))
 
     if urlflag:
-        return choiced_file_path.replace('/data', 'swirhen.tv')
+        return choiced_file_path.replace('/data', 'http://swirhen.tv')
     else:
         return recent_filelist[1:] + [choiced_file_path]
 
