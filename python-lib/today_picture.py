@@ -24,6 +24,7 @@ def choice_the_picture(urlflag=False):
     if os.path.exists(RECENT_LIST):
         with open(RECENT_LIST) as file:
             recent_filelist = file.read().splitlines()
+    print(recent_filelist)
     choiced_file_path = random.choice(list(fileset - set(recent_filelist)))
 
     if urlflag:
@@ -42,7 +43,6 @@ def reply_url_the_picture():
 
 def upload_the_picture():
     filelist = choice_the_picture()
-    print('\n'.join(filelist))
     swiutil.discord_post(CHANNEL, 'どどんどどんどんどん！\n'
                         'きょうの一枚はこれだ！')
     swiutil.discord_upload(CHANNEL, filelist[-1])
