@@ -45,7 +45,7 @@ def upload_the_picture():
     swiutil.discord_post(CHANNEL, 'どどんどどんどんどん！\n'
                         'きょうの一枚はこれだ！\n'
                         f'{filelist[-1].replace("/data", "http://swirhen.tv")}')
-    swiutil.discord_upload(CHANNEL, filelist[-1])
+    # swiutil.discord_upload(CHANNEL, filelist[-1])
     with open(RECENT_LIST, mode='w') as file:
         file.write('\n'.join(filelist))
 
