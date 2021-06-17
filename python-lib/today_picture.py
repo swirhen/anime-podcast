@@ -14,8 +14,8 @@ current_dir = pathlib.Path(__file__).resolve().parent
 SCRIPT_DIR = str(current_dir)
 RECENT_LIST = f'{SCRIPT_DIR}/today_picture_recent.txt'
 PIC_DIR = '/data/share/temp/wallpaper*'
-CHANNEL = 'ztb_today_pic'
-# CHANNEL = 'bot-open'
+# CHANNEL = 'ztb_today_pic'
+CHANNEL = 'bot-open'
 
 
 def choice_the_picture(urlflag=False):
@@ -43,7 +43,8 @@ def reply_url_the_picture():
 def upload_the_picture():
     filelist = choice_the_picture()
     swiutil.discord_post(CHANNEL, 'どどんどどんどんどん！\n'
-                        'きょうの一枚はこれだ！')
+                        'きょうの一枚はこれだ！\n'
+                        f'{filelist[-1].replace("/data", "http://swirhen.tv")}')
     swiutil.discord_upload(CHANNEL, filelist[-1])
     with open(RECENT_LIST, mode='w') as file:
         file.write('\n'.join(filelist))
