@@ -47,7 +47,7 @@ async def on_message(message):
         await message.channel.send('にゃーん')
     
     if message.content == '/cname':
-        await message.channel.send(message.channel.name)
+        await message.channel.send(message.author)
 
     if message.channel.name == 'twitter-search':
         # ホロメン twitter検索
