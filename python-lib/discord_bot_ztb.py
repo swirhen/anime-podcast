@@ -45,6 +45,9 @@ async def on_message(message):
     # 「/neko」と発言したら「にゃーん」が返る処理
     if message.content == '/neko':
         await message.channel.send('にゃーん')
+    
+    if message.content == '/cname':
+        await message.channel.send(message.channel.name)
 
     if message.channel.name == 'twitter-search':
         # ホロメン twitter検索
