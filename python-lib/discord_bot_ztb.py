@@ -46,11 +46,11 @@ async def on_message(message):
     if message.content == '/neko':
         await message.channel.send('にゃーん')
     
-    if type(message.channel) == discord.channel.DMChannel:
-        # 画像おみくじ
-        if message.content == '/jpg':
-            rep = today_picture.reply_url_the_picture()
-            await message.channel.send(rep)
+    # if type(message.channel) == discord.channel.DMChannel:
+    #     # 画像おみくじ
+    #     if message.content == '/jpg':
+    #         rep = today_picture.reply_url_the_picture()
+    #         await message.channel.send(rep)
 
     if message.channel.name == 'twitter-search':
         # ホロメン twitter検索
@@ -83,7 +83,7 @@ async def on_message(message):
             else:
                 await message.channel.send('そのこはここ1週間postがないにぇ(´・ω・`)しんでんで...')
 
-    if message.channel.name == 'bot-sandbox':
+    elif type(message.channel) == discord.channel.DMChannel or message.channel.name == 'bot-sandbox':
         # MHRize 期待値計算
         if re.search('^/wex.*', message.content):
             arguments = message.content.split()
@@ -208,6 +208,11 @@ async def on_message(message):
                     os.remove(result_file_name)
                 else:
                     await message.channel.send(result)
+
+        # 画像おみくじ
+        elif message.content == '/jpg':
+            rep = today_picture.reply_url_the_picture()
+            await message.channel.send(rep)
 
 
 if __name__ == "__main__":
