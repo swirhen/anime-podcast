@@ -81,7 +81,7 @@ async def on_message(message):
                 await message.channel.send('そのこはここ1週間postがないにぇ(´・ω・`)しんでんで...')
         
     if message.channel.name == 'bot-sandbox' or \
-        type(message.channel) == discord.DMChannel:
+        type(message.channel) == discord.channel.DMChannel:
         # MHRize 期待値計算
         if re.search('^/wex.*', message.content):
             arguments = message.content.split()
