@@ -80,7 +80,8 @@ async def on_message(message):
             else:
                 await message.channel.send('そのこはここ1週間postがないにぇ(´・ω・`)しんでんで...')
         
-    if message.channel.name == 'bot-sandbox' or message.channel.name == 'swirhen.tv':
+    if message.channel.name == 'bot-sandbox' or \
+        type(message.channel) == discord.DMChannel and client.user == message.channel.me:
         # MHRize 期待値計算
         if re.search('^/wex.*', message.content):
             arguments = message.content.split()
