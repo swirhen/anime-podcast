@@ -77,7 +77,8 @@ async def on_message(message):
                                 f'予約番号: {jobnum} 予約日時: {strrdate}\n' \
                                 f'実行コマンド: {reccommand}'
                 else:
-                    post_str = 'なんかうまくいかなかった余(´・ω・`)'
+                    post_str = 'なんかうまくいかんかった余(´・ω・`)' \
+                                f'エラーメッセージ: {result}'
                 await message.channel.send(post_str)
             elif len(arguments) == 3:
                 if type(result) == list:
@@ -88,7 +89,7 @@ async def on_message(message):
                                 f'予約番号: {jobnum} 予約日時: {strrdate}\n' \
                                 f'実行コマンド: {reccommand}'
                 else:
-                    post_str = 'なんかうまくいかなかった余(´・ω・`)\n' \
+                    post_str = 'なんかうまくいかんかった余(´・ω・`)\n' \
                                 f'エラーメッセージ: {result}'
                 await message.channel.send(post_str)
             elif len(arguments) == 2 and arguments[1] == 'l':

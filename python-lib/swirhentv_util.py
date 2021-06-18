@@ -599,7 +599,7 @@ def record_reserver(year='', mon='', day='', hour='', minutes='', rec_time='', p
             jobdate = dt.strptime(f'{year}/{mon}/{day} {hour}:{minutes}', '%Y/%m/%d %H:%M')
             return [jobnum, jobdate, reccommand]
         else:
-            return 'unknown error'
+            return ret.stderr.decode().strip()
 
 
 # 放送局名<->放送局ID相互取得
