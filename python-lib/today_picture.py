@@ -37,9 +37,13 @@ def choice_the_picture(urlflag=False, year=''):
         return (recent_filelist[-29:] + [choiced_file_path])
 
 
-def reply_url_the_picture():
-    fileurl = choice_the_picture(True)
-    reply_text = '画像おみくじ　ぬん₍₍ ◝((๑╹ᆺ╹))◟ ⁾⁾ぬん\n' \
+def reply_url_the_picture(year=''):
+    if year != '':
+        fileurl = choice_the_picture(True, year)
+        app_str = f'({year}年のやつ)'
+    else:
+        fileurl = choice_the_picture(True)
+    reply_text = f'画像おみくじ　ぬん₍₍ ◝((๑╹ᆺ╹))◟ ⁾⁾ぬん {app_str}\n' \
                 '(すいれん.tv のとあるディレクトリから画像をランダムに抽出)\n' \
                 f'{fileurl}'
     return reply_text
