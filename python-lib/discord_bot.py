@@ -104,8 +104,12 @@ async def on_message(message):
             await message.channel.send(post_str)
 
     # 画像おみくじ
-    elif message.content == '/jpg':
-        rep = today_picture.reply_url_the_picture()
+    elif re.search('^/jpg.*', message.content):
+        arguments = message.content.split()
+        if len(arguments) == 2:
+            rep = today_picture.reply_url_the_picture(arguments[1])
+        else:
+            rep = today_picture.reply_url_the_picture()
         await message.channel.send(rep)
 
     # 種情報
