@@ -11,6 +11,7 @@ import swirhentv_util as swiutil
 sys.path.append('/home/swirhen/sh/checker/torrentsearch')
 import torrentsearch as trsc
 import today_picture
+from datetime import datetime as dt
 
 # argument section
 SHARE_TEMP_DIR = '/data/share/temp'
@@ -51,10 +52,62 @@ async def on_message(message):
     #     if message.content == '/jpg':
     #         rep = today_picture.reply_url_the_picture()
     #         await message.channel.send(rep)
-
+    
     if type(message.channel) == discord.channel.DMChannel or message.channel.name == 'bot-sandbox':
+        # swirhen.tv 録音予約
+        if re.search('^/rrr.*', message.content):
+            arguments = message.content.split()
+            if len(arguments) == 9:
+                result = swiutil.record_reserver(arguments[1], arguments[2], arguments[3], arguments[4], arguments[5], arguments[6], arguments[7], arguments[8])
+            elif len(arguments) == 10:
+                result = swiutil.record_reserver(arguments[1], arguments[2], arguments[3], arguments[4], arguments[5], arguments[6], arguments[7], arguments[8], arguments[9])
+            elif len(arguments) == 3 and arguments[1] == 'd':
+                result = swiutil.record_reserver(arguments[1], arguments[2])
+            elif len(arguments) == 2 and arguments[1] == 'l':
+                result = swiutil.record_reserver()
+            else:
+                await message.channel.send(bu.generate_message('usage_radio_record_reserver'))
+                return
+            if len(arguments) in [9, 10]:
+                if type(result) == list:
+                    jobnum = result[0]
+                    strrdate = dt.strftime(result[1], '%Y/%m/%d %H:%M')
+                    reccommand = result[2]
+                    post_str = f'[swirhen.tv radio record reserver] 予約した余(｀・ω・´)\n' \
+                                f'予約番号: {jobnum} 予約日時: {strrdate}\n' \
+                                f'実行コマンド: {reccommand}'
+                else:
+                    post_str = 'なんかうまくいかなかった余(´・ω・`)'
+                await message.channel.send(post_str)
+            elif len(arguments) == 3:
+                if type(result) == list:
+                    jobnum = result[0]
+                    strrdate = dt.strftime(result[1], '%Y/%m/%d %H:%M')
+                    reccommand = result[2]
+                    post_str = f'[swirhen.tv radio record reserver] 予約削除した余(｀・ω・´)\n' \
+                                f'予約番号: {jobnum} 予約日時: {strrdate}\n' \
+                                f'実行コマンド: {reccommand}'
+                else:
+                    post_str = 'なんかうまくいかなかった余(´・ω・`)\n' \
+                                f'エラーメッセージ: {result}'
+                await message.channel.send(post_str)
+            elif len(arguments) == 2 and arguments[1] == 'l':
+                if len(result) != 0:
+                    post_str = f'[swirhen.tv radio record reserver] 予約リストを表示する余(｀・ω・´)\n' \
+                                '```'
+                    for jobinfo in result:
+                        jobnum = jobinfo[0]
+                        strrdate = dt.strftime(jobinfo[1], '%Y/%m/%d %H:%M')
+                        reccommand = jobinfo[2]
+                        post_str += f'予約番号: {jobnum} 予約日時: {strrdate}\n' \
+                                    f'実行コマンド: {reccommand}\n'
+                    post_str += '```'
+                else:
+                    post_str = '予約リストない余(´・ω・`)'
+                await message.channel.send(post_str)
+
         # MHRize 期待値計算
-        if re.search('^/wex.*', message.content):
+        elif re.search('^/wex.*', message.content):
             arguments = message.content.split()
             melee = '0'
             sharpness = ''
