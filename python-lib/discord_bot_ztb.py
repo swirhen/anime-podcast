@@ -77,7 +77,7 @@ async def on_message(message):
                                 f'予約番号: {jobnum} 予約日時: {strrdate}\n' \
                                 f'実行コマンド: {reccommand}'
                 else:
-                    post_str = 'なんかうまくいかんかった余(´・ω・`)' \
+                    post_str = 'なんかうまくいかんかった余(´・ω・`)\n' \
                                 f'エラーメッセージ: {result}'
                 await message.channel.send(post_str)
             elif len(arguments) == 3:
