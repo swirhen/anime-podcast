@@ -539,3 +539,36 @@ def feed_search(argument):
             result.extend(temp_list)
 
     return result
+
+
+# radiko & agqr 録画予約
+def record_reserver(year='', mon='', day='', time='', minutes='', rec_time='', program_name='', station=''):
+    if year == '':
+        # 引数がない場合は予約リストを返す
+        result = []
+        joblist = subprocess.run('atq | awk \'{print $1"|"$2,$3,$4,$5,$6}\'', shell=True, stdout=subprocess.PIPE).stdout.decode().splitlines()
+        for jobinfo in joblist:
+            jobnum = jobinfo.split('|')[0]
+            jobdate = dt.strptime(jobinfo.split('|')[1], '%a %b %d %H:%M:%S %Y')
+            jobcommand = subprocess.run(f'at -c {jobnum} | tail -2 | head -1', shell=True, stdout=subprocess.PIPE).stdout.decode().strip()
+            result.append([jobnum, jobdate, jobcommand])
+    else:
+        # 引数がある場合は予約する
+        if station == 'agqr':
+            mode_str = 'a'
+        else:
+            mode_str = 'r'
+        reccommand = f"python /data/share/movie/sh/radio_record.py "
+
+
+# 放送局名<->放送局ID相互取得
+def get_station_id_and_name(station_id_or_name):
+    station_list = subprocess.run('curl http://radiko.jp/v3/program/now/JP8.xml | rg "station id" -A 1 | rg -v "\-\-" | sed "s/.*<.*>\\(.*\\)<\\/.*>/\\1/" | sed "s/.*=\\"\\(.*\\)\\">/\\1|/g" | sed -z "s/|\\n/ /g"', shell=True, stdout=subprocess.PIPE).stdout.decode().splitlines()
+    station_info_list = []
+    for station_info in station_list:
+        station_id = station_info.split()[0]
+        station_name = station_info.split()[1]
+        if station_id_or_name == station_id or \
+            re.search(station_id_or_name, station_name) or \
+            station_id_or_name == station_name:
+            return [station_id, station_name]
