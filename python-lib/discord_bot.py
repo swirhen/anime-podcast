@@ -10,6 +10,7 @@ import swirhentv_util as swiutil
 sys.path.append('/home/swirhen/sh/checker/torrentsearch')
 import torrentsearch as trsc
 import today_picture
+from datetime import datetime as dt
 
 # argument section
 SHARE_TEMP_DIR = '/data/share/temp'
