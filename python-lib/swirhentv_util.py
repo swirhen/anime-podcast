@@ -555,7 +555,7 @@ def record_reserver(year='', mon='', day='', hour='', minutes='', rec_time='', p
         return result
     elif year == 'd':
         deljob_info = []
-        # 年に'del'と入ってきた場合は削除モード。2個目の引数をjob番号にして削除する
+        # 年に'd'と入ってきた場合は削除モード。2個目の引数をjob番号にして削除する
         joblist = subprocess.run('atq | awk \'{print $1"|"$2,$3,$4,$5,$6}\'', shell=True, stdout=subprocess.PIPE).stdout.decode().splitlines()
         for jobinfo in joblist:
             jobnum = jobinfo.split('|')[0]
