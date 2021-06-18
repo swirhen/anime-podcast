@@ -589,7 +589,7 @@ def record_reserver(year='', mon='', day='', hour='', minutes='', rec_time='', p
             station_id = get_station_id_and_name(station)[0]
             rec_offset = '1'
             real_rec_time = str(int(rec_time) + 30)
-            reccommand = f'python /data/share/movie/sh/radio_record.py {mode_str} "{program_name}" {rec_offset} {real_rec_time}'
+            reccommand = f'python /data/share/movie/sh/radio_record.py {mode_str} "{program_name}" {rec_offset} {real_rec_time} {station_id}'
         print(f'echo "{reccommand}" | at "{hour}:{minutes} {year}-{mon}-{day}"')
         ret = subprocess.run(f'echo "{reccommand}" | at "{hour}:{minutes} {year}-{mon}-{day}"', shell=True, stderr=subprocess.PIPE)
         print(ret.stderr.decode().splitlines())
