@@ -47,12 +47,6 @@ async def on_message(message):
     if message.content == '/neko':
         await message.channel.send('にゃーん')
     
-    # if type(message.channel) == discord.channel.DMChannel:
-    #     # 画像おみくじ
-    #     if message.content == '/jpg':
-    #         rep = today_picture.reply_url_the_picture()
-    #         await message.channel.send(rep)
-    
     if type(message.channel) == discord.channel.DMChannel or message.channel.name == 'bot-sandbox':
         # swirhen.tv 録音予約
         if re.search('^/rrr.*', message.content):
@@ -74,8 +68,10 @@ async def on_message(message):
                     strrdate = dt.strftime(result[1], '%Y/%m/%d %H:%M')
                     reccommand = result[2]
                     post_str = f'[swirhen.tv radio record reserver] 予約した余(｀・ω・´)\n' \
+                                '```' \
                                 f'予約番号: {jobnum} 予約日時: {strrdate}\n' \
-                                f'実行コマンド: {reccommand}'
+                                f'実行コマンド: {reccommand}\n' \
+                                '```'
                 else:
                     post_str = 'なんかうまくいかんかった余(´・ω・`)\n' \
                                 f'エラーメッセージ: {result}'
@@ -86,8 +82,10 @@ async def on_message(message):
                     strrdate = dt.strftime(result[1], '%Y/%m/%d %H:%M')
                     reccommand = result[2]
                     post_str = f'[swirhen.tv radio record reserver] 予約削除した余(｀・ω・´)\n' \
+                                '```' \
                                 f'予約番号: {jobnum} 予約日時: {strrdate}\n' \
-                                f'実行コマンド: {reccommand}'
+                                f'実行コマンド: {reccommand}\n' \
+                                '```'
                 else:
                     post_str = 'なんかうまくいかんかった余(´・ω・`)\n' \
                                 f'エラーメッセージ: {result}'

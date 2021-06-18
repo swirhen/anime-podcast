@@ -45,6 +45,63 @@ async def on_message(message):
     if message.content == '/neko':
         await message.channel.send('にゃーん')
 
+    # swirhen.tv 録音予約
+    if re.search('^/rrr.*', message.content):
+        arguments = message.content.split()
+        if len(arguments) == 9:
+            result = swiutil.record_reserver(arguments[1], arguments[2].zfill(2), arguments[3].zfill(2), arguments[4].zfill(2), arguments[5].zfill(2), arguments[6], arguments[7], arguments[8])
+        elif len(arguments) == 10:
+            result = swiutil.record_reserver(arguments[1], arguments[2].zfill(2), arguments[3].zfill(2), arguments[4].zfill(2), arguments[5].zfill(2), arguments[6].zfill(2), arguments[7], arguments[8], True)
+        elif len(arguments) == 3 and arguments[1] == 'd':
+            result = swiutil.record_reserver(arguments[1], arguments[2])
+        elif len(arguments) == 2 and arguments[1] == 'l':
+            result = swiutil.record_reserver()
+        else:
+            await message.channel.send(bu.generate_message('usage_radio_record_reserver'))
+            return
+        if len(arguments) == 9 or len(arguments) == 10:
+            if type(result) == list:
+                jobnum = result[0]
+                strrdate = dt.strftime(result[1], '%Y/%m/%d %H:%M')
+                reccommand = result[2]
+                post_str = f'[swirhen.tv radio record reserver] 予約した余(｀・ω・´)\n' \
+                            '```' \
+                            f'予約番号: {jobnum} 予約日時: {strrdate}\n' \
+                            f'実行コマンド: {reccommand}\n' \
+                            '```'
+            else:
+                post_str = 'なんかうまくいかんかった余(´・ω・`)\n' \
+                            f'エラーメッセージ: {result}'
+            await message.channel.send(post_str)
+        elif len(arguments) == 3:
+            if type(result) == list:
+                jobnum = result[0]
+                strrdate = dt.strftime(result[1], '%Y/%m/%d %H:%M')
+                reccommand = result[2]
+                post_str = f'[swirhen.tv radio record reserver] 予約削除した余(｀・ω・´)\n' \
+                            '```' \
+                            f'予約番号: {jobnum} 予約日時: {strrdate}\n' \
+                            f'実行コマンド: {reccommand}\n' \
+                            '```'
+            else:
+                post_str = 'なんかうまくいかんかった余(´・ω・`)\n' \
+                            f'エラーメッセージ: {result}'
+            await message.channel.send(post_str)
+        elif len(arguments) == 2 and arguments[1] == 'l':
+            if len(result) != 0:
+                post_str = f'[swirhen.tv radio record reserver] 予約リストを表示する余(｀・ω・´)\n' \
+                            '```'
+                for jobinfo in result:
+                    jobnum = jobinfo[0]
+                    strrdate = dt.strftime(jobinfo[1], '%Y/%m/%d %H:%M')
+                    reccommand = jobinfo[2]
+                    post_str += f'予約番号: {jobnum} 予約日時: {strrdate}\n' \
+                                f'実行コマンド: {reccommand}\n'
+                post_str += '```'
+            else:
+                post_str = '予約リストない余(´・ω・`)'
+            await message.channel.send(post_str)
+
     # 画像おみくじ
     elif message.content == '/jpg':
         rep = today_picture.reply_url_the_picture()
