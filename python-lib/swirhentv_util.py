@@ -563,11 +563,11 @@ def record_reserver(year='', mon='', day='', time='', minutes='', rec_time='', p
 
 # 放送局名<->放送局ID相互取得
 def get_station_id_and_name(station_id_or_name):
-    station_list = subprocess.run('curl http://radiko.jp/v3/program/now/JP8.xml | rg "station id" -A 1 | rg -v "\-\-" | sed "s/.*<.*>\\(.*\\)<\\/.*>/\\1/" | sed "s/.*=\\"\\(.*\\)\\">/\\1|/g" | sed -z "s/|\\n/ /g"', shell=True, stdout=subprocess.PIPE).stdout.decode().splitlines()
+    station_list = subprocess.run('curl http://radiko.jp/v3/program/now/JP8.xml | rg "station id" -A 1 | rg -v "\-\-" | sed "s/.*<.*>\\(.*\\)<\\/.*>/\\1/" | sed "s/.*=\\"\\(.*\\)\\">/\\1|/g" | sed -z "s/|\\n/|/g"', shell=True, stdout=subprocess.PIPE).stdout.decode().splitlines()
     station_info_list = []
     for station_info in station_list:
-        station_id = station_info.split()[0]
-        station_name = station_info.split()[1]
+        station_id = station_info.split('|')[0]
+        station_name = station_info.split('|')[1]
         if station_id_or_name == station_id or \
             re.search(station_id_or_name, station_name) or \
             station_id_or_name == station_name:
