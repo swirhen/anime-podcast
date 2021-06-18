@@ -27,7 +27,6 @@ MAILTO=""
 #4 8 1,2,3,23,24,27-31 8 * /data/share/movie/sh/rec_nhk.sh NHK1 13560 "/data/share/movie/98 PSP用/agqr/" "夏休み子ども科学電話相談"
 
 # SP
-0 22 17 6 * python /data/share/movie/sh/radio_record.py r "「鬼滅の刃」のオールナイトニッポンGOLD" 1 7230 LFR
 
 # 帯
 0 0 * * 2-5 python /data/share/movie/sh/radio_record.py a "鷲崎健のヨルナイト×ヨルナイト" 30 3600 v
