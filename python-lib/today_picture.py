@@ -43,6 +43,7 @@ def reply_url_the_picture(year=''):
         app_str = f'({year}年のやつ)'
     else:
         fileurl = choice_the_picture(True)
+        app_str = ''
     reply_text = f'画像おみくじ　ぬん₍₍ ◝((๑╹ᆺ╹))◟ ⁾⁾ぬん {app_str}\n' \
                 '(すいれん.tv のとあるディレクトリから画像をランダムに抽出)\n' \
                 f'{fileurl}'
