@@ -18,8 +18,13 @@ CHANNEL = 'ztb_today_pic'
 # CHANNEL = 'bot-open'
 
 
-def choice_the_picture(urlflag=False):
-    fileset = set(subprocess.run(f'find {PIC_DIR} -type f -newermt "2021-01-01"', shell=True, stdout=subprocess.PIPE).stdout.decode().strip().splitlines())
+def choice_the_picture(urlflag=False, year=''):
+    if year == '':
+        fileset = set(subprocess.run(f'find {PIC_DIR} -type f -newermt "2020-12-31"', shell=True, stdout=subprocess.PIPE).stdout.decode().strip().splitlines())
+    else:
+        pyear = str(int(year) - 1)
+        fileset = set(subprocess.run(f'find {PIC_DIR} -type f -newermt "{pyear}-12-31" ! -newermt "{year}-12-31"', shell=True, stdout=subprocess.PIPE).stdout.decode().strip().splitlines())
+
     recent_filelist = []
     if os.path.exists(RECENT_LIST):
         with open(RECENT_LIST) as file:
