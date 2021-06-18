@@ -566,7 +566,6 @@ def record_reserver(year='', mon='', day='', hour='', minutes='', rec_time='', p
                 deljob_info = [jobnum, jobdate, jobcommand]
                 break
         if len(deljob_info) != 0:
-            print(f'at -d {mon}')
             ret = subprocess.run(f'at -d {mon}', shell=True).returncode
             if ret == 0:
                 return deljob_info
@@ -590,12 +589,9 @@ def record_reserver(year='', mon='', day='', hour='', minutes='', rec_time='', p
             rec_offset = '1'
             real_rec_time = str(int(rec_time) + 30)
             reccommand = f'python /data/share/movie/sh/radio_record.py {mode_str} "{program_name}" {rec_offset} {real_rec_time} {station_id}'
-        print(f'echo "{reccommand}" | at "{hour}:{minutes} {year}-{mon}-{day}"')
         ret = subprocess.run(f'echo "{reccommand}" | at "{hour}:{minutes} {year}-{mon}-{day}"', shell=True, stderr=subprocess.PIPE)
-        print(ret.stderr.decode().splitlines())
-        jobnum = ret.stderr.decode().splitlines()[1].split()[1]
-        print(jobnum)
         if ret.returncode == 0:
+            jobnum = ret.stderr.decode().splitlines()[1].split()[1]
             jobdate = dt.strptime(f'{year}/{mon}/{day} {hour}:{minutes}', '%Y/%m/%d %H:%M')
             return [jobnum, jobdate, reccommand]
         else:
