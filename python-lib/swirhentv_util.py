@@ -586,6 +586,8 @@ def record_reserver(year='', mon='', day='', hour='', minutes='', rec_time='', p
         else:
             mode_str = 'r'
             station_id = get_station_id_and_name(station)[0]
+            if station_id == '':
+                return 'station id cannot get'
             rec_offset = '1'
             real_rec_time = str(int(rec_time) + 30)
             reccommand = f'python /data/share/movie/sh/radio_record.py {mode_str} "{program_name}" {rec_offset} {real_rec_time} {station_id}'
