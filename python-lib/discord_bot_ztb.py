@@ -58,9 +58,9 @@ async def on_message(message):
         if re.search('^/rrr.*', message.content):
             arguments = message.content.split()
             if len(arguments) == 9:
-                result = swiutil.record_reserver(arguments[1], arguments[2], arguments[3], arguments[4], arguments[5], arguments[6], arguments[7], arguments[8])
+                result = swiutil.record_reserver(arguments[1], arguments[2].zfill(2), arguments[3].zfill(2), arguments[4].zfill(2), arguments[5].zfill(2), arguments[6], arguments[7], arguments[8])
             elif len(arguments) == 10:
-                result = swiutil.record_reserver(arguments[1], arguments[2], arguments[3], arguments[4], arguments[5], arguments[6], arguments[7], arguments[8], arguments[9])
+                result = swiutil.record_reserver(arguments[1], arguments[2].zfill(2), arguments[3].zfill(2), arguments[4].zfill(2), arguments[5].zfill(2), arguments[6].zfill(2), arguments[7], arguments[8], True)
             elif len(arguments) == 3 and arguments[1] == 'd':
                 result = swiutil.record_reserver(arguments[1], arguments[2])
             elif len(arguments) == 2 and arguments[1] == 'l':
