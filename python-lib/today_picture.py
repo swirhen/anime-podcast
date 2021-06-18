@@ -8,6 +8,7 @@ import subprocess
 import random
 import pathlib
 import swirhentv_util as swiutil
+from datetime import datetime as dt
 
 # argment section
 current_dir = pathlib.Path(__file__).resolve().parent
@@ -20,7 +21,8 @@ CHANNEL = 'ztb_today_pic'
 
 def choice_the_picture(urlflag=False, year=''):
     if year == '':
-        fileset = set(subprocess.run(f'find {PIC_DIR} -type f -newermt "2020-12-31"', shell=True, stdout=subprocess.PIPE).stdout.decode().strip().splitlines())
+        pyear = str(int(dt.now().strftime('%Y')) - 1)
+        fileset = set(subprocess.run(f'find {PIC_DIR} -type f -newermt "{pyear}-12-31"', shell=True, stdout=subprocess.PIPE).stdout.decode().strip().splitlines())
     else:
         pyear = str(int(year) - 1)
         fileset = set(subprocess.run(f'find {PIC_DIR} -type f -newermt "{pyear}-12-31" ! -newermt "{year}-12-31"', shell=True, stdout=subprocess.PIPE).stdout.decode().strip().splitlines())
