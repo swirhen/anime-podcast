@@ -7,6 +7,7 @@ import pathlib
 import re
 import shutil
 import subprocess
+from sys import stderr
 import urllib.request
 import requests
 import time
@@ -542,7 +543,7 @@ def feed_search(argument):
 
 
 # radiko & agqr 録画予約
-def record_reserver(year='', mon='', day='', time='', minutes='', rec_time='', program_name='', station=''):
+def record_reserver(year='', mon='', day='', hour='', minutes='', rec_time='', program_name='', station='', video_flag=False):
     if year == '':
         # 引数がない場合は予約リストを返す
         result = []
@@ -552,13 +553,49 @@ def record_reserver(year='', mon='', day='', time='', minutes='', rec_time='', p
             jobdate = dt.strptime(jobinfo.split('|')[1], '%a %b %d %H:%M:%S %Y')
             jobcommand = subprocess.run(f'at -c {jobnum} | tail -2 | head -1', shell=True, stdout=subprocess.PIPE).stdout.decode().strip()
             result.append([jobnum, jobdate, jobcommand])
+        return result
+    elif year == 'del':
+        deljob_info = []
+        # 年に'del'と入ってきた場合は削除モード。2個目の引数をjob番号にして削除する
+        joblist = subprocess.run('atq | awk \'{print $1"|"$2,$3,$4,$5,$6}\'', shell=True, stdout=subprocess.PIPE).stdout.decode().splitlines()
+        for jobinfo in joblist:
+            jobnum = jobinfo.split('|')[0]
+            if jobnum == mon:
+                jobdate = dt.strptime(jobinfo.split('|')[1], '%a %b %d %H:%M:%S %Y')
+                jobcommand = subprocess.run(f'at -c {jobnum} | tail -2 | head -1', shell=True, stdout=subprocess.PIPE).stdout.decode().strip()
+                deljob_info = [jobnum, jobdate, jobcommand]
+                break
+        if len(deljob_info) != 0:
+            print(f'at -d {mon}')
+            ret = subprocess.run(f'at -d {mon}', shell=True).returncode
+            if ret == 0:
+                return deljob_info
+            else:
+                return f'unknown error. jobid {mon} not delete'
+        else:
+            return f'jobid {mon} is not found. not delete'
     else:
         # 引数がある場合は予約する
+        reccommand = ''
         if station == 'agqr':
             mode_str = 'a'
+            rec_offset = '30'
+            real_rec_time = rec_time
+            if video_flag:
+                video_flag_str = ' v'
+            reccommand = f'python /data/share/movie/sh/radio_record.py {mode_str} "{program_name}" {rec_offset} {real_rec_time}{video_flag_str}'
         else:
             mode_str = 'r'
-        reccommand = f"python /data/share/movie/sh/radio_record.py "
+            station_id = get_station_id_and_name(station)[0]
+            rec_offset = '1'
+            real_rec_time = str(int(rec_time) + 30)
+            reccommand = f'python /data/share/movie/sh/radio_record.py {mode_str} "{program_name}" {rec_offset} {real_rec_time}'
+        print(f'echo "{reccommand}" | at "{hour}:{minutes} {year}-{mon}-{day}"')
+        ret = subprocess.run(f'echo "{reccommand}" | at "{hour}:{minutes} {year}-{mon}-{day}"', shell=True, stderr=subprocess.PIPE)
+        print(ret.stderr.decode().splitlines())
+        jobnum = ret.stderr.decode().splitlines()[1].split()[1]
+        print(jobnum)
+        return jobnum
 
 
 # 放送局名<->放送局ID相互取得
