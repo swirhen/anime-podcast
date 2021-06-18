@@ -30,7 +30,6 @@ SYOBOCAL_URI = 'http://cal.syoboi.jp/find?sd=0&kw='
 SWIRHENTV_URI = 'http://swirhen.tv/movie/pspmp4/'
 FEED_DB = f'{SCRIPT_DIR}/swirhentv_feed.db'
 NYAA_MOVIE_FEED_DB = f'{SCRIPT_DIR}/../nyaa_movie_feed.db'
-RADIKO_STATION_INFO_LIST = subprocess.run('curl http://radiko.jp/v3/program/now/JP8.xml | rg "station id" -A 1 | rg -v "\-\-" | sed "s/.*<.*>\\(.*\\)<\\/.*>/\\1/" | sed "s/.*=\\"\\(.*\\)\\">/\\1|/g" | sed -z "s/|\\n/|/g"', shell=True, stdout=subprocess.PIPE).stdout.decode().splitlines()
 
 # slackにpostする
 def slack_post(channel, text, username='swirhentv', icon_emoji=''):
@@ -602,10 +601,14 @@ def record_reserver(year='', mon='', day='', hour='', minutes='', rec_time='', p
 
 # 放送局名<->放送局ID相互取得
 def get_station_id_and_name(station_id_or_name):
-    for station_info in RADIKO_STATION_INFO_LIST:
+    radiko_station_info_list = subprocess.run('curl http://radiko.jp/v3/program/now/JP8.xml | rg "station id" -A 1 | rg -v "\-\-" | sed "s/.*<.*>\\(.*\\)<\\/.*>/\\1/" | sed "s/.*=\\"\\(.*\\)\\">/\\1|/g" | sed -z "s/|\\n/|/g"', shell=True, stdout=subprocess.PIPE).stdout.decode().splitlines()
+    result = []
+    for station_info in radiko_station_info_list:
         station_id = station_info.split('|')[0]
         station_name = station_info.split('|')[1]
         if station_id_or_name == station_id or \
             re.search(station_id_or_name, station_name) or \
             station_id_or_name == station_name:
-            return [station_id, station_name]
+            result = [station_id, station_name]
+            break
+    return result
