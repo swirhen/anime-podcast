@@ -596,7 +596,7 @@ def record_reserver(year='', mon='', day='', hour='', minutes='', rec_time='', p
         jobnum = ret.stderr.decode().splitlines()[1].split()[1]
         print(jobnum)
         if ret.returncode == 0:
-            jobdate = dt.strptime(f'{year}/{mon}/{day} {hour}:{min}', '%Y/%m/%d %H:%M')
+            jobdate = dt.strftime(f'{year}/{mon}/{day} {hour}:{min}', '%Y/%m/%d %H:%M')
             return [jobnum, jobdate, reccommand]
         else:
             return 'unknown error'
