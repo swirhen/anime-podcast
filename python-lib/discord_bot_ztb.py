@@ -68,7 +68,7 @@ async def on_message(message):
             else:
                 await message.channel.send(bu.generate_message('usage_radio_record_reserver'))
                 return
-            if len(arguments) in [9, 10]:
+            if len(arguments) == 9 or len(arguments) == 10:
                 if type(result) == list:
                     jobnum = result[0]
                     strrdate = dt.strftime(result[1], '%Y/%m/%d %H:%M')
