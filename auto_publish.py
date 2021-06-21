@@ -117,7 +117,7 @@ def main():
             if re.search(name, title):
                 # 一致した場合、titleから話数の数値を取得
                 seed_episode_number = re.sub(r'^.*' + name + r'.* ([0-9.]{2,5}) .*', r'\1', title)
-                if type(seed_episode_number) != int and type(seed_episode_number) != float:
+                if not seed_episode_number.replace(".","",1).isdigit():
                     # エピソード番号がとれていない場合、なにかおかしいのでスキップ
                     logging(f'invalid episode number: {seed_episode_number}')
                     continue
