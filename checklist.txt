@@ -1,4 +1,25 @@
-Last Update: 2021/06/21-11:20:16
+Last Update: 2021/06/21-11:21:38
+2021/06/21-11:21:38 53 Digimon Adventure;|デジモンアドベンチャー：
+2021/06/21-11:21:38 37 Dqdai|ドラゴンクエスト ダイの大冒険
+2021/06/21-11:21:38 13 Boku no Hero Academia 5|僕のヒーローアカデミア(第5期)
+2021/06/21-11:21:38 12 Yuukoku no Moriarty Part 2|憂国のモリアーティ(2クール目)
+2021/06/21-11:21:38 12 Shakunetsu Kabaddi|灼熱カバディ
+2021/06/21-11:21:38 12 Seven Knights Revolution Eiyuu no Keishousha|セブンナイツ レボリューション -英雄の継承者-
+2021/06/21-11:21:38 12 Sentouin, Hakenshimasu|戦闘員、派遣します！
+2021/06/21-11:21:38 12 Sayonara Watashi no Cramer|さよなら私のクラマー
+2021/06/21-11:21:38 12 Mashiro no Oto|ましろのおと
+2021/06/21-11:21:38 12 Dragon, Ie o Kau|ドラゴン、家を買う。
+2021/06/21-11:21:38 11 Subarashiki Kono Sekai the Animation|すばらしきこのせかい The Animation
+2021/06/21-11:21:38 11 Slime300|スライム倒して300年、知らないうちにレベルMAXになってました
+2021/06/21-11:21:38 11 Shadows House|シャドーハウス
+2021/06/21-11:21:38 11 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
+2021/06/21-11:21:38 11 Ijiranaide, Nagatoro-san|イジらないで、長瀞さん
+2021/06/21-11:21:38 11 Eighty-Six|86-エイティシックス-
+2021/06/21-11:21:38 11 Edens Zero|EDENS ZERO
+2021/06/21-11:21:38 11 Blue Reflection Ray|BLUE REFLECTION RAY／澪
+2021/06/21-11:21:38 11 Bishounen Tanteidan|美少年探偵団
+2021/06/21-11:21:38 11 Battle Athletess Daiundoukai Restart!|バトルアスリーテス大運動会 ReSTART!
+2021/06/21-11:21:38 10 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
 2021/06/18-12:10:06 12 Shaman King 2021|SHAMAN KING
 2021/06/18-12:10:06 11 Zombie Land Saga Revenge|ゾンビランドサガ リベンジ
 2021/06/18-12:10:06 11 Mars Red|MARS RED
@@ -19,28 +40,7 @@ Last Update: 2021/06/21-11:20:16
 2021/06/15-00:00:02 11 Hige o Soru. Soshite Joshikousei o Hirou.|ひげを剃る。そして女子高生を拾う。
 2021/06/15-00:00:02 10 Tokyo Revengers|東京リベンジャーズ
 2021/06/15-00:00:02 10 Fumetsu no Anata e|不滅のあなたへ
-2021/06/14-06:00:02 11 Yuukoku no Moriarty Part 2|憂国のモリアーティ(2クール目)
-2021/06/14-06:00:02 11 Seven Knights Revolution Eiyuu no Keishousha|セブンナイツ レボリューション -英雄の継承者-
-2021/06/14-06:00:02 11 Sayonara Watashi no Cramer|さよなら私のクラマー
 2021/06/14-06:00:02 11 Nomad Megalo Box 2|NOMAD メガロボクス2
-2021/06/14-06:00:02 11 Dragon, Ie o Kau|ドラゴン、家を買う。
-2021/06/14-00:00:02 12 Boku no Hero Academia 5|僕のヒーローアカデミア(第5期)
-2021/06/14-00:00:02 11 Shakunetsu Kabaddi|灼熱カバディ
-2021/06/14-00:00:02 11 Sentouin, Hakenshimasu|戦闘員、派遣します！
-2021/06/13-18:00:02 52 Digimon Adventure;|デジモンアドベンチャー：
-2021/06/13-18:00:02 10 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
-2021/06/13-18:00:02 10 Edens Zero|EDENS ZERO
-2021/06/13-18:00:02 10 Bishounen Tanteidan|美少年探偵団
-2021/06/13-18:00:02 10 Battle Athletess Daiundoukai Restart!|バトルアスリーテス大運動会 ReSTART!
-2021/06/13-18:00:02 09 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
-2021/06/13-06:00:01 10 Shadows House|シャドーハウス
-2021/06/13-06:00:01 10 Ijiranaide, Nagatoro-san|イジらないで、長瀞さん
-2021/06/13-06:00:01 10 Eighty-Six|86-エイティシックス-
-2021/06/13-00:00:02 10 Slime300|スライム倒して300年、知らないうちにレベルMAXになってました
-2021/06/12-18:00:02 36 Dqdai|ドラゴンクエスト ダイの大冒険
-2021/06/12-18:00:02 10 Subarashiki Kono Sekai the Animation|すばらしきこのせかい The Animation
-2021/06/12-12:00:01 11 Mashiro no Oto|ましろのおと
-2021/06/12-12:00:01 10 Blue Reflection Ray|BLUE REFLECTION RAY／澪
 2021/06/12-06:00:01 23 Back Arrow|バック・アロウ
 2021/06/12-06:00:01 11 SSSS.Dynazenon|SSSS.DYNAZENON
 2021/06/12-00:00:02 22 Kumo Desu ga, Nanika|蜘蛛ですが、なにか？
