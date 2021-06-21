@@ -1,4 +1,8 @@
-Last Update: 2021/06/21-11:21:38
+Last Update: 2021/06/21-15:39:09
+2021/06/21-15:39:09 24 Back Arrow|バック・アロウ
+2021/06/21-15:39:09 23 Kumo Desu ga, Nanika|蜘蛛ですが、なにか？
+2021/06/21-15:39:09 12 SSSS.Dynazenon|SSSS.DYNAZENON
+2021/06/21-15:39:09 11 Bakuten!!|バクテン!!
 2021/06/21-11:21:38 53 Digimon Adventure;|デジモンアドベンチャー：
 2021/06/21-11:21:38 37 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/06/21-11:21:38 13 Boku no Hero Academia 5|僕のヒーローアカデミア(第5期)
@@ -35,8 +39,4 @@ Last Update: 2021/06/21-11:21:38
 2021/06/15-00:00:02 10 Tokyo Revengers|東京リベンジャーズ
 2021/06/15-00:00:02 10 Fumetsu no Anata e|不滅のあなたへ
 2021/06/14-06:00:02 11 Nomad Megalo Box 2|NOMAD メガロボクス2
-2021/06/12-06:00:01 23 Back Arrow|バック・アロウ
-2021/06/12-06:00:01 11 SSSS.Dynazenon|SSSS.DYNAZENON
-2021/06/12-00:00:02 22 Kumo Desu ga, Nanika|蜘蛛ですが、なにか？
 2021/06/11-18:00:02 10 Isekai Maou to Shoukan Shoujo no Dorei Majutsu Omega|異世界魔王と召喚少女の奴隷魔術Ω
-2021/06/11-18:00:02 10 Bakuten!!|バクテン!!
