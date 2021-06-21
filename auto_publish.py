@@ -117,6 +117,10 @@ def main():
             if re.search(name, title):
                 # 一致した場合、titleから話数の数値を取得
                 seed_episode_number = re.sub(r'^.*' + name + r'.* ([0-9.]{2,5}) .*', r'\1', title)
+                if type(seed_episode_number) != int and type(seed_episode_number) != float:
+                    # エピソード番号がとれていない場合、なにかおかしいのでスキップ
+                    logging(f'invalid episode number: {seed_episode_number}')
+                    continue
                 # 新話数 - 旧話数の差分が1のとき、新規エピソードとする
                 # 話数には.5などが存在するため、整数で丸めてから計算する(旧話数は切り捨て、新話数は切り上げ)
                 episode_number_diff = math.ceil(float(seed_episode_number)) - math.floor(float(episode_number))
