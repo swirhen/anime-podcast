@@ -317,6 +317,8 @@ if __name__ == '__main__':
         # 連結元ファイル削除
         # for file in concat_files:
         #     os.remove(file)
+        post_str = 'concat:\n```' + '\n'.join(concat_files) + '```'
+        swiutil.multi_post(SLACK_CHANNEL, post_str)
     else:
         # ファイルが1つだった場合はリネームだけする
         shutil.move(f'{filename_with_path}01.{record_extent}', f'{filename_with_path}.{record_extent}')
