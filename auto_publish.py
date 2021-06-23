@@ -297,7 +297,7 @@ def main():
             swiutil.writefile_append(resent_end_list_file, end_episode)
 
         repo = git.Repo(SCRIPT_DIR)
-        repo.git.commit(LIST_FILE, message='checklist.txt update')
+        repo.git.commit(LIST_FILE, message='checklist.txt update (delete end program)')
         repo.git.pull()
         repo.git.push()
 
