@@ -301,7 +301,7 @@ if __name__ == '__main__':
         concat_files = []
         if os.path.exists(concat_list_file):
             os.remove(concat_list_file)
-        for file in glob.glob(f'{filename_without_path}*.{record_extent}'):
+        for file in sorted(glob.glob(f'{filename_without_path}*.{record_extent}')):
             # ファイル名にスペースが含まれる場合、アンダースコアに変更してからリスト化する
             if re.search(' ', file):
                 rename_file = file.replace(' ','_')
@@ -315,8 +315,8 @@ if __name__ == '__main__':
         # 連結
         subprocess.run(f'/usr/bin/wine ffmpeg3.exe -safe 0 -f concat -i "{concat_list_file}" "{filename_without_path}.{record_extent}"', shell=True)
         # 連結元ファイル削除
-        for file in concat_files:
-            os.remove(file)
+        # for file in concat_files:
+        #     os.remove(file)
     else:
         # ファイルが1つだった場合はリネームだけする
         shutil.move(f'{filename_with_path}01.{record_extent}', f'{filename_with_path}.{record_extent}')
