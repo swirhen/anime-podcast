@@ -147,7 +147,6 @@ def grep_file(file_path, word, complete_fetch=True):
     if complete_fetch:
         opt_str = '-x'
     result = subprocess.run(f'grep {opt_str} "{word}" "{file_path}"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.decode().strip().splitlines()
-    print(f'grep result: {result}')
     return result
 
 

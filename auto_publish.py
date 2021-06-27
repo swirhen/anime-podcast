@@ -173,8 +173,7 @@ def main():
             title_en = re.sub(r'\[.*] (.*) - 01 .*', r'\1', title)
 
             # 重複を避けるため、new_program.txtを検索
-            if swiutil.grep_file(NEW_PROGRAM_FILE, title_en) != '':
-                print('hogeeeeee')
+            if len(swiutil.grep_file(NEW_PROGRAM_FILE, title_en)) == 0:
                 title_ja = swiutil.get_jp_title(title_en)
 
                 if title_ja != '':
@@ -185,7 +184,8 @@ def main():
                     swiutil.writefile_append(LIST_FILE, f'{DATETIME} 0 {title_en}|{title_ja}')
                     swiutil.writefile_append(LIST_TEMP, f'{DATETIME} 0 {title_en}|{title_ja}')
                     swiutil.writefile_append(NEW_PROGRAM_FILE, title_en)
-                    os.makedirs(f'{DOWNLOAD_DIR}/{title_ja}')
+                    if not os.path.exists(f'{DOWNLOAD_DIR}/{title_ja}'):
+                        os.makedirs(f'{DOWNLOAD_DIR}/{title_ja}')
                     new_result.append(title_en)
                 else:
                     # 日本語タイトルが取得できなかった1話は何もしないが報告だけする
