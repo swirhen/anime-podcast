@@ -174,6 +174,7 @@ def main():
 
             # 重複を避けるため、new_program.txtを検索
             if swiutil.grep_file(NEW_PROGRAM_FILE, title_en) != '':
+                print('hogeeeeee')
                 title_ja = swiutil.get_jp_title(title_en)
 
                 if title_ja != '':
