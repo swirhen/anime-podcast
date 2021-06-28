@@ -70,7 +70,7 @@ def main():
     if os.path.isfile(FLG_FILE):
         logging('### running flag file exist.')
         multipost('@here swirhen.tv auto publish: 起動フラグファイルを検知、終了しました\n'
-                  '前回異常終了などで残っている場合は削除してください')
+                    '前回異常終了などで残っている場合は削除してください')
         exit(1)
     else:
         flg_file = pathlib.Path(FLG_FILE)
@@ -290,9 +290,9 @@ def main():
 
     if len(end_episodes) > 0:
         post_msg_end = '# 終了とみられる番組で、抜けチェックOKのため、終了リストに追加/チェックリストから削除\n' \
-                    '```' + '\n'.join(end_episodes) + '```'
+                        '```' + '\n'.join(end_episodes) + '```'
         multipost(post_msg_end)
-        logging(post_msg_end)
+        logging(post_msg_end.replace('`',''))
         for end_episode in end_episodes:
             swiutil.sed_del(LIST_FILE, end_episode)
             swiutil.writefile_append(resent_end_list_file, end_episode)
@@ -304,9 +304,9 @@ def main():
 
     if len(end_episode_ngs) > 0:
         post_msg_end_ng = '@channel 終了とみられる番組で、抜けチェックNGのため、終了リストにのみ追加(要 抜けチェック)\n' \
-                       '```' + '\n'.join(end_episode_ngs) + '```'
+                            '```' + '\n'.join(end_episode_ngs) + '```'
         multipost(post_msg_end_ng)
-        logging(post_msg_end_ng)
+        logging(post_msg_end_ng.replace('`',''))
         for end_episode_ng in end_episode_ngs:
             swiutil.writefile_append(resent_end_list_file, end_episode_ng)
 
