@@ -29,8 +29,8 @@ if __name__ == '__main__':
     if hour == 0 or debug_arg == 0:
         date = bu.get_now_datetime_str('YMD_A')
         post_str = f'{here_txt}{date} になりました。 {str(hour)} 時ごろをお知らせします。'
-    # elif hour == 12 or debug_arg == 12:
-    #     post_str = f'{here_txt}{hour} 時ごろをお知らせします。おひるです。'
+    elif hour == 12 or debug_arg == 12:
+        post_str = f'{here_txt}{hour} 時ごろをお知らせします。おひるです。'
     elif hour == 15 or debug_arg == 15:
         post_str = f'{here_txt}{hour} 時ごろをお知らせします。おやつです。'
     elif hour == 18 or debug_arg == 18:
@@ -46,7 +46,7 @@ if __name__ == '__main__':
     
     su.discord_post(CHANNEL, f'{post_str}{debug_str}')
     post_str = post_str.replace('@here ', '')
-    # su.discord_post(CHANNEL_OPEN, f'{post_str}{debug_str}')
+    su.discord_post(CHANNEL_OPEN, f'{post_str}{debug_str}')
     if hour == 2 or debug_arg == 2:
         su.discord_upload(CHANNEL, NEYOU_FILE)
-        # su.discord_upload(CHANNEL_OPEN, NEYOU_FILE)
+        su.discord_upload(CHANNEL_OPEN, NEYOU_FILE)

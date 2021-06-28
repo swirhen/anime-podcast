@@ -18,7 +18,6 @@ RECENT_LIST_S = f'{SCRIPT_DIR}/today_picture_recent_s.txt'
 PIC_DIR = '/data/share/temp/wallpaper*'
 PIC_DIR_S = '/data/share/temp/nekomata_okazu'
 CHANNEL = 'ztb_today_pic'
-# CHANNEL = 'bot-open'
 
 
 def choice_the_picture(urlflag=False, recent_list=RECENT_LIST, year=''):
@@ -50,7 +49,7 @@ def choice_the_picture_sensitive():
             recent_filelist = file.read().splitlines()
     choiced_file_path = random.choice(list(fileset - set(recent_filelist)))
 
-    return (recent_filelist[-99:] + [choiced_file_path])
+    return (recent_filelist[-50:] + [choiced_file_path])
 
 
 def reply_url_the_picture(year=''):
