@@ -14,12 +14,14 @@ from datetime import datetime as dt
 current_dir = pathlib.Path(__file__).resolve().parent
 SCRIPT_DIR = str(current_dir)
 RECENT_LIST = f'{SCRIPT_DIR}/today_picture_recent.txt'
+RECENT_LIST_S = f'{SCRIPT_DIR}/today_picture_recent_s.txt'
 PIC_DIR = '/data/share/temp/wallpaper*'
+PIC_DIR_S = '/data/share/temp/nekomata_okazu'
 CHANNEL = 'ztb_today_pic'
 # CHANNEL = 'bot-open'
 
 
-def choice_the_picture(urlflag=False, year=''):
+def choice_the_picture(urlflag=False, recent_list=RECENT_LIST, year=''):
     if year == '':
         pyear = str(int(dt.now().strftime('%Y')) - 1)
         fileset = set(subprocess.run(f'find {PIC_DIR} -type f -newermt "{pyear}-12-31"', shell=True, stdout=subprocess.PIPE).stdout.decode().strip().splitlines())
@@ -28,8 +30,8 @@ def choice_the_picture(urlflag=False, year=''):
         fileset = set(subprocess.run(f'find {PIC_DIR} -type f -newermt "{pyear}-12-31" ! -newermt "{year}-12-31"', shell=True, stdout=subprocess.PIPE).stdout.decode().strip().splitlines())
 
     recent_filelist = []
-    if os.path.exists(RECENT_LIST):
-        with open(RECENT_LIST) as file:
+    if os.path.exists(recent_list):
+        with open(recent_list) as file:
             recent_filelist = file.read().splitlines()
     choiced_file_path = random.choice(list(fileset - set(recent_filelist)))
 
@@ -39,12 +41,24 @@ def choice_the_picture(urlflag=False, year=''):
         return (recent_filelist[-99:] + [choiced_file_path])
 
 
+def choice_the_picture_sensitive():
+    fileset = set(subprocess.run(f'find {PIC_DIR_S} -type f ', shell=True, stdout=subprocess.PIPE).stdout.decode().strip().splitlines())
+
+    recent_filelist = []
+    if os.path.exists(RECENT_LIST_S):
+        with open(RECENT_LIST_S) as file:
+            recent_filelist = file.read().splitlines()
+    choiced_file_path = random.choice(list(fileset - set(recent_filelist)))
+
+    return (recent_filelist[-99:] + [choiced_file_path])
+
+
 def reply_url_the_picture(year=''):
     if year != '':
-        fileurl = choice_the_picture(True, year)
+        fileurl = choice_the_picture(True, 'dummy', year)
         app_str = f'({year}年のやつ)'
     else:
-        fileurl = choice_the_picture(True)
+        fileurl = choice_the_picture(True, 'dummy')
         app_str = ''
     reply_text = f'画像おみくじ　ぬん₍₍ ◝((๑╹ᆺ╹))◟ ⁾⁾ぬん {app_str}\n' \
                 '(すいれん.tv のとあるディレクトリから画像をランダムに抽出)\n' \
@@ -52,15 +66,23 @@ def reply_url_the_picture(year=''):
     return reply_text
 
 
-def upload_the_picture():
+def today_picture_normal():
     filelist = choice_the_picture()
     swiutil.discord_post(CHANNEL, 'どどんどどんどんどん！\n'
                         'きょうの一枚はこれだ！\n'
                         f'{filelist[-1].replace("/data", "http://swirhen.tv")}')
-    # swiutil.discord_upload(CHANNEL, filelist[-1])
     with open(RECENT_LIST, mode='w') as file:
         file.write('\n'.join(filelist))
 
 
+def today_picture_sensitive():
+    filelist = choice_the_picture_sensitive()
+    with open(RECENT_LIST_S, mode='w') as file:
+        file.write('\n'.join(filelist))
+    reply_text = f'それはそれとして晩ごはんのおかずどうぞ～\n' \
+                f'{filelist[-1].replace("/data", "http://swirhen.tv")}'
+    return reply_text
+
+
 if __name__ == '__main__':
-    upload_the_picture()
+    today_picture_normal()
