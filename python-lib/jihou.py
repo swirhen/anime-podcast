@@ -3,6 +3,7 @@ import sys
 import pathlib
 import swirhentv_util as su
 import bot_util as bu
+import today_picture as tp
 
 current_dir = pathlib.Path(__file__).resolve().parent
 SCRIPT_DIR = str(current_dir)
@@ -35,6 +36,9 @@ if __name__ == '__main__':
         post_str = f'{here_txt}{hour} 時ごろをお知らせします。おひるです。'
     elif hour == 15 or debug_arg == 15:
         post_str = f'{here_txt}{hour} 時ごろをお知らせします。おやつです。'
+    elif hour == 18 or debug_arg == 18:
+        post_str = f'{here_txt}{hour} 時ごろをお知らせします。\n'
+        post_str += tp.today_picture_sensitive()
     else:
         if debug_flg:
             hourminute = bu.get_now_datetime_str('HM')
@@ -45,7 +49,7 @@ if __name__ == '__main__':
     
     su.discord_post(CHANNEL, f'{post_str}{debug_str}')
     post_str = post_str.replace('@here ', '')
-    su.discord_post(CHANNEL_OPEN, f'{post_str}{debug_str}')
+    # su.discord_post(CHANNEL_OPEN, f'{post_str}{debug_str}')
     if hour == 2 or debug_arg == 2:
         su.discord_upload(CHANNEL, NEYOU_FILE)
-        su.discord_upload(CHANNEL_OPEN, NEYOU_FILE)
+        # su.discord_upload(CHANNEL_OPEN, NEYOU_FILE)
