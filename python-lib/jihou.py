@@ -29,11 +29,8 @@ if __name__ == '__main__':
     if hour == 0 or debug_arg == 0:
         date = bu.get_now_datetime_str('YMD_A')
         post_str = f'{here_txt}{date} になりました。 {str(hour)} 時ごろをお知らせします。'
-    if hour == 0 or debug_arg == 0:
-        date = bu.get_now_datetime_str('YMD_A')
-        post_str = f'{here_txt}{date} になりました。 {str(hour)} 時ごろをお知らせします。'
-    elif hour == 12 or debug_arg == 12:
-        post_str = f'{here_txt}{hour} 時ごろをお知らせします。おひるです。'
+    # elif hour == 12 or debug_arg == 12:
+    #     post_str = f'{here_txt}{hour} 時ごろをお知らせします。おひるです。'
     elif hour == 15 or debug_arg == 15:
         post_str = f'{here_txt}{hour} 時ごろをお知らせします。おやつです。'
     elif hour == 18 or debug_arg == 18:
