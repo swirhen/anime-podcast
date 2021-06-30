@@ -37,4 +37,4 @@ if __name__ == '__main__':
                 print(f'usage: {args[0]} [filepath] (separator1) (separator2)')
                 exit(1)
 
-    swiutil.rename_movie(filepath, SFX1, SFX2)
+    swiutil.rename_movie_file(filepath, SFX1, SFX2)
