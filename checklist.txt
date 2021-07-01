@@ -1,4 +1,8 @@
-Last Update: 2021/07/02-00:00:02
+Last Update: 2021/07/02-06:00:01
+2021/07/02-06:00:01 14 Shaman King 2021|SHAMAN KING
+2021/07/02-06:00:01 0 Scarlet Nexus|SCARLET NEXUS
+2021/07/02-06:00:01 0 Peach Boy Riverside|ピーチボーイリバーサイド
+2021/07/02-06:00:01 0 Higurashi no Naku Koro ni Sotsu|ひぐらしのなく頃に卒
 2021/06/29-00:00:02 12 Tokyo Revengers|東京リベンジャーズ
 2021/06/29-00:00:02 12 Fumetsu no Anata e|不滅のあなたへ
 2021/06/29-00:00:02 12 Blue Reflection Ray|BLUE REFLECTION RAY／澪
@@ -8,7 +12,6 @@ Last Update: 2021/07/02-00:00:02
 2021/06/27-13:27:46 12 Shadows House|シャドーハウス
 2021/06/27-13:27:46 12 Edens Zero|EDENS ZERO
 2021/06/27-13:27:46 11 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
-2021/06/25-00:00:02 13 Shaman King 2021|SHAMAN KING
 2021/06/21-15:39:09 23 Kumo Desu ga, Nanika|蜘蛛ですが、なにか？
 2021/06/21-15:39:09 11 Bakuten!!|バクテン!!
 2021/06/21-11:21:38 37 Dqdai|ドラゴンクエスト ダイの大冒険
