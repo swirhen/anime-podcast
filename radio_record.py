@@ -57,10 +57,8 @@ def agqr_check(check_option):
 
     if os.path.isfile(temp_file):
         if check_option != '':
-            swiutil.tweeet('【超A&G チェック 定時報告】録画URLは有効です')
             swiutil.multi_post(SLACK_CHANNEL, '【超A&G チェック 定時報告】録画URLは有効です')
     else:
-        swiutil.tweeet(f'【超A&G チェック】HLSでの録画に失敗しました: {AGQR_STREAM_URI}')
         swiutil.multi_post(SLACK_CHANNEL, f'【超A&G チェック】HLSでの録画に失敗しました: {AGQR_STREAM_URI}')
 
     if os.path.exists(temp_file):
@@ -85,11 +83,9 @@ def radiko_check(check_option):
 
     if os.path.isfile(temp_file):
         if check_option != '':
-            swiutil.tweeet('【Radiko チェック 定時報告】録画URLは有効です')
             swiutil.multi_post(SLACK_CHANNEL, '【Radiko チェック 定時報告】録画URLは有効です')
     else:
-        swiutil.tweeet(f'【Radiko チェック】HLSでの録画に失敗しました: {radikostreamurl}')
-        swiutil.multi_post(SLACK_CHANNEL, f'【Radiko チェック】HLSでの録画に失敗しました: {radikostreamtoken}')
+        swiutil.multi_post(SLACK_CHANNEL, f'【Radiko チェック】HLSでの録画に失敗しました: {radikostreamurl}')
 
     if os.path.exists(temp_file):
         os.remove(temp_file)
@@ -103,10 +99,8 @@ def radiko_location_check():
     location_info = radikoauth.main()[0].strip()
 
     if location_info == '':
-        swiutil.tweeet('【radiko 地域判定チェック】判定地域が取得できませんでした')
         swiutil.multi_post(SLACK_CHANNEL, '@channel 【radiko 地域判定チェック】判定地域が取得できませんでした')
     elif location_info != RADIKO_LOCATION_INFO_FROM_FILE:
-        swiutil.tweeet(f'【radiko 地域判定チェック】判定地域が変更されました: {location_info}')
         swiutil.multi_post(SLACK_CHANNEL, f'@channel 【radiko 地域判定チェック】判定地域が変更されました: {location_info}')
         swiutil.writefile_new(RADIKO_LOCATION_INFO_FILE, location_info)
 
@@ -258,7 +252,6 @@ if __name__ == '__main__':
         opt_str = 'a'
 
     # 開始ツイートリツイートよろぺこー
-    swiutil.tweeet(f'【{operation_str}自動保存開始】{filename_without_path}')
     swiutil.multi_post(SLACK_CHANNEL, f'【{operation_str}自動保存開始】{filename_without_path}')
 
     # 番組名バリデート
@@ -337,5 +330,4 @@ if __name__ == '__main__':
     swiutil.make_feed_manually(OUTPUT_PATH, '超！A&G(+α)')
 
     # 終了ツイート
-    swiutil.tweeet(f'【{operation_str}自動保存終了】{filename_without_path}')
     swiutil.multi_post(SLACK_CHANNEL, f'【{operation_str}自動保存終了】{filename_without_path}')
