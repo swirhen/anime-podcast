@@ -198,7 +198,7 @@ def main():
                     '対象外にする場合は、リストから削除、保存ディレクトリを削除してください\n' \
                     '```' + '\n'.join(new_result) + '```'
         multipost(post_msg)
-        logging(post_msg)
+        logging(post_msg.replace('`',''))
 
     if new_hit_flag_ng == 1:
         post_msg = '@here 新番組検知！\n' \
@@ -206,7 +206,7 @@ def main():
                     '手動追加を検討してください\n' \
                     '```' + '\n'.join(new_result_ng) + '```'
         multipost(post_msg)
-        logging(post_msg)
+        logging(post_msg.replace('`',''))
 
     # 何らかのエラーで途中で処理が途切れたりして、チェックリスト実体とtempに行数の差が出てしまった場合、警告
     if swiutil.len_file(LIST_FILE) != swiutil.len_file(LIST_TEMP):
