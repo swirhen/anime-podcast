@@ -590,6 +590,7 @@ def record_reserver(year='', mon='', day='', hour='', minutes='', rec_time='', p
         if station == 'agqr':
             mode_str = 'a'
             rec_offset = '30'
+            video_flag_str = ''
             real_rec_time = rec_time
             if video_flag:
                 video_flag_str = ' v'
