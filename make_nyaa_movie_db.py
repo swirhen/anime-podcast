@@ -30,6 +30,7 @@ def get_seed_list_proc():
         for item in xml_root.findall('./channel/item'):
             seed_info = [item.find('title').text, item.find('link').text, item.find('pubDate').text[:-6]]
             seed_list.append(seed_info)
+        seed_list.reverse()
 
     return seed_list
 
