@@ -12,6 +12,7 @@ import re
 import sys
 import urllib.request
 from datetime import datetime as dt
+import datetime
 current_dir = pathlib.Path(__file__).resolve().parent
 sys.path.append(f'{str(current_dir)}/python-lib/')
 import swirhentv_util as swiutil
@@ -83,7 +84,11 @@ def main():
     with open(LAST_CHECK_DATE_FILE) as file:
         last_check_date = file.read().splitlines()[0]
     # 今回の取得時刻
-    now_date = dt.now().strftime('%Y-%m-%d %H:%M')
+    nowdt = dt.now()
+    now_date = nowdt.strftime('%Y-%m-%d %H:%M')
+    # 新番組更新用 5分後時刻
+    a5m = nowdt + datetime.timedelta(minutes=5)
+    after_five_minute_date = a5m.strftime('%Y-%m-%d %H:%M')
 
     # DB(5分前に更新)からseedリストを取得
     seed_list = swiutil.get_feed_list(last_check_date)
@@ -166,12 +171,14 @@ def main():
     new_hit_flag_ng = 0
     new_result = []
     new_result_ng = []
+    new_links = []
     # シードリストループ
     for seed_info in seed_list:
         title = seed_info[0]
+        link = seed_info[1]
         if re.search(' - 01 ', title):
             title_en = re.sub(r'\[.*] (.*) - 01 .*', r'\1', title)
-
+            new_links.append(link)
             # 重複を避けるため、new_program.txtを検索
             if len(swiutil.grep_file(NEW_PROGRAM_FILE, title_en)) == 0:
                 title_ja = swiutil.get_jp_title(title_en)
@@ -207,6 +214,9 @@ def main():
                     '```' + '\n'.join(new_result_ng) + '```'
         multipost(post_msg)
         logging(post_msg.replace('`',''))
+    
+    # 新番組検知したレコードは次に回すため、取得日時をずらす
+    swiutil.update_new_program_feed(new_links, after_five_minute_date)
 
     # 何らかのエラーで途中で処理が途切れたりして、チェックリスト実体とtempに行数の差が出てしまった場合、警告
     if swiutil.len_file(LIST_FILE) != swiutil.len_file(LIST_TEMP):

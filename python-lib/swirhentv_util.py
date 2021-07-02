@@ -284,6 +284,18 @@ def update_download_feed(values):
     conn.close()
 
 
+# 新番組のアップデート
+def update_new_program_feed(values, update):
+    conn = sqlite3.connect(NYAA_MOVIE_FEED_DB)
+    cur = conn.cursor()
+
+    str_value = '", "'.join(values)
+    update_sql = f'update feed_data set created_at = "{update}" where link in ("{str_value}")'
+    cur.execute(update_sql)
+    conn.commit()
+    conn.close()
+
+
 # 動画リネーム
 # checklist.txtの後半(英語ファイル名|日本語ファイル名)のデータを使って動画ファイルをリネームする
 # [英語ファイル名] -[SFX1][話数][SFX2](mp4 1280x720 aac).mp4
