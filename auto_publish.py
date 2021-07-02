@@ -186,7 +186,7 @@ def main():
                     swiutil.writefile_append(NEW_PROGRAM_FILE, title_en)
                     if not os.path.exists(f'{DOWNLOAD_DIR}/{title_ja}'):
                         os.makedirs(f'{DOWNLOAD_DIR}/{title_ja}')
-                    new_result.append(title_en)
+                    new_result.append(f'{title_ja} ({title_en})')
                 else:
                     # 日本語タイトルが取得できなかった1話は何もしないが報告だけする
                     new_hit_flag_ng = 1
