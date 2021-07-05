@@ -307,8 +307,8 @@ if __name__ == '__main__':
 
         # 連結
         subprocess.run(f'/usr/bin/wine ffmpeg3.exe -safe 0 -f concat -i "{concat_list_file}" "{filename_without_path}.{record_extent}"', shell=True)
-        post_str = 'jointed files:\n```' + '\n'.join(concat_files) + '```'
-        swiutil.multi_post(SLACK_CHANNEL, post_str)
+        # post_str = 'jointed files:\n```' + '\n'.join(concat_files) + '```'
+        # swiutil.multi_post(SLACK_CHANNEL, post_str)
         # 連結元ファイル削除
         for file in concat_files:
             os.remove(file)
