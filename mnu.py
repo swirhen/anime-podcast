@@ -18,23 +18,23 @@ def mnu(arg=''):
 
     num = 1
     for directory in dirlist:
-        exp = r'^00|^9[2-9]|^sh'
+        exp = r'^00\ |^9[2-9]\ |^sh$'
         if re.match(exp, directory):
             print(f'{directory} : 処理除外')
             continue
         else:
             exp = r'^[0-9][0-9]\ (.*)'
-            newdirname = re.sub(exp, r'\1', directory)
-            os.rename(directory, newdirname)
+            dirname_without_num = re.sub(exp, r'\1', directory)
             if arg == '-r':
-                if directory != newdirname:
-                    print(f'# rename {directory} -> {newdirname}')
-                continue
+                if directory != dirname_without_num:
+                    os.rename(directory, dirname_without_num)
+                    print(f'# rename {directory} -> {dirname_without_num}')
             else:
                 numstr = '{0:02d}'.format(num)
-                os.rename(newdirname, numstr + ' ' + newdirname)
-                if directory != numstr + ' ' + newdirname:
-                    print(f'# rename {directory} -> {numstr} {newdirname}')
+                dirname_with_num = f'{numstr} {dirname_without_num}'
+                if directory != dirname_with_num:
+                    os.rename(directory, dirname_with_num)
+                    print(f'# rename {directory} -> {dirname_with_num}')
                 num += 1
 
 
