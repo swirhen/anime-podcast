@@ -17,7 +17,7 @@ import mnu
 BASE_DIR = '/data/share/movie'
 PSPMP4_98_DIR = f'{BASE_DIR}/98 PSP用'
 PSPMP4_MV_DIR = '/data2/movie2/pspmp4'
-ROOT_MV_DIR = '/data3/movie3'
+ROOT_MV_DIR = '/data4/movie4'
 ROOT_MV_LINK_DIR = '/data/share/movie/0004 過去連載終了分'
 END_LIST_FILE = ''
 END_LIST = []
