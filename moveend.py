@@ -11,6 +11,7 @@ import re
 import shutil
 import psutil
 import sys
+import mnu
 
 # argment section
 BASE_DIR = '/data/share/movie'
@@ -195,6 +196,9 @@ def move_root(end_list):
         print(f'# move: {srcpath} -> {dstpath}')
         result = shutil.move(srcpath, dstpath)
         print(f'# complete: {result}')
+    
+    os.chdir(f'{ROOT_MV_LINK_DIR}/{dstnum} {YEAR}-Q{QUARTER}終了分')
+    mnu.mnu()
 
     print('ALL: 移動完了')
 
