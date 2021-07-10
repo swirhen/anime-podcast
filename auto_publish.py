@@ -178,9 +178,9 @@ def main():
         link = seed_info[1]
         if re.search(' - 01 ', title) and not title in result:
             title_en = re.sub(r'\[.*] (.*) - 01 .*', r'\1', title)
-            new_links.append(link)
             # 重複を避けるため、new_program.txtを検索
             if len(swiutil.grep_file(NEW_PROGRAM_FILE, title_en)) == 0:
+                new_links.append(link)
                 title_ja = swiutil.get_jp_title(title_en)
 
                 if title_ja != '':

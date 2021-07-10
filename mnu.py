@@ -18,7 +18,7 @@ def mnu(arg=''):
 
     num = 1
     for directory in dirlist:
-        exp = r'^00\ |^9[2-9]\ |^sh$'
+        exp = r'^00|^9[2-9]\ |^sh/'
         if re.match(exp, directory):
             print(f'{directory} : 処理除外')
             continue
