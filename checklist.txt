@@ -1,4 +1,6 @@
-Last Update: 2021/07/11-06:00:01
+Last Update: 2021/07/11-12:00:01
+2021/07/11-12:00:01 56 Digimon Adventure;|デジモンアドベンチャー：
+2021/07/11-12:00:01 14 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
 2021/07/11-06:00:01 14 Edens Zero|EDENS ZERO
 2021/07/11-06:00:01 02 Re-Main|RE-MAIN
 2021/07/11-06:00:01 02 Mahouka Koukou no Yuutousei|魔法科高校の優等生
@@ -32,5 +34,3 @@ Last Update: 2021/07/11-06:00:01
 2021/07/05-12:00:01 01 Shinigami Bocchan to Kuro Maid|死神坊ちゃんと黒メイド
 2021/07/05-06:00:01 01 Tantei wa Mou, Shindeiru.|探偵はもう、死んでいる。
 2021/07/05-06:00:01 01 Getter Robo Arc|ゲッターロボアーク
-2021/07/04-18:00:02 13 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
-2021/07/04-14:29:34 55 Digimon Adventure;|デジモンアドベンチャー：
