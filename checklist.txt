@@ -1,4 +1,7 @@
-Last Update: 2021/07/16-00:00:02
+Last Update: 2021/07/16-06:00:01
+2021/07/16-06:00:01 04 Higurashi no Naku Koro ni Sotsu|ひぐらしのなく頃に卒
+2021/07/16-06:00:01 03 Peach Boy Riverside|ピーチボーイリバーサイド
+2021/07/16-06:00:01 02 Shiroi Suna no Aquatope|白い砂のアクアトープ
 2021/07/16-00:00:02 16 Shaman King 2021|SHAMAN KING
 2021/07/16-00:00:02 03 Scarlet Nexus|SCARLET NEXUS
 2021/07/15-18:00:01 01 Night Head 2041|NIGHT HEAD 2041
@@ -35,6 +38,3 @@ Last Update: 2021/07/16-00:00:02
 2021/07/10-13:52:22 02 Vanitas no Karte|ヴァニタスの手記
 2021/07/10-13:52:22 02 Kanojo mo Kanojo|カノジョも彼女
 2021/07/10-13:52:22 02 Hamehura X|乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった…X
-2021/07/09-12:00:02 01 Shiroi Suna no Aquatope|白い砂のアクアトープ
-2021/07/09-06:00:02 03 Higurashi no Naku Koro ni Sotsu|ひぐらしのなく頃に卒
-2021/07/09-06:00:02 02 Peach Boy Riverside|ピーチボーイリバーサイド
