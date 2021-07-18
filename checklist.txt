@@ -1,4 +1,8 @@
-Last Update: 2021/07/18-18:00:01
+Last Update: 2021/07/19-00:00:02
+2021/07/19-00:00:02 03 Tantei wa Mou, Shindeiru.|探偵はもう、死んでいる。
+2021/07/19-00:00:02 03 Shinigami Bocchan to Kuro Maid|死神坊ちゃんと黒メイド
+2021/07/19-00:00:02 03 Getter Robo Arc|ゲッターロボアーク
+2021/07/19-00:00:02 02 Love Live! Superstar!!|ラブライブ！スーパースター！！
 2021/07/18-12:00:02 57 Digimon Adventure;|デジモンアドベンチャー：
 2021/07/18-12:00:02 15 Edens Zero|EDENS ZERO
 2021/07/18-06:00:02 03 Mahouka Koukou no Yuutousei|魔法科高校の優等生
@@ -33,9 +37,5 @@ Last Update: 2021/07/18-18:00:01
 2021/07/13-00:00:02 14 Tokyo Revengers|東京リベンジャーズ
 2021/07/13-00:00:02 13 Fumetsu no Anata e|不滅のあなたへ
 2021/07/13-00:00:02 02 Tian Guan Ci Fu|天官賜福
-2021/07/12-06:00:02 02 Shinigami Bocchan to Kuro Maid|死神坊ちゃんと黒メイド
-2021/07/12-06:00:02 01 Love Live! Superstar!!|ラブライブ！スーパースター！！
-2021/07/12-00:00:02 02 Tantei wa Mou, Shindeiru.|探偵はもう、死んでいる。
-2021/07/12-00:00:02 02 Getter Robo Arc|ゲッターロボアーク
 2021/07/11-12:00:01 14 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
 2021/07/11-06:00:01 02 Re-Main|RE-MAIN
