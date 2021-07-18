@@ -1,4 +1,6 @@
-Last Update: 2021/07/18-06:00:02
+Last Update: 2021/07/18-12:00:02
+2021/07/18-12:00:02 57 Digimon Adventure;|デジモンアドベンチャー：
+2021/07/18-12:00:02 15 Edens Zero|EDENS ZERO
 2021/07/18-06:00:02 03 Mahouka Koukou no Yuutousei|魔法科高校の優等生
 2021/07/18-06:00:02 03 Kageki Shoujo!!|かげきしょうじょ！！
 2021/07/18-06:00:02 03 Genjitsu Shugi Yuusha no Oukoku Saikenki|現実主義勇者の王国再建記
@@ -35,7 +37,5 @@ Last Update: 2021/07/18-06:00:02
 2021/07/12-06:00:02 01 Love Live! Superstar!!|ラブライブ！スーパースター！！
 2021/07/12-00:00:02 02 Tantei wa Mou, Shindeiru.|探偵はもう、死んでいる。
 2021/07/12-00:00:02 02 Getter Robo Arc|ゲッターロボアーク
-2021/07/11-12:00:01 56 Digimon Adventure;|デジモンアドベンチャー：
 2021/07/11-12:00:01 14 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
-2021/07/11-06:00:01 14 Edens Zero|EDENS ZERO
 2021/07/11-06:00:01 02 Re-Main|RE-MAIN
