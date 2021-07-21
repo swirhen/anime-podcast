@@ -320,7 +320,7 @@ def rename_movie_file(file_path, separator1='\ ', separator2='\ '):
         for name in renamelist:
             name_e = name[0]
             name_j = name[1]
-            exp = r'.*(' + name_e + ').*' + separator1 + '([0-9]{0,1}[0-9][0-9](.5)?)' + separator2 + '.*\.(.*)'
+            exp = r'.*(' + name_e + ').*' + separator1 + '([0-9]{0,1}[0-9][0-9](.5|.1)?)' + separator2 + '.*\.(.*)'
             name = re.sub(exp, r'\1', filename)
             num = re.sub(exp, r'\2', filename)
             ext = re.sub(exp, r'\4', filename)
