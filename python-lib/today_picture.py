@@ -49,8 +49,7 @@ def choice_the_picture_sensitive():
             recent_filelist = file.read().splitlines()
     choiced_file_path = random.choice(list(fileset - set(recent_filelist)))
 
-    return (rnek    
-    list[-99] + [choiced_file_path])
+    return (recent_filelist[-99:] + [choiced_file_path])
 
 
 def reply_url_the_picture(year=''):
