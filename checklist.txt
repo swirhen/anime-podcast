@@ -1,9 +1,12 @@
-Last Update: 2021/07/23-00:00:02
+Last Update: 2021/07/23-06:00:02
+2021/07/23-06:00:02 05 Higurashi no Naku Koro ni Sotsu|ひぐらしのなく頃に卒
+2021/07/23-06:00:02 04 Peach Boy Riverside|ピーチボーイリバーサイド
+2021/07/23-06:00:02 03 Shiroi Suna no Aquatope|白い砂のアクアトープ
+2021/07/23-06:00:02 01 TsukiPro the Animation 2|TSUKIPRO THE ANIMATION2
+2021/07/23-06:00:02 01 Assault Lily Fruits|アサルトリリィ BOUQUET
 2021/07/23-00:00:02 17 Shaman King 2021|SHAMAN KING
 2021/07/23-00:00:02 04 Scarlet Nexus|SCARLET NEXUS
 2021/07/23-00:00:02 03 Tian Guan Ci Fu|天官賜福
-2021/07/23-00:00:02 0 TsukiPro the Animation 2|TSUKIPRO THE ANIMATION2
-2021/07/23-00:00:02 0 Assault Lily Fruits|アサルトリリィ BOUQUET
 2021/07/22-12:00:02 02 Night Head 2041|NIGHT HEAD 2041
 2021/07/22-06:00:02 03 Kobayashi-san Chi no Maidragon S|小林さんちのメイドラゴンS
 2021/07/22-06:00:02 02 Megami-ryou no Ryoubo-kun.|女神寮の寮母くん。
@@ -38,7 +41,4 @@ Last Update: 2021/07/23-00:00:02
 2021/07/17-06:00:01 02 Meikyuu Black Company|迷宮ブラックカンパニー
 2021/07/17-06:00:01 02 100-man no Inochi no Ue ni Ore wa Tatte Iru Part 2|100万の命の上に俺は立っている(第2シーズン)
 2021/07/17-06:00:01 01 Sonny Boy|Sonny Boy -サニーボーイ-
-2021/07/16-06:00:01 04 Higurashi no Naku Koro ni Sotsu|ひぐらしのなく頃に卒
-2021/07/16-06:00:01 03 Peach Boy Riverside|ピーチボーイリバーサイド
-2021/07/16-06:00:01 02 Shiroi Suna no Aquatope|白い砂のアクアトープ
 2021/07/11-06:00:01 02 Re-Main|RE-MAIN
