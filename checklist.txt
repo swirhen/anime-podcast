@@ -1,4 +1,9 @@
-Last Update: 2021/07/24-18:00:02
+Last Update: 2021/07/25-00:00:02
+2021/07/25-00:00:02 41 Dqdai|ドラゴンクエスト ダイの大冒険
+2021/07/25-00:00:02 17 Boku no Hero Academia 5|僕のヒーローアカデミア(第5期)
+2021/07/25-00:00:02 15 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
+2021/07/25-00:00:02 04 Bokutachi no Remake|ぼくたちのリメイク
+2021/07/25-00:00:02 03 D_Cide Traumerei the Animation|D_CIDE TRAUMEREI THE ANIMATION
 2021/07/24-12:00:02 15 Blue Reflection Ray|BLUE REFLECTION RAY／澪
 2021/07/24-12:00:02 04 Kanojo mo Kanojo|カノジョも彼女
 2021/07/24-12:00:02 04 Hamehura X|乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった…X
@@ -37,9 +42,4 @@ Last Update: 2021/07/24-18:00:02
 2021/07/18-06:00:02 03 Mahouka Koukou no Yuutousei|魔法科高校の優等生
 2021/07/18-06:00:02 03 Kageki Shoujo!!|かげきしょうじょ！！
 2021/07/18-06:00:02 03 Genjitsu Shugi Yuusha no Oukoku Saikenki|現実主義勇者の王国再建記
-2021/07/18-00:00:01 16 Boku no Hero Academia 5|僕のヒーローアカデミア(第5期)
-2021/07/18-00:00:01 14 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
-2021/07/18-00:00:01 03 Bokutachi no Remake|ぼくたちのリメイク
-2021/07/18-00:00:01 02 D_Cide Traumerei the Animation|D_CIDE TRAUMEREI THE ANIMATION
-2021/07/17-18:00:02 40 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/07/11-06:00:01 02 Re-Main|RE-MAIN
