@@ -1,4 +1,8 @@
-Last Update: 2021/07/25-06:00:01
+Last Update: 2021/07/25-12:00:01
+2021/07/25-12:00:01 58 Digimon Adventure;|デジモンアドベンチャー：
+2021/07/25-12:00:01 16 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
+2021/07/25-12:00:01 16 Edens Zero|EDENS ZERO
+2021/07/25-12:00:01 03 Re-Main|RE-MAIN
 2021/07/25-06:00:01 04 Mahouka Koukou no Yuutousei|魔法科高校の優等生
 2021/07/25-06:00:01 04 Kageki Shoujo!!|かげきしょうじょ！！
 2021/07/25-06:00:01 04 Genjitsu Shugi Yuusha no Oukoku Saikenki|現実主義勇者の王国再建記
@@ -30,7 +34,6 @@ Last Update: 2021/07/25-06:00:01
 2021/07/22-00:00:02 03 Cheat Kusushi|チート薬師のスローライフ～異世界に作ろうドラッグストア～
 2021/07/21-12:00:02 01 Nu Wushen de Canzhuo II|戦乙女の食卓II
 2021/07/21-06:00:01 03 Tensei Shitara Slime Datta Ken 2nd Season Part 2|転生したらスライムだった件 第2期 第2部
-2021/07/21-00:00:02 15 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
 2021/07/20-12:00:02 03 Uramichi Onii-san|うらみちお兄さん
 2021/07/20-12:00:02 03 Seirei Gensouki|精霊幻想記
 2021/07/20-06:00:01 02 Deatte 5 Byou de Battle|出会って5秒でバトル
@@ -40,6 +43,3 @@ Last Update: 2021/07/25-06:00:01
 2021/07/19-00:00:02 03 Shinigami Bocchan to Kuro Maid|死神坊ちゃんと黒メイド
 2021/07/19-00:00:02 03 Getter Robo Arc|ゲッターロボアーク
 2021/07/19-00:00:02 02 Love Live! Superstar!!|ラブライブ！スーパースター！！
-2021/07/18-12:00:02 57 Digimon Adventure;|デジモンアドベンチャー：
-2021/07/18-12:00:02 15 Edens Zero|EDENS ZERO
-2021/07/11-06:00:01 02 Re-Main|RE-MAIN
