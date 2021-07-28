@@ -70,6 +70,7 @@ MAILTO=""
 
 # twitter search
 */10 * * * * python /home/swirhen/sh/checker/twitterchk/twitter_check.py
+*/10 * * * * python /home/swirhen/sh/checker/twitterchk/twitter_check_eshi_rt.py
 
 # 汎用 torrent seed check
 55 * * * * python /home/swirhen/sh/checker/torrentsearch/make_nyaa_db.py
