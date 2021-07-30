@@ -1,4 +1,8 @@
-Last Update: 2021/07/31-00:00:01
+Last Update: 2021/07/31-06:00:02
+2021/07/31-06:00:02 05 Vanitas no Karte|ヴァニタスの手記
+2021/07/31-06:00:02 05 Kanojo mo Kanojo|カノジョも彼女
+2021/07/31-06:00:02 04 Meikyuu Black Company|迷宮ブラックカンパニー
+2021/07/31-06:00:02 04 100-man no Inochi no Ue ni Ore wa Tatte Iru Part 2|100万の命の上に俺は立っている(第2シーズン)
 2021/07/30-12:00:02 03 Sonny Boy|Sonny Boy -サニーボーイ-
 2021/07/30-12:00:02 02 Heion Sedai no Idaten-tachi|平穏世代の韋駄天達
 2021/07/30-06:00:02 06 Higurashi no Naku Koro ni Sotsu|ひぐらしのなく頃に卒
@@ -35,10 +39,6 @@ Last Update: 2021/07/31-00:00:01
 2021/07/25-00:00:02 04 Bokutachi no Remake|ぼくたちのリメイク
 2021/07/25-00:00:02 03 D_Cide Traumerei the Animation|D_CIDE TRAUMEREI THE ANIMATION
 2021/07/24-12:00:02 15 Blue Reflection Ray|BLUE REFLECTION RAY／澪
-2021/07/24-12:00:02 04 Kanojo mo Kanojo|カノジョも彼女
-2021/07/24-06:00:02 04 Vanitas no Karte|ヴァニタスの手記
-2021/07/24-06:00:02 03 100-man no Inochi no Ue ni Ore wa Tatte Iru Part 2|100万の命の上に俺は立っている(第2シーズン)
-2021/07/24-00:00:02 03 Meikyuu Black Company|迷宮ブラックカンパニー
 2021/07/23-06:00:02 01 Assault Lily Fruits|アサルトリリィ BOUQUET
 2021/07/23-00:00:02 17 Shaman King 2021|SHAMAN KING
 2021/07/21-12:00:02 01 Nu Wushen de Canzhuo II|戦乙女の食卓II
