@@ -1,10 +1,11 @@
-Last Update: 2021/08/01-06:00:02
+Last Update: 2021/08/01-12:00:02
+2021/08/01-12:00:02 04 Re-Main|RE-MAIN
+2021/08/01-12:00:02 01 Magia Record Mahou Shoujo Madoka Magica Gaiden 2nd Season|マギアレコード 魔法少女まどか☆マギカ外伝 2nd SEASON -覚醒前夜-
 2021/08/01-06:00:02 05 Mahouka Koukou no Yuutousei|魔法科高校の優等生
 2021/08/01-06:00:02 05 Kageki Shoujo!!|かげきしょうじょ！！
 2021/08/01-06:00:02 05 Genjitsu Shugi Yuusha no Oukoku Saikenki|現実主義勇者の王国再建記
 2021/08/01-06:00:02 05 Bokutachi no Remake|ぼくたちのリメイク
 2021/08/01-06:00:02 04 D_Cide Traumerei the Animation|D_CIDE TRAUMEREI THE ANIMATION
-2021/08/01-06:00:02 0 Magia Record Mahou Shoujo Madoka Magica Gaiden 2nd Season|マギアレコード 魔法少女まどか☆マギカ外伝 2nd SEASON -覚醒前夜-
 2021/08/01-00:00:02 18 Boku no Hero Academia 5|僕のヒーローアカデミア(第5期)
 2021/07/31-18:00:01 42 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/07/31-18:00:01 16 Blue Reflection Ray|BLUE REFLECTION RAY／澪
@@ -38,7 +39,6 @@ Last Update: 2021/08/01-06:00:02
 2021/07/25-12:00:01 58 Digimon Adventure;|デジモンアドベンチャー：
 2021/07/25-12:00:01 16 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
 2021/07/25-12:00:01 16 Edens Zero|EDENS ZERO
-2021/07/25-12:00:01 03 Re-Main|RE-MAIN
 2021/07/25-00:00:02 15 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
 2021/07/23-06:00:02 01 Assault Lily Fruits|アサルトリリィ BOUQUET
 2021/07/23-00:00:02 17 Shaman King 2021|SHAMAN KING
