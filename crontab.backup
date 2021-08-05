@@ -74,6 +74,9 @@ MAILTO=""
 */10 * * * * python /home/swirhen/sh/checker/twitterchk/twitter_check.py
 */10 * * * * python /home/swirhen/sh/checker/twitterchk/twitter_check_eshi_rt.py
 
+# url crawler
+5 * * * * python /home/swirhen/sh/checker/crawler_check/crawler_check.py "https://jp.candyhouse.co/collections/frontpage/products/new-wifi" "sesame_new_wifi_srore_page" "reqid"
+
 # 汎用 torrent seed check
 55 * * * * python /home/swirhen/sh/checker/torrentsearch/make_nyaa_db.py
 0 * * * * python /home/swirhen/sh/checker/torrentsearch/torrentsearch.py
