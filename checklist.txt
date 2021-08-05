@@ -1,4 +1,7 @@
-Last Update: 2021/08/06-00:00:02
+Last Update: 2021/08/06-06:00:01
+2021/08/06-06:00:01 07 Higurashi no Naku Koro ni Sotsu|ひぐらしのなく頃に卒
+2021/08/06-06:00:01 06 Peach Boy Riverside|ピーチボーイリバーサイド
+2021/08/06-06:00:01 05 Shiroi Suna no Aquatope|白い砂のアクアトープ
 2021/08/06-00:00:02 06 Scarlet Nexus|SCARLET NEXUS
 2021/08/06-00:00:02 04 Night Head 2041|NIGHT HEAD 2041
 2021/08/05-18:00:01 05 Kobayashi-san Chi no Maidragon S|小林さんちのメイドラゴンS
@@ -35,9 +38,6 @@ Last Update: 2021/08/06-00:00:02
 2021/07/31-06:00:02 04 100-man no Inochi no Ue ni Ore wa Tatte Iru Part 2|100万の命の上に俺は立っている(第2シーズン)
 2021/07/30-12:00:02 03 Sonny Boy|Sonny Boy -サニーボーイ-
 2021/07/30-12:00:02 02 Heion Sedai no Idaten-tachi|平穏世代の韋駄天達
-2021/07/30-06:00:02 06 Higurashi no Naku Koro ni Sotsu|ひぐらしのなく頃に卒
-2021/07/30-06:00:02 05 Peach Boy Riverside|ピーチボーイリバーサイド
-2021/07/30-06:00:02 04 Shiroi Suna no Aquatope|白い砂のアクアトープ
 2021/07/29-00:00:02 04 TsukiPro the Animation 2|TSUKIPRO THE ANIMATION2
 2021/07/26-00:00:02 04 Tian Guan Ci Fu|天官賜福
 2021/07/25-00:00:02 15 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
