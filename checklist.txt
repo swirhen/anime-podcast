@@ -1,7 +1,10 @@
-Last Update: 2021/08/08-18:00:01
+Last Update: 2021/08/09-00:00:02
+2021/08/09-00:00:02 06 Tian Guan Ci Fu|天官賜福
+2021/08/09-00:00:02 06 Tantei wa Mou, Shindeiru.|探偵はもう、死んでいる。
+2021/08/09-00:00:02 06 Getter Robo Arc|ゲッターロボアーク
+2021/08/09-00:00:02 03 Love Live! Superstar!!|ラブライブ！スーパースター！！
 2021/08/08-12:00:01 60 Digimon Adventure;|デジモンアドベンチャー：
 2021/08/08-12:00:01 18 Edens Zero|EDENS ZERO
-2021/08/08-12:00:01 05 Tian Guan Ci Fu|天官賜福
 2021/08/08-12:00:01 05 Re-Main|RE-MAIN
 2021/08/08-12:00:01 02 Jahy-sama wa Kujikenai!|ジャヒー様はくじけない！
 2021/08/08-06:00:02 06 Mahouka Koukou no Yuutousei|魔法科高校の優等生
@@ -36,11 +39,8 @@ Last Update: 2021/08/08-18:00:01
 2021/08/03-06:00:02 04 Deatte 5 Byou de Battle|出会って5秒でバトル
 2021/08/03-00:00:02 17 Tokyo Revengers|東京リベンジャーズ
 2021/08/02-06:00:02 05 Shinigami Bocchan to Kuro Maid|死神坊ちゃんと黒メイド
-2021/08/02-00:00:02 05 Tantei wa Mou, Shindeiru.|探偵はもう、死んでいる。
-2021/08/02-00:00:02 05 Getter Robo Arc|ゲッターロボアーク
 2021/08/01-18:00:02 17 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
 2021/08/01-00:00:02 18 Boku no Hero Academia 5|僕のヒーローアカデミア(第5期)
 2021/07/29-00:00:02 04 TsukiPro the Animation 2|TSUKIPRO THE ANIMATION2
 2021/07/23-00:00:02 17 Shaman King 2021|SHAMAN KING
 2021/07/21-12:00:02 01 Nu Wushen de Canzhuo II|戦乙女の食卓II
-2021/07/19-00:00:02 02 Love Live! Superstar!!|ラブライブ！スーパースター！！
