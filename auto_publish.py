@@ -57,11 +57,27 @@ def multiupload(file_path):
     swiutil.multi_upload(CHANNEL, file_path)
 
 
+# チェックリストの処理後、git commit -> push(新番組検知があれば新番組ファイルも)
+def git_commit_push(new_result_count):
+    # 処理の終わったtempリストを降順ソートし、実体に上書き→gitコミット
+    with open(LIST_TEMP) as file:
+        output_list = sorted(file.readlines(), reverse=True)
+    with open(LIST_FILE, 'w') as file:
+        file.writelines(output_list)
+    repo = git.Repo(SCRIPT_DIR)
+    repo.git.commit(LIST_FILE, message='checklist.txt update')
+    if new_result_count > 0:
+        repo.git.commit(NEW_PROGRAM_FILE, message='new_program.txt update')
+    repo.git.pull()
+    repo.git.push()
+
+
 # 終了のあとしまつ
-def end(proc_date):
+def end(proc_date=''):
     os.remove(FLG_FILE)
     # 直近処理時間記録
-    swiutil.writefile_new(LAST_CHECK_DATE_FILE, proc_date)
+    if proc_date != '':
+        swiutil.writefile_new(LAST_CHECK_DATE_FILE, proc_date)
     exit(0)
 
 
@@ -223,21 +239,9 @@ def main():
         multipost('@channel !!! リスト行数が変化しました。 checklist.txt のコミットログを確認してください')
         logging('!!! リスト行数が変化しました。 checklist.txt のコミットログを確認してください')
 
-    # 処理の終わったtempリストを降順ソートし、実体に上書き→gitコミット
-    with open(LIST_TEMP) as file:
-        output_list = sorted(file.readlines(), reverse=True)
-    with open(LIST_FILE, 'w') as file:
-        file.writelines(output_list)
-
-    repo = git.Repo(SCRIPT_DIR)
-    repo.git.commit(LIST_FILE, message='checklist.txt update')
-    if len(new_result) > 0:
-        repo.git.commit(NEW_PROGRAM_FILE, message='new_program.txt update')
-    repo.git.pull()
-    repo.git.push()
-
     # ここで結果が0ならおわる
     if len(result) == 0:
+        git_commit_push(len(new_result))
         post_msg = 'swirhen.tv auto publish completed. (no new episode)'
         multipost(post_msg)
         logging(post_msg)
@@ -245,6 +249,7 @@ def main():
 
     # seedダウンロード・seed育成処理開始
     dl_links = []
+    error_flag = False
     for download in downloads:
         link = download[0]
         title = swiutil.truncate(download[1].translate(str.maketrans('/;!','___')), 247)
@@ -252,13 +257,22 @@ def main():
             data = urllib.request.urlopen(link).read()
         except Exception as e:
             logging(f'# download error: {e}')
+            error_flag = True
         else:
             with open(f'{DOWNLOAD_DIR}/{title}.torrent', mode='wb') as file:
                 file.write(data)
             dl_links.append(link)
-
-    # DB更新
-    swiutil.update_download_feed(dl_links)
+    
+    if error_flag:
+        post_msg = 'swirhen.tv auto publish adorted. (seed download error)'
+        multipost(post_msg)
+        logging(post_msg)
+        end()
+    else:
+        # git commit push
+        git_commit_push(len(new_result))
+        # DB更新
+        swiutil.update_download_feed(dl_links)
 
     function_log = swiutil.torrent_download(DOWNLOAD_DIR)
     logging_without_timestamp(function_log)
