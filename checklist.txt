@@ -1,4 +1,7 @@
-Last Update: 2021/08/15-12:00:02
+Last Update: 2021/08/15-18:00:02
+2021/08/15-18:00:02 61 Digimon Adventure;|デジモンアドベンチャー：
+2021/08/15-18:00:02 19 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
+2021/08/15-18:00:02 19 Edens Zero|EDENS ZERO
 2021/08/15-12:00:02 07 Mahouka Koukou no Yuutousei|魔法科高校の優等生
 2021/08/15-12:00:02 07 Kageki Shoujo!!|かげきしょうじょ！！
 2021/08/15-12:00:02 07 Genjitsu Shugi Yuusha no Oukoku Saikenki|現実主義勇者の王国再建記
@@ -38,9 +41,6 @@ Last Update: 2021/08/15-12:00:02
 2021/08/09-00:00:02 06 Tantei wa Mou, Shindeiru.|探偵はもう、死んでいる。
 2021/08/09-00:00:02 06 Getter Robo Arc|ゲッターロボアーク
 2021/08/09-00:00:02 03 Love Live! Superstar!!|ラブライブ！スーパースター！！
-2021/08/08-12:00:01 60 Digimon Adventure;|デジモンアドベンチャー：
-2021/08/08-12:00:01 18 Edens Zero|EDENS ZERO
 2021/08/08-00:00:02 16 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
-2021/08/01-18:00:02 17 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
 2021/07/29-00:00:02 04 TsukiPro the Animation 2|TSUKIPRO THE ANIMATION2
 2021/07/21-12:00:02 01 Nu Wushen de Canzhuo II|戦乙女の食卓II
