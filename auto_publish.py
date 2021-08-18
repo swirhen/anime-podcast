@@ -264,7 +264,7 @@ def main():
             dl_links.append(link)
     
     if error_flag:
-        post_msg = 'swirhen.tv auto publish adorted. (seed download error)'
+        post_msg = '@channel !!! swirhen.tv auto publish adorted. (seed download error)'
         multipost(post_msg)
         logging(post_msg)
         end()
