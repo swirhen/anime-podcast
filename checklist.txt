@@ -1,4 +1,7 @@
-Last Update: 2021/08/20-00:00:02
+Last Update: 2021/08/20-06:00:01
+2021/08/20-06:00:01 09 Higurashi no Naku Koro ni Sotsu|ひぐらしのなく頃に卒
+2021/08/20-06:00:01 08 Peach Boy Riverside|ピーチボーイリバーサイド
+2021/08/20-06:00:01 07 Shiroi Suna no Aquatope|白い砂のアクアトープ
 2021/08/20-00:00:02 19 Shaman King 2021|SHAMAN KING
 2021/08/20-00:00:02 08 Scarlet Nexus|SCARLET NEXUS
 2021/08/20-00:00:02 06 Night Head 2041|NIGHT HEAD 2041
@@ -39,6 +42,3 @@ Last Update: 2021/08/20-00:00:02
 2021/08/14-06:00:02 06 100-man no Inochi no Ue ni Ore wa Tatte Iru Part 2|100万の命の上に俺は立っている(第2シーズン)
 2021/08/13-12:00:02 05 Sonny Boy|Sonny Boy -サニーボーイ-
 2021/08/13-12:00:02 04 Heion Sedai no Idaten-tachi|平穏世代の韋駄天達
-2021/08/13-06:00:01 08 Higurashi no Naku Koro ni Sotsu|ひぐらしのなく頃に卒
-2021/08/13-06:00:01 07 Peach Boy Riverside|ピーチボーイリバーサイド
-2021/08/13-06:00:01 06 Shiroi Suna no Aquatope|白い砂のアクアトープ
