@@ -1,4 +1,6 @@
-Last Update: 2021/08/21-18:00:02
+Last Update: 2021/08/22-00:00:02
+2021/08/22-00:00:02 20 Boku no Hero Academia 5|僕のヒーローアカデミア(第5期)
+2021/08/22-00:00:02 19 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
 2021/08/21-18:00:02 45 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/08/21-12:00:02 19 Blue Reflection Ray|BLUE REFLECTION RAY／澪
 2021/08/21-12:00:02 08 Kanojo mo Kanojo|カノジョも彼女
@@ -25,7 +27,6 @@ Last Update: 2021/08/21-18:00:02
 2021/08/17-00:00:02 19 Tokyo Revengers|東京リベンジャーズ
 2021/08/17-00:00:02 18 Fumetsu no Anata e|不滅のあなたへ
 2021/08/16-06:00:01 07 Shinigami Bocchan to Kuro Maid|死神坊ちゃんと黒メイド
-2021/08/16-00:00:03 18 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
 2021/08/16-00:00:03 07 Tian Guan Ci Fu|天官賜福
 2021/08/16-00:00:03 07 Tantei wa Mou, Shindeiru.|探偵はもう、死んでいる。
 2021/08/16-00:00:03 07 Getter Robo Arc|ゲッターロボアーク
@@ -40,5 +41,4 @@ Last Update: 2021/08/21-18:00:02
 2021/08/15-12:00:02 06 D_Cide Traumerei the Animation|D_CIDE TRAUMEREI THE ANIMATION
 2021/08/15-12:00:02 03 Magia Record Mahou Shoujo Madoka Magica Gaiden 2nd Season|マギアレコード 魔法少女まどか☆マギカ外伝 2nd SEASON -覚醒前夜-
 2021/08/15-12:00:02 03 Jahy-sama wa Kujikenai!|ジャヒー様はくじけない！
-2021/08/15-00:00:03 19 Boku no Hero Academia 5|僕のヒーローアカデミア(第5期)
 2021/08/15-00:00:03 06.5 Bokutachi no Remake|ぼくたちのリメイク
