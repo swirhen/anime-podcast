@@ -1,4 +1,10 @@
-Last Update: 2021/08/22-00:00:02
+Last Update: 2021/08/22-06:00:01
+2021/08/22-06:00:01 08 Mahouka Koukou no Yuutousei|魔法科高校の優等生
+2021/08/22-06:00:01 08 Kageki Shoujo!!|かげきしょうじょ！！
+2021/08/22-06:00:01 08 Genjitsu Shugi Yuusha no Oukoku Saikenki|現実主義勇者の王国再建記
+2021/08/22-06:00:01 07 D_Cide Traumerei the Animation|D_CIDE TRAUMEREI THE ANIMATION
+2021/08/22-06:00:01 07 Bokutachi no Remake|ぼくたちのリメイク
+2021/08/22-06:00:01 04 Magia Record Mahou Shoujo Madoka Magica Gaiden 2nd Season|マギアレコード 魔法少女まどか☆マギカ外伝 2nd SEASON -覚醒前夜-
 2021/08/22-00:00:02 20 Boku no Hero Academia 5|僕のヒーローアカデミア(第5期)
 2021/08/22-00:00:02 19 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
 2021/08/21-18:00:02 45 Dqdai|ドラゴンクエスト ダイの大冒険
@@ -34,11 +40,5 @@ Last Update: 2021/08/22-00:00:02
 2021/08/15-18:00:02 61 Digimon Adventure;|デジモンアドベンチャー：
 2021/08/15-18:00:02 19 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
 2021/08/15-18:00:02 19 Edens Zero|EDENS ZERO
-2021/08/15-12:00:02 07 Mahouka Koukou no Yuutousei|魔法科高校の優等生
-2021/08/15-12:00:02 07 Kageki Shoujo!!|かげきしょうじょ！！
-2021/08/15-12:00:02 07 Genjitsu Shugi Yuusha no Oukoku Saikenki|現実主義勇者の王国再建記
 2021/08/15-12:00:02 06 Re-Main|RE-MAIN
-2021/08/15-12:00:02 06 D_Cide Traumerei the Animation|D_CIDE TRAUMEREI THE ANIMATION
-2021/08/15-12:00:02 03 Magia Record Mahou Shoujo Madoka Magica Gaiden 2nd Season|マギアレコード 魔法少女まどか☆マギカ外伝 2nd SEASON -覚醒前夜-
 2021/08/15-12:00:02 03 Jahy-sama wa Kujikenai!|ジャヒー様はくじけない！
-2021/08/15-00:00:03 06.5 Bokutachi no Remake|ぼくたちのリメイク
