@@ -1,4 +1,8 @@
-Last Update: 2021/08/22-18:00:02
+Last Update: 2021/08/23-00:00:02
+2021/08/23-00:00:02 08 Tian Guan Ci Fu|天官賜福
+2021/08/23-00:00:02 08 Tantei wa Mou, Shindeiru.|探偵はもう、死んでいる。
+2021/08/23-00:00:02 08 Getter Robo Arc|ゲッターロボアーク
+2021/08/23-00:00:02 05 Love Live! Superstar!!|ラブライブ！スーパースター！！
 2021/08/22-12:00:01 62 Digimon Adventure;|デジモンアドベンチャー：
 2021/08/22-06:00:01 08 Mahouka Koukou no Yuutousei|魔法科高校の優等生
 2021/08/22-06:00:01 08 Kageki Shoujo!!|かげきしょうじょ！！
@@ -34,10 +38,6 @@ Last Update: 2021/08/22-18:00:02
 2021/08/17-00:00:02 19 Tokyo Revengers|東京リベンジャーズ
 2021/08/17-00:00:02 18 Fumetsu no Anata e|不滅のあなたへ
 2021/08/16-06:00:01 07 Shinigami Bocchan to Kuro Maid|死神坊ちゃんと黒メイド
-2021/08/16-00:00:03 07 Tian Guan Ci Fu|天官賜福
-2021/08/16-00:00:03 07 Tantei wa Mou, Shindeiru.|探偵はもう、死んでいる。
-2021/08/16-00:00:03 07 Getter Robo Arc|ゲッターロボアーク
-2021/08/16-00:00:03 04 Love Live! Superstar!!|ラブライブ！スーパースター！！
 2021/08/15-18:00:02 19 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
 2021/08/15-18:00:02 19 Edens Zero|EDENS ZERO
 2021/08/15-12:00:02 06 Re-Main|RE-MAIN
