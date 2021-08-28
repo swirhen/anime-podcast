@@ -25,9 +25,6 @@ MAILTO=""
 
 # SP
 #4 8 1,2,3,23,24,27-31 8 * /data/share/movie/sh/rec_nhk.sh NHK1 13560 "/data/share/movie/98 PSP用/agqr/" "夏休み子ども科学電話相談"
-53 4 * * 6 python /data/share/movie/sh/radio_record.py r "BRAND NEW HOT LINE" 1 380 BAYFM78
-51 4 * * 7 python /data/share/movie/sh/radio_record.py r "BRAND NEW HOT LINE" 1 380 BAYFM78
-49 4 * * 1 python /data/share/movie/sh/radio_record.py r "BRAND NEW HOT LINE" 1 380 BAYFM78
 
 # 帯
 0 0 * * 2-5 python /data/share/movie/sh/radio_record.py a "鷲崎健のヨルナイト×ヨルナイト" 30 3600 v
