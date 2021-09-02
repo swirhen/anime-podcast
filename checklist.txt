@@ -1,4 +1,7 @@
-Last Update: 2021/09/02-18:00:02
+Last Update: 2021/09/03-00:00:02
+2021/09/03-00:00:02 21 Shaman King 2021|SHAMAN KING
+2021/09/03-00:00:02 10 Scarlet Nexus|SCARLET NEXUS
+2021/09/03-00:00:02 08 Night Head 2041|NIGHT HEAD 2041
 2021/09/02-06:00:02 09 Tsuki ga Michibiku Isekai Douchuu|月が導く異世界道中
 2021/09/02-06:00:02 09 Kobayashi-san Chi no Maidragon S|小林さんちのメイドラゴンS
 2021/09/02-06:00:02 09 Cheat Kusushi|チート薬師のスローライフ～異世界に作ろうドラッグストア～
@@ -36,8 +39,5 @@ Last Update: 2021/09/02-18:00:02
 2021/08/27-06:00:02 10 Higurashi no Naku Koro ni Sotsu|ひぐらしのなく頃に卒
 2021/08/27-06:00:02 09 Peach Boy Riverside|ピーチボーイリバーサイド
 2021/08/27-06:00:02 08 Shiroi Suna no Aquatope|白い砂のアクアトープ
-2021/08/27-00:00:02 20 Shaman King 2021|SHAMAN KING
-2021/08/27-00:00:02 09 Scarlet Nexus|SCARLET NEXUS
-2021/08/26-12:00:02 07 Night Head 2041|NIGHT HEAD 2041
 2021/08/23-00:00:02 05 Love Live! Superstar!!|ラブライブ！スーパースター！！
 2021/08/22-00:00:02 19 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
