@@ -1,4 +1,6 @@
-Last Update: 2021/09/04-00:00:02
+Last Update: 2021/09/04-06:00:01
+2021/09/04-06:00:01 10 Vanitas no Karte|ヴァニタスの手記
+2021/09/04-06:00:01 09 100-man no Inochi no Ue ni Ore wa Tatte Iru Part 2|100万の命の上に俺は立っている(第2シーズン)
 2021/09/04-00:00:02 09.1 Hamehura X|乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった…X
 2021/09/04-00:00:02 07 Heion Sedai no Idaten-tachi|平穏世代の韋駄天達
 2021/09/03-06:00:02 11 Peach Boy Riverside|ピーチボーイリバーサイド
@@ -35,8 +37,6 @@ Last Update: 2021/09/04-00:00:02
 2021/08/29-00:00:02 20 Blue Reflection Ray|BLUE REFLECTION RAY／澪
 2021/08/28-18:00:02 46 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/08/28-12:00:02 09 Kanojo mo Kanojo|カノジョも彼女
-2021/08/28-06:00:01 09 Vanitas no Karte|ヴァニタスの手記
-2021/08/28-06:00:01 08 100-man no Inochi no Ue ni Ore wa Tatte Iru Part 2|100万の命の上に俺は立っている(第2シーズン)
 2021/08/28-00:00:02 08 Meikyuu Black Company|迷宮ブラックカンパニー
 2021/08/28-00:00:02 07 Sonny Boy|Sonny Boy -サニーボーイ-
 2021/08/23-00:00:02 05 Love Live! Superstar!!|ラブライブ！スーパースター！！
