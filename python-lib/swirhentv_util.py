@@ -451,10 +451,10 @@ def torrent_download(filepath, slack_channel='bot-open'):
 # 動画エンコード
 # ディレクトリ内の動画をエンコードし、完了都度フィード生成し、つぶやく(twitterとslack)
 # 全完了後、各作品ディレクトリへの移動処理
-def encode_movie_in_directory(input_dir, output_dir):
+def encode_movie_in_directory(input_dir, output_dir, extention='mp4'):
     return_log = []
 
-    for filename in pathlib.Path(input_dir).glob('*話*.mp4'):
+    for filename in pathlib.Path(input_dir).glob(f'*話*.{extention}'):
         td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
         return_log.append(f'{td} movie encode start: {filename.name}.mp4')
         encode_movie_proc(str(filename), output_dir)

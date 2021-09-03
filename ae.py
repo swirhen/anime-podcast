@@ -13,4 +13,8 @@ import swirhentv_util as swiutil
 if __name__ == '__main__':
     in_path = '/data/share/movie'
     out_path = '/data/share/movie/98 PSP用'
-    swiutil.encode_movie_in_directory(in_path, out_path)
+    args = sys.argv
+    if len(args) == 2:
+        swiutil.encode_movie_in_directory(in_path, out_path, args[1])
+    else:
+        swiutil.encode_movie_in_directory(in_path, out_path)
