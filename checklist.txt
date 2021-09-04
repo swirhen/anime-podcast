@@ -1,4 +1,5 @@
-Last Update: 2021/09/04-12:00:02
+Last Update: 2021/09/04-18:00:01
+2021/09/04-18:00:01 47 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/09/04-12:00:02 21 Blue Reflection Ray|BLUE REFLECTION RAY／澪
 2021/09/04-12:00:02 10 Kanojo mo Kanojo|カノジョも彼女
 2021/09/04-12:00:02 10 Hamehura X|乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった…X
@@ -37,7 +38,6 @@ Last Update: 2021/09/04-12:00:02
 2021/08/29-06:00:02 08 Bokutachi no Remake|ぼくたちのリメイク
 2021/08/29-06:00:02 05 Magia Record Mahou Shoujo Madoka Magica Gaiden 2nd Season|マギアレコード 魔法少女まどか☆マギカ外伝 2nd SEASON -覚醒前夜-
 2021/08/29-00:00:02 21 Boku no Hero Academia 5|僕のヒーローアカデミア(第5期)
-2021/08/28-18:00:02 46 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/08/28-00:00:02 07 Sonny Boy|Sonny Boy -サニーボーイ-
 2021/08/23-00:00:02 05 Love Live! Superstar!!|ラブライブ！スーパースター！！
 2021/08/22-00:00:02 19 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
