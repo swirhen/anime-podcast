@@ -91,4 +91,4 @@ MAILTO=""
 6 0 * * * python /data/share/movie/sh/radio_record.py cr force
 
 # きょうのいちまい
-0 12,18 * * * python /data/share/movie/sh/python-lib/today_picture.py
+0 12,15,18 * * * python /data/share/movie/sh/python-lib/today_picture.py
