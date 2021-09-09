@@ -1,4 +1,8 @@
-Last Update: 2021/09/09-18:00:02
+Last Update: 2021/09/10-00:00:02
+2021/09/10-00:00:02 22 Shaman King 2021|SHAMAN KING
+2021/09/10-00:00:02 11 Scarlet Nexus|SCARLET NEXUS
+2021/09/10-00:00:02 10.1 Hamehura X|乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった…X
+2021/09/10-00:00:02 09 Night Head 2041|NIGHT HEAD 2041
 2021/09/09-12:00:02 10 Kobayashi-san Chi no Maidragon S|小林さんちのメイドラゴンS
 2021/09/09-06:00:02 22 Tokyo Revengers|東京リベンジャーズ
 2021/09/09-06:00:02 10 Tsuki ga Michibiku Isekai Douchuu|月が導く異世界道中
@@ -28,7 +32,6 @@ Last Update: 2021/09/09-18:00:02
 2021/09/04-18:00:01 47 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/09/04-12:00:02 21 Blue Reflection Ray|BLUE REFLECTION RAY／澪
 2021/09/04-12:00:02 10 Kanojo mo Kanojo|カノジョも彼女
-2021/09/04-12:00:02 10 Hamehura X|乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった…X
 2021/09/04-12:00:02 09 Meikyuu Black Company|迷宮ブラックカンパニー
 2021/09/04-06:00:01 10 Vanitas no Karte|ヴァニタスの手記
 2021/09/04-06:00:01 09 100-man no Inochi no Ue ni Ore wa Tatte Iru Part 2|100万の命の上に俺は立っている(第2シーズン)
@@ -36,8 +39,5 @@ Last Update: 2021/09/09-18:00:02
 2021/09/03-06:00:02 11 Peach Boy Riverside|ピーチボーイリバーサイド
 2021/09/03-06:00:02 11 Higurashi no Naku Koro ni Sotsu|ひぐらしのなく頃に卒
 2021/09/03-06:00:02 09 Shiroi Suna no Aquatope|白い砂のアクアトープ
-2021/09/03-00:00:02 21 Shaman King 2021|SHAMAN KING
-2021/09/03-00:00:02 10 Scarlet Nexus|SCARLET NEXUS
-2021/09/03-00:00:02 08 Night Head 2041|NIGHT HEAD 2041
 2021/08/30-06:00:01 09 Tian Guan Ci Fu|天官賜福
 2021/08/22-00:00:02 19 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
