@@ -1,4 +1,6 @@
-Last Update: 2021/09/13-18:00:02
+Last Update: 2021/09/14-00:00:02
+2021/09/14-00:00:02 65 Digimon Adventure;|デジモンアドベンチャー：
+2021/09/14-00:00:02 23 Tokyo Revengers|東京リベンジャーズ
 2021/09/13-06:00:01 11 Shinigami Bocchan to Kuro Maid|死神坊ちゃんと黒メイド
 2021/09/13-00:00:02 11 Tantei wa Mou, Shindeiru.|探偵はもう、死んでいる。
 2021/09/13-00:00:02 11 Getter Robo Arc|ゲッターロボアーク
@@ -30,7 +32,6 @@ Last Update: 2021/09/13-18:00:02
 2021/09/10-00:00:02 11 Scarlet Nexus|SCARLET NEXUS
 2021/09/10-00:00:02 09 Night Head 2041|NIGHT HEAD 2041
 2021/09/09-12:00:02 10 Kobayashi-san Chi no Maidragon S|小林さんちのメイドラゴンS
-2021/09/09-06:00:02 22 Tokyo Revengers|東京リベンジャーズ
 2021/09/09-06:00:02 10 Tsuki ga Michibiku Isekai Douchuu|月が導く異世界道中
 2021/09/09-06:00:02 10 Cheat Kusushi|チート薬師のスローライフ～異世界に作ろうドラッグストア～
 2021/09/09-06:00:02 09 Megami-ryou no Ryoubo-kun.|女神寮の寮母くん。
@@ -38,6 +39,5 @@ Last Update: 2021/09/13-18:00:02
 2021/09/07-12:00:02 10 Uramichi Onii-san|うらみちお兄さん
 2021/09/07-12:00:02 10 Seirei Gensouki|精霊幻想記
 2021/09/07-06:00:02 09 Deatte 5 Byou de Battle|出会って5秒でバトル
-2021/09/05-12:00:01 64 Digimon Adventure;|デジモンアドベンチャー：
 2021/09/03-06:00:02 11 Peach Boy Riverside|ピーチボーイリバーサイド
 2021/08/22-00:00:02 19 Mairimashita! Iruma-kun 2|魔入りました！入間くん(第2シリーズ)
