@@ -162,15 +162,15 @@ def main():
                 if re.search('END', title):
                     filepath = glob.glob(f'{DOWNLOAD_DIR}/*{name_j}')[0]
                     filelist = list(pathlib.Path(filepath).glob(f'{name_j} 第*.mp4'))
-                    filelist_ignore_inteval_episodes = sorted([p.name for p in filelist if not re.search(r'\.5', str(p))])
+                    filelist_ignore_inteval_episodes = sorted([p.name for p in filelist if not re.search(r'\.5|\.1', str(p))])
                     filecount = len(filelist_ignore_inteval_episodes) + 1
 
                     logging(f'終了とみられるエピソード: {title}')
                     if filecount == int(seed_episode_number):
-                        logging(f'    抜けチェック:OK 既存エピソードファイル数(.5話を除く): {str(filecount)} / 最終エピソード番号: {seed_episode_number}')
+                        logging(f'    抜けチェック:OK 既存エピソードファイル数(.n話を除く): {str(filecount)} / 最終エピソード番号: {seed_episode_number}')
                         end_episodes.append(name_j)
                     else:
-                        logging(f'    抜けチェック:NG 既存エピソードファイル数(.5話を除く): {str(filecount)} / 最終エピソード番号: {seed_episode_number}')
+                        logging(f'    抜けチェック:NG 既存エピソードファイル数(.n話を除く): {str(filecount)} / 最終エピソード番号: {seed_episode_number}')
                         end_episode_ngs.append(name_j)
 
                 break
