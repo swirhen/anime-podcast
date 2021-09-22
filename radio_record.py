@@ -198,7 +198,7 @@ if __name__ == '__main__':
         except Exception as e:
             print(e)
         else:
-            if response != '':
+            if response != b'':
                 json_data = json.loads(response)
                 program_name_from_api = json_data['title']
 
