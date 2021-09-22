@@ -198,8 +198,9 @@ if __name__ == '__main__':
         except Exception as e:
             print(e)
         else:
-            json_data = json.loads(response)
-            program_name_from_api = json_data['title']
+            if response != '':
+                json_data = json.loads(response)
+                program_name_from_api = json_data['title']
 
         # 保存ファイル名(拡張子無し)
         filename_without_path = f'{dt}_{program_name}'
