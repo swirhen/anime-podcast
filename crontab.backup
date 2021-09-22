@@ -9,12 +9,12 @@ MAILTO=""
 @reboot mkdir /tmp/vga
 @reboot nohup python /data/share/movie/sh/python-lib/slackbot_run.py > /dev/null &
 @reboot nohup python /data/share/movie/sh/python-lib/discord_bot.py > /dev/null &
-@reboot nohup python /home/swirhen/agqr-program-guide/server.py > /dev/null &
+#@reboot nohup python /home/swirhen/agqr-program-guide/server.py > /dev/null &
 0 1 * * * /home/swirhen/sh/backup.sh
 0 1 * * * /data/share/movie/sh/cron_backup.sh
 10 3 * * * /data/share/movie/sh/backup.sh
 0 0 * * * python /data/share/movie/sh/python-lib/make_feed_list.py
-0 0,12 * * * /home/swirhen/agqr-program-guide/reload.sh
+#0 0,12 * * * /home/swirhen/agqr-program-guide/reload.sh
 0 0-2,6-23 * * * python /data/share/movie/sh/python-lib/jihou.py
 
 #* * 1-7 * * [ "$(date '+\%w')" -eq 1 ] && echo "だいいちげつようび～"
@@ -91,4 +91,4 @@ MAILTO=""
 6 0 * * * python /data/share/movie/sh/radio_record.py cr force
 
 # きょうのいちまい
-0 12,15,18 * * * python /data/share/movie/sh/python-lib/today_picture.py
+0 9,12,15,18,21 * * * python /data/share/movie/sh/python-lib/today_picture.py
