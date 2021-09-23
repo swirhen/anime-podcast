@@ -1,4 +1,6 @@
-Last Update: 2021/09/24-00:00:02
+Last Update: 2021/09/24-06:00:01
+2021/09/24-06:00:01 14 Higurashi no Naku Koro ni Sotsu|ひぐらしのなく頃に卒
+2021/09/24-06:00:01 12 Shiroi Suna no Aquatope|白い砂のアクアトープ
 2021/09/24-00:00:02 24 Shaman King 2021|SHAMAN KING
 2021/09/24-00:00:02 13 Scarlet Nexus|SCARLET NEXUS
 2021/09/23-18:00:01 11 Night Head 2041|NIGHT HEAD 2041
@@ -22,8 +24,6 @@ Last Update: 2021/09/24-00:00:02
 2021/09/18-06:00:01 11 100-man no Inochi no Ue ni Ore wa Tatte Iru Part 2|100万の命の上に俺は立っている(第2シーズン)
 2021/09/18-00:00:01 10 Sonny Boy|Sonny Boy -サニーボーイ-
 2021/09/18-00:00:01 09 Heion Sedai no Idaten-tachi|平穏世代の韋駄天達
-2021/09/17-06:00:02 13 Higurashi no Naku Koro ni Sotsu|ひぐらしのなく頃に卒
-2021/09/17-06:00:02 11 Shiroi Suna no Aquatope|白い砂のアクアトープ
 2021/09/14-00:00:02 65 Digimon Adventure;|デジモンアドベンチャー：
 2021/09/13-00:00:02 10 Tian Guan Ci Fu|天官賜福
 2021/09/12-18:00:01 23 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
