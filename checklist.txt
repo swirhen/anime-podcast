@@ -1,4 +1,6 @@
-Last Update: 2021/10/07-18:00:01
+Last Update: 2021/10/08-00:00:02
+2021/10/08-00:00:02 26 Shaman King 2021|SHAMAN KING
+2021/10/08-00:00:02 15 Scarlet Nexus|SCARLET NEXUS
 2021/10/07-18:00:01 01 Muv-Luv Alternative|マブラヴ オルタネイティヴ
 2021/10/07-12:00:02 01 Puraore! Pride of Orange|プラオレ！～PRIDE OF ORANGE～
 2021/10/07-12:00:02 01 Komi-san wa, Komyushou Desu.|WIXOSS DIVA(A)LIVE
@@ -28,8 +30,6 @@ Last Update: 2021/10/07-18:00:01
 2021/10/02-12:00:01 01 Megaton-kyuu Musashi|メガトン級ムサシ
 2021/10/02-06:00:02 01 Selection Project|SELECTION PROJECT
 2021/10/01-12:00:02 11 Heion Sedai no Idaten-tachi|平穏世代の韋駄天達
-2021/10/01-06:00:01 25 Shaman King 2021|SHAMAN KING
 2021/10/01-06:00:01 13 Shiroi Suna no Aquatope|白い砂のアクアトープ
-2021/10/01-00:00:02 14 Scarlet Nexus|SCARLET NEXUS
 2021/09/25-12:00:01 11 Sonny Boy|Sonny Boy -サニーボーイ-
 2021/09/13-00:00:02 10 Tian Guan Ci Fu|天官賜福
