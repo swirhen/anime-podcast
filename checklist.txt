@@ -1,6 +1,9 @@
-Last Update: 2021/10/09-00:00:01
+Last Update: 2021/10/09-06:00:01
+2021/10/09-06:00:01 02 Megaton-kyuu Musashi|メガトン級ムサシ
+2021/10/09-06:00:01 01 Shuumatsu no Harem|終末のハーレム
+2021/10/09-06:00:01 0 Visual Prison|ヴィジュアルプリズン
+2021/10/09-06:00:01 0 Platinum End|プラチナエンド
 2021/10/09-00:00:01 02 Selection Project|SELECTION PROJECT
-2021/10/09-00:00:01 0 Shuumatsu no Harem|終末のハーレム
 2021/10/08-12:00:01 01 Sakugan|サクガン
 2021/10/08-06:00:01 14 Shiroi Suna no Aquatope|白い砂のアクアトープ
 2021/10/08-00:00:02 26 Shaman King 2021|SHAMAN KING
@@ -31,7 +34,6 @@ Last Update: 2021/10/09-00:00:01
 2021/10/02-18:00:02 01 Isekai Shokudou 2|異世界食堂2
 2021/10/02-18:00:02 01 Blue Period|ブルーピリオド
 2021/10/02-12:00:01 51 Dqdai|ドラゴンクエスト ダイの大冒険
-2021/10/02-12:00:01 01 Megaton-kyuu Musashi|メガトン級ムサシ
 2021/10/01-12:00:02 11 Heion Sedai no Idaten-tachi|平穏世代の韋駄天達
 2021/09/25-12:00:01 11 Sonny Boy|Sonny Boy -サニーボーイ-
 2021/09/13-00:00:02 10 Tian Guan Ci Fu|天官賜福
