@@ -1,8 +1,11 @@
-Last Update: 2021/10/09-06:00:01
+Last Update: 2021/10/09-12:00:02
+2021/10/09-12:00:02 02 Yuuki Yuuna wa Yuusha de Aru Dai Mankai no Shou|結城友奈は勇者である -鷲尾須美の章-／-勇者の章-
+2021/10/09-12:00:02 02 Isekai Shokudou 2|異世界食堂2
+2021/10/09-12:00:02 02 Blue Period|ブルーピリオド
+2021/10/09-12:00:02 01 Visual Prison|ヴィジュアルプリズン
+2021/10/09-12:00:02 01 Platinum End|プラチナエンド
 2021/10/09-06:00:01 02 Megaton-kyuu Musashi|メガトン級ムサシ
 2021/10/09-06:00:01 01 Shuumatsu no Harem|終末のハーレム
-2021/10/09-06:00:01 0 Visual Prison|ヴィジュアルプリズン
-2021/10/09-06:00:01 0 Platinum End|プラチナエンド
 2021/10/09-00:00:01 02 Selection Project|SELECTION PROJECT
 2021/10/08-12:00:01 01 Sakugan|サクガン
 2021/10/08-06:00:01 14 Shiroi Suna no Aquatope|白い砂のアクアトープ
@@ -30,9 +33,6 @@ Last Update: 2021/10/09-06:00:01
 2021/10/03-12:00:02 09 Jahy-sama wa Kujikenai!|ジャヒー様はくじけない！
 2021/10/03-12:00:02 01 Mahou Tsukai no Yome Nishi no Shounen to Seiran no Kishi|魔法使いの嫁
 2021/10/03-12:00:02 01 Eighty-Six Part 2|86-エイティシックス-(第2クール)
-2021/10/02-18:00:02 01 Yuuki Yuuna wa Yuusha de Aru Dai Mankai no Shou|結城友奈は勇者である -鷲尾須美の章-／-勇者の章-
-2021/10/02-18:00:02 01 Isekai Shokudou 2|異世界食堂2
-2021/10/02-18:00:02 01 Blue Period|ブルーピリオド
 2021/10/02-12:00:01 51 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/10/01-12:00:02 11 Heion Sedai no Idaten-tachi|平穏世代の韋駄天達
 2021/09/25-12:00:01 11 Sonny Boy|Sonny Boy -サニーボーイ-
