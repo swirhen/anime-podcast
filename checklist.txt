@@ -1,4 +1,9 @@
-Last Update: 2021/10/11-00:00:02
+Last Update: 2021/10/11-06:00:02
+2021/10/11-06:00:02 02 Tesla Note|テスラノート
+2021/10/11-06:00:02 02 Sankaku Mado no Sotogawa wa Yoru|さんかく窓の外側は夜
+2021/10/11-06:00:02 02 Muteking the Dancing Hero|MUTEKING THE Dancing HERO
+2021/10/11-06:00:02 02 Mushoku Tensei Isekai Ittara Honki Dasu 2nd|無職転生～異世界行ったら本気だす～(第2クール)
+2021/10/11-06:00:02 0 Kimetsu no Yaiba Mugen Ressha Hen|鬼滅の刃 無限列車編(テレビ放送版)
 2021/10/11-00:00:02 11 Love Live! Superstar!!|ラブライブ！スーパースター！！
 2021/10/11-00:00:02 02 Mieruko-chan|見える子ちゃん
 2021/10/10-18:00:02 27 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
@@ -33,10 +38,6 @@ Last Update: 2021/10/11-00:00:02
 2021/10/05-18:00:02 01 Kyoukai Senki|境界戦機
 2021/10/05-12:00:02 01 Kyuuketsuki Sugu Shinu|吸血鬼すぐ死ぬ
 2021/10/04-18:00:02 01 Tsuki to Laika to Nosferatu|月とライカと吸血姫
-2021/10/04-12:00:01 01 Tesla Note|テスラノート
-2021/10/04-12:00:01 01 Sankaku Mado no Sotogawa wa Yoru|さんかく窓の外側は夜
-2021/10/04-12:00:01 01 Muteking the Dancing Hero|MUTEKING THE Dancing HERO
-2021/10/04-12:00:01 01 Mushoku Tensei Isekai Ittara Honki Dasu 2nd|無職転生～異世界行ったら本気だす～(第2クール)
 2021/10/03-12:00:02 01 Mahou Tsukai no Yome Nishi no Shounen to Seiran no Kishi|魔法使いの嫁
 2021/10/01-12:00:02 11 Heion Sedai no Idaten-tachi|平穏世代の韋駄天達
 2021/09/25-12:00:01 11 Sonny Boy|Sonny Boy -サニーボーイ-
