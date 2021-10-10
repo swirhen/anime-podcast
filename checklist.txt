@@ -1,4 +1,6 @@
-Last Update: 2021/10/10-18:00:02
+Last Update: 2021/10/11-00:00:02
+2021/10/11-00:00:02 11 Love Live! Superstar!!|ラブライブ！スーパースター！！
+2021/10/11-00:00:02 02 Mieruko-chan|見える子ちゃん
 2021/10/10-18:00:02 27 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
 2021/10/10-12:00:02 10 Jahy-sama wa Kujikenai!|ジャヒー様はくじけない！
 2021/10/10-12:00:02 01 Senpai ga Uzai Kouhai no Hanashi|先輩がうざい後輩の話
@@ -35,8 +37,6 @@ Last Update: 2021/10/10-18:00:02
 2021/10/04-12:00:01 01 Sankaku Mado no Sotogawa wa Yoru|さんかく窓の外側は夜
 2021/10/04-12:00:01 01 Muteking the Dancing Hero|MUTEKING THE Dancing HERO
 2021/10/04-12:00:01 01 Mushoku Tensei Isekai Ittara Honki Dasu 2nd|無職転生～異世界行ったら本気だす～(第2クール)
-2021/10/04-06:00:01 01 Mieruko-chan|見える子ちゃん
-2021/10/04-00:00:02 10 Love Live! Superstar!!|ラブライブ！スーパースター！！
 2021/10/03-12:00:02 01 Mahou Tsukai no Yome Nishi no Shounen to Seiran no Kishi|魔法使いの嫁
 2021/10/01-12:00:02 11 Heion Sedai no Idaten-tachi|平穏世代の韋駄天達
 2021/09/25-12:00:01 11 Sonny Boy|Sonny Boy -サニーボーイ-
