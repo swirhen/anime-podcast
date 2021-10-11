@@ -68,7 +68,7 @@ def reply_url_the_picture(year=''):
 def today_picture_normal():
     filelist = choice_the_picture()
     swiutil.discord_post(CHANNEL, 'どどんどどんどんどん！\n'
-                        '画像ちゃん！(増加ペースに追いつかないので1日3回になったよ)\n'
+                        '画像ちゃん！\n'
                         f'{filelist[-1].replace("/data", "http://swirhen.tv")}')
     with open(RECENT_LIST, mode='w') as file:
         file.write('\n'.join(filelist))
