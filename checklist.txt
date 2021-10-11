@@ -1,5 +1,6 @@
-Last Update: 2021/10/12-00:00:02
-2021/10/12-00:00:02 0 Gyakuten Sekai no Denchi Shoujo|逆転世界ノ電池少女
+Last Update: 2021/10/12-06:00:01
+2021/10/12-06:00:01 02 Kyuuketsuki Sugu Shinu|吸血鬼すぐ死ぬ
+2021/10/12-06:00:01 01 Gyakuten Sekai no Denchi Shoujo|逆転世界ノ電池少女
 2021/10/11-12:00:02 02 Tsuki to Laika to Nosferatu|月とライカと吸血姫
 2021/10/11-06:00:02 02 Tesla Note|テスラノート
 2021/10/11-06:00:02 02 Sankaku Mado no Sotogawa wa Yoru|さんかく窓の外側は夜
@@ -37,4 +38,3 @@ Last Update: 2021/10/12-00:00:02
 2021/10/06-06:00:01 01 Yakunara Mug Cup mo Niban Kama|やくならマグカップも 二番窯
 2021/10/05-18:00:02 01 Shinka no Mi Shiranai Uchi ni Kachigumi Jinsei|進化の実～知らないうちに勝ち組人生～
 2021/10/05-18:00:02 01 Kyoukai Senki|境界戦機
-2021/10/05-12:00:02 01 Kyuuketsuki Sugu Shinu|吸血鬼すぐ死ぬ
