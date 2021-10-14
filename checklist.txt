@@ -1,9 +1,11 @@
-Last Update: 2021/10/15-00:00:02
+Last Update: 2021/10/15-06:00:02
+2021/10/15-06:00:02 15 Shiroi Suna no Aquatope|白い砂のアクアトープ
+2021/10/15-06:00:02 02 Sakugan|サクガン
+2021/10/15-06:00:02 01 Kaginado|かぎなど
+2021/10/15-06:00:02 01 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
 2021/10/15-00:00:02 27 Shaman King 2021|SHAMAN KING
 2021/10/15-00:00:02 16 Scarlet Nexus|SCARLET NEXUS
 2021/10/15-00:00:02 02 Muv-Luv Alternative|マブラヴ オルタネイティヴ
-2021/10/15-00:00:02 0 Kaginado|かぎなど
-2021/10/15-00:00:02 0 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
 2021/10/14-06:00:02 02 Puraore! Pride of Orange|プラオレ！～PRIDE OF ORANGE～
 2021/10/14-06:00:02 02 Komi-san wa, Komyushou Desu.|WIXOSS DIVA(A)LIVE
 2021/10/14-06:00:02 01 Shikizakura|シキザクラ
@@ -40,5 +42,3 @@ Last Update: 2021/10/15-00:00:02
 2021/10/09-06:00:01 02 Megaton-kyuu Musashi|メガトン級ムサシ
 2021/10/09-06:00:01 01 Shuumatsu no Harem|終末のハーレム
 2021/10/09-00:00:01 02 Selection Project|SELECTION PROJECT
-2021/10/08-12:00:01 01 Sakugan|サクガン
-2021/10/08-06:00:01 14 Shiroi Suna no Aquatope|白い砂のアクアトープ
