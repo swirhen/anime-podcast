@@ -1,4 +1,7 @@
-Last Update: 2021/10/15-06:00:02
+Last Update: 2021/10/15-12:00:02
+2021/10/15-12:00:02 02 Platinum End|プラチナエンド
+2021/10/15-12:00:02 0 Ousama Ranking|王様ランキング
+2021/10/15-12:00:02 0 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
 2021/10/15-06:00:02 15 Shiroi Suna no Aquatope|白い砂のアクアトープ
 2021/10/15-06:00:02 02 Sakugan|サクガン
 2021/10/15-06:00:02 01 Kaginado|かぎなど
@@ -38,7 +41,6 @@ Last Update: 2021/10/15-06:00:02
 2021/10/09-12:00:02 02 Isekai Shokudou 2|異世界食堂2
 2021/10/09-12:00:02 02 Blue Period|ブルーピリオド
 2021/10/09-12:00:02 01 Visual Prison|ヴィジュアルプリズン
-2021/10/09-12:00:02 01 Platinum End|プラチナエンド
 2021/10/09-06:00:01 02 Megaton-kyuu Musashi|メガトン級ムサシ
 2021/10/09-06:00:01 01 Shuumatsu no Harem|終末のハーレム
 2021/10/09-00:00:01 02 Selection Project|SELECTION PROJECT
