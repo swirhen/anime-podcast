@@ -1,4 +1,5 @@
-Last Update: 2021/10/16-12:00:02
+Last Update: 2021/10/16-18:00:02
+2021/10/16-18:00:02 53 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/10/16-12:00:02 03 Yuuki Yuuna wa Yuusha de Aru Dai Mankai no Shou|結城友奈は勇者である -鷲尾須美の章-／-勇者の章-
 2021/10/16-12:00:02 03 Isekai Shokudou 2|異世界食堂2
 2021/10/16-12:00:02 03 Blue Period|ブルーピリオド
@@ -42,5 +43,4 @@ Last Update: 2021/10/16-12:00:02
 2021/10/10-12:00:02 01 Build Divide Code Black|ビルディバイド -#000000-
 2021/10/10-06:00:02 02 Eighty-Six Part 2|86-エイティシックス-(第2クール)
 2021/10/10-06:00:02 01 Taishou Otome Otogibanashi|大正オトメ御伽話
-2021/10/09-18:00:02 52 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/10/09-06:00:01 01 Shuumatsu no Harem|終末のハーレム
