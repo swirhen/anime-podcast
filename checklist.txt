@@ -1,4 +1,9 @@
-Last Update: 2021/10/21-18:00:02
+Last Update: 2021/10/22-00:00:03
+2021/10/22-00:00:03 28 Shaman King 2021|SHAMAN KING
+2021/10/22-00:00:03 17 Scarlet Nexus|SCARLET NEXUS
+2021/10/22-00:00:03 03 Muv-Luv Alternative|マブラヴ オルタネイティヴ
+2021/10/22-00:00:03 02 Kaginado|かぎなど
+2021/10/22-00:00:03 02 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
 2021/10/21-06:00:02 03 Puraore! Pride of Orange|プラオレ！～PRIDE OF ORANGE～
 2021/10/21-06:00:02 03 Komi-san wa, Komyushou Desu.|WIXOSS DIVA(A)LIVE
 2021/10/21-06:00:02 01 Dou Shen Ji|血界戦線 & BEYOND
@@ -39,9 +44,4 @@ Last Update: 2021/10/21-18:00:02
 2021/10/15-12:00:02 02 Platinum End|プラチナエンド
 2021/10/15-06:00:02 15 Shiroi Suna no Aquatope|白い砂のアクアトープ
 2021/10/15-06:00:02 02 Sakugan|サクガン
-2021/10/15-06:00:02 01 Kaginado|かぎなど
-2021/10/15-06:00:02 01 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
-2021/10/15-00:00:02 27 Shaman King 2021|SHAMAN KING
-2021/10/15-00:00:02 16 Scarlet Nexus|SCARLET NEXUS
-2021/10/15-00:00:02 02 Muv-Luv Alternative|マブラヴ オルタネイティヴ
 2021/10/09-06:00:01 01 Shuumatsu no Harem|終末のハーレム
