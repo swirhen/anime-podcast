@@ -1,4 +1,6 @@
-Last Update: 2021/10/23-00:00:01
+Last Update: 2021/10/23-06:00:02
+2021/10/23-06:00:02 04 Megaton-kyuu Musashi|メガトン級ムサシ
+2021/10/23-06:00:02 03 Visual Prison|ヴィジュアルプリズン
 2021/10/23-00:00:01 04 Selection Project|SELECTION PROJECT
 2021/10/22-12:00:01 16 Shiroi Suna no Aquatope|白い砂のアクアトープ
 2021/10/22-12:00:01 03 Platinum End|プラチナエンド
@@ -42,6 +44,4 @@ Last Update: 2021/10/23-00:00:01
 2021/10/16-12:00:02 03 Yuuki Yuuna wa Yuusha de Aru Dai Mankai no Shou|結城友奈は勇者である -鷲尾須美の章-／-勇者の章-
 2021/10/16-12:00:02 03 Isekai Shokudou 2|異世界食堂2
 2021/10/16-12:00:02 03 Blue Period|ブルーピリオド
-2021/10/16-06:00:02 03 Megaton-kyuu Musashi|メガトン級ムサシ
-2021/10/16-06:00:02 02 Visual Prison|ヴィジュアルプリズン
 2021/10/09-06:00:01 01 Shuumatsu no Harem|終末のハーレム
