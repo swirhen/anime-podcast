@@ -1,4 +1,8 @@
-Last Update: 2021/10/22-06:00:02
+Last Update: 2021/10/22-12:00:01
+2021/10/22-12:00:01 16 Shiroi Suna no Aquatope|白い砂のアクアトープ
+2021/10/22-12:00:01 03 Platinum End|プラチナエンド
+2021/10/22-12:00:01 02 Ousama Ranking|王様ランキング
+2021/10/22-12:00:01 02 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
 2021/10/22-06:00:02 03 Sakugan|サクガン
 2021/10/22-00:00:03 28 Shaman King 2021|SHAMAN KING
 2021/10/22-00:00:03 17 Scarlet Nexus|SCARLET NEXUS
@@ -40,8 +44,4 @@ Last Update: 2021/10/22-06:00:02
 2021/10/16-06:00:02 03 Megaton-kyuu Musashi|メガトン級ムサシ
 2021/10/16-06:00:02 02 Visual Prison|ヴィジュアルプリズン
 2021/10/16-00:00:01 03 Selection Project|SELECTION PROJECT
-2021/10/15-18:00:02 01 Ousama Ranking|王様ランキング
-2021/10/15-18:00:02 01 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
-2021/10/15-12:00:02 02 Platinum End|プラチナエンド
-2021/10/15-06:00:02 15 Shiroi Suna no Aquatope|白い砂のアクアトープ
 2021/10/09-06:00:01 01 Shuumatsu no Harem|終末のハーレム
