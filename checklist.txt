@@ -1,4 +1,6 @@
-Last Update: 2021/10/23-18:00:01
+Last Update: 2021/10/24-00:00:02
+2021/10/24-00:00:02 03 Taishou Otome Otogibanashi|大正オトメ御伽話
+2021/10/24-00:00:02 0 Kaizoku Oujo|海賊王女
 2021/10/23-18:00:01 54 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/10/23-12:00:02 04 Yuuki Yuuna wa Yuusha de Aru Dai Mankai no Shou|結城友奈は勇者である -鷲尾須美の章-／-勇者の章-
 2021/10/23-12:00:02 04 Isekai Shokudou 2|異世界食堂2
@@ -43,5 +45,4 @@ Last Update: 2021/10/23-18:00:01
 2021/10/17-06:00:01 02 Senpai ga Uzai Kouhai no Hanashi|先輩がうざい後輩の話
 2021/10/17-06:00:01 02 Saihate no Paladin|最果てのパラディン
 2021/10/17-06:00:01 02 Build Divide Code Black|ビルディバイド -#000000-
-2021/10/17-00:00:01 02 Taishou Otome Otogibanashi|大正オトメ御伽話
 2021/10/09-06:00:01 01 Shuumatsu no Harem|終末のハーレム
