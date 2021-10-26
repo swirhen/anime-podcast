@@ -61,6 +61,7 @@ MAILTO=""
 0 22 * * 7 python /data/share/movie/sh/radio_record.py r "水瀬いのり MELODY FLAG" 1 1830 QRR
 30 0 * * 1 python /data/share/movie/sh/radio_record.py r "小倉唯のyui＊room" 1 1830 QRR
 # -- IJUIN
+0 1 * * 2 python /data/share/movie/sh/radio_record.py r "伊集院光 深夜の馬鹿力" 1 7230 TBS
 30 8 * * 1-4 python /data/share/movie/sh/radio_record.py r "伊集院光とらじおと" 1 9030 TBS
 # りむ鯖
 5 3 * * 2 /data/share/movie/sh/agqrrelease.sh
