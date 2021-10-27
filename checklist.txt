@@ -6,7 +6,7 @@ Last Update: 2021/10/27-06:00:02
 2021/10/27-00:00:02 04 Shinka no Mi Shiranai Uchi ni Kachigumi Jinsei|進化の実～知らないうちに勝ち組人生～
 2021/10/27-00:00:02 04 Kyoukai Senki|境界戦機
 2021/10/26-12:00:02 04 Kaizoku Oujo|海賊王女
-2021/10/26-12:00:02 02 Dou Shen Ji|血界戦線 & BEYOND
+2021/10/26-12:00:02 02 Dou Shen Ji|闘神機ジーズフレーム
 2021/10/26-06:00:02 04 Tsuki to Laika to Nosferatu|月とライカと吸血姫
 2021/10/26-06:00:02 04 Kyuuketsuki Sugu Shinu|吸血鬼すぐ死ぬ
 2021/10/26-06:00:02 03 Gyakuten Sekai no Denchi Shoujo|逆転世界ノ電池少女
@@ -22,9 +22,8 @@ Last Update: 2021/10/27-06:00:02
 2021/10/24-06:00:02 03 Build Divide Code Black|ビルディバイド -#000000-
 2021/10/24-00:00:02 03 Taishou Otome Otogibanashi|大正オトメ御伽話
 2021/10/23-18:00:01 54 Dqdai|ドラゴンクエスト ダイの大冒険
-2021/10/23-12:00:02 04 Yuuki Yuuna wa Yuusha de Aru Dai Mankai no Shou|結城友奈は勇者である -鷲尾須美の章-／-勇者の章-
+2021/10/23-12:00:02 04 Yuuki Yuuna wa Yuusha de Aru Dai Mankai no Shou|結城友奈は勇者である 大満開の章
 2021/10/23-12:00:02 04 Isekai Shokudou 2|異世界食堂2
-2021/10/23-12:00:02 04 Code Geass Hangyaku no Lelouch|コードギアス 反逆のルルーシュR2
 2021/10/23-12:00:02 04 Blue Period|ブルーピリオド
 2021/10/23-06:00:02 04 Megaton-kyuu Musashi|メガトン級ムサシ
 2021/10/23-06:00:02 03 Visual Prison|ヴィジュアルプリズン
@@ -40,7 +39,7 @@ Last Update: 2021/10/27-06:00:02
 2021/10/22-00:00:03 02 Kaginado|かぎなど
 2021/10/22-00:00:03 02 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
 2021/10/21-06:00:02 03 Puraore! Pride of Orange|プラオレ！～PRIDE OF ORANGE～
-2021/10/21-06:00:02 03 Komi-san wa, Komyushou Desu.|WIXOSS DIVA(A)LIVE
+2021/10/21-06:00:02 03 Komi-san wa, Komyushou Desu.|古見さんは、コミュ症です。
 2021/10/21-00:00:01 03 Shinnonakama|真の仲間じゃないと勇者のパーティーを追い出されたので、辺境でスローライフすることにしました
 2021/10/21-00:00:01 03 Ansatsu Kizoku|世界最高の暗殺者、異世界貴族に転生する
 2021/10/21-00:00:01 02 Shikizakura|シキザクラ
