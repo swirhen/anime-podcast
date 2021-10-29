@@ -1,4 +1,7 @@
-Last Update: 2021/10/30-00:00:02
+Last Update: 2021/10/30-06:00:01
+2021/10/30-06:00:01 05 Yuuki Yuuna wa Yuusha de Aru Dai Mankai no Shou|結城友奈は勇者である 大満開の章
+2021/10/30-06:00:01 05 Megaton-kyuu Musashi|メガトン級ムサシ
+2021/10/30-06:00:01 04 Visual Prison|ヴィジュアルプリズン
 2021/10/30-00:00:02 05 Selection Project|SELECTION PROJECT
 2021/10/30-00:00:02 04 Platinum End|プラチナエンド
 2021/10/30-00:00:02 03 Ousama Ranking|王様ランキング
@@ -38,10 +41,7 @@ Last Update: 2021/10/30-00:00:02
 2021/10/24-06:00:02 03 Build Divide Code Black|ビルディバイド -#000000-
 2021/10/24-00:00:02 03 Taishou Otome Otogibanashi|大正オトメ御伽話
 2021/10/23-18:00:01 54 Dqdai|ドラゴンクエスト ダイの大冒険
-2021/10/23-12:00:02 04 Yuuki Yuuna wa Yuusha de Aru Dai Mankai no Shou|結城友奈は勇者である 大満開の章
 2021/10/23-12:00:02 04 Isekai Shokudou 2|異世界食堂2
 2021/10/23-12:00:02 04 Blue Period|ブルーピリオド
-2021/10/23-06:00:02 04 Megaton-kyuu Musashi|メガトン級ムサシ
-2021/10/23-06:00:02 03 Visual Prison|ヴィジュアルプリズン
 2021/10/18-06:00:01 03 Tesla Note|テスラノート
 2021/10/09-06:00:01 01 Shuumatsu no Harem|終末のハーレム
