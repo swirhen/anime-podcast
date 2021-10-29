@@ -1,4 +1,8 @@
-Last Update: 2021/10/29-18:00:02
+Last Update: 2021/10/30-00:00:02
+2021/10/30-00:00:02 05 Selection Project|SELECTION PROJECT
+2021/10/30-00:00:02 04 Platinum End|プラチナエンド
+2021/10/30-00:00:02 03 Ousama Ranking|王様ランキング
+2021/10/30-00:00:02 03 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
 2021/10/29-12:00:01 17 Shiroi Suna no Aquatope|白い砂のアクアトープ
 2021/10/29-06:00:01 04 Sakugan|サクガン
 2021/10/29-00:00:02 29 Shaman King 2021|SHAMAN KING
@@ -39,9 +43,5 @@ Last Update: 2021/10/29-18:00:02
 2021/10/23-12:00:02 04 Blue Period|ブルーピリオド
 2021/10/23-06:00:02 04 Megaton-kyuu Musashi|メガトン級ムサシ
 2021/10/23-06:00:02 03 Visual Prison|ヴィジュアルプリズン
-2021/10/23-00:00:01 04 Selection Project|SELECTION PROJECT
-2021/10/22-12:00:01 03 Platinum End|プラチナエンド
-2021/10/22-12:00:01 02 Ousama Ranking|王様ランキング
-2021/10/22-12:00:01 02 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
 2021/10/18-06:00:01 03 Tesla Note|テスラノート
 2021/10/09-06:00:01 01 Shuumatsu no Harem|終末のハーレム
