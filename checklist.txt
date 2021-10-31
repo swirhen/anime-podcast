@@ -1,4 +1,7 @@
-Last Update: 2021/11/01-00:00:01
+Last Update: 2021/11/01-06:00:01
+2021/11/01-06:00:01 05 Sankaku Mado no Sotogawa wa Yoru|さんかく窓の外側は夜
+2021/11/01-06:00:01 05 Muteking the Dancing Hero|MUTEKING THE Dancing HERO
+2021/11/01-06:00:01 05 Mushoku Tensei Isekai Ittara Honki Dasu 2nd|無職転生～異世界行ったら本気だす～(第2クール)
 2021/11/01-00:00:01 05 Mieruko-chan|見える子ちゃん
 2021/10/31-12:00:02 13 Jahy-sama wa Kujikenai!|ジャヒー様はくじけない！
 2021/10/31-06:00:02 05 Eighty-Six Part 2|86-エイティシックス-(第2クール)
@@ -39,9 +42,6 @@ Last Update: 2021/11/01-00:00:01
 2021/10/26-06:00:02 04 Tsuki to Laika to Nosferatu|月とライカと吸血姫
 2021/10/26-06:00:02 04 Kyuuketsuki Sugu Shinu|吸血鬼すぐ死ぬ
 2021/10/26-06:00:02 03 Gyakuten Sekai no Denchi Shoujo|逆転世界ノ電池少女
-2021/10/25-06:00:02 04 Muteking the Dancing Hero|MUTEKING THE Dancing HERO
-2021/10/25-06:00:02 04 Mushoku Tensei Isekai Ittara Honki Dasu 2nd|無職転生～異世界行ったら本気だす～(第2クール)
 2021/10/25-00:00:02 29 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
-2021/10/25-00:00:02 04 Sankaku Mado no Sotogawa wa Yoru|さんかく窓の外側は夜
 2021/10/18-06:00:01 03 Tesla Note|テスラノート
 2021/10/09-06:00:01 01 Shuumatsu no Harem|終末のハーレム
