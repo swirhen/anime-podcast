@@ -1,4 +1,11 @@
-Last Update: 2021/11/04-18:00:02
+Last Update: 2021/11/05-00:00:02
+2021/11/05-00:00:02 30 Shaman King 2021|SHAMAN KING
+2021/11/05-00:00:02 19 Scarlet Nexus|SCARLET NEXUS
+2021/11/05-00:00:02 05 Muv-Luv Alternative|マブラヴ オルタネイティヴ
+2021/11/05-00:00:02 05 Kaizoku Oujo|海賊王女
+2021/11/05-00:00:02 04 Kaginado|かぎなど
+2021/11/05-00:00:02 04 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
+2021/11/05-00:00:02 03 Dou Shen Ji|闘神機ジーズフレーム
 2021/11/04-06:00:02 05 Puraore! Pride of Orange|プラオレ！～PRIDE OF ORANGE～
 2021/11/04-06:00:02 05 Komi-san wa, Komyushou Desu.|古見さんは、コミュ症です。
 2021/11/04-00:00:02 05 Shinnonakama|真の仲間じゃないと勇者のパーティーを追い出されたので、辺境でスローライフすることにしました
@@ -36,12 +43,5 @@ Last Update: 2021/11/04-18:00:02
 2021/10/30-00:00:02 03 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
 2021/10/29-12:00:01 17 Shiroi Suna no Aquatope|白い砂のアクアトープ
 2021/10/29-06:00:01 04 Sakugan|サクガン
-2021/10/29-00:00:02 29 Shaman King 2021|SHAMAN KING
-2021/10/29-00:00:02 18 Scarlet Nexus|SCARLET NEXUS
-2021/10/29-00:00:02 04 Muv-Luv Alternative|マブラヴ オルタネイティヴ
-2021/10/29-00:00:02 03 Kaginado|かぎなど
-2021/10/29-00:00:02 03 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
-2021/10/26-12:00:02 04 Kaizoku Oujo|海賊王女
-2021/10/26-12:00:02 02 Dou Shen Ji|闘神機ジーズフレーム
 2021/10/25-00:00:02 29 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
 2021/10/09-06:00:01 01 Shuumatsu no Harem|終末のハーレム
