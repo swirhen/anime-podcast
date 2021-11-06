@@ -1,4 +1,5 @@
-Last Update: 2021/11/06-18:00:02
+Last Update: 2021/11/07-00:00:02
+2021/11/07-00:00:02 05 Taishou Otome Otogibanashi|大正オトメ御伽話
 2021/11/06-12:00:02 56 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/11/06-12:00:02 06 Isekai Shokudou 2|異世界食堂2
 2021/11/06-12:00:02 06 Blue Period|ブルーピリオド
@@ -41,7 +42,6 @@ Last Update: 2021/11/06-18:00:02
 2021/10/31-06:00:02 04 Senpai ga Uzai Kouhai no Hanashi|先輩がうざい後輩の話
 2021/10/31-06:00:02 04 Saihate no Paladin|最果てのパラディン
 2021/10/31-06:00:02 04 Build Divide Code Black|ビルディバイド -#000000-
-2021/10/31-00:00:02 04 Taishou Otome Otogibanashi|大正オトメ御伽話
 2021/10/30-06:00:01 04 Visual Prison|ヴィジュアルプリズン
 2021/10/25-00:00:02 29 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
 2021/10/09-06:00:01 01 Shuumatsu no Harem|終末のハーレム
