@@ -1,4 +1,7 @@
-Last Update: 2021/11/12-00:00:02
+Last Update: 2021/11/12-06:00:02
+2021/11/12-06:00:02 31 Shaman King 2021|SHAMAN KING
+2021/11/12-06:00:02 19 Shiroi Suna no Aquatope|白い砂のアクアトープ
+2021/11/12-06:00:02 06 Sakugan|サクガン
 2021/11/12-00:00:02 20 Scarlet Nexus|SCARLET NEXUS
 2021/11/12-00:00:02 06 Muv-Luv Alternative|マブラヴ オルタネイティヴ
 2021/11/12-00:00:02 05 Kaginado|かぎなど
@@ -37,9 +40,6 @@ Last Update: 2021/11/12-00:00:02
 2021/11/06-00:00:02 05 Platinum End|プラチナエンド
 2021/11/06-00:00:02 04 Ousama Ranking|王様ランキング
 2021/11/06-00:00:02 04 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
-2021/11/05-12:00:02 18 Shiroi Suna no Aquatope|白い砂のアクアトープ
-2021/11/05-06:00:01 05 Sakugan|サクガン
-2021/11/05-00:00:02 30 Shaman King 2021|SHAMAN KING
 2021/11/05-00:00:02 05 Kaizoku Oujo|海賊王女
 2021/11/05-00:00:02 03 Dou Shen Ji|闘神機ジーズフレーム
 2021/11/04-00:00:02 04 Tesla Note|テスラノート
