@@ -1,4 +1,7 @@
-Last Update: 2021/11/13-12:00:01
+Last Update: 2021/11/13-18:00:02
+2021/11/13-18:00:02 57 Dqdai|ドラゴンクエスト ダイの大冒険
+2021/11/13-18:00:02 07 Isekai Shokudou 2|異世界食堂2
+2021/11/13-18:00:02 07 Blue Period|ブルーピリオド
 2021/11/13-12:00:01 07 Yuuki Yuuna wa Yuusha de Aru Dai Mankai no Shou|結城友奈は勇者である 大満開の章
 2021/11/13-06:00:02 07 Megaton-kyuu Musashi|メガトン級ムサシ
 2021/11/13-00:00:02 07 Selection Project|SELECTION PROJECT
@@ -37,9 +40,6 @@ Last Update: 2021/11/13-12:00:01
 2021/11/07-06:00:02 05 Saihate no Paladin|最果てのパラディン
 2021/11/07-06:00:02 05 Build Divide Code Black|ビルディバイド -#000000-
 2021/11/07-00:00:02 05 Taishou Otome Otogibanashi|大正オトメ御伽話
-2021/11/06-12:00:02 56 Dqdai|ドラゴンクエスト ダイの大冒険
-2021/11/06-12:00:02 06 Isekai Shokudou 2|異世界食堂2
-2021/11/06-12:00:02 06 Blue Period|ブルーピリオド
 2021/11/05-00:00:02 05 Kaizoku Oujo|海賊王女
 2021/11/05-00:00:02 03 Dou Shen Ji|闘神機ジーズフレーム
 2021/11/04-00:00:02 04 Tesla Note|テスラノート
