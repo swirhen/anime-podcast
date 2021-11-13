@@ -1,4 +1,7 @@
-Last Update: 2021/11/14-00:00:02
+Last Update: 2021/11/14-06:00:02
+2021/11/14-06:00:02 06 Senpai ga Uzai Kouhai no Hanashi|先輩がうざい後輩の話
+2021/11/14-06:00:02 06 Saihate no Paladin|最果てのパラディン
+2021/11/14-06:00:02 06 Build Divide Code Black|ビルディバイド -#000000-
 2021/11/14-00:00:02 06 Taishou Otome Otogibanashi|大正オトメ御伽話
 2021/11/13-18:00:02 57 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/11/13-18:00:02 07 Isekai Shokudou 2|異世界食堂2
@@ -37,9 +40,6 @@ Last Update: 2021/11/14-00:00:02
 2021/11/08-00:00:02 06 Mieruko-chan|見える子ちゃん
 2021/11/07-12:00:02 14 Jahy-sama wa Kujikenai!|ジャヒー様はくじけない！
 2021/11/07-06:00:02 06 Eighty-Six Part 2|86-エイティシックス-(第2クール)
-2021/11/07-06:00:02 05 Senpai ga Uzai Kouhai no Hanashi|先輩がうざい後輩の話
-2021/11/07-06:00:02 05 Saihate no Paladin|最果てのパラディン
-2021/11/07-06:00:02 05 Build Divide Code Black|ビルディバイド -#000000-
 2021/11/05-00:00:02 05 Kaizoku Oujo|海賊王女
 2021/11/05-00:00:02 03 Dou Shen Ji|闘神機ジーズフレーム
 2021/11/04-00:00:02 04 Tesla Note|テスラノート
