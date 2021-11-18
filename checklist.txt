@@ -1,4 +1,5 @@
-Last Update: 2021/11/19-00:00:02
+Last Update: 2021/11/19-06:00:02
+2021/11/19-06:00:02 07 Sakugan|サクガン
 2021/11/19-00:00:02 32 Shaman King 2021|SHAMAN KING
 2021/11/19-00:00:02 21 Scarlet Nexus|SCARLET NEXUS
 2021/11/19-00:00:02 07 Muv-Luv Alternative|マブラヴ オルタネイティヴ
@@ -39,7 +40,6 @@ Last Update: 2021/11/19-00:00:02
 2021/11/12-18:00:02 05 Ousama Ranking|王様ランキング
 2021/11/12-12:00:02 05 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
 2021/11/12-06:00:02 19 Shiroi Suna no Aquatope|白い砂のアクアトープ
-2021/11/12-06:00:02 06 Sakugan|サクガン
 2021/11/07-06:00:02 06 Eighty-Six Part 2|86-エイティシックス-(第2クール)
 2021/11/05-00:00:02 03 Dou Shen Ji|闘神機ジーズフレーム
 2021/11/04-00:00:02 04 Tesla Note|テスラノート
