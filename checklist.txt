@@ -1,4 +1,5 @@
-Last Update: 2021/11/27-00:00:02
+Last Update: 2021/11/27-06:00:01
+2021/11/27-06:00:01 09 Megaton-kyuu Musashi|メガトン級ムサシ
 2021/11/27-00:00:02 09 Selection Project|SELECTION PROJECT
 2021/11/27-00:00:02 08 Platinum End|プラチナエンド
 2021/11/27-00:00:02 07 Ousama Ranking|王様ランキング
@@ -37,7 +38,6 @@ Last Update: 2021/11/27-00:00:02
 2021/11/21-00:00:02 07 Taishou Otome Otogibanashi|大正オトメ御伽話
 2021/11/21-00:00:02 06 Tesla Note|テスラノート
 2021/11/20-12:00:02 08 Yuuki Yuuna wa Yuusha de Aru Dai Mankai no Shou|結城友奈は勇者である 大満開の章
-2021/11/20-12:00:02 08 Megaton-kyuu Musashi|メガトン級ムサシ
 2021/11/20-12:00:02 08 Isekai Shokudou 2|異世界食堂2
 2021/11/20-12:00:02 08 Blue Period|ブルーピリオド
 2021/11/18-00:00:02 06 Kaizoku Oujo|海賊王女
