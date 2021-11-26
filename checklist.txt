@@ -1,4 +1,8 @@
-Last Update: 2021/11/26-18:00:02
+Last Update: 2021/11/27-00:00:02
+2021/11/27-00:00:02 09 Selection Project|SELECTION PROJECT
+2021/11/27-00:00:02 08 Platinum End|プラチナエンド
+2021/11/27-00:00:02 07 Ousama Ranking|王様ランキング
+2021/11/27-00:00:02 07 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
 2021/11/26-06:00:02 22 Scarlet Nexus|SCARLET NEXUS
 2021/11/26-06:00:02 21 Shiroi Suna no Aquatope|白い砂のアクアトープ
 2021/11/26-06:00:02 08 Sakugan|サクガン
@@ -36,10 +40,6 @@ Last Update: 2021/11/26-18:00:02
 2021/11/20-12:00:02 08 Megaton-kyuu Musashi|メガトン級ムサシ
 2021/11/20-12:00:02 08 Isekai Shokudou 2|異世界食堂2
 2021/11/20-12:00:02 08 Blue Period|ブルーピリオド
-2021/11/20-00:00:01 08 Selection Project|SELECTION PROJECT
-2021/11/20-00:00:01 07 Platinum End|プラチナエンド
-2021/11/20-00:00:01 06 Ousama Ranking|王様ランキング
-2021/11/20-00:00:01 06 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
 2021/11/18-00:00:02 06 Kaizoku Oujo|海賊王女
 2021/11/17-12:00:01 06 Deep Insanity The Lost Child|Deep Insanity THE LOST CHILD
 2021/11/05-00:00:02 03 Dou Shen Ji|闘神機ジーズフレーム
