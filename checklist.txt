@@ -1,11 +1,13 @@
-Last Update: 2021/11/29-18:00:01
+Last Update: 2021/11/30-00:00:02
+2021/11/30-00:00:02 09 Tsuki to Laika to Nosferatu|月とライカと吸血姫
+2021/11/30-00:00:02 09 Kaizoku Oujo|海賊王女
+2021/11/30-00:00:02 08 Gyakuten Sekai no Denchi Shoujo|逆転世界ノ電池少女
 2021/11/29-06:00:02 09 Sankaku Mado no Sotogawa wa Yoru|さんかく窓の外側は夜
 2021/11/29-06:00:02 09 Muteking the Dancing Hero|MUTEKING THE Dancing HERO
 2021/11/29-06:00:02 09 Mushoku Tensei Isekai Ittara Honki Dasu 2nd|無職転生～異世界行ったら本気だす～(第2クール)
 2021/11/29-00:00:01 34 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
 2021/11/29-00:00:01 17 Jahy-sama wa Kujikenai!|ジャヒー様はくじけない！
 2021/11/29-00:00:01 09 Mieruko-chan|見える子ちゃん
-2021/11/29-00:00:01 08 Kaizoku Oujo|海賊王女
 2021/11/29-00:00:01 07.5 Saihate no Paladin|最果てのパラディン
 2021/11/29-00:00:01 07 Deep Insanity The Lost Child|Deep Insanity THE LOST CHILD
 2021/11/29-00:00:01 05 Dou Shen Ji|闘神機ジーズフレーム
@@ -39,8 +41,6 @@ Last Update: 2021/11/29-18:00:01
 2021/11/24-00:00:02 08 Shinka no Mi Shiranai Uchi ni Kachigumi Jinsei|進化の実～知らないうちに勝ち組人生～
 2021/11/24-00:00:02 08 Kyoukai Senki|境界戦機
 2021/11/23-06:00:01 08 Kyuuketsuki Sugu Shinu|吸血鬼すぐ死ぬ
-2021/11/23-00:00:02 07 Gyakuten Sekai no Denchi Shoujo|逆転世界ノ電池少女
-2021/11/22-18:00:02 08 Tsuki to Laika to Nosferatu|月とライカと吸血姫
 2021/11/21-06:00:02 07 Eighty-Six Part 2|86-エイティシックス-(第2クール)
 2021/11/21-00:00:02 06 Tesla Note|テスラノート
 2021/10/30-06:00:01 04 Visual Prison|ヴィジュアルプリズン
