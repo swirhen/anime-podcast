@@ -1,4 +1,7 @@
-Last Update: 2021/12/03-06:00:02
+Last Update: 2021/12/03-12:00:01
+2021/12/03-12:00:01 23 Scarlet Nexus|SCARLET NEXUS
+2021/12/03-12:00:01 22 Shiroi Suna no Aquatope|白い砂のアクアトープ
+2021/12/03-12:00:01 09 Sakugan|サクガン
 2021/12/03-00:00:02 34 Shaman King 2021|SHAMAN KING
 2021/12/03-00:00:02 09 Muv-Luv Alternative|マブラヴ オルタネイティヴ
 2021/12/02-06:00:02 09 Puraore! Pride of Orange|プラオレ！～PRIDE OF ORANGE～
@@ -36,9 +39,6 @@ Last Update: 2021/12/03-06:00:02
 2021/11/27-00:00:02 08 Platinum End|プラチナエンド
 2021/11/27-00:00:02 07 Ousama Ranking|王様ランキング
 2021/11/27-00:00:02 07 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
-2021/11/26-06:00:02 22 Scarlet Nexus|SCARLET NEXUS
-2021/11/26-06:00:02 21 Shiroi Suna no Aquatope|白い砂のアクアトープ
-2021/11/26-06:00:02 08 Sakugan|サクガン
 2021/11/26-06:00:02 07 Kaginado|かぎなど
 2021/11/26-06:00:02 07 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
 2021/11/21-06:00:02 07 Eighty-Six Part 2|86-エイティシックス-(第2クール)
