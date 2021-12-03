@@ -1,4 +1,10 @@
-Last Update: 2021/12/03-18:00:02
+Last Update: 2021/12/04-00:00:02
+2021/12/04-00:00:02 10 Selection Project|SELECTION PROJECT
+2021/12/04-00:00:02 09 Platinum End|プラチナエンド
+2021/12/04-00:00:02 08 Ousama Ranking|王様ランキング
+2021/12/04-00:00:02 08 Kaginado|かぎなど
+2021/12/04-00:00:02 08 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
+2021/12/04-00:00:02 08 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
 2021/12/03-12:00:01 23 Scarlet Nexus|SCARLET NEXUS
 2021/12/03-12:00:01 22 Shiroi Suna no Aquatope|白い砂のアクアトープ
 2021/12/03-12:00:01 09 Sakugan|サクガン
@@ -35,12 +41,6 @@ Last Update: 2021/12/03-18:00:02
 2021/11/27-12:00:02 09 Isekai Shokudou 2|異世界食堂2
 2021/11/27-12:00:02 09 Blue Period|ブルーピリオド
 2021/11/27-06:00:01 09 Megaton-kyuu Musashi|メガトン級ムサシ
-2021/11/27-00:00:02 09 Selection Project|SELECTION PROJECT
-2021/11/27-00:00:02 08 Platinum End|プラチナエンド
-2021/11/27-00:00:02 07 Ousama Ranking|王様ランキング
-2021/11/27-00:00:02 07 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
-2021/11/26-06:00:02 07 Kaginado|かぎなど
-2021/11/26-06:00:02 07 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
 2021/11/21-06:00:02 07 Eighty-Six Part 2|86-エイティシックス-(第2クール)
 2021/11/21-00:00:02 06 Tesla Note|テスラノート
 2021/10/30-06:00:01 04 Visual Prison|ヴィジュアルプリズン
