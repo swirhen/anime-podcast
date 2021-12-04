@@ -1,4 +1,5 @@
-Last Update: 2021/12/04-06:00:02
+Last Update: 2021/12/04-12:00:02
+2021/12/04-12:00:02 10 Yuuki Yuuna wa Yuusha de Aru Dai Mankai no Shou|結城友奈は勇者である 大満開の章
 2021/12/04-06:00:02 10 Megaton-kyuu Musashi|メガトン級ムサシ
 2021/12/04-00:00:02 10 Selection Project|SELECTION PROJECT
 2021/12/04-00:00:02 09 Platinum End|プラチナエンド
@@ -38,7 +39,6 @@ Last Update: 2021/12/04-06:00:02
 2021/11/28-06:00:02 08 Build Divide Code Black|ビルディバイド -#000000-
 2021/11/28-00:00:02 59 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/11/28-00:00:02 08 Taishou Otome Otogibanashi|大正オトメ御伽話
-2021/11/27-12:00:02 09 Yuuki Yuuna wa Yuusha de Aru Dai Mankai no Shou|結城友奈は勇者である 大満開の章
 2021/11/27-12:00:02 09 Isekai Shokudou 2|異世界食堂2
 2021/11/27-12:00:02 09 Blue Period|ブルーピリオド
 2021/11/21-06:00:02 07 Eighty-Six Part 2|86-エイティシックス-(第2クール)
