@@ -1,4 +1,6 @@
-Last Update: 2021/12/07-00:00:01
+Last Update: 2021/12/07-06:00:02
+2021/12/07-06:00:02 10 Kyuuketsuki Sugu Shinu|吸血鬼すぐ死ぬ
+2021/12/07-06:00:02 09 Gyakuten Sekai no Denchi Shoujo|逆転世界ノ電池少女
 2021/12/07-00:00:01 10 Tsuki to Laika to Nosferatu|月とライカと吸血姫
 2021/12/07-00:00:01 10 Sankaku Mado no Sotogawa wa Yoru|さんかく窓の外側は夜
 2021/12/06-12:00:02 264 Kimetsu no Yaiba Yuukaku Hen|鬼滅の刃 遊郭編
@@ -39,9 +41,7 @@ Last Update: 2021/12/07-00:00:01
 2021/12/01-00:00:03 09 Yakunara Mug Cup mo Niban Kama|やくならマグカップも 二番窯
 2021/12/01-00:00:03 09 Shinka no Mi Shiranai Uchi ni Kachigumi Jinsei|進化の実～知らないうちに勝ち組人生～
 2021/12/01-00:00:03 09 Kyoukai Senki|境界戦機
-2021/11/30-06:00:02 09 Kyuuketsuki Sugu Shinu|吸血鬼すぐ死ぬ
 2021/11/30-00:00:02 09 Kaizoku Oujo|海賊王女
-2021/11/30-00:00:02 08 Gyakuten Sekai no Denchi Shoujo|逆転世界ノ電池少女
 2021/11/29-00:00:01 05 Dou Shen Ji|闘神機ジーズフレーム
 2021/11/21-00:00:02 06 Tesla Note|テスラノート
 2021/10/30-06:00:01 04 Visual Prison|ヴィジュアルプリズン
