@@ -1,4 +1,9 @@
-Last Update: 2021/12/09-18:00:01
+Last Update: 2021/12/10-00:00:02
+2021/12/10-00:00:02 35 Shaman King 2021|SHAMAN KING
+2021/12/10-00:00:02 24 Scarlet Nexus|SCARLET NEXUS
+2021/12/10-00:00:02 10 Muv-Luv Alternative|マブラヴ オルタネイティヴ
+2021/12/10-00:00:02 09 Kaginado|かぎなど
+2021/12/10-00:00:02 09 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
 2021/12/09-06:00:02 10 Puraore! Pride of Orange|プラオレ！～PRIDE OF ORANGE～
 2021/12/09-06:00:02 10 Komi-san wa, Komyushou Desu.|古見さんは、コミュ症です。
 2021/12/09-06:00:02 09 Deep Insanity The Lost Child|Deep Insanity THE LOST CHILD
@@ -34,14 +39,9 @@ Last Update: 2021/12/09-18:00:01
 2021/12/04-00:00:02 10 Selection Project|SELECTION PROJECT
 2021/12/04-00:00:02 09 Platinum End|プラチナエンド
 2021/12/04-00:00:02 08 Ousama Ranking|王様ランキング
-2021/12/04-00:00:02 08 Kaginado|かぎなど
-2021/12/04-00:00:02 08 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
 2021/12/04-00:00:02 08 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
-2021/12/03-12:00:01 23 Scarlet Nexus|SCARLET NEXUS
 2021/12/03-12:00:01 22 Shiroi Suna no Aquatope|白い砂のアクアトープ
 2021/12/03-12:00:01 09 Sakugan|サクガン
-2021/12/03-00:00:02 34 Shaman King 2021|SHAMAN KING
-2021/12/03-00:00:02 09 Muv-Luv Alternative|マブラヴ オルタネイティヴ
 2021/11/29-00:00:01 05 Dou Shen Ji|闘神機ジーズフレーム
 2021/11/21-00:00:02 06 Tesla Note|テスラノート
 2021/10/30-06:00:01 04 Visual Prison|ヴィジュアルプリズン
