@@ -1,4 +1,9 @@
-Last Update: 2021/12/16-18:00:01
+Last Update: 2021/12/17-00:00:01
+2021/12/17-00:00:01 36 Shaman King 2021|SHAMAN KING
+2021/12/17-00:00:01 25 Scarlet Nexus|SCARLET NEXUS
+2021/12/17-00:00:01 11 Muv-Luv Alternative|マブラヴ オルタネイティヴ
+2021/12/17-00:00:01 10 Kaginado|かぎなど
+2021/12/17-00:00:01 10 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
 2021/12/16-06:00:02 11 Puraore! Pride of Orange|プラオレ！～PRIDE OF ORANGE～
 2021/12/16-06:00:02 11 Komi-san wa, Komyushou Desu.|古見さんは、コミュ症です。
 2021/12/16-06:00:02 10 Deep Insanity The Lost Child|Deep Insanity THE LOST CHILD
@@ -36,11 +41,6 @@ Last Update: 2021/12/16-18:00:01
 2021/12/11-00:00:02 09 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
 2021/12/10-12:00:02 23 Shiroi Suna no Aquatope|白い砂のアクアトープ
 2021/12/10-06:00:02 10 Sakugan|サクガン
-2021/12/10-00:00:02 35 Shaman King 2021|SHAMAN KING
-2021/12/10-00:00:02 24 Scarlet Nexus|SCARLET NEXUS
-2021/12/10-00:00:02 10 Muv-Luv Alternative|マブラヴ オルタネイティヴ
-2021/12/10-00:00:02 09 Kaginado|かぎなど
-2021/12/10-00:00:02 09 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
 2021/12/05-06:00:01 08 Eighty-Six Part 2|86-エイティシックス-(第2クール)
 2021/11/29-00:00:01 05 Dou Shen Ji|闘神機ジーズフレーム
 2021/11/21-00:00:02 06 Tesla Note|テスラノート
