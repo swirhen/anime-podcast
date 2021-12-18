@@ -1,4 +1,6 @@
-Last Update: 2021/12/18-18:00:02
+Last Update: 2021/12/19-00:00:02
+2021/12/19-00:00:02 62 Dqdai|ドラゴンクエスト ダイの大冒険
+2021/12/19-00:00:02 11 Taishou Otome Otogibanashi|大正オトメ御伽話
 2021/12/18-12:00:01 12 Megaton-kyuu Musashi|メガトン級ムサシ
 2021/12/18-00:00:02 12 Selection Project|SELECTION PROJECT
 2021/12/18-00:00:02 11 Platinum End|プラチナエンド
@@ -35,8 +37,6 @@ Last Update: 2021/12/18-18:00:02
 2021/12/12-06:00:01 10 Senpai ga Uzai Kouhai no Hanashi|先輩がうざい後輩の話
 2021/12/12-06:00:01 10 Build Divide Code Black|ビルディバイド -#000000-
 2021/12/12-06:00:01 09 Saihate no Paladin|最果てのパラディン
-2021/12/12-00:00:02 10 Taishou Otome Otogibanashi|大正オトメ御伽話
-2021/12/11-18:00:02 61 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/12/10-12:00:02 23 Shiroi Suna no Aquatope|白い砂のアクアトープ
 2021/12/05-06:00:01 08 Eighty-Six Part 2|86-エイティシックス-(第2クール)
 2021/11/29-00:00:01 05 Dou Shen Ji|闘神機ジーズフレーム
