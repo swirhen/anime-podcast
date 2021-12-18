@@ -1,4 +1,8 @@
-Last Update: 2021/12/19-00:00:02
+Last Update: 2021/12/19-06:00:02
+2021/12/19-06:00:02 11 Senpai ga Uzai Kouhai no Hanashi|先輩がうざい後輩の話
+2021/12/19-06:00:02 11 Build Divide Code Black|ビルディバイド -#000000-
+2021/12/19-06:00:02 10 Saihate no Paladin|最果てのパラディン
+2021/12/19-06:00:02 09 Eighty-Six Part 2|86-エイティシックス-(第2クール)
 2021/12/19-00:00:02 62 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/12/19-00:00:02 11 Taishou Otome Otogibanashi|大正オトメ御伽話
 2021/12/18-12:00:01 12 Megaton-kyuu Musashi|メガトン級ムサシ
@@ -34,11 +38,7 @@ Last Update: 2021/12/19-00:00:02
 2021/12/13-00:00:02 11 Mieruko-chan|見える子ちゃん
 2021/12/12-12:00:02 19 Jahy-sama wa Kujikenai!|ジャヒー様はくじけない！
 2021/12/12-06:00:01 265 Kimetsu no Yaiba Yuukaku Hen|鬼滅の刃 遊郭編
-2021/12/12-06:00:01 10 Senpai ga Uzai Kouhai no Hanashi|先輩がうざい後輩の話
-2021/12/12-06:00:01 10 Build Divide Code Black|ビルディバイド -#000000-
-2021/12/12-06:00:01 09 Saihate no Paladin|最果てのパラディン
 2021/12/10-12:00:02 23 Shiroi Suna no Aquatope|白い砂のアクアトープ
-2021/12/05-06:00:01 08 Eighty-Six Part 2|86-エイティシックス-(第2クール)
 2021/11/29-00:00:01 05 Dou Shen Ji|闘神機ジーズフレーム
 2021/11/21-00:00:02 06 Tesla Note|テスラノート
 2021/10/30-06:00:01 04 Visual Prison|ヴィジュアルプリズン
