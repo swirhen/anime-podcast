@@ -1,4 +1,9 @@
-Last Update: 2021/12/23-18:00:01
+Last Update: 2021/12/24-00:00:03
+2021/12/24-00:00:03 37 Shaman King 2021|SHAMAN KING
+2021/12/24-00:00:03 26 Scarlet Nexus|SCARLET NEXUS
+2021/12/24-00:00:03 12 Muv-Luv Alternative|マブラヴ オルタネイティヴ
+2021/12/24-00:00:03 11 Kaginado|かぎなど
+2021/12/24-00:00:03 11 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
 2021/12/23-00:00:02 12 Shinnonakama|真の仲間じゃないと勇者のパーティーを追い出されたので、辺境でスローライフすることにしました
 2021/12/23-00:00:02 11 Shikizakura|シキザクラ
 2021/12/22-06:00:02 12 Waccha PriMagi!|ワッチャプリマジ！
@@ -18,11 +23,6 @@ Last Update: 2021/12/23-18:00:01
 2021/12/18-00:00:02 10 Ousama Ranking|王様ランキング
 2021/12/18-00:00:02 10 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
 2021/12/17-06:00:02 11 Sakugan|サクガン
-2021/12/17-00:00:01 36 Shaman King 2021|SHAMAN KING
-2021/12/17-00:00:01 25 Scarlet Nexus|SCARLET NEXUS
-2021/12/17-00:00:01 11 Muv-Luv Alternative|マブラヴ オルタネイティヴ
-2021/12/17-00:00:01 10 Kaginado|かぎなど
-2021/12/17-00:00:01 10 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
 2021/12/16-06:00:02 10 Deep Insanity The Lost Child|Deep Insanity THE LOST CHILD
 2021/12/15-00:00:02 11 Yakunara Mug Cup mo Niban Kama|やくならマグカップも 二番窯
 2021/12/15-00:00:02 11 Shinka no Mi Shiranai Uchi ni Kachigumi Jinsei|進化の実～知らないうちに勝ち組人生～
