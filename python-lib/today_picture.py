@@ -37,7 +37,7 @@ def choice_the_picture(urlflag=False, recent_list=RECENT_LIST, year=''):
     if urlflag:
         return choiced_file_path.replace('/data', 'http://swirhen.tv')
     else:
-        return (recent_filelist[-599:] + [choiced_file_path])
+        return (recent_filelist[-1700:] + [choiced_file_path])
 
 
 def choice_the_picture_sensitive():
