@@ -1,4 +1,5 @@
-Last Update: 2021/12/24-00:00:03
+Last Update: 2021/12/24-06:00:01
+2021/12/24-06:00:01 12 Sakugan|サクガン
 2021/12/24-00:00:03 37 Shaman King 2021|SHAMAN KING
 2021/12/24-00:00:03 11 Kaginado|かぎなど
 2021/12/24-00:00:03 11 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
@@ -20,7 +21,6 @@ Last Update: 2021/12/24-00:00:03
 2021/12/18-00:00:02 11 Platinum End|プラチナエンド
 2021/12/18-00:00:02 10 Ousama Ranking|王様ランキング
 2021/12/18-00:00:02 10 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
-2021/12/17-06:00:02 11 Sakugan|サクガン
 2021/12/16-06:00:02 10 Deep Insanity The Lost Child|Deep Insanity THE LOST CHILD
 2021/12/15-00:00:02 11 Yakunara Mug Cup mo Niban Kama|やくならマグカップも 二番窯
 2021/12/15-00:00:02 11 Shinka no Mi Shiranai Uchi ni Kachigumi Jinsei|進化の実～知らないうちに勝ち組人生～
