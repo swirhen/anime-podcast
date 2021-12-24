@@ -1,4 +1,7 @@
-Last Update: 2021/12/24-18:00:01
+Last Update: 2021/12/25-00:00:02
+2021/12/25-00:00:02 13 Selection Project|SELECTION PROJECT
+2021/12/25-00:00:02 12 Platinum End|プラチナエンド
+2021/12/25-00:00:02 11 Ousama Ranking|王様ランキング
 2021/12/24-00:00:03 37 Shaman King 2021|SHAMAN KING
 2021/12/24-00:00:03 11 Kaginado|かぎなど
 2021/12/24-00:00:03 11 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
@@ -16,9 +19,6 @@ Last Update: 2021/12/24-18:00:01
 2021/12/19-00:00:02 62 Dqdai|ドラゴンクエスト ダイの大冒険
 2021/12/19-00:00:02 11 Taishou Otome Otogibanashi|大正オトメ御伽話
 2021/12/18-12:00:01 12 Megaton-kyuu Musashi|メガトン級ムサシ
-2021/12/18-00:00:02 12 Selection Project|SELECTION PROJECT
-2021/12/18-00:00:02 11 Platinum End|プラチナエンド
-2021/12/18-00:00:02 10 Ousama Ranking|王様ランキング
 2021/12/18-00:00:02 10 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
 2021/12/16-06:00:02 10 Deep Insanity The Lost Child|Deep Insanity THE LOST CHILD
 2021/12/15-00:00:02 11 Yakunara Mug Cup mo Niban Kama|やくならマグカップも 二番窯
