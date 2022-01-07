@@ -1,4 +1,7 @@
-Last Update: 2022/01/07-18:00:02
+Last Update: 2022/01/08-00:00:02
+2022/01/08-00:00:02 13 Platinum End|プラチナエンド
+2022/01/08-00:00:02 12 Ousama Ranking|王様ランキング
+2022/01/08-00:00:02 0 Slow Loop|スローループ
 2022/01/07-06:00:02 01 Saiyuuki Reload Zeroin|最遊記RELOAD -ZEROIN-
 2022/01/07-06:00:02 01 Irodorimidori|イロドリミドリ
 2022/01/07-00:00:02 38 Shaman King 2021|SHAMAN KING
@@ -11,8 +14,6 @@ Last Update: 2022/01/07-18:00:02
 2021/12/26-00:00:02 11 Deep Insanity The Lost Child|Deep Insanity THE LOST CHILD
 2021/12/26-00:00:02 11 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
 2021/12/25-18:00:02 63 Dqdai|ドラゴンクエスト ダイの大冒険
-2021/12/25-00:00:02 12 Platinum End|プラチナエンド
-2021/12/25-00:00:02 11 Ousama Ranking|王様ランキング
 2021/12/24-00:00:03 11 Kaginado|かぎなど
 2021/12/23-00:00:02 11 Shikizakura|シキザクラ
 2021/12/22-06:00:02 12 Waccha PriMagi!|ワッチャプリマジ！
