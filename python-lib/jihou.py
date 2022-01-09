@@ -33,9 +33,9 @@ if __name__ == '__main__':
         post_str = f'{here_txt}{hour} 時ごろをお知らせします。おひるです。'
     elif hour == 15 or debug_arg == 15:
         post_str = f'{here_txt}{hour} 時ごろをお知らせします。おやつです。'
-    elif hour == 18 or debug_arg == 18:
-        post_str = f'{here_txt}{hour} 時ごろをお知らせします。\n'
-        post_str += tp.today_picture_sensitive()
+#    elif hour == 18 or debug_arg == 18:
+#        post_str = f'{here_txt}{hour} 時ごろをお知らせします。\n'
+#        post_str += tp.today_picture_sensitive()
     else:
         if debug_flg:
             hourminute = bu.get_now_datetime_str('HM')
