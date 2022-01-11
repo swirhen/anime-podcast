@@ -1,6 +1,8 @@
-Last Update: 2022/01/12-00:00:02
-2022/01/12-00:00:02 0 Tensai Ouji no Akaji Kokka Saiseijutsu|天才王子の赤字国家再生術
-2022/01/12-00:00:02 0 Sasaki to Miyano|佐々木と宮野
+Last Update: 2022/01/12-06:00:02
+2022/01/12-06:00:02 13 Waccha PriMagi!|ワッチャプリマジ！
+2022/01/12-06:00:02 01 Tensai Ouji no Akaji Kokka Saiseijutsu|天才王子の赤字国家再生術
+2022/01/12-06:00:02 01 Sasaki to Miyano|佐々木と宮野
+2022/01/12-06:00:02 0 Kenja no Deshi o Nanoru Kenja|賢者の弟子を名乗る賢者
 2022/01/11-12:00:02 01 Sabikui Bisco|錆喰いビスコ
 2022/01/11-12:00:02 01 Princess Connect! ReDive Season 2|プリンセスコネクト！Re：Dive
 2022/01/11-06:00:02 01 Tribe Nine|トライブナイン
@@ -33,7 +35,6 @@ Last Update: 2022/01/12-00:00:02
 2021/12/26-00:00:02 11 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
 2021/12/24-00:00:03 11 Kaginado|かぎなど
 2021/12/23-00:00:02 11 Shikizakura|シキザクラ
-2021/12/22-06:00:02 12 Waccha PriMagi!|ワッチャプリマジ！
 2021/12/22-00:00:01 12 Kyoukai Senki|境界戦機
 2021/12/19-00:00:02 11 Taishou Otome Otogibanashi|大正オトメ御伽話
 2021/12/15-00:00:02 11 Yakunara Mug Cup mo Niban Kama|やくならマグカップも 二番窯
