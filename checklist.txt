@@ -1,5 +1,10 @@
-Last Update: 2022/01/13-00:00:02
-2022/01/13-00:00:02 0 Kaijin Kaihatsubu no Kuroitsu-san|怪人開発部の黒井津さん
+Last Update: 2022/01/13-06:00:02
+2022/01/13-06:00:02 02 Tokyo 24-ku|東京24区
+2022/01/13-06:00:02 02 Orient|オリエント
+2022/01/13-06:00:02 02 Leadale no Daichi nite|リアデイルの大地にて
+2022/01/13-06:00:02 02 Hakozume Kouban Joshi no Gyakushuu|ハコヅメ～交番女子の逆襲～
+2022/01/13-06:00:02 01 Kaijin Kaihatsubu no Kuroitsu-san|怪人開発部の黒井津さん
+2022/01/13-06:00:02 0 Koroshi Ai|殺し愛
 2022/01/12-18:00:02 01 Fantasy Bishoujo Juniku Ojisan to|異世界美少女受肉おじさんと
 2022/01/12-12:00:01 01 Kenja no Deshi o Nanoru Kenja|賢者の弟子を名乗る賢者
 2022/01/12-06:00:02 13 Waccha PriMagi!|ワッチャプリマジ！
@@ -28,10 +33,6 @@ Last Update: 2022/01/13-00:00:02
 2022/01/07-06:00:02 01 Irodorimidori|イロドリミドリ
 2022/01/07-00:00:02 38 Shaman King 2021|SHAMAN KING
 2022/01/07-00:00:02 13 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
-2022/01/06-18:00:02 01 Hakozume Kouban Joshi no Gyakushuu|ハコヅメ～交番女子の逆襲～
-2022/01/06-12:00:02 01 Tokyo 24-ku|東京24区
-2022/01/06-12:00:02 01 Orient|オリエント
-2022/01/06-12:00:02 01 Leadale no Daichi nite|リアデイルの大地にて
 2021/12/26-06:00:02 10 Eighty-Six Part 2|86-エイティシックス-(第2クール)
 2021/12/26-00:00:02 11 Deep Insanity The Lost Child|Deep Insanity THE LOST CHILD
 2021/12/26-00:00:02 11 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
