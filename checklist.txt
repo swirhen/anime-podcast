@@ -1,4 +1,5 @@
-Last Update: 2022/01/15-12:00:01
+Last Update: 2022/01/15-18:00:02
+2022/01/15-18:00:02 02 Cue!|CUE！
 2022/01/15-12:00:01 01 Vanitas no Karte Part 2|ヴァニタスの手記(第2クール)
 2022/01/15-06:00:02 02 JoJo no Kimyou na Bouken Stone Ocean|ジョジョの奇妙な冒険 ストーンオーシャン
 2022/01/15-06:00:02 02 Dolls` Frontline|ドールズフロントライン
@@ -35,7 +36,6 @@ Last Update: 2022/01/15-12:00:01
 2022/01/09-06:00:01 01 Shikkaku Mon no Saikyou Kenja|失格紋の最強賢者
 2022/01/09-06:00:01 01 Karakai Jouzu no Takagi-san 3|からかい上手の高木さん3
 2022/01/08-18:00:02 64 Dqdai|ドラゴンクエスト ダイの大冒険
-2022/01/08-18:00:02 01 Cue!|CUE！
 2021/12/26-06:00:02 10 Eighty-Six Part 2|86-エイティシックス-(第2クール)
 2021/12/26-00:00:02 11 Deep Insanity The Lost Child|Deep Insanity THE LOST CHILD
 2021/12/26-00:00:02 11 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
