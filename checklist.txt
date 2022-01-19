@@ -1,4 +1,9 @@
-Last Update: 2022/01/20-00:00:02
+Last Update: 2022/01/20-06:00:02
+2022/01/20-06:00:02 03 Tokyo 24-ku|東京24区
+2022/01/20-06:00:02 03 Orient|オリエント
+2022/01/20-06:00:02 03 Leadale no Daichi nite|リアデイルの大地にて
+2022/01/20-06:00:02 03 Hakozume Kouban Joshi no Gyakushuu|ハコヅメ～交番女子の逆襲～
+2022/01/20-06:00:02 02 Koroshi Ai|殺し愛
 2022/01/20-00:00:02 02 Kaijin Kaihatsubu no Kuroitsu-san|怪人開発部の黒井津さん
 2022/01/20-00:00:02 02 Fantasy Bishoujo Juniku Ojisan to|異世界美少女受肉おじさんと
 2022/01/19-06:00:02 14 Waccha PriMagi!|ワッチャプリマジ！
@@ -31,11 +36,6 @@ Last Update: 2022/01/20-00:00:02
 2022/01/14-00:00:02 14 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
 2022/01/14-00:00:02 02 Saiyuuki Reload Zeroin|最遊記RELOAD -ZEROIN-
 2022/01/14-00:00:02 02 Irodorimidori|イロドリミドリ
-2022/01/13-12:00:02 01 Koroshi Ai|殺し愛
-2022/01/13-06:00:02 02 Tokyo 24-ku|東京24区
-2022/01/13-06:00:02 02 Orient|オリエント
-2022/01/13-06:00:02 02 Leadale no Daichi nite|リアデイルの大地にて
-2022/01/13-06:00:02 02 Hakozume Kouban Joshi no Gyakushuu|ハコヅメ～交番女子の逆襲～
 2021/12/26-06:00:02 10 Eighty-Six Part 2|86-エイティシックス-(第2クール)
 2021/12/26-00:00:02 11 Deep Insanity The Lost Child|Deep Insanity THE LOST CHILD
 2021/12/26-00:00:02 11 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
