@@ -1,4 +1,9 @@
-Last Update: 2022/01/27-00:00:02
+Last Update: 2022/01/27-06:00:02
+2022/01/27-06:00:02 04 Tokyo 24-ku|東京24区
+2022/01/27-06:00:02 04 Orient|オリエント
+2022/01/27-06:00:02 04 Leadale no Daichi nite|リアデイルの大地にて
+2022/01/27-06:00:02 04 Hakozume Kouban Joshi no Gyakushuu|ハコヅメ～交番女子の逆襲～
+2022/01/27-06:00:02 03 Koroshi Ai|殺し愛
 2022/01/27-00:00:02 15 Waccha PriMagi!|ワッチャプリマジ！
 2022/01/27-00:00:02 03 Fantasy Bishoujo Juniku Ojisan to|異世界美少女受肉おじさんと
 2022/01/26-06:00:02 03 Kenja no Deshi o Nanoru Kenja|賢者の弟子を名乗る賢者
@@ -29,11 +34,6 @@ Last Update: 2022/01/27-00:00:02
 2022/01/21-00:00:02 40 Shaman King 2021|SHAMAN KING
 2022/01/21-00:00:02 15 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
 2022/01/21-00:00:02 03 Irodorimidori|イロドリミドリ
-2022/01/20-06:00:02 03 Tokyo 24-ku|東京24区
-2022/01/20-06:00:02 03 Orient|オリエント
-2022/01/20-06:00:02 03 Leadale no Daichi nite|リアデイルの大地にて
-2022/01/20-06:00:02 03 Hakozume Kouban Joshi no Gyakushuu|ハコヅメ～交番女子の逆襲～
-2022/01/20-06:00:02 02 Koroshi Ai|殺し愛
 2022/01/20-00:00:02 02 Kaijin Kaihatsubu no Kuroitsu-san|怪人開発部の黒井津さん
 2022/01/16-18:00:02 40 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
 2021/12/26-06:00:02 10 Eighty-Six Part 2|86-エイティシックス-(第2クール)
