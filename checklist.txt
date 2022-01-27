@@ -1,4 +1,6 @@
-Last Update: 2022/01/27-18:00:01
+Last Update: 2022/01/28-00:00:02
+2022/01/28-00:00:02 41 Shaman King 2021|SHAMAN KING
+2022/01/28-00:00:02 04 Saiyuuki Reload Zeroin|最遊記RELOAD -ZEROIN-
 2022/01/27-06:00:02 04 Tokyo 24-ku|東京24区
 2022/01/27-06:00:02 04 Orient|オリエント
 2022/01/27-06:00:02 04 Leadale no Daichi nite|リアデイルの大地にて
@@ -29,9 +31,7 @@ Last Update: 2022/01/27-18:00:01
 2022/01/22-00:00:01 14 Ousama Ranking|王様ランキング
 2022/01/22-00:00:01 03 Slow Loop|スローループ
 2022/01/22-00:00:01 03 Shuumatsu no Harem|終末のハーレム
-2022/01/21-06:00:02 03 Saiyuuki Reload Zeroin|最遊記RELOAD -ZEROIN-
 2022/01/21-06:00:02 02 Arifureta Shokugyou de Sekai Saikyou 2nd Season|ありふれた職業で世界最強 2nd season
-2022/01/21-00:00:02 40 Shaman King 2021|SHAMAN KING
 2022/01/21-00:00:02 15 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
 2022/01/21-00:00:02 03 Irodorimidori|イロドリミドリ
 2022/01/20-00:00:02 02 Kaijin Kaihatsubu no Kuroitsu-san|怪人開発部の黒井津さん
