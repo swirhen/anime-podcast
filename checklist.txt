@@ -1,4 +1,7 @@
-Last Update: 2022/02/05-00:00:02
+Last Update: 2022/02/05-06:00:01
+2022/02/05-06:00:01 05 JoJo no Kimyou na Bouken Stone Ocean|ジョジョの奇妙な冒険 ストーンオーシャン
+2022/02/05-06:00:01 05 Dolls` Frontline|ドールズフロントライン
+2022/02/05-06:00:01 04 Vanitas no Karte Part 2|ヴァニタスの手記(第2クール)
 2022/02/05-00:00:02 17 Platinum End|プラチナエンド
 2022/02/05-00:00:02 16 Ousama Ranking|王様ランキング
 2022/02/05-00:00:02 05 Slow Loop|スローループ
@@ -33,9 +36,6 @@ Last Update: 2022/02/05-00:00:02
 2022/01/30-00:00:02 04 Shikkaku Mon no Saikyou Kenja|失格紋の最強賢者
 2022/01/30-00:00:02 04 Karakai Jouzu no Takagi-san 3|からかい上手の高木さん3
 2022/01/29-12:00:01 04 Cue!|CUE！
-2022/01/29-06:00:02 04 JoJo no Kimyou na Bouken Stone Ocean|ジョジョの奇妙な冒険 ストーンオーシャン
-2022/01/29-06:00:02 04 Dolls` Frontline|ドールズフロントライン
-2022/01/29-06:00:02 03 Vanitas no Karte Part 2|ヴァニタスの手記(第2クール)
 2021/12/26-06:00:02 10 Eighty-Six Part 2|86-エイティシックス-(第2クール)
 2021/12/26-00:00:02 11 Deep Insanity The Lost Child|Deep Insanity THE LOST CHILD
 2021/12/26-00:00:02 11 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
