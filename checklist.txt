@@ -1,4 +1,7 @@
-Last Update: 2022/02/10-00:00:01
+Last Update: 2022/02/10-06:00:02
+2022/02/10-06:00:02 06 Tokyo 24-ku|東京24区
+2022/02/10-06:00:02 06 Orient|オリエント
+2022/02/10-06:00:02 06 Hakozume Kouban Joshi no Gyakushuu|ハコヅメ～交番女子の逆襲～
 2022/02/10-00:00:01 17 Waccha PriMagi!|ワッチャプリマジ！
 2022/02/10-00:00:01 05 Fantasy Bishoujo Juniku Ojisan to|異世界美少女受肉おじさんと
 2022/02/10-00:00:01 04 Kaijin Kaihatsubu no Kuroitsu-san|怪人開発部の黒井津さん
@@ -30,10 +33,7 @@ Last Update: 2022/02/10-00:00:01
 2022/02/04-00:00:02 17 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
 2022/02/04-00:00:02 05 Saiyuuki Reload Zeroin|最遊記RELOAD -ZEROIN-
 2022/02/04-00:00:02 05 Irodorimidori|イロドリミドリ
-2022/02/03-06:00:02 05 Tokyo 24-ku|東京24区
-2022/02/03-06:00:02 05 Orient|オリエント
 2022/02/03-06:00:02 05 Leadale no Daichi nite|リアデイルの大地にて
-2022/02/03-06:00:02 05 Hakozume Kouban Joshi no Gyakushuu|ハコヅメ～交番女子の逆襲～
 2022/02/03-06:00:02 04 Koroshi Ai|殺し愛
 2022/01/31-18:00:02 42 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
 2021/12/26-06:00:02 10 Eighty-Six Part 2|86-エイティシックス-(第2クール)
