@@ -1,4 +1,5 @@
-Last Update: 2022/02/19-06:00:02
+Last Update: 2022/02/19-12:00:02
+2022/02/19-12:00:02 07 Cue!|CUE！
 2022/02/19-06:00:02 07 JoJo no Kimyou na Bouken Stone Ocean|ジョジョの奇妙な冒険 ストーンオーシャン
 2022/02/19-06:00:02 07 Dolls` Frontline|ドールズフロントライン
 2022/02/19-06:00:02 06 Vanitas no Karte Part 2|ヴァニタスの手記(第2クール)
@@ -33,7 +34,6 @@ Last Update: 2022/02/19-06:00:02
 2022/02/13-00:00:02 69 Dqdai|ドラゴンクエスト ダイの大冒険
 2022/02/13-00:00:02 06 Shikkaku Mon no Saikyou Kenja|失格紋の最強賢者
 2022/02/13-00:00:02 06 Karakai Jouzu no Takagi-san 3|からかい上手の高木さん3
-2022/02/12-12:00:01 06 Cue!|CUE！
 2022/02/11-00:00:02 43 Shaman King 2021|SHAMAN KING
 2022/02/10-06:00:02 06 Tokyo 24-ku|東京24区
 2021/12/26-06:00:02 10 Eighty-Six Part 2|86-エイティシックス-(第2クール)
