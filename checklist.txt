@@ -1,4 +1,6 @@
-Last Update: 2022/02/26-06:00:01
+Last Update: 2022/02/26-12:00:01
+2022/02/26-12:00:01 08 Dolls` Frontline|ドールズフロントライン
+2022/02/26-12:00:01 08 Cue!|CUE！
 2022/02/26-06:00:01 08 JoJo no Kimyou na Bouken Stone Ocean|ジョジョの奇妙な冒険 ストーンオーシャン
 2022/02/26-06:00:01 07 Vanitas no Karte Part 2|ヴァニタスの手記(第2クール)
 2022/02/26-00:00:02 20 Platinum End|プラチナエンド
@@ -31,8 +33,6 @@ Last Update: 2022/02/26-06:00:01
 2022/02/20-06:00:02 07 Akebi-chan no Sailor Fuku|明日ちゃんのセーラー服
 2022/02/20-00:00:02 07 Shikkaku Mon no Saikyou Kenja|失格紋の最強賢者
 2022/02/20-00:00:02 07 Karakai Jouzu no Takagi-san 3|からかい上手の高木さん3
-2022/02/19-12:00:02 07 Cue!|CUE！
-2022/02/19-06:00:02 07 Dolls` Frontline|ドールズフロントライン
 2022/02/18-00:00:02 07 Irodorimidori|イロドリミドリ
 2022/02/14-00:00:01 43 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
 2022/02/13-00:00:02 69 Dqdai|ドラゴンクエスト ダイの大冒険
