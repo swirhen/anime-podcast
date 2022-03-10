@@ -1,4 +1,4 @@
-Last Update: 2022/03/10-06:00:02
+Last Update: 2022/03/10-12:00:01
 2022/03/10-06:00:02 10 Orient|オリエント
 2022/03/10-06:00:02 10 Leadale no Daichi nite|リアデイルの大地にて
 2022/03/10-06:00:02 10 Hakozume Kouban Joshi no Gyakushuu|ハコヅメ～交番女子の逆襲～
@@ -41,13 +41,13 @@ Last Update: 2022/03/10-06:00:02
 2021/12/26-00:00:02 11 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
 2021/12/24-00:00:03 11 Kaginado|かぎなど
 2021/12/23-00:00:02 11 Shikizakura|シキザクラ
+2021/12/22-00:00:01 12 Kyoukai Senki|境界戦機
 2021/12/19-00:00:02 11 Taishou Otome Otogibanashi|大正オトメ御伽話
+2021/12/15-00:00:02 11 Yakunara Mug Cup mo Niban Kama|やくならマグカップも 二番窯
 2021/12/15-00:00:02 11 Shinka no Mi Shiranai Uchi ni Kachigumi Jinsei|進化の実～知らないうちに勝ち組人生～
 2021/12/14-00:00:03 11 Tsuki to Laika to Nosferatu|月とライカと吸血姫
 2021/12/14-00:00:03 11 Kaizoku Oujo|海賊王女
 2021/12/12-12:00:02 19 Jahy-sama wa Kujikenai!|ジャヒー様はくじけない！
 2021/12/10-12:00:02 23 Shiroi Suna no Aquatope|白い砂のアクアトープ
-2021/12/22-00:00:01 12 Kyoukai Senki|境界戦機
-2021/12/15-00:00:02 11 Yakunara Mug Cup mo Niban Kama|やくならマグカップも 二番窯
 2021/11/29-00:00:01 05 Dou Shen Ji|闘神機ジーズフレーム
 2021/11/21-00:00:02 06 Tesla Note|テスラノート
