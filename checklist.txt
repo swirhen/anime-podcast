@@ -37,19 +37,17 @@ Last Update: 2022/03/10-06:00:02
 2022/03/04-00:00:02 21 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
 2022/03/04-00:00:02 09 Saiyuuki Reload Zeroin|最遊記RELOAD -ZEROIN-
 2022/02/18-00:00:02 07 Irodorimidori|イロドリミドリ
-2022/02/14-00:00:01 43 Mewkledreamy Mix!|ミュークルドリーミー みっくす！
 2021/12/26-00:00:02 11 Deep Insanity The Lost Child|Deep Insanity THE LOST CHILD
 2021/12/26-00:00:02 11 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
 2021/12/24-00:00:03 11 Kaginado|かぎなど
 2021/12/23-00:00:02 11 Shikizakura|シキザクラ
-2021/12/22-00:00:01 12 Kyoukai Senki|境界戦機
 2021/12/19-00:00:02 11 Taishou Otome Otogibanashi|大正オトメ御伽話
-2021/12/15-00:00:02 11 Yakunara Mug Cup mo Niban Kama|やくならマグカップも 二番窯
 2021/12/15-00:00:02 11 Shinka no Mi Shiranai Uchi ni Kachigumi Jinsei|進化の実～知らないうちに勝ち組人生～
 2021/12/14-00:00:03 11 Tsuki to Laika to Nosferatu|月とライカと吸血姫
 2021/12/14-00:00:03 11 Kaizoku Oujo|海賊王女
 2021/12/12-12:00:02 19 Jahy-sama wa Kujikenai!|ジャヒー様はくじけない！
 2021/12/10-12:00:02 23 Shiroi Suna no Aquatope|白い砂のアクアトープ
+2021/12/22-00:00:01 12 Kyoukai Senki|境界戦機
+2021/12/15-00:00:02 11 Yakunara Mug Cup mo Niban Kama|やくならマグカップも 二番窯
 2021/11/29-00:00:01 05 Dou Shen Ji|闘神機ジーズフレーム
 2021/11/21-00:00:02 06 Tesla Note|テスラノート
-2021/10/30-06:00:01 04 Visual Prison|ヴィジュアルプリズン
