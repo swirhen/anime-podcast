@@ -1,4 +1,7 @@
-Last Update: 2022/03/12-00:00:01
+Last Update: 2022/03/12-06:00:01
+2022/03/12-06:00:01 10 JoJo no Kimyou na Bouken Stone Ocean|ジョジョの奇妙な冒険 ストーンオーシャン
+2022/03/12-06:00:01 10 Dolls` Frontline|ドールズフロントライン
+2022/03/12-06:00:01 09 Vanitas no Karte Part 2|ヴァニタスの手記(第2クール)
 2022/03/12-00:00:01 21 Ousama Ranking|王様ランキング
 2022/03/12-00:00:01 10 Slow Loop|スローループ
 2022/03/12-00:00:01 10 Shuumatsu no Harem|終末のハーレム
@@ -31,9 +34,6 @@ Last Update: 2022/03/12-00:00:01
 2022/03/06-00:00:02 09 Shikkaku Mon no Saikyou Kenja|失格紋の最強賢者
 2022/03/06-00:00:02 09 Karakai Jouzu no Takagi-san 3|からかい上手の高木さん3
 2022/03/05-18:00:02 09 Cue!|CUE！
-2022/03/05-06:00:02 09 JoJo no Kimyou na Bouken Stone Ocean|ジョジョの奇妙な冒険 ストーンオーシャン
-2022/03/05-06:00:02 09 Dolls` Frontline|ドールズフロントライン
-2022/03/05-06:00:02 08 Vanitas no Karte Part 2|ヴァニタスの手記(第2クール)
 2022/03/05-00:00:02 45 Shaman King 2021|SHAMAN KING
 2022/03/05-00:00:02 21 Platinum End|プラチナエンド
 2022/02/18-00:00:02 07 Irodorimidori|イロドリミドリ
