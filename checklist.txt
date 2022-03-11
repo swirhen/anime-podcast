@@ -1,4 +1,7 @@
-Last Update: 2022/03/11-18:00:02
+Last Update: 2022/03/12-00:00:01
+2022/03/12-00:00:01 21 Ousama Ranking|王様ランキング
+2022/03/12-00:00:01 10 Slow Loop|スローループ
+2022/03/12-00:00:01 10 Shuumatsu no Harem|終末のハーレム
 2022/03/11-06:00:02 09 Arifureta Shokugyou de Sekai Saikyou 2nd Season|ありふれた職業で世界最強 2nd season
 2022/03/11-00:00:02 22 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
 2022/03/11-00:00:02 10 Saiyuuki Reload Zeroin|最遊記RELOAD -ZEROIN-
@@ -33,9 +36,6 @@ Last Update: 2022/03/11-18:00:02
 2022/03/05-06:00:02 08 Vanitas no Karte Part 2|ヴァニタスの手記(第2クール)
 2022/03/05-00:00:02 45 Shaman King 2021|SHAMAN KING
 2022/03/05-00:00:02 21 Platinum End|プラチナエンド
-2022/03/05-00:00:02 20 Ousama Ranking|王様ランキング
-2022/03/05-00:00:02 09 Slow Loop|スローループ
-2022/03/05-00:00:02 09 Shuumatsu no Harem|終末のハーレム
 2022/02/18-00:00:02 07 Irodorimidori|イロドリミドリ
 2021/12/26-00:00:02 11 Deep Insanity The Lost Child|Deep Insanity THE LOST CHILD
 2021/12/26-00:00:02 11 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka|180秒で君の耳を幸せにできるか？
