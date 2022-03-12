@@ -1,4 +1,6 @@
-Last Update: 2022/03/12-18:00:02
+Last Update: 2022/03/13-00:00:01
+2022/03/13-00:00:01 10 Shikkaku Mon no Saikyou Kenja|失格紋の最強賢者
+2022/03/13-00:00:01 10 Karakai Jouzu no Takagi-san 3|からかい上手の高木さん3
 2022/03/12-12:00:01 10 Cue!|CUE！
 2022/03/12-06:00:01 10 JoJo no Kimyou na Bouken Stone Ocean|ジョジョの奇妙な冒険 ストーンオーシャン
 2022/03/12-06:00:01 10 Dolls` Frontline|ドールズフロントライン
@@ -32,8 +34,6 @@ Last Update: 2022/03/12-18:00:02
 2022/03/06-06:00:02 09 Genjitsu Shugi Yuusha no Oukoku Saikenki Dainibu|現実主義勇者の王国再建記 第二部
 2022/03/06-06:00:02 09 Akebi-chan no Sailor Fuku|明日ちゃんのセーラー服
 2022/03/06-00:00:02 72 Dqdai|ドラゴンクエスト ダイの大冒険
-2022/03/06-00:00:02 09 Shikkaku Mon no Saikyou Kenja|失格紋の最強賢者
-2022/03/06-00:00:02 09 Karakai Jouzu no Takagi-san 3|からかい上手の高木さん3
 2022/03/05-00:00:02 45 Shaman King 2021|SHAMAN KING
 2022/03/05-00:00:02 21 Platinum End|プラチナエンド
 2022/02/18-00:00:02 07 Irodorimidori|イロドリミドリ
