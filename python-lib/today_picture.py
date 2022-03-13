@@ -23,10 +23,10 @@ CHANNEL = 'ztb_today_pic'
 def choice_the_picture(urlflag=False, recent_list=RECENT_LIST, year=''):
     if year == '':
         pyear = str(int(dt.now().strftime('%Y')) - 1)
-        fileset = set(subprocess.run(f'find {PIC_DIR} -type f -newermt "{pyear}-12-31"', shell=True, stdout=subprocess.PIPE).stdout.decode().strip().splitlines())
+        fileset = set(subprocess.run(f'find {PIC_DIR} -type f -newermt "2020-12-31"', shell=True, stdout=subprocess.PIPE).stdout.decode().strip().splitlines())
     else:
         pyear = str(int(year) - 1)
-        fileset = set(subprocess.run(f'find {PIC_DIR} -type f -newermt "{pyear}-12-31" ! -newermt "{year}-12-31"', shell=True, stdout=subprocess.PIPE).stdout.decode().strip().splitlines())
+        fileset = set(subprocess.run(f'find {PIC_DIR} -type f -newermt "2020-12-31" ! -newermt "{year}-12-31"', shell=True, stdout=subprocess.PIPE).stdout.decode().strip().splitlines())
 
     recent_filelist = []
     if os.path.exists(recent_list):
