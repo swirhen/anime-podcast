@@ -1,4 +1,6 @@
-Last Update: 2022/03/19-00:00:02
+Last Update: 2022/03/19-06:00:01
+2022/03/19-06:00:01 11 JoJo no Kimyou na Bouken Stone Ocean|ジョジョの奇妙な冒険 ストーンオーシャン
+2022/03/19-06:00:01 11 Dolls` Frontline|ドールズフロントライン
 2022/03/19-00:00:02 23 Platinum End|プラチナエンド
 2022/03/19-00:00:02 22 Ousama Ranking|王様ランキング
 2022/03/19-00:00:02 11 Slow Loop|スローループ
@@ -27,8 +29,6 @@ Last Update: 2022/03/19-00:00:02
 2022/03/13-00:00:01 10 Shikkaku Mon no Saikyou Kenja|失格紋の最強賢者
 2022/03/13-00:00:01 10 Karakai Jouzu no Takagi-san 3|からかい上手の高木さん3
 2022/03/12-12:00:01 10 Cue!|CUE！
-2022/03/12-06:00:01 10 JoJo no Kimyou na Bouken Stone Ocean|ジョジョの奇妙な冒険 ストーンオーシャン
-2022/03/12-06:00:01 10 Dolls` Frontline|ドールズフロントライン
 2022/03/12-06:00:01 09 Vanitas no Karte Part 2|ヴァニタスの手記(第2クール)
 2022/03/10-06:00:02 10 Orient|オリエント
 2022/03/10-06:00:02 10 Leadale no Daichi nite|リアデイルの大地にて
