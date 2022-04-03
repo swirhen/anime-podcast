@@ -59,7 +59,7 @@ MAILTO=""
 0 20 * * 7 python /data/share/movie/sh/radio_record.py a "小原好美のココロおきなく" 30 1800
 0 21 * * 7 python /data/share/movie/sh/radio_record.py r "大橋彩香のAny Beat！" 1 1830 QRR
 0 22 * * 7 python /data/share/movie/sh/radio_record.py r "水瀬いのり MELODY FLAG" 1 1830 QRR
-30 0 * * 1 python /data/share/movie/sh/radio_record.py r "小倉唯のyui＊room" 1 1830 QRR
+#30 0 * * 1 python /data/share/movie/sh/radio_record.py r "小倉唯のyui＊room" 1 1830 QRR
 # -- IJUIN
 0 1 * * 2 python /data/share/movie/sh/radio_record.py r "伊集院光 深夜の馬鹿力" 1 7230 TBS
 30 8 * * 1-4 python /data/share/movie/sh/radio_record.py r "伊集院光とらじおと" 1 9030 TBS
