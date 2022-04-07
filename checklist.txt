@@ -24,7 +24,6 @@ Last Update: 2022/04/07-12:00:01
 2022/03/27-06:00:01 12 Genjitsu Shugi Yuusha no Oukoku Saikenki Dainibu|現実主義勇者の王国再建記 第二部
 2022/03/26-12:00:02 12 Cue!|CUE！
 2022/03/26-06:00:02 11 Vanitas no Karte Part 2|ヴァニタスの手記(第2クール)
-2022/03/26-00:00:02 23 Ousama Ranking|王様ランキング
 2022/03/25-00:00:02 11 Orient|オリエント
 2022/03/24-06:00:01 12 Hakozume Kouban Joshi no Gyakushuu|ハコヅメ～交番女子の逆襲～
 2022/03/24-06:00:01 11 Koroshi Ai|殺し愛
@@ -37,6 +36,4 @@ Last Update: 2022/04/07-12:00:01
 2022/03/19-06:00:01 11 Dolls` Frontline|ドールズフロントライン
 2022/03/19-00:00:02 23 Platinum End|プラチナエンド
 2022/03/19-00:00:02 11 Slow Loop|スローループ
-2022/03/19-00:00:02 11 Shuumatsu no Harem|終末のハーレム
-2022/03/07-00:00:02 01 Princess Principal Crown Handler|プリンセス・プリンシパル
 2022/03/06-00:00:02 72 Dqdai|ドラゴンクエスト ダイの大冒険
