@@ -1,4 +1,7 @@
-Last Update: 2022/04/07-18:00:01
+Last Update: 2022/04/08-00:00:02
+2022/04/08-00:00:02 50 Shaman King 2021|SHAMAN KING
+2022/04/08-00:00:02 0 Shachiku-san wa Youjo Yuurei ni Iyasaretai.|社畜さんは幼女幽霊に癒されたい。
+2022/04/08-00:00:02 0 Estab Life Great Escape|エスタブライフ グレイトエスケープ
 2022/04/07-12:00:01 01 Tomodachi Game|トモダチゲーム
 2022/04/07-12:00:01 01 Komi-san wa, Komyushou Desu. Part 2|古見さんは、コミュ症です。(第2期)
 2022/04/07-12:00:01 01 Deaimon|であいもん
@@ -17,7 +20,6 @@ Last Update: 2022/04/07-18:00:01
 2022/04/02-12:00:02 01 Shokei Shoujo no Virgin Road|処刑少女の生きる道
 2022/04/02-00:00:02 11 Tokyo 24-ku|東京24区
 2022/04/01-06:00:01 25 BanG Dream! Garupa Pico Fever!|BanG Dream！ ガルパ☆ピコ ふぃーばー！
-2022/04/01-00:00:02 49 Shaman King 2021|SHAMAN KING
 2022/03/31-00:00:02 24 Waccha PriMagi!|ワッチャプリマジ！
 2022/03/31-00:00:02 11 Kaijin Kaihatsubu no Kuroitsu-san|怪人開発部の黒井津さん
 2022/03/29-00:00:02 12 Bara Ou no Souretsu|薔薇王の葬列
