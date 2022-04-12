@@ -1,4 +1,6 @@
-Last Update: 2022/04/12-18:00:02
+Last Update: 2022/04/13-00:00:02
+2022/04/13-00:00:02 02 Yuusha, Yamemasu|勇者、辞めます
+2022/04/13-00:00:02 0 Kyoukai Senki Part 2|境界戦機 第二部
 2022/04/12-00:00:02 13 Bara Ou no Souretsu|薔薇王の葬列
 2022/04/12-00:00:02 02 Healer Girl|ヒーラー・ガール
 2022/04/11-06:00:02 02 Black Rock Shooter Dawn Fall|ブラック★★ロックシューター DAWN FALL
@@ -29,7 +31,6 @@ Last Update: 2022/04/12-18:00:02
 2022/04/07-06:00:02 01 Tate no Yuusha no Nariagari Season 2|盾の勇者の成り上がり Season 2
 2022/04/07-06:00:02 01 Shijou Saikyou no Daimaou, Murabito A ni Tensei Suru|史上最強の大魔王、村人Aに転生する
 2022/04/07-06:00:02 01 RPG Fudousan|RPG不動産
-2022/04/06-06:00:02 01 Yuusha, Yamemasu|勇者、辞めます
 2022/04/06-06:00:02 01 Rikei ga Koi ni Ochita no de Shoumei Shite Mita. Heart|理系が恋に落ちたので証明してみた。r=1-sinθ
 2022/03/31-00:00:02 24 Waccha PriMagi!|ワッチャプリマジ！
 2022/03/19-06:00:01 11 JoJo no Kimyou na Bouken Stone Ocean|ジョジョの奇妙な冒険 ストーンオーシャン
