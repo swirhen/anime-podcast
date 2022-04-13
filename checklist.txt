@@ -1,4 +1,11 @@
-Last Update: 2022/04/13-18:00:01
+Last Update: 2022/04/14-00:00:01
+2022/04/14-00:00:01 02 Zero no Tea Time|名探偵コナン ゼロの日常
+2022/04/14-00:00:01 02 Tate no Yuusha no Nariagari Season 2|盾の勇者の成り上がり Season 2
+2022/04/14-00:00:01 02 Shijou Saikyou no Daimaou, Murabito A ni Tensei Suru|史上最強の大魔王、村人Aに転生する
+2022/04/14-00:00:01 02 Rikei ga Koi ni Ochita no de Shoumei Shite Mita. Heart|理系が恋に落ちたので証明してみた。r=1-sinθ
+2022/04/14-00:00:01 02 RPG Fudousan|RPG不動産
+2022/04/14-00:00:01 02 Paripi Koumei|パリピ孔明
+2022/04/14-00:00:01 0 Kawaii Dake ja Nai Shikimori-san|可愛いだけじゃない式守さん
 2022/04/13-06:00:01 01 Kyoukai Senki Part 2|境界戦機 第二部
 2022/04/13-00:00:02 02 Yuusha, Yamemasu|勇者、辞めます
 2022/04/12-00:00:02 13 Bara Ou no Souretsu|薔薇王の葬列
@@ -19,7 +26,6 @@ Last Update: 2022/04/13-18:00:01
 2022/04/09-06:00:01 01 Koi wa Sekai Seifuku no Ato de|恋は世界征服のあとで
 2022/04/09-06:00:01 01 Date a Live IV|デート・ア・ライブⅣ
 2022/04/08-13:32:10 01 Shachiku-san wa Youjo Yuurei ni Iyasaretai.|社畜さんは幼女幽霊に癒されたい。
-2022/04/08-13:32:10 01 Paripi Koumei|パリピ孔明
 2022/04/08-13:32:10 01 Heroine Taru Mono! Kiraware Heroine to Naisho no Oshigoto|ヒロインたるもの！～嫌われヒロインと内緒のお仕事～
 2022/04/08-13:32:10 01 Gaikotsu Kishi-sama, Tadaima Isekai e Odekake-chuu|骸骨騎士様、只今異世界へお出掛け中
 2022/04/08-13:32:10 01 Estab Life Great Escape|エスタブライフ グレイトエスケープ
@@ -27,11 +33,6 @@ Last Update: 2022/04/13-18:00:01
 2022/04/07-12:00:01 01 Tomodachi Game|トモダチゲーム
 2022/04/07-12:00:01 01 Komi-san wa, Komyushou Desu. Part 2|古見さんは、コミュ症です。(第2期)
 2022/04/07-12:00:01 01 Deaimon|であいもん
-2022/04/07-06:00:02 01 Zero no Tea Time|名探偵コナン ゼロの日常
-2022/04/07-06:00:02 01 Tate no Yuusha no Nariagari Season 2|盾の勇者の成り上がり Season 2
-2022/04/07-06:00:02 01 Shijou Saikyou no Daimaou, Murabito A ni Tensei Suru|史上最強の大魔王、村人Aに転生する
-2022/04/07-06:00:02 01 RPG Fudousan|RPG不動産
-2022/04/06-06:00:02 01 Rikei ga Koi ni Ochita no de Shoumei Shite Mita. Heart|理系が恋に落ちたので証明してみた。r=1-sinθ
 2022/03/31-00:00:02 24 Waccha PriMagi!|ワッチャプリマジ！
 2022/03/19-06:00:01 11 JoJo no Kimyou na Bouken Stone Ocean|ジョジョの奇妙な冒険 ストーンオーシャン
 2022/03/06-00:00:02 72 Dqdai|ドラゴンクエスト ダイの大冒険
