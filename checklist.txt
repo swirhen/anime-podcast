@@ -1,4 +1,10 @@
-Last Update: 2022/04/14-18:00:02
+Last Update: 2022/04/15-00:00:01
+2022/04/15-00:00:01 51 Shaman King 2021|SHAMAN KING
+2022/04/15-00:00:01 02 Tomodachi Game|トモダチゲーム
+2022/04/15-00:00:01 02 Shachiku-san wa Youjo Yuurei ni Iyasaretai.|社畜さんは幼女幽霊に癒されたい。
+2022/04/15-00:00:01 02 Estab Life Great Escape|エスタブライフ グレイトエスケープ
+2022/04/15-00:00:01 0 Yatogame-chan Kansatsu Nikki Yonsatsume|八十亀ちゃんかんさつにっき 4さつめ
+2022/04/15-00:00:01 0 Honzuki no Gekokujou S3|本好きの下剋上 司書になるためには手段を選んでいられません(第3期)
 2022/04/14-06:00:02 02 Komi-san wa, Komyushou Desu. Part 2|古見さんは、コミュ症です。(第2期)
 2022/04/14-06:00:02 02 Deaimon|であいもん
 2022/04/14-06:00:02 01 Kawaii Dake ja Nai Shikimori-san|可愛いだけじゃない式守さん
@@ -27,12 +33,8 @@ Last Update: 2022/04/14-18:00:02
 2022/04/09-06:00:01 01 Machikado Mazoku 2-Choume|まちカドまぞく 2丁目
 2022/04/09-06:00:01 01 Koi wa Sekai Seifuku no Ato de|恋は世界征服のあとで
 2022/04/09-06:00:01 01 Date a Live IV|デート・ア・ライブⅣ
-2022/04/08-13:32:10 01 Shachiku-san wa Youjo Yuurei ni Iyasaretai.|社畜さんは幼女幽霊に癒されたい。
 2022/04/08-13:32:10 01 Heroine Taru Mono! Kiraware Heroine to Naisho no Oshigoto|ヒロインたるもの！～嫌われヒロインと内緒のお仕事～
 2022/04/08-13:32:10 01 Gaikotsu Kishi-sama, Tadaima Isekai e Odekake-chuu|骸骨騎士様、只今異世界へお出掛け中
-2022/04/08-13:32:10 01 Estab Life Great Escape|エスタブライフ グレイトエスケープ
-2022/04/08-00:00:02 50 Shaman King 2021|SHAMAN KING
-2022/04/07-12:00:01 01 Tomodachi Game|トモダチゲーム
 2022/03/31-00:00:02 24 Waccha PriMagi!|ワッチャプリマジ！
 2022/03/19-06:00:01 11 JoJo no Kimyou na Bouken Stone Ocean|ジョジョの奇妙な冒険 ストーンオーシャン
 2022/03/06-00:00:02 72 Dqdai|ドラゴンクエスト ダイの大冒険
