@@ -1,4 +1,9 @@
-Last Update: 2022/04/15-18:00:02
+Last Update: 2022/04/16-00:00:01
+2022/04/16-00:00:01 02 Mahou Tsukai Reimeiki|魔法使い黎明期
+2022/04/16-00:00:01 02 Machikado Mazoku 2-Choume|まちカドまぞく 2丁目
+2022/04/16-00:00:01 02 Koi wa Sekai Seifuku no Ato de|恋は世界征服のあとで
+2022/04/16-00:00:01 02 Heroine Taru Mono! Kiraware Heroine to Naisho no Oshigoto|ヒロインたるもの！～嫌われヒロインと内緒のお仕事～
+2022/04/16-00:00:01 02 Date a Live IV|デート・ア・ライブⅣ
 2022/04/15-12:00:01 01 Summer Time Render|サマータイムレンダ
 2022/04/15-06:00:01 02 Gaikotsu Kishi-sama, Tadaima Isekai e Odekake-chuu|骸骨騎士様、只今異世界へお出掛け中
 2022/04/15-06:00:01 01 Yatogame-chan Kansatsu Nikki Yonsatsume|八十亀ちゃんかんさつにっき 4さつめ
@@ -31,11 +36,6 @@ Last Update: 2022/04/15-18:00:02
 2022/04/09-12:00:02 02 Aharen-san wa Hakarenai|阿波連さんははかれない
 2022/04/09-12:00:02 01 Kaguya-sama wa Kokurasetai Ultra Romantic|かぐや様は告らせたい-ウルトラロマンティック-
 2022/04/09-06:00:01 02 Shokei Shoujo no Virgin Road|処刑少女の生きる道
-2022/04/09-06:00:01 01 Mahou Tsukai Reimeiki|魔法使い黎明期
-2022/04/09-06:00:01 01 Machikado Mazoku 2-Choume|まちカドまぞく 2丁目
-2022/04/09-06:00:01 01 Koi wa Sekai Seifuku no Ato de|恋は世界征服のあとで
-2022/04/09-06:00:01 01 Date a Live IV|デート・ア・ライブⅣ
-2022/04/08-13:32:10 01 Heroine Taru Mono! Kiraware Heroine to Naisho no Oshigoto|ヒロインたるもの！～嫌われヒロインと内緒のお仕事～
 2022/03/31-00:00:02 24 Waccha PriMagi!|ワッチャプリマジ！
 2022/03/19-06:00:01 11 JoJo no Kimyou na Bouken Stone Ocean|ジョジョの奇妙な冒険 ストーンオーシャン
 2022/03/06-00:00:02 72 Dqdai|ドラゴンクエスト ダイの大冒険
