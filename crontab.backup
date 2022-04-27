@@ -92,3 +92,6 @@ MAILTO=""
 
 # きょうのいちまい
 0 9,12,15,18,21 * * * python /data/share/movie/sh/python-lib/today_picture.py
+
+# diablo clone tracker
+*/5 * * * * python /home/swirhen/sh/checker/diablo_clone_tracker/diablo_clone_tracker.py
