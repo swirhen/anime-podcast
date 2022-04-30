@@ -57,8 +57,8 @@ async def on_message(message):
             total = 0
 
             if len(results) <= 10:
-                if len(list(set(results))) == 1:
-                    post_str += 'repdigit!\n'
+                if len(count) > 1 and len(list(set(results))) == 1:
+                    post_str += 'repdigit(ゾロ目)!\n'
                 else:
                     post_str += '\n'
 
