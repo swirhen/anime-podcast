@@ -1,4 +1,27 @@
-Last Update: 2022/04/27-12:00:01
+Last Update: 2022/04/30-12:00:02
+2022/04/30-12:00:02 05 Aharen-san wa Hakarenai|阿波連さんははかれない
+2022/04/30-06:00:02 05 Shokei Shoujo no Virgin Road|処刑少女の生きる道
+2022/04/30-06:00:02 04 Kaguya-sama wa Kokurasetai Ultra Romantic|かぐや様は告らせたい-ウルトラロマンティック-
+2022/04/30-00:00:02 04 Mahou Tsukai Reimeiki|魔法使い黎明期
+2022/04/30-00:00:02 04 Machikado Mazoku 2-Choume|まちカドまぞく 2丁目
+2022/04/30-00:00:02 04 Koi wa Sekai Seifuku no Ato de|恋は世界征服のあとで
+2022/04/30-00:00:02 04 Date a Live IV|デート・ア・ライブⅣ
+2022/04/29-06:00:02 04 Gaikotsu Kishi-sama, Tadaima Isekai e Odekake-chuu|骸骨騎士様、只今異世界へお出掛け中
+2022/04/29-06:00:02 03 Summer Time Render|サマータイムレンダ
+2022/04/29-00:00:02 04 Tomodachi Game|トモダチゲーム
+2022/04/29-00:00:02 04 Shachiku-san wa Youjo Yuurei ni Iyasaretai.|社畜さんは幼女幽霊に癒されたい。
+2022/04/29-00:00:02 04 Estab Life Great Escape|エスタブライフ グレイトエスケープ
+2022/04/29-00:00:02 03 Yatogame-chan Kansatsu Nikki Yonsatsume|八十亀ちゃんかんさつにっき 4さつめ
+2022/04/28-06:00:01 04 Komi-san wa, Komyushou Desu. Part 2|古見さんは、コミュ症です。(第2期)
+2022/04/28-06:00:01 04 Deaimon|であいもん
+2022/04/28-06:00:01 03 Honzuki no Gekokujou S3|本好きの下剋上 司書になるためには手段を選んでいられません(第3期)
+2022/04/28-00:00:02 27 Waccha PriMagi!|ワッチャプリマジ！
+2022/04/28-00:00:02 04 Zero no Tea Time|名探偵コナン ゼロの日常
+2022/04/28-00:00:02 04 Tate no Yuusha no Nariagari Season 2|盾の勇者の成り上がり Season 2
+2022/04/28-00:00:02 04 Shijou Saikyou no Daimaou, Murabito A ni Tensei Suru|史上最強の大魔王、村人Aに転生する
+2022/04/28-00:00:02 04 RPG Fudousan|RPG不動産
+2022/04/28-00:00:02 04 Paripi Koumei|パリピ孔明
+2022/04/28-00:00:02 03 Kawaii Dake ja Nai Shikimori-san|可愛いだけじゃない式守さん
 2022/04/27-00:00:02 15 Bara Ou no Souretsu|薔薇王の葬列
 2022/04/27-00:00:02 04 Yuusha, Yamemasu|勇者、辞めます
 2022/04/27-00:00:02 03 Kyoukai Senki Part 2|境界戦機 第二部
@@ -15,28 +38,5 @@ Last Update: 2022/04/27-12:00:01
 2022/04/24-00:00:02 03 Spy x Family|SPY×FAMILY
 2022/04/23-18:00:01 74 Dqdai|ドラゴンクエスト ダイの大冒険
 2022/04/23-18:00:01 15 Cue!|CUE！
-2022/04/23-12:00:02 04 Aharen-san wa Hakarenai|阿波連さんははかれない
-2022/04/23-06:00:01 04 Shokei Shoujo no Virgin Road|処刑少女の生きる道
-2022/04/23-06:00:01 03 Kaguya-sama wa Kokurasetai Ultra Romantic|かぐや様は告らせたい-ウルトラロマンティック-
-2022/04/23-00:00:02 03 Mahou Tsukai Reimeiki|魔法使い黎明期
-2022/04/23-00:00:02 03 Machikado Mazoku 2-Choume|まちカドまぞく 2丁目
-2022/04/23-00:00:02 03 Koi wa Sekai Seifuku no Ato de|恋は世界征服のあとで
-2022/04/23-00:00:02 03 Date a Live IV|デート・ア・ライブⅣ
-2022/04/22-06:00:02 03 Gaikotsu Kishi-sama, Tadaima Isekai e Odekake-chuu|骸骨騎士様、只今異世界へお出掛け中
-2022/04/22-06:00:02 02 Summer Time Render|サマータイムレンダ
-2022/04/22-00:00:01 03 Tomodachi Game|トモダチゲーム
-2022/04/22-00:00:01 03 Shachiku-san wa Youjo Yuurei ni Iyasaretai.|社畜さんは幼女幽霊に癒されたい。
-2022/04/22-00:00:01 03 Estab Life Great Escape|エスタブライフ グレイトエスケープ
-2022/04/21-06:00:02 03 Komi-san wa, Komyushou Desu. Part 2|古見さんは、コミュ症です。(第2期)
-2022/04/21-06:00:02 03 Deaimon|であいもん
-2022/04/21-06:00:02 02 Honzuki no Gekokujou S3|本好きの下剋上 司書になるためには手段を選んでいられません(第3期)
-2022/04/21-00:00:02 03 Zero no Tea Time|名探偵コナン ゼロの日常
-2022/04/21-00:00:02 03 Tate no Yuusha no Nariagari Season 2|盾の勇者の成り上がり Season 2
-2022/04/21-00:00:02 03 Shijou Saikyou no Daimaou, Murabito A ni Tensei Suru|史上最強の大魔王、村人Aに転生する
-2022/04/21-00:00:02 03 RPG Fudousan|RPG不動産
-2022/04/21-00:00:02 03 Paripi Koumei|パリピ孔明
-2022/04/21-00:00:02 02 Kawaii Dake ja Nai Shikimori-san|可愛いだけじゃない式守さん
-2022/04/20-06:00:02 25 Waccha PriMagi!|ワッチャプリマジ！
-2022/04/15-06:00:01 01 Yatogame-chan Kansatsu Nikki Yonsatsume|八十亀ちゃんかんさつにっき 4さつめ
 2022/04/15-00:00:01 51 Shaman King 2021|SHAMAN KING
 2022/03/19-06:00:01 11 JoJo no Kimyou na Bouken Stone Ocean|ジョジョの奇妙な冒険 ストーンオーシャン
