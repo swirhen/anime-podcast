@@ -43,8 +43,8 @@ async def on_message(message):
                 await message.channel.send(bu.generate_message('usage_dice_bot'))
                 return
             else:
-                count = orders[0]
-                dice = orders[1]
+                count = int(orders[0])
+                dice = int(orders[1])
             
             post_str = f'[dice bot] {arguments[1]} を振ります'
             await message.channel.send(post_str)
