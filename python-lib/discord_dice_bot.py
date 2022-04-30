@@ -60,6 +60,8 @@ async def on_message(message):
                 for i in range(len(results)):
                     total += results[i]
                 post_str += f'{total}'
+                await message.channel.send(post_str)
+                return
             elif count <= 10:
                 if len(list(set(results))) == 1:
                     post_str += 'repdigit(ゾロ目)!\n'
