@@ -56,8 +56,12 @@ async def on_message(message):
             post_str = '結果： '
             total = 0
 
-            if len(results) <= 10:
-                if count > 1 and len(list(set(results))) == 1:
+            if count == 1:
+                for i in range(len(results)):
+                    total += results[i]
+                post_str += f'{total}'
+            elif count <= 10:
+                if len(list(set(results))) == 1:
                     post_str += 'repdigit(ゾロ目)!\n'
                 else:
                     post_str += '\n'
