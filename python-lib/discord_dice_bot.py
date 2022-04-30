@@ -74,6 +74,10 @@ async def on_message(message):
                 
             await message.channel.send(post_str)
 
+        else:
+            await message.channel.send(bu.generate_message('usage_dice_bot'))
+            return
+
 
 if __name__ == "__main__":
     pid = os.getpid()
