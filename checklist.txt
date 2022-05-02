@@ -1,4 +1,5 @@
-Last Update: 2022/05/02-18:00:02
+Last Update: 2022/05/03-00:00:02
+2022/05/03-00:00:02 05 Healer Girl|ヒーラー・ガール
 2022/05/02-06:00:02 05 Black Rock Shooter Dawn Fall|ブラック★★ロックシューター DAWN FALL
 2022/05/02-00:00:02 05 Rikei ga Koi ni Ochita no de Shoumei Shite Mita. Heart|理系が恋に落ちたので証明してみた。r=1-sinθ
 2022/05/02-00:00:02 05 Otomege Sekai wa Mob ni Kibishii Sekai Desu|乙女ゲー世界はモブに厳しい世界です
@@ -37,6 +38,5 @@ Last Update: 2022/05/02-18:00:02
 2022/04/27-00:00:02 15 Bara Ou no Souretsu|薔薇王の葬列
 2022/04/27-00:00:02 04 Yuusha, Yamemasu|勇者、辞めます
 2022/04/27-00:00:02 03 Kyoukai Senki Part 2|境界戦機 第二部
-2022/04/26-06:00:01 04 Healer Girl|ヒーラー・ガール
 2022/04/15-00:00:01 51 Shaman King 2021|SHAMAN KING
 2022/03/19-06:00:01 11 JoJo no Kimyou na Bouken Stone Ocean|ジョジョの奇妙な冒険 ストーンオーシャン
