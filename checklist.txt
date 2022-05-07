@@ -1,4 +1,5 @@
-Last Update: 2022/05/07-12:00:01
+Last Update: 2022/05/07-18:00:02
+2022/05/07-18:00:02 17 Cue!|CUE！
 2022/05/07-12:00:01 06 Aharen-san wa Hakarenai|阿波連さんははかれない
 2022/05/07-06:00:01 06 Shokei Shoujo no Virgin Road|処刑少女の生きる道
 2022/05/07-06:00:01 05 Kaguya-sama wa Kokurasetai Ultra Romantic|かぐや様は告らせたい-ウルトラロマンティック-
@@ -36,7 +37,6 @@ Last Update: 2022/05/07-12:00:01
 2022/05/01-06:00:02 04 Spy x Family|SPY×FAMILY
 2022/05/01-06:00:02 04 Kunoichi Tsubaki no Mune no Uchi|くノ一ツバキの胸の内
 2022/05/01-00:00:02 75 Dqdai|ドラゴンクエスト ダイの大冒険
-2022/05/01-00:00:02 16 Cue!|CUE！
 2022/05/01-00:00:02 05 Love Live! Nijigasaki Gakuen School Idol Doukoukai 2|ラブライブ！虹ヶ咲学園スクールアイドル同好会(第2期)
 2022/04/15-00:00:01 51 Shaman King 2021|SHAMAN KING
 2022/03/19-06:00:01 11 JoJo no Kimyou na Bouken Stone Ocean|ジョジョの奇妙な冒険 ストーンオーシャン
