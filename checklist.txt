@@ -1,4 +1,6 @@
-Last Update: 2022/05/17-06:00:02
+Last Update: 2022/05/17-12:00:01
+2022/05/17-12:00:01 07 Healer Girl|ヒーラー・ガール
+2022/05/17-12:00:01 06 Kyoukai Senki Part 2|境界戦機 第二部
 2022/05/16-06:00:02 18 Bara Ou no Souretsu|薔薇王の葬列
 2022/05/16-06:00:02 07 Black Rock Shooter Dawn Fall|ブラック★★ロックシューター DAWN FALL
 2022/05/16-00:00:02 07 Otomege Sekai wa Mob ni Kibishii Sekai Desu|乙女ゲー世界はモブに厳しい世界です
@@ -34,8 +36,6 @@ Last Update: 2022/05/17-06:00:02
 2022/05/11-18:00:01 06 Zero no Tea Time|名探偵コナン ゼロの日常
 2022/05/11-18:00:01 06 Paripi Koumei|パリピ孔明
 2022/05/11-06:00:02 06 Yuusha, Yamemasu|勇者、辞めます
-2022/05/11-06:00:02 05 Kyoukai Senki Part 2|境界戦機 第二部
-2022/05/10-00:16:45 06 Healer Girl|ヒーラー・ガール
 2022/05/08-00:00:01 76 Dqdai|ドラゴンクエスト ダイの大冒険
 2022/05/06-00:00:02 04 Yatogame-chan Kansatsu Nikki Yonsatsume|八十亀ちゃんかんさつにっき 4さつめ
 2022/04/15-00:00:01 51 Shaman King 2021|SHAMAN KING
