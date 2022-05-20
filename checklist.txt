@@ -1,4 +1,8 @@
-Last Update: 2022/05/20-18:00:02
+Last Update: 2022/05/21-00:00:02
+2022/05/21-00:00:02 77 Dqdai|ドラゴンクエスト ダイの大冒険
+2022/05/21-00:00:02 07 Koi wa Sekai Seifuku no Ato de|恋は世界征服のあとで
+2022/05/21-00:00:02 07 Heroine Taru Mono! Kiraware Heroine to Naisho no Oshigoto|ヒロインたるもの！～嫌われヒロインと内緒のお仕事～
+2022/05/21-00:00:02 07 Date a Live IV|デート・ア・ライブⅣ
 2022/05/20-06:00:02 07 Gaikotsu Kishi-sama, Tadaima Isekai e Odekake-chuu|骸骨騎士様、只今異世界へお出掛け中
 2022/05/20-06:00:02 06 Summer Time Render|サマータイムレンダ
 2022/05/20-00:00:02 07 Shachiku-san wa Youjo Yuurei ni Iyasaretai.|社畜さんは幼女幽霊に癒されたい。
@@ -31,12 +35,8 @@ Last Update: 2022/05/20-18:00:02
 2022/05/14-12:00:02 07 Aharen-san wa Hakarenai|阿波連さんははかれない
 2022/05/14-06:00:01 07 Shokei Shoujo no Virgin Road|処刑少女の生きる道
 2022/05/14-06:00:01 06 Kaguya-sama wa Kokurasetai Ultra Romantic|かぐや様は告らせたい-ウルトラロマンティック-
-2022/05/14-00:00:01 06 Koi wa Sekai Seifuku no Ato de|恋は世界征服のあとで
-2022/05/14-00:00:01 06 Date a Live IV|デート・ア・ライブⅣ
 2022/05/13-12:00:01 06 Mahou Tsukai Reimeiki|魔法使い黎明期
 2022/05/13-12:00:01 06 Machikado Mazoku 2-Choume|まちカドまぞく 2丁目
-2022/05/13-12:00:01 06 Heroine Taru Mono! Kiraware Heroine to Naisho no Oshigoto|ヒロインたるもの！～嫌われヒロインと内緒のお仕事～
 2022/05/11-18:00:01 06 Zero no Tea Time|名探偵コナン ゼロの日常
-2022/05/08-00:00:01 76 Dqdai|ドラゴンクエスト ダイの大冒険
 2022/04/15-00:00:01 51 Shaman King 2021|SHAMAN KING
 2022/03/19-06:00:01 11 JoJo no Kimyou na Bouken Stone Ocean|ジョジョの奇妙な冒険 ストーンオーシャン
