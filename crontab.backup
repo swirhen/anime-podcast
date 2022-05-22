@@ -37,7 +37,7 @@ MAILTO=""
 30 2 * * 2 python /data/share/movie/sh/radio_record.py a "佐藤亜美菜のアミメン！" 30 1800 v
 # -- TUE
 30 17 * * 2 python /data/share/movie/sh/radio_record.py a "渕上舞のとりあえずまぁ、話だけでも。" 30 1800 v
-30 21 * * 2 python /data/share/movie/sh/radio_record.py a "上田麗奈のひみつばこ" 30 1800
+0 21 * * 2 python /data/share/movie/sh/radio_record.py a "鈴村健一のラジベース" 30 3600
 30 23 * * 2 python /data/share/movie/sh/radio_record.py a "佐倉としたい大西" 30 1800 v
 0 1 * * 3 python /data/share/movie/sh/radio_record.py a "洲崎西" 30 1800
 30 2 * * 3 python /data/share/movie/sh/radio_record.py a "伊福部崇のラジオのラジオ" 30 1800
@@ -45,12 +45,12 @@ MAILTO=""
 0 21 * * 3 python /data/share/movie/sh/radio_record.py a "夕実＆梨沙のラフストーリーは突然に" 30 1800
 # -- THU
 30 21 * * 4 python /data/share/movie/sh/radio_record.py r "田村ゆかりの乙女心▽症候群" 1 1830 QRR
-30 23 * * 4 python /data/share/movie/sh/radio_record.py a "竹達・沼倉の初ラジ！" 30 1800
+30 23 * * 4 python /data/share/movie/sh/radio_record.py a "上田麗奈のひみつばこ" 30 1800
 0 2 * * 5 python /data/share/movie/sh/radio_record.py a "阿澄佳奈 星空ひなたぼっこ" 30 1800 v
 # -- FRI
 # -- SAT
 30 14 * * 6 python /data/share/movie/sh/radio_record.py a "サンセルモ presents 結婚式は あいのなかで" 30 1800 v
-0 19 * * 6 python /data/share/movie/sh/radio_record.py r "A＆Gリクエストアワー 阿澄佳奈のキミまち！" 1 7230 QRR
+0 19 * * 6 python /data/share/movie/sh/radio_record.py a "竹達・沼倉の初ラジ！" 30 1800
 0 2 * * 7 python /data/share/movie/sh/radio_record.py r "MOMO・SORA・SHIINA Talking Box" 1 1830 QRR
 # -- SUN
 0 17 * * 7 python /data/share/movie/sh/radio_record.py a "星街すいせい・田所あずさ 平行線すくらんぶる" 30 1800
