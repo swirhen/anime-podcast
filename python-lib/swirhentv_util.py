@@ -175,6 +175,11 @@ def writefile_append(filepath, string):
         file.write(f'{string}\n')
 
 
+# ファイル削除
+def deletefile(filepath):
+    os.remove(filepath)
+
+
 # ファイルの行数を得る
 def len_file(filepath):
     with open(filepath) as file:
