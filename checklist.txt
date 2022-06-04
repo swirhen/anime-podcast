@@ -1,4 +1,7 @@
-Last Update: 2022/06/04-06:00:01
+Last Update: 2022/06/04-12:00:02
+2022/06/04-12:00:02 10 Aharen-san wa Hakarenai|阿波連さんははかれない
+2022/06/04-12:00:02 08 Mahou Tsukai Reimeiki|魔法使い黎明期
+2022/06/04-12:00:02 08 Machikado Mazoku 2-Choume|まちカドまぞく 2丁目
 2022/06/04-06:00:01 10 Shokei Shoujo no Virgin Road|処刑少女の生きる道
 2022/06/04-06:00:01 09 Kaguya-sama wa Kokurasetai Ultra Romantic|かぐや様は告らせたい-ウルトラロマンティック-
 2022/06/04-00:00:01 09 Koi wa Sekai Seifuku no Ato de|恋は世界征服のあとで
@@ -32,9 +35,6 @@ Last Update: 2022/06/04-06:00:01
 2022/05/29-06:00:02 08 Kunoichi Tsubaki no Mune no Uchi|くノ一ツバキの胸の内
 2022/05/29-06:00:02 08 Build Divide Code White|ビルディバイド -#FFFFFF-
 2022/05/28-12:00:01 20 Cue!|CUE！
-2022/05/28-12:00:01 09 Aharen-san wa Hakarenai|阿波連さんははかれない
-2022/05/27-18:00:02 07 Mahou Tsukai Reimeiki|魔法使い黎明期
-2022/05/27-18:00:02 07 Machikado Mazoku 2-Choume|まちカドまぞく 2丁目
 2022/05/20-00:00:02 06 Yatogame-chan Kansatsu Nikki Yonsatsume|八十亀ちゃんかんさつにっき 4さつめ
 2022/05/19-00:00:03 30 Waccha PriMagi!|ワッチャプリマジ！
 2022/05/11-18:00:01 06 Zero no Tea Time|名探偵コナン ゼロの日常
