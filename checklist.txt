@@ -1,4 +1,5 @@
-Last Update: 2022/06/08-12:00:01
+Last Update: 2022/06/08-18:00:02
+2022/06/08-18:00:02 10 Paripi Koumei|パリピ孔明
 2022/06/08-00:00:02 10 Yuusha, Yamemasu|勇者、辞めます
 2022/06/07-18:00:02 09 Kyoukai Senki Part 2|境界戦機 第二部
 2022/06/07-00:00:02 21 Bara Ou no Souretsu|薔薇王の葬列
@@ -34,7 +35,6 @@ Last Update: 2022/06/08-12:00:01
 2022/06/02-00:00:02 09 Shijou Saikyou no Daimaou, Murabito A ni Tensei Suru|史上最強の大魔王、村人Aに転生する
 2022/06/02-00:00:02 09 RPG Fudousan|RPG不動産
 2022/06/02-00:00:02 07 Kawaii Dake ja Nai Shikimori-san|可愛いだけじゃない式守さん
-2022/06/01-12:00:02 09 Paripi Koumei|パリピ孔明
 2022/05/20-00:00:02 06 Yatogame-chan Kansatsu Nikki Yonsatsume|八十亀ちゃんかんさつにっき 4さつめ
 2022/05/19-00:00:03 30 Waccha PriMagi!|ワッチャプリマジ！
 2022/05/11-18:00:01 06 Zero no Tea Time|名探偵コナン ゼロの日常
