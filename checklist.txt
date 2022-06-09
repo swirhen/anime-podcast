@@ -1,4 +1,5 @@
-Last Update: 2022/06/09-06:00:01
+Last Update: 2022/06/09-12:00:02
+2022/06/09-12:00:02 10 Tomodachi Game|トモダチゲーム
 2022/06/09-06:00:01 10 Komi-san wa, Komyushou Desu. Part 2|古見さんは、コミュ症です。(第2期)
 2022/06/09-06:00:01 10 Deaimon|であいもん
 2022/06/09-00:00:02 10 Tate no Yuusha no Nariagari Season 2|盾の勇者の成り上がり Season 2
@@ -31,7 +32,6 @@ Last Update: 2022/06/09-06:00:01
 2022/06/04-00:00:01 09 Date a Live IV|デート・ア・ライブⅣ
 2022/06/03-06:00:02 09 Gaikotsu Kishi-sama, Tadaima Isekai e Odekake-chuu|骸骨騎士様、只今異世界へお出掛け中
 2022/06/03-06:00:02 08 Summer Time Render|サマータイムレンダ
-2022/06/03-00:00:02 09 Tomodachi Game|トモダチゲーム
 2022/06/03-00:00:02 09 Shachiku-san wa Youjo Yuurei ni Iyasaretai.|社畜さんは幼女幽霊に癒されたい。
 2022/06/03-00:00:02 09 Estab Life Great Escape|エスタブライフ グレイトエスケープ
 2022/06/02-06:00:01 08 Honzuki no Gekokujou S3|本好きの下剋上 司書になるためには手段を選んでいられません(第3期)
