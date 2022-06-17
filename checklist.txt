@@ -1,4 +1,6 @@
-Last Update: 2022/06/17-06:00:02
+Last Update: 2022/06/17-12:00:01
+2022/06/17-12:00:01 10 Mahou Tsukai Reimeiki|魔法使い黎明期
+2022/06/17-12:00:01 10 Machikado Mazoku 2-Choume|まちカドまぞく 2丁目
 2022/06/17-06:00:02 11 Gaikotsu Kishi-sama, Tadaima Isekai e Odekake-chuu|骸骨騎士様、只今異世界へお出掛け中
 2022/06/17-06:00:02 10 Summer Time Render|サマータイムレンダ
 2022/06/17-00:00:02 11 Tomodachi Game|トモダチゲーム
@@ -33,8 +35,6 @@ Last Update: 2022/06/17-06:00:02
 2022/06/11-06:00:02 10 Kaguya-sama wa Kokurasetai Ultra Romantic|かぐや様は告らせたい-ウルトラロマンティック-
 2022/06/11-00:00:02 10 Koi wa Sekai Seifuku no Ato de|恋は世界征服のあとで
 2022/06/11-00:00:02 10 Date a Live IV|デート・ア・ライブⅣ
-2022/06/10-18:00:02 09 Mahou Tsukai Reimeiki|魔法使い黎明期
-2022/06/10-18:00:02 09 Machikado Mazoku 2-Choume|まちカドまぞく 2丁目
 2022/06/09-00:00:02 08 Kawaii Dake ja Nai Shikimori-san|可愛いだけじゃない式守さん
 2022/05/20-00:00:02 06 Yatogame-chan Kansatsu Nikki Yonsatsume|八十亀ちゃんかんさつにっき 4さつめ
 2022/05/11-18:00:01 06 Zero no Tea Time|名探偵コナン ゼロの日常
