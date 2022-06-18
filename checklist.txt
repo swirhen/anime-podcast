@@ -1,4 +1,5 @@
-Last Update: 2022/06/18-06:00:02
+Last Update: 2022/06/18-12:00:02
+2022/06/18-12:00:02 12 Aharen-san wa Hakarenai|阿波連さんははかれない
 2022/06/18-06:00:02 11 Kaguya-sama wa Kokurasetai Ultra Romantic|かぐや様は告らせたい-ウルトラロマンティック-
 2022/06/18-00:00:02 11 Koi wa Sekai Seifuku no Ato de|恋は世界征服のあとで
 2022/06/18-00:00:02 11 Heroine Taru Mono! Kiraware Heroine to Naisho no Oshigoto|ヒロインたるもの！～嫌われヒロインと内緒のお仕事～
@@ -33,7 +34,6 @@ Last Update: 2022/06/18-06:00:02
 2022/06/12-06:00:01 10 Kunoichi Tsubaki no Mune no Uchi|くノ一ツバキの胸の内
 2022/06/12-06:00:01 10 Build Divide Code White|ビルディバイド -#FFFFFF-
 2022/06/12-00:00:02 81 Dqdai|ドラゴンクエスト ダイの大冒険
-2022/06/11-12:00:02 11 Aharen-san wa Hakarenai|阿波連さんははかれない
 2022/06/09-00:00:02 08 Kawaii Dake ja Nai Shikimori-san|可愛いだけじゃない式守さん
 2022/05/20-00:00:02 06 Yatogame-chan Kansatsu Nikki Yonsatsume|八十亀ちゃんかんさつにっき 4さつめ
 2022/05/11-18:00:01 06 Zero no Tea Time|名探偵コナン ゼロの日常
