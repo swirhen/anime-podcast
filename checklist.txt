@@ -1,4 +1,6 @@
-Last Update: 2022/06/21-18:00:01
+Last Update: 2022/06/22-00:00:02
+2022/06/22-00:00:02 12 Yuusha, Yamemasu|勇者、辞めます
+2022/06/22-00:00:02 11 Kyoukai Senki Part 2|境界戦機 第二部
 2022/06/20-06:00:01 23 Bara Ou no Souretsu|薔薇王の葬列
 2022/06/20-00:00:02 11 Kono Healer, Mendokusai|このヒーラー、めんどくさい
 2022/06/19-12:00:02 09 Kakkou no Iinazuke|カッコウの許嫁
@@ -27,8 +29,6 @@ Last Update: 2022/06/21-18:00:01
 2022/06/16-00:00:02 11 RPG Fudousan|RPG不動産
 2022/06/15-12:00:02 34 Waccha PriMagi!|ワッチャプリマジ！
 2022/06/15-12:00:02 11 Paripi Koumei|パリピ孔明
-2022/06/15-00:00:02 11 Yuusha, Yamemasu|勇者、辞めます
-2022/06/14-18:00:02 10 Kyoukai Senki Part 2|境界戦機 第二部
 2022/06/12-18:00:02 11 Rikei ga Koi ni Ochita no de Shoumei Shite Mita. Heart|理系が恋に落ちたので証明してみた。r=1-sinθ
 2022/06/09-00:00:02 08 Kawaii Dake ja Nai Shikimori-san|可愛いだけじゃない式守さん
 2022/05/20-00:00:02 06 Yatogame-chan Kansatsu Nikki Yonsatsume|八十亀ちゃんかんさつにっき 4さつめ
