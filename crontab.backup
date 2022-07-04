@@ -54,7 +54,7 @@ MAILTO=""
 0 2 * * 7 python /data/share/movie/sh/radio_record.py r "MOMO・SORA・SHIINA Talking Box" 1 1830 QRR
 # -- SUN
 0 17 * * 7 python /data/share/movie/sh/radio_record.py a "星街すいせい・田所あずさ 平行線すくらんぶる" 30 1800
-30 17 * * 7 python /data/share/movie/sh/radio_record.py a "hololive IDOL PROJECT presents ホロライブアイドル道ラジオ～私たちの歌をきけッ！" 30 1800
+30 17 * * 7 python /data/share/movie/sh/radio_record.py a "hololive presents ホロのRadio～私たちの歌をきけッ！" 30 1800
 30 19 * * 7 python /data/share/movie/sh/radio_record.py a "早見沙織の ふり～すたいる♪" 30 1800
 0 20 * * 7 python /data/share/movie/sh/radio_record.py a "小原好美のココロおきなく" 30 1800
 0 21 * * 7 python /data/share/movie/sh/radio_record.py r "大橋彩香のAny Beat！" 1 1830 QRR
