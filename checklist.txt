@@ -1,6 +1,9 @@
-Last Update: 2022/07/09-06:00:02
-2022/07/09-06:00:02 0 Shadows House 2nd Season|シャドーハウス 2nd Season
-2022/07/09-06:00:02 0 Bucchigire!|ブッチギレ！(一番光れ！)
+Last Update: 2022/07/09-12:00:02
+2022/07/09-12:00:02 85 Dqdai|ドラゴンクエスト ダイの大冒険
+2022/07/09-12:00:02 02 Kanojo, Okarishimasu 2|彼女、お借りします(第2期)
+2022/07/09-12:00:02 01 Shadows House 2nd Season|シャドーハウス 2nd Season
+2022/07/09-12:00:02 01 Bucchigire!|ブッチギレ！(一番光れ！)
+2022/07/09-12:00:02 0 Hoshi no Samidare|惑星のさみだれ
 2022/07/08-18:00:01 01 Yofukashi no Uta|よふかしのうた
 2022/07/08-18:00:01 01 Soredemo Ayumu wa Yosetekuru|それでも歩は寄せてくる
 2022/07/08-06:00:02 13 Summer Time Render|サマータイムレンダ
@@ -26,8 +29,6 @@ Last Update: 2022/07/09-06:00:02
 2022/07/03-12:00:02 01 Lycoris Recoil|リコリス・リコイル
 2022/07/03-12:00:02 01 Engage Kiss|Engage Kiss
 2022/07/03-06:00:02 01 Kami Kuzu Idol|神クズ☆アイドル
-2022/07/02-18:00:02 84 Dqdai|ドラゴンクエスト ダイの大冒険
-2022/07/02-12:00:02 01 Kanojo, Okarishimasu 2|彼女、お借りします(第2期)
 2022/06/24-12:00:01 11 Mahou Tsukai Reimeiki|魔法使い黎明期
 2022/06/24-12:00:01 11 Machikado Mazoku 2-Choume|まちカドまぞく 2丁目
 2022/06/22-00:00:02 11 Kyoukai Senki Part 2|境界戦機 第二部
