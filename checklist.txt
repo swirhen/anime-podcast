@@ -1,4 +1,6 @@
-Last Update: 2022/07/20-06:00:01
+Last Update: 2022/07/20-12:00:01
+2022/07/20-12:00:01 03 Tokyo Mew Mew New|東京ミュウミュウ にゅ～♡
+2022/07/20-12:00:01 03 Jashin-chan Dropkick X|邪神ちゃんドロップキックX
 2022/07/20-00:00:02 03 Overlord IV|オーバーロードⅣ
 2022/07/20-00:00:02 03 Kinsou no Vermeil|金装のヴェルメイユ～崖っぷち魔術師は最強の厄災と魔法世界を突き進む～
 2022/07/20-00:00:02 02 Orient 2|オリエント(第2クール)
@@ -35,8 +37,6 @@ Last Update: 2022/07/20-06:00:01
 2022/07/14-00:00:02 02 Mamahaha no Tsurego ga Motokano Datta|継母の連れ子が元カノだった
 2022/07/14-00:00:02 02 Made in Abyss 2nd|劇場版総集編 メイドインアビス
 2022/07/14-00:00:02 02 Isekai Ojisan|異世界おじさん
-2022/07/13-12:00:01 02 Tokyo Mew Mew New|東京ミュウミュウ にゅ～♡
-2022/07/13-12:00:01 02 Jashin-chan Dropkick X|邪神ちゃんドロップキックX
 2022/07/10-06:00:02 12 Kakkou no Iinazuke|カッコウの許嫁
 2022/06/24-12:00:01 11 Mahou Tsukai Reimeiki|魔法使い黎明期
 2022/06/24-12:00:01 11 Machikado Mazoku 2-Choume|まちカドまぞく 2丁目
