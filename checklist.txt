@@ -1,4 +1,6 @@
-Last Update: 2022/07/29-06:00:02
+Last Update: 2022/07/29-12:00:02
+2022/07/29-12:00:02 04 Yofukashi no Uta|よふかしのうた
+2022/07/29-12:00:02 04 Soredemo Ayumu wa Yosetekuru|それでも歩は寄せてくる
 2022/07/29-06:00:02 16 Summer Time Render|サマータイムレンダ
 2022/07/29-06:00:02 03 Hataraku Maou-sama!!|はたらく魔王さま！！
 2022/07/29-00:00:02 03 Shine Post|シャインポスト
@@ -38,8 +40,6 @@ Last Update: 2022/07/29-06:00:02
 2022/07/23-06:00:02 04 Kanojo, Okarishimasu 2|彼女、お借りします(第2期)
 2022/07/23-06:00:02 03 Shadows House 2nd Season|シャドーハウス 2nd Season
 2022/07/23-06:00:02 03 Bucchigire!|ブッチギレ！(一番光れ！)
-2022/07/22-12:00:02 03 Yofukashi no Uta|よふかしのうた
-2022/07/22-12:00:02 03 Soredemo Ayumu wa Yosetekuru|それでも歩は寄せてくる
 2022/06/24-12:00:01 11 Mahou Tsukai Reimeiki|魔法使い黎明期
 2022/06/24-12:00:01 11 Machikado Mazoku 2-Choume|まちカドまぞく 2丁目
 2022/06/22-00:00:02 11 Kyoukai Senki Part 2|境界戦機 第二部
