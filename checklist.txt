@@ -1,4 +1,8 @@
-Last Update: 2022/07/30-00:00:02
+Last Update: 2022/07/30-06:00:02
+2022/07/30-06:00:02 05 Kanojo, Okarishimasu 2|彼女、お借りします(第2期)
+2022/07/30-06:00:02 04 Shadows House 2nd Season|シャドーハウス 2nd Season
+2022/07/30-06:00:02 04 Bucchigire!|ブッチギレ！(一番光れ！)
+2022/07/30-06:00:02 02 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka IV|劇場版 ダンジョンに出会いを求めるのは間違っているだろうか -オリオンの矢-
 2022/07/29-12:00:02 04 Yofukashi no Uta|よふかしのうた
 2022/07/29-12:00:02 04 Soredemo Ayumu wa Yosetekuru|それでも歩は寄せてくる
 2022/07/29-06:00:02 16 Summer Time Render|サマータイムレンダ
@@ -36,10 +40,6 @@ Last Update: 2022/07/30-00:00:02
 2022/07/24-00:00:02 04 Kami Kuzu Idol|神クズ☆アイドル
 2022/07/23-18:00:02 87 Dqdai|ドラゴンクエスト ダイの大冒険
 2022/07/23-12:00:02 03 Hoshi no Samidare|惑星のさみだれ
-2022/07/23-12:00:02 01 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka IV|劇場版 ダンジョンに出会いを求めるのは間違っているだろうか -オリオンの矢-
-2022/07/23-06:00:02 04 Kanojo, Okarishimasu 2|彼女、お借りします(第2期)
-2022/07/23-06:00:02 03 Shadows House 2nd Season|シャドーハウス 2nd Season
-2022/07/23-06:00:02 03 Bucchigire!|ブッチギレ！(一番光れ！)
 2022/06/24-12:00:01 11 Mahou Tsukai Reimeiki|魔法使い黎明期
 2022/06/24-12:00:01 11 Machikado Mazoku 2-Choume|まちカドまぞく 2丁目
 2022/06/22-00:00:02 11 Kyoukai Senki Part 2|境界戦機 第二部
