@@ -1,4 +1,6 @@
-Last Update: 2022/07/31-12:00:01
+Last Update: 2022/07/31-18:00:02
+2022/07/31-18:00:02 88 Dqdai|ドラゴンクエスト ダイの大冒険
+2022/07/31-18:00:02 41 Waccha PriMagi!|ワッチャプリマジ！
 2022/07/31-06:00:02 14 Kakkou no Iinazuke|カッコウの許嫁
 2022/07/31-06:00:02 06 Utawarerumono Futari no Hakuoro|うたわれるもの 二人の白皇
 2022/07/31-06:00:02 05 Teppen!!!!!!!!!!!!!!!|てっぺんっ！！！！！！！！！！！！！！！
@@ -38,8 +40,6 @@ Last Update: 2022/07/31-12:00:01
 2022/07/25-06:00:01 03 Kumichou Musume to Sewagakari|組長娘と世話係
 2022/07/25-06:00:01 03 Isekai Yakkyoku|異世界薬局
 2022/07/25-06:00:01 03 Hanabi-chan wa Okure-gachi|ハナビちゃんは遅れがち
-2022/07/24-12:00:01 40 Waccha PriMagi!|ワッチャプリマジ！
-2022/07/23-18:00:02 87 Dqdai|ドラゴンクエスト ダイの大冒険
 2022/06/24-12:00:01 11 Mahou Tsukai Reimeiki|魔法使い黎明期
 2022/06/24-12:00:01 11 Machikado Mazoku 2-Choume|まちカドまぞく 2丁目
 2022/06/22-00:00:02 11 Kyoukai Senki Part 2|境界戦機 第二部
