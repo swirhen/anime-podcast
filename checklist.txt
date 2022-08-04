@@ -1,4 +1,6 @@
-Last Update: 2022/08/05-00:00:01
+Last Update: 2022/08/05-06:00:01
+2022/08/05-06:00:01 17 Summer Time Render|サマータイムレンダ
+2022/08/05-06:00:01 04 Hataraku Maou-sama!!|はたらく魔王さま！！
 2022/08/05-00:00:01 04 Shine Post|シャインポスト
 2022/08/04-06:00:02 05 Isekai Meikyuu de Harem o|異世界迷宮でハーレムを
 2022/08/04-00:00:02 05 Warau Arsnotoria Sun!|咲う アルスノトリア すんっ！
@@ -36,8 +38,6 @@ Last Update: 2022/08/05-00:00:01
 2022/07/30-06:00:02 02 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka IV|劇場版 ダンジョンに出会いを求めるのは間違っているだろうか -オリオンの矢-
 2022/07/29-12:00:02 04 Yofukashi no Uta|よふかしのうた
 2022/07/29-12:00:02 04 Soredemo Ayumu wa Yosetekuru|それでも歩は寄せてくる
-2022/07/29-06:00:02 16 Summer Time Render|サマータイムレンダ
-2022/07/29-06:00:02 03 Hataraku Maou-sama!!|はたらく魔王さま！！
 2022/07/28-00:00:02 04 Isekai Ojisan|異世界おじさん
 2022/07/25-06:00:01 03 Prima Doll|プリマドール
 2022/06/24-12:00:01 11 Mahou Tsukai Reimeiki|魔法使い黎明期
