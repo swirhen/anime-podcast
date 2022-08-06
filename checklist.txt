@@ -1,4 +1,7 @@
-Last Update: 2022/08/06-18:00:01
+Last Update: 2022/08/07-00:00:02
+2022/08/07-00:00:02 89 Dqdai|ドラゴンクエスト ダイの大冒険
+2022/08/07-00:00:02 06 Kami Kuzu Idol|神クズ☆アイドル
+2022/08/07-00:00:02 05 Hoshi no Samidare|惑星のさみだれ
 2022/08/06-12:00:02 06 Kanojo, Okarishimasu 2|彼女、お借りします(第2期)
 2022/08/06-12:00:02 03 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka IV|劇場版 ダンジョンに出会いを求めるのは間違っているだろうか -オリオンの矢-
 2022/08/06-06:00:02 05 Shadows House 2nd Season|シャドーハウス 2nd Season
@@ -26,7 +29,6 @@ Last Update: 2022/08/06-18:00:01
 2022/08/01-00:00:01 04 Isekai Yakkyoku|異世界薬局
 2022/08/01-00:00:01 04 Hanabi-chan wa Okure-gachi|ハナビちゃんは遅れがち
 2022/08/01-00:00:01 03 Love Live! Superstar!! 2|ラブライブ！スーパースター！！(第2期)
-2022/07/31-18:00:02 88 Dqdai|ドラゴンクエスト ダイの大冒険
 2022/07/31-18:00:02 41 Waccha PriMagi!|ワッチャプリマジ！
 2022/07/31-06:00:02 14 Kakkou no Iinazuke|カッコウの許嫁
 2022/07/31-06:00:02 06 Utawarerumono Futari no Hakuoro|うたわれるもの 二人の白皇
@@ -36,8 +38,6 @@ Last Update: 2022/08/06-18:00:01
 2022/07/31-06:00:02 05 Engage Kiss|Engage Kiss
 2022/07/31-06:00:02 04 Extreme Hearts|Extreme Hearts
 2022/07/31-06:00:02 02 Saikin Yatotta Maid ga Ayashii|最近雇ったメイドが怪しい
-2022/07/31-00:00:01 05 Kami Kuzu Idol|神クズ☆アイドル
-2022/07/30-18:00:02 04 Hoshi no Samidare|惑星のさみだれ
 2022/07/30-06:00:02 04 Bucchigire!|ブッチギレ！(一番光れ！)
 2022/07/28-00:00:02 04 Isekai Ojisan|異世界おじさん
 2022/06/24-12:00:01 11 Mahou Tsukai Reimeiki|魔法使い黎明期
