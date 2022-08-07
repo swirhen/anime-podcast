@@ -1,4 +1,5 @@
-Last Update: 2022/08/07-12:00:01
+Last Update: 2022/08/07-18:00:01
+2022/08/07-18:00:01 42 Waccha PriMagi!|ワッチャプリマジ！
 2022/08/07-12:00:01 15 Kakkou no Iinazuke|カッコウの許嫁
 2022/08/07-12:00:01 05 Extreme Hearts|Extreme Hearts
 2022/08/07-06:00:02 07 Utawarerumono Futari no Hakuoro|うたわれるもの 二人の白皇
@@ -36,7 +37,6 @@ Last Update: 2022/08/07-12:00:01
 2022/08/01-00:00:01 04 Isekai Yakkyoku|異世界薬局
 2022/08/01-00:00:01 04 Hanabi-chan wa Okure-gachi|ハナビちゃんは遅れがち
 2022/08/01-00:00:01 03 Love Live! Superstar!! 2|ラブライブ！スーパースター！！(第2期)
-2022/07/31-18:00:02 41 Waccha PriMagi!|ワッチャプリマジ！
 2022/07/31-06:00:02 02 Saikin Yatotta Maid ga Ayashii|最近雇ったメイドが怪しい
 2022/07/30-06:00:02 04 Bucchigire!|ブッチギレ！(一番光れ！)
 2022/07/28-00:00:02 04 Isekai Ojisan|異世界おじさん
