@@ -1,4 +1,6 @@
-Last Update: 2022/08/12-12:00:01
+Last Update: 2022/08/12-18:00:02
+2022/08/12-18:00:02 06 Yofukashi no Uta|よふかしのうた
+2022/08/12-18:00:02 06 Soredemo Ayumu wa Yosetekuru|それでも歩は寄せてくる
 2022/08/12-06:00:02 18 Summer Time Render|サマータイムレンダ
 2022/08/12-06:00:02 05 Hataraku Maou-sama!!|はたらく魔王さま！！
 2022/08/12-00:00:02 05 Shine Post|シャインポスト
@@ -36,8 +38,6 @@ Last Update: 2022/08/12-12:00:01
 2022/08/06-12:00:02 06 Kanojo, Okarishimasu 2|彼女、お借りします(第2期)
 2022/08/06-12:00:02 03 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka IV|劇場版 ダンジョンに出会いを求めるのは間違っているだろうか -オリオンの矢-
 2022/08/06-06:00:02 05 Shadows House 2nd Season|シャドーハウス 2nd Season
-2022/08/05-18:00:01 05 Yofukashi no Uta|よふかしのうた
-2022/08/05-18:00:01 05 Soredemo Ayumu wa Yosetekuru|それでも歩は寄せてくる
 2022/07/31-06:00:02 02 Saikin Yatotta Maid ga Ayashii|最近雇ったメイドが怪しい
 2022/07/28-00:00:02 04 Isekai Ojisan|異世界おじさん
 2022/06/24-12:00:01 11 Mahou Tsukai Reimeiki|魔法使い黎明期
