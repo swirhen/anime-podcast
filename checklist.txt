@@ -1,4 +1,6 @@
-Last Update: 2022/08/13-18:00:01
+Last Update: 2022/08/14-00:00:01
+2022/08/14-00:00:01 90 Dqdai|ドラゴンクエスト ダイの大冒険
+2022/08/14-00:00:01 07 Kami Kuzu Idol|神クズ☆アイドル
 2022/08/13-12:00:02 06 Shadows House 2nd Season|シャドーハウス 2nd Season
 2022/08/13-06:00:01 07 Kanojo, Okarishimasu 2|彼女、お借りします(第2期)
 2022/08/13-06:00:01 06 Prima Doll|プリマドール
@@ -36,8 +38,6 @@ Last Update: 2022/08/13-18:00:01
 2022/08/07-06:00:02 06 Shoot! Goal to the Future|シュート！ Goal to the Future
 2022/08/07-06:00:02 06 Lycoris Recoil|リコリス・リコイル
 2022/08/07-06:00:02 06 Engage Kiss|Engage Kiss
-2022/08/07-00:00:02 89 Dqdai|ドラゴンクエスト ダイの大冒険
-2022/08/07-00:00:02 06 Kami Kuzu Idol|神クズ☆アイドル
 2022/07/31-06:00:02 02 Saikin Yatotta Maid ga Ayashii|最近雇ったメイドが怪しい
 2022/07/28-00:00:02 04 Isekai Ojisan|異世界おじさん
 2022/06/24-12:00:01 11 Mahou Tsukai Reimeiki|魔法使い黎明期
