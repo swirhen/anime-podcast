@@ -64,8 +64,8 @@ MAILTO=""
 0 1 * * 2 python /data/share/movie/sh/radio_record.py r "伊集院光 深夜の馬鹿力" 1 7230 TBS
 # りむ鯖
 5 3 * * 2 /data/share/movie/sh/agqrrelease.sh
-35 23 * * 5 /data/share/movie/sh/agqrrelease.sh
 5 0 * * 7 /data/share/movie/sh/agqrrelease.sh
+5 23 * * 7 /data/share/movie/sh/agqrrelease.sh
 
 # twitter search
 */10 * * * * python /home/swirhen/sh/checker/twitterchk/twitter_check.py
