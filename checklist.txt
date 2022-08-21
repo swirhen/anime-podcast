@@ -1,4 +1,11 @@
-Last Update: 2022/08/21-18:00:01
+Last Update: 2022/08/22-00:00:01
+2022/08/22-00:00:01 08 RWBY Hyousetsu Teikoku|RWBY 氷雪帝国
+2022/08/22-00:00:01 07 Prima Doll|プリマドール
+2022/08/22-00:00:01 07 Ongakutai Witches|連盟空軍航空魔法音楽隊ルミナスウィッチーズ
+2022/08/22-00:00:01 07 Isekai Yakkyoku|異世界薬局
+2022/08/22-00:00:01 07 Hanabi-chan wa Okure-gachi|ハナビちゃんは遅れがち
+2022/08/22-00:00:01 07 Bucchigire!|ブッチギレ！(一番光れ！)
+2022/08/22-00:00:01 06 Love Live! Superstar!! 2|ラブライブ！スーパースター！！(第2期)
 2022/08/21-18:00:01 44 Waccha PriMagi!|ワッチャプリマジ！
 2022/08/21-12:00:01 17 Kakkou no Iinazuke|カッコウの許嫁
 2022/08/21-12:00:01 07 Extreme Hearts|Extreme Hearts
@@ -32,14 +39,7 @@ Last Update: 2022/08/21-18:00:01
 2022/08/16-18:00:02 06 Orient 2|オリエント(第2クール)
 2022/08/16-00:00:02 08 Tensei Kenja no Isekai Life|転生賢者の異世界ライフ～第二の職業を得て、世界最強になりました～
 2022/08/16-00:00:02 07 Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 2nd Season|ようこそ実力至上主義の教室へ 2nd Season
-2022/08/15-18:00:01 07 RWBY Hyousetsu Teikoku|RWBY 氷雪帝国
 2022/08/15-00:00:02 06 Kumichou Musume to Sewagakari|組長娘と世話係
-2022/08/15-00:00:02 06 Isekai Yakkyoku|異世界薬局
-2022/08/15-00:00:02 06 Hanabi-chan wa Okure-gachi|ハナビちゃんは遅れがち
-2022/08/15-00:00:02 05 Love Live! Superstar!! 2|ラブライブ！スーパースター！！(第2期)
-2022/08/13-06:00:01 06 Prima Doll|プリマドール
-2022/08/13-06:00:01 06 Bucchigire!|ブッチギレ！(一番光れ！)
-2022/08/08-00:00:02 06 Ongakutai Witches|連盟空軍航空魔法音楽隊ルミナスウィッチーズ
 2022/06/24-12:00:01 11 Mahou Tsukai Reimeiki|魔法使い黎明期
 2022/06/24-12:00:01 11 Machikado Mazoku 2-Choume|まちカドまぞく 2丁目
 2022/06/22-00:00:02 11 Kyoukai Senki Part 2|境界戦機 第二部
