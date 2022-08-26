@@ -1,4 +1,6 @@
-Last Update: 2022/08/26-06:00:02
+Last Update: 2022/08/26-12:00:01
+2022/08/26-12:00:01 08 Yofukashi no Uta|よふかしのうた
+2022/08/26-12:00:01 08 Soredemo Ayumu wa Yosetekuru|それでも歩は寄せてくる
 2022/08/26-06:00:02 20 Summer Time Render|サマータイムレンダ
 2022/08/26-06:00:02 07 Hataraku Maou-sama!!|はたらく魔王さま！！
 2022/08/26-00:00:02 08 Kumichou Musume to Sewagakari|組長娘と世話係
@@ -37,8 +39,6 @@ Last Update: 2022/08/26-06:00:02
 2022/08/20-12:00:02 07 Hoshi no Samidare|惑星のさみだれ
 2022/08/20-12:00:02 05 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka IV|劇場版 ダンジョンに出会いを求めるのは間違っているだろうか -オリオンの矢-
 2022/08/20-06:00:02 07 Shadows House 2nd Season|シャドーハウス 2nd Season
-2022/08/19-18:00:01 07 Yofukashi no Uta|よふかしのうた
-2022/08/19-18:00:01 07 Soredemo Ayumu wa Yosetekuru|それでも歩は寄せてくる
 2022/08/19-00:00:02 06 Shine Post|シャインポスト
 2022/06/24-12:00:01 11 Mahou Tsukai Reimeiki|魔法使い黎明期
 2022/06/24-12:00:01 11 Machikado Mazoku 2-Choume|まちカドまぞく 2丁目
