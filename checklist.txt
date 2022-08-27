@@ -1,4 +1,8 @@
-Last Update: 2022/08/28-00:00:02
+Last Update: 2022/08/28-06:00:01
+2022/08/28-06:00:01 10 Utawarerumono Futari no Hakuoro|うたわれるもの 二人の白皇
+2022/08/28-06:00:01 09 Teppen!!!!!!!!!!!!!!!|てっぺんっ！！！！！！！！！！！！！！！
+2022/08/28-06:00:01 09 Lycoris Recoil|リコリス・リコイル
+2022/08/28-06:00:01 09 Engage Kiss|Engage Kiss
 2022/08/28-00:00:02 09 Kami Kuzu Idol|神クズ☆アイドル
 2022/08/27-19:43:57 92 Dqdai|ドラゴンクエスト ダイの大冒険
 2022/08/27-14:17:52 09 Kanojo, Okarishimasu 2|彼女、お借りします(第2期)
@@ -33,11 +37,7 @@ Last Update: 2022/08/28-00:00:02
 2022/08/21-12:00:01 17 Kakkou no Iinazuke|カッコウの許嫁
 2022/08/21-12:00:01 07 Extreme Hearts|Extreme Hearts
 2022/08/21-12:00:01 04 Saikin Yatotta Maid ga Ayashii|最近雇ったメイドが怪しい
-2022/08/21-06:00:02 09 Utawarerumono Futari no Hakuoro|うたわれるもの 二人の白皇
 2022/08/21-06:00:02 08 Shoot! Goal to the Future|シュート！ Goal to the Future
-2022/08/21-06:00:02 08 Lycoris Recoil|リコリス・リコイル
-2022/08/21-06:00:02 08 Engage Kiss|Engage Kiss
-2022/08/21-00:00:01 08 Teppen!!!!!!!!!!!!!!!|てっぺんっ！！！！！！！！！！！！！！！
 2022/08/21-00:00:01 07 Kuro no Shoukanshi|黒の召喚士
 2022/08/19-00:00:02 06 Shine Post|シャインポスト
 2022/06/24-12:00:01 11 Mahou Tsukai Reimeiki|魔法使い黎明期
