@@ -1,8 +1,9 @@
-Last Update: 2022/08/27-19:43:57
+Last Update: 2022/08/28-00:00:02
+2022/08/28-00:00:02 09 Kami Kuzu Idol|神クズ☆アイドル
 2022/08/27-19:43:57 92 Dqdai|ドラゴンクエスト ダイの大冒険
 2022/08/27-14:17:52 09 Kanojo, Okarishimasu 2|彼女、お借りします(第2期)
 2022/08/27-14:17:52 08 Hoshi no Samidare|惑星のさみだれ
-2022/08/27-14:17:52 06 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka IV|劇場版 ダンジョンに出会いを求めるのは間違っているだろうか -オリオンの矢-
+2022/08/27-14:17:52 06 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka IV|ダンジョンに出会いを求めるのは間違っているだろうかIV 新章 迷宮篇
 2022/08/27-06:00:01 08 Shadows House 2nd Season|シャドーハウス 2nd Season
 2022/08/27-06:00:01 08 Bucchigire!|ブッチギレ！(一番光れ！)
 2022/08/26-12:00:01 08 Yofukashi no Uta|よふかしのうた
@@ -14,10 +15,10 @@ Last Update: 2022/08/27-19:43:57
 2022/08/25-06:00:02 08 Tokyo Mew Mew New|東京ミュウミュウ にゅ～♡
 2022/08/25-06:00:02 08 Isekai Meikyuu de Harem o|異世界迷宮でハーレムを
 2022/08/25-00:00:02 08 Warau Arsnotoria Sun!|咲う アルスノトリア すんっ！
-2022/08/25-00:00:02 08 Made in Abyss 2nd|劇場版総集編 メイドインアビス
+2022/08/25-00:00:02 08 Made in Abyss 2nd|メイドインアビス 烈日の黄金郷
 2022/08/25-00:00:02 06 Isekai Ojisan|異世界おじさん
 2022/08/24-12:00:02 08 Jashin-chan Dropkick X|邪神ちゃんドロップキックX
-2022/08/24-00:00:02 08 Overlord IV|オーバーロードⅣ
+2022/08/24-00:00:02 08 Overlord IV|オーバーロードIV
 2022/08/24-00:00:02 08 Kinsou no Vermeil|金装のヴェルメイユ～崖っぷち魔術師は最強の厄災と魔法世界を突き進む～
 2022/08/24-00:00:02 07 Orient 2|オリエント(第2クール)
 2022/08/23-00:00:02 09 Tensei Kenja no Isekai Life|転生賢者の異世界ライフ～第二の職業を得て、世界最強になりました～
@@ -37,7 +38,6 @@ Last Update: 2022/08/27-19:43:57
 2022/08/21-06:00:02 08 Lycoris Recoil|リコリス・リコイル
 2022/08/21-06:00:02 08 Engage Kiss|Engage Kiss
 2022/08/21-00:00:01 08 Teppen!!!!!!!!!!!!!!!|てっぺんっ！！！！！！！！！！！！！！！
-2022/08/21-00:00:01 08 Kami Kuzu Idol|神クズ☆アイドル
 2022/08/21-00:00:01 07 Kuro no Shoukanshi|黒の召喚士
 2022/08/19-00:00:02 06 Shine Post|シャインポスト
 2022/06/24-12:00:01 11 Mahou Tsukai Reimeiki|魔法使い黎明期
