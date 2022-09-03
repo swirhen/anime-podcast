@@ -1,4 +1,7 @@
-Last Update: 2022/09/04-00:00:02
+Last Update: 2022/09/04-06:00:02
+2022/09/04-06:00:02 11 Utawarerumono Futari no Hakuoro|うたわれるもの 二人の白皇
+2022/09/04-06:00:02 10 Lycoris Recoil|リコリス・リコイル
+2022/09/04-06:00:02 10 Engage Kiss|Engage Kiss
 2022/09/04-00:00:02 10 Teppen!!!!!!!!!!!!!!!|てっぺんっ！！！！！！！！！！！！！！！
 2022/09/04-00:00:02 09 Kuro no Shoukanshi|黒の召喚士
 2022/09/03-18:00:02 93 Dqdai|ドラゴンクエスト ダイの大冒険
@@ -35,9 +38,6 @@ Last Update: 2022/09/04-00:00:02
 2022/08/28-12:00:01 45 Waccha PriMagi!|ワッチャプリマジ！
 2022/08/28-12:00:01 18 Kakkou no Iinazuke|カッコウの許嫁
 2022/08/28-12:00:01 05 Saikin Yatotta Maid ga Ayashii|最近雇ったメイドが怪しい
-2022/08/28-06:00:01 10 Utawarerumono Futari no Hakuoro|うたわれるもの 二人の白皇
-2022/08/28-06:00:01 09 Lycoris Recoil|リコリス・リコイル
-2022/08/28-06:00:01 09 Engage Kiss|Engage Kiss
 2022/08/28-00:00:02 09 Kami Kuzu Idol|神クズ☆アイドル
 2022/08/21-06:00:02 08 Shoot! Goal to the Future|シュート！ Goal to the Future
 2022/06/24-12:00:01 11 Mahou Tsukai Reimeiki|魔法使い黎明期
