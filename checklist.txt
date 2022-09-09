@@ -1,4 +1,6 @@
-Last Update: 2022/09/09-18:00:01
+Last Update: 2022/09/10-00:00:02
+2022/09/10-00:00:02 10 Made in Abyss 2nd|メイドインアビス 烈日の黄金郷
+2022/09/10-00:00:02 10 Bucchigire!|ブッチギレ！(一番光れ！)
 2022/09/09-18:00:01 10 Yofukashi no Uta|よふかしのうた
 2022/09/09-18:00:01 10 Soredemo Ayumu wa Yosetekuru|それでも歩は寄せてくる
 2022/09/09-12:00:02 10 Kumichou Musume to Sewagakari|組長娘と世話係
@@ -34,8 +36,6 @@ Last Update: 2022/09/09-18:00:01
 2022/09/03-12:00:02 09 Hoshi no Samidare|惑星のさみだれ
 2022/09/03-12:00:02 07 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka IV|ダンジョンに出会いを求めるのは間違っているだろうかIV 新章 迷宮篇
 2022/09/03-06:00:01 09 Shadows House 2nd Season|シャドーハウス 2nd Season
-2022/09/03-00:00:01 09 Bucchigire!|ブッチギレ！(一番光れ！)
-2022/09/01-00:00:02 09 Made in Abyss 2nd|メイドインアビス 烈日の黄金郷
 2022/09/01-00:00:02 07 Isekai Ojisan|異世界おじさん
 2022/08/29-00:00:02 07 Love Live! Superstar!! 2|ラブライブ！スーパースター！！(第2期)
 2022/08/28-00:00:02 09 Kami Kuzu Idol|神クズ☆アイドル
