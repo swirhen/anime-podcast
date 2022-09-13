@@ -344,7 +344,10 @@ if len(args) > 5:
     CHECK = args[5]
 else:
     if TARGET == '2':
-        PROGRESS = askprogress()
+        if PROGRESS == '3':
+            CHECK = '1'
+        else:
+            CHECK = args[5]
 
 # 終了ファイルリストの存在チェック・読み込み
 END_LIST_FILE = f'{BASE_DIR}/end_{YEAR}Q{QUARTER}.txt'
