@@ -337,13 +337,13 @@ else:
 if len(args) > 4:
     PROGRESS = args[4]
 else:
-    if TARGET == 2:
+    if TARGET == '2':
         PROGRESS = askprogress()
 
 if len(args) > 5:
     CHECK = args[5]
 else:
-    if TARGET == 2:
+    if TARGET == '2':
         PROGRESS = askprogress()
 
 # 終了ファイルリストの存在チェック・読み込み
