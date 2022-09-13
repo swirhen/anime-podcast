@@ -347,7 +347,7 @@ else:
         if PROGRESS == '3':
             CHECK = '1'
         else:
-            CHECK = args[5]
+            CHECK = askcheck()
 
 # 終了ファイルリストの存在チェック・読み込み
 END_LIST_FILE = f'{BASE_DIR}/end_{YEAR}Q{QUARTER}.txt'
