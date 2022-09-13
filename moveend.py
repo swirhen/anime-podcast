@@ -92,7 +92,7 @@ def askcheck():
     check = input('Check?\n'
                   '0: off 1: on\n'
                   'q: quit\n> ')
-    if re.match(r'[1-3]$', check):
+    if re.match(r'[0-1]$', check):
         return check
     elif check == 'q' or check == 'Q':
         print('bye')
