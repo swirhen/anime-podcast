@@ -226,20 +226,23 @@ def move_98(end_list):
 
     waitenter()
 
-    # 移動先ディレクトリ、シンボリックリンク作成
-    dstpath = ''
-    find_pspmp4_mv_dir = glob.glob(f'{PSPMP4_MV_DIR}/{QUARTER}Q-{YEAR}')
-    if len(find_pspmp4_mv_dir) > 0:
-        dstpath = find_pspmp4_mv_dir[0]
+    if PROGRESS == '3':
+        print('移動処理をスキップ')
     else:
-        dstpath = f'{PSPMP4_MV_DIR}/{QUARTER}Q-{YEAR}'
-        print(f'destination directory is not found. make directory: {dstpath}')
-        os.makedirs(dstpath)
+        # 移動先ディレクトリ、シンボリックリンク作成
+        dstpath = ''
+        find_pspmp4_mv_dir = glob.glob(f'{PSPMP4_MV_DIR}/{QUARTER}Q-{YEAR}')
+        if len(find_pspmp4_mv_dir) > 0:
+            dstpath = find_pspmp4_mv_dir[0]
+        else:
+            dstpath = f'{PSPMP4_MV_DIR}/{QUARTER}Q-{YEAR}'
+            print(f'destination directory is not found. make directory: {dstpath}')
+            os.makedirs(dstpath)
 
-    dstlink = f'{PSPMP4_98_DIR}/{QUARTER}Q-{YEAR}'
-    if not os.path.exists(dstlink):
-        print(f'symbolic link is not found. make link: {dstlink}')
-        os.symlink(dstpath, dstlink)
+        dstlink = f'{PSPMP4_98_DIR}/{QUARTER}Q-{YEAR}'
+        if not os.path.exists(dstlink):
+            print(f'symbolic link is not found. make link: {dstlink}')
+            os.symlink(dstpath, dstlink)
 
     # 移動
     for name in end_list:
@@ -334,12 +337,14 @@ else:
 if len(args) > 4:
     PROGRESS = args[4]
 else:
-    PROGRESS = askprogress()
+    if TARGET == 2:
+        PROGRESS = askprogress()
 
 if len(args) > 5:
     CHECK = args[5]
 else:
-    CHECK = askcheck()
+    if TARGET == 2:
+        PROGRESS = askprogress()
 
 # 終了ファイルリストの存在チェック・読み込み
 END_LIST_FILE = f'{BASE_DIR}/end_{YEAR}Q{QUARTER}.txt'
