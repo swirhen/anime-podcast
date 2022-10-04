@@ -1,12 +1,9 @@
 Last Update: 2022/10/04-12:00:01
 2022/10/04-06:00:02 01 Shinmai Renkinjutsushi no Tenpo Keiei|新米錬金術師の店舗経営
 2022/10/03-06:00:02 01 Beast Tamer|勇者パーティーを追放されたビーストテイマー、最強種の猫耳少女と出会う
-2022/10/03-00:00:02 11 Love Live! Superstar!! 2|ラブライブ！スーパースター！！(第2期)
 2022/10/03-00:00:02 01 Kidou Senshi Gundam Suisei no Majo|機動戦士ガンダム 水星の魔女
-2022/10/02-12:00:02 10 Saikin Yatotta Maid ga Ayashii|最近雇ったメイドが怪しい
 2022/10/02-12:00:02 01 Pop Team Epic 2nd|ポプテピピック TVアニメーション作品第二シリーズ
 2022/10/02-12:00:02 01 Koukyuu no Karasu|後宮の烏
-2022/10/02-06:00:01 23 Kakkou no Iinazuke|カッコウの許嫁
 2022/10/02-06:00:01 15 Utawarerumono Futari no Hakuoro|うたわれるもの 二人の白皇
 2022/10/02-06:00:01 01 Uzaki-chan wa Asobitai! Double|宇崎ちゃんは遊びたい！ω
 2022/10/02-06:00:01 01 Spy x Family 2nd|SPY×FAMILY(第2クール)
@@ -19,3 +16,6 @@ Last Update: 2022/10/04-12:00:01
 2022/09/24-12:00:01 12 Hoshi no Samidare|惑星のさみだれ
 2022/09/16-00:00:02 09 Shine Post|シャインポスト
 2022/09/01-00:00:02 07 Isekai Ojisan|異世界おじさん
+2022/10/03-00:00:02 11 Love Live! Superstar!! 2|ラブライブ！スーパースター！！(第2期)
+2022/10/02-12:00:02 10 Saikin Yatotta Maid ga Ayashii|最近雇ったメイドが怪しい
+2022/10/02-06:00:01 23 Kakkou no Iinazuke|カッコウの許嫁
