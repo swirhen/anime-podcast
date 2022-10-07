@@ -93,7 +93,7 @@ def radiko_check(check_option):
     exit(0)
 
 
-# agqr check
+# radiko location check
 def radiko_location_check():
     # 地域情報
     location_info = radikoauth.main()[0].strip()
@@ -110,13 +110,31 @@ def radiko_location_check():
 # agqr record
 def agqr_record(rec_time, output_file):
     ffmpeg_str = f'/usr/bin/wine ffmpeg3.exe -i "{AGQR_STREAM_URI}" -c copy -t {rec_time} "{output_file}"'
-    subprocess.run(ffmpeg_str, shell=True)
+    if rec_time == '10':
+        p = subprocess.Popen(ffmpeg_str, shell=True)
+        time.sleep(15)
+        p.terminate()
+        ffmpeg_pid = p.pid + 1
+        p2 = subprocess.run(f'ps {ffmpeg_pid} | grep ffmpeg3 | wc -l', shell=True, stdout=subprocess.PIPE, encoding='utf8')
+        if int(p2.stdout) == 1:
+            subprocess.run(f'kill {ffmpeg_pid}', shell=True)
+    else:
+        subprocess.run(ffmpeg_str, shell=True)
 
 
 # radiko record
 def radiko_record(rec_time, output_file, stream_url, stream_token):
     ffmpeg_str = f'/usr/bin/wine ffmpeg3.exe -headers "X-Radiko-Authtoken:{stream_token}" -i "{stream_url}" -c copy -t {rec_time} "{output_file}"'
-    subprocess.run(ffmpeg_str, shell=True)
+    if rec_time == '10':
+        p = subprocess.Popen(ffmpeg_str, shell=True)
+        time.sleep(15)
+        p.terminate()
+        ffmpeg_pid = p.pid + 1
+        p2 = subprocess.run(f'ps {ffmpeg_pid} | grep ffmpeg3 | wc -l', shell=True, stdout=subprocess.PIPE, encoding='utf8')
+        if int(p2.stdout) == 1:
+            subprocess.run(f'kill {ffmpeg_pid}', shell=True)
+    else:
+        subprocess.run(ffmpeg_str, shell=True)
 
 
 # main section
