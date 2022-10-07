@@ -1,42 +1,31 @@
-Last Update: 2022/09/13-12:00:02
-2022/09/13-12:00:02 10 Orient 2|オリエント(第2クール)
-2022/09/13-00:00:02 12 Tensei Kenja no Isekai Life|転生賢者の異世界ライフ～第二の職業を得て、世界最強になりました～
-2022/09/13-00:00:02 11 Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 2nd Season|ようこそ実力至上主義の教室へ 2nd Season
-2022/09/12-18:00:02 10 Prima Doll|プリマドール
-2022/09/12-18:00:02 10 Extreme Hearts|Extreme Hearts
-2022/09/12-12:00:01 11 RWBY Hyousetsu Teikoku|RWBY 氷雪帝国
-2022/09/12-00:00:01 47 Waccha PriMagi!|ワッチャプリマジ！
-2022/09/12-00:00:01 10 Ongakutai Witches|連盟空軍航空魔法音楽隊ルミナスウィッチーズ
-2022/09/12-00:00:01 10 Isekai Yakkyoku|異世界薬局
-2022/09/12-00:00:01 10 Hanabi-chan wa Okure-gachi|ハナビちゃんは遅れがち
-2022/09/12-00:00:01 08 Love Live! Superstar!! 2|ラブライブ！スーパースター！！(第2期)
-2022/09/11-18:00:02 11 Shoot! Goal to the Future|シュート！ Goal to the Future
-2022/09/11-12:00:01 20 Kakkou no Iinazuke|カッコウの許嫁
-2022/09/11-12:00:01 07 Saikin Yatotta Maid ga Ayashii|最近雇ったメイドが怪しい
-2022/09/11-06:00:01 12 Utawarerumono Futari no Hakuoro|うたわれるもの 二人の白皇
-2022/09/11-06:00:01 11 Lycoris Recoil|リコリス・リコイル
-2022/09/11-06:00:01 11 Engage Kiss|Engage Kiss
-2022/09/11-00:00:02 10 Kuro no Shoukanshi|黒の召喚士
-2022/09/11-00:00:02 10 Hoshi no Samidare|惑星のさみだれ
-2022/09/10-18:00:01 94 Dqdai|ドラゴンクエスト ダイの大冒険
-2022/09/10-06:00:01 11 Kanojo, Okarishimasu 2|彼女、お借りします(第2期)
-2022/09/10-06:00:01 10 Shadows House 2nd Season|シャドーハウス 2nd Season
-2022/09/10-06:00:01 08 Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka IV|ダンジョンに出会いを求めるのは間違っているだろうかIV 新章 迷宮篇
-2022/09/10-00:00:02 10 Made in Abyss 2nd|メイドインアビス 烈日の黄金郷
-2022/09/10-00:00:02 10 Bucchigire!|ブッチギレ！(一番光れ！)
-2022/09/09-18:00:01 10 Yofukashi no Uta|よふかしのうた
-2022/09/09-18:00:01 10 Soredemo Ayumu wa Yosetekuru|それでも歩は寄せてくる
-2022/09/09-12:00:02 10 Kumichou Musume to Sewagakari|組長娘と世話係
-2022/09/09-06:00:01 22 Summer Time Render|サマータイムレンダ
-2022/09/09-06:00:01 09 Hataraku Maou-sama!!|はたらく魔王さま！！
-2022/09/09-00:00:02 08 Shine Post|シャインポスト
-2022/09/08-06:00:01 10 Isekai Meikyuu de Harem o|異世界迷宮でハーレムを
-2022/09/08-00:00:02 10 Warau Arsnotoria Sun!|咲う アルスノトリア すんっ！
-2022/09/08-00:00:02 10 Tokyo Mew Mew New|東京ミュウミュウ にゅ～♡
-2022/09/08-00:00:02 10 Mamahaha no Tsurego ga Motokano Datta|継母の連れ子が元カノだった
-2022/09/08-00:00:02 10 Jashin-chan Dropkick X|邪神ちゃんドロップキックX
-2022/09/07-00:00:02 10 Overlord IV|オーバーロードIV
-2022/09/07-00:00:02 10 Kinsou no Vermeil|金装のヴェルメイユ～崖っぷち魔術師は最強の厄災と魔法世界を突き進む～
-2022/09/04-00:00:02 10 Teppen!!!!!!!!!!!!!!!|てっぺんっ！！！！！！！！！！！！！！！
+Last Update: 2022/10/07-12:00:01
+2022/10/07-12:00:01 01 Akiba Maid Sensou|アキバ冥途戦争
+2022/10/07-06:00:02 01 Mushikaburi Hime|虫かぶり姫
+2022/10/07-00:00:02 01 Muv-Luv Alternative 2|マブラヴ オルタネイティヴ 第二期
+2022/10/07-00:00:02 01 Mob Psycho 100 III|モブサイコ100III
+2022/10/06-12:03:05 01 Futoku no Guild|不徳のギルド
+2022/10/06-12:03:05 01 Do It Yourself!!|Do It Yourself！！ -どぅー・いっと・ゆあせるふ-
+2022/10/06-06:00:02 01 Tensei Shitara Ken Deshita|転生したら剣でした
+2022/10/06-06:00:02 01 Kage no Jitsuryokusha ni Naritakute|陰の実力者になりたくて！
+2022/10/05-18:00:02 01 Yama no Susume Next Summit|ヤマノススメ Next Summit
+2022/10/05-06:00:02 01 Shinobi no Ittoki|忍の一時
+2022/10/04-18:04:54 01 Golden Kamuy 4|ゴールデンカムイ(第四期)
+2022/10/04-06:00:02 01 Shinmai Renkinjutsushi no Tenpo Keiei|新米錬金術師の店舗経営
+2022/10/03-06:00:02 01 Beast Tamer|勇者パーティーを追放されたビーストテイマー、最強種の猫耳少女と出会う
+2022/10/03-00:00:02 11 Love Live! Superstar!! 2|ラブライブ！スーパースター！！(第2期)
+2022/10/03-00:00:02 01 Kidou Senshi Gundam Suisei no Majo|機動戦士ガンダム 水星の魔女
+2022/10/02-12:00:02 10 Saikin Yatotta Maid ga Ayashii|最近雇ったメイドが怪しい
+2022/10/02-12:00:02 01 Pop Team Epic 2nd|ポプテピピック TVアニメーション作品第二シリーズ
+2022/10/02-12:00:02 01 Koukyuu no Karasu|後宮の烏
+2022/10/02-06:00:01 15 Utawarerumono Futari no Hakuoro|うたわれるもの 二人の白皇
+2022/10/02-06:00:01 01 Uzaki-chan wa Asobitai! Double|宇崎ちゃんは遊びたい！ω
+2022/10/02-06:00:01 01 Spy x Family 2nd|SPY×FAMILY(第2クール)
+2022/10/02-06:00:01 01 Noumin Kanren no Skill Bakka Agetetara Naze ka Tsuyoku Natta.|農民関連のスキルばっか上げてたら何故か強くなった。
+2022/10/02-06:00:01 01 Boku no Hero Academia 6|僕のヒーローアカデミア(第6期)
+2022/10/02-06:00:01 01 Akuyaku Reijou nano de Last Boss o Katte Mimashita|悪役令嬢なのでラスボスを飼ってみました
+2022/10/02-00:00:01 97 Dqdai|ドラゴンクエスト ダイの大冒険
+2022/10/01-12:00:02 01 Uchi no Shishou wa Shippo ga Nai|うちの師匠はしっぽがない
+2022/09/25-18:00:01 49 Waccha PriMagi!|ワッチャプリマジ！
+2022/09/24-12:00:01 12 Hoshi no Samidare|惑星のさみだれ
+2022/09/16-00:00:02 09 Shine Post|シャインポスト
 2022/09/01-00:00:02 07 Isekai Ojisan|異世界おじさん
-2022/08/28-00:00:02 09 Kami Kuzu Idol|神クズ☆アイドル
