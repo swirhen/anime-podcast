@@ -1,7 +1,9 @@
-Last Update: 2022/10/13-00:00:02
+Last Update: 2022/10/13-06:00:02
+2022/10/13-06:00:02 02 Futoku no Guild|不徳のギルド
+2022/10/13-06:00:02 02 Do It Yourself!!|Do It Yourself！！ -どぅー・いっと・ゆあせるふ-
+2022/10/13-06:00:02 01 Cool Doji Danshi|クールドジ男子
 2022/10/13-00:00:02 02 Tensei Shitara Ken Deshita|転生したら剣でした
 2022/10/13-00:00:02 02 Kage no Jitsuryokusha ni Naritakute|陰の実力者になりたくて！
-2022/10/13-00:00:02 0 Cool Doji Danshi|クールドジ男子
 2022/10/12-12:00:02 01 Chainsaw Man|チェンソーマン
 2022/10/12-06:00:02 02 Yama no Susume Next Summit|ヤマノススメ Next Summit
 2022/10/12-06:00:02 01 Peter Grill to Kenja no Jikan Super Extra|ピーター・グリルと賢者の時間 Super Extra
@@ -34,6 +36,4 @@ Last Update: 2022/10/13-00:00:02
 2022/10/07-06:00:02 01 Mushikaburi Hime|虫かぶり姫
 2022/10/07-00:00:02 01 Muv-Luv Alternative 2|マブラヴ オルタネイティヴ 第二期
 2022/10/07-00:00:02 01 Mob Psycho 100 III|モブサイコ100III
-2022/10/06-12:03:05 01 Futoku no Guild|不徳のギルド
-2022/10/06-12:03:05 01 Do It Yourself!!|Do It Yourself！！ -どぅー・いっと・ゆあせるふ-
 2022/09/01-00:00:02 07 Isekai Ojisan|異世界おじさん
