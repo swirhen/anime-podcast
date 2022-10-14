@@ -1,42 +1,42 @@
-Last Update: 2022/10/14-20:25:34
-2022/10/14-19:46:17 01 Urusei Yatsura \\\\2022\\\\|うる星やつら(2022)
-2022/10/14-12:00:02 02 Akiba Maid Sensou|アキバ冥途戦争
-2022/10/14-00:00:02 02 Mushikaburi Hime|虫かぶり姫
-2022/10/13-18:00:01 01 Ren`ai Flops|恋愛フロップス
-2022/10/13-18:00:01 01 Aru Asa Dummy Head Mike ni Natte Ita Ore-kun no Jinsei|ある朝、ダミーヘッドマイクになっていた俺クンの人生
-2022/10/13-12:00:02 02 Muv-Luv Alternative 2|マブラヴ オルタネイティヴ 第二期
-2022/10/13-12:00:02 02 Mob Psycho 100 III|モブサイコ100III
-2022/10/13-06:00:02 02 Futoku no Guild|不徳のギルド
-2022/10/13-06:00:02 02 Do It Yourself!!|Do It Yourself！！ -どぅー・いっと・ゆあせるふ-
-2022/10/13-06:00:02 01 Cool Doji Danshi|クールドジ男子
-2022/10/13-00:00:02 02 Tensei Shitara Ken Deshita|転生したら剣でした
-2022/10/13-00:00:02 02 Kage no Jitsuryokusha ni Naritakute|陰の実力者になりたくて！
-2022/10/12-12:00:02 01 Chainsaw Man|チェンソーマン
-2022/10/12-06:00:02 02 Yama no Susume Next Summit|ヤマノススメ Next Summit
-2022/10/12-06:00:02 01 Peter Grill to Kenja no Jikan Super Extra|ピーター・グリルと賢者の時間 Super Extra
-2022/10/12-00:00:02 10 Shine Post|シャインポスト
-2022/10/12-00:00:02 02 Shinobi no Ittoki|忍の一時
-2022/10/11-12:00:02 01 Bleach Sennen Kessen Hen|BLEACH 千年血戦篇
-2022/10/11-00:00:02 02 Shinmai Renkinjutsushi no Tenpo Keiei|新米錬金術師の店舗経営
-2022/10/11-00:00:02 02 Golden Kamuy 4|ゴールデンカムイ(第四期)
-2022/10/10-06:00:02 01 Fuufu Ijou, Koibito Miman.|夫婦以上、恋人未満。
-2022/10/10-00:00:02 02 Beast Tamer|勇者パーティーを追放されたビーストテイマー、最強種の猫耳少女と出会う
-2022/10/09-18:00:02 02 Kidou Senshi Gundam Suisei no Majo|機動戦士ガンダム 水星の魔女
-2022/10/09-13:49:29 01 Yowamushi Pedal Limit Break|弱虫ペダル LIMIT BREAK
-2022/10/09-12:00:02 01 Bocchi the Rock!|ぼっち・ざ・ろっく！
-2022/10/09-06:00:01 16 Utawarerumono Futari no Hakuoro|うたわれるもの 二人の白皇
-2022/10/09-06:00:01 02 Spy x Family 2nd|SPY×FAMILY(第2クール)
-2022/10/09-06:00:01 02 Pop Team Epic 2nd|ポプテピピック TVアニメーション作品第二シリーズ
-2022/10/09-06:00:01 02 Koukyuu no Karasu|後宮の烏
-2022/10/09-06:00:01 01 Mairimashita! Iruma-kun 3|魔入りました！入間くん(第3シリーズ)
-2022/10/09-00:00:02 13 Hoshi no Samidare|惑星のさみだれ
-2022/10/09-00:00:02 02 Uzaki-chan wa Asobitai! Double|宇崎ちゃんは遊びたい！ω
-2022/10/09-00:00:02 02 Noumin Kanren no Skill Bakka Agetetara Naze ka Tsuyoku Natta.|農民関連のスキルばっか上げてたら何故か強くなった。
-2022/10/09-00:00:02 02 Boku no Hero Academia 6|僕のヒーローアカデミア(第6期)
-2022/10/09-00:00:02 02 Akuyaku Reijou nano de Last Boss o Katte Mimashita|悪役令嬢なのでラスボスを飼ってみました
-2022/10/08-18:00:02 01 Seiken Densetsu Legend of Mana - The Teardrop Crystal|聖剣伝説 Legend of Mana -The Teardrop Crystal-
-2022/10/08-18:00:02 01 Reiwa no Di Gi Charat|令和のデ・ジ・キャラット
-2022/10/08-18:00:02 01 JoJo no Kimyou na Bouken Stone Ocean 2nd|ジョジョの奇妙な冒険 ストーンオーシャン(第2クール)
+Last Update: 2022/10/14-20:27:02
+2022/10/14-19:46:17 01 Urusei\ Yatsura\ \\\\\\\\2022\\\\\\\\|うる星やつら(2022)
+2022/10/14-12:00:02 02 Akiba\ Maid\ Sensou|アキバ冥途戦争
+2022/10/14-00:00:02 02 Mushikaburi\ Hime|虫かぶり姫
+2022/10/13-18:00:01 01 Ren`ai\ Flops|恋愛フロップス
+2022/10/13-18:00:01 01 Aru\ Asa\ Dummy\ Head\ Mike\ ni\ Natte\ Ita\ Ore\-kun\ no\ Jinsei|ある朝、ダミーヘッドマイクになっていた俺クンの人生
+2022/10/13-12:00:02 02 Muv\-Luv\ Alternative\ 2|マブラヴ オルタネイティヴ 第二期
+2022/10/13-12:00:02 02 Mob\ Psycho\ 100\ III|モブサイコ100III
+2022/10/13-06:00:02 02 Futoku\ no\ Guild|不徳のギルド
+2022/10/13-06:00:02 02 Do\ It\ Yourself!!|Do It Yourself！！ -どぅー・いっと・ゆあせるふ-
+2022/10/13-06:00:02 01 Cool\ Doji\ Danshi|クールドジ男子
+2022/10/13-00:00:02 02 Tensei\ Shitara\ Ken\ Deshita|転生したら剣でした
+2022/10/13-00:00:02 02 Kage\ no\ Jitsuryokusha\ ni\ Naritakute|陰の実力者になりたくて！
+2022/10/12-12:00:02 01 Chainsaw\ Man|チェンソーマン
+2022/10/12-06:00:02 02 Yama\ no\ Susume\ Next\ Summit|ヤマノススメ Next Summit
+2022/10/12-06:00:02 01 Peter\ Grill\ to\ Kenja\ no\ Jikan\ Super\ Extra|ピーター・グリルと賢者の時間 Super Extra
+2022/10/12-00:00:02 10 Shine\ Post|シャインポスト
+2022/10/12-00:00:02 02 Shinobi\ no\ Ittoki|忍の一時
+2022/10/11-12:00:02 01 Bleach\ Sennen\ Kessen\ Hen|BLEACH 千年血戦篇
+2022/10/11-00:00:02 02 Shinmai\ Renkinjutsushi\ no\ Tenpo\ Keiei|新米錬金術師の店舗経営
+2022/10/11-00:00:02 02 Golden\ Kamuy\ 4|ゴールデンカムイ(第四期)
+2022/10/10-06:00:02 01 Fuufu\ Ijou,\ Koibito\ Miman\.|夫婦以上、恋人未満。
+2022/10/10-00:00:02 02 Beast\ Tamer|勇者パーティーを追放されたビーストテイマー、最強種の猫耳少女と出会う
+2022/10/09-18:00:02 02 Kidou\ Senshi\ Gundam\ Suisei\ no\ Majo|機動戦士ガンダム 水星の魔女
+2022/10/09-13:49:29 01 Yowamushi\ Pedal\ Limit\ Break|弱虫ペダル LIMIT BREAK
+2022/10/09-12:00:02 01 Bocchi\ the\ Rock!|ぼっち・ざ・ろっく！
+2022/10/09-06:00:01 16 Utawarerumono\ Futari\ no\ Hakuoro|うたわれるもの 二人の白皇
+2022/10/09-06:00:01 02 Spy\ x\ Family\ 2nd|SPY×FAMILY(第2クール)
+2022/10/09-06:00:01 02 Pop\ Team\ Epic\ 2nd|ポプテピピック TVアニメーション作品第二シリーズ
+2022/10/09-06:00:01 02 Koukyuu\ no\ Karasu|後宮の烏
+2022/10/09-06:00:01 01 Mairimashita!\ Iruma\-kun\ 3|魔入りました！入間くん(第3シリーズ)
+2022/10/09-00:00:02 13 Hoshi\ no\ Samidare|惑星のさみだれ
+2022/10/09-00:00:02 02 Uzaki\-chan\ wa\ Asobitai!\ Double|宇崎ちゃんは遊びたい！ω
+2022/10/09-00:00:02 02 Noumin\ Kanren\ no\ Skill\ Bakka\ Agetetara\ Naze\ ka\ Tsuyoku\ Natta\.|農民関連のスキルばっか上げてたら何故か強くなった。
+2022/10/09-00:00:02 02 Boku\ no\ Hero\ Academia\ 6|僕のヒーローアカデミア(第6期)
+2022/10/09-00:00:02 02 Akuyaku\ Reijou\ nano\ de\ Last\ Boss\ o\ Katte\ Mimashita|悪役令嬢なのでラスボスを飼ってみました
+2022/10/08-18:00:02 01 Seiken\ Densetsu\ Legend\ of\ Mana\ \-\ The\ Teardrop\ Crystal|聖剣伝説 Legend of Mana -The Teardrop Crystal-
+2022/10/08-18:00:02 01 Reiwa\ no\ Di\ Gi\ Charat|令和のデ・ジ・キャラット
+2022/10/08-18:00:02 01 JoJo\ no\ Kimyou\ na\ Bouken\ Stone\ Ocean\ 2nd|ジョジョの奇妙な冒険 ストーンオーシャン(第2クール)
 2022/10/08-12:00:02 98 Dqdai|ドラゴンクエスト ダイの大冒険
-2022/10/08-00:00:02 02 Uchi no Shishou wa Shippo ga Nai|うちの師匠はしっぽがない
-2022/09/01-00:00:02 07 Isekai Ojisan|異世界おじさん
+2022/10/08-00:00:02 02 Uchi\ no\ Shishou\ wa\ Shippo\ ga\ Nai|うちの師匠はしっぽがない
+2022/09/01-00:00:02 07 Isekai\ Ojisan|異世界おじさん
