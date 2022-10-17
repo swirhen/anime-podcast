@@ -1,4 +1,5 @@
-Last Update: 2022/10/18-00:00:02
+Last Update: 2022/10/18-06:00:02
+2022/10/18-06:00:02 02 Bleach Sennen Kessen Hen|BLEACH 千年血戦篇
 2022/10/18-00:00:02 03 Shinmai Renkinjutsushi no Tenpo Keiei|新米錬金術師の店舗経営
 2022/10/18-00:00:02 03 Golden Kamuy 4|ゴールデンカムイ(第四期)
 2022/10/17-00:00:02 03 Kidou Senshi Gundam Suisei no Majo|機動戦士ガンダム 水星の魔女
@@ -38,6 +39,5 @@ Last Update: 2022/10/18-00:00:02
 2022/10/12-06:00:02 01 Peter Grill to Kenja no Jikan Super Extra|ピーター・グリルと賢者の時間 Super Extra
 2022/10/12-00:00:02 10 Shine Post|シャインポスト
 2022/10/12-00:00:02 02 Shinobi no Ittoki|忍の一時
-2022/10/11-12:00:02 01 Bleach Sennen Kessen Hen|BLEACH 千年血戦篇
 2022/10/08-12:00:02 98 Dqdai|ドラゴンクエスト ダイの大冒険
 2022/09/01-00:00:02 07 Isekai Ojisan|異世界おじさん
