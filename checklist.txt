@@ -1,4 +1,6 @@
-Last Update: 2022/10/22-00:00:02
+Last Update: 2022/10/22-06:00:01
+2022/10/22-06:00:01 03 Reiwa no Di Gi Charat|令和のデ・ジ・キャラット
+2022/10/22-06:00:01 03 JoJo no Kimyou na Bouken Stone Ocean 2nd|ジョジョの奇妙な冒険 ストーンオーシャン(第2クール)
 2022/10/22-00:00:02 02 Urusei Yatsura|うる星やつら(2022)
 2022/10/21-00:00:02 03 Mushikaburi Hime|虫かぶり姫
 2022/10/20-12:00:02 03 Tensei Shitara Ken Deshita|転生したら剣でした
@@ -35,8 +37,6 @@ Last Update: 2022/10/22-00:00:02
 2022/10/15-12:00:02 14 Hoshi no Samidare|惑星のさみだれ
 2022/10/15-12:00:02 03 Uchi no Shishou wa Shippo ga Nai|うちの師匠はしっぽがない
 2022/10/15-12:00:02 02 Seiken Densetsu Legend of Mana - The Teardrop Crystal|聖剣伝説 Legend of Mana -The Teardrop Crystal-
-2022/10/15-12:00:02 02 JoJo no Kimyou na Bouken Stone Ocean 2nd|ジョジョの奇妙な冒険 ストーンオーシャン(第2クール)
-2022/10/15-06:00:02 02 Reiwa no Di Gi Charat|令和のデ・ジ・キャラット
 2022/10/14-12:00:02 02 Akiba Maid Sensou|アキバ冥途戦争
 2022/10/13-12:00:02 02 Mob Psycho 100 III|モブサイコ100III
 2022/10/08-12:00:02 98 Dqdai|ドラゴンクエスト ダイの大冒険
