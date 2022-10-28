@@ -1,4 +1,6 @@
-Last Update: 2022/10/28-06:00:02
+Last Update: 2022/10/28-12:00:02
+2022/10/28-12:00:02 04 Akiba Maid Sensou|アキバ冥途戦争
+2022/10/28-12:00:02 03 Urusei Yatsura|うる星やつら(2022)
 2022/10/28-00:00:02 04 Mushikaburi Hime|虫かぶり姫
 2022/10/27-12:00:02 04 Muv-Luv Alternative 2|マブラヴ オルタネイティヴ 第二期
 2022/10/27-12:00:02 04 Mob Psycho 100 III|モブサイコ100III
@@ -32,13 +34,11 @@ Last Update: 2022/10/28-06:00:02
 2022/10/23-00:00:02 04 Boku no Hero Academia 6|僕のヒーローアカデミア(第6期)
 2022/10/23-00:00:02 04 Akuyaku Reijou nano de Last Boss o Katte Mimashita|悪役令嬢なのでラスボスを飼ってみました
 2022/10/23-00:00:02 03 Mairimashita! Iruma-kun 3|魔入りました！入間くん(第3シリーズ)
-2022/10/23-00:00:02 03 Akiba Maid Sensou|アキバ冥途戦争
 2022/10/22-18:00:02 15 Hoshi no Samidare|惑星のさみだれ
 2022/10/22-12:00:02 04 Uchi no Shishou wa Shippo ga Nai|うちの師匠はしっぽがない
 2022/10/22-12:00:02 03 Seiken Densetsu Legend of Mana - The Teardrop Crystal|聖剣伝説 Legend of Mana -The Teardrop Crystal-
 2022/10/22-06:00:01 03 Reiwa no Di Gi Charat|令和のデ・ジ・キャラット
 2022/10/22-06:00:01 03 JoJo no Kimyou na Bouken Stone Ocean 2nd|ジョジョの奇妙な冒険 ストーンオーシャン(第2クール)
-2022/10/22-00:00:02 02 Urusei Yatsura|うる星やつら(2022)
 2022/10/20-00:00:02 11 Shine Post|シャインポスト
 2022/10/08-12:00:02 98 Dqdai|ドラゴンクエスト ダイの大冒険
 2022/09/01-00:00:02 07 Isekai Ojisan|異世界おじさん
