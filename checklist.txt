@@ -1,4 +1,6 @@
-Last Update: 2022/11/04-06:00:01
+Last Update: 2022/11/04-12:00:02
+2022/11/04-12:00:02 05 Akiba Maid Sensou|アキバ冥途戦争
+2022/11/04-12:00:02 04 Urusei Yatsura|うる星やつら(2022)
 2022/11/04-00:00:01 05 Muv-Luv Alternative 2|マブラヴ オルタネイティヴ 第二期
 2022/11/04-00:00:01 05 Mushikaburi Hime|虫かぶり姫
 2022/11/04-00:00:01 05 Mob Psycho 100 III|モブサイコ100III
@@ -38,8 +40,6 @@ Last Update: 2022/11/04-06:00:01
 2022/10/29-12:00:01 04 JoJo no Kimyou na Bouken Stone Ocean 2nd|ジョジョの奇妙な冒険 ストーンオーシャン(第2クール)
 2022/10/29-06:00:02 05 Uchi no Shishou wa Shippo ga Nai|うちの師匠はしっぽがない
 2022/10/29-00:00:02 04 Reiwa no Di Gi Charat|令和のデ・ジ・キャラット
-2022/10/28-12:00:02 04 Akiba Maid Sensou|アキバ冥途戦争
-2022/10/28-12:00:02 03 Urusei Yatsura|うる星やつら(2022)
 2022/10/20-00:00:02 11 Shine Post|シャインポスト
 2022/10/08-12:00:02 98 Dqdai|ドラゴンクエスト ダイの大冒険
 2022/09/01-00:00:02 07 Isekai Ojisan|異世界おじさん
