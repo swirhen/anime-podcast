@@ -1,4 +1,6 @@
-Last Update: 2022/11/08-06:00:02
+Last Update: 2022/11/08-12:00:01
+2022/11/08-12:00:01 06 Golden Kamuy 4|ゴールデンカムイ(第四期)
+2022/11/08-12:00:01 05 Bleach Sennen Kessen Hen|BLEACH 千年血戦篇
 2022/11/08-00:00:02 06 Shinmai Renkinjutsushi no Tenpo Keiei|新米錬金術師の店舗経営
 2022/11/07-00:00:02 06 Beast Tamer|勇者パーティーを追放されたビーストテイマー、最強種の猫耳少女と出会う
 2022/11/07-00:00:02 05 Fuufu Ijou, Koibito Miman.|夫婦以上、恋人未満。
@@ -39,8 +41,6 @@ Last Update: 2022/11/08-06:00:02
 2022/11/02-12:00:02 04 Chainsaw Man|チェンソーマン
 2022/11/02-00:00:02 05 Shinobi no Ittoki|忍の一時
 2022/11/02-00:00:02 04 Peter Grill to Kenja no Jikan Super Extra|ピーター・グリルと賢者の時間 Super Extra
-2022/11/01-12:00:01 04 Bleach Sennen Kessen Hen|BLEACH 千年血戦篇
-2022/11/01-00:00:02 05 Golden Kamuy 4|ゴールデンカムイ(第四期)
 2022/10/20-00:00:02 11 Shine Post|シャインポスト
 2022/10/08-12:00:02 98 Dqdai|ドラゴンクエスト ダイの大冒険
 2022/09/01-00:00:02 07 Isekai Ojisan|異世界おじさん
