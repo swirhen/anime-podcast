@@ -1,4 +1,7 @@
-Last Update: 2022/11/11-06:00:01
+Last Update: 2022/11/11-12:00:01
+2022/11/11-12:00:01 06 Akiba Maid Sensou|アキバ冥途戦争
+2022/11/11-12:00:01 05 Urusei Yatsura|うる星やつら(2022)
+2022/11/11-12:00:01 02 KanColle Itsuka Ano Umi de|「艦これ」いつかあの海で
 2022/11/11-00:00:02 06 Mushikaburi Hime|虫かぶり姫
 2022/11/11-00:00:02 06 Do It Yourself!!|Do It Yourself！！ -どぅー・いっと・ゆあせるふ-
 2022/11/10-18:00:01 06 Muv-Luv Alternative 2|マブラヴ オルタネイティヴ 第二期
@@ -21,7 +24,6 @@ Last Update: 2022/11/11-06:00:01
 2022/11/06-18:06:32 06 Kidou Senshi Gundam Suisei no Majo|機動戦士ガンダム 水星の魔女
 2022/11/06-12:00:01 06 Pop Team Epic 2nd|ポプテピピック TVアニメーション作品第二シリーズ
 2022/11/06-12:00:01 04 4-nin wa Sorezore Uso o Tsuku|4人はそれぞれウソをつく
-2022/11/06-12:00:01 01 KanColle Itsuka Ano Umi de|「艦これ」いつかあの海で
 2022/11/06-08:34:05 20 Utawarerumono Futari no Hakuoro|うたわれるもの 二人の白皇
 2022/11/06-08:34:05 06 Noumin Kanren no Skill Bakka Agetetara Naze ka Tsuyoku Natta.|農民関連のスキルばっか上げてたら何故か強くなった。
 2022/11/06-08:34:05 06 Koukyuu no Karasu|後宮の烏
@@ -38,8 +40,6 @@ Last Update: 2022/11/11-06:00:01
 2022/11/05-12:00:01 02 Arknights Prelude to Dawn|アークナイツ【黎明前奏／PRELUDE TO DAWN】
 2022/11/05-06:00:01 06 Uchi no Shishou wa Shippo ga Nai|うちの師匠はしっぽがない
 2022/11/05-06:00:01 05 Reiwa no Di Gi Charat|令和のデ・ジ・キャラット
-2022/11/04-12:00:02 05 Akiba Maid Sensou|アキバ冥途戦争
-2022/11/04-12:00:02 04 Urusei Yatsura|うる星やつら(2022)
 2022/11/03-00:00:02 04 Cool Doji Danshi|クールドジ男子
 2022/10/20-00:00:02 11 Shine Post|シャインポスト
 2022/10/08-12:00:02 98 Dqdai|ドラゴンクエスト ダイの大冒険
