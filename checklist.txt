@@ -1,4 +1,6 @@
-Last Update: 2022/11/12-12:00:02
+Last Update: 2022/11/12-18:00:01
+2022/11/12-18:00:01 18 Hoshi no Samidare|惑星のさみだれ
+2022/11/12-18:00:01 03 Arknights Prelude to Dawn|アークナイツ【黎明前奏／PRELUDE TO DAWN】
 2022/11/12-12:00:02 07 Uchi no Shishou wa Shippo ga Nai|うちの師匠はしっぽがない
 2022/11/12-12:00:02 06 Reiwa no Di Gi Charat|令和のデ・ジ・キャラット
 2022/11/12-12:00:02 06 JoJo no Kimyou na Bouken Stone Ocean 2nd|ジョジョの奇妙な冒険 ストーンオーシャン(第2クール)
@@ -37,9 +39,7 @@ Last Update: 2022/11/12-12:00:02
 2022/11/06-00:00:02 06 Boku no Hero Academia 6|僕のヒーローアカデミア(第6期)
 2022/11/06-00:00:02 06 Akuyaku Reijou nano de Last Boss o Katte Mimashita|悪役令嬢なのでラスボスを飼ってみました
 2022/11/06-00:00:02 05 Mairimashita! Iruma-kun 3|魔入りました！入間くん(第3シリーズ)
-2022/11/05-12:00:01 17 Hoshi no Samidare|惑星のさみだれ
 2022/11/05-12:00:01 05 Seiken Densetsu Legend of Mana - The Teardrop Crystal|聖剣伝説 Legend of Mana -The Teardrop Crystal-
-2022/11/05-12:00:01 02 Arknights Prelude to Dawn|アークナイツ【黎明前奏／PRELUDE TO DAWN】
 2022/11/03-00:00:02 04 Cool Doji Danshi|クールドジ男子
 2022/10/20-00:00:02 11 Shine Post|シャインポスト
 2022/10/08-12:00:02 98 Dqdai|ドラゴンクエスト ダイの大冒険
