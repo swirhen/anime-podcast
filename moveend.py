@@ -197,7 +197,7 @@ def move_root(end_list):
         result = shutil.move(srcpath, dstpath)
         print(f'# complete: {result}')
     
-    os.chdir(f'{ROOT_MV_LINK_DIR}/{dstnum} {YEAR}-Q{QUARTER}終了分')
+    os.chdir(dstpath)
     mnu.mnu()
 
     print('ALL: 移動完了')
