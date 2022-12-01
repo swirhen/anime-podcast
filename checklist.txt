@@ -1,4 +1,6 @@
-Last Update: 2022/12/01-18:00:02
+Last Update: 2022/12/02-00:00:02
+2022/12/02-00:00:02 09 Mushikaburi Hime|虫かぶり姫
+2022/12/02-00:00:02 09 Isekai Ojisan|異世界おじさん
 2022/12/01-18:00:02 09 Tensei Shitara Ken Deshita|転生したら剣でした
 2022/12/01-18:00:02 09 Muv-Luv Alternative 2|マブラヴ オルタネイティヴ 第二期
 2022/12/01-18:00:02 09 Do It Yourself!!|Do It Yourself！！ -どぅー・いっと・ゆあせるふ-
@@ -38,7 +40,5 @@ Last Update: 2022/12/01-18:00:02
 2022/11/26-12:00:02 08 Reiwa no Di Gi Charat|令和のデ・ジ・キャラット
 2022/11/26-12:00:02 08 JoJo no Kimyou na Bouken Stone Ocean 2nd|ジョジョの奇妙な冒険 ストーンオーシャン(第2クール)
 2022/11/26-00:00:02 07 Urusei Yatsura|うる星やつら(2022)
-2022/11/25-12:00:02 08 Isekai Ojisan|異世界おじさん
 2022/11/25-12:00:02 08 Akiba Maid Sensou|アキバ冥途戦争
-2022/11/25-00:00:02 08 Mushikaburi Hime|虫かぶり姫
 2022/11/18-12:00:02 03 KanColle Itsuka Ano Umi de|「艦これ」いつかあの海で
