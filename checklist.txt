@@ -1,4 +1,6 @@
-Last Update: 2022/12/09-06:00:02
+Last Update: 2022/12/09-12:00:02
+2022/12/09-12:00:02 10 Akiba Maid Sensou|アキバ冥途戦争
+2022/12/09-12:00:02 09 Urusei Yatsura|うる星やつら(2022)
 2022/12/09-00:00:02 10 Mushikaburi Hime|虫かぶり姫
 2022/12/09-00:00:02 10 Isekai Ojisan|異世界おじさん
 2022/12/08-18:00:02 10 Mob Psycho 100 III|モブサイコ100III
@@ -34,8 +36,6 @@ Last Update: 2022/12/09-06:00:02
 2022/12/03-12:00:02 10 Uchi no Shishou wa Shippo ga Nai|うちの師匠はしっぽがない
 2022/12/03-12:00:02 06 Arknights Prelude to Dawn|アークナイツ【黎明前奏／PRELUDE TO DAWN】
 2022/12/03-06:00:02 09 Reiwa no Di Gi Charat|令和のデ・ジ・キャラット
-2022/12/02-12:00:02 08 Urusei Yatsura|うる星やつら(2022)
-2022/12/02-06:00:02 09 Akiba Maid Sensou|アキバ冥途戦争
 2022/12/01-18:00:02 09 Muv-Luv Alternative 2|マブラヴ オルタネイティヴ 第二期
 2022/12/01-18:00:02 09 Do It Yourself!!|Do It Yourself！！ -どぅー・いっと・ゆあせるふ-
 2022/11/30-00:00:02 08 Cool Doji Danshi|クールドジ男子
