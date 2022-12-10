@@ -1,4 +1,11 @@
-Last Update: 2022/12/11-00:00:02
+Last Update: 2022/12/11-06:00:01
+2022/12/11-06:00:01 25 Utawarerumono Futari no Hakuoro|うたわれるもの 二人の白皇
+2022/12/11-06:00:01 11 Spy x Family 2nd|SPY×FAMILY(第2クール)
+2022/12/11-06:00:01 11 Pop Team Epic 2nd|ポプテピピック TVアニメーション作品第二シリーズ
+2022/12/11-06:00:01 11 Noumin Kanren no Skill Bakka Agetetara Naze ka Tsuyoku Natta.|農民関連のスキルばっか上げてたら何故か強くなった。
+2022/12/11-06:00:01 11 Koukyuu no Karasu|後宮の烏
+2022/12/11-06:00:01 10 Bocchi the Rock!|ぼっち・ざ・ろっく！
+2022/12/11-06:00:01 09 4-nin wa Sorezore Uso o Tsuku|4人はそれぞれウソをつく
 2022/12/11-00:00:02 11 Uzaki-chan wa Asobitai! Double|宇崎ちゃんは遊びたい！ω
 2022/12/11-00:00:02 11 Boku no Hero Academia 6|僕のヒーローアカデミア(第6期)
 2022/12/11-00:00:02 10 Mairimashita! Iruma-kun 3|魔入りました！入間くん(第3シリーズ)
@@ -26,19 +33,12 @@ Last Update: 2022/12/11-00:00:02
 2022/12/05-00:00:02 09 Kidou Senshi Gundam Suisei no Majo|機動戦士ガンダム 水星の魔女
 2022/12/05-00:00:02 09 Fuufu Ijou, Koibito Miman.|夫婦以上、恋人未満。
 2022/12/05-00:00:02 07 Fumetsu no Anata e Season 2|不滅のあなたへ Season2
-2022/12/04-18:00:02 10 Pop Team Epic 2nd|ポプテピピック TVアニメーション作品第二シリーズ
-2022/12/04-06:00:01 24 Utawarerumono Futari no Hakuoro|うたわれるもの 二人の白皇
-2022/12/04-06:00:01 10 Spy x Family 2nd|SPY×FAMILY(第2クール)
-2022/12/04-06:00:01 10 Noumin Kanren no Skill Bakka Agetetara Naze ka Tsuyoku Natta.|農民関連のスキルばっか上げてたら何故か強くなった。
-2022/12/04-06:00:01 10 Koukyuu no Karasu|後宮の烏
 2022/12/04-06:00:01 10 Akuyaku Reijou nano de Last Boss o Katte Mimashita|悪役令嬢なのでラスボスを飼ってみました
-2022/12/04-06:00:01 09 Bocchi the Rock!|ぼっち・ざ・ろっく！
 2022/12/04-06:00:01 08 Yowamushi Pedal Limit Break|弱虫ペダル LIMIT BREAK
 2022/12/03-18:00:02 21 Hoshi no Samidare|惑星のさみだれ
 2022/12/03-12:00:02 06 Arknights Prelude to Dawn|アークナイツ【黎明前奏／PRELUDE TO DAWN】
 2022/12/01-18:00:02 09 Muv-Luv Alternative 2|マブラヴ オルタネイティヴ 第二期
 2022/12/01-18:00:02 09 Do It Yourself!!|Do It Yourself！！ -どぅー・いっと・ゆあせるふ-
 2022/11/30-00:00:02 08 Cool Doji Danshi|クールドジ男子
-2022/11/28-12:00:02 08 4-nin wa Sorezore Uso o Tsuku|4人はそれぞれウソをつく
 2022/11/27-00:00:02 08 Seiken Densetsu Legend of Mana - The Teardrop Crystal|聖剣伝説 Legend of Mana -The Teardrop Crystal-
 2022/11/18-12:00:02 03 KanColle Itsuka Ano Umi de|「艦これ」いつかあの海で
