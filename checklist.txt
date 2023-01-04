@@ -1,26 +1,19 @@
 Last Update: 2023/01/04-06:00:01
-2023/01/01-06:00:02 01 Fate Project 2022|Fate Project 大晦日TVスペシャル
-2022/12/31-12:00:01 13 Reiwa no Di Gi Charat|令和のデ・ジ・キャラット
 2022/12/29-12:00:02 13 Kage no Jitsuryokusha ni Naritakute|陰の実力者になりたくて！
 2022/12/28-00:00:02 12 Cool Doji Danshi|クールドジ男子
-2022/12/26-00:00:02 11 Kidou Senshi Gundam Suisei no Majo|機動戦士ガンダム 水星の魔女
 2022/12/26-00:00:02 10 Fumetsu no Anata e Season 2|不滅のあなたへ Season2
-2022/12/25-06:00:02 27 Utawarerumono Futari no Hakuoro|うたわれるもの 二人の白皇
-2022/12/25-06:00:02 10 Yowamushi Pedal Limit Break|弱虫ペダル LIMIT BREAK
 2022/12/25-00:00:02 13 Boku no Hero Academia 6|僕のヒーローアカデミア(第6期)
 2022/12/25-00:00:02 12 Mairimashita! Iruma-kun 3|魔入りました！入間くん(第3シリーズ)
-2022/12/24-18:00:02 13 Uchi no Shishou wa Shippo ga Nai|うちの師匠はしっぽがない
-2022/12/24-12:00:02 12 JoJo no Kimyou na Bouken Stone Ocean 2nd|ジョジョの奇妙な冒険 ストーンオーシャン(第2クール)
-2022/12/24-00:00:02 12 Akuyaku Reijou nano de Last Boss o Katte Mimashita|悪役令嬢なのでラスボスを飼ってみました
 2022/12/23-18:00:02 05 KanColle Itsuka Ano Umi de|「艦これ」いつかあの海で
 2022/12/23-12:00:01 11 Urusei Yatsura|うる星やつら(2022)
 2022/12/23-00:00:02 12 Isekai Ojisan|異世界おじさん
+2022/12/06-12:00:01 08 Golden Kamuy 4|ゴールデンカムイ(第四期)
+2022/12/31-12:00:01 13 Reiwa no Di Gi Charat|令和のデ・ジ・キャラット
+2022/12/26-00:00:02 11 Kidou Senshi Gundam Suisei no Majo|機動戦士ガンダム 水星の魔女
+2022/12/25-06:00:02 10 Yowamushi Pedal Limit Break|弱虫ペダル LIMIT BREAK
+2022/12/20-12:00:02 11 Bleach Sennen Kessen Hen|BLEACH 千年血戦篇
+2022/12/25-06:00:02 27 Utawarerumono Futari no Hakuoro|うたわれるもの 二人の白皇
 2022/12/23-00:00:02 12 Do It Yourself!!|Do It Yourself！！ -どぅー・いっと・ゆあせるふ-
 2022/12/22-18:00:01 12 Muv-Luv Alternative 2|マブラヴ オルタネイティヴ 第二期
 2022/12/22-18:00:01 11 Aru Asa Dummy Head Mike ni Natte Ita Ore-kun no Jinsei|ある朝、ダミーヘッドマイクになっていた俺クンの人生
-2022/12/21-18:00:01 12 Yama no Susume Next Summit|ヤマノススメ Next Summit
-2022/12/20-12:00:02 11 Bleach Sennen Kessen Hen|BLEACH 千年血戦篇
-2022/12/18-00:00:02 08 Arknights Prelude to Dawn|アークナイツ【黎明前奏／PRELUDE TO DAWN】
 2022/12/11-06:00:01 11 Pop Team Epic 2nd|ポプテピピック TVアニメーション作品第二シリーズ
-2022/12/06-12:00:01 08 Golden Kamuy 4|ゴールデンカムイ(第四期)
-2022/11/27-00:00:02 08 Seiken Densetsu Legend of Mana - The Teardrop Crystal|聖剣伝説 Legend of Mana -The Teardrop Crystal-
