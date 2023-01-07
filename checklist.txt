@@ -1,8 +1,14 @@
-Last Update: 2023/01/08-00:00:02
+Last Update: 2023/01/08-06:00:01
+2023/01/08-06:00:01 11 Yowamushi Pedal Limit Break|弱虫ペダル LIMIT BREAK
+2023/01/08-06:00:01 01 Koori Zokusei Danshi to Cool na Douryou Joshi|氷属性男子とクールな同僚女子
+2023/01/08-06:00:01 01 Ankoku Heishi|解雇された暗黒兵士(30代)のスローなセカンドライフ
+2023/01/08-06:00:01 0 Tomo-chan wa Onnanoko!|アキバ冥途戦争
+2023/01/08-06:00:01 0 The Angel Next Door Spoils Me Rotten|アニメロサマーライブ2021 powered by Anison Days
+2023/01/08-06:00:01 0 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
+2023/01/08-06:00:01 0 Maou Gakuin no Futekigousha II|魔王学院の不適合者II～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～
+2023/01/08-06:00:01 0 Ijiranaide, Nagatoro-san 2nd|イジらないで、長瀞さん 2nd Attack
 2023/01/08-00:00:02 14 Boku no Hero Academia 6|僕のヒーローアカデミア(第6期)
 2023/01/08-00:00:02 13 Mairimashita! Iruma-kun 3|魔入りました！入間くん(第3シリーズ)
-2023/01/08-00:00:02 0 Koori Zokusei Danshi to Cool na Douryou Joshi|氷属性男子とクールな同僚女子
-2023/01/08-00:00:02 0 Ankoku Heishi|解雇された暗黒兵士(30代)のスローなセカンドライフ
 2023/01/07-18:00:01 01 Tsunlise-pr|ツンデレ悪役令嬢リーゼロッテと実況の遠藤くんと解説の小林さん
 2023/01/07-18:00:01 01 Jaryuu Nintei|齢5000年の草食ドラゴン、いわれなき邪竜認定
 2023/01/07-18:00:01 01  Danmachi IV 2023|ダンジョンに出会いを求めるのは間違っているだろうかIV 深章 厄災篇
@@ -21,7 +27,6 @@ Last Update: 2023/01/08-00:00:02
 2022/12/28-00:00:02 12 Cool Doji Danshi|クールドジ男子
 2022/12/26-00:00:02 11 Kidou Senshi Gundam Suisei no Majo|機動戦士ガンダム 水星の魔女
 2022/12/26-00:00:02 10 Fumetsu no Anata e Season 2|不滅のあなたへ Season2
-2022/12/25-06:00:02 10 Yowamushi Pedal Limit Break|弱虫ペダル LIMIT BREAK
 2022/12/23-18:00:02 05 KanColle Itsuka Ano Umi de|「艦これ」いつかあの海で
 2022/12/23-00:00:02 12 Isekai Ojisan|異世界おじさん
 2022/12/06-12:00:01 08 Golden Kamuy 4|ゴールデンカムイ(第四期)
