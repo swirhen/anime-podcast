@@ -1,4 +1,9 @@
-Last Update: 2023/01/12-18:00:02
+Last Update: 2023/01/13-00:00:02
+2023/01/13-00:00:02 02 Tomo-chan wa Onnanoko!|トモちゃんは女の子！
+2023/01/13-00:00:02 02 Spy Kyoushitsu|スパイ教室
+2023/01/13-00:00:02 02 Revenger|REVENGER
+2023/01/13-00:00:02 02 Bungou Stray Dogs 4|文豪ストレイドッグス(第4シーズン)
+2023/01/13-00:00:02 0 Tondemo Skill de Isekai Hourou Meshi|とんでもスキルで異世界放浪メシ
 2023/01/12-18:00:02 01 Bougyoryoku 2|痛いのは嫌なので防御力に極振りしたいと思います。2
 2023/01/12-12:00:01 01 Mou Ippon!|もういっぽん！
 2023/01/12-12:00:01 01 Kami-tachi ni Hirowareta Otoko 2|神達に拾われた男2
@@ -21,7 +26,6 @@ Last Update: 2023/01/12-18:00:02
 2023/01/09-03:58:00 01 Saikyou Onmyouji no Isekai Tenseiki|最強陰陽師の異世界転生記
 2023/01/09-03:58:00 01 Benriya Saitou-san, Isekai ni Iku|便利屋斎藤さん、異世界に行く
 2023/01/09-01:57:13 11 Fumetsu no Anata e Season 2|不滅のあなたへ Season2
-2023/01/08-12:00:02 01 Tomo-chan wa Onnanoko!|トモちゃんは女の子！
 2023/01/08-12:00:02 01 The Angel Next Door Spoils Me Rotten|お隣の天使様にいつの間にか駄目人間にされていた件
 2023/01/08-12:00:02 01 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2023/01/08-12:00:02 01 Maou Gakuin no Futekigousha II|魔王学院の不適合者II～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～
@@ -40,9 +44,6 @@ Last Update: 2023/01/12-18:00:02
 2023/01/07-06:00:01 01 Isekai Nonbiri Nouka|異世界のんびり農家
 2023/01/07-00:00:01 12 Urusei Yatsura|うる星やつら(2022)
 2023/01/06-12:00:01 01 Onii-chan wa Oshimai!|お兄ちゃんはおしまい！
-2023/01/06-06:00:02 01 Spy Kyoushitsu|スパイ教室
-2023/01/06-06:00:02 01 Revenger|REVENGER
-2023/01/06-06:00:02 01 Bungou Stray Dogs 4|文豪ストレイドッグス(第4シーズン)
 2022/12/23-18:00:02 05 KanColle Itsuka Ano Umi de|「艦これ」いつかあの海で
 2022/12/23-00:00:02 12 Isekai Ojisan|異世界おじさん
 2022/12/06-12:00:01 08 Golden Kamuy 4|ゴールデンカムイ(第四期)
