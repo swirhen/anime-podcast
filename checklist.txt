@@ -1,11 +1,12 @@
-Last Update: 2023/01/14-00:00:02
+Last Update: 2023/01/14-06:00:02
+2023/01/14-06:00:02 02 Hyouken no Majutsushi ga Sekai o Suberu|冰剣の魔術師が世界を統べる
+2023/01/14-06:00:02 01 Tokyo Revengers Seiya Kessen Hen|東京リベンジャーズ 聖夜決戦編
+2023/01/14-06:00:02 01 Inu ni Nattara Suki na Hito ni Hirowareta.|犬になったら好きな人に拾われた。
+2023/01/14-06:00:02 01 D4DJ All Mix|D4DJ All Mix
 2023/01/14-00:00:02 13 Urusei Yatsura|うる星やつら(2022)
 2023/01/14-00:00:02 02 Sugar Apple Fairy Tale|シュガーアップル・フェアリーテイル
 2023/01/14-00:00:02 02 Jaryuu Nintei|齢5000年の草食ドラゴン、いわれなき邪竜認定
 2023/01/14-00:00:02 02 Isekai Nonbiri Nouka|異世界のんびり農家
-2023/01/14-00:00:02 0 Tokyo Revengers Seiya Kessen Hen|東京リベンジャーズ 聖夜決戦編
-2023/01/14-00:00:02 0 Inu ni Nattara Suki na Hito ni Hirowareta.|犬になったら好きな人に拾われた。
-2023/01/14-00:00:02 0 D4DJ All Mix|D4DJ All Mix
 2023/01/13-06:00:02 02 Onii-chan wa Oshimai!|お兄ちゃんはおしまい！
 2023/01/13-06:00:02 01 Tondemo Skill de Isekai Hourou Meshi|とんでもスキルで異世界放浪メシ
 2023/01/13-00:00:02 02 Tomo-chan wa Onnanoko!|トモちゃんは女の子！
@@ -45,7 +46,6 @@ Last Update: 2023/01/14-00:00:02
 2023/01/08-00:00:02 13 Mairimashita! Iruma-kun 3|魔入りました！入間くん(第3シリーズ)
 2023/01/07-18:00:01 01 Tsunlise-pr|ツンデレ悪役令嬢リーゼロッテと実況の遠藤くんと解説の小林さん
 2023/01/07-18:00:01 01  Danmachi IV 2023|ダンジョンに出会いを求めるのは間違っているだろうかIV 深章 厄災篇
-2023/01/07-12:00:01 01 Hyouken no Majutsushi ga Sekai o Suberu|冰剣の魔術師が世界を統べる
 2023/01/07-12:00:01 01 Buddy Daddies|Buddy Daddies
 2022/12/23-18:00:02 05 KanColle Itsuka Ano Umi de|「艦これ」いつかあの海で
 2022/12/23-00:00:02 12 Isekai Ojisan|異世界おじさん
