@@ -1,8 +1,9 @@
-Last Update: 2023/01/16-18:05:38
+Last Update: 2023/01/17-00:00:02
+2023/01/17-00:00:02 02 High Card|HIGH CARD
+2023/01/17-00:00:02 01 Ooyuki Umi no Kaina|大雪海のカイナ
 2023/01/16-18:05:38 12 Fumetsu no Anata e Season 2|不滅のあなたへ Season2
 2023/01/16-18:05:38 02 Rougo ni Sonaete Isekai de 8-manmai no Kinka o Tamemasu|老後に備えて異世界で8万枚の金貨を貯めます
 2023/01/16-18:05:38 02 Benriya Saitou-san, Isekai ni Iku|便利屋斎藤さん、異世界に行く
-2023/01/16-18:05:38 0 Ooyuki Umi no Kaina|大雪海のカイナ
 2023/01/15-12:00:02 12 Yowamushi Pedal Limit Break|弱虫ペダル LIMIT BREAK
 2023/01/15-06:00:02 14 Mairimashita! Iruma-kun 3|魔入りました！入間くん(第3シリーズ)
 2023/01/15-06:00:02 02 The Angel Next Door Spoils Me Rotten|お隣の天使様にいつの間にか駄目人間にされていた件
@@ -48,7 +49,6 @@ Last Update: 2023/01/16-18:05:38
 2023/01/10-12:00:02 01 Ars no Kyojuu|アルスの巨獣
 2023/01/10-06:00:01 01 The Legend of Heroes Sen no Kiseki - Northern War|The Legend of Heroes 閃の軌跡 Northern War
 2023/01/10-06:00:01 01 Kyuuketsuki Sugu Shinu 2|吸血鬼すぐ死ぬ2
-2023/01/10-06:00:01 01 High Card|HIGH CARD
 2022/12/23-18:00:02 05 KanColle Itsuka Ano Umi de|「艦これ」いつかあの海で
 2022/12/23-00:00:02 12 Isekai Ojisan|異世界おじさん
 2022/12/06-12:00:01 08 Golden Kamuy 4|ゴールデンカムイ(第四期)
