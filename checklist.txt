@@ -1,4 +1,8 @@
-Last Update: 2023/01/18-06:00:02
+Last Update: 2023/01/18-12:00:02
+2023/01/18-12:00:02 14 Cool Doji Danshi|クールドジ男子
+2023/01/18-12:00:02 02 Tokyo Revengers Seiya Kessen Hen|東京リベンジャーズ 聖夜決戦編
+2023/01/18-12:00:02 02 Nokemono-tachi no Yoru|ノケモノたちの夜
+2023/01/18-12:00:02 02 Ningen Fushin|人間不信の冒険者たちが世界を救うようです
 2023/01/18-00:00:03 02 Vinland Saga Season 2|ヴィンランド・サガ SEASON 2
 2023/01/18-00:00:03 02 Mononogatari|もののがたり
 2023/01/18-00:00:03 02 Kyuuketsuki Sugu Shinu 2|吸血鬼すぐ死ぬ2
@@ -28,7 +32,6 @@ Last Update: 2023/01/18-06:00:02
 2023/01/14-12:00:01 02 Buddy Daddies|Buddy Daddies
 2023/01/14-12:00:01 02  Danmachi IV 2023|ダンジョンに出会いを求めるのは間違っているだろうかIV 深章 厄災篇
 2023/01/14-06:00:02 02 Hyouken no Majutsushi ga Sekai o Suberu|冰剣の魔術師が世界を統べる
-2023/01/14-06:00:02 01 Tokyo Revengers Seiya Kessen Hen|東京リベンジャーズ 聖夜決戦編
 2023/01/14-06:00:02 01 Inu ni Nattara Suki na Hito ni Hirowareta.|犬になったら好きな人に拾われた。
 2023/01/14-06:00:02 01 D4DJ All Mix|D4DJ All Mix
 2023/01/14-00:00:02 13 Urusei Yatsura|うる星やつら(2022)
@@ -47,9 +50,6 @@ Last Update: 2023/01/18-06:00:02
 2023/01/12-12:00:01 01 Eiyuu Ou, Bu o Kiwameru Tame Tenseisu|英雄王、武を極めるため転生す ～そして、世界最強の見習い騎士♀～
 2023/01/12-06:00:01 15 Kage no Jitsuryokusha ni Naritakute|陰の実力者になりたくて！
 2023/01/12-06:00:01 02 Tensei Oujo to Tensai Reijou no Mahou Kakumei|転生王女と天才令嬢の魔法革命
-2023/01/12-06:00:01 01 Nokemono-tachi no Yoru|ノケモノたちの夜
-2023/01/12-06:00:01 01 Ningen Fushin|人間不信の冒険者たちが世界を救うようです
-2023/01/11-12:00:01 13 Cool Doji Danshi|クールドジ男子
 2022/12/23-18:00:02 05 KanColle Itsuka Ano Umi de|「艦これ」いつかあの海で
 2022/12/23-00:00:02 12 Isekai Ojisan|異世界おじさん
 2022/12/06-12:00:01 08 Golden Kamuy 4|ゴールデンカムイ(第四期)
