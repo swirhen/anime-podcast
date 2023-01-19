@@ -1,5 +1,9 @@
-Last Update: 2023/01/19-18:00:02
-0 0 Majutsushi Orphen Hagure Tabi Urbanrama Hen|魔術士オーフェンはぐれ旅 アーバンラマ編
+Last Update: 2023/01/20-00:00:02
+2023/01/20-00:00:02 03 Spy Kyoushitsu|スパイ教室
+2023/01/20-00:00:02 03 Revenger|REVENGER
+2023/01/20-00:00:02 03 Bungou Stray Dogs 4|文豪ストレイドッグス(第4シーズン)
+2023/01/20-00:00:02 02 Tondemo Skill de Isekai Hourou Meshi|とんでもスキルで異世界放浪メシ
+2023/01/20-00:00:02 01 Majutsushi Orphen Hagure Tabi Urbanrama Hen|魔術士オーフェンはぐれ旅 アーバンラマ編
 2023/01/19-12:00:02 16 Kage no Jitsuryokusha ni Naritakute|陰の実力者になりたくて！
 2023/01/19-12:00:02 03 Tomo-chan wa Onnanoko!|トモちゃんは女の子！
 2023/01/19-12:00:02 03 Tensei Oujo to Tensai Reijou no Mahou Kakumei|転生王女と天才令嬢の魔法革命
@@ -47,10 +51,6 @@ Last Update: 2023/01/19-18:00:02
 2023/01/14-00:00:02 02 Jaryuu Nintei|齢5000年の草食ドラゴン、いわれなき邪竜認定
 2023/01/14-00:00:02 02 Isekai Nonbiri Nouka|異世界のんびり農家
 2023/01/13-06:00:02 02 Onii-chan wa Oshimai!|お兄ちゃんはおしまい！
-2023/01/13-06:00:02 01 Tondemo Skill de Isekai Hourou Meshi|とんでもスキルで異世界放浪メシ
-2023/01/13-00:00:02 02 Spy Kyoushitsu|スパイ教室
-2023/01/13-00:00:02 02 Revenger|REVENGER
-2023/01/13-00:00:02 02 Bungou Stray Dogs 4|文豪ストレイドッグス(第4シーズン)
 2022/12/23-18:00:02 05 KanColle Itsuka Ano Umi de|「艦これ」いつかあの海で
 2022/12/23-00:00:02 12 Isekai Ojisan|異世界おじさん
 2022/12/06-12:00:01 08 Golden Kamuy 4|ゴールデンカムイ(第四期)
