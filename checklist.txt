@@ -1,4 +1,10 @@
-Last Update: 2023/01/20-18:00:02
+Last Update: 2023/01/21-00:00:02
+2023/01/21-00:00:02 14 Urusei Yatsura|うる星やつら(2022)
+2023/01/21-00:00:02 03 Sugar Apple Fairy Tale|シュガーアップル・フェアリーテイル
+2023/01/21-00:00:02 03 Jaryuu Nintei|齢5000年の草食ドラゴン、いわれなき邪竜認定
+2023/01/21-00:00:02 03 Isekai Nonbiri Nouka|異世界のんびり農家
+2023/01/21-00:00:02 02 Inu ni Nattara Suki na Hito ni Hirowareta.|犬になったら好きな人に拾われた。
+2023/01/21-00:00:02 02 D4DJ All Mix|D4DJ All Mix
 2023/01/20-06:00:02 03 Onii-chan wa Oshimai!|お兄ちゃんはおしまい！
 2023/01/20-00:00:02 03 Spy Kyoushitsu|スパイ教室
 2023/01/20-00:00:02 03 Revenger|REVENGER
@@ -45,12 +51,6 @@ Last Update: 2023/01/20-18:00:02
 2023/01/14-12:00:01 02 Buddy Daddies|Buddy Daddies
 2023/01/14-12:00:01 02  Danmachi IV 2023|ダンジョンに出会いを求めるのは間違っているだろうかIV 深章 厄災篇
 2023/01/14-06:00:02 02 Hyouken no Majutsushi ga Sekai o Suberu|冰剣の魔術師が世界を統べる
-2023/01/14-06:00:02 01 Inu ni Nattara Suki na Hito ni Hirowareta.|犬になったら好きな人に拾われた。
-2023/01/14-06:00:02 01 D4DJ All Mix|D4DJ All Mix
-2023/01/14-00:00:02 13 Urusei Yatsura|うる星やつら(2022)
-2023/01/14-00:00:02 02 Sugar Apple Fairy Tale|シュガーアップル・フェアリーテイル
-2023/01/14-00:00:02 02 Jaryuu Nintei|齢5000年の草食ドラゴン、いわれなき邪竜認定
-2023/01/14-00:00:02 02 Isekai Nonbiri Nouka|異世界のんびり農家
 2022/12/23-18:00:02 05 KanColle Itsuka Ano Umi de|「艦これ」いつかあの海で
 2022/12/23-00:00:02 12 Isekai Ojisan|異世界おじさん
 2022/12/06-12:00:01 08 Golden Kamuy 4|ゴールデンカムイ(第四期)
