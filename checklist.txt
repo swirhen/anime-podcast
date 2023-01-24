@@ -1,4 +1,6 @@
-Last Update: 2023/01/24-18:00:02
+Last Update: 2023/01/25-01:58:47
+2023/01/25-01:58:47 03 Vinland Saga Season 2|ヴィンランド・サガ SEASON 2
+2023/01/25-01:58:47 03 Kubo-san wa Boku o Yurusanai|半妖の夜叉姫 弐の章
 2023/01/24-18:00:02 03 Kyokou Suiri Season 2|虚構推理 Season2
 2023/01/24-18:00:02 02 Shin Shinka no Mi Shiranai Uchi ni Kachigumi Jinsei|真・進化の実～知らないうちに勝ち組人生～
 2023/01/24-12:00:02 03 Mononogatari|もののがたり
@@ -48,8 +50,6 @@ Last Update: 2023/01/24-18:00:02
 2023/01/18-12:00:02 02 Tokyo Revengers Seiya Kessen Hen|東京リベンジャーズ 聖夜決戦編
 2023/01/18-12:00:02 02 Nokemono-tachi no Yoru|ノケモノたちの夜
 2023/01/18-12:00:02 02 Ningen Fushin|人間不信の冒険者たちが世界を救うようです
-2023/01/18-00:00:03 02 Vinland Saga Season 2|ヴィンランド・サガ SEASON 2
-2023/01/18-00:00:03 02 Kubo-san wa Boku o Yurusanai|半妖の夜叉姫 弐の章
 2023/01/15-00:00:01 15 Boku no Hero Academia 6|僕のヒーローアカデミア(第6期)
 2022/12/23-18:00:02 05 KanColle Itsuka Ano Umi de|「艦これ」いつかあの海で
 2022/12/23-00:00:02 12 Isekai Ojisan|異世界おじさん
