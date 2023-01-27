@@ -1,4 +1,10 @@
-Last Update: 2023/01/27-18:00:01
+Last Update: 2023/01/28-00:00:01
+2023/01/28-00:00:01 15 Urusei Yatsura|うる星やつら(2022)
+2023/01/28-00:00:01 04 Sugar Apple Fairy Tale|シュガーアップル・フェアリーテイル
+2023/01/28-00:00:01 04 Jaryuu Nintei|齢5000年の草食ドラゴン、いわれなき邪竜認定
+2023/01/28-00:00:01 04 Isekai Nonbiri Nouka|異世界のんびり農家
+2023/01/28-00:00:01 03 Inu ni Nattara Suki na Hito ni Hirowareta.|犬になったら好きな人に拾われた。
+2023/01/28-00:00:01 03 D4DJ All Mix|D4DJ All Mix
 2023/01/27-12:00:02 04 Bungou Stray Dogs 4|文豪ストレイドッグス(第4シーズン)
 2023/01/27-06:00:02 04 Onii-chan wa Oshimai!|お兄ちゃんはおしまい！
 2023/01/27-00:00:03 04 Tomo-chan wa Onnanoko!|トモちゃんは女の子！
@@ -44,12 +50,6 @@ Last Update: 2023/01/27-18:00:01
 2023/01/21-12:00:02 03 Hyouken no Majutsushi ga Sekai o Suberu|冰剣の魔術師が世界を統べる
 2023/01/21-12:00:02 03 Buddy Daddies|Buddy Daddies
 2023/01/21-12:00:02 03  Danmachi IV 2023|ダンジョンに出会いを求めるのは間違っているだろうかIV 深章 厄災篇
-2023/01/21-00:00:02 14 Urusei Yatsura|うる星やつら(2022)
-2023/01/21-00:00:02 03 Sugar Apple Fairy Tale|シュガーアップル・フェアリーテイル
-2023/01/21-00:00:02 03 Jaryuu Nintei|齢5000年の草食ドラゴン、いわれなき邪竜認定
-2023/01/21-00:00:02 03 Isekai Nonbiri Nouka|異世界のんびり農家
-2023/01/21-00:00:02 02 Inu ni Nattara Suki na Hito ni Hirowareta.|犬になったら好きな人に拾われた。
-2023/01/21-00:00:02 02 D4DJ All Mix|D4DJ All Mix
 2023/01/15-00:00:01 15 Boku no Hero Academia 6|僕のヒーローアカデミア(第6期)
 2022/12/23-18:00:02 05 KanColle Itsuka Ano Umi de|「艦これ」いつかあの海で
 2022/12/23-00:00:02 12 Isekai Ojisan|異世界おじさん
