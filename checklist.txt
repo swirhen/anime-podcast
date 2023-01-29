@@ -1,4 +1,5 @@
-Last Update: 2023/01/29-06:00:02
+Last Update: 2023/01/29-12:00:01
+2023/01/29-12:00:01 14 Yowamushi Pedal Limit Break|弱虫ペダル LIMIT BREAK
 2023/01/29-06:00:02 04 The Angel Next Door Spoils Me Rotten|お隣の天使様にいつの間にか駄目人間にされていた件
 2023/01/29-06:00:02 04 Saikyou Onmyouji no Isekai Tenseiki|最強陰陽師の異世界転生記
 2023/01/29-06:00:02 04 Maou Gakuin no Futekigousha II|魔王学院の不適合者II～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～
@@ -48,7 +49,6 @@ Last Update: 2023/01/29-06:00:02
 2023/01/23-00:00:02 13 Fumetsu no Anata e Season 2|不滅のあなたへ Season2
 2023/01/23-00:00:02 03 Benriya Saitou-san, Isekai ni Iku|便利屋斎藤さん、異世界に行く
 2023/01/23-00:00:02 02 Ooyuki Umi no Kaina|大雪海のカイナ
-2023/01/22-06:00:01 13 Yowamushi Pedal Limit Break|弱虫ペダル LIMIT BREAK
 2023/01/22-06:00:01 03 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2023/01/22-00:00:02 15 Mairimashita! Iruma-kun 3|魔入りました！入間くん(第3シリーズ)
 2022/12/23-18:00:02 05 KanColle Itsuka Ano Umi de|「艦これ」いつかあの海で
