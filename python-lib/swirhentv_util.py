@@ -22,6 +22,8 @@ import make_feed_db as db
 # argment section
 current_dir = pathlib.Path(__file__).resolve().parent
 SCRIPT_DIR = str(current_dir)
+#RUBY_PATH = '/home/swirhen/.rbenv/versions/2.6.6/bin/ruby'
+RUBY_PATH = 'ruby'
 CHECKLIST_FILE_PATH = f'{SCRIPT_DIR}/../checklist.txt'
 SEED_BACKUP_DIR = f'{SCRIPT_DIR}/../download_seeds'
 DISCORD_WEBHOOK_URI_FILE = f'{SCRIPT_DIR}/discord_webhook_url'
@@ -488,14 +490,14 @@ def encode_movie_proc(file_path, output_dir, tmpdir='/data/tmp'):
 
 # しゅにるスクリプト呼び出し フィード作成(最近のアニメ)
 def make_feed(target_dir):
-    subprocess.run(f'{SCRIPT_DIR}/../mkpodcast.rb -t "{target_dir}/*.*" -b "http://swirhen.tv/movie/pspmp4/" -o "{target_dir}/index.xml" --title "最近のアニメ"', shell=True)
+    subprocess.run(f'{RUBY_PATH} {SCRIPT_DIR}/../mkpodcast.rb -t "{target_dir}/*.*" -b "http://swirhen.tv/movie/pspmp4/" -o "{target_dir}/index.xml" --title "最近のアニメ"', shell=True)
     db.make_feed_data('index')
 
 
 # しゅにるスクリプト呼び出し フィード作成(任意のディレクトリ、タイトル)
 def make_feed_manually(target_dir, title):
     target_dir_not_parent_dir = pathlib.Path(target_dir).name
-    subprocess.run(f'{SCRIPT_DIR}/../mkpodcast.rb -t "{target_dir}/*.*" -b "http://swirhen.tv/movie/pspmp4/{target_dir_not_parent_dir}/" -o "{target_dir}.xml" --title "{title}"', shell=True)
+    subprocess.run(f'{RUBY_PATH} {SCRIPT_DIR}/../mkpodcast.rb -t "{target_dir}/*.*" -b "http://swirhen.tv/movie/pspmp4/{target_dir_not_parent_dir}/" -o "{target_dir}.xml" --title "{title}"', shell=True)
     db.make_feed_list_data()
     db.make_feed_data(target_dir_not_parent_dir)
 

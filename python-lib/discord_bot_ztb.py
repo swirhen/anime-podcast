@@ -25,7 +25,7 @@ with open(f'{SCRIPT_DIR}/discord_token_ztb') as tokenfile:
 
 
 # 接続に必要なオブジェクトを生成
-client = discord.Client()
+client = discord.Client(intents=discord.Intents.all())
 
 
 # 起動時に動作する処理
