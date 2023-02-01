@@ -1,5 +1,6 @@
 # m h  dom mon dow   command
 MAILTO=""
+PATH=/home/swirhen/.rbenv/shims:/home/swirhen/.rbenv/bin:/home/swirhen/perl5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/swirhen/.rvm/bin
 5-50/15 * * * * /home/swirhen/sh/upip.sh
 0 0 * * * /home/swirhen/sh/upip.sh f
 */15 * * * * /home/swirhen/sh/checkdatadrv.sh
