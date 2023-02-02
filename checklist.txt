@@ -1,4 +1,7 @@
-Last Update: 2023/02/02-06:00:02
+Last Update: 2023/02/02-12:00:02
+2023/02/02-12:00:02 05 Tomo-chan wa Onnanoko!|トモちゃんは女の子！
+2023/02/02-12:00:02 04 Kami-tachi ni Hirowareta Otoko 2|神達に拾われた男2
+2023/02/02-12:00:02 04 Bougyoryoku 2|痛いのは嫌なので防御力に極振りしたいと思います。2
 2023/02/02-00:00:02 18 Kage no Jitsuryokusha ni Naritakute|陰の実力者になりたくて！
 2023/02/02-00:00:02 05 Tensei Oujo to Tensai Reijou no Mahou Kakumei|転生王女と天才令嬢の魔法革命
 2023/02/02-00:00:02 04 Eiyuu Ou, Bu o Kiwameru Tame Tenseisu|英雄王、武を極めるため転生す ～そして、世界最強の見習い騎士♀～
@@ -42,13 +45,10 @@ Last Update: 2023/02/02-06:00:02
 2023/01/28-00:00:01 03 D4DJ All Mix|D4DJ All Mix
 2023/01/27-12:00:02 04 Bungou Stray Dogs 4|文豪ストレイドッグス(第4シーズン)
 2023/01/27-06:00:02 04 Onii-chan wa Oshimai!|お兄ちゃんはおしまい！
-2023/01/27-00:00:03 04 Tomo-chan wa Onnanoko!|トモちゃんは女の子！
 2023/01/27-00:00:03 04 Spy Kyoushitsu|スパイ教室
 2023/01/27-00:00:03 04 Revenger|REVENGER
 2023/01/27-00:00:03 03 Tondemo Skill de Isekai Hourou Meshi|とんでもスキルで異世界放浪メシ
 2023/01/27-00:00:03 03 Mou Ippon!|もういっぽん！
-2023/01/26-12:00:02 03 Kami-tachi ni Hirowareta Otoko 2|神達に拾われた男2
-2023/01/26-12:00:02 03 Bougyoryoku 2|痛いのは嫌なので防御力に極振りしたいと思います。2
 2023/01/24-00:00:02 03 High Card|HIGH CARD
 2023/01/22-06:00:01 03 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2022/12/23-18:00:02 05 KanColle Itsuka Ano Umi de|「艦これ」いつかあの海で
