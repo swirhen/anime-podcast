@@ -1,4 +1,7 @@
-Last Update: 2023/02/03-06:00:02
+Last Update: 2023/02/03-12:00:02
+2023/02/03-12:00:02 05 Spy Kyoushitsu|スパイ教室
+2023/02/03-12:00:02 05 Onii-chan wa Oshimai!|お兄ちゃんはおしまい！
+2023/02/03-12:00:02 05 Bungou Stray Dogs 4|文豪ストレイドッグス(第4シーズン)
 2023/02/03-00:00:02 05 Revenger|REVENGER
 2023/02/03-00:00:02 04 Tondemo Skill de Isekai Hourou Meshi|とんでもスキルで異世界放浪メシ
 2023/02/03-00:00:02 04 Mou Ippon!|もういっぽん！
@@ -46,9 +49,6 @@ Last Update: 2023/02/03-06:00:02
 2023/01/28-00:00:01 04 Isekai Nonbiri Nouka|異世界のんびり農家
 2023/01/28-00:00:01 03 Inu ni Nattara Suki na Hito ni Hirowareta.|犬になったら好きな人に拾われた。
 2023/01/28-00:00:01 03 D4DJ All Mix|D4DJ All Mix
-2023/01/27-12:00:02 04 Bungou Stray Dogs 4|文豪ストレイドッグス(第4シーズン)
-2023/01/27-06:00:02 04 Onii-chan wa Oshimai!|お兄ちゃんはおしまい！
-2023/01/27-00:00:03 04 Spy Kyoushitsu|スパイ教室
 2023/01/24-00:00:02 03 High Card|HIGH CARD
 2023/01/22-06:00:01 03 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2022/12/23-18:00:02 05 KanColle Itsuka Ano Umi de|「艦これ」いつかあの海で
