@@ -5,8 +5,8 @@ PATH=/home/swirhen/.rbenv/shims:/home/swirhen/.rbenv/bin:/home/swirhen/perl5/bin
 0 0 * * * /home/swirhen/sh/upip.sh f
 */15 * * * * /home/swirhen/sh/checkdatadrv.sh
 */5 * * * * /home/swirhen/sh/checkmysqlservice.sh
-@reboot /home/swirhen/sh/tiarrakw.sh
 @reboot /home/swirhen/sh/tigkw.sh
+@reboot sleep 30; /home/swirhen/sh/tiarrakw.sh
 @reboot mkdir /tmp/vga
 @reboot nohup python /data/share/movie/sh/python-lib/slackbot_run.py > /dev/null &
 @reboot nohup python /data/share/movie/sh/python-lib/discord_bot.py > /dev/null &
