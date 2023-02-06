@@ -1,4 +1,6 @@
-Last Update: 2023/02/06-18:00:01
+Last Update: 2023/02/07-00:00:03
+2023/02/07-00:00:03 05 The Legend of Heroes Sen no Kiseki - Northern War|The Legend of Heroes 閃の軌跡 Northern War
+2023/02/07-00:00:03 05 High Card|HIGH CARD
 2023/02/06-12:00:02 05 Rougo ni Sonaete Isekai de 8-manmai no Kinka o Tamemasu|老後に備えて異世界で8万枚の金貨を貯めます
 2023/02/06-12:00:02 04 Ooyuki Umi no Kaina|大雪海のカイナ
 2023/02/06-00:00:02 15 Fumetsu no Anata e Season 2|不滅のあなたへ Season2
@@ -44,12 +46,10 @@ Last Update: 2023/02/06-18:00:01
 2023/02/01-09:52:56 04 Kyokou Suiri Season 2|虚構推理 Season2
 2023/02/01-09:52:56 04 Kubo-san wa Boku o Yurusanai|半妖の夜叉姫 弐の章
 2023/02/01-09:52:56 03 Shin Shinka no Mi Shiranai Uchi ni Kachigumi Jinsei|真・進化の実～知らないうちに勝ち組人生～
-2023/01/31-12:00:02 04 The Legend of Heroes Sen no Kiseki - Northern War|The Legend of Heroes 閃の軌跡 Northern War
 2023/01/31-12:00:02 04 Mononogatari|もののがたり
 2023/01/31-12:00:02 04 Kyuuketsuki Sugu Shinu 2|吸血鬼すぐ死ぬ2
 2023/01/31-12:00:02 04 Ayakashi Triangle|あやかしトライアングル
 2023/01/31-12:00:02 04 Ars no Kyojuu|アルスの巨獣
-2023/01/24-00:00:02 03 High Card|HIGH CARD
 2023/01/22-06:00:01 03 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2022/12/23-18:00:02 05 KanColle Itsuka Ano Umi de|「艦これ」いつかあの海で
 2022/12/23-00:00:02 12 Isekai Ojisan|異世界おじさん
