@@ -430,7 +430,7 @@ def torrent_download(filepath, slack_channel='bot-open'):
     td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
     return_log.append(f'{td} {post_msg.replace("`", "")}')
 
-    proc = subprocess.Popen('aria2c --listen-port=38888 --max-upload-limit=200K --seed-ratio=0.01 --seed-time=1 *.torrent', shell=True)
+    proc = subprocess.Popen('aria2c --listen-port=38888 --max-upload-limit=500K --seed-time=0 --enable-http-pipelining=true --on-download-complete=exit *.torrent', shell=True)
     time.sleep(10)
 
     while True:
