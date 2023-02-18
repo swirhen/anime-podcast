@@ -1,4 +1,7 @@
-Last Update: 2023/02/19-00:00:02
+Last Update: 2023/02/19-06:00:01
+2023/02/19-06:00:01 07 The Angel Next Door Spoils Me Rotten|お隣の天使様にいつの間にか駄目人間にされていた件
+2023/02/19-06:00:01 07 Saikyou Onmyouji no Isekai Tenseiki|最強陰陽師の異世界転生記
+2023/02/19-06:00:01 04 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2023/02/19-00:00:02 20 Boku no Hero Academia 6|僕のヒーローアカデミア(第6期)
 2023/02/19-00:00:02 07 Koori Zokusei Danshi to Cool na Douryou Joshi|氷属性男子とクールな同僚女子
 2023/02/19-00:00:02 07 Ankoku Heishi|解雇された暗黒兵士(30代)のスローなセカンドライフ
@@ -41,8 +44,6 @@ Last Update: 2023/02/19-00:00:02
 2023/02/12-18:00:02 18 Yowamushi Pedal Limit Break|弱虫ペダル LIMIT BREAK
 2023/02/12-18:00:02 18 Mairimashita! Iruma-kun 3|魔入りました！入間くん(第3シリーズ)
 2023/02/12-12:00:02 06 Ijiranaide, Nagatoro-san 2nd|イジらないで、長瀞さん 2nd Attack
-2023/02/12-06:00:01 06 The Angel Next Door Spoils Me Rotten|お隣の天使様にいつの間にか駄目人間にされていた件
-2023/02/12-06:00:01 06 Saikyou Onmyouji no Isekai Tenseiki|最強陰陽師の異世界転生記
 2023/02/12-06:00:01 06 Maou Gakuin no Futekigousha II|魔王学院の不適合者II～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～
 2023/02/11-12:00:02 06 Jaryuu Nintei|齢5000年の草食ドラゴン、いわれなき邪竜認定
 2023/02/11-12:00:02 05 Inu ni Nattara Suki na Hito ni Hirowareta.|犬になったら好きな人に拾われた。
@@ -50,7 +51,6 @@ Last Update: 2023/02/19-00:00:02
 2023/02/08-18:00:02 05 Nokemono-tachi no Yoru|ノケモノたちの夜
 2023/02/07-12:00:02 05 Mononogatari|もののがたり
 2023/02/07-12:00:02 05 Ayakashi Triangle|あやかしトライアングル
-2023/01/22-06:00:01 03 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2022/12/23-18:00:02 05 KanColle Itsuka Ano Umi de|「艦これ」いつかあの海で
 2022/12/23-00:00:02 12 Isekai Ojisan|異世界おじさん
 2022/12/06-12:00:01 08 Golden Kamuy 4|ゴールデンカムイ(第四期)
