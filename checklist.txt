@@ -1,4 +1,7 @@
-Last Update: 2023/02/25-18:00:02
+Last Update: 2023/02/26-00:00:02
+2023/02/26-00:00:02 21 Boku no Hero Academia 6|僕のヒーローアカデミア(第6期)
+2023/02/26-00:00:02 20 Mairimashita! Iruma-kun 3|魔入りました！入間くん(第3シリーズ)
+2023/02/26-00:00:02 08 Koori Zokusei Danshi to Cool na Douryou Joshi|氷属性男子とクールな同僚女子
 2023/02/25-12:00:01 19 Urusei Yatsura|うる星やつら(2022)
 2023/02/25-12:00:01 08 Tsunlise-pr|ツンデレ悪役令嬢リーゼロッテと実況の遠藤くんと解説の小林さん
 2023/02/25-12:00:01 08 Hyouken no Majutsushi ga Sekai o Suberu|冰剣の魔術師が世界を統べる
@@ -28,7 +31,6 @@ Last Update: 2023/02/25-18:00:02
 2023/02/21-12:00:03 07 The Legend of Heroes Sen no Kiseki - Northern War|The Legend of Heroes 閃の軌跡 Northern War
 2023/02/21-12:00:03 07 Ars no Kyojuu|アルスの巨獣
 2023/02/21-12:00:03 06 Shin Shinka no Mi Shiranai Uchi ni Kachigumi Jinsei|真・進化の実～知らないうちに勝ち組人生～
-2023/02/21-00:00:02 19 Mairimashita! Iruma-kun 3|魔入りました！入間くん(第3シリーズ)
 2023/02/21-00:00:02 07 High Card|HIGH CARD
 2023/02/20-12:00:02 07 Rougo ni Sonaete Isekai de 8-manmai no Kinka o Tamemasu|老後に備えて異世界で8万枚の金貨を貯めます
 2023/02/20-12:00:02 06 Ooyuki Umi no Kaina|大雪海のカイナ
@@ -41,8 +43,6 @@ Last Update: 2023/02/25-18:00:02
 2023/02/19-06:00:01 07 The Angel Next Door Spoils Me Rotten|お隣の天使様にいつの間にか駄目人間にされていた件
 2023/02/19-06:00:01 07 Saikyou Onmyouji no Isekai Tenseiki|最強陰陽師の異世界転生記
 2023/02/19-06:00:01 04 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
-2023/02/19-00:00:02 20 Boku no Hero Academia 6|僕のヒーローアカデミア(第6期)
-2023/02/19-00:00:02 07 Koori Zokusei Danshi to Cool na Douryou Joshi|氷属性男子とクールな同僚女子
 2023/02/19-00:00:02 07 Ankoku Heishi|解雇された暗黒兵士(30代)のスローなセカンドライフ
 2023/02/19-00:00:02 06 Hikari no Ou|火狩りの王
 2023/02/17-12:00:02 07 Spy Kyoushitsu|スパイ教室
