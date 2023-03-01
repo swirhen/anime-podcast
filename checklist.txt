@@ -1,4 +1,6 @@
-Last Update: 2023/03/01-12:00:02
+Last Update: 2023/03/01-18:00:02
+2023/03/01-18:00:02 08 Nokemono-tachi no Yoru|ノケモノたちの夜
+2023/03/01-18:00:02 08 Kyuuketsuki Sugu Shinu 2|吸血鬼すぐ死ぬ2
 2023/03/01-12:00:02 20 Cool Doji Danshi|クールドジ男子
 2023/03/01-12:00:02 08 Tokyo Revengers Seiya Kessen Hen|東京リベンジャーズ 聖夜決戦編
 2023/03/01-12:00:02 08 Ningen Fushin|人間不信の冒険者たちが世界を救うようです
@@ -42,9 +44,7 @@ Last Update: 2023/03/01-12:00:02
 2023/02/23-12:00:02 07 Kami-tachi ni Hirowareta Otoko 2|神達に拾われた男2
 2023/02/23-00:00:02 08 Tensei Oujo to Tensai Reijou no Mahou Kakumei|転生王女と天才令嬢の魔法革命
 2023/02/23-00:00:02 07 Eiyuu Ou, Bu o Kiwameru Tame Tenseisu|英雄王、武を極めるため転生す ～そして、世界最強の見習い騎士♀～
-2023/02/23-00:00:02 06 Nokemono-tachi no Yoru|ノケモノたちの夜
 2023/02/23-00:00:02 06 Majutsushi Orphen Hagure Tabi Urbanrama Hen|魔術士オーフェンはぐれ旅 アーバンラマ編
-2023/02/22-00:00:02 07 Kyuuketsuki Sugu Shinu 2|吸血鬼すぐ死ぬ2
 2023/02/17-12:00:02 07 Spy Kyoushitsu|スパイ教室
 2023/02/16-12:00:02 06 Bougyoryoku 2|痛いのは嫌なので防御力に極振りしたいと思います。2
 2023/02/16-00:00:02 20 Kage no Jitsuryokusha ni Naritakute|陰の実力者になりたくて！
