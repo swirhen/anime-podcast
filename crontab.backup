@@ -68,6 +68,7 @@ PATH=/home/swirhen/.rbenv/shims:/home/swirhen/.rbenv/bin:/home/swirhen/perl5/bin
 5 3 * * 2 /data/share/movie/sh/agqrrelease.sh
 5 0 * * 7 /data/share/movie/sh/agqrrelease.sh
 5 23 * * 7 /data/share/movie/sh/agqrrelease.sh
+5 5 5 3 * /data/share/movie/sh/agqrrelease.sh
 
 # twitter search
 */10 * * * * python /home/swirhen/sh/checker/twitterchk/twitter_check.py
