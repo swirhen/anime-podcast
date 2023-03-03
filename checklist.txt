@@ -1,4 +1,6 @@
-Last Update: 2023/03/03-06:00:01
+Last Update: 2023/03/03-12:00:02
+2023/03/03-12:00:02 09 Onii-chan wa Oshimai!|お兄ちゃんはおしまい！
+2023/03/03-12:00:02 09 Bungou Stray Dogs 4|文豪ストレイドッグス(第4シーズン)
 2023/03/03-00:00:02 09 Tomo-chan wa Onnanoko!|トモちゃんは女の子！
 2023/03/03-00:00:02 09 Revenger|REVENGER
 2023/03/03-00:00:02 08 Tondemo Skill de Isekai Hourou Meshi|とんでもスキルで異世界放浪メシ
@@ -44,8 +46,6 @@ Last Update: 2023/03/03-06:00:01
 2023/02/25-12:00:01 07 D4DJ All Mix|D4DJ All Mix
 2023/02/25-00:00:02 08 Sugar Apple Fairy Tale|シュガーアップル・フェアリーテイル
 2023/02/25-00:00:02 08 Isekai Nonbiri Nouka|異世界のんびり農家
-2023/02/24-12:00:02 08 Bungou Stray Dogs 4|文豪ストレイドッグス(第4シーズン)
-2023/02/24-06:00:02 08 Onii-chan wa Oshimai!|お兄ちゃんはおしまい！
 2023/02/16-12:00:02 06 Bougyoryoku 2|痛いのは嫌なので防御力に極振りしたいと思います。2
 2023/02/16-00:00:02 20 Kage no Jitsuryokusha ni Naritakute|陰の実力者になりたくて！
 2023/02/15-00:00:03 06 Kubo-san wa Boku o Yurusanai|半妖の夜叉姫 弐の章
