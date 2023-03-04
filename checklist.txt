@@ -1,4 +1,10 @@
-Last Update: 2023/03/04-18:00:01
+Last Update: 2023/03/05-00:00:02
+2023/03/05-00:00:02 22 Boku no Hero Academia 6|僕のヒーローアカデミア(第6期)
+2023/03/05-00:00:02 21 Mairimashita! Iruma-kun 3|魔入りました！入間くん(第3シリーズ)
+2023/03/05-00:00:02 09 The Angel Next Door Spoils Me Rotten|お隣の天使様にいつの間にか駄目人間にされていた件
+2023/03/05-00:00:02 09 Koori Zokusei Danshi to Cool na Douryou Joshi|氷属性男子とクールな同僚女子
+2023/03/05-00:00:02 09 Ankoku Heishi|解雇された暗黒兵士(30代)のスローなセカンドライフ
+2023/03/05-00:00:02 08 Hikari no Ou|火狩りの王
 2023/03/04-18:00:01 01 Shingeki no Kyojin The Final Season Part 3|進撃の巨人 The Final Season 完結編
 2023/03/04-12:00:02 20 Urusei Yatsura|うる星やつら(2022)
 2023/03/04-12:00:02 09 Tsunlise-pr|ツンデレ悪役令嬢リーゼロッテと実況の遠藤くんと解説の小林さん
@@ -38,14 +44,8 @@ Last Update: 2023/03/04-18:00:01
 2023/02/27-00:00:02 08 Benriya Saitou-san, Isekai ni Iku|便利屋斎藤さん、異世界に行く
 2023/02/26-18:00:02 20 Yowamushi Pedal Limit Break|弱虫ペダル LIMIT BREAK
 2023/02/26-18:00:02 08 Ijiranaide, Nagatoro-san 2nd|イジらないで、長瀞さん 2nd Attack
-2023/02/26-06:00:02 08 The Angel Next Door Spoils Me Rotten|お隣の天使様にいつの間にか駄目人間にされていた件
 2023/02/26-06:00:02 08 Saikyou Onmyouji no Isekai Tenseiki|最強陰陽師の異世界転生記
-2023/02/26-06:00:02 08 Ankoku Heishi|解雇された暗黒兵士(30代)のスローなセカンドライフ
-2023/02/26-06:00:02 07 Hikari no Ou|火狩りの王
 2023/02/26-06:00:02 05 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
-2023/02/26-00:00:02 21 Boku no Hero Academia 6|僕のヒーローアカデミア(第6期)
-2023/02/26-00:00:02 20 Mairimashita! Iruma-kun 3|魔入りました！入間くん(第3シリーズ)
-2023/02/26-00:00:02 08 Koori Zokusei Danshi to Cool na Douryou Joshi|氷属性男子とクールな同僚女子
 2023/02/25-12:00:01 08 Buddy Daddies|Buddy Daddies
 2023/02/16-12:00:02 06 Bougyoryoku 2|痛いのは嫌なので防御力に極振りしたいと思います。2
 2023/02/16-00:00:02 20 Kage no Jitsuryokusha ni Naritakute|陰の実力者になりたくて！
