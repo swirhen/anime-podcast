@@ -1,4 +1,6 @@
-Last Update: 2023/03/16-06:00:02
+Last Update: 2023/03/16-12:00:02
+2023/03/16-12:00:02 10 Kami-tachi ni Hirowareta Otoko 2|神達に拾われた男2
+2023/03/16-12:00:02 08 Bougyoryoku 2|痛いのは嫌なので防御力に極振りしたいと思います。2
 2023/03/16-00:00:02 11 Tensei Oujo to Tensai Reijou no Mahou Kakumei|転生王女と天才令嬢の魔法革命
 2023/03/16-00:00:02 10 Nokemono-tachi no Yoru|ノケモノたちの夜
 2023/03/16-00:00:02 10 Ningen Fushin|人間不信の冒険者たちが世界を救うようです
@@ -45,8 +47,6 @@ Last Update: 2023/03/16-06:00:02
 2023/03/10-00:00:03 09 Spy Kyoushitsu|スパイ教室
 2023/03/10-00:00:03 09 Mou Ippon!|もういっぽん！
 2023/03/09-12:00:02 10 Tomo-chan wa Onnanoko!|トモちゃんは女の子！
-2023/03/09-12:00:02 09 Kami-tachi ni Hirowareta Otoko 2|神達に拾われた男2
-2023/03/09-12:00:02 07 Bougyoryoku 2|痛いのは嫌なので防御力に極振りしたいと思います。2
 2023/03/08-12:00:02 21 Cool Doji Danshi|クールドジ男子
 2023/03/04-18:00:01 01 Shingeki no Kyojin The Final Season Part 3|進撃の巨人 The Final Season 完結編
 2023/02/16-00:00:02 20 Kage no Jitsuryokusha ni Naritakute|陰の実力者になりたくて！
