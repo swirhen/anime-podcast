@@ -1,4 +1,6 @@
-Last Update: 2023/03/17-06:00:02
+Last Update: 2023/03/17-12:00:01
+2023/03/17-12:00:01 11 Onii-chan wa Oshimai!|お兄ちゃんはおしまい！
+2023/03/17-12:00:01 11 Bungou Stray Dogs 4|文豪ストレイドッグス(第4シーズン)
 2023/03/17-00:00:02 11 Revenger|REVENGER
 2023/03/17-00:00:02 10 Tondemo Skill de Isekai Hourou Meshi|とんでもスキルで異世界放浪メシ
 2023/03/17-00:00:02 10 Spy Kyoushitsu|スパイ教室
@@ -43,8 +45,6 @@ Last Update: 2023/03/17-06:00:02
 2023/03/11-00:00:02 10 Isekai Nonbiri Nouka|異世界のんびり農家
 2023/03/11-00:00:02 09 Inu ni Nattara Suki na Hito ni Hirowareta.|犬になったら好きな人に拾われた。
 2023/03/11-00:00:02 09 D4DJ All Mix|D4DJ All Mix
-2023/03/10-12:00:01 10 Onii-chan wa Oshimai!|お兄ちゃんはおしまい！
-2023/03/10-12:00:01 10 Bungou Stray Dogs 4|文豪ストレイドッグス(第4シーズン)
 2023/03/10-00:00:03 09 Mou Ippon!|もういっぽん！
 2023/03/09-12:00:02 10 Tomo-chan wa Onnanoko!|トモちゃんは女の子！
 2023/03/08-12:00:02 21 Cool Doji Danshi|クールドジ男子
