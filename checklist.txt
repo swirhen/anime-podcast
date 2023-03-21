@@ -1,4 +1,5 @@
-Last Update: 2023/03/21-06:00:02
+Last Update: 2023/03/21-12:00:02
+2023/03/21-12:00:02 11 Mononogatari|もののがたり
 2023/03/21-00:00:02 11 High Card|HIGH CARD
 2023/03/20-12:00:02 23 Yowamushi Pedal Limit Break|弱虫ペダル LIMIT BREAK
 2023/03/20-12:00:02 11 Rougo ni Sonaete Isekai de 8-manmai no Kinka o Tamemasu|老後に備えて異世界で8万枚の金貨を貯めます
@@ -38,7 +39,6 @@ Last Update: 2023/03/21-06:00:02
 2023/03/16-00:00:02 09 Majutsushi Orphen Hagure Tabi Urbanrama Hen|魔術士オーフェンはぐれ旅 アーバンラマ編
 2023/03/15-12:00:02 10 Tokyo Revengers Seiya Kessen Hen|東京リベンジャーズ 聖夜決戦編
 2023/03/15-00:00:03 10 Vinland Saga Season 2|ヴィンランド・サガ SEASON 2
-2023/03/15-00:00:03 10 Mononogatari|もののがたり
 2023/03/15-00:00:03 10 Kyuuketsuki Sugu Shinu 2|吸血鬼すぐ死ぬ2
 2023/03/15-00:00:03 09 Shin Shinka no Mi Shiranai Uchi ni Kachigumi Jinsei|真・進化の実～知らないうちに勝ち組人生～
 2023/03/15-00:00:03 06 Ayakashi Triangle|あやかしトライアングル
