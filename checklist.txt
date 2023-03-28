@@ -1,4 +1,10 @@
-Last Update: 2023/03/28-12:00:02
+Last Update: 2023/03/28-18:00:02
+2023/03/28-18:00:02 12 The Legend of Heroes Sen no Kiseki - Northern War|The Legend of Heroes 閃の軌跡 Northern War
+2023/03/28-18:00:02 12 Mononogatari|もののがたり
+2023/03/28-18:00:02 12 Kyuuketsuki Sugu Shinu 2|吸血鬼すぐ死ぬ2
+2023/03/28-18:00:02 12 Kyokou Suiri Season 2|虚構推理 Season2
+2023/03/28-18:00:02 12 Ars no Kyojuu|アルスの巨獣
+2023/03/28-18:00:02 11 Shin Shinka no Mi Shiranai Uchi ni Kachigumi Jinsei|真・進化の実～知らないうちに勝ち組人生～
 2023/03/28-00:00:02 12 Rougo ni Sonaete Isekai de 8-manmai no Kinka o Tamemasu|老後に備えて異世界で8万枚の金貨を貯めます
 2023/03/28-00:00:02 12 High Card|HIGH CARD
 2023/03/28-00:00:02 12 Benriya Saitou-san, Isekai ni Iku|便利屋斎藤さん、異世界に行く
@@ -23,7 +29,6 @@ Last Update: 2023/03/28-12:00:02
 2023/03/24-00:00:02 12 Revenger|REVENGER
 2023/03/24-00:00:02 11 Tondemo Skill de Isekai Hourou Meshi|とんでもスキルで異世界放浪メシ
 2023/03/24-00:00:02 11 Mou Ippon!|もういっぽん！
-2023/03/24-00:00:02 11 Kyuuketsuki Sugu Shinu 2|吸血鬼すぐ死ぬ2
 2023/03/24-00:00:02 11 Kami-tachi ni Hirowareta Otoko 2|神達に拾われた男2
 2023/03/23-12:00:02 12 Tomo-chan wa Onnanoko!|トモちゃんは女の子！
 2023/03/23-12:00:02 09 Bougyoryoku 2|痛いのは嫌なので防御力に極振りしたいと思います。2
@@ -35,11 +40,6 @@ Last Update: 2023/03/28-12:00:02
 2023/03/23-00:00:02 10 Majutsushi Orphen Hagure Tabi Urbanrama Hen|魔術士オーフェンはぐれ旅 アーバンラマ編
 2023/03/22-12:00:02 11 Ningen Fushin|人間不信の冒険者たちが世界を救うようです
 2023/03/22-00:00:02 11 Vinland Saga Season 2|ヴィンランド・サガ SEASON 2
-2023/03/22-00:00:02 11 The Legend of Heroes Sen no Kiseki - Northern War|The Legend of Heroes 閃の軌跡 Northern War
-2023/03/22-00:00:02 11 Kyokou Suiri Season 2|虚構推理 Season2
-2023/03/22-00:00:02 11 Ars no Kyojuu|アルスの巨獣
-2023/03/22-00:00:02 10 Shin Shinka no Mi Shiranai Uchi ni Kachigumi Jinsei|真・進化の実～知らないうちに勝ち組人生～
-2023/03/21-12:00:02 11 Mononogatari|もののがたり
 2023/03/20-12:00:02 23 Yowamushi Pedal Limit Break|弱虫ペダル LIMIT BREAK
 2023/03/19-06:00:02 08 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2023/03/19-00:00:02 10 Hikari no Ou|火狩りの王
