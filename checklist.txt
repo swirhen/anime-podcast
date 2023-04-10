@@ -1,9 +1,10 @@
-Last Update: 2023/04/10-06:00:02
+Last Update: 2023/04/10-12:00:02
+2023/04/10-12:00:02 02 Tensei Kizoku|転生貴族の異世界冒険録～自重を知らない神々の使徒～
+2023/04/10-12:00:02 01 World Dai Star|ワールドダイスター
+2023/04/10-12:00:02 01 Kimetsu no Yaiba Katanakaji no Sato Hen|鬼滅の刃 刀鍛冶の里編
 2023/04/10-06:00:02 02 My Home Hero|マイホームヒーロー
 2023/04/10-06:00:02 01 Rokudou no Onna-tachi|六道の悪女たち
 2023/04/10-06:00:02 01 Isekai Shoukan wa Nidome Desu|異世界召喚は二度目です
-2023/04/10-06:00:02 0 World Dai Star|ワールドダイスター
-2023/04/10-06:00:02 0 Kimetsu no Yaiba Katanakaji no Sato Hen|鬼滅の刃 刀鍛冶の里編
 2023/04/10-00:00:02 01 Kidou Senshi Gundam Suisei no Majo Season 2|機動戦士ガンダム 水星の魔女 Season2
 2023/04/09-18:00:02 01 Otonari ni Ginga|おとなりに銀河
 2023/04/09-18:00:02 01 Edens Zero 2|EDENS ZERO(第2期)
@@ -29,7 +30,6 @@ Last Update: 2023/04/10-06:00:02
 2023/04/05-18:00:02 01 Alice Gear Aegis Expansion|アリス・ギア・アイギス Expansion
 2023/04/04-18:00:02 01 Kuma Kuma Kuma Bear Punch!|くまクマ熊ベアーぱーんち！
 2023/04/04-18:00:02 01 Isekai wa Smartphone to Tomo ni. 2|異世界はスマートフォンとともに。2
-2023/04/03-18:00:02 01 Tensei Kizoku|転生貴族の異世界冒険録～自重を知らない神々の使徒～
 2023/04/02-06:00:01 13 Saikyou Onmyouji no Isekai Tenseiki|最強陰陽師の異世界転生記
 2023/04/01-06:00:02 12 Inu ni Nattara Suki na Hito ni Hirowareta.|犬になったら好きな人に拾われた。
 2023/04/01-00:00:02 12 D4DJ All Mix|D4DJ All Mix
