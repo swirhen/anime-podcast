@@ -15,7 +15,7 @@ current_dir = pathlib.Path(__file__).resolve().parent
 SCRIPT_DIR = str(current_dir)
 RECENT_LIST = f'{SCRIPT_DIR}/today_picture_recent.txt'
 RECENT_LIST_S = f'{SCRIPT_DIR}/today_picture_recent_s.txt'
-PIC_DIR = '/data/share/temp/wallpaper*'
+PIC_DIR = '/data/share/temp/wallpaper'
 PIC_DIR_S = '/data/share/temp/nekomata_okazu'
 CHANNEL = 'ztb_today_pic'
 
