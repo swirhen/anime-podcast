@@ -467,7 +467,7 @@ def encode_movie_in_directory(input_dir, output_dir, extention='mp4'):
         encode_movie_proc(str(filename), output_dir)
         time.sleep(3)
         make_feed(output_dir)
-        tweeet(f'【publish】{filename.name}.mp4')
+        #tweeet(f'【publish】{filename.name}.mp4')
         multi_post('bot-open', f'【publish】{filename.name}.mp4')
         td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
         return_log.append(f'{td} movie encode complete: {filename.name}.mp4')
