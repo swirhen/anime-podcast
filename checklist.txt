@@ -1,6 +1,6 @@
-Last Update: 2023/04/12-12:00:02
+Last Update: 2023/04/12-18:00:01
+2023/04/12-18:00:01 01 Jijou o Shiranai Tenkousei ga Guigui Kuru.|事情を知らない転校生がグイグイくる。
 2023/04/12-12:00:02 02 Alice Gear Aegis Expansion|アリス・ギア・アイギス Expansion
-2023/04/12-12:00:02 0 Jijou o Shiranai Tenkousei ga Guigui Kuru.|事情を知らない転校生がグイグイくる。
 2023/04/12-06:00:01 01 Dead Mount Death Play |デッドマウント・デスプレイ
 2023/04/12-00:00:03 14 Vinland Saga Season 2|ヴィンランド・サガ SEASON 2
 2023/04/11-18:00:02 01 Kimi wa Houkago Insomnia|君は放課後インソムニア
@@ -34,10 +34,10 @@ Last Update: 2023/04/12-12:00:02
 2023/04/07-06:00:02 01 The Idolmaster Cinderella Girls U149|アイドルマスター シンデレラガールズ U149
 2023/04/07-06:00:02 01 Kono Subarashii Sekai ni Bakuen o!|この素晴らしい世界に爆焔を！
 2023/04/06-06:00:02 01 Skip to Loafer|スキップとローファー
+2023/03/31-00:00:03 10 Bougyoryoku 2|痛いのは嫌なので防御力に極振りしたいと思います。2
 2023/03/19-06:00:02 08 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2023/03/15-00:00:03 06 Ayakashi Triangle|あやかしトライアングル
 2023/03/04-18:00:01 01 Shingeki no Kyojin The Final Season Part 3|進撃の巨人 The Final Season 完結編
 2023/02/15-00:00:03 06 Kubo-san wa Boku o Yurusanai|久保さんは僕を許さない
 2023/02/12-06:00:01 06 Maou Gakuin no Futekigousha II|魔王学院の不適合者II～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～
 2022/12/06-12:00:01 08 Golden Kamuy 4|ゴールデンカムイ(第四期)
-2023/03/31-00:00:03 10 Bougyoryoku 2|痛いのは嫌なので防御力に極振りしたいと思います。2
