@@ -1,4 +1,5 @@
-Last Update: 2023/04/15-18:00:02
+Last Update: 2023/04/16-00:00:02
+2023/04/16-00:00:02 03 Tengoku Daimakyou|天国大魔境
 2023/04/15-12:00:01 02 Tonikaku Kawaii|トニカクカワイイ(シーズン2)
 2023/04/15-12:00:01 02 Megami no Cafe Terrace|女神のカフェテラス
 2023/04/15-12:00:01 02 Mashle|マッシュル-MASHLE-
@@ -35,7 +36,6 @@ Last Update: 2023/04/15-18:00:02
 2023/04/09-12:00:02 02 Boku no Kokoro no Yabai Yatsu|僕の心のヤバイやつ
 2023/04/09-12:00:02 01 Isekai One Turn Kill Nee-san|異世界ワンターンキル姉さん ～姉同伴の異世界生活はじめました～
 2023/04/09-06:00:01 02 Yamada-kun to Lv999 no Koi o Suru|山田くんとLv999の恋をする
-2023/04/09-00:00:02 02 Tengoku Daimakyou|天国大魔境
 2023/03/19-06:00:02 08 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2023/03/15-00:00:03 06 Ayakashi Triangle|あやかしトライアングル
 2023/03/04-18:00:01 01 Shingeki no Kyojin The Final Season Part 3|進撃の巨人 The Final Season 完結編
