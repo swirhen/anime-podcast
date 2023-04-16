@@ -1,4 +1,5 @@
-Last Update: 2023/04/16-12:00:01
+Last Update: 2023/04/16-18:00:02
+2023/04/16-18:00:02 02 Kidou Senshi Gundam Suisei no Majo Season 2|機動戦士ガンダム 水星の魔女 Season2
 2023/04/16-12:00:01 03 Boku no Kokoro no Yabai Yatsu|僕の心のヤバイやつ
 2023/04/16-12:00:01 02 Otonari ni Ginga|おとなりに銀河
 2023/04/16-12:00:01 02 Edens Zero 2|EDENS ZERO(第2期)
@@ -35,7 +36,6 @@ Last Update: 2023/04/16-12:00:01
 2023/04/10-06:00:02 02 My Home Hero|マイホームヒーロー
 2023/04/10-06:00:02 01 Rokudou no Onna-tachi|六道の悪女たち
 2023/04/10-06:00:02 01 Isekai Shoukan wa Nidome Desu|異世界召喚は二度目です
-2023/04/10-00:00:02 01 Kidou Senshi Gundam Suisei no Majo Season 2|機動戦士ガンダム 水星の魔女 Season2
 2023/03/19-06:00:02 08 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2023/03/15-00:00:03 06 Ayakashi Triangle|あやかしトライアングル
 2023/03/04-18:00:01 01 Shingeki no Kyojin The Final Season Part 3|進撃の巨人 The Final Season 完結編
