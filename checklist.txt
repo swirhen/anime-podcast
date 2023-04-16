@@ -1,4 +1,6 @@
-Last Update: 2023/04/17-00:00:02
+Last Update: 2023/04/17-06:00:02
+2023/04/17-06:00:02 03 My Home Hero|マイホームヒーロー
+2023/04/17-06:00:02 02 World Dai Star|ワールドダイスター
 2023/04/17-00:00:02 02 Rokudou no Onna-tachi|六道の悪女たち
 2023/04/17-00:00:02 02 Kimetsu no Yaiba Katanakaji no Sato Hen|鬼滅の刃 刀鍛冶の里編
 2023/04/17-00:00:02 02 Jijou o Shiranai Tenkousei ga Guigui Kuru.|事情を知らない転校生がグイグイくる。
@@ -34,8 +36,6 @@ Last Update: 2023/04/17-00:00:02
 2023/04/11-06:00:01 01 Kanojo ga Koushaku-tei ni Itta Riyuu|彼女が公爵邸に行った理由
 2023/04/11-00:00:03 02 Kuma Kuma Kuma Bear Punch!|くまクマ熊ベアーぱーんち！
 2023/04/10-12:00:02 02 Tensei Kizoku|転生貴族の異世界冒険録～自重を知らない神々の使徒～
-2023/04/10-12:00:02 01 World Dai Star|ワールドダイスター
-2023/04/10-06:00:02 02 My Home Hero|マイホームヒーロー
 2023/03/19-06:00:02 08 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2023/03/15-00:00:03 06 Ayakashi Triangle|あやかしトライアングル
 2023/03/04-18:00:01 01 Shingeki no Kyojin The Final Season Part 3|進撃の巨人 The Final Season 完結編
