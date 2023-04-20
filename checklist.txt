@@ -1,4 +1,6 @@
-Last Update: 2023/04/20-18:00:02
+Last Update: 2023/04/21-00:00:02
+2023/04/21-00:00:02 03 Watashi no Yuri wa Oshigoto Desu!|私の百合はお仕事です！
+2023/04/21-00:00:02 03 Kono Subarashii Sekai ni Bakuen o!|この素晴らしい世界に爆焔を！
 2023/04/20-12:00:02 01 Niehime to Kemono no Ou|贄姫と獣の王
 2023/04/20-06:00:02 03 The Idolmaster Cinderella Girls U149|アイドルマスター シンデレラガールズ U149
 2023/04/20-00:00:02 03 Skip to Loafer|スキップとローファー
@@ -33,8 +35,6 @@ Last Update: 2023/04/20-18:00:02
 2023/04/15-00:00:02 02 Iseleve|異世界でチート能力を手にした俺は、現実世界をも無双する ～レベルアップは人生を変えた～
 2023/04/14-12:00:02 02 Yuusha ga Shinda!|勇者が死んだ！
 2023/04/14-12:00:02 02 Kaminaki Sekai no Kamisama Katsudou|神無き世界のカミサマ活動
-2023/04/14-00:00:02 02 Watashi no Yuri wa Oshigoto Desu!|私の百合はお仕事です！
-2023/04/14-00:00:02 02 Kono Subarashii Sekai ni Bakuen o!|この素晴らしい世界に爆焔を！
 2023/04/14-00:00:02 02 Dr. Stone New World|Dr.STONE NEW WORLD
 2023/04/13-12:00:02 11 Bougyoryoku 2|痛いのは嫌なので防御力に極振りしたいと思います。2
 2023/03/19-06:00:02 08 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
