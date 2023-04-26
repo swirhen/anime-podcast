@@ -1,4 +1,6 @@
-Last Update: 2023/04/26-06:00:02
+Last Update: 2023/04/26-12:00:01
+2023/04/26-12:00:01 04 Skip to Loafer|スキップとローファー
+2023/04/26-12:00:01 04 Alice Gear Aegis Expansion|アリス・ギア・アイギス Expansion
 2023/04/26-00:00:03 16 Vinland Saga Season 2|ヴィンランド・サガ SEASON 2
 2023/04/25-12:00:02 03 Kimi wa Houkago Insomnia|君は放課後インソムニア
 2023/04/25-12:00:02 03 Dead Mount Death Play |デッドマウント・デスプレイ
@@ -33,9 +35,7 @@ Last Update: 2023/04/26-06:00:02
 2023/04/21-00:00:02 03 Kono Subarashii Sekai ni Bakuen o!|この素晴らしい世界に爆焔を！
 2023/04/20-12:00:02 01 Niehime to Kemono no Ou|贄姫と獣の王
 2023/04/20-06:00:02 03 The Idolmaster Cinderella Girls U149|アイドルマスター シンデレラガールズ U149
-2023/04/20-00:00:02 03 Skip to Loafer|スキップとローファー
 2023/04/20-00:00:02 02 Oshi no Ko|【推しの子】
-2023/04/19-12:00:02 03 Alice Gear Aegis Expansion|アリス・ギア・アイギス Expansion
 2023/04/13-12:00:02 11 Bougyoryoku 2|痛いのは嫌なので防御力に極振りしたいと思います。2
 2023/03/19-06:00:02 08 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2023/03/15-00:00:03 06 Ayakashi Triangle|あやかしトライアングル
