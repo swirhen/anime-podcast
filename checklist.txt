@@ -1,4 +1,5 @@
-Last Update: 2023/05/03-18:00:02
+Last Update: 2023/05/04-00:00:02
+2023/05/04-00:00:02 05 Skip to Loafer|スキップとローファー
 2023/05/03-12:00:02 05 Jigokuraku|地獄楽
 2023/05/03-12:00:02 05 Alice Gear Aegis Expansion|アリス・ギア・アイギス Expansion
 2023/05/03-12:00:02 04 Jijou o Shiranai Tenkousei ga Guigui Kuru.|事情を知らない転校生がグイグイくる。
@@ -37,7 +38,6 @@ Last Update: 2023/05/03-18:00:02
 2023/04/28-00:00:03 03 Oshi no Ko|【推しの子】
 2023/04/28-00:00:03 02 Niehime to Kemono no Ou|贄姫と獣の王
 2023/04/27-12:00:01 04 The Idolmaster Cinderella Girls U149|アイドルマスター シンデレラガールズ U149
-2023/04/26-12:00:01 04 Skip to Loafer|スキップとローファー
 2023/04/13-12:00:02 11 Bougyoryoku 2|痛いのは嫌なので防御力に極振りしたいと思います。2
 2023/03/19-06:00:02 08 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2023/03/15-00:00:03 06 Ayakashi Triangle|あやかしトライアングル
