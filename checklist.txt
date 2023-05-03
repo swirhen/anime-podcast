@@ -1,4 +1,8 @@
-Last Update: 2023/05/03-06:00:02
+Last Update: 2023/05/03-12:00:02
+2023/05/03-12:00:02 05 Jigokuraku|地獄楽
+2023/05/03-12:00:02 05 Alice Gear Aegis Expansion|アリス・ギア・アイギス Expansion
+2023/05/03-12:00:02 04 Jijou o Shiranai Tenkousei ga Guigui Kuru.|事情を知らない転校生がグイグイくる。
+2023/05/03-12:00:02 04 Dead Mount Death Play |デッドマウント・デスプレイ
 2023/05/03-00:00:02 17 Vinland Saga Season 2|ヴィンランド・サガ SEASON 2
 2023/05/02-12:00:02 04 Kimi wa Houkago Insomnia|君は放課後インソムニア
 2023/05/02-06:00:02 05 Isekai wa Smartphone to Tomo ni. 2|異世界はスマートフォンとともに。2
@@ -23,7 +27,6 @@ Last Update: 2023/05/03-06:00:02
 2023/04/29-12:00:02 04 Megami no Cafe Terrace|女神のカフェテラス
 2023/04/29-12:00:02 04 Mahou Shoujo Magical Destroyers|魔法少女特殊戦あすか
 2023/04/29-12:00:02 04 Edomae Elf|江戸前エルフ
-2023/04/29-06:00:02 01 Jigokuraku|地獄楽
 2023/04/29-00:00:02 04 Mahou Tsukai no Yome Season 2|魔法使いの嫁 SEASON2
 2023/04/29-00:00:02 04 Kaminaki Sekai no Kamisama Katsudou|神無き世界のカミサマ活動
 2023/04/28-12:00:01 04 Yuusha ga Shinda!|勇者が死んだ！
@@ -35,9 +38,6 @@ Last Update: 2023/05/03-06:00:02
 2023/04/28-00:00:03 02 Niehime to Kemono no Ou|贄姫と獣の王
 2023/04/27-12:00:01 04 The Idolmaster Cinderella Girls U149|アイドルマスター シンデレラガールズ U149
 2023/04/26-12:00:01 04 Skip to Loafer|スキップとローファー
-2023/04/26-12:00:01 04 Alice Gear Aegis Expansion|アリス・ギア・アイギス Expansion
-2023/04/25-12:00:02 03 Dead Mount Death Play |デッドマウント・デスプレイ
-2023/04/24-00:00:03 03 Jijou o Shiranai Tenkousei ga Guigui Kuru.|事情を知らない転校生がグイグイくる。
 2023/04/13-12:00:02 11 Bougyoryoku 2|痛いのは嫌なので防御力に極振りしたいと思います。2
 2023/03/19-06:00:02 08 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2023/03/15-00:00:03 06 Ayakashi Triangle|あやかしトライアングル
