@@ -1,4 +1,6 @@
-Last Update: 2023/05/13-12:00:02
+Last Update: 2023/05/13-18:00:02
+2023/05/13-18:00:02 06 Mashle|マッシュル-MASHLE-
+2023/05/13-18:00:02 05 Edens Zero 2|EDENS ZERO(第2期)
 2023/05/13-12:00:02 06 Tonikaku Kawaii|トニカクカワイイ(シーズン2)
 2023/05/13-12:00:02 06 Megami no Cafe Terrace|女神のカフェテラス
 2023/05/13-12:00:02 06 Mahou Tsukai no Yome Season 2|魔法使いの嫁 SEASON2
@@ -32,11 +34,9 @@ Last Update: 2023/05/13-12:00:02
 2023/05/07-06:00:01 06 Yamada-kun to Lv999 no Koi o Suru|山田くんとLv999の恋をする
 2023/05/07-06:00:01 05 Isekai One Turn Kill Nee-san|異世界ワンターンキル姉さん ～姉同伴の異世界生活はじめました～
 2023/05/07-00:00:02 06 Tengoku Daimakyou|天国大魔境
-2023/05/07-00:00:02 05 Mashle|マッシュル-MASHLE-
 2023/05/05-18:00:02 05 Kaminaki Sekai no Kamisama Katsudou|神無き世界のカミサマ活動
 2023/05/05-18:00:02 05 Iseleve|異世界でチート能力を手にした俺は、現実世界をも無双する ～レベルアップは人生を変えた～
 2023/05/02-12:00:02 04 Kimi wa Houkago Insomnia|君は放課後インソムニア
-2023/04/30-12:00:03 04 Edens Zero 2|EDENS ZERO(第2期)
 2023/04/30-00:00:01 01 Animelo Summer Live 2022|アニメロサマーライブ2021 powered by Anison Days
 2023/04/13-12:00:02 11 Bougyoryoku 2|痛いのは嫌なので防御力に極振りしたいと思います。2
 2023/03/19-06:00:02 08 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
