@@ -1,4 +1,5 @@
-Last Update: 2023/05/22-00:00:02
+Last Update: 2023/05/22-06:00:02
+2023/05/22-06:00:02 08 My Home Hero|マイホームヒーロー
 2023/05/22-00:00:02 07 Rokudou no Onna-tachi|六道の悪女たち
 2023/05/22-00:00:02 07 Kimetsu no Yaiba Katanakaji no Sato Hen|鬼滅の刃 刀鍛冶の里編
 2023/05/22-00:00:02 07 Jijou o Shiranai Tenkousei ga Guigui Kuru.|事情を知らない転校生がグイグイくる。
@@ -37,7 +38,6 @@ Last Update: 2023/05/22-00:00:02
 2023/05/16-00:00:03 06 World Dai Star|ワールドダイスター
 2023/05/16-00:00:03 06 Kanojo ga Koushaku-tei ni Itta Riyuu|彼女が公爵邸に行った理由
 2023/05/15-12:00:02 07 Tensei Kizoku|転生貴族の異世界冒険録～自重を知らない神々の使徒～
-2023/05/15-06:00:02 07 My Home Hero|マイホームヒーロー
 2023/04/30-00:00:01 01 Animelo Summer Live 2022|アニメロサマーライブ2021 powered by Anison Days
 2023/04/13-12:00:02 11 Bougyoryoku 2|痛いのは嫌なので防御力に極振りしたいと思います。2
 2023/03/19-06:00:02 08 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
