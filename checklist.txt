@@ -1,4 +1,7 @@
-Last Update: 2023/06/03-18:00:02
+Last Update: 2023/06/04-00:00:03
+2023/06/04-00:00:03 10 Tengoku Daimakyou|天国大魔境
+2023/06/04-00:00:03 09 Tensei Kizoku|転生貴族の異世界冒険録～自重を知らない神々の使徒～
+2023/06/04-00:00:03 09 Jigokuraku|地獄楽
 2023/06/03-12:00:01 09 Tonikaku Kawaii|トニカクカワイイ(シーズン2)
 2023/06/03-12:00:01 09 Mashle|マッシュル-MASHLE-
 2023/06/03-12:00:01 09 Mahou Shoujo Magical Destroyers|魔法少女特殊戦あすか
@@ -31,13 +34,10 @@ Last Update: 2023/06/03-18:00:02
 2023/05/28-06:00:01 09 Boku no Kokoro no Yabai Yatsu|僕の心のヤバイやつ
 2023/05/28-06:00:01 08 Isekai Shoukan wa Nidome Desu|異世界召喚は二度目です
 2023/05/28-06:00:01 08 Isekai One Turn Kill Nee-san|異世界ワンターンキル姉さん ～姉同伴の異世界生活はじめました～
-2023/05/28-00:00:01 09 Tengoku Daimakyou|天国大魔境
 2023/05/27-06:00:01 08 Megami no Cafe Terrace|女神のカフェテラス
 2023/05/27-00:00:02 08 Kaminaki Sekai no Kamisama Katsudou|神無き世界のカミサマ活動
 2023/05/25-06:00:01 07 Oshi no Ko|【推しの子】
-2023/05/22-12:00:02 08 Tensei Kizoku|転生貴族の異世界冒険録～自重を知らない神々の使徒～
 2023/05/21-12:00:02 08 Edens Zero 2|EDENS ZERO(第2期)
-2023/05/21-00:00:02 08 Jigokuraku|地獄楽
 2023/04/30-00:00:01 01 Animelo Summer Live 2022|アニメロサマーライブ2021 powered by Anison Days
 2023/04/13-12:00:02 11 Bougyoryoku 2|痛いのは嫌なので防御力に極振りしたいと思います。2
 2023/03/19-06:00:02 08 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
