@@ -1,4 +1,6 @@
-Last Update: 2023/06/05-00:00:02
+Last Update: 2023/06/05-06:00:02
+2023/06/05-06:00:02 10 Tensei Kizoku|転生貴族の異世界冒険録～自重を知らない神々の使徒～
+2023/06/05-06:00:02 09 Kimetsu no Yaiba Katanakaji no Sato Hen|鬼滅の刃 刀鍛冶の里編
 2023/06/05-00:00:02 09 Rokudou no Onna-tachi|六道の悪女たち
 2023/06/05-00:00:02 09 Jijou o Shiranai Tenkousei ga Guigui Kuru.|事情を知らない転校生がグイグイくる。
 2023/06/04-18:00:02 09 Golden Kamuy 4|ゴールデンカムイ(第四期)
@@ -10,7 +12,6 @@ Last Update: 2023/06/05-00:00:02
 2023/06/04-06:00:02 10 Yamada-kun to Lv999 no Koi o Suru|山田くんとLv999の恋をする
 2023/06/04-06:00:02 09 Isekai One Turn Kill Nee-san|異世界ワンターンキル姉さん ～姉同伴の異世界生活はじめました～
 2023/06/04-00:00:03 10 Tengoku Daimakyou|天国大魔境
-2023/06/04-00:00:03 09 Tensei Kizoku|転生貴族の異世界冒険録～自重を知らない神々の使徒～
 2023/06/04-00:00:03 09 Jigokuraku|地獄楽
 2023/06/03-12:00:01 09 Tonikaku Kawaii|トニカクカワイイ(シーズン2)
 2023/06/03-12:00:01 09 Mashle|マッシュル-MASHLE-
@@ -35,7 +36,6 @@ Last Update: 2023/06/05-00:00:02
 2023/05/30-00:00:02 09 Kuma Kuma Kuma Bear Punch!|くまクマ熊ベアーぱーんち！
 2023/05/30-00:00:02 08 World Dai Star|ワールドダイスター
 2023/05/30-00:00:02 08 Kanojo ga Koushaku-tei ni Itta Riyuu|彼女が公爵邸に行った理由
-2023/05/29-00:00:02 08 Kimetsu no Yaiba Katanakaji no Sato Hen|鬼滅の刃 刀鍛冶の里編
 2023/05/27-06:00:01 08 Megami no Cafe Terrace|女神のカフェテラス
 2023/05/27-00:00:02 08 Kaminaki Sekai no Kamisama Katsudou|神無き世界のカミサマ活動
 2023/05/25-06:00:01 07 Oshi no Ko|【推しの子】
