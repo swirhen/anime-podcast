@@ -1,4 +1,5 @@
-Last Update: 2023/06/05-06:00:02
+Last Update: 2023/06/05-12:00:02
+2023/06/05-12:00:02 10 My Home Hero|マイホームヒーロー
 2023/06/05-06:00:02 10 Tensei Kizoku|転生貴族の異世界冒険録～自重を知らない神々の使徒～
 2023/06/05-06:00:02 09 Kimetsu no Yaiba Katanakaji no Sato Hen|鬼滅の刃 刀鍛冶の里編
 2023/06/05-00:00:02 09 Rokudou no Onna-tachi|六道の悪女たち
@@ -25,7 +26,6 @@ Last Update: 2023/06/05-06:00:02
 2023/06/02-00:00:03 07 Niehime to Kemono no Ou|贄姫と獣の王
 2023/06/01-06:00:02 09 Kono Subarashii Sekai ni Bakuen o!|この素晴らしい世界に爆焔を！
 2023/06/01-06:00:02 08 The Idolmaster Cinderella Girls U149|アイドルマスター シンデレラガールズ U149
-2023/06/01-00:00:02 09 My Home Hero|マイホームヒーロー
 2023/06/01-00:00:02 09 Alice Gear Aegis Expansion|アリス・ギア・アイギス Expansion
 2023/05/31-12:00:02 21 Vinland Saga Season 2|ヴィンランド・サガ SEASON 2
 2023/05/31-00:00:03 09 Skip to Loafer|スキップとローファー
