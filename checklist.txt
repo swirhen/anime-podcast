@@ -1,4 +1,8 @@
-Last Update: 2023/06/06-06:00:02
+Last Update: 2023/06/06-12:00:01
+2023/06/06-12:00:01 22 Vinland Saga Season 2|ヴィンランド・サガ SEASON 2
+2023/06/06-12:00:01 10 Isekai wa Smartphone to Tomo ni. 2|異世界はスマートフォンとともに。2
+2023/06/06-12:00:01 10 Golden Kamuy 4|ゴールデンカムイ(第四期)
+2023/06/06-12:00:01 09 Kimi wa Houkago Insomnia|君は放課後インソムニア
 2023/06/06-00:00:03 10 Kuma Kuma Kuma Bear Punch!|くまクマ熊ベアーぱーんち！
 2023/06/06-00:00:03 09 World Dai Star|ワールドダイスター
 2023/06/06-00:00:03 09 Kanojo ga Koushaku-tei ni Itta Riyuu|彼女が公爵邸に行った理由
@@ -7,7 +11,6 @@ Last Update: 2023/06/06-06:00:02
 2023/06/05-06:00:02 09 Kimetsu no Yaiba Katanakaji no Sato Hen|鬼滅の刃 刀鍛冶の里編
 2023/06/05-00:00:02 09 Rokudou no Onna-tachi|六道の悪女たち
 2023/06/05-00:00:02 09 Jijou o Shiranai Tenkousei ga Guigui Kuru.|事情を知らない転校生がグイグイくる。
-2023/06/04-18:00:02 09 Golden Kamuy 4|ゴールデンカムイ(第四期)
 2023/06/04-18:00:02 08 Kidou Senshi Gundam Suisei no Majo Season 2|機動戦士ガンダム 水星の魔女 Season2
 2023/06/04-12:00:02 10 Edens Zero 2|EDENS ZERO(第2期)
 2023/06/04-12:00:02 10 Boku no Kokoro no Yabai Yatsu|僕の心のヤバイやつ
@@ -30,12 +33,9 @@ Last Update: 2023/06/06-06:00:02
 2023/06/01-06:00:02 09 Kono Subarashii Sekai ni Bakuen o!|この素晴らしい世界に爆焔を！
 2023/06/01-06:00:02 08 The Idolmaster Cinderella Girls U149|アイドルマスター シンデレラガールズ U149
 2023/06/01-00:00:02 09 Alice Gear Aegis Expansion|アリス・ギア・アイギス Expansion
-2023/05/31-12:00:02 21 Vinland Saga Season 2|ヴィンランド・サガ SEASON 2
 2023/05/31-00:00:03 09 Skip to Loafer|スキップとローファー
 2023/05/31-00:00:03 09 Kubo-san wa Boku o Yurusanai|久保さんは僕を許さない
 2023/05/31-00:00:03 08 Dead Mount Death Play |デッドマウント・デスプレイ
-2023/05/30-12:00:01 09 Isekai wa Smartphone to Tomo ni. 2|異世界はスマートフォンとともに。2
-2023/05/30-12:00:01 08 Kimi wa Houkago Insomnia|君は放課後インソムニア
 2023/05/27-06:00:01 08 Megami no Cafe Terrace|女神のカフェテラス
 2023/05/27-00:00:02 08 Kaminaki Sekai no Kamisama Katsudou|神無き世界のカミサマ活動
 2023/05/25-06:00:01 07 Oshi no Ko|【推しの子】
