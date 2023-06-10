@@ -1,4 +1,10 @@
-Last Update: 2023/06/10-06:00:02
+Last Update: 2023/06/10-12:00:02
+2023/06/10-12:00:02 10 Tonikaku Kawaii|トニカクカワイイ(シーズン2)
+2023/06/10-12:00:02 10 Megami no Cafe Terrace|女神のカフェテラス
+2023/06/10-12:00:02 10 Mashle|マッシュル-MASHLE-
+2023/06/10-12:00:02 10 Mahou Shoujo Magical Destroyers|魔法少女特殊戦あすか
+2023/06/10-12:00:02 10 Iseleve|異世界でチート能力を手にした俺は、現実世界をも無双する ～レベルアップは人生を変えた～
+2023/06/10-12:00:02 10 Edomae Elf|江戸前エルフ
 2023/06/09-12:00:01 10 Yuusha ga Shinda!|勇者が死んだ！
 2023/06/09-00:00:02 10 Watashi no Yuri wa Oshigoto Desu!|私の百合はお仕事です！
 2023/06/09-00:00:02 10 Mahou Tsukai no Yome Season 2|魔法使いの嫁 SEASON2
@@ -10,7 +16,6 @@ Last Update: 2023/06/10-06:00:02
 2023/06/08-12:00:02 08 Oshi no Ko|【推しの子】
 2023/06/08-00:00:02 10 Skip to Loafer|スキップとローファー
 2023/06/08-00:00:02 10 Alice Gear Aegis Expansion|アリス・ギア・アイギス Expansion
-2023/06/08-00:00:02 09 Megami no Cafe Terrace|女神のカフェテラス
 2023/06/07-12:00:02 10 Kubo-san wa Boku o Yurusanai|久保さんは僕を許さない
 2023/06/06-18:00:02 09 Dead Mount Death Play |デッドマウント・デスプレイ
 2023/06/06-12:00:01 22 Vinland Saga Season 2|ヴィンランド・サガ SEASON 2
@@ -34,11 +39,6 @@ Last Update: 2023/06/10-06:00:02
 2023/06/04-06:00:02 09 Isekai One Turn Kill Nee-san|異世界ワンターンキル姉さん ～姉同伴の異世界生活はじめました～
 2023/06/04-00:00:03 10 Tengoku Daimakyou|天国大魔境
 2023/06/04-00:00:03 09 Jigokuraku|地獄楽
-2023/06/03-12:00:01 09 Tonikaku Kawaii|トニカクカワイイ(シーズン2)
-2023/06/03-12:00:01 09 Mashle|マッシュル-MASHLE-
-2023/06/03-12:00:01 09 Mahou Shoujo Magical Destroyers|魔法少女特殊戦あすか
-2023/06/03-12:00:01 09 Iseleve|異世界でチート能力を手にした俺は、現実世界をも無双する ～レベルアップは人生を変えた～
-2023/06/03-12:00:01 09 Edomae Elf|江戸前エルフ
 2023/04/30-00:00:01 01 Animelo Summer Live 2022|アニメロサマーライブ2021 powered by Anison Days
 2023/04/13-12:00:02 11 Bougyoryoku 2|痛いのは嫌なので防御力に極振りしたいと思います。2
 2023/03/19-06:00:02 08 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
