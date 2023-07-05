@@ -1,7 +1,6 @@
 Last Update: 2023/07/05-12:00:02
 2023/07/05-12:00:02 0 Suki na Ko ga Megane o Wasureta|好きな子がめがねを忘れた
 2023/07/05-06:00:01 01 Mononogatari |もののがたり 第二章
-2023/07/05-00:00:03 12 Kimi wa Houkago Insomnia|君は放課後インソムニア
 2023/07/04-18:00:02 01 Yumemiru Danshi wa Genjitsushugisha|夢見る男子は現実主義者
 2023/07/04-18:00:02 01 Okashi na Tensei|おかしな転生
 2023/07/04-06:00:02 01 Masamune-kun no Revenge R|政宗くんのリベンジＲ
@@ -14,16 +13,16 @@ Last Update: 2023/07/05-12:00:02
 2023/07/02-12:00:01 01 Horimiya Piece|ホリミヤ -piece-
 2023/07/02-12:00:01 01 Ayaka|AYAKA ‐あやか‐
 2023/07/02-06:00:02 14 Edens Zero 2|EDENS ZERO(第2期)
-2023/07/01-00:00:02 11 Kaminaki Sekai no Kamisama Katsudou|神無き世界のカミサマ活動
 2023/06/29-12:00:02 11 Niehime to Kemono no Ou|贄姫と獣の王
 2023/06/27-12:00:02 01 Kaguya-sama wa Kokurasetai First Kiss wa Owaranai|かぐや様は告らせたい-ファーストキッスは終わらない-
-2023/06/24-18:00:01 12 Mashle|マッシュル-MASHLE-
-2023/06/24-12:00:02 12 Tonikaku Kawaii|トニカクカワイイ(シーズン2)
-2023/06/20-12:00:02 11 Dead Mount Death Play |デッドマウント・デスプレイ
-2023/06/14-00:00:02 11 My Home Hero|マイホームヒーロー
-2023/06/06-12:00:01 10 Golden Kamuy 4|ゴールデンカムイ(第四期)
-2023/04/13-12:00:02 11 Bougyoryoku 2|痛いのは嫌なので防御力に極振りしたいと思います。2
 2023/03/19-06:00:02 08 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2023/03/15-00:00:03 06 Ayakashi Triangle|あやかしトライアングル
 2023/03/04-18:00:01 01 Shingeki no Kyojin The Final Season Part 3|進撃の巨人 The Final Season 完結編
 2023/02/12-06:00:01 06 Maou Gakuin no Futekigousha II|魔王学院の不適合者II～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～
+2023/07/05-00:00:03 12 Kimi wa Houkago Insomnia|君は放課後インソムニア
+2023/07/01-00:00:02 11 Kaminaki Sekai no Kamisama Katsudou|神無き世界のカミサマ活動
+2023/06/24-18:00:01 12 Mashle|マッシュル-MASHLE-
+2023/06/20-12:00:02 11 Dead Mount Death Play |デッドマウント・デスプレイ
+2023/06/14-00:00:02 11 My Home Hero|マイホームヒーロー
+2023/06/06-12:00:01 10 Golden Kamuy 4|ゴールデンカムイ(第四期)
+2023/04/13-12:00:02 11 Bougyoryoku 2|痛いのは嫌なので防御力に極振りしたいと思います。2
