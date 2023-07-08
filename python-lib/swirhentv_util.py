@@ -433,6 +433,8 @@ def torrent_download(filepath, slack_channel='bot-open'):
     proc = subprocess.Popen('aria2c --listen-port=38888 --max-upload-limit=500K --seed-time=0 --enable-http-pipelining=true --on-download-complete=exit *.torrent', shell=True)
     time.sleep(10)
 
+    # TODO 時間測定して、6時間以上経っていたら停めてしまうタイムアウト処理
+    # aria2が残っているものに関してダウンロードフラグを戻す処理などが必要？
     while True:
         if len(glob.glob(f'{filepath}/*.aria2')) == 0:
             proc.kill()
@@ -463,11 +465,16 @@ def encode_movie_in_directory(input_dir, output_dir, extention='mp4'):
 
     for filename in pathlib.Path(input_dir).glob(f'*話*.{extention}'):
         td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
+        # 移動先のファイルチェック
+        dstlist = glob.glob(f'{output_dir}/{filename.name}.mp4')
+        if len(dstlist) > 0:
+            multi_post('bot-open', f'@channel 【error】{filename.name}.mp4 が出力先に既に存在しているため、エンコードをスキップしました')
+            continue
+        
         return_log.append(f'{td} movie encode start: {filename.name}.mp4')
         encode_movie_proc(str(filename), output_dir)
         time.sleep(3)
         make_feed(output_dir)
-        #tweeet(f'【publish】{filename.name}.mp4')
         multi_post('bot-open', f'【publish】{filename.name}.mp4')
         td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
         return_log.append(f'{td} movie encode complete: {filename.name}.mp4')
