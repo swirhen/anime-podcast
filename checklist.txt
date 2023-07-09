@@ -1,4 +1,6 @@
-Last Update: 2023/07/09-06:00:01
+Last Update: 2023/07/09-12:00:02
+2023/07/09-12:00:02 01 Tenpuru|てんぷる
+2023/07/09-12:00:02 01 Liar Liar|ライアー・ライアー
 2023/07/09-06:00:01 15 Edens Zero 2|EDENS ZERO(第2期)
 2023/07/09-06:00:01 02 Uchi no Kaisha no Chiisai Senpai no Hanashi|うちの会社の小さい先輩の話
 2023/07/09-06:00:01 02 Ryza no Atelier Tokoyami no Joou to Himitsu no Kakurega|ライザのアトリエ ～常闇の女王と秘密の隠れ家～
@@ -7,8 +9,6 @@ Last Update: 2023/07/09-06:00:01
 2023/07/09-06:00:01 02 Ayaka|AYAKA ‐あやか‐
 2023/07/09-06:00:01 01 Level 1 Dakedo Unique Skill de Saikyou Desu|レベル1だけどユニークスキルで最強です
 2023/07/09-06:00:01 01 Bleach Sennen Kessen Hen - Ketsubetsu Tan|BLEACH 千年血戦篇 -訣別譚-
-2023/07/09-06:00:01 0 Tenpuru|てんぷる
-2023/07/09-06:00:01 0 Liar Liar|ライアー・ライアー
 2023/07/09-00:25:34 01 Nanatsu no Maken ga Shihai Suru|七つの魔剣が支配する
 2023/07/09-00:25:34 01 Kanojo, Okarishimasu S3|彼女、お借りします(第3期)
 2023/07/09-00:25:34 01 Dekiru Neko wa Kyou mo Yuuutsu|デキる猫は今日も憂鬱
