@@ -1,4 +1,8 @@
-Last Update: 2023/07/11-06:00:02
+Last Update: 2023/07/11-12:00:02
+2023/07/11-12:00:02 02 Yumemiru Danshi wa Genjitsushugisha|夢見る男子は現実主義者
+2023/07/11-12:00:02 02 Okashi na Tensei|おかしな転生
+2023/07/11-12:00:02 02 Mononogatari |もののがたり 第二章
+2023/07/11-12:00:02 0 Synduality Noir|SYNDUALITY Noir
 2023/07/11-06:00:02 01 Dark Gathering|ダークギャザリング
 2023/07/11-00:00:02 02 Masamune-kun no Revenge R|政宗くんのリベンジＲ
 2023/07/11-00:00:02 02 Lv1 Maou to One Room Yuusha|Lv1魔王とワンルーム勇者
@@ -31,10 +35,7 @@ Last Update: 2023/07/11-06:00:02
 2023/07/06-12:00:02 12 Niehime to Kemono no Ou|贄姫と獣の王
 2023/07/06-00:04:56 01 Jidouhanbaiki ni Umarekawatta Ore wa Meikyuu o Samayou|自動販売機に生まれ変わった俺は迷宮を彷徨う
 2023/07/05-18:00:02 01 Suki na Ko ga Megane o Wasureta|好きな子がめがねを忘れた
-2023/07/05-06:00:01 01 Mononogatari |もののがたり 第二章
 2023/07/05-00:00:03 12 Kimi wa Houkago Insomnia|君は放課後インソムニア
-2023/07/04-18:00:02 01 Yumemiru Danshi wa Genjitsushugisha|夢見る男子は現実主義者
-2023/07/04-18:00:02 01 Okashi na Tensei|おかしな転生
 2023/03/19-06:00:02 08 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2023/03/15-00:00:03 06 Ayakashi Triangle|あやかしトライアングル
 2023/03/04-18:00:01 01 Shingeki no Kyojin The Final Season Part 3|進撃の巨人 The Final Season 完結編
