@@ -1,4 +1,6 @@
-Last Update: 2023/07/12-06:00:01
+Last Update: 2023/07/12-12:00:02
+2023/07/12-12:00:02 02 Suki na Ko ga Megane o Wasureta|好きな子がめがねを忘れた
+2023/07/12-12:00:02 0 Helck|Helck
 2023/07/11-18:00:02 01 Synduality Noir|SYNDUALITY Noir
 2023/07/11-12:00:02 02 Yumemiru Danshi wa Genjitsushugisha|夢見る男子は現実主義者
 2023/07/11-12:00:02 02 Okashi na Tensei|おかしな転生
@@ -34,7 +36,6 @@ Last Update: 2023/07/12-06:00:01
 2023/07/06-18:00:01 01 Undead Girl Murder Farce|アンデッドガール・マーダーファルス
 2023/07/06-12:00:02 12 Niehime to Kemono no Ou|贄姫と獣の王
 2023/07/06-00:04:56 01 Jidouhanbaiki ni Umarekawatta Ore wa Meikyuu o Samayou|自動販売機に生まれ変わった俺は迷宮を彷徨う
-2023/07/05-18:00:02 01 Suki na Ko ga Megane o Wasureta|好きな子がめがねを忘れた
 2023/07/05-00:00:03 12 Kimi wa Houkago Insomnia|君は放課後インソムニア
 2023/03/19-06:00:02 08 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2023/03/15-00:00:03 06 Ayakashi Triangle|あやかしトライアングル
