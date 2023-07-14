@@ -1,7 +1,8 @@
-Last Update: 2023/07/14-12:00:02
-0 0 Spy Classroom S2|スパイ教室 2nd season
+Last Update: 2023/07/15-00:23:55
+2023/07/15-00:23:55 02 Sugar Apple Fairy Tale S2|シュガーアップル・フェアリーテイル(第2クール)
+2023/07/15-00:23:55 01 Spy Classroom S2|スパイ教室 2nd season
+2023/07/15-00:23:55 01 Seija Musou|聖者無双～サラリーマン、異世界で生き残るために歩む道～
 2023/07/14-12:00:02 01 Hataraku Maou-sama!! |はたらく魔王さま！！ 2nd Season
-2023/07/14-12:00:02 0 Seija Musou|聖者無双～サラリーマン、異世界で生き残るために歩む道～
 2023/07/14-06:00:02 02 Watashi no Shiawase na Kekkon|わたしの幸せな結婚
 2023/07/14-06:00:02 02 Rurouni Kenshin Meiji Kenkaku Romantan |るろうに剣心 -明治剣客浪漫譚-(2023)
 2023/07/14-06:00:02 02 Lastame|悲劇の元凶となる最強外道ラスボス女王は民の為に尽くします。
@@ -39,7 +40,6 @@ Last Update: 2023/07/14-12:00:02
 2023/07/09-00:25:34 01 Kanojo, Okarishimasu S3|彼女、お借りします(第3期)
 2023/07/09-00:25:34 01 Dekiru Neko wa Kyou mo Yuuutsu|デキる猫は今日も憂鬱
 2023/07/09-00:25:34 01 AI no Idenshi|AIの遺電子
-2023/07/08-06:00:02 01 Sugar Apple Fairy Tale S2|シュガーアップル・フェアリーテイル(第2クール)
 2023/07/08-00:00:02 04 Bang Dream! It`s MyGo!!!!!|BanG Dream！ It's MyGO！！！！！
 2023/07/05-00:00:03 12 Kimi wa Houkago Insomnia|君は放課後インソムニア
 2023/03/19-06:00:02 08 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
