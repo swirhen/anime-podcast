@@ -1,4 +1,6 @@
-Last Update: 2023/07/16-12:00:02
+Last Update: 2023/07/16-18:00:02
+2023/07/16-18:00:02 16 Edens Zero 2|EDENS ZERO(第2期)
+2023/07/16-18:00:02 02 Zom 100 Zombie ni Naru made ni Shitai 100 no Koto|ゾン100～ゾンビになるまでにしたい100のこと～
 2023/07/16-06:00:02 03 Uchi no Kaisha no Chiisai Senpai no Hanashi|うちの会社の小さい先輩の話
 2023/07/16-06:00:02 03 Ryza no Atelier Tokoyami no Joou to Himitsu no Kakurega|ライザのアトリエ ～常闇の女王と秘密の隠れ家～
 2023/07/16-06:00:02 03 Jitsu wa Ore, Saikyou Deshita|実は俺、最強でした？
@@ -39,8 +41,6 @@ Last Update: 2023/07/16-12:00:02
 2023/07/10-06:00:02 02 Genjitsu no Yohane Sunshine in the Mirror|幻日のヨハネ -SUNSHINE in the MIRROR-
 2023/07/10-06:00:02 01 Shinigami Bocchan to Kuro Maid |死神坊ちゃんと黒メイド（第2期）
 2023/07/10-06:00:02 01 Eiyuu Kyoushitsu|英雄教室
-2023/07/10-00:00:02 01 Zom 100 Zombie ni Naru made ni Shitai 100 no Koto|ゾン100～ゾンビになるまでにしたい100のこと～
-2023/07/09-06:00:01 15 Edens Zero 2|EDENS ZERO(第2期)
 2023/07/05-00:00:03 12 Kimi wa Houkago Insomnia|君は放課後インソムニア
 2023/03/19-06:00:02 08 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2023/03/15-00:00:03 06 Ayakashi Triangle|あやかしトライアングル
