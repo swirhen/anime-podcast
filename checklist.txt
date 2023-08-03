@@ -1,4 +1,8 @@
-Last Update: 2023/08/03-18:00:01
+Last Update: 2023/08/04-00:00:02
+2023/08/04-00:00:02 16 Niehime to Kemono no Ou|贄姫と獣の王
+2023/08/04-00:00:02 04 Spy Classroom S2|スパイ教室 2nd season
+2023/08/04-00:00:02 04 Bungou Stray Dogs 5|文豪ストレイドッグス(第5シーズン)
+2023/08/04-00:00:02 0 Tonikaku Kawaii Joshikou Hen|トニカクカワイイ(シーズン2)
 2023/08/03-12:00:01 05 Watashi no Shiawase na Kekkon|わたしの幸せな結婚
 2023/08/03-12:00:01 05 Undead Girl Murder Farce|アンデッドガール・マーダーファルス
 2023/08/03-12:00:01 04 Shiro Seijo to Kuro Bokushi|白聖女と黒牧師
@@ -38,9 +42,6 @@ Last Update: 2023/08/03-18:00:01
 2023/07/28-12:00:02 04 Jujutsu Kaisen S2|呪術廻戦 懐玉・玉折／渋谷事変(第2期)
 2023/07/28-12:00:02 03 Seija Musou|聖者無双～サラリーマン、異世界で生き残るために歩む道～
 2023/07/28-12:00:02 03 Hataraku Maou-sama!! |はたらく魔王さま！！ 2nd Season
-2023/07/28-06:00:02 03 Spy Classroom S2|スパイ教室 2nd season
-2023/07/28-00:00:02 15 Niehime to Kemono no Ou|贄姫と獣の王
-2023/07/27-12:00:03 03 Bungou Stray Dogs 5|文豪ストレイドッグス(第5シーズン)
 2023/07/24-00:00:02 09 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2023/03/15-00:00:03 06 Ayakashi Triangle|あやかしトライアングル
 2023/03/04-18:00:01 01 Shingeki no Kyojin The Final Season Part 3|進撃の巨人 The Final Season 完結編
