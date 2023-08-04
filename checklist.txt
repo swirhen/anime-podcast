@@ -1,5 +1,10 @@
-Last Update: 2023/08/04-06:00:02
-2023/08/04-06:00:02 01 Tonikaku Kawaii Joshikou Hen|トニカクカワイイ(シーズン2)
+Last Update: 2023/08/04-12:00:02
+2023/08/04-12:00:02 05 Rurouni Kenshin Meiji Kenkaku Romantan |るろうに剣心 -明治剣客浪漫譚-(2023)
+2023/08/04-12:00:02 05 Lastame|悲劇の元凶となる最強外道ラスボス女王は民の為に尽くします。
+2023/08/04-12:00:02 05 Jujutsu Kaisen S2|呪術廻戦 懐玉・玉折／渋谷事変(第2期)
+2023/08/04-12:00:02 04 Seija Musou|聖者無双～サラリーマン、異世界で生き残るために歩む道～
+2023/08/04-12:00:02 04 Hataraku Maou-sama!! |はたらく魔王さま！！ 2nd Season
+2023/08/04-06:00:02 01 Tonikaku Kawaii Joshikou Hen|トニカクカワイイ 女子高編
 2023/08/04-00:00:02 16 Niehime to Kemono no Ou|贄姫と獣の王
 2023/08/04-00:00:02 04 Spy Classroom S2|スパイ教室 2nd season
 2023/08/04-00:00:02 04 Bungou Stray Dogs 5|文豪ストレイドッグス(第5シーズン)
@@ -37,11 +42,6 @@ Last Update: 2023/08/04-06:00:02
 2023/07/29-12:00:01 04 Dekiru Neko wa Kyou mo Yuuutsu|デキる猫は今日も憂鬱
 2023/07/29-12:00:01 04 AI no Idenshi|AIの遺電子
 2023/07/29-00:00:01 04 Sugar Apple Fairy Tale S2|シュガーアップル・フェアリーテイル(第2クール)
-2023/07/28-12:00:02 04 Rurouni Kenshin Meiji Kenkaku Romantan |るろうに剣心 -明治剣客浪漫譚-(2023)
-2023/07/28-12:00:02 04 Lastame|悲劇の元凶となる最強外道ラスボス女王は民の為に尽くします。
-2023/07/28-12:00:02 04 Jujutsu Kaisen S2|呪術廻戦 懐玉・玉折／渋谷事変(第2期)
-2023/07/28-12:00:02 03 Seija Musou|聖者無双～サラリーマン、異世界で生き残るために歩む道～
-2023/07/28-12:00:02 03 Hataraku Maou-sama!! |はたらく魔王さま！！ 2nd Season
 2023/07/24-00:00:02 09 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2023/03/15-00:00:03 06 Ayakashi Triangle|あやかしトライアングル
 2023/03/04-18:00:01 01 Shingeki no Kyojin The Final Season Part 3|進撃の巨人 The Final Season 完結編
