@@ -1,4 +1,5 @@
-Last Update: 2023/08/04-18:00:02
+Last Update: 2023/08/05-00:00:02
+2023/08/05-00:00:02 05 Sugar Apple Fairy Tale S2|シュガーアップル・フェアリーテイル(第2クール)
 2023/08/04-12:00:02 05 Rurouni Kenshin Meiji Kenkaku Romantan |るろうに剣心 -明治剣客浪漫譚-(2023)
 2023/08/04-12:00:02 05 Lastame|悲劇の元凶となる最強外道ラスボス女王は民の為に尽くします。
 2023/08/04-12:00:02 05 Jujutsu Kaisen S2|呪術廻戦 懐玉・玉折／渋谷事変(第2期)
@@ -41,7 +42,6 @@ Last Update: 2023/08/04-18:00:02
 2023/07/29-12:00:01 04 Kanojo, Okarishimasu S3|彼女、お借りします(第3期)
 2023/07/29-12:00:01 04 Dekiru Neko wa Kyou mo Yuuutsu|デキる猫は今日も憂鬱
 2023/07/29-12:00:01 04 AI no Idenshi|AIの遺電子
-2023/07/29-00:00:01 04 Sugar Apple Fairy Tale S2|シュガーアップル・フェアリーテイル(第2クール)
 2023/07/24-00:00:02 09 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2023/03/15-00:00:03 06 Ayakashi Triangle|あやかしトライアングル
 2023/03/04-18:00:01 01 Shingeki no Kyojin The Final Season Part 3|進撃の巨人 The Final Season 完結編
