@@ -1,4 +1,6 @@
-Last Update: 2023/08/10-12:00:02
+Last Update: 2023/08/10-18:00:01
+2023/08/10-18:00:01 06 Watashi no Shiawase na Kekkon|わたしの幸せな結婚
+2023/08/10-18:00:01 06 Undead Girl Murder Farce|アンデッドガール・マーダーファルス
 2023/08/10-12:00:02 17 Niehime to Kemono no Ou|贄姫と獣の王
 2023/08/10-12:00:02 05 Shiro Seijo to Kuro Bokushi|白聖女と黒牧師
 2023/08/10-00:00:02 06 Jidouhanbaiki ni Umarekawatta Ore wa Meikyuu o Samayou|自動販売機に生まれ変わった俺は迷宮を彷徨う
@@ -40,8 +42,6 @@ Last Update: 2023/08/10-12:00:02
 2023/08/04-06:00:02 01 Tonikaku Kawaii Joshikou Hen|トニカクカワイイ 女子高編
 2023/08/04-00:00:02 04 Spy Classroom S2|スパイ教室 2nd season
 2023/08/04-00:00:02 04 Bungou Stray Dogs 5|文豪ストレイドッグス(第5シーズン)
-2023/08/03-12:00:01 05 Watashi no Shiawase na Kekkon|わたしの幸せな結婚
-2023/08/03-12:00:01 05 Undead Girl Murder Farce|アンデッドガール・マーダーファルス
 2023/07/24-00:00:02 09 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2023/03/15-00:00:03 06 Ayakashi Triangle|あやかしトライアングル
 2023/03/04-18:00:01 01 Shingeki no Kyojin The Final Season Part 3|進撃の巨人 The Final Season 完結編
