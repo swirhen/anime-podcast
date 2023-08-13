@@ -1,4 +1,6 @@
-Last Update: 2023/08/13-06:00:01
+Last Update: 2023/08/13-12:00:02
+2023/08/13-12:00:02 20 Edens Zero 2|EDENS ZERO(第2期)
+2023/08/13-12:00:02 07 Ayaka|AYAKA ‐あやか‐
 2023/08/13-06:00:01 07 Ryza no Atelier Tokoyami no Joou to Himitsu no Kakurega|ライザのアトリエ ～常闇の女王と秘密の隠れ家～
 2023/08/13-06:00:01 07 Horimiya Piece|ホリミヤ -piece-
 2023/08/13-06:00:01 06 Tenpuru|てんぷる
@@ -37,9 +39,7 @@ Last Update: 2023/08/13-06:00:01
 2023/08/07-06:00:02 05 Mushoku Tensei II Isekai Ittara Honki Dasu|無職転生Ⅱ ～異世界行ったら本気だす～
 2023/08/07-06:00:02 05 Eiyuu Kyoushitsu|英雄教室
 2023/08/07-06:00:02 04.5 Zom 100 Zombie ni Naru made ni Shitai 100 no Koto|ゾン100～ゾンビになるまでにしたい100のこと～
-2023/08/07-00:00:01 19 Edens Zero 2|EDENS ZERO(第2期)
 2023/08/07-00:00:01 05 Shinigami Bocchan to Kuro Maid |死神坊ちゃんと黒メイド（第2期）
-2023/08/06-06:00:02 06 Ayaka|AYAKA ‐あやか‐
 2023/08/06-06:00:02 05 Uchi no Kaisha no Chiisai Senpai no Hanashi|うちの会社の小さい先輩の話
 2023/08/06-06:00:02 05 Jitsu wa Ore, Saikyou Deshita|実は俺、最強でした？
 2023/07/24-00:00:02 09 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
