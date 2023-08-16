@@ -70,8 +70,8 @@ PATH=/home/swirhen/.rbenv/shims:/home/swirhen/.rbenv/bin:/home/swirhen/perl5/bin
 5 23 * * 7 /data/share/movie/sh/agqrrelease.sh
 
 # twitter search
-*/10 * * * * python /home/swirhen/sh/checker/twitterchk/twitter_check.py
-*/10 * * * * python /home/swirhen/sh/checker/twitterchk/twitter_check_eshi_rt.py
+#*/10 * * * * python /home/swirhen/sh/checker/twitterchk/twitter_check.py
+#*/10 * * * * python /home/swirhen/sh/checker/twitterchk/twitter_check_eshi_rt.py
 
 # url crawler
 #5 * * * * python /home/swirhen/sh/checker/crawler_check/crawler_check.py "https://jp.candyhouse.co/collections/frontpage/products/new-wifi" "sesame_new_wifi_srore_page" "reqid|trekkie\.storefront|trekkie_storefront"
