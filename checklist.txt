@@ -1,4 +1,5 @@
-Last Update: 2023/08/21-00:00:01
+Last Update: 2023/08/21-06:00:02
+2023/08/21-06:00:02 07 Mushoku Tensei II Isekai Ittara Honki Dasu|無職転生Ⅱ ～異世界行ったら本気だす～
 2023/08/20-06:00:02 21 Edens Zero 2|EDENS ZERO(第2期)
 2023/08/20-06:00:02 08 Ryza no Atelier Tokoyami no Joou to Himitsu no Kakurega|ライザのアトリエ ～常闇の女王と秘密の隠れ家～
 2023/08/20-06:00:02 08 Horimiya Piece|ホリミヤ -piece-
@@ -40,7 +41,6 @@ Last Update: 2023/08/21-00:00:01
 2023/08/14-12:00:02 06 Shinigami Bocchan to Kuro Maid |死神坊ちゃんと黒メイド（第2期）
 2023/08/14-12:00:02 06 Eiyuu Kyoushitsu|英雄教室
 2023/08/14-06:00:02 07 Genjitsu no Yohane Sunshine in the Mirror|幻日のヨハネ -SUNSHINE in the MIRROR-
-2023/08/14-06:00:02 06 Mushoku Tensei II Isekai Ittara Honki Dasu|無職転生Ⅱ ～異世界行ったら本気だす～
 2023/08/13-18:00:01 05 Zom 100 Zombie ni Naru made ni Shitai 100 no Koto|ゾン100～ゾンビになるまでにしたい100のこと～
 2023/08/12-12:00:01 05.5 Jujutsu Kaisen S2|呪術廻戦 懐玉・玉折／渋谷事変(第2期)
 2023/07/24-00:00:02 09 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
