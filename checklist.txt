@@ -1,4 +1,8 @@
-Last Update: 2023/09/02-06:00:01
+Last Update: 2023/09/02-12:00:01
+2023/09/02-12:00:01 09 Nanatsu no Maken ga Shihai Suru|七つの魔剣が支配する
+2023/09/02-12:00:01 09 Dekiru Neko wa Kyou mo Yuuutsu|デキる猫は今日も憂鬱
+2023/09/02-12:00:01 08 Kanojo, Okarishimasu S3|彼女、お借りします(第3期)
+2023/09/02-12:00:01 08 AI no Idenshi|AIの遺電子
 2023/09/02-06:00:01 12 Bang Dream! It`s MyGo!!!!!|BanG Dream！ It's MyGO！！！！！
 2023/09/02-06:00:01 09 Sugar Apple Fairy Tale S2|シュガーアップル・フェアリーテイル(第2クール)
 2023/09/01-12:00:01 09 Rurouni Kenshin Meiji Kenkaku Romantan |るろうに剣心 -明治剣客浪漫譚-(2023)
@@ -7,7 +11,6 @@ Last Update: 2023/09/02-06:00:01
 2023/09/01-12:00:01 07 Seija Musou|聖者無双～サラリーマン、異世界で生き残るために歩む道～
 2023/09/01-06:00:02 06 Jujutsu Kaisen S2|呪術廻戦 懐玉・玉折／渋谷事変(第2期)
 2023/09/01-00:00:02 08 Spy Classroom S2|スパイ教室 2nd season
-2023/09/01-00:00:02 08 Dekiru Neko wa Kyou mo Yuuutsu|デキる猫は今日も憂鬱
 2023/08/31-12:00:02 20 Niehime to Kemono no Ou|贄姫と獣の王
 2023/08/31-06:00:02 09 Watashi no Shiawase na Kekkon|わたしの幸せな結婚
 2023/08/31-06:00:02 09 Undead Girl Murder Farce|アンデッドガール・マーダーファルス
@@ -38,11 +41,8 @@ Last Update: 2023/09/02-06:00:01
 2023/08/27-06:00:02 07 Jitsu wa Ore, Saikyou Deshita|実は俺、最強でした？
 2023/08/27-00:00:02 08 Level 1 Dakedo Unique Skill de Saikyou Desu|レベル1だけどユニークスキルで最強です
 2023/08/27-00:00:02 08 Bleach Sennen Kessen Hen - Ketsubetsu Tan|BLEACH 千年血戦篇 -訣別譚-
-2023/08/26-12:00:02 08 Nanatsu no Maken ga Shihai Suru|七つの魔剣が支配する
 2023/08/26-00:00:02 07 Bungou Stray Dogs 5|文豪ストレイドッグス(第5シーズン)
 2023/08/25-00:00:02 04 Tonikaku Kawaii Joshikou Hen|トニカクカワイイ 女子高編
 2023/08/20-06:00:02 21 Edens Zero 2|EDENS ZERO(第2期)
-2023/08/19-12:00:02 07 Kanojo, Okarishimasu S3|彼女、お借りします(第3期)
-2023/08/19-12:00:02 07 AI no Idenshi|AIの遺電子
 2023/07/24-00:00:02 09 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2023/03/04-18:00:01 01 Shingeki no Kyojin The Final Season Part 3|進撃の巨人 The Final Season 完結編
