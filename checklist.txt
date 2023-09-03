@@ -1,7 +1,18 @@
-Last Update: 2023/09/03-00:00:02
+Last Update: 2023/09/04-00:02:42
+2023/09/04-00:02:42 22 Edens Zero 2|EDENS ZERO(第2期)
+2023/09/04-00:02:42 10 Ryza no Atelier Tokoyami no Joou to Himitsu no Kakurega|ライザのアトリエ ～常闇の女王と秘密の隠れ家～
+2023/09/04-00:02:42 10 Horimiya Piece|ホリミヤ -piece-
+2023/09/04-00:02:42 10 Ayaka|AYAKA ‐あやか‐
+2023/09/04-00:02:42 09 Tenpuru|てんぷる
+2023/09/04-00:02:42 09 Maou Gakuin no Futekigousha II|魔王学院の不適合者II～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～
+2023/09/04-00:02:42 09 Liar Liar|ライアー・ライアー
+2023/09/04-00:02:42 08.5 Bleach Sennen Kessen Hen - Ketsubetsu Tan|BLEACH 千年血戦篇 -訣別譚-
+2023/09/04-00:02:42 08 Uchi no Kaisha no Chiisai Senpai no Hanashi|うちの会社の小さい先輩の話
+2023/09/04-00:02:42 08 Jitsu wa Ore, Saikyou Deshita|実は俺、最強でした？
+2023/09/04-00:02:42 07 Zom 100 Zombie ni Naru made ni Shitai 100 no Koto|ゾン100～ゾンビになるまでにしたい100のこと～
+2023/09/04-00:02:42 01 Go-toubun no Hanayome~|五等分の花嫁∽
 2023/09/03-00:00:02 09 Level 1 Dakedo Unique Skill de Saikyou Desu|レベル1だけどユニークスキルで最強です
 2023/09/03-00:00:02 01 Go-Toubun no Hanayome~|五等分の花嫁∽
-2023/09/03-00:00:02 0 Go-toubun no Hanayome~|五等分の花嫁∽
 2023/09/02-12:00:01 09 Nanatsu no Maken ga Shihai Suru|七つの魔剣が支配する
 2023/09/02-12:00:01 09 Dekiru Neko wa Kyou mo Yuuutsu|デキる猫は今日も憂鬱
 2023/09/02-12:00:01 08 Kanojo, Okarishimasu S3|彼女、お借りします(第3期)
@@ -33,18 +44,7 @@ Last Update: 2023/09/03-00:00:02
 2023/08/28-12:00:02 08 Shinigami Bocchan to Kuro Maid |死神坊ちゃんと黒メイド（第2期）
 2023/08/28-12:00:02 08 Eiyuu Kyoushitsu|英雄教室
 2023/08/28-06:00:01 08 Mushoku Tensei II Isekai Ittara Honki Dasu|無職転生Ⅱ ～異世界行ったら本気だす～
-2023/08/28-00:00:02 06 Zom 100 Zombie ni Naru made ni Shitai 100 no Koto|ゾン100～ゾンビになるまでにしたい100のこと～
-2023/08/27-12:00:02 09 Ayaka|AYAKA ‐あやか‐
-2023/08/27-12:00:02 08 Tenpuru|てんぷる
-2023/08/27-06:00:02 09 Ryza no Atelier Tokoyami no Joou to Himitsu no Kakurega|ライザのアトリエ ～常闇の女王と秘密の隠れ家～
-2023/08/27-06:00:02 09 Horimiya Piece|ホリミヤ -piece-
-2023/08/27-06:00:02 08 Maou Gakuin no Futekigousha II|魔王学院の不適合者II～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～
-2023/08/27-06:00:02 08 Liar Liar|ライアー・ライアー
-2023/08/27-06:00:02 07 Uchi no Kaisha no Chiisai Senpai no Hanashi|うちの会社の小さい先輩の話
-2023/08/27-06:00:02 07 Jitsu wa Ore, Saikyou Deshita|実は俺、最強でした？
-2023/08/27-00:00:02 08 Bleach Sennen Kessen Hen - Ketsubetsu Tan|BLEACH 千年血戦篇 -訣別譚-
 2023/08/26-00:00:02 07 Bungou Stray Dogs 5|文豪ストレイドッグス(第5シーズン)
 2023/08/25-00:00:02 04 Tonikaku Kawaii Joshikou Hen|トニカクカワイイ 女子高編
-2023/08/20-06:00:02 21 Edens Zero 2|EDENS ZERO(第2期)
 2023/07/24-00:00:02 09 NieR Automata Ver1.1a|NieR：Automata Ver1.1a
 2023/03/04-18:00:01 01 Shingeki no Kyojin The Final Season Part 3|進撃の巨人 The Final Season 完結編
