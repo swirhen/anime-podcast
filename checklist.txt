@@ -1,4 +1,8 @@
-Last Update: 2023/10/03-06:00:02
+Last Update: 2023/10/03-12:00:02
+2023/10/03-12:00:02 13 Dark Gathering|ダークギャザリング
+2023/10/03-12:00:02 0 Toaru Ossan no VRMMO Katsudouki|とあるおっさんのVRMMO活動記
+2023/10/03-12:00:02 0 Toaru Ossan no VRMMO Katsudou Ki|とあるおっさんのVRMMO活動記
+2023/10/03-12:00:02 0 Shy|SHY
 2023/10/03-06:00:02 02 Seiken Gakuin no Maken Tsukai|聖剣学院の魔剣使い
 2023/10/03-06:00:02 01 Migi to Dali|ミギとダリ
 2023/10/03-06:00:02 01 Kamonohashi Ron no Kindan Suiri|鴨乃橋ロンの禁断推理
@@ -18,7 +22,6 @@ Last Update: 2023/10/03-06:00:02
 2023/09/29-06:00:01 10 Jujutsu Kaisen S2|呪術廻戦 懐玉・玉折／渋谷事変(第2期)
 2023/09/29-06:00:01 01 S Rank Musume|冒険者になりたいと都に出て行った娘がSランクになってた
 2023/09/27-12:00:01 12 Helck|Helck
-2023/09/26-12:00:01 12 Dark Gathering|ダークギャザリング
 2023/09/25-00:00:02 09 Zom 100 Zombie ni Naru made ni Shitai 100 no Koto|ゾン100～ゾンビになるまでにしたい100のこと～
 2023/09/24-00:00:02 11 Bleach Sennen Kessen Hen - Ketsubetsu Tan|BLEACH 千年血戦篇 -訣別譚-
 2023/09/23-00:00:02 23 Niehime to Kemono no Ou|贄姫と獣の王
