@@ -299,7 +299,7 @@ def remove_98(end_list):
             continue
 
         check = True
-        filelist = list(pathlib.Path(PSPMP4_98_DIR).glob(f'{name} 第*.mp4'))
+        filelist = list(pathlib.Path(PSPMP4_98_DIR).glob(f'{name} 第[0-9]*.mp4'))
         if len(filelist) > 0:
             for file in filelist:
                 if not os.path.islink(file):
