@@ -252,8 +252,13 @@ def move_98(end_list):
         if CHECK == '1':
             filelist = list(pathlib.Path(PSPMP4_98_DIR).glob(f'{name} 第*.mp4'))
             filelist_ignore_inteval_episodes = sorted([p.name for p in filelist if not re.search(r'\.5|\.1', str(p))])
+            if len(filelist_ignore_inteval_episodes) == 0:
+                filelist_ignore_inteval_episodes = sorted([p.name for p in filelist if not re.search(r'\.5', str(p))])
             filecount = len(filelist_ignore_inteval_episodes)
-            last_episode_count = int(re.sub(r'.*第(.*)話.*', r'\1', filelist_ignore_inteval_episodes[-1]))
+            last_episode_count_str = re.sub(r'.*第(.*)話.*', r'\1', filelist_ignore_inteval_episodes[-1])
+            if last_episode_count_str.isdigit() == False:
+                last_episode_count_str = re.sub(r'.*第(.*)-.*話.*', r'\1', filelist_ignore_inteval_episodes[-1])
+            last_episode_count = int(last_episode_count_str)
             if filecount != last_episode_count:
                 pprint.pprint(filelist_ignore_inteval_episodes)
                 print(f'最終話とみられるファイル: {filelist_ignore_inteval_episodes[-1]}')
