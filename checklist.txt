@@ -1,4 +1,11 @@
-Last Update: 2023/10/07-18:00:02
+Last Update: 2023/10/08-00:00:01
+2023/10/08-00:00:01 02 Megumi no Daigo Kyuukoku no Orange|め組の大吾 救国のオレンジ
+2023/10/08-00:00:01 01 Undead Unluck|アンデッドアンラック
+2023/10/08-00:00:01 01 Koryaku Wanted|攻略うぉんてっど！～異世界救います！?～
+2023/10/08-00:00:01 0 Kibou no Chikara Otona Precure `23|キボウノチカラ～オトナプリキュア'23～
+2023/10/08-00:00:01 0 Kanojo mo Kanojo Season 2|カノジョも彼女 Season 2
+2023/10/08-00:00:01 0 Hypnosismic|ヒプノシスマイク -Division Rap Battle- Rhyme Anima ＋
+2023/10/08-00:00:01 0 Hikikomari Kyuuketsuki no Monmon|ひきこまり吸血姫の悶々
 2023/10/07-18:00:02 05 Sousou no Frieren|葬送のフリーレン
 2023/10/07-18:00:02 01 Yuzuki-san Chi no Yon Kyoudai.|柚木さんちの四兄弟。
 2023/10/07-18:00:02 01 Under Ninja|アンダーニンジャ
@@ -10,8 +17,6 @@ Last Update: 2023/10/07-18:00:02
 2023/10/07-18:00:02 01 Goblin Slayer II|ゴブリンスレイヤーⅡ
 2023/10/07-18:00:02 01 Bikkurimen|ビックリメン
 2023/10/07-18:00:02 01 Beyblade X|BEYBLADE X
-2023/10/07-18:00:02 0 Undead Unluck|アンデッドアンラック
-2023/10/07-18:00:02 0 Koryaku Wanted|攻略うぉんてっど！～異世界救います！?～
 2023/10/07-13:00:20 14 Rurouni Kenshin Meiji Kenkaku Romantan |るろうに剣心 -明治剣客浪漫譚-(2023)
 2023/10/07-13:00:20 14 Nanatsu no Maken ga Shihai Suru|七つの魔剣が支配する
 2023/10/07-13:00:20 11 Jujutsu Kaisen S2|呪術廻戦 懐玉・玉折／渋谷事変(第2期)
@@ -44,6 +49,5 @@ Last Update: 2023/10/07-18:00:02
 2023/10/02-06:00:01 01 Overtake!|オーバーテイク！
 2023/10/02-06:00:01 01 Captain Tsubasa Season 2 - Junior Youth-hen|キャプテン翼シーズン2 ジュニアユース編
 2023/10/01-12:00:02 01 Ragna Crimson|ラグナクリムゾン
-2023/10/01-06:00:02 01 Megumi no Daigo Kyuukoku no Orange|め組の大吾 救国のオレンジ
 2023/09/25-00:00:02 09 Zom 100 Zombie ni Naru made ni Shitai 100 no Koto|ゾン100～ゾンビになるまでにしたい100のこと～
 2023/03/04-18:00:01 01 Shingeki no Kyojin The Final Season Part 3|進撃の巨人 The Final Season 完結編
