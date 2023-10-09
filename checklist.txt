@@ -1,4 +1,8 @@
-Last Update: 2023/10/09-18:00:02
+Last Update: 2023/10/10-00:00:01
+2023/10/10-00:00:01 14 Dark Gathering|ダークギャザリング
+2023/10/10-00:00:01 02 Migi to Dali|ミギとダリ
+2023/10/10-00:00:01 02 Kamonohashi Ron no Kindan Suiri|鴨乃橋ロンの禁断推理
+2023/10/10-00:00:01 0 Hoshikuzu Telepath|星屑テレパス
 2023/10/09-18:00:02 01 Hyakkano|君のことが大大大大大好きな100人の彼女
 2023/10/09-12:00:02 02 MF Ghost|MFゴースト
 2023/10/09-00:06:51 01 Nanatsu no Taizai Mokushiroku no Yonkishi|七つの大罪 黙示録の四騎士
@@ -54,10 +58,7 @@ Last Update: 2023/10/09-18:00:02
 2023/10/04-12:00:02 13 Helck|Helck
 2023/10/03-18:00:01 01 Toaru Ossan no VRMMO Katsudou Ki|とあるおっさんのVRMMO活動記
 2023/10/03-18:00:01 01 Shy|SHY
-2023/10/03-12:00:02 13 Dark Gathering|ダークギャザリング
 2023/10/03-06:00:02 02 Seiken Gakuin no Maken Tsukai|聖剣学院の魔剣使い
-2023/10/03-06:00:02 01 Migi to Dali|ミギとダリ
-2023/10/03-06:00:02 01 Kamonohashi Ron no Kindan Suiri|鴨乃橋ロンの禁断推理
 2023/10/03-06:00:02 01 B-Project Netsuretsu Love Call|B-PROJECT ～熱烈＊ラブコール～
 2023/09/25-00:00:02 09 Zom 100 Zombie ni Naru made ni Shitai 100 no Koto|ゾン100～ゾンビになるまでにしたい100のこと～
 2023/03/04-18:00:01 01 Shingeki no Kyojin The Final Season Part 3|進撃の巨人 The Final Season 完結編
