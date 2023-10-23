@@ -1,10 +1,13 @@
-Last Update: 2023/10/23-18:00:01
+Last Update: 2023/10/24-00:00:02
+2023/10/24-00:00:02 16 Dark Gathering|ダークギャザリング
+2023/10/24-00:00:02 04 Migi to Dali|ミギとダリ
+2023/10/24-00:00:02 03 Hoshikuzu Telepath|星屑テレパス
+2023/10/24-00:00:02 02 Kusuriya no Hitorigoto|薬屋のひとりごと
 2023/10/23-12:00:02 04 Overtake!|オーバーテイク！
 2023/10/23-12:00:02 04 MF Ghost|MFゴースト
 2023/10/23-12:00:02 04 Dekoboko Majo no Oyako Jijou|でこぼこ魔女の親子事情
 2023/10/23-12:00:02 04 Captain Tsubasa Season 2 - Junior Youth-hen|キャプテン翼シーズン2 ジュニアユース編
 2023/10/23-12:00:02 03 Hyakkano|君のことが大大大大大好きな100人の彼女
-2023/10/23-06:00:02 01 Kusuriya no Hitorigoto|薬屋のひとりごと
 2023/10/23-00:00:02 04 Shangri-La Frontier|シャングリラ・フロンティア～クソゲーハンター、神ゲーに挑まんとす～
 2023/10/23-00:00:02 03 The Idolmaster Million Live!|アイドルマスター ミリオンライブ！
 2023/10/23-00:00:02 03 Nanatsu no Taizai Mokushiroku no Yonkishi|七つの大罪 黙示録の四騎士
@@ -57,9 +60,6 @@ Last Update: 2023/10/23-18:00:01
 2023/10/17-12:00:02 03 Toaru Ossan no VRMMO Katsudou Ki|とあるおっさんのVRMMO活動記
 2023/10/17-12:00:02 03 Kamonohashi Ron no Kindan Suiri|鴨乃橋ロンの禁断推理
 2023/10/17-12:00:02 02 Kawagoe Boys Sing|川越ボーイズ・シング
-2023/10/17-00:00:02 15 Dark Gathering|ダークギャザリング
-2023/10/17-00:00:02 03 Migi to Dali|ミギとダリ
-2023/10/17-00:00:02 02 Hoshikuzu Telepath|星屑テレパス
 2023/10/14-18:02:03 02 Koryaku Wanted|攻略うぉんてっど！～異世界救います！？～
 2023/10/14-12:00:02 02 Hypnosismic|ヒプノシスマイク -Division Rap Battle- Rhyme Anima ＋
 2023/09/25-00:00:02 09 Zom 100 Zombie ni Naru made ni Shitai 100 no Koto|ゾン100～ゾンビになるまでにしたい100のこと～
