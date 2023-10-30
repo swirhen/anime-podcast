@@ -1,4 +1,5 @@
-Last Update: 2023/10/30-18:00:02
+Last Update: 2023/10/31-00:00:02
+2023/10/31-00:00:02 04 Hoshikuzu Telepath|星屑テレパス
 2023/10/30-18:00:02 05 MF Ghost|MFゴースト
 2023/10/30-18:00:02 04 The Idolmaster Million Live!|アイドルマスター ミリオンライブ！
 2023/10/30-12:00:02 05 Overtake!|オーバーテイク！
@@ -58,7 +59,6 @@ Last Update: 2023/10/30-18:00:02
 2023/10/24-12:00:02 03 Kawagoe Boys Sing|川越ボーイズ・シング
 2023/10/24-00:00:02 16 Dark Gathering|ダークギャザリング
 2023/10/24-00:00:02 04 Migi to Dali|ミギとダリ
-2023/10/24-00:00:02 03 Hoshikuzu Telepath|星屑テレパス
 2023/10/23-12:00:02 04 Dekoboko Majo no Oyako Jijou|でこぼこ魔女の親子事情
 2023/10/22-00:00:01 03 Kibou no Chikara Otona Precure `23|キボウノチカラ～オトナプリキュア'23～
 2023/10/14-18:02:03 02 Koryaku Wanted|攻略うぉんてっど！～異世界救います！？～
