@@ -1,4 +1,6 @@
-Last Update: 2023/10/30-12:00:02
+Last Update: 2023/10/30-18:00:02
+2023/10/30-18:00:02 05 MF Ghost|MFゴースト
+2023/10/30-18:00:02 04 The Idolmaster Million Live!|アイドルマスター ミリオンライブ！
 2023/10/30-12:00:02 05 Overtake!|オーバーテイク！
 2023/10/30-12:00:02 04 Hyakkano|君のことが大大大大大好きな100人の彼女
 2023/10/30-00:00:02 05 Shangri-La Frontier|シャングリラ・フロンティア～クソゲーハンター、神ゲーに挑まんとす～
@@ -57,9 +59,7 @@ Last Update: 2023/10/30-12:00:02
 2023/10/24-00:00:02 16 Dark Gathering|ダークギャザリング
 2023/10/24-00:00:02 04 Migi to Dali|ミギとダリ
 2023/10/24-00:00:02 03 Hoshikuzu Telepath|星屑テレパス
-2023/10/23-12:00:02 04 MF Ghost|MFゴースト
 2023/10/23-12:00:02 04 Dekoboko Majo no Oyako Jijou|でこぼこ魔女の親子事情
-2023/10/23-00:00:02 03 The Idolmaster Million Live!|アイドルマスター ミリオンライブ！
 2023/10/22-00:00:01 03 Kibou no Chikara Otona Precure `23|キボウノチカラ～オトナプリキュア'23～
 2023/10/14-18:02:03 02 Koryaku Wanted|攻略うぉんてっど！～異世界救います！？～
 2023/09/25-00:00:02 09 Zom 100 Zombie ni Naru made ni Shitai 100 no Koto|ゾン100～ゾンビになるまでにしたい100のこと～
