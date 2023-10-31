@@ -1,4 +1,10 @@
-Last Update: 2023/10/31-06:00:02
+Last Update: 2023/10/31-12:00:02
+2023/10/31-12:00:02 17 Dark Gathering|ダークギャザリング
+2023/10/31-12:00:02 06 Seiken Gakuin no Maken Tsukai|聖剣学院の魔剣使い
+2023/10/31-12:00:02 05 Toaru Ossan no VRMMO Katsudou Ki|とあるおっさんのVRMMO活動記
+2023/10/31-12:00:02 05 Migi to Dali|ミギとダリ
+2023/10/31-12:00:02 05 Kamonohashi Ron no Kindan Suiri|鴨乃橋ロンの禁断推理
+2023/10/31-12:00:02 04 Kawagoe Boys Sing|川越ボーイズ・シング
 2023/10/31-00:00:02 04 Hoshikuzu Telepath|星屑テレパス
 2023/10/30-18:00:02 05 MF Ghost|MFゴースト
 2023/10/30-18:00:02 04 The Idolmaster Million Live!|アイドルマスター ミリオンライブ！
@@ -53,12 +59,6 @@ Last Update: 2023/10/31-06:00:02
 2023/10/25-00:00:02 04 Watashi no Oshi wa Akuyaku Reijou.|私の推しは悪役令嬢。
 2023/10/25-00:00:02 04 Shy|SHY
 2023/10/25-00:00:02 04 B-Project Netsuretsu Love Call|B-PROJECT ～熱烈＊ラブコール～
-2023/10/24-12:00:02 05 Seiken Gakuin no Maken Tsukai|聖剣学院の魔剣使い
-2023/10/24-12:00:02 04 Toaru Ossan no VRMMO Katsudou Ki|とあるおっさんのVRMMO活動記
-2023/10/24-12:00:02 04 Kamonohashi Ron no Kindan Suiri|鴨乃橋ロンの禁断推理
-2023/10/24-12:00:02 03 Kawagoe Boys Sing|川越ボーイズ・シング
-2023/10/24-00:00:02 16 Dark Gathering|ダークギャザリング
-2023/10/24-00:00:02 04 Migi to Dali|ミギとダリ
 2023/10/23-12:00:02 04 Dekoboko Majo no Oyako Jijou|でこぼこ魔女の親子事情
 2023/10/22-00:00:01 03 Kibou no Chikara Otona Precure `23|キボウノチカラ～オトナプリキュア'23～
 2023/10/14-18:02:03 02 Koryaku Wanted|攻略うぉんてっど！～異世界救います！？～
