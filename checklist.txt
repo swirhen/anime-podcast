@@ -1,4 +1,8 @@
-Last Update: 2023/11/05-12:00:01
+Last Update: 2023/11/05-18:00:02
+2023/11/05-18:00:02 05 The Idolmaster Million Live!|アイドルマスター ミリオンライブ！
+2023/11/05-18:00:02 05 Potion-danomi de Ikinobimasu!|ポーション頼みで生き延びます！
+2023/11/05-18:00:02 05 Kusuriya no Hitorigoto|薬屋のひとりごと
+2023/11/05-18:00:02 05 Bokura no Ame-iro Protocol|僕らの雨いろプロトコル
 2023/11/05-06:00:02 06 Ragna Crimson|ラグナクリムゾン
 2023/11/05-06:00:02 05 Tearmoon Empire Story|ティアムーン帝国物語～断頭台から始まる、姫の転生逆転ストーリー～
 2023/11/05-06:00:02 05 Saihate no Paladin Tetsusabi no Yama no Ou|最果てのパラディン 鉄錆の山の王
@@ -52,15 +56,11 @@ Last Update: 2023/11/05-12:00:01
 2023/10/31-12:00:02 04 Kawagoe Boys Sing|川越ボーイズ・シング
 2023/10/31-00:00:02 04 Hoshikuzu Telepath|星屑テレパス
 2023/10/30-18:00:02 05 MF Ghost|MFゴースト
-2023/10/30-18:00:02 04 The Idolmaster Million Live!|アイドルマスター ミリオンライブ！
 2023/10/30-12:00:02 05 Overtake!|オーバーテイク！
 2023/10/30-12:00:02 04 Hyakkano|君のことが大大大大大好きな100人の彼女
 2023/10/30-00:00:02 05 Shangri-La Frontier|シャングリラ・フロンティア～クソゲーハンター、神ゲーに挑まんとす～
 2023/10/30-00:00:02 05 Captain Tsubasa Season 2 - Junior Youth-hen|キャプテン翼シーズン2 ジュニアユース編
 2023/10/30-00:00:02 04 Nanatsu no Taizai Mokushiroku no Yonkishi|七つの大罪 黙示録の四騎士
-2023/10/29-18:00:02 04 Potion-danomi de Ikinobimasu!|ポーション頼みで生き延びます！
-2023/10/29-12:00:02 04 Kusuriya no Hitorigoto|薬屋のひとりごと
-2023/10/29-12:00:02 04 Bokura no Ame-iro Protocol|僕らの雨いろプロトコル
 2023/10/28-18:00:02 04 Ikenaikyo|婚約破棄された令嬢を拾った俺が、イケナイことを教え込む
 2023/10/14-18:02:03 02 Koryaku Wanted|攻略うぉんてっど！～異世界救います！？～
 2023/09/25-00:00:02 09 Zom 100 Zombie ni Naru made ni Shitai 100 no Koto|ゾン100～ゾンビになるまでにしたい100のこと～
