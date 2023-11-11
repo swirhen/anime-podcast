@@ -1,4 +1,14 @@
-Last Update: 2023/11/11-18:00:02
+Last Update: 2023/11/12-00:00:02
+2023/11/12-00:00:02 10 Sousou no Frieren|葬送のフリーレン
+2023/11/12-00:00:02 07 Megumi no Daigo Kyuukoku no Orange|め組の大吾 救国のオレンジ
+2023/11/12-00:00:02 06 Under Ninja|アンダーニンジャ
+2023/11/12-00:00:02 06 Undead Unluck|アンデッドアンラック
+2023/11/12-00:00:02 06 Rail Romanesque 2|レヱル・ロマネスク２
+2023/11/12-00:00:02 06 Kibou no Chikara Otona Precure `23|キボウノチカラ～オトナプリキュア'23～
+2023/11/12-00:00:02 06 Kanojo mo Kanojo Season 2|カノジョも彼女 Season 2
+2023/11/12-00:00:02 06 Hypnosismic|ヒプノシスマイク -Division Rap Battle- Rhyme Anima ＋
+2023/11/12-00:00:02 06 Hikikomari Kyuuketsuki no Monmon|ひきこまり吸血姫の悶々
+2023/11/12-00:00:02 06 Beyblade X|BEYBLADE X
 2023/11/11-12:00:02 07 Ojou to Banken-kun|お嬢と番犬くん
 2023/11/11-12:00:02 06 Hametsu no Oukoku|はめつのおうこく
 2023/11/11-12:00:02 06 Bikkurimen|ビックリメン
@@ -48,16 +58,6 @@ Last Update: 2023/11/11-18:00:02
 2023/11/05-06:00:02 05 Kikansha no Mahou wa Tokubetsu Desu|帰還者の魔法は特別です
 2023/11/05-06:00:02 05 Buta no Liver wa Kanetsu Shiro|豚のレバーは加熱しろ
 2023/11/05-06:00:02 05 Atarashii Joushi wa Do Tennen|新しい上司はど天然
-2023/11/05-00:00:01 06 Megumi no Daigo Kyuukoku no Orange|め組の大吾 救国のオレンジ
-2023/11/05-00:00:01 05 Kibou no Chikara Otona Precure `23|キボウノチカラ～オトナプリキュア'23～
-2023/11/05-00:00:01 05 Hikikomari Kyuuketsuki no Monmon|ひきこまり吸血姫の悶々
-2023/11/04-18:00:02 05 Kanojo mo Kanojo Season 2|カノジョも彼女 Season 2
-2023/11/04-12:00:02 09 Sousou no Frieren|葬送のフリーレン
-2023/11/04-12:00:02 05 Undead Unluck|アンデッドアンラック
-2023/11/04-12:00:02 05 Hypnosismic|ヒプノシスマイク -Division Rap Battle- Rhyme Anima ＋
-2023/11/04-12:00:02 05 Beyblade X|BEYBLADE X
-2023/11/03-18:00:02 05 Under Ninja|アンダーニンジャ
-2023/11/03-18:00:02 05 Rail Romanesque 2|レヱル・ロマネスク２
 2023/11/03-18:00:02 04 Houkago Shounen Hanako-kun|放課後少年花子くん
 2023/11/02-18:00:02 01 Tensei Shitara Slime Datta Ken Coleus no Yume|転生したらスライムだった件
 2023/11/01-18:00:02 05 Paradox Live THE ANIMATION|Paradox Live THE ANIMATION
