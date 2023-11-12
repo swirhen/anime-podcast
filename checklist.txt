@@ -1,4 +1,6 @@
-Last Update: 2023/11/12-12:00:02
+Last Update: 2023/11/12-18:00:02
+2023/11/12-18:00:02 07 Ragna Crimson|ラグナクリムゾン
+2023/11/12-18:00:02 06 Saihate no Paladin Tetsusabi no Yama no Ou|最果てのパラディン 鉄錆の山の王
 2023/11/12-12:00:02 06 Potion-danomi de Ikinobimasu!|ポーション頼みで生き延びます！
 2023/11/12-12:00:02 06 Bokura no Ame-iro Protocol|僕らの雨いろプロトコル
 2023/11/12-06:00:02 06 Tearmoon Empire Story|ティアムーン帝国物語～断頭台から始まる、姫の転生逆転ストーリー～
@@ -55,8 +57,6 @@ Last Update: 2023/11/12-12:00:02
 2023/11/06-00:00:02 05 Nanatsu no Taizai Mokushiroku no Yonkishi|七つの大罪 黙示録の四騎士
 2023/11/05-18:00:02 05 The Idolmaster Million Live!|アイドルマスター ミリオンライブ！
 2023/11/05-18:00:02 05 Kusuriya no Hitorigoto|薬屋のひとりごと
-2023/11/05-06:00:02 06 Ragna Crimson|ラグナクリムゾン
-2023/11/05-06:00:02 05 Saihate no Paladin Tetsusabi no Yama no Ou|最果てのパラディン 鉄錆の山の王
 2023/11/05-06:00:02 05 Atarashii Joushi wa Do Tennen|新しい上司はど天然
 2023/11/03-18:00:02 04 Houkago Shounen Hanako-kun|放課後少年花子くん
 2023/11/02-18:00:02 01 Tensei Shitara Slime Datta Ken Coleus no Yume|転生したらスライムだった件
