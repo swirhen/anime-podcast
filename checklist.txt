@@ -1,4 +1,7 @@
-Last Update: 2023/11/19-12:00:02
+Last Update: 2023/11/19-18:00:01
+2023/11/19-18:00:01 07 Potion-danomi de Ikinobimasu!|ポーション頼みで生き延びます！
+2023/11/19-18:00:01 07 Kusuriya no Hitorigoto|薬屋のひとりごと
+2023/11/19-18:00:01 07 Bokura no Ame-iro Protocol|僕らの雨いろプロトコル
 2023/11/19-06:00:02 07 Tearmoon Empire Story|ティアムーン帝国物語～断頭台から始まる、姫の転生逆転ストーリー～
 2023/11/19-06:00:02 07 Saihate no Paladin Tetsusabi no Yama no Ou|最果てのパラディン 鉄錆の山の王
 2023/11/19-06:00:02 07 Kikansha no Mahou wa Tokubetsu Desu|帰還者の魔法は特別です
@@ -52,10 +55,7 @@ Last Update: 2023/11/19-12:00:02
 2023/11/13-00:00:02 07 Overtake!|オーバーテイク！
 2023/11/13-00:00:02 07 Captain Tsubasa Season 2 - Junior Youth-hen|キャプテン翼シーズン2 ジュニアユース編
 2023/11/13-00:00:02 06 The Idolmaster Million Live!|アイドルマスター ミリオンライブ！
-2023/11/13-00:00:02 06 Kusuriya no Hitorigoto|薬屋のひとりごと
 2023/11/12-18:00:02 07 Ragna Crimson|ラグナクリムゾン
-2023/11/12-12:00:02 06 Potion-danomi de Ikinobimasu!|ポーション頼みで生き延びます！
-2023/11/12-12:00:02 06 Bokura no Ame-iro Protocol|僕らの雨いろプロトコル
 2023/11/12-00:00:02 07 Megumi no Daigo Kyuukoku no Orange|め組の大吾 救国のオレンジ
 2023/11/12-00:00:02 06 Kibou no Chikara Otona Precure `23|キボウノチカラ～オトナプリキュア'23～
 2023/11/12-00:00:02 06 Hypnosismic|ヒプノシスマイク -Division Rap Battle- Rhyme Anima ＋
