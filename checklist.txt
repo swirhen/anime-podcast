@@ -1,4 +1,7 @@
-Last Update: 2023/12/03-06:00:02
+Last Update: 2023/12/03-12:00:02
+2023/12/03-12:00:02 10 Ragna Crimson|ラグナクリムゾン
+2023/12/03-12:00:02 09 Potion-danomi de Ikinobimasu!|ポーション頼みで生き延びます！
+2023/12/03-12:00:02 09 Kusuriya no Hitorigoto|薬屋のひとりごと
 2023/12/03-06:00:02 09 Tearmoon Empire Story|ティアムーン帝国物語～断頭台から始まる、姫の転生逆転ストーリー～
 2023/12/03-06:00:02 09 Kikansha no Mahou wa Tokubetsu Desu|帰還者の魔法は特別です
 2023/12/03-06:00:02 09 Atarashii Joushi wa Do Tennen|新しい上司はど天然
@@ -54,9 +57,6 @@ Last Update: 2023/12/03-06:00:02
 2023/11/27-00:00:02 09 Shangri-La Frontier|シャングリラ・フロンティア～クソゲーハンター、神ゲーに挑まんとす～
 2023/11/27-00:00:02 09 Captain Tsubasa Season 2 - Junior Youth-hen|キャプテン翼シーズン2 ジュニアユース編
 2023/11/27-00:00:02 07 Nanatsu no Taizai Mokushiroku no Yonkishi|七つの大罪 黙示録の四騎士
-2023/11/26-18:00:02 09 Ragna Crimson|ラグナクリムゾン
-2023/11/26-18:00:02 08 Kusuriya no Hitorigoto|薬屋のひとりごと
-2023/11/26-12:00:02 08 Potion-danomi de Ikinobimasu!|ポーション頼みで生き延びます！
 2023/11/26-12:00:02 08 Bokura no Ame-iro Protocol|僕らの雨いろプロトコル
 2023/11/26-06:00:02 08 Buta no Liver wa Kanetsu Shiro|豚のレバーは加熱しろ
 2023/11/26-00:00:01 08 Hikikomari Kyuuketsuki no Monmon|ひきこまり吸血姫の悶々
