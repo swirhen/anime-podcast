@@ -1,4 +1,5 @@
-Last Update: 2023/12/04-06:00:01
+Last Update: 2023/12/04-12:00:01
+2023/12/04-12:00:01 10 Overtake!|オーバーテイク！
 2023/12/04-00:00:02 10 Shangri-La Frontier|シャングリラ・フロンティア～クソゲーハンター、神ゲーに挑まんとす～
 2023/12/04-00:00:02 10 Megumi no Daigo Kyuukoku no Orange|め組の大吾 救国のオレンジ
 2023/12/04-00:00:02 10 Captain Tsubasa Season 2 - Junior Youth-hen|キャプテン翼シーズン2 ジュニアユース編
@@ -55,7 +56,6 @@ Last Update: 2023/12/04-06:00:01
 2023/11/27-18:00:02 09 MF Ghost|MFゴースト
 2023/11/27-18:00:02 08 Saihate no Paladin Tetsusabi no Yama no Ou|最果てのパラディン 鉄錆の山の王
 2023/11/27-18:00:02 08 Hyakkano|君のことが大大大大大好きな100人の彼女
-2023/11/27-12:00:02 09 Overtake!|オーバーテイク！
 2023/11/27-12:00:02 09 Dekoboko Majo no Oyako Jijou|でこぼこ魔女の親子事情
 2023/11/26-12:00:02 08 Bokura no Ame-iro Protocol|僕らの雨いろプロトコル
 2023/11/26-06:00:02 08 Buta no Liver wa Kanetsu Shiro|豚のレバーは加熱しろ
