@@ -1,4 +1,12 @@
-Last Update: 2023/12/15-18:00:02
+Last Update: 2023/12/16-00:00:02
+2023/12/16-00:00:02 24 Rurouni Kenshin Meiji Kenkaku Romantan |るろうに剣心 -明治剣客浪漫譚-(2023)
+2023/12/16-00:00:02 23 Mahou Tsukai no Yome Season 2 |魔法使いの嫁 SEASON2 第2クール
+2023/12/16-00:00:02 21 Jujutsu Kaisen S2|呪術廻戦 懐玉・玉折／渋谷事変(第2期)
+2023/12/16-00:00:02 11 Under Ninja|アンダーニンジャ
+2023/12/16-00:00:02 11 Tate no Yuusha no Nariagari Season 3|盾の勇者の成り上がり Season 3
+2023/12/16-00:00:02 11 Kizuna no Allele |絆のアリル セカンドシーズン
+2023/12/16-00:00:02 11 Kimizero|経験済みなキミと、経験ゼロなオレが、お付き合いする話。
+2023/12/16-00:00:02 11 Goblin Slayer II|ゴブリンスレイヤーⅡ
 2023/12/15-12:00:02 12 S Rank Musume|冒険者になりたいと都に出て行った娘がSランクになってた
 2023/12/15-12:00:02 11 Yuzuki-san Chi no Yon Kyoudai.|柚木さんちの四兄弟。
 2023/12/15-12:00:02 11 Kamierabi|カミエラビ GOD.app
@@ -28,7 +36,6 @@ Last Update: 2023/12/15-18:00:02
 2023/12/10-18:00:02 11 Shangri-La Frontier|シャングリラ・フロンティア～クソゲーハンター、神ゲーに挑まんとす～
 2023/12/10-18:00:02 10 Potion-danomi de Ikinobimasu!|ポーション頼みで生き延びます！
 2023/12/10-18:00:02 10 Kusuriya no Hitorigoto|薬屋のひとりごと
-2023/12/10-18:00:02 10 Kizuna no Allele |絆のアリル セカンドシーズン
 2023/12/10-18:00:02 10 Bokura no Ame-iro Protocol|僕らの雨いろプロトコル
 2023/12/10-18:00:02 09 Nanatsu no Taizai Mokushiroku no Yonkishi|七つの大罪 黙示録の四騎士
 2023/12/10-06:00:02 10 Tearmoon Empire Story|ティアムーン帝国物語～断頭台から始まる、姫の転生逆転ストーリー～
@@ -39,14 +46,8 @@ Last Update: 2023/12/15-18:00:02
 2023/12/10-00:00:02 09 Hikikomari Kyuuketsuki no Monmon|ひきこまり吸血姫の悶々
 2023/12/09-18:00:01 14 Sousou no Frieren|葬送のフリーレン
 2023/12/09-18:00:01 10 Bikkurimen|ビックリメン
-2023/12/09-12:00:01 22 Mahou Tsukai no Yome Season 2 |魔法使いの嫁 SEASON2 第2クール
 2023/12/09-12:00:01 10 Undead Unluck|アンデッドアンラック
-2023/12/09-12:00:01 10 Tate no Yuusha no Nariagari Season 3|盾の勇者の成り上がり Season 3
 2023/12/09-12:00:01 10 Hametsu no Oukoku|はめつのおうこく
-2023/12/09-12:00:01 10 Goblin Slayer II|ゴブリンスレイヤーⅡ
-2023/12/09-00:00:02 20 Jujutsu Kaisen S2|呪術廻戦 懐玉・玉折／渋谷事変(第2期)
-2023/12/09-00:00:02 10 Under Ninja|アンダーニンジャ
-2023/12/08-12:00:02 23 Rurouni Kenshin Meiji Kenkaku Romantan |るろうに剣心 -明治剣客浪漫譚-(2023)
 2023/12/06-18:00:01 10 Shinobanai! Crypto Ninja Sakuya|忍ばない！クリプトニンジャ咲耶
 2023/12/06-18:00:01 09 Paradox Live THE ANIMATION|Paradox Live THE ANIMATION
 2023/12/06-00:00:02 10 B-Project Netsuretsu Love Call|B-PROJECT ～熱烈＊ラブコール～
@@ -57,7 +58,6 @@ Last Update: 2023/12/15-18:00:02
 2023/12/03-00:00:02 09 Kanojo mo Kanojo Season 2|カノジョも彼女 Season 2
 2023/12/03-00:00:02 09 Hypnosismic|ヒプノシスマイク -Division Rap Battle- Rhyme Anima ＋
 2023/12/03-00:00:02 09 Beyblade X|BEYBLADE X
-2023/12/02-12:00:01 09 Kimizero|経験済みなキミと、経験ゼロなオレが、お付き合いする話。
 2023/12/01-18:00:02 09 Rail Romanesque 2|レヱル・ロマネスク２
 2023/11/03-18:00:02 04 Houkago Shounen Hanako-kun|放課後少年花子くん
 2023/11/02-18:00:02 01 Tensei Shitara Slime Datta Ken Coleus no Yume|転生したらスライムだった件
