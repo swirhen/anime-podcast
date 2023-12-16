@@ -1,4 +1,8 @@
-Last Update: 2023/12/17-00:00:02
+Last Update: 2023/12/17-06:00:01
+2023/12/17-06:00:01 11 Tearmoon Empire Story|ティアムーン帝国物語～断頭台から始まる、姫の転生逆転ストーリー～
+2023/12/17-06:00:01 11 Kikansha no Mahou wa Tokubetsu Desu|帰還者の魔法は特別です
+2023/12/17-06:00:01 11 Atarashii Joushi wa Do Tennen|新しい上司はど天然
+2023/12/17-06:00:01 10 Buta no Liver wa Kanetsu Shiro|豚のレバーは加熱しろ
 2023/12/17-00:00:02 11 Ojou to Banken-kun|お嬢と番犬くん
 2023/12/17-00:00:02 10 Hikikomari Kyuuketsuki no Monmon|ひきこまり吸血姫の悶々
 2023/12/16-18:00:02 15 Sousou no Frieren|葬送のフリーレン
@@ -44,11 +48,7 @@ Last Update: 2023/12/17-00:00:02
 2023/12/10-18:00:02 10 Kusuriya no Hitorigoto|薬屋のひとりごと
 2023/12/10-18:00:02 10 Bokura no Ame-iro Protocol|僕らの雨いろプロトコル
 2023/12/10-18:00:02 09 Nanatsu no Taizai Mokushiroku no Yonkishi|七つの大罪 黙示録の四騎士
-2023/12/10-06:00:02 10 Tearmoon Empire Story|ティアムーン帝国物語～断頭台から始まる、姫の転生逆転ストーリー～
 2023/12/10-06:00:02 10 Saihate no Paladin Tetsusabi no Yama no Ou|最果てのパラディン 鉄錆の山の王
-2023/12/10-06:00:02 10 Kikansha no Mahou wa Tokubetsu Desu|帰還者の魔法は特別です
-2023/12/10-06:00:02 10 Atarashii Joushi wa Do Tennen|新しい上司はど天然
-2023/12/10-06:00:02 09 Buta no Liver wa Kanetsu Shiro|豚のレバーは加熱しろ
 2023/12/06-18:00:01 10 Shinobanai! Crypto Ninja Sakuya|忍ばない！クリプトニンジャ咲耶
 2023/12/06-18:00:01 09 Paradox Live THE ANIMATION|Paradox Live THE ANIMATION
 2023/12/06-00:00:02 10 B-Project Netsuretsu Love Call|B-PROJECT ～熱烈＊ラブコール～
