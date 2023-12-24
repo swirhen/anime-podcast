@@ -1,4 +1,7 @@
-Last Update: 2023/12/24-12:00:02
+Last Update: 2023/12/24-18:00:02
+2023/12/24-18:00:02 12 Potion-danomi de Ikinobimasu!|ポーション頼みで生き延びます！
+2023/12/24-18:00:02 12 Kusuriya no Hitorigoto|薬屋のひとりごと
+2023/12/24-18:00:02 12 Bokura no Ame-iro Protocol|僕らの雨いろプロトコル
 2023/12/24-06:00:02 12 Tearmoon Empire Story|ティアムーン帝国物語～断頭台から始まる、姫の転生逆転ストーリー～
 2023/12/24-06:00:02 12 Tate no Yuusha no Nariagari Season 3|盾の勇者の成り上がり Season 3
 2023/12/24-06:00:02 12 Saihate no Paladin Tetsusabi no Yama no Ou|最果てのパラディン 鉄錆の山の王
@@ -38,9 +41,6 @@ Last Update: 2023/12/24-12:00:02
 2023/12/18-00:00:02 12 Captain Tsubasa Season 2 - Junior Youth-hen|キャプテン翼シーズン2 ジュニアユース編
 2023/12/18-00:00:02 10 Nanatsu no Taizai Mokushiroku no Yonkishi|七つの大罪 黙示録の四騎士
 2023/12/17-18:00:01 12 Ragna Crimson|ラグナクリムゾン
-2023/12/17-18:00:01 11 Potion-danomi de Ikinobimasu!|ポーション頼みで生き延びます！
-2023/12/17-18:00:01 11 Kusuriya no Hitorigoto|薬屋のひとりごと
-2023/12/17-18:00:01 11 Bokura no Ame-iro Protocol|僕らの雨いろプロトコル
 2023/12/17-00:00:02 11 Ojou to Banken-kun|お嬢と番犬くん
 2023/12/16-00:00:02 24 Rurouni Kenshin Meiji Kenkaku Romantan |るろうに剣心 -明治剣客浪漫譚-(2023)
 2023/12/16-00:00:02 11 Under Ninja|アンダーニンジャ
