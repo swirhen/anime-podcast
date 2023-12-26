@@ -1,4 +1,7 @@
-Last Update: 2023/12/26-06:00:01
+Last Update: 2023/12/26-12:00:02
+2023/12/26-12:00:02 25 Dark Gathering|ダークギャザリング
+2023/12/26-12:00:02 13 Migi to Dali|ミギとダリ
+2023/12/26-12:00:02 13 Kamonohashi Ron no Kindan Suiri|鴨乃橋ロンの禁断推理
 2023/12/26-00:00:02 12 Hoshikuzu Telepath|星屑テレパス
 2023/12/25-18:00:02 13 Shangri-La Frontier|シャングリラ・フロンティア～クソゲーハンター、神ゲーに挑まんとす～
 2023/12/25-18:00:02 13 S Rank Musume|冒険者になりたいと都に出て行った娘がSランクになってた
@@ -37,9 +40,6 @@ Last Update: 2023/12/26-06:00:01
 2023/12/20-00:00:01 12 Watashi no Oshi wa Akuyaku Reijou.|私の推しは悪役令嬢。
 2023/12/20-00:00:01 12 Toaru Ossan no VRMMO Katsudou Ki|とあるおっさんのVRMMO活動記
 2023/12/20-00:00:01 12 Shy|SHY
-2023/12/19-12:00:02 24 Dark Gathering|ダークギャザリング
-2023/12/19-12:00:02 12 Migi to Dali|ミギとダリ
-2023/12/19-12:00:02 12 Kamonohashi Ron no Kindan Suiri|鴨乃橋ロンの禁断推理
 2023/12/19-00:00:03 12 MF Ghost|MFゴースト
 2023/12/19-00:00:03 12 Dekoboko Majo no Oyako Jijou|でこぼこ魔女の親子事情
 2023/12/18-12:00:02 12 Overtake!|オーバーテイク！
