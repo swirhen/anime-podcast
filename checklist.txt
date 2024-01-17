@@ -1,4 +1,6 @@
-Last Update: 2024/01/17-18:00:02
+Last Update: 2024/01/18-00:00:02
+2024/01/18-00:00:02 03 Jaku Chara Tomozaki-kun 2nd Stag|弱キャラ友崎くん 2nd STAGE
+2024/01/18-00:00:02 02 Shaman King Flowers|SHAMAN KING FLOWERS
 2024/01/17-12:00:01 02 Oroka na Tenshi wa Akuma to Odoru|愚かな天使は悪魔と踊る
 2024/01/17-12:00:01 02 Akuyaku Reijou Level 99|悪役令嬢レベル99～私は裏ボスですが魔王ではありません～
 2024/01/17-00:00:02 02 Yubisaki to Renren|ゆびさきと恋々
@@ -32,10 +34,8 @@ Last Update: 2024/01/17-18:00:02
 2024/01/12-00:00:03 02 Ishura|異修羅
 2024/01/12-00:00:03 02 Dungeon Meshi|ダンジョン飯
 2024/01/11-06:00:02 02 Mahou Shoujo ni Akogarete|魔法少女にあこがれて
-2024/01/11-06:00:02 01 Shaman King Flowers|SHAMAN KING FLOWERS
 2024/01/11-06:00:02 01 Gekai Elise|外科医エリーゼ
 2024/01/11-00:00:02 02 Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 3rd Season|ようこそ実力至上主義の教室へ 3rd Season
-2024/01/11-00:00:02 02 Jaku Chara Tomozaki-kun 2nd Stag|弱キャラ友崎くん 2nd STAGE
 2024/01/09-00:00:02 14 Shangri-La Frontier|シャングリラ・フロンティア～クソゲーハンター、神ゲーに挑まんとす～
 2024/01/08-18:00:01 01 Mohunadeanime|異世界でもふもふなでなでするためにがんばってます。
 2024/01/08-06:00:02 01 Saikyo-Tank|最強タンクの迷宮攻略～体力9999のレアスキル持ちタンク、勇者パーティーを追放される～
