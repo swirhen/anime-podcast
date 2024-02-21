@@ -77,25 +77,7 @@ Last Update: 2024/02/21-12:00:01
 2023/12/21-00:00:02 24 Helck|Helck
 2023/12/21-00:00:02 12 Seijo no Maryoku wa Bannou Desu |聖女の魔力は万能です Season2
 2023/12/20-00:00:01 12 Watashi no Oshi wa Akuyaku Reijou.|私の推しは悪役令嬢。
-2023/12/20-00:00:01 12 Toaru Ossan no VRMMO Katsudou Ki|とあるおっさんのVRMMO活動記
-2023/12/20-00:00:01 12 Shy|SHY
-2023/12/19-00:00:03 12 MF Ghost|MFゴースト
-2023/12/19-00:00:03 12 Dekoboko Majo no Oyako Jijou|でこぼこ魔女の親子事情
-2023/12/18-12:00:02 12 Overtake!|オーバーテイク！
-2023/12/17-18:00:01 12 Ragna Crimson|ラグナクリムゾン
 2023/12/17-00:00:02 11 Ojou to Banken-kun|お嬢と番犬くん
-2023/12/16-00:00:02 24 Rurouni Kenshin Meiji Kenkaku Romantan |るろうに剣心 -明治剣客浪漫譚-(2023)
 2023/12/16-00:00:02 11 Under Ninja|アンダーニンジャ
-2023/12/06-18:00:01 10 Shinobanai! Crypto Ninja Sakuya|忍ばない！クリプトニンジャ咲耶
-2023/12/06-18:00:01 09 Paradox Live THE ANIMATION|Paradox Live THE ANIMATION
-2023/12/06-00:00:02 10 B-Project Netsuretsu Love Call|B-PROJECT ～熱烈＊ラブコール～
-2023/12/05-12:00:02 09 The Idolmaster Million Live!|アイドルマスター ミリオンライブ！
-2023/12/04-00:00:02 10 Megumi no Daigo Kyuukoku no Orange|め組の大吾 救国のオレンジ
-2023/12/04-00:00:02 09 Kibou no Chikara Otona Precure `23|キボウノチカラ～オトナプリキュア'23～
-2023/12/03-00:00:02 09 Kanojo mo Kanojo Season 2|カノジョも彼女 Season 2
-2023/12/03-00:00:02 09 Hypnosismic|ヒプノシスマイク -Division Rap Battle- Rhyme Anima ＋
-2023/12/03-00:00:02 09 Beyblade X|BEYBLADE X
-2023/12/01-18:00:02 09 Rail Romanesque 2|レヱル・ロマネスク２
-2023/11/03-18:00:02 04 Houkago Shounen Hanako-kun|放課後少年花子くん
-2023/10/14-18:02:03 02 Koryaku Wanted|攻略うぉんてっど！～異世界救います！？～
+2023/12/05-12:00:02 09 The Idolmaster Million Live|アイドルマスター ミリオンライブ！
 2023/03/04-18:00:01 01 Shingeki no Kyojin The Final Season Part 3|進撃の巨人 The Final Season 完結編
