@@ -1,4 +1,8 @@
-Last Update: 2024/02/21-18:00:02
+Last Update: 2024/02/22-00:00:02
+2024/02/22-00:00:02 20 Captain Tsubasa Season 2 - Junior Youth-hen|キャプテン翼シーズン2 ジュニアユース編
+2024/02/22-00:00:02 08 Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 3rd Season|ようこそ実力至上主義の教室へ 3rd Season
+2024/02/22-00:00:02 08 Jaku Chara Tomozaki-kun 2nd Stag|弱キャラ友崎くん 2nd STAGE
+2024/02/22-00:00:02 07 Gekai Elise|外科医エリーゼ
 2024/02/21-12:00:01 07 Oroka na Tenshi wa Akuma to Odoru|愚かな天使は悪魔と踊る
 2024/02/21-12:00:01 07 Akuyaku Reijou Level 99|悪役令嬢レベル99～私は裏ボスですが魔王ではありません～
 2024/02/21-12:00:01 06 Kyuujitsu no Warumono-san|休日のわるものさん
@@ -26,10 +30,6 @@ Last Update: 2024/02/21-18:00:02
 2024/02/15-12:00:01 07 Mahou Shoujo ni Akogarete|魔法少女にあこがれて
 2024/02/15-12:00:01 06 Shaman King Flowers|SHAMAN KING FLOWERS
 2024/02/15-12:00:01 06 30-sai made Doutei da to Mahou Tsukai ni Nareru Rashii|30歳まで童貞だと魔法使いになれるらしい
-2024/02/15-00:00:01 07 Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 3rd Season|ようこそ実力至上主義の教室へ 3rd Season
-2024/02/15-00:00:01 07 Jaku Chara Tomozaki-kun 2nd Stag|弱キャラ友崎くん 2nd STAGE
-2024/02/15-00:00:01 06 Gekai Elise|外科医エリーゼ
-2024/02/12-18:00:01 19 Captain Tsubasa Season 2 - Junior Youth-hen|キャプテン翼シーズン2 ジュニアユース編
 2024/02/12-18:00:01 18 Shangri-La Frontier|シャングリラ・フロンティア～クソゲーハンター、神ゲーに挑まんとす～
 2024/02/12-18:00:01 06 Saikyo-Tank|最強タンクの迷宮攻略～体力9999のレアスキル持ちタンク、勇者パーティーを追放される～
 2024/02/12-00:00:02 18 Kusuriya no Hitorigoto|薬屋のひとりごと
@@ -37,13 +37,12 @@ Last Update: 2024/02/21-18:00:02
 2024/02/10-00:00:02 05 Yuuki Bakuhatsu Bang Bravern|勇気爆発バーンブレイバーン
 2024/02/10-00:00:02 05 Metallic Rouge|メタリックルージュ
 2024/02/10-00:00:02 05 Majo to Yajuu|魔女と野獣
+2024/01/04-00:00:01 10 Zom 100 Zombie ni Naru made ni Shitai 100 no Koto|ゾン100～ゾンビになるまでにしたい100のこと～
 2023/12/27-00:00:02 11 Kawagoe Boys Sing|川越ボーイズ・シング
+2023/12/24-06:00:02 12 Atarashii Joushi wa Dotennen|新しい上司はど天然
 2023/12/24-06:00:02 11 Buta no Liver wa Kanetsu Shiro|豚のレバーは加熱しろ
+2023/12/23-18:00:02 12 Kimizero|経験済みなキミと、経験ゼロなオレが、お付き合いする話。
+2023/12/22-00:00:02 12 Ikenaikyo|婚約破棄された令嬢を拾った俺が、イケナイことを教え込む
 2023/12/17-00:00:02 11 Ojou to Banken-kun|お嬢と番犬くん
 2023/12/16-00:00:02 11 Under Ninja|アンダーニンジャ
 2023/12/05-12:00:02 09 The Idolmaster Million Live|アイドルマスター ミリオンライブ！
-2023/12/23-18:00:02 12 Kimizero|経験済みなキミと、経験ゼロなオレが、お付き合いする話。
-2023/12/22-00:00:02 12 Ikenaikyo|婚約破棄された令嬢を拾った俺が、イケナイことを教え込む
-2023/12/24-06:00:02 12 Atarashii Joushi wa Dotennen|新しい上司はど天然
-2023/11/03-18:00:02 04 Houkago Shounen Hanako-kun|放課後少年花子くん
-2024/01/04-00:00:01 10 Zom 100 Zombie ni Naru made ni Shitai 100 no Koto|ゾン100～ゾンビになるまでにしたい100のこと～
