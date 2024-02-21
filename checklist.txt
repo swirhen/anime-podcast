@@ -37,47 +37,8 @@ Last Update: 2024/02/21-12:00:01
 2024/02/10-00:00:02 05 Yuuki Bakuhatsu Bang Bravern|勇気爆発バーンブレイバーン
 2024/02/10-00:00:02 05 Metallic Rouge|メタリックルージュ
 2024/02/10-00:00:02 05 Majo to Yajuu|魔女と野獣
-2024/01/13-06:00:02 01 isekainoyu|名湯『異世界の湯』開拓記 ～アラフォー温泉マニアの転生先は、のんびり温泉天国でした～
-2024/01/08-18:00:01 01 Mohunadeanime|異世界でもふもふなでなでするためにがんばってます。
-2024/01/06-18:00:02 13 Undead Unluck|アンデッドアンラック
-2024/01/04-00:00:01 10 Zom 100 Zombie ni Naru made ni Shitai 100 no Koto|ゾン100～ゾンビになるまでにしたい100のこと～
-2024/01/01-00:00:01 12 Kizuna no Allele |絆のアリル セカンドシーズン
-2024/01/01-00:00:01 12 Kamierabi|カミエラビ GOD.app
-2023/12/31-06:00:02 12 Hikikomari Kyuuketsuki no Monmon|ひきこまり吸血姫の悶々
-2023/12/30-18:00:02 23 Jujutsu Kaisen S2|呪術廻戦 懐玉・玉折／渋谷事変(第2期)
-2023/12/29-00:00:02 13 Uma Musume Pretty Derby Season 3|ウマ娘 プリティーダービー Season 3
-2023/12/29-00:00:02 13 16bit Sensation Another Layer|16bitセンセーション -ANOTHER LAYER-
-2023/12/28-00:00:02 13 Tokyo Revengers Tenjiku Hen|東京リベンジャーズ 天竺編
 2023/12/27-00:00:02 11 Kawagoe Boys Sing|川越ボーイズ・シング
-2023/12/26-12:00:02 25 Dark Gathering|ダークギャザリング
-2023/12/26-12:00:02 13 Migi to Dali|ミギとダリ
-2023/12/26-12:00:02 13 Kamonohashi Ron no Kindan Suiri|鴨乃橋ロンの禁断推理
-2023/12/26-00:00:02 12 Hoshikuzu Telepath|星屑テレパス
-2023/12/25-18:00:02 13 S Rank Musume|冒険者になりたいと都に出て行った娘がSランクになってた
-2023/12/25-18:00:02 12 Yuzuki-san Chi no Yon Kyoudai.|柚木さんちの四兄弟。
-2023/12/25-18:00:02 12 Hyakkano|君のことが大大大大大好きな100人の彼女
-2023/12/25-18:00:02 02 Tensei Shitara Slime Datta Ken Coleus no Yume|転生したらスライムだった件
-2023/12/24-18:00:02 12 Potion-danomi de Ikinobimasu!|ポーション頼みで生き延びます！
-2023/12/24-18:00:02 12 Bokura no Ame-iro Protocol|僕らの雨いろプロトコル
-2023/12/24-06:00:02 12 Tearmoon Empire Story|ティアムーン帝国物語～断頭台から始まる、姫の転生逆転ストーリー～
-2023/12/24-06:00:02 12 Tate no Yuusha no Nariagari Season 3|盾の勇者の成り上がり Season 3
-2023/12/24-06:00:02 12 Saihate no Paladin Tetsusabi no Yama no Ou|最果てのパラディン 鉄錆の山の王
-2023/12/24-06:00:02 12 Kikansha no Mahou wa Tokubetsu Desu|帰還者の魔法は特別です
-2023/12/24-06:00:02 12 Atarashii Joushi wa Do Tennen|新しい上司はど天然
 2023/12/24-06:00:02 11 Buta no Liver wa Kanetsu Shiro|豚のレバーは加熱しろ
-2023/12/23-18:00:02 24 Mahou Tsukai no Yome Season 2 |魔法使いの嫁 SEASON2 第2クール
-2023/12/23-18:00:02 12 Kimizero|経験済みなキミと、経験ゼロなオレが、お付き合いする話。
-2023/12/23-18:00:02 12 Hametsu no Oukoku|はめつのおうこく
-2023/12/23-18:00:02 12 Goblin Slayer II|ゴブリンスレイヤーⅡ
-2023/12/23-18:00:02 12 Bikkurimen|ビックリメン
-2023/12/22-00:00:02 12 Ikenaikyo|婚約破棄された令嬢を拾った俺が、イケナイことを教え込む
-2023/12/22-00:00:02 12 Boushoku no Berserk|暴食のベルセルク
-2023/12/21-12:00:01 12 Kage no Jitsuryokusha ni Naritakute! 2nd Season|陰の実力者になりたくて！ 2nd season
-2023/12/21-12:00:01 12 Bullbuster|ブルバスター
-2023/12/21-00:00:02 24 Helck|Helck
-2023/12/21-00:00:02 12 Seijo no Maryoku wa Bannou Desu |聖女の魔力は万能です Season2
-2023/12/20-00:00:01 12 Watashi no Oshi wa Akuyaku Reijou.|私の推しは悪役令嬢。
 2023/12/17-00:00:02 11 Ojou to Banken-kun|お嬢と番犬くん
 2023/12/16-00:00:02 11 Under Ninja|アンダーニンジャ
 2023/12/05-12:00:02 09 The Idolmaster Million Live|アイドルマスター ミリオンライブ！
-2023/03/04-18:00:01 01 Shingeki no Kyojin The Final Season Part 3|進撃の巨人 The Final Season 完結編
