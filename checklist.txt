@@ -1,4 +1,5 @@
-Last Update: 2024/02/27-06:00:02
+Last Update: 2024/02/27-12:00:02
+2024/02/27-12:00:02 08 Saikyo-Tank|最強タンクの迷宮攻略～体力9999のレアスキル持ちタンク、勇者パーティーを追放される～
 2024/02/27-00:00:02 20 Shangri-La Frontier|シャングリラ・フロンティア～クソゲーハンター、神ゲーに挑まんとす～
 2024/02/27-00:00:02 19 Nanatsu no Taizai Mokushiroku no Yonkishi|七つの大罪 黙示録の四騎士
 2024/02/27-00:00:02 08 Nozomanu Fushi no Boukensha|望まぬ不死の冒険者
@@ -12,7 +13,6 @@ Last Update: 2024/02/27-06:00:02
 2024/02/25-00:00:02 19 Kusuriya no Hitorigoto|薬屋のひとりごと
 2024/02/25-00:00:02 08 Kekkon Yubiwa Monogatari|結婚指輪物語
 2024/02/25-00:00:02 07 Yuuki Bakuhatsu Bang Bravern|勇気爆発バーンブレイバーン
-2024/02/25-00:00:02 07 Saikyo-Tank|最強タンクの迷宮攻略～体力9999のレアスキル持ちタンク、勇者パーティーを追放される～
 2024/02/25-00:00:02 07 Metallic Rouge|メタリックルージュ
 2024/02/24-00:00:02 08 Sasaki to Pii-chan|佐々木とピーちゃん
 2024/02/24-00:00:02 08 Ishura|異修羅
