@@ -1,5 +1,5 @@
-Last Update: 2024/04/03-12:00:01
-2024/04/03-12:00:01 0 Ookami to Koushinryou Merchant Meets the Wise Wolf|狼と香辛料 MERCHANT MEETS THE WISE WOLF
+Last Update: 2024/04/03-18:00:02
+2024/04/03-18:00:02 01 Ookami to Koushinryou Merchant Meets the Wise Wolf|狼と香辛料 MERCHANT MEETS THE WISE WOLF
 2024/04/03-06:00:02 01 Dekisoko|出来損ないと呼ばれた元英雄は、実家から追放されたので好き勝手に生きることにした
 2024/04/02-18:00:02 01 Dainanaoji|転生したら第七王子だったので、気ままに魔術を極めます
 2024/04/02-06:00:02 01 Shuumatsu Train Doko e Iku|終末トレインどこへいく？
@@ -11,6 +11,7 @@ Last Update: 2024/04/03-12:00:01
 2024/03/28-00:00:01 11 Saikyo-Tank|最強タンクの迷宮攻略～体力9999のレアスキル持ちタンク、勇者パーティーを追放される～
 2024/03/28-00:00:01 11 Metallic Rouge|メタリックルージュ
 2024/03/24-06:00:01 27 Sousou no Frieren|葬送のフリーレン
+2024/03/23-18:00:01 11 Saijaku Tamer|最弱テイマーはゴミ拾いの旅を始めました。
 2024/03/23-18:00:01 11 Saijaku Tamer wa Gomi Hiroi no Tabi o Hajimemashita.|最弱テイマーはゴミ拾いの旅を始めました。
 2024/03/22-12:00:03 11 Sokushi Cheat-Pr|即死チートが最強すぎて、異世界のやつらがまるで相手にならないんですが。
 2024/03/22-00:00:02 11 30-sai made Doutei da to Mahou Tsukai ni Nareru Rashii|30歳まで童貞だと魔法使いになれるらしい
