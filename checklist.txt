@@ -1,4 +1,4 @@
-Last Update: 2024/04/03-18:00:02
+Last Update: 2024/04/04-12:00:02
 2024/04/03-18:00:02 01 Ookami to Koushinryou Merchant Meets the Wise Wolf|狼と香辛料 MERCHANT MEETS THE WISE WOLF
 2024/04/03-06:00:02 01 Dekisoko|出来損ないと呼ばれた元英雄は、実家から追放されたので好き勝手に生きることにした
 2024/04/02-18:00:02 01 Dainanaoji|転生したら第七王子だったので、気ままに魔術を極めます
@@ -19,3 +19,5 @@ Last Update: 2024/04/03-18:00:02
 2024/03/17-00:00:01 10 Shaman King Flowers|SHAMAN KING FLOWERS
 2024/03/17-00:00:01 09 Momochi-san Chi no Ayakashi Ouji|百千さん家のあやかし王子
 2024/03/17-00:00:01 09 Chiyu Mahou no Machigatta Tsukaikata|治癒魔法の間違った使い方
+0 0 Yubisaki to Renren|ゆびさきと恋々
+0 0 Kusuriya no Hitorigoto|薬屋のひとりごと
