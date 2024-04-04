@@ -1,5 +1,5 @@
-Last Update: 2024/04/05-00:00:02
-2024/04/05-00:00:02 0 Yuru Camp Season 3|ゆるキャン△ SEASON3
+Last Update: 2024/04/05-06:00:02
+2024/04/05-06:00:02 01 Yuru Camp Season 3|ゆるキャン△ SEASON3
 2024/04/03-18:00:02 01 Ookami to Koushinryou Merchant Meets the Wise Wolf|狼と香辛料 MERCHANT MEETS THE WISE WOLF
 2024/04/03-06:00:02 01 Dekisoko|出来損ないと呼ばれた元英雄は、実家から追放されたので好き勝手に生きることにした
 2024/04/02-18:00:02 01 Dainanaoji|転生したら第七王子だったので、気ままに魔術を極めます
@@ -7,5 +7,4 @@ Last Update: 2024/04/05-00:00:02
 2024/04/02-06:00:02 01 Kami wa Game ni Uete Iru.|神は遊戯に飢えている。
 2024/04/01-00:00:02 11 Majo to Yajuu|魔女と野獣
 2024/03/30-12:00:02 13 Dungeon Meshi|ダンジョン飯
-2024/03/28-00:00:01 12 Metallic Rouge|メタリックルージュ
 2024/03/28-00:00:01 12 METALLIC ROUGE|メタリックルージュ
