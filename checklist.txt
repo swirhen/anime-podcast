@@ -1,4 +1,6 @@
-Last Update: 2024/04/08-18:00:01
+Last Update: 2024/04/09-00:00:02
+2024/04/09-00:00:02 02 Shuumatsu Train Doko e Iku|終末トレインどこへいく？
+2024/04/09-00:00:02 02 Kami wa Game ni Uete Iru.|神は遊戯に飢えている。
 2024/04/08-18:00:01 01 Vampire Dormitory|ヴァンパイア男子寮
 2024/04/08-18:00:01 01 Jii-san Baa-san Wakagaeru|じいさんばあさん若返る
 2024/04/08-00:00:02 01 One Room, Hiatari Futsuu, Tenshi-tsuki.|ワンルーム、日当たり普通、天使つき。
@@ -12,6 +14,4 @@ Last Update: 2024/04/08-18:00:01
 2024/04/03-18:00:02 01 Ookami to Koushinryou Merchant Meets the Wise Wolf|狼と香辛料 MERCHANT MEETS THE WISE WOLF
 2024/04/03-06:00:02 01 Dekisoko|出来損ないと呼ばれた元英雄は、実家から追放されたので好き勝手に生きることにした
 2024/04/02-18:00:02 01 Dainanaoji|転生したら第七王子だったので、気ままに魔術を極めます
-2024/04/02-06:00:02 01 Shuumatsu Train Doko e Iku|終末トレインどこへいく？
-2024/04/02-06:00:02 01 Kami wa Game ni Uete Iru.|神は遊戯に飢えている。
 2024/03/30-12:00:02 13 Dungeon Meshi|ダンジョン飯
