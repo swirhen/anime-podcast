@@ -1,4 +1,5 @@
-Last Update: 2024/04/12-18:00:01
+Last Update: 2024/04/13-00:00:02
+2024/04/13-00:00:02 02 Wind Breaker|WIND BREAKER
 2024/04/12-06:00:02 02 Yuru Camp Season 3|ゆるキャン△ SEASON3
 2024/04/11-18:00:01 01 Kono Subarashii Sekai ni Shukufuku o! 3|この素晴らしい世界に祝福を！3
 2024/04/11-18:00:01 01 Date a Live V|デート・ア・ライブⅤ
@@ -22,7 +23,6 @@ Last Update: 2024/04/12-18:00:01
 2024/04/07-06:00:01 01 Madome|魔王の俺が奴隷エルフを嫁にしたんだが、どう愛でればいい？
 2024/04/06-18:00:02 01 Mahouka Koukou no Rettousei |魔法科高校の劣等生 第3シーズン
 2024/04/06-18:00:02 01 Henjin no Salad Bowl|変人のサラダボウル
-2024/04/06-06:00:01 01 Wind Breaker|WIND BREAKER
 2024/04/06-06:00:01 01 Re Monster|Re：Monster
 2024/04/02-18:00:02 01 Dainanaoji|転生したら第七王子だったので、気ままに魔術を極めます
 2024/03/30-12:00:02 13 Dungeon Meshi|ダンジョン飯
