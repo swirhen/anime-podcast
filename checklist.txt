@@ -1,4 +1,6 @@
-Last Update: 2024/04/15-06:00:01
+Last Update: 2024/04/15-12:00:02
+2024/04/15-12:00:02 02 Vampire Dormitory|ヴァンパイア男子寮
+2024/04/15-12:00:02 02 Jii-san Baa-san Wakagaeru|じいさんばあさん若返る
 2024/04/14-18:00:01 01 The New Gate|THE NEW GATE
 2024/04/14-12:00:02 02 Yoru no Kurage wa Oyogenai|夜のクラゲは泳げない
 2024/04/14-12:00:02 01 Kuroshitsuji Kishuku Gakkou Hen|黒執事 -寄宿学校編-
@@ -26,7 +28,5 @@ Last Update: 2024/04/15-06:00:01
 2024/04/10-00:03:25 02 Dekisoko|出来損ないと呼ばれた元英雄は、実家から追放されたので好き勝手に生きることにした
 2024/04/09-00:00:02 02 Kami wa Game ni Uete Iru.|神は遊戯に飢えている。
 2024/04/09-00:00:02 01 Shuumatsu Train Doko e Iku|終末トレインどこへいく？
-2024/04/08-18:00:01 01 Vampire Dormitory|ヴァンパイア男子寮
-2024/04/08-18:00:01 01 Jii-san Baa-san Wakagaeru|じいさんばあさん若返る
 2024/04/02-18:00:02 01 Dainanaoji|転生したら第七王子だったので、気ままに魔術を極めます
 2024/03/30-12:00:02 13 Dungeon Meshi|ダンジョン飯
