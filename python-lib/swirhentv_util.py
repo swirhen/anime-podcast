@@ -366,7 +366,7 @@ def move_movie(file_path):
         function_log = move_movie_proc(file_path)
         return_log.append(function_log)
 
-    return '\n'.join(return_log)
+    return return_log
 
 
 # 動画移動のメイン処理
