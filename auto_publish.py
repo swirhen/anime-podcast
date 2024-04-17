@@ -299,6 +299,7 @@ def main():
     # auto encode
     logging('### auto encode start.')
     function_log = swiutil.encode_movie_in_directory(DOWNLOAD_DIR, OUTPUT_DIR)
+    logging_without_timestamp(function_log)
     function_log = swiutil.move_movie(DOWNLOAD_DIR)
     logging_without_timestamp(function_log)
 
