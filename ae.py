@@ -14,10 +14,5 @@ if __name__ == '__main__':
     in_path = '/data/share/movie'
     out_path = '/data/share/movie/98 PSP用'
     args = sys.argv
-    if len(args) == 2:
-        swiutil.encode_movie_in_directory(in_path, out_path, args[1])
-        swiutil.move_movie(in_path)
-    else:
-        swiutil.encode_movie_in_directory(in_path, out_path)
-        swiutil.encode_movie_in_directory(in_path, out_path, 'mkv')
-        swiutil.move_movie(in_path)
+    swiutil.encode_movie_in_directory(in_path, out_path)
+    swiutil.move_movie(in_path)

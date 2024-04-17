@@ -359,10 +359,7 @@ def move_movie(file_path):
     return_log = []
     # arg check
     if os.path.isdir(file_path):
-        for filename in pathlib.Path(file_path).glob('*.mp4'):
-            function_log = move_movie_proc(filename)
-            return_log.append(function_log)
-        for filename in pathlib.Path(file_path).glob('*.mkv'):
+        for filename in pathlib.Path(file_path).glob('*.*'):
             function_log = move_movie_proc(filename)
             return_log.append(function_log)
     else:
@@ -462,11 +459,10 @@ def torrent_download(filepath, slack_channel='bot-open'):
 
 # 動画エンコード
 # ディレクトリ内の動画をエンコードし、完了都度フィード生成し、つぶやく(twitterとslack)
-# 全完了後、各作品ディレクトリへの移動処理(移動処理別にする)
-def encode_movie_in_directory(input_dir, output_dir, extention='mp4'):
+def encode_movie_in_directory(input_dir, output_dir):
     return_log = []
 
-    for filename in pathlib.Path(input_dir).glob(f'*話*.{extention}'):
+    for filename in pathlib.Path(input_dir).glob(f'*話*.*'):
         td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
         # 移動先のファイルチェック
         dstlist = glob.glob(f'{output_dir}/{filename.name}.mp4')
@@ -481,9 +477,6 @@ def encode_movie_in_directory(input_dir, output_dir, extention='mp4'):
         multi_post('bot-open', f'【publish】{filename.name}.mp4')
         td = dt.now().strftime('%Y/%m/%d-%H:%M:%S')
         return_log.append(f'{td} movie encode complete: {filename.name}.mp4')
-
-    # function_log = move_movie(input_dir)
-    # return_log.append(function_log)
 
     return '\n'.join(return_log)
 

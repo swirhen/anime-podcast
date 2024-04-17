@@ -288,7 +288,7 @@ def main():
     logging_without_timestamp(function_log)
 
     renamed_files = []
-    download_files_with_path = sorted(list(pathlib.Path(DOWNLOAD_DIR).glob('*話*.mp4')))
+    download_files_with_path = sorted(list(pathlib.Path(DOWNLOAD_DIR).glob('*話*.*')))
     for dlfwp in download_files_with_path:
         renamed_files.append(dlfwp.name)
     post_msg='renamed movie files:\n' \
@@ -299,7 +299,6 @@ def main():
     # auto encode
     logging('### auto encode start.')
     function_log = swiutil.encode_movie_in_directory(DOWNLOAD_DIR, OUTPUT_DIR)
-    function_log = swiutil.encode_movie_in_directory(DOWNLOAD_DIR, OUTPUT_DIR, 'mkv')
     function_log = swiutil.move_movie(DOWNLOAD_DIR)
     logging_without_timestamp(function_log)
 
