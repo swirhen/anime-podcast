@@ -32,6 +32,7 @@ LOG_DIR = f'{SCRIPT_DIR}/logs'
 LOG_FILE = f'{LOG_DIR}/autopub_{DATETIME2}.log'
 FLG_FILE = f'{SCRIPT_DIR}/autopub_running'
 NEW_PROGRAM_FILE = f'{SCRIPT_DIR}/new_program.txt'
+NEW_PROGRAM_FILE_JP = f'{SCRIPT_DIR}/new_program_jp.txt'
 LAST_CHECK_DATE_FILE = f'{SCRIPT_DIR}/last_check_date.txt'
 
 
@@ -68,6 +69,7 @@ def git_commit_push(new_result_count):
     repo.git.commit(LIST_FILE, message='checklist.txt update')
     if new_result_count > 0:
         repo.git.commit(NEW_PROGRAM_FILE, message='new_program.txt update')
+        repo.git.commit(NEW_PROGRAM_FILE_JP, message='new_program_jp.txt update')
     repo.git.pull()
     repo.git.push()
 
@@ -202,16 +204,19 @@ def main():
                 title_ja = swiutil.get_jp_title(title_en)
 
                 if title_ja != '':
-                    # 日本語タイトルが取得できていたら、新番組取得済リストへ追加
-                    # チェックリスト(tempと実体両方)に次回取得のためのレコードを追加
-                    # 番組名ディレクトリを作成
-                    new_hit_flag = 1
-                    swiutil.writefile_append(LIST_FILE, f'{DATETIME} 0 {title_en}|{title_ja}')
-                    swiutil.writefile_append(LIST_TEMP, f'{DATETIME} 0 {title_en}|{title_ja}')
-                    swiutil.writefile_append(NEW_PROGRAM_FILE, title_en)
-                    if not os.path.exists(f'{DOWNLOAD_DIR}/{title_ja}'):
-                        os.makedirs(f'{DOWNLOAD_DIR}/{title_ja}')
-                    new_result.append(f'{title_ja} ({title_en})')
+                    # 日本語タイトルが取得出来たので重複チェック2：new_program_jp.txt
+                    if len(swiutil.grep_file(NEW_PROGRAM_FILE_JP, title_ja)) == 0:
+                        # 新番組取得済リストへ追加
+                        # チェックリスト(tempと実体両方)に次回取得のためのレコードを追加
+                        # 番組名ディレクトリを作成
+                        new_hit_flag = 1
+                        swiutil.writefile_append(LIST_FILE, f'{DATETIME} 0 {title_en}|{title_ja}')
+                        swiutil.writefile_append(LIST_TEMP, f'{DATETIME} 0 {title_en}|{title_ja}')
+                        swiutil.writefile_append(NEW_PROGRAM_FILE, title_en)
+                        swiutil.writefile_append(NEW_PROGRAM_FILE_JP, title_ja)
+                        if not os.path.exists(f'{DOWNLOAD_DIR}/{title_ja}'):
+                            os.makedirs(f'{DOWNLOAD_DIR}/{title_ja}')
+                        new_result.append(f'{title_ja} ({title_en})')
                 else:
                     # 日本語タイトルが取得できなかった1話は何もしないが報告だけする
                     new_hit_flag_ng = 1
@@ -295,6 +300,8 @@ def main():
     # auto encode
     logging('### auto encode start.')
     function_log = swiutil.encode_movie_in_directory(DOWNLOAD_DIR, OUTPUT_DIR)
+    function_log = swiutil.encode_movie_in_directory(DOWNLOAD_DIR, OUTPUT_DIR, 'mkv')
+    function_log = swiutil.move_movie(DOWNLOAD_DIR)
     logging_without_timestamp(function_log)
 
     # 終了エピソードがある場合、終了リストの編集

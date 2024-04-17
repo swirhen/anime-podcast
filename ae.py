@@ -16,5 +16,8 @@ if __name__ == '__main__':
     args = sys.argv
     if len(args) == 2:
         swiutil.encode_movie_in_directory(in_path, out_path, args[1])
+        swiutil.move_movie(in_path)
     else:
         swiutil.encode_movie_in_directory(in_path, out_path)
+        swiutil.encode_movie_in_directory(in_path, out_path, 'mkv')
+        swiutil.move_movie(in_path)
