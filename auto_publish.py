@@ -26,7 +26,6 @@ LIST_TEMP = f'{SCRIPT_DIR}/checklist.temp'
 TDATETIME = dt.now()
 DATETIME = TDATETIME.strftime('%Y/%m/%d-%H:%M:%S')
 DATETIME2 = TDATETIME.strftime('%Y%m%d%H%M%S')
-SEED_URI = 'https://nyaa.si/?q=Ohys-Raws&f=0&c=1_4&page=rss'
 CHANNEL = 'bot-open'
 LOG_DIR = f'{SCRIPT_DIR}/logs'
 LOG_FILE = f'{LOG_DIR}/autopub_{DATETIME2}.log'
