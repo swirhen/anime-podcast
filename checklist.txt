@@ -1,4 +1,6 @@
-Last Update: 2024/04/18-06:00:01
+Last Update: 2024/04/18-12:00:01
+2024/04/18-12:00:01 02 Kono Subarashii Sekai ni Shukufuku o! 3|この素晴らしい世界に祝福を！3
+2024/04/18-12:00:01 02 Kenka Dokugaku|喧嘩独学
 2024/04/18-06:00:01 02 Date a Live V|デート・ア・ライブⅤ
 2024/04/18-00:00:02 02 Seiyuu Radio no Uraomote|声優ラジオのウラオモテ
 2024/04/18-00:00:02 02 Kaii to Otome to Kamigakushi|怪異と乙女と神隠し
@@ -8,7 +10,6 @@ Last Update: 2024/04/18-06:00:01
 2024/04/17-06:00:02 03 Dainanaoji|転生したら第七王子だったので、気ままに魔術を極めます
 2024/04/17-06:00:02 02 Unnamed Memory|Unnamed Memory
 2024/04/17-00:00:03 01 Long Zu The Blazing Dawn|龍族 -The Blazing Dawn-
-2024/04/17-00:00:03 01 Kenka Dokugaku|喧嘩独学
 2024/04/17-00:00:03 01 Kaijuu 8 Gou|怪獣8号
 2024/04/16-18:00:01 03 Shuumatsu Train Doko e Iku|終末トレインどこへいく？
 2024/04/16-18:00:01 03 Dekisoko|出来損ないと呼ばれた元英雄は、実家から追放されたので好き勝手に生きることにした
@@ -32,5 +33,4 @@ Last Update: 2024/04/18-06:00:01
 2024/04/13-12:00:02 02 Henjin no Salad Bowl|変人のサラダボウル
 2024/04/13-00:00:02 02 Wind Breaker|WIND BREAKER
 2024/04/12-06:00:02 02 Yuru Camp Season 3|ゆるキャン△ SEASON3
-2024/04/11-18:00:01 01 Kono Subarashii Sekai ni Shukufuku o! 3|この素晴らしい世界に祝福を！3
 2024/03/30-12:00:02 15 Dungeon Meshi|ダンジョン飯
