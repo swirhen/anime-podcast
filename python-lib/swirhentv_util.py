@@ -361,12 +361,14 @@ def move_movie(file_path):
     if os.path.isdir(file_path):
         for filename in pathlib.Path(file_path).glob('*.*'):
             function_log = move_movie_proc(filename)
-            return_log.append(function_log)
+            if len(function_log) > 0:
+                return_log.append(function_log)
     else:
         function_log = move_movie_proc(file_path)
-        return_log.append(function_log)
+        if len(function_log) > 0:
+            return_log.append(function_log)
 
-    return return_log
+    return '\n'.join(return_log)
 
 
 # 動画移動のメイン処理
@@ -404,6 +406,7 @@ def move_movie_proc(file_path):
             shutil.move(str(file_path), str(dst_dir))
 
     return '\n'.join(return_log)
+
 
 
 # 文字列カット(指定バイト数より多い場合文字単位で削除)
