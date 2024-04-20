@@ -1,4 +1,7 @@
-Last Update: 2024/04/20-12:00:01
+Last Update: 2024/04/20-18:00:02
+2024/04/20-18:00:02 03 Wind Breaker|WIND BREAKER
+2024/04/20-18:00:02 03 Madome|魔王の俺が奴隷エルフを嫁にしたんだが、どう愛でればいい？
+2024/04/20-18:00:02 02 Long Zu The Blazing Dawn|龍族 -The Blazing Dawn-
 2024/04/20-06:00:02 03 Mahouka Koukou no Rettousei |魔法科高校の劣等生 第3シーズン
 2024/04/20-00:00:02 16 Dungeon Meshi|ダンジョン飯
 2024/04/19-12:00:01 03 Yuru Camp Season 3|ゆるキャン△ SEASON3
@@ -14,7 +17,6 @@ Last Update: 2024/04/20-12:00:01
 2024/04/17-12:00:02 02 Rinkai!|リンカイ！
 2024/04/17-06:00:02 03 Dainanaoji|転生したら第七王子だったので、気ままに魔術を極めます
 2024/04/17-06:00:02 02 Unnamed Memory|Unnamed Memory
-2024/04/17-00:00:03 01 Long Zu The Blazing Dawn|龍族 -The Blazing Dawn-
 2024/04/17-00:00:03 01 Kaijuu 8 Gou|怪獣8号
 2024/04/16-18:00:01 03 Shuumatsu Train Doko e Iku|終末トレインどこへいく？
 2024/04/16-18:00:01 03 Dekisoko|出来損ないと呼ばれた元英雄は、実家から追放されたので好き勝手に生きることにした
@@ -32,5 +34,3 @@ Last Update: 2024/04/20-12:00:01
 2024/04/14-12:00:02 01 Kuroshitsuji Kishuku Gakkou Hen|黒執事 -寄宿学校編-
 2024/04/14-06:00:01 01 Highspeed Etoile|HIGHSPEED Étoile
 2024/04/14-00:00:02 02 One Room, Hiatari Futsuu, Tenshi-tsuki.|ワンルーム、日当たり普通、天使つき。
-2024/04/14-00:00:02 02 Madome|魔王の俺が奴隷エルフを嫁にしたんだが、どう愛でればいい？
-2024/04/13-00:00:02 02 Wind Breaker|WIND BREAKER
