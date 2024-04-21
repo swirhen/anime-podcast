@@ -1,7 +1,8 @@
-Last Update: 2024/04/21-12:00:01
+Last Update: 2024/04/21-18:00:01
+2024/04/21-18:00:01 02 The New Gate|THE NEW GATE
 2024/04/21-12:00:01 03 Yoru no Kurage wa Oyogenai|夜のクラゲは泳げない
 2024/04/21-12:00:01 03 Tonari no Youkai-san|となりの妖怪さん
-2024/04/21-12:00:01 03 One Room, Hiatari Futsuu, Tenshi-tsuki.|ワンルーム、日当たり普通、天使つき。
+2024/04/21-12:00:01 03 One Room, Hiatari Futsuu, Tenshi-tsuki|ワンルーム、日当たり普通、天使つき。
 2024/04/21-12:00:01 02 Sasayaku You ni Koi o Utau|ささやくように恋を唄う
 2024/04/21-12:00:01 02 Kuroshitsuji Kishuku Gakkou Hen|黒執事 -寄宿学校編-
 2024/04/21-12:00:01 02 Kaijuu 8 Gou|怪獣8号
@@ -32,5 +33,4 @@ Last Update: 2024/04/21-12:00:01
 2024/04/16-00:00:02 03 Kami wa Game ni Uete Iru.|神は遊戯に飢えている。
 2024/04/15-12:00:02 02 Vampire Dormitory|ヴァンパイア男子寮
 2024/04/15-12:00:02 02 Jii-san Baa-san Wakagaeru|じいさんばあさん若返る
-2024/04/14-18:00:01 01 The New Gate|THE NEW GATE
 2024/04/14-06:00:01 01 Highspeed Etoile|HIGHSPEED Étoile
