@@ -1,4 +1,5 @@
-Last Update: 2024/05/05-06:00:01
+Last Update: 2024/05/05-12:00:02
+2024/05/05-12:00:02 04 Kuroshitsuji Kishuku Gakkou Hen|黒執事 -寄宿学校編-
 2024/05/05-00:00:02 05 Mahouka Koukou no Rettousei |魔法科高校の劣等生 第3シーズン
 2024/05/04-12:00:01 05 Wind Breaker|WIND BREAKER
 2024/05/04-00:00:02 18 Dungeon Meshi|ダンジョン飯
@@ -25,7 +26,6 @@ Last Update: 2024/05/05-06:00:01
 2024/04/29-06:00:01 04 Sentai Dai Shikkaku|戦隊大失格
 2024/04/29-00:00:02 04 Yoru no Kurage wa Oyogenai|夜のクラゲは泳げない
 2024/04/29-00:00:02 03 The New Gate|THE NEW GATE
-2024/04/29-00:00:02 03 Kuroshitsuji Kishuku Gakkou Hen|黒執事 -寄宿学校編-
 2024/04/28-18:00:02 04 Tonari no Youkai-san|となりの妖怪さん
 2024/04/28-12:00:02 03 Sasayaku You ni Koi o Utau|ささやくように恋を唄う
 2024/04/28-06:00:01 04 One Room, Hiatari Futsuu, Tenshi-tsuki|ワンルーム、日当たり普通、天使つき。
