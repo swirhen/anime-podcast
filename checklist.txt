@@ -1,4 +1,9 @@
-Last Update: 2024/05/11-18:00:02
+Last Update: 2024/05/12-00:00:01
+2024/05/12-00:00:01 19 Dungeon Meshi|ダンジョン飯
+2024/05/12-00:00:01 06 Wind Breaker|WIND BREAKER
+2024/05/12-00:00:01 06 Mahouka Koukou no Rettousei |魔法科高校の劣等生 第3シーズン
+2024/05/12-00:00:01 06 Henjin no Salad Bowl|変人のサラダボウル
+2024/05/12-00:00:01 03 Jantama Kan！！|じゃんたま カン！！
 2024/05/10-12:00:02 06 Yuru Camp Season 3|ゆるキャン△ SEASON3
 2024/05/10-12:00:02 05 Kono Subarashii Sekai ni Shukufuku o! 3|この素晴らしい世界に祝福を！3
 2024/05/09-18:00:02 05 Kenka Dokugaku|喧嘩独学
@@ -24,11 +29,6 @@ Last Update: 2024/05/11-18:00:02
 2024/05/06-00:00:01 04 Kaijuu 8 Gou|怪獣8号
 2024/05/05-18:00:02 04 The New Gate|THE NEW GATE
 2024/05/05-12:00:02 04 Kuroshitsuji Kishuku Gakkou Hen|黒執事 -寄宿学校編-
-2024/05/05-00:00:02 05 Mahouka Koukou no Rettousei |魔法科高校の劣等生 第3シーズン
-2024/05/04-12:00:01 05 Wind Breaker|WIND BREAKER
-2024/05/04-00:00:02 18 Dungeon Meshi|ダンジョン飯
-2024/05/04-00:00:02 05 Henjin no Salad Bowl|変人のサラダボウル
-2024/05/04-00:00:02 02 Jantama Kan！！|じゃんたま カン！！
 2024/05/01-18:00:01 05 Dainanaoji|転生したら第七王子だったので、気ままに魔術を極めます
 2024/04/29-06:00:01 04 Sentai Dai Shikkaku|戦隊大失格
 2024/04/20-18:00:02 03 Madome|魔王の俺が奴隷エルフを嫁にしたんだが、どう愛でればいい？
