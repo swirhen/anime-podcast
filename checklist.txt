@@ -1,4 +1,7 @@
-Last Update: 2024/05/18-18:00:02
+Last Update: 2024/05/19-00:00:02
+2024/05/19-00:00:02 06 Re Monster|Re：Monster
+2024/05/19-00:00:02 0 Youjo Senki|劇場版 幼女戦記
+2024/05/19-00:00:02 0 Heion Sedai no Idatentachi|平穏世代の韋駄天達
 2024/05/18-12:00:02 07 Wind Breaker|WIND BREAKER
 2024/05/18-12:00:02 07 Mahouka Koukou no Rettousei |魔法科高校の劣等生 第3シーズン
 2024/05/18-00:00:02 07 Henjin no Salad Bowl|変人のサラダボウル
@@ -30,7 +33,6 @@ Last Update: 2024/05/18-18:00:02
 2024/05/13-00:00:02 05 Kuroshitsuji Kishuku Gakkou Hen|黒執事 -寄宿学校編-
 2024/05/13-00:00:02 05 Kaijuu 8 Gou|怪獣8号
 2024/05/07-12:00:02 05 Highspeed Etoile|HIGHSPEED Étoile
-2024/05/06-00:00:01 04 Re Monster|Re：Monster
 2024/05/01-18:00:01 05 Dainanaoji|転生したら第七王子だったので、気ままに魔術を極めます
 2024/04/20-18:00:02 03 Madome|魔王の俺が奴隷エルフを嫁にしたんだが、どう愛でればいい？
 2024/04/17-12:00:02 03 Ookami to Koushinryou Merchant Meets the Wise Wolf|狼と香辛料 MERCHANT MEETS THE WISE WOLF
