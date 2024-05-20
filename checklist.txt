@@ -1,4 +1,7 @@
-Last Update: 2024/05/20-12:00:01
+Last Update: 2024/05/20-18:00:03
+2024/05/20-18:00:03 07 Tonari no Youkai-san|となりの妖怪さん
+2024/05/20-18:00:03 06.5 Youjo Senki|劇場版 幼女戦記
+2024/05/20-18:00:03 02 Kimetsu no Yaiba - Hashira Geiko Hen|鬼滅の刃 柱稽古編
 2024/05/20-12:00:01 07 Yoru no Kurage wa Oyogenai|夜のクラゲは泳げない
 2024/05/20-12:00:01 07 Vampire Dormitory|ヴァンパイア男子寮
 2024/05/20-12:00:01 07 One Room, Hiatari Futsuu, Tenshi-tsuki|ワンルーム、日当たり普通、天使つき。
@@ -7,7 +10,6 @@ Last Update: 2024/05/20-12:00:01
 2024/05/20-12:00:01 06 Sasayaku You ni Koi o Utau|ささやくように恋を唄う
 2024/05/19-12:00:02 06 The New Gate|THE NEW GATE
 2024/05/19-12:00:02 06 Kuroshitsuji Kishuku Gakkou Hen|黒執事 -寄宿学校編-
-2024/05/19-06:00:02 01 Youjo Senki|劇場版 幼女戦記
 2024/05/19-06:00:02 01 Heion Sedai no Idatentachi|平穏世代の韋駄天達
 2024/05/19-00:00:02 06 Re Monster|Re：Monster
 2024/05/18-12:00:02 07 Wind Breaker|WIND BREAKER
@@ -28,9 +30,7 @@ Last Update: 2024/05/20-12:00:01
 2024/05/14-06:00:02 07 Kami wa Game ni Uete Iru.|神は遊戯に飢えている。
 2024/05/14-06:00:02 06 Lv2 Cheat|Lv2からチートだった元勇者候補のまったり異世界ライフ
 2024/05/13-12:00:02 06 Blue Archive the Animation|ブルーアーカイブ The Animation
-2024/05/13-12:00:02 01 Kimetsu no Yaiba - Hashira Geiko Hen|鬼滅の刃 柱稽古編
 2024/05/13-00:00:02 09 Long Zu The Blazing Dawn|龍族 -The Blazing Dawn-
-2024/05/13-00:00:02 06 Tonari no Youkai-san|となりの妖怪さん
 2024/05/13-00:00:02 05 Kaijuu 8 Gou|怪獣8号
 2024/05/07-12:00:02 05 Highspeed Etoile|HIGHSPEED Étoile
 2024/05/01-18:00:01 05 Dainanaoji|転生したら第七王子だったので、気ままに魔術を極めます
