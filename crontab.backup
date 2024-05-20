@@ -29,7 +29,7 @@ PATH=/home/swirhen/.rbenv/shims:/home/swirhen/.rbenv/bin:/home/swirhen/perl5/bin
 # 帯
 0 0 * * 2-5 python /data/share/movie/sh/radio_record.py a "鷲崎健のヨルナイト×ヨルナイト" 30 3600 v
 # -- MON
-0 17 * 4,5,6 1 python /data/share/movie/sh/radio_record.py a "大久保瑠美・桑原由気 まなべる！ライトノベル！" 30 1800 v
+#0 17 * 4,5,6 1 python /data/share/movie/sh/radio_record.py a "大久保瑠美・桑原由気 まなべる！ライトノベル！" 30 1800 v
 0 21 * * 1 python /data/share/movie/sh/radio_record.py a "内田真礼とおはなししません？" 30 1800 v
 0 22 * * 1 python /data/share/movie/sh/radio_record.py a "井口裕香のむ～～～ん ⊂( ＾ω＾)⊃" 30 3600 v
 0 23 * * 1 python /data/share/movie/sh/radio_record.py a "東山奈央のラジオ＠リビング" 30 1800
