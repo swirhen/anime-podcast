@@ -1,4 +1,5 @@
-Last Update: 2024/05/25-18:00:02
+Last Update: 2024/05/26-00:00:03
+2024/05/26-00:00:03 08 Wind Breaker|WIND BREAKER
 2024/05/25-12:00:02 21 Dungeon Meshi|ダンジョン飯
 2024/05/25-12:00:02 08 Mahouka Koukou no Rettousei |魔法科高校の劣等生 第3シーズン
 2024/05/25-12:00:02 08 Henjin no Salad Bowl|変人のサラダボウル
@@ -30,7 +31,6 @@ Last Update: 2024/05/25-18:00:02
 2024/05/19-12:00:02 06 The New Gate|THE NEW GATE
 2024/05/19-12:00:02 06 Kuroshitsuji Kishuku Gakkou Hen|黒執事 -寄宿学校編-
 2024/05/19-00:00:02 06 Re Monster|Re：Monster
-2024/05/18-12:00:02 07 Wind Breaker|WIND BREAKER
 2024/05/13-00:00:02 09 Long Zu The Blazing Dawn|龍族 -The Blazing Dawn-
 2024/05/13-00:00:02 05 Kaijuu 8 Gou|怪獣8号
 2024/05/01-18:00:01 05 Dainanaoji|転生したら第七王子だったので、気ままに魔術を極めます
