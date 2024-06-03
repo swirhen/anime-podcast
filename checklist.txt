@@ -1,4 +1,7 @@
-Last Update: 2024/06/03-12:00:01
+Last Update: 2024/06/03-18:00:02
+2024/06/03-18:00:02 12 Long Zu The Blazing Dawn|龍族 -The Blazing Dawn-
+2024/06/03-18:00:02 09 Vampire Dormitory|ヴァンパイア男子寮
+2024/06/03-18:00:02 09 Tonari no Youkai-san|となりの妖怪さん
 2024/06/03-12:00:01 09 Yoru no Kurage wa Oyogenai|夜のクラゲは泳げない
 2024/06/03-12:00:01 09 One Room, Hiatari Futsuu, Tenshi-tsuki|ワンルーム、日当たり普通、天使つき。
 2024/06/03-12:00:01 09 Jii-san Baa-san Wakagaeru|じいさんばあさん若返る
@@ -8,7 +11,6 @@ Last Update: 2024/06/03-12:00:01
 2024/06/03-12:00:01 08 Kaijuu 8 Gou|怪獣8号
 2024/06/02-12:00:03 08 The New Gate|THE NEW GATE
 2024/06/02-12:00:03 08 Kuroshitsuji Kishuku Gakkou Hen|黒執事 -寄宿学校編-
-2024/06/02-00:00:03 11 Long Zu The Blazing Dawn|龍族 -The Blazing Dawn-
 2024/06/02-00:00:03 09 THE IDOLM@STER SHINY COLORS|アイドルマスター シャイニーカラーズ
 2024/06/02-00:00:03 09 Mahouka Koukou no Rettousei |魔法科高校の劣等生 第3シーズン
 2024/06/02-00:00:03 08 Rinkai|リンカイ！
@@ -22,11 +24,9 @@ Last Update: 2024/06/03-12:00:01
 2024/06/01-12:00:02 22 Dungeon Meshi|ダンジョン飯
 2024/06/01-12:00:02 09 Ookami to Koushinryou|狼と香辛料 MERCHANT MEETS THE WISE WOLF
 2024/06/01-12:00:02 09 Kami wa Game ni Uete Iru.|神は遊戯に飢えている。
-2024/06/01-12:00:02 08 Vampire Dormitory|ヴァンパイア男子寮
 2024/06/01-12:00:02 08 Lv2 Cheat|Lv2からチートだった元勇者候補のまったり異世界ライフ
 2024/06/01-12:00:02 08 Kaii to Otome to Kamigakushi|怪異と乙女と神隠し
 2024/06/01-12:00:02 06 Jantama Kan！！|じゃんたま カン！！
-2024/06/01-06:00:02 08 Tonari no Youkai-san|となりの妖怪さん
 2024/06/01-06:00:02 03 Kimetsu no Yaiba - Hashira Geiko Hen|鬼滅の刃 柱稽古編
 2024/05/30-12:00:29 08 Seiyuu Radio no Uraomote|声優ラジオのウラオモテ
 2024/05/30-12:00:29 08 Date a Live V|デート・ア・ライブⅤ
