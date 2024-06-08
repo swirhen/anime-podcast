@@ -1,4 +1,6 @@
-Last Update: 2024/06/09-00:00:02
+Last Update: 2024/06/09-06:00:01
+2024/06/09-06:00:01 10 One Room, Hiatari Futsuu, Tenshi-tsuki|ワンルーム、日当たり普通、天使つき。
+2024/06/09-06:00:01 09 Kaijuu 8 Gou|怪獣8号
 2024/06/08-18:00:02 10 Wind Breaker|WIND BREAKER
 2024/06/08-18:00:02 09 Kono Subarashii Sekai ni Shukufuku o! 3|この素晴らしい世界に祝福を！3
 2024/06/08-06:00:01 10 THE IDOLM@STER SHINY COLORS|アイドルマスター シャイニーカラーズ
@@ -26,12 +28,10 @@ Last Update: 2024/06/09-00:00:02
 2024/06/03-18:00:02 09 Vampire Dormitory|ヴァンパイア男子寮
 2024/06/03-18:00:02 09 Tonari no Youkai-san|となりの妖怪さん
 2024/06/03-12:00:01 09 Yoru no Kurage wa Oyogenai|夜のクラゲは泳げない
-2024/06/03-12:00:01 09 One Room, Hiatari Futsuu, Tenshi-tsuki|ワンルーム、日当たり普通、天使つき。
 2024/06/03-12:00:01 09 Jii-san Baa-san Wakagaeru|じいさんばあさん若返る
 2024/06/03-12:00:01 09 Blue Archive the Animation|ブルーアーカイブ The Animation
 2024/06/03-12:00:01 08 Sentai Dai Shikkaku|戦隊大失格
 2024/06/03-12:00:01 08 Sasayaku You ni Koi o Utau|ささやくように恋を唄う
-2024/06/03-12:00:01 08 Kaijuu 8 Gou|怪獣8号
 2024/06/02-12:00:03 08 The New Gate|THE NEW GATE
 2024/06/02-12:00:03 08 Kuroshitsuji Kishuku Gakkou Hen|黒執事 -寄宿学校編-
 2024/06/02-00:00:03 08 Rinkai|リンカイ！
