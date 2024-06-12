@@ -1,4 +1,6 @@
-Last Update: 2024/06/12-18:00:02
+Last Update: 2024/06/13-00:00:02
+2024/06/13-00:00:02 10 Tensei Kizoku, Kantei Skill de Nariagaru|転生貴族、鑑定スキルで成り上がる
+2024/06/13-00:00:02 10 Seiyuu Radio no Uraomote|声優ラジオのウラオモテ
 2024/06/12-06:00:02 10 Unnamed Memory|Unnamed Memory
 2024/06/12-06:00:02 10 Rinkai|リンカイ！
 2024/06/11-06:00:02 11 Tensei Shitara Dai Nana Ouji|転生したら第七王子だったので、気ままに魔術を極めます
@@ -32,9 +34,7 @@ Last Update: 2024/06/12-18:00:02
 2024/06/07-00:00:03 07 Jantama Kan！！|じゃんたま カン！！
 2024/06/06-06:00:02 09 Kenka Dokugaku|喧嘩独学
 2024/06/06-06:00:02 09 Date a Live V|デート・ア・ライブⅤ
-2024/06/06-00:00:03 09 Seiyuu Radio no Uraomote|声優ラジオのウラオモテ
 2024/06/06-00:00:03 09 Kaii to Otome to Kamigakushi|怪異と乙女と神隠し
-2024/06/05-12:00:02 09 Tensei Kizoku, Kantei Skill de Nariagaru|転生貴族、鑑定スキルで成り上がる
 2024/06/03-12:00:01 08 Sasayaku You ni Koi o Utau|ささやくように恋を唄う
 2024/06/02-12:00:03 09 THE NEW GATE|THE NEW GATE
 2024/05/19-00:00:02 10 Re：Monster|Re：Monster
