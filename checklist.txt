@@ -1,4 +1,7 @@
-Last Update: 2024/06/13-18:00:02
+Last Update: 2024/06/14-00:00:03
+2024/06/14-00:00:03 24 Dungeon Meshi|ダンジョン飯
+2024/06/14-00:00:03 09 Isekai no Yu|異世界ゆるり紀行 ～子育てしながら冒険者します～
+2024/06/14-00:00:03 08 Jantama Kan！！|じゃんたま カン！！
 2024/06/13-06:00:02 10 Kenka Dokugaku|喧嘩独学
 2024/06/13-06:00:02 10 Kaii to Otome to Kamigakushi|怪異と乙女と神隠し
 2024/06/13-06:00:02 10 Date a Live V|デート・ア・ライブⅤ
@@ -30,11 +33,8 @@ Last Update: 2024/06/13-18:00:02
 2024/06/08-06:00:01 10 Mahouka Koukou no Rettousei |魔法科高校の劣等生 第3シーズン
 2024/06/08-06:00:01 10 HIGHSPEED Étoile|HIGHSPEED Étoile
 2024/06/07-12:00:02 10 Yuru Camp Season 3|ゆるキャン△ SEASON3
-2024/06/07-12:00:02 01 Isekai no Yu|異世界ゆるり紀行 ～子育てしながら冒険者します～
 2024/06/07-06:00:02 10 MaDome|魔王の俺が奴隷エルフを嫁にしたんだが、どう愛でればいい？
 2024/06/07-06:00:02 10 Henjin no Salad Bowl|変人のサラダボウル
-2024/06/07-00:00:03 23 Dungeon Meshi|ダンジョン飯
-2024/06/07-00:00:03 07 Jantama Kan！！|じゃんたま カン！！
 2024/06/03-12:00:01 08 Sasayaku You ni Koi o Utau|ささやくように恋を唄う
 2024/06/02-12:00:03 09 THE NEW GATE|THE NEW GATE
 2024/05/19-00:00:02 10 Re：Monster|Re：Monster
