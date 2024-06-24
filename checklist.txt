@@ -1,4 +1,6 @@
-Last Update: 2024/06/24-06:00:02
+Last Update: 2024/06/24-12:00:02
+2024/06/24-12:00:02 12 Vampire Dormitory|ヴァンパイア男子寮
+2024/06/24-12:00:02 12 Blue Archive the Animation|ブルーアーカイブ The Animation
 2024/06/24-06:00:02 11.5 Jii-san Baa-san Wakagaeru|じいさんばあさん若返る
 2024/06/24-06:00:02 07 Kimetsu no Yaiba - Hashira Geiko Hen|鬼滅の刃 柱稽古編
 2024/06/24-00:00:02 15 Long Zu The Blazing Dawn|龍族 -The Blazing Dawn-
@@ -35,7 +37,5 @@ Last Update: 2024/06/24-06:00:02
 2024/06/18-06:00:03 11 Tadaima, Okaeri|ただいま、おかえり
 2024/06/18-00:00:03 12 Kami wa Game ni Uete Iru.|神は遊戯に飢えている。
 2024/06/18-00:00:03 11 Lv2 Cheat|Lv2からチートだった元勇者候補のまったり異世界ライフ
-2024/06/17-06:00:01 11 Vampire Dormitory|ヴァンパイア男子寮
-2024/06/17-06:00:01 11 Blue Archive the Animation|ブルーアーカイブ The Animation
 2024/06/14-00:00:03 24 Dungeon Meshi|ダンジョン飯
 0 46 Urusei|うる星やつら(2022)
