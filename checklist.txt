@@ -1,4 +1,6 @@
-Last Update: 2024/06/25-12:00:03
+Last Update: 2024/06/25-18:00:02
+2024/06/25-18:00:02 13 Ookami to Koushinryou|狼と香辛料 MERCHANT MEETS THE WISE WOLF
+2024/06/25-18:00:02 12 Shuumatsu Train Doko e Iku|終末トレインどこへいく？
 2024/06/25-12:00:03 12 Tadaima, Okaeri|ただいま、おかえり
 2024/06/25-06:00:02 13 Kami wa Game ni Uete Iru.|神は遊戯に飢えている。
 2024/06/25-06:00:02 12 Lv2 Cheat|Lv2からチートだった元勇者候補のまったり異世界ライフ
@@ -35,7 +37,5 @@ Last Update: 2024/06/25-12:00:03
 2024/06/19-06:00:01 11 Rinkai|リンカイ！
 2024/06/19-00:00:03 12 Dekisoko|出来損ないと呼ばれた元英雄は、実家から追放されたので好き勝手に生きることにした
 2024/06/18-06:00:03 12 Tensei Shitara Dai Nana Ouji|転生したら第七王子だったので、気ままに魔術を極めます
-2024/06/18-06:00:03 12 Ookami to Koushinryou|狼と香辛料 MERCHANT MEETS THE WISE WOLF
-2024/06/18-06:00:03 11.5 Shuumatsu Train Doko e Iku|終末トレインどこへいく？
 2024/06/14-00:00:03 24 Dungeon Meshi|ダンジョン飯
 0 46 Urusei|うる星やつら(2022)
