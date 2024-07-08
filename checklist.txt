@@ -1,7 +1,9 @@
-Last Update: 2024/07/08-18:00:02
+Last Update: 2024/07/09-00:00:03
+2024/07/09-00:00:03 08 The Last Summoner|最後の召喚師 -The Last Summoner-
+2024/07/09-00:00:03 01 Kami no Tou - Ouji no Kikan|神之塔 -Tower of God- 王子の帰還
+2024/07/09-00:00:03 0 Itou Junji - Maniac|伊藤潤二『マニアック』
 2024/07/08-18:00:02 01 Yoasobi Gurashi！|よあそびぐらしっ！
 2024/07/08-18:00:02 01 Nanare Hananare|菜なれ花なれ
-2024/07/08-18:00:02 0 Kami no Tou - Ouji no Kikan|神之塔 -Tower of God- 王子の帰還
 2024/07/08-12:00:01 01 VTuber Legend|VTuberなんだが配信切り忘れたら伝説になってた
 2024/07/08-12:00:01 01 Tsue to Tsurugi no Wistoria|杖と剣のウィストリア
 2024/07/08-12:00:01 01 FAIRY TAIL 100 YEARS QUEST|FAIRY TAIL 100年クエスト
@@ -19,7 +21,6 @@ Last Update: 2024/07/08-18:00:02
 2024/07/06-12:00:02 01 Grendizer U|グレンダイザーU
 2024/07/06-12:00:02 01 Dungeon no Naka no Hito|ダンジョンの中のひと
 2024/07/06-12:00:02 01 2.5 Jigen no Ririsa|うたわれるもの 二人の白皇
-2024/07/06-06:00:01 04 The Last Summoner|最後の召喚師 -The Last Summoner-
 2024/07/05-18:06:24 01 絶狼〈ZERO〉-DRAGON BLOOD-|絶狼〈ZERO〉-DRAGON BLOOD-
 2024/07/05-18:06:24 01 Tasogare Out Focus|黄昏アウトフォーカス
 2024/07/05-18:06:24 01 Aishang Ta de Liyou|下の階には澪がいる
