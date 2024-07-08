@@ -1,7 +1,10 @@
-Last Update: 2024/07/09-00:00:03
+Last Update: 2024/07/09-06:00:02
+2024/07/09-06:00:02 02 NINJA KAMUI|NINJA KAMUI
+2024/07/09-06:00:02 01 Itou Junji - Maniac|伊藤潤二『マニアック』
+2024/07/09-06:00:02 01 Elf-san wa Yaserarenai.|エルフさんは痩せられない。
+2024/07/09-06:00:02 0 Mayonaka Punch|真夜中ぱんチ
 2024/07/09-00:00:03 08 The Last Summoner|最後の召喚師 -The Last Summoner-
 2024/07/09-00:00:03 01 Kami no Tou - Ouji no Kikan|神之塔 -Tower of God- 王子の帰還
-2024/07/09-00:00:03 0 Itou Junji - Maniac|伊藤潤二『マニアック』
 2024/07/08-18:00:02 01 Yoasobi Gurashi！|よあそびぐらしっ！
 2024/07/08-18:00:02 01 Nanare Hananare|菜なれ花なれ
 2024/07/08-12:00:01 01 VTuber Legend|VTuberなんだが配信切り忘れたら伝説になってた
@@ -14,7 +17,6 @@ Last Update: 2024/07/09-00:00:03
 2024/07/07-06:00:01 01 Mob kara Hajimaru Tansaku Eiyuutan|モブから始まる探索英雄譚
 2024/07/07-06:00:01 01 Madougushi Dahlia wa Utsumukanai|魔導具師ダリヤはうつむかない
 2024/07/07-06:00:01 0 Shoushimin Series|小市民シリーズ
-2024/07/07-06:00:01 0 Elf-san wa Yaserarenai.|エルフさんは痩せられない。
 2024/07/06-12:00:02 01 Sword Art Online Alternative Gun Gale Online|劇場版 ソードアート・オンライン -プログレッシブ- 冥き夕闇のスケルツォ
 2024/07/06-12:00:02 01 Kono Sekai wa Fukanzen Sugiru|ラブライブ！スーパースター！！(第2期)
 2024/07/06-12:00:02 01 Isekai Suicide Squad|異世界スーサイド・スクワッド
@@ -36,7 +38,6 @@ Last Update: 2024/07/09-00:00:03
 2024/07/03-12:00:02 01 Uchouten Kazoku 2|有頂天家族2
 2024/07/03-12:00:02 01 Tasuu Ketsu|多数欠
 2024/07/02-12:00:02 01 Shinmai Ossan Boukensha|新米オッサン冒険者、最強パーティに死ぬほど鍛えられて無敵になる。
-2024/07/02-12:00:02 01 NINJA KAMUI|NINJA KAMUI
 2024/07/02-06:00:01 14 Ookami to Koushinryou|狼と香辛料 MERCHANT MEETS THE WISE WOLF
 2024/06/30-18:03:14 10 Sasayaku You ni Koi o Utau|ささやくように恋を唄う
 2024/06/22-12:00:02 12 WIND BREAKER|WIND BREAKER
