@@ -1,7 +1,10 @@
-Last Update: 2024/07/10-00:00:04
+Last Update: 2024/07/10-06:00:01
+2024/07/10-06:00:01 02 Boku no Tsuma wa Kanjou ga Nai|僕の妻は感情がない
+2024/07/10-06:00:01 01 Katsute Mahou Shoujo to Aku wa Tekitai Shite Ita.|かつて魔法少女と悪は敵対していた。
+2024/07/10-06:00:01 01 Egumi Legacy|エグミレガシー
+2024/07/10-06:00:01 0 Mononoke|虚構推理
+2024/07/10-06:00:01 0 Isekai Shikkaku|異世界失格
 2024/07/10-00:00:04 10 The Last Summoner|最後の召喚師 -The Last Summoner-
-2024/07/10-00:00:04 0 Katsute Mahou Shoujo to Aku wa Tekitai Shite Ita.|かつて魔法少女と悪は敵対していた。
-2024/07/10-00:00:04 0 Egumi Legacy|エグミレガシー
 2024/07/09-18:00:03 15 Ookami to Koushinryou|狼と香辛料 MERCHANT MEETS THE WISE WOLF
 2024/07/09-18:00:03 02 Shinmai Ossan Boukensha|新米オッサン冒険者、最強パーティに死ぬほど鍛えられて無敵になる。
 2024/07/09-12:00:02 01 Mayonaka Punch|真夜中ぱんチ
@@ -17,7 +20,6 @@ Last Update: 2024/07/10-00:00:04
 2024/07/07-12:13:55 01 Tensui no Sakuna Hime|天穂のサクナヒメ
 2024/07/07-12:13:55 01 Nige Jouzu no Wakagimi|逃げ上手の若君
 2024/07/07-12:13:55 01 Gendai Goyaku|現代誤訳
-2024/07/07-06:00:01 01.5 Boku no Tsuma wa Kanjou ga Nai|僕の妻は感情がない
 2024/07/07-06:00:01 01 Mob kara Hajimaru Tansaku Eiyuutan|モブから始まる探索英雄譚
 2024/07/07-06:00:01 01 Madougushi Dahlia wa Utsumukanai|魔導具師ダリヤはうつむかない
 2024/07/07-06:00:01 0 Shoushimin Series|小市民シリーズ
