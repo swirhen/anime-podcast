@@ -4,7 +4,6 @@ Last Update: 2024/07/10-06:00:01
 2024/07/10-06:00:01 01 Egumi Legacy|エグミレガシー
 2024/07/10-06:00:01 0 Mononoke|モノノ怪
 2024/07/10-06:00:01 0 Isekai Shikkaku|異世界失格
-2024/07/10-00:00:04 10 The Last Summoner|最後の召喚師 -The Last Summoner-
 2024/07/09-18:00:03 15 Ookami to Koushinryou|狼と香辛料 MERCHANT MEETS THE WISE WOLF
 2024/07/09-18:00:03 02 Shinmai Ossan Boukensha|新米オッサン冒険者、最強パーティに死ぬほど鍛えられて無敵になる。
 2024/07/09-12:00:02 01 Mayonaka Punch|真夜中ぱんチ
@@ -23,18 +22,17 @@ Last Update: 2024/07/10-06:00:01
 2024/07/07-06:00:01 01 Mob kara Hajimaru Tansaku Eiyuutan|モブから始まる探索英雄譚
 2024/07/07-06:00:01 01 Madougushi Dahlia wa Utsumukanai|魔導具師ダリヤはうつむかない
 2024/07/07-06:00:01 0 Shoushimin Series|小市民シリーズ
-2024/07/06-12:00:02 01 Sword Art Online Alternative Gun Gale Online|劇場版 ソードアート・オンライン -プログレッシブ- 冥き夕闇のスケルツォ
-2024/07/06-12:00:02 01 Kono Sekai wa Fukanzen Sugiru|ラブライブ！スーパースター！！(第2期)
+2024/07/06-12:00:02 01 Kono Sekai wa Fukanzen Sugiru|この世界は不完全すぎる
 2024/07/06-12:00:02 01 Isekai Suicide Squad|異世界スーサイド・スクワッド
 2024/07/06-12:00:02 01 Grendizer U|グレンダイザーU
 2024/07/06-12:00:02 01 Dungeon no Naka no Hito|ダンジョンの中のひと
-2024/07/06-12:00:02 01 2.5 Jigen no Ririsa|うたわれるもの 二人の白皇
+2024/07/06-12:00:02 01 2.5 Jigen no Ririsa|2.5次元の誘惑
 2024/07/05-18:06:24 01 絶狼〈ZERO〉-DRAGON BLOOD-|絶狼〈ZERO〉-DRAGON BLOOD-
 2024/07/05-18:06:24 01 Tasogare Out Focus|黄昏アウトフォーカス
 2024/07/05-18:06:24 01 Aishang Ta de Liyou|下の階には澪がいる
-2024/07/05-12:00:02 01 Senpai wa Otokonoko|イジらないで、長瀞さん 2nd Attack
+2024/07/05-12:00:02 01 Senpai wa Otokonoko|先輩はおとこのこ
 2024/07/05-12:00:02 01 Ramen Akaneko|ラーメン赤猫
-2024/07/05-12:00:02 01 Ore wa Subete wo Parry suru|ハズレ枠の【状態異常スキル】で最強になった俺がすべてを蹂躙するまで
+2024/07/05-12:00:02 01 Ore wa Subete wo Parry suru|俺は全てを【パリイ】する～逆勘違いの世界最強は冒険者になりたい～
 2024/07/05-12:00:02 01 Gimai Seikatsu|義妹生活
 2024/07/05-12:00:02 01 Giji Harem|疑似ハーレム
 2024/07/05-12:00:02 01 Astro Note|アストロノオト
