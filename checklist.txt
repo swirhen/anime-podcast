@@ -1,9 +1,10 @@
-Last Update: 2024/07/10-06:00:01
+Last Update: 2024/07/10-12:00:02
+2024/07/10-12:00:02 02 Tasuu Ketsu|多数欠
+2024/07/10-12:00:02 01 Mononoke|モノノ怪
+2024/07/10-12:00:02 01 Isekai Shikkaku|異世界失格
 2024/07/10-06:00:01 02 Boku no Tsuma wa Kanjou ga Nai|僕の妻は感情がない
 2024/07/10-06:00:01 01 Katsute Mahou Shoujo to Aku wa Tekitai Shite Ita.|かつて魔法少女と悪は敵対していた。
 2024/07/10-06:00:01 01 Egumi Legacy|エグミレガシー
-2024/07/10-06:00:01 0 Mononoke|モノノ怪
-2024/07/10-06:00:01 0 Isekai Shikkaku|異世界失格
 2024/07/09-18:00:03 15 Ookami to Koushinryou|狼と香辛料 MERCHANT MEETS THE WISE WOLF
 2024/07/09-18:00:03 02 Shinmai Ossan Boukensha|新米オッサン冒険者、最強パーティに死ぬほど鍛えられて無敵になる。
 2024/07/09-12:00:02 01 Mayonaka Punch|真夜中ぱんチ
@@ -40,6 +41,5 @@ Last Update: 2024/07/10-06:00:01
 2024/07/04-12:00:02 01 Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san|時々ボソッとロシア語でデレる隣のアーリャさん
 2024/07/04-06:00:02 01 Maougun Saikyou no Majutsushi wa Ningen datta|魔王軍最強の魔術師は人間だった
 2024/07/03-12:00:02 01 Uchouten Kazoku 2|有頂天家族2
-2024/07/03-12:00:02 01 Tasuu Ketsu|多数欠
 2024/06/30-18:03:14 10 Sasayaku You ni Koi o Utau|ささやくように恋を唄う
 2024/06/22-12:00:02 12 WIND BREAKER|WIND BREAKER
