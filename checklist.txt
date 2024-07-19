@@ -1,4 +1,6 @@
-Last Update: 2024/07/20-00:00:02
+Last Update: 2024/07/20-06:00:02
+2024/07/20-06:00:02 03 2.5 Jigen no Ririsa|2.5次元の誘惑
+2024/07/20-06:00:02 02 Bye Bye, Earth|ばいばい、アース
 2024/07/19-06:00:02 13 Jantama Kan！！|じゃんたま カン！！
 2024/07/19-06:00:02 03 Tasogare Out Focus|黄昏アウトフォーカス
 2024/07/19-06:00:02 03 Senpai wa Otokonoko|先輩はおとこのこ
@@ -39,12 +41,10 @@ Last Update: 2024/07/20-00:00:02
 2024/07/14-06:00:02 02 Mob kara Hajimaru Tansaku Eiyuutan|モブから始まる探索英雄譚
 2024/07/14-06:00:02 02 Elf-san wa Yaserarenai.|エルフさんは痩せられない。
 2024/07/14-00:00:03 02 Madougushi Dahlia wa Utsumukanai|魔導具師ダリヤはうつむかない
-2024/07/13-18:00:02 01 Bye Bye, Earth|ばいばい、アース
 2024/07/13-12:00:02 02 Kono Sekai wa Fukanzen Sugiru|この世界は不完全すぎる
 2024/07/13-12:00:02 02 Grendizer U|グレンダイザーU
 2024/07/13-12:00:02 02 Dungeon no Naka no Hito|ダンジョンの中のひと
 2024/07/13-06:00:01 02 Isekai Suicide Squad|異世界スーサイド・スクワッド
-2024/07/13-06:00:01 02 2.5 Jigen no Ririsa|2.5次元の誘惑
 2024/07/11-00:00:02 02 Maougun Saikyou no Majutsushi wa Ningen datta|魔王軍最強の魔術師は人間だった
 2024/07/05-18:06:24 01 絶狼〈ZERO〉-DRAGON BLOOD-|絶狼〈ZERO〉-DRAGON BLOOD-
 2024/07/05-12:00:02 01 Astro Note|アストロノオト
