@@ -1,4 +1,6 @@
-Last Update: 2024/07/23-06:00:02
+Last Update: 2024/07/23-12:00:03
+2024/07/23-12:00:03 17 Ookami to Koushinryou|狼と香辛料 MERCHANT MEETS THE WISE WOLF
+2024/07/23-12:00:03 04 Shinmai Ossan Boukensha|新米オッサン冒険者、最強パーティに死ぬほど鍛えられて無敵になる。
 2024/07/23-06:00:02 04 NINJA KAMUI|NINJA KAMUI
 2024/07/23-00:00:02 03 Mayonaka Punch|真夜中ぱんチ
 2024/07/22-06:00:02 03 Yoasobi Gurashi！|よあそびぐらしっ！
@@ -45,8 +47,6 @@ Last Update: 2024/07/23-06:00:02
 2024/07/17-06:00:01 02 Katsute Mahou Shoujo to Aku wa Tekitai Shite Ita.|かつて魔法少女と悪は敵対していた。
 2024/07/17-06:00:01 02 Isekai Shikkaku|異世界失格
 2024/07/17-00:00:03 02 Egumi Legacy|エグミレガシー
-2024/07/16-12:00:02 03 Shinmai Ossan Boukensha|新米オッサン冒険者、最強パーティに死ぬほど鍛えられて無敵になる。
-2024/07/16-06:00:01 16 Ookami to Koushinryou|狼と香辛料 MERCHANT MEETS THE WISE WOLF
 2024/07/05-18:06:24 01 絶狼〈ZERO〉-DRAGON BLOOD-|絶狼〈ZERO〉-DRAGON BLOOD-
 2024/07/05-12:00:02 01 Astro Note|アストロノオト
 2024/07/03-12:00:02 01 Uchouten Kazoku 2|有頂天家族2
