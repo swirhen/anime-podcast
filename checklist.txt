@@ -1,4 +1,6 @@
-Last Update: 2024/08/04-18:00:02
+Last Update: 2024/08/05-00:00:03
+2024/08/05-00:00:03 05 FAIRY TAIL 100 YEARS QUEST|FAIRY TAIL 100年クエスト
+2024/08/05-00:00:03 04 Tsue to Tsurugi no Wistoria|杖と剣のウィストリア
 2024/08/04-06:00:01 05 Tensui no Sakuna Hime|天穂のサクナヒメ
 2024/08/04-06:00:01 05 Nige Jouzu no Wakagimi|逃げ上手の若君
 2024/08/04-06:00:01 05 Gendai Goyaku|現代誤訳
@@ -35,7 +37,6 @@ Last Update: 2024/08/04-18:00:02
 2024/07/30-06:00:01 04 Nanare Hananare|菜なれ花なれ
 2024/07/30-00:00:04 04 Mayonaka Punch|真夜中ぱんチ
 2024/07/30-00:00:04 04 Dungeon no Naka no Hito|ダンジョンの中のひと
-2024/07/29-12:00:02 04 FAIRY TAIL 100 YEARS QUEST|FAIRY TAIL 100年クエスト
 2024/07/29-12:00:02 03 Yami Shibai 13|闇芝居 十三期
 2024/07/29-06:00:02 04 VTuber Legend|VTuberなんだが配信切り忘れたら伝説になってた
 2024/07/29-06:00:02 04 Shikanoko Nokonoko Koshitantan|しかのこのこのここしたんたん
@@ -43,7 +44,6 @@ Last Update: 2024/08/04-18:00:02
 2024/07/29-06:00:02 04 Kami no Tou - Ouji no Kikan|神之塔 -Tower of God- 王子の帰還
 2024/07/29-06:00:02 03.5 Yoasobi Gurashi！|よあそびぐらしっ！
 2024/07/24-06:00:02 04 Tasuu Ketsu|多数欠
-2024/07/22-00:00:02 03 Tsue to Tsurugi no Wistoria|杖と剣のウィストリア
 2024/07/22-00:00:02 03 Itou Junji - Maniac|伊藤潤二『マニアック』
 2024/07/20-18:00:04 01 Mirai no Kuromaku Kei Akuyaku Reijou Moriarty no Isekai Kanzen Hanzai Hakusho|未来の黒幕系悪役令嬢モリアーティーの異世界完全犯罪白書
 2024/07/05-18:06:24 01 絶狼〈ZERO〉-DRAGON BLOOD-|絶狼〈ZERO〉-DRAGON BLOOD-
