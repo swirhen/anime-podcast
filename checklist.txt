@@ -1,4 +1,5 @@
-Last Update: 2024/08/11-06:00:02
+Last Update: 2024/08/11-12:00:02
+2024/08/11-12:00:02 06 Elf-san wa Yaserarenai.|エルフさんは痩せられない。
 2024/08/11-06:00:02 06 Tensui no Sakuna Hime|天穂のサクナヒメ
 2024/08/11-06:00:02 06 Nige Jouzu no Wakagimi|逃げ上手の若君
 2024/08/11-06:00:02 06 Madougushi Dahlia wa Utsumukanai|魔導具師ダリヤはうつむかない
@@ -37,7 +38,6 @@ Last Update: 2024/08/11-06:00:02
 2024/08/05-06:00:01 04 Yoasobi Gurashi！|よあそびぐらしっ！
 2024/08/05-00:00:03 05 FAIRY TAIL 100 YEARS QUEST|FAIRY TAIL 100年クエスト
 2024/08/05-00:00:03 04 Tsue to Tsurugi no Wistoria|杖と剣のウィストリア
-2024/08/04-06:00:01 05 Elf-san wa Yaserarenai.|エルフさんは痩せられない。
 2024/08/04-00:00:03 05 Mob kara Hajimaru Tansaku Eiyuutan|モブから始まる探索英雄譚
 2024/08/02-06:00:01 05 Senpai wa Otokonoko|先輩はおとこのこ
 2024/08/01-18:00:02 05 Aishang Ta de Liyou|下の階には澪がいる
