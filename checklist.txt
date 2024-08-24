@@ -1,4 +1,6 @@
-Last Update: 2024/08/25-00:00:03
+Last Update: 2024/08/25-06:00:02
+2024/08/25-06:00:02 08 Mob kara Hajimaru Tansaku Eiyuutan|モブから始まる探索英雄譚
+2024/08/25-06:00:02 07 Naze Boku|なぜ僕の世界を誰も覚えていないのか？
 2024/08/25-00:00:03 08 Madougushi Dahlia wa Utsumukanai|魔導具師ダリヤはうつむかない
 2024/08/24-12:00:03 08 Kono Sekai wa Fukanzen Sugiru|この世界は不完全すぎる
 2024/08/24-12:00:03 08 Isekai Suicide Squad|異世界スーサイド・スクワッド
@@ -20,7 +22,6 @@ Last Update: 2024/08/25-00:00:03
 2024/08/22-00:00:03 06 Tasuu Ketsu|多数欠
 2024/08/21-18:00:01 07 Mononoke|モノノ怪
 2024/08/21-06:00:01 08 Boku no Tsuma wa Kanjou ga Nai|僕の妻は感情がない
-2024/08/21-06:00:01 07 Mob kara Hajimaru Tansaku Eiyuutan|モブから始まる探索英雄譚
 2024/08/21-06:00:01 07 Isekai Shikkaku|異世界失格
 2024/08/21-00:00:02 07 Katsute Mahou Shoujo to Aku wa Tekitai Shite Ita.|かつて魔法少女と悪は敵対していた。
 2024/08/21-00:00:02 07 Egumi Legacy|エグミレガシー
@@ -41,7 +42,6 @@ Last Update: 2024/08/25-00:00:03
 2024/08/18-12:00:02 07 Nige Jouzu no Wakagimi|逃げ上手の若君
 2024/08/18-12:00:02 07 Gendai Goyaku|現代誤訳
 2024/08/18-12:00:02 07 Elf-san wa Yaserarenai.|エルフさんは痩せられない。
-2024/08/18-12:00:02 06 Naze Boku|なぜ僕の世界を誰も覚えていないのか？
 2024/08/18-12:00:02 06 ATRI My Dear Moments|ATRI-My Dear Moments-
 2024/08/17-12:00:02 07 Grendizer U|グレンダイザーU
 2024/08/01-00:00:03 04 Kimisen II|キミと僕の最後の戦場、あるいは世界が始まる聖戦 Season Ⅱ
