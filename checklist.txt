@@ -1,4 +1,6 @@
-Last Update: 2024/08/25-18:00:02
+Last Update: 2024/08/26-00:00:03
+2024/08/26-00:00:03 08 FAIRY TAIL 100 YEARS QUEST|FAIRY TAIL 100年クエスト
+2024/08/26-00:00:03 07 Tsue to Tsurugi no Wistoria|杖と剣のウィストリア
 2024/08/25-18:00:02 08 Tensui no Sakuna Hime|天穂のサクナヒメ
 2024/08/25-18:00:02 08 Nige Jouzu no Wakagimi|逃げ上手の若君
 2024/08/25-18:00:02 08 Elf-san wa Yaserarenai.|エルフさんは痩せられない。
@@ -39,8 +41,6 @@ Last Update: 2024/08/25-18:00:02
 2024/08/19-12:00:02 07 Nanare Hananare|菜なれ花なれ
 2024/08/19-12:00:02 07 Kami no Tou - Ouji no Kikan|神之塔 -Tower of God- 王子の帰還
 2024/08/19-12:00:02 06 Yoasobi Gurashi！|よあそびぐらしっ！
-2024/08/19-00:00:02 07 FAIRY TAIL 100 YEARS QUEST|FAIRY TAIL 100年クエスト
-2024/08/19-00:00:02 06 Tsue to Tsurugi no Wistoria|杖と剣のウィストリア
 2024/08/18-12:00:02 07 Gendai Goyaku|現代誤訳
 2024/08/18-12:00:02 06 ATRI My Dear Moments|ATRI-My Dear Moments-
 2024/08/17-12:00:02 07 Grendizer U|グレンダイザーU
