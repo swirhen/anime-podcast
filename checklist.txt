@@ -1,7 +1,9 @@
-Last Update: 2024/09/16-00:00:03
+Last Update: 2024/09/16-06:00:02
+2024/09/16-06:00:02 11 VTuber Legend|VTuberなんだが配信切り忘れたら伝説になってた
+2024/09/16-06:00:02 11 Maougun Saikyou no Majutsushi wa Ningen datta|魔王軍最強の魔術師は人間だった
+2024/09/16-06:00:02 01 Na Nare Hana Nare|魔法使いになれなかった女の子の話
 2024/09/16-00:00:03 11 Mob kara Hajimaru Tansaku Eiyuutan|モブから始まる探索英雄譚
 2024/09/16-00:00:03 10 Naze Boku|なぜ僕の世界を誰も覚えていないのか？
-2024/09/16-00:00:03 0 Na Nare Hana Nare|魔法使いになれなかった女の子の話
 2024/09/15-18:00:02 11 Tensui no Sakuna Hime|天穂のサクナヒメ
 2024/09/15-18:00:02 11 Gendai Goyaku|現代誤訳
 2024/09/15-18:00:02 11 Elf-san wa Yaserarenai.|エルフさんは痩せられない。
@@ -35,14 +37,12 @@ Last Update: 2024/09/16-00:00:03
 2024/09/05-06:00:01 10 Aishang Ta de Liyou|下の階には澪がいる
 2024/09/05-06:00:01 08 Sengoku Youko Senma Konton Hen|戦国妖狐 千魔混沌編
 2024/09/05-06:00:01 05 Delico`s Nursery|デリコズ・ナーサリー
-2024/09/05-00:00:03 10 Maougun Saikyou no Majutsushi wa Ningen datta|魔王軍最強の魔術師は人間だった
 2024/09/04-06:00:02 09 Mononoke|モノノ怪
 2024/09/04-00:00:03 09 Egumi Legacy|エグミレガシー
 2024/09/03-06:00:02 10 NINJA KAMUI|NINJA KAMUI
 2024/09/03-06:00:02 08 Yami Shibai 13|闇芝居 十三期
 2024/09/03-00:00:02 09 Mayonaka Punch|真夜中ぱんチ
 2024/09/03-00:00:02 01 Asobi Asobase|あそびあそばせ
-2024/08/26-12:04:52 08 VTuber Legend|VTuberなんだが配信切り忘れたら伝説になってた
 2024/08/26-12:04:52 08 Nanare Hananare|菜なれ花なれ
 2024/08/26-12:04:52 08 Kami no Tou - Ouji no Kikan|神之塔 -Tower of God- 王子の帰還
 2024/08/26-12:04:52 06.5 Yoasobi Gurashi！|よあそびぐらしっ！
