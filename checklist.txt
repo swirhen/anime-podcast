@@ -1,4 +1,7 @@
-Last Update: 2024/09/15-18:00:02
+Last Update: 2024/09/16-00:00:03
+2024/09/16-00:00:03 11 Mob kara Hajimaru Tansaku Eiyuutan|モブから始まる探索英雄譚
+2024/09/16-00:00:03 10 Naze Boku|なぜ僕の世界を誰も覚えていないのか？
+2024/09/16-00:00:03 0 Na Nare Hana Nare|魔法使いになれなかった女の子の話
 2024/09/15-18:00:02 11 Tensui no Sakuna Hime|天穂のサクナヒメ
 2024/09/15-18:00:02 11 Gendai Goyaku|現代誤訳
 2024/09/15-18:00:02 11 Elf-san wa Yaserarenai.|エルフさんは痩せられない。
@@ -17,14 +20,12 @@ Last Update: 2024/09/15-18:00:02
 2024/09/14-00:00:03 11 Gimai Seikatsu|義妹生活
 2024/09/14-00:00:03 11 Boku no Tsuma wa Kanjou ga Nai|僕の妻は感情がない
 2024/09/14-00:00:03 10 Shinmai Ossan Boukensha|新米オッサン冒険者、最強パーティに死ぬほど鍛えられて無敵になる。
-2024/09/14-00:00:03 10 Mob kara Hajimaru Tansaku Eiyuutan|モブから始まる探索英雄譚
 2024/09/14-00:00:03 10 Koi wa Futago de Warikirenai|恋は双子で割り切れない
 2024/09/14-00:00:03 10 Katsute Mahou Shoujo to Aku wa Tekitai Shite Ita.|かつて魔法少女と悪は敵対していた。
 2024/09/14-00:00:03 10 Isekai Shikkaku|異世界失格
 2024/09/14-00:00:03 10 FAIRY TAIL 100 YEARS QUEST|FAIRY TAIL 100年クエスト
 2024/09/14-00:00:03 09 Tsue to Tsurugi no Wistoria|杖と剣のウィストリア
 2024/09/14-00:00:03 09 Tasuu Ketsu|多数欠
-2024/09/14-00:00:03 09 Naze Boku|なぜ僕の世界を誰も覚えていないのか？
 2024/09/13-18:00:02 11 Ore wa Subete wo Parry suru|俺は全てを【パリイ】する～逆勘違いの世界最強は冒険者になりたい～
 2024/09/13-18:00:02 10 Shikanoko Nokonoko Koshitantan|しかのこのこのここしたんたん
 2024/09/13-18:00:02 10 Senpai wa Otokonoko|先輩はおとこのこ
