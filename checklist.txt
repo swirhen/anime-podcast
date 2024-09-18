@@ -1,4 +1,7 @@
-Last Update: 2024/09/18-06:00:01
+Last Update: 2024/09/18-12:00:02
+2024/09/18-12:00:02 12 Boku no Tsuma wa Kanjou ga Nai|僕の妻は感情がない
+2024/09/18-12:00:02 11 Mononoke|モノノ怪
+2024/09/18-12:00:02 10 Tasuu Ketsu|多数欠
 2024/09/18-06:00:01 11 Katsute Mahou Shoujo to Aku wa Tekitai Shite Ita.|かつて魔法少女と悪は敵対していた。
 2024/09/18-06:00:01 11 Isekai Shikkaku|異世界失格
 2024/09/18-06:00:01 11 Egumi Legacy|エグミレガシー
@@ -32,9 +35,7 @@ Last Update: 2024/09/18-06:00:01
 2024/09/14-06:00:01 11 Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san|時々ボソッとロシア語でデレる隣のアーリャさん
 2024/09/14-06:00:01 11 2.5 Jigen no Ririsa|2.5次元の誘惑
 2024/09/14-00:00:03 11 Gimai Seikatsu|義妹生活
-2024/09/14-00:00:03 11 Boku no Tsuma wa Kanjou ga Nai|僕の妻は感情がない
 2024/09/14-00:00:03 10 Koi wa Futago de Warikirenai|恋は双子で割り切れない
-2024/09/14-00:00:03 09 Tasuu Ketsu|多数欠
 2024/09/13-18:00:02 11 Ore wa Subete wo Parry suru|俺は全てを【パリイ】する～逆勘違いの世界最強は冒険者になりたい～
 2024/09/13-18:00:02 10 Senpai wa Otokonoko|先輩はおとこのこ
 2024/09/13-06:00:02 11 Ramen Akaneko|ラーメン赤猫
@@ -43,7 +44,6 @@ Last Update: 2024/09/18-06:00:01
 2024/09/05-06:00:01 10 Aishang Ta de Liyou|下の階には澪がいる
 2024/09/05-06:00:01 08 Sengoku Youko Senma Konton Hen|戦国妖狐 千魔混沌編
 2024/09/05-06:00:01 05 Delico`s Nursery|デリコズ・ナーサリー
-2024/09/04-06:00:02 09 Mononoke|モノノ怪
 2024/09/03-00:00:02 01 Asobi Asobase|あそびあそばせ
 2024/08/26-12:04:52 06.5 Yoasobi Gurashi！|よあそびぐらしっ！
 2024/08/01-00:00:03 04 Kimisen II|キミと僕の最後の戦場、あるいは世界が始まる聖戦 Season Ⅱ
