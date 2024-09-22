@@ -1,6 +1,12 @@
-Last Update: 2024/09/22-06:00:01
+Last Update: 2024/09/22-12:00:02
+2024/09/22-12:00:02 12 Tensui no Sakuna Hime|天穂のサクナヒメ
+2024/09/22-12:00:02 12 Mob kara Hajimaru Tansaku Eiyuutan|モブから始まる探索英雄譚
+2024/09/22-12:00:02 12 Gendai Goyaku|現代誤訳
+2024/09/22-12:00:02 12 Elf-san wa Yaserarenai.|エルフさんは痩せられない。
+2024/09/22-12:00:02 11 Make Heroine ga Oosugiru！|負けヒロインが多すぎる！
+2024/09/22-12:00:02 11 ATRI My Dear Moments|ATRI-My Dear Moments-
+2024/09/22-12:00:02 01 Tensei Shitara Slime Datta Ken - Coleus no Yume|転生したらスライムだった件
 2024/09/22-06:00:01 12 Madougushi Dahlia wa Utsumukanai|魔導具師ダリヤはうつむかない
-2024/09/22-06:00:01 0 Tensei Shitara Slime Datta Ken - Coleus no Yume|転生したらスライムだった件
 2024/09/22-00:00:03 12 Kono Sekai wa Fukanzen Sugiru|この世界は不完全すぎる
 2024/09/22-00:00:03 12 Grendizer U|グレンダイザーU
 2024/09/22-00:00:03 11 Dungeon no Naka no Hito|ダンジョンの中のひと
@@ -33,14 +39,8 @@ Last Update: 2024/09/22-06:00:01
 2024/09/16-18:00:02 10 Yami Shibai 13|闇芝居 十三期
 2024/09/16-18:00:02 10 Tsue to Tsurugi no Wistoria|杖と剣のウィストリア
 2024/09/16-06:00:02 11 VTuber Legend|VTuberなんだが配信切り忘れたら伝説になってた
-2024/09/16-00:00:03 11 Mob kara Hajimaru Tansaku Eiyuutan|モブから始まる探索英雄譚
 2024/09/16-00:00:03 10 Naze Boku|なぜ僕の世界を誰も覚えていないのか？
-2024/09/15-18:00:02 11 Tensui no Sakuna Hime|天穂のサクナヒメ
-2024/09/15-18:00:02 11 Gendai Goyaku|現代誤訳
-2024/09/15-18:00:02 11 Elf-san wa Yaserarenai.|エルフさんは痩せられない。
 2024/09/15-18:00:02 10 Nige Jouzu no Wakagimi|逃げ上手の若君
-2024/09/15-18:00:02 10 Make Heroine ga Oosugiru！|負けヒロインが多すぎる！
-2024/09/15-18:00:02 10 ATRI My Dear Moments|ATRI-My Dear Moments-
 2024/09/15-00:00:03 10 Bye Bye, Earth|ばいばい、アース
 2024/09/07-12:00:02 10 Isekai Suicide Squad|異世界スーサイド・スクワッド
 2024/09/05-06:00:01 05 Delico`s Nursery|デリコズ・ナーサリー
