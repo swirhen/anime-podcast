@@ -1,4 +1,4 @@
-Last Update: 2024/09/23-00:00:02
+Last Update: 2024/09/23-06:00:02
 2024/09/23-00:00:02 11 Nige Jouzu no Wakagimi|逃げ上手の若君
 2024/09/22-12:00:02 12 Tensui no Sakuna Hime|天穂のサクナヒメ
 2024/09/22-12:00:02 12 Mob kara Hajimaru Tansaku Eiyuutan|モブから始まる探索英雄譚
@@ -6,7 +6,6 @@ Last Update: 2024/09/23-00:00:02
 2024/09/22-12:00:02 12 Elf-san wa Yaserarenai.|エルフさんは痩せられない。
 2024/09/22-12:00:02 11 Make Heroine ga Oosugiru！|負けヒロインが多すぎる！
 2024/09/22-12:00:02 11 ATRI My Dear Moments|ATRI-My Dear Moments-
-2024/09/22-12:00:02 01 Tensei Shitara Slime Datta Ken - Coleus no Yume|転生したらスライムだった件
 2024/09/22-06:00:01 12 Madougushi Dahlia wa Utsumukanai|魔導具師ダリヤはうつむかない
 2024/09/22-00:00:03 12 Kono Sekai wa Fukanzen Sugiru|この世界は不完全すぎる
 2024/09/22-00:00:03 12 Grendizer U|グレンダイザーU
@@ -44,7 +43,6 @@ Last Update: 2024/09/23-00:00:02
 2024/09/15-00:00:03 10 Bye Bye, Earth|ばいばい、アース
 2024/09/07-12:00:02 10 Isekai Suicide Squad|異世界スーサイド・スクワッド
 2024/09/05-06:00:01 05 Delico`s Nursery|デリコズ・ナーサリー
-2024/09/03-00:00:02 01 Asobi Asobase|あそびあそばせ
 2024/08/26-12:04:52 06.5 Yoasobi Gurashi！|よあそびぐらしっ！
 2024/08/01-00:00:03 04 Kimisen II|キミと僕の最後の戦場、あるいは世界が始まる聖戦 Season Ⅱ
 2024/06/30-18:03:14 10 Sasayaku You ni Koi o Utau|ささやくように恋を唄う
