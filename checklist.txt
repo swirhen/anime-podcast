@@ -1,27 +1,20 @@
 Last Update: 2024/09/25-12:00:02
 2024/09/25-06:00:02 12 Katsute Mahou Shoujo to Aku wa Tekitai Shite Ita.|かつて魔法少女と悪は敵対していた。
 2024/09/25-06:00:02 12 Isekai Shikkaku|異世界失格
-2024/09/25-06:00:02 12 Egumi Legacy|エグミレガシー
 2024/09/25-06:00:02 11 Naze Boku|なぜ僕の世界を誰も覚えていないのか？
 2024/09/25-00:00:03 25 Ookami to Koushinryou|狼と香辛料 MERCHANT MEETS THE WISE WOLF
 2024/09/24-18:00:01 12 Shinmai Ossan Boukensha|新米オッサン冒険者、最強パーティに死ぬほど鍛えられて無敵になる。
-2024/09/24-06:00:01 13 NINJA KAMUI|NINJA KAMUI
 2024/09/24-06:00:01 12 Mayonaka Punch|真夜中ぱんチ
-2024/09/24-00:00:02 11 Yami Shibai 13|闇芝居 十三期
 2024/09/23-18:00:02 12 VTuber Legend|VTuberなんだが配信切り忘れたら伝説になってた
 2024/09/23-18:00:02 12 Shikanoko Nokonoko Koshitantan|しかのこのこのここしたんたん
-2024/09/23-18:00:02 12 Nanare Hananare|菜なれ花なれ
-2024/09/23-18:00:02 12 Kami no Tou - Ouji no Kikan|神之塔 -Tower of God- 王子の帰還
 2024/09/23-18:00:02 12 FAIRY TAIL 100 YEARS QUEST|FAIRY TAIL 100年クエスト
 2024/09/23-18:00:02 11 Tsue to Tsurugi no Wistoria|杖と剣のウィストリア
 2024/09/23-00:00:02 11 Nige Jouzu no Wakagimi|逃げ上手の若君
 2024/09/22-12:00:02 12 Tensui no Sakuna Hime|天穂のサクナヒメ
 2024/09/22-12:00:02 12 Mob kara Hajimaru Tansaku Eiyuutan|モブから始まる探索英雄譚
-2024/09/22-12:00:02 12 Gendai Goyaku|現代誤訳
 2024/09/22-12:00:02 12 Elf-san wa Yaserarenai.|エルフさんは痩せられない。
 2024/09/22-12:00:02 11 Make Heroine ga Oosugiru！|負けヒロインが多すぎる！
 2024/09/22-12:00:02 11 ATRI My Dear Moments|ATRI-My Dear Moments-
-2024/09/22-06:00:01 12 Madougushi Dahlia wa Utsumukanai|魔導具師ダリヤはうつむかない
 2024/09/22-00:00:03 12 Kono Sekai wa Fukanzen Sugiru|この世界は不完全すぎる
 2024/09/22-00:00:03 12 Grendizer U|グレンダイザーU
 2024/09/22-00:00:03 11 Dungeon no Naka no Hito|ダンジョンの中のひと
@@ -34,14 +27,11 @@ Last Update: 2024/09/25-12:00:02
 2024/09/20-00:00:02 12 Gimai Seikatsu|義妹生活
 2024/09/19-18:00:02 12 Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san|時々ボソッとロシア語でデレる隣のアーリャさん
 2024/09/19-18:00:02 12 Maougun Saikyou no Majutsushi wa Ningen datta|魔王軍最強の魔術師は人間だった
-2024/09/19-18:00:02 12 Aishang Ta de Liyou|下の階には澪がいる
 2024/09/19-18:00:02 10 Sengoku Youko Senma Konton Hen|戦国妖狐 千魔混沌編
 2024/09/19-06:00:02 11 Koi wa Futago de Warikirenai|恋は双子で割り切れない
 2024/09/18-12:00:02 12 Boku no Tsuma wa Kanjou ga Nai|僕の妻は感情がない
-2024/09/18-12:00:02 11 Mononoke|モノノ怪
 2024/09/18-12:00:02 10 Tasuu Ketsu|多数欠
 2024/09/15-00:00:03 10 Bye Bye, Earth|ばいばい、アース
-2024/09/07-12:00:02 10 Isekai Suicide Squad|異世界スーサイド・スクワッド
 2024/09/05-06:00:01 05 Delico`s Nursery|デリコズ・ナーサリー
 2024/08/26-12:04:52 06.5 Yoasobi Gurashi！|よあそびぐらしっ！
 2024/08/01-00:00:03 04 Kimisen II|キミと僕の最後の戦場、あるいは世界が始まる聖戦 Season Ⅱ
