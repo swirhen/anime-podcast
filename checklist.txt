@@ -1,4 +1,5 @@
-Last Update: 2024/11/09-00:00:01
+Last Update: 2024/11/09-06:00:02
+2024/11/09-06:00:02 05 Dragon Ball Daima|ドラゴンボールDAIMA
 2024/11/08-06:00:02 07 Trillion Game|トリリオンゲーム
 2024/11/08-06:00:02 07 Ao no Hako|アオのハコ
 2024/11/08-06:00:02 06 Kekkon suru tte, Hontou desu ka|結婚するって、本当ですか
@@ -22,7 +23,6 @@ Last Update: 2024/11/09-00:00:01
 2024/11/03-06:00:02 05 Ranma ½|らんま1／2(2024)
 2024/11/03-06:00:02 03 Ao no Miburo|青のミブロ
 2024/11/03-00:00:01 05 Bleach Thousand-Year Blood War - The Conflict|BLEACH 千年血戦篇-相剋譚-
-2024/11/02-06:00:02 04 Dragon Ball Daima|ドラゴンボールDAIMA
 2024/11/01-18:00:01 04 Sayonara Ryuusei, Konnichiwa Jinsei|さようなら竜生、こんにちは人生
 2024/10/29-06:00:02 04 Yakuza Fiancé Raise wa Tanin ga Ii|来世は他人がいい
 2024/09/23-18:00:02 17 FAIRY TAIL 100 YEARS QUEST|FAIRY TAIL 100年クエスト
