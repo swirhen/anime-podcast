@@ -44,7 +44,7 @@ PATH=/home/swirhen/.rbenv/shims:/home/swirhen/.rbenv/bin:/home/swirhen/perl5/bin
 # -- WED
 0 21 * * 3 python /data/share/movie/sh/radio_record.py a "夕実＆梨沙のラフストーリーは突然に" 30 1800
 # -- THU
-#30 19 * * 4 python /data/share/movie/sh/radio_record.py r "結城さくなにツインテールが似合うまで！" 1 1830 QRR
+30 19 * * 4 python /data/share/movie/sh/radio_record.py r "結城さくなにツインテールが似合うまで！" 1 1830 QRR
 30 23 * * 4 python /data/share/movie/sh/radio_record.py a "上田麗奈のひみつばこ" 30 1800
 # -- FRI
 # -- SAT
