@@ -162,7 +162,7 @@ def main():
                 # titleに「END」が含まれるときは終了作品チェックを行う
                 if re.search('END', title):
                     filepath = glob.glob(f'{DOWNLOAD_DIR}/*{name_j}')[0]
-                    filelist = list(pathlib.Path(filepath).glob(f'{name_j} 第*.mp4'))
+                    filelist = list(pathlib.Path(filepath).glob(f'{name_j} 第*.*'))
                     filelist_ignore_inteval_episodes = sorted([p.name for p in filelist if not re.search(r'\.5|\.1', str(p))])
                     filecount = len(filelist_ignore_inteval_episodes) + 1
 

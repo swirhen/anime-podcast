@@ -16,7 +16,7 @@ current_dir = pathlib.Path(__file__).resolve().parent
 SCRIPT_DIR = str(current_dir)
 URL_LIST_FILE = f'{SCRIPT_DIR}/urllist.txt'
 FEED_DB = f'{SCRIPT_DIR}/nyaa_movie_feed.db'
-FEED_URI = 'https://nyaa.si/?f=0&c=1_4&q=Ohys-Raws%7CKoi-Raws&page=rss'
+FEED_URI = 'https://nyaa.si/?f=0&c=1_4&q=New-raws%7CKoi-Raws&page=rss'
 
 # フィード取得(URLから)
 def get_seed_list_proc():
