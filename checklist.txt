@@ -1,4 +1,7 @@
-Last Update: 2025/03/08-00:00:02
+Last Update: 2025/03/08-06:00:01
+2025/03/08-06:00:01 10 Class no Daikirai na Joshi to Kekkon suru Koto ni Natta.|クラスの大嫌いな女子と結婚することになった。
+2025/03/08-06:00:01 09 Übel Blatt|Übel Blatt～ユーベルブラット～
+2025/03/08-06:00:01 09 Kusuriya no Hitorigoto S2|薬屋のひとりごと(第2期)
 2025/03/07-06:00:02 23 Ao no Hako|アオのハコ
 2025/03/07-06:00:02 22 Trillion Game|トリリオンゲーム
 2025/03/07-00:00:02 09 Around 40 Otoko no Isekai Tsuuhan Seikatsu|アラフォー男の異世界通販
@@ -19,9 +22,6 @@ Last Update: 2025/03/08-00:00:02
 2025/03/02-06:00:01 09 NEET Kunoichi to Nazeka Dousei Hajimemashita|ニートくノ一となぜか同棲はじめました
 2025/03/02-06:00:01 09 Medalist|メダリスト
 2025/03/02-06:00:01 08 A-Rank Party wo Ridatsu shita Ore wa|Aランクパーティを離脱した俺は、元教え子たちと迷宮深部を目指す。
-2025/03/01-06:00:02 09 Class no Daikirai na Joshi to Kekkon suru Koto ni Natta.|クラスの大嫌いな女子と結婚することになった。
-2025/03/01-06:00:02 08 Übel Blatt|Übel Blatt～ユーベルブラット～
-2025/03/01-06:00:02 08 Kusuriya no Hitorigoto S2|薬屋のひとりごと(第2期)
 2025/02/27-06:00:02 01 Ossan Newbie|片田舎のおっさん、剣聖になる
 2025/02/09-12:00:02 01 Kimi to Idol Precure|キミとアイドルプリキュア♪
 2025/02/09-06:00:02 05 Honey Lemon Soda|ハニーレモンソーダ
