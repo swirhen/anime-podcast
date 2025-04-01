@@ -80,8 +80,8 @@ PATH=/home/swirhen/.rbenv/shims:/home/swirhen/.rbenv/bin:/home/swirhen/perl5/bin
 0 0,6,12,18 * * * python /data/share/movie/sh/auto_publish.py
 
 # agqr プレイリストURLチェック
-25,55 * * * * python /data/share/movie/sh/radio_record.py ca
-5 0 * * * python /data/share/movie/sh/radio_record.py ca force
+#25,55 * * * * python /data/share/movie/sh/radio_record.py ca
+#5 0 * * * python /data/share/movie/sh/radio_record.py ca force
 # radiko プレイリストURL＆地域判定チェック
 15,45 * * * * python /data/share/movie/sh/radio_record.py crl
 5,35 * * * * python /data/share/movie/sh/radio_record.py cr
