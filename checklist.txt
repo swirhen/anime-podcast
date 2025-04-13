@@ -1,4 +1,6 @@
-Last Update: 2025/04/13-12:00:01
+Last Update: 2025/04/13-18:00:02
+2025/04/13-18:00:02 02 Witch Watch|ウィッチウォッチ
+2025/04/13-18:00:02 02 Uma Musume Cinderella Gray|ウマ娘 シンデレラグレイ
 2025/04/13-12:00:01 01 Hibi wa Sugiredo Meshi Umashi|未ル わたしのみらい
 2025/04/13-06:00:01 14 NEET Kunoichi to Nazeka Dousei Hajimemashita|ニートくノ一となぜか同棲はじめました
 2025/04/13-06:00:01 13 A-Rank Party wo Ridatsu shita Ore wa|Aランクパーティを離脱した俺は、元教え子たちと迷宮深部を目指す。
@@ -10,8 +12,6 @@ Last Update: 2025/04/13-12:00:01
 2025/04/12-06:00:02 02 Enen no Shouboutai San no Shou|炎炎ノ消防隊 参ノ章
 2025/04/11-00:00:02 02 Yami Healer|一瞬で治療していたのに役立たずと追放された天才治癒師、闇ヒーラーとして楽しく生きる
 2025/04/10-00:00:02 02 Haite Kudasai, Takamine-san|履いてください、鷹峰さん
-2025/04/09-18:00:02 01 Witch Watch|ウィッチウォッチ
-2025/04/09-18:00:02 01 Uma Musume Cinderella Gray|ウマ娘 シンデレラグレイ
 2025/04/09-18:00:02 01 Summer Pocket|Summer Pockets
 2025/04/09-18:00:02 01 Kidou Senshi Gundam GQuuuuuuX|機動戦士Gundam GQuuuuuuX
 2025/04/09-18:00:02 01 Chuuzenji-sensei Mononoke Kougiroku|中禅寺先生物怪講義録 先生が謎を解いてしまうから。
