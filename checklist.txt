@@ -1,4 +1,6 @@
-Last Update: 2025/05/06-00:00:02
+Last Update: 2025/05/06-06:00:02
+2025/05/06-06:00:02 05 Summer Pocket|Summer Pockets
+2025/05/06-06:00:02 04 Yu-Gi-Oh! Duel Monsters GX |ひみつのアイプリ リング編
 2025/05/06-00:00:02 05 Chuuzenji-sensei Mononoke Kougiroku|中禅寺先生物怪講義録 先生が謎を解いてしまうから。
 2025/05/06-00:00:02 05 Boku no Hero Academia Illegals|ヴィジランテ-僕のヒーローアカデミア ILLEGALS-
 2025/05/05-00:00:02 06 Kanchigai no Atelier Meister|勘違いの工房主～英雄パーティの元雑用係が、実は戦闘以外がSSSランクだったというよくある話～
@@ -16,7 +18,5 @@ Last Update: 2025/05/06-00:00:02
 2025/05/01-00:00:02 05 Haite Kudasai, Takamine-san|履いてください、鷹峰さん
 2025/04/30-06:00:01 05 Ballpark de Tsukamaete!|ボールパークでつかまえて！
 2025/04/30-06:00:01 04 Kidou Senshi Gundam GQuuuuuuX|機動戦士Gundam GQuuuuuuX
-2025/04/29-06:00:01 04 Summer Pocket|Summer Pockets
-2025/04/28-06:00:02 03 Yu-Gi-Oh! Duel Monsters GX |ひみつのアイプリ リング編
 2025/04/26-06:00:02 03 Teogonia|神統記(テオゴニア)
 2025/04/03-12:00:02 01 YOUR FORMA|ユア・フォルマ
