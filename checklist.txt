@@ -1,4 +1,16 @@
-Last Update: 2025/06/06-06:00:01
+Last Update: 2025/06/09-12:00:02
+2025/06/09-00:00:01 11 Kanchigai no Atelier Meister|勘違いの工房主～英雄パーティの元雑用係が、実は戦闘以外がSSSランクだったというよくある話～
+2025/06/08-18:00:02 10 Witch Watch|ウィッチウォッチ
+2025/06/08-18:00:02 10 Uma Musume Cinderella Gray|ウマ娘 シンデレラグレイ
+2025/06/08-06:00:02 22 NEET Kunoichi to Nazeka Dousei Hajimemashita|ニートくノ一となぜか同棲はじめました
+2025/06/08-06:00:02 21 A-Rank Party wo Ridatsu shita Ore wa|Aランクパーティを離脱した俺は、元教え子たちと迷宮深部を目指す。
+2025/06/08-06:00:02 10 Katainaka no Ossan, Kensei ni Naru|片田舎のおっさん、剣聖になる
+2025/06/08-06:00:02 09 Hibi wa Sugiredo Meshi Umashi|日々は過ぎれど飯うまし
+2025/06/08-00:00:01 10 Shin Samurai-den Yaiba|真・侍伝 YAIBA
+2025/06/07-18:00:02 10 Nazotoki wa Dinner no Ato de|謎解きはディナーのあとで
+2025/06/07-06:00:01 21 Kusuriya no Hitorigoto S2|薬屋のひとりごと(第2期)
+2025/06/07-06:00:01 10 Enen no Shouboutai San no Shou|炎炎ノ消防隊 参ノ章
+2025/06/07-06:00:01 09 Teogonia|神統記(テオゴニア)
 2025/06/06-00:00:02 10 Yami Healer|一瞬で治療していたのに役立たずと追放された天才治癒師、闇ヒーラーとして楽しく生きる
 2025/06/05-00:00:02 10 Haite Kudasai, Takamine-san|履いてください、鷹峰さん
 2025/06/04-06:00:02 10 Ballpark de Tsukamaete!|ボールパークでつかまえて！
@@ -6,17 +18,5 @@ Last Update: 2025/06/06-06:00:01
 2025/06/03-06:00:01 09 Summer Pocket|Summer Pockets
 2025/06/03-06:00:01 09 Chuuzenji-sensei Mononoke Kougiroku|中禅寺先生物怪講義録 先生が謎を解いてしまうから。
 2025/06/03-00:00:02 09 Boku no Hero Academia Illegals|ヴィジランテ-僕のヒーローアカデミア ILLEGALS-
-2025/06/02-00:00:02 10 Kanchigai no Atelier Meister|勘違いの工房主～英雄パーティの元雑用係が、実は戦闘以外がSSSランクだったというよくある話～
-2025/06/01-18:00:01 09 Witch Watch|ウィッチウォッチ
-2025/06/01-18:00:01 09 Uma Musume Cinderella Gray|ウマ娘 シンデレラグレイ
-2025/06/01-06:00:01 21 NEET Kunoichi to Nazeka Dousei Hajimemashita|ニートくノ一となぜか同棲はじめました
-2025/06/01-06:00:01 20 A-Rank Party wo Ridatsu shita Ore wa|Aランクパーティを離脱した俺は、元教え子たちと迷宮深部を目指す。
-2025/06/01-06:00:01 09 Katainaka no Ossan, Kensei ni Naru|片田舎のおっさん、剣聖になる
-2025/06/01-06:00:01 08 Hibi wa Sugiredo Meshi Umashi|日々は過ぎれど飯うまし
-2025/06/01-00:00:02 09 Shin Samurai-den Yaiba|真・侍伝 YAIBA
-2025/05/31-18:00:02 09 Nazotoki wa Dinner no Ato de|謎解きはディナーのあとで
-2025/05/31-06:00:02 20 Kusuriya no Hitorigoto S2|薬屋のひとりごと(第2期)
-2025/05/31-06:00:02 09 Enen no Shouboutai San no Shou|炎炎ノ消防隊 参ノ章
-2025/05/31-06:00:02 08 Teogonia|神統記(テオゴニア)
 2025/05/19-06:00:02 01 YuruYuri S2|ゆるゆり、
 2025/05/19-06:00:02 01 Isekai Yururi|Re：ゼロから始める異世界生活 2nd season 後半クール
