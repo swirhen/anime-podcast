@@ -10,4 +10,4 @@ if __name__ == '__main__':
     args = sys.argv
     html = urllib.request.urlopen(args[1])
     soup = BeautifulSoup(html, "html.parser")
-    print(re.sub(r'\<.*?\>|\ -.*|【.*】|\ ','', str(soup.find('title'))))
+    print(re.sub(r'\<.*?\>|\ -.*|【.*?】|\ ','', str(soup.find('title'))))
