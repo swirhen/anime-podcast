@@ -8,6 +8,6 @@ from bs4 import BeautifulSoup
 # main section
 if __name__ == '__main__':
     args = sys.argv
-    html = urllib.request.urlopen(f'args[0]')
+    html = urllib.request.urlopen(args[0])
     soup = BeautifulSoup(html, "html.parser")
     print(re.sub(r'\<.*?\>|\ -.*|【.*】|\ ','', str(soup.find('title'))))
