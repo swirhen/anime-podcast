@@ -8,11 +8,17 @@ from bs4 import BeautifulSoup
 # main section
 if __name__ == '__main__':
     args = sys.argv
-    header = args[2]
-    html = urllib.request.urlopen(args[1])    
+    name = args[1]
+    if len(args) == 3:
+            uri = args[2]
+    else:
+        uri = 'https://fantia.jp/posts/'
+    
+    id = re.sub(r'\D', '', name)
+    html = urllib.request.urlopen(uri + id)
     soup = BeautifulSoup(html, "html.parser")
     title = re.sub(r'\<.*?\>|\ -.*|【.*?】|\ ','', str(soup.find('title')))
-    rtitle = header + title
+    rtitle = name + " - " + title
     if len(rtitle.encode('utf-8')) > 255:
         over = len(rtitle.encode('utf-8')) - 255
         cut = len(title.encode('utf-8')) - over
