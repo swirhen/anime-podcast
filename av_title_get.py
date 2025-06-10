@@ -15,7 +15,7 @@ if __name__ == '__main__':
     if len(result) == 0:
         print('No results found.')
     else:
-        print(result[0]['title'])
+        print(result[0][1])
 
 
 
