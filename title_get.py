@@ -46,6 +46,11 @@ if __name__ == '__main__':
     if len(args) > 3:
         regexp = args[3]
     if len(args) > 4:
+        if args[3] == '':
+            if mode == 'f':
+                regexp = '\<.*?\>|\ -.*|【.*?】'
+            elif mode == 'a':
+                regexp = '\+\+\+|\[.*?\]'
         uri = args[4]
     
     if mode == 'f':
