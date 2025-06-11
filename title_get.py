@@ -25,6 +25,7 @@ if __name__ == '__main__':
     mode = args[1]
     keyword = args[2]
     if len(args) > 3:
+        print(args[3])
         regexp = args[3]
     if len(args) > 4:
         uri = args[4]
