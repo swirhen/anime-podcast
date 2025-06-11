@@ -26,14 +26,13 @@ if __name__ == '__main__':
     keyword = args[2]
     if len(args) > 3:
         regexp = args[3]
-        print(regexp)
     if len(args) > 4:
         uri = args[4]
     
     if mode == 'f':
         if len(args) == 4:
             ret = get_fantia_title(keyword, regexp)
-        if len(args) == 5:
+        elif len(args) == 5:
             ret = get_fantia_title(keyword, regexp, uri)
         else:
             ret = get_fantia_title(keyword)
