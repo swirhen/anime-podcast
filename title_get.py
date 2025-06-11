@@ -11,7 +11,7 @@ sys.path.append(f'/home/swirhen/sh/checker/torrentsearch')
 import torrentsearch as ts
 
 
-# fantiaのタイトル取得
+# fantiaのタイトル取得(入れたキーワードは頭につけて「 - 」で連結して返す)
 def get_fantia_title(keyword, regexp='\<.*?\>|\ -.*|【.*?】', uri='https://fantia.jp/posts/'):
     id = re.sub(r'\D', '', keyword)
     html = urllib.request.urlopen(uri + id)
@@ -36,7 +36,7 @@ def get_av_title(keyword, regexp='\+\+\+|\[.*?\]', cut=True):
         else:
             if len(title.encode('utf-8')) > 255:
                 title = title + '### ' + str(len(title.encode('utf-8'))) + 'bytes'
-        ret = title
+            ret = title
     return ret
 
 
