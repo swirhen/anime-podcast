@@ -35,7 +35,7 @@ def get_av_title(keyword, regexp='\+\+\+|\[.*?\]', cut=True):
             ret = swiutil.file_name_cut(title)
         else:
             if len(title.encode('utf-8')) > 255:
-                title = title + '### ' + len(title.encode('utf-8')) + 'bytes'
+                title = title + '### ' + str(len(title.encode('utf-8'))) + 'bytes'
         ret = title
     return ret
 
