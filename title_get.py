@@ -30,6 +30,11 @@ if __name__ == '__main__':
         uri = args[4]
     
     if mode == 'f':
-        ret = get_fantia_title(keyword, regexp, uri)
+        if len(args) == 4:
+            ret = get_fantia_title(keyword, regexp)
+        if len(args) == 5:
+            ret = get_fantia_title(keyword, regexp, uri)
+        else:
+            ret = get_fantia_title(keyword)
 
 print(ret)
