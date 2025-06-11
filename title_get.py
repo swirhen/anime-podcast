@@ -47,13 +47,13 @@ if __name__ == '__main__':
     keyword = args[2]
     if len(args) > 3:
         regexp = args[3]
+        if regexp == '':
+            if mode == 'f':
+                regexp = '\<.*?\>|\ -.*|【.*?】'
+            elif mode == 'a':
+                regexp = '\+\+\+|\[.*?\]'
     if len(args) > 4:
         uri = args[4]
-    if args[3] == '':
-        if mode == 'f':
-            regexp = '\<.*?\>|\ -.*|【.*?】'
-        elif mode == 'a':
-            regexp = '\+\+\+|\[.*?\]'
     
     if mode == 'f':
         if len(args) == 4:
