@@ -645,10 +645,4 @@ def get_station_id_and_name(station_id_or_name):
 
 # ファイル名ユーティリティ：上限の255バイトを超える場合はカットする
 def file_name_cut(name, max_length=255):
-    if len(name.encode('utf-8')) > max_length:
-        over = len(name.encode('utf-8')) - max_length
-        cut = len(name) - over
-        ret = name[0:cut]
-    else:
-        ret = name
-    return ret
+    return name.encode('utf-8')[0:max_length].decode('utf-8', errors='ignore')

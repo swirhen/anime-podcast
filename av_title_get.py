@@ -15,17 +15,14 @@ if __name__ == '__main__':
     if len(args) == 3:
         regexp = args[2]
     else:
-        regexp = '\+\+\+\ |\[.*?\]'
+        regexp = '\+\+\+|\[.*?\]'
 
     result = ts.search_seed_ext('av', keyword)
 
     if len(result) == 0:
-        print('noresultsfound')
+        print('NORESULTSFOUND')
     else:
         title = result[0][1]
         title = re.sub(regexp, '', title).strip()
         ret = swiutil.file_name_cut(title)
         print(ret)
-
-
-
