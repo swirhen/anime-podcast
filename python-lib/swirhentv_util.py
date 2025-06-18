@@ -653,12 +653,10 @@ def file_name_cut(name, max_length=255):
 
 # 中国語判定
 def is_zh(in_str):
-    rCJKUnifiedIdeographs = r'[\u4E00-\u9FFF]'
     if re.search(rJapanese, in_str):
         return False
-    #if re.search(rCJKUnifiedIdeographs, in_str):
-    #    return False
-    if re.search(rSimplifiedChinese, in_str) or re.search(rTraditionalChinese, in_str):
+    #if re.search(rSimplifiedChinese, in_str) or re.search(rTraditionalChinese, in_str):
+    if re.search(rSimplifiedChinese, in_str):
         return True
     else:
         return False
