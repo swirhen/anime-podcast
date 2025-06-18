@@ -32,10 +32,9 @@ if __name__ == '__main__':
         item_title = search_item[0]
         item_link = search_item[1]
         if swiutil.is_zh(item_title):
-            print(item_title)
-            #print(''.join(set(item_title) - set(item_title.encode('sjis','ignore').decode('sjis'))))
+            # print(item_title)
             delete_sql = f'{delete_record_sql} = "{item_link}"'
-            # cur.execute(delete_sql)
+            cur.execute(delete_sql)
 
     conn.commit()
     conn.close()
