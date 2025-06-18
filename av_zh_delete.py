@@ -11,11 +11,15 @@ FEED_DB = f'/home/swirhen/sh/checker/torrentsearch/nyaatorrent_feed.db'
 
 # main section
 if __name__ == '__main__':
+    if len(args) > 1:
+        category = args[1]
+    else:
+        category = 'av'
     conn = sqlite3.connect(FEED_DB)
     cur = conn.cursor()
     select_sql = 'select title, link' \
                  ' from feed_data ' \
-                 ' where category = "av"'
+                 f' where category = "{category}"'
     delete_record_sql = 'delete from feed_data where link'
     search_result = list(cur.execute(select_sql))
     conn.close()
@@ -29,7 +33,7 @@ if __name__ == '__main__':
         if swiutil.is_zh(item_title):
             print(item_title)
             delete_sql = f'{delete_record_sql} = "{item_link}"'
-            cur.execute(delete_sql)
+            # cur.execute(delete_sql)
 
     conn.commit()
     conn.close()
