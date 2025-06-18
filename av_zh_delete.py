@@ -11,6 +11,7 @@ FEED_DB = f'/home/swirhen/sh/checker/torrentsearch/nyaatorrent_feed.db'
 
 # main section
 if __name__ == '__main__':
+    args = sys.argv
     if len(args) > 1:
         category = args[1]
     else:
