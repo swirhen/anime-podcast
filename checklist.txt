@@ -1,5 +1,8 @@
-Last Update: 2025/07/05-00:00:02
-2025/07/05-00:00:02 0 Busu ni Hanataba wo|ブスに花束を。
+Last Update: 2025/07/05-06:00:01
+2025/07/05-06:00:01 24 Kusuriya no Hitorigoto S2|薬屋のひとりごと(第2期)
+2025/07/05-06:00:01 01 Busu ni Hanataba wo|ブスに花束を。
+2025/07/05-06:00:01 0 Yofukashi no Uta S2|よふかしのうた Season2
+2025/07/05-06:00:01 0 Silent Witch|サイレント・ウィッチ　沈黙の魔女の隠しごと
 2025/07/04-12:00:01 01 Mizu Zokusei no Mahoutsukai|水属性の魔法使い
 2025/07/04-06:00:01 01 Tsuihousha Shokudou e Youkoso!|追放者食堂へようこそ！
 2025/07/03-18:00:02 01 Tsuyokute New Saga|強くてニューサーガ
@@ -9,4 +12,3 @@ Last Update: 2025/07/05-00:00:02
 2025/07/01-06:00:01 13 Summer Pocket|Summer Pockets
 2025/06/29-12:00:01 01 Koujo Denka no Kateikyoushi|公女殿下の家庭教師
 2025/06/29-00:00:02 13 Shin Samurai-den Yaiba|真・侍伝 YAIBA
-2025/06/28-06:00:02 23 Kusuriya no Hitorigoto S2|薬屋のひとりごと(第2期)
