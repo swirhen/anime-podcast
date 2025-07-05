@@ -1,6 +1,8 @@
-Last Update: 2025/07/06-00:00:01
-2025/07/06-00:00:01 0 Seishun Buta Yarou wa Santa Claus no Yume wo Minai|青春ブタ野郎はサンタクロースの夢を見ない
-2025/07/06-00:00:01 0 9-nine- Ruler_s Crown|9-nine- Ruler's Crown
+Last Update: 2025/07/06-06:00:01
+2025/07/06-06:00:01 02 Koujo Denka no Kateikyoushi|公女殿下の家庭教師
+2025/07/06-06:00:01 01 Seishun Buta Yarou wa Santa Claus no Yume wo Minai|青春ブタ野郎はサンタクロースの夢を見ない
+2025/07/06-06:00:01 01 9-nine- Ruler_s Crown|9-nine- Ruler's Crown
+2025/07/06-06:00:01 0 Kaoru Hana wa Rin to Saku|<物語>シリーズ セカンドシーズン
 2025/07/05-12:00:03 01 Yofukashi no Uta S2|よふかしのうた Season2
 2025/07/05-12:00:03 01 Silent Witch|サイレント・ウィッチ　沈黙の魔女の隠しごと
 2025/07/05-06:00:01 01 Busu ni Hanataba wo|ブスに花束を。
@@ -11,5 +13,4 @@ Last Update: 2025/07/06-00:00:01
 2025/07/03-06:00:01 01 Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou S2|自動販売機に生まれ変わった俺は迷宮を彷徨う 2nd season
 2025/07/02-06:00:01 01 Kanojo, Okarishimasu S4|彼女、お借りします(第4期)
 2025/07/01-06:00:01 13 Summer Pocket|Summer Pockets
-2025/06/29-12:00:01 01 Koujo Denka no Kateikyoushi|公女殿下の家庭教師
 2025/06/29-00:00:02 13 Shin Samurai-den Yaiba|真・侍伝 YAIBA
