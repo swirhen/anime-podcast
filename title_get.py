@@ -14,7 +14,10 @@ import torrentsearch as ts
 # fantiaのタイトル取得(入れたキーワードは頭につけて「 - 」で連結して返す)
 def get_fantia_title(keyword, regexp='\<.*?\>|\ -.*|【.*?】', uri='https://fantia.jp/posts/'):
     id = re.sub(r'\D', '', keyword)
-    html = urllib.request.urlopen(uri + id)
+    try:
+        html = urllib.request.urlopen(uri + id)
+    except Exception as e:
+        return 'NORESULTSFOUND'
     soup = BeautifulSoup(html, "html.parser")
     title = re.sub(regexp, '', str(soup.find('title'))).strip()
     rtitle = keyword + " - " + title
