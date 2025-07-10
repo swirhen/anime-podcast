@@ -1,4 +1,6 @@
-Last Update: 2025/07/11-00:00:02
+Last Update: 2025/07/11-06:00:01
+2025/07/11-06:00:01 02 Mizu Zokusei no Mahoutsukai|水属性の魔法使い
+2025/07/11-06:00:01 0 Futari Solo Camp|ふたりソロキャンプ
 2025/07/11-00:00:02 02 Tsuihousha Shokudou e Youkoso!|追放者食堂へようこそ！
 2025/07/10-18:00:02 01 Mikadono Sanshimai wa Angai, Choroi|帝乃三姉妹は案外、チョロい。
 2025/07/10-12:00:02 03 Jigoku Sensei Nube 2025|地獄先生ぬ～べ～(2025)
@@ -19,5 +21,4 @@ Last Update: 2025/07/11-00:00:02
 2025/07/05-12:00:03 01 Yofukashi no Uta S2|よふかしのうた Season2
 2025/07/05-12:00:03 01 Silent Witch|サイレント・ウィッチ　沈黙の魔女の隠しごと
 2025/07/05-06:00:01 01 Busu ni Hanataba wo|ブスに花束を。
-2025/07/04-12:00:01 01 Mizu Zokusei no Mahoutsukai|水属性の魔法使い
 2025/06/29-00:00:02 13 Shin Samurai-den Yaiba|真・侍伝 YAIBA
