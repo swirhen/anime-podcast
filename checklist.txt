@@ -1,4 +1,5 @@
-Last Update: 2025/08/08-00:00:01
+Last Update: 2025/08/08-06:00:01
+2025/08/08-06:00:01 05 Futari Solo Camp|ふたりソロキャンプ
 2025/08/08-00:00:01 06 Tsuihousha Shokudou e Youkoso!|追放者食堂へようこそ！
 2025/08/07-06:00:02 06 Tsuyokute New Saga|強くてニューサーガ
 2025/08/07-06:00:02 06 Mikadono Sanshimai wa Angai, Choroi|帝乃三姉妹は案外、チョロい。
@@ -22,5 +23,4 @@ Last Update: 2025/08/08-00:00:01
 2025/08/02-06:00:01 04 Tougen Anki|桃源暗鬼
 2025/08/02-00:00:02 05 Busu ni Hanataba wo|ブスに花束を。
 2025/08/01-06:00:01 05 Mizu Zokusei no Mahoutsukai|水属性の魔法使い
-2025/08/01-06:00:01 04 Futari Solo Camp|ふたりソロキャンプ
 2025/07/27-06:00:02 04 Fermat no Ryouri|フェルマーの料理
