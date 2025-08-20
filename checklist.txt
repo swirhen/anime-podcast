@@ -1,4 +1,21 @@
-Last Update: 2025/08/15-18:00:02
+Last Update: 2025/08/20-10:56:42
+2025/08/20-10:56:42 20 Summer Pocket|Summer Pockets
+2025/08/20-10:56:42 19 Shin Samurai-den Yaiba|真・侍伝 YAIBA
+2025/08/20-10:56:42 08 Kanojo, Okarishimasu S4|彼女、お借りします(第4期)
+2025/08/20-10:56:42 07 Yofukashi no Uta S2|よふかしのうた Season2
+2025/08/20-10:56:42 07 Watashi ga Koibito ni Nareru Wake Nai jan, Muri Muri!|わたしが恋人になれるわけないじゃん、ムリムリ！（※ムリじゃなかった！？）
+2025/08/20-10:56:42 07 Turkey!|Turkey！
+2025/08/20-10:56:42 07 Silent Witch|サイレント・ウィッチ　沈黙の魔女の隠しごと
+2025/08/20-10:56:42 07 Seishun Buta Yarou wa Santa Claus no Yume wo Minai|青春ブタ野郎はサンタクロースの夢を見ない
+2025/08/20-10:56:42 07 Koujo Denka no Kateikyoushi|公女殿下の家庭教師
+2025/08/20-10:56:42 07 Kaoru Hana wa Rin to Saku|薫る花は凛と咲く
+2025/08/20-10:56:42 07 Grand Blue S2|ぐらんぶる Season 2
+2025/08/20-10:56:42 07 Dekin no Mogura|出禁のモグラ
+2025/08/20-10:56:42 07 CITY THE ANIMATION|CITY THE ANIMATION
+2025/08/20-10:56:42 07 Busu ni Hanataba wo|ブスに花束を。
+2025/08/20-10:56:42 06 Tougen Anki|桃源暗鬼
+2025/08/20-10:56:42 06 GACHIAKUTA|ガチアクタ
+2025/08/20-10:56:42 06 Fermat no Ryouri|フェルマーの料理
 2025/08/15-06:00:02 06 Mizu Zokusei no Mahoutsukai|水属性の魔法使い
 2025/08/15-06:00:02 06 Futari Solo Camp|ふたりソロキャンプ
 2025/08/15-00:00:01 07 Tsuihousha Shokudou e Youkoso!|追放者食堂へようこそ！
@@ -6,21 +23,4 @@ Last Update: 2025/08/15-18:00:02
 2025/08/14-06:00:02 07 Mikadono Sanshimai wa Angai, Choroi|帝乃三姉妹は案外、チョロい。
 2025/08/14-06:00:02 07 Jigoku Sensei Nube 2025|地獄先生ぬ～べ～(2025)
 2025/08/14-00:00:02 07 Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou S2|自動販売機に生まれ変わった俺は迷宮を彷徨う 2nd season
-2025/08/13-06:00:01 06 Turkey!|Turkey！
-2025/08/13-00:00:02 07 Kanojo, Okarishimasu S4|彼女、お借りします(第4期)
-2025/08/12-06:00:01 19 Summer Pocket|Summer Pockets
-2025/08/12-06:00:01 06 Watashi ga Koibito ni Nareru Wake Nai jan, Muri Muri!|わたしが恋人になれるわけないじゃん、ムリムリ！（※ムリじゃなかった！？）
-2025/08/12-06:00:01 06 Grand Blue S2|ぐらんぶる Season 2
 2025/08/11-06:00:01 06 Game Center Shoujo to Ibunka Kouryuu|ゲーセン少女と異文化交流
-2025/08/11-06:00:01 06 CITY THE ANIMATION|CITY THE ANIMATION
-2025/08/11-06:00:01 05 GACHIAKUTA|ガチアクタ
-2025/08/11-00:00:01 06 Dekin no Mogura|出禁のモグラ
-2025/08/10-06:00:02 06 Koujo Denka no Kateikyoushi|公女殿下の家庭教師
-2025/08/10-06:00:02 06 Kaoru Hana wa Rin to Saku|薫る花は凛と咲く
-2025/08/10-06:00:02 05 Fermat no Ryouri|フェルマーの料理
-2025/08/10-00:00:02 18 Shin Samurai-den Yaiba|真・侍伝 YAIBA
-2025/08/10-00:00:02 06 Seishun Buta Yarou wa Santa Claus no Yume wo Minai|青春ブタ野郎はサンタクロースの夢を見ない
-2025/08/09-06:00:01 06 Yofukashi no Uta S2|よふかしのうた Season2
-2025/08/09-06:00:01 06 Silent Witch|サイレント・ウィッチ　沈黙の魔女の隠しごと
-2025/08/09-06:00:01 05 Tougen Anki|桃源暗鬼
-2025/08/09-00:00:02 06 Busu ni Hanataba wo|ブスに花束を。
