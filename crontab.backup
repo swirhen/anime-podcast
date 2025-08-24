@@ -52,11 +52,11 @@ PATH=/home/swirhen/.rbenv/shims:/home/swirhen/.rbenv/bin:/home/swirhen/perl5/bin
 #0 19 * * 6 python /data/share/movie/sh/radio_record.py a "竹達・沼倉の初ラジ！" 30 1800
 5 21 * * 6 python /data/share/movie/sh/radio_record.py r "ぶいあーる！～VTuberの音楽Radio～" 1 3030 JOAK
 30 1 * * 7 python /data/share/movie/sh/radio_record.py r "田村ゆかりの乙女心▽症候群" 1 1830 QRR
-30 1 * * 7 python /data/share/movie/sh/radio_record.py r "MOMO・SORA・SHIINA Talking Box" 1 1830 QRR
 # -- SUN
 #30 19 * * 7 python /data/share/movie/sh/radio_record.py a "早見沙織の ふり～すたいる♪" 30 1800
 #0 20 * * 7 python /data/share/movie/sh/radio_record.py a "小原好美のココロおきなく" 30 1800
 0 22 * * 7 python /data/share/movie/sh/radio_record.py r "水瀬いのり MELODY FLAG" 1 1830 QRR
+30 1 * * 1 python /data/share/movie/sh/radio_record.py r "MOMO・SORA・SHIINA Talking Box" 1 1830 QRR
 # -- IJUIN
 0 1 * * 2 python /data/share/movie/sh/radio_record.py r "伊集院光 深夜の馬鹿力" 1 7230 TBS
 # りむ鯖
