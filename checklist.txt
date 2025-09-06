@@ -1,4 +1,7 @@
-Last Update: 2025/09/07-00:00:01
+Last Update: 2025/09/07-06:00:01
+2025/09/07-06:00:01 10 Koujo Denka no Kateikyoushi|公女殿下の家庭教師
+2025/09/07-06:00:01 10 Kaoru Hana wa Rin to Saku|薫る花は凛と咲く
+2025/09/07-06:00:01 09 Fermat no Ryouri|フェルマーの料理
 2025/09/07-00:00:01 21 Shin Samurai-den Yaiba|真・侍伝 YAIBA
 2025/09/07-00:00:01 10 Seishun Buta Yarou wa Santa Claus no Yume wo Minai|青春ブタ野郎はサンタクロースの夢を見ない
 2025/09/06-06:00:02 10 Yofukashi no Uta S2|よふかしのうた Season2
@@ -20,7 +23,4 @@ Last Update: 2025/09/07-00:00:01
 2025/09/01-06:00:02 08 Game Center Shoujo to Ibunka Kouryuu|ゲーセン少女と異文化交流
 2025/09/01-06:00:02 08 GACHIAKUTA|ガチアクタ
 2025/09/01-00:00:02 09 Dekin no Mogura|出禁のモグラ
-2025/08/31-06:00:02 09 Koujo Denka no Kateikyoushi|公女殿下の家庭教師
-2025/08/31-06:00:02 09 Kaoru Hana wa Rin to Saku|薫る花は凛と咲く
-2025/08/31-06:00:02 08 Fermat no Ryouri|フェルマーの料理
 2025/08/30-06:00:01 09 Silent Witch|サイレント・ウィッチ　沈黙の魔女の隠しごと
