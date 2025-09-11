@@ -1,4 +1,6 @@
-Last Update: 2025/09/12-00:00:02
+Last Update: 2025/09/12-06:00:01
+2025/09/12-06:00:01 10 Mizu Zokusei no Mahoutsukai|水属性の魔法使い
+2025/09/12-06:00:01 10 Futari Solo Camp|ふたりソロキャンプ
 2025/09/12-00:00:02 11 Tsuihousha Shokudou e Youkoso!|追放者食堂へようこそ！
 2025/09/11-06:00:02 11 Tsuyokute New Saga|強くてニューサーガ
 2025/09/11-06:00:02 11 Mikadono Sanshimai wa Angai, Choroi|帝乃三姉妹は案外、チョロい。
@@ -21,6 +23,4 @@ Last Update: 2025/09/12-00:00:02
 2025/09/06-06:00:02 10 Yofukashi no Uta S2|よふかしのうた Season2
 2025/09/06-06:00:02 09 Tougen Anki|桃源暗鬼
 2025/09/06-00:00:02 10 Busu ni Hanataba wo|ブスに花束を。
-2025/09/05-06:00:01 09 Mizu Zokusei no Mahoutsukai|水属性の魔法使い
-2025/09/05-06:00:01 09 Futari Solo Camp|ふたりソロキャンプ
 2025/08/30-06:00:01 09 Silent Witch|サイレント・ウィッチ　沈黙の魔女の隠しごと
