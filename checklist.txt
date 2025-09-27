@@ -1,4 +1,6 @@
-Last Update: 2025/09/27-18:00:01
+Last Update: 2025/09/28-00:00:01
+2025/09/28-00:00:01 24 Shin Samurai-den Yaiba|真・侍伝 YAIBA
+2025/09/28-00:00:01 13 Seishun Buta Yarou wa Santa Claus no Yume wo Minai|青春ブタ野郎はサンタクロースの夢を見ない
 2025/09/27-06:00:02 12 Tougen Anki|桃源暗鬼
 2025/09/27-06:00:02 12 Silent Witch|サイレント・ウィッチ　沈黙の魔女の隠しごと
 2025/09/27-06:00:02 01 Cats Eye |ルパン三世VSキャッツ・アイ
@@ -10,6 +12,4 @@ Last Update: 2025/09/27-18:00:01
 2025/09/22-06:00:01 11 GACHIAKUTA|ガチアクタ
 2025/09/21-06:00:02 12 Kaoru Hana wa Rin to Saku|薫る花は凛と咲く
 2025/09/21-06:00:02 11 Fermat no Ryouri|フェルマーの料理
-2025/09/21-00:00:02 23 Shin Samurai-den Yaiba|真・侍伝 YAIBA
-2025/09/21-00:00:02 12 Seishun Buta Yarou wa Santa Claus no Yume wo Minai|青春ブタ野郎はサンタクロースの夢を見ない
 2025/09/17-00:00:02 12 Kanojo, Okarishimasu S4|彼女、お借りします(第4期)
