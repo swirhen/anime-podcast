@@ -1,5 +1,8 @@
-Last Update: 2025/10/04-00:00:02
-2025/10/04-00:00:02 0 Nohara Hiroshi Hiru Meshi no Ryuugi|野原ひろし 昼メシの流儀
+Last Update: 2025/10/04-06:00:02
+2025/10/04-06:00:02 13 Tougen Anki|桃源暗鬼
+2025/10/04-06:00:02 01 Nohara Hiroshi Hiru Meshi no Ryuugi|野原ひろし 昼メシの流儀
+2025/10/04-06:00:02 0 Shabake|しゃばけ
+2025/10/04-06:00:02 0 Saigo ni Hitotsu dake Onegai shitemo Yoroshii deshou ka|最後にひとつだけお願いしてもよろしいでしょうか
 2025/10/03-18:00:02 01 Taiyou yori mo Mabushii Hoshi|太陽よりも眩しい星
 2025/10/03-12:00:01 01 Towa no Yuugure|永久のユウグレ
 2025/10/03-06:00:02 13 Futari Solo Camp|ふたりソロキャンプ
@@ -7,7 +10,6 @@ Last Update: 2025/10/04-00:00:02
 2025/10/02-12:00:02 01 Kakuriyo no Yadomeshi Ni|かくりよの宿飯 弐
 2025/09/29-12:00:01 01 Yasei no Last Boss ga Arawareta!|野生のラスボスが現れた！
 2025/09/29-06:00:01 12 GACHIAKUTA|ガチアクタ
-2025/09/27-06:00:02 12 Tougen Anki|桃源暗鬼
 2025/09/27-06:00:02 12 Silent Witch|サイレント・ウィッチ　沈黙の魔女の隠しごと
 2025/09/25-06:00:02 13 Jigoku Sensei Nube 2025|地獄先生ぬ～べ～(2025)
 2025/09/17-00:00:02 12 Kanojo, Okarishimasu S4|彼女、お借りします(第4期)
