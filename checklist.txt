@@ -1,4 +1,7 @@
-Last Update: 2025/10/04-18:00:01
+Last Update: 2025/10/05-00:00:01
+2025/10/05-00:00:01 02 Yasei no Last Boss ga Arawareta!|野生のラスボスが現れた！
+2025/10/05-00:00:01 0 Kao ni Denai Kashiwada-san to Kao ni Deru Oota-kun|顔に出ない柏田さんと顔に出る太田君
+2025/10/05-00:00:01 0 Boku no Hero Academia FINAL SEASON|僕のヒーローアカデミア FINAL SEASON
 2025/10/04-12:00:01 01 Shabake|しゃばけ
 2025/10/04-12:00:01 01 Saigo ni Hitotsu dake Onegai shitemo Yoroshii deshou ka|最後にひとつだけお願いしてもよろしいでしょうか
 2025/10/04-06:00:02 13 Tougen Anki|桃源暗鬼
@@ -8,7 +11,6 @@ Last Update: 2025/10/04-18:00:01
 2025/10/03-06:00:02 13 Futari Solo Camp|ふたりソロキャンプ
 2025/10/03-06:00:02 01 Bukiyou na Senpai|不器用な先輩。
 2025/10/02-12:00:02 01 Kakuriyo no Yadomeshi Ni|かくりよの宿飯 弐
-2025/09/29-12:00:01 01 Yasei no Last Boss ga Arawareta!|野生のラスボスが現れた！
 2025/09/29-06:00:01 12 GACHIAKUTA|ガチアクタ
 2025/09/27-06:00:02 12 Silent Witch|サイレント・ウィッチ　沈黙の魔女の隠しごと
 2025/09/25-06:00:02 13 Jigoku Sensei Nube 2025|地獄先生ぬ～べ～(2025)
