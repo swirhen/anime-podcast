@@ -1,6 +1,7 @@
-Last Update: 2025/10/06-00:00:02
+Last Update: 2025/10/06-06:00:02
+2025/10/06-06:00:02 13 GACHIAKUTA|ガチアクタ
+2025/10/06-06:00:02 01 Alma-chan wa Kazoku ni Naritai|アルマちゃんは家族になりたい
 2025/10/06-00:00:02 01 Kingdom S6|キングダム(第6シリーズ)
-2025/10/06-00:00:02 0 Alma-chan wa Kazoku ni Naritai|アルマちゃんは家族になりたい
 2025/10/05-12:00:01 01 Toujima Tanzaburou wa Kamen Rider ni Naritai|東島丹三郎は仮面ライダーになりたい
 2025/10/05-12:00:01 01 Tomodachi no Imouto ga Ore ni dake Uzai|友達の妹が俺にだけウザい
 2025/10/05-06:00:02 01 Kao ni Denai Kashiwada-san to Kao ni Deru Oota-kun|顔に出ない柏田さんと顔に出る太田君
@@ -15,6 +16,5 @@ Last Update: 2025/10/06-00:00:02
 2025/10/03-06:00:02 13 Futari Solo Camp|ふたりソロキャンプ
 2025/10/03-06:00:02 01 Bukiyou na Senpai|不器用な先輩。
 2025/10/02-12:00:02 01 Kakuriyo no Yadomeshi Ni|かくりよの宿飯 弐
-2025/09/29-06:00:01 12 GACHIAKUTA|ガチアクタ
 2025/09/25-06:00:02 13 Jigoku Sensei Nube 2025|地獄先生ぬ～べ～(2025)
 2025/09/17-00:00:02 12 Kanojo, Okarishimasu S4|彼女、お借りします(第4期)
