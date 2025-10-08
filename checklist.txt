@@ -1,4 +1,6 @@
-Last Update: 2025/10/09-00:00:02
+Last Update: 2025/10/09-06:00:02
+2025/10/09-06:00:02 02 Kakuriyo no Yadomeshi Ni|かくりよの宿飯 弐
+2025/10/09-06:00:02 0 Wan dance|ワンダンス
 2025/10/08-06:00:01 01 Chitose-kun wa Ramune Bin no Naka|千歳くんはラムネ瓶のなか
 2025/10/07-12:00:02 01 3-nen Z-gumi Ginpachi-sensei|3年Z組銀八先生
 2025/10/07-06:00:02 01 Egao no Taenai Shokuba desu|笑顔のたえない職場です。
@@ -18,4 +20,3 @@ Last Update: 2025/10/09-00:00:02
 2025/10/03-12:00:01 01 Towa no Yuugure|永久のユウグレ
 2025/10/03-06:00:02 13 Futari Solo Camp|ふたりソロキャンプ
 2025/10/03-06:00:02 01 Bukiyou na Senpai|不器用な先輩。
-2025/10/02-12:00:02 01 Kakuriyo no Yadomeshi Ni|かくりよの宿飯 弐
