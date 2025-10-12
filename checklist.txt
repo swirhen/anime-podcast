@@ -1,4 +1,6 @@
-Last Update: 2025/10/13-00:00:01
+Last Update: 2025/10/13-06:00:02
+2025/10/13-06:00:02 14 GACHIAKUTA|ガチアクタ
+2025/10/13-06:00:02 0 One Punch Man S3|ワンパンマン(第3期)
 2025/10/13-00:00:01 02 Alma-chan wa Kazoku ni Naritai|アルマちゃんは家族になりたい
 2025/10/12-18:00:02 02 Kingdom S6|キングダム(第6シリーズ)
 2025/10/12-06:00:01 02 Toujima Tanzaburou wa Kamen Rider ni Naritai|東島丹三郎は仮面ライダーになりたい
@@ -19,4 +21,3 @@ Last Update: 2025/10/13-00:00:01
 2025/10/08-06:00:01 01 Chitose-kun wa Ramune Bin no Naka|千歳くんはラムネ瓶のなか
 2025/10/07-12:00:02 01 3-nen Z-gumi Ginpachi-sensei|3年Z組銀八先生
 2025/10/07-06:00:02 01 Egao no Taenai Shokuba desu|笑顔のたえない職場です。
-2025/10/06-06:00:02 13 GACHIAKUTA|ガチアクタ
