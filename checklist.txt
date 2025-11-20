@@ -1,4 +1,7 @@
-Last Update: 2025/11/21-00:00:02
+Last Update: 2025/11/21-06:00:02
+2025/11/21-06:00:02 20 Futari Solo Camp|ふたりソロキャンプ
+2025/11/21-06:00:02 08 Towa no Yuugure|永久のユウグレ
+2025/11/21-06:00:02 08 Taiyou yori mo Mabushii Hoshi|太陽よりも眩しい星
 2025/11/21-00:00:02 08 Bukiyou na Senpai|不器用な先輩。
 2025/11/20-06:00:01 08 Kakuriyo no Yadomeshi Ni|かくりよの宿飯 弐
 2025/11/20-06:00:01 07 Wan dance|ワンダンス
@@ -6,13 +9,11 @@ Last Update: 2025/11/21-00:00:02
 2025/11/18-06:00:02 07 3-nen Z-gumi Ginpachi-sensei|3年Z組銀八先生
 2025/11/18-00:00:01 07 Egao no Taenai Shokuba desu|笑顔のたえない職場です。
 2025/11/17-20:03:13 19 GACHIAKUTA|ガチアクタ
-2025/11/17-20:03:13 19 Futari Solo Camp|ふたりソロキャンプ
 2025/11/17-20:03:13 18 Tougen Anki|桃源暗鬼
 2025/11/17-20:03:13 08 Yasei no Last Boss ga Arawareta!|野生のラスボスが現れた！
 2025/11/17-20:03:13 08 Saigo ni Hitotsu dake Onegai shitemo Yoroshii deshou ka|最後にひとつだけお願いしてもよろしいでしょうか
 2025/11/17-20:03:13 07 Toujima Tanzaburou wa Kamen Rider ni Naritai|東島丹三郎は仮面ライダーになりたい
 2025/11/17-20:03:13 07 Tomodachi no Imouto ga Ore ni dake Uzai|友達の妹が俺にだけウザい
-2025/11/17-20:03:13 07 Taiyou yori mo Mabushii Hoshi|太陽よりも眩しい星
 2025/11/17-20:03:13 07 Shabake|しゃばけ
 2025/11/17-20:03:13 07 SPY×FAMILY S3|SPY×FAMILY Season 3
 2025/11/17-20:03:13 07 Nohara Hiroshi Hiru Meshi no Ryuugi|野原ひろし 昼メシの流儀
@@ -21,5 +22,4 @@ Last Update: 2025/11/21-00:00:02
 2025/11/17-20:03:13 07 Boku no Hero Academia FINAL SEASON|僕のヒーローアカデミア FINAL SEASON
 2025/11/17-20:03:13 07 Alma-chan wa Kazoku ni Naritai|アルマちゃんは家族になりたい
 2025/11/17-20:03:13 06 One Punch Man S3|ワンパンマン(第3期)
-2025/11/07-06:00:01 07 Towa no Yuugure|永久のユウグレ
 2025/11/05-11:22:01 05 Chitose-kun wa Ramune Bin no Naka|千歳くんはラムネ瓶のなか
