@@ -1,5 +1,7 @@
-Last Update: 2026/01/10-18:00:01
-2026/01/10-18:00:01 0 Hell Mode|ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～
+Last Update: 2026/01/11-00:00:02
+2026/01/11-00:00:02 02 Fatestrange Fake|Fate／strange Fake
+2026/01/11-00:00:02 01 Hell Mode|ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～
+2026/01/11-00:00:02 0 TRIGUN STARGAZE|TRIGUN STARGAZE
 2026/01/09-12:00:01 01 Jujutsu Kaisen S3|呪術廻戦 死滅回游 前編
 2026/01/09-12:00:01 01 Champignon no Majo|シャンピニオンの魔女
 2026/01/08-06:00:01 02 Yuusha Party wo Oidasareta Kiyoubinbou|勇者パーティを追い出された器用貧乏
@@ -7,7 +9,6 @@ Last Update: 2026/01/10-18:00:01
 2026/01/07-12:00:02 01 Yoroi Shin Den Samurai Troopers|鎧真伝サムライトルーパー
 2026/01/07-12:00:02 01 The Darwin Incident|ダーウィン事変
 2026/01/07-12:00:02 01 Golden Kamuy S5|ゴールデンカムイ 最終章
-2026/01/07-12:00:02 01 Fatestrange Fake|Fate／strange Fake
 2026/01/06-12:00:02 01 Osananajimi to wa Love Comedy ni Naranai|幼馴染とはラブコメにならない
 2026/01/06-12:00:02 01 Kirei ni Shitemoraemasu ka|綺麗にしてもらえますか。
 2026/01/05-18:00:02 01 Hanazakari no Kimitachi e|花ざかりの君たちへ
