@@ -1,4 +1,5 @@
-Last Update: 2026/01/19-00:00:01
+Last Update: 2026/01/19-06:00:01
+2026/01/19-06:00:01 02 Jigokuraku S2|地獄楽(第二期)
 2026/01/19-00:00:01 04 Hanazakari no Kimitachi e|花ざかりの君たちへ
 2026/01/19-00:00:01 02 Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai sareru|悪役令嬢レベル99～私は裏ボスですが魔王ではありません～
 2026/01/18-06:00:01 15 Toujima Tanzaburou wa Kamen Rider ni Naritai|東島丹三郎は仮面ライダーになりたい
@@ -19,5 +20,4 @@ Last Update: 2026/01/19-00:00:01
 2026/01/13-06:00:01 02 Osananajimi to wa Love Comedy ni Naranai|幼馴染とはラブコメにならない
 2026/01/13-00:00:02 02 Kirei ni Shitemoraemasu ka|綺麗にしてもらえますか。
 2026/01/13-00:00:02 02 Golden Kamuy S5|ゴールデンカムイ 最終章
-2026/01/12-12:00:02 01 Jigokuraku S2|地獄楽(第二期)
 2026/01/01-12:33:57 10 Chitose-kun wa Ramune Bin no Naka|千歳くんはラムネ瓶のなか
