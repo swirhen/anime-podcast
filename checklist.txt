@@ -1,4 +1,6 @@
-Last Update: 2026/01/21-18:00:02
+Last Update: 2026/01/22-00:00:02
+2026/01/22-00:00:02 03 Shibou Yuugi de Meshi wo Kuu|死亡遊戯で飯を食う。
+2026/01/22-00:00:02 02 OSHI NO KO S3|【推しの子】(第3期)
 2026/01/21-06:00:02 03 Yoroi Shin Den Samurai Troopers|鎧真伝サムライトルーパー
 2026/01/21-06:00:02 03 The Darwin Incident|ダーウィン事変
 2026/01/20-06:00:02 03 Osananajimi to wa Love Comedy ni Naranai|幼馴染とはラブコメにならない
@@ -18,6 +20,4 @@ Last Update: 2026/01/21-18:00:02
 2026/01/16-06:00:01 03 Champignon no Majo|シャンピニオンの魔女
 2026/01/16-00:00:01 02 Yuusha-kei ni Shosu|勇者刑に処す 懲罰勇者9004隊刑務記録
 2026/01/15-06:00:02 03 Yuusha Party wo Oidasareta Kiyoubinbou|勇者パーティを追い出された器用貧乏
-2026/01/15-06:00:02 01 OSHI NO KO S3|【推しの子】(第3期)
-2026/01/15-00:00:02 02 Shibou Yuugi de Meshi wo Kuu|死亡遊戯で飯を食う。
 2026/01/01-12:33:57 10 Chitose-kun wa Ramune Bin no Naka|千歳くんはラムネ瓶のなか
