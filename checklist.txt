@@ -1,4 +1,8 @@
-Last Update: 2026/01/25-00:59:44
+Last Update: 2026/01/25-06:00:02
+2026/01/25-06:00:02 16 Toujima Tanzaburou wa Kamen Rider ni Naritai|東島丹三郎は仮面ライダーになりたい
+2026/01/25-06:00:02 03 Yuusha no Kuzu|勇者のクズ
+2026/01/25-06:00:02 03 Jingai Kyoushitsu no Ningengirai Kyoushi|人外教室の人間嫌い教師
+2026/01/25-06:00:02 0 Medalist S2|メダリスト(第2期)
 2026/01/25-00:59:44 04 Fatestrange Fake|Fate／strange Fake
 2026/01/25-00:59:44 03 TRIGUN STARGAZE|TRIGUN STARGAZE
 2026/01/24-06:00:02 03 Hell Mode|ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～
@@ -17,7 +21,4 @@ Last Update: 2026/01/25-00:59:44
 2026/01/19-06:00:01 02 Jigokuraku S2|地獄楽(第二期)
 2026/01/19-00:00:01 04 Hanazakari no Kimitachi e|花ざかりの君たちへ
 2026/01/19-00:00:01 02 Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai sareru|悪役令嬢レベル99～私は裏ボスですが魔王ではありません～
-2026/01/18-06:00:01 15 Toujima Tanzaburou wa Kamen Rider ni Naritai|東島丹三郎は仮面ライダーになりたい
-2026/01/18-06:00:01 02 Yuusha no Kuzu|勇者のクズ
-2026/01/18-06:00:01 02 Jingai Kyoushitsu no Ningengirai Kyoushi|人外教室の人間嫌い教師
 2026/01/01-12:33:57 10 Chitose-kun wa Ramune Bin no Naka|千歳くんはラムネ瓶のなか
