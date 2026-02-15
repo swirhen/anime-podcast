@@ -1,4 +1,5 @@
-Last Update: 2026/02/15-06:00:02
+Last Update: 2026/02/15-12:00:02
+2026/02/15-12:00:02 03 Detective Precure|名探偵プリキュア！
 2026/02/15-06:00:02 19 Toujima Tanzaburou wa Kamen Rider ni Naritai|東島丹三郎は仮面ライダーになりたい
 2026/02/15-06:00:02 06 Yuusha no Kuzu|勇者のクズ
 2026/02/15-06:00:02 06 Jingai Kyoushitsu no Ningengirai Kyoushi|人外教室の人間嫌い教師
@@ -21,5 +22,4 @@ Last Update: 2026/02/15-06:00:02
 2026/02/09-06:00:01 05 Jigokuraku S2|地獄楽(第二期)
 2026/02/09-00:00:02 07 Hanazakari no Kimitachi e|花ざかりの君たちへ
 2026/02/09-00:00:02 05 Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai sareru|悪役令嬢レベル99～私は裏ボスですが魔王ではありません～
-2026/02/08-12:00:01 02 Detective Precure|名探偵プリキュア！
 2026/01/01-12:33:57 10 Chitose-kun wa Ramune Bin no Naka|千歳くんはラムネ瓶のなか
