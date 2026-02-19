@@ -1,4 +1,5 @@
-Last Update: 2026/02/19-18:00:01
+Last Update: 2026/02/20-00:00:02
+2026/02/20-00:00:02 07 Yuusha-kei ni Shosu|勇者刑に処す 懲罰勇者9004隊刑務記録
 2026/02/19-06:00:02 08 Yuusha Party wo Oidasareta Kiyoubinbou|勇者パーティを追い出された器用貧乏
 2026/02/19-00:00:02 07 Shibou Yuugi de Meshi wo Kuu|死亡遊戯で飯を食う。
 2026/02/19-00:00:02 06 OSHI NO KO S3|【推しの子】(第3期)
@@ -21,5 +22,4 @@ Last Update: 2026/02/19-18:00:01
 2026/02/14-06:00:02 05 Sousou no Frieren S2|葬送のフリーレン(第2期)
 2026/02/13-06:00:01 07 Jujutsu Kaisen S3|呪術廻戦 死滅回游 前編
 2026/02/13-06:00:01 07 Champignon no Majo|シャンピニオンの魔女
-2026/02/13-00:00:01 06 Yuusha-kei ni Shosu|勇者刑に処す 懲罰勇者9004隊刑務記録
 2026/01/01-12:33:57 10 Chitose-kun wa Ramune Bin no Naka|千歳くんはラムネ瓶のなか
