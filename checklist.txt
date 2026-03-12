@@ -1,4 +1,6 @@
-Last Update: 2026/03/12-18:00:02
+Last Update: 2026/03/13-00:00:02
+2026/03/13-00:00:02 11 Yuusha Party wo Oidasareta Kiyoubinbou|勇者パーティを追い出された器用貧乏
+2026/03/13-00:00:02 10 Yuusha-kei ni Shosu|勇者刑に処す 懲罰勇者9004隊刑務記録
 2026/03/12-00:00:02 10 Shibou Yuugi de Meshi wo Kuu|死亡遊戯で飯を食う。
 2026/03/12-00:00:02 09 OSHI NO KO S3|【推しの子】(第3期)
 2026/03/11-12:00:02 10 The Darwin Incident|ダーウィン事変
@@ -19,7 +21,5 @@ Last Update: 2026/03/12-18:00:02
 2026/03/07-06:00:02 07 Sousou no Frieren S2|葬送のフリーレン(第2期)
 2026/03/06-06:00:02 10 Champignon no Majo|シャンピニオンの魔女
 2026/03/06-06:00:02 09 Jujutsu Kaisen S3|呪術廻戦 死滅回游 前編
-2026/03/06-00:00:02 09 Yuusha-kei ni Shosu|勇者刑に処す 懲罰勇者9004隊刑務記録
-2026/03/05-06:00:01 10 Yuusha Party wo Oidasareta Kiyoubinbou|勇者パーティを追い出された器用貧乏
 2026/02/15-12:00:02 03 Detective Precure|名探偵プリキュア！
 2026/01/01-12:33:57 10 Chitose-kun wa Ramune Bin no Naka|千歳くんはラムネ瓶のなか
