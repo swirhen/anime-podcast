@@ -1,4 +1,6 @@
-Last Update: 2026/03/18-18:00:02
+Last Update: 2026/03/19-00:00:02
+2026/03/19-00:00:02 11 Shibou Yuugi de Meshi wo Kuu|死亡遊戯で飯を食う。
+2026/03/19-00:00:02 10 OSHI NO KO S3|【推しの子】(第3期)
 2026/03/18-06:00:02 11 Yoroi Shin Den Samurai Troopers|鎧真伝サムライトルーパー
 2026/03/18-06:00:02 11 The Darwin Incident|ダーウィン事変
 2026/03/17-06:00:02 11 Osananajimi to wa Love Comedy ni Naranai|幼馴染とはラブコメにならない
@@ -19,7 +21,5 @@ Last Update: 2026/03/18-18:00:02
 2026/03/13-06:00:01 10 Jujutsu Kaisen S3|呪術廻戦 死滅回游 前編
 2026/03/13-00:00:02 11 Yuusha Party wo Oidasareta Kiyoubinbou|勇者パーティを追い出された器用貧乏
 2026/03/13-00:00:02 10 Yuusha-kei ni Shosu|勇者刑に処す 懲罰勇者9004隊刑務記録
-2026/03/12-00:00:02 10 Shibou Yuugi de Meshi wo Kuu|死亡遊戯で飯を食う。
-2026/03/12-00:00:02 09 OSHI NO KO S3|【推しの子】(第3期)
 2026/02/15-12:00:02 03 Detective Precure|名探偵プリキュア！
 2026/01/01-12:33:57 10 Chitose-kun wa Ramune Bin no Naka|千歳くんはラムネ瓶のなか
