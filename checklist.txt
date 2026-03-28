@@ -1,4 +1,6 @@
-Last Update: 2026/03/28-18:00:02
+Last Update: 2026/03/29-00:00:01
+2026/03/29-00:00:01 13 Fatestrange Fake|Fate／strange Fake
+2026/03/29-00:00:01 12 TRIGUN STARGAZE|TRIGUN STARGAZE
 2026/03/28-06:00:02 12 Hell Mode|ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～
 2026/03/27-06:00:02 12 Jujutsu Kaisen S3|呪術廻戦 死滅回游 前編
 2026/03/25-06:00:02 12 Yoroi Shin Den Samurai Troopers|鎧真伝サムライトルーパー
@@ -12,8 +14,6 @@ Last Update: 2026/03/28-18:00:02
 2026/03/22-06:00:01 11 Yuusha no Kuzu|勇者のクズ
 2026/03/22-06:00:01 11 Jingai Kyoushitsu no Ningengirai Kyoushi|人外教室の人間嫌い教師
 2026/03/22-06:00:01 09 Medalist S2|メダリスト(第2期)
-2026/03/22-00:00:02 12 Fatestrange Fake|Fate／strange Fake
-2026/03/22-00:00:02 11 TRIGUN STARGAZE|TRIGUN STARGAZE
 2026/03/20-06:00:02 12 Champignon no Majo|シャンピニオンの魔女
 2026/03/16-00:00:02 12 Hanazakari no Kimitachi e|花ざかりの君たちへ
 2026/03/13-00:00:02 11 Yuusha Party wo Oidasareta Kiyoubinbou|勇者パーティを追い出された器用貧乏
