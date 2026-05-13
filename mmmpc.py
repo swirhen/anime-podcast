@@ -11,7 +11,7 @@ current_dir = pathlib.Path(__file__).resolve().parent
 sys.path.append(f'{str(current_dir)}/python-lib/')
 import swirhentv_util as swiutil
 
-# argment section
+# arguments section
 TARGET_DIR_PARENT = f'{str(current_dir)}/../98 PSP用'
 
 

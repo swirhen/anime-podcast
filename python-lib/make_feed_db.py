@@ -8,7 +8,7 @@ import sys
 import sqlite3
 import swirhentv_util as swiutil
 
-# argment section
+# arguments section
 current_dir = pathlib.Path(__file__).resolve().parent
 SCRIPT_DIR = str(current_dir)
 FEED_XML_DIR = f'{SCRIPT_DIR}/../../98 PSP用'

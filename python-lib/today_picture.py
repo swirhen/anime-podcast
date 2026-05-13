@@ -10,7 +10,7 @@ import pathlib
 import swirhentv_util as swiutil
 from datetime import datetime as dt
 
-# argment section
+# arguments section
 current_dir = pathlib.Path(__file__).resolve().parent
 SCRIPT_DIR = str(current_dir)
 RECENT_LIST = f'{SCRIPT_DIR}/today_picture_recent.txt'

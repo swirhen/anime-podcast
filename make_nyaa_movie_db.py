@@ -11,7 +11,7 @@ import xml.etree.ElementTree as elementTree
 sys.path.append('/data/share/movie/sh/python-lib/')
 import swirhentv_util as swiutil
 
-# argment section
+# arguments section
 current_dir = pathlib.Path(__file__).resolve().parent
 SCRIPT_DIR = str(current_dir)
 URL_LIST_FILE = f'{SCRIPT_DIR}/urllist.txt'
@@ -39,7 +39,7 @@ def get_seed_list_proc():
 
 
 def make_nyaa_data():
-    # UURLから最新フィードを取得
+    # URLから最新フィードを取得
     # title,link,pubDateを配列に入れる
     all_seed_list = get_seed_list_proc()
 

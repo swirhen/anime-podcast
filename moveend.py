@@ -13,7 +13,7 @@ import psutil
 import sys
 import mnu
 
-# argment section
+# arguments section
 BASE_DIR = '/data/share/movie'
 PSPMP4_98_DIR = f'{BASE_DIR}/98 PSP用'
 PSPMP4_MV_DIR = '/data2/movie2/pspmp4'

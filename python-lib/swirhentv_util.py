@@ -19,7 +19,7 @@ import slackbot_settings
 import sqlite3
 import make_feed_db as db
 
-# argment section
+# arguments section
 current_dir = pathlib.Path(__file__).resolve().parent
 SCRIPT_DIR = str(current_dir)
 #RUBY_PATH = '/home/swirhen/.rbenv/versions/2.6.6/bin/ruby'
