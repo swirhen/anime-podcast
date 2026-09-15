@@ -12,8 +12,7 @@ import datetime
 import time
 import MySQLdb
 import swirhentv_util as swiutil
-sys.path.append('/home/swirhen/sh/checker/torrentsearch')
-import torrentsearch as trsc
+import torrent_search_common as trsc
 
 # argument section
 SHARE_TEMP_DIR = '/data/share/temp'

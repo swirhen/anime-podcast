@@ -7,8 +7,7 @@ from bs4 import BeautifulSoup
 current_dir = pathlib.Path(__file__).resolve().parent
 sys.path.append(f'{str(current_dir)}/python-lib/')
 import swirhentv_util as swiutil
-sys.path.append(f'/home/swirhen/sh/checker/torrentsearch')
-import torrentsearch as ts
+import torrent_search_common as ts
 
 
 # fantiaのタイトル取得(入れたキーワードは頭につけて「 - 」で連結して返す)

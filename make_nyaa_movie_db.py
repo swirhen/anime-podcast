@@ -68,7 +68,7 @@ def make_nyaa_data():
     try:
         cur.execute(insert_sql)
     except Exception as e:
-        swiutil.multi_post('torrent-search', f'@channel sql insert error: {e}')
+        swiutil.discord_post('torrent-search', f'@channel sql insert error: {e}')
     else:
         conn.commit()
     conn.close()

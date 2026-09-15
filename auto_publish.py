@@ -50,11 +50,11 @@ def logging_without_timestamp(log_str):
 
 
 def multipost(post_str):
-    swiutil.multi_post(CHANNEL, post_str)
+    swiutil.discord_post(CHANNEL, post_str)
 
 
 def multiupload(file_path):
-    swiutil.multi_upload(CHANNEL, file_path)
+    swiutil.discord_upload(CHANNEL, file_path)
 
 
 # チェックリストの処理後、git commit -> push(新番組検知があれば新番組ファイルも)

@@ -7,8 +7,7 @@ import re
 import discord
 import bot_util as bu
 import swirhentv_util as swiutil
-sys.path.append('/home/swirhen/sh/checker/torrentsearch')
-import torrentsearch as trsc
+import torrent_search_common as trsc
 import today_picture
 from datetime import datetime as dt
 
