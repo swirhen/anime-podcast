@@ -53,6 +53,11 @@ def make_nyaa_data():
                         ' pubdate timestamp,' \
                         ' download_flag boolean,' \
                         ' created_at timestamp default (datetime(\'now\', \'localtime\')))'
+    create_index_sql = 'create index if not exists idx_feed_data_download_created' \
+                       ' on feed_data(download_flag, created_at)'
+
+    cur.execute(create_table_sql)
+    cur.execute(create_index_sql)
 
     values = []
     for seed_item in all_seed_list:
