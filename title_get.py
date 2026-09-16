@@ -13,6 +13,8 @@ import torrent_search_common as ts
 # fantiaのタイトル取得(入れたキーワードは頭につけて「 - 」で連結して返す)
 def get_fantia_title(keyword, regexp='\<.*?\>|\ -.*|【.*?】', uri='https://fantia.jp/posts/'):
     id = re.sub(r'\D', '', keyword)
+    if id and int(id) <= 300000:
+        uri = 'https://fantia.jp/products/'
     try:
         html = urllib.request.urlopen(uri + id)
     except Exception as e:
