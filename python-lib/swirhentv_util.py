@@ -84,6 +84,10 @@ def discord_upload(channel, filename):
                 print(e)
 
 
+# 後方互換用エイリアス
+slack_post = discord_post
+
+
 # y/nをきく
 def askconfirm():
     res = input('> ')
