@@ -29,7 +29,7 @@ import urllib.request
 from datetime import datetime as dt
 import xml.etree.ElementTree as elementTree
 current_dir = pathlib.Path(__file__).resolve().parent
-sys.path.append(f'{str(current_dir)}/python-lib/')
+sys.path.append(str(current_dir / 'python-lib'))
 import swirhentv_util as swiutil
 import radikoauth
 
@@ -246,16 +246,26 @@ if __name__ == '__main__':
         try:
             with urllib.request.urlopen(req) as response:
                 xml_string = response.read()
+                if xml_string.startswith(b'\x1f\x8b'):
+                    import gzip
+                    xml_string = gzip.decompress(xml_string)
         except Exception as e:
             print(e)
         else:
             xml_root = elementTree.fromstring(xml_string)
             for station in xml_root.findall('./stations/station'):
-                if station.attrib['id'] == station_id:
-                    station_name = station.find('name').text
+                if station.attrib.get('id') == station_id:
+                    name_elem = station.find('name')
+                    if name_elem is not None and name_elem.text:
+                        station_name = name_elem.text
                     # 番組名取得(現在放送中xmlから取れるのは直近の2番組なので、1番目を取得)
                     # Radikoくんは放送時間ぴったりだと直前の番組が1番目になっているので、2番目を取るようにしてみる
-                    program_name_from_api = station.findall('progs/prog')[1].find('title').text
+                    progs = station.findall('progs/prog')
+                    target_prog = progs[1] if len(progs) > 1 else (progs[0] if progs else None)
+                    if target_prog is not None:
+                        title_elem = target_prog.find('title')
+                        if title_elem is not None and title_elem.text:
+                            program_name_from_api = title_elem.text
 
         # ストリームURIとtoken
         auth_info = radikoauth.main(station_id)
@@ -296,7 +306,7 @@ if __name__ == '__main__':
         else:
             radiko_record(rectime_remain, filename_rec, radiko_stream_url, radiko_stream_token)
 
-        duration = subprocess.run(f'ffprobe -i "{filename_rec}" -select_streams {opt_str}:0 -show_entries stream=duration | grep duration | sed s/duration=// | sed "s/\.[0-9]*$//g"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.decode().strip()
+        duration = subprocess.run(f'ffprobe -i "{filename_rec}" -select_streams {opt_str}:0 -show_entries stream=duration | grep duration | sed s/duration=// | sed "s/\\.[0-9]*$//g"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.decode().strip()
         rectime_remain = int(rectime_remain) - int(duration)
 
         # 録音ファイルが0秒 or 残り時間が15秒未満なら終わる

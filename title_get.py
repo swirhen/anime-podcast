@@ -5,7 +5,7 @@ import sys,re,pathlib
 import urllib.request
 from bs4 import BeautifulSoup
 current_dir = pathlib.Path(__file__).resolve().parent
-sys.path.append(f'{str(current_dir)}/python-lib/')
+sys.path.append(str(current_dir / 'python-lib'))
 import swirhentv_util as swiutil
 import torrent_search_common as ts
 
@@ -67,6 +67,9 @@ if __name__ == '__main__':
     args = sys.argv
     mode = args[1]
     keyword = args[2]
+    uri = None
+    regexp = None
+    ret = None
     if len(args) > 3:
         regexp = args[3]
         if regexp == '':
@@ -84,8 +87,7 @@ if __name__ == '__main__':
             ret = get_fantia_title(keyword, regexp, uri)
         else:
             ret = get_fantia_title(keyword)
-    
-    if mode == 'a':
+    elif mode == 'a':
         if len(args) == 4:
             ret = get_av_title(keyword, regexp)
         elif len(args) == 5:
@@ -93,4 +95,6 @@ if __name__ == '__main__':
         else:
             ret = get_av_title(keyword)
 
-print(ret)
+    if ret is not None:
+        print(ret)
+

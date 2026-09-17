@@ -8,7 +8,7 @@ from datetime import datetime as dt
 import urllib.request
 import sqlite3
 import xml.etree.ElementTree as elementTree
-sys.path.append('/data/share/movie/sh/python-lib/')
+sys.path.append(str(pathlib.Path(__file__).resolve().parent / 'python-lib'))
 import swirhentv_util as swiutil
 
 # arguments section
