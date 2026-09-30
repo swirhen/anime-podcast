@@ -13,6 +13,8 @@
 #     フラグファイルがあるかどうかチェックして、なければ作成だけして録音しない
 #     あれば削除して録音する
 # import section
+import base64
+import secrets
 import shutil
 import os
 import pathlib
@@ -25,7 +27,6 @@ import xml.etree.ElementTree as elementTree
 current_dir = pathlib.Path(__file__).resolve().parent
 sys.path.append(str(current_dir / 'python-lib'))
 import swirhentv_util as swiutil
-import radikoauth
 
 # argument section
 SCRIPT_DIR = str(current_dir)
@@ -35,14 +36,45 @@ FLG_PATH = f'{OUTPUT_PATH}/flg'
 RADIKO_PROGRAM_INFO_URI = 'http://radiko.jp/v3/program/now/JP8.xml'
 RADIKO_LOCATION_INFO_FILE = f'{SCRIPT_DIR}/loc_radiko'
 SLACK_CHANNEL = 'bot-open'
+RADIKO_AUTH_KEY = 'bcd151073c03b352e1ef2fd66c32209da9ca0afa'
+RADIKO_AUTH_HEADERS = {
+    'X-Radiko-App': 'pc_html5',
+    'X-Radiko-App-Version': '0.0.1',
+    'X-Radiko-User': 'dummy_user',
+    'X-Radiko-Device': 'pc',
+}
+
+
+# radiko 認証。(トークン, 判定地域) を返す。失敗時は ('', '')
+def radiko_authenticate():
+    try:
+        req = urllib.request.Request('https://radiko.jp/v2/api/auth1', headers=RADIKO_AUTH_HEADERS)
+        with urllib.request.urlopen(req, timeout=10) as res:
+            token = res.headers['X-Radiko-AuthToken']
+            offset = int(res.headers['X-Radiko-KeyOffset'])
+            length = int(res.headers['X-Radiko-KeyLength'])
+        partial_key = base64.b64encode(RADIKO_AUTH_KEY[offset:offset + length].encode()).decode()
+
+        headers = {**RADIKO_AUTH_HEADERS, 'X-Radiko-AuthToken': token, 'X-Radiko-PartialKey': partial_key}
+        req = urllib.request.Request('https://radiko.jp/v2/api/auth2', headers=headers)
+        with urllib.request.urlopen(req, timeout=10) as res:
+            area = res.read().decode().strip()
+    except Exception as e:
+        print(e)
+        return '', ''
+    return token, area
+
+
+# ライブ配信のプレイリストURL(lsidはセッション識別用のランダム値)
+def radiko_stream_url(station_id):
+    return f'https://si-f-radiko.smartstream.ne.jp/so/playlist.m3u8?station_id={station_id}&l=15&lsid={secrets.token_hex(16)}&type=b'
 
 
 # radiko check
 def radiko_check(check_option):
-    # ストリームURIとtoken(仮に文化放送とする)
-    authinfo = radikoauth.main('QRR')
-    radikostreamurl = authinfo[0]
-    radikostreamtoken = authinfo[1]
+    # 仮に文化放送とする
+    radikostreamurl = radiko_stream_url('QRR')
+    radikostreamtoken, _ = radiko_authenticate()
 
     temp_file = f'{TMP_PATH}/radiko_rec_temp.m4a'
 
@@ -70,8 +102,7 @@ def write_location_info(location_info):
 
 # radiko location check
 def radiko_location_check():
-    # 地域情報
-    location_info = radikoauth.main()[0].strip()
+    _, location_info = radiko_authenticate()
 
     if location_info == '':
         swiutil.discord_post(SLACK_CHANNEL, '@channel 【radiko 地域判定チェック】判定地域が取得できませんでした')
@@ -162,8 +193,8 @@ if __name__ == '__main__':
     station_name = ''
     program_name_from_api = ''
 
-    # エリアチェック
-    location_info = radikoauth.main()[0].strip()
+    # エリアチェック(ここで得たトークンは最初の録音に使う)
+    stream_token, location_info = radiko_authenticate()
     location_area = location_info[0:4]
     if location_area != 'JP8,':
         post_str = f'【{operation_str}自動保存】エリア判定が現在茨城県(JP8)以外のため、番組が取得出来ない可能性があります。ご確認ください\n' \
@@ -218,8 +249,9 @@ if __name__ == '__main__':
     rectime_remain = int(record_time)
     while rectime_remain >= 15:
         part_file = f'{filename_with_path}_{len(parts) + 1:02}.{record_extent}'
-        stream_url, stream_token = radikoauth.main(station_id)
-        radiko_record(rectime_remain, part_file, stream_url, stream_token)
+        if parts:
+            stream_token, _ = radiko_authenticate()
+        radiko_record(rectime_remain, part_file, radiko_stream_url(station_id), stream_token)
         duration = get_duration(part_file)
         if duration == 0:
             if os.path.exists(part_file):

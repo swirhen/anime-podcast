@@ -8,7 +8,10 @@ import re
 import shutil
 import subprocess
 from sys import stderr
+import urllib.parse
 import urllib.request
+from email.utils import formatdate
+from xml.sax.saxutils import escape as xml_escape
 import requests
 import time
 import glob
@@ -21,8 +24,8 @@ import argparse
 # arguments section
 current_dir = pathlib.Path(__file__).resolve().parent
 SCRIPT_DIR = str(current_dir)
-#RUBY_PATH = '/home/swirhen/.rbenv/versions/2.6.6/bin/ruby'
-RUBY_PATH = 'ruby'
+# RubyのURI.escapeがエスケープしない文字(英数字と-_.以外)
+URI_SAFE_CHARS = "!~*'();/?:@&=+$,[]"
 CHECKLIST_FILE_PATH = f'{SCRIPT_DIR}/../checklist.txt'
 SEED_BACKUP_DIR = f'{SCRIPT_DIR}/../download_seeds'
 DISCORD_WEBHOOK_URI_FILE = f'{SCRIPT_DIR}/discord_webhook_url'
@@ -447,16 +450,78 @@ def encode_movie_proc(file_path, output_dir, tmpdir='/data/tmp'):
     shutil.move(f'{tmpdir}/{file_name}.mp4', output_dir)
 
 
-# しゅにるスクリプト呼び出し フィード作成(最近のアニメ)
+PODCAST_MIME_TYPES = {
+    '.mp3': 'audio/mpeg',
+    '.m4a': 'audio/x-m4a',
+    '.mp4': 'video/mp4',
+    '.webm': 'video/webm',
+    '.m4v': 'video/x-m4v',
+    '.mov': 'video/quicktime',
+    '.pdf': 'application/pdf',
+    '.zip': 'application/x-compress',
+}
+
+
+# ディレクトリ内のファイルからポッドキャスト用RSS 2.0フィードを作成する(mkpodcast.rbのPython版)
+# make_feed_dbが行単位でtitleを読むため、字下げはmkpodcast.rbの出力(チャンネル4字、アイテム6字)に合わせている
+def write_podcast_feed(target_dir, base_uri, output_file, title):
+    base_uri = urllib.parse.quote(base_uri.rstrip('/') + '/', safe=URI_SAFE_CHARS)
+    rss_uri = base_uri + os.path.basename(output_file)
+
+    files = []
+    for f in glob.glob(f'{glob.escape(target_dir)}/*.*'):
+        ext = os.path.splitext(f)[1]
+        if os.path.isfile(f) and ext not in ('.xml', '.txt'):
+            files.append((os.path.getmtime(f), f))
+    files.sort(reverse=True)
+
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<rss version="2.0"',
+        '  xmlns:content="http://purl.org/rss/1.0/modules/content/"',
+        '  xmlns:dc="http://purl.org/dc/elements/1.1/">',
+        '  <channel>',
+        f'    <title>{xml_escape(title)}</title>',
+        f'    <link>{xml_escape(rss_uri)}</link>',
+        f'    <description>{xml_escape(rss_uri)}</description>',
+        f'    <pubDate>{formatdate(localtime=True)}</pubDate>',
+    ]
+    for mtime, f in files:
+        name = os.path.basename(f)
+        uri = xml_escape(base_uri + urllib.parse.quote(name, safe=URI_SAFE_CHARS))
+        mime_type = PODCAST_MIME_TYPES.get(os.path.splitext(f)[1], 'application/octet-stream')
+        lines += [
+            '    <item>',
+            f'      <title>{xml_escape(name)}</title>',
+            f'      <link>{uri}</link>',
+            f'      <description>{xml_escape(name)}</description>',
+            '      <author>nobody@example.com</author>',
+            f'      <enclosure url="{uri}" length="{os.path.getsize(f)}" type="{mime_type}"/>',
+            f'      <guid>{uri}</guid>',
+            f'      <pubDate>{formatdate(mtime, localtime=True)}</pubDate>',
+            f'      <content:encoded>{uri}</content:encoded>',
+            '      <dc:creator>nobody@example.com</dc:creator>',
+            '    </item>',
+        ]
+    lines += ['  </channel>', '</rss>']
+
+    # 配信中のフィードが書きかけの状態で読まれないよう、一時ファイルに書いてから置き換える
+    tmp_file = f'{output_file}.tmp'
+    with open(tmp_file, 'w', encoding='utf-8') as file:
+        file.write('\n'.join(lines) + '\n')
+    os.replace(tmp_file, output_file)
+
+
+# フィード作成(最近のアニメ)
 def make_feed(target_dir):
-    subprocess.run(f'{RUBY_PATH} {SCRIPT_DIR}/../mkpodcast.rb -t "{target_dir}/*.*" -b "http://swirhen.tv/movie/pspmp4/" -o "{target_dir}/index.xml" --title "最近のアニメ"', shell=True)
+    write_podcast_feed(target_dir, 'http://swirhen.tv/movie/pspmp4/', f'{target_dir}/index.xml', '最近のアニメ')
     db.make_feed_data('index')
 
 
-# しゅにるスクリプト呼び出し フィード作成(任意のディレクトリ、タイトル)
+# フィード作成(任意のディレクトリ、タイトル)
 def make_feed_manually(target_dir, title):
     target_dir_not_parent_dir = pathlib.Path(target_dir).name
-    subprocess.run(f'{RUBY_PATH} {SCRIPT_DIR}/../mkpodcast.rb -t "{target_dir}/*.*" -b "http://swirhen.tv/movie/pspmp4/{target_dir_not_parent_dir}/" -o "{target_dir}.xml" --title "{title}"', shell=True)
+    write_podcast_feed(target_dir, f'http://swirhen.tv/movie/pspmp4/{target_dir_not_parent_dir}/', f'{target_dir}.xml', title)
     db.make_feed_list_data()
     db.make_feed_data(target_dir_not_parent_dir)
 
