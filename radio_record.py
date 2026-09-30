@@ -34,8 +34,6 @@ TMP_PATH = f'{OUTPUT_PATH}/flv'
 FLG_PATH = f'{OUTPUT_PATH}/flg'
 RADIKO_PROGRAM_INFO_URI = 'http://radiko.jp/v3/program/now/JP8.xml'
 RADIKO_LOCATION_INFO_FILE = f'{SCRIPT_DIR}/loc_radiko'
-with open(RADIKO_LOCATION_INFO_FILE) as file:
-    RADIKO_LOCATION_INFO_FROM_FILE = file.read().splitlines()[0]
 SLACK_CHANNEL = 'bot-open'
 
 
@@ -65,6 +63,11 @@ def radiko_check(check_option):
     exit(0)
 
 
+def write_location_info(location_info):
+    with open(RADIKO_LOCATION_INFO_FILE, 'w', encoding='utf-8') as file:
+        file.write(f'{location_info}\n')
+
+
 # radiko location check
 def radiko_location_check():
     # 地域情報
@@ -72,9 +75,20 @@ def radiko_location_check():
 
     if location_info == '':
         swiutil.discord_post(SLACK_CHANNEL, '@channel 【radiko 地域判定チェック】判定地域が取得できませんでした')
-    elif location_info != RADIKO_LOCATION_INFO_FROM_FILE:
+        exit(0)
+
+    location_info_from_file = ''
+    if os.path.isfile(RADIKO_LOCATION_INFO_FILE):
+        with open(RADIKO_LOCATION_INFO_FILE, encoding='utf-8') as file:
+            lines = file.read().splitlines()
+            location_info_from_file = lines[0].strip() if lines else ''
+
+    if location_info_from_file == '':
+        # 初回は比較対象が無いので、現在の地域を基準として保存するだけにする
+        write_location_info(location_info)
+    elif location_info != location_info_from_file:
         swiutil.discord_post(SLACK_CHANNEL, f'@channel 【radiko 地域判定チェック】判定地域が変更されました: {location_info}')
-        swiutil.writefile_new(RADIKO_LOCATION_INFO_FILE, location_info)
+        write_location_info(location_info)
 
     exit(0)
 
@@ -105,6 +119,9 @@ def get_duration(file):
 # main section
 if __name__ == '__main__':
     args = sys.argv
+    for path in (OUTPUT_PATH, TMP_PATH, FLG_PATH):
+        os.makedirs(path, exist_ok=True)
+
     if len(args) > 1:
         check_opt = ''
         if len(args) == 3:
