@@ -4,6 +4,7 @@
 import urllib.request, urllib.error, urllib.parse
 import re
 import base64
+import secrets
 from sys import argv
 
 auth_token = ""
@@ -97,9 +98,9 @@ def main(station_id=''):
     partialkey = ret[0]
     area = auth2(partialkey, token)
     if station_id != '':
-        url = f'http://f-radiko.smartstream.ne.jp/{station_id}/_definst_/simul-stream.stream/playlist.m3u8'
-        m3u8 = gen_temp_chunk_m3u8_url(url, token)
-        info = [m3u8, token]
+        lsid = secrets.token_hex(16)
+        url = f'https://si-f-radiko.smartstream.ne.jp/so/playlist.m3u8?station_id={station_id}&l=15&lsid={lsid}&type=b'
+        info = [url, token]
     else:
         info = [area]
 
