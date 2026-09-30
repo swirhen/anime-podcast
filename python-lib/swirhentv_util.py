@@ -462,8 +462,8 @@ PODCAST_MIME_TYPES = {
 }
 
 
-# ディレクトリ内のファイルからポッドキャスト用RSS 2.0フィードを作成する(mkpodcast.rbのPython版)
-# make_feed_dbが行単位でtitleを読むため、字下げはmkpodcast.rbの出力(チャンネル4字、アイテム6字)に合わせている
+# ディレクトリ内のファイルからポッドキャスト用RSS 2.0フィードを作成する
+# make_feed_dbが行単位でtitleを読むため、字下げ(チャンネル4字、アイテム6字)を変えないこと
 def write_podcast_feed(target_dir, base_uri, output_file, title):
     base_uri = urllib.parse.quote(base_uri.rstrip('/') + '/', safe=URI_SAFE_CHARS)
     rss_uri = base_uri + os.path.basename(output_file)
